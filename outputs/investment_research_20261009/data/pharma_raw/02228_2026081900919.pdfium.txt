@@ -1,0 +1,2214 @@
+
+[PDF PAGE 1]
+– 1 –
+Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited 
+take no responsibility for the contents of this announcement, make no representation as to 
+its accuracy or completeness and expressly disclaim any liability whatsoever for any loss 
+howsoever arising from or in reliance upon the whole or any part of the contents of this 
+announcement.
+This announcement contains forward-looking statements that involve risks and uncertainties. 
+All statements other than statements of historical fact are forward-looking statements. 
+These statements involve known and unknown risks, uncertainties and other factors, some 
+of which are beyond the Company’s control, that may cause the actual results, performance 
+or achievements to be materially different from those expressed or implied by the forward￾looking statements. You should not rely upon forward-looking statements as predictions of 
+future events. The Company undertakes no obligation to update or revise any forward-looking 
+statements, whether as a result of new information, future events or otherwise.
+XtalPi Holdings Limited
+晶泰控股有限公司
+(Incorporated in the Cayman Islands with limited liability)
+(Stock Code: 2228)
+INTERIM RESULTS ANNOUNCEMENT 
+FOR THE SIX MONTHS ENDED 30 JUNE 2026
+The board (the “Board”) of directors (the “Directors”) of XtalPi Holdings Limited (the 
+“Company”) hereby announces the unaudited condensed consolidated results of the Company 
+and its subsidiaries (collectively, the “Group”, “we” or “our”) for the six months ended 
+30 June 2026 (the “Reporting Period”), together with the comparative figures for the 
+corresponding period of 2025. These unaudited condensed consolidated results of the Group 
+have been reviewed by the audit committee of the Company (the “Audit Committee”).
+FINANCIAL SUMMARY
+For the six months ended
+ 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Revenue 393,627 517,076
+Research and development expenses (367,838) (221,527)
+(Loss)/profit for the period (224,944) 75,609
+Adjusted net (loss)/profit (non-IFRS measure)* (105,511) 141,628
+* Adjusted net (loss)/profit is not defined under the IFRS Accounting Standards (the “IFRS”). It 
+represents the (loss)/profit for the period adjusted by adding back (i) share-based compensation 
+expenses, and (ii) interest expenses on convertible bonds.
+
+[PDF PAGE 2]
+– 2 –
+BUSINESS OVERVIEW AND PROSPECTS
+1. BUSINESS OVERVIEW
+Artificial intelligence (AI) first demonstrated its productivity-enhancing value in 
+digital applications such as content generation and software development. Now, its 
+application boundaries are rapidly extending from the digital world into scientific R&D 
+and the physical world. AI for Science (AI4S), or AI-enabled scientific innovation, 
+connects scientific discovery with technological innovation. Leaders of the global 
+technology industry and eminent academics at leading research institutions alike regard 
+AI4S as one of the most transformative frontiers in the next stage of AI development, 
+with the potential to reshape the scientific research paradigm, expand the frontiers of 
+human knowledge, and usher in a new wave of technological revolution and industrial 
+transformation. Industry research indicates that the AI4S market is on track to exceed 
+USD140 billion, with current penetration still very low. Over the longer term, the AI4S 
+end market has the potential to reach the trillion-USD level, as capabilities extend into 
+downstream value chains and a broader range of scientific research scenarios. The Group 
+believes that the essence of AI4S lies in building intelligent infrastructure that bridge 
+the digital and physical worlds, forming end-to-end capabilities spanning scientific 
+reasoning through experimental validation, and advancing AI from isolated tools that 
+assist scientific research toward autonomous scientific discovery. Under this model, AI 
+moves beyond executing individual tasks in response to instructions and is able, in actual 
+scientific research activities, to autonomously undertake a broader range of research 
+functions, including task orchestration, specialized decision-making, experimental 
+validation and iterative optimization.
+On this basis, the Group has taken the lead in defining five levels of autonomous 
+scientific discovery: L1 Tools (static tools), L2 Co-Pilots (assisting humans), L3 Agents 
+(independently completing parts of a workflow), L4 Domain-Specific Autonomous 
+(full-workflow autonomy within a specific domain) and L5 General Autonomous AI4S 
+(autonomous AI-enabled scientific innovation across a broad range of domains). This 
+framework reflects the Group’s fundamental view of autonomous scientific discovery: 
+its essence lies not in the simple aggregation of models, robots or computing resources, 
+but in AI’s ability to autonomously undertake real-world scientific research tasks, 
+independently make specialized decisions and continuously advance scientific discovery.
+AI4S: Connecting Digital & Physical Worlds to Enable Autonomous Scientific Discovery
+General
+Autonomous AI
+for Science
+Domain-Specific
+Agents Autonomous
+Co-Pilots
+Tools
+L1
+L2
+L3
+L4
+L5
+AI only performs computational
+predictions and cannot make
+autonomous decisions
+AI assists with design and
+analysis, while humans
+remain in control
+AI advances towards goals
+and can independently
+complete workflows
+Focused on specific domains,
+autonomously completing
+closed-loop optimization Cross-domain
+identification of
+scientific gaps,
+autonomous decision￾making and execution SureRXN
+Synthesizability Prediction and
+Condition Recommendation
+XFEP
+Free Energy Perturbation
+and Affinity Prediction
+XMolGen
+Molecular Generation Tools
+Agent Platform
+200+ Tools
+epiXora
+Target Research
+PatSight
+Literature Research
+MolAgent
+Structure-Activitry
+Relationship Analysis
+……
+……
+VAST
+Virtual Automated Synthesis for
+Rapid Custom Library Generation
+AiFChem
+Supplying Innovative
+Molecular Building Blocks
+D2B High Throughput
+Chemical Synthesis and
+Rapid Bioactivity Screening
+LC-MS
+Liquid Chromatography￾Mass Spectrometry
+……
+Agentic HTE
+Intelligent Autonomous High￾Throughput Experimentation
+Agentic Synthesis
+Intelligent Autonomous
+Molecular Synthesis
+……
+……
+XtalPi’s Current Capabilities
+
+[PDF PAGE 3]
+– 3 –
+Drawing on extensive experience and capabilities accumulated through real-world 
+projects, the Group has currently achieved end-to-end L4 autonomous discovery 
+capabilities across multiple R&D scenarios. Through the unified orchestration of 
+scientific models and automated experimental facilities by agents, the Group has 
+developed a closed-loop R&D process covering task planning, experimental validation 
+and feedback-driven iteration. In representative scenarios such as high-throughput 
+experimentation and compound library synthesis, the Agentic HTE (Autonomous 
+High-Throughput Experimentation) platform can independently match experimental 
+conditions, generate experimental plans, schedule automated experiments, analyse 
+results and plan subsequent experiments based on reaction objectives defined in natural 
+language, enabling closed-loop optimization of reaction conditions. The Agentic 
+Synthesis (Autonomous Molecular Synthesis) platform connects the entire process from 
+raw material verification and project creation to experimental condition generation and 
+automated execution, enabling the end-to-end autonomous advancement of compound 
+library synthesis tasks based on target molecule requirements.
+Extending autonomous scientific discovery from specific domains and individual 
+workflows to more complex scientific research tasks and broader application 
+scenarios continues to face three key constraints. First, the supply of high-quality 
+scientific data remains insufficient, while reusable evaluation standards and engineering 
+foundations require further development. Second, research plans generated by AI 
+have yet to be fully connected with real-world experimental execution. Third, AI’s 
+capabilities in continuous learning, recursive improvement, cross-domain transfer and 
+original discovery need to be further enhanced. To address these constraints and build 
+the end-to-end capabilities required for autonomous scientific discovery, the Group 
+continues to embed AI across its R&D operations and advance the development of an 
+AI-native organization, progressively integrating Scientific Agents into R&D, project 
+management and organizational collaboration workflows. Drawing on more than a 
+decade of AI4S R&D and industry experience, the Group has built integrated scientific 
+research infrastructure connecting the digital and physical worlds, which continues to be 
+validated, iterated and enhanced through real-world projects.
+1.1 Technology Engine: An AI-Driven Approach to R&D Bridging the Digital and 
+Physical Worlds
+To support the end-to-end execution of complex scientific research tasks, the 
+Group has progressively developed a four-layer core technology architecture 
+comprising Genius Agent, the intelligent hub; Scientific AI; Physical AI; and 
+the Data Moat, its high-quality data foundation, through its extensive experience 
+in internal R&D programs and external service projects. Rather than a simple 
+combination of individual technologies, this architecture represents industrial￾grade integrated scientific research infrastructure developed through continuous 
+deployment, validation and iteration in real-world industrial R&D workflows.
+
+[PDF PAGE 4]
+– 4 –
+• Genius Agent (Intelligent Hub): Orchestrating Complex Research Tasks
+Serving as the core orchestration hub and R&D capability matrix, Genius 
+Agent supports a multi-agent system that combines global planning with 
+scenario-specific execution and incorporates specialized skills and tools. 
+Across exploratory scenarios requiring continuous hypothesis testing, multi￾objective optimization and experimental iteration, as well as process-driven 
+scenarios with clearly defined responsibilities and relatively standardized 
+workflows, Genius Agent breaks down complex research objectives, centrally 
+orchestrates scientific models, specialized tools, R&D workflows and data 
+resources, coordinates task execution among specialized agents, and uses 
+project context to sustain long-cycle R&D programs.
+• Scientific AI: Providing Specialized Scientific Computing and Predictive 
+Capabilities
+Across drug discovery, chemistry and materials R&D, the Group continues 
+to build a comprehensive suite of AI capabilities covering diverse molecular 
+modalities and specialized tasks, including small molecules, large molecules, 
+peptides and oligonucleotide therapeutics. It has also launched a series of 
+industry-leading proprietary models and specialized platforms. SureRoute, 
+the Group’s self-evolving AI retrosynthesis system, provides one example. 
+In an evaluation involving 350 real-world industrial molecules, it reduced the 
+chemical hallucination rate, a key performance metric for retrosynthesis AI, 
+to 4.6%. This was approximately one-sixth of the rate recorded by leading 
+large models in the industry. Its top-1 route recommendation accuracy 
+reached 74.3%.
+• Physical AI: Intelligent Robotic Labs Enabling Physical Execution and 
+Validation
+The Group’s internally developed, world-leading intelligent robotic 
+laboratories constitute the core platform through which Physical AI is 
+embedded into R&D workflows. They translate experimental plans generated 
+by scientific models and agents into standardized, automated and traceable 
+workflows for robotic execution. Experimental results and process data 
+are systematically captured and fed back into the scientific models and 
+agents to support subsequent prediction, decision-making and experimental 
+iteration. Over the past several years, the Group has continuously iterated its 
+autonomous experimentation platform and deployed more than 300 automated 
+workstations worldwide across over 20 categories of R&D applications. 
+These capabilities support the Group’s internal drug and advanced materials 
+R&D, while also enabling it to provide automated platform deployment and 
+related technical services to external customers. The Group has collaborated 
+with several major pharmaceutical companies in the United States and South 
+Korea on drug R&D and chemical reaction condition optimisation, and has 
+further extended these capabilities into fields including new energy.
+
+[PDF PAGE 5]
+– 5 –
+• Data Moat (High-Quality Data Foundation): Supporting Model Validation 
+and Continuous Optimization
+The Group continues to build a high-quality data foundation integrating 
+publicly available scientific data, proprietary R&D data and real-world 
+experimental data generated by Physical AI. By structuring and governing 
+scientific literature, patents, experimental records and other sources, the 
+Group has developed traceable data assets encompassing experimental results, 
+process parameters and failed experiments. It has established proprietary 
+datasets across different drug modalities, with certain key data types offering 
+a scale advantage of several to tens of times compared with publicly available 
+datasets. The continuous operation of Physical AI further enables this data 
+foundation to expand dynamically through real-world projects. The system 
+has supported more than 100 drug and advanced materials discovery projects, 
+consistently generating over 50,000 reaction yield data points and 300,000 
+process data points each month. It has accumulated more than 500,000 real￾world experimental records, approximately 80% of which are negative 
+results from failed experiments that are relatively scarce in published 
+literature. These data are continuously used for domain-specific model 
+training, performance validation and R&D plan optimization, helping to 
+identify unproductive pathways, calibrate prediction boundaries and improve 
+reliability in complex R&D tasks.
+Technology Engine: A Four-Layer Core Architecture
+Scientific AI
+Scientific Domain Models Trained on High-quality 
+Proprietary Data
+Domain Expert Models that Continuously Validate & 
+Self-Improve
+S
+S
+P
+D
+S
+Physical AI Autonomous Lab Robots Provide Closed-loop Infrastructure for 
+Intelligent Exploration of the Physical World
+Agentic System 
+Multi-Agent 
+Framework
+Purpose-built Multi-agent System 
+Autonomously Interprets Research Goals, 
+Dispatches Resources and 
+Runs Experiments
+Predicts & Guides 
+Experiments
+Orchest rates Orchest rates
+Skills Tools Ecosystem Partner 
+Agents
+Data Moat
+High-Quality Data Infrastructure
+High-Quality Industry Data From Autonomous Experiments, Literature & Computation 
+Enables Model Validation And Continuous Improvement
+High-Quality Data Fed 
+Back into Models
+High￾Back into Models
+
+[PDF PAGE 6]
+– 6 –
+1.2 Business Model: Deep Synergies Across the Business Portfolio
+Leveraging its R&D system integrating the digital and physical worlds, the Group 
+has developed a dual-engine business structure centered on Drug Discovery 
+Solutions and AI4S Intelligent Solutions, combining recurring cash flow with the 
+potential for asset value realization.
+• Drug Discovery Solutions are built around the Group’s AI-driven drug 
+discovery capabilities, encompassing platform-based collaboration services 
+and the out-licensing of internally developed assets. Through platform￾based collaboration services, the Group leverages its AI drug discovery 
+capabilities to provide R&D services to customers, generating stable cash 
+flow. Its proprietary pipeline assets may generate upfront licensing payments, 
+milestone payments and potential sales royalties through out-licensing, co￾development and other arrangements, progressively realising asset value and 
+expanding the Group’s long-term growth potential.
+• AI4S Intelligent Solutions provide customers with AI4S infrastructure 
+comprising AI4S Intelligent Robotic Labs (Physical AI) and AI4S Intelligent 
+Services. AI4S Intelligent Robotic Labs (Physical AI) provides intelligent 
+experimental infrastructure for scientific research applications, supporting 
+standardised, high-throughput experimental execution and the systematic 
+generation of high-quality, traceable experimental data. They underpin the 
+rapid operation of an integrated dry- and wet-lab R&D closed loop capable 
+of autonomous iteration. AI4S Intelligent Services leverages innovative 
+molecular building blocks, the VAST Virtual Compound Library and a high￾throughput autonomous synthesis platform to help customers to explore 
+broader chemical space and rapidly validate molecular designs through 
+compound synthesis.
+The two businesses operate in deep synergy and together form a recursively 
+improving closed loop. As a core application scenario, Drug Discovery Solutions 
+continuously generates high-quality data, requirements for experimental validation 
+and momentum for technological iteration. These in turn drive capability upgrades 
+and expansion into new applications for AI4S Intelligent Solutions. The general￾purpose technology foundation and standardized experimental capabilities 
+developed through AI4S Intelligent Solutions provide Drug Discovery Solutions 
+with more efficient and reusable R&D infrastructure, supporting the creation of 
+high-value drug assets. Through continuous interaction in real-world R&D 
+settings, the two businesses form a self-evolving closed loop comprising 
+application-driven development, experimental validation, data feedback and 
+continuous capability enhancement. This drives ongoing self-optimization across 
+scientific prediction, experimental execution and intelligent orchestration, further 
+strengthening the Group’s platform-based competitive advantages.
+
+[PDF PAGE 7]
+– 7 –
+At the same time, the platform’s foundational capabilities have been successfully 
+extended to sectors beyond pharmaceuticals, including advanced materials and 
+consumer health, further demonstrating the commercial potential of deploying 
+the same technology foundation across industries and creating broader growth 
+opportunities for the Group.
+Two Businesses, One Self-Improving Closed Loop
+Molecular 
+Design & 
+Screening
+Molecular
+Design &
+Screening
+Experimentation & 
+Biosimulation
+AI4S 
+Intelligent 
+Robotic 
+Laboratories
+AI4S
+Intelligent 
+Robotic 
+Laboratories
+AI4S 
+Intelligent 
+Services
+Experimentation &
+Biosimulation
+Industry 
+Insights
+AI4S
+Intelligent 
+Services
+Genius Agent
+High-value 
+Molecular 
+Assets
+Intelligent R&D 
+Infrastructure
+g
+Use-Case 
+Driven
+Validation via 
+Experiments
+I
+Data 
+Feedback
+G
+Recursive 
+Improvement
+Drug Discovery 
+Solutions
+AI4S Intelligent 
+Solutions
+1.3 Recent Business Highlights: Continued Validation of the Technology 
+Foundation and Faster Delivery of Business Milestones
+As the technology platform continues to be deployed and commercially validated 
+in drug discovery and AI4S, the Group has become significantly more efficient at 
+discovering and advancing drug pipelines, with a number of important business 
+breakthroughs.
+Leading AI4S infrastructure: The industry’s only full-stack AI4S infrastructure 
+system connecting robotic laboratories, Scientific Agents and autonomous 
+synthesis, and the first to achieve scaled commercial deployment. During the 
+Reporting Period, revenue from AI4S Intelligent Solutions increased by 136.4% 
+year on year.
+AI drug R&D platform with the broadest modality coverage: The Group has 
+built four core technology platforms covering small molecules, large molecules, 
+peptides and oligonucleotides. In each segment, it has accumulated high-quality, 
+standardized proprietary data and trained industry-leading generative and predictive 
+models on that data.
+
+[PDF PAGE 8]
+– 8 –
+Efficiently building a differentiated and extensive pipeline: The Group has 
+established a highly differentiated portfolio of partnered and proprietary pipelines. 
+Three pipelines have entered clinical trials, more than 10 are IND-approved or 
+IND-enabling, and nearly 10 have reached the PCC stage. By 2027, more than 
+10 pipelines are expected to be in the clinical stage, more than 10 at the IND￾approved or IND-enabling stage, and approximately 20 at the PCC stage;
+“Real-world” AI breaking through conventional drug R&D bottlenecks: the 
+Group continues to validate its ability to solve complex R&D problems across 
+multiple drug modalities, including antibody programs that have achieved 
+mechanism innovation, therapeutic-window optimization and breakthroughs 
+in safety and developability; certain molecular glue pipelines achieving picomolar 
+target protein degradation activity within one quarter; an oral cyclic peptide 
+program identifying hit compounds within two months of target confirmation; and 
+an IgA nephropathy oligonucleotide program obtaining strong non-human primate 
+efficacy data approximately seven months after initiation;
+Strong recognition from leading customers and all-round collaboration: The 
+Group continues to deepen all-round collaboration with leading global customers, 
+covering platform services, model licensing, pipeline transactions and AI4S 
+infrastructure deployment. Overseas deliveries and repeat orders from leading 
+customers fully validate the sophistication of the Group’s business model.
+Launch of a self-evolving AI retrosynthesis chemistry system: The “chemical 
+hallucination” rate was reduced to 4.6%, only one-sixth that of leading large 
+models in the industry; top-1 recommended route accuracy reached 74.3%, 2.2 
+to 3.5 times that of existing specialized and general-purpose models, significantly 
+improving the reliability of AI-assisted synthetic route design and R&D translation 
+efficiency.
+The world’s first comprehensive open scientific research platform to realize 
+a Physical AI closed loop: The Group officially launched the XtalPi Science 
+Scientific AI platform and the Genius Agent suite of Scientific Agents,
+advancing the standardization and platform-based upgrade of internal scientific 
+research capabilities and building underlying AI4S infrastructure that industry 
+partners and research institutions worldwide can access on demand.
+Deploying leading biological simulation technologies: Through investment, 
+incubation and other approaches, the Group has deployed biological models and 
+validation capabilities, including virtual cells, human organ-on-a-chip systems 
+and organoids, extending R&D capabilities from molecular design to mechanistic 
+research, translational prediction and efficacy validation at the cellular and tissue 
+levels, and further improving the translational success rate of preclinical R&D.
+
+[PDF PAGE 9]
+– 9 –
+1.4 Outlook: A Comprehensive Industry Footprint Positioned to Capture AI￾Driven Industry Growth
+The AI4S industry, particularly the AIDD field, is in a stage of rapid expansion. 
+With end-to-end capabilities spanning R&D infrastructure through proprietary 
+assets, the Group is well positioned to benefit from the following business drivers:
+• Short term: The rapid expansion of AI-driven drug discovery is driving 
+significant growth in demand for novel molecule synthesis and R&D data. 
+Leveraging its AI-native experimentation system and leading intelligent 
+laboratories, the Group is poised to capture incremental orders from leading 
+pharmaceutical companies, supporting sustainable, rapid business growth.
+• Medium term: Pharmaceutical companies in China and overseas continue 
+to show strong demand to replenish their pipelines with innovative assets, 
+with a corresponding increase in demand for advanced R&D services and 
+high-quality assets. The Group generates stable revenue from platform￾based technology services while realizing value from high-quality internally 
+developed pipeline assets through pipeline transactions, creating dual growth 
+drivers of platform services and asset monetization.
+• Medium to long term: Leveraging the efficiency of its AI-driven R&D 
+capabilities, the Group continues to incubate high-quality proprietary 
+pipelines. As these pipelines advance into regulatory filings and into clinical 
+development, the Group is on course to establish a dual-engine growth 
+model combining R&D services with proprietary drug development, moving 
+beyond the growth limitations of traditional business models and supporting a 
+substantial uplift in financial performance.
+• Long term: AI4S is driving a shift in pharmaceutical R&D from empirical 
+trial and error toward a data- and intelligence-driven approach. The 
+Group’s end-to-end intelligent R&D system can significantly improve 
+R&D efficiency, reduce costs and increase success rate, while continuously 
+accumulating proprietary data and algorithmic advantages. This will enable 
+the Group to build highly differentiated core capabilities and capture the 
+long-term development benefits arising from the industry’s transformation.
+
+[PDF PAGE 10]
+– 10 –
+2. FINANCIAL PERFORMANCE
+For the first half of 2026, the Group recorded revenue of RMB393.6 million, compared 
+with RMB517.1 million in the corresponding period of last year. The change was 
+primarily attributable to the high base in the corresponding period of last year, which 
+reflected the recognition of an upfront payment of USD51.0 million from a major 
+pipeline licensing project in the corresponding period last year. The collaboration 
+progressed well during the Reporting Period, with the Group receiving a second payment 
+of USD19.0 million. Excluding the impact of such pipeline licensing project, revenue 
+increased by 73.8% year on year. In particular, revenue from AI4S Intelligent Solutions 
+increased by 136.4% year on year, while both Intelligent Robotic Labs and Intelligent 
+Services maintained rapid growth.
+In the first half of 2026, the Group recorded a net loss of RMB224.9 million and an 
+adjusted net loss of RMB105.5 million, primarily attributable to the year-on-year 
+decrease in revenue and a 66.0% year-on-year increase in R&D expenses. The increase 
+in R&D expenses was mainly driven by the Group’s continued increase in investment 
+in autonomous laboratories, agentic systems, pipeline programs under development and 
+multimodal technology platforms.
+As of 30 June, 2026, the Group’s total cash balance1
+ amounted to RMB8,671.2 million. 
+Its strong cash position provides robust support for continued R&D investment, further 
+strengthening XtalPi’s leading position in AI4S.
+3. BUSINESS DEVELOPMENT
+3.1 Drug Discovery Solutions: Platform Technologies Accelerating Pipeline Assets 
+and Commercialization
+During the Reporting Period, revenue from the Drug Discovery Solutions business 
+amounted to approximately RMB200.1 million, compared with RMB435.2 million 
+in the corresponding period of last year. The change was primarily attributable to 
+the high base in the corresponding period of last year, when an upfront payment 
+of USD51.0 million from a major pipeline licensing project was recognized in 
+the corresponding period last year. The collaboration progressed well during the 
+Reporting Period, with the Group receiving a second payment of USD19.0 million. 
+Meanwhile, the Group is actively advancing its strategic progression from services 
+to assets. By building technology platforms across multiple drug modalities and 
+deploying proprietary innovative drug pipelines with high clinical value and 
+commercialization potential, the Group is laying the foundation for long-term 
+value realization. The short-term revenue fluctuation reflects only a temporary base 
+effect and does not alter the continued execution of the Group’s core businesses or 
+affect the advancement of its medium- to long-term development strategy.
+1
+ Cash balance comprises cash and cash equivalents, bank deposits, the current portion of financial assets at 
+fair value through profit or loss, and restricted cash as of 30 June, 2026.
+
+[PDF PAGE 11]
+– 11 –
+3.1.1 Drug R&D Platform and Pipeline Progress: Breakthroughs Across Multiple 
+Therapeutic Modalities, Accelerating Clinical Translation
+The Group continues to build AI-native platform capabilities for multimodal 
+drug R&D and has established a systematic technology portfolio covering key 
+drug modalities, including small molecules, large molecules, oligonucleotides 
+and peptides. Centered on high-quality data assets, advanced AI models and 
+intelligent robotic laboratories, each platform connects key stages spanning 
+target understanding, molecular design, function prediction, candidate 
+optimization and experimental validation. This is driving a shift in the R&D 
+model from experience-driven, sequential trial and error toward data- and 
+model-driven development with integrated dry- and wet-lab closed-loop 
+iteration. By accumulating foundational algorithms, experimental capabilities 
+and project experience across different drug modalities, the Group continues 
+to improve the efficiency of candidate discovery, its developability 
+optimization capabilities and the certainty of pipeline translation, laying a 
+solid foundation for a diversified portfolio of innovative drug assets and the 
+expansion of external collaborations.
+In real-world projects, AI has been deeply integrated into multiple highly 
+complex R&D scenarios, including the discovery of molecular glue 
+candidates with high degradation activity, the remediation of protein 
+aggregation issues and immunogenicity optimization for large molecules, as 
+well as sequence generation and personalized modification recommendations 
+for oligonucleotide therapeutics. These applications continue to create 
+incremental value that is difficult to achieve using conventional methods, 
+demonstrating the Group’s “real-world” AI application capabilities across the 
+full drug development workflow.
+Among the Group’s proprietary and partnered pipelines, three have entered 
+the clinical stage, more than 10 pipelines are IND-approved or IND￾enabling, and nearly 10 pipelines have reached the PCC stage, spanning 
+multiple therapeutic modalities, including small molecules, molecular glues, 
+antibodies, cell therapies, peptides and oligonucleotides. By 2027, more 
+than 10 pipelines are expected to be in the clinical stage, more than 10 
+pipelines are expected to be at the IND-approved or IND-enabling stage, and 
+approximately 20 are expected to reach the PCC stage. The Group’s pipelines 
+cover oncology, autoimmune diseases, metabolic diseases, chronic diseases, 
+neurological disorders and consumer health, representing a potential market 
+opportunity in the hundreds of billions of US dollars and offering substantial 
+commercialization potential.
+
+[PDF PAGE 12]
+– 12 –
+Selected Pipeline Programs at the PCC Stage or Beyond
+Commercialization Rights /
+partner Remarks
+Bispecific Ab ALX001 TL1A/IL-23p19 Autoimmune disease Self￾developed Ph. I in 2027 Potential BIC
+Trispecific Ab ALX002 CD19/BCMA/
+CD3 Autoimmune disease
+Autoimmune disease
+Ph. I in 2027 Potential BIC
+Bispecific Ab ALX005 FcRn/HSA Ph. I in 2027 Potential BIC
+Small molecule XTN004 TRK/RET Intestinal pain Self￾developed
+China/US 
+IND filings in 
+2H26
+—
+Small molecule SIGX1094 FAK/SRC Diffuse gastric 
+cancer (DGC) Signet Ph. II in 2027
+Potential FIC, 
+Prix Galien 
+nominee, ODD, 
+Fast Track
+Small molecule RTX-117 eIF2B
+Charcot–Marie–Tooth 
+disease (CMT); 
+vanishing white matter 
+disease (VWM)
+ReviR Ph. II in 2027 Potential FIC, 
+ODD
+Small molecule PEP08 PRMT5 Solid tumour PharmaEngine Potential BIC
+Small molecule SIGX2649 TEAD
+Solid tumours
+(mesothelioma, liver 
+cancer, lung cancer, 
+etc.)
+Signet Ph. I in 2H26
+Potential 
+FIC/BIC, key 
+data presented 
+at 2026 AACR
+Small molecule MP-5342 LDH Inflammatory bowel 
+disease (IBD) META Ph. I in 2H26 Potential FIC
+Small molecule - - Oncology DoveTree IND filing in 
+2027 —
+Cell META10-19 CD19ͫIL-10
+Relapsed/refractory 
+CD19+ B-cell 
+hematologic 
+malignancy
+Leman Ph. I in 2H26 Potential BIC
+Cell META10-19 CD19ͫIL-10 Refractory B-cell 
+autoimmune disease Leman Ph. I in 2H26 Potential BIC
+Cell IL-10 GPC3 
+CAR-T GPC3ͫIL-10 GPC3+ liver cancer Leman
+First solid￾tumour clinical 
+data readout in 
+2H26
+Potential BIC
+Cell
+IL-10 
+EGFRvIII 
+CAR-T
+EGFRvIII, IL-10 EGFRvIII+ glioma Leman
+First solid￾tumour clinical 
+data readout in 
+2H26
+Potential BIC
+Cell
+IL-10 
+Claudin18.2 
+CAR-T
+Claudin18.2, IL-10 Claudin18.2+ gastric 
+cancer Leman IIT Beginning 
+in 2H26 Potential BIC
+Peptide Px-002C Single target Glucose-lowering FDA Self-GRAS認證 Self-developed Consumer 
+product
+Peptide Px-003C Single target Lipid-lowering Self-developed Consumer 
+product
+Peptide Px-001C Single target Cosmetics Self-developed
+Self-developed Potential BIC
+New cosmetic 
+ingredient filing 
+in 2H27 Consumer
+Oligonucleotide XS01 Single target IgA nephropathy / PNH
+Modality Pipeline Target/MoA Indication PCC IND Ph.I Ph.
+II/III
+Next
+milestones
+Note: This table only lists selected pipelines at PCC stage or beyond; over 20 additional pipelines are still in progress.
+Self￾developed
+Self￾developed
+
+[PDF PAGE 13]
+– 13 –
+Small Molecules
+• The Group’s small-molecule R&D platform continues to evolve 
+across key areas including AI-powered computational prediction, 
+physics-constrained modeling, synthetic route planning and closed￾loop experimental validation, forming integrated capabilities 
+spanning molecular design, activity prediction, synthesis planning 
+and experimental validation. Distinct from conventional physics￾based computational methods, the platform’s proprietary AI affinity 
+prediction model can rapidly rank and prioritize protein–ligand binding 
+affinity and structure–activity relationships within chemical series. Its 
+predictive performance has approached the accuracy of gold-standard 
+free energy perturbation (FEP) calculations, while offering higher 
+computational efficiency, providing efficient decision support for the 
+early-stage screening and optimization of small-molecule programs. 
+In frontier small-molecule fields such as molecular glues, the Group 
+has further developed XGlue™, a specialized discovery platform 
+targeting high-value, difficult-to-drug targets. By deeply integrating 
+AI-powered computational prediction with automated experimental 
+validation, XGlue™ creates a rapid iterative closed loop spanning 
+library construction, screening, synthesis, testing and optimization. 
+The platform has established a virtual molecular glue compound 
+library comprising millions of molecules and a physical scaffold 
+library comprising tens of thousands of compounds. Its experimental 
+capabilities connect automated synthesis with multidimensional testing 
+systems, enabling the synthesis and validation of hundreds to more than 
+1,000 compounds per week. Experimental results are rapidly fed back 
+into AI models to guide the next round of molecular optimization. These 
+capabilities provide a new drug discovery path for complex targets that 
+are difficult to address using conventional small-molecule approaches.
+• The Group has established multiple molecular glue pipelines 
+in autoimmune diseases and achieved significant breakthroughs. 
+Hit compounds have been identified against multiple targets, 
+including targets for which no molecular glues have been publicly 
+reported. Through the integration of intelligent design and automated 
+experimentation, certain pipelines have achieved picomolar target 
+protein degradation activity within approximately one quarter. The 
+Group plans to advance the relevant programs into the preclinical 
+stage in 2027, while continuing to expand its autoimmune disease 
+pipeline portfolio. If the developability and differentiated advantages 
+of these pipelines are subsequently validated, the relevant assets may 
+realize value through co-development or out-licensing.
+
+[PDF PAGE 14]
+– 14 –
+• The Group has made significant progress with a proprietary small￾molecule candidate targeting both TRK and RET. At the protein level, 
+the candidate demonstrated low-nanomolar inhibitory activity against 
+both targets, together with high selectivity and a gut-restricted profile, 
+resulting in an excellent safety window. Intended for gut pain-related 
+indications such as irritable bowel syndrome (IBS) and inflammatory 
+bowel disease (IBD), it is the world’s first candidate targeting this dual￾target combination to be filed for clinical development (First-in-Class). 
+The pipeline has completed the submission of materials for a pre-IND 
+meeting in the United States, and the Group expects to submit IND 
+applications in both China and the United States in the second half of 
+2026.
+• Multiple partnered pipelines of the Group continue to advance 
+toward clinical development:
+° In addition, the Phase II/III clinical trial application for SIGX1094 
+in combination with Innovent Biologics’ approved KRAS-G12C 
+inhibitor, fulzerasib tablets, intended for KRAS-G12C-mutated 
+non-small cell lung cancer, has been accepted by the Center for 
+Drug Evaluation (CDE). The Group’s second pipeline program 
+in collaboration with Signet Therapeutics, SIGX2649, a pan￾TEAD inhibitor, has received IND approval in the United States 
+and submitted an IND application to China’s National Medical 
+Products Administration (NMPA). The Group plans to initiate a 
+Phase I clinical trial as early as the second half of 2026.
+° RTX-117, an eIF2B small-molecule activator developed by ReviR 
+Therapeutics with the support of the Group, has received clinical 
+trial approvals in both China and the United States for Charcot￾Marie-Tooth disease (CMT), as well as clinical trial approval 
+in China for vanishing white matter disease (VWM). A Phase 
+I clinical trial in healthy adults is currently underway, with the 
+Phase II clinical trial expected to commence in the first half of 
+2027.
+
+[PDF PAGE 15]
+– 15 –
+° The world’s first oral small-molecule inhibitor targeting 
+lactate dehydrogenase (LDH), jointly developed with META 
+Pharmaceuticals, has entered the IND application stage, with 
+inflammatory bowel disease (IBD) as its lead indication.
+° PEP08, a next-generation PRMT5 inhibitor developed in 
+collaboration with PharmaEngine, has commenced patient 
+enrollment for solid tumor indications. The parties have also 
+initiated a second AI-driven drug discovery program targeting a 
+novel synthetic lethality target.
+° A high-value pan-cancer asset developed in collaboration with 
+DoveTree has entered the IND stage. Preliminary validation of 
+its biological activity demonstrated a clear target intervention 
+effect and an excellent selectivity window. The parties will further 
+deepen their collaboration on the agreed difficult-to-drug targets, 
+advance R&D efforts including those involving molecular glues, 
+and accelerate the clinical translation of drug candidates.
+Large Molecules
+° The Group’s large-molecule platform, Ailux, is a world-leading AI￾native antibody drug development platform and has established 
+collaborations with multinational corporations (MNCs) across the 
+model, platform and asset levels. Ailux’s core strengths derive from the 
+deep integration across models, data and wet-lab experimentation.
+• Models: Ailux is powered by three core engines, the XtalFold®
+structural modeling platform, XenProT® generative AI platform 
+and Xentient® discriminative AI platform, covering the entire 
+large-molecule R&D workflow, from structure prediction and 
+molecular generation to functional assessment and candidate 
+optimization. The platform has achieved significant results across 
+a broad range of applications, including antigen design, epitope 
+identification, affinity maturation, pH-sensitive engineering and 
+bispecific antibody design, and has been validated by more than 
+100 internal and external projects.
+• Data: AtlaX™, the platform’s proprietary data foundation, 
+continuously builds a “living” database tailored to real-world drug 
+R&D needs through proprietary wet-lab experimental systems, 
+high-throughput data generation and the LuxSight™ patent-mining 
+agent. Compared with public datasets, AtlaX™ offers scaling 
+advantages ranging from several-fold to tens-of-times across 
+key data types, including antibody affinity data, antigen-antibody 
+complex structures, antigen-antibody pairing data and native 
+heavy and light-chain sequences.
+
+[PDF PAGE 16]
+– 16 –
+• Wet-Lab Experimentation: Through proprietary experimental 
+workflows, the platform generates functional labels covering 
+polyreactivity, stability, immunogenicity and other attributes that 
+are difficult to capture in public datasets, creating a differentiated 
+data moat for complex antibody drug development applications.
+° The Group continues to strengthen the core talent team of its large￾molecule platform and has appointed Dr. Maria G. Belvisi as its Chief 
+Scientific Officer (CSO). Dr. Belvisi is a distinguished academic and 
+industry leader in respiratory and immunology, with experience both as 
+a senior executive at a multinational pharmaceutical company and an 
+internationally recognized academic expert. She brings more than 30 
+years of experience in drug R&D and academic leadership, including 
+approximately a decade at AstraZeneca, where she served as Senior Vice 
+President of Respiratory and Immunology within BioPharmaceuticals 
+R&D.
+° In terms of pipeline progress, the Group continues to steadily advance 
+its proprietary large-molecule assets. Three core programs targeting 
+autoimmune diseases are expected to enter Phase I clinical trials in 
+2027, including:
+• ALX001: A bispecific antibody targeting TL1A and IL-23p19, 
+intended for inflammatory bowel disease indications. Through AI￾driven antigen design and the identification of ultra-rare positive 
+candidates, the program successfully identified a novel anti￾TL1A mechanism with ultra-low anti-drug antibody (ADA) risk 
+and superior activity, demonstrating the molecule’s best-in-class 
+potential.
+• ALX002: A T-cell engager targeting CD19 and BCMA, 
+intended for B-cell-mediated autoimmune diseases such as 
+systemic lupus erythematosus and rheumatoid arthritis. Its AI￾driven engineering design provides the potential for a best-in-class 
+therapeutic window by enabling potent B-cell depletion while 
+reducing the risk of cytokine release syndrome (CRS), together 
+with superior manufacturability. ALX002 has the potential to 
+become a best-in-class molecule.
+• ALX005: A long-acting FcRn-blocking antibody, intended 
+for autoimmune diseases driven by pathogenic IgG antibodies, 
+including myasthenia gravis and immune thrombocytopenia. 
+Combining AI-guided epitope-focused discovery technology 
+with XtalFold®-powered candidate screening, the program has 
+generated a unique bispecific drug candidate with a very low 
+safety risk. In addition, in silico viscosity prediction supports 
+convenient subcutaneous administration, giving ALX005 the 
+potential to become a best-in-class molecule.
+
+[PDF PAGE 17]
+– 17 –
+Peptides
+• The Group’s AI peptide drug development platform, PepiX™, 
+integrates three core capabilities: precise AI-driven design, 
+automated synthesis, and high-throughput wet-lab screening, 
+creating an efficient closed loop system between dry and wet-lab 
+experimentation. The platform has established a proprietary database 
+comprising more than 5,000 non-canonical amino acids (NCAAs), 
+enabling the systematic optimization of key development challenges 
+faced by conventional peptide drugs, including stability, membrane 
+permeability and oral bioavailability. For complex peptide molecules 
+such as cyclic peptides and macrocycles, the platform has developed 
+next-generation AI-based capabilities for molecular generation and 
+3D conformational prediction. Its core model, HELM-DIFF, can 
+directly interpret the structural features of complex peptide molecules 
+and generate, screen and optimize de novo candidates with high 
+membrane permeability, favorable drug-like properties and strong target 
+specificity. HELM-DIFF has achieved industry-leading performance in 
+cyclic peptide membrane permeability assessment and generation tasks, 
+significantly outperforming open-source algorithms.
+• Leveraging the PepiX™ platform, the Group has successfully developed 
+Tensotide™, an innovative oral peptide-based food ingredient 
+for blood glucose management, which has achieved self-affirmed 
+Generally Recognized as Safe (GRAS) status in the United States. 
+This status recognizes Tensotide™ as a food-grade ingredient that is 
+generally considered safe and may be legally used in food and dietary 
+supplement products in the United States.
+• In terms of pipeline development, the PepiX™ platform is focusing 
+on multiple high-potential peptide therapeutics, including brain 
+and ocular delivery programs, and oral peptides. The brain delivery 
+program uses cyclic peptides as targeting moieties to deliver biological 
+macromolecules across the blood-brain barrier. It has entered the in 
+vivo animal testing and optimization stage and is expected to reach 
+the preclinical candidate (PCC) stage in the first half of 2027. The oral 
+cyclic peptide program for autoimmune indications was initiated in the 
+first half of 2026 and identified hit compounds within two months of 
+target selection. The program has entered the hit-to-lead stage and is 
+expected to reach the PCC stage by mid-2027.
+
+[PDF PAGE 18]
+– 18 –
+Small Nucleic Acid Therapeutics
+• The Group’s proprietary siRNA drug development platform, 
+Kodexia™, deeply integrates first-principles-driven biological 
+mechanism modeling with generative AI. Supported by a high￾throughput automated experimental system, the platform has established 
+AI-native capabilities for small nucleic acid therapeutics design and 
+closed-loop iteration between dry and wet-lab experimentation. At 
+the data level, Kodexia™ has accumulated tens of thousands of high￾quality wet-lab data points, comprising multilevel, multimodal data 
+across multiple cell lines and targets, spanning in vitro through in 
+vivo studies. It has also established a diverse database of siRNA 
+chemical modifications. At the model level, the Group has developed 
+its proprietary siFormer architecture, enabling the joint design 
+of sequences and chemical modifications. This overcomes the 
+limitations of “fixed modification templates and limited screening” and 
+significantly improves generalization to previously unseen targets. The 
+platform also supports the optimization of single-molecule, dual-target 
+siRNAs and is compatible with multiple delivery approaches, including 
+small molecules, lipid nanoparticles (LNPs), antibodies and peptides, 
+supporting the exploration of both hepatic and extrahepatic targeting.
+• Compared with conventional approaches that rely on empirical templates 
+and sequential trial and error, Kodexia™ uses AI-driven multi-objective 
+prediction to transform key wet-lab experiments into highly parallel 
+validation, significantly improving experimental throughput and 
+decision-making efficiency. Based on publicly available comparable 
+benchmarks, the platform improves R&D efficiency by more than 
+twofold compared with conventional methods and increases the 
+accuracy of molecular property prediction by approximately 266%. 
+It has also established predictive capabilities for in vivo efficacy. Across 
+multiple pipelines, more than 50% of the molecules generated in the 
+first round of design demonstrated greater activity than positive 
+controls in in vivo experiments, validating the platform’s ability to 
+accelerate the entire workflow from target to candidate molecule.
+• In terms of pipeline development, Kodexia™ has enabled the Group 
+to establish a differentiated siRNA pipeline portfolio spanning IgA 
+nephropathy, metabolic diseases and central nervous system (CNS) 
+disorders. Six pipelines have been established, more than half of 
+which have completed in vivo efficacy evaluation, with the most 
+advanced program reaching the preclinical candidate (PCC) stage. 
+The lead IgA nephropathy program generated non-human primate 
+efficacy data within approximately seven months, demonstrating 
+superior activity and durability compared with a clinical-stage 
+reference molecule targeting the same target. In the metabolic disease 
+field, the Group is advancing both single-target and dual-target siRNA 
+programs for weight management, aiming to achieve differentiated 
+advantages including extended dosing intervals, healthy weight loss and 
+broader metabolic benefits. These programs also lay the foundation for 
+future commercialization through joint R&D, asset co-development, 
+out-licensing and other models.
+
+[PDF PAGE 19]
+– 19 –
+Biological Simulation Platforms
+Through investments, incubation and other approaches, the Group is 
+expanding into next-generation human-relevant experimental models, 
+including virtual cells, human organ-on-a-chip models and organoids. 
+These capabilities further strengthen the critical link between computational 
+prediction and biological validation in AI-driven drug discovery (AIDD), 
+completing the end-to-end life sciences R&D workflow. Compared with 
+conventional cell-based experiments and animal studies, organoids and 
+cell-on-a-chip models can more closely replicate human tissue structures, 
+microenvironments and drug responses in vitro. This enables earlier 
+assessment of the efficacy, safety, tissue selectivity and potential toxicity of 
+candidate molecules, improving the ability of preclinical research to predict 
+human responses. As regulatory systems worldwide increasingly encourage 
+the use of more human-relevant, non-animal alternative methods, these 
+technologies are becoming an important means of reducing costs, improving 
+efficiency and lowering the risk of translational failure in drug R&D. By 
+integrating AI-driven design, automated experimentation and organoid and 
+cell-on-a-chip validation capabilities, the Group continues to expand the 
+scope of its AIDD capabilities across target discovery, molecular design, 
+synthesis and validation, efficacy evaluation and safety assessment, providing 
+more comprehensive technical support for the advancement of its proprietary 
+pipelines and external collaboration projects.
+• Virtual Cells: OCOO-T, an AI virtual cell (AIVC) model developed 
+by INFevo, a company incubated by XtalPi, achieved state-of-the-art 
+(SOTA) performance across three perturbation benchmarks covering 
+chemical compounds, genes and cytokines. INFevo has also launched 
+The Popper Project (TPP), the world’s first interactive, traceable and 
+autonomously iterative scientific discovery engine, and will soon open 
+applications for the engines closed beta testing. In the first half of 2026, 
+INFevo completed an angel financing round, raising tens of millions 
+of RMB, with participation from Shunwei Capital, Sequoia China and 
+Green Pine Capital Partners.
+• Organ-on-a-Chip: Xellar Biosystems, a company incubated by XtalPi, 
+continues to accumulate human-derived 3D wet-lab data through its 
+proprietary automated organ-on-a-chip production line. In parallel, it is 
+developing a biology-focused AI foundation model and constructing a 
+human biology atlas, creating an integrated technology and data moat 
+spanning engineering, biology and AI. Xellar Biosystems has achieved 
+significant progress in commercialization and industry collaborations. 
+It successfully completed delivery of Sanofi’s iDEA-TECH project and 
+collected the final payment in full, while its joint development of an AI￾powered toxicity prediction system with Pfizer achieved a key delivery 
+milestone. In regulatory compliance, Xellar Biosystems was among 
+the first group of companies to participate extensively in the Center 
+for Drug Evaluation’s multicenter collaborative validation of New 
+
+[PDF PAGE 20]
+– 20 –
+Approach Methodologies (NAMs) and was selected for the “Pioneer 
+Program.” It is also advancing model qualification under the U.S. 
+Food and Drug Administration’s Innovative Science and Technology 
+Approaches for New Drugs (ISTAND) Pilot Program. In the first half 
+of 2026, Xellar Biosystems completed a RMB400 million Series A 
+financing round, with its Series B financing also progressing as planned.
+• Organoids: The organoid and AI platform jointly developed by 
+XtalPi and Signet Therapeutics has established a standardized system 
+comprising more than 15 genetically engineered tumor organoid models, 
+including models for diffuse gastric cancer, liver cancer and lung 
+cancer, for use in drug development. Beyond oncology pipelines, the 
+platform has combined AI with normal organoids of the heart, kidney 
+and liver to establish highly accurate drug toxicity prediction and 
+evaluation models. Its cardiac organoid-based drug toxicity prediction 
+model achieved an accuracy of 81.25%, significantly exceeding the 
+43.75% accuracy of conventional methods. As the only early-stage 
+pharmaceutical company participating, Signet Therapeutics’ organoid 
+platform has been extensively involved in the national organoid 
+standards project led by the Center for Drug Evaluation (CDE) and the 
+Innovation Method Evaluation Center of China’s National Institutes 
+for Food and Drug Control. It continues to advance methodological 
+validation for organoids, the development of relevant guidelines and 
+the large-scale commercial adoption of organoids as alternatives to 
+conventional biological models.
+3.1.2 Key Commercialization Progress: Major Collaborations Secured in Rapid 
+Succession, with Increasingly Diversified Monetization Models
+• The Group entered into a strategic collaboration for AI-driven drug 
+discovery, with a total potential value exceeding USD400 million, 
+with a renowned international biopharmaceutical company that has 
+a robust pipeline and multiple commercial products. The parties will 
+jointly develop an innovative oral small-molecule drug with best-in￾class potential against a G protein-coupled receptor (GPCR) target. The 
+collaboration partner will make an upfront payment and fund all early￾stage R&D costs. The Group will also be eligible to receive preclinical, 
+clinical and commercialization milestone payments, as well as royalties 
+on future sales, with the total potential value of the project exceeding 
+USD400 million.
+• The Group entered into a key collaboration with Visen 
+Pharmaceuticals. The parties will integrate XtalPi’s AI-driven 
+robotic drug discovery platform with Visen Pharmaceuticals’ expertise 
+in endocrinology, focusing on high-value clinical indications and 
+innovative targets in endocrinology and metabolism to jointly advance 
+the early discovery and clinical development of innovative therapies. 
+The overall scale of this collaboration amounts to tens of millions of 
+RMB.
+
+[PDF PAGE 21]
+– 21 –
+• The Group signed a landmark strategic collaboration agreement 
+with Sunshine Lake Pharma. The parties intend to establish a joint 
+venture that will combine the industry-leading capabilities of XtalPi’s 
+AI-driven robotic drug discovery platform with Sunshine Lake 
+Pharma’s extensive multi-target R&D data, biological insights and 
+pipeline development experience. Through the joint establishment of 
+an AI-driven robotic laboratory and a foundation model for preclinical 
+drug development, the parties aim to address longstanding challenges 
+in drug R&D and pursue comprehensive collaboration spanning 
+underlying technologies, innovative drug pipeline development and 
+commercialization. Sunshine Lake Pharma is expected to invest several 
+hundreds of millions of RMB in the collaboration. The two companies 
+aim to build an industry-leading AI drug discovery engine and bring 
+the technology to international markets, while developing a diversified 
+monetization model centered on “pipeline co-creation and shared 
+success through technology.”
+• The Group’s collaboration with DoveTree has progressed well, and 
+the Group has received the second payment of USD19.0 million as 
+stipulated under the definitive agreement. The parties will further 
+deepen their collaboration in the agreed difficult-to-drug target areas, 
+advance R&D efforts including those involving molecular glues, and 
+continue to accelerate the translation of drug candidates toward clinical 
+development.
+• In November 2025, the Group entered into a global strategic 
+collaboration and platform licensing agreement with Gan & Lee 
+Pharmaceuticals for AI-driven innovative peptide drug R&D, and 
+the project is progressing smoothly. This year, the “AI-Driven 
+Intelligent Peptide Delivery Laboratory” (Beijing Key Laboratory 
+of Artificial Intelligence for Peptide Drug Design and Delivery 
+Systems), jointly established by the parties, was officially recognized 
+as a Beijing Key Laboratory and formally inaugurated. This marks 
+a new phase of deeper collaboration between the parties in AI-enabled 
+peptide drug R&D and further demonstrates the continued industry 
+adoption and scalable application potential of XtalPi’s AI peptide 
+development platform, PepiX™.
+
+[PDF PAGE 22]
+– 22 –
+3.2 AI4S Intelligent Solutions: AI4S Platform’s Value Creation Accelerating, 
+Driving Breakthrough Revenue Growth
+During the Reporting Period, AI4S Intelligent Solutions generated revenues of 
+RMB193.5 million, representing a year-on-year increase of 136.4%, with both 
+AI4S Intelligent Robotic Laboratories (Physical AI) and AI4S Intelligent Services 
+maintaining significant growth. Amid continued momentum across the AI4S 
+industry, growth in AI4S Intelligent Robotic Laboratories (Physical AI) was 
+primarily driven by the accelerated adoption of an emerging industry consensus: 
+using robotic laboratories to build a data foundation and feed high-quality data 
+back into AI models. Growth in AI4S Intelligent Services was mainly driven by 
+the increasingly urgent need for AI-driven drug R&D to explore broader chemical 
+space and shorten development cycles. The Group’s innovative molecular building 
+blocks and VAST Virtual Compound Library enables customers to expand their 
+exploration of chemical space, while its high-throughput autonomous synthesis 
+platform creates an efficient closed-loop system spanning “design, synthesis, 
+testing and analysis,” significantly accelerating the commercialization of AI4S 
+Intelligent Services. As one of the first companies in the industry to establish 
+a closed loop system connecting the digital and physical worlds, the Group has 
+leveraged its difficult-to-replicate technological barriers to define and create this 
+new category of industry demand, further strengthening its leading position in 
+AI4S.
+3.2.1 AI4S Intelligent Robotic Laboratories (Physical AI): Embedded into 
+Molecular R&D Workflows to Drive Scalable Growth
+Under the AI4S paradigm, high-quality data is a core input driving the 
+iterative improvement of AI models and their predictive capabilities. Through 
+standardized experimental workflows and high-throughput parallel operations, 
+intelligent robotic laboratories can systematically generate high-quality, 
+reproducible and traceable experimental data, fundamentally addressing 
+the limitations of conventional R&D models, including inefficient data 
+generation, inconsistent data quality and difficulties in accumulating reusable 
+assets that can then be considered proprietary institutional knowledge. Amid 
+continued momentum across the global AI4S industry, downstream customers 
+are significantly increasing their investment in intelligent R&D infrastructure. 
+A virtuous cycle, namely using intelligent robotic laboratories to build the 
+data foundation, feeding high-quality data back into the AI models and using 
+improved models to guide subsequent rounds of experimentation, is becoming 
+an industry consensus and gaining adoption at an accelerating pace.
+
+[PDF PAGE 23]
+– 23 –
+During the Reporting Period, the Group’s AI4S Intelligent Robotic 
+Laboratory business made positive progress in both overseas and domestic 
+markets. In overseas markets, the compound management system developed 
+in collaboration with Eli Lilly was successfully contracted and delivered, 
+while the first HTE system completed factory acceptance testing (FAT) 
+and user training. The intelligent autonomous drug synthesis and 
+process R&D system developed in collaboration with JW Pharmaceutical 
+was fully delivered in April and received strong recognition from the 
+customer. In the domestic market, the Group continued to deepen its 
+scientific research collaboration and secured multiple projects valued at tens 
+of millions of RMB. In addition, the intelligent synthesis workstation, a 
+semi-standardized product, has been successfully replicated and deployed 
+across 13 customers, further validating its productization capabilities. 
+Leveraging the reusability of the same underlying Physical Agent and 
+Agent orchestration platform, these capabilities have expanded beyond 
+pharmaceuticals into advanced materials fields, including perovskites, 
+lithium batteries and molecular sieves.
+During the Reporting Period, the Group’s AI4S Intelligent Robotic 
+Laboratory business successfully delivered multiple flagship projects:
+• The Group signed an eight-figure RMB compound storage and 
+management system project with Eli Lilly and completed delivery 
+to their Shanghai R&D center. The system covers the complete 
+compound workflow, from storage and retrieval through micro-scale 
+powder dispensing and the preparation and output of samples in DMSO 
+solution. It integrates previously separate sample management and 
+preparation processes into a unified automated platform, providing 
+increased continuous and standardized sample-handling capabilities for 
+drug R&D experiments. The system significantly improves compound 
+storage and retrieval efficiency and sorting accuracy, while enabling the 
+customer to accumulate high-quality, structured compound data assets 
+to support its growing R&D pipeline needs.
+• The Group signed an eight-figure RMB collaboration project with 
+Eli Lilly for a high-throughput experimentation (HTE) platform.
+Centered on a condition-screening glovebox, the newly designed 
+modular platform supports automated reagent dispensing, reactions, 
+dilution and filtration under anhydrous and oxygen-free conditions, 
+and is integrated with XtalPi’s Agentic AI algorithms. The platform 
+will enable the customer to significantly increase the throughput and 
+efficiency of condition screening, shorten the design–make–test–
+analyze (DMTA) cycle from molecular design through synthesis and 
+validation, and generate standardized, traceable experimental data. This 
+will support the accumulation of high-quality data assets for AI model 
+training and algorithm optimization. Following the compound storage 
+and management project, this represents another in-depth collaboration 
+between the parties in laboratory automation. This marks the expansion 
+
+[PDF PAGE 24]
+– 24 –
+of the collaboration from the “intelligent management of compound 
+assets” to the “end-to-end automation of synthesis and screening,” 
+further deepening the partnership.
+• The high-throughput automated synthesis workstation, AI-powered 
+reaction condition optimization system and intelligent analytics 
+platform provided by the Group to JW Pharmaceutical were fully 
+delivered in April and received strong recognition from the customer. 
+The platform addresses JW Pharmaceutical’s complex R&D needs in 
+the automated screening and synthesis of drug candidates and process 
+optimization. By integrating Bayesian optimization, digital management 
+and automated laboratory technologies, the solution is expected to 
+improve the success rate and reproducibility of chemical synthesis and 
+shorten drug development cycles. It provides a robust technological 
+foundation for JW Pharmaceutical’s development of breakthrough 
+pipelines in oncology, metabolic diseases and other fields, helping 
+advance competitive drug candidates into clinical research at an earlier 
+stage.
+• The Group signed a millions-of-RMB intelligent high-throughput 
+mesoporous materials preparation project with the Wusong 
+Materials Laboratory of Fudan University. Supported by Fudan 
+University’s newly established School of Intelligent Materials and 
+Future Energy Innovation, the project will build a fully automated 
+laboratory dedicated to mesoporous materials, enabling integrated 
+R&D spanning preparation, synthesis and characterization. With their 
+high specific surface area, ordered pore structures and tunable pore 
+sizes, mesoporous materials have broad application potential in fields 
+including catalysis, adsorption and separation, and energy storage, 
+and are a major focus of advanced materials research. Conventional 
+mesoporous materials R&D relies on manual trial and error, involving 
+numerous parameters and lengthy optimization cycles. By combining 
+an automated high-throughput platform with AI-driven experimental 
+design, the project can significantly improve materials R&D efficiency 
+and shorten the timeline for laboratory research to industrialization.
+• The Group signed a millions-of-RMB end-to-end perovskite solar 
+cell automation project with a leading university. The Group will 
+provide the customer with a fully automated solution covering the 
+entire perovskite solar cell R&D workflow. The project addresses the 
+key challenges associated with linking multiple post-film-formation 
+processes and manually transferring samples between them. It comprises 
+five core modules: a sample transfer module, vapor deposition module 
+1, a laser P2 module, vapor deposition module 2 and a current density￾voltage (J-V) testing module. Together, these modules enable end-to￾end automation spanning sample transfer, organic- and metal-layer 
+deposition, laser edge isolation and J-V electrical performance testing. 
+Once implemented, the project is expected to significantly improve 
+
+[PDF PAGE 25]
+– 25 –
+experimental efficiency and data consistency. It will also represent 
+XtalPi’s first deployed case in the perovskite field and provide strong 
+academic validation, establishing a replicable benchmark for the 
+Group’s expansion in perovskite solar cell R&D automation.
+• The Group signed a millions-of-RMB project with Peking 
+University, the Dalian Institute of Chemical Physics of the Chinese 
+Academy of Sciences and other institutions to develop a high￾throughput automated electrolyte formulation and testing platform.
+The project will provide customers with a high-throughput automated 
+solution for formulating lithium-ion and sodium-ion battery electrolytes 
+and testing their key physicochemical properties. The project addresses 
+key challenges in electrolyte R&D, including stringent solid-to￾liquid ratio requirements, difficulties in maintaining batch-to-batch 
+consistency and low efficiency during manual testing. It comprises 
+five core modules: a solid and liquid dispensing and reaction station, 
+a liquid dispensing module, an automated storage and transfer system, 
+a cap opening and closing and visual positioning module, and a key 
+performance testing module. Together, these modules enable end-to-end 
+automation spanning solid and liquid weighing, mixing and formulation, 
+shaking and temperature control, and conductivity and moisture testing. 
+Once implemented, the project is expected to significantly improve 
+electrolyte formulation efficiency and batch-to-batch consistency. It 
+also enables the Group to establish an early presence in a high-growth 
+segment with relatively limited competition and strong customer 
+budgets, providing a replicable benchmark for XtalPi’s expansion in 
+battery electrolyte R&D automation.
+3.2.2 AI4S Intelligent Services: A Key Breakthrough in End-to-End Autonomous 
+AI Decision-Making, Driving Rapid Order Growth
+As the commercialization of AI4S accelerates, pharmaceuticals R&D is 
+rapidly shifting from a conventional trial-and-error approach towards a data￾driven, intelligent framework, while customer demand for broader chemical 
+space exploration and shorter R&D cycles is growing significantly. The 
+Group’s AI4S Intelligent Services directly address these core customer needs 
+in two ways. First, the Group provides innovative molecular building blocks 
+and the VAST Virtual Compound Library, enabling customers to efficiently 
+explore a broader chemical universe and significantly increase the probability 
+of discovering novel lead compounds. Second, the Group has established a 
+high-throughput autonomous synthesis platform that enables rapid validation 
+from molecular design through physical synthesis, creating an efficient 
+design–make–test–analyze (DMTA) closed loop system.
+
+[PDF PAGE 26]
+– 26 –
+During the Reporting Period, the combined strength of these capabilities 
+significantly accelerated the commercialization of the Group’s AI4S 
+Intelligent Services. The value of new orders signed in the first half of 
+2026 recorded significant growth, demonstrating strong market demand and 
+customer recognition for the Group. Notably, the newly launched VAST 
+Virtual Compound Library business achieved a significant breakthrough, 
+securing orders covering more than 20,000 molecules and creating a new 
+source of incremental revenue growth for the Group.
+During the Reporting Period, the Group developed and commercialized two 
+major solutions – Agentic Synthesis (Intelligent Autonomous Molecular 
+Synthesis) and Agentic HTE (Intelligent Autonomous High-Throughput 
+Experimentation) – enabling end-to-end autonomous AI decision-making.
+• Agentic Synthesis Solution (Intelligent Autonomous Molecular 
+Synthesis)
+Agentic Synthesis is the Group’s proprietary autonomous synthesis 
+platform, centered on an Agentic System that connects Scientific AI 
+with Physical AI. The platform creates an end-to-end, ten-step closed 
+loop that spans molecule targeting through final product delivery. 
+Chemists need only describe the target molecule and the required 
+number of reaction conditions in natural language, after which the 
+system can autonomously complete the entire workflow, including 
+raw materials receipt verification, experimental record creation, AI￾powered condition generation, automated reagent dispensing, reaction 
+monitoring, purification, quality control and delivery. This frees 
+chemists from labor-intensive experimental tasks, allowing them to 
+focus on core decision-making and professional judgment.
+In developing the Group’s Scientific AI capabilities, all four core 
+modules have achieved production-grade accuracy. The SureRXN™ 
+synthesizability prediction and condition recommendation module 
+achieved an experimental success rate of over 90%, reducing 
+the average number of experiments to 1.19. The high-pressure 
+separation algorithm achieved an automation rate of 76%, while 
+increasing the first-delivery success rate from 83% to 94%. The 
+LCMS spectral analysis algorithm achieved an overall prediction 
+accuracy of 95%, rising to 98% within the high-confidence range. 
+The NMR spectral interpretation algorithm automatically analyzed 
+more than 70% of spectra across four projects, demonstrating 
+continued improvement.
+
+[PDF PAGE 27]
+– 27 –
+At the Agentic System level, seven dedicated agents form a complete 
+“digital chemistry team”: the PM Agent for project coordination; the 
+Experiment Agent for experiment initiation and scheduling; the IPC 
+Agent for determining reaction success or failure through LCMS 
+analysis; the Purification Agent for tracking purification work orders; 
+the QC Agent for quality control and structural confirmation; the 
+Delivery Agent for delivery packaging; and the Procurement Agent 
+for monitoring raw materials receipts and low-inventory alerts. Each 
+agent corresponds to a real-world business role, and together they 
+cover the entire project lifecycle from initiation through shipment. 
+Building on this foundation, the platform enables a complete ten-step 
+operational workflow: target molecule confirmation, building block (BB) 
+procurement, reaction route design, reaction initiation and monitoring, 
+workup, separation and preparative purification, lyophilization, quality 
+control, final product shipment, and overall analysis and review. All 
+stages operate continuously in a closed loop. Each step clearly identifies 
+the respective roles of Scientific AI, the Agentic System and Physical 
+AI, ensuring that the entire process is auditable, reviewable and 
+continuously iterative.
+• Agentic HTE Solution (Intelligent Autonomous High-Throughput 
+Experimentation System for Reaction Condition Optimization)
+Agentic HTE is an end-to-end high-throughput experimentation 
+solution centered on an Agentic System that connects Scientific 
+AI with Physical AI. Through its core capabilities including intent 
+understanding, skill orchestration, long-running task management 
+and human–AI collaboration, the solution substantially shortens 
+the conventional HTE iteration cycle from three to four weeks to 
+approximately six days, significantly expanding the efficiency of high￾throughput experimentation. It represents another flagship product 
+developed by the Group in the field of AI-driven laboratory automation.
+While strengthening its end-to-end autonomous AI decision-making 
+capabilities, the Group is also actively expanding its capabilities in 
+upstream chemical space design and synthesis. In June 2025, XtalPi 
+completed the acquisition of Liverpool ChiroChem (LCC). LCC has 
+long focused on developing technologies for the design and synthesis 
+of novel molecules, particularly novel chiral molecules. Its PACE 
+(Parallel Automated Chiral Engine) technology platform integrates AI 
+software with automation technologies, enabling the virtual screening 
+of target molecules from a chiral chemical library comprising hundreds 
+of millions of molecules, followed by efficient automated synthesis 
+and physical testing. The platform has been validated through 
+the Group’s internal drug discovery projects, rapidly generating 
+novel active compounds against a range of highly challenging 
+targets. LCC is currently in late-stage discussions with major 
+pharmaceutical companies, biotechnology companies and leading 
+
+[PDF PAGE 28]
+– 28 –
+research institutions regarding collaborations centered on the PACE 
+platform, with the aim of accelerating the creation of intellectual 
+property and assets against partners’ high-priority targets.
+3.3 Advanced Materials and Consumer Health: AI4S Capabilities Broadening 
+Applications, with Key Milestones Achieved
+Building on the systematic validation of the Group’s proprietary AI-driven R&D 
+closed loop (comprising Scientific AI, Physical AI and Agentic Systems) in drug 
+discovery and development, the Group is leveraging its core capabilities across 
+industries and accelerating their application in emerging areas such as advanced 
+materials and consumer health. This marks a strategic evolution from deep industry 
+specialization to a scalable platform model, with the broader value of the Group’s 
+underlying AI4S infrastructure gradually being realized.
+• Advanced Materials: Intelligent R&D Platform Empowers Materials 
+Innovation, Driving Breakthrough Progress in Perovskite Tandem Cell 
+R&D
+Advanced materials serve as a critical foundation for sectors including new 
+energy, advanced manufacturing and electronics, offering substantial long￾term market potential and clear growth prospects. The Group has established 
+an advanced materials R&D team and, by applying its generalizable design–
+make–test–analyze (DMTA) closed-loop R&D platform, has achieved 
+substantive breakthroughs across multiple frontier materials fields. It is 
+collaborating with leading photovoltaic company JinkoSolar to build an 
+automated production line for the development of advanced materials used in 
+perovskite tandem solar cells, with continuous iteration aimed at improving 
+photoelectric conversion efficiency and cell stability. The Group has also 
+expanded into polymer composite materials R&D, further broadening the 
+scope of its advanced materials business.
+Perovskite Materials Progress
+During the Reporting Period, the Group entered into a strategic collaboration 
+agreement with a subsidiary of JinkoSolar to advance AI- and automation￾driven high-throughput R&D for tandem solar cells. The parties have 
+established a joint venture to build the world’s first fully closed-loop 
+intelligent manufacturing line for tandem solar cells, integrating “AI-driven 
+decision-making, robotic execution and data feedback” to develop high￾efficiency, high-stability solar cell products for diverse application scenarios. 
+The project is progressing smoothly.
+
+[PDF PAGE 29]
+– 29 –
+In addition, XtalPi has established an AI- and automated laboratory￾driven perovskite formulation R&D platform integrating literature data 
+mining, specialized database development, AI model-powered parameter 
+recommendations and automated experimental validation. In terms of device 
+performance, small-area modules achieved a laboratory-tested efficiency 
+of 27.0% and a third-party-certified efficiency of 26.51%, while large￾area modules achieved a laboratory-tested efficiency of 23.0% and a third￾party-certified efficiency of 22.74%. The robotic experimentation system 
+has also completed the preparation of a large number of cell samples, while 
+a high-throughput automated production line for tandem solar cells is being 
+established with a designed daily throughput of no fewer than 1,000 cells. 
+Compared with conventional manual R&D processes, the optimization 
+cycle for each iteration has been reduced from several months to several 
+hours, while the overall R&D cycle has been shortened from four-to-six 
+years to one-to-six months, representing a multiple order-of-magnitude 
+leap in R&D efficiency.
+• Groland Expands Omnichannel Reach, Advancing Commercialization
+During the Reporting Period, Groland, whose products contain a combination 
+formulation incorporating two proprietary topical molecules developed by 
+XtalPi to address hair growth and retention, completed its initial market 
+validation and continues to progress brand development. Positioned around 
+technology-driven scalp care, Groland has begun to build a comprehensive 
+marketing network spanning domestic and international markets and online 
+and offline channels. Online, the brand operates official stores on Tmall, 
+JD.com and Douyin. Groland’s AquaKine Scalp Serum achieved a No. 1 
+ranking on Tmall’s “New Anti-Hair Loss Scalp Oil Products” chart, while 
+its Tmall store ranked among the top three emerging personal care stores 
+by gross merchandise value during the 618 Shopping Festival. The brand 
+has established a comprehensive product portfolio spanning pre-shampoo 
+treatments, shampoos, conditioners, leave-in treatments, hair growth 
+serums and red-light hair growth brushes. The Group’s two proprietary 
+molecules have completed regulatory filings as new cosmetic ingredients 
+in China, while the regulatory filings and launch of the general-trade 
+versions are expected to be completed by the end of 2026.
+
+[PDF PAGE 30]
+– 30 –
+4. STRATEGIC PROGRESSION: EVOLVING XTALPI SCIENCE INTO AN OPEN 
+SCIENTIFIC AI INFRASTRUCTURE PLATFORM
+In July 2026, the Group officially launched XtalPi Science, its Scientific AI platform, 
+together with its Genius Agent suite of Scientific Agents. XtalPi Science is the world’s 
+first comprehensive AI4S platform integrating large language models (LLMs), Scientific 
+Agents and large-scale automated wet-lab capabilities. The platform further standardizes 
+and productizes the Group’s integrated scientific research infrastructure, which has 
+been developed over many years and validated through the completion of real-world 
+projects. It transforms this infrastructure into a solution that can be accessed through 
+a unified interface, orchestrated on-demand and continuously expanded. In doing so, 
+XtalPi Science is progressively building a Global Scientific Utility for industry partners 
+and research institutions worldwide, lowering the barriers to accessing advanced 
+scientific R&D capabilities and providing a unified gateway for cross-institutional R&D 
+collaboration and the scaled adoption of Scientific AI.
+As the core orchestration hub and R&D matrix of the overall system, Genius Agent 
+establishes a multi-agent system that combines global planning with scenario-specific 
+execution capabilities. It can autonomously understand complex scientific research 
+objectives, break down and advance long-horizon interdisciplinary tasks, and centrally 
+orchestrate domain-specific models, specialized tools, R&D workflows and physical 
+execution infrastructure. Under the unified orchestration of Genius Agent, the platform 
+can generate scientific hypotheses and perform specialized predictions in the digital 
+world, followed by high-precision experimental validation in the physical world through 
+Physical AI. The experimental results then inform subsequent predictions and decisions, 
+completing a closed loop spanning “digital hypothesis generation, specialized prediction, 
+physical validation and data feedback.” This transforms scientific research from a 
+process reliant on fragmented tools and manual handoffs into a systematic workflow that 
+is orchestratable, verifiable, traceable and continuously iterative, advancing AI from 
+hypothesis generation to validation.
+The development of open Scientific AI infrastructure depends on connecting and 
+coordinating diverse specialized capabilities. The Group and 26 partners jointly 
+launched the Open Ecosystem Alliance for Scientific AI, whose members span multiple 
+segments of the scientific innovation value chain. The launch marks a new stage in 
+the development of Scientific AI infrastructure, moving beyond individual corporate 
+initiatives toward collaborative development across industries, disciplines and multiple 
+stakeholders. XtalPi Science also plans to introduce Science Token as a unified access 
+and metering mechanism for scientific research resources, improving the efficiency of 
+resource allocation, utilization and management. Taking into account customers’ actual 
+needs and different R&D scenarios, the Group will flexibly explore diverse platform 
+service and collaboration models as it continues to evolve into an open Scientific AI 
+infrastructure platform.
+
+[PDF PAGE 31]
+– 31 –
+CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS
+For the six months ended 
+30 June
+2026 2025
+Note RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Revenues 2 393,627 517,076
+Cost of revenues 3 (167,834) (81,959)
+General and administrative expenses 3 (212,142) (200,333)
+Research and development expenses 3 (367,838) (221,527)
+Selling and marketing expenses 3 (48,000) (40,354)
+Impairment losses on financial assets (1,061) (8,523)
+Other income 13,335 30,646
+Other gains, net 4 135,673 37,702
+Operating (loss)/profit (254,240) 32,728
+Finance income 91,230 51,874
+Finance expenses (60,125) (3,654)
+Finance income, net 31,105 48,220
+Impairment loss on investments accounted for using 
+equity method – (2,348)
+Share of net losses of investments accounted for using 
+equity method (1,179) (2,991)
+(Loss)/profit before income tax (224,314) 75,609
+Income tax expense 5 (630) –
+(Loss)/profit for the period (224,944) 75,609
+(Loss)/profit for the period attributable to:
+Equity holders of the Company (251,901) 82,795
+Non-controlling interests 26,957 (7,186)
+(224,944) 75,609
+RMB Cent RMB Cent
+(Loss)/earnings per share for (loss)/profit 
+attributable to equity holders of the Company
+Basic (loss)/earnings per share 6 (6) 2
+Diluted (loss)/earnings per share 6 (6) 2
+
+[PDF PAGE 32]
+– 32 –
+CONDENSED CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME
+For the six months ended 
+30 June
+2026 2025
+Note RMB’000 RMB’000
+(Unaudited) (Unaudited)
+(Loss)/profit for the period (224,944) 75,609
+Other comprehensive (loss)/income
+Items that will not be reclassified to profit or loss
+– Currency translation differences (414,690) (69,110)
+Items that may be subsequently reclassified to profit 
+or loss
+– Currency translation differences 153,082 26,619
+Other comprehensive loss for the period, net of tax (261,608) (42,491)
+Total comprehensive (loss)/income for the period, 
+net of tax (486,552) 33,118
+Total comprehensive (loss)/income for the period 
+attributable to:
+Equity holders of the Company (511,643) 40,455
+Non-controlling interest 25,091 (7,337)
+(486,552) 33,118
+
+[PDF PAGE 33]
+– 33 –
+CONDENSED CONSOLIDATED BALANCE SHEET
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+Note RMB’000 RMB’000
+(Unaudited) (Audited)
+Assets
+Non-current assets
+Property, plant and equipment 263,886 269,452
+Right-of-use assets 128,721 95,170
+Intangible assets 232,265 233,390
+Investments accounted for using the equity method 158,826 42,855
+Financial assets at fair value through profit or loss 2,521,587 2,096,127
+Prepayments 25,331 6,922
+Trade receivables 8 6,933 6,793
+3,337,549 2,750,709
+Current assets
+Inventories 275,161 127,424
+Trade and note receivables 8 209,513 151,149
+Contract assets 3,586 3,586
+Prepayments, deposits and other receivables 126,434 116,004
+Financial assets at fair value through profit or loss 2,197,960 2,566,406
+Restricted cash 5,022 17,990
+Bank deposits 3,845,317 1,911,128
+Cash and cash equivalents 2,622,881 2,573,066
+9,285,874 7,466,753
+Total assets 12,623,423 10,217,462
+Equity
+Equity attributable to equity holders of 
+the Company
+Share capital 301 301
+Other reserves 17,700,016 17,831,800
+Accumulated losses (8,700,315) (8,448,414)
+9,000,002 9,383,687
+Non-controlling interests 72,256 47,165
+Total equity 9,072,258 9,430,852
+
+[PDF PAGE 34]
+– 34 –
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+Note RMB’000 RMB’000
+(Unaudited) (Audited)
+Liabilities
+Non-current liabilities
+Long-term bank borrowings 270,500 175,000
+Lease liabilities 90,436 70,596
+Deferred government grants 24,162 28,004
+Deferred tax liabilities 7,242 7,448
+392,340 281,048
+Current liabilities
+Trade and note payables 9 129,989 62,282
+Other payables and accruals 183,416 185,509
+Short-term borrowings 2,719,930 170,800
+Derivative financial instruments – 4,137
+Deferred government grants 3,299 2,733
+Contract liabilities 84,571 54,639
+Lease liabilities 37,620 25,462
+3,158,825 505,562
+Total liabilities 3,551,165 786,610
+Total equity and liabilities 12,623,423 10,217,462
+
+[PDF PAGE 35]
+– 35 –
+CONDENSED CONSOLIDATED STATEMENT OF CASH FLOWS
+For the six months ended 
+30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Cash flows from operating activities
+Net cash used in operating activities (399,238) (238,479)
+Cash flows from investing activities
+Interest received from bank deposits 29,418 1,150
+Payments for purchase of property, plant and equipment (49,787) (31,686)
+Proceeds from disposal of property, plant and equipment 77 25
+Payments for purchase of intangible assets (18,659) (5,162)
+Payments for additions of investments accounted for 
+using equity method (91,200) (22,064)
+Payments for acquisition of investments in financial 
+assets at fair value through profit or loss (1,372,644) (1,514,344)
+Proceeds from disposal of financial assets at fair value 
+through profit or loss 1,320,602 933,600
+Settlement of derivative financial instruments (8,794) 3,823
+Payments for acquisition of assets – (3,760)
+Payment for acquisition of a subsidiary, net of cash acquired – (98,816)
+Placement of bank deposits (3,425,082) (1,073,683)
+Prepayment for an equity interest investment – (6,085)
+Proceeds from maturity of bank deposits 1,421,320 105,588
+Changes in restricted cash balances 12,968 (1,768)
+Proceeds from government grants 894 1,080
+Net cash used in investing activities (2,180,887) (1,712,102)
+Cash flows from financing activities
+Interest paid for bank borrowings (5,071) (1,980)
+Payments of lease liabilities (17,086) (14,259)
+Proceeds from issuance of ordinary shares, net of 
+underwriting commissions – 2,901,350
+Proceeds from issuance of convertible bonds, net of 
+transaction cost 2,512,330 –
+Proceeds from exercise of share options 2,338 3,757
+Proceeds from bank borrowings 338,900 258,930
+Repayments of bank borrowings (154,600) (29,900)
+Net cash generated from financing activities 2,676,811 3,117,898
+Net increase in cash and cash equivalents 96,686 1,167,317
+Cash and cash equivalents at beginning of the period 2,573,066 1,166,148
+Effects of exchange rate changes on cash and 
+cash equivalents (46,871) (21,777)
+Cash and cash equivalents at end of the period 2,622,881 2,311,688
+
+[PDF PAGE 36]
+– 36 –
+NOTES
+1. BASIS OF PREPARATION
+This condensed consolidated interim financial information of the Group for the six months ended 30 
+June 2026 (the “Interim Financial Information”) has been prepared in accordance with International 
+Accounting Standard (“IAS”) 34 “Interim Financial Reporting” issued by the International Accounting 
+Standards Board (“IASB”).
+The Interim Financial Information does not include all the notes of the type normally included in annual 
+financial statements. Accordingly, this Interim Financial Information should be read in conjunction with 
+the consolidated financial statements of the Group for the year ended 31 December 2025, which have been 
+prepared in accordance with IFRS Accounting Standards issued by the IASB.
+The preparation of the Interim Financial Information requires management to make judgements, estimates 
+and assumptions that affect the application of accounting policies and the reported amounts of assets and 
+liabilities, income and expenses. Actual results may differ from these estimates. In preparing this Interim 
+Financial Information, the significant judgments made by management in applying the Group’s accounting 
+policies and the key sources of estimation uncertainty are consistent with those applied in the consolidated 
+financial statements for the year ended 31 December 2025.
+1.1 Accounting policy information
+(a) Amendments to standards adopted by the Group
+The following amendments to standards have been adopted by the Group for the financial year 
+beginning on 1 January 2026:
+Amendments to IFRS 9 and IFRS 7 Classification and Measurement of Financial Instruments
+Amendments to IFRS 9 and IFRS 7 Contracts Referencing Nature-dependent Electricity
+Annual Improvements to IFRS 
+Accounting Standards
+Annual Improvements to IFRS Accounting Standards – 
+Volume 11
+The adoption of above amended standards does not have any significant impact on the consolidated 
+financial statements of the Group.
+(b) Amendments to standards and new standards not yet adopted
+Amendments to standards and new standards that have been issued but are not yet effective and not 
+been early adopted by the Group for the financial year beginning on 1 January 2026 are as follows:
+Effective for accounting 
+periods beginning on or after
+Amendments to IAS 21 Translation to a Hyperinflationary 
+Presentation Currency
+1 January 2027
+IFRS 18 Presentation and Disclosure in 
+Financial Statements
+1 January 2027
+IFRS 19 Subsidiaries without Public 
+Accountability: Disclosures
+1 January 2027
+Amendments to Illustrative 
+Examples on IFRS 7, IFRS 
+18, IAS 1, IAS 8, IAS 36 
+and IAS 37
+Disclosures about Uncertainties 
+in the Financial Statements
+To be determined
+IFRS 10 and IAS 28 
+(Amendments)
+Sale or Contribution of Assets 
+between an Investor and its 
+Associate or Joint Venture
+To be determined
+
+[PDF PAGE 37]
+– 37 –
+The directors have performed assessment on the above new and amendments to standards, and have 
+concluded on a preliminary basis that these new and amendments to standards would not have a 
+significant impact on the Group’s consolidated financial statements when they become effective, 
+except for IFRS 18 which will impact the presentation of profit and loss and result in additional 
+disclosure in the consolidated financial statements. The Group is currently assessing the detailed 
+implications of applying the new standard on the Group’s consolidated financial statements. 
+From the high-level preliminary assessment performed, the following potential impacts have been 
+identified:
+• Although the adoption of IFRS 18 will have no impact on the Group’s net profit, the Group 
+expects that grouping items of income and expenses in the statement of profit or loss into the 
+new categories will impact how operating profit is calculated and reported.
+• The line items presented on the primary financial statements might change as a result of the 
+application of the concept of ‘useful structured summary’ and the enhanced principles on 
+aggregation and disaggregation. In addition, since goodwill will be required to be separately 
+presented in the statement of financial position, the Group will disaggregate goodwill and 
+other intangible assets and present them separately in the statement of financial position.
+• The Group does not expect there to be a significant change in the information that is 
+currently disclosed in the notes because the requirement to disclose material information 
+remains unchanged; however, the way in which the information is grouped might change as a 
+result of the aggregation/disaggregation principles. In addition, there will be significant new 
+disclosures required for:
+– management-defined performance measures;
+– a break-down of the nature of expenses for line items presented by function in the 
+operating category of the statement of profit or loss – this break-down is only required 
+for certain nature of expenses; and
+– for the first annual period of application of IFRS 18, a reconciliation for each line item 
+in the statement of profit or loss between the restated amounts presented by applying 
+IFRS 18 and the amounts previously presented applying IAS 1.
+• From a cash flow statement perspective, there will be changes to how interest received 
+and interest paid are presented. Interest paid will be presented as financing cash flows and 
+interest received as investing cash flows, which is a change from current presentation as part 
+of operating cash flows.
+(c) Accounting policies not included in the Group’s annual financial statements for the year ended 
+31 December 2025
+Financial liabilities
+(i) Initial recognition and measurement
+Financial liabilities are classified, at initial recognition, as financial liabilities at fair value 
+through profit or loss, loans and borrowings, payables, or as derivatives designated as 
+hedging instruments in an effective hedge, as appropriate.
+All financial liabilities are recognised initially at fair value and, in the case of loans and 
+borrowings and payables, net of directly attributable transaction costs.
+
+[PDF PAGE 38]
+– 38 –
+The Group’s financial liabilities include trade and other payables, derivative financial 
+instruments, lease liabilities, interest-bearing borrowings and debt component of convertible 
+bonds.
+(ii) Subsequent measurement
+The subsequent measurement of financial liabilities depends on their classification as 
+follows:
+Financial liabilities at amortised cost
+After initial recognition, interest-bearing loans and borrowings are subsequently measured 
+at amortised cost, using the effective interest rate method unless the effect of discounting 
+would be immaterial, in which case they are stated at cost. Gains and losses are recognised 
+in the statement of profit or loss when the liabilities are derecognised as well as through the 
+effective interest rate amortisation process.
+Amortised cost is calculated by taking into account any discount or premium on acquisition 
+and fees or costs that are an integral part of the effective interest rate. The effective interest 
+rate amortisation is included in finance costs in the statement of profit or loss.
+(iii) Derecognition of financial liabilities
+A financial liability is derecognised when the obligation under the liability is discharged or 
+cancelled or expires.
+When an existing financial liability is replaced by another from the same lender on 
+substantially different terms, or the terms of an existing liability are substantially modified, 
+such an exchange or modification is treated as a derecognition of the original liability and a 
+recognition of a new liability, and the difference between the respective carrying amounts is 
+recognised in the statement of profit or loss.
+(iv) Convertible bonds
+The component parts of the convertible bonds are classified separately as financial liabilities 
+and equity in accordance with the substance of the contractual arrangements and the 
+definitions of a financial liability and an equity instrument. Conversion option that will 
+be settled by the exchange of a fixed amount of cash or another financial asset for a fixed 
+number of the Company’s own equity instruments is an equity instrument. Transaction cost 
+that relates to the issue of the convertible bonds are allocated to the financial liability and 
+equity instrument in proportion to their relative fair values.
+At the date of issue of the convertible bonds, the fair value of the liability component is 
+estimated using the prevailing market interest rate for similar non-convertible instruments. 
+This amount is recorded as a liability on an amortised cost basis using the effective interest 
+method until extinguished upon conversion or at the instrument’s maturity date.
+The conversion option classified as equity is determined by deducting the amount of 
+the liability component from the fair value of the convertible bonds as a whole. This is 
+recognised and included in equity, net of income tax effects, and is not subsequently 
+remeasured. In addition, the conversion option classified as equity will remain in equity 
+when the conversion option is exercised.
+
+[PDF PAGE 39]
+– 39 –
+2. REVENUE FROM CONTRACTS WITH CUSTOMERS
+Revenue disaggregated by revenue source as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Drug discovery solutions 200,109 435,212
+AI for Science intelligent solutions 193,518 81,864
+393,627 517,076
+Timing of revenue recognition:
+A point in time 345,375 473,275
+Over time 48,252 43,801
+393,627 517,076
+Revenue from external customers contributing over 10% to the total revenue of the Group for the six 
+months ended 30 June 2026 and 2025 are as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Customer A 129,407 365,089
+Revenue disaggregated by geography, based on the billing address of the customers is as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Chinese Mainland 158,562 79,451
+United States 184,385 413,311
+Other regions 50,680 24,314
+393,627 517,076
+
+[PDF PAGE 40]
+– 40 –
+3. EXPENSES BY NATURE
+Expenses included in cost of revenues, general and administrative expenses, research and development 
+expenses and selling and marketing expenses are analysed as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Employee benefit expenses 451,848 316,832
+Material costs 120,295 42,048
+Professional service fees 67,180 43,912
+Depreciation of property, plant and equipment 40,051 38,615
+Cloud service and IT infrastructure expenses 31,616 13,291
+Depreciation of right-of-use assets 19,456 14,123
+Amortisation of intangible assets 7,482 3,305
+Short-term rental expenses 6,117 7,116
+Impairment provision on property, plant and equipment 2,266 28,123
+Others 49,503 36,808
+795,814 544,173
+4. OTHER GAINS, NET
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Net foreign exchange (losses)/gains (18,734) 3,820
+(Losses)/gains on derivative financial instruments (4,720) 3,823
+Net fair value changes on financial assets measured at FVTPL 154,242 34,438
+Donations – (5,758)
+Others 4,885 1,379
+135,673 37,702
+
+[PDF PAGE 41]
+– 41 –
+5. INCOME TAX EXPENSE
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Current income tax 836 –
+Deferred income tax (206) –
+630 –
+The Group’s principal applicable taxes and tax rates are as follows:
+Cayman Islands
+The Company and certain subsidiaries that were incorporated in the Cayman Islands as exempted 
+companies with limited liability under the Companies Law of the Cayman Islands are not subject to the 
+Cayman Islands income tax pursuant to the current laws of the Cayman Islands.
+Hong Kong
+The subsidiaries in Hong Kong are subject to Hong Kong profit tax at a rate of 16.5% during the six 
+months ended 30 June 2026 and 2025.
+PRC
+The Group’s subsidiaries established in the PRC are generally subject to Corporate Income Tax at a rate 
+of 25% on the estimated assessable profit in accordance with relevant PRC income tax laws and certain 
+preferential tax treatments available to certain subsidiaries during the six months ended 30 June 2026 and 
+2025.
+Shenzhen Jingtai Technology Co., Ltd., Beijing Jingtai Technology Co., Ltd., Jingtai Zhiyao Technology 
+(Shanghai) Co., Ltd. and Shanghai Siwei Medical Technology Co., Ltd. were approved as “High and New 
+Technology Enterprise” and entitled to a preferential income tax rate of 15% during the period ended 30 
+June 2026. There are certain other subsidiaries of the Group in the PRC that have been granted certain tax 
+concessions for small scale entities by tax authorities in the PRC and enjoy reduced tax rates.
+United States
+The subsidiaries in the United States are subject to Federal Tax at a rate of 21% and State Tax at a rate of 8% 
+to 8.84%.
+
+[PDF PAGE 42]
+– 42 –
+6. BASIC AND DILUTED (LOSS)/EARNINGS PER SHARE
+(a) Basic (loss)/earnings per share
+Basic (loss)/earnings per share for the six months ended 30 June 2026 and 2025 are calculated by 
+dividing the (loss)/profit attributable to equity holders of the Company by the weighted average 
+number of ordinary shares in issue during the respective period (excluding the treasury shares held 
+for the Pre-IPO Share Incentive Plan).
+For the six months ended 30 June
+2026 2025
+(Unaudited) (Unaudited)
+(Loss)/profit attributable to equity holders of the Company 
+(RMB’000) (251,901) 82,795
+Weighted average number of ordinary shares in issue 
+(thousand shares) 4,083,861 3,595,629
+Basic (loss)/earnings per share 
+(expressed in RMB cent per share) (6) 2
+(b) Diluted (loss)/earnings per share
+Diluted (loss)/earnings per share is calculated by adjusting the weighted average number of ordinary 
+shares outstanding to assume conversion of all dilutive potential ordinary shares. The Company 
+has three categories of dilutive potential ordinary share being (1) share options; (2) awarded shares 
+granted by the Company; and (3) convertible bonds.
+For the 
+six months 
+ended 30 June
+2025
+(Unaudited)
+Profit attributable to equity holders of the Company (RMB’000) 82,795
+Weighted average number of ordinary shares in issue (thousand shares) 3,595,629
+Adjustments for share options and share awards (thousand shares) 166,075
+Weighted average number of ordinary shares for the calculation of diluted EPS 
+(thousand shares) 3,761,704
+Diluted earnings per share (expressed in RMB cent per share) 2
+Diluted loss per share presented is the same as basic loss per share as the inclusion of the potential 
+ordinary shares in the calculation of dilutive loss per share would be anti-dilutive for the six months 
+ended 30 June 2026.
+7. DIVIDENDS
+No dividends have been paid or declared by the Company for the six months ended 30 June 2026 and 
+2025.
+
+[PDF PAGE 43]
+– 43 –
+8. TRADE AND NOTE RECEIVABLES
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Non-current assets:
+Trade receivables 7,007 6,867
+Less: credit loss allowance (74) (74)
+6,933 6,793
+Current assets:
+Trade receivables 203,082 151,516
+Less: credit loss allowance (4,061) (3,064)
+199,021 148,452
+Note receivables 10,492 2,697
+209,513 151,149
+The credit period granted to the Group’s customers is usually 30 to 90 days. As at 30 June 2026 and 
+31 December 2025, the aging analysis of trade receivables in current assets based on invoice date is as 
+follows:
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+0 to 90 days 161,605 116,796
+91 to 180 days 18,490 12,130
+181 to 365 days 13,193 16,978
+Over 1 year 9,794 5,612
+203,082 151,516
+Movements on the Group’s credit loss allowance for trade receivables are as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+At beginning of the period 3,138 2,850
+Increase in loss allowance 997 5,160
+Written off as uncollectible – (5,285)
+At end of the period 4,135 2,725
+
+[PDF PAGE 44]
+– 44 –
+9. TRADE AND NOTE PAYABLES
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Trade payables 128,577 60,870
+Note payables 1,412 1,412
+129,989 62,282
+Trade payables were mainly denominated in RMB as at 30 June 2026 and 31 December 2025. The credit 
+periods granted by suppliers generally range from 30 to 180 days. The aging analysis of trade and note 
+payables, based on invoice date, is as follows:
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+0 to 90 days 122,182 61,806
+91 to 180 days 4,660 425
+Over 180 days 3,147 51
+129,989 62,282
+
+[PDF PAGE 45]
+– 45 –
+MANAGEMENT DISCUSSION AND ANALYSIS
+Revenue
+We generate revenue from the provision of (i) drug discovery solutions, and (ii) AI for 
+Science intelligent solutions. We provide multi-disciplinary services or solutions in areas 
+such as pharmaceuticals and materials science, as well as related products, depending on our 
+customers’ needs.
+The table below sets forth a breakdown of our revenue by business line:
+For the six months ended
+ 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Drug discovery solutions 200,109 435,212
+AI for Science intelligent solutions 193,518 81,864
+Total 393,627 517,076
+Our revenue decreased by 23.9% from RMB517.1 million for the six months ended 30 
+June 2025 to RMB393.6 million for the six months ended 30 June 2026, mainly due to the 
+recognition of major pipeline licensing revenue in the corresponding period last year, which 
+resulted in a higher comparison base. Excluding such impact, our revenue recorded rapid 
+growth, representing a year-on-year increase of 73.8%.
+Drug discovery solutions. Our revenue generated from our provision of drug discovery 
+solutions decreased by 54.0% from RMB435.2 million for the six months ended 30 June 2025 
+to RMB200.1 million for the six months ended 30 June 2026, primarily due to the Group’s 
+recognition of an initial payment of USD51.0 million (equivalent to RMB365.1 million) from 
+this major pipeline licensing project during the six months ended 30 June 2025, which created 
+a high comparison base. During the six months ended 30 June 2026, this cooperation project 
+made favorable progress, and the Group received the second payment of USD19.0 million 
+(equivalent to RMB129.4 million) as agreed under the final agreement. The Group is actively 
+advancing its strategic transition from services to assets. By developing its proprietary 
+innovative drug pipeline and building a multimodal technology platform, the Group continues 
+to accumulate high-quality assets with significant clinical value and commercialization 
+potential, laying a solid foundation for the realization of long-term value in the future.
+AI for Science intelligent solutions. Our revenue generated from our provision of AI for 
+Science intelligent solutions increased by 136.4% from RMB81.9 million for the six months 
+ended 30 June 2025 to RMB193.5 million for the six months ended 30 June 2026, primarily 
+attributable to rapid expansion of new clients and high repeat purchase rates of existing clients 
+driven by iterative technological upgrades and high-quality deliveries. Both intelligent robotic 
+labs and intelligent services maintained a high-growth momentum.
+
+[PDF PAGE 46]
+– 46 –
+Cost of Revenue
+Our cost of revenue increased by 104.8% from RMB82.0 million for the six months ended 30 
+June 2025 to RMB167.8 million for the six months ended 30 June 2026, primarily attributable 
+to the increase in fulfillment of performance obligations driven by business scale growth.
+General and Administrative Expenses
+Our general and administrative expenses increased by 5.9% from RMB200.3 million for the 
+six months ended 30 June 2025 to RMB212.1 million for the six months ended 30 June 2026, 
+primarily due to the Group’s increased infrastructure investment and the increase in employee 
+benefit expenses incurred to support business development.
+Research and Development Expenses
+Our R&D expenses increased by 66.0% from RMB221.5 million for the six months ended 30 
+June 2025 to RMB367.8 million for the six months ended 30 June 2026, primarily attributable 
+to the Group’s continued investment in autonomous laboratories and agentic system, as well 
+as the relevant investment in the pipelines under development and multimodal technology 
+platforms to strengthen and upgrade the Group’s R&D capabilities.
+Selling and Marketing Expenses
+Our selling and marketing expenses increased by 18.9% from RMB40.4 million for the six 
+months ended 30 June 2025 to RMB48.0 million for the six months ended 30 June 2026, 
+primarily due to the increase in employee benefit expenses incurred to continuously intensify 
+business expansion and enhance market penetration rates.
+Other Income
+Our other income decreased by 56.5% from RMB30.6 million for the six months ended 30 
+June 2025 to RMB13.3 million for the six months ended 30 June 2026, primarily due to a 
+decrease in the government grants recognised during the Reporting Period.
+Other Gains, Net
+Our other gains, net increased by 259.9% from RMB37.7 million for the six months ended 30 
+June 2025 to RMB135.7 million for the six months ended 30 June 2026, primarily attributable 
+to the increase in the gain on fair value of financial assets at fair value through profit or loss 
+(“financial assets at FVTPL”).
+Operating (Loss)/profit
+We recorded an operating loss of RMB254.2 million for the six months ended 30 June 2026 
+(2025: an operating profit of RMB32.7 million), primarily attributable to the abovementioned 
+factors.
+
+[PDF PAGE 47]
+– 47 –
+Finance Income, Net
+Our finance income, net decreased by 35.5% from RMB48.2 million for the six months ended 
+30 June 2025 to RMB31.1 million for the six months ended 30 June 2026, primarily due to the 
+incremental interest expenses arising from the liability component of newly issued convertible 
+bonds under the effective interest rate method, partly offset by the increase in interest income 
+on bank deposits driven by higher average deposit balances for the six months ended 30 June 
+2026.
+(Loss)/profit for the Period
+As a result of above-mentioned factors, we recorded a net loss of RMB224.9 million for the 
+six months ended 30 June 2026 (2025: a net profit of RMB75.6 million).
+Non-IFRS Measure
+In evaluating our business, we consider and use adjusted net (loss)/profit, a non-IFRS financial 
+measure, to supplement the review and assessment of our operating performance. We believe 
+such non-IFRS measure facilitates comparisons of our operating performance from period 
+to period by eliminating the potential impact of certain items. We believe that the measure 
+provides useful information to investors in understanding and evaluating our consolidated 
+results of operations in the same manner as they help our management. The use of the non￾IFRS measure has limitations as an analytical tool, and you should not consider it in isolation 
+from, as a substitute for analysis of, or superior to, our results of operations or financial 
+conditions as reported under IFRS. In addition, the non-IFRS financial measure may be 
+defined differently from similar terms used by other companies, and may not be comparable to 
+other similarly titled measures used by other companies.
+We define adjusted net (loss)/profit (non-IFRS measure) as net (loss)/profit adjusted by adding 
+back (i) share-based compensation expenses, and (ii) interest expenses on convertible bonds. 
+Share-based compensation expenses mainly represent expenses incurred in connection with 
+our employee stock ownership plan, reflecting equity awards granted to employees. Interest 
+expenses on convertible bonds arise from the amortisation of separated liability component 
+under the effective interest rate method.
+
+[PDF PAGE 48]
+– 48 –
+The following table sets forth our adjusted net (loss)/profit (non-IFRS measure) for the 
+periods indicated:
+For the six months ended
+ 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+(Loss)/profit for the period (224,944) 75,609
+Add:
+Share-based compensation expenses 66,473 66,019
+Interest expenses on convertible bonds 52,960 –
+Adjusted net (loss)/profit (non-IFRS measure) (105,511) 141,628
+Borrowings
+Our borrowings increased by 764.8% from RMB345.8 million as of 31 December 2025 to 
+RMB2,990.4 million as at 30 June 2026, reflecting the net increased balance of our convertible 
+bonds and bank borrowings. 
+Our convertible bonds amounted to RMB2,460.3 million as at 30 June 2026 (31 December 
+2025: nil), primarily due to recognition of the separated liability component arising from the 
+issuance of zero coupon convertible bonds on 28 January 2026. Further details are set out in 
+the section headed “Issue of Convertible Bonds” below.
+Our bank borrowings increased by 53.3% from RMB345.8 million as of 31 December 2025 
+to RMB530.1 million as at 30 June 2026, reflecting the net increased balance of our bank 
+borrowings. Our bank borrowings as of 30 June 2026 were denominated in Renminbi. Some 
+of our bank borrowings were secured by equity interests of our subsidiaries and guarantees 
+provided by our subsidiaries. All of the bank borrowings bore fixed interest rates.
+Gearing Ratio
+No gearing ratio (net debt (borrowings less cash balance) divided by total equity) was 
+presented as the Group had net cash surplus as at 30 June 2026 and 31 December 2025. 
+At those dates, the cash balance exceeded the borrowings by RMB5,680.8 million and 
+RMB6,722.8 million, respectively.
+
+[PDF PAGE 49]
+– 49 –
+LIQUIDITY AND CAPITAL RESOURCES
+For the six months ended 30 June 2026, we financed our capital expenditure and working 
+capital requirements primarily through borrowings, equity fundraising and cash inflows from 
+our business operations. We intend to continue relying on cash flows from operations and 
+those from financing activities including net proceeds from the Global Offering, proceeds 
+from the placing of new shares and net proceeds from the issue of Convertible Bonds. As at 
+30 June 2026, the sum of our cash and cash equivalents, bank deposits, current portion of 
+financial assets at FVTPL and restricted cash was RMB8,671.2 million, as compared with 
+RMB7,068.6 million as of 31 December 2025.
+With respect to cash management, we have established treasury and investment policies, such 
+as our treasury management policy (資金管理制度), to monitor and manage our settlement 
+activities and financing activities (including broadening and diversification of fundraising 
+channels and cash management tools), and to control the risks relating to bank deposits and/
+or the purchase of financial instruments. We place bank deposits and/or purchase financial 
+instruments only when we have spare cash in addition to sufficient cash for our operations and 
+in the best interest of our Company.
+Issue of Convertible Bonds
+On 8 January 2026, the Company announced the issue of zero coupon convertible bonds (the 
+“Convertible Bonds”) in an aggregate principal amount of HK$2,866,000,000. The issue of 
+the Convertible Bonds was completed on 28 January 2026. The net proceeds from the issue of 
+the Convertible Bonds, after deduction of fees and commissions and other estimated expenses, 
+were approximately HK$2,839.4 million.
+The Company intended to use the net proceeds from the issue of the Convertible Bonds 
+primarily for (i) enhancing the Issuer’s domestic and international research and development 
+capabilities and one-stop-solution provision capabilities, (ii) enhancing domestic and 
+international commercialisation capabilities and expand business development and marketing 
+teams, (iii) expanding domestic and international delivering and research and development 
+capabilities through site construction, and (iv) working capital and general corporate purposes.
+To the extent that the net proceeds from the Convertible Bonds are not immediately used for 
+the purposes described above, the Company may hold such unutilised proceeds in short-term 
+deposits (and not short-term wealth management products) placed with licensed financial 
+institutions.
+CONTINGENT LIABILITIES
+As of 31 December 2025 and 30 June 2026, we did not have material contingent liabilities 
+that were expected to materially and adversely affect our financial condition or results of 
+operations.
+
+[PDF PAGE 50]
+– 50 –
+CAPITAL EXPENDITURES
+Our capital expenditures are used to expand our operations and upgrade our facilities. For 
+the six months ended 30 June 2025 and 2026, we incurred capital expenditures of RMB45.2 
+million and RMB57.2 million, respectively, primarily consisting of expenditures on property, 
+plant and equipment and intangible assets.
+FOREIGN EXCHANGE
+Foreign exchange risk arises when future commercial transactions or recognised assets and 
+liabilities are denominated in a currency that is not our entities’ functional currency. We 
+closely monitor our foreign exchange exposures and will take actions as necessary to mitigate 
+the impact of exchange rate fluctuations.
+PLEDGE OF ASSETS
+As of 30 June 2026, the equity interests of one of our subsidiaries were pledged by our Group 
+(as of 31 December 2025: one patent held by our subsidiaries and equity interests of one of 
+our subsidiaries were pledged by our Group).
+SIGNIFICANT INVESTMENTS HELD AND MATERIAL ACQUISITIONS AND 
+DISPOSALS
+As at 30 June 2026, there was no significant investment held by our Group, nor were any 
+material acquisitions or disposals of subsidiaries, associates and joint ventures during the 
+Reporting Period.
+FUTURE PLANS FOR MATERIAL INVESTMENTS OR CAPITAL ASSETS
+We did not have any concrete plan for material investments or acquisition of capital assets 
+other than those mentioned in this announcement, the prospectus of the Company dated 4 June 
+2024 or in our previous announcements from the listing of the Company’s shares on 13 June 
+2024 to 30 June 2026, including the announcements on the placing of the Company’s shares in 
+2025, and the issue of the Convertible Bonds in January 2026.
+EMPLOYEES AND REMUNERATION POLICY
+As of 30 June 2025 and 30 June 2026, we had a total of 1,054 and 1,623 employees, 
+respectively. For the six months ended 30 June 2026, the total remuneration cost incurred by 
+the Group was RMB451.8 million (six months ended 30 June 2025: RMB316.8 million).
+The remuneration of our Group’s employees comprises salaries, bonuses, employees’ 
+provident fund, share-based payment, and social security contributions and other welfare 
+payments, which are determined by their responsibilities, qualifications, positions and 
+seniority. In accordance with applicable laws and regulations, we make contributions to 
+social security insurance funds (including pension plans, medical insurance, work-related 
+injury insurance, unemployment insurance and maternity insurance) and housing funds for the 
+Group’s employees.
+
+[PDF PAGE 51]
+– 51 –
+We provide formal and comprehensive company-level and department-level training to our 
+new employees, followed by on-the-job training. We also provide training and development 
+programs to our employees from time-to-time to ensure their awareness and compliance with 
+our various policies and procedures. Some of the training is conducted jointly by departments 
+serving different functions but working with or supporting each other in our day-to-day 
+operations.
+SUBSEQUENT EVENTS
+No significant events occurred which have material impact on the performance of the Group 
+subsequent to 30 June 2026 and up to the date of this announcement.
+INTERIM DIVIDEND
+The Board does not recommend the distribution of any interim dividend for the six months 
+ended 30 June 2026 (six months ended 30 June 2025: nil).
+COMPLIANCE WITH THE CORPORATE GOVERNANCE CODE
+The Company aims to achieve high standards of corporate governance, which are crucial 
+to the Company’s development and safeguard the interests of the Company’s shareholders. 
+The Company has applied the principles of good corporate governance and adopted the code 
+provisions of the Corporate Governance Code (the “Corporate Governance Code”) as set 
+out in Appendix C1 to the Rules Governing the Listing of Securities on The Stock Exchange 
+of Hong Kong Limited (the “Listing Rules”) as its own code of corporate governance. The 
+Company has complied with all applicable code provisions set out in Part 2 of the Corporate 
+Governance Code during the six months ended 30 June 2026. The Board will review the 
+corporate governance structure and practices from time to time and shall make necessary 
+arrangements when the Board considers appropriate.
+COMPLIANCE WITH THE MODEL CODE FOR SECURITIES TRANSACTIONS
+The Company has adopted the Model Code for Securities Transactions by Directors of Listed 
+Issuers as set out in Appendix C3 to the Listing Rules (the “Model Code”) as its own code of 
+conduct for dealings in the securities of the Company by the Directors.
+Upon specific enquiry, all Directors confirmed that they have complied with the Model Code 
+during the six months ended 30 June 2026.
+PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES
+During the six months ended 30 June 2026, neither the Company nor any of its subsidiaries 
+had purchased, sold or redeemed any of the Company’s listed securities (including sale of 
+treasury shares). As of 30 June 2026, the Company did not hold any treasury shares.
+
+[PDF PAGE 52]
+– 52 –
+REVIEW OF INTERIM RESULTS
+The Company has established the Audit Committee with written terms of reference in 
+compliance with the Corporate Governance Code. The Audit Committee currently consists of 
+three independent non-executive Directors, namely, Mr. Law Cheuk Kin Stephen, Ms. Chan 
+Wing Ki and Mr. Chow Ming Sang. The Audit Committee is chaired by Mr. Law Cheuk Kin 
+Stephen. The Audit Committee has reviewed the unaudited consolidated interim financial 
+information of the Group for the Reporting Period and discussed with the management and 
+auditors of the Company the accounting principles and practices adopted by the Group.
+The interim financial information for the Reporting Period has not been audited but has 
+been reviewed by PricewaterhouseCoopers, the auditor of the Company, in accordance with 
+International Standard on Review Engagement 2410 “Review of interim financial information 
+performed by the independent auditor of the entity” issued by the International Auditing and 
+Assurance Standards Board.
+PUBLICATION OF INTERIM RESULTS AND INTERIM REPORT
+This announcement is published on the respective websites of the Company (www.xtalpi.com) 
+and the Stock Exchange (www.hkexnews.hk). The interim report for the Reporting Period will 
+be made available on the respective websites of the Company and the Stock Exchange as and 
+when appropriate.
+By order of the Board 
+XtalPi Holdings Limited 
+Dr. Wen Shuhao
+Chairman of the Board and Executive Director
+Hong Kong, 19 August 2026
+As at the date of this announcement, the Board comprises Dr. Wen Shuhao, Dr. Ma Jian, Dr. 
+Lai Lipeng and Dr. Jiang Yide Alan as executive Directors, and Mr. Law Cheuk Kin Stephen, 
+Ms. Chan Wing Ki and Mr. Chow Ming Sang as independent non-executive Directors.
