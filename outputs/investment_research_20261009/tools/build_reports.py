@@ -49,7 +49,7 @@ def display_confidence(value):
 
 def display_evidence_field(value):
     """Translate evidence table keys without changing the underlying model."""
-    return {'fundamentals':'基本面','technical':'量价','valuation':'估值','institutionTargets':'机构目标'}.get(value,value)
+    return {'fundamentals':'基本面','primaryFundamentals':'基本面主源','technical':'量价','valuation':'估值','institutionTargets':'机构目标','brokerTargets':'机构目标'}.get(value,value)
 
 def presentation_score_evidence(model,horizon):
     """Summarize existing issuer prose for display without altering model scores."""
@@ -212,6 +212,13 @@ def document(title,subtitle):
     update=OxmlElement('w:updateFields');update.set(qn('w:val'),'true');settings.append(update)
     return d
 
+def display_table_text(value):
+    text=str(value)
+    number=r'[+-]?\d[\d,.]*%?'
+    if '.' in text and re.fullmatch(number+r'(?:/'+number+r'){1,}',text):
+        return ' / '.join(text.split('/'))
+    return text
+
 def table(d,headers,rows,widths=None):
     t=d.add_table(rows=1,cols=len(headers));t.autofit=False
     borders=OxmlElement('w:tblBorders')
@@ -225,7 +232,7 @@ def table(d,headers,rows,widths=None):
     repeat=OxmlElement('w:tblHeader');t.rows[0]._tr.get_or_add_trPr().append(repeat)
     for row in rows:
         cells=t.add_row().cells
-        for i,v in enumerate(row):cells[i].text=str(v)
+        for i,v in enumerate(row):cells[i].text=display_table_text(v)
     for ridx,row in enumerate(t.rows):
         keep=OxmlElement('w:cantSplit');row._tr.get_or_add_trPr().append(keep)
         for i,c in enumerate(row.cells):
@@ -239,6 +246,7 @@ def table(d,headers,rows,widths=None):
             c.width=Cm(widths[i] if widths else 16.8/len(headers))
             for p in c.paragraphs:
                 p.paragraph_format.space_after=Pt(4);p.paragraph_format.line_spacing=1.18
+                word_wrap=OxmlElement('w:wordWrap');word_wrap.set(qn('w:val'),'0');p._p.get_or_add_pPr().append(word_wrap)
                 for r in p.runs:
                     r.font.name='微软雅黑';r.font.size=Pt(8.5);r._element.get_or_add_rPr().rFonts.set(qn('w:eastAsia'),'微软雅黑')
     d.add_paragraph()
@@ -300,11 +308,23 @@ def render_md(d,text):
         line=line.replace('**','').replace('`','')
         d.add_paragraph(line)
 
+def conditional_presentation(m):
+    if m.get('issuerId')=='I008':
+        return (
+            '以下是未融资完整计划的现金压力参考，展示现有资金与完整研发计划的资金缺口，不计算正式推荐分、涨跌幅、含息回报或判断加权期望价。远期资金缺口触发的0值不是近期期望价或清算价。',
+            ['未融资计划期限','目标日','悲观现金压力参考','基准现金压力参考','乐观现金压力参考']
+        )
+    return (
+        '以下仅是融资、存续或复牌条件成立后的估值参考，不计算正式推荐分、涨跌幅、含息回报或判断加权期望价。',
+        ['条件参考期限','目标日','悲观参考价','基准参考价','乐观参考价']
+    )
+
 def model_summary(d,m):
     if m.get('rankEligible') is False:
         d.add_paragraph('暂不排名。'+m.get('rankingExclusionReason','核心数据或持续经营条件不足。'))
-        d.add_paragraph('以下仅是融资、存续或复牌条件成立后的估值参考，不计算正式推荐分、涨跌幅、含息回报或判断加权期望价。')
-        table(d,['条件参考期限','目标日','悲观参考价','基准参考价','乐观参考价'],[[LABELS[h],s.get('target','待核')]+[num(v) for v in s.get('priceHKD',s.get('priceCNY',s.get('priceTargets',[None]*3)))] for h,s in m.get('conditionalScenarios',{}).items()])
+        conditional_note,conditional_headers=conditional_presentation(m)
+        d.add_paragraph(conditional_note)
+        table(d,conditional_headers,[[LABELS[h],s.get('target','待核')]+[num(v) for v in s.get('priceHKD',s.get('priceCNY',s.get('priceTargets',[None]*3)))] for h,s in m.get('conditionalScenarios',{}).items()])
         for h,s in m.get('conditionalScenarios',{}).items():
             d.add_paragraph(LABELS[h]+'成立条件：'+'；'.join(s.get('conditions',[])))
         return
@@ -364,6 +384,8 @@ def overview():
         d.add_paragraph('暂不排名公司的研究状态','Heading 2')
         table(d,['证券','参考报价/币种','参考日期','暂不排名原因'],[[m['name']+'\n'+m['code'],num(m.get('referencePrice',m['price']))+' '+m['currency'],m.get('referencePriceDate','待核'),m.get('rankingExclusionReason','待核')]for m in B['conditionedModels']])
         d.add_paragraph('上述公司有独立深研，条件估值详见深研和Excel专表；条件价格不与正常公司年底情景、正式回报或期望价混列。')
+        if any(m.get('issuerId')=='I008' for m in B['conditionedModels']):
+            d.add_paragraph('英矽智能暂不排名。其专表是未融资完整计划的现金压力参考；完整研发计划与现有资金不能在基准融资价格和项目退出假设下合理自洽。远期资金缺口触发的0值不是近期期望价、正式公允价或清算价，不纳入年底判断加权期望。完整独立研究保留经营、临床、技术和融资反证。')
     d.add_paragraph('评分与估值口径','Heading 1')
     d.add_paragraph('港股一年名义目标为2027年10月9日；10月8日为重阳节假期，且9日为周六，实际采用2027年10月7日。2026年12月31日为半日市，仍属有效交易日。香港政府2026及2027公布假期配合HKEX证券交易规则核验；2029和2031港股及内地远期日历未完成核验，保留名义日期而不填造实际日期。有限现金流模型已按已核验实际日重新折现，独立经营情景输入不按两日差异机械插值。')
     d.add_paragraph('日历主源：https://www.gov.hk/en/about/abouthk/holiday/2027.htm；https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en。公布月份分别为2026年5月与规则更新2017年9月16日。')

@@ -1,9 +1,9 @@
 {
-  "createdAt": "2026-10-11T07:17:05.340Z",
-  "fingerprintObserved": "f94f3d19b4e62e0b",
-  "buildSourceSHA256": "f2f15ab092fea5088f3f0e040c705c6bdd22adfdcd59a931c7d8c1c912e97df4",
+  "createdAt": "2026-10-11T07:56:57.414Z",
+  "fingerprintObserved": "63ca87a2011995a6",
+  "buildSourceSHA256": "4b6c7b639d3b183ffbee7f0b52b00717fc07dad9382e1e209391aa6c27b7c234",
   "scope": "read-only report-builder syntax and data structure; no DOCX rebuild or visual QA claimed",
-  "checks": 827,
+  "checks": 833,
   "passed": true,
   "details": [
     {
@@ -27,7 +27,37 @@
       "details": null
     },
     {
+      "name": "Evidence table alternate field names display in Chinese",
+      "passed": true,
+      "details": null
+    },
+    {
       "name": "Unknown evidence field is preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Compound numeric price cells break between prices",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Plain numeric and source cells keep exact display text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Insilico unfinanced plan presentation distinguishes funding pressure from fair price",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Insilico conditional table labels all three cases cash pressure",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Other conditional presentation retains financing or resumption basis",
       "passed": true,
       "details": null
     },
@@ -2142,46 +2172,6 @@
       "details": null
     },
     {
-      "name": "halfYear 03696.HK all six display reasons nonempty",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "halfYear 03696.HK display scores and weights unchanged",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "oneYear 03696.HK all six display reasons nonempty",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "oneYear 03696.HK display scores and weights unchanged",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "threeYear 03696.HK all six display reasons nonempty",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "threeYear 03696.HK display scores and weights unchanged",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "fiveYear 03696.HK all six display reasons nonempty",
-      "passed": true,
-      "details": null
-    },
-    {
-      "name": "fiveYear 03696.HK display scores and weights unchanged",
-      "passed": true,
-      "details": null
-    },
-    {
       "name": "halfYear 688382.SH all six display reasons nonempty",
       "passed": true,
       "details": null
@@ -3982,6 +3972,46 @@
       "details": null
     },
     {
+      "name": "halfYear 02228.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02228.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02228.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02228.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02228.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02228.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02228.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02228.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
       "name": "halfYear 00772.HK all six display reasons nonempty",
       "passed": true,
       "details": null
@@ -4385,12 +4415,12 @@
     }
   ],
   "currentCoverage": {
-    "issuerModels": 91,
-    "securityModels": 95,
+    "issuerModels": 92,
+    "securityModels": 96,
     "rankedSecurityModels": 91,
-    "conditionedSecurityModels": 4,
-    "deepResearchPassed": 91,
-    "remainingDeepResearch": 1,
+    "conditionedSecurityModels": 5,
+    "deepResearchPassed": 92,
+    "remainingDeepResearch": 0,
     "withheldManuscripts": []
   },
   "currentGroups": [
@@ -4408,9 +4438,9 @@
       "I069",
       "I064",
       "I011",
+      "I029",
       "I082",
       "I001",
-      "I029",
       "I022",
       "I074"
     ],
@@ -4452,12 +4482,12 @@
       "I023",
       "I017",
       "I092",
-      "I071"
+      "I062"
     ],
     [
       "I067",
+      "I071",
       "I070",
-      "I062",
       "I057",
       "I013",
       "I018",
@@ -4485,21 +4515,21 @@
     ],
     [
       "I051",
-      "I008",
       "I037",
       "I030",
       "I028",
       "I047",
-      "I084"
+      "I084",
+      "I066"
     ],
     [
       "I085",
-      "I066",
       "I002",
-      "I059",
       "I020",
+      "I059",
       "I026",
-      "I088"
+      "I088",
+      "I027"
     ],
     [
       "I046",
@@ -4507,6 +4537,7 @@
       "I016",
       "I007",
       "I009",
+      "I008",
       "I038"
     ]
   ],
@@ -4525,9 +4556,9 @@
       "I069",
       "I064",
       "I011",
+      "I029",
       "I082",
       "I001",
-      "I029",
       "I022",
       "I074"
     ],
@@ -4569,12 +4600,12 @@
       "I023",
       "I017",
       "I092",
-      "I071"
+      "I062"
     ],
     [
       "I067",
+      "I071",
       "I070",
-      "I062",
       "I057",
       "I013",
       "I018",
@@ -4602,29 +4633,29 @@
     ],
     [
       "I051",
-      "I008",
       "I037",
       "I030",
       "I028",
       "I047",
-      "I084"
+      "I084",
+      "I066"
     ],
     [
       "I085",
-      "I066",
       "I002",
-      "I059",
       "I020",
+      "I059",
       "I026",
-      "I088"
+      "I088",
+      "I027"
     ],
     [
       "I046",
       "I021",
       "I016",
       "I007",
-      "I027",
       "I009",
+      "I008",
       "I038"
     ]
   ]

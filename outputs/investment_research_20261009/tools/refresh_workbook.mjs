@@ -23,7 +23,13 @@ const backup=path.join(root,'qa/input_backups');await fs.mkdir(backup,{recursive
 await fs.copyFile(input,path.join(backup,'inputs_'+Date.now()+'.xlsx'));
 await fs.writeFile(path.join(root,'data/workbook_overrides.json'),JSON.stringify(saved,null,2));
 await fs.writeFile(path.join(root,'qa/workbook_refresh_changes.json'),JSON.stringify({updatedAt:saved.updatedAt,changes},null,2));
-for(const script of ['assemble.mjs','build_workbook.mjs']){
- const r=spawnSync(process.execPath,[path.join(root,'tools',script)],{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);
+const python='C:/Users/happyelements/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
+const refreshCommands=[
+ [process.execPath,[path.join(root,'tools/assemble.mjs')]],
+ [python,[path.join(root,'tools/report_scope_audit.py')]],
+ [process.execPath,[path.join(root,'tools/build_workbook.mjs')]],
+];
+for(const[command,args]of refreshCommands){
+ const r=spawnSync(command,args,{stdio:'inherit',env:{...process.env,PYTHONUTF8:'1'}});if(r.status!==0)process.exit(r.status??1);
 }
 console.log(JSON.stringify({changedInputs:changes.length,persistedOverrides:saved.records.length,status:'Excel三情景与排名已重建；Word/PDF须按同一bundle重新生成并验收'}));

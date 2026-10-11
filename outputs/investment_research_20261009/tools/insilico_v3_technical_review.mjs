@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const root='G:/MyTarget/outputs/investment_research_20261009',modelRaw=fs.readFileSync(root+'/data/insilico_model.pending.json'),bodyRaw=fs.readFileSync(root+'/research/I008_deep.md'),lockRaw=fs.readFileSync(root+'/data/market_snapshot_locked.json');
+const code=fs.readFileSync(new URL('./insilico_locked_technical_review.mjs',import.meta.url),'utf8').replaceAll('/qa/insilico_locked_technical_review.json','/qa/insilico_v3_technical_review.json');
+await import('data:text/javascript;charset=utf-8,'+encodeURIComponent(code));
+const m=JSON.parse(modelRaw),q=JSON.parse(lockRaw).securities.find(x=>x.securityId==='S008'),report=JSON.parse(fs.readFileSync(root+'/qa/insilico_v3_technical_review.json'));
+for(const field of ['technical','weeklyTechnical','relativeStrength'])report.checks.push({name:'v3 preserves locked '+field,pass:JSON.stringify(m[field])===JSON.stringify(q[field])});
+const sha=x=>crypto.createHash('sha256').update(x).digest('hex');
+Object.assign(report,{modelVersion:m.modelVersion,modelSHA256:sha(modelRaw),bodySHA256:sha(bodyRaw),reviewDate:'2026-10-11',checksCount:report.checks.length,status:report.checks.every(x=>x.pass)?'PASS locked numerical observations; new version paired':'FAIL'});
+fs.writeFileSync(root+'/qa/insilico_v3_technical_review.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:report.status,checks:report.checksCount,failures:report.checks.filter(x=>!x.pass),modelSHA256:report.modelSHA256,bodySHA256:report.bodySHA256},null,2));

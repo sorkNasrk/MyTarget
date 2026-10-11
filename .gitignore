@@ -9,3 +9,6 @@ __pycache__/
 # Regenerable report page previews and workbook inspection output
 /outputs/investment_research_20261009/qa/render*/
 *.inspect.ndjson
+
+# Writer temporary document locks
+.~lock.*#

@@ -1,4 +1,4 @@
-import ast, copy, hashlib, importlib.util, json, sys
+import ast, copy, hashlib, importlib.util, json, os, sys, tempfile
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -11,6 +11,16 @@ sys.modules[spec.name]=module
 spec.loader.exec_module(module)
 B=module.B
 checks=[]
+def write_json_atomic(destination,data):
+    """Replace generated metadata atomically, including when an old file is open."""
+    descriptor,name=tempfile.mkstemp(prefix=destination.stem+'_',suffix='.tmp',dir=destination.parent)
+    os.close(descriptor)
+    temporary=Path(name)
+    try:
+        temporary.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+        os.replace(temporary,destination)
+    finally:
+        if temporary.exists():temporary.unlink()
 def check(name,condition,details=None):
     checks.append({'name':name,'passed':bool(condition),'details':details})
 
@@ -18,7 +28,14 @@ check('Python syntax parses',True)
 check('Confidence label presentation faithfully maps three labels',module.display_confidence({'a':'high','b':'medium','c':'low'})=={'a':'高','b':'中','c':'低'})
 check('Confidence presentation leaves numeric evidence unchanged',module.display_confidence({'value':3.5,'reason':'中等可信；现金237.06亿元'})=={'value':3.5,'reason':'中等可信；现金237.06亿元'})
 check('Evidence table fields display in Chinese',list(map(module.display_evidence_field,['fundamentals','technical','valuation','institutionTargets']))==['基本面','量价','估值','机构目标'])
+check('Evidence table alternate field names display in Chinese',list(map(module.display_evidence_field,['primaryFundamentals','brokerTargets']))==['基本面主源','机构目标'])
 check('Unknown evidence field is preserved',module.display_evidence_field('specialClinicalEvidence')=='specialClinicalEvidence')
+check('Compound numeric price cells break between prices',module.display_table_text('2.13/37.50/103.52')=='2.13 / 37.50 / 103.52' and module.display_table_text('0.38/37.25/119.48')=='0.38 / 37.25 / 119.48')
+check('Plain numeric and source cells keep exact display text',module.display_table_text('103.52')=='103.52' and module.display_table_text('https://example.test/source.pdf')=='https://example.test/source.pdf')
+insilico_note,insilico_headers=module.conditional_presentation({'issuerId':'I008'})
+check('Insilico unfinanced plan presentation distinguishes funding pressure from fair price','未融资完整计划的现金压力参考' in insilico_note and '0值不是近期期望价或清算价' in insilico_note and '融资、存续或复牌条件成立后' not in insilico_note)
+check('Insilico conditional table labels all three cases cash pressure',insilico_headers[2:]==['悲观现金压力参考','基准现金压力参考','乐观现金压力参考'])
+check('Other conditional presentation retains financing or resumption basis','融资、存续或复牌条件成立后的估值参考' in module.conditional_presentation({'issuerId':'I009'})[0])
 check('Scope securities all stocks',all(s['type']=='股票' for s in module.coverage_state()['stocks']))
 check('Current stock scope counts',module.coverage_state()['issuers']==92 and module.coverage_state()['securities']==96)
 groups=module.volume_groups()
@@ -60,8 +77,8 @@ for model in B['models']:
         check(horizon+' '+model['code']+' display scores and weights unchanged',[r['score'] for r in rows]==model['scores'][horizon]['dimensions'] and [r['weight'] for r in rows]==B['weights'][horizon])
         presentation.append({'issuerId':model['issuerId'],'securityId':model['securityId'],'code':model['code'],'name':model['name'],'horizon':horizon,'rows':rows})
 presentation_data={'fingerprint':B['fingerprint'],'createdAt':B['createdAt'],'buildSourceSHA256':hashlib.sha256(source.encode()).hexdigest(),'purpose':'Shared Chinese score evidence presentation for DOCX and Excel; numeric model scores unchanged; sourceBasis distinguishes issuer prose summaries','securities':len(B['models']),'horizons':module.HORIZONS,'rows':presentation}
-(ROOT/'data/score_presentation.json').write_text(json.dumps(presentation_data,ensure_ascii=False,indent=2),encoding='utf-8')
+write_json_atomic(ROOT/'data/score_presentation.json',presentation_data)
 report={'createdAt':B['createdAt'],'fingerprintObserved':B.get('fingerprint'),'buildSourceSHA256':hashlib.sha256(source.encode()).hexdigest(),'scope':'read-only report-builder syntax and data structure; no DOCX rebuild or visual QA claimed','checks':len(checks),'passed':all(x['passed'] for x in checks),'details':checks,'leaders':leaders,'currentCoverage':module.coverage_state()['summary'],'currentGroups':groups,'completeFixtureGroups':module.volume_groups(complete)}
-(ROOT/'qa/report_scope_audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+write_json_atomic(ROOT/'qa/report_scope_audit.json',report)
 print(json.dumps({'checks':report['checks'],'passed':report['passed'],'failures':[x for x in checks if not x['passed']],'missingStructuredReasons':[r for r in leaders if r['reasonCount']==0]},ensure_ascii=False))
 if not report['passed']:sys.exit(1)

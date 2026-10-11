@@ -1,11 +1,12 @@
 {
   "issuerId": "I008",
   "passed": true,
-  "checks": 51,
-  "effectiveChineseCharacters": 13041,
-  "paragraphs": 89,
+  "checks": 180,
+  "effectiveChineseCharacters": 15585,
+  "paragraphs": 105,
   "exactDuplicates": 0,
-  "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+  "nearDuplicates": 0,
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
   "excluded": "opening, heading rows, tables, sources; only issuer-specific narrative counted",
-  "scope": "four horizon/YE consistency, financial and clinical and CB/cash boundaries"
+  "scope": "formal empty/unranked, conditional stress consistency, 67 identity and32 demand, clinical/CB/net-right/cost/funding/patent boundaries"
 }

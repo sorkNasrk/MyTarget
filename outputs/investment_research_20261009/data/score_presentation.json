@@ -1,7 +1,7 @@
 {
-  "fingerprint": "f94f3d19b4e62e0b",
-  "createdAt": "2026-10-11T07:17:05.340Z",
-  "buildSourceSHA256": "31aecd22f1fbfdb0425148018d556a997c5ca113debffb99743c8f8224e1353f",
+  "fingerprint": "63ca87a2011995a6",
+  "createdAt": "2026-10-11T07:56:57.414Z",
+  "buildSourceSHA256": "4b6c7b639d3b183ffbee7f0b52b00717fc07dad9382e1e209391aa6c27b7c234",
   "purpose": "Shared Chinese score evidence presentation for DOCX and Excel; numeric model scores unchanged; sourceBasis distinguishes issuer prose summaries",
   "securities": 91,
   "horizons": [
@@ -8371,210 +8371,6 @@
           "score": 3,
           "weight": 15,
           "reason": "现金充足但合同责任、全球投入、临床风险及股权激励成本增加",
-          "sourceBasis": ""
-        }
-      ]
-    },
-    {
-      "issuerId": "I008",
-      "securityId": "S008",
-      "code": "03696.HK",
-      "name": "英矽智能",
-      "horizon": "halfYear",
-      "rows": [
-        {
-          "dimension": "估值与预期回报",
-          "score": 1.5,
-          "weight": 25,
-          "reason": "项目现金和九净资产组合折现，持续首款依赖外部签约，市场对临床和平台溢价较高",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "量价与相对强弱",
-          "score": 2.5,
-          "weight": 30,
-          "reason": "49港元低于20日55.47而略高60/120日48.71/48.69，20日弱于HSI，日ATR8.54%；192根不足一年不补250MA",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "经营增长与商业质量",
-          "score": 3.6,
-          "weight": 15,
-          "reason": "AI至wetlab及临床形成数据闭环，H1利润主要115mLilly首款，software仅2.697m，质量需分季验证",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "行业周期与需求",
-          "score": 4.3,
-          "weight": 10,
-          "reason": "全球药物研发提高失败成本，AIDD渗透及授权周期可增长，但数据/跨境政策影响投融资",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "期限催化剂",
-          "score": 3.8,
-          "weight": 10,
-          "reason": "中国IPFIII入组、IIa/I数据和已签伙伴milestones，半年不假定2029III读出提前",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "财务治理与下行风险",
-          "score": 3,
-          "weight": 10,
-          "reason": "June可动用现金存款MMF573.9m、已发行CB本金305m/净款301.6m，债到期及已授option/RSU稀释需配对；基金proposal无确定协议",
-          "sourceBasis": ""
-        }
-      ]
-    },
-    {
-      "issuerId": "I008",
-      "securityId": "S008",
-      "code": "03696.HK",
-      "name": "英矽智能",
-      "horizon": "oneYear",
-      "rows": [
-        {
-          "dimension": "估值与预期回报",
-          "score": 1.5,
-          "weight": 25,
-          "reason": "项目现金和九净资产组合折现，持续首款依赖外部签约，市场对临床和平台溢价较高",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "量价与相对强弱",
-          "score": 2.6,
-          "weight": 15,
-          "reason": "49港元低于20日55.47而略高60/120日48.71/48.69，20日弱于HSI，日ATR8.54%；192根不足一年不补250MA",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "经营增长与商业质量",
-          "score": 3.7,
-          "weight": 25,
-          "reason": "AI至wetlab及临床形成数据闭环，H1利润主要115mLilly首款，software仅2.697m，质量需分季验证",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "行业周期与需求",
-          "score": 4.4,
-          "weight": 15,
-          "reason": "全球药物研发提高失败成本，AIDD渗透及授权周期可增长，但数据/跨境政策影响投融资",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "期限催化剂",
-          "score": 3.6,
-          "weight": 10,
-          "reason": "中国IPFIII入组、IIa/I数据和已签伙伴milestones，半年不假定2029III读出提前",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "财务治理与下行风险",
-          "score": 3.1,
-          "weight": 10,
-          "reason": "June可动用现金存款MMF573.9m、已发行CB本金305m/净款301.6m，债到期及已授option/RSU稀释需配对；基金proposal无确定协议",
-          "sourceBasis": ""
-        }
-      ]
-    },
-    {
-      "issuerId": "I008",
-      "securityId": "S008",
-      "code": "03696.HK",
-      "name": "英矽智能",
-      "horizon": "threeYear",
-      "rows": [
-        {
-          "dimension": "估值与预期回报",
-          "score": 1.8,
-          "weight": 25,
-          "reason": "项目现金和九净资产组合折现，持续首款依赖外部签约，市场对临床和平台溢价较高",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "量价与相对强弱",
-          "score": 2.7,
-          "weight": 5,
-          "reason": "49港元低于20日55.47而略高60/120日48.71/48.69，20日弱于HSI，日ATR8.54%；192根不足一年不补250MA",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "经营增长与商业质量",
-          "score": 3.9,
-          "weight": 35,
-          "reason": "AI至wetlab及临床形成数据闭环，H1利润主要115mLilly首款，software仅2.697m，质量需分季验证",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "行业周期与需求",
-          "score": 4.4,
-          "weight": 20,
-          "reason": "全球药物研发提高失败成本，AIDD渗透及授权周期可增长，但数据/跨境政策影响投融资",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "期限催化剂",
-          "score": 3.8,
-          "weight": 5,
-          "reason": "中国IPFIII入组、IIa/I数据和已签伙伴milestones，半年不假定2029III读出提前",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "财务治理与下行风险",
-          "score": 3,
-          "weight": 10,
-          "reason": "June可动用现金存款MMF573.9m、已发行CB本金305m/净款301.6m，债到期及已授option/RSU稀释需配对；基金proposal无确定协议",
-          "sourceBasis": ""
-        }
-      ]
-    },
-    {
-      "issuerId": "I008",
-      "securityId": "S008",
-      "code": "03696.HK",
-      "name": "英矽智能",
-      "horizon": "fiveYear",
-      "rows": [
-        {
-          "dimension": "估值与预期回报",
-          "score": 2,
-          "weight": 20,
-          "reason": "项目现金和九净资产组合折现，持续首款依赖外部签约，市场对临床和平台溢价较高",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "量价与相对强弱",
-          "score": 0,
-          "weight": 0,
-          "reason": "49港元低于20日55.47而略高60/120日48.71/48.69，20日弱于HSI，日ATR8.54%；192根不足一年不补250MA",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "经营增长与商业质量",
-          "score": 4,
-          "weight": 40,
-          "reason": "AI至wetlab及临床形成数据闭环，H1利润主要115mLilly首款，software仅2.697m，质量需分季验证",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "行业周期与需求",
-          "score": 4.3,
-          "weight": 20,
-          "reason": "全球药物研发提高失败成本，AIDD渗透及授权周期可增长，但数据/跨境政策影响投融资",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "期限催化剂",
-          "score": 3.6,
-          "weight": 5,
-          "reason": "中国IPFIII入组、IIa/I数据和已签伙伴milestones，半年不假定2029III读出提前",
-          "sourceBasis": ""
-        },
-        {
-          "dimension": "财务治理与下行风险",
-          "score": 3,
-          "weight": 15,
-          "reason": "June可动用现金存款MMF573.9m、已发行CB本金305m/净款301.6m，债到期及已授option/RSU稀释需配对；基金proposal无确定协议",
           "sourceBasis": ""
         }
       ]
@@ -17755,6 +17551,210 @@
           "score": 2.2,
           "weight": 15,
           "reason": "现金受限、借款及融资租上升，SBC/WVR/关联交易及赎回追索",
+          "sourceBasis": ""
+        }
+      ]
+    },
+    {
+      "issuerId": "I027",
+      "securityId": "S032",
+      "code": "02228.HK",
+      "name": "晶泰控股",
+      "horizon": "halfYear",
+      "rows": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 0.5,
+          "weight": 25,
+          "reason": "当前市值约300亿HKD，半年度授权和资产公允价值不等持续利润；七自研适应症研究假设，未名/归属不明零观察；股东现金与销售倍数交叉验证",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "量价与相对强弱",
+          "score": 2,
+          "weight": 30,
+          "reason": "6.985低于20/60/120/250日MA，60日弱HSI9.06百分点，日ATR7.17%，放量下跌不支持突破加分",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "经营增长与商业质量",
+          "score": 3.3,
+          "weight": 15,
+          "reason": "AI4S收入136.4%增、药物剔大款服务增，平台与实验连接但点时收入87.74%、现金与验收待检",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "行业周期与需求",
+          "score": 4.3,
+          "weight": 10,
+          "reason": "AIforScience/实验自动化需求扩张，跨境药企资本开支与材料实验预算仍有周期",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "期限催化剂",
+          "score": 3.4,
+          "weight": 10,
+          "reason": "GPCR/Stanford及Dove未来合同款、2027IND候选和年度交付，不能把计划当实际临床",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "财务治理与下行风险",
+          "score": 3.2,
+          "weight": 10,
+          "reason": "银行、基金、票据分开；CBJan2027按101.76%现金兑付；既发PreESOP不重加新股，投资归属及披露治理折价",
+          "sourceBasis": ""
+        }
+      ]
+    },
+    {
+      "issuerId": "I027",
+      "securityId": "S032",
+      "code": "02228.HK",
+      "name": "晶泰控股",
+      "horizon": "oneYear",
+      "rows": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 0.5,
+          "weight": 25,
+          "reason": "当前市值约300亿HKD，半年度授权和资产公允价值不等持续利润；七自研适应症研究假设，未名/归属不明零观察；股东现金与销售倍数交叉验证",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "量价与相对强弱",
+          "score": 2.2,
+          "weight": 15,
+          "reason": "6.985低于20/60/120/250日MA，60日弱HSI9.06百分点，日ATR7.17%，放量下跌不支持突破加分",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "经营增长与商业质量",
+          "score": 3.5,
+          "weight": 25,
+          "reason": "AI4S收入136.4%增、药物剔大款服务增，平台与实验连接但点时收入87.74%、现金与验收待检",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "行业周期与需求",
+          "score": 4.3,
+          "weight": 15,
+          "reason": "AIforScience/实验自动化需求扩张，跨境药企资本开支与材料实验预算仍有周期",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "期限催化剂",
+          "score": 3.6,
+          "weight": 10,
+          "reason": "GPCR/Stanford及Dove未来合同款、2027IND候选和年度交付，不能把计划当实际临床",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "财务治理与下行风险",
+          "score": 3.3,
+          "weight": 10,
+          "reason": "银行、基金、票据分开；CBJan2027按101.76%现金兑付；既发PreESOP不重加新股，投资归属及披露治理折价",
+          "sourceBasis": ""
+        }
+      ]
+    },
+    {
+      "issuerId": "I027",
+      "securityId": "S032",
+      "code": "02228.HK",
+      "name": "晶泰控股",
+      "horizon": "threeYear",
+      "rows": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 0.5,
+          "weight": 25,
+          "reason": "当前市值约300亿HKD，半年度授权和资产公允价值不等持续利润；七自研适应症研究假设，未名/归属不明零观察；股东现金与销售倍数交叉验证",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "量价与相对强弱",
+          "score": 2.4,
+          "weight": 5,
+          "reason": "6.985低于20/60/120/250日MA，60日弱HSI9.06百分点，日ATR7.17%，放量下跌不支持突破加分",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "经营增长与商业质量",
+          "score": 3.8,
+          "weight": 35,
+          "reason": "AI4S收入136.4%增、药物剔大款服务增，平台与实验连接但点时收入87.74%、现金与验收待检",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "行业周期与需求",
+          "score": 4.4,
+          "weight": 20,
+          "reason": "AIforScience/实验自动化需求扩张，跨境药企资本开支与材料实验预算仍有周期",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "期限催化剂",
+          "score": 3.7,
+          "weight": 5,
+          "reason": "GPCR/Stanford及Dove未来合同款、2027IND候选和年度交付，不能把计划当实际临床",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "财务治理与下行风险",
+          "score": 3.2,
+          "weight": 10,
+          "reason": "银行、基金、票据分开；CBJan2027按101.76%现金兑付；既发PreESOP不重加新股，投资归属及披露治理折价",
+          "sourceBasis": ""
+        }
+      ]
+    },
+    {
+      "issuerId": "I027",
+      "securityId": "S032",
+      "code": "02228.HK",
+      "name": "晶泰控股",
+      "horizon": "fiveYear",
+      "rows": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 0.6,
+          "weight": 20,
+          "reason": "当前市值约300亿HKD，半年度授权和资产公允价值不等持续利润；七自研适应症研究假设，未名/归属不明零观察；股东现金与销售倍数交叉验证",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "量价与相对强弱",
+          "score": 0,
+          "weight": 0,
+          "reason": "6.985低于20/60/120/250日MA，60日弱HSI9.06百分点，日ATR7.17%，放量下跌不支持突破加分",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "经营增长与商业质量",
+          "score": 4,
+          "weight": 40,
+          "reason": "AI4S收入136.4%增、药物剔大款服务增，平台与实验连接但点时收入87.74%、现金与验收待检",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "行业周期与需求",
+          "score": 4.4,
+          "weight": 20,
+          "reason": "AIforScience/实验自动化需求扩张，跨境药企资本开支与材料实验预算仍有周期",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "期限催化剂",
+          "score": 3.7,
+          "weight": 5,
+          "reason": "GPCR/Stanford及Dove未来合同款、2027IND候选和年度交付，不能把计划当实际临床",
+          "sourceBasis": ""
+        },
+        {
+          "dimension": "财务治理与下行风险",
+          "score": 3.2,
+          "weight": 15,
+          "reason": "银行、基金、票据分开；CBJan2027按101.76%现金兑付；既发PreESOP不重加新股，投资归属及披露治理折价",
           "sourceBasis": ""
         }
       ]

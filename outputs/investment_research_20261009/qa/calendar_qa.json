@@ -2,7 +2,7 @@
   "passed": true,
   "knownCases": 8,
   "issuerSecurityChecks": 77,
-  "conditionalHKChecks": 4,
+  "conditionalHKChecks": 5,
   "calendarSources": {
     "2026": {
       "url": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
@@ -17,6 +17,6 @@
       "publicationDate": "2017-09-16"
     }
   },
-  "fingerprint": "f94f3d19b4e62e0b",
+  "fingerprint": "63ca87a2011995a6",
   "unpublishedCalendarsExplicitlyUnresolved": true
 }

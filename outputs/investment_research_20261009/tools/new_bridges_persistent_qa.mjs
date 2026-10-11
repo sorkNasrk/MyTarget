@@ -174,7 +174,8 @@ for(const [iid,prefix,key]of [['I008','insilico','insilicoBridge'],['I027','xtal
  allTests.push(...[['peak',-.001],['p',-.005],['netRate',-.01],['ownership',-.1]].map(([field,delta])=>({iid,kind:prefix+'Asset',field,groupIndex,caseIndex:1,delta})),{iid,kind:prefix+'Clinical',field:'clinical',groupIndex,index:2,caseIndex:1,delta:.001});
 }
 const focus=process.argv.find(x=>x.startsWith('--focus='))?.slice(8).split(',');
-const tests=focus?allTests.filter(t=>focus.includes(t.iid)):allTests;
+const availableTests=allTests.filter(t=>models.some(m=>m.issuerId===t.iid));
+const tests=focus?availableTests.filter(t=>focus.includes(t.iid)):availableTests;
 const sandbox=path.join(root,'qa/new_bridges_persistent_test_'+b.fingerprint+'_'+(focus??['all']).join('_'));await fs.mkdir(path.join(sandbox,'data'),{recursive:true});
 for(const t of tests){const m=models.find(m=>m.issuerId===t.iid),item=manifest.find(x=>x.code===m.code&&Object.entries(t).filter(([k])=>!['iid','delta'].includes(k)).every(([k,v])=>x[k]===v));if(!item)throw Error('Missing edit '+JSON.stringify(t));const value=item.originalValue+t.delta;
  wb.worksheets.getItem(item.sheet).getRange(item.cell).values=[[value]];await fs.writeFile(path.join(sandbox,'data/workbook_overrides.json'),JSON.stringify({records:[{...item,value}]}));const clone=structuredClone(b.models);await applyWorkbookInputs(sandbox,clone,b.years);const changed=clone.find(x=>x.code===m.code),cases=['innocareCurve','everestCurve','ascentageCurve','dualityCurve','zaiCurve'].includes(t.kind)?[0,1,2]:[t.caseIndex];

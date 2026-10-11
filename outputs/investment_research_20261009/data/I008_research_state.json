@@ -2,58 +2,101 @@
   "issuerId": "I008",
   "securityId": "S008",
   "code": "03696.HK",
-  "status": "deep-complete-model-released-parent-integration-pending",
   "asOf": "2026-10-09",
-  "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+  "status": "v3-conditional-research-frozen-temporarily-unranked-parent-document-integration-pending",
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
   "modelFile": "data/insilico_model.json",
+  "modelSHA256": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+  "nativeSHA256": "9fb1f14263b0023bbbc8aa87f43b0b06c4db82c45bf5c0f9197657b7639b6f53",
+  "workbookSHA256": "c05d1c799983a64e24e9b83bda9b6dc6e4032f113093f41e132121178dea5434",
   "deepFile": "research/I008_deep.md",
-  "effectiveChineseCharacters": 13041,
+  "bodySHA256": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+  "effectiveChineseCharacters": 15585,
+  "paragraphs": 105,
   "exactDuplicates": 0,
+  "nearDuplicates": 0,
+  "valuationConditioned": true,
+  "rankEligible": false,
+  "rankingEligible": false,
+  "formalTargetAvailable": false,
+  "officialScores": {},
+  "officialScenarios": {},
+  "officialHorizons": {},
+  "assetEvidence": {
+    "file": "qa/insilico_per_asset_evidence.json",
+    "SHA256": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245",
+    "rows": 67,
+    "activeIndications": 32,
+    "zeroObservation": 35
+  },
   "independentQA": {
     "file": "data/I008_independent_qa.json",
     "passed": true,
-    "checks": 306435,
-    "inputEdits": 29,
-    "sensitivityCases": 12
+    "checks": 1286935,
+    "inputEdits": 31,
+    "sensitivityCases": 13
   },
   "bodyQA": {
     "file": "data/I008_body_qa.json",
     "passed": true,
-    "checks": 51
+    "checks": 180
   },
   "adapterQA": {
     "file": "qa/insilico_adapter_qa.json",
     "passed": true,
-    "checks": 56364,
-    "atoms": 1100,
-    "signaturesPerCase": 385
-  },
-  "visualQA": {
-    "sheets": 9,
-    "additionalDetailRenders": 3,
-    "passed": true,
-    "location": "qa/insilico_bridge"
+    "checks": 59780,
+    "atoms": 4307,
+    "signaturesPerCase": 1454
   },
   "peerEconomicReview": {
-    "reviewer": "/root/tech_sources",
-    "file": "qa/insilico_economic_review.md",
+    "file": "qa/insilico_v3_economic_review.json",
     "passed": true,
-    "checks": 10,
-    "repairs": "cash reserve comparison now 1e-10 tolerance; target EPS normal profit divided target interpolated shares, new native and Excel boundary checks passed"
+    "checks": 13147,
+    "scope": "conditional display only; not official targets/ranking"
+  },
+  "peerBodyReview": {
+    "file": "qa/insilico_v3_body_review.json",
+    "passed": true,
+    "checks": 473
+  },
+  "peerSourceReview": {
+    "file": "qa/insilico_v3_source_review.json",
+    "passed": true,
+    "checks": 447
+  },
+  "peerTechnicalReview": {
+    "file": "qa/insilico_v3_technical_review.json",
+    "passed": true,
+    "checks": 92
+  },
+  "peerFactReview": {
+    "file": "qa/insilico_v3_body_fact_recheck.json",
+    "passed": true,
+    "scope": "body/native/numerical facts matched16ca; original signature0136 metadata-only summary later changed to3d3b; parent economic/source reviewer independently rebound3d3b"
+  },
+  "visualQA": {
+    "location": "qa/insilico_bridge",
+    "sheets": 9,
+    "detailRenders": 4,
+    "passed": true,
+    "notes": "All13 v3 images inspected; asset IDs widened/wrapped, years integer, Chinese and cash/CB/unit headers visible; revised four sheets rechecked after layout repair"
   },
   "parentRequired": [
-    "registry USD FX and activity manifest integration",
-    "three scenario snapshots and numeric QA",
-    "same-source Word/PDF and per-page QA"
+    "conditional model separate branch valuationConditioned true, rankEligible false",
+    "official scores/scenarios/horizons remain empty; no target or expected price in formal ranking",
+    "brokerTargets and full deep body retained",
+    "same-source Word/PDF and per-page verification"
   ],
   "notes": [
-    "USD billion and billion shares; researchFXHKDperUSD7.8, CB fixed7.8394 separate",
-    "26year finite shareholder distribution to2051; postdividend terminal recovery only",
-    "H1EconomicCash85.255m actual bridge; options/RSUs cash/shares symmetrical",
-    "585120194 September actual shares; future options17.776905m RSU4.172179m; CB305m principal/net301.6m",
-    "71 randomized IIa safety primary; FVC secondary; USoralIND voluntaryinactive; ESMOOct23 cutoffexcluded",
-    "Four foreign targets100/71/85/84.5 primaryreportsmissing; JPM2027Dec not12m",
-    "OneYearbase6.147087 vs49; YE expected33.974941 -30.663385%; no recommendation inflation",
-    "minimumcashbase29.001m vs25m only4.001m cushion; fundsfailure means modeledplanfails not bankruptcyforecast"
+    "USD billion/billion shares, EPS USD; research FX7.8 and CB contract FX7.8394 separate",
+    "67 evidence rows32 individual demand assets35 unknown observations, retained ownership and license-rate sensitivity costs fixed",
+    "All original clinical budgets unallocated and retained, not proof adequate; 2027cost+30/+100 independently verified",
+    "September1 maturity proxy cash .434319057bn vs long-plan minimum−.895074151bn; future financing shortfall is not2027 legal bankruptcy",
+    "Both900mUSD financing sensitivities remain unannounced and non-self-consistent base; substantial dilution, not free cash",
+    "Official expected semantic removed, condition weighted values rawStressWeightedReferenceHKD only",
+    "Known US patent expiry not global; cashEnd2051 conditional economic end only, 2042calendar and firstsale5year stresses with cost unchanged",
+    "Nature128screened71random55completed; registry59overall49lastFVC distinct, safetyprimary,FVCsecondary,MAR and attrition risk",
+    "H1 economic cash85.255m, known H2 option43.88738622mHKD charged/issued once, remaining option17.776905m/RSU4.172179m",
+    "Formal future financing/project-selection model remains outstanding; this release is conditional research, not complete92-company27-file acceptance"
   ]
 }

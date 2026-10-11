@@ -76,8 +76,8 @@
       "issuerId": "I008",
       "name": "英矽智能",
       "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I008_deep.md",
-      "effectiveHanziStrict": 13341,
-      "paragraphs": 92,
+      "effectiveHanziStrict": 16082,
+      "paragraphs": 109,
       "exactDuplicateParagraphs": [],
       "characterPass": true,
       "exclusions": "headings, tables, block quotes, source bullets, metadata, URLs and entire source section"
@@ -258,6 +258,16 @@
       "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I026_deep.md",
       "effectiveHanziStrict": 14810,
       "paragraphs": 94,
+      "exactDuplicateParagraphs": [],
+      "characterPass": true,
+      "exclusions": "headings, tables, block quotes, source bullets, metadata, URLs and entire source section"
+    },
+    {
+      "issuerId": "I027",
+      "name": "晶泰控股",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I027_deep.md",
+      "effectiveHanziStrict": 16526,
+      "paragraphs": 84,
       "exactDuplicateParagraphs": [],
       "characterPass": true,
       "exclusions": "headings, tables, block quotes, source bullets, metadata, URLs and entire source section"
@@ -915,6 +925,6 @@
   ],
   "crossCompanyExactDuplicates": [],
   "passed": true,
-  "remaining": 1,
+  "remaining": 0,
   "note": "Exact duplicate detection plus human content review; near-duplicate semantic QA remains separate"
 }

@@ -20,7 +20,7 @@
       "modelVersion": "haier-bio-pe-v1.0",
       "modelFile": "data/haier_bio_model.json",
       "deepResearchFile": "research/haier_bio_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.214Z"
+      "updatedAt": "2026-10-11T07:56:57.238Z"
     },
     {
       "issuerId": "I002",
@@ -36,7 +36,7 @@
       "modelVersion": "mabwell-rnpv-v1.1",
       "modelFile": "data/mabwell_model.json",
       "deepResearchFile": "research/mabwell_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.217Z"
+      "updatedAt": "2026-10-11T07:56:57.239Z"
     },
     {
       "issuerId": "I003",
@@ -52,7 +52,7 @@
       "modelVersion": "dizal-rnpv-v1.0",
       "modelFile": "data/dizal_model.json",
       "deepResearchFile": "research/dizal_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.218Z"
+      "updatedAt": "2026-10-11T07:56:57.240Z"
     },
     {
       "issuerId": "I004",
@@ -68,7 +68,7 @@
       "modelVersion": "inventis-rnpv-v1.0",
       "modelFile": "data/inventis_model.json",
       "deepResearchFile": "research/inventis_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.219Z"
+      "updatedAt": "2026-10-11T07:56:57.241Z"
     },
     {
       "issuerId": "I005",
@@ -84,7 +84,7 @@
       "modelVersion": "hinova-rnpv-v1.0",
       "modelFile": "data/hinova_model.json",
       "deepResearchFile": "research/hinova_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.223Z"
+      "updatedAt": "2026-10-11T07:56:57.241Z"
     },
     {
       "issuerId": "I006",
@@ -101,7 +101,7 @@
       "modelVersion": "asymchem-AH-pe-v1.0",
       "modelFile": "data/asymchem_model.json",
       "deepResearchFile": "research/asymchem_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.223Z"
+      "updatedAt": "2026-10-11T07:56:57.242Z"
     },
     {
       "issuerId": "I007",
@@ -117,7 +117,7 @@
       "modelVersion": "neuro-conditional-whole-group-economic-PE-v1.1",
       "modelFile": "data/neuro_model.json",
       "deepResearchFile": "research/neuro_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.224Z"
+      "updatedAt": "2026-10-11T07:56:57.243Z"
     },
     {
       "issuerId": "I008",
@@ -127,13 +127,13 @@
         "S008"
       ],
       "status": "正文完成，待文档验收",
-      "effectiveHanCharacters": 13341,
-      "valuationStatus": "情景模型初版已复算",
+      "effectiveHanCharacters": 16082,
+      "valuationStatus": "暂不排名；融资或复牌条件参考估值",
       "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
-      "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+      "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
       "modelFile": "data/insilico_model.json",
       "deepResearchFile": "research/I008_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.224Z"
+      "updatedAt": "2026-10-11T07:56:57.243Z"
     },
     {
       "issuerId": "I009",
@@ -149,7 +149,7 @@
       "modelVersion": "robot-conditional-product-economic-PE-v1.0",
       "modelFile": "data/robot_model.json",
       "deepResearchFile": "research/robot_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.225Z"
+      "updatedAt": "2026-10-11T07:56:57.243Z"
     },
     {
       "issuerId": "I010",
@@ -166,7 +166,7 @@
       "modelVersion": "wuxiapptec-normalized-adjusted-pe-v1.0",
       "modelFile": "data/wuxi_apptec_model.json",
       "deepResearchFile": "research/wuxi_apptec_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.225Z"
+      "updatedAt": "2026-10-11T07:56:57.244Z"
     },
     {
       "issuerId": "I011",
@@ -183,7 +183,7 @@
       "modelVersion": "hengrui-normalized-ntm-pe-v1.0",
       "modelFile": "data/hengrui_model.json",
       "deepResearchFile": "research/hengrui_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.225Z"
+      "updatedAt": "2026-10-11T07:56:57.244Z"
     },
     {
       "issuerId": "I012",
@@ -200,7 +200,7 @@
       "modelVersion": "beone-v1-operating-profit-AH-royalty-excluded",
       "modelFile": "data/beone_model.json",
       "deepResearchFile": "research/I012_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.226Z"
+      "updatedAt": "2026-10-11T07:56:57.245Z"
     },
     {
       "issuerId": "I013",
@@ -216,7 +216,7 @@
       "modelVersion": "porton-normalized-pe-v1.0",
       "modelFile": "data/porton_model.json",
       "deepResearchFile": "research/porton_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.226Z"
+      "updatedAt": "2026-10-11T07:56:57.245Z"
     },
     {
       "issuerId": "I014",
@@ -232,7 +232,7 @@
       "modelVersion": "mindray-normalized-pe-v1.0",
       "modelFile": "data/mindray_model.json",
       "deepResearchFile": "research/mindray_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.227Z"
+      "updatedAt": "2026-10-11T07:56:57.245Z"
     },
     {
       "issuerId": "I015",
@@ -248,7 +248,7 @@
       "modelVersion": "haoyuan-diluted-pe-v1.0",
       "modelFile": "data/haoyuan_model.json",
       "deepResearchFile": "research/haoyuan_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.227Z"
+      "updatedAt": "2026-10-11T07:56:57.246Z"
     },
     {
       "issuerId": "I016",
@@ -264,7 +264,7 @@
       "modelVersion": "microport-conditional-eliminated-group-economic-PE-v1.0",
       "modelFile": "data/microport_model.json",
       "deepResearchFile": "research/microport_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.227Z"
+      "updatedAt": "2026-10-11T07:56:57.246Z"
     },
     {
       "issuerId": "I017",
@@ -280,7 +280,7 @@
       "modelVersion": "jenkem-normalized-pe-v1.0",
       "modelFile": "data/jenkem_model.json",
       "deepResearchFile": "research/jenkem_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.228Z"
+      "updatedAt": "2026-10-11T07:56:57.246Z"
     },
     {
       "issuerId": "I018",
@@ -296,7 +296,7 @@
       "modelVersion": "medicilon-normalized-pe-v1.0",
       "modelFile": "data/medicilon_model.json",
       "deepResearchFile": "research/medicilon_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.228Z"
+      "updatedAt": "2026-10-11T07:56:57.248Z"
     },
     {
       "issuerId": "I019",
@@ -312,7 +312,7 @@
       "modelVersion": "angel-USD-whole-group-atomic-normal-PE-v1.0",
       "modelFile": "data/angel_model.json",
       "deepResearchFile": "research/angel_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.229Z"
+      "updatedAt": "2026-10-11T07:56:57.248Z"
     },
     {
       "issuerId": "I020",
@@ -328,7 +328,7 @@
       "modelVersion": "duality-v2-equityRewards-noCashSubstitute-netRights",
       "modelFile": "data/duality_model.json",
       "deepResearchFile": "research/I020_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.229Z"
+      "updatedAt": "2026-10-11T07:56:57.249Z"
     },
     {
       "issuerId": "I021",
@@ -344,7 +344,7 @@
       "modelVersion": "ascentage-v4-equityRewards-noCashSubstitute-finiteDistributions",
       "modelFile": "data/ascentage_model.json",
       "deepResearchFile": "research/I021_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.230Z"
+      "updatedAt": "2026-10-11T07:56:57.249Z"
     },
     {
       "issuerId": "I022",
@@ -360,7 +360,7 @@
       "modelVersion": "pharmaron-v1-segment-normal-profit-cashroll-CBchoice",
       "modelFile": "data/pharmaron_model.json",
       "deepResearchFile": "research/I022_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.230Z"
+      "updatedAt": "2026-10-11T07:56:57.250Z"
     },
     {
       "issuerId": "I023",
@@ -376,7 +376,7 @@
       "modelVersion": "3sbio-v1-core-plus-707-rnPV",
       "modelFile": "data/3sbio_model.json",
       "deepResearchFile": "research/I023_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.230Z"
+      "updatedAt": "2026-10-11T07:56:57.250Z"
     },
     {
       "issuerId": "I024",
@@ -392,7 +392,7 @@
       "modelVersion": "hutchmed-v2-riskFCFF-cashdate-reward-banknet-noTerminal",
       "modelFile": "data/hutchmed_model.json",
       "deepResearchFile": "research/I024_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.231Z"
+      "updatedAt": "2026-10-11T07:56:57.250Z"
     },
     {
       "issuerId": "I025",
@@ -408,7 +408,7 @@
       "modelVersion": "cspc-v1-core-cash-assetgroups",
       "modelFile": "data/cspc_model.json",
       "deepResearchFile": "research/I025_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.232Z"
+      "updatedAt": "2026-10-11T07:56:57.251Z"
     },
     {
       "issuerId": "I026",
@@ -424,7 +424,7 @@
       "modelVersion": "lepu-v1-netrights-annualPD1Consideration-finiteDistributions",
       "modelFile": "data/lepu_model.json",
       "deepResearchFile": "research/I026_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.232Z"
+      "updatedAt": "2026-10-11T07:56:57.251Z"
     },
     {
       "issuerId": "I027",
@@ -433,10 +433,14 @@
       "securities": [
         "S032"
       ],
-      "status": "pending",
-      "effectiveHanCharacters": 0,
-      "valuationStatus": "pending",
-      "sourceStatus": "pending"
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16526,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+      "modelFile": "data/xtalpi_model.json",
+      "deepResearchFile": "research/I027_deep.md",
+      "updatedAt": "2026-10-11T07:56:57.253Z"
     },
     {
       "issuerId": "I028",
@@ -452,7 +456,7 @@
       "modelVersion": "shpharma-H-normalized-pe-v1.0",
       "modelFile": "data/shpharma_model.json",
       "deepResearchFile": "research/shpharma_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.233Z"
+      "updatedAt": "2026-10-11T07:56:57.254Z"
     },
     {
       "issuerId": "I029",
@@ -468,7 +472,7 @@
       "modelVersion": "hansoh-v1",
       "modelFile": "data/hansoh_model.json",
       "deepResearchFile": "research/I029_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.234Z"
+      "updatedAt": "2026-10-11T07:56:57.254Z"
     },
     {
       "issuerId": "I030",
@@ -484,7 +488,7 @@
       "modelVersion": "luye-v2-normal-lookthrough-EP-CBput-Nanjing",
       "modelFile": "data/luye_model.json",
       "deepResearchFile": "research/I030_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.235Z"
+      "updatedAt": "2026-10-11T07:56:57.254Z"
     },
     {
       "issuerId": "I031",
@@ -500,7 +504,7 @@
       "modelVersion": "sinobiopharm-v1-transaction-cash-bridge",
       "modelFile": "data/sinobiopharm_model.json",
       "deepResearchFile": "research/I031_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.235Z"
+      "updatedAt": "2026-10-11T07:56:57.255Z"
     },
     {
       "issuerId": "I032",
@@ -516,7 +520,7 @@
       "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
       "modelFile": "data/grand_pharma_model.json",
       "deepResearchFile": "research/grand_pharma_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.235Z"
+      "updatedAt": "2026-10-11T07:56:57.256Z"
     },
     {
       "issuerId": "I033",
@@ -532,7 +536,7 @@
       "modelVersion": "simcere-v2-short-recognition-normal-product-risk-royalty-PE-cash",
       "modelFile": "data/simcere_model.json",
       "deepResearchFile": "research/I033_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.236Z"
+      "updatedAt": "2026-10-11T07:56:57.257Z"
     },
     {
       "issuerId": "I034",
@@ -548,7 +552,7 @@
       "modelVersion": "wuxi-bio-v1",
       "modelFile": "data/wuxi_bio_model.json",
       "deepResearchFile": "research/I034_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.237Z"
+      "updatedAt": "2026-10-11T07:56:57.259Z"
     },
     {
       "issuerId": "I035",
@@ -564,7 +568,7 @@
       "modelVersion": "genscript-v1-transparent-SOTP-preferred-residual",
       "modelFile": "data/genscript_model.json",
       "deepResearchFile": "research/I035_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.237Z"
+      "updatedAt": "2026-10-11T07:56:57.260Z"
     },
     {
       "issuerId": "I036",
@@ -580,7 +584,7 @@
       "modelVersion": "livzon-H-normalized-pe-v1.0",
       "modelFile": "data/livzon_model.json",
       "deepResearchFile": "research/livzon_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.238Z"
+      "updatedAt": "2026-10-11T07:56:57.261Z"
     },
     {
       "issuerId": "I037",
@@ -596,7 +600,7 @@
       "modelVersion": "hightide-linked-shareholder-CF-v2.0",
       "modelFile": "data/hightide_model.json",
       "deepResearchFile": "research/hightide_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.239Z"
+      "updatedAt": "2026-10-11T07:56:57.261Z"
     },
     {
       "issuerId": "I038",
@@ -612,7 +616,7 @@
       "modelVersion": "kintor-conditional-finite-risk-FCFF-v1.0",
       "modelFile": "data/kintor_model.json",
       "deepResearchFile": "research/kintor_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.239Z"
+      "updatedAt": "2026-10-11T07:56:57.262Z"
     },
     {
       "issuerId": "I039",
@@ -628,7 +632,7 @@
       "modelVersion": "zai-v2-actualTradingTarget-netTaxRewards",
       "modelFile": "data/zai_model.json",
       "deepResearchFile": "research/I039_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.240Z"
+      "updatedAt": "2026-10-11T07:56:57.262Z"
     },
     {
       "issuerId": "I040",
@@ -644,7 +648,7 @@
       "modelVersion": "everest-v2-fullLicenseCash-finiteFCFF-contractnet-debt",
       "modelFile": "data/everest_model.json",
       "deepResearchFile": "research/I040_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.241Z"
+      "updatedAt": "2026-10-11T07:56:57.263Z"
     },
     {
       "issuerId": "I041",
@@ -660,7 +664,7 @@
       "modelVersion": "innocare-v2-finiteFCFF-restrictedCash-netdebt-cleared-allshares",
       "modelFile": "data/innocare_model.json",
       "deepResearchFile": "research/I041_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.241Z"
+      "updatedAt": "2026-10-11T07:56:57.264Z"
     },
     {
       "issuerId": "I042",
@@ -676,7 +680,7 @@
       "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
       "modelFile": "data/cansino_model.json",
       "deepResearchFile": "research/I042_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.242Z"
+      "updatedAt": "2026-10-11T07:56:57.265Z"
     },
     {
       "issuerId": "I043",
@@ -692,7 +696,7 @@
       "modelVersion": "fosun-H-native-normal-profit-v1.0",
       "modelFile": "data/fosun_model.json",
       "deepResearchFile": "research/fosun_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.242Z"
+      "updatedAt": "2026-10-11T07:56:57.266Z"
     },
     {
       "issuerId": "I044",
@@ -708,7 +712,7 @@
       "modelVersion": "tigermed-H-native-normal-profit-v1.0",
       "modelFile": "data/tigermed_model.json",
       "deepResearchFile": "research/tigermed_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.243Z"
+      "updatedAt": "2026-10-11T07:56:57.267Z"
     },
     {
       "issuerId": "I045",
@@ -724,7 +728,7 @@
       "modelVersion": "joinn-H-normal-group-PE-no-bio-FV-v1.0",
       "modelFile": "data/joinn_model.json",
       "deepResearchFile": "research/joinn_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.244Z"
+      "updatedAt": "2026-10-11T07:56:57.267Z"
     },
     {
       "issuerId": "I046",
@@ -740,7 +744,7 @@
       "modelVersion": "junshi-v1-netLicensedRights-known2026Bonds-2029Put-equityOptions",
       "modelFile": "data/junshi_model.json",
       "deepResearchFile": "research/I046_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.244Z"
+      "updatedAt": "2026-10-11T07:56:57.268Z"
     },
     {
       "issuerId": "I047",
@@ -756,7 +760,7 @@
       "modelVersion": "keymed-v2-finite-assets-prorated-short-recognition",
       "modelFile": "data/keymed_model.json",
       "deepResearchFile": "research/I047_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.245Z"
+      "updatedAt": "2026-10-11T07:56:57.269Z"
     },
     {
       "issuerId": "I048",
@@ -772,7 +776,7 @@
       "modelVersion": "innovent-v1",
       "modelFile": "data/innovent_model.json",
       "deepResearchFile": "research/I048_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.245Z"
+      "updatedAt": "2026-10-11T07:56:57.270Z"
     },
     {
       "issuerId": "I049",
@@ -788,7 +792,7 @@
       "modelVersion": "wuxi-xdc-v1",
       "modelFile": "data/wuxi_xdc_model.json",
       "deepResearchFile": "research/I049_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.246Z"
+      "updatedAt": "2026-10-11T07:56:57.270Z"
     },
     {
       "issuerId": "I050",
@@ -804,7 +808,7 @@
       "modelVersion": "cms-whole-group-normal-PE-continuing-consolidation-v1.0",
       "modelFile": "data/cms_model.json",
       "deepResearchFile": "research/cms_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.247Z"
+      "updatedAt": "2026-10-11T07:56:57.272Z"
     },
     {
       "issuerId": "I051",
@@ -820,7 +824,7 @@
       "modelVersion": "remegen-v2-finite-assets-Vor-residual-return-aligned-score",
       "modelFile": "data/remegen_model.json",
       "deepResearchFile": "research/I051_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.248Z"
+      "updatedAt": "2026-10-11T07:56:57.272Z"
     },
     {
       "issuerId": "I052",
@@ -836,7 +840,7 @@
       "modelVersion": "akeso-v2-year-end-cashflows",
       "modelFile": "data/akeso_model.json",
       "deepResearchFile": "research/I052_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.249Z"
+      "updatedAt": "2026-10-11T07:56:57.273Z"
     },
     {
       "issuerId": "I053",
@@ -852,7 +856,7 @@
       "modelVersion": "circ-CASBE-whole-group-atomic-normal-PE-v1.0",
       "modelFile": "data/circ_model.json",
       "deepResearchFile": "research/circ_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.250Z"
+      "updatedAt": "2026-10-11T07:56:57.274Z"
     },
     {
       "issuerId": "I054",
@@ -868,7 +872,7 @@
       "modelVersion": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0",
       "modelFile": "data/minimax_model.json",
       "deepResearchFile": "research/minimax_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.250Z"
+      "updatedAt": "2026-10-11T07:56:57.274Z"
     },
     {
       "issuerId": "I055",
@@ -884,7 +888,7 @@
       "modelVersion": "zhipu-cloudARR-fullcost-RMB-USDsettled-bond-capital-v1.0",
       "modelFile": "data/zhipu_model.json",
       "deepResearchFile": "research/zhipu_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.251Z"
+      "updatedAt": "2026-10-11T07:56:57.275Z"
     },
     {
       "issuerId": "I056",
@@ -900,7 +904,7 @@
       "modelVersion": "popmart-normalized-geography-v1.0",
       "modelFile": "data/popmart_model.json",
       "deepResearchFile": "research/popmart_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.252Z"
+      "updatedAt": "2026-10-11T07:56:57.275Z"
     },
     {
       "issuerId": "I057",
@@ -916,7 +920,7 @@
       "modelVersion": "cgn-energy-quantity-price-interest-funding-v1.0",
       "modelFile": "data/cgn_model.json",
       "deepResearchFile": "research/cgn_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.252Z"
+      "updatedAt": "2026-10-11T07:56:57.276Z"
     },
     {
       "issuerId": "I058",
@@ -932,7 +936,7 @@
       "modelVersion": "eastbuy-fiscal-product-service-treasury-sbc-v1.0",
       "modelFile": "data/eastbuy_model.json",
       "deepResearchFile": "research/eastbuy_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.253Z"
+      "updatedAt": "2026-10-11T07:56:57.276Z"
     },
     {
       "issuerId": "I059",
@@ -948,7 +952,7 @@
       "modelVersion": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0",
       "modelFile": "data/ubtech_model.json",
       "deepResearchFile": "research/ubtech_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.253Z"
+      "updatedAt": "2026-10-11T07:56:57.278Z"
     },
     {
       "issuerId": "I060",
@@ -964,7 +968,7 @@
       "modelVersion": "xd-normal-IFRS-two-segment-owner-profit-cash-share-v1.0",
       "modelFile": "data/xd_model.json",
       "deepResearchFile": "research/xd_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.254Z"
+      "updatedAt": "2026-10-11T07:56:57.278Z"
     },
     {
       "issuerId": "I061",
@@ -980,7 +984,7 @@
       "modelVersion": "byd-unit-owner-profit-v1.0",
       "modelFile": "data/byd_model.json",
       "deepResearchFile": "research/byd_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.255Z"
+      "updatedAt": "2026-10-11T07:56:57.279Z"
     },
     {
       "issuerId": "I062",
@@ -996,7 +1000,7 @@
       "modelVersion": "horizon-product-license-fullcost-CARIAD-bond-NAV-v1.0",
       "modelFile": "data/horizon_model.json",
       "deepResearchFile": "research/horizon_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.255Z"
+      "updatedAt": "2026-10-11T07:56:57.279Z"
     },
     {
       "issuerId": "I063",
@@ -1012,7 +1016,7 @@
       "modelVersion": "catl-normalized-four-segment-v1.0",
       "modelFile": "data/catl_model.json",
       "deepResearchFile": "research/catl_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.256Z"
+      "updatedAt": "2026-10-11T07:56:57.280Z"
     },
     {
       "issuerId": "I064",
@@ -1028,7 +1032,7 @@
       "modelVersion": "netease-pe-v1.0",
       "modelFile": "data/netease_model.json",
       "deepResearchFile": "research/netease_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.257Z"
+      "updatedAt": "2026-10-11T07:56:57.280Z"
     },
     {
       "issuerId": "I065",
@@ -1044,7 +1048,7 @@
       "modelVersion": "lenovo-normalized-operating-dilution-v1.0",
       "modelFile": "data/lenovo_model.json",
       "deepResearchFile": "research/lenovo_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.258Z"
+      "updatedAt": "2026-10-11T07:56:57.280Z"
     },
     {
       "issuerId": "I066",
@@ -1060,7 +1064,7 @@
       "modelVersion": "baidu-mutually-exclusive-normalized-v1.0",
       "modelFile": "data/baidu_model.json",
       "deepResearchFile": "research/baidu_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.259Z"
+      "updatedAt": "2026-10-11T07:56:57.281Z"
     },
     {
       "issuerId": "I067",
@@ -1076,7 +1080,7 @@
       "modelVersion": "alihealth-direct-platform-digital-normalized-profit-v1.0",
       "modelFile": "data/alihealth_model.json",
       "deepResearchFile": "research/alihealth_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.259Z"
+      "updatedAt": "2026-10-11T07:56:57.281Z"
     },
     {
       "issuerId": "I068",
@@ -1092,7 +1096,7 @@
       "modelVersion": "haier-smart-regional-economic-profit-cash-v1.1",
       "modelFile": "data/haier_smart_model.json",
       "deepResearchFile": "research/haier_smart_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.260Z"
+      "updatedAt": "2026-10-11T07:56:57.281Z"
     },
     {
       "issuerId": "I069",
@@ -1108,7 +1112,7 @@
       "modelVersion": "asmpt-semi-smt-gross-normal-profit-HKD-v1.0",
       "modelFile": "data/asmpt_model.json",
       "deepResearchFile": "research/asmpt_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.260Z"
+      "updatedAt": "2026-10-11T07:56:57.283Z"
     },
     {
       "issuerId": "I070",
@@ -1124,7 +1128,7 @@
       "modelVersion": "jd-three-segment-normalized-v1.0",
       "modelFile": "data/jd_model.json",
       "deepResearchFile": "research/jd_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.261Z"
+      "updatedAt": "2026-10-11T07:56:57.284Z"
     },
     {
       "issuerId": "I071",
@@ -1140,7 +1144,7 @@
       "modelVersion": "huahong-common-control-owner-book-PB-profit-cash-v1.0",
       "modelFile": "data/huahong_model.json",
       "deepResearchFile": "research/huahong_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.261Z"
+      "updatedAt": "2026-10-11T07:56:57.284Z"
     },
     {
       "issuerId": "I072",
@@ -1156,7 +1160,7 @@
       "modelVersion": "tencent-pe-v1.0",
       "modelFile": "data/tencent_model.json",
       "deepResearchFile": "research/tencent_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.262Z"
+      "updatedAt": "2026-10-11T07:56:57.285Z"
     },
     {
       "issuerId": "I073",
@@ -1172,7 +1176,7 @@
       "modelVersion": "bilibili-normalized-content-games-dilution-v1.0",
       "modelFile": "data/bilibili_model.json",
       "deepResearchFile": "research/bilibili_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.262Z"
+      "updatedAt": "2026-10-11T07:56:57.285Z"
     },
     {
       "issuerId": "I074",
@@ -1188,7 +1192,7 @@
       "modelVersion": "jdhealth-products-services-normalized-profit-v1.0",
       "modelFile": "data/jdhealth_model.json",
       "deepResearchFile": "research/jdhealth_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.262Z"
+      "updatedAt": "2026-10-11T07:56:57.286Z"
     },
     {
       "issuerId": "I075",
@@ -1204,7 +1208,7 @@
       "modelVersion": "alibaba-operating-bridge-pe-v1.0",
       "modelFile": "data/alibaba_model.json",
       "deepResearchFile": "research/alibaba_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.263Z"
+      "updatedAt": "2026-10-11T07:56:57.287Z"
     },
     {
       "issuerId": "I076",
@@ -1220,7 +1224,7 @@
       "modelVersion": "sunny-four-segment-gross-to-normal-profit-v1.0",
       "modelFile": "data/sunny_model.json",
       "deepResearchFile": "research/sunny_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.263Z"
+      "updatedAt": "2026-10-11T07:56:57.287Z"
     },
     {
       "issuerId": "I077",
@@ -1236,7 +1240,7 @@
       "modelVersion": "trip-normalized-ebit-penalty-v1.0",
       "modelFile": "data/trip_model.json",
       "deepResearchFile": "research/trip_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.264Z"
+      "updatedAt": "2026-10-11T07:56:57.287Z"
     },
     {
       "issuerId": "I078",
@@ -1251,7 +1255,7 @@
       "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
       "modelVersion": "meituan-core-new-SOTP-v1.0",
       "modelFile": "data/meituan_model.json",
-      "updatedAt": "2026-10-11T07:17:05.268Z",
+      "updatedAt": "2026-10-11T07:56:57.288Z",
       "deepResearchFile": "research/meituan_deep.md"
     },
     {
@@ -1268,7 +1272,7 @@
       "modelVersion": "20261009-yuewen-full-expense-cash-EV-v1",
       "modelFile": "data/yuewen_model.json",
       "deepResearchFile": "research/yuewen_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.269Z"
+      "updatedAt": "2026-10-11T07:56:57.289Z"
     },
     {
       "issuerId": "I080",
@@ -1284,7 +1288,7 @@
       "modelVersion": "kuaishou-core-kling-normalized-v1.0",
       "modelFile": "data/kuaishou_model.json",
       "deepResearchFile": "research/kuaishou_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.269Z"
+      "updatedAt": "2026-10-11T07:56:57.289Z"
     },
     {
       "issuerId": "I081",
@@ -1300,7 +1304,7 @@
       "modelVersion": "byde-sixProduct-fullEconomic-profit-cash-v1.0",
       "modelFile": "data/byde_model.json",
       "deepResearchFile": "research/byde_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.269Z"
+      "updatedAt": "2026-10-11T07:56:57.290Z"
     },
     {
       "issuerId": "I082",
@@ -1316,7 +1320,7 @@
       "modelVersion": "midea-normalized-owner-margin-v1.0",
       "modelFile": "data/midea_model.json",
       "deepResearchFile": "research/midea_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.270Z"
+      "updatedAt": "2026-10-11T07:56:57.290Z"
     },
     {
       "issuerId": "I083",
@@ -1332,7 +1336,7 @@
       "modelVersion": "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
       "modelFile": "data/zhongan_model.json",
       "deepResearchFile": "research/zhongan_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.270Z"
+      "updatedAt": "2026-10-11T07:56:57.291Z"
     },
     {
       "issuerId": "I084",
@@ -1348,7 +1352,7 @@
       "modelVersion": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0",
       "modelFile": "data/liauto_model.json",
       "deepResearchFile": "research/liauto_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.270Z"
+      "updatedAt": "2026-10-11T07:56:57.291Z"
     },
     {
       "issuerId": "I085",
@@ -1364,7 +1368,7 @@
       "modelVersion": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0",
       "modelFile": "data/xpeng_model.json",
       "deepResearchFile": "research/xpeng_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.271Z"
+      "updatedAt": "2026-10-11T07:56:57.292Z"
     },
     {
       "issuerId": "I086",
@@ -1380,7 +1384,7 @@
       "modelVersion": "tongcheng-full-cost-operating-EV-dida-cash-v1.0",
       "modelFile": "data/tongcheng_model.json",
       "deepResearchFile": "research/tongcheng_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.271Z"
+      "updatedAt": "2026-10-11T07:56:57.292Z"
     },
     {
       "issuerId": "I087",
@@ -1396,7 +1400,7 @@
       "modelVersion": "xiaomi-normalized-two-segment-v1.0",
       "modelFile": "data/xiaomi_model.json",
       "deepResearchFile": "research/xiaomi_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.272Z"
+      "updatedAt": "2026-10-11T07:56:57.293Z"
     },
     {
       "issuerId": "I088",
@@ -1412,7 +1416,7 @@
       "modelVersion": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1",
       "modelFile": "data/nio_model.json",
       "deepResearchFile": "research/nio_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.272Z"
+      "updatedAt": "2026-10-11T07:56:57.296Z"
     },
     {
       "issuerId": "I089",
@@ -1428,7 +1432,7 @@
       "modelVersion": "sensetime-ai-normal-core-evsales-liquid-portfolio-lp-financing-v1.0",
       "modelFile": "data/sensetime_model.json",
       "deepResearchFile": "research/sensetime_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.272Z"
+      "updatedAt": "2026-10-11T07:56:57.297Z"
     },
     {
       "issuerId": "I090",
@@ -1444,7 +1448,7 @@
       "modelVersion": "kingdee-cloud-evsales-cash-reserve-v1.0",
       "modelFile": "data/kingdee_model.json",
       "deepResearchFile": "research/kingdee_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.273Z"
+      "updatedAt": "2026-10-11T07:56:57.299Z"
     },
     {
       "issuerId": "I091",
@@ -1460,7 +1464,7 @@
       "modelVersion": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0",
       "modelFile": "data/kingsoft_model.json",
       "deepResearchFile": "research/kingsoft_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.273Z"
+      "updatedAt": "2026-10-11T07:56:57.300Z"
     },
     {
       "issuerId": "I092",
@@ -1476,17 +1480,17 @@
       "modelVersion": "smic-normalized-IFRS-owner-share-v1.0",
       "modelFile": "data/smic_model.json",
       "deepResearchFile": "research/smic_deep.md",
-      "updatedAt": "2026-10-11T07:17:05.273Z"
+      "updatedAt": "2026-10-11T07:56:57.301Z"
     }
   ],
   "version": "research-v0.1",
   "summary": {
-    "issuerModels": 91,
-    "securityModels": 95,
+    "issuerModels": 92,
+    "securityModels": 96,
     "rankedSecurityModels": 91,
-    "conditionedSecurityModels": 4,
-    "deepResearchPassed": 91,
-    "remainingDeepResearch": 1,
+    "conditionedSecurityModels": 5,
+    "deepResearchPassed": 92,
+    "remainingDeepResearch": 0,
     "withheldManuscripts": []
   }
 }

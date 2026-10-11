@@ -1,6 +1,6 @@
 {
-  "createdAt": "2026-10-11T07:25:15.941Z",
-  "bundleFingerprintObserved": "f94f3d19b4e62e0b",
+  "createdAt": "2026-10-11T07:57:08.728Z",
+  "bundleFingerprintObserved": "63ca87a2011995a6",
   "scope": "92 issuers / 96 stocks; products excluded. No bundle/build changes by this audit.",
   "changedFiles": [
     "tools/publication_metadata.mjs",
@@ -18,15 +18,15 @@
       "issuerId": "I008",
       "name": "英矽智能",
       "modelFile": "insilico_model.json",
-      "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+      "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
       "approvedByRoot": true,
       "integratedInObservedBundle": true,
       "qa": [
         {
           "file": "insilico_adapter_qa.json",
-          "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+          "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
           "passed": true,
-          "checks": 56364
+          "checks": 59780
         }
       ],
       "limitation": "适配QA存在不代表根整合验收；发布确认和生产整合由根维护。"
@@ -35,13 +35,13 @@
       "issuerId": "I027",
       "name": "晶泰控股",
       "modelFile": "xtalpi_model.json",
-      "modelVersion": "xtalpi-v1-netContract-investmentRecovery-CBJan27-H2LeaseTotal",
-      "approvedByRoot": false,
-      "integratedInObservedBundle": false,
+      "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+      "approvedByRoot": true,
+      "integratedInObservedBundle": true,
       "qa": [
         {
           "file": "xtalpi_adapter_qa.json",
-          "modelVersion": "xtalpi-v2-perDrugZeroUnknown-UnallocatedClinical-CBJan27-H2LeaseTotal",
+          "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
           "passed": true,
           "checks": 86860
         }
@@ -138,10 +138,8 @@
     }
   ],
   "checks": 72,
-  "passed": false,
-  "errors": [
-    "I027 dedicated QA version matches model"
-  ],
+  "passed": true,
+  "errors": [],
   "tests": [
     {
       "name": "date before annual label",
@@ -594,7 +592,7 @@
     },
     {
       "name": "I027 dedicated QA version matches model",
-      "passed": false,
+      "passed": true,
       "details": null
     },
     {
@@ -1528,7 +1526,7 @@
     }
   ],
   "publicationPreview": {
-    "sourceRows": 4965,
+    "sourceRows": 5031,
     "unknownBefore": 0,
     "unknownAfter": 0,
     "afterCutoff": 0,

@@ -1,6 +1,6 @@
 {
   "version": "research-v0.1",
-  "createdAt": "2026-10-11T07:17:05.340Z",
+  "createdAt": "2026-10-11T07:56:57.414Z",
   "audits": [
     {
       "code": "01530.HK",
@@ -292,9 +292,9 @@
     {
       "code": "03696.HK",
       "modelFile": "data/insilico_model.json",
-      "formulaCheck": "pass",
-      "priceCheck": "pass",
-      "scoreCheck": "pass"
+      "formulaCheck": "conditional model independent QA only",
+      "priceCheck": "valid observed quote",
+      "scoreCheck": "excluded; no scores or expected price"
     },
     {
       "code": "688382.SH",
@@ -640,6 +640,13 @@
       "scoreCheck": "pass"
     },
     {
+      "code": "02228.HK",
+      "modelFile": "data/xtalpi_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
       "code": "00772.HK",
       "modelFile": "data/yuewen_model.json",
       "formulaCheck": "pass",
@@ -669,12 +676,12 @@
     }
   ],
   "status": {
-    "issuerModels": 91,
-    "securityModels": 95,
+    "issuerModels": 92,
+    "securityModels": 96,
     "rankedSecurityModels": 91,
-    "conditionedSecurityModels": 4,
-    "deepResearchPassed": 91,
-    "remainingDeepResearch": 1,
+    "conditionedSecurityModels": 5,
+    "deepResearchPassed": 92,
+    "remainingDeepResearch": 0,
     "withheldManuscripts": []
   }
 }
