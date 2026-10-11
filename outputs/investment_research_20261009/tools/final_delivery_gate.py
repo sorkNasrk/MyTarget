@@ -51,6 +51,11 @@ for file in ['qa/web_data_qa.json','qa/web_browser_qa.json']:
         if previous_release.get('passed') and previous_release.get('fingerprint')==finger:
             check(file+' all27 released downloads verified',webq.get('deliveryChecks',webq.get('downloadChecks'))==27)
 required('qa/web_visual_qa.json',lambda q:q.get('passed') and q.get('fingerprint')==finger)
+if (ROOT/'web/scenario-math.js').exists():
+    math=required('qa/web_expectation_qa.json',lambda q:q.get('passed') and q.get('fingerprint')==finger)
+    check('scenario math current frozen inputs',math.get('helperSHA256')==sha(ROOT/'web/scenario-math.js') and math.get('bundleSHA256')==sha(ROOT/'data/research_bundle.json') and math.get('webDataSHA256')==sha(ROOT/'web/data.js'))
+    interaction=required('qa/web_interaction_qa.json',lambda q:q.get('passed') and q.get('fingerprint')==finger)
+    check('interactive web five current input hashes',len(interaction.get('inputSHA256',{}))==5 and all(sha(ROOT/p)==digest for p,digest in interaction.get('inputSHA256',{}).items()))
 toc=required('qa/toc_audit.json',lambda q:len(q)==13 and all(x['indexes']==1 for x in q))
 render=read(f'qa/report_render_manifest_{a.tag}.json');check('13 same-source rendered volumes',len(render['records'])==13 and render['fingerprint']==finger)
 for v in render['records']:

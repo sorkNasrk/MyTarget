@@ -1,0 +1,65 @@
+{
+  "fingerprint": "63ca87a2011995a6",
+  "bundleSHA256": "7303846c78bc2431c91490b4f32a747d08a01d308a92ac297e0a26c9e99ec85f",
+  "helperSHA256": "e028a45a54dc94ff25f6787a49f60263e2cf54ef28e82dd61efb6acc0d1c189e",
+  "webDataSHA256": "814c8dbeb003e4a69a2c1fcb9ffa2548222bf5ddecf9b6a9b40466fd9b729207",
+  "qaScriptSHA256": "2caf14ad9a14fcfbe97225ffef9be57d404886c4f06e4225d153e55ef26c2b57",
+  "passed": true,
+  "checks": 50742,
+  "rankedSecurities": 91,
+  "conditionalSecurities": 5,
+  "horizons": [
+    "yearEnd",
+    "halfYear",
+    "oneYear",
+    "threeYear",
+    "fiveYear"
+  ],
+  "checkedSecurityHorizons": 455,
+  "checkedWeightedSummaries": 3640,
+  "weights": {
+    "default": [
+      25,
+      50,
+      25
+    ],
+    "defensive": [
+      40,
+      50,
+      10
+    ],
+    "positive": [
+      10,
+      50,
+      40
+    ],
+    "equal": [
+      33.333333333333336,
+      33.333333333333336,
+      33.333333333333336
+    ],
+    "bearOnly": [
+      100,
+      0,
+      0
+    ],
+    "baseOnly": [
+      0,
+      100,
+      0
+    ],
+    "bullOnly": [
+      0,
+      0,
+      100
+    ],
+    "noBase": [
+      50,
+      0,
+      50
+    ]
+  },
+  "tolerance": 1e-9,
+  "errors": [],
+  "scope": "Frozen expected/defensive/positive prices; 91 securities × 5 horizons; four probability presets and zero/extreme weights; convex bounds; dividend/return identities; discrete hypothetical positive weight; long-horizon annualization; invalid/conditional null boundaries; VM/CommonJS parity; no source mutation"
+}

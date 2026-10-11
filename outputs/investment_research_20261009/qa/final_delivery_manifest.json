@@ -1,6 +1,6 @@
 {
   "fingerprint": "63ca87a2011995a6",
-  "createdAt": "2026-10-11T12:11:43.459318+00:00",
+  "createdAt": "2026-10-11T12:24:58.847455+00:00",
   "passed": true,
   "preflightPassed": true,
   "scope": "92 companies /96 stock securities; excluded funds, indices and leverage products",
@@ -1844,6 +1844,26 @@
     },
     {
       "name": "qa/web_visual_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_expectation_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scenario math current frozen inputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_interaction_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interactive web five current input hashes",
       "passed": true,
       "detail": null
     },
