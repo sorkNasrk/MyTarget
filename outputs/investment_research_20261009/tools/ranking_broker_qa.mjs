@@ -31,6 +31,8 @@ for(const m of b.models)for(const[h,s]of Object.entries(m.scenarios)){
   if(b.years[h]>=3)check(m.code+'/'+h+' annualized total return',Math.abs(c.annualized-(((c.price+c.dividend)/m.price)**(1/b.years[h])-1))<1e-9);
  }
  check(m.code+'/'+h+' weighted expectation',Math.abs(s.expectedPrice-(s.cases[0].price*.25+s.cases[1].price*.5+s.cases[2].price*.25))<1e-9);
+ check(m.code+'/'+h+' defensive weight sensitivity',Math.abs(s.defensivePrice-(s.cases[0].price*.4+s.cases[1].price*.5+s.cases[2].price*.1))<1e-9);
+ check(m.code+'/'+h+' positive weight sensitivity',Math.abs(s.positivePrice-(s.cases[0].price*.1+s.cases[1].price*.5+s.cases[2].price*.4))<1e-9);
 }
 for(const m of b.conditionedModels){
  check(m.code+' no formal scenarios, scores or ranking',m.rankEligible===false&&Object.keys(m.scenarios).length===0&&Object.keys(m.scores).length===0&&Object.values(b.rankings).every(rows=>!rows.some(r=>r.code===m.code)));

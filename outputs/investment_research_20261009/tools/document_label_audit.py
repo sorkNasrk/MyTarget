@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-PATTERN=re.compile(r'\b(?:high|medium|low)\b',re.I)
+PATTERN=re.compile(r'\b(?:high|medium|low)\b|null',re.I)
 NS={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 
 def findings(text):

@@ -4,10 +4,11 @@
     "web/index.html": "807685df9f0e8cb982140bc3138653eadae9d94192ad510a9c71ecb93db3641e",
     "web/app.js": "dcea8ab511a67b6418f544a5ef87e7b4db828f614c5be2846a771173c567d70e",
     "web/style.css": "15c85065b480a1ef69089d25bd84b143d56c4506c7854c34a218f5d7040d702b",
-    "web/data.js": "59fbd78fb00c6872974101d0ef866e972f773011485ea04ef2b116f2f7e910c1"
+    "web/data.js": "814c8dbeb003e4a69a2c1fcb9ffa2548222bf5ddecf9b6a9b40466fd9b729207"
   },
   "passed": true,
-  "checks": 86264,
+  "checks": 86349,
+  "deliveryChecks": 27,
   "errors": [],
-  "scope": "Web prices, currencies, targets, expected values, ranking arrays, full bodies, source/broker rows, history cutoff and blocked volume"
+  "scope": "Web prices, currencies, targets, expected values, ranking arrays, full bodies, source/broker rows, history cutoff, blocked volume and current released download hashes"
 }

@@ -10,5 +10,17 @@ eq(app.includes('偏悲观40/50/10、偏乐观10/50/40'),true,'method sensitivit
 eq(app.includes('40/40/20')||app.includes('20/40/40'),false,'obsolete sensitivity weights absent');
 eq(app.includes('40% / 50% / 10%')&&app.includes('10% / 50% / 40%'),true,'year-end sensitivity weight labels');
 eq(app.includes("replace('期限多数null','目标期限多数未披露')"),true,'missing broker horizon translated for display');
+let deliveryChecks=0;
+if(d.finalReleased){
+const manifest=JSON.parse(await fs.readFile(path.join(root,'qa/final_delivery_manifest.json'),'utf8'));
+eq(manifest.passed,true,'delivery manifest passed');eq(manifest.fingerprint,b.fingerprint,'delivery version');eq(manifest.files.length,27,'27 released files');eq(d.documents.length,27,'27 web download entries');
+for(const document of d.documents){
+eq(document.available,true,document.file+' released link enabled');
+const entry=manifest.files.find(f=>f.name===document.file);
+eq(Boolean(entry),true,document.file+' manifest entry');
+if(entry)eq(crypto.createHash('sha256').update(await fs.readFile(path.join(root,'deliverables',document.file))).digest('hex'),entry.sha256,document.file+' download current hash');
+deliveryChecks++;
+}
+}
 const inputSHA256=Object.fromEntries(await Promise.all(['web/index.html','web/app.js','web/style.css','web/data.js'].map(async p=>[p,crypto.createHash('sha256').update(await fs.readFile(path.join(root,p))).digest('hex')])));
-const report={fingerprint:b.fingerprint,inputSHA256,passed:!errors.length,checks,errors,scope:'Web prices, currencies, targets, expected values, ranking arrays, full bodies, source/broker rows, history cutoff and blocked volume'};await fs.writeFile(path.join(root,'qa/web_data_qa.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(errors.length)process.exit(1);
+const report={fingerprint:b.fingerprint,inputSHA256,passed:!errors.length,checks,deliveryChecks,errors,scope:'Web prices, currencies, targets, expected values, ranking arrays, full bodies, source/broker rows, history cutoff, blocked volume and current released download hashes'};await fs.writeFile(path.join(root,'qa/web_data_qa.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(errors.length)process.exit(1);

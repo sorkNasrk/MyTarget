@@ -15,7 +15,7 @@ const documents=[{label:'Excel总表',file:'证券研究总表_初版.xlsx',type
 let release=null;try{release=JSON.parse(await fs.readFile(path.join(root,'qa/final_delivery_manifest.json'),'utf8'));}catch{}
 const finalReleased=release?.passed===true&&release?.fingerprint===b.fingerprint;
 for(const d of documents){try{await fs.access(path.join(root,'deliverables',d.file));d.available=d.type!=='pdf'||finalReleased;}catch{d.available=false;}}
-const payload={asOf:b.asOf,version:b.version,fingerprint:b.fingerprint,createdAt:b.createdAt,labels:b.labels,years:b.years,weights:b.weights,issuers,securities,rankings:b.rankings,sources:b.sources,brokers:b.brokers,documents,deliveryStatus:finalReleased?'全部27份文件已完成内容、模型、同源PDF和可读性验收。':'排版与最终文件验收进行中',finalReleased,scope:'92家公司 / 96个股票证券'};
+const payload={asOf:b.asOf,version:b.version,fingerprint:b.fingerprint,createdAt:b.createdAt,labels:b.labels,years:b.years,weights:b.weights,issuers,securities,rankings:b.rankings,sources:b.sources,brokers:b.brokers,documents,deliveryStatus:finalReleased?'全部27份文件已完成内容、模型、同源PDF和可读性验收':'排版与最终文件验收进行中',finalReleased,scope:'92家公司 / 96个股票证券'};
 await fs.writeFile(path.join(out,'data.js'),'window.RESEARCH='+json(payload)+';\n');
 for(const i of issuers){const text=await fs.readFile(path.join(root,i.deepResearchFile),'utf8');await fs.writeFile(path.join(out,'content',i.issuerId+'.js'),'window.RESEARCH_CONTENT=window.RESEARCH_CONTENT||{};window.RESEARCH_CONTENT['+json(i.issuerId)+']='+json(text)+';\n');}
 for(const s of securities){const q=market[s.securityId];let history={bars:[],weekly:[]};if(q?.historyFile){try{history=JSON.parse(await fs.readFile(path.join(root,q.historyFile),'utf8'));}catch{}}

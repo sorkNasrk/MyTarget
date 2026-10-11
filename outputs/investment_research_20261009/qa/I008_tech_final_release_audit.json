@@ -1,0 +1,38 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "reviewer": "tech_sources",
+  "reviewDate": "2026-10-11",
+  "bundleFingerprint": "63ca87a2011995a6",
+  "status": "PASS conditional research integration only",
+  "formalModelSHA256": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+  "pendingModelSHA256": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+  "bodySHA256": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+  "nativeSHA256": "9fb1f14263b0023bbbc8aa87f43b0b06c4db82c45bf5c0f9197657b7639b6f53",
+  "workbookSHA256": "c05d1c799983a64e24e9b83bda9b6dc6e4032f113093f41e132121178dea5434",
+  "stateSHA256": "9474a8505dee7880802f459c40419cdfd3342a56c52b0975baf6aa38f48caea9",
+  "contractSHA256": "53e40da4747da54f1dba3da4e7272723dc6081059ad1385f6bcf9d8be6d6ab5e",
+  "independentReviews": {
+    "economic": {"file": "qa/insilico_v3_economic_review.json", "checks": 13147, "pass": true},
+    "body": {"file": "qa/insilico_v3_body_review.json", "checks": 473, "pass": true, "effectiveHan": 15585, "paragraphs": 105, "duplicates": 0},
+    "sources": {"file": "qa/insilico_v3_source_review.json", "checks": 447, "pass": true},
+    "technical": {"file": "qa/insilico_v3_technical_review.json", "checks": 92, "pass": true},
+    "clinicalFactRecheck": {"file": "qa/insilico_v3_body_fact_recheck.json", "pass": true, "scope": "Final body16ca with former0136 numerical model; metadata-only model summary changed to3d3b and independent source/economic/body reviews rebound"}
+  },
+  "integrationChecks": {
+    "formalPendingIdentical": true,
+    "stateAndContractMatchActualHashes": true,
+    "includedInConditionedModels": true,
+    "valuationConditioned": true,
+    "rankEligible": false,
+    "formalTargetAvailable": false,
+    "formalScoresScenariosHorizonsEmpty": true,
+    "officialTargetPricesAndExpectedPricesNull": true,
+    "rawConditionalWeightsNamedStressReference": true,
+    "fourRankingsExcludeIssuer": true,
+    "fourBrokerTargetsRetained": true,
+    "deepResearchFileRetained": true
+  },
+  "approvalScope": "Conditional stress and financing sensitivity research only. Unfunded remote deficits do not establish near-term liquidation value; unannounced high-price financing is not an economically self-consistent base case. No official target, expected return or actionable ranking approved.",
+  "remainingWork": ["Final integrated workbook calculations and original-image visual QA", "Same-source Word/PDF generation and original-page visual QA", "Cross-file core-number reconciliation and whole-project coverage acceptance"]
+}

@@ -1,8 +1,24 @@
 {
-  "fingerprint": "21855bd5cd2d5d78",
-  "checks": 2766,
-  "coveredIssuers": 88,
-  "models": 88,
+  "fingerprint": "63ca87a2011995a6",
+  "inputSHA256": {
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\证券研究总表_初版.xlsx": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\00_总报告_初版.docx": "b98bfbcddd0e8fa6e0c69eb5f5156e3c10f536cd266fb26564e170bf0d2b59df",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\01_公司深研_初版.docx": "88351f4eaeb3c115cd9fed9deed1731590b3551b3a3aaebea896c72cab10ed69",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\02_公司深研_初版.docx": "b5560fccf07fb3c6bd6af506dd90e328fd635614725a09cf9933ef5db90fc507",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\03_公司深研_初版.docx": "d01665a72c0fd395f179198bf4a64e18d4e933daf5ec40124032d61dff9be77c",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\04_公司深研_初版.docx": "a384ab931eff0efe848f40f24e269e187f9181ce14138be2e4ea8f366c219deb",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\05_公司深研_初版.docx": "06258e9ff58f1aaaf4b4915ef483085fc1277c1e40d71f23d22cd09eb29fdb1b",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\06_公司深研_初版.docx": "88b9385354d97afaa8a49b44a68b14037baca2ea58bc0e8fda402844a0883ba4",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\07_公司深研_初版.docx": "d6e8a29dc4b9a3eab0cf97f8c6460d03b24b1676dd7cb264ff73f7ecca8a359a",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\08_公司深研_初版.docx": "be411d7bcf6ea99a0049758174f5000f02b297c7ed87d02d9f13376682892bae",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\09_公司深研_初版.docx": "520e0807962ab0d36fca61a170cf7a59aa3ea1ac46687108c83a3434d8c48368",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\10_公司深研_初版.docx": "6d0ebdbaf889fbc8caf09ea98ae291afe953d0d55feaef76d18b7a6377504698",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\11_公司深研_初版.docx": "b6387a2f0df390064cc8267a9ffe0d50c406bf8d12163c4473ea67192817eeac",
+    "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\12_公司深研_初版.docx": "02560dd0a0f68b7ffb8fe4a9cc84b756551f2074544cbccb9dbd170ab8f5a3c9"
+  },
+  "checks": 2859,
+  "coveredIssuers": 92,
+  "models": 91,
   "errors": [],
   "passed": true,
   "scope": "model summary tables and embedded versions; manuscript factual verification and latest PDF visual review are separate prerequisites"

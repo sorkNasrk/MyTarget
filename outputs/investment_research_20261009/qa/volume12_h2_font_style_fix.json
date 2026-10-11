@@ -1,0 +1,617 @@
+{
+  "createdAt": "2026-10-11T10:38:08.882556+00:00",
+  "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\12_公司深研_初版.docx",
+  "backup": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\backup_h2style_20261011T103807Z_3e2d290d\\12_公司深研_初版.docx",
+  "beforeSHA256": "ed8a1abc8a3927465021aa20080a54d00da3381e4e4609f5b5c8b78269333b44",
+  "afterStyleSHA256": "ecef4d61f0a3227bce9fbeffcf8a285401c367976d60092f97b9bbb1e01fd8a8",
+  "beforeTextSHA256": "8e3ca7e285603164e72e7894c6c57b2bfc843d62e939ca4d6d2e1fd6e7796c38",
+  "afterTextSHA256": "8e3ca7e285603164e72e7894c6c57b2bfc843d62e939ca4d6d2e1fd6e7796c38",
+  "passed": true,
+  "paragraphAndTableTextUnchanged": true,
+  "bodyXMLUnchanged": true,
+  "changedStyleIdsOnly": [
+    "Heading2"
+  ],
+  "beforeStyleXML": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" w:type=\"paragraph\" w:styleId=\"Heading2\">\n  <w:name w:val=\"heading 2\"/>\n  <w:basedOn w:val=\"Normal\"/>\n  <w:next w:val=\"Normal\"/>\n  <w:link w:val=\"Heading2Char\"/>\n  <w:uiPriority w:val=\"9\"/>\n  <w:unhideWhenUsed/>\n  <w:qFormat/>\n  <w:rsid w:val=\"00fc693f\"/>\n  <w:pPr>\n    <w:keepNext w:val=\"true\"/>\n    <w:keepLines/>\n    <w:spacing w:before=\"200\" w:after=\"0\"/>\n    <w:outlineLvl w:val=\"1\"/>\n  </w:pPr>\n  <w:rPr>\n    <w:rFonts w:ascii=\"Calibri\" w:hAnsi=\"Calibri\" w:eastAsia=\"ＭＳ ゴシック\" w:cs=\"宋体\" w:asciiTheme=\"majorHAnsi\" w:cstheme=\"majorBidi\" w:eastAsiaTheme=\"majorEastAsia\" w:hAnsiTheme=\"majorHAnsi\"/>\n    <w:b/>\n    <w:bCs/>\n    <w:color w:val=\"000000\"/>\n    <w:sz w:val=\"26\"/>\n    <w:szCs w:val=\"26\"/>\n  </w:rPr>\n</w:style>\n",
+  "afterStyleXML": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" w:type=\"paragraph\" w:styleId=\"Heading2\">\n  <w:name w:val=\"heading 2\"/>\n  <w:basedOn w:val=\"Normal\"/>\n  <w:next w:val=\"Normal\"/>\n  <w:link w:val=\"Heading2Char\"/>\n  <w:uiPriority w:val=\"9\"/>\n  <w:unhideWhenUsed/>\n  <w:qFormat/>\n  <w:rsid w:val=\"00fc693f\"/>\n  <w:pPr>\n    <w:keepNext w:val=\"true\"/>\n    <w:keepLines/>\n    <w:spacing w:before=\"200\" w:after=\"0\"/>\n    <w:outlineLvl w:val=\"1\"/>\n  </w:pPr>\n  <w:rPr>\n    <w:rFonts w:ascii=\"Microsoft YaHei\" w:hAnsi=\"Microsoft YaHei\" w:eastAsia=\"微软雅黑\" w:cs=\"宋体\" w:cstheme=\"majorBidi\"/>\n    <w:b/>\n    <w:bCs/>\n    <w:color w:val=\"000000\"/>\n    <w:sz w:val=\"26\"/>\n    <w:szCs w:val=\"26\"/>\n  </w:rPr>\n</w:style>\n",
+  "affectedHeading2Paragraphs": [
+    {
+      "index": 24,
+      "text": "一 投资结论与不同期限的判断"
+    },
+    {
+      "index": 29,
+      "text": "二 收入结构与主营商业化质量"
+    },
+    {
+      "index": 35,
+      "text": "三 特瑞普利单抗的适应症与竞争位置"
+    },
+    {
+      "index": 41,
+      "text": "四 围手术肺癌与皮下制剂的近端催化"
+    },
+    {
+      "index": 47,
+      "text": "五 海外合作与净经济权益"
+    },
+    {
+      "index": 52,
+      "text": "六 PCSK9 阿达木单抗及抗病毒产品"
+    },
+    {
+      "index": 57,
+      "text": "七 IL 17A授权交易的确定与不确定部分"
+    },
+    {
+      "index": 62,
+      "text": "八 BTLA项目的临床价值与失败路径"
+    },
+    {
+      "index": 67,
+      "text": "九 JS207双抗与竞争门槛"
+    },
+    {
+      "index": 72,
+      "text": "十 JS212 JS213与早期平台"
+    },
+    {
+      "index": 78,
+      "text": "十一 利润质量与历史口径"
+    },
+    {
+      "index": 84,
+      "text": "十二 研发 制造与资本投入"
+    },
+    {
+      "index": 89,
+      "text": "十三 现金 理财 负债与真实跑道"
+    },
+    {
+      "index": 95,
+      "text": "十四 融资与股数的对应关系"
+    },
+    {
+      "index": 101,
+      "text": "十五 估值模型与重要敏感性"
+    },
+    {
+      "index": 108,
+      "text": "十六 半年日线与关键观察价格"
+    },
+    {
+      "index": 114,
+      "text": "十七 成交量 相对强弱与辅助指标"
+    },
+    {
+      "index": 120,
+      "text": "十八 周线与技术判断的失效条件"
+    },
+    {
+      "index": 125,
+      "text": "十九 年底价格与权重的解释"
+    },
+    {
+      "index": 129,
+      "text": "二十 三年 五年与十年经营持续性"
+    },
+    {
+      "index": 135,
+      "text": "来源与模型核验"
+    },
+    {
+      "index": 159,
+      "text": "一 公司经营结构及收入权利"
+    },
+    {
+      "index": 166,
+      "text": "二 奥雷巴替尼的临床基础与市场边界"
+    },
+    {
+      "index": 176,
+      "text": "三 武田选择权的经济意义"
+    },
+    {
+      "index": 183,
+      "text": "四 利生妥的已批准适应症与竞争价值"
+    },
+    {
+      "index": 192,
+      "text": "五 利生妥全球注册项目"
+    },
+    {
+      "index": 200,
+      "text": "六 其它管线与技术持续性"
+    },
+    {
+      "index": 209,
+      "text": "七 财务质量与现金跑道"
+    },
+    {
+      "index": 220,
+      "text": "八 美国融资身份与股份稀释"
+    },
+    {
+      "index": 228,
+      "text": "九 估值方法 情景与敏感性"
+    },
+    {
+      "index": 239,
+      "text": "十 半年日线 周线与量能"
+    },
+    {
+      "index": 252,
+      "text": "十一 行业 经济与政策传导"
+    },
+    {
+      "index": 258,
+      "text": "十二 四期限投资逻辑与反证"
+    },
+    {
+      "index": 266,
+      "text": "十三 外资目标价 治理及核验边界"
+    },
+    {
+      "index": 273,
+      "text": "来源与复核记录"
+    },
+    {
+      "index": 300,
+      "text": "投资结论与信息资格"
+    },
+    {
+      "index": 305,
+      "text": "集团边界与经济归属"
+    },
+    {
+      "index": 309,
+      "text": "心血管器械的稳定收入与竞争"
+    },
+    {
+      "index": 312,
+      "text": "骨科的调整 渠道与未完成处置"
+    },
+    {
+      "index": 316,
+      "text": "心律管理的经营与融资区别"
+    },
+    {
+      "index": 319,
+      "text": "主动脉及外周血管业务"
+    },
+    {
+      "index": 322,
+      "text": "结构性心脏病及组合协同"
+    },
+    {
+      "index": 325,
+      "text": "机器人与其他业务的集团价值"
+    },
+    {
+      "index": 328,
+      "text": "全球商业化平台与宏观传导"
+    },
+    {
+      "index": 332,
+      "text": "法定盈利与经营核心桥"
+    },
+    {
+      "index": 336,
+      "text": "非经常项目与调整口径"
+    },
+    {
+      "index": 339,
+      "text": "研发 资本化与长期竞争"
+    },
+    {
+      "index": 342,
+      "text": "现金流和融资分类的核验"
+    },
+    {
+      "index": 345,
+      "text": "合并现金与母公司可用资金"
+    },
+    {
+      "index": 348,
+      "text": "债务本金 账面值与赎回"
+    },
+    {
+      "index": 351,
+      "text": "约束 豁免与持续经营"
+    },
+    {
+      "index": 354,
+      "text": "租赁保证金与中报延迟"
+    },
+    {
+      "index": 358,
+      "text": "应收 存货与营运资金"
+    },
+    {
+      "index": 361,
+      "text": "股本 潜在转股与归母成本"
+    },
+    {
+      "index": 364,
+      "text": "活动经营模型与完整成本"
+    },
+    {
+      "index": 368,
+      "text": "悲观分支与模型限制"
+    },
+    {
+      "index": 371,
+      "text": "年底信息集与现金压力"
+    },
+    {
+      "index": 374,
+      "text": "半年经营逻辑与失效路径"
+    },
+    {
+      "index": 377,
+      "text": "一年经营逻辑与失效路径"
+    },
+    {
+      "index": 380,
+      "text": "三年成长与股东分享"
+    },
+    {
+      "index": 383,
+      "text": "五年与十年经营持续性"
+    },
+    {
+      "index": 386,
+      "text": "停牌前日线与均线"
+    },
+    {
+      "index": 389,
+      "text": "观察区间与量价失效"
+    },
+    {
+      "index": 392,
+      "text": "周线动量与辅助指标"
+    },
+    {
+      "index": 395,
+      "text": "成交量单位及同日相对市场"
+    },
+    {
+      "index": 398,
+      "text": "外资目标价与矛盾输入"
+    },
+    {
+      "index": 402,
+      "text": "经济环境与具体风险传导"
+    },
+    {
+      "index": 405,
+      "text": "最终反证与更新程序"
+    },
+    {
+      "index": 408,
+      "text": "来源与核验记录 不计入独立正文字数"
+    },
+    {
+      "index": 429,
+      "text": "投资结论"
+    },
+    {
+      "index": 433,
+      "text": "公司业务与临床需求"
+    },
+    {
+      "index": 440,
+      "text": "产品 审批及创新证据"
+    },
+    {
+      "index": 447,
+      "text": "竞争 渠道与经济周期"
+    },
+    {
+      "index": 454,
+      "text": "财务利润与现金质量"
+    },
+    {
+      "index": 464,
+      "text": "投资资产 资本支出及租赁核查"
+    },
+    {
+      "index": 473,
+      "text": "股份 激励和股息"
+    },
+    {
+      "index": 478,
+      "text": "半年历史图形与量能限制"
+    },
+    {
+      "index": 486,
+      "text": "条件估值的模型结构"
+    },
+    {
+      "index": 495,
+      "text": "四期限逻辑与失效路径"
+    },
+    {
+      "index": 501,
+      "text": "脑机方向与治理条件"
+    },
+    {
+      "index": 505,
+      "text": "外部目标与研究边界"
+    },
+    {
+      "index": 508,
+      "text": "来源"
+    },
+    {
+      "index": 536,
+      "text": "投资结论与推荐边界"
+    },
+    {
+      "index": 541,
+      "text": "公司业务的经济结构"
+    },
+    {
+      "index": 545,
+      "text": "图迈的订单与安装证据"
+    },
+    {
+      "index": 549,
+      "text": "产品许可 临床应用与技术叙事"
+    },
+    {
+      "index": 553,
+      "text": "鸿鹄及其他产品的定位"
+    },
+    {
+      "index": 556,
+      "text": "市场需求与竞争优势的边界"
+    },
+    {
+      "index": 560,
+      "text": "产能 安装资源与规模效应"
+    },
+    {
+      "index": 563,
+      "text": "财务增长与归母利润质量"
+    },
+    {
+      "index": 567,
+      "text": "2026上半年预告可以支持什么"
+    },
+    {
+      "index": 570,
+      "text": "关联交易与收入确认"
+    },
+    {
+      "index": 573,
+      "text": "应收 预收与订单现金"
+    },
+    {
+      "index": 576,
+      "text": "现金流改善及其持续性"
+    },
+    {
+      "index": 579,
+      "text": "现金 债务与偿付约束"
+    },
+    {
+      "index": 582,
+      "text": "租赁安排 保证金和核查范围"
+    },
+    {
+      "index": 585,
+      "text": "股本 激励与分红"
+    },
+    {
+      "index": 588,
+      "text": "估值模型的活动输入"
+    },
+    {
+      "index": 592,
+      "text": "估值边界与现金重复计价"
+    },
+    {
+      "index": 595,
+      "text": "年底专项的条件信息集"
+    },
+    {
+      "index": 598,
+      "text": "半年逻辑与反证"
+    },
+    {
+      "index": 601,
+      "text": "一年逻辑与反证"
+    },
+    {
+      "index": 604,
+      "text": "三年逻辑与反证"
+    },
+    {
+      "index": 607,
+      "text": "五年与十年经营持续性"
+    },
+    {
+      "index": 610,
+      "text": "半年日线形态的历史观察"
+    },
+    {
+      "index": 613,
+      "text": "支撑 阻力与失效条件"
+    },
+    {
+      "index": 616,
+      "text": "周线与辅助动量"
+    },
+    {
+      "index": 619,
+      "text": "量能 换手与相对强弱限制"
+    },
+    {
+      "index": 622,
+      "text": "外资目标价的证据整理"
+    },
+    {
+      "index": 626,
+      "text": "现金压力 宏观传导与经营反证"
+    },
+    {
+      "index": 630,
+      "text": "核验路线与最终条件判断"
+    },
+    {
+      "index": 633,
+      "text": "来源与可追溯记录 不计入独立正文字数"
+    },
+    {
+      "index": 658,
+      "text": "一 推荐结论及其成立条件"
+    },
+    {
+      "index": 664,
+      "text": "二 发行人 上市历史与股票供给"
+    },
+    {
+      "index": 671,
+      "text": "三 商业模式 三种权益路径决定收入质量"
+    },
+    {
+      "index": 678,
+      "text": "四 行业需求 竞争及经济前景"
+    },
+    {
+      "index": 685,
+      "text": "五 Rentosertib的临床证据与注册路径"
+    },
+    {
+      "index": 698,
+      "text": "六 其他自研临床资产的经济含义"
+    },
+    {
+      "index": 708,
+      "text": "七 许可资产与合作合同的去重"
+    },
+    {
+      "index": 716,
+      "text": "八 财务表现 利润质量与现金结构"
+    },
+    {
+      "index": 724,
+      "text": "九 可转债和基金投资的现金影响"
+    },
+    {
+      "index": 731,
+      "text": "逐资产证据登记摘要 不计正文有效汉字"
+    },
+    {
+      "index": 733,
+      "text": "32活动需求中间假设 研究值 非公司指引"
+    },
+    {
+      "index": 735,
+      "text": "十 估值模型 参数和合理范围"
+    },
+    {
+      "index": 748,
+      "text": "十一 半年日线 周线与关键价位"
+    },
+    {
+      "index": 755,
+      "text": "十二 成交量 相对强弱与辅助指标"
+    },
+    {
+      "index": 762,
+      "text": "十三 外资投行目标价与本研究的差异"
+    },
+    {
+      "index": 768,
+      "text": "十四 四期限投资逻辑 催化和失败路径"
+    },
+    {
+      "index": 776,
+      "text": "十五 反证清单 研究限制与更新规则"
+    },
+    {
+      "index": 782,
+      "text": "来源与核验附录"
+    },
+    {
+      "index": 809,
+      "text": "投资结论"
+    },
+    {
+      "index": 813,
+      "text": "业务转向与两套商业模式"
+    },
+    {
+      "index": 818,
+      "text": "KX 826 中国Ⅲ期的具体证据"
+    },
+    {
+      "index": 824,
+      "text": "KX其他适应症与组合 不要跨试验抬高效果"
+    },
+    {
+      "index": 828,
+      "text": "GT20029与PROTAC平台"
+    },
+    {
+      "index": 833,
+      "text": "KT 939与化妆品原料注册"
+    },
+    {
+      "index": 838,
+      "text": "其他管线与被暂停项目"
+    },
+    {
+      "index": 843,
+      "text": "行业 经济和政策的真实传导"
+    },
+    {
+      "index": 848,
+      "text": "历史财务与利润质量"
+    },
+    {
+      "index": 853,
+      "text": "现金跑道 债务与继续经营"
+    },
+    {
+      "index": 860,
+      "text": "股数 融资和普通股价值"
+    },
+    {
+      "index": 864,
+      "text": "量价 弱趋势没有自动反弹含义"
+    },
+    {
+      "index": 872,
+      "text": "条件估值 有限现金流而非PE"
+    },
+    {
+      "index": 879,
+      "text": "四期限的逻辑与失效路径"
+    },
+    {
+      "index": 884,
+      "text": "外资目标缺失与反证框架"
+    },
+    {
+      "index": 887,
+      "text": "十年持续性与研究可信度"
+    },
+    {
+      "index": 891,
+      "text": "来源"
+    }
+  ],
+  "confirmedAdditionalOriginalPages": [
+    85,
+    86,
+    87,
+    88
+  ],
+  "change": "Only volume 12 Heading2 style font: explicit Microsoft YaHei / 微软雅黑, remove ASCII/HAnsi/EastAsia theme font attributes, preserve bold 13pt.",
+  "afterTocSHA256": "02560dd0a0f68b7ffb8fe4a9cc84b756551f2074544cbccb9dbd170ab8f5a3c9",
+  "afterTocParagraphAndTableTextUnchanged": true,
+  "afterTocStyleXML": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" w:type=\"paragraph\" w:styleId=\"Heading2\">\n  <w:name w:val=\"heading 2\"/>\n  <w:basedOn w:val=\"Normal\"/>\n  <w:next w:val=\"Normal\"/>\n  <w:link w:val=\"Heading2Char\"/>\n  <w:uiPriority w:val=\"9\"/>\n  <w:unhideWhenUsed/>\n  <w:qFormat/>\n  <w:rsid w:val=\"00fc693f\"/>\n  <w:pPr>\n    <w:keepNext w:val=\"true\"/>\n    <w:keepLines/>\n    <w:spacing w:before=\"200\" w:after=\"0\"/>\n    <w:outlineLvl w:val=\"1\"/>\n  </w:pPr>\n  <w:rPr>\n    <w:rFonts w:ascii=\"Microsoft YaHei\" w:hAnsi=\"Microsoft YaHei\" w:eastAsia=\"微软雅黑\" w:cs=\"宋体\" w:cstheme=\"majorBidi\"/>\n    <w:b/>\n    <w:bCs/>\n    <w:color w:val=\"000000\"/>\n    <w:sz w:val=\"26\"/>\n    <w:szCs w:val=\"26\"/>\n  </w:rPr>\n</w:style>\n"
+}

@@ -1,0 +1,726 @@
+{
+  "issuerId": "I008",
+  "cutoff": "2026-10-09",
+  "version": "insilico-32-active-patent-term-source-review-v1",
+  "preparedAtUTC": "2026-10-11T07:45:45.202Z",
+  "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1218/2025121800031.pdf",
+  "localPDF": "data/pharma_raw/03696_2025121800031.pdf",
+  "sourcePDFSHA256": "e3e12da4642d273626a764bbfebb31926e07c251427c0e5ffcc547a94f990fa7",
+  "basis": "32 activity IDs taken from preflight snapshot9ecc6ea; owner assumptions later revised, identity rows remain scope. Source-only mapping; no author file changed, no new websearch.",
+  "estimatedDateQualifier": {
+    "PDFPage": 314,
+    "text": "Dates estimated from filing status, without possible patent term adjustments/extensions and assumingmaintenancefees. Protectiondependsclaimandcountry. Applicationsnotassuredgrantedorcommerciallyuseful."
+  },
+  "counts": {
+    "activeIDs": 32,
+    "drugGroupsWithExplicitGrantedDates": 5,
+    "rowsWithAtLeastOneSpecificGrantedDate": 12,
+    "rowsWithoutExactAssetGrantedDateInSelectedTable": 20
+  },
+  "rows": [
+    {
+      "id": "ISM001055_IPF_ORAL_CN",
+      "drug": "ISM001-055 / Rentosertib",
+      "territory": "中国",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Kinase Inhibitors",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "Taiwan",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-24"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Analogs for the Treatment of Diseases",
+            "estimatedExpiration": "2042-02-23"
+          }
+        ],
+        "pending": "China/EPO/Japan/etc compound or related claims, crystalline and inhaled-formulation applications pending; exact pending expiration not disclosed.",
+        "scope": "Not all granted titles are proven to cover every formulation/indication; latest US granted date is not a global commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM001055_IPF_ORAL_US",
+      "drug": "ISM001-055 / Rentosertib",
+      "territory": "美国",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Kinase Inhibitors",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "Taiwan",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-24"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Analogs for the Treatment of Diseases",
+            "estimatedExpiration": "2042-02-23"
+          }
+        ],
+        "pending": "China/EPO/Japan/etc compound or related claims, crystalline and inhaled-formulation applications pending; exact pending expiration not disclosed.",
+        "scope": "Not all granted titles are proven to cover every formulation/indication; latest US granted date is not a global commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM001055_IPF_ORAL_OTHER",
+      "drug": "ISM001-055 / Rentosertib",
+      "territory": "美国及中国以外",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Kinase Inhibitors",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "Taiwan",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-24"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Analogs for the Treatment of Diseases",
+            "estimatedExpiration": "2042-02-23"
+          }
+        ],
+        "pending": "China/EPO/Japan/etc compound or related claims, crystalline and inhaled-formulation applications pending; exact pending expiration not disclosed.",
+        "scope": "Not all granted titles are proven to cover every formulation/indication; latest US granted date is not a global commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM001055_IPF_INH_CN",
+      "drug": "ISM001-055 / Rentosertib",
+      "territory": "中国",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Kinase Inhibitors",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "Taiwan",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-24"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Analogs for the Treatment of Diseases",
+            "estimatedExpiration": "2042-02-23"
+          }
+        ],
+        "pending": "China/EPO/Japan/etc compound or related claims, crystalline and inhaled-formulation applications pending; exact pending expiration not disclosed.",
+        "scope": "Not all granted titles are proven to cover every formulation/indication; latest US granted date is not a global commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM001055_IPF_INH_OTHER",
+      "drug": "ISM001-055 / Rentosertib",
+      "territory": "中国以外",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Kinase Inhibitors",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-20"
+          },
+          {
+            "jurisdiction": "Taiwan",
+            "patentTitle": "Methods of Inhibiting Kinases",
+            "estimatedExpiration": "2040-02-24"
+          },
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Analogs for the Treatment of Diseases",
+            "estimatedExpiration": "2042-02-23"
+          }
+        ],
+        "pending": "China/EPO/Japan/etc compound or related claims, crystalline and inhaled-formulation applications pending; exact pending expiration not disclosed.",
+        "scope": "Not all granted titles are proven to cover every formulation/indication; latest US granted date is not a global commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM5411_UC_CN",
+      "drug": "ISM5411 / Garutadustat",
+      "territory": "中国",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          313
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "PHD Inhibitors and Uses Thereof",
+            "estimatedExpiration": "2042-10-28"
+          }
+        ],
+        "pending": "China and other jurisdictions compound pending; crystalline/combination/skin claims pending, no exact expiration.",
+        "scope": "US estimated date not China or all-region commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM5411_UC_OTHER",
+      "drug": "ISM5411 / Garutadustat",
+      "territory": "中国以外",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          313
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "PHD Inhibitors and Uses Thereof",
+            "estimatedExpiration": "2042-10-28"
+          }
+        ],
+        "pending": "China and other jurisdictions compound pending; crystalline/combination/skin claims pending, no exact expiration.",
+        "scope": "US estimated date not China or all-region commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM5411_CD",
+      "drug": "ISM5411 / Garutadustat",
+      "territory": "Global定性；逐地区未明",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          313
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "PHD Inhibitors and Uses Thereof",
+            "estimatedExpiration": "2042-10-28"
+          }
+        ],
+        "pending": "China and other jurisdictions compound pending; crystalline/combination/skin claims pending, no exact expiration.",
+        "scope": "US estimated date not China or all-region commercial-end fact."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM3412_MTAP",
+      "drug": "ISM3412",
+      "territory": "全球多中心；FDA IND",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          314
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "MAT2A Inhibitors and Uses Thereof",
+            "estimatedExpiration": "2042-10-19"
+          }
+        ],
+        "pending": "China/Taiwan/EPO/etc pending.",
+        "scope": "US date only; actual claim coverage/enforceability and region-specific expiration unknown."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM6331_MESO",
+      "drug": "ISM6331",
+      "territory": "中美全球多中心",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM8969_PD",
+      "drug": "ISM8969 / HT-001",
+      "territory": "全球50%rights；澳I、FDA/CDE IND",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM3091_HRD",
+      "drug": "ISM3091",
+      "territory": "Exelixis全球独占许可",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          313
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US/Eurasian",
+            "patentTitle": "Small Molecule Inhibitors of USP1 and Uses Thereof",
+            "estimatedExpiration": "2042-11-11"
+          }
+        ],
+        "pending": "Many jurisdictions pending; additional USP1 patent application pending.",
+        "scope": "Royalty term has independent first-sale+10-year minimum as described PDF282, so patent expiry alone does not terminate royalty."
+      },
+      "royaltyTermEvidence": {
+        "PDFPages": [
+          282
+        ],
+        "termType": "later_of",
+        "firstCommercialSalePlusYears": 10,
+        "lastValidCompositionClaim": true,
+        "regulatoryExclusivity": true,
+        "exactCalendarEnd": null,
+        "earlyTermination": "120-day notice pre-first-sale;6-month post-first-sale without cause, breach/bankruptcy/safety and other terms; not unconditional revenue guarantee"
+      }
+    },
+    {
+      "id": "ISM5043_ERPOS_HER2NEG",
+      "drug": "ISM5043",
+      "territory": "Stemline全球独占许可",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": {
+        "PDFPages": [
+          286,
+          287
+        ],
+        "termType": "product_by_country_royalty_term",
+        "firstCommercialSalePlusYears": null,
+        "exactCalendarEnd": null,
+        "expirationEffect": "license fully-paid royalty-free perpetual irrevocable",
+        "earlyTermination": "breach/bankruptcy,18-month inactivity qualifications, patentchallenge,safety and no-cause notices; up-to6-month winddownroyalty, not term length"
+      }
+    },
+    {
+      "id": "ISM9682_CIN_SOLID",
+      "drug": "ISM9682 / MEN2501",
+      "territory": "Stemline全球独占许可",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": {
+        "PDFPages": [],
+        "termType": "not_verified_in_selected_cached_prospectus",
+        "exactCalendarEnd": null
+      }
+    },
+    {
+      "id": "ISM8207_SOLID",
+      "drug": "ISM8207",
+      "territory": "中国I；50/50全球管线",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Beta-Lactam Derivatives for the Treatment of Diseases",
+            "estimatedExpiration": "2042-06-23"
+          }
+        ],
+        "pending": "Other jurisdictions pending; combination patent has Insilico/Fosun co-ownership, no dated expiry.",
+        "scope": "US estimated date not global net rights or complete QPCTL profits/losses end."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM8207_BCELL",
+      "drug": "ISM8207",
+      "territory": "中国I；50/50全球管线",
+      "patentMappingStatus": "selected_material_patent_table_match",
+      "patentEvidence": {
+        "PDFPages": [
+          312
+        ],
+        "granted": [
+          {
+            "jurisdiction": "US",
+            "patentTitle": "Beta-Lactam Derivatives for the Treatment of Diseases",
+            "estimatedExpiration": "2042-06-23"
+          }
+        ],
+        "pending": "Other jurisdictions pending; combination patent has Insilico/Fosun co-ownership, no dated expiry.",
+        "scope": "US estimated date not global net rights or complete QPCTL profits/losses end."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM4808_CKD_GC",
+      "drug": "ISM4808",
+      "territory": "大中华；TaiGen独占",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": {
+        "PDFPages": [],
+        "termType": "not_verified_in_selected_cached_prospectus",
+        "exactCalendarEnd": null
+      }
+    },
+    {
+      "id": "ISM4808_CKD_EXGC",
+      "drug": "ISM4808",
+      "territory": "大中华以外",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM0676_OBESITY",
+      "drug": "ISM0676",
+      "territory": "Global定性；具体地区待核",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM0676_T2D",
+      "drug": "ISM0676",
+      "territory": "Global定性；具体地区待核",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM1354_OBESITY",
+      "drug": "ISM1354",
+      "territory": "未明确具体地域",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM1354_T2D",
+      "drug": "ISM1354",
+      "territory": "未明确具体地域",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM0387_GBM",
+      "drug": "ISM0387",
+      "territory": "未逐地区核实；UAE发现",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM6200_CUSHING",
+      "drug": "ISM6200",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM6200_HYPERCORT_OBESITY",
+      "drug": "ISM6200",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM6200_GLAUCOMA",
+      "drug": "ISM6200",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM9528_POSTSURGICAL",
+      "drug": "ISM9528",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM9528_NEUROPATHIC",
+      "drug": "ISM9528",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM9077_DRY_AMD",
+      "drug": "ISM9077",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM9077_UVEITIS",
+      "drug": "ISM9077",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM9077_DRYEYE",
+      "drug": "ISM9077",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    },
+    {
+      "id": "ISM0900_LPA_CVRISK",
+      "drug": "ISM0900",
+      "territory": "未逐地区核实",
+      "patentMappingStatus": "not_listed_in_selected_material_patent_table",
+      "patentEvidence": {
+        "PDFPages": [
+          312,
+          313,
+          314
+        ],
+        "granted": [],
+        "estimatedExpiration": null,
+        "scope": "Selected material clinical-drug patent table does not list this exact asset. Absence does not prove no patents. Do not infer date from PCC designation or other compound."
+      },
+      "royaltyTermEvidence": null
+    }
+  ],
+  "notAutomaticCommercialEnd": [
+    "Patent date is not global sales termination; generics, knowhow, regulatoryexclusivity,validclaims,newformulationpatents and country-specific rights must be modeled separately.",
+    "US granted expiration cannot be called China expiration where only pendingapplications disclosed.",
+    "Rentosertib latest USanalog2042-02-23 does not prove all oral/inhaled rights protected until2042 in all markets.",
+    "Exelixis royaltyterm explicitlylaterof firstsale+10years,lastvalidcompoundclaim,regulatoryexclusivity; a pure2042cap would conflict with disclosedcontract iffirstsaleafter2032.",
+    "KAT6 royaltytermcalendar/year length not provided in inspectedcontract summary; generic10-year assumptionmustberesearchnotfact.",
+    "Other assets missing in selected table; do not synthesize expiry by adding20 years to2026PCC. Absence is not no-patents."
+  ]
+}
+

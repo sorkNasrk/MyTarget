@@ -1,0 +1,2488 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "reviewDate": "2026-10-11",
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
+  "signatures": {
+    "pending": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+    "body": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+    "evidence": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245",
+    "assumptions": "2b87dd43ea1ccfb2e03456a123483600468016c38106dd80c68f6ab448085721",
+    "patents": "483fe982b25a2ff7d98a661e5ae1ff1a03905fec592e5fdc627ad009f18ec004",
+    "nature": "dfa5bffd67c636db6ee18e83be1df34cdf16d19a7b9bb7e2be4918977ab7bb17",
+    "ct2": "3c3071ac5b509cb7c24535aa73e91d2b56753bc0143c5cecbe4d72caa9f539d2",
+    "ct3": "6bc97045036c4ccefa199ad0d3b56856ba587827ee0a831d1ce01b193d600991"
+  },
+  "status": "PASS source metadata identity and cutoff consistency",
+  "checksCount": 447,
+  "failures": [],
+  "catalog": [
+    {
+      "id": "I",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600542.pdf",
+      "publicationDateTimeHK": "2026-08-26 17:08",
+      "afterClose": true,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026082600542.pdf",
+      "rawSHA256": "7151fefe3de48e3178a66ed8292c795c5aa8a17d49ccf2c4dba129d16e4111c3"
+    },
+    {
+      "id": "P",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1218/2025121800031.pdf",
+      "publicationDateTimeHK": "2025-12-18 06:22",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2025121800031.pdf",
+      "rawSHA256": "e3e12da4642d273626a764bbfebb31926e07c251427c0e5ffcc547a94f990fa7"
+    },
+    {
+      "id": "F",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803625.pdf",
+      "publicationDateTimeHK": "2026-04-28 20:00",
+      "afterClose": true,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026042803625.pdf",
+      "rawSHA256": "469de8473fb0eabb862126b92bcbafb92eeae6f7def961476affa14bc1f643fc"
+    },
+    {
+      "id": "R3",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0910/2026091000093.pdf",
+      "publicationDateTimeHK": "2026-09-10 08:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026091000093.pdf",
+      "rawSHA256": "4070e953f6bd510c752b3f8f541046111c0d9cb2b499ee8fd1ea046b041abcb4"
+    },
+    {
+      "id": "R3I",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0708/2026070800129.pdf",
+      "publicationDateTimeHK": "2026-07-08 08:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026070800129.pdf",
+      "rawSHA256": "f3885577b28b14e540aa411ce2227da6bc3702b2bdfd64eb1c9c3beb41239c69"
+    },
+    {
+      "id": "RI",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900183.pdf",
+      "publicationDateTimeHK": "2026-04-29 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026042900183.pdf",
+      "rawSHA256": "4de3a5e7b3fe5d8f103e10a2ab77e2df1a1e4a3dd8b58167e6a2d1fa4ddce199"
+    },
+    {
+      "id": "GU",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0112/2026011200059.pdf",
+      "publicationDateTimeHK": "2026-01-12 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026011200059.pdf",
+      "rawSHA256": "24c297943d8617c6846205e276d4cd60dcbe3ea66f9fb069085d3bd91cdad33f"
+    },
+    {
+      "id": "TF",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0729/2026072900099.pdf",
+      "publicationDateTimeHK": "2026-07-29 08:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026072900099.pdf",
+      "rawSHA256": "7cfd365e6db37699482aff5e5665c6cebb87636abef4fc9133b64ff79a32551a"
+    },
+    {
+      "id": "TE",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0727/2026072700047.pdf",
+      "publicationDateTimeHK": "2026-07-27 08:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026072700047.pdf",
+      "rawSHA256": "43ab74041a9d1e0f391dad8050f5b9d9042d485855ae1c74d1b673cb3e1bc7a9"
+    },
+    {
+      "id": "HY",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0120/2026012000143.pdf",
+      "publicationDateTimeHK": "2026-01-20 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026012000143.pdf",
+      "rawSHA256": "d72bb2c45262e0df337385c4d3945f62cbc0e31b917f759360c2204c82e6203d"
+    },
+    {
+      "id": "NI",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0123/2026012300099.pdf",
+      "publicationDateTimeHK": "2026-01-23 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026012300099.pdf",
+      "rawSHA256": "4735ced18f5e7ad828c0d8f955d61e38139aac74bf8a79609643b1ace0e295bc"
+    },
+    {
+      "id": "NF",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0617/2026061700303.pdf",
+      "publicationDateTimeHK": "2026-06-17 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026061700303.pdf",
+      "rawSHA256": "53ade27ee6668956f8fb8def1038bc90e5c653722417dc9654d0fb78501a695f"
+    },
+    {
+      "id": "NC",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080300063.pdf",
+      "publicationDateTimeHK": "2026-08-03 08:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026080300063.pdf",
+      "rawSHA256": "e406a379bba8c489de53f64e6b819999c905569014b07769929df6d1db2735b6"
+    },
+    {
+      "id": "MEN",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020300089.pdf",
+      "publicationDateTimeHK": "2026-02-03 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026020300089.pdf",
+      "rawSHA256": "f4a7d92e09a2ea8ce52aaab6084e166981f11ff7a422e785c34c65452c471bb6"
+    },
+    {
+      "id": "TAI",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0306/2026030600082.pdf",
+      "publicationDateTimeHK": "2026-03-06 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026030600082.pdf",
+      "rawSHA256": "733f7f3770e2434326f44ce74e8a37cb5419be84b0e9bc855a7d625da80d699d"
+    },
+    {
+      "id": "LIL",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0329/2026032900717.pdf",
+      "publicationDateTimeHK": "2026-03-29 19:50",
+      "afterClose": true,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026032900717.pdf",
+      "rawSHA256": "03294a6225092224514a8d13e4053dab13e826b67efbb68f19ba4d13194bc8f3"
+    },
+    {
+      "id": "SER",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0105/2026010500029.pdf",
+      "publicationDateTimeHK": "2026-01-05 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026010500029.pdf",
+      "rawSHA256": "8718bbda777434d0d95eabbb752eba18160cbda7d2fdc7f52fe20aa0702f9f3e"
+    },
+    {
+      "id": "SK",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062200389.pdf",
+      "publicationDateTimeHK": "2026-06-22 12:25",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026062200389.pdf",
+      "rawSHA256": "66dccc108486fbd91e374782459f4bbe9f3b59b7bfa24103ac22b287e74a79e0"
+    },
+    {
+      "id": "TAK",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070200115.pdf",
+      "publicationDateTimeHK": "2026-07-02 08:25",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026070200115.pdf",
+      "rawSHA256": "025a39482e4b52d9fdc10bc28844502ae7d2ecbce8cc6a27d23e606b4decaf9e"
+    },
+    {
+      "id": "QL",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0127/2026012700069.pdf",
+      "publicationDateTimeHK": "2026-01-27 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026012700069.pdf",
+      "rawSHA256": "a7fcec630e440ce10ccabc302e75a460b65c01aa5d8f55158c44e68c211ccab3"
+    },
+    {
+      "id": "CM2",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0210/2026021000075.pdf",
+      "publicationDateTimeHK": "2026-02-10 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026021000075.pdf",
+      "rawSHA256": "2d4f768421e99e583b27f878a945402a4775dd9dd1e9f05fd7b2609f4723775e"
+    },
+    {
+      "id": "CM7",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300017.pdf",
+      "publicationDateTimeHK": "2026-07-13 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026071300017.pdf",
+      "rawSHA256": "2170e4ec8a5c86746c9856af319677f87cf8f4f01a4e693a2c01ce4395e7fd2b"
+    },
+    {
+      "id": "TEN",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0326/2026032600101.pdf",
+      "publicationDateTimeHK": "2026-03-26 08:01",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026032600101.pdf",
+      "rawSHA256": "0ecc63dd860f3cb4653a503c31df690c486b9e066ee8996001fe14ba62ce4ee9"
+    },
+    {
+      "id": "BOR",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071500065.pdf",
+      "publicationDateTimeHK": "2026-07-15 08:00",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026071500065.pdf",
+      "rawSHA256": "6def4c025c7ae04cada32e33b8da30c9514404c3ae01c717ac38892c06903ebb"
+    },
+    {
+      "id": "GIP",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093000283.pdf",
+      "publicationDateTimeHK": "2026-09-30 12:15",
+      "afterClose": false,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/03696_2026093000283.pdf",
+      "rawSHA256": "81edfcb62bcbe14d19cd1668f9e47fdd4f6d8695ff84efe53ede4d3954d8acea"
+    },
+    {
+      "id": "N",
+      "url": "https://www.nature.com/articles/s41591-025-03743-2",
+      "publicationDateTimeHK": "2025-06-03 time unknown",
+      "afterClose": null,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/insilico_nature_20250603.html",
+      "rawSHA256": "dfa5bffd67c636db6ee18e83be1df34cdf16d19a7b9bb7e2be4918977ab7bb17"
+    },
+    {
+      "id": "CT2",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05938920",
+      "publicationDateTimeHK": "2025-12-11 time unknown",
+      "afterClose": null,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/NCT05938920_api_20261011.json",
+      "rawSHA256": "3c3071ac5b509cb7c24535aa73e91d2b56753bc0143c5cecbe4d72caa9f539d2"
+    },
+    {
+      "id": "CT3",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07687459",
+      "publicationDateTimeHK": "2026-09-17 time unknown",
+      "afterClose": null,
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/NCT07687459_api_20261011.json",
+      "rawSHA256": "6bc97045036c4ccefa199ad0d3b56856ba587827ee0a831d1ce01b193d600991"
+    }
+  ],
+  "checks": [
+    {
+      "name": "evidence register issuer security and cutoff identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "67 records 49 named18 unnamed remain distinct from unique drugs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "28 catalog references retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "I cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "I primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "I local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "I afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "P afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3 cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3 primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3 local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3 afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3I cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3I primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3I local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "R3I afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RI cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RI primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RI local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RI afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GU cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GU primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GU local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GU afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TF cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TF primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TF local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TF afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TE cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TE primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TE local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TE afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "HY cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "HY primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "HY local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "HY afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NI cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NI primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NI local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NI afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NF cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NF primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NF local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NF afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NC cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NC primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NC local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NC afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MEN cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MEN primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MEN local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MEN afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAI cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAI primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAI local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAI afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LIL cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LIL primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LIL local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LIL afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SER cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SER primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SER local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SER afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAK cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAK primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAK local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAK afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QL cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QL primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QL local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QL afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM2 cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM2 primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM2 local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM2 afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM7 cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM7 primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM7 local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CM7 afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TEN cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TEN primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TEN local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TEN afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BOR cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BOR primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BOR local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BOR afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GIP cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GIP primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GIP local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "GIP afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "N cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "N primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "N local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "N afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 raw artifact hash matches register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 cutoff publication date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 primary source URL and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 local source artifact exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 afterclose flag uses disclosed time only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 raw artifact hash matches register",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_KIDNEY_EXPLORATORY original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_KIDNEY_EXPLORATORY unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_KIDNEY_EXPLORATORY evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_SOLID original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_SOLID unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_SOLID evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_OBESE_CVD original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_OBESE_CVD unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_OBESE_CVD evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_NEURO_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_NEURO_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_NEURO_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_METAB_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_METAB_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_METAB_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_ACUTE_INFLAM original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_ACUTE_INFLAM unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_ACUTE_INFLAM evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5939_CANCER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5939_CANCER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5939_CANCER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_CV_HF original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_CV_HF unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_CV_HF evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_CV original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_CV unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_CV evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_MTAP_OTHER original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_MTAP_OTHER unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_MTAP_OTHER evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_ONCO_COMBO original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_ONCO_COMBO unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_ONCO_COMBO evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6166_KRAS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6166_KRAS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6166_KRAS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_AUTO_INFLAM original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_AUTO_INFLAM unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_AUTO_INFLAM evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_METAB original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_METAB unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_METAB evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_CV original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_CV unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_CV evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_OPHTH original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_OPHTH unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5059_OPHTH evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_GC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_GC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_GC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_EXGC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_EXGC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_ACUTE_EXGC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_GC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_GC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_GC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_EXGC original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_EXGC unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NAV18_CHRONIC_EXGC evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_GLP1R_OBS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_GLP1R_OBS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_GLP1R_OBS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3830_OBS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3830_OBS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3830_OBS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_VAV1_OBS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_VAV1_OBS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_VAV1_OBS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_APJ_OBS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_APJ_OBS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UN_APJ_OBS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_LICENSED_UNNAMED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_LICENSED_UNNAMED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_LICENSED_UNNAMED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_DISCOVERY_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_DISCOVERY_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "LILLY_2026_DISCOVERY_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SERVIER_2026_ONCOLOGY_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SERVIER_2026_ONCOLOGY_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SERVIER_2026_ONCOLOGY_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK_2026_NEUROIMMUNE_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK_2026_NEUROIMMUNE_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SK_2026_NEUROIMMUNE_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAKEDA_2026_DISCOVERY_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAKEDA_2026_DISCOVERY_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TAKEDA_2026_DISCOVERY_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QILU_2026_CARDIOMETAB_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QILU_2026_CARDIOMETAB_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "QILU_2026_CARDIOMETAB_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026FEB_CNS_AUTOIMMUNE_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026FEB_CNS_AUTOIMMUNE_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026FEB_CNS_AUTOIMMUNE_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026JUL_CNS_ADDITIONAL original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026JUL_CNS_ADDITIONAL unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CMS_2026JUL_CNS_ADDITIONAL evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TENACIA_2026_ADDITIONAL_CNS original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TENACIA_2026_ADDITIONAL_CNS unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "TENACIA_2026_ADDITIONAL_CNS evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BORA_2026_FRAMEWORK_ONLY original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BORA_2026_FRAMEWORK_ONLY unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "BORA_2026_FRAMEWORK_ONLY evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FOSUN_LEGACY_DISCOVERY_UNALLOCATED original disclosed identity and indication retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FOSUN_LEGACY_DISCOVERY_UNALLOCATED unreported commercial fact columns remain null",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FOSUN_LEGACY_DISCOVERY_UNALLOCATED evidence references catalog source consistently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "32 active transparent demand rows match model once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "research geographical policy does not assert complete regional budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "overlap and molecular correlation policy retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 was publicly updated before cutoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT2 actual randomized enrollment71 safety primary FVC secondary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 publicly updated20260917 before cutoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 actual start20260909 recruiting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 primary completion remains estimated20291030 after three target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CT3 estimated32047 sites52week FVC primary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "patent mapping bound to model verbatim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "revenue metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "revenue first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "drugDiscoveryPipelineRevenue metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "drugDiscoveryPipelineRevenue first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "softwareRevenue metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "softwareRevenue first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherDiscoveryRevenue metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherDiscoveryRevenue first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "USRevenue metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "USRevenue first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "COGS metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "COGS first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "grossProfit metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "grossProfit first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "selling metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "selling first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RD metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "RD first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "admin metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "admin first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherIncome metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherIncome first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterestIncome metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterestIncome first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "grantIncome metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "grantIncome first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherLoss metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherLoss first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FXLoss metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FXLoss first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialFVGain metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialFVGain first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financeCost metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financeCost first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leaseInterest metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leaseInterest first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterest metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterest first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ECLReversal metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ECLReversal first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pretax metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pretax first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tax metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tax first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "parentProfit metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "parentProfit first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "adjustedProfit metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "adjustedProfit first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "DA metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "DA first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SBC metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SBC first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "term metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "term first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MMF metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MMF first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialCurrentListed metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialCurrentListed first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialNonCurrentListed metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialNonCurrentListed first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialUnlisted metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "financialUnlisted first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankPrincipal metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankPrincipal first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leaseLiability metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leaseLiability first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contractLiability metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "contractLiability first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ARnet metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ARnet first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherReceivables metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "otherReceivables first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "interestReceivable metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "interestReceivable first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "OCF metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "OCF first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterestCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bankInterestCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MMFYieldCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MMFYieldCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "interestCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "interestCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPEcashCapex metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPEcashCapex first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPEaccountingAddition metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPEaccountingAddition first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leasePrincipalCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "leasePrincipalCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "IPOgreenshoeCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "IPOgreenshoeCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "equity metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "equity first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "accumulatedLoss metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "accumulatedLoss first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "JuneShares metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "JuneShares first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptShares metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptShares first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingOptions metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingOptions first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingPreRSUs metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingPreRSUs first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingPostRSUs metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SeptRemainingPostRSUs first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "H2IssuedOptionCashHKD metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "H2IssuedOptionCashHKD first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBPrincipal metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBPrincipal first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBNetCash metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBNetCash first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBConversionShares metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBConversionShares first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBConversionPriceHKD metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBConversionPriceHKD first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBFixedFX metadata has unitcurrencyperioddateURL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CBFixedFX first publication cutoff eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "body version paired to current conditional model",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "limits": [
+    "Source existence and identity checks do not independently verify every clinical or financial claim; separate fact review binds Nature registry and patent excerpts",
+    "Patient counts, net prices, uptake, probabilities and cash tails are research assumptions; exact global legal rights and development financing remain unresolved",
+    "32 active indication/territory records and35 observations are not67 independent drugs",
+    "No formal target valuation or official ranking is released by this source review; final native integrated Excel and document rendering are separate"
+  ]
+}

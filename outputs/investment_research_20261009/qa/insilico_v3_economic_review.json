@@ -3,21 +3,20 @@
   "securityId": "S008",
   "asOf": "2026-10-09",
   "reviewDate": "2026-10-11",
-  "modelVersion": "insilico-v3-perIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
   "signatures": {
-    "pending": "9f64dd2d9bbe34caffa7f2e0f0b6d3bb10a9c0102388131656fd0f843cf69eae",
-    "formal": "e3b997cd52067ebf1570a7b79a75b9b1f654a469a90d272749fab93dd9a7cdc1",
-    "native": "7eb1581400b726afaa3f97b813f33ea4d168fc8d84f5eee404a44ddbb9cc87a7",
-    "body": "02c8fa8b38c395daf0544993d9e6ce5acd6ec9c080b9e078b5b76fd660dbd0f3",
-    "assumptions": "9ecc6ea38cb07a08a1570edb81bf45de5ad1ea726bd301ef688bc977eef327d5",
+    "pending": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+    "formal": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+    "native": "9fb1f14263b0023bbbc8aa87f43b0b06c4db82c45bf5c0f9197657b7639b6f53",
+    "body": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+    "assumptions": "2b87dd43ea1ccfb2e03456a123483600468016c38106dd80c68f6ab448085721",
     "evidence": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245"
   },
-  "status": "PASS arithmetic and research assumption structure; separate economic review required",
-  "economicReleaseApproved": false,
-  "economicBlockers": [
-    "BASE_UNFUNDED_REMOTE_DEFICIT_HARD_GATE: future26year cash deficit with no financing strategy sets near-term assets0 although target liquidity positive; retain as no-financing stress and reassess explicit financing/project strategy with dilution and rights costs"
-  ],
-  "checksCount": 12927,
+  "status": "PASS arithmetic and research assumption structure; conditional display only",
+  "economicReleaseApproved": true,
+  "economicApprovalScope": "Conditional stress and financing sensitivity disclosure only; no formally actionable target or official ranking",
+  "economicBlockers": [],
+  "checksCount": 13147,
   "activeAssets": [
     "ISM001055_IPF_ORAL_CN",
     "ISM001055_IPF_ORAL_US",
@@ -911,6 +910,268 @@
       ]
     }
   ],
+  "conditionalFundingAudit": [
+    {
+      "id": "upfront2029_900m_at30",
+      "grossUSDbn": 0.9,
+      "netUSDbn": 0.873,
+      "newSharesBn": 0.23399999999999999,
+      "newSharesToCurrentPct": 39.9917832950404,
+      "oneIntrinsicHKD": 0.4312431582256398,
+      "minimumCashUSDbn": 0.0835034745627611
+    },
+    {
+      "id": "staged2029_2032_900m",
+      "grossUSDbn": 0.9,
+      "netUSDbn": 0.873,
+      "newSharesBn": 0.31980000000000003,
+      "newSharesToCurrentPct": 54.65543716988856,
+      "oneIntrinsicHKD": 0.3442286773402532,
+      "minimumCashUSDbn": 0.040256241971394956
+    }
+  ],
+  "cashEndAudit": [
+    {
+      "id": "calendar2042",
+      "scenario": "bear",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 17.15,
+      "minimumCashUSDbn": -0.7214034482599937
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bear",
+      "horizon": "halfYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 7.350000000000001,
+      "minimumCashUSDbn": -0.7214034482599937
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bear",
+      "horizon": "oneYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7214034482599937
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bear",
+      "horizon": "threeYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7214034482599937
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bear",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7214034482599937
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "base",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 26.95,
+      "minimumCashUSDbn": -1.081617538350803
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "base",
+      "horizon": "halfYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 14.700000000000003,
+      "minimumCashUSDbn": -1.081617538350803
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "base",
+      "horizon": "oneYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.081617538350803
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "base",
+      "horizon": "threeYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.081617538350803
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "base",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.081617538350803
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bull",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 22.824893291318183,
+      "conditionalPriceHKD": 39.838712651961366,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bull",
+      "horizon": "halfYear",
+      "intrinsicHKD": 23.479747574709734,
+      "conditionalPriceHKD": 34.96386116609035,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bull",
+      "horizon": "oneYear",
+      "intrinsicHKD": 24.72596617075992,
+      "conditionalPriceHKD": 24.72596617075992,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bull",
+      "horizon": "threeYear",
+      "intrinsicHKD": 30.486631908260065,
+      "conditionalPriceHKD": 30.486631908260065,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "calendar2042",
+      "scenario": "bull",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 37.55721332701922,
+      "conditionalPriceHKD": 37.55721332701922,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bear",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 17.15,
+      "minimumCashUSDbn": -0.7282615452936186
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bear",
+      "horizon": "halfYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 7.350000000000001,
+      "minimumCashUSDbn": -0.7282615452936186
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bear",
+      "horizon": "oneYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7282615452936186
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bear",
+      "horizon": "threeYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7282615452936186
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bear",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -0.7282615452936186
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "base",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 26.95,
+      "minimumCashUSDbn": -1.5768513249620173
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "base",
+      "horizon": "halfYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 14.700000000000003,
+      "minimumCashUSDbn": -1.5768513249620173
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "base",
+      "horizon": "oneYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.5768513249620173
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "base",
+      "horizon": "threeYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.5768513249620173
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "base",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 0,
+      "conditionalPriceHKD": 0,
+      "minimumCashUSDbn": -1.5768513249620173
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bull",
+      "horizon": "yearEnd",
+      "intrinsicHKD": 8.899979518809555,
+      "conditionalPriceHKD": 34.964992831583345,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bull",
+      "horizon": "halfYear",
+      "intrinsicHKD": 9.15532308758788,
+      "conditionalPriceHKD": 27.085427698173334,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bull",
+      "horizon": "oneYear",
+      "intrinsicHKD": 9.641253945587774,
+      "conditionalPriceHKD": 9.641253945587778,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bull",
+      "horizon": "threeYear",
+      "intrinsicHKD": 11.887477243287066,
+      "conditionalPriceHKD": 11.887477243287066,
+      "minimumCashUSDbn": 0.2042344004194997
+    },
+    {
+      "id": "fiveYearsFromLaunch",
+      "scenario": "bull",
+      "horizon": "fiveYear",
+      "intrinsicHKD": 14.64446843750078,
+      "conditionalPriceHKD": 14.644468437500777,
+      "minimumCashUSDbn": 0.2042344004194997
+    }
+  ],
   "failures": [],
   "limits": [
     "Research selected patient counts, prices, shares, probabilities and net rates are not issuer facts or calibrated success estimates",
@@ -922,6 +1183,16 @@
     "Candidate pending approval is separate from formal release, integrated Excel recalc and document render QA"
   ],
   "checks": [
+    {
+      "name": "all five conditional horizons explicitly audited",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "official score scenario and horizon containers empty",
+      "pass": true,
+      "detail": null
+    },
     {
       "name": "67 independent evidence IDs",
       "pass": true,
@@ -3003,6 +3274,11 @@
       "detail": null
     },
     {
+      "name": "ISM001055_IPF_ORAL_CN finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM001055_IPF_ORAL_CN p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3104,6 +3380,11 @@
     },
     {
       "name": "ISM001055_IPF_ORAL_US research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -3213,6 +3494,11 @@
       "detail": null
     },
     {
+      "name": "ISM001055_IPF_ORAL_OTHER finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM001055_IPF_ORAL_OTHER p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3318,6 +3604,11 @@
       "detail": null
     },
     {
+      "name": "ISM001055_IPF_INH_CN finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM001055_IPF_INH_CN p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3419,6 +3710,11 @@
     },
     {
       "name": "ISM001055_IPF_INH_OTHER research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -3578,6 +3874,11 @@
       "detail": null
     },
     {
+      "name": "ISM5411_UC_CN finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM5411_UC_CN p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3679,6 +3980,11 @@
     },
     {
       "name": "ISM5411_UC_OTHER research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -3788,6 +4094,11 @@
       "detail": null
     },
     {
+      "name": "ISM5411_CD finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM5411_CD p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3893,6 +4204,11 @@
       "detail": null
     },
     {
+      "name": "ISM3412_MTAP finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM3412_MTAP p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -3994,6 +4310,11 @@
     },
     {
       "name": "ISM6331_MESO research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -4149,6 +4470,11 @@
     },
     {
       "name": "ISM8969_PD research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -4458,6 +4784,11 @@
       "detail": null
     },
     {
+      "name": "ISM3091_HRD finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM3091_HRD p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -4559,6 +4890,11 @@
     },
     {
       "name": "ISM5043_ERPOS_HER2NEG research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -4668,6 +5004,11 @@
       "detail": null
     },
     {
+      "name": "ISM9682_CIN_SOLID finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM9682_CIN_SOLID p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -4773,6 +5114,11 @@
       "detail": null
     },
     {
+      "name": "ISM8207_SOLID finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM8207_SOLID p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -4874,6 +5220,11 @@
     },
     {
       "name": "ISM8207_BCELL research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -5033,6 +5384,11 @@
       "detail": null
     },
     {
+      "name": "ISM4808_CKD_GC finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM4808_CKD_GC p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -5134,6 +5490,11 @@
     },
     {
       "name": "ISM4808_CKD_EXGC research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -5243,6 +5604,11 @@
       "detail": null
     },
     {
+      "name": "ISM0676_OBESITY finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM0676_OBESITY p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -5344,6 +5710,11 @@
     },
     {
       "name": "ISM0676_T2D research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -5503,6 +5874,11 @@
       "detail": null
     },
     {
+      "name": "ISM1354_OBESITY finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM1354_OBESITY p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -5604,6 +5980,11 @@
     },
     {
       "name": "ISM1354_T2D research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -5813,6 +6194,11 @@
       "detail": null
     },
     {
+      "name": "ISM0387_GBM finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM0387_GBM p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -5914,6 +6300,11 @@
     },
     {
       "name": "ISM6200_CUSHING research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -6023,6 +6414,11 @@
       "detail": null
     },
     {
+      "name": "ISM6200_HYPERCORT_OBESITY finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM6200_HYPERCORT_OBESITY p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -6124,6 +6520,11 @@
     },
     {
       "name": "ISM6200_GLAUCOMA research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -6533,6 +6934,11 @@
       "detail": null
     },
     {
+      "name": "ISM9528_POSTSURGICAL finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM9528_POSTSURGICAL p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -6634,6 +7040,11 @@
     },
     {
       "name": "ISM9528_NEUROPATHIC research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -6743,6 +7154,11 @@
       "detail": null
     },
     {
+      "name": "ISM9077_DRY_AMD finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM9077_DRY_AMD p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -6844,6 +7260,11 @@
     },
     {
       "name": "ISM9077_UVEITIS research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -6953,6 +7374,11 @@
       "detail": null
     },
     {
+      "name": "ISM9077_DRYEYE finite cashEnd is research horizon not legal expiry",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "ISM9077_DRYEYE p paired to independent assumptions",
       "pass": true,
       "detail": null
@@ -7054,6 +7480,11 @@
     },
     {
       "name": "ISM0900_LPA_CVRISK research assumptions separately labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK finite cashEnd is research horizon not legal expiry",
       "pass": true,
       "detail": null
     },
@@ -27093,7 +27524,22 @@
       "detail": null
     },
     {
-      "name": "bear yearEnd transparent market recognition",
+      "name": "bear yearEnd transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear yearEnd not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear yearEnd conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear yearEnd conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -27118,7 +27564,22 @@
       "detail": null
     },
     {
-      "name": "bear halfYear transparent market recognition",
+      "name": "bear halfYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear halfYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear halfYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear halfYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -27143,7 +27604,22 @@
       "detail": null
     },
     {
-      "name": "bear oneYear transparent market recognition",
+      "name": "bear oneYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear oneYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear oneYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear oneYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -27168,7 +27644,22 @@
       "detail": null
     },
     {
-      "name": "bear threeYear transparent market recognition",
+      "name": "bear threeYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear threeYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear threeYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear threeYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -27193,7 +27684,22 @@
       "detail": null
     },
     {
-      "name": "bear fiveYear transparent market recognition",
+      "name": "bear fiveYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear fiveYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear fiveYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear fiveYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -46228,7 +46734,22 @@
       "detail": null
     },
     {
-      "name": "base yearEnd transparent market recognition",
+      "name": "base yearEnd transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base yearEnd not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base yearEnd conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base yearEnd conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -46253,7 +46774,22 @@
       "detail": null
     },
     {
-      "name": "base halfYear transparent market recognition",
+      "name": "base halfYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base halfYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base halfYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base halfYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -46278,7 +46814,22 @@
       "detail": null
     },
     {
-      "name": "base oneYear transparent market recognition",
+      "name": "base oneYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base oneYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base oneYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base oneYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -46303,7 +46854,22 @@
       "detail": null
     },
     {
-      "name": "base threeYear transparent market recognition",
+      "name": "base threeYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base threeYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base threeYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base threeYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -46328,7 +46894,22 @@
       "detail": null
     },
     {
-      "name": "base fiveYear transparent market recognition",
+      "name": "base fiveYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base fiveYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base fiveYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base fiveYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -65363,7 +65944,22 @@
       "detail": null
     },
     {
-      "name": "bull yearEnd transparent market recognition",
+      "name": "bull yearEnd transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull yearEnd not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull yearEnd conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull yearEnd conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -65388,7 +65984,22 @@
       "detail": null
     },
     {
-      "name": "bull halfYear transparent market recognition",
+      "name": "bull halfYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull halfYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull halfYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull halfYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -65413,7 +66024,22 @@
       "detail": null
     },
     {
-      "name": "bull oneYear transparent market recognition",
+      "name": "bull oneYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull oneYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull oneYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull oneYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -65438,7 +66064,22 @@
       "detail": null
     },
     {
-      "name": "bull threeYear transparent market recognition",
+      "name": "bull threeYear transparent conditional market recognition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull threeYear not legal liquidation flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull threeYear conditional scenario snapshots match native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull threeYear conditional horizon snapshot matches native",
       "pass": true,
       "detail": null
     },
@@ -65463,22 +66104,57 @@
       "detail": null
     },
     {
-      "name": "bull fiveYear transparent market recognition",
+      "name": "bull fiveYear transparent conditional market recognition",
       "pass": true,
       "detail": null
     },
     {
-      "name": "bear original v2 26year clinical total retained",
+      "name": "bull fiveYear not legal liquidation flag",
       "pass": true,
       "detail": null
     },
     {
-      "name": "base original v2 26year clinical total retained",
+      "name": "bull fiveYear conditional scenario snapshots match native",
       "pass": true,
       "detail": null
     },
     {
-      "name": "bull original v2 26year clinical total retained",
+      "name": "bull fiveYear conditional horizon snapshot matches native",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bear original audited v2 clinical annual budget retained after formal sync",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base original audited v2 clinical annual budget retained after formal sync",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bull original audited v2 clinical annual budget retained after formal sync",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FXLoss source metadata USDmillion and original negative expense",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "H2 option cash component values and dates retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "H2 option cash source page3 for all component monthly reports",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "CB initial expected net receipt and later completion separated",
       "pass": true,
       "detail": null
     },
@@ -65554,6 +66230,691 @@
     },
     {
       "name": "clinicalFrom2027 2 independent preservation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 hypothetical funding gross net shares paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 conditional no automatic base case label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 unchanged all clinical and asset income",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 saved annual funding snapshots paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 yearEnd saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 halfYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m hypothetical funding gross net shares paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m conditional no automatic base case label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m unchanged all clinical and asset income",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m saved annual funding snapshots paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m yearEnd saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m halfYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m oneYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m threeYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot price",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot intrinsicPrice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot minimumCashUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot dilutedSharesBn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot cashAtTargetUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear saved snapshot terminalRecoveryUSDbn",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "conditional research excludes official ranking targets and expectations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearEnd raw conditional weighting distinctly labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearEnd ambiguous expected names absent from conditional containers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearEnd raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearEnd raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear raw conditional weighting distinctly labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear ambiguous expected names absent from conditional containers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear raw conditional weighting distinctly labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear ambiguous expected names absent from conditional containers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear raw conditional weighting distinctly labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear ambiguous expected names absent from conditional containers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear raw conditional weighting distinctly labeled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear ambiguous expected names absent from conditional containers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear raw sensitivity weights paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no financing condition preserved in base plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "each funding sensitivity explicitly requires non-self-consistent market financing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 tail sensitivity not legal expiry or formal target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bear fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 base fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 bull fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch tail sensitivity not legal expiry or formal target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bear fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch base fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull preserves full clinical budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull no drug revenue after selected end",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull yearEnd end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull halfYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull oneYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull threeYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYearsFromLaunch bull fiveYear end sensitivity snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "two explicit commercial tail stress definitions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "release body uses matching conditional model version",
       "pass": true,
       "detail": null
     }

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "createdAt": "2026-10-11T09:59:43.329067+00:00",
+  "records": [
+    {
+      "volume": 1,
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\01_公司深研_初版.docx",
+      "beforeSHA256": "afb7a01e25c06e88954f7e75ed67bec3eb7062cfb21c3b22338521dea7da1531",
+      "afterSHA256": "88351f4eaeb3c115cd9fed9deed1731590b3551b3a3aaebea896c72cab10ed69",
+      "oldLabel": "中（公开新闻转述，期限null）",
+      "newLabel": "中（公开新闻转述，目标期限未披露）"
+    },
+    {
+      "volume": 5,
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\05_公司深研_初版.docx",
+      "beforeSHA256": "ec0e242a68b7a9dea5836eabe40cc636dff8233a95f4dd46f1f7d3942da7ce80",
+      "afterSHA256": "06258e9ff58f1aaaf4b4915ef483085fc1277c1e40d71f23d22cd09eb29fdb1b",
+      "oldLabel": "中（公开新闻转述，目标期限缺失null）",
+      "newLabel": "中（公开新闻转述，目标期限未披露）"
+    }
+  ],
+  "change": "Presentation-only translation of missing broker horizon; frozen models, source inputs and economics unchanged."
+}

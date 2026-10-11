@@ -1,0 +1,42 @@
+{
+  "reviewer": "root_type",
+  "method": "Every recorded page opened through view_image with detail original; no contact-sheet substitution",
+  "records": [
+    {
+      "tag": "final92type",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 11,
+      "page": 102,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92type_11\\page-102.png",
+      "sha256": "b7b50ed18bd51ca59fba26eadd9c353787a8e574cde666c8a4727ca988eedb68",
+      "result": "pass",
+      "note": "Original images inspected; source labels and URLs readable, complete glyphs, margins and footer intact; continuation p103 has intentional source tail.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T11:55:11.864397+00:00"
+    },
+    {
+      "tag": "final92type",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 11,
+      "page": 103,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92type_11\\page-103.png",
+      "sha256": "8a494cb134d202f15afa5faa0214b31b4a16798f52c253c225e2dfbc337032b8",
+      "result": "pass",
+      "note": "Original images inspected; source labels and URLs readable, complete glyphs, margins and footer intact; continuation p103 has intentional source tail.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T11:55:11.864397+00:00"
+    },
+    {
+      "tag": "final92type",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 12,
+      "page": 2,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92type_12\\page-2.png",
+      "sha256": "56932e732ba33dfcafe1fe0c6dbd2bad1059e659f834a7b3e7f7ca09d8ff7661",
+      "result": "pass",
+      "note": "Original TOC inspected; Chinese company labels, code and aligned page targets readable, no collision or clipping.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T11:55:11.924195+00:00"
+    }
+  ]
+}

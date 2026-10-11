@@ -18,3 +18,7 @@ __pycache__/
 /outputs/investment_research_20261009/qa/risk_npv_layout_fix/*.xlsx
 /outputs/investment_research_20261009/qa/risk_npv_layout_fix/*.png
 /outputs/investment_research_20261009/qa/risk_npv_layout_fix/final_renders/
+
+# Recoverable typography backups and local layout probes remain on this machine
+/outputs/investment_research_20261009/qa/backup_*/
+/outputs/investment_research_20261009/qa/source_probe*/

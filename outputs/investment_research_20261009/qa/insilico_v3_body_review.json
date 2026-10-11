@@ -1,0 +1,2447 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "reviewDate": "2026-10-11",
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
+  "signatures": {
+    "model": "3d3b8f4f60d56ebb9e985a6f7f505dd3d62bb99e2398754cf9ff69218efee0ba",
+    "body": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+    "native": "9fb1f14263b0023bbbc8aa87f43b0b06c4db82c45bf5c0f9197657b7639b6f53",
+    "assumptions": "2b87dd43ea1ccfb2e03456a123483600468016c38106dd80c68f6ab448085721",
+    "evidence": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245"
+  },
+  "status": "PASS independent narrative and conditional numerical consistency",
+  "approvalScope": "Conditional research only; formal ranking targets and expected returns unavailable",
+  "effectiveHan": 15585,
+  "paragraphs": 105,
+  "checksCount": 473,
+  "duplicateParagraphs": [],
+  "duplicateSentences": [],
+  "nearDuplicates": [
+    {
+      "i": 70,
+      "j": 71,
+      "jaccard": 0.09025270758122744
+    },
+    {
+      "i": 50,
+      "j": 74,
+      "jaccard": 0.04
+    },
+    {
+      "i": 37,
+      "j": 38,
+      "jaccard": 0.03823529411764706
+    },
+    {
+      "i": 2,
+      "j": 60,
+      "jaccard": 0.036734693877551024
+    },
+    {
+      "i": 38,
+      "j": 39,
+      "jaccard": 0.03170028818443804
+    },
+    {
+      "i": 29,
+      "j": 33,
+      "jaccard": 0.03125
+    },
+    {
+      "i": 13,
+      "j": 53,
+      "jaccard": 0.026717557251908396
+    },
+    {
+      "i": 23,
+      "j": 95,
+      "jaccard": 0.02631578947368421
+    },
+    {
+      "i": 16,
+      "j": 49,
+      "jaccard": 0.02564102564102564
+    },
+    {
+      "i": 73,
+      "j": 95,
+      "jaccard": 0.024930747922437674
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "matching model version opening",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cutoff current price and currency explicit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "opening official all targets returns and expected prices empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear opening diagnostic score target row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear score does not present target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear diagnostic scoreweights recomputed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear separate conditional pressure row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear pressure scenario 0 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear pressure scenario 1 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear pressure scenario 2 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear pressure mathematical return",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "halfYear diagnostic score not official",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear opening diagnostic score target row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear score does not present target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear diagnostic scoreweights recomputed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear separate conditional pressure row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear pressure scenario 0 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear pressure scenario 1 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear pressure scenario 2 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear pressure mathematical return",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oneYear diagnostic score not official",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear opening diagnostic score target row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear score does not present target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear diagnostic scoreweights recomputed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear separate conditional pressure row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear pressure scenario 0 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear pressure scenario 1 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear pressure scenario 2 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear pressure mathematical return",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "threeYear diagnostic score not official",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear opening diagnostic score target row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear score does not present target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear diagnostic scoreweights recomputed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear separate conditional pressure row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear pressure scenario 0 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear pressure scenario 1 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear pressure scenario 2 numerical value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear pressure mathematical return",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fiveYear diagnostic score not official",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearend conditional row exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearend pressure price 0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearend pressure price 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "yearend pressure price 2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "default conditional weighted yearend value",
+      "pass": true,
+      "detail": "28.376436"
+    },
+    {
+      "name": "default conditional weighted yearend math return",
+      "pass": true,
+      "detail": "-42.088907"
+    },
+    {
+      "name": "40/40/20 conditional weighted yearend value",
+      "pass": true,
+      "detail": "26.131149"
+    },
+    {
+      "name": "40/40/20 conditional weighted yearend math return",
+      "pass": true,
+      "detail": "-46.671125"
+    },
+    {
+      "name": "20/40/40 conditional weighted yearend value",
+      "pass": true,
+      "detail": "31.192297"
+    },
+    {
+      "name": "20/40/40 conditional weighted yearend math return",
+      "pass": true,
+      "detail": "-36.342251"
+    },
+    {
+      "name": "半年 pressure weighted value",
+      "pass": true,
+      "detail": "18.986081"
+    },
+    {
+      "name": "一年 pressure weighted value",
+      "pass": true,
+      "detail": "8.206493"
+    },
+    {
+      "name": "三年 pressure weighted value",
+      "pass": true,
+      "detail": "10.118445"
+    },
+    {
+      "name": "五年 pressure weighted value",
+      "pass": true,
+      "detail": "12.465155"
+    },
+    {
+      "name": "yearend scenario0 return",
+      "pass": true,
+      "detail": "-65.000000"
+    },
+    {
+      "name": "yearend scenario1 return",
+      "pass": true,
+      "detail": "-45.000000"
+    },
+    {
+      "name": "yearend scenario2 return",
+      "pass": true,
+      "detail": "-13.355626"
+    },
+    {
+      "name": "all67 identities present in separate evidence table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "32 independent demand rows in numerical table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_CN base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_US base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_ORAL_OTHER base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_CN base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM001055_IPF_INH_OTHER base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_CN base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_UC_OTHER base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5411_CD base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3412_MTAP base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6331_MESO base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8969_PD base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM3091_HRD base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM5043_ERPOS_HER2NEG base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9682_CIN_SOLID base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_SOLID base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM8207_BCELL base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_GC base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM4808_CKD_EXGC base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_OBESITY base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0676_T2D base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_OBESITY base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM1354_T2D base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0387_GBM base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_CUSHING base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_HYPERCORT_OBESITY base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM6200_GLAUCOMA base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_POSTSURGICAL base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9528_NEUROPATHIC base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRY_AMD base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_UVEITIS base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM9077_DRYEYE base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK demand table identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base patients table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base priceUSD table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base share table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base peak table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base p table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base netRate table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base ownership table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base GM table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ISM0900_LPA_CVRISK base start table equals assumption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 单药clinical0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 全成本",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 原九组全部临床费用",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 条件融资",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 不作正式",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 正式年底期望价为空",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 不代表法定清算",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 最大损失边界",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 研究假设",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 非法律到期",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary cashEnd2051",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 不是公司绝对全持股",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "required economic boundary 未来融资",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "clinical costs not weighted by success",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "old nine group narrative not falsely active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "H1 cash exact8525.5 no transposition8552.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "UC peak denomination is9000mUSD or0.9 hundredmillionUSD",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "base2026 cashUSD hundredmillion narrative",
+      "pass": true,
+      "detail": "7.16002015"
+    },
+    {
+      "name": "base2027 cashUSD hundredmillion narrative",
+      "pass": true,
+      "detail": "4.46025555"
+    },
+    {
+      "name": "base2028 cashUSD hundredmillion narrative",
+      "pass": true,
+      "detail": "2.97400947"
+    },
+    {
+      "name": "base2029 cashUSD hundredmillion narrative",
+      "pass": true,
+      "detail": "1.27895971"
+    },
+    {
+      "name": "base2031 cashUSD hundredmillion narrative",
+      "pass": true,
+      "detail": "2.35890974"
+    },
+    {
+      "name": "base2030 cashUSDtenThousand narrative",
+      "pass": true,
+      "detail": "5985.66302"
+    },
+    {
+      "name": "base2036 revenue USDhundredmillion narrative",
+      "pass": true,
+      "detail": "4.239260"
+    },
+    {
+      "name": "base2036 loss USDtenThousand narrative",
+      "pass": true,
+      "detail": "7271.527"
+    },
+    {
+      "name": "clinical1 0 retained26year total",
+      "pass": true,
+      "detail": "0.585243"
+    },
+    {
+      "name": "clinical1 1 retained26year total",
+      "pass": true,
+      "detail": "2.422369"
+    },
+    {
+      "name": "clinical1 2 retained26year total",
+      "pass": true,
+      "detail": "6.985759"
+    },
+    {
+      "name": "clinical1.3 0 retained26year total",
+      "pass": true,
+      "detail": "0.749416"
+    },
+    {
+      "name": "clinical1.3 1 retained26year total",
+      "pass": true,
+      "detail": "3.136180"
+    },
+    {
+      "name": "clinical1.3 2 retained26year total",
+      "pass": true,
+      "detail": "9.065887"
+    },
+    {
+      "name": "clinical1.3 bull minimum stress",
+      "pass": true,
+      "detail": "0.262528"
+    },
+    {
+      "name": "clinical2 0 retained26year total",
+      "pass": true,
+      "detail": "1.132487"
+    },
+    {
+      "name": "clinical2 1 retained26year total",
+      "pass": true,
+      "detail": "4.801739"
+    },
+    {
+      "name": "clinical2 2 retained26year total",
+      "pass": true,
+      "detail": "13.919518"
+    },
+    {
+      "name": "clinical2 bull minimum stress",
+      "pass": true,
+      "detail": "1.646809"
+    },
+    {
+      "name": "upfront2029_900m_at30 conditional minimum cash",
+      "pass": true,
+      "detail": "0.083503"
+    },
+    {
+      "name": "upfront2029_900m_at30 oneYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.431243"
+    },
+    {
+      "name": "upfront2029_900m_at30 threeYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.556020"
+    },
+    {
+      "name": "upfront2029_900m_at30 fiveYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.716155"
+    },
+    {
+      "name": "upfront2029_900m_at30 financing not basecase flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "staged2029_2032_900m conditional minimum cash",
+      "pass": true,
+      "detail": "0.040256"
+    },
+    {
+      "name": "staged2029_2032_900m oneYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.344229"
+    },
+    {
+      "name": "staged2029_2032_900m threeYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.443829"
+    },
+    {
+      "name": "staged2029_2032_900m fiveYear conditional intrinsic",
+      "pass": true,
+      "detail": "0.571652"
+    },
+    {
+      "name": "staged2029_2032_900m financing not basecase flag",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "calendar2042 oneYear bull cashEnd pressure",
+      "pass": true,
+      "detail": "24.725966"
+    },
+    {
+      "name": "calendar2042 fiveYear bull cashEnd pressure",
+      "pass": true,
+      "detail": "37.557213"
+    },
+    {
+      "name": "fiveYearsFromLaunch oneYear bull cashEnd pressure",
+      "pass": true,
+      "detail": "9.641254"
+    },
+    {
+      "name": "fiveYearsFromLaunch fiveYear bull cashEnd pressure",
+      "pass": true,
+      "detail": "14.644468"
+    },
+    {
+      "name": "retained 0 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "retained 0 fiveYear sensitivity represented",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "retained 0.5 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 17.707383229691846
+    },
+    {
+      "name": "retained 0.5 fiveYear sensitivity represented",
+      "pass": true,
+      "detail": 26.89641993473535
+    },
+    {
+      "name": "retained 1 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 32.8259703321414
+    },
+    {
+      "name": "retained 1 fiveYear sensitivity represented",
+      "pass": true,
+      "detail": 49.86061866769707
+    },
+    {
+      "name": "licensed 0 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 31.742197250610328
+    },
+    {
+      "name": "licensed 0.5 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 32.28408379137588
+    },
+    {
+      "name": "licensed 1 oneYear sensitivity represented",
+      "pass": true,
+      "detail": 32.8259703321414
+    },
+    {
+      "name": "critical source narrative 71",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 128",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 筛选",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 55",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 59",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 49",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 多重插补",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 缺失随机",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 2029-10-30",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 2026-09-09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 12标RECRUITING",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 35标NOT_YET_RECRUITING",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 77.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 29.4%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 6/18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 50%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative USP1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative royalty-free",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 7.9%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative inactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative ESMO2026",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 非肥胖T2D",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "critical source narrative 排除GBM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "128 screening correctly resolved no unsupported conflict",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "two FVC confidence intervals not claimed between-group interval",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no formal power from phase2a exploratory signal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "treatment related serious events2of18 versus0of17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "liver discontinuation7 and co-nintedanib4of7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "clinical late results not anticipated as achieved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "33PCC identifies interim period or cutoff34",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "issuer body narrative delimiters exist",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "effective issuer narrative>=10000 Han excluding openingtablesheadingssources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no normalized duplicate paragraphs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no long normalized duplicate sentences",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fourcharacter substring near duplicate under45pct",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "limits": [
+    "Exact clinical source assertions also require independent fact supplement and primary-source review; automated phrase checks do not prove interpretation",
+    "Current32 demands are selected accessible research pools not fully region-specific reimbursement/rights valuation",
+    "Financing terms are unannounced conditionals and not an economically self-consistent basecase",
+    "Effective Han count excludes all openingtablesheaderssource appendix; semantic originality is human reviewed, not guaranteed by substring checks",
+    "No final Excel Word PDF cross-format or original-page render acceptance occurs in this report"
+  ]
+}

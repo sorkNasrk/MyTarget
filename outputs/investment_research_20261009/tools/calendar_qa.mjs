@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {resolveTargetDate,hkCalendarSources} from './target_dates.mjs';
+import {resolveTargetDate,hkCalendarSources,nominalTargets} from './target_dates.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const discovery=JSON.parse(await fs.readFile(path.join(root,'data/calendar_primary_discovery.json'),'utf8'));
 for(const id of ['hkex_hours','hk_gov_2026','hk_gov_2027'])assert.equal(discovery.find(x=>x.id===id)?.status,200,id);
@@ -16,5 +16,21 @@ const hk=b.models.filter(m=>m.currency==='HKD');
 for(const m of hk){assert.equal(m.scenarios.oneYear.target,'2027-10-07',m.code);assert.equal(m.scenarios.oneYear.targetDateResolution.nominalDate,'2027-10-09',m.code);}
 const conditionalHK=(b.conditionedModels??[]).filter(m=>m.currency==='HKD');
 for(const m of conditionalHK){assert.equal(m.conditionalScenarios.oneYear.target,'2027-10-07',m.code);assert.equal(m.conditionalScenarios.oneYear.targetDateResolution.nominalDate,'2027-10-09',m.code);assert.equal(m.rankEligible,false,m.code);}
-await fs.writeFile(path.join(root,'qa/calendar_qa.json'),JSON.stringify({passed:true,knownCases:cases.length,issuerSecurityChecks:hk.length,conditionalHKChecks:conditionalHK.length,calendarSources:hkCalendarSources,fingerprint:b.fingerprint,unpublishedCalendarsExplicitlyUnresolved:true},null,2));
-console.log(JSON.stringify({passed:true,knownCases:cases.length,issuerSecurityChecks:hk.length}));
+const combinations=new Map();let modelHorizonChecks=0,conditionalHorizonChecks=0;
+for(const [models,scenarioField] of [[b.models,'scenarios'],[b.conditionedModels??[],'conditionalScenarios']])for(const m of models){
+ const market=m.code.endsWith('.HK')?'HKEX':m.code.endsWith('.SH')?'SSE':m.code.endsWith('.SZ')?'SZSE':null;
+ assert(market,'Unsupported calendar market '+m.code);
+ for(const [h,s] of Object.entries(m[scenarioField])){
+  const resolution=resolveTargetDate(nominalTargets[h],market);
+  assert.deepEqual(s.targetDateResolution,resolution,m.code+'/'+h+' source and resolution');
+  assert.equal(s.target,resolution.actualDate??resolution.nominalDate,m.code+'/'+h+' target');
+  if(resolution.actualDate===null){assert.match(resolution.calendarStatus,/尚未核验.*待核/);assert.equal(resolution.sources,undefined);}
+  else for(const source of resolution.sources){assert(source.url);assert((source.publicationDate??source.publicationMonth)<='2026-10-09');}
+  const key=market+'/'+h,combination=combinations.get(key)??{horizon:h,...resolution,modelRows:0,conditionalRows:0};
+  combination[scenarioField==='scenarios'?'modelRows':'conditionalRows']++;combinations.set(key,combination);
+  if(scenarioField==='scenarios')modelHorizonChecks++;else conditionalHorizonChecks++;
+ }
+}
+const marketTargetCombinations=[...combinations.values()],resolvedCombinations=marketTargetCombinations.filter(x=>x.actualDate!==null).length;
+await fs.writeFile(path.join(root,'qa/calendar_qa.json'),JSON.stringify({passed:true,knownCases:cases.length,issuerSecurityChecks:hk.length,conditionalHKChecks:conditionalHK.length,modelHorizonChecks,conditionalHorizonChecks,marketTargetCombinations,resolvedCombinations,unresolvedCombinations:marketTargetCombinations.length-resolvedCombinations,calendarSources:hkCalendarSources,fingerprint:b.fingerprint,unverifiedCalendarsExplicitlyUnresolved:true,scope:'All markets and target horizons actually used; stored citations and cutoff dates agree. A null actualDate is unresolved, not an official trading-day claim.'},null,2));
+console.log(JSON.stringify({passed:true,knownCases:cases.length,issuerSecurityChecks:hk.length,modelHorizonChecks,conditionalHorizonChecks,marketTargetCombinations:marketTargetCombinations.length,resolvedCombinations}));

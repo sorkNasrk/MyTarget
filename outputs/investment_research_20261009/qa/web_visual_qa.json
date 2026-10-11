@@ -3,8 +3,8 @@
   "passed": true,
   "reviewer": "root",
   "method": "Actual view_image original screenshot review after browser functional checks",
-  "screenshots": ["desktop_rank.png", "desktop_company.png", "desktop_research.png", "desktop_technical.png", "desktop_conditional.png", "mobile_rank.png", "mobile_research.png", "mobile_compare.png"],
+  "screenshots": ["desktop_rank.png", "desktop_company.png", "desktop_research.png", "desktop_technical.png", "desktop_conditional.png", "mobile_rank.png", "mobile_research.png", "mobile_compare.png", "desktop_downloads.png", "mobile_downloads.png"],
   "findingsFixed": ["Separated scenario return and total return onto distinct lines", "Prevented horizon title and compare-button internal wrapping", "Expanded object-valued evidence into per-domain disclosure"],
-  "result": "Readable Chinese and numbers, visible navigation and focus states; mobile page stays within viewport, wide comparison/table content scrolls internally",
+  "result": "Readable Chinese and numbers, visible navigation and focus states; mobile page stays within viewport, wide comparison/table content scrolls internally. Released desktop and mobile download screenshots inspected at original resolution: all27 entries readable, complete release status visible, no clipping or overflow.",
   "limitation": "Document and workbook full visual gates remain separate; website is a frozen research snapshot, not real-time"
 }

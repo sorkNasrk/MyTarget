@@ -1,0 +1,2053 @@
+{
+  "fingerprint": "63ca87a2011995a6",
+  "createdAt": "2026-10-11T12:09:39.599499+00:00",
+  "passed": false,
+  "preflightPassed": true,
+  "scope": "92 companies /96 stock securities; excluded funds, indices and leverage products",
+  "effectiveHanTotal": 1285843,
+  "companies": [
+    {
+      "issuerId": "I001",
+      "name": "海尔生物",
+      "effectiveHan": 16852,
+      "SHA256": "b82ce784e952b1664afd35dc42b8cbc5f9c6a3819f97a8fc684f18c43881ad50"
+    },
+    {
+      "issuerId": "I002",
+      "name": "迈威生物",
+      "effectiveHan": 14148,
+      "SHA256": "e779d79fe8fb3fa3067dcc8e1e743422b1bf56e55fc06afd3578dcebcb3ef56b"
+    },
+    {
+      "issuerId": "I003",
+      "name": "迪哲医药",
+      "effectiveHan": 13138,
+      "SHA256": "232f6b7baa66008acb0d7b1268b3fbb481b235408f5f454e8d4908ce48da6580"
+    },
+    {
+      "issuerId": "I004",
+      "name": "益方生物",
+      "effectiveHan": 11872,
+      "SHA256": "233de539d64c32ad16ae0f6f242a15236860fb62e8c96a14d09626467a791a49"
+    },
+    {
+      "issuerId": "I005",
+      "name": "海创药业",
+      "effectiveHan": 14430,
+      "SHA256": "ba662e6437391cedec64329d221faabcb66371f7b6f6168e1bd3586be46a949f"
+    },
+    {
+      "issuerId": "I006",
+      "name": "凯莱英",
+      "effectiveHan": 16741,
+      "SHA256": "00d6318d9d9ea457a8644647deefba35df1d666b80ee5a3924faf22246ecf302"
+    },
+    {
+      "issuerId": "I007",
+      "name": "微创脑科学",
+      "effectiveHan": 13997,
+      "SHA256": "1b37d7af3749c058c48f38f6a83437911e296f7ae13671fabcc46472c12578a5"
+    },
+    {
+      "issuerId": "I008",
+      "name": "英矽智能",
+      "effectiveHan": 16082,
+      "SHA256": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a"
+    },
+    {
+      "issuerId": "I009",
+      "name": "微创机器人-B",
+      "effectiveHan": 12689,
+      "SHA256": "6c38acd916072b6b7437243bc4196a8a1daca2b109421bb37632803bfb952c8b"
+    },
+    {
+      "issuerId": "I010",
+      "name": "药明康德",
+      "effectiveHan": 14716,
+      "SHA256": "3cb7d563e9ec3c8290c1b2c79934e5df9310b559eac766ba0db91d9af548f6e8"
+    },
+    {
+      "issuerId": "I011",
+      "name": "恒瑞医药",
+      "effectiveHan": 12137,
+      "SHA256": "4da8aace1a2d412058ff2efc2563bcf5505b82625c47f8676b169126d8c4e902"
+    },
+    {
+      "issuerId": "I012",
+      "name": "百济神州",
+      "effectiveHan": 16946,
+      "SHA256": "db8ad4f6f3550765a952f2ba72b2706ed3fd57d45ca6527da8f6dd0062c6ec10"
+    },
+    {
+      "issuerId": "I013",
+      "name": "博腾股份",
+      "effectiveHan": 13687,
+      "SHA256": "cbac229f677e0c153191b8a6971d836ffb4a14fbc0d6938a5bf68ab00a2713c6"
+    },
+    {
+      "issuerId": "I014",
+      "name": "迈瑞医疗",
+      "effectiveHan": 13866,
+      "SHA256": "174fac45ff209f278150723d3f561781f7accacb5ea80e90ae19a1aa1e221e6e"
+    },
+    {
+      "issuerId": "I015",
+      "name": "皓元医药",
+      "effectiveHan": 14985,
+      "SHA256": "3c7ec49926fe8ea45e0ed535427e3cf4f88af43801c9d677b07b5384c35c9dfe"
+    },
+    {
+      "issuerId": "I016",
+      "name": "微创医疗",
+      "effectiveHan": 13509,
+      "SHA256": "e4f7427d4605b9faa7c6cd4f7182a09a46aefaf9bd85a30bdfa33344d1ca14df"
+    },
+    {
+      "issuerId": "I017",
+      "name": "键凯科技",
+      "effectiveHan": 13877,
+      "SHA256": "af388e7db7e5dca7a7ed5d3363828430a849a3559a0dc2f232c662c24ae610df"
+    },
+    {
+      "issuerId": "I018",
+      "name": "美迪西",
+      "effectiveHan": 13294,
+      "SHA256": "33d40cc8001e3e95b388ea7657be7bf9e23e3d49492e3a8f7819726abdacfae5"
+    },
+    {
+      "issuerId": "I019",
+      "name": "时代天使",
+      "effectiveHan": 15192,
+      "SHA256": "80ce1b43205921d707f31230c7de57bbab0714cdb19a15a97fe983e24af5845b"
+    },
+    {
+      "issuerId": "I020",
+      "name": "映恩生物-B",
+      "effectiveHan": 17167,
+      "SHA256": "f9f28e5dc405f73fbedfa84a41272e8e3271fe096f7105e31886a1b13cecfa66"
+    },
+    {
+      "issuerId": "I021",
+      "name": "亚盛医药",
+      "effectiveHan": 16602,
+      "SHA256": "555ad1baa7eef61ded0053f2481f88f4d3cfb0cc0b632d10287ce66a0eda2796"
+    },
+    {
+      "issuerId": "I022",
+      "name": "康龙化成",
+      "effectiveHan": 12848,
+      "SHA256": "86557233195b6d91d279ebdcd8210543d1b1c66c0a1741bdc5c647bd89a57a0b"
+    },
+    {
+      "issuerId": "I023",
+      "name": "三生制药",
+      "effectiveHan": 13271,
+      "SHA256": "76c4faabf6febbcdca2e1647f34f5ec933caff9b9b8f82f97992f99ea1b0b222"
+    },
+    {
+      "issuerId": "I024",
+      "name": "和黄医药",
+      "effectiveHan": 16541,
+      "SHA256": "8a1c33546813f53b169f21ceabe5d18733991f0aa5e045500a083a9953afbc0d"
+    },
+    {
+      "issuerId": "I025",
+      "name": "石药集团",
+      "effectiveHan": 14492,
+      "SHA256": "593186fb076f80bde2a73a075abaaf4ee8db7c2dec2f318ae6c283d51c066a23"
+    },
+    {
+      "issuerId": "I026",
+      "name": "乐普生物",
+      "effectiveHan": 14810,
+      "SHA256": "0018a98ffdba9c4949d0286558bc99613a0ae4bcf226211ffdb1673c987d8d36"
+    },
+    {
+      "issuerId": "I027",
+      "name": "晶泰控股",
+      "effectiveHan": 16526,
+      "SHA256": "9d2deda32477155291bba4f61f9295b654614d2bd8d3c167bf13fb071c0c63ce"
+    },
+    {
+      "issuerId": "I028",
+      "name": "上海医药",
+      "effectiveHan": 14518,
+      "SHA256": "a4c80a1eece7b2fa6b7822d2c363ffb130f5336673210248b1cf140198b8384f"
+    },
+    {
+      "issuerId": "I029",
+      "name": "翰森制药",
+      "effectiveHan": 11699,
+      "SHA256": "8b517258829fbbbe0783c719d40f85d437f0d83420fd1d844e4c0746776f6454"
+    },
+    {
+      "issuerId": "I030",
+      "name": "绿叶制药",
+      "effectiveHan": 15932,
+      "SHA256": "0cbb653073ad01dd2861615840e3f7235bb8cc58ec43b15f76bb2cdf5a9369a6"
+    },
+    {
+      "issuerId": "I031",
+      "name": "中国生物制药",
+      "effectiveHan": 12405,
+      "SHA256": "80f01d32ac7924c5e668d728469489368aa7ddf146e915657a582b986e066023"
+    },
+    {
+      "issuerId": "I032",
+      "name": "远大医药",
+      "effectiveHan": 14122,
+      "SHA256": "86d56b7bea1d75299afae7a573ed91b585a2ff1ec0bb4d00ea5f76d062c350a6"
+    },
+    {
+      "issuerId": "I033",
+      "name": "先声药业",
+      "effectiveHan": 16268,
+      "SHA256": "6f374905e49514a008e1431d96338d8bc3f5e03900f5593077831831ad19b4b8"
+    },
+    {
+      "issuerId": "I034",
+      "name": "药明生物",
+      "effectiveHan": 11610,
+      "SHA256": "d1a9be44180f356c6aa840be0a0fee40b9c2dfd04f1a97d8327a38631bb8ff69"
+    },
+    {
+      "issuerId": "I035",
+      "name": "金斯瑞生物科技",
+      "effectiveHan": 12558,
+      "SHA256": "9ae1fcadbd2ea12e3cc0c8da9bcb63eb54287b6fafa45c192fb125a0d6886808"
+    },
+    {
+      "issuerId": "I036",
+      "name": "丽珠医药",
+      "effectiveHan": 15922,
+      "SHA256": "658344182b18fdaa07075e19cb2b50bde1c5850b4e7dc659109f73e34eec49e6"
+    },
+    {
+      "issuerId": "I037",
+      "name": "君圣泰医药-B",
+      "effectiveHan": 15041,
+      "SHA256": "bee1ed00d9522ef3679bd1f1c0823f8975260a7939d083336ad0df9d325429d5"
+    },
+    {
+      "issuerId": "I038",
+      "name": "开拓药业-B",
+      "effectiveHan": 12296,
+      "SHA256": "c1a8f21667143cc0eaf95fa0b585dd01c7cc2ac0d9da02850f10e2ef476dda17"
+    },
+    {
+      "issuerId": "I039",
+      "name": "再鼎医药",
+      "effectiveHan": 16901,
+      "SHA256": "f1e59fcbb20227fac70049f801be0667fb60aa303200f38087ec5976dd01828e"
+    },
+    {
+      "issuerId": "I040",
+      "name": "云顶新耀",
+      "effectiveHan": 11795,
+      "SHA256": "b47c2ccd08c95cc24e72b0be4e976506cda8e4a8c7e0689bec003f783d91d50d"
+    },
+    {
+      "issuerId": "I041",
+      "name": "诺诚健华",
+      "effectiveHan": 14862,
+      "SHA256": "360bbb412a30d71a2920fa182a6dd8505c4d24fd46db4ace2275ea4dfd87f6ca"
+    },
+    {
+      "issuerId": "I042",
+      "name": "康希诺生物",
+      "effectiveHan": 12775,
+      "SHA256": "9c6686b408679b696e2ba580ccf10411cd7b363bbb782363e0fa9c56b2d2350f"
+    },
+    {
+      "issuerId": "I043",
+      "name": "复星医药",
+      "effectiveHan": 15821,
+      "SHA256": "714573d7d6ff2f9c252108456ae0b73b84ab153ae8ef6f55ad444efb0a03cdc9"
+    },
+    {
+      "issuerId": "I044",
+      "name": "泰格医药",
+      "effectiveHan": 13524,
+      "SHA256": "1fd765afec94abf7449bdc2b323395b98e7e103498806e5b90b1067d1f2b8cf1"
+    },
+    {
+      "issuerId": "I045",
+      "name": "昭衍新药",
+      "effectiveHan": 14870,
+      "SHA256": "f864c5b3812238a22a6ceb6e5815b92c4f9a45e26a639c8b7b0bbe7a8362df5a"
+    },
+    {
+      "issuerId": "I046",
+      "name": "君实生物",
+      "effectiveHan": 12918,
+      "SHA256": "57f9916a0dcfe5276419c27abe42e6a5ad2900d88236778580879c93f81baae3"
+    },
+    {
+      "issuerId": "I047",
+      "name": "康诺亚-B",
+      "effectiveHan": 13243,
+      "SHA256": "1a046689a0389d612d7b177fd5f2f74479dd400c410f8bf26f8646c0f46515af"
+    },
+    {
+      "issuerId": "I048",
+      "name": "信达生物",
+      "effectiveHan": 13341,
+      "SHA256": "9d5df8003453ebd4046ba67d2fa1aba91f3811984bccd9a98827eac64d99f8ef"
+    },
+    {
+      "issuerId": "I049",
+      "name": "药明合联",
+      "effectiveHan": 14282,
+      "SHA256": "5b450dfb5266bb55ef0d168d2182f8c940af8c945de70df02f716314ed5076ce"
+    },
+    {
+      "issuerId": "I050",
+      "name": "康哲药业",
+      "effectiveHan": 14188,
+      "SHA256": "3fa5b3c81556a173e7faac9cebedc9a4ba53a48c6ee9c7633385cc9f3c1ffb3d"
+    },
+    {
+      "issuerId": "I051",
+      "name": "荣昌生物",
+      "effectiveHan": 13392,
+      "SHA256": "1a040bcfa10def6335a7d1af019ce2d28407cfaaa7234a445fb6cb7656143fab"
+    },
+    {
+      "issuerId": "I052",
+      "name": "康方生物",
+      "effectiveHan": 11189,
+      "SHA256": "9fb0b02abccf65a90d07eb25f1278df4e6c8325fd2ebe5094bfd1f38d54dc6d8"
+    },
+    {
+      "issuerId": "I053",
+      "name": "中国同辐",
+      "effectiveHan": 16273,
+      "SHA256": "076f34a889a405208923cd13b19e419e9cc0f8006cb89b6320b0037178be0e89"
+    },
+    {
+      "issuerId": "I054",
+      "name": "MINIMAX-W",
+      "effectiveHan": 11255,
+      "SHA256": "5f203afbd271405140b37ac0766e7fe86f0aab0ad3833f85c63a406613362b2f"
+    },
+    {
+      "issuerId": "I055",
+      "name": "智谱",
+      "effectiveHan": 11225,
+      "SHA256": "ed38ac20b20b996aa673441830c1795969f7dd48915b604496c49532497fc445"
+    },
+    {
+      "issuerId": "I056",
+      "name": "泡泡玛特",
+      "effectiveHan": 14222,
+      "SHA256": "6a85d6af18f09f9db9da0e5a4b3e981070095f768ae786ee928a644bda7a0f98"
+    },
+    {
+      "issuerId": "I057",
+      "name": "中广核新能源",
+      "effectiveHan": 12412,
+      "SHA256": "af4d3577462cc0ae56a53f93763db82828a84726426c375b9e0e55f9ba362c0b"
+    },
+    {
+      "issuerId": "I058",
+      "name": "东方甄选",
+      "effectiveHan": 11407,
+      "SHA256": "5a7ab35ce6f42ab319b441a187dc7025021fb26c56ddb0bc0e547d59ef476acf"
+    },
+    {
+      "issuerId": "I059",
+      "name": "优必选",
+      "effectiveHan": 10747,
+      "SHA256": "2aa64f370defb59b8ac77875b58829785fa4484d22eaafa39940e813f2ba09b5"
+    },
+    {
+      "issuerId": "I060",
+      "name": "心动公司",
+      "effectiveHan": 14253,
+      "SHA256": "175f0f80dfebef2ea6c73083dc03c84711f9f541886d6f512bfded5350bc0c41"
+    },
+    {
+      "issuerId": "I061",
+      "name": "比亚迪股份",
+      "effectiveHan": 10908,
+      "SHA256": "a23e604fbb4d1d2efe081b6081af84a9842766ba3eda4d64c5518bdc5cb5279f"
+    },
+    {
+      "issuerId": "I062",
+      "name": "地平线机器人-W",
+      "effectiveHan": 11923,
+      "SHA256": "3007e4e057f5376d3919aebbf96183f040d5e06375e35892d8fc7429b73129eb"
+    },
+    {
+      "issuerId": "I063",
+      "name": "宁德时代",
+      "effectiveHan": 14335,
+      "SHA256": "b62b066a366b059dc1c097ac2ee4cf5b6924e713ddae56b477d23b63d133bb0b"
+    },
+    {
+      "issuerId": "I064",
+      "name": "网易",
+      "effectiveHan": 12935,
+      "SHA256": "293cc0eaad6f5b674ce36d5c44fc355f14a315540e81801f4737d826e0c339f1"
+    },
+    {
+      "issuerId": "I065",
+      "name": "联想集团",
+      "effectiveHan": 13854,
+      "SHA256": "8dabd245df77301f7322ae213709eb50cd9680ebb2c96209f4ad016f27617bfb"
+    },
+    {
+      "issuerId": "I066",
+      "name": "百度集团-W",
+      "effectiveHan": 14736,
+      "SHA256": "a2c0907eb999eb460aff37652d6296b4aed1f44e4e80889424d943f1eaade2cc"
+    },
+    {
+      "issuerId": "I067",
+      "name": "阿里健康",
+      "effectiveHan": 16824,
+      "SHA256": "391f5679694c6f08c4cebb02c6f106912b19d31861198692e15d3a9f05c70b64"
+    },
+    {
+      "issuerId": "I068",
+      "name": "海尔智家",
+      "effectiveHan": 12565,
+      "SHA256": "037b9ccd9abb4345b563a3621997b86a53a908d9e84738ee5a0d2564cfa40c40"
+    },
+    {
+      "issuerId": "I069",
+      "name": "ASMPT",
+      "effectiveHan": 16026,
+      "SHA256": "355567adbf75934f25ab76dd613770b3175746e629c75923c683cca7b6424746"
+    },
+    {
+      "issuerId": "I070",
+      "name": "京东集团-SW",
+      "effectiveHan": 13029,
+      "SHA256": "a9320b914ce4c2c37fcd89005e19e9a016bf9b86b4d11fbd4f1cc4969ae3b200"
+    },
+    {
+      "issuerId": "I071",
+      "name": "华虹宏力",
+      "effectiveHan": 15780,
+      "SHA256": "cd6118f8558b7b346f718791b25e40b0f6dbaa4bb85d8e95d789d9168a95a2aa"
+    },
+    {
+      "issuerId": "I072",
+      "name": "腾讯控股",
+      "effectiveHan": 15700,
+      "SHA256": "0cac97d32c67bba7eeecb4398bf93095d037c2ee359db9fd793cc8b945277d37"
+    },
+    {
+      "issuerId": "I073",
+      "name": "哔哩哔哩-W",
+      "effectiveHan": 14741,
+      "SHA256": "7233bae41dd803aee1aa112c25ef32b507e7ee3231c1487fc49cd9d679236dff"
+    },
+    {
+      "issuerId": "I074",
+      "name": "京东健康",
+      "effectiveHan": 15459,
+      "SHA256": "1047b62081de63989b8c900c86b2a74648a25a6015713d91526e5bdddc64084e"
+    },
+    {
+      "issuerId": "I075",
+      "name": "阿里巴巴-W",
+      "effectiveHan": 14892,
+      "SHA256": "120465273e8b61097536521cff76b25b5fc5fa7812712c61dd020070434f9ef8"
+    },
+    {
+      "issuerId": "I076",
+      "name": "舜宇光学科技",
+      "effectiveHan": 16214,
+      "SHA256": "892f9bb98db3870085f09f4cc61d7bca900150926e4bb0ee98026a0c98d2a3c0"
+    },
+    {
+      "issuerId": "I077",
+      "name": "携程集团-S",
+      "effectiveHan": 12365,
+      "SHA256": "885f41989d25353f35270e898e9214200c4be9b195b9e1c86dd20036b1e137e3"
+    },
+    {
+      "issuerId": "I078",
+      "name": "美团-W",
+      "effectiveHan": 16455,
+      "SHA256": "d743a0ac6bbdcca81b47a62c665d1823da8b7ec5c5b0feca3be1939f5800925f"
+    },
+    {
+      "issuerId": "I079",
+      "name": "阅文集团",
+      "effectiveHan": 14411,
+      "SHA256": "7e9296f630596389cb34949bfb76f8ff812c551eeb649270873a5a71dda0ff12"
+    },
+    {
+      "issuerId": "I080",
+      "name": "快手-W",
+      "effectiveHan": 14319,
+      "SHA256": "4a3c456d4a7510c6d1a8bd7f012c7f100c252e9c9b19f85cbfc119cfcd4f5f4a"
+    },
+    {
+      "issuerId": "I081",
+      "name": "比亚迪电子",
+      "effectiveHan": 12693,
+      "SHA256": "58fa995e75c63262fd59526c5ff29b1006a2131a8ea67f55ba45c669ba5b98ee"
+    },
+    {
+      "issuerId": "I082",
+      "name": "美的集团",
+      "effectiveHan": 14543,
+      "SHA256": "d79aa15e851745460c223a6cb07d921654709f8aebd10a9450132bba9e73fff4"
+    },
+    {
+      "issuerId": "I083",
+      "name": "众安在线",
+      "effectiveHan": 13344,
+      "SHA256": "217b1d0747eda9ec6e60054355391ab164106a366843d8afc30a4e4f196f3452"
+    },
+    {
+      "issuerId": "I084",
+      "name": "理想汽车-W",
+      "effectiveHan": 13916,
+      "SHA256": "bde10fd3daccffadd8b064df4102e8d3b26443d50d6aeb34ed1cafd2f5598ed3"
+    },
+    {
+      "issuerId": "I085",
+      "name": "小鹏集团-W",
+      "effectiveHan": 12661,
+      "SHA256": "326fe23ea0160324c73f659fffb4f7e2e4ef2a669c6442ac438f6812b64d0e82"
+    },
+    {
+      "issuerId": "I086",
+      "name": "同程旅行",
+      "effectiveHan": 16682,
+      "SHA256": "1097a6e109b57901343038babffa9e848bfb8c1ebc4dddad2ac59a8b92fdb9e4"
+    },
+    {
+      "issuerId": "I087",
+      "name": "小米集团-W",
+      "effectiveHan": 11779,
+      "SHA256": "2f99760d133d972bde6914bc6c3b024fc1eba5d9a783661ee38999ad6bd3f9ad"
+    },
+    {
+      "issuerId": "I088",
+      "name": "蔚来-SW",
+      "effectiveHan": 10809,
+      "SHA256": "2c90d1e604399d7ab702f611b0b1ae882df99a5a4ee5bcfeea82d85d1c77d4ff"
+    },
+    {
+      "issuerId": "I089",
+      "name": "商汤-W",
+      "effectiveHan": 14163,
+      "SHA256": "6efd1e686e7fcebc5dc6b9294c739aad9a039dea88343bff5f3bd1cf2f9099fa"
+    },
+    {
+      "issuerId": "I090",
+      "name": "金蝶国际",
+      "effectiveHan": 13809,
+      "SHA256": "3f28057ea7188aafcd7773d82d010bff76f04bb04d9be5116a3e3972313029ee"
+    },
+    {
+      "issuerId": "I091",
+      "name": "金山软件",
+      "effectiveHan": 11319,
+      "SHA256": "b16f36d52d4b66b78b9e5d01ecf0b0fe2ea231d9d31b59335a592a1bfa54c27e"
+    },
+    {
+      "issuerId": "I092",
+      "name": "中芯国际",
+      "effectiveHan": 10973,
+      "SHA256": "dfe5f35bc45a4f43972947c67438e17283ab0b7c31dc7249a85d3f2c7306456d"
+    }
+  ],
+  "reportPages": 1960,
+  "finalRenderTag": "final92clean",
+  "checks": [
+    {
+      "name": "92 companies and96 stock securities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "91 ranked and5 conditional with no formal rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "海尔生物10000 effectiveHan",
+      "passed": true,
+      "detail": 16852
+    },
+    {
+      "name": "迈威生物10000 effectiveHan",
+      "passed": true,
+      "detail": 14148
+    },
+    {
+      "name": "迪哲医药10000 effectiveHan",
+      "passed": true,
+      "detail": 13138
+    },
+    {
+      "name": "益方生物10000 effectiveHan",
+      "passed": true,
+      "detail": 11872
+    },
+    {
+      "name": "海创药业10000 effectiveHan",
+      "passed": true,
+      "detail": 14430
+    },
+    {
+      "name": "凯莱英10000 effectiveHan",
+      "passed": true,
+      "detail": 16741
+    },
+    {
+      "name": "微创脑科学10000 effectiveHan",
+      "passed": true,
+      "detail": 13997
+    },
+    {
+      "name": "英矽智能10000 effectiveHan",
+      "passed": true,
+      "detail": 16082
+    },
+    {
+      "name": "微创机器人-B10000 effectiveHan",
+      "passed": true,
+      "detail": 12689
+    },
+    {
+      "name": "药明康德10000 effectiveHan",
+      "passed": true,
+      "detail": 14716
+    },
+    {
+      "name": "恒瑞医药10000 effectiveHan",
+      "passed": true,
+      "detail": 12137
+    },
+    {
+      "name": "百济神州10000 effectiveHan",
+      "passed": true,
+      "detail": 16946
+    },
+    {
+      "name": "博腾股份10000 effectiveHan",
+      "passed": true,
+      "detail": 13687
+    },
+    {
+      "name": "迈瑞医疗10000 effectiveHan",
+      "passed": true,
+      "detail": 13866
+    },
+    {
+      "name": "皓元医药10000 effectiveHan",
+      "passed": true,
+      "detail": 14985
+    },
+    {
+      "name": "微创医疗10000 effectiveHan",
+      "passed": true,
+      "detail": 13509
+    },
+    {
+      "name": "键凯科技10000 effectiveHan",
+      "passed": true,
+      "detail": 13877
+    },
+    {
+      "name": "美迪西10000 effectiveHan",
+      "passed": true,
+      "detail": 13294
+    },
+    {
+      "name": "时代天使10000 effectiveHan",
+      "passed": true,
+      "detail": 15192
+    },
+    {
+      "name": "映恩生物-B10000 effectiveHan",
+      "passed": true,
+      "detail": 17167
+    },
+    {
+      "name": "亚盛医药10000 effectiveHan",
+      "passed": true,
+      "detail": 16602
+    },
+    {
+      "name": "康龙化成10000 effectiveHan",
+      "passed": true,
+      "detail": 12848
+    },
+    {
+      "name": "三生制药10000 effectiveHan",
+      "passed": true,
+      "detail": 13271
+    },
+    {
+      "name": "和黄医药10000 effectiveHan",
+      "passed": true,
+      "detail": 16541
+    },
+    {
+      "name": "石药集团10000 effectiveHan",
+      "passed": true,
+      "detail": 14492
+    },
+    {
+      "name": "乐普生物10000 effectiveHan",
+      "passed": true,
+      "detail": 14810
+    },
+    {
+      "name": "晶泰控股10000 effectiveHan",
+      "passed": true,
+      "detail": 16526
+    },
+    {
+      "name": "上海医药10000 effectiveHan",
+      "passed": true,
+      "detail": 14518
+    },
+    {
+      "name": "翰森制药10000 effectiveHan",
+      "passed": true,
+      "detail": 11699
+    },
+    {
+      "name": "绿叶制药10000 effectiveHan",
+      "passed": true,
+      "detail": 15932
+    },
+    {
+      "name": "中国生物制药10000 effectiveHan",
+      "passed": true,
+      "detail": 12405
+    },
+    {
+      "name": "远大医药10000 effectiveHan",
+      "passed": true,
+      "detail": 14122
+    },
+    {
+      "name": "先声药业10000 effectiveHan",
+      "passed": true,
+      "detail": 16268
+    },
+    {
+      "name": "药明生物10000 effectiveHan",
+      "passed": true,
+      "detail": 11610
+    },
+    {
+      "name": "金斯瑞生物科技10000 effectiveHan",
+      "passed": true,
+      "detail": 12558
+    },
+    {
+      "name": "丽珠医药10000 effectiveHan",
+      "passed": true,
+      "detail": 15922
+    },
+    {
+      "name": "君圣泰医药-B10000 effectiveHan",
+      "passed": true,
+      "detail": 15041
+    },
+    {
+      "name": "开拓药业-B10000 effectiveHan",
+      "passed": true,
+      "detail": 12296
+    },
+    {
+      "name": "再鼎医药10000 effectiveHan",
+      "passed": true,
+      "detail": 16901
+    },
+    {
+      "name": "云顶新耀10000 effectiveHan",
+      "passed": true,
+      "detail": 11795
+    },
+    {
+      "name": "诺诚健华10000 effectiveHan",
+      "passed": true,
+      "detail": 14862
+    },
+    {
+      "name": "康希诺生物10000 effectiveHan",
+      "passed": true,
+      "detail": 12775
+    },
+    {
+      "name": "复星医药10000 effectiveHan",
+      "passed": true,
+      "detail": 15821
+    },
+    {
+      "name": "泰格医药10000 effectiveHan",
+      "passed": true,
+      "detail": 13524
+    },
+    {
+      "name": "昭衍新药10000 effectiveHan",
+      "passed": true,
+      "detail": 14870
+    },
+    {
+      "name": "君实生物10000 effectiveHan",
+      "passed": true,
+      "detail": 12918
+    },
+    {
+      "name": "康诺亚-B10000 effectiveHan",
+      "passed": true,
+      "detail": 13243
+    },
+    {
+      "name": "信达生物10000 effectiveHan",
+      "passed": true,
+      "detail": 13341
+    },
+    {
+      "name": "药明合联10000 effectiveHan",
+      "passed": true,
+      "detail": 14282
+    },
+    {
+      "name": "康哲药业10000 effectiveHan",
+      "passed": true,
+      "detail": 14188
+    },
+    {
+      "name": "荣昌生物10000 effectiveHan",
+      "passed": true,
+      "detail": 13392
+    },
+    {
+      "name": "康方生物10000 effectiveHan",
+      "passed": true,
+      "detail": 11189
+    },
+    {
+      "name": "中国同辐10000 effectiveHan",
+      "passed": true,
+      "detail": 16273
+    },
+    {
+      "name": "MINIMAX-W10000 effectiveHan",
+      "passed": true,
+      "detail": 11255
+    },
+    {
+      "name": "智谱10000 effectiveHan",
+      "passed": true,
+      "detail": 11225
+    },
+    {
+      "name": "泡泡玛特10000 effectiveHan",
+      "passed": true,
+      "detail": 14222
+    },
+    {
+      "name": "中广核新能源10000 effectiveHan",
+      "passed": true,
+      "detail": 12412
+    },
+    {
+      "name": "东方甄选10000 effectiveHan",
+      "passed": true,
+      "detail": 11407
+    },
+    {
+      "name": "优必选10000 effectiveHan",
+      "passed": true,
+      "detail": 10747
+    },
+    {
+      "name": "心动公司10000 effectiveHan",
+      "passed": true,
+      "detail": 14253
+    },
+    {
+      "name": "比亚迪股份10000 effectiveHan",
+      "passed": true,
+      "detail": 10908
+    },
+    {
+      "name": "地平线机器人-W10000 effectiveHan",
+      "passed": true,
+      "detail": 11923
+    },
+    {
+      "name": "宁德时代10000 effectiveHan",
+      "passed": true,
+      "detail": 14335
+    },
+    {
+      "name": "网易10000 effectiveHan",
+      "passed": true,
+      "detail": 12935
+    },
+    {
+      "name": "联想集团10000 effectiveHan",
+      "passed": true,
+      "detail": 13854
+    },
+    {
+      "name": "百度集团-W10000 effectiveHan",
+      "passed": true,
+      "detail": 14736
+    },
+    {
+      "name": "阿里健康10000 effectiveHan",
+      "passed": true,
+      "detail": 16824
+    },
+    {
+      "name": "海尔智家10000 effectiveHan",
+      "passed": true,
+      "detail": 12565
+    },
+    {
+      "name": "ASMPT10000 effectiveHan",
+      "passed": true,
+      "detail": 16026
+    },
+    {
+      "name": "京东集团-SW10000 effectiveHan",
+      "passed": true,
+      "detail": 13029
+    },
+    {
+      "name": "华虹宏力10000 effectiveHan",
+      "passed": true,
+      "detail": 15780
+    },
+    {
+      "name": "腾讯控股10000 effectiveHan",
+      "passed": true,
+      "detail": 15700
+    },
+    {
+      "name": "哔哩哔哩-W10000 effectiveHan",
+      "passed": true,
+      "detail": 14741
+    },
+    {
+      "name": "京东健康10000 effectiveHan",
+      "passed": true,
+      "detail": 15459
+    },
+    {
+      "name": "阿里巴巴-W10000 effectiveHan",
+      "passed": true,
+      "detail": 14892
+    },
+    {
+      "name": "舜宇光学科技10000 effectiveHan",
+      "passed": true,
+      "detail": 16214
+    },
+    {
+      "name": "携程集团-S10000 effectiveHan",
+      "passed": true,
+      "detail": 12365
+    },
+    {
+      "name": "美团-W10000 effectiveHan",
+      "passed": true,
+      "detail": 16455
+    },
+    {
+      "name": "阅文集团10000 effectiveHan",
+      "passed": true,
+      "detail": 14411
+    },
+    {
+      "name": "快手-W10000 effectiveHan",
+      "passed": true,
+      "detail": 14319
+    },
+    {
+      "name": "比亚迪电子10000 effectiveHan",
+      "passed": true,
+      "detail": 12693
+    },
+    {
+      "name": "美的集团10000 effectiveHan",
+      "passed": true,
+      "detail": 14543
+    },
+    {
+      "name": "众安在线10000 effectiveHan",
+      "passed": true,
+      "detail": 13344
+    },
+    {
+      "name": "理想汽车-W10000 effectiveHan",
+      "passed": true,
+      "detail": 13916
+    },
+    {
+      "name": "小鹏集团-W10000 effectiveHan",
+      "passed": true,
+      "detail": 12661
+    },
+    {
+      "name": "同程旅行10000 effectiveHan",
+      "passed": true,
+      "detail": 16682
+    },
+    {
+      "name": "小米集团-W10000 effectiveHan",
+      "passed": true,
+      "detail": 11779
+    },
+    {
+      "name": "蔚来-SW10000 effectiveHan",
+      "passed": true,
+      "detail": 10809
+    },
+    {
+      "name": "商汤-W10000 effectiveHan",
+      "passed": true,
+      "detail": 14163
+    },
+    {
+      "name": "金蝶国际10000 effectiveHan",
+      "passed": true,
+      "detail": 13809
+    },
+    {
+      "name": "金山软件10000 effectiveHan",
+      "passed": true,
+      "detail": 11319
+    },
+    {
+      "name": "中芯国际10000 effectiveHan",
+      "passed": true,
+      "detail": 10973
+    },
+    {
+      "name": "qa/layout_provenance_final92charts.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\data\\research_bundle.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\data\\score_presentation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\alibaba_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\alihealth_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\angel_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\asmpt_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\asymchem_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\baidu_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\bilibili_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\byd_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\byde_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\catl_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\cgn_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\circ_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\cms_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\dizal_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\eastbuy_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\fosun_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\grand_pharma_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\haier_bio_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\haier_smart_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\haoyuan_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\hengrui_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\hightide_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\hinova_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\horizon_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\huahong_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I008_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I012_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I020_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I021_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I022_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I023_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I024_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I025_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I026_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I027_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I029_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I030_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I031_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I033_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I034_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I035_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I039_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I040_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I041_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I042_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I046_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I047_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I048_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I049_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I051_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\I052_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\inventis_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\jd_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\jdhealth_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\jenkem_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\joinn_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\kingdee_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\kingsoft_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\kintor_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\kuaishou_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\lenovo_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\liauto_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\livzon_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\mabwell_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\market_method.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\medicilon_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\meituan_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\microport_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\midea_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\mindray_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\minimax_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\netease_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\neuro_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\nio_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\pharma_notes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\popmart_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\porton_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\products_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\robot_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\sensetime_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\shpharma_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\smic_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\sunny_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\tech_notes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\tencent_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\tigermed_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\tongcheng_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\trip_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\ubtech_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\wuxi_apptec_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\xd_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\xiaomi_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\xpeng_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\yuewen_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\zhipu_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source G:\\MyTarget\\outputs\\investment_research_20261009\\research\\zhongan_deep.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/ranking_broker_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/calendar_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/workbook_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/workbook_refresh_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/crossformat_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\证券研究总表_初版.xlsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\00_总报告_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\01_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\02_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\03_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\04_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\05_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\06_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\07_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\08_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\09_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\10_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\11_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\12_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossformat has workbook and13 DOCX hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/near_duplicate_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/report_scope_audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/final_report_provenance.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/document_label_audit_final92clean.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\00_总报告_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\01_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\02_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\03_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\04_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\05_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\06_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\07_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\08_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\09_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\10_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\11_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\12_公司深研_初版.docx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92_00\\00_总报告_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92ready_01\\01_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92ready_02\\02_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92ready_03\\03_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92charts_04\\04_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92ready_05\\05_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92ready_06\\06_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92charts_07\\07_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92charts_08\\08_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\09_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_10\\10_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92clean_11\\11_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "label audit current file G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92type_12\\12_公司深研_初版.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/visual_transfer_final92clean.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/workbook_visual_gate.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/workbook_layout_release.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "layout evidence current qa/risk_npv_layout_fix/preserved_native_final_integrity.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "layout evidence current qa/risk_npv_layout_fix/layout_integration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "layout evidence current qa/risk_npv_layout_fix/final_render_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "layout evidence current qa/workbook_render_manifest_63ca87a2011995a6.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_data_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_data_qa.json four current web input hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_browser_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_browser_qa.json four current web input hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/web_visual_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qa/toc_audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "13 same-source rendered volumes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DOCX/PDF hash volume12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provenance current volume12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "visual hash coverage volume12",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "files": [],
+  "limitations": [
+    "Frozen information cutoff2026-10-09; no realtime updates.",
+    "Five conditional securities remain unranked.",
+    "Unpublished trading calendars unresolved; future dates are model assumptions.",
+    "Broker public summaries are distinguished from original reports; judgment scenario weights are not statistical probabilities."
+  ]
+}

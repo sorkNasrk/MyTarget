@@ -3,6 +3,198 @@
   "knownCases": 8,
   "issuerSecurityChecks": 77,
   "conditionalHKChecks": 5,
+  "modelHorizonChecks": 455,
+  "conditionalHorizonChecks": 25,
+  "marketTargetCombinations": [
+    {
+      "horizon": "yearEnd",
+      "nominalDate": "2026-12-31",
+      "previousWeekdayDate": "2026-12-31",
+      "actualDate": "2026-12-31",
+      "market": "HKEX",
+      "session": "half-day",
+      "calendarStatus": "已按香港政府公布假期及HKEX证券交易规则核验；半日市仍为有效交易日",
+      "sources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+          "publicationMonth": "2025-05"
+        }
+      ],
+      "unscheduledClosureAssumption": "按截止日已公开日历；未来临时停市未预测",
+      "modelRows": 77,
+      "conditionalRows": 5
+    },
+    {
+      "horizon": "halfYear",
+      "nominalDate": "2027-04-09",
+      "previousWeekdayDate": "2027-04-09",
+      "actualDate": "2027-04-09",
+      "market": "HKEX",
+      "session": "full-day",
+      "calendarStatus": "已按香港政府公布假期及HKEX证券交易规则核验",
+      "sources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "unscheduledClosureAssumption": "按截止日已公开日历；未来临时停市未预测",
+      "modelRows": 77,
+      "conditionalRows": 5
+    },
+    {
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "previousWeekdayDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "market": "HKEX",
+      "session": "full-day",
+      "calendarStatus": "已按香港政府公布假期及HKEX证券交易规则核验",
+      "sources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "unscheduledClosureAssumption": "按截止日已公开日历；未来临时停市未预测",
+      "modelRows": 77,
+      "conditionalRows": 5
+    },
+    {
+      "horizon": "threeYear",
+      "nominalDate": "2029-10-09",
+      "previousWeekdayDate": "2029-10-09",
+      "actualDate": null,
+      "market": "HKEX",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 77,
+      "conditionalRows": 5
+    },
+    {
+      "horizon": "fiveYear",
+      "nominalDate": "2031-10-09",
+      "previousWeekdayDate": "2031-10-09",
+      "actualDate": null,
+      "market": "HKEX",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 77,
+      "conditionalRows": 5
+    },
+    {
+      "horizon": "yearEnd",
+      "nominalDate": "2026-12-31",
+      "previousWeekdayDate": "2026-12-31",
+      "actualDate": null,
+      "market": "SZSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 3,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "halfYear",
+      "nominalDate": "2027-04-09",
+      "previousWeekdayDate": "2027-04-09",
+      "actualDate": null,
+      "market": "SZSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 3,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "previousWeekdayDate": "2027-10-08",
+      "actualDate": null,
+      "market": "SZSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 3,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "threeYear",
+      "nominalDate": "2029-10-09",
+      "previousWeekdayDate": "2029-10-09",
+      "actualDate": null,
+      "market": "SZSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 3,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "fiveYear",
+      "nominalDate": "2031-10-09",
+      "previousWeekdayDate": "2031-10-09",
+      "actualDate": null,
+      "market": "SZSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 3,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "yearEnd",
+      "nominalDate": "2026-12-31",
+      "previousWeekdayDate": "2026-12-31",
+      "actualDate": null,
+      "market": "SSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 11,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "halfYear",
+      "nominalDate": "2027-04-09",
+      "previousWeekdayDate": "2027-04-09",
+      "actualDate": null,
+      "market": "SSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 11,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "previousWeekdayDate": "2027-10-08",
+      "actualDate": null,
+      "market": "SSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 11,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "threeYear",
+      "nominalDate": "2029-10-09",
+      "previousWeekdayDate": "2029-10-09",
+      "actualDate": null,
+      "market": "SSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 11,
+      "conditionalRows": 0
+    },
+    {
+      "horizon": "fiveYear",
+      "nominalDate": "2031-10-09",
+      "previousWeekdayDate": "2031-10-09",
+      "actualDate": null,
+      "market": "SSE",
+      "calendarStatus": "周末已解析；对应年度交易所节假日日历尚未核验，实际交易日待核",
+      "modelRows": 11,
+      "conditionalRows": 0
+    }
+  ],
+  "resolvedCombinations": 3,
+  "unresolvedCombinations": 12,
   "calendarSources": {
     "2026": {
       "url": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
@@ -18,5 +210,6 @@
     }
   },
   "fingerprint": "63ca87a2011995a6",
-  "unpublishedCalendarsExplicitlyUnresolved": true
+  "unverifiedCalendarsExplicitlyUnresolved": true,
+  "scope": "All markets and target horizons actually used; stored citations and cutoff dates agree. A null actualDate is unresolved, not an official trading-day claim."
 }

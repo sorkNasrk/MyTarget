@@ -1,0 +1,125 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "code": "03696.HK",
+  "cutoff": "2026-10-09",
+  "preparedAtUTC": "2026-10-11T07:53:48.992Z",
+  "status": "PASS_CONDITIONAL_MODEL_FACTS_AND_DEMAND_FINAL_BODY_16ca; NOT_FORMAL_TARGET_OR_FULL_PACKAGE_RELEASE",
+  "scope": "Independent source facts, 67 body/model identities,32 demand inputs and patent/royalty boundary handoff. Parent requested finish before owner finalfreeze to release slot. No author files changed.",
+  "reviewedSnapshot": {
+    "bodyFile": "research/I008_deep.md",
+    "bodySHA256": "16cae2aa082e306954a47c757d1249b7fc2bb1f70eadba8dc9c068dddd581e7a",
+    "modelFile": "data/insilico_model.pending.json",
+    "modelSHA256": "0136f58e54832f04161be9910633a449106710c12f65423260e7b19b15d04866",
+    "nativeFile": "tools/insilico_native.mjs",
+    "nativeSHA256": "9fb1f14263b0023bbbc8aa87f43b0b06c4db82c45bf5c0f9197657b7639b6f53",
+    "assumptionsSHA256": "2b87dd43ea1ccfb2e03456a123483600468016c38106dd80c68f6ab448085721",
+    "builderSHA256": "fc567d5cccb81005a08cbb2acf319ce8c3e235a1872edb2d80b8b18ebcb56a67",
+    "perAssetEvidenceSHA256": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245",
+    "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical"
+  },
+  "method": {
+    "fullBodyRead": true,
+    "bodyFirstReadSHA": "ec8d9966a04d3e595ff38eee614250f1af940ddc306cde60e165c8cce86f74e7",
+    "bodyUpdatedDuringReview": true,
+    "latestSnapshotOnlyBound": true,
+    "identityMappings67Passed": 67,
+    "activeRows": 32,
+    "observationRows": 35,
+    "peakValues96Passed": 96,
+    "bodyBaselineDemandFields288Passed": 288,
+    "mechanicalChecks15Passed": 15,
+    "effectiveHanCount": 15585,
+    "countRule": "FirstnumberedsectiontoSources; excludeheadings/tables/bulletsourceandopening; HanU3400–4DBF/U4E00–9FFF",
+    "final16caHanIndependentlyRecounted": true,
+    "final16caRepairsRereadAndHashesMatch": true,
+    "nativeArithmeticNotExecutedByThisReviewer": true,
+    "noAuthorWrites": true
+  },
+  "formalBoundary": {
+    "rankingEligible": false,
+    "rankEligible": false,
+    "formalTargetAvailable": false,
+    "scoresAreDiagnosticOnly": true,
+    "recommendationStatus": "暂不排名",
+    "finding": "All raw zero prices and shortrecognitionblend kept onlyconditionalalgorithm pressures. Noformalyearendexpectationorhorizonreturn authorizedbythisQA."
+  },
+  "passedFactGroups": [
+    "Nature128screened/71randomized/55completed12week/16discontinued stated correctly afterownerrepair. TEAEprimary,FVCsecondary,98.4/-20.3within-groupCI and shortfollow-up limitations kept.",
+    "Registryoverallcomplete59 versuslastFVC49 andNaturetreatment55 distinct; ANCOVAMARimputation means49notallanalysisdenominator.",
+    "III actual2026-09-09,320estimated,47locations12recruiting35notyet,primary/overallestimated2029-10-30 afterthree-yeartarget; registrycacheddate notpublication.",
+    "US oral IND issuerinactive notprovenregulatoryhold; inhaledChinaINDnotforeigntrialornumericalhumanbenefit.",
+    "FosunQPCTLcostandprofits/losses50/50notroyalty; revenuehalf+groupallcost disclosedconservativeproxy notcompletejointprofitbridge.",
+    "Hygtia50rightsnot50netroyalty; PDnothealthy/CVriskphaseIpatientefficacy.",
+    "KIF18A MEN2501=ISM9682,HKD39mnotKAT6; KAT6/USP1qualitativeroyaltybandssupported,exacttiersresearch; TaiGenGC/exGC separate.",
+    "67evidenceIDs/assetname/indication/territory/firstsource+bodymodelstatus match.32demandrowsinputs match and96peaksrecomputed; all288baselinebodytablefieldsmatch.",
+    "China+potentialoverseasaggregate labelledresearch,3412nonGBM excludes0387GBM,nonobesityT2Dunverifiedextension,same-moleculeriskcorrelated.",
+    "2051cashEndonlyconditionaleconomicceiling notpatent/royaltyfact.2042calendarandlaunch+5stressnotlegaltail.",
+    "Originalclinical2026–2032 arraysretained[.038,.070,.090,.083,.069,.045,.029]/[.043,.088,.141,.172,.186,.166,.125]/[.052,.120,.210,.288,.352,.364,.299]USDbn; individualclinicalzeroandmilestoneszero.",
+    "PCC33nowqualifiedasinterimpointin-time; cutoff9/30announcement34 preservedinevidence. UC0.09USDbn correctly0.9USDhundredmillionafterrepair."
+  ],
+  "issues": [
+    {
+      "id": "licensedMarginWording",
+      "severity": "body_assumption_clarity",
+      "status": "resolved_in_16ca_body_read",
+      "bodyQuote": "风险净收入再乘临床概率、净收入率和公司权益，毛利还扣生产成本，增量销售费用另扣",
+      "finding": "Genericproductioncostsentence incorrectlyappliestolicensedroyaltyrows whoseGM islimitedincrementalservicingfactorperassumptions.method. Sourcefact isnotwrongbuteconomicwordingcanimplyfullmanufacturecosts.",
+      "required": "Qualifyproductionmarginforretainedproducts; licensedGMisadditionalservicingcostresearchnotfullmanufacturingandnotdisclosedtaxnetroyalty."
+    },
+    {
+      "id": "powerAndSpecificSafetyOptional",
+      "severity": "recommended_detail",
+      "status": "resolved_in_16ca_body_read_power_SAE_liver_detail",
+      "finding": "Source supplement verifiesnoformalstatisticalpower samplecalculation; treatmentrelatedSAE0/17,1/18,2/18,2/18 and12AEstopsincluding7liver,4withnintedanib. BodyalreadycorrectlystatesTEAE/relatedAE/CTCAEseparateandsafetyconcernbutdoesnotincludeeverydetail.",
+      "required": "Do notclaimpoweredstatisticalbetween-armbenefit,zeroseriousAEsorallsafe; optionalshortspecificriskaddition."
+    },
+    {
+      "id": "finalFreezePending",
+      "severity": "version_binding",
+      "status": "owner_final_body_16ca_and_pending0136_confirmed_read; parent_package_binding_still_required",
+      "finding": "Ownerfileschangedfromec8d/510bc6d duringreviewtoa6bf/0136f58. ParentmustconfirmnoadditionalchangeandbindfinalownQA.",
+      "required": "Rereadlatestbody/modelhashandverifylistedrepairsbeforeformalconditionalsnapshotacceptance."
+    }
+  ],
+  "patentSourceReview": "qa/insilico_32_active_patent_terms.json",
+  "clinicalSourceSupplement": "qa/insilico_nature_registry_fact_supplement.json",
+  "patentKeyBoundary": {
+    "sourcePages": [
+      312,
+      313,
+      314
+    ],
+    "assetGroupsWithKnownGrantedDate": 5,
+    "activeRowsWithSpecificGrantedDate": 12,
+    "otherRowsNotInMaterialTable": 20,
+    "knownUSDates": {
+      "RentosertibKinase": "2040-02-20",
+      "RentosertibAnalog": "2042-02-23",
+      "QPCTL": "2042-06-23",
+      "USP1": "2042-11-11",
+      "PHD5411": "2042-10-28",
+      "MAT2A3412": "2042-10-19"
+    },
+    "USP1": {
+      "page": 282,
+      "rule": "laterof firstcommercialsale+10years,lastvalidcompositionclaim,regulatoryexclusivity"
+    },
+    "KAT6": {
+      "pages": [
+        286,
+        287
+      ],
+      "termYearsUnknown": true,
+      "expirationEffect": "royaltyfree"
+    },
+    "qualifier": "USdatesnotglobalorChinawherepending; notalltitlescoverallindications/formulations; noautomatic+20yearsfromlaunch/PCC"
+  },
+  "limitations": [
+    "Source/assumptionQAcanpassforconditionalmodelonly; fundingstillnotselfconsistentformalvaluation.",
+    "No fullnativecasharithmetic, sensitivity recalculation, brokeroriginalreports, ExcelrefreshorWord/PDFrenderapprovalhere.",
+    "No103-entry/92-companyor27-filecompleteacceptance.",
+    "Parent must bind final body16ca/model0136 hashes to integrated package. Generic licensedGM, power and safety wording repaired and directly reread. Later model or body changes invalidate this binding."
+  ]
+}
+

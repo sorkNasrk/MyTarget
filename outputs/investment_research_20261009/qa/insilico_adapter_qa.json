@@ -1,9 +1,10 @@
 {
   "passed": true,
-  "checks": 58072,
-  "modelVersion": "insilico-v3-perIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
-  "atoms": 4106,
-  "signaturesPerCase": 1387,
+  "checks": 59780,
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
+  "atoms": 4307,
+  "signaturesPerCase": 1454,
   "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
-  "scope": "3cases26years5horizons28atomic edits plus exact reserve boundary; 9sheet renders plus CB rights shares"
+  "atomicEdits": 29,
+  "scope": "3cases26years5conditionalhorizons29atomic edits plus exact reserve boundary; 9sheet renders plus CB rights shares"
 }

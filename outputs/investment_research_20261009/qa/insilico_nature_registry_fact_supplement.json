@@ -1,0 +1,145 @@
+{
+  "issuerId": "I008",
+  "cutoff": "2026-10-09",
+  "scope": "Source-only supplementary independent read of cached Nature and ClinicalTrials.gov raw records; not frozen body/model approval",
+  "preparedAtUTC": "2026-10-11T07:50:19.232Z",
+  "nature": {
+    "URL": "https://www.nature.com/articles/s41591-025-03743-2",
+    "publicationDate": "2025-06-03",
+    "timeUnknown": true,
+    "localFile": "data/pharma_raw/insilico_nature_20250603.html",
+    "SHA256": "dfa5bffd67c636db6ee18e83be1df34cdf16d19a7b9bb7e2be4918977ab7bb17",
+    "screened": 128,
+    "randomized": 71,
+    "groups": {
+      "placebo": 17,
+      "30QD": 18,
+      "30BID": 18,
+      "60QD": 18
+    },
+    "treatmentWeeks": 12,
+    "treatmentCompleted": 55,
+    "treatmentCompletedGroups": {
+      "placebo": 15,
+      "30QD": 16,
+      "30BID": 12,
+      "60QD": 12
+    },
+    "primaryEndpoint": "percentage with at least one TEAE",
+    "FVC": "secondary",
+    "FVCMeanChangeML": {
+      "60QD": 98.4,
+      "placebo": -20.3
+    },
+    "FVCWithinGroupCI95": {
+      "60QD": [
+        10.9,
+        185.9
+      ],
+      "placebo": [
+        -116.1,
+        75.6
+      ]
+    },
+    "statisticalPowerSampleCalculationPerformed": false,
+    "ITTUse": "all randomized for demographics and secondary outcomes except PK; safety all at least one dose",
+    "Fig2b": "ANCOVA multiple imputation assuming MAR",
+    "treatmentRelatedAE": {
+      "placebo": {
+        "n": 5,
+        "denom": 17
+      },
+      "30QD": {
+        "n": 9,
+        "denom": 18
+      },
+      "30BID": {
+        "n": 11,
+        "denom": 18
+      },
+      "60QD": {
+        "n": 14,
+        "denom": 18
+      }
+    },
+    "treatmentRelatedSAE": {
+      "placebo": {
+        "n": 0,
+        "denom": 17
+      },
+      "30QD": {
+        "n": 1,
+        "denom": 18
+      },
+      "30BID": {
+        "n": 2,
+        "denom": 18
+      },
+      "60QD": {
+        "n": 2,
+        "denom": 18
+      }
+    },
+    "discontinuedTreatment": 16,
+    "discontinuedForAE": 12,
+    "discontinuedForLiverInjuryOrDysfunction": 7,
+    "liverWithdrawalsConcomitantNintedanib": 4,
+    "death": "one heart failure before week12, investigator determined unrelated; does not mean zero deaths",
+    "interpretation": "Mean within-group CI and subtraction98.4-(-20.3)=118.7 do not by themselves establish powered between-arm registrational effect or52-week reversal. More large-long duration evidence, concomitant therapy safety and missing data analysis matter."
+  },
+  "registryIIa": {
+    "URL": "https://clinicaltrials.gov/api/v2/studies/NCT05938920",
+    "localFile": "data/pharma_raw/NCT05938920_api_20261011.json",
+    "SHA256": "3c3071ac5b509cb7c24535aa73e91d2b56753bc0143c5cecbe4d72caa9f539d2",
+    "downloadDate": "2026-10-11",
+    "latestPublicPost": "2025-12-11",
+    "cutoffEligible": true,
+    "actualEnrollment": 71,
+    "overallStudyComplete": 59,
+    "overallStudyCompleteGroups": [
+      16,
+      14,
+      13,
+      16
+    ],
+    "lastFVCObservedDenom": 49,
+    "lastFVCObservedGroups": [
+      13,
+      12,
+      10,
+      14
+    ],
+    "denomQualifier": "overall study completion59 and12-week treatment completion55 differ from endpoint last observed49.49 does not replace71ITT or all publication MAR-imputed analyses."
+  },
+  "registryIII": {
+    "URL": "https://clinicaltrials.gov/api/v2/studies/NCT07687459",
+    "localFile": "data/pharma_raw/NCT07687459_api_20261011.json",
+    "SHA256": "6bc97045036c4ccefa199ad0d3b56856ba587827ee0a831d1ce01b193d600991",
+    "downloadDate": "2026-10-11",
+    "latestPublicPost": "2026-09-17",
+    "cutoffEligible": true,
+    "status": "RECRUITING",
+    "actualStart": "2026-09-09",
+    "plannedEnrollment": 320,
+    "enrollmentType": "ESTIMATED",
+    "primaryEndpoint": "annual FVCmL decline over52weeks",
+    "primaryCompletion": "2029-10-30",
+    "overallCompletion": "2029-10-30",
+    "completionType": "ESTIMATED",
+    "locationsTotal": 47,
+    "locationStatuses": {
+      "RECRUITING": 12,
+      "NOT_YET_RECRUITING": 35
+    },
+    "threeYearTarget": "2029-10-09",
+    "completionAfterThreeYearTarget": true,
+    "dateQualifier": "July2026 issuer trial-initiation announcement differs from registry actual start2026-09-09; not a claim July first actual enrollment."
+  },
+  "limitations": [
+    "Latest public registry updates are before cutoff; later cached download is not publication date.",
+    "No fresh postcutoff results introduced.",
+    "Sponsor registry results and Nature analysis populations not assumed identical.",
+    "This evidence supplement does not certify scoring, valuation, narrative wordcount, rendering or whole package."
+  ]
+}
+

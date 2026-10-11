@@ -1,0 +1,78 @@
+{
+  "reviewer": "source_language_final",
+  "method": "Every recorded page opened through view_image with detail original; no contact-sheet substitution",
+  "records": [
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 138,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-138.png",
+      "sha256": "1c2dd1c3a5e098209ad462693f274b6628a178257aecb7a0d230102600419f91",
+      "result": "issue",
+      "note": "Requested source label 首次披露 is fixed and all source URLs retained; pre-existing 十年经营持续性展望 H2 still has visibly crowded or overprinted Chinese glyphs. Body and source text otherwise clean; heading needs targeted explicit YaHei13 bold repair.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:00:14.184016+00:00"
+    },
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 138,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-138.png",
+      "sha256": "c28723ee13450dd8c5638cad3f5e95a0e1e1410bc9defa878987cecce4c2c7ba",
+      "result": "pass",
+      "note": "Final rerender opened at original resolution: 十年经营持续性展望 and 核验边界 H2 explicit YaHei13 bold no glyph overlap; 首次披露 and 注销 source labels intact; all URLs and body content preserved; source migration across tail pages is clean, no clipping or footer collision.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:04:03.074085+00:00"
+    },
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 139,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-139.png",
+      "sha256": "380f0b4c484980ab0fb80e3053f3d459f78d3a7d5d3b8be1db8dda59d2fc9b48",
+      "result": "pass",
+      "note": "Original-resolution source and tail pages reviewed: 注销 label intact; complete unchanged URLs wrap naturally; 核验边界 explicit YaHei13 bold glyphs no longer overlap; body and footer clean.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:00:13.879895+00:00"
+    },
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 139,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-139.png",
+      "sha256": "7f59529706d5f92a2c3b6f95fedeae9cb46fe720f0f2c2abc1b4090da6b1ec26",
+      "result": "pass",
+      "note": "Final rerender opened at original resolution: 十年经营持续性展望 and 核验边界 H2 explicit YaHei13 bold no glyph overlap; 首次披露 and 注销 source labels intact; all URLs and body content preserved; source migration across tail pages is clean, no clipping or footer collision.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:04:03.074085+00:00"
+    },
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 140,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-140.png",
+      "sha256": "e34663658c033f0067487cc903c444aad49a012855bee0755d131edcf149a471",
+      "result": "pass",
+      "note": "Original-resolution source and tail pages reviewed: 注销 label intact; complete unchanged URLs wrap naturally; 核验边界 explicit YaHei13 bold glyphs no longer overlap; body and footer clean.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:00:13.879895+00:00"
+    },
+    {
+      "tag": "final92source",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 9,
+      "page": 140,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92source_09\\page-140.png",
+      "sha256": "079f368462bec412ea2f0a1138469dd13d10b14b84dccf245abae4e1a6cc1ef2",
+      "result": "pass",
+      "note": "Final rerender opened at original resolution: 十年经营持续性展望 and 核验边界 H2 explicit YaHei13 bold no glyph overlap; 首次披露 and 注销 source labels intact; all URLs and body content preserved; source migration across tail pages is clean, no clipping or footer collision.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T12:04:03.074085+00:00"
+    }
+  ]
+}

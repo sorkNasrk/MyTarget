@@ -1,0 +1,66 @@
+{
+  "reviewer": "integration",
+  "method": "Every recorded page opened through view_image with detail original; no contact-sheet substitution",
+  "records": [
+    {
+      "tag": "final92layout",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 4,
+      "page": 117,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92layout_04\\page-117.png",
+      "sha256": "61304b8bed197b428c73988c5c2f6d317643d608bb72dba04d1a0a7a123a443e",
+      "result": "pass",
+      "note": "美团窄参数表已改每数一行；.65、150、250及6.15完整显示，三情景顺序与原值保持；中文、边界与页脚清楚",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:17:49.806046+00:00"
+    },
+    {
+      "tag": "final92layout",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 4,
+      "page": 118,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92layout_04\\page-118.png",
+      "sha256": "e1df74abefd3c2cf25dc0dd77da46bef47517db1b870aa3799117743c1dc8f74",
+      "result": "pass",
+      "note": "Chinese glyphs, table borders, wrapping, charts, margins, headings and footer checked; no clipping or overlap observed",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:18:50.997047+00:00"
+    },
+    {
+      "tag": "final92layout",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 7,
+      "page": 64,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92layout_07\\page-64.png",
+      "sha256": "9f1401b3d8fea87fc0272ff0c5ac595e09457ec80705bc54ff9b52931e51ade1",
+      "result": "pass",
+      "note": "京东窄参数表每数一行；1130、1200、1250与各期收入参数完整，负5保持，数字未拆断；重复表头、中文和边界清楚",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:17:49.880296+00:00"
+    },
+    {
+      "tag": "final92layout",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 7,
+      "page": 65,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92layout_07\\page-65.png",
+      "sha256": "96d8cd98dcfaa763730d3d4359197f6e062f38ae535de54c1380744cc6c3d91c",
+      "result": "pass",
+      "note": "京东窄参数表每数一行；1130、1200、1250与各期收入参数完整，负5保持，数字未拆断；重复表头、中文和边界清楚",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:17:49.880296+00:00"
+    },
+    {
+      "tag": "final92layout",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 11,
+      "page": 152,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92layout_11\\page-152.png",
+      "sha256": "5968e260cb1f11ce2da1c9c4476f8529d50dfb50888ef040851605e37976bb36",
+      "result": "pass",
+      "note": "晶泰七自研适应症模型数值逐token一行；患者数、年价格、峰销及批准概率完整未拆断；中文、所有七行表格与边界清楚",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:18:51.062552+00:00"
+    }
+  ]
+}

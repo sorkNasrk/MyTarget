@@ -1,5 +1,5 @@
 """Read-only checks of the shared research model, XLSX and document target tables."""
-import json, re
+import hashlib, json, re
 from pathlib import Path
 from docx import Document
 from docx.oxml.ns import qn
@@ -66,7 +66,7 @@ for file in M['files']:
                     expected=[B['labels'][h]]+[num(sc['price'])+'\n'+pct(sc['priceReturn'])for sc in current['scenarios'][h]['cases']]+[pct(current['scenarios'][h]['cases'][1]['annualized'])]
                     check([c.text for c in row.cells],expected,current['code']+' '+h+' three-case table')
 check(len(covered),B['status']['summary']['deepResearchPassed'],'DOCX issuer coverage')
-report={'fingerprint':B['fingerprint'],'checks':checks,'coveredIssuers':len(covered),'models':len(B['models']),'errors':errors,'passed':not errors,'scope':'model summary tables and embedded versions; manuscript factual verification and latest PDF visual review are separate prerequisites'}
+report={'fingerprint':B['fingerprint'],'inputSHA256':{str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in [ROOT/W['file'],*[Path(f) for f in M['files']]]},'checks':checks,'coveredIssuers':len(covered),'models':len(B['models']),'errors':errors,'passed':not errors,'scope':'model summary tables and embedded versions; manuscript factual verification and latest PDF visual review are separate prerequisites'}
 (ROOT/'qa/crossformat_qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False))
 if errors:raise SystemExit(1)

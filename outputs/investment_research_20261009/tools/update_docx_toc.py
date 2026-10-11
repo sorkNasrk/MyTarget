@@ -49,7 +49,11 @@ try:
                 cursor.gotoRange(paragraph.getStart(),False);headings.append({'text':paragraph.String,'page':cursor.getPage()})
         records.append({'file':str(file),'indexes':indexes.getCount(),'headings':headings})
         doc.close(True)
-    (ROOT/'qa/toc_audit.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+    audit_path=ROOT/'qa/toc_audit.json'
+    existing=json.loads(audit_path.read_text(encoding='utf-8')) if audit_path.exists() else []
+    changed={r['file'] for r in records}
+    merged=sorted([r for r in existing if r['file'] not in changed]+records,key=lambda r:r['file'])
+    audit_path.write_text(json.dumps(merged,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps([{'file':r['file'],'indexes':r['indexes'],'headings':len(r['headings'])}for r in records],ensure_ascii=False))
     desktop.terminate()
 finally:

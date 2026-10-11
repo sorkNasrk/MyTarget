@@ -1,0 +1,30 @@
+{
+  "reviewer": "integration",
+  "method": "Every recorded page opened through view_image with detail original; no contact-sheet substitution",
+  "records": [
+    {
+      "tag": "final92charts",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 5,
+      "page": 49,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92charts_05\\page-49.png",
+      "sha256": "5ebc6cd6d7ca96af0d1a1a9dadf267b29d672331a62ea12771cf5ca8e03a5fea",
+      "result": "pass",
+      "note": "Daily and weekly legends now sit above axes with title space; high candles, Chinese text, chart labels and page margins are clear.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:24:34.512916+00:00"
+    },
+    {
+      "tag": "final92charts",
+      "fingerprint": "63ca87a2011995a6",
+      "volume": 5,
+      "page": 71,
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\render_final92charts_05\\page-71.png",
+      "sha256": "58e49adc631459d0deeb3560c0a7b36b2f6dd17460e769636f3f8fe27e8c33fe",
+      "result": "pass",
+      "note": "Daily and weekly legends now sit above axes with title space; high candles, Chinese text, chart labels and page margins are clear.",
+      "openedAtOriginalResolution": true,
+      "recordedAt": "2026-10-11T08:24:34.512916+00:00"
+    }
+  ]
+}

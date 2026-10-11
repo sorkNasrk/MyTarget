@@ -11,6 +11,7 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--tag',default='stock91')
 parser.add_argument('--start',type=int,default=0)
 parser.add_argument('--end',type=int,default=12)
+parser.add_argument('--carry-from-tag',help='Reuse unchanged volume records in a fresh render manifest')
 args=parser.parse_args()
 manifest=json.loads((ROOT/'qa/document_manifest.json').read_text(encoding='utf-8'))
 files=[Path(p) for p in manifest['files']]
@@ -20,6 +21,11 @@ records=[]
 if result_path.exists():
     prior=json.loads(result_path.read_text(encoding='utf-8'))
     if prior['fingerprint']==manifest['fingerprint']:records=prior['records']
+elif args.carry_from_tag:
+    assert re.fullmatch(r'[a-zA-Z0-9_]+',args.carry_from_tag),'Source tag must be a simple identifier'
+    prior=json.loads((ROOT/'qa'/f'report_render_manifest_{args.carry_from_tag}.json').read_text(encoding='utf-8'))
+    assert prior['fingerprint']==manifest['fingerprint'],'Cannot carry volumes across model versions'
+    records=prior['records']
 environment=os.environ.copy()
 environment['PYTHONUTF8']='1'
 environment['PATH']=os.pathsep.join([r'C:\Program Files\LibreOffice\program',r'C:\Users\happyelements\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin',environment.get('PATH','')])
