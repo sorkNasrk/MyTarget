@@ -1,0 +1,1716 @@
+{
+  "issuerId": "I031",
+  "securityId": "S036",
+  "name": "中国生物制药",
+  "code": "01177.HK",
+  "asOf": "2026-10-09",
+  "price": 5.41,
+  "currency": "HKD",
+  "priceHKD": 5.41,
+  "modelVersion": "sinobiopharm-v1-transaction-cash-bridge",
+  "method": "归母核心产品及未来风险折扣持续特许盈利PE＋交易后归母超额净现金＋科兴等战略投资折扣值；未完成逐药rNPV/完整DCF",
+  "deepResearchFile": "research/I031_deep.md",
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "earningsYear": 2027,
+      "epsCNY": [
+        0.23,
+        0.31,
+        0.39
+      ],
+      "PE": [
+        15,
+        21,
+        27
+      ],
+      "productRevenueCNYbn": [
+        38,
+        42,
+        47
+      ],
+      "riskAdjustedRecurringRoyaltyRevenueCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "coreRevenueCNYbn": [
+        38,
+        42,
+        47
+      ],
+      "dilutedSharesBn": [
+        18.4,
+        18.2,
+        18.2
+      ],
+      "coreNetProfitCNYbn": [
+        4.232,
+        5.6419999999999995,
+        7.098
+      ],
+      "coreNetMargin": [
+        0.11136842105263159,
+        0.13433333333333333,
+        0.15102127659574469
+      ],
+      "excessNetCashCNYbn": [
+        -0.5,
+        2,
+        4
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCurrentCNYbn": 14.882137,
+        "noncurrentBankDepositCNYbn": 7.158,
+        "wealthManagementCNYbn": 12.5435,
+        "wealthRecoveryAssumption": 0.95,
+        "bankDebtCNYbn": 17.099212,
+        "leasesCNYbn": 0.072229,
+        "parentCashAttributionAssumption": 0.7,
+        "acquisitionCashCNYbn": 4.48,
+        "acquiredTargetDebtCNYbn": 2.415,
+        "acquiredTargetCashCNYbn": 0.034,
+        "preBaselineDeclaredCashDividendCNYbn": 0.782228,
+        "preBaselineEntitlementInterimDividendCNYbn": 1.079376,
+        "groupOperatingReserveCNYbn": 3.5,
+        "groupAdjustedNetCashCNYbn": 16.785021,
+        "initialParentExcessAfterTransactionCNYbn": 1.1353918999999995
+      },
+      "strategyInvestmentValueCNYbn": [
+        3.6,
+        5.4,
+        7.2
+      ],
+      "forecastCumulativeCashDividendCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -1.6353918999999995,
+        0.8646081000000005,
+        2.8646081000000008
+      ],
+      "priceHKD": [
+        3.9803260869565227,
+        7.608252747252748,
+        12.259923076923078
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "仿制药下降、新品收入和费用效率回撤，收购资本负担",
+        "创新产品增长、全年去首付经营利润改善，持股提升以实际交割为前提",
+        "新品种销售及海外合同推进大幅超预期，市场接受平台溢价"
+      ],
+      "expectedPriceHKD": 7.8641886645962735
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "earningsYear": 2027,
+      "epsCNY": [
+        0.23,
+        0.31,
+        0.39
+      ],
+      "PE": [
+        16,
+        23,
+        29
+      ],
+      "productRevenueCNYbn": [
+        38,
+        42,
+        47
+      ],
+      "riskAdjustedRecurringRoyaltyRevenueCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "coreRevenueCNYbn": [
+        38,
+        42,
+        47
+      ],
+      "dilutedSharesBn": [
+        18.4,
+        18.2,
+        18.2
+      ],
+      "coreNetProfitCNYbn": [
+        4.232,
+        5.6419999999999995,
+        7.098
+      ],
+      "coreNetMargin": [
+        0.11136842105263159,
+        0.13433333333333333,
+        0.15102127659574469
+      ],
+      "excessNetCashCNYbn": [
+        -0.5,
+        2.5,
+        4.8
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCurrentCNYbn": 14.882137,
+        "noncurrentBankDepositCNYbn": 7.158,
+        "wealthManagementCNYbn": 12.5435,
+        "wealthRecoveryAssumption": 0.95,
+        "bankDebtCNYbn": 17.099212,
+        "leasesCNYbn": 0.072229,
+        "parentCashAttributionAssumption": 0.7,
+        "acquisitionCashCNYbn": 4.48,
+        "acquiredTargetDebtCNYbn": 2.415,
+        "acquiredTargetCashCNYbn": 0.034,
+        "preBaselineDeclaredCashDividendCNYbn": 0.782228,
+        "preBaselineEntitlementInterimDividendCNYbn": 1.079376,
+        "groupOperatingReserveCNYbn": 3.5,
+        "groupAdjustedNetCashCNYbn": 16.785021,
+        "initialParentExcessAfterTransactionCNYbn": 1.1353918999999995
+      },
+      "strategyInvestmentValueCNYbn": [
+        3.6,
+        5.4,
+        7.2
+      ],
+      "forecastCumulativeCashDividendCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -1.6353918999999995,
+        1.3646081000000005,
+        3.6646081000000006
+      ],
+      "priceHKD": [
+        4.233326086956523,
+        8.320472527472528,
+        13.166274725274727
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "年报主要靠授权、产品疲弱，60日观察线失守",
+        "年报确认创新销售和持续利润，合作新品在国内推进",
+        "创新/引进品销售及临床明显优于预期，量价重新突破"
+      ],
+      "expectedPriceHKD": 8.510136466794076
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "earningsYear": 2028,
+      "epsCNY": [
+        0.25,
+        0.39,
+        0.52
+      ],
+      "PE": [
+        15,
+        23,
+        30
+      ],
+      "productRevenueCNYbn": [
+        40,
+        49,
+        57
+      ],
+      "riskAdjustedRecurringRoyaltyRevenueCNYbn": [
+        0,
+        0,
+        0.4
+      ],
+      "coreRevenueCNYbn": [
+        40,
+        49,
+        57.4
+      ],
+      "dilutedSharesBn": [
+        18.6,
+        18.4,
+        18.4
+      ],
+      "coreNetProfitCNYbn": [
+        4.65,
+        7.175999999999999,
+        9.568
+      ],
+      "coreNetMargin": [
+        0.11625,
+        0.14644897959183673,
+        0.16668989547038326
+      ],
+      "excessNetCashCNYbn": [
+        -1,
+        3.8,
+        7
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCurrentCNYbn": 14.882137,
+        "noncurrentBankDepositCNYbn": 7.158,
+        "wealthManagementCNYbn": 12.5435,
+        "wealthRecoveryAssumption": 0.95,
+        "bankDebtCNYbn": 17.099212,
+        "leasesCNYbn": 0.072229,
+        "parentCashAttributionAssumption": 0.7,
+        "acquisitionCashCNYbn": 4.48,
+        "acquiredTargetDebtCNYbn": 2.415,
+        "acquiredTargetCashCNYbn": 0.034,
+        "preBaselineDeclaredCashDividendCNYbn": 0.782228,
+        "preBaselineEntitlementInterimDividendCNYbn": 1.079376,
+        "groupOperatingReserveCNYbn": 3.5,
+        "groupAdjustedNetCashCNYbn": 16.785021,
+        "initialParentExcessAfterTransactionCNYbn": 1.1353918999999995
+      },
+      "strategyInvestmentValueCNYbn": [
+        3.2,
+        5.6,
+        7.8
+      ],
+      "forecastCumulativeCashDividendCNYbn": [
+        1.1836363636363638,
+        2.341818181818182,
+        3.3454545454545452
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -0.9517555363636354,
+        5.006426281818182,
+        9.210062645454546
+      ],
+      "priceHKD": [
+        4.25510752688172,
+        10.428956521739131,
+        18.044782608695655
+      ],
+      "cumulativeCashDividendHKD": [
+        0.07,
+        0.14,
+        0.2
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "收购回报及新品种商业化弱，仿制药价格下行",
+        "创新产品与呼吸/肝病引进业务扩大，正常费用率维持",
+        "多项新产品上市并有海外持续收益，国际化提升资本回报"
+      ],
+      "expectedPriceHKD": 10.789450794763908
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "earningsYear": 2029,
+      "epsCNY": [
+        0.28,
+        0.53,
+        0.77
+      ],
+      "PE": [
+        13,
+        22,
+        29
+      ],
+      "productRevenueCNYbn": [
+        43,
+        60,
+        78
+      ],
+      "riskAdjustedRecurringRoyaltyRevenueCNYbn": [
+        0,
+        0.7,
+        2
+      ],
+      "coreRevenueCNYbn": [
+        43,
+        60.7,
+        80
+      ],
+      "dilutedSharesBn": [
+        19,
+        18.8,
+        18.8
+      ],
+      "coreNetProfitCNYbn": [
+        5.32,
+        9.964,
+        14.476
+      ],
+      "coreNetMargin": [
+        0.12372093023255815,
+        0.1641515650741351,
+        0.18095
+      ],
+      "excessNetCashCNYbn": [
+        -1.5,
+        7,
+        12
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCurrentCNYbn": 14.882137,
+        "noncurrentBankDepositCNYbn": 7.158,
+        "wealthManagementCNYbn": 12.5435,
+        "wealthRecoveryAssumption": 0.95,
+        "bankDebtCNYbn": 17.099212,
+        "leasesCNYbn": 0.072229,
+        "parentCashAttributionAssumption": 0.7,
+        "acquisitionCashCNYbn": 4.48,
+        "acquiredTargetDebtCNYbn": 2.415,
+        "acquiredTargetCashCNYbn": 0.034,
+        "preBaselineDeclaredCashDividendCNYbn": 0.782228,
+        "preBaselineEntitlementInterimDividendCNYbn": 1.079376,
+        "groupOperatingReserveCNYbn": 3.5,
+        "groupAdjustedNetCashCNYbn": 16.785021,
+        "initialParentExcessAfterTransactionCNYbn": 1.1353918999999995
+      },
+      "strategyInvestmentValueCNYbn": [
+        2.8,
+        6,
+        8.5
+      ],
+      "forecastCumulativeCashDividendCNYbn": [
+        3.9727272727272727,
+        8.545454545454545,
+        12.818181818181818
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        1.3373353727272734,
+        14.410062645454545,
+        23.682789918181818
+      ],
+      "priceHKD": [
+        4.079263157894737,
+        13.586638297872343,
+        25.762468085106384
+      ],
+      "cumulativeCashDividendHKD": [
+        0.23,
+        0.5,
+        0.75
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "国内产品竞争激烈、研发变现差，海外延迟",
+        "肿瘤/呼吸/肝病多线形成持续经营，部分risk-adjusted royalty",
+        "ADC/呼吸/小核酸与国际权益共同兑现，新药利润扩大"
+      ],
+      "expectedPriceHKD": 14.25375195968645
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "earningsYear": 2031,
+      "epsCNY": [
+        0.32,
+        0.77,
+        1.18
+      ],
+      "PE": [
+        12,
+        20,
+        27
+      ],
+      "productRevenueCNYbn": [
+        49,
+        82,
+        112
+      ],
+      "riskAdjustedRecurringRoyaltyRevenueCNYbn": [
+        0.1,
+        2.5,
+        7
+      ],
+      "coreRevenueCNYbn": [
+        49.1,
+        84.5,
+        119
+      ],
+      "dilutedSharesBn": [
+        19.6,
+        19.4,
+        19.4
+      ],
+      "coreNetProfitCNYbn": [
+        6.272,
+        14.937999999999999,
+        22.891999999999996
+      ],
+      "coreNetMargin": [
+        0.12773930753564156,
+        0.17678106508875738,
+        0.19236974789915964
+      ],
+      "excessNetCashCNYbn": [
+        -2,
+        12,
+        22
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCurrentCNYbn": 14.882137,
+        "noncurrentBankDepositCNYbn": 7.158,
+        "wealthManagementCNYbn": 12.5435,
+        "wealthRecoveryAssumption": 0.95,
+        "bankDebtCNYbn": 17.099212,
+        "leasesCNYbn": 0.072229,
+        "parentCashAttributionAssumption": 0.7,
+        "acquisitionCashCNYbn": 4.48,
+        "acquiredTargetDebtCNYbn": 2.415,
+        "acquiredTargetCashCNYbn": 0.034,
+        "preBaselineDeclaredCashDividendCNYbn": 0.782228,
+        "preBaselineEntitlementInterimDividendCNYbn": 1.079376,
+        "groupOperatingReserveCNYbn": 3.5,
+        "groupAdjustedNetCashCNYbn": 16.785021,
+        "initialParentExcessAfterTransactionCNYbn": 1.1353918999999995
+      },
+      "strategyInvestmentValueCNYbn": [
+        2.4,
+        6.5,
+        9.5
+      ],
+      "forecastCumulativeCashDividendCNYbn": [
+        7.661818181818182,
+        16.75454545454545,
+        26.45454545454545
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        4.526426281818183,
+        27.61915355454545,
+        47.31915355454545
+      ],
+      "priceHKD": [
+        4.246448979591837,
+        17.988969072164952,
+        36.83208247422681
+      ],
+      "cumulativeCashDividendHKD": [
+        0.43,
+        0.95,
+        1.5
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "产品结构更新失败，融资/资本配置使归母收益受损",
+        "多个治疗领域维持经营增长，风险折扣后的royalty逐步成为现金",
+        "创新产品与国际合作重复实现，持续利润及分红显著增长"
+      ],
+      "expectedPriceHKD": 19.264117399537138
+    }
+  },
+  "horizons": {
+    "yearEnd": {
+      "targetDate": "2026-12-31",
+      "years": 0.2272416153319644,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 3.9803260869565227,
+          "epsCNY": 0.23,
+          "pe": 15,
+          "productRevenueCNYbn": 38,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.4,
+          "coreNetProfitCNYbn": 4.232,
+          "coreNetMargin": 0.11136842105263159,
+          "excessNetCashCNYbn": -0.5,
+          "strategyInvestmentValueCNYbn": 3.6,
+          "dividendHKD": 0,
+          "capitalReturnPct": -26.426504862171484,
+          "totalReturnPct": -26.426504862171484,
+          "annualizedTotalReturnPct": null,
+          "condition": "仿制药下降、新品收入和费用效率回撤，收购资本负担"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 7.608252747252748,
+          "epsCNY": 0.31,
+          "pe": 21,
+          "productRevenueCNYbn": 42,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.2,
+          "coreNetProfitCNYbn": 5.6419999999999995,
+          "coreNetMargin": 0.13433333333333333,
+          "excessNetCashCNYbn": 2,
+          "strategyInvestmentValueCNYbn": 5.4,
+          "dividendHKD": 0,
+          "capitalReturnPct": 40.633137657167254,
+          "totalReturnPct": 40.633137657167254,
+          "annualizedTotalReturnPct": null,
+          "condition": "创新产品增长、全年去首付经营利润改善，持股提升以实际交割为前提"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 12.259923076923078,
+          "epsCNY": 0.39,
+          "pe": 27,
+          "productRevenueCNYbn": 47,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.2,
+          "coreNetProfitCNYbn": 7.098,
+          "coreNetMargin": 0.15102127659574469,
+          "excessNetCashCNYbn": 4,
+          "strategyInvestmentValueCNYbn": 7.2,
+          "dividendHKD": 0,
+          "capitalReturnPct": 126.61595336271864,
+          "totalReturnPct": 126.61595336271864,
+          "annualizedTotalReturnPct": null,
+          "condition": "新品种销售及海外合同推进大幅超预期，市场接受平台溢价"
+        }
+      ],
+      "expectedPriceHKD": 7.8641886645962735,
+      "expectedCapitalReturnPct": 45.3639309537204,
+      "expectedTotalReturnPct": 45.3639309537204,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 7.087416149068324,
+          "expectedReturnPct": 31.00584379054203
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 8.743335547061635,
+          "expectedReturnPct": 61.61433543552006
+        }
+      ]
+    },
+    "halfYear": {
+      "targetDate": "2027-04-09",
+      "years": 0.5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 4.233326086956523,
+          "epsCNY": 0.23,
+          "pe": 16,
+          "productRevenueCNYbn": 38,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.4,
+          "coreNetProfitCNYbn": 4.232,
+          "coreNetMargin": 0.11136842105263159,
+          "excessNetCashCNYbn": -0.5,
+          "strategyInvestmentValueCNYbn": 3.6,
+          "dividendHKD": 0,
+          "capitalReturnPct": -21.749979908382212,
+          "totalReturnPct": -21.749979908382212,
+          "annualizedTotalReturnPct": null,
+          "condition": "年报主要靠授权、产品疲弱，60日观察线失守"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 8.320472527472528,
+          "epsCNY": 0.31,
+          "pe": 23,
+          "productRevenueCNYbn": 42,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.2,
+          "coreNetProfitCNYbn": 5.6419999999999995,
+          "coreNetMargin": 0.13433333333333333,
+          "excessNetCashCNYbn": 2.5,
+          "strategyInvestmentValueCNYbn": 5.4,
+          "dividendHKD": 0,
+          "capitalReturnPct": 53.798013446811986,
+          "totalReturnPct": 53.798013446811986,
+          "annualizedTotalReturnPct": null,
+          "condition": "年报确认创新销售和持续利润，合作新品在国内推进"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 13.166274725274727,
+          "epsCNY": 0.39,
+          "pe": 29,
+          "productRevenueCNYbn": 47,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.2,
+          "coreNetProfitCNYbn": 7.098,
+          "coreNetMargin": 0.15102127659574469,
+          "excessNetCashCNYbn": 4.8,
+          "strategyInvestmentValueCNYbn": 7.2,
+          "dividendHKD": 0,
+          "capitalReturnPct": 143.3692185817879,
+          "totalReturnPct": 143.3692185817879,
+          "annualizedTotalReturnPct": null,
+          "condition": "创新/引进品销售及临床明显优于预期，量价重新突破"
+        }
+      ],
+      "expectedPriceHKD": 8.510136466794076,
+      "expectedCapitalReturnPct": 57.30381639175741,
+      "expectedTotalReturnPct": 57.30381639175741,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 7.654774390826566,
+          "expectedReturnPct": 41.49305713172951
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 9.441364118490206,
+          "expectedReturnPct": 74.5168968297635
+        }
+      ]
+    },
+    "oneYear": {
+      "targetDate": "2027-10-09",
+      "years": 1,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 4.25510752688172,
+          "epsCNY": 0.25,
+          "pe": 15,
+          "productRevenueCNYbn": 40,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.6,
+          "coreNetProfitCNYbn": 4.65,
+          "coreNetMargin": 0.11625,
+          "excessNetCashCNYbn": -1,
+          "strategyInvestmentValueCNYbn": 3.2,
+          "dividendHKD": 0.07,
+          "capitalReturnPct": -21.347365492019964,
+          "totalReturnPct": -20.053465307177078,
+          "annualizedTotalReturnPct": null,
+          "condition": "收购回报及新品种商业化弱，仿制药价格下行"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 10.428956521739131,
+          "epsCNY": 0.39,
+          "pe": 23,
+          "productRevenueCNYbn": 49,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 18.4,
+          "coreNetProfitCNYbn": 7.175999999999999,
+          "coreNetMargin": 0.14644897959183673,
+          "excessNetCashCNYbn": 3.8,
+          "strategyInvestmentValueCNYbn": 5.6,
+          "dividendHKD": 0.14,
+          "capitalReturnPct": 92.77183958852369,
+          "totalReturnPct": 95.35963995820947,
+          "annualizedTotalReturnPct": null,
+          "condition": "创新产品与呼吸/肝病引进业务扩大，正常费用率维持"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 18.044782608695655,
+          "epsCNY": 0.52,
+          "pe": 30,
+          "productRevenueCNYbn": 57,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0.4,
+          "dilutedSharesBn": 18.4,
+          "coreNetProfitCNYbn": 9.568,
+          "coreNetMargin": 0.16668989547038326,
+          "excessNetCashCNYbn": 7,
+          "strategyInvestmentValueCNYbn": 7.8,
+          "dividendHKD": 0.2,
+          "capitalReturnPct": 233.5449650405851,
+          "totalReturnPct": 237.24182271156477,
+          "annualizedTotalReturnPct": null,
+          "condition": "多项新产品上市并有海外持续收益，国际化提升资本回报"
+        }
+      ],
+      "expectedPriceHKD": 10.789450794763908,
+      "expectedCapitalReturnPct": 99.43531968140312,
+      "expectedTotalReturnPct": 101.97690933020161,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 9.482582141187471,
+          "expectedReturnPct": 75.2787826467185
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 12.24051715755026,
+          "expectedReturnPct": 126.25724875323954
+        }
+      ]
+    },
+    "threeYear": {
+      "targetDate": "2029-10-09",
+      "years": 3,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 4.079263157894737,
+          "epsCNY": 0.28,
+          "pe": 13,
+          "productRevenueCNYbn": 43,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0,
+          "dilutedSharesBn": 19,
+          "coreNetProfitCNYbn": 5.32,
+          "coreNetMargin": 0.12372093023255815,
+          "excessNetCashCNYbn": -1.5,
+          "strategyInvestmentValueCNYbn": 2.8,
+          "dividendHKD": 0.23,
+          "capitalReturnPct": -24.59772351396049,
+          "totalReturnPct": -20.346337192333873,
+          "annualizedTotalReturnPct": -7.302380015826914,
+          "condition": "国内产品竞争激烈、研发变现差，海外延迟"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 13.586638297872343,
+          "epsCNY": 0.53,
+          "pe": 22,
+          "productRevenueCNYbn": 60,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0.7,
+          "dilutedSharesBn": 18.8,
+          "coreNetProfitCNYbn": 9.964,
+          "coreNetMargin": 0.1641515650741351,
+          "excessNetCashCNYbn": 7,
+          "strategyInvestmentValueCNYbn": 6,
+          "dividendHKD": 0.5,
+          "capitalReturnPct": 151.13934007157746,
+          "totalReturnPct": 160.38148424902667,
+          "annualizedTotalReturnPct": 37.57410603645417,
+          "condition": "肿瘤/呼吸/肝病多线形成持续经营，部分risk-adjusted royalty"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 25.762468085106384,
+          "epsCNY": 0.77,
+          "pe": 29,
+          "productRevenueCNYbn": 78,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 2,
+          "dilutedSharesBn": 18.8,
+          "coreNetProfitCNYbn": 14.476,
+          "coreNetMargin": 0.18095,
+          "excessNetCashCNYbn": 12,
+          "strategyInvestmentValueCNYbn": 8.5,
+          "dividendHKD": 0.75,
+          "capitalReturnPct": 376.200888818972,
+          "totalReturnPct": 390.06410508514574,
+          "annualizedTotalReturnPct": 69.85733186984679,
+          "condition": "ADC/呼吸/小核酸与国际权益共同兑现，新药利润扩大"
+        }
+      ],
+      "expectedPriceHKD": 14.25375195968645,
+      "expectedCapitalReturnPct": 163.4704613620416,
+      "expectedTotalReturnPct": 172.62018409771628,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 12.21885419932811,
+          "expectedReturnPct": 125.8568243868412
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 16.55549518477044,
+          "expectedReturnPct": 206.0165468534277
+        }
+      ]
+    },
+    "fiveYear": {
+      "targetDate": "2031-10-09",
+      "years": 5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 4.246448979591837,
+          "epsCNY": 0.32,
+          "pe": 12,
+          "productRevenueCNYbn": 49,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 0.1,
+          "dilutedSharesBn": 19.6,
+          "coreNetProfitCNYbn": 6.272,
+          "coreNetMargin": 0.12773930753564156,
+          "excessNetCashCNYbn": -2,
+          "strategyInvestmentValueCNYbn": 2.4,
+          "dividendHKD": 0.43,
+          "capitalReturnPct": -21.507412576860684,
+          "totalReturnPct": -13.559168584254412,
+          "annualizedTotalReturnPct": -2.8721473867546865,
+          "condition": "产品结构更新失败，融资/资本配置使归母收益受损"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 17.988969072164952,
+          "epsCNY": 0.77,
+          "pe": 20,
+          "productRevenueCNYbn": 82,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 2.5,
+          "dilutedSharesBn": 19.4,
+          "coreNetProfitCNYbn": 14.937999999999999,
+          "coreNetMargin": 0.17678106508875738,
+          "excessNetCashCNYbn": 12,
+          "strategyInvestmentValueCNYbn": 6.5,
+          "dividendHKD": 0.95,
+          "capitalReturnPct": 232.51329153724492,
+          "totalReturnPct": 250.07336547439834,
+          "annualizedTotalReturnPct": 28.478901272476875,
+          "condition": "多个治疗领域维持经营增长，风险折扣后的royalty逐步成为现金"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 36.83208247422681,
+          "epsCNY": 1.18,
+          "pe": 27,
+          "productRevenueCNYbn": 112,
+          "riskAdjustedRecurringRoyaltyRevenueCNYbn": 7,
+          "dilutedSharesBn": 19.4,
+          "coreNetProfitCNYbn": 22.891999999999996,
+          "coreNetMargin": 0.19236974789915964,
+          "excessNetCashCNYbn": 22,
+          "strategyInvestmentValueCNYbn": 9.5,
+          "dividendHKD": 1.5,
+          "capitalReturnPct": 580.8148331650057,
+          "totalReturnPct": 608.5412656973532,
+          "annualizedTotalReturnPct": 47.9357131851744,
+          "condition": "创新产品与国际合作重复实现，持续利润及分红显著增长"
+        }
+      ],
+      "expectedPriceHKD": 19.264117399537138,
+      "expectedCapitalReturnPct": 256.08350091565876,
+      "expectedTotalReturnPct": 273.7822070154739,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 16.26058371554808,
+          "expectedReturnPct": 200.5653182171549
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 22.777710414475074,
+          "expectedReturnPct": 321.02976736552813
+        }
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        4,
+        2.7,
+        4,
+        4,
+        4.4,
+        3.1
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 71.2,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4,
+          "weightPct": 25,
+          "reason": "5.41较近期公开外资7.2—10.8有空间；核心盈利去首付/投资，现金扣收购净债务，非直接采集团净现金"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 2.7,
+          "weightPct": 30,
+          "reason": "高60/120日、低20/250日，60日恒指超额7.38pp但日动量弱，周线反弹未全面反转"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 4,
+          "weightPct": 15,
+          "reason": "创新产品78.1亿增长29.2%、产品+5.6%；费用节省及基本利润仍含授权，未视为全持续"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4,
+          "weightPct": 10,
+          "reason": "肿瘤/呼吸/肝病需求，仿制药医保和商业化准入，多个机制仍需临床证明"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 4.4,
+          "weightPct": 10,
+          "reason": "TQC3721十月三期完成入组、引进bepirovirsen审批及新适应症、STADA海外平台"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3.1,
+          "weightPct": 10,
+          "reason": "合并少数权益与借款大、5%关联交易包含目标债务、现金/利润归属需穿透，承诺保持研发支出"
+        }
+      ]
+    },
+    "oneYear": {
+      "dimensions": [
+        4.1,
+        2.7,
+        4.1,
+        4.2,
+        4.4,
+        3
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 76.5,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.1,
+          "weightPct": 25,
+          "reason": "5.41较近期公开外资7.2—10.8有空间；核心盈利去首付/投资，现金扣收购净债务，非直接采集团净现金"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 2.7,
+          "weightPct": 15,
+          "reason": "高60/120日、低20/250日，60日恒指超额7.38pp但日动量弱，周线反弹未全面反转"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 4.1,
+          "weightPct": 25,
+          "reason": "创新产品78.1亿增长29.2%、产品+5.6%；费用节省及基本利润仍含授权，未视为全持续"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4.2,
+          "weightPct": 15,
+          "reason": "肿瘤/呼吸/肝病需求，仿制药医保和商业化准入，多个机制仍需临床证明"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 4.4,
+          "weightPct": 10,
+          "reason": "TQC3721十月三期完成入组、引进bepirovirsen审批及新适应症、STADA海外平台"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3,
+          "weightPct": 10,
+          "reason": "合并少数权益与借款大、5%关联交易包含目标债务、现金/利润归属需穿透，承诺保持研发支出"
+        }
+      ]
+    },
+    "threeYear": {
+      "dimensions": [
+        4.2,
+        2.7,
+        4.3,
+        4.4,
+        4.2,
+        2.9
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 81.4,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.2,
+          "weightPct": 25,
+          "reason": "5.41较近期公开外资7.2—10.8有空间；核心盈利去首付/投资，现金扣收购净债务，非直接采集团净现金"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 2.7,
+          "weightPct": 5,
+          "reason": "高60/120日、低20/250日，60日恒指超额7.38pp但日动量弱，周线反弹未全面反转"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 4.3,
+          "weightPct": 35,
+          "reason": "创新产品78.1亿增长29.2%、产品+5.6%；费用节省及基本利润仍含授权，未视为全持续"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4.4,
+          "weightPct": 20,
+          "reason": "肿瘤/呼吸/肝病需求，仿制药医保和商业化准入，多个机制仍需临床证明"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 4.2,
+          "weightPct": 5,
+          "reason": "TQC3721十月三期完成入组、引进bepirovirsen审批及新适应症、STADA海外平台"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 2.9,
+          "weightPct": 10,
+          "reason": "合并少数权益与借款大、5%关联交易包含目标债务、现金/利润归属需穿透，承诺保持研发支出"
+        }
+      ]
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        0,
+        4.2,
+        4.3,
+        3.9,
+        2.8
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 79.10000000000001,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4,
+          "weightPct": 20,
+          "reason": "5.41较近期公开外资7.2—10.8有空间；核心盈利去首付/投资，现金扣收购净债务，非直接采集团净现金"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 0,
+          "weightPct": 0,
+          "reason": "高60/120日、低20/250日，60日恒指超额7.38pp但日动量弱，周线反弹未全面反转"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 4.2,
+          "weightPct": 40,
+          "reason": "创新产品78.1亿增长29.2%、产品+5.6%；费用节省及基本利润仍含授权，未视为全持续"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4.3,
+          "weightPct": 20,
+          "reason": "肿瘤/呼吸/肝病需求，仿制药医保和商业化准入，多个机制仍需临床证明"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 3.9,
+          "weightPct": 5,
+          "reason": "TQC3721十月三期完成入组、引进bepirovirsen审批及新适应症、STADA海外平台"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 2.8,
+          "weightPct": 15,
+          "reason": "合并少数权益与借款大、5%关联交易包含目标债务、现金/利润归属需穿透，承诺保持研发支出"
+        }
+      ]
+    }
+  },
+  "financialVerified": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "publicationDate": "2026-09-24",
+    "initialAnnouncementDate": "2026-08-19",
+    "revenue": 19444.363,
+    "productSales": 18221.818,
+    "licenseRevenue": 975.356,
+    "otherRevenue": 247.189,
+    "innovativeProductRevenueApprox": 7810,
+    "innovativeIncludingLicenseApprox": 8789.4,
+    "grossProfit": 16147.725,
+    "groupProfit": 6143.47,
+    "attributableProfit": 3434.598,
+    "minorityProfit": 2708.872,
+    "basicAdjustedProfit": 3339.318,
+    "research": 3080.029,
+    "researchTotalInput": 3290.98,
+    "salesExpense": 5260.112,
+    "admin": 969.464,
+    "bankInterest": 320.479,
+    "financialCost": 169.501,
+    "dividendIncome": 70.778,
+    "sinovacDividendTaxNet": 0,
+    "investmentIncome": 108.872,
+    "shareCompGroup": 84.931,
+    "shareCompProfitAdjustmentNet": 68.074,
+    "OCF": 4318.965,
+    "PPECash": 299.059,
+    "acquisitionNetCashOutflow": 997.538,
+    "minorityDividendCash": 2085.527,
+    "cashBankCurrent": 14882.137,
+    "nonCurrentBank": 7158,
+    "wealthManagement": 12543.5,
+    "companyFundsReserve": 34583.64,
+    "companyNetCashInclWealth": 17412.19,
+    "bankDebt": 17099.212,
+    "leases": 72.229,
+    "pledgedAssets": 717.2,
+    "tradeReceivable": 10676.35,
+    "goodwill": 4352.631,
+    "ownerEquity": 32568.081,
+    "minorityEquity": 13676.634,
+    "sinovacInvestmentFV": 7249,
+    "basicSharesM": 17983.011615,
+    "dilutedSharesM": 18049.662039,
+    "priorFinalDividendHKD": 0.05,
+    "interimDividendHKD": 0.07,
+    "interimDividendRecordDate": "2026-09-04",
+    "interimDividendPaymentDate": "2026-09-24",
+    "interimDividendForNewBaselineBuyer": false,
+    "acquireAdditionalCTTInterestPct": 5,
+    "CTTInterestBeforePct": 60,
+    "CTTInterestAfterPct": 65,
+    "acquireCashCNYm": 4480,
+    "acquiredTargetDebtCNYm": 2415,
+    "acquiredTargetCashCNYm": 34,
+    "acquiredTargetValuationEquityCNYm": 5003,
+    "acquiredStakeValuationCNYm": 7386,
+    "acquireEstimatedAdjustedIncrementProfitCNYm": 350,
+    "acquireLTMAdjustedCTTProfitCNYm": 7092,
+    "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+  },
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 19444.363,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "productSales",
+      "value": 18221.818,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "licenseRevenue",
+      "value": 975.356,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "otherRevenue",
+      "value": 247.189,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "grossProfit",
+      "value": 16147.725,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "groupProfit",
+      "value": 6143.47,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "attributableProfit",
+      "value": 3434.598,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "minorityProfit",
+      "value": 2708.872,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "basicAdjustedProfit",
+      "value": 3339.318,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "research",
+      "value": 3080.029,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "salesExpense",
+      "value": 5260.112,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "admin",
+      "value": 969.464,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "bankInterest",
+      "value": 320.479,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "financialCost",
+      "value": 169.501,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "OCF",
+      "value": 4318.965,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "cashBankCurrent",
+      "value": 14882.137,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "nonCurrentBank",
+      "value": 7158,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "wealthManagement",
+      "value": 12543.5,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "bankDebt",
+      "value": 17099.212,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "leases",
+      "value": 72.229,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "tradeReceivable",
+      "value": 10676.35,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "ownerEquity",
+      "value": 32568.081,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    },
+    {
+      "metric": "minorityEquity",
+      "value": 13676.634,
+      "period": "2026H1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-24",
+      "firstPublicDate": "2026-08-19",
+      "sourceURL": "https://iis.aastocks.com/20260924/12344918-0.PDF"
+    }
+  ],
+  "brokerTargets": [
+    {
+      "institution": "HSBC",
+      "targetPrice": 8,
+      "publicationDate": "2026-09-29",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1547010/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Citi",
+      "targetPrice": 10.8,
+      "publicationDate": "2026-09-29",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1546966/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "BofA Securities",
+      "targetPrice": 7.3,
+      "publicationDate": "2026-09-21",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1545493/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Goldman Sachs",
+      "targetPrice": 9.07,
+      "publicationDate": "2026-09-14",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1544270/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Nomura",
+      "targetPrice": 8.67,
+      "publicationDate": "2026-09-14",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1544269/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Daiwa",
+      "targetPrice": 7.2,
+      "publicationDate": "2026-08-20",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1539506/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S036",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    }
+  ],
+  "priceEvidence": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01530,hk00013,hk01093,hk02157,hk02228,hk02607,hk03692,hk02186,hk01177,hk02359,hk00512,hk02096,hk02269,hk01548,hk01513,hk06160,hk02511,hk09939,hk09688,hk01952,hk09969,hk06185,hk02196,hk03347,hk06127",
+      "retrievedAt": "2026-10-10T09:16:12.054Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk06855,rt_hk03759,rt_hk01530,rt_hk00013,rt_hk01093,rt_hk02157,rt_hk02228,rt_hk02607,rt_hk03692,rt_hk02186,rt_hk01177,rt_hk02359,rt_hk00512,rt_hk02096,rt_hk02269,rt_hk01548,rt_hk01513,rt_hk06160,rt_hk02511,rt_hk09939,rt_hk09688,rt_hk01952,rt_hk09969,rt_hk06185,rt_hk02196",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/1177.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:16.021Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk01177,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:16.146Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "assumptions": {
+    "fx": "1CNY=1.10HKD独立换算非实测汇率",
+    "profit": "剔除一次首付/里程碑和非经营投资/利息/股息，保留常态税及研发、股份薪酬；未来risk-adjusted recurring royalty纳入核心净利，不再加同资产rNPV；2027EPS假设已含交割后5%归属提升的正常盈利，不用披露.35bn机械每年累加；罗伐昔替尼全球授权后直接产品利润与特许不得双算，长期预测仅包括风险折扣后的合同经济权益",
+    "cash": "合并现金/定存和理财95%回收扣银行债/租赁，再扣旧现金息与3.5bn经营储备、70%归母归属假设；减44.8亿购买现金并承接目标24.15亿净债+0.34亿现金。交割状态及债务最终承担需后续核验",
+    "investment": "科兴15.03%股权FV7.249bn是非流动资产，不能当现金；情景只计战略资产折扣值且经营盈利剔除其股息，避免双算；其他联营/投资未逐项完整估值",
+    "licensing": "已收首付不再作rNPV；2026下半年2.2亿美元收入为机构预期非已确认，目标现金仅研究合计假设，不能当财报事实",
+    "dividend": "0.07中期9月24已付、基准新买入无权领取；未来股息独立假设并从现金桥扣",
+    "weights": "25/50/25研究判断非统计概率",
+    "refresh": "单模型运行刷新全部情景，假设变化需重新计算"
+  },
+  "confidence": "medium",
+  "limitations": [
+    "长线分药分适应症rNPV未完成，产品/royalty收入和利润率为情景输入",
+    "正常经营EPS未按全部子公司产品逐一穿透，集团少数权益与现金归属是假设",
+    "5%关联交易目标公司长期债务具体清偿条件及交割后实际资产负债待核验",
+    "理财回收和科兴价值折扣为研究判断非市场成交，投资流动性限制",
+    "机构全为公开转述无原研报/明确目标日，重複保留同机构最新",
+    "现金桥未来经营投资融资仅合计假设未逐年细拆",
+    "细分行业基准缺失；跨源近期复权超过1%",
+    "未来目标休市日前交易日仍待日历核验"
+  ],
+  "sources": [
+    {
+      "url": "https://iis.aastocks.com/20261008/12367210-0.PDF",
+      "date": "2026-10-08",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260928/12348346-0.PDF",
+      "date": "2026-09-28",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260924/12344918-0.PDF",
+      "date": "2026-09-24",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260911/12328899-0.PDF",
+      "date": "2026-09-11",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260907/12323522-0.PDF",
+      "date": "2026-09-07",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260819/12289832-0.PDF",
+      "date": "2026-08-19",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260708/12237532-0.PDF",
+      "date": "2026-07-08",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260708/12237204-0.PDF",
+      "date": "2026-07-08",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260529/12175812-0.PDF",
+      "date": "2026-05-29",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260429/12132658-0.PDF",
+      "date": "2026-04-29",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260330/12077388-0.PDF",
+      "date": "2026-03-30",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260304/12039207-0.PDF",
+      "date": "2026-03-04",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260302/12033129-0.PDF",
+      "date": "2026-03-02",
+      "type": "issuer_disclosure_primary_mirrored"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1547010/research-report",
+      "date": "2026-09-29",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1546966/research-report",
+      "date": "2026-09-29",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1545493/research-report",
+      "date": "2026-09-21",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1544270/research-report",
+      "date": "2026-09-14",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1544269/research-report",
+      "date": "2026-09-14",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01177/AAFN/NOW.1539506/research-report",
+      "date": "2026-08-20",
+      "type": "financial_news_secondary"
+    }
+  ]
+}

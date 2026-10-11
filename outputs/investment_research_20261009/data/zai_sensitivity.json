@@ -1,0 +1,142 @@
+{
+  "modelVersion": "zai-v2-actualTradingTarget-netTaxRewards",
+  "basePriceHKD": 12.622400301197532,
+  "rows": [
+    {
+      "test": "discount-2pp",
+      "oneYearPriceHKD": 14.816299811459144,
+      "baseDifferencePct": 17.381000902446964,
+      "minCashUSDbn": 0.17679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "discount+2pp",
+      "oneYearPriceHKD": 10.808012312189314,
+      "baseDifferencePct": -14.374349931178143,
+      "minCashUSDbn": 0.17679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "zocipeak-30%",
+      "oneYearPriceHKD": 9.698407758143258,
+      "baseDifferencePct": -23.165107057940983,
+      "minCashUSDbn": 0.17034122514220482,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "zoci-p-15pp",
+      "oneYearPriceHKD": 9.790280725969417,
+      "baseDifferencePct": -22.4372505042438,
+      "minCashUSDbn": 0.17113418514220483,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "pove-IgAN-p-15pp",
+      "oneYearPriceHKD": 12.084339540724573,
+      "baseDifferencePct": -4.26274518026426,
+      "minCashUSDbn": 0.17391818514220483,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "vyvgartcore-20%",
+      "oneYearPriceHKD": 11.887172203813224,
+      "baseDifferencePct": -5.82478831157458,
+      "minCashUSDbn": 0.14124818289220495,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "karxtcore-30%",
+      "oneYearPriceHKD": 11.420386088052457,
+      "baseDifferencePct": -9.522865575979523,
+      "minCashUSDbn": 0.15807692131720494,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "allRD+20%",
+      "oneYearPriceHKD": 0,
+      "baseDifferencePct": -100,
+      "minCashUSDbn": 0.0021158999894137637,
+      "fundingFailure": true,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "allstart+2y",
+      "oneYearPriceHKD": 0,
+      "baseDifferencePct": -100,
+      "minCashUSDbn": -0.18620149444104145,
+      "fundingFailure": true,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "allissuePx-30%",
+      "oneYearPriceHKD": 11.88124469306935,
+      "baseDifferencePct": -5.871748561625523,
+      "minCashUSDbn": 0.17679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.29928571428571427
+    },
+    {
+      "test": "noNewCapital",
+      "oneYearPriceHKD": 0,
+      "baseDifferencePct": -100,
+      "minCashUSDbn": -0.35117361485779497,
+      "fundingFailure": true,
+      "issueSharesBn": 0
+    },
+    {
+      "test": "bankWithin1Year",
+      "oneYearPriceHKD": 12.621516602600842,
+      "baseDifferencePct": -0.007001034475240253,
+      "minCashUSDbn": 0.17651347714220497,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "noRestrictedRelease",
+      "oneYearPriceHKD": 12.406349292671393,
+      "baseDifferencePct": -1.7116475739217374,
+      "minCashUSDbn": 0.07679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "restrictedRelease2YearLater",
+      "oneYearPriceHKD": 12.6035373391589,
+      "baseDifferencePct": -0.14944037257986764,
+      "minCashUSDbn": 0.07679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "distribution40%",
+      "oneYearPriceHKD": 11.887557059829582,
+      "baseDifferencePct": -5.821739319250019,
+      "minCashUSDbn": 0.17679818514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "capex+20%",
+      "oneYearPriceHKD": 11.816646448056066,
+      "baseDifferencePct": -6.383523212023478,
+      "minCashUSDbn": 0.13159593514220488,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    },
+    {
+      "test": "MediLinkRoyalty+5pp",
+      "oneYearPriceHKD": 11.782907530823767,
+      "baseDifferencePct": -6.65081720070404,
+      "minCashUSDbn": 0.17497418514220484,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2095
+    }
+  ]
+}

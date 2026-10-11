@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>嘉实基金</title>
+	<link rel="stylesheet" href="/ws/css/style.css">
+	<script src="/ws/js/jquery-3.5.1.min.js"></script>
+	<script src="/ws/js/jquery-migrate-3.3.0.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var w_height = $(window).innerHeight();
+			$(".page_404").css({"height" : w_height});
+
+			var count=10;
+			setInterval(function(){
+				count--;
+				$("#num_no").html(count+"s");
+				if(count==0){
+					location.href='/main/home/index.shtml';
+				}
+			},1000)
+
+		})
+	</script>
+</head>
+<body>
+<div class="page_404 bg01">
+	<div class="header_404"><a class="logo" href="/main/home/index.shtml"></a></div>
+	<div class="content_404">
+		<div class="module_404">
+			<h2><img src="/ws/images/img_404_01.png" /></h2>
+			<p><span class="ared"  id="num_no">10s</span>后将自动跳转至嘉实基金官网</p>
+		</div>
+		<div class="module_404 mt70">
+			<p class="agray">您还可以选择：</p>
+			<div class="search_404">
+				<input class="t1" type="text" placeholder="请输入基金名称/代码"    id="text_value"/><a class="btn" href="javascript:void(0)"></a>
+				<div class="query_ly01" style="display: none;">
+					<ul>
+						<li><span class="query_span">嘉实</span>增长混合</li>
+						<li><span class="query_span">嘉实</span>新兴产业股票</li>
+						<li><span class="query_span">嘉实</span>泰和混合</li>
+						<li><span class="query_span">嘉实</span>优质企业混合</li>
+						<li><span class="query_span">嘉实</span>丰益纯债定期债券</li>
+					</ul>
+				</div>
+			</div>
+			<p class="label"><a href="/main/home/index.shtml">前往官网首页<i></i></a><a href="/main/fund/index.shtml">前往旗下基金<i></i></a></p>
+		</div>
+
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	//搜索点击事件
+	$(".search_404 .btn").click(function(e){
+		var  select_name= $("#text_value").val();
+		window.location.href='/main/home/search/index.shtml?search='+select_name;
+	});
+
+</script>
+</html>

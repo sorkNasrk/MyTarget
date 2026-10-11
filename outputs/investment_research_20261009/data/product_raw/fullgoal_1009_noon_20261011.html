@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+            <html lang="en"  xmlns="https://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        /* 浏览器 */
+
+        .brdv {
+            width: 560px;
+            height: 120px;
+            padding-top: 105px;
+            background: url(/web/images/ie/img_browser.jpg) no-repeat -0px 0px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .browser_mask_backgroud {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            filter: alpha(opacity=50);
+            background-color: #000;
+            opacity: 0.5;
+            z-index: 10000;
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1000000;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask .mask_body {
+            z-index: 100000;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 660px;
+            height: 445px;
+            background: #fff;
+            margin-left: -328px;
+            margin-top: -223px;
+            border-radius: 3px;
+        }
+
+        .browser_mask .mask_body ul li {
+            list-style-type: none;
+            float: left;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .mt50 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .bxtt {
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            padding-left: 35px;
+            background: url(/web/images/ie/icon24.png) no-repeat 5px -503px;
+        }
+
+        .browser_mask .mask_body .fl {
+            width: 96px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .chrome {
+            margin-left: -5px;
+        }
+
+        .browser_mask .mask_body .fireBrowser {
+            margin-left: 64px;
+        }
+
+        .browser_mask .mask_body .SafariBrowser {
+            margin-left: 52px;
+        }
+
+        .browser_mask .mask_body .IEBrowser {
+            margin-left: 49px;
+        }
+
+        .browser_mask .mask_body .close_btn {
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #e16c04;
+            color: #fff;
+            width: 140px;
+            line-height: 40px;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .close_window {
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .close_btn .btn:hover {
+            background-color: #ef9902;
+        }
+
+        .browser_mask .mask_body .dwbt {
+            display: inline-block;
+            text-decoration: none;
+            width: 70px;
+            height: 18px;
+            line-height: 18px;
+            padding: 7px 0px 7px 30px;
+            background: #a09f9d url(/web/images/ie/icon24.png) no-repeat 5px -740px;
+            color: #fff;
+        }
+
+        .browser_mask .mask_body .mt15 {
+            margin-top: 15px;
+        }
+
+        .browser_mask .mask_body .act {
+            background-color: #1fa9df;
+        }
+
+        .browser_mask .mask_body .dwbt:hover {
+            background-color: #1fa9df;
+            text-decoration: none;
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .f14 {
+            font-size: 14px;
+        }
+
+        .browser_mask .mask_body .pr12 {
+            padding-right: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="browser_mask" id="browser_mask">
+        <div class="mask_body">
+            <p class="mt50"><strong class="bxtt">您当前浏览器版本较低，推荐下载以下浏览器以正常使用本网站服务。</strong></p>
+            <ul class="brdv">
+                <li class="chrome">
+                    <p class="f14">谷歌浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl act" target="_blank" href="https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><em
+                              class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="fireBrowser">
+                    <p class="f14">火狐浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.firefox.com.cn/download/"><em class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="SafariBrowser">
+                    <p class="f14">Safari浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.apple.com/cn/safari/"><em class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="IEBrowser">
+                    <p class="f14">IE11浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/"><em
+                              class="pr12 f14">官网下载</em></a></p>
+                </li>
+            </ul>
+            <p class="close_btn">
+                <a class="btn close_window" onclick="closeClick()">关闭窗口 </a>
+            </p>
+        </div>
+    </div>
+    <div class="browser_mask_backgroud" id="browser_mask_backgroud"></div>
+</body>
+<script type="text/javascript">
+    //  判断IE9及以下浏览器
+    ;(function() {
+        if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE", "")) < 9) {
+            document.getElementById("browser_mask").style.display = "block";
+            document.getElementById("browser_mask_backgroud").style.display = "block";
+        }
+}());
+
+
+    function closeClick() {
+        document.getElementById("browser_mask").style.display = "none";
+        document.getElementById("browser_mask_backgroud").style.display = "none";
+    };
+</script>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Keywords" content="汇添富基金管理股份有限公司关于汇添富纳斯达克生物科技交易型开放式指数证券投资基金（QDII）溢价风险的提示性公告,临时公告,关于我们,汇添富基金公司" />
+<meta name="Description" content="" />
+<title>汇添富基金管理股份有限公司关于汇添富纳斯达克生物科技交易型开放式指数证券投资基金（QDII）溢价风险的提示性公告-临时公告-关于我们-汇添富基金管理股份有限公司
+</title>
+<script type="text/javascript" src="/web/script/jquery-3.6.0.min.js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="/web/script/jquery-compat-3.0.0-alpha1.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/web/script/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/web/script/newsindex.js"></script>
+<script type="text/javascript" src="/web/script/util/articleUtil.js"></script>
+<script type="text/javascript" src="/web/script/util/syncReqJs.js"></script>
+</head>
+
+<body>
+
+
+<link rel="stylesheet" type="text/css" href="/web/css/aboutus.css" />
+<script type="text/javascript">
+    function doPrint() {
+        bdhtml=window.document.body.innerHTML;
+        sprnstr="<!--startprint-->";
+        eprnstr="<!--endprint-->";
+        prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17);
+        prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));
+        window.document.body.innerHTML=prnhtml;
+        window.print();
+    }
+
+    $(document).ready(function(){
+        $.updateHits('12867874');
+        jQuery("li[name='xxpl']").find("a").addClass("selected");
+
+        var jsonVal2={articleId:12867874,rows:4,type:1};
+        $("#othernews").loadData("/cgi-bin/news/News?function=GetRelatedArticle",jsonVal2);
+    });
+</script>
+<script type="text/javascript" src="/web/script/stat_new.js?v1.0.1"></script>
+<link rel="stylesheet" type="text/css" href="/web/css/header_omp.css" />
+<!-- ---------------------------头部header----------------------------- -->
+<div class="top">
+    <div class="h-link">
+    </div>
+</div>
+<!-- h-link end -->
+<div id="headerW" class="omp">
+    <div class="clear"></div>
+            <div class="logoS">
+
+            <img src="/upload/20160104/201601041451875032384.jpg"  width="300" alt="" usemap="#logoimgmap" />
+            <map name="logoimgmap"  id="logoimgmap" >
+                <area href="/" shape="rect" coords="0,0,150,60" />
+                <area  target="_blank"  href="http://www.99fund.com/" shape="rect" coords="151,0,300,60" />
+            </map>
+        </div>
+
+    <script type="text/javascript">
+        function gotoURL(l) {
+            window.location = l;
+        }
+        jQuery.ajax({
+            type: "POST",
+            url: "/cgi-bin/sso/User?function=AjaxLoginDiv",
+            data: "",
+            cache: false,
+            success: function(msg){
+                if(msg!=''){
+                    jQuery(".h-link").append(msg);
+                    $(".managePrBox").hover(function(){
+                            $(".managePrBox ul").css("display","block")}
+                        ,function(){
+                            $(".managePrBox ul").css("display","none");}
+                    );
+                }
+            }
+        });
+       function clickEvents (k) {}
+    </script>
+<!--nav-->
+<div class="navS">
+<ul>
+      <li>
+  	  <a href="/main/index.shtml" class="cur"><span>首页</span></a>
+      </li>
+      <li>
+	<div id="Layer1" style="background-color: rgb(255, 255, 255); position: absolute; visibility: hidden; left: 176px; top: 37px; font-size: 12px; color: rgb(119, 119, 119);"></div>
+      		<a id="navSa" href="/main/xcash/index.shtml"  style="text-decoration:none;"><span>现金宝
+			<em onmouseover="document.all.Layer1.style.visibility='visible'" onmouseout="document.all.Layer1.style.visibility='hidden'"><!--
+[+0.848%] 
+--></em></span></a>
+      </li>
+      <li>
+      		<a href="/main/products/jijinhb/index.shtml" ><span>基金产品</span></a>
+      </li>
+      <li>
+      		<a href="/main/xfinainvts/index.shtml" ><span>资管产品</span></a>
+      </li>
+       <li>
+            <a href="https://trade.99fund.com/ias/landing" ><span>投顾服务</span></a>
+       </li>
+      <li>
+      		<a href="/main/xinvest/index.shtml" ><span>养老基金</span></a>
+      </li>
+      <li>
+      		<a href="https://qy.99fund.com/index.htm" ><span>企业理财</span></a>
+      </li>
+</ul>
+<!--nav end-->
+</div>
+<div class="clear"></div>
+<div class="nav-bg-color"></div>
+</div>
+<!--END header-->
+
+	<div class="subnav">
+		<ul>
+				<li ><a href="/main/gywm/gsjs/index.shtml">公司介绍</a></li>
+				<li ><a href="/main/gywm/gsgk/index.shtml">公司概况</a></li>
+				<li ><a href="/main/gywm/ywbj/index.shtml">业务布局</a></li>
+				<li ><a href="/main/gywm/jzys/index.shtml">竞争优势</a></li>
+		        <li ><a href="/main/gywm/shzr/index.shtml">社会责任</a></li>
+				<li ><a href="/main/gywm/gsdsj/index.shtml">公司大事记</a></li>
+				<li ><a href="/main/gywm/gsxw/index.shtml">公司新闻</a></li>
+				<li class="on"><a href="/main/gywm/xxpl/index.shtml">信息披露</a></li>
+				<li ><a href="/main/gywm/lxwm/index.shtml">联系我们</a></li>
+		
+
+     		</ul>
+	</div>
+
+<!-------content---------->
+
+<div id="wrapAbout">
+    <div id="titleBg">
+        <div id="wrapperCont" class="title08">
+            <p class="pos"><img src="/web/images/common/pos.png" width="11" height="11" align="texttop" /><a href="/index.shtml" title="首页">首页</a>&gt;<a href="/main/gywm/gsjs/index.shtml" title="关于我们">关于我们</a>&gt;<a href="/main/gywm/xxpl/index.shtml" title="信息披露">信息披露</a>&gt;<a href="/main/gywm/xxpl/lsgg/index.shtml" title="临时公告">临时公告</a>&gt; 正文</p>
+            <!--startprint-->
+            <div id="newsdetail">
+
+
+
+                    <h3>汇添富基金管理股份有限公司关于汇添富纳斯达克生物科技交易型开放式指数证券投资基金（QDII）溢价风险的提示性公告</h3>
+                    <div id="infobar"><span></span> &nbsp; <span>2026-10-09 </span> </div>
+
+                    <div id="detail">
+                        附件： 
+                    </div>
+                    <div id="downpdf">
+                        <p>pdf <a href="/announcement/zx/upload/2026/20261009/95cd1f2b8ea54ed380872418c9116646.pdf">点击下载</a></p>
+                        <span>注：如果无法直接查看，请点击"右键"-"目标另存为"之后查看。</span>
+                    </div>
+
+
+                <!--广告开始-->
+
+                <!--广告结束-->
+
+        </div>
+        <!--endprint-->
+        <div class="clear"></div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="clear"></div>
+</div>
+<div class="site_map">
+	<div class="wrap clearfix">
+		<p>希望以下内容能够帮到您：</p>
+		<dl> 
+			<dt>账户管理</dt>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628794.html" target="_blank">开户</a><a href="https://www.99fund.com/service/help_detail/10628804.html" target="_blank">登录</a><a href="https://www.99fund.com/service/help_detail/10628808.html" target="_blank">手机</a><a href="https://www.99fund.com/service/help_detail/10628809.html" target="_blank">邮箱</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10177322.html" target="_blank">账户查询</a><a href="https://www.99fund.com/service/help_detail/10628816.html" target="_blank">对账单</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628818.html" target="_blank">登录密码</a><a href="https://www.99fund.com/service/help_detail/10628819.html" target="_blank">交易密码</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628828.html" target="_blank">基金客户</a><a href="https://www.99fund.com/service/help_detail/10628839.html" target="_blank">信用卡客户</a></dd>
+			<dd><a href="https://trade.99fund.com/vip/account" target="_blank">资管产品</a></dd>
+		</dl>
+		<dl> 
+			<dt>支付方式</dt>
+			<dd><a href="https://www.99fund.com/service/help_detail/10534749.html " target="_blank">银行卡支付</a></dd>
+			<dd><a href="https://www.99fund.com/main/cash/account/szmjj/index.shtml" target="_blank">现金宝支付</a></dd>
+			<dd><a href="https://trade.99fund.com/third-party-register" target="_blank">第三方支付</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/11374039.html" target="_blank">支付限额</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10534749.html" target="_blank">支付费率</a></dd>
+			<dd><a href="https://www.99fund.com/main/service/xssl/flow/bdyhk/index.shtml" target="_blank">关联流程</a></dd>
+		</dl>
+		<dl>
+			<dt>网上交易</dt>
+			<dd><a href="https://trade.99fund.com/trade/purchase" target="_blank">认购 /申购</a><a href="https://trade.99fund.com/trade/redeem" target="_blank">赎回</a></dd>
+			<dd><a href="https://trade.99fund.com/trade/aip" target="_blank">定投</a><a href="https://trade.99fund.com/trade/convert" target="_blank">转换</a></dd>
+			<dd><a href="https://trade.99fund.com/trade/share-bouns" target="_blank">分红</a><a href="https://trade.99fund.com/trade/cancel" target="_blank">撤单</a></dd>
+			<dd><a href="https://trade.99fund.com/transaction/fund" target="_blank">交易申请查询</a></dd>
+			<dd><a href="https://trade.99fund.com/transaction/smac" target="_blank">现金宝交易</a></dd>
+	        </dl>
+		<dl>
+			<dt>基金产品/理财产品</dt>
+		        <dd><a href="/main/products/pofund/519518/fundgk.shtml" target="_blank">货币基金</a><a href="/main/products/pofund/470030/fundgk.shtml" target="_blank">理财产品</a></dd>
+		        <dd><a href="/main/products/pofund/001685/fundgk.shtml" target="_blank">股票型</a><a href="/main/products/pofund/519008/fundgk.shtml" target="_blank">混合型</a></dd>
+		        <dd><a href="/main/products/pofund/470007/fundgk.shtml" target="_blank">指数型</a><a href="/main/products/pofund/519078/fundgk.shtml" target="_blank">债券型</a></dd>
+		        <dd><a href="/main/products/pofund/470888/fundgk.shtml" target="_blank">QDII基金</a><a href="/main/products/pofund/164701/fundgk.shtml" target="_blank">LOF基金</a></dd>
+		        <dd><a href="/main/products/pofund/159912/fundgk.shtml" target="_blank">ETF基金</a></dd>
+		</dl>
+		<dl>
+			<dt>客服中心</dt>
+			<dd><a href="/main/service/index.shtml" target="_blank">客服中心</a><a href="/cgi-bin/service/help?utm_source=n100821016" target="_blank">帮助中心</a></dd>
+			<dd><a href="/main/service/xssl/index.shtml" target="_blank">新手上路</a><a href="/main/service/selfService/index.shtml" target="_blank">自助大厅</a></dd>
+			 <dd><a href="/main/service/serviceIntroduce/index.shtml" target="_blank">服务介绍</a></dd>
+			<dd><a href="/service/help_list/3395.html" target="_blank">业务表格下载</a>&nbsp;</dd>
+			<dd><a href="/main/service/education/jjtzrqyxz/index.shtml" target="_blank">投资者教育</a>
+</dd>
+<dd><a href="/cgi-bin/etfproduct/EtfInfoAction?function=etfLogin" target="_blank">ETF补券查询</a>&nbsp</dd>
+		</dl>
+		<dl class="last"> 
+			<dt>汇添富公司</dt>
+			<dd><a href="/main/gywm/gsjs/index.shtml" target="_blank">关于我们</a><a href="/main/gywm/qywh/index.shtml" target="_blank">企业文化</a></dd>
+			<dd><a href="/main/gywm/jzys/index.shtml" target="_blank">竞争优势</a><a href="/main/gywm/gsxw/index.shtml" target="_blank">公司新闻</a></dd>
+			<dd><a href="/main/gywm/xxpl/index.shtml" target="_blank">信息披露</a><a href="/main/gywm/gsdsj/index.shtml" target="_blank">公司大事记</a></dd>
+			<dd><a href="/main/gywm/cyjm/shzp/index.shtml" target="_blank">诚邀加盟</a><a href="/main/gywm/shzr/index.shtml" target="_blank">社会责任</a></dd>
+			<dd><a href="/main/gywm/lxwm/index.shtml" target="_blank">联系我们</a><a href="http://www.chinauniversalasset.com" target="_blank">English版</a></dd>
+			<dd><a href="https://www.99fund.com/xjb/phone.html?utm_source=n111201003" target="_blank">手机版</a></dd>
+		</dl>
+	</div>
+</div>
+<div class="wrap new_footer" style="width:999px " >
+	<p class="p_a">
+		<a href="https://edu.99fund.com/" target="_blank">投资者教育基地</a>|
+		<a href="/main/service/education/jjtzrqyxz/index.shtml" target="_blank">投资人权益须知</a>|<a href="/main/service/education/fxq/fxqzcfg/index.shtml" target="_blank">反洗钱</a>|
+		<a href="/main/service/education/rule/zlsyhl/index.shtml" target="_blank">治理商业贿赂</a>|<a href="https://cloud.99fund.com/ncms/content/upload/file/20260930103241483.pdf" target="_blank">信息公示</a>|<a href="/main/service/education/fxts/index.shtml" target="_blank">风险提示</a>|
+		<a href="/main/service/education/privacy/index.shtml" target="_blank">个人信息保护</a>|
+		<a href="/main/gywm/lxwm/index.shtml" target="_blank">联系我们</a>|<a href="https://www.chinauniversalasset.com" target="_blank">ABOUT CUAM</a>
+	</p>
+	<p><span>客服电话：400-888-9918(免长途话费)</span><span>客服邮箱：<a href="">service@99fund.com</a></span><span>客服热线人工服务时间：交易日8:30-17:30 、在线客服人工服务时间：交易日8:30-21:00（节假日除外）</span></p>
+	<p><span>公司地址：上海市黄浦区外马路728号</span><span>邮编：200010</span><span>联系电话：(86)021-28932888</span><span>传真：(86) 021-28932998</span></p>
+	<p>
+		<span>汇添富旗下网站：<a href="https://www.chinauniversalasset.com/" target="_blank">China Universal Asset Management</a></span><span><a href="https://cuamfoundation.99fund.com/" target="_blank">上海汇添富公益基金会</a></span>
+	</p>
+	<p class="pimg">
+	Copyright 2005-<script>document.write(new Date().getFullYear())</script> 汇添富基金管理股份有限公司
+
+        <img src="/web/images/hga.png"/ style="width:16px;vertical-align: baseline;">
+	<a href="https://beian.mps.gov.cn/#/query/webSearch?code=31010102008204" rel="noreferrer" target="_blank">沪公网安备31010102008204号</a>
+	<a href="https://beian.miit.gov.cn" target="_blank">沪ICP备05008079号-2</a>
+	本网站已支持IPv6
+</p>
+	<p>
+		本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。
+	</p>
+	<p>
+		<!-- 上海网警 -->
+		<img src="/web/images/police.png"/>&emsp;&emsp;
+		<!-- 网络社会征信 -->
+		<a href="https://www.zx110.org" target="_blank"><img src="/web/images/zx110.png"/></a>&emsp;&emsp;
+		<!-- 企业亮照 -->
+		<a href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20130116140046615" target="_blank"><img src="/web/images/qylzicon.gif" border=0/></a>&emsp;&emsp;
+
+
+		<!-- 可信网站 -->
+		<img src="/web/images/trust.png"/>
+		<script id="kXScript" type="text/javascript" src="https://kxlogo.knet.cn/seallogo.dll?sn=e20120231010782725vsat000000&h=45"></script>
+	</p>
+</div>
+<script>
+	//pad 下载 神策
+	$(function () {
+		 let $downpdf = $("#downpdf a");
+		let url = $downpdf.attr("href");
+		 //alert(url);
+		$downpdf.click(function () {
+			sensors.track('NoticePdfOpen', {
+				'$url': url,
+				'$url_path': url,
+				'$noticePdfUrl': url,
+			});
+		});
+	})
+
+</script>
+<iframe name='framePrint' width="0px" height="0px" frameborder="0"></iframe>
+<script type="text/javascript" src="/web/script/ready.js"></script>
+<style type="text/css">
+    td{color:#666666;}
+    td a{text-decoration:none;cursor:text;}
+    td a:hover{text-decoration:none;color:#666666;}
+</style>
+
+</body>
+</html>

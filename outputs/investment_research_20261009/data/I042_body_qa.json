@@ -1,0 +1,11 @@
+{
+  "issuerId": "I042",
+  "passed": true,
+  "checks": 49,
+  "effectiveChineseCharacters": 12426,
+  "paragraphs": 80,
+  "exactDuplicates": 0,
+  "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
+  "excluded": "opening, heading rows, tables, sources; only issuer-specific narrative counted",
+  "scope": "20 sections; four horizon and yearEnd price/return/date/score consistency, specific financial clinical technical boundaries"
+}

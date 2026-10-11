@@ -1,0 +1,6793 @@
+{
+  "issuerId": "I030",
+  "checkedAt": "2026-10-10T12:48:02.403Z",
+  "modelVersion": "luye-v2-normal-lookthrough-EP-CBput-Nanjing",
+  "passed": true,
+  "checks": [
+    {
+      "label": "revenue classes close",
+      "pass": true
+    },
+    {
+      "label": "product segments close",
+      "pass": true
+    },
+    {
+      "label": "gross cost close",
+      "pass": true
+    },
+    {
+      "label": "segment gross less allocated selling",
+      "pass": true
+    },
+    {
+      "label": "segment sum close with disclosed0.009m difference",
+      "pass": true
+    },
+    {
+      "label": "reported pretax independent",
+      "pass": true
+    },
+    {
+      "label": "reported tax profit close",
+      "pass": true
+    },
+    {
+      "label": "reported net mother close",
+      "pass": true
+    },
+    {
+      "label": "six financing types close",
+      "pass": true
+    },
+    {
+      "label": "operating cash after actual interest tax",
+      "pass": true
+    },
+    {
+      "label": "cash net movement from three activities",
+      "pass": true
+    },
+    {
+      "label": "cash balance roll",
+      "pass": true
+    },
+    {
+      "label": "unrestricted liquid cash only",
+      "pass": true
+    },
+    {
+      "label": "bank debt excluding lease close",
+      "pass": true
+    },
+    {
+      "label": "other noncurrent funding classes close",
+      "pass": true
+    },
+    {
+      "label": "assets liabilities netequity",
+      "pass": true
+    },
+    {
+      "label": "diluted H1 special numerator not basicannualized",
+      "pass": true
+    },
+    {
+      "label": "shares monthly period and units",
+      "pass": true
+    },
+    {
+      "label": "previous EP book yearend",
+      "pass": true
+    },
+    {
+      "label": "revenue comparator correctyear",
+      "pass": true
+    },
+    {
+      "label": "EP own shares estimate independent",
+      "pass": true
+    },
+    {
+      "label": "EP own fraction independent",
+      "pass": true
+    },
+    {
+      "label": "EP mandatory before60months not2032",
+      "pass": true
+    },
+    {
+      "label": "CB exact underlying shares independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 total gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2026 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2026 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2026 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2026 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2026 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2026 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2026 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2026 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2026 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2026 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2026 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2026 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2026 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2026 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2026 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2026 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2027 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2027 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2027 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2027 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2027 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2027 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2027 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2027 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2027 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2027 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2027 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2027 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2027 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2027 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2027 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2027 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2028 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2028 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2028 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2028 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2028 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2028 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2028 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2028 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2028 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2028 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2028 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2028 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2028 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2028 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2028 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2028 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2029 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2029 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2029 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2029 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2029 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2029 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2029 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2029 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2029 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2029 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2029 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2029 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2029 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2029 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2029 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2029 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2030 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2030 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2030 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2030 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2030 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2030 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2030 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2030 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2030 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2030 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2030 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2030 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2030 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2030 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2030 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2030 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2031 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2031 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2031 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2031 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2031 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2031 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2031 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2031 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2031 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2031 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2031 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2031 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2031 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2031 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2031 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2031 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "base/2032 total revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032 total gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "base/2032 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "base/2032 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "base/2032 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "base/2032 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "base/2032 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "base/2032 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "base/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2032 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "base/2032 operating cash",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "base/2032 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "base/2032 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2032 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "base/2032 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "base/2032 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "base/2032 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "base/2032 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdenosumab nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdenosumab specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdenosumab riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdulaglutide nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdulaglutide specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/USdulaglutide riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015China nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015China specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015China riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015US nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015US specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03015US riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03017 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03017 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03017 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03020 nominal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03020 specific probability revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/LY03020 riskgross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/onc revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/onc gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/onc annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/cardio revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/cardio gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/cardio annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/metabolic revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/metabolic gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/metabolic annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSChina revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSChina gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSChina annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSforeign revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSforeign gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/CNSforeign annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/other revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/other gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/other annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/Boan revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/Boan gross independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/Boan annual GM input",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 total revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 total gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 grossmargin",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Boan costfullRDallocated",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Boan normalpretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 EP yearweighted fraction",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 EP yearcoupon",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 EP exchangeyear flag",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Nanjing402preferredreturn",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Nanjing611.8loaninterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Nanjing285redeeminterest",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 pretax all financing",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 no negative tax credit",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Boan aftereconomicminority",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 normal netmother",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 zeroEPS distinctloss",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 operating cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash opening roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash halfH2 only",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 H1 capex removed",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 oldCB onceJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 CB putcash mutualexclusion",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Nanjing redemption2031",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Nanjing acquisitioncash2030",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 dividends lagJuly",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash full independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 bank fundingroll",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 no EP compulsorycashprincipal",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 no unknownIPOcash",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 not actual IFRS afterlosscontrol",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear method correct",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear arraytargets",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear totalreturn",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base method correct",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base arraytargets",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base totalreturn",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull method correct",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull arraytargets",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull totalreturn",
+      "pass": true
+    },
+    {
+      "label": "yearEnd scenario weights",
+      "pass": true
+    },
+    {
+      "label": "yearEnd expectation independent",
+      "pass": true
+    },
+    {
+      "label": "yearEnd return expectation independent",
+      "pass": true
+    },
+    {
+      "label": "yearEnd nodoublecashdebt",
+      "pass": true
+    },
+    {
+      "label": "yearEnd weightsensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "yearEnd weightsensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear method correct",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear arraytargets",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear totalreturn",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base method correct",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base arraytargets",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base totalreturn",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull method correct",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull arraytargets",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull totalreturn",
+      "pass": true
+    },
+    {
+      "label": "halfYear scenario weights",
+      "pass": true
+    },
+    {
+      "label": "halfYear expectation independent",
+      "pass": true
+    },
+    {
+      "label": "halfYear return expectation independent",
+      "pass": true
+    },
+    {
+      "label": "halfYear nodoublecashdebt",
+      "pass": true
+    },
+    {
+      "label": "halfYear weightsensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "halfYear weightsensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear method correct",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear arraytargets",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear totalreturn",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base method correct",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base arraytargets",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base totalreturn",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull method correct",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull arraytargets",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull totalreturn",
+      "pass": true
+    },
+    {
+      "label": "oneYear scenario weights",
+      "pass": true
+    },
+    {
+      "label": "oneYear expectation independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear return expectation independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear nodoublecashdebt",
+      "pass": true
+    },
+    {
+      "label": "oneYear weightsensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "oneYear weightsensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear method correct",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear arraytargets",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear totalreturn",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base method correct",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base arraytargets",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base totalreturn",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull method correct",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull arraytargets",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull totalreturn",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear scenario weights",
+      "pass": true
+    },
+    {
+      "label": "threeYear expectation independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear return expectation independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear nodoublecashdebt",
+      "pass": true
+    },
+    {
+      "label": "threeYear weightsensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "threeYear weightsensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear method correct",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear arraytargets",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear totalreturn",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base method correct",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base arraytargets",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base totalreturn",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull attributable sales independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull price branch notlossPE",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull method correct",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull marketrecognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull arraytargets",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull roundedprose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull totalreturn",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear scenario weights",
+      "pass": true
+    },
+    {
+      "label": "fiveYear expectation independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear return expectation independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear nodoublecashdebt",
+      "pass": true
+    },
+    {
+      "label": "fiveYear weightsensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "fiveYear weightsensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear score weights",
+      "pass": true
+    },
+    {
+      "label": "halfYear scores bounded",
+      "pass": true
+    },
+    {
+      "label": "halfYear score independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear score weights",
+      "pass": true
+    },
+    {
+      "label": "oneYear scores bounded",
+      "pass": true
+    },
+    {
+      "label": "oneYear score independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear score weights",
+      "pass": true
+    },
+    {
+      "label": "threeYear scores bounded",
+      "pass": true
+    },
+    {
+      "label": "threeYear score independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score weights",
+      "pass": true
+    },
+    {
+      "label": "fiveYear scores bounded",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score independent",
+      "pass": true
+    },
+    {
+      "label": "broker oldforeign clearlytagged",
+      "pass": true
+    },
+    {
+      "label": "firstpublication nonTradingSunday",
+      "pass": true
+    },
+    {
+      "label": "HKEX firstpublication source",
+      "pass": true
+    },
+    {
+      "label": "clinical FDAaccepted notapproved prose",
+      "pass": true
+    },
+    {
+      "label": "clinical PKnotpatient efficacy prose",
+      "pass": true
+    },
+    {
+      "label": "clinical cross trial notheadtohead prose",
+      "pass": true
+    },
+    {
+      "label": "HPV therapeutic boundary prose",
+      "pass": true
+    },
+    {
+      "label": "technical history andoneOHLCrepair",
+      "pass": true
+    },
+    {
+      "label": "weekly250notfabricated",
+      "pass": true
+    },
+    {
+      "label": "missingindustry explicit",
+      "pass": true
+    },
+    {
+      "label": "volume updaymeans correctlylimited",
+      "pass": true
+    },
+    {
+      "label": "no false exact distribution",
+      "pass": true
+    },
+    {
+      "label": "all inputs publicbeforecutoff",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "manualReview": [
+    "原公告正序财务列与中报管理讨论核对，两期列翻转不能照抄",
+    "收入七经济组剔博安与治疗领域重叠，逐年毛利从当前恢复，不将旧高毛利立即恢复",
+    "全部销售行政研发、三类南京资金成本、CB及EP现金回报扣入正常利润",
+    "EP强制交换2030末；平均与年末经济份额分开；失控后仅lookthrough非IFRS，现金权限限制",
+    "CB put2029与转股互斥，旧July偿还仅一次、新June资金不重复",
+    "南京285回购54/60个月、2031模拟付款及minority小幅调整，611.8loan2030本金和利息保留",
+    "悲观亏损股权销售倍数非PE零股价，也不是EV/Sales扣债；极端可近零",
+    "临床和许可公开范围分开，原镜像404后用HKEX若欣林原件核",
+    "正文≥1万有效汉字且无完全重复，语义重复人工审阅；Word/PDF集成由父执行"
+  ],
+  "remainingLimitations": [
+    "中报横排PDF两期列读取方向倒置，全部重要财务使用原正序业绩公告/管理讨论核对；分部小额71.245在公告与71.254在中报差0.009m，使用中报让total闭合",
+    "七个未来收入组为经济业务模型，Boan及国内海外分组是研究拆分非披露逐药财务，不与治疗领域混加",
+    "Boan历史57.94%已核；EP交换份额.41821为固定价/现股份估计，实际价格调整/股数/控制权可能改变；低于50%需IFRS重编，本模型只合成lookthrough现金与盈利",
+    "正常盈利剔EP公允收益及一次license/技术收入；不是公司归母或官方adjusted，不能报表利润简单年化",
+    "June有8.216bn现金但短债/票据融资大且质押2.570bn不可自由cash；内部资金流和关联还款不等持续产品cash",
+    "现金用H2 halfOCF简化，不纳已包含June的新CB或旧股融资；July旧90.26mUSD偿付扣一次；2029put而非仅2031maturity",
+    "EP强制换博安股是经济权益转让非绿叶新股；当前估值不把EPbook当永久现金债又扣一次，现金4.75%利息保留到交换",
+    "早期临床研究历史跨试验不能宣称优效，PK24健康人非疗效批准；mRNA治疗疫苗非常规HPV预防疫苗",
+    "外国目标最新公开Citi4.3April14超90天，原report缺，旧目标且事件前；不得称近期一致看多",
+    "匹配医药行业指数缺失，技术仅与恒指比较；739日/157周一根OHLC修复；无逐笔筹码图",
+    "未来少数权益、融资/利率/股数与潜在上市时间全部研究假设，需真实结构事件更新；南京54/60个月触发约2030H2到2031Jan，悲观2031付款，402preferred结构未假设到期本金；611.8m收购贷2030付款"
+  ]
+}

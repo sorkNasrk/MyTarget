@@ -1,0 +1,2021 @@
+{
+  "issuerId": "I052",
+  "securityId": "S060",
+  "name": "康方生物",
+  "code": "09926.HK",
+  "asOf": "2026-10-09",
+  "price": 109.1,
+  "currency": "HKD",
+  "modelVersion": "akeso-v2-year-end-cashflows",
+  "method": "国内持续经营利润×PE+依沃西海外肺癌/其他适应症授权现金流rNPV+净现金−中央研发成本储备，除未来稀释股数；简化风险调整模型非完整逐药物DCF",
+  "deepResearchFile": "research/I052_deep.md",
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "targetValuationDate": "2026-12-31",
+      "targetValuationYear": 2026.996577686516,
+      "CNYperUSD": 6.8,
+      "USDperCNY": 0.14705882352941177,
+      "HKDperCNY": 1.1,
+      "valuationCurrency": "CNY",
+      "cashFlowCurrency": "USD",
+      "centralResearchReserveCNYbn": [
+        1.2,
+        1.5,
+        2
+      ],
+      "cashFlowDates": [
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31",
+        "2031-12-31",
+        "2032-12-31",
+        "2033-12-31",
+        "2034-12-31",
+        "2035-12-31",
+        "2036-12-31",
+        "2037-12-31",
+        "2038-12-31",
+        "2039-12-31",
+        "2040-12-31",
+        "2041-12-31",
+        "2042-12-31"
+      ],
+      "discountExponentsACT36525": [
+        0.999315537303217,
+        2.001368925393566,
+        3.0006844626967832,
+        4,
+        4.999315537303217,
+        6.0013689253935665,
+        7.000684462696783,
+        8,
+        8.999315537303216,
+        10.001368925393566,
+        11.000684462696784,
+        12,
+        12.999315537303216,
+        14.001368925393566,
+        15.000684462696784,
+        16
+      ],
+      "cashFlowsIncluded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "priceHKD": [
+        11.064681125752521,
+        67.28298577028589,
+        174.9437105484528
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 80.14359080369428,
+      "domesticCoreProfitCNYbn": [
+        0.35,
+        1.05,
+        1.7
+      ],
+      "PE": [
+        20,
+        30,
+        36
+      ],
+      "dilutedSharesBn": [
+        0.97,
+        0.95,
+        0.95
+      ],
+      "netCashCNYbn": [
+        2.8,
+        3.4,
+        3.8
+      ],
+      "lungSuccess": [
+        0.35,
+        0.7,
+        0.85
+      ],
+      "nonLungSuccess": [
+        0.1,
+        0.25,
+        0.45
+      ],
+      "components": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 11.064681125752521,
+          "dividendHKD": 0,
+          "capitalReturnPct": -89.85822078299493,
+          "totalReturnPct": -89.85822078299493,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.35,
+          "domesticPE": 20,
+          "domesticEquityValueCNYbn": 7,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 0.16404316271185532,
+          "nonLungRiskAdjustedPVUSDbn": 0.006109336215944615,
+          "netCashCNYbn": 2.8,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 9.75703699270904,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 67.28298577028589,
+          "dividendHKD": 0,
+          "capitalReturnPct": -38.32906895482503,
+          "totalReturnPct": -38.32906895482503,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.05,
+          "domesticPE": 30,
+          "domesticEquityValueCNYbn": 31.5,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.95,
+          "lungRiskAdjustedPVUSDbn": 3.2385264340159408,
+          "nonLungRiskAdjustedPVUSDbn": 0.39500785499095636,
+          "netCashCNYbn": 3.4,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 58.1080331652469,
+          "lungApprovalAndCommercialSuccess": 0.7,
+          "nonLungApprovalAndCommercialSuccess": 0.25,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 174.9437105484528,
+          "dividendHKD": 0,
+          "capitalReturnPct": 60.35170536063501,
+          "totalReturnPct": 60.35170536063501,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.7,
+          "domesticPE": 36,
+          "domesticEquityValueCNYbn": 61.199999999999996,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.95,
+          "lungRiskAdjustedPVUSDbn": 10.201937944864955,
+          "nonLungRiskAdjustedPVUSDbn": 2.7521429402995032,
+          "netCashCNYbn": 3.8,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 151.08775001911832,
+          "lungApprovalAndCommercialSuccess": 0.85,
+          "nonLungApprovalAndCommercialSuccess": 0.45,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ]
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "targetValuationDate": "2027-04-09",
+      "targetValuationYear": 2027.2683093771388,
+      "CNYperUSD": 6.8,
+      "USDperCNY": 0.14705882352941177,
+      "HKDperCNY": 1.1,
+      "valuationCurrency": "CNY",
+      "cashFlowCurrency": "USD",
+      "centralResearchReserveCNYbn": [
+        1.2,
+        1.5,
+        2
+      ],
+      "cashFlowDates": [
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31",
+        "2031-12-31",
+        "2032-12-31",
+        "2033-12-31",
+        "2034-12-31",
+        "2035-12-31",
+        "2036-12-31",
+        "2037-12-31",
+        "2038-12-31",
+        "2039-12-31",
+        "2040-12-31",
+        "2041-12-31",
+        "2042-12-31"
+      ],
+      "discountExponentsACT36525": [
+        0.7282683093771389,
+        1.730321697467488,
+        2.729637234770705,
+        3.728952772073922,
+        4.728268309377139,
+        5.730321697467488,
+        6.729637234770705,
+        7.728952772073922,
+        8.728268309377139,
+        9.730321697467488,
+        10.729637234770705,
+        11.728952772073923,
+        12.728268309377139,
+        13.730321697467488,
+        14.729637234770705,
+        15.728952772073923
+      ],
+      "cashFlowsIncluded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "priceHKD": [
+        10.942311925194542,
+        71.29352348543316,
+        187.74298954673796
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 85.31808711069971,
+      "domesticCoreProfitCNYbn": [
+        0.35,
+        1.05,
+        1.7
+      ],
+      "PE": [
+        20,
+        32,
+        38
+      ],
+      "dilutedSharesBn": [
+        0.975,
+        0.955,
+        0.955
+      ],
+      "netCashCNYbn": [
+        2.7,
+        3.4,
+        3.8
+      ],
+      "lungSuccess": [
+        0.35,
+        0.72,
+        0.9
+      ],
+      "nonLungSuccess": [
+        0.1,
+        0.28,
+        0.5
+      ],
+      "components": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 10.942311925194542,
+          "dividendHKD": 0,
+          "capitalReturnPct": -89.97038320330472,
+          "totalReturnPct": -89.97038320330472,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.35,
+          "domesticPE": 20,
+          "domesticEquityValueCNYbn": 7,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.975,
+          "lungRiskAdjustedPVUSDbn": 0.1699738204382091,
+          "nonLungRiskAdjustedPVUSDbn": 0.006330207244233847,
+          "netCashCNYbn": 2.7,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 9.698867388240615,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 71.29352348543316,
+          "dividendHKD": 0,
+          "capitalReturnPct": -34.653049050932026,
+          "totalReturnPct": -34.653049050932026,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.05,
+          "domesticPE": 32,
+          "domesticEquityValueCNYbn": 33.6,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.955,
+          "lungRiskAdjustedPVUSDbn": 3.426624931837803,
+          "nonLungRiskAdjustedPVUSDbn": 0.4551016628932999,
+          "netCashCNYbn": 3.4,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 61.89574084417149,
+          "lungApprovalAndCommercialSuccess": 0.72,
+          "nonLungApprovalAndCommercialSuccess": 0.28,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 187.74298954673796,
+          "dividendHKD": 0,
+          "capitalReturnPct": 72.08340013449859,
+          "totalReturnPct": 72.08340013449859,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.7,
+          "domesticPE": 38,
+          "domesticEquityValueCNYbn": 64.6,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.955,
+          "lungRiskAdjustedPVUSDbn": 11.071063684858249,
+          "nonLungRiskAdjustedPVUSDbn": 3.1340907291971924,
+          "netCashCNYbn": 3.8,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 162.99505001557702,
+          "lungApprovalAndCommercialSuccess": 0.9,
+          "nonLungApprovalAndCommercialSuccess": 0.5,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "targetValuationDate": "2027-10-09",
+      "targetValuationYear": 2027.7693360711842,
+      "CNYperUSD": 6.8,
+      "USDperCNY": 0.14705882352941177,
+      "HKDperCNY": 1.1,
+      "valuationCurrency": "CNY",
+      "cashFlowCurrency": "USD",
+      "centralResearchReserveCNYbn": [
+        1.2,
+        1.5,
+        2
+      ],
+      "cashFlowDates": [
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31",
+        "2031-12-31",
+        "2032-12-31",
+        "2033-12-31",
+        "2034-12-31",
+        "2035-12-31",
+        "2036-12-31",
+        "2037-12-31",
+        "2038-12-31",
+        "2039-12-31",
+        "2040-12-31",
+        "2041-12-31",
+        "2042-12-31"
+      ],
+      "discountExponentsACT36525": [
+        0.2272416153319644,
+        1.2292950034223136,
+        2.2286105407255303,
+        3.2279260780287475,
+        4.227241615331964,
+        5.229295003422314,
+        6.228610540725531,
+        7.227926078028747,
+        8.227241615331964,
+        9.229295003422314,
+        10.22861054072553,
+        11.227926078028748,
+        12.227241615331964,
+        13.229295003422314,
+        14.22861054072553,
+        15.227926078028748
+      ],
+      "cashFlowsIncluded": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "priceHKD": [
+        14.55150612403958,
+        86.86690106693104,
+        226.26689930524282
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 103.63805189078612,
+      "domesticCoreProfitCNYbn": [
+        0.55,
+        1.55,
+        2.5
+      ],
+      "PE": [
+        19,
+        29,
+        35
+      ],
+      "dilutedSharesBn": [
+        0.985,
+        0.97,
+        0.97
+      ],
+      "netCashCNYbn": [
+        2.5,
+        3.5,
+        4.1
+      ],
+      "lungSuccess": [
+        0.35,
+        0.75,
+        0.95
+      ],
+      "nonLungSuccess": [
+        0.1,
+        0.35,
+        0.6
+      ],
+      "components": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 14.55150612403958,
+          "dividendHKD": 0,
+          "capitalReturnPct": -86.66223086705813,
+          "totalReturnPct": -86.66223086705813,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.55,
+          "domesticPE": 19,
+          "domesticEquityValueCNYbn": 10.450000000000001,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.985,
+          "lungRiskAdjustedPVUSDbn": 0.18150679389071345,
+          "nonLungRiskAdjustedPVUSDbn": 0.006759721106476764,
+          "netCashCNYbn": 2.5,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 13.030212301980896,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 86.86690106693104,
+          "dividendHKD": 0,
+          "capitalReturnPct": -20.378642468440844,
+          "totalReturnPct": -20.378642468440844,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.55,
+          "domesticPE": 29,
+          "domesticEquityValueCNYbn": 44.95,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 3.7610002270156175,
+          "nonLungRiskAdjustedPVUSDbn": 0.5994134140168819,
+          "netCashCNYbn": 3.5,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 76.600812759021,
+          "lungApprovalAndCommercialSuccess": 0.75,
+          "nonLungApprovalAndCommercialSuccess": 0.35,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 226.26689930524282,
+          "dividendHKD": 0,
+          "capitalReturnPct": 107.39404152634542,
+          "totalReturnPct": 107.39404152634542,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 2.5,
+          "domesticPE": 35,
+          "domesticEquityValueCNYbn": 87.5,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 12.229761021212376,
+          "nonLungRiskAdjustedPVUSDbn": 3.935866295109219,
+          "netCashCNYbn": 4.1,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 199.52626575098682,
+          "lungApprovalAndCommercialSuccess": 0.95,
+          "nonLungApprovalAndCommercialSuccess": 0.6,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "targetValuationDate": "2029-10-09",
+      "targetValuationYear": 2029.7693360711842,
+      "CNYperUSD": 6.8,
+      "USDperCNY": 0.14705882352941177,
+      "HKDperCNY": 1.1,
+      "valuationCurrency": "CNY",
+      "cashFlowCurrency": "USD",
+      "centralResearchReserveCNYbn": [
+        1.3,
+        1.6,
+        2.2
+      ],
+      "cashFlowDates": [
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31",
+        "2031-12-31",
+        "2032-12-31",
+        "2033-12-31",
+        "2034-12-31",
+        "2035-12-31",
+        "2036-12-31",
+        "2037-12-31",
+        "2038-12-31",
+        "2039-12-31",
+        "2040-12-31",
+        "2041-12-31",
+        "2042-12-31"
+      ],
+      "discountExponentsACT36525": [
+        0,
+        0,
+        0.2272416153319644,
+        1.2265571526351813,
+        2.2258726899383983,
+        3.2279260780287475,
+        4.227241615331964,
+        5.2265571526351815,
+        6.225872689938399,
+        7.227926078028747,
+        8.227241615331964,
+        9.22655715263518,
+        10.225872689938399,
+        11.227926078028748,
+        12.227241615331964,
+        13.22655715263518
+      ],
+      "cashFlowsIncluded": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "priceHKD": [
+        17.06176040234446,
+        125.0304799536091,
+        318.40811164385667
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 146.38270798835484,
+      "domesticCoreProfitCNYbn": [
+        0.8,
+        2.7,
+        4.4
+      ],
+      "PE": [
+        17,
+        25,
+        32
+      ],
+      "dilutedSharesBn": [
+        1.03,
+        1,
+        1
+      ],
+      "netCashCNYbn": [
+        2,
+        4,
+        6
+      ],
+      "lungSuccess": [
+        0.35,
+        0.88,
+        1
+      ],
+      "nonLungSuccess": [
+        0.12,
+        0.5,
+        0.8
+      ],
+      "components": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 17.06176040234446,
+          "dividendHKD": 0,
+          "capitalReturnPct": -84.36135618483551,
+          "totalReturnPct": -84.36135618483551,
+          "annualizedTotalReturnPct": -46.123460132145745,
+          "domesticCoreProfitCNYbn": 0.8,
+          "domesticPE": 17,
+          "domesticEquityValueCNYbn": 13.600000000000001,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1.03,
+          "lungRiskAdjustedPVUSDbn": 0.23592854355645917,
+          "nonLungRiskAdjustedPVUSDbn": 0.010543811311828917,
+          "netCashCNYbn": 2,
+          "futureCentralResearchCostReserveCNYbn": 1.3,
+          "totalEquityValueCNYbn": 15.97601201310436,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.12,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 125.0304799536091,
+          "dividendHKD": 0,
+          "capitalReturnPct": 14.601723147212752,
+          "totalReturnPct": 14.601723147212752,
+          "annualizedTotalReturnPct": 4.647867452040932,
+          "domesticCoreProfitCNYbn": 2.7,
+          "domesticPE": 25,
+          "domesticEquityValueCNYbn": 67.5,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1,
+          "lungRiskAdjustedPVUSDbn": 5.380689065961982,
+          "nonLungRiskAdjustedPVUSDbn": 1.0552039759643652,
+          "netCashCNYbn": 4,
+          "futureCentralResearchCostReserveCNYbn": 1.6,
+          "totalEquityValueCNYbn": 113.66407268509917,
+          "lungApprovalAndCommercialSuccess": 0.88,
+          "nonLungApprovalAndCommercialSuccess": 0.5,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 318.40811164385667,
+          "dividendHKD": 0,
+          "capitalReturnPct": 191.84978152507486,
+          "totalReturnPct": 191.84978152507486,
+          "annualizedTotalReturnPct": 42.90687557178137,
+          "domesticCoreProfitCNYbn": 4.4,
+          "domesticPE": 32,
+          "domesticEquityValueCNYbn": 140.8,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1,
+          "lungRiskAdjustedPVUSDbn": 15.010172261158923,
+          "nonLungRiskAdjustedPVUSDbn": 6.29305122064009,
+          "netCashCNYbn": 6,
+          "futureCentralResearchCostReserveCNYbn": 2.2,
+          "totalEquityValueCNYbn": 289.4619196762333,
+          "lungApprovalAndCommercialSuccess": 1,
+          "nonLungApprovalAndCommercialSuccess": 0.8,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "targetValuationDate": "2031-10-09",
+      "targetValuationYear": 2031.7693360711842,
+      "CNYperUSD": 6.8,
+      "USDperCNY": 0.14705882352941177,
+      "HKDperCNY": 1.1,
+      "valuationCurrency": "CNY",
+      "cashFlowCurrency": "USD",
+      "centralResearchReserveCNYbn": [
+        1.4,
+        1.8,
+        2.5
+      ],
+      "cashFlowDates": [
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31",
+        "2031-12-31",
+        "2032-12-31",
+        "2033-12-31",
+        "2034-12-31",
+        "2035-12-31",
+        "2036-12-31",
+        "2037-12-31",
+        "2038-12-31",
+        "2039-12-31",
+        "2040-12-31",
+        "2041-12-31",
+        "2042-12-31"
+      ],
+      "discountExponentsACT36525": [
+        0,
+        0,
+        0,
+        0,
+        0.2272416153319644,
+        1.2292950034223136,
+        2.2286105407255303,
+        3.2279260780287475,
+        4.227241615331964,
+        5.229295003422314,
+        6.228610540725531,
+        7.227926078028747,
+        8.227241615331964,
+        9.229295003422314,
+        10.22861054072553,
+        11.227926078028748
+      ],
+      "cashFlowsIncluded": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "priceHKD": [
+        17.14798609311316,
+        153.0217950108919,
+        387.9757038131621
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 177.79181998201477,
+      "domesticCoreProfitCNYbn": [
+        1,
+        3.9,
+        6.8
+      ],
+      "PE": [
+        15,
+        22,
+        28
+      ],
+      "dilutedSharesBn": [
+        1.09,
+        1.04,
+        1.04
+      ],
+      "netCashCNYbn": [
+        1.5,
+        6,
+        10
+      ],
+      "lungSuccess": [
+        0.35,
+        0.95,
+        1
+      ],
+      "nonLungSuccess": [
+        0.12,
+        0.6,
+        0.95
+      ],
+      "components": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 17.14798609311316,
+          "dividendHKD": 0,
+          "capitalReturnPct": -84.28232255443339,
+          "totalReturnPct": -84.28232255443339,
+          "annualizedTotalReturnPct": -30.931873714652845,
+          "domesticCoreProfitCNYbn": 1,
+          "domesticPE": 15,
+          "domesticEquityValueCNYbn": 15,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.09,
+          "lungRiskAdjustedPVUSDbn": 0.26454903079021186,
+          "nonLungRiskAdjustedPVUSDbn": 0.013700279569860453,
+          "netCashCNYbn": 1.5,
+          "futureCentralResearchCostReserveCNYbn": 1.4,
+          "totalEquityValueCNYbn": 16.992095310448494,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.12,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 153.0217950108919,
+          "dividendHKD": 0,
+          "capitalReturnPct": 40.25829056910351,
+          "totalReturnPct": 40.25829056910351,
+          "annualizedTotalReturnPct": 7.000475660798866,
+          "domesticCoreProfitCNYbn": 3.9,
+          "domesticPE": 22,
+          "domesticEquityValueCNYbn": 85.8,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.04,
+          "lungRiskAdjustedPVUSDbn": 6.503958589554462,
+          "nonLungRiskAdjustedPVUSDbn": 1.536504887895754,
+          "netCashCNYbn": 6,
+          "futureCentralResearchCostReserveCNYbn": 1.8,
+          "totalEquityValueCNYbn": 144.67515164666145,
+          "lungApprovalAndCommercialSuccess": 0.95,
+          "nonLungApprovalAndCommercialSuccess": 0.6,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 387.9757038131621,
+          "dividendHKD": 0,
+          "capitalReturnPct": 255.61476059868204,
+          "totalReturnPct": 255.61476059868204,
+          "annualizedTotalReturnPct": 28.883094739343697,
+          "domesticCoreProfitCNYbn": 6.8,
+          "domesticPE": 28,
+          "domesticEquityValueCNYbn": 190.4,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.04,
+          "lungRiskAdjustedPVUSDbn": 16.075932936488552,
+          "nonLungRiskAdjustedPVUSDbn": 8.764271871758577,
+          "netCashCNYbn": 10,
+          "futureCentralResearchCostReserveCNYbn": 2.5,
+          "totalEquityValueCNYbn": 366.8133926960805,
+          "lungApprovalAndCommercialSuccess": 1,
+          "nonLungApprovalAndCommercialSuccess": 0.95,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ]
+    }
+  },
+  "horizons": {
+    "yearEnd": {
+      "targetDate": "2026-12-31",
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 11.064681125752521,
+          "dividendHKD": 0,
+          "capitalReturnPct": -89.85822078299493,
+          "totalReturnPct": -89.85822078299493,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.35,
+          "domesticPE": 20,
+          "domesticEquityValueCNYbn": 7,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 0.16404316271185532,
+          "nonLungRiskAdjustedPVUSDbn": 0.006109336215944615,
+          "netCashCNYbn": 2.8,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 9.75703699270904,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 67.28298577028589,
+          "dividendHKD": 0,
+          "capitalReturnPct": -38.32906895482503,
+          "totalReturnPct": -38.32906895482503,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.05,
+          "domesticPE": 30,
+          "domesticEquityValueCNYbn": 31.5,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.95,
+          "lungRiskAdjustedPVUSDbn": 3.2385264340159408,
+          "nonLungRiskAdjustedPVUSDbn": 0.39500785499095636,
+          "netCashCNYbn": 3.4,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 58.1080331652469,
+          "lungApprovalAndCommercialSuccess": 0.7,
+          "nonLungApprovalAndCommercialSuccess": 0.25,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 174.9437105484528,
+          "dividendHKD": 0,
+          "capitalReturnPct": 60.35170536063501,
+          "totalReturnPct": 60.35170536063501,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.7,
+          "domesticPE": 36,
+          "domesticEquityValueCNYbn": 61.199999999999996,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.95,
+          "lungRiskAdjustedPVUSDbn": 10.201937944864955,
+          "nonLungRiskAdjustedPVUSDbn": 2.7521429402995032,
+          "netCashCNYbn": 3.8,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 151.08775001911832,
+          "lungApprovalAndCommercialSuccess": 0.85,
+          "nonLungApprovalAndCommercialSuccess": 0.45,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ],
+      "expectedPriceHKD": 80.14359080369428,
+      "expectedCapitalReturnPct": -26.541163333002494,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 66.32780886810593
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 99.10361475264598
+        }
+      ]
+    },
+    "halfYear": {
+      "targetDate": "2027-04-09",
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 10.942311925194542,
+          "dividendHKD": 0,
+          "capitalReturnPct": -89.97038320330472,
+          "totalReturnPct": -89.97038320330472,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.35,
+          "domesticPE": 20,
+          "domesticEquityValueCNYbn": 7,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.975,
+          "lungRiskAdjustedPVUSDbn": 0.1699738204382091,
+          "nonLungRiskAdjustedPVUSDbn": 0.006330207244233847,
+          "netCashCNYbn": 2.7,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 9.698867388240615,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 71.29352348543316,
+          "dividendHKD": 0,
+          "capitalReturnPct": -34.653049050932026,
+          "totalReturnPct": -34.653049050932026,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.05,
+          "domesticPE": 32,
+          "domesticEquityValueCNYbn": 33.6,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.955,
+          "lungRiskAdjustedPVUSDbn": 3.426624931837803,
+          "nonLungRiskAdjustedPVUSDbn": 0.4551016628932999,
+          "netCashCNYbn": 3.4,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 61.89574084417149,
+          "lungApprovalAndCommercialSuccess": 0.72,
+          "nonLungApprovalAndCommercialSuccess": 0.28,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 187.74298954673796,
+          "dividendHKD": 0,
+          "capitalReturnPct": 72.08340013449859,
+          "totalReturnPct": 72.08340013449859,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.7,
+          "domesticPE": 38,
+          "domesticEquityValueCNYbn": 64.6,
+          "domesticProfitYear": 2028,
+          "dilutedSharesBn": 0.955,
+          "lungRiskAdjustedPVUSDbn": 11.071063684858249,
+          "nonLungRiskAdjustedPVUSDbn": 3.1340907291971924,
+          "netCashCNYbn": 3.8,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 162.99505001557702,
+          "lungApprovalAndCommercialSuccess": 0.9,
+          "nonLungApprovalAndCommercialSuccess": 0.5,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ],
+      "expectedPriceHKD": 85.31808711069971,
+      "expectedCapitalReturnPct": -21.798270292667542,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 70.44293207359867
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 105.80306759790736
+        }
+      ]
+    },
+    "oneYear": {
+      "targetDate": "2027-10-09",
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 14.55150612403958,
+          "dividendHKD": 0,
+          "capitalReturnPct": -86.66223086705813,
+          "totalReturnPct": -86.66223086705813,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 0.55,
+          "domesticPE": 19,
+          "domesticEquityValueCNYbn": 10.450000000000001,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.985,
+          "lungRiskAdjustedPVUSDbn": 0.18150679389071345,
+          "nonLungRiskAdjustedPVUSDbn": 0.006759721106476764,
+          "netCashCNYbn": 2.5,
+          "futureCentralResearchCostReserveCNYbn": 1.2,
+          "totalEquityValueCNYbn": 13.030212301980896,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.1,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 86.86690106693104,
+          "dividendHKD": 0,
+          "capitalReturnPct": -20.378642468440844,
+          "totalReturnPct": -20.378642468440844,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 1.55,
+          "domesticPE": 29,
+          "domesticEquityValueCNYbn": 44.95,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 3.7610002270156175,
+          "nonLungRiskAdjustedPVUSDbn": 0.5994134140168819,
+          "netCashCNYbn": 3.5,
+          "futureCentralResearchCostReserveCNYbn": 1.5,
+          "totalEquityValueCNYbn": 76.600812759021,
+          "lungApprovalAndCommercialSuccess": 0.75,
+          "nonLungApprovalAndCommercialSuccess": 0.35,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 226.26689930524282,
+          "dividendHKD": 0,
+          "capitalReturnPct": 107.39404152634542,
+          "totalReturnPct": 107.39404152634542,
+          "annualizedTotalReturnPct": null,
+          "domesticCoreProfitCNYbn": 2.5,
+          "domesticPE": 35,
+          "domesticEquityValueCNYbn": 87.5,
+          "domesticProfitYear": 2029,
+          "dilutedSharesBn": 0.97,
+          "lungRiskAdjustedPVUSDbn": 12.229761021212376,
+          "nonLungRiskAdjustedPVUSDbn": 3.935866295109219,
+          "netCashCNYbn": 4.1,
+          "futureCentralResearchCostReserveCNYbn": 2,
+          "totalEquityValueCNYbn": 199.52626575098682,
+          "lungApprovalAndCommercialSuccess": 0.95,
+          "nonLungApprovalAndCommercialSuccess": 0.6,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ],
+      "expectedPriceHKD": 103.63805189078612,
+      "expectedCapitalReturnPct": -5.0063685693986,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 85.82074273743682
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 128.16382137367748
+        }
+      ]
+    },
+    "threeYear": {
+      "targetDate": "2029-10-09",
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 17.06176040234446,
+          "dividendHKD": 0,
+          "capitalReturnPct": -84.36135618483551,
+          "totalReturnPct": -84.36135618483551,
+          "annualizedTotalReturnPct": -46.123460132145745,
+          "domesticCoreProfitCNYbn": 0.8,
+          "domesticPE": 17,
+          "domesticEquityValueCNYbn": 13.600000000000001,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1.03,
+          "lungRiskAdjustedPVUSDbn": 0.23592854355645917,
+          "nonLungRiskAdjustedPVUSDbn": 0.010543811311828917,
+          "netCashCNYbn": 2,
+          "futureCentralResearchCostReserveCNYbn": 1.3,
+          "totalEquityValueCNYbn": 15.97601201310436,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.12,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 125.0304799536091,
+          "dividendHKD": 0,
+          "capitalReturnPct": 14.601723147212752,
+          "totalReturnPct": 14.601723147212752,
+          "annualizedTotalReturnPct": 4.647867452040932,
+          "domesticCoreProfitCNYbn": 2.7,
+          "domesticPE": 25,
+          "domesticEquityValueCNYbn": 67.5,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1,
+          "lungRiskAdjustedPVUSDbn": 5.380689065961982,
+          "nonLungRiskAdjustedPVUSDbn": 1.0552039759643652,
+          "netCashCNYbn": 4,
+          "futureCentralResearchCostReserveCNYbn": 1.6,
+          "totalEquityValueCNYbn": 113.66407268509917,
+          "lungApprovalAndCommercialSuccess": 0.88,
+          "nonLungApprovalAndCommercialSuccess": 0.5,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 318.40811164385667,
+          "dividendHKD": 0,
+          "capitalReturnPct": 191.84978152507486,
+          "totalReturnPct": 191.84978152507486,
+          "annualizedTotalReturnPct": 42.90687557178137,
+          "domesticCoreProfitCNYbn": 4.4,
+          "domesticPE": 32,
+          "domesticEquityValueCNYbn": 140.8,
+          "domesticProfitYear": 2030,
+          "dilutedSharesBn": 1,
+          "lungRiskAdjustedPVUSDbn": 15.010172261158923,
+          "nonLungRiskAdjustedPVUSDbn": 6.29305122064009,
+          "netCashCNYbn": 6,
+          "futureCentralResearchCostReserveCNYbn": 2.2,
+          "totalEquityValueCNYbn": 289.4619196762333,
+          "lungApprovalAndCommercialSuccess": 1,
+          "nonLungApprovalAndCommercialSuccess": 0.8,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ],
+      "expectedPriceHKD": 146.38270798835484,
+      "expectedCapitalReturnPct": 34.172967908666216,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 120.51851847115276
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 180.78778871945522
+        }
+      ]
+    },
+    "fiveYear": {
+      "targetDate": "2031-10-09",
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 17.14798609311316,
+          "dividendHKD": 0,
+          "capitalReturnPct": -84.28232255443339,
+          "totalReturnPct": -84.28232255443339,
+          "annualizedTotalReturnPct": -30.931873714652845,
+          "domesticCoreProfitCNYbn": 1,
+          "domesticPE": 15,
+          "domesticEquityValueCNYbn": 15,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.09,
+          "lungRiskAdjustedPVUSDbn": 0.26454903079021186,
+          "nonLungRiskAdjustedPVUSDbn": 0.013700279569860453,
+          "netCashCNYbn": 1.5,
+          "futureCentralResearchCostReserveCNYbn": 1.4,
+          "totalEquityValueCNYbn": 16.992095310448494,
+          "lungApprovalAndCommercialSuccess": 0.35,
+          "nonLungApprovalAndCommercialSuccess": 0.12,
+          "royaltyRateHypothesis": 0.1,
+          "discountRate": 0.14,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 153.0217950108919,
+          "dividendHKD": 0,
+          "capitalReturnPct": 40.25829056910351,
+          "totalReturnPct": 40.25829056910351,
+          "annualizedTotalReturnPct": 7.000475660798866,
+          "domesticCoreProfitCNYbn": 3.9,
+          "domesticPE": 22,
+          "domesticEquityValueCNYbn": 85.8,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.04,
+          "lungRiskAdjustedPVUSDbn": 6.503958589554462,
+          "nonLungRiskAdjustedPVUSDbn": 1.536504887895754,
+          "netCashCNYbn": 6,
+          "futureCentralResearchCostReserveCNYbn": 1.8,
+          "totalEquityValueCNYbn": 144.67515164666145,
+          "lungApprovalAndCommercialSuccess": 0.95,
+          "nonLungApprovalAndCommercialSuccess": 0.6,
+          "royaltyRateHypothesis": 0.15,
+          "discountRate": 0.11,
+          "royaltyTax": 0.2
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 387.9757038131621,
+          "dividendHKD": 0,
+          "capitalReturnPct": 255.61476059868204,
+          "totalReturnPct": 255.61476059868204,
+          "annualizedTotalReturnPct": 28.883094739343697,
+          "domesticCoreProfitCNYbn": 6.8,
+          "domesticPE": 28,
+          "domesticEquityValueCNYbn": 190.4,
+          "domesticProfitYear": 2032,
+          "dilutedSharesBn": 1.04,
+          "lungRiskAdjustedPVUSDbn": 16.075932936488552,
+          "nonLungRiskAdjustedPVUSDbn": 8.764271871758577,
+          "netCashCNYbn": 10,
+          "futureCentralResearchCostReserveCNYbn": 2.5,
+          "totalEquityValueCNYbn": 366.8133926960805,
+          "lungApprovalAndCommercialSuccess": 1,
+          "nonLungApprovalAndCommercialSuccess": 0.95,
+          "royaltyRateHypothesis": 0.18,
+          "discountRate": 0.095,
+          "royaltyTax": 0.2
+        }
+      ],
+      "expectedPriceHKD": 177.79181998201477,
+      "expectedCapitalReturnPct": 62.96225479561392,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 145.66305320423447
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 219.82859674824425
+        }
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        1.6,
+        3.3,
+        4,
+        4.5,
+        4.8,
+        2.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 63.8,
+      "explanations": [
+        "基准年底及半年低于现价、一年接近，较高全球峰值才能支持当前市值；三五年回报仍有限，宽情景下行必须计入",
+        "短期反弹向上，但250日和60周尚压制、近期量缩，趋势未全面修复",
+        "两款上市双抗及多适应症验证；法定仍亏损，商业利润尚未成熟",
+        "免疫肿瘤治疗升级与大药企联合用药需求；医保/全球药价约束",
+        "FDA审评、全球及国内三期、商业放量与伙伴融资",
+        "临床、单核心资产集中、借款、研发/资本投入、伙伴稀释与治理集中"
+      ]
+    },
+    "oneYear": {
+      "dimensions": [
+        2,
+        3.3,
+        4.2,
+        4.6,
+        4.8,
+        2.8
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 69.89999999999999,
+      "explanations": [
+        "基准年底及半年低于现价、一年接近，较高全球峰值才能支持当前市值；三五年回报仍有限，宽情景下行必须计入",
+        "短期反弹向上，但250日和60周尚压制、近期量缩，趋势未全面修复",
+        "两款上市双抗及多适应症验证；法定仍亏损，商业利润尚未成熟",
+        "免疫肿瘤治疗升级与大药企联合用药需求；医保/全球药价约束",
+        "FDA审评、全球及国内三期、商业放量与伙伴融资",
+        "临床、单核心资产集中、借款、研发/资本投入、伙伴稀释与治理集中"
+      ]
+    },
+    "threeYear": {
+      "dimensions": [
+        2.8,
+        3.3,
+        4.4,
+        4.7,
+        4.5,
+        2.7
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 76.80000000000001,
+      "explanations": [
+        "基准年底及半年低于现价、一年接近，较高全球峰值才能支持当前市值；三五年回报仍有限，宽情景下行必须计入",
+        "短期反弹向上，但250日和60周尚压制、近期量缩，趋势未全面修复",
+        "两款上市双抗及多适应症验证；法定仍亏损，商业利润尚未成熟",
+        "免疫肿瘤治疗升级与大药企联合用药需求；医保/全球药价约束",
+        "FDA审评、全球及国内三期、商业放量与伙伴融资",
+        "临床、单核心资产集中、借款、研发/资本投入、伙伴稀释与治理集中"
+      ]
+    },
+    "fiveYear": {
+      "dimensions": [
+        3,
+        0,
+        4.3,
+        4.6,
+        4.2,
+        2.5
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 76.5,
+      "explanations": [
+        "基准年底及半年低于现价、一年接近，较高全球峰值才能支持当前市值；三五年回报仍有限，宽情景下行必须计入",
+        "短期反弹向上，但250日和60周尚压制、近期量缩，趋势未全面修复",
+        "两款上市双抗及多适应症验证；法定仍亏损，商业利润尚未成熟",
+        "免疫肿瘤治疗升级与大药企联合用药需求；医保/全球药价约束",
+        "FDA审评、全球及国内三期、商业放量与伙伴融资",
+        "临床、单核心资产集中、借款、研发/资本投入、伙伴稀释与治理集中"
+      ]
+    }
+  },
+  "priceEvidence": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01877,hk02162,hk01801,hk02268,hk06821,hk00867,hk09995,hk09926,hk01763,hk03442,hk07709,hk00100,hk02513,hk09992,hk01811,hk01797,hk09880,hk02400,hk01211,hk09660,hk03750,hk09999,hk00992,hk09888,hk00241",
+      "retrievedAt": "2026-10-10T09:16:12.161Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk03347,rt_hk06127,rt_hk01877,rt_hk02162,rt_hk01801,rt_hk02268,rt_hk06821,rt_hk00867,rt_hk09995,rt_hk09926,rt_hk01763,rt_hk03442,rt_hk07709,rt_hk00100,rt_hk02513,rt_hk09992,rt_hk01811,rt_hk01797,rt_hk09880,rt_hk02400,rt_hk01211,rt_hk09660,rt_hk03750,rt_hk09999,rt_hk00992",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/9926.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:17.541Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk09926,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:17.665Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 1805.681,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "productRevenue",
+      "value": 1803.223,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "grossCommercialSales",
+      "value": 1865.881,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "licenseRevenue",
+      "value": 2.458,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "distributionCosts",
+      "value": 62.658,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "grossProfit",
+      "value": 1340.499,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "profit",
+      "value": -447.246,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "attributableProfit",
+      "value": -424.22,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "researchDevelopment",
+      "value": 783.326,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "cashBank",
+      "value": 8689.205,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "cashEquivalents",
+      "value": 1053.907,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "debtInterestBearing",
+      "value": 4964.908,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "leaseLiabilities",
+      "value": 19.79,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    },
+    {
+      "metric": "liquidAssetsExpanded",
+      "value": 9160,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "收入差异已由原报告附注3解释：商业销售1865.881+授权2.458-分销成本62.658=IFRS1805.681；集团亏损447.246=归母424.220+少数23.026。现金余额8689.205含长期定存，现金等价物1053.907须区分；净现金不能用9160不扣借款。"
+    }
+  ],
+  "brokerTargets": [
+    {
+      "institution": "HSBC",
+      "targetPrice": 163,
+      "rating": "买入",
+      "publicationDate": "2026-09-29",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1547010/research-report",
+      "newsID": "NOW.1547010",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "滙豐研究發表研究報告，對中國醫藥及生物科技股投資評級及目標價表列如下： 股份 | 投資評級 | 目標價 相關內容 《大行》里昂：中國醫療保健授權交易動能增強 維持對行業正面看法 恆瑞醫藥(01276.HK) -0.440 (-0.908%) 沽空 $4.96千萬; 比率 14.662% | 買入 | 73.7港元 → 72.5港元 翰森製藥(03692.HK) -0.640 (-1.989%) 沽空 $6.88千萬; 比率 21.908% | 買入 | 49.5港元 中國生物製藥(01177.HK) -0.075 (-1.367%) 沽空 $8.32千萬; 比率 21.179% | 買入 | 8.5港元 → 8港元\n 百濟神州(ONC.US) | 買入 | 385美元 信達生物(01801.HK) +0.050 (+0.054%) 沽空 $2.43億; 比率 25.277% | 買入 | 130港元 相關內容 《大行》大華繼顯10月份選股名單投資評級及目標價(表) 康方生物(09926.HK) +3.400 (+3.217%) 沽空 $3.59億; 比率 31.780% | 買入 | 163港元 科倫博泰生物(06990.HK) -1.200 (-0.269%) 沽空 $2.08千萬; 比率 6.974% | 買入 | 584港元 康諾亞－Ｂ(02162.HK) +2.700 (+3.571%) 沽空 $5.09千萬; 比率 23.821% | 買入 | 107港元 相關內容 《大行》大華繼顯大中華區選股納入滴滴(DIDIY.US)、信置(00083.HK)及攜程(0",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "JPMorgan",
+      "targetPrice": 125,
+      "rating": "增持",
+      "publicationDate": "2026-09-14",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "明确2027年12月DCF；WACC9.6%，终端增速3%",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1544291/research-report",
+      "newsID": "NOW.1544291",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "個月，發生234宗OS事件，單側alpha為0.0141。在第一次OS中期分析時(假設為2025年2月)，中位隨訪時間僅約17個月，遠低於兩組的中位OS，因此第一次中期分析的OS HR 0.777相當不成熟。 摩通維持康方生物「增持」評級，目標價125港元，基於2027年12月估值，採用現金流折現法，假設終端增長率3%及加權平均資本成本9.6%。(da/ad)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Bank of America",
+      "targetPrice": 136,
+      "rating": "买入",
+      "publicationDate": "2026-09-14",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "DCF；公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1544352/research-report",
+      "newsID": "NOW.1544352",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "關鍵的2026年，全球及中國III期項目將有重要數據讀出，並正加快在中國的商業化勢頭；豐富管線亦提供長遠增長及新的對外授權機會。 相關內容 《大行》里昂：中國醫療保健授權交易動能增強 維持對行業正面看法 該行以折現現金流(DCF)模型評估，目標價136港元。下行風險包括ivonescimab未來臨床結果及監管時間表的不確定性、全球競爭加劇，以及國家醫保目錄與美國降價帶來的潛在定價壓力；上行風險則包括臨床結果優於預期、新的對外授權交易，以及產品銷售高於預期。(su/ad)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Nomura",
+      "targetPrice": 138.29,
+      "rating": "买入",
+      "publicationDate": "2026-09-30",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1547156/research-report",
+      "newsID": "NOW.1547156",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "0 (+3.217%) 沽空 $3.59億; 比率 31.780% 海外夥伴Summit Therapeutics(SMMT.US) 於9月29日港股開市前宣布，獲阿斯利康(AZN.US) 20億美元戰略投資。該行維持康方生物「買入」評級及目標價138.29港元。 該行指出，阿斯利康以可轉換優先股形式投資Summit。雙方亦將合作評估sonesitatug vedotin(康諾亞(02162.HK) +2.700 (+3.571%) 沽空 $5.09千萬; 比率 23.821% 樂普生物(02157.HK) -0.025 (-0.650%) 沽空 $4.76百萬; 比率 12.442% 合資公司引進的CLDN 18.2 ADC)與ivonescimab(Summit自康方生物引進的PD-1/VEGF雙特異性抗體)的聯合用藥。 相關內容 《大行》里昂：中國醫",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "CLSA",
+      "targetPrice": 177.8,
+      "rating": "跑赢大市",
+      "publicationDate": "2026-08-31",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "CLSA为中资控制国际券商；公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1542128/research-report",
+      "newsID": "NOW.1542128",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "里昂發表報告指，康方生物(09926.HK) +3.400 (+3.217%) 沽空 $3.59億; 比率 31.780% 上半年銷售按年增長32.4%，淨虧損按年收窄25.6%，兩者均遜市場預期。該行在業績後修訂預測，並將目標價由180.9元下調至177.8元。維持「跑贏大市」評級。 報告指，康方生物正推進一批新穎臨床資源，包括第二代免疫腫瘤(I/O)及ADC產品組合、mRNA癌症疫苗，以及針對阿爾茨海默病的Aβ/TfR抗體。(ha/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》里昂：中國醫療保健授權交易動能增強 維持對行業正面看法 AASTOCKS新聞",
+      "institutionOwnership": "Chinese-controlled international brokerage"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://iis.aastocks.com/20260930/12353049-0.PDF",
+      "date": "2026-09-30",
+      "type": "primary_issuer_interim_report_mirrored"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1547010/research-report",
+      "date": "2026-09-29",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1544291/research-report",
+      "date": "2026-09-14",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1544352/research-report",
+      "date": "2026-09-14",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1547156/research-report",
+      "date": "2026-09-30",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/09926/AAFN/NOW.1542128/research-report",
+      "date": "2026-08-31",
+      "type": "financial_news_secondary"
+    }
+  ],
+  "globalRoyaltyModel": {
+    "salesYears": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039,
+      2040,
+      2041,
+      2042
+    ],
+    "salesUSDbn": {
+      "lung": [
+        [
+          0,
+          0,
+          0.4,
+          0.9,
+          1.3,
+          1.6,
+          1.8,
+          1.9,
+          1.9,
+          1.8,
+          1.7,
+          1.5,
+          1.2,
+          0.9,
+          0.6,
+          0.3
+        ],
+        [
+          0,
+          0.5,
+          1.6,
+          3.5,
+          5.5,
+          7.5,
+          9,
+          10,
+          10.5,
+          10.5,
+          10,
+          9,
+          8,
+          6.5,
+          5,
+          3
+        ],
+        [
+          0.7,
+          2,
+          4.5,
+          7.5,
+          11,
+          14,
+          16,
+          18,
+          19,
+          19,
+          18,
+          17,
+          15,
+          12,
+          9,
+          6
+        ]
+      ],
+      "nonLung": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.4,
+          0.4,
+          0.35,
+          0.3,
+          0.25,
+          0.2,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0.3,
+          0.8,
+          1.5,
+          2.5,
+          3.5,
+          4.5,
+          5,
+          5,
+          4.5,
+          4,
+          3.2,
+          2.5,
+          1.5
+        ],
+        [
+          0,
+          0,
+          0.3,
+          1,
+          2.5,
+          5,
+          7.5,
+          10,
+          12,
+          13,
+          13,
+          12,
+          11,
+          9,
+          7,
+          5
+        ]
+      ]
+    },
+    "royaltyRate": [
+      0.1,
+      0.15,
+      0.18
+    ],
+    "royaltyTax": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "WACC": [
+      0.14,
+      0.11,
+      0.095
+    ],
+    "terminalValue": 0,
+    "otherPipelineValue": 0,
+    "method": "2027—2042逐年授权销售现金流，风险调整只用于收入，不用单一成功率覆盖全部适应症；目标日前现金不重新计入rNPV；净现金独立快照假设",
+    "cashFlowTiming": "每年12月31日，目标日后现金按ACT/365.25折现；目标日前现金不重复计入未来rNPV"
+  },
+  "assumptions": {
+    "currency": "USDCNY6.8、CNYHKD1.10明确假设，非历史即期核验",
+    "rights": "肺癌/非肺癌海外依沃西经济权益用假设版税表达；实际地区权利、分成率及开发责任尚未完全核验",
+    "success": "肺癌成熟中国/国际三期和FDA受理证据使基准权重较高；非肺癌较早且异质故较低，数值为研究判断非临床历史频率",
+    "domesticProfit": "去除海外版税、一次授权/里程碑、银行利息、Summit投资盈亏，计入本土研发、税及股份成本；仍需产品拆分验证",
+    "cash": "历史广义9160m减计息4964.908m得到4195.092m作起点，目标时点净现金按投入和现金假设更新；不能当期点现金",
+    "dividend": "零现金股息，未来未知不补造",
+    "milestones": "未加入未核验分药物里程碑，其他早期管线价值零，避免虚构精确拆分",
+    "refresh": "输入改动须按单套活动模型重跑三情景"
+  },
+  "confidence": "medium-low",
+  "limitations": [
+    "海外分成率、具体权益和成本未逐合同原文完成核验，版税区间明确属于假设",
+    "非肺癌模块聚合了不同早期适应症，未满足完整逐适应症验收",
+    "国内产品利润未分别披露，采用经营利润×PE交叉模块而非宣称产品DCF已完成",
+    "目标净现金与研发储备需未来现金计划验证；成功率、销售峰值及折现率敏感",
+    "行业相对强弱缺失"
+  ]
+}

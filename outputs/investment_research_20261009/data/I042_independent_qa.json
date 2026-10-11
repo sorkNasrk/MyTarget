@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": 143911,
+  "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
+  "independentAtomicRebuild": true,
+  "inputEdits": 28,
+  "sensitivityCases": 11,
+  "scope": "3cases16years8riskassets5horizons; raw-input independent calculations, cached results, cash/rights/options boundaries, sourceCutoff and score/weights"
+}

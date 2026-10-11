@@ -1,0 +1,4734 @@
+{
+  "issuerId": "I081",
+  "securityId": "S092",
+  "name": "比亚迪电子",
+  "code": "00285.HK",
+  "asOf": "2026-10-09",
+  "price": 23.16,
+  "currency": "HKD",
+  "basePriceValid": true,
+  "rankEligible": true,
+  "marketVersion": "market-v1.6",
+  "modelVersion": "byde-sixProduct-fullEconomic-profit-cash-v1.0",
+  "status": "独立初版待QA",
+  "method": "六研究业务产品收入毛利、完整营销行政研发、正常补助与有限财资、银行租息和税；目标NTM PE，无额外现金NAV；理财赎回和短债资金桥",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究换算假设，非核验即期"
+  },
+  "fxValue": 1.1,
+  "annualInputs": {
+    "bear": {
+      "component": [
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "assembly": [
+        112,
+        110,
+        108,
+        106,
+        104,
+        102,
+        100
+      ],
+      "vehicle": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "server": [
+        1.2,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5
+      ],
+      "cooling": [
+        0.8,
+        1.3,
+        1.7,
+        2,
+        2.3,
+        2.5,
+        2.7
+      ],
+      "power": [
+        0.2,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "componentGM": [
+        0.095,
+        0.1,
+        0.1,
+        0.095,
+        0.09,
+        0.085,
+        0.08
+      ],
+      "assemblyGM": [
+        0.028,
+        0.028,
+        0.028,
+        0.028,
+        0.028,
+        0.028,
+        0.028
+      ],
+      "vehicleGM": [
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065
+      ],
+      "serverGM": [
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "coolingGM": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "powerGM": [
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "selling": [
+        1.6,
+        1.65,
+        1.7,
+        1.75,
+        1.8,
+        1.85,
+        1.9
+      ],
+      "admin": [
+        1.4,
+        1.45,
+        1.5,
+        1.55,
+        1.6,
+        1.65,
+        1.7
+      ],
+      "RD": [
+        4.1,
+        4.15,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6
+      ],
+      "grant": [
+        0.6,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "other": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "cashRate": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "productRate": [
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022
+      ],
+      "bankRate": [
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ],
+      "leaseInterest": [
+        0.08,
+        0.085,
+        0.09,
+        0.095,
+        0.1,
+        0.105,
+        0.11
+      ],
+      "tax": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "DA": [
+        6.5,
+        6.6,
+        6.8,
+        7.1,
+        7.5,
+        7.9,
+        8.3
+      ],
+      "SBC": [
+        0.13,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "NWC": [
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "capex": [
+        4.6,
+        4,
+        3.8,
+        3.6,
+        3.5,
+        3.5,
+        3.5
+      ],
+      "leaseCash": [
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "newBank": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "bankRepay": [
+        7,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "productPurchase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "productRedeem": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "trustBuybackCash": [
+        0,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "newEmployeeShares": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "payout": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "base": {
+      "component": [
+        26,
+        28,
+        31,
+        34,
+        37,
+        40,
+        43
+      ],
+      "assembly": [
+        116,
+        122,
+        128,
+        134,
+        140,
+        146,
+        152
+      ],
+      "vehicle": [
+        28.5,
+        32,
+        37,
+        42,
+        47,
+        52,
+        57
+      ],
+      "server": [
+        1.5,
+        3,
+        4.5,
+        6,
+        8,
+        10,
+        12
+      ],
+      "cooling": [
+        1.2,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19
+      ],
+      "power": [
+        0.3,
+        1,
+        2.5,
+        4,
+        6,
+        8,
+        10
+      ],
+      "componentGM": [
+        0.12,
+        0.16,
+        0.175,
+        0.18,
+        0.18,
+        0.18,
+        0.18
+      ],
+      "assemblyGM": [
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "vehicleGM": [
+        0.09,
+        0.09,
+        0.09,
+        0.09,
+        0.09,
+        0.09,
+        0.09
+      ],
+      "serverGM": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "coolingGM": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "powerGM": [
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18
+      ],
+      "selling": [
+        1.6,
+        1.7,
+        1.85,
+        2,
+        2.15,
+        2.3,
+        2.45
+      ],
+      "admin": [
+        1.4,
+        1.5,
+        1.65,
+        1.8,
+        1.95,
+        2.1,
+        2.25
+      ],
+      "RD": [
+        4.1,
+        4.5,
+        5,
+        5.6,
+        6.2,
+        6.8,
+        7.4
+      ],
+      "grant": [
+        0.6,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "other": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "cashRate": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "productRate": [
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022
+      ],
+      "bankRate": [
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022
+      ],
+      "leaseInterest": [
+        0.08,
+        0.085,
+        0.09,
+        0.095,
+        0.1,
+        0.105,
+        0.11
+      ],
+      "tax": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "DA": [
+        6.5,
+        6.6,
+        6.8,
+        7.1,
+        7.5,
+        7.9,
+        8.3
+      ],
+      "SBC": [
+        0.13,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "NWC": [
+        6,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5
+      ],
+      "capex": [
+        4.8,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8
+      ],
+      "leaseCash": [
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "newBank": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "bankRepay": [
+        7,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "productPurchase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "productRedeem": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "trustBuybackCash": [
+        0,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "newEmployeeShares": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "payout": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "bull": {
+      "component": [
+        27,
+        32,
+        38,
+        45,
+        52,
+        59,
+        66
+      ],
+      "assembly": [
+        118,
+        130,
+        144,
+        158,
+        172,
+        186,
+        200
+      ],
+      "vehicle": [
+        29,
+        36,
+        45,
+        54,
+        63,
+        72,
+        81
+      ],
+      "server": [
+        1.8,
+        5,
+        9,
+        14,
+        20,
+        27,
+        34
+      ],
+      "cooling": [
+        1.5,
+        7,
+        14,
+        22,
+        31,
+        41,
+        52
+      ],
+      "power": [
+        0.5,
+        2,
+        6,
+        11,
+        17,
+        24,
+        32
+      ],
+      "componentGM": [
+        0.13,
+        0.18,
+        0.2,
+        0.21,
+        0.21,
+        0.21,
+        0.21
+      ],
+      "assemblyGM": [
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04
+      ],
+      "vehicleGM": [
+        0.105,
+        0.105,
+        0.105,
+        0.105,
+        0.105,
+        0.105,
+        0.105
+      ],
+      "serverGM": [
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065,
+        0.065
+      ],
+      "coolingGM": [
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28
+      ],
+      "powerGM": [
+        0.22,
+        0.22,
+        0.22,
+        0.22,
+        0.22,
+        0.22,
+        0.22
+      ],
+      "selling": [
+        1.65,
+        1.85,
+        2.15,
+        2.5,
+        2.85,
+        3.2,
+        3.55
+      ],
+      "admin": [
+        1.45,
+        1.7,
+        2,
+        2.35,
+        2.7,
+        3.05,
+        3.4
+      ],
+      "RD": [
+        4.2,
+        5.1,
+        6.2,
+        7.4,
+        8.7,
+        10.1,
+        11.6
+      ],
+      "grant": [
+        0.6,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "other": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "cashRate": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "productRate": [
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022,
+        0.022
+      ],
+      "bankRate": [
+        0.019,
+        0.019,
+        0.019,
+        0.019,
+        0.019,
+        0.019,
+        0.019
+      ],
+      "leaseInterest": [
+        0.08,
+        0.085,
+        0.09,
+        0.095,
+        0.1,
+        0.105,
+        0.11
+      ],
+      "tax": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "DA": [
+        6.5,
+        6.6,
+        6.8,
+        7.1,
+        7.5,
+        7.9,
+        8.3
+      ],
+      "SBC": [
+        0.13,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "NWC": [
+        6,
+        3,
+        4,
+        5.5,
+        7,
+        8.5,
+        10
+      ],
+      "capex": [
+        5,
+        6.5,
+        8,
+        9.5,
+        11,
+        12.5,
+        14
+      ],
+      "leaseCash": [
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "newBank": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "bankRepay": [
+        7,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "productPurchase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "productRedeem": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "trustBuybackCash": [
+        0,
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3
+      ],
+      "newEmployeeShares": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "payout": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "marketRecognitionFactor": [
+        0.6,
+        0.5,
+        0.4
+      ],
+      "cases": [
+        {
+          "key": "bear",
+          "PE": 10,
+          "condition": "旺季低于预期、FX和组件低毛利延续",
+          "price": 11.0343231273781,
+          "intrinsicPrice": 2.950538545630167,
+          "eps": 0.2682307768754697,
+          "dividend": 0,
+          "revenue": 164.7013698630137,
+          "normalProfit": 0.6043787934943042,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.9972602739726028,
+          "cashAtTarget": 8.6785164192,
+          "productsAtTarget": 5.261367,
+          "bankAtTarget": 7.079913,
+          "priceReturnPct": -52.3561177574348,
+          "totalReturnPct": -52.3561177574348
+        },
+        {
+          "key": "base",
+          "PE": 14,
+          "condition": "Q4冷板爬坡、组件恢复不再恶化，2027利润修复获初步认可",
+          "price": 28.56937786833098,
+          "intrinsicPrice": 33.97875573666196,
+          "eps": 2.206412710172854,
+          "dividend": 0,
+          "revenue": 189.95479452054795,
+          "normalProfit": 4.97149904741867,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.9972602739726028,
+          "cashAtTarget": 10.968902228800003,
+          "productsAtTarget": 5.261367,
+          "bankAtTarget": 7.079913,
+          "priceReturnPct": 23.356553835626002,
+          "totalReturnPct": 23.356553835626002
+        },
+        {
+          "key": "bull",
+          "PE": 17,
+          "condition": "海外组件规格改善、液冷产能和良率超预期",
+          "price": 40.539551739424745,
+          "intrinsicPrice": 66.60887934856186,
+          "eps": 3.561972157677104,
+          "dividend": 0,
+          "revenue": 211.90630136986303,
+          "normalProfit": 8.02585169455276,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.9972602739726028,
+          "cashAtTarget": 12.102756006949999,
+          "productsAtTarget": 5.261367,
+          "bankAtTarget": 7.079913,
+          "priceReturnPct": 75.04124239820702,
+          "totalReturnPct": 75.04124239820702
+        }
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPrice": 27.178157650866204,
+      "expectedReturnPct": 17.349558078006066,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 22.752373359059206,
+        "positivePrice": 31.603941942673202
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "marketRecognitionFactor": [
+        1,
+        1,
+        1
+      ],
+      "cases": [
+        {
+          "key": "bear",
+          "PE": 10,
+          "condition": "客户改规格和芯片成本持续压缩毛利，AI小规模",
+          "price": 2.822292280226094,
+          "intrinsicPrice": 2.822292280226093,
+          "eps": 0.25657202547509933,
+          "dividend": 0,
+          "revenue": 164.43150684931507,
+          "normalProfit": 0.5781092423746084,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.2684931506849315,
+          "cashAtTarget": 9.353097558002043,
+          "productsAtTarget": 4.724380698630137,
+          "bankAtTarget": 6.811419849315069,
+          "priceReturnPct": -87.81393661387698,
+          "totalReturnPct": -87.81393661387698
+        },
+        {
+          "key": "base",
+          "PE": 14,
+          "condition": "2026现金、毛利与2027订单兑现，市场验证费用及产能",
+          "price": 37.05137645539091,
+          "intrinsicPrice": 37.05137645539091,
+          "eps": 2.4059335360643446,
+          "dividend": 0,
+          "revenue": 195.36986301369865,
+          "normalProfit": 5.421060270161093,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.2684931506849315,
+          "cashAtTarget": 11.991915283126307,
+          "productsAtTarget": 4.724380698630137,
+          "bankAtTarget": 6.811419849315069,
+          "priceReturnPct": 59.980036508596314,
+          "totalReturnPct": 59.980036508596314
+        },
+        {
+          "key": "bull",
+          "PE": 18,
+          "condition": "液冷高速放量、组件高端化、汽车价值量同步提高",
+          "price": 80.24122543460342,
+          "intrinsicPrice": 80.24122543460342,
+          "eps": 4.052587143161789,
+          "dividend": 0,
+          "revenue": 223.813698630137,
+          "normalProfit": 9.131307587614288,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.2684931506849315,
+          "cashAtTarget": 13.276893823926448,
+          "productsAtTarget": 4.724380698630137,
+          "bankAtTarget": 6.811419849315069,
+          "priceReturnPct": 246.46470394906487,
+          "totalReturnPct": 246.46470394906487
+        }
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPrice": 39.29156765640283,
+      "expectedReturnPct": 69.65271008809512,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 27.678727683246237,
+        "positivePrice": 50.90440762955943
+      }
+    },
+    "oneYear": {
+      "target": "2027-10-07",
+      "marketRecognitionFactor": [
+        1,
+        1,
+        1
+      ],
+      "cases": [
+        {
+          "key": "bear",
+          "PE": 10,
+          "condition": "消费终端周期无恢复、汽车压价、AI高成本认证",
+          "price": 2.5894000586784998,
+          "intrinsicPrice": 2.5894000586785,
+          "eps": 0.2354000053344091,
+          "dividend": 0.03733111047488144,
+          "revenue": 163.93561643835616,
+          "normalProfit": 0.5304043513195146,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7643835616438356,
+          "cashAtTarget": 10.599007620483366,
+          "productsAtTarget": 3.732599876712329,
+          "bankAtTarget": 6.315529438356164,
+          "priceReturnPct": -88.8195161542379,
+          "totalReturnPct": -88.65832828517539
+        },
+        {
+          "key": "base",
+          "PE": 14,
+          "condition": "核心组件、汽车利润与AI实际毛利形成新正常盈利",
+          "price": 42.66679392137097,
+          "intrinsicPrice": 42.66679392137097,
+          "eps": 2.7705710338552576,
+          "dividend": 0.3178203000819501,
+          "revenue": 205.2876712328767,
+          "normalProfit": 6.242663121052319,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7643835616438356,
+          "cashAtTarget": 13.881357761014684,
+          "productsAtTarget": 3.732599876712329,
+          "bankAtTarget": 6.315529438356164,
+          "priceReturnPct": 84.2262259126553,
+          "totalReturnPct": 85.59850700109205
+        },
+        {
+          "key": "bull",
+          "PE": 18,
+          "condition": "新产品供应链份额与高压电源认证交付成功",
+          "price": 98.02946988836912,
+          "intrinsicPrice": 98.02946988836912,
+          "eps": 4.950983327695409,
+          "dividend": 0.560070092133781,
+          "revenue": 245.63287671232877,
+          "normalProfit": 11.15557791338827,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7643835616438356,
+          "cashAtTarget": 15.445454485893155,
+          "productsAtTarget": 3.732599876712329,
+          "bankAtTarget": 6.315529438356164,
+          "priceReturnPct": 323.2705953729237,
+          "totalReturnPct": 325.6888600194426
+        }
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPrice": 46.48811444744739,
+      "expectedReturnPct": 100.7258827609991,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 32.172103972993796,
+        "positivePrice": 60.804124921900986
+      }
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "marketRecognitionFactor": [
+        1,
+        1,
+        1
+      ],
+      "cases": [
+        {
+          "key": "bear",
+          "PE": 9,
+          "condition": "OEM议价与国内外同行竞争抹平技术价差",
+          "price": 0.5118103320402199,
+          "intrinsicPrice": 0.5118103320402204,
+          "eps": 0.051698013337396,
+          "dividend": 0.09160243754672137,
+          "revenue": 161.7531506849315,
+          "normalProfit": 0.11648619629288068,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 14.537890054606438,
+          "productsAtTarget": 1.4915039863013697,
+          "bankAtTarget": 4.310049986301371,
+          "priceReturnPct": -97.79011082884188,
+          "totalReturnPct": -97.39459080489232,
+          "annualizedTotalReturnPct": -70.35450903497868
+        },
+        {
+          "key": "base",
+          "PE": 13,
+          "condition": "液冷电源规模与汽车电子延伸，成熟组装稳定",
+          "price": 57.331804404948656,
+          "intrinsicPrice": 57.33180440494866,
+          "eps": 4.009217091255151,
+          "dividend": 1.451332835883224,
+          "revenue": 246.16712328767122,
+          "normalProfit": 9.033585991493016,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 20.80562008347324,
+          "productsAtTarget": 1.4915039863013697,
+          "bankAtTarget": 4.310049986301371,
+          "priceReturnPct": 147.54665114399245,
+          "totalReturnPct": 153.81320052172657,
+          "annualizedTotalReturnPct": 36.407443150410316
+        },
+        {
+          "key": "bull",
+          "PE": 17,
+          "condition": "系统产品、高速互联和海外客户转化成高利润",
+          "price": 165.98398339884878,
+          "intrinsicPrice": 165.98398339884878,
+          "eps": 8.876148844858223,
+          "dividend": 3.0196723726749752,
+          "revenue": 343.2630136986302,
+          "normalProfit": 19.99977851990435,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 24.497069534784313,
+          "productsAtTarget": 1.4915039863013697,
+          "bankAtTarget": 4.310049986301371,
+          "priceReturnPct": 616.6838661435612,
+          "totalReturnPct": 629.7221751792908,
+          "annualizedTotalReturnPct": 93.96312892468104
+        }
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPrice": 70.28985063519659,
+      "expectedReturnPct": 203.4967644006761,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 45.46902467517529,
+        "positivePrice": 95.11067659521785
+      }
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "marketRecognitionFactor": [
+        1,
+        1,
+        1
+      ],
+      "cases": [
+        {
+          "key": "bear",
+          "PE": 8,
+          "condition": "技术规格淘汰、资本开支持续而低回报",
+          "price": 0,
+          "intrinsicPrice": 0,
+          "eps": -0.1680817691101948,
+          "dividend": 0.1086249218836033,
+          "revenue": 159.37616438356164,
+          "normalProfit": -0.37872259852705187,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 18.382057791455626,
+          "productsAtTarget": 0.2613669999999999,
+          "bankAtTarget": 2.31004998630137,
+          "priceReturnPct": -100,
+          "totalReturnPct": -99.5309804754594,
+          "annualizedTotalReturnPct": -65.78329508786294
+        },
+        {
+          "key": "base",
+          "PE": 12,
+          "condition": "全链制造通过迭代维持客户、正常每股利润和分红",
+          "price": 68.73653421781454,
+          "intrinsicPrice": 68.73653421781454,
+          "eps": 5.207313198319283,
+          "dividend": 3.14477562570472,
+          "revenue": 288.16712328767125,
+          "normalProfit": 11.7331415313624,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 28.256155466603722,
+          "productsAtTarget": 0.2613669999999999,
+          "bankAtTarget": 2.31004998630137,
+          "priceReturnPct": 196.7898714067985,
+          "totalReturnPct": 210.36834992883965,
+          "annualizedTotalReturnPct": 25.42250932945038
+        },
+        {
+          "key": "bull",
+          "PE": 16,
+          "condition": "高价值功能模块和完整系统形成规模、供应链持续竞争力",
+          "price": 234.34389379306248,
+          "intrinsicPrice": 234.34389379306248,
+          "eps": 13.314993965514912,
+          "dividend": 7.6050771751511945,
+          "revenue": 452.1123287671233,
+          "normalProfit": 30.00140432057104,
+          "dilutedSharesBn": 2.2532045,
+          "NTMFractionNextYear": 0.7698630136986301,
+          "cashAtTarget": 35.734574328231986,
+          "productsAtTarget": 0.2613669999999999,
+          "bankAtTarget": 2.31004998630137,
+          "priceReturnPct": 911.8475552377482,
+          "totalReturnPct": 944.6846760285565,
+          "annualizedTotalReturnPct": 59.8810695423935
+        }
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPrice": 92.95424055717288,
+      "expectedReturnPct": 301.3568245128362,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 57.802656488213515,
+        "positivePrice": 128.10582462613226
+      }
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.3,
+        2.7,
+        3.3,
+        3.5,
+        4,
+        2.8
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 63.2,
+      "evidence": [
+        "基准依赖组件恢复，TTM PE较高而非行情低倍",
+        "单日量比1.54但仍低所有日均线，周线下降",
+        "全制造链可复用、当前利润低且混合结构不利",
+        "手机低迷、汽车压价，液冷早期成长",
+        "Q4冷板和2027新品验证有期限可检查",
+        "现金消耗与一年关联短债，融资条件有限"
+      ],
+      "confidence": "中；现价与三年量价双源高、财报高、细分毛利和AI未来兑现中低"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.5,
+        2.7,
+        3.6,
+        3.8,
+        4,
+        2.8
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 68.6,
+      "evidence": [
+        "14倍NTM有空间，但收入毛利预测须验证",
+        "观察突破24.2后回踩、技术尚未独立确认",
+        "费用研发完整，组件/汽车/冷板毛利影响大",
+        "存储涨价和智能化/AI周期分化",
+        "海外新品、液冷电源认证、正常现金恢复",
+        "关联客户集中、理财赎回和债息完整"
+      ],
+      "confidence": "中；现价与三年量价双源高、财报高、细分毛利和AI未来兑现中低"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.6,
+        2.7,
+        3.8,
+        4,
+        3.7,
+        2.8
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 72.6,
+      "evidence": [
+        "13倍逐步成熟、经营增长主要收益",
+        "当前K线不外推多年",
+        "制造良率研发与客户认证，有同业争夺",
+        "汽车智能化与数据中心热管理结构需求",
+        "高压电源/系统交付需正式定单",
+        "短债滚动、资本开支回报、母公司控制"
+      ],
+      "confidence": "中；现价与三年量价双源高、财报高、细分毛利和AI未来兑现中低"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.4,
+        2.7,
+        3.7,
+        3.9,
+        3.4,
+        2.8
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 70.60000000000001,
+      "evidence": [
+        "成熟12倍与现金股息，不设AI无限估值",
+        "技术零权重",
+        "持续规格升级能力有价值但OEM议价强",
+        "架构变化、地域重构，AI能源需求持续",
+        "新代产品而非单一代冷板成长",
+        "关联治理、资金配置和技术淘汰"
+      ],
+      "confidence": "中；现价与三年量价双源高、财报高、细分毛利和AI未来兑现中低"
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "thousand",
+    "revenue": 179477404,
+    "cost": 168720739,
+    "gross": 10756665,
+    "other": 1201759,
+    "grant": 767504,
+    "RD": 4464997,
+    "selling": 1878319,
+    "admin": 1649294,
+    "ECLreversal": 55807,
+    "financialDisposalLoss": 42000,
+    "otherExpense": 455478,
+    "finance": 370306,
+    "borrowInterest": 294233,
+    "leaseInterest": 76073,
+    "pretax": 3921341,
+    "tax": 406769,
+    "parent": 3514572,
+    "EPS": 1.56,
+    "parent2024": 4265638,
+    "parent2023": 4041374,
+    "revenue2024": 177305549,
+    "revenue2023": 129956992,
+    "OCF": 18768443,
+    "OCF2024": 6713671,
+    "capexPPE": 4082575,
+    "capexLand": 4493,
+    "capexIntangible": 1092,
+    "leaseCash": 588824,
+    "interestPaid": 221148,
+    "dividendCash": 1279820,
+    "trustBuybackCash": 208005,
+    "SBC": 66488,
+    "DA": 6161426,
+    "shareTrustHeld": 7096000,
+    "publicationTime": "27/03/2026 19:36 results;22/04/2026 16:56 annual",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf"
+  },
+  "interim": {
+    "period": "H12026",
+    "currency": "CNY",
+    "unit": "thousand",
+    "revenue": 82234197,
+    "cost": 78197621,
+    "gross": 4036576,
+    "other": 385529,
+    "grant": 473690,
+    "RD": 1963705,
+    "selling": 773815,
+    "admin": 727448,
+    "ECL": 2546,
+    "financialDisposalLoss": 22492,
+    "otherExpense": 796895,
+    "FXLoss": 701912,
+    "finance": 128052,
+    "pretax": 480842,
+    "tax": 54510,
+    "parent": 426332,
+    "parentPrior": 1729777,
+    "revenuePrior": 80605678,
+    "grossPrior": 5542965,
+    "EPS": 0.19,
+    "OCF": 844007,
+    "OCFPrior": 10002148,
+    "restrictedRelease": 2806980,
+    "OCFExRestrictedRelease": -1962973,
+    "capexPPE": 2466597,
+    "capexLand": 26613,
+    "capexIntangible": 12,
+    "leaseCash": 293174,
+    "interestPaid": 171643,
+    "DA": 3297376,
+    "SBC": 60518,
+    "cash": 5474767,
+    "productsFVTPL": 8261367,
+    "restricted": 2769,
+    "bankDebt": 7079913,
+    "relatedBankDebt": 7076000,
+    "relatedInterestLow": 0.0178,
+    "relatedInterestHigh": 0.019,
+    "lease": 1768440,
+    "receivable": 17235017,
+    "receivablePrior": 14893165,
+    "relatedReceivable": 9586024,
+    "inventory": 20947957,
+    "inventoryPrior": 18481951,
+    "payable": 27735026,
+    "payablePrior": 29476037,
+    "relatedPayable": 13460449,
+    "capitalCommit": 407839,
+    "equity": 34480951,
+    "goodwill": 4361657,
+    "relatedSalesInventory": 13303536,
+    "componentRevenueRounded": 11912000,
+    "assemblyRevenueRounded": 55950000,
+    "vehicleRevenueRounded": 13619000,
+    "AIRevenueRounded": 753000,
+    "AIPct": 0.0092,
+    "AIgrowth": -0.1057,
+    "weightedShares": 2246108500,
+    "publicationTime": "28/08/2026 17:49 results and17:55 report;after close",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801253.pdf"
+  },
+  "shares": {
+    "legal": 2253204500,
+    "legalTreasury": 0,
+    "accountingWeightedH1": 2246108500,
+    "trustHeldAtFY2025": 7096000,
+    "basis": "保守全法律股数；信托购股用于员工而非注销，不持续减经济股数；2025信托资金已在2026六月现金；未来信托购股显式扣现金、未来新股假设为0"
+  },
+  "dividend": {
+    "FY2025CNY": 0.156,
+    "FY2025HKD": 0.17928,
+    "exDate": "2026-06-11",
+    "recordDate": "2026-06-18",
+    "paymentDate": "2026-07-31",
+    "H12026": 0,
+    "alreadyExcluded": true,
+    "futurePolicy": "研究假设每年7月31日派前年正常利润10/20/25%；半年无、一年1、三年3、五年5次"
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 23.183,
+      "60": 23.885333,
+      "120": 24.725086,
+      "250": 29.297299
+    },
+    "maSlope5Pct": {
+      "20": -2.288628,
+      "60": 0.180351,
+      "120": -0.808312,
+      "250": -1.201906
+    },
+    "priceVsMAPct": {
+      "20": -0.099211,
+      "60": -3.036731,
+      "120": -6.329953,
+      "250": -20.948343
+    },
+    "returnPct": {
+      "20": -3.900415,
+      "60": -1.278768,
+      "120": -17.588095,
+      "250": -47.090362
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 44.289115,
+    "low52w": 20.1,
+    "distanceFrom52wHighPct": -47.707241,
+    "distanceFrom52wLowPct": 15.223881,
+    "maxDrawdown52wPct": -53.62411,
+    "RSI14": 48.021703,
+    "ATR14": 0.964448,
+    "ATR14Pct": 4.164285,
+    "MACD": {
+      "DIF": -0.299563,
+      "DEA": -0.304832,
+      "histogram": 0.010537,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 6363068.4,
+      "20": 6788424.7,
+      "60": 10460973.667
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.542403,
+    "previous20MeanVolume": 6735695.2,
+    "upDownVolume20": {
+      "upVolume": 60501840,
+      "downVolume": 70866835,
+      "flatVolume": 4399819,
+      "upDays": 8,
+      "downDays": 11,
+      "ratio": 0.85374
+    },
+    "ranges": {
+      "20": {
+        "support": 22.1,
+        "resistance": 24.200001,
+        "toSupportPct": -4.576857,
+        "toResistancePct": 4.490505,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 22.1,
+        "resistance": 27.52,
+        "toSupportPct": -4.576857,
+        "toResistancePct": 18.825561,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "趋势交错/震荡",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 23.95487,
+      "60": 30.467145,
+      "120": 32.984406,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -3.72476,
+      "60": -3.184262,
+      "120": -1.399707,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -3.318196,
+      "60": -23.983688,
+      "120": -29.785002,
+      "250": null
+    },
+    "returnPct": {
+      "20": -11.321027,
+      "60": -42.156328,
+      "120": -38.886588,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 41.766824,
+    "low52w": 20.1,
+    "distanceFrom52wHighPct": -44.549291,
+    "distanceFrom52wLowPct": 15.223881,
+    "maxDrawdown52wPct": -44.153807,
+    "RSI14": 41.089095,
+    "ATR14": 2.434922,
+    "ATR14Pct": 10.513479,
+    "MACD": {
+      "DIF": -1.484653,
+      "DEA": -1.729256,
+      "histogram": 0.489205,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 37264335.4,
+      "20": 58094576.65,
+      "60": 68985502.15
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.543521,
+    "previous20MeanVolume": 58535660.45,
+    "upDownVolume20": {
+      "upVolume": 543490973,
+      "downVolume": 618400560,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.878866
+    },
+    "ranges": {
+      "20": {
+        "support": 20.1,
+        "resistance": 30.942801,
+        "toSupportPct": -13.212435,
+        "toResistancePct": 33.604495,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 20.1,
+        "resistance": 46.374478,
+        "toSupportPct": -13.212435,
+        "toResistancePct": 100.235225,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -0.922507,
+    "excess60Pct": 1.909135,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -0.837251,
+    "industryExcess60Pct": 11.889251
+  },
+  "lastVolumeShares": 10389158,
+  "lastTurnoverAmount": 235979964.02,
+  "volumeMetricsUsable": true,
+  "volumeChartsPermitted": true,
+  "marketWarnings": [],
+  "confidence": "中；现价与三年量价双源高、财报高、细分毛利和AI未来兑现中低",
+  "limits": [
+    "法定经营分部仅一个；六业务收入/毛利为研究预测拆分，非公司已披露分部利润；H1 rounded分类不补造精确分部。",
+    "H1财务未列融资成本租息分拆，现金桥H1租息0.040bn是约半2025费用的假设；历史现金使用已报OCF并独立说明。",
+    "理财赎回不新增NAV，利息已在PE；借贷利息按应计近似现金，短债续借是条件非承诺。",
+    "H1OCF包含2.80698bn受限释放已入六月现金，不再年化或再次加入。",
+    "2029/2031休市日历尚未公布，需未来核此前最后交易日。"
+  ],
+  "sources": [
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "MONTHLY RETURN OF EQUITY ISSUER ON MOVEMENTS IN SECURITIES FOR THE MONTH ENDED 30 SEPTEMBER 2026",
+      "publicationTime": "01/10/2026 18:55",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1001/2026100100071.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1001/2026100100071.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12354859.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "2026 INTERIM REPORT",
+      "publicationTime": "28/08/2026 17:55",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801253.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801253.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12304877.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "2026 INTERIM RESULTS ANNOUNCEMENT",
+      "publicationTime": "28/08/2026 17:49",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801217.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801217.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12304841.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025(UPDATE)",
+      "publicationTime": "09/06/2026 19:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060901198.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060901198.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12196681.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "ANNUAL REPORT 2025",
+      "publicationTime": "22/04/2026 16:56",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12115456.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025(UPDATE)",
+      "publicationTime": "22/04/2026 16:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200626.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200626.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12115334.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "27/03/2026 20:00",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702232.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702232.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12073375.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT THE 2025 SHARE AWARD SCHEME NON-SATISFACTION OF THE FIRST UNLOCKING CONDITION",
+      "publicationTime": "27/03/2026 19:54",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702174.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702174.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12073317.PDF"
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT\nFOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "27/03/2026 19:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702072.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702072.pdf",
+      "sourceType": "HKEX official",
+      "financialCurrency": "CNY",
+      "unit": "thousand except shares and dividend per share",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/tech_raw/00285_12073215.PDF"
+    }
+  ],
+  "deepResearchFile": "research/byde_deep.md",
+  "qaFile": "qa/byde_qa.json",
+  "bydeBridge": {
+    "inputs": {
+      "bear": {
+        "component": [
+          24,
+          23,
+          22,
+          21,
+          20,
+          19,
+          18
+        ],
+        "assembly": [
+          112,
+          110,
+          108,
+          106,
+          104,
+          102,
+          100
+        ],
+        "vehicle": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "server": [
+          1.2,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5
+        ],
+        "cooling": [
+          0.8,
+          1.3,
+          1.7,
+          2,
+          2.3,
+          2.5,
+          2.7
+        ],
+        "power": [
+          0.2,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9
+        ],
+        "componentGM": [
+          0.095,
+          0.1,
+          0.1,
+          0.095,
+          0.09,
+          0.085,
+          0.08
+        ],
+        "assemblyGM": [
+          0.028,
+          0.028,
+          0.028,
+          0.028,
+          0.028,
+          0.028,
+          0.028
+        ],
+        "vehicleGM": [
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065
+        ],
+        "serverGM": [
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "coolingGM": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "powerGM": [
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "selling": [
+          1.6,
+          1.65,
+          1.7,
+          1.75,
+          1.8,
+          1.85,
+          1.9
+        ],
+        "admin": [
+          1.4,
+          1.45,
+          1.5,
+          1.55,
+          1.6,
+          1.65,
+          1.7
+        ],
+        "RD": [
+          4.1,
+          4.15,
+          4.2,
+          4.3,
+          4.4,
+          4.5,
+          4.6
+        ],
+        "grant": [
+          0.6,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "other": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "cashRate": [
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "productRate": [
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022
+        ],
+        "bankRate": [
+          0.03,
+          0.03,
+          0.03,
+          0.03,
+          0.03,
+          0.03,
+          0.03
+        ],
+        "leaseInterest": [
+          0.08,
+          0.085,
+          0.09,
+          0.095,
+          0.1,
+          0.105,
+          0.11
+        ],
+        "tax": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "DA": [
+          6.5,
+          6.6,
+          6.8,
+          7.1,
+          7.5,
+          7.9,
+          8.3
+        ],
+        "SBC": [
+          0.13,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "NWC": [
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "capex": [
+          4.6,
+          4,
+          3.8,
+          3.6,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "leaseCash": [
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95
+        ],
+        "newBank": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "bankRepay": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "productPurchase": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "productRedeem": [
+          3,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "trustBuybackCash": [
+          0,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "newEmployeeShares": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "payout": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "base": {
+        "component": [
+          26,
+          28,
+          31,
+          34,
+          37,
+          40,
+          43
+        ],
+        "assembly": [
+          116,
+          122,
+          128,
+          134,
+          140,
+          146,
+          152
+        ],
+        "vehicle": [
+          28.5,
+          32,
+          37,
+          42,
+          47,
+          52,
+          57
+        ],
+        "server": [
+          1.5,
+          3,
+          4.5,
+          6,
+          8,
+          10,
+          12
+        ],
+        "cooling": [
+          1.2,
+          4,
+          7,
+          10,
+          13,
+          16,
+          19
+        ],
+        "power": [
+          0.3,
+          1,
+          2.5,
+          4,
+          6,
+          8,
+          10
+        ],
+        "componentGM": [
+          0.12,
+          0.16,
+          0.175,
+          0.18,
+          0.18,
+          0.18,
+          0.18
+        ],
+        "assemblyGM": [
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "vehicleGM": [
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09
+        ],
+        "serverGM": [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        "coolingGM": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerGM": [
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.18
+        ],
+        "selling": [
+          1.6,
+          1.7,
+          1.85,
+          2,
+          2.15,
+          2.3,
+          2.45
+        ],
+        "admin": [
+          1.4,
+          1.5,
+          1.65,
+          1.8,
+          1.95,
+          2.1,
+          2.25
+        ],
+        "RD": [
+          4.1,
+          4.5,
+          5,
+          5.6,
+          6.2,
+          6.8,
+          7.4
+        ],
+        "grant": [
+          0.6,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "other": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "cashRate": [
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "productRate": [
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022
+        ],
+        "bankRate": [
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022
+        ],
+        "leaseInterest": [
+          0.08,
+          0.085,
+          0.09,
+          0.095,
+          0.1,
+          0.105,
+          0.11
+        ],
+        "tax": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "DA": [
+          6.5,
+          6.6,
+          6.8,
+          7.1,
+          7.5,
+          7.9,
+          8.3
+        ],
+        "SBC": [
+          0.13,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "NWC": [
+          6,
+          2,
+          2.5,
+          3,
+          3.5,
+          4,
+          4.5
+        ],
+        "capex": [
+          4.8,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8
+        ],
+        "leaseCash": [
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95
+        ],
+        "newBank": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "bankRepay": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "productPurchase": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "productRedeem": [
+          3,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "trustBuybackCash": [
+          0,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "newEmployeeShares": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "payout": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "bull": {
+        "component": [
+          27,
+          32,
+          38,
+          45,
+          52,
+          59,
+          66
+        ],
+        "assembly": [
+          118,
+          130,
+          144,
+          158,
+          172,
+          186,
+          200
+        ],
+        "vehicle": [
+          29,
+          36,
+          45,
+          54,
+          63,
+          72,
+          81
+        ],
+        "server": [
+          1.8,
+          5,
+          9,
+          14,
+          20,
+          27,
+          34
+        ],
+        "cooling": [
+          1.5,
+          7,
+          14,
+          22,
+          31,
+          41,
+          52
+        ],
+        "power": [
+          0.5,
+          2,
+          6,
+          11,
+          17,
+          24,
+          32
+        ],
+        "componentGM": [
+          0.13,
+          0.18,
+          0.2,
+          0.21,
+          0.21,
+          0.21,
+          0.21
+        ],
+        "assemblyGM": [
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04
+        ],
+        "vehicleGM": [
+          0.105,
+          0.105,
+          0.105,
+          0.105,
+          0.105,
+          0.105,
+          0.105
+        ],
+        "serverGM": [
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065,
+          0.065
+        ],
+        "coolingGM": [
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28
+        ],
+        "powerGM": [
+          0.22,
+          0.22,
+          0.22,
+          0.22,
+          0.22,
+          0.22,
+          0.22
+        ],
+        "selling": [
+          1.65,
+          1.85,
+          2.15,
+          2.5,
+          2.85,
+          3.2,
+          3.55
+        ],
+        "admin": [
+          1.45,
+          1.7,
+          2,
+          2.35,
+          2.7,
+          3.05,
+          3.4
+        ],
+        "RD": [
+          4.2,
+          5.1,
+          6.2,
+          7.4,
+          8.7,
+          10.1,
+          11.6
+        ],
+        "grant": [
+          0.6,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "other": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "cashRate": [
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "productRate": [
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022,
+          0.022
+        ],
+        "bankRate": [
+          0.019,
+          0.019,
+          0.019,
+          0.019,
+          0.019,
+          0.019,
+          0.019
+        ],
+        "leaseInterest": [
+          0.08,
+          0.085,
+          0.09,
+          0.095,
+          0.1,
+          0.105,
+          0.11
+        ],
+        "tax": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "DA": [
+          6.5,
+          6.6,
+          6.8,
+          7.1,
+          7.5,
+          7.9,
+          8.3
+        ],
+        "SBC": [
+          0.13,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "NWC": [
+          6,
+          3,
+          4,
+          5.5,
+          7,
+          8.5,
+          10
+        ],
+        "capex": [
+          5,
+          6.5,
+          8,
+          9.5,
+          11,
+          12.5,
+          14
+        ],
+        "leaseCash": [
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95
+        ],
+        "newBank": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "bankRepay": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "productPurchase": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "productRedeem": [
+          3,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "trustBuybackCash": [
+          0,
+          0.15,
+          0.18,
+          0.21,
+          0.24,
+          0.27,
+          0.3
+        ],
+        "newEmployeeShares": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "payout": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "globals": [
+      {
+        "FX": 1.1,
+        "startCash": 5.474767,
+        "startProducts": 8.261367,
+        "startBank": 7.079913,
+        "startShares": 2.2532045,
+        "H1Profit": 0.426332,
+        "H1DA": 3.297376,
+        "H1SBC": 0.060518,
+        "H1NWC": 5.368401,
+        "H1Capex": 2.493222,
+        "H1LeaseCash": 0.293174,
+        "H1LeaseInterest": 0.04,
+        "knownDividend2026": 0.3515,
+        "minimumCash": 1.5
+      },
+      {
+        "FX": 1.1,
+        "startCash": 5.474767,
+        "startProducts": 8.261367,
+        "startBank": 7.079913,
+        "startShares": 2.2532045,
+        "H1Profit": 0.426332,
+        "H1DA": 3.297376,
+        "H1SBC": 0.060518,
+        "H1NWC": 5.368401,
+        "H1Capex": 2.493222,
+        "H1LeaseCash": 0.293174,
+        "H1LeaseInterest": 0.04,
+        "knownDividend2026": 0.3515,
+        "minimumCash": 1.5
+      },
+      {
+        "FX": 1.1,
+        "startCash": 5.474767,
+        "startProducts": 8.261367,
+        "startBank": 7.079913,
+        "startShares": 2.2532045,
+        "H1Profit": 0.426332,
+        "H1DA": 3.297376,
+        "H1SBC": 0.060518,
+        "H1NWC": 5.368401,
+        "H1Capex": 2.493222,
+        "H1LeaseCash": 0.293174,
+        "H1LeaseInterest": 0.04,
+        "knownDividend2026": 0.3515,
+        "minimumCash": 1.5
+      }
+    ]
+  },
+  "brokerTargets": [
+    {
+      "id": "NOW.1542976",
+      "institution": "星展",
+      "targetPrice": 40,
+      "rating": "买入",
+      "foreign": true,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-09-04 12:49",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1542976/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": false,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    },
+    {
+      "id": "NOW.1542372",
+      "institution": "摩根士丹利",
+      "targetPrice": 33,
+      "rating": "增持",
+      "foreign": true,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-09-01 11:05",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1542372/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": false,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    },
+    {
+      "id": "NOW.1542369",
+      "institution": "花旗",
+      "targetPrice": 28,
+      "rating": "中性",
+      "foreign": true,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-09-01 11:02",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1542369/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": false,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    },
+    {
+      "id": "NOW.1542106",
+      "institution": "富瑞",
+      "targetPrice": 25,
+      "rating": "持有",
+      "foreign": true,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-08-31 13:27",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1542106/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": false,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    },
+    {
+      "id": "NOW.1532112",
+      "institution": "高盛",
+      "targetPrice": 21,
+      "rating": "沽售",
+      "foreign": true,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-07-07 15:49",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1532112/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": true,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    },
+    {
+      "id": "NOW.1521394",
+      "institution": "中银国际",
+      "targetPrice": 37.1,
+      "rating": "买入",
+      "foreign": false,
+      "code": "00285.HK",
+      "currency": "HKD",
+      "publicationDate": "2026-04-29 15:15",
+      "targetHorizon": "公开转载未明确",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00285/AAFN/NOW.1521394/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "verified": true,
+      "outside90Days": true,
+      "note": "同机构最新有效；旧高盛和中银标旧，不把目标直接作为年底"
+    }
+  ],
+  "excludedTargets": [
+    {
+      "id": "NOW.1542123",
+      "code": "01211.HK",
+      "targetPrice": 78,
+      "reason": "属整车比亚迪，非电子"
+    },
+    {
+      "id": "IC4892904",
+      "code": "01211.HK",
+      "targetPrice": 130,
+      "reason": "属比亚迪股份，非电子"
+    },
+    {
+      "id": "NOW.1521906",
+      "institution": "星展",
+      "targetPrice": 30,
+      "reason": "被9月4日最新40覆盖"
+    }
+  ],
+  "effectiveHanzi": 12518,
+  "researchState": {
+    "stage": "独立模型待QA",
+    "bodyVersion": "byde-deep-v1.0",
+    "modelVersion": "byde-sixProduct-fullEconomic-profit-cash-v1.0",
+    "quoteVersion": "market-v1.6",
+    "effectiveHanzi": 12518
+  },
+  "annualSnapshots": [
+    {
+      "key": "bear",
+      "rows": [
+        {
+          "year": 2026,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 24,
+              "GM": 0.095,
+              "gross": 2.2800000000000002
+            },
+            {
+              "segment": "assembly",
+              "revenue": 112,
+              "GM": 0.028,
+              "gross": 3.136
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 27,
+              "GM": 0.065,
+              "gross": 1.7550000000000001
+            },
+            {
+              "segment": "server",
+              "revenue": 1.2,
+              "GM": 0.035,
+              "gross": 0.042
+            },
+            {
+              "segment": "cooling",
+              "revenue": 0.8,
+              "GM": 0.15,
+              "gross": 0.12
+            },
+            {
+              "segment": "power",
+              "revenue": 0.2,
+              "GM": 0.12,
+              "gross": 0.024
+            }
+          ],
+          "revenue": 165.2,
+          "grossProfit": 7.357,
+          "grossMargin": 0.04453389830508475,
+          "selling": 1.6,
+          "admin": 1.4,
+          "RD": 4.1,
+          "grant": 0.6,
+          "other": 0.1,
+          "normalEBIT": 0.9569999999999996,
+          "cashInterest": 0.10949534,
+          "productInterest": 0.18175007399999998,
+          "financeCost": 0.29239739,
+          "pretax": 0.9558480239999997,
+          "tax": 0.19116960479999995,
+          "parentNormalProfit": 0.7646784191999998,
+          "remainingDA": 3.202624,
+          "remainingSBC": 0.069482,
+          "remainingNWC": 0.6315989999999996,
+          "remainingLeaseInterest": 0.04,
+          "remainingOCF": 3.0188534192,
+          "remainingCapex": 2.106778,
+          "remainingLeaseCash": 0.35682600000000003,
+          "newBank": 7,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 3,
+          "trustBuybackCash": 0,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.3515,
+          "dividendPerShareHKD": 0.17160004784297211,
+          "cashStart": 5.474767,
+          "cashEnd": 8.6785164192,
+          "productsStart": 8.261367,
+          "productsEnd": 5.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 7.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 0.3393737315898312,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2027,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 23,
+              "GM": 0.1,
+              "gross": 2.3000000000000003
+            },
+            {
+              "segment": "assembly",
+              "revenue": 110,
+              "GM": 0.028,
+              "gross": 3.08
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 28,
+              "GM": 0.065,
+              "gross": 1.82
+            },
+            {
+              "segment": "server",
+              "revenue": 2,
+              "GM": 0.035,
+              "gross": 0.07
+            },
+            {
+              "segment": "cooling",
+              "revenue": 1.3,
+              "GM": 0.15,
+              "gross": 0.195
+            },
+            {
+              "segment": "power",
+              "revenue": 0.4,
+              "GM": 0.12,
+              "gross": 0.048
+            }
+          ],
+          "revenue": 164.70000000000002,
+          "grossProfit": 7.513000000000002,
+          "grossMargin": 0.04561627200971464,
+          "selling": 1.65,
+          "admin": 1.45,
+          "RD": 4.15,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 0.7630000000000008,
+          "cashInterest": 0.173570328384,
+          "productInterest": 0.115750074,
+          "financeCost": 0.29739739,
+          "pretax": 0.7549230123840007,
+          "tax": 0.15098460247680015,
+          "parentNormalProfit": 0.6039384099072006,
+          "remainingDA": 6.6,
+          "remainingSBC": 0.15,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.085,
+          "remainingOCF": 6.438938409907201,
+          "remainingCapex": 4,
+          "remainingLeaseCash": 0.7,
+          "newBank": 6,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 2,
+          "trustBuybackCash": 0.15,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.07646784191999999,
+          "dividendPerShareHKD": 0.03733111047488144,
+          "cashStart": 8.6785164192,
+          "cashEnd": 11.1909869871872,
+          "productsStart": 5.261367,
+          "productsEnd": 3.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 6.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 0.26803532919768297,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2028,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 22,
+              "GM": 0.1,
+              "gross": 2.2
+            },
+            {
+              "segment": "assembly",
+              "revenue": 108,
+              "GM": 0.028,
+              "gross": 3.024
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 29,
+              "GM": 0.065,
+              "gross": 1.885
+            },
+            {
+              "segment": "server",
+              "revenue": 2.5,
+              "GM": 0.035,
+              "gross": 0.08750000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 1.7,
+              "GM": 0.15,
+              "gross": 0.255
+            },
+            {
+              "segment": "power",
+              "revenue": 0.5,
+              "GM": 0.12,
+              "gross": 0.06
+            }
+          ],
+          "revenue": 163.7,
+          "grossProfit": 7.5115,
+          "grossMargin": 0.04588576664630422,
+          "selling": 1.7,
+          "admin": 1.5,
+          "RD": 4.2,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 0.6114999999999995,
+          "cashInterest": 0.223819739743744,
+          "productInterest": 0.071750074,
+          "financeCost": 0.27239738999999996,
+          "pretax": 0.6346724237437436,
+          "tax": 0.12693448474874872,
+          "parentNormalProfit": 0.5077379389949949,
+          "remainingDA": 6.8,
+          "remainingSBC": 0.18,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.09,
+          "remainingOCF": 6.577737938994995,
+          "remainingCapex": 3.8,
+          "remainingLeaseCash": 0.75,
+          "newBank": 5,
+          "bankRepayment": 6,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.18,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.060393840990720066,
+          "dividendPerShareHKD": 0.02948388621174513,
+          "cashStart": 11.1909869871872,
+          "cashEnd": 12.978331085191474,
+          "productsStart": 3.261367,
+          "productsEnd": 2.261367,
+          "bankStart": 6.079913,
+          "bankEnd": 5.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 0.22534037145540714,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2029,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 21,
+              "GM": 0.095,
+              "gross": 1.995
+            },
+            {
+              "segment": "assembly",
+              "revenue": 106,
+              "GM": 0.028,
+              "gross": 2.968
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 30,
+              "GM": 0.065,
+              "gross": 1.9500000000000002
+            },
+            {
+              "segment": "server",
+              "revenue": 3,
+              "GM": 0.035,
+              "gross": 0.10500000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 2,
+              "GM": 0.15,
+              "gross": 0.3
+            },
+            {
+              "segment": "power",
+              "revenue": 0.6,
+              "GM": 0.12,
+              "gross": 0.072
+            }
+          ],
+          "revenue": 162.6,
+          "grossProfit": 7.390000000000001,
+          "grossMargin": 0.0454489544895449,
+          "selling": 1.75,
+          "admin": 1.55,
+          "RD": 4.3,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 0.2900000000000009,
+          "cashInterest": 0.2595666217038295,
+          "productInterest": 0.049750074,
+          "financeCost": 0.24739739,
+          "pretax": 0.3519193057038304,
+          "tax": 0.07038386114076609,
+          "parentNormalProfit": 0.28153544456306434,
+          "remainingDA": 7.1,
+          "remainingSBC": 0.21,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.095,
+          "remainingOCF": 6.686535444563064,
+          "remainingCapex": 3.6,
+          "remainingLeaseCash": 0.8,
+          "newBank": 4,
+          "bankRepayment": 5,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.21,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.050773793899499486,
+          "dividendPerShareHKD": 0.024787440860094788,
+          "cashStart": 12.978331085191474,
+          "cashEnd": 15.004092735855039,
+          "productsStart": 2.261367,
+          "productsEnd": 1.261367,
+          "bankStart": 5.079913,
+          "bankEnd": 4.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 0.12494890923707296,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2030,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 20,
+              "GM": 0.09,
+              "gross": 1.7999999999999998
+            },
+            {
+              "segment": "assembly",
+              "revenue": 104,
+              "GM": 0.028,
+              "gross": 2.912
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 31,
+              "GM": 0.065,
+              "gross": 2.015
+            },
+            {
+              "segment": "server",
+              "revenue": 3.5,
+              "GM": 0.035,
+              "gross": 0.12250000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 2.3,
+              "GM": 0.15,
+              "gross": 0.345
+            },
+            {
+              "segment": "power",
+              "revenue": 0.7,
+              "GM": 0.12,
+              "gross": 0.08399999999999999
+            }
+          ],
+          "revenue": 161.5,
+          "grossProfit": 7.278499999999999,
+          "grossMargin": 0.045068111455108355,
+          "selling": 1.8,
+          "admin": 1.6,
+          "RD": 4.4,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": -0.021500000000000935,
+          "cashInterest": 0.3000818547171008,
+          "productInterest": 0.027750073999999996,
+          "financeCost": 0.22239739000000003,
+          "pretax": 0.08393453871709983,
+          "tax": 0.016786907743419965,
+          "parentNormalProfit": 0.06714763097367986,
+          "remainingDA": 7.5,
+          "remainingSBC": 0.24,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.1,
+          "remainingOCF": 6.90714763097368,
+          "remainingCapex": 3.5,
+          "remainingLeaseCash": 0.85,
+          "newBank": 3,
+          "bankRepayment": 4,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.24,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.028153544456306436,
+          "dividendPerShareHKD": 0.013744380016078027,
+          "cashStart": 15.004092735855039,
+          "cashEnd": 17.293086822372413,
+          "productsStart": 1.261367,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 4.079913,
+          "bankEnd": 3.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 0.029800948370944522,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2031,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 19,
+              "GM": 0.085,
+              "gross": 1.6150000000000002
+            },
+            {
+              "segment": "assembly",
+              "revenue": 102,
+              "GM": 0.028,
+              "gross": 2.856
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 32,
+              "GM": 0.065,
+              "gross": 2.08
+            },
+            {
+              "segment": "server",
+              "revenue": 4,
+              "GM": 0.035,
+              "gross": 0.14
+            },
+            {
+              "segment": "cooling",
+              "revenue": 2.5,
+              "GM": 0.15,
+              "gross": 0.375
+            },
+            {
+              "segment": "power",
+              "revenue": 0.8,
+              "GM": 0.12,
+              "gross": 0.096
+            }
+          ],
+          "revenue": 160.3,
+          "grossProfit": 7.162,
+          "grossMargin": 0.04467872738615096,
+          "selling": 1.85,
+          "admin": 1.65,
+          "RD": 4.5,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": -0.3380000000000005,
+          "cashInterest": 0.3458617364474483,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.19739739,
+          "pretax": -0.18378557955255226,
+          "tax": 0,
+          "parentNormalProfit": -0.18378557955255226,
+          "remainingDA": 7.9,
+          "remainingSBC": 0.27,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.105,
+          "remainingOCF": 7.091214420447448,
+          "remainingCapex": 3.5,
+          "remainingLeaseCash": 0.9,
+          "newBank": 2,
+          "bankRepayment": 3,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.27,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.006714763097367986,
+          "dividendPerShareHKD": 0.0032781043208038978,
+          "cashStart": 17.293086822372413,
+          "cashEnd": 18.707586479722494,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 3.0799130000000003,
+          "bankEnd": 2.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": -0.08156631124807015,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2032,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 18,
+              "GM": 0.08,
+              "gross": 1.44
+            },
+            {
+              "segment": "assembly",
+              "revenue": 100,
+              "GM": 0.028,
+              "gross": 2.8000000000000003
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 33,
+              "GM": 0.065,
+              "gross": 2.145
+            },
+            {
+              "segment": "server",
+              "revenue": 4.5,
+              "GM": 0.035,
+              "gross": 0.15750000000000003
+            },
+            {
+              "segment": "cooling",
+              "revenue": 2.7,
+              "GM": 0.15,
+              "gross": 0.405
+            },
+            {
+              "segment": "power",
+              "revenue": 0.9,
+              "GM": 0.12,
+              "gross": 0.108
+            }
+          ],
+          "revenue": 159.1,
+          "grossProfit": 7.055499999999999,
+          "grossMargin": 0.0443463230672533,
+          "selling": 1.9,
+          "admin": 1.7,
+          "RD": 4.6,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": -0.6444999999999999,
+          "cashInterest": 0.37415172959444987,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.17239739,
+          "pretax": -0.43699558640555003,
+          "tax": 0,
+          "parentNormalProfit": -0.43699558640555003,
+          "remainingDA": 8.3,
+          "remainingSBC": 0.3,
+          "remainingNWC": 1,
+          "remainingLeaseInterest": 0.11,
+          "remainingOCF": 7.27300441359445,
+          "remainingCapex": 3.5,
+          "remainingLeaseCash": 0.95,
+          "newBank": 1,
+          "bankRepayment": 2,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.3,
+          "newEmployeeShares": 0,
+          "cashDividend": 0,
+          "dividendPerShareHKD": 0,
+          "cashStart": 18.707586479722494,
+          "cashEnd": 20.230590893316943,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 2.0799130000000003,
+          "bankEnd": 1.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": -0.19394404121132816,
+          "minimumCashSatisfied": true
+        }
+      ]
+    },
+    {
+      "key": "base",
+      "rows": [
+        {
+          "year": 2026,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 26,
+              "GM": 0.12,
+              "gross": 3.12
+            },
+            {
+              "segment": "assembly",
+              "revenue": 116,
+              "GM": 0.035,
+              "gross": 4.0600000000000005
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 28.5,
+              "GM": 0.09,
+              "gross": 2.565
+            },
+            {
+              "segment": "server",
+              "revenue": 1.5,
+              "GM": 0.05,
+              "gross": 0.07500000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 1.2,
+              "GM": 0.25,
+              "gross": 0.3
+            },
+            {
+              "segment": "power",
+              "revenue": 0.3,
+              "GM": 0.18,
+              "gross": 0.054
+            }
+          ],
+          "revenue": 173.5,
+          "grossProfit": 10.174000000000001,
+          "grossMargin": 0.05863976945244957,
+          "selling": 1.6,
+          "admin": 1.4,
+          "RD": 4.1,
+          "grant": 0.6,
+          "other": 0.1,
+          "normalEBIT": 3.774000000000002,
+          "cashInterest": 0.10949534,
+          "productInterest": 0.18175007399999998,
+          "financeCost": 0.23575808599999998,
+          "pretax": 3.8294873280000012,
+          "tax": 0.5744230992000001,
+          "parentNormalProfit": 3.255064228800001,
+          "remainingDA": 3.202624,
+          "remainingSBC": 0.069482,
+          "remainingNWC": 0.6315989999999996,
+          "remainingLeaseInterest": 0.04,
+          "remainingOCF": 5.509239228800002,
+          "remainingCapex": 2.306778,
+          "remainingLeaseCash": 0.35682600000000003,
+          "newBank": 7,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 3,
+          "trustBuybackCash": 0,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.3515,
+          "dividendPerShareHKD": 0.17160004784297211,
+          "cashStart": 5.474767,
+          "cashEnd": 10.968902228800003,
+          "productsStart": 8.261367,
+          "productsEnd": 5.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 7.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 1.4446377276452276,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2027,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 28,
+              "GM": 0.16,
+              "gross": 4.48
+            },
+            {
+              "segment": "assembly",
+              "revenue": 122,
+              "GM": 0.035,
+              "gross": 4.2700000000000005
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 32,
+              "GM": 0.09,
+              "gross": 2.88
+            },
+            {
+              "segment": "server",
+              "revenue": 3,
+              "GM": 0.05,
+              "gross": 0.15000000000000002
+            },
+            {
+              "segment": "cooling",
+              "revenue": 4,
+              "GM": 0.25,
+              "gross": 1
+            },
+            {
+              "segment": "power",
+              "revenue": 1,
+              "GM": 0.18,
+              "gross": 0.18
+            }
+          ],
+          "revenue": 190,
+          "grossProfit": 12.959999999999999,
+          "grossMargin": 0.06821052631578947,
+          "selling": 1.7,
+          "admin": 1.5,
+          "RD": 4.5,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 5.76,
+          "cashInterest": 0.21937804457600008,
+          "productInterest": 0.115750074,
+          "financeCost": 0.24075808599999998,
+          "pretax": 5.854370032576001,
+          "tax": 0.8781555048864002,
+          "parentNormalProfit": 4.976214527689601,
+          "remainingDA": 6.6,
+          "remainingSBC": 0.15,
+          "remainingNWC": 2,
+          "remainingLeaseInterest": 0.085,
+          "remainingOCF": 9.811214527689602,
+          "remainingCapex": 5.5,
+          "remainingLeaseCash": 0.7,
+          "newBank": 6,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 2,
+          "trustBuybackCash": 0.15,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.6510128457600003,
+          "dividendPerShareHKD": 0.3178203000819501,
+          "cashStart": 10.968902228800003,
+          "cashEnd": 14.779103910729603,
+          "productsStart": 5.261367,
+          "productsEnd": 3.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 6.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 2.208505498586392,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2028,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 31,
+              "GM": 0.175,
+              "gross": 5.425
+            },
+            {
+              "segment": "assembly",
+              "revenue": 128,
+              "GM": 0.035,
+              "gross": 4.48
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 37,
+              "GM": 0.09,
+              "gross": 3.33
+            },
+            {
+              "segment": "server",
+              "revenue": 4.5,
+              "GM": 0.05,
+              "gross": 0.225
+            },
+            {
+              "segment": "cooling",
+              "revenue": 7,
+              "GM": 0.25,
+              "gross": 1.75
+            },
+            {
+              "segment": "power",
+              "revenue": 2.5,
+              "GM": 0.18,
+              "gross": 0.44999999999999996
+            }
+          ],
+          "revenue": 210,
+          "grossProfit": 15.66,
+          "grossMargin": 0.07457142857142857,
+          "selling": 1.85,
+          "admin": 1.65,
+          "RD": 5,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 7.66,
+          "cashInterest": 0.2955820782145921,
+          "productInterest": 0.071750074,
+          "financeCost": 0.223758086,
+          "pretax": 7.803574066214592,
+          "tax": 1.1705361099321887,
+          "parentNormalProfit": 6.633037956282403,
+          "remainingDA": 6.8,
+          "remainingSBC": 0.18,
+          "remainingNWC": 2.5,
+          "remainingLeaseInterest": 0.09,
+          "remainingOCF": 11.203037956282403,
+          "remainingCapex": 6,
+          "remainingLeaseCash": 0.75,
+          "newBank": 5,
+          "bankRepayment": 6,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.18,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.9952429055379203,
+          "dividendPerShareHKD": 0.48587120968900627,
+          "cashStart": 14.779103910729603,
+          "cashEnd": 18.056898961474086,
+          "productsStart": 3.261367,
+          "productsEnd": 2.261367,
+          "bankStart": 6.079913,
+          "bankEnd": 5.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 2.943824209601216,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2029,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 34,
+              "GM": 0.18,
+              "gross": 6.12
+            },
+            {
+              "segment": "assembly",
+              "revenue": 134,
+              "GM": 0.035,
+              "gross": 4.69
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 42,
+              "GM": 0.09,
+              "gross": 3.78
+            },
+            {
+              "segment": "server",
+              "revenue": 6,
+              "GM": 0.05,
+              "gross": 0.30000000000000004
+            },
+            {
+              "segment": "cooling",
+              "revenue": 10,
+              "GM": 0.25,
+              "gross": 2.5
+            },
+            {
+              "segment": "power",
+              "revenue": 4,
+              "GM": 0.18,
+              "gross": 0.72
+            }
+          ],
+          "revenue": 230,
+          "grossProfit": 18.11,
+          "grossMargin": 0.0787391304347826,
+          "selling": 2,
+          "admin": 1.8,
+          "RD": 5.6,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 9.209999999999999,
+          "cashInterest": 0.3611379792294817,
+          "productInterest": 0.049750074,
+          "financeCost": 0.206758086,
+          "pretax": 9.41412996722948,
+          "tax": 1.4121194950844218,
+          "parentNormalProfit": 8.002010472145058,
+          "remainingDA": 7.1,
+          "remainingSBC": 0.21,
+          "remainingNWC": 3,
+          "remainingLeaseInterest": 0.095,
+          "remainingOCF": 12.407010472145059,
+          "remainingCapex": 6.5,
+          "remainingLeaseCash": 0.8,
+          "newBank": 4,
+          "bankRepayment": 5,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.21,
+          "newEmployeeShares": 0,
+          "cashDividend": 1.3266075912564808,
+          "dividendPerShareHKD": 0.6476413261122677,
+          "cashStart": 18.056898961474086,
+          "cashEnd": 21.627301842362666,
+          "productsStart": 2.261367,
+          "productsEnd": 1.261367,
+          "bankStart": 5.079913,
+          "bankEnd": 4.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 3.5513911285660305,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2030,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 37,
+              "GM": 0.18,
+              "gross": 6.66
+            },
+            {
+              "segment": "assembly",
+              "revenue": 140,
+              "GM": 0.035,
+              "gross": 4.9
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 47,
+              "GM": 0.09,
+              "gross": 4.2299999999999995
+            },
+            {
+              "segment": "server",
+              "revenue": 8,
+              "GM": 0.05,
+              "gross": 0.4
+            },
+            {
+              "segment": "cooling",
+              "revenue": 13,
+              "GM": 0.25,
+              "gross": 3.25
+            },
+            {
+              "segment": "power",
+              "revenue": 6,
+              "GM": 0.18,
+              "gross": 1.08
+            }
+          ],
+          "revenue": 251,
+          "grossProfit": 20.519999999999996,
+          "grossMargin": 0.08175298804780876,
+          "selling": 2.15,
+          "admin": 1.95,
+          "RD": 6.2,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 10.719999999999999,
+          "cashInterest": 0.43254603684725335,
+          "productInterest": 0.027750073999999996,
+          "financeCost": 0.189758086,
+          "pretax": 10.990538024847252,
+          "tax": 1.6485807037270879,
+          "parentNormalProfit": 9.341957321120164,
+          "remainingDA": 7.5,
+          "remainingSBC": 0.24,
+          "remainingNWC": 3.5,
+          "remainingLeaseInterest": 0.1,
+          "remainingOCF": 13.681957321120162,
+          "remainingCapex": 7,
+          "remainingLeaseCash": 0.85,
+          "newBank": 3,
+          "bankRepayment": 4,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.24,
+          "newEmployeeShares": 0,
+          "cashDividend": 1.6004020944290116,
+          "dividendPerShareHKD": 0.7813060482845268,
+          "cashStart": 21.627301842362666,
+          "cashEnd": 25.618857069053817,
+          "productsStart": 1.261367,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 4.079913,
+          "bankEnd": 3.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 4.146076097895315,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2031,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 40,
+              "GM": 0.18,
+              "gross": 7.199999999999999
+            },
+            {
+              "segment": "assembly",
+              "revenue": 146,
+              "GM": 0.035,
+              "gross": 5.11
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 52,
+              "GM": 0.09,
+              "gross": 4.68
+            },
+            {
+              "segment": "server",
+              "revenue": 10,
+              "GM": 0.05,
+              "gross": 0.5
+            },
+            {
+              "segment": "cooling",
+              "revenue": 16,
+              "GM": 0.25,
+              "gross": 4
+            },
+            {
+              "segment": "power",
+              "revenue": 8,
+              "GM": 0.18,
+              "gross": 1.44
+            }
+          ],
+          "revenue": 272,
+          "grossProfit": 22.93,
+          "grossMargin": 0.0843014705882353,
+          "selling": 2.3,
+          "admin": 2.1,
+          "RD": 6.8,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 12.229999999999997,
+          "cashInterest": 0.5123771413810764,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.172758086,
+          "pretax": 12.575369129381073,
+          "tax": 1.886305369407161,
+          "parentNormalProfit": 10.689063759973912,
+          "remainingDA": 7.9,
+          "remainingSBC": 0.27,
+          "remainingNWC": 4,
+          "remainingLeaseInterest": 0.105,
+          "remainingOCF": 14.96406375997391,
+          "remainingCapex": 7.5,
+          "remainingLeaseCash": 0.9,
+          "newBank": 2,
+          "bankRepayment": 3,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.27,
+          "newEmployeeShares": 0,
+          "cashDividend": 1.868391464224033,
+          "dividendPerShareHKD": 0.9121367415369694,
+          "cashStart": 25.618857069053817,
+          "cashEnd": 29.044529364803694,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 3.0799130000000003,
+          "bankEnd": 2.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 4.743938581683959,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2032,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 43,
+              "GM": 0.18,
+              "gross": 7.739999999999999
+            },
+            {
+              "segment": "assembly",
+              "revenue": 152,
+              "GM": 0.035,
+              "gross": 5.32
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 57,
+              "GM": 0.09,
+              "gross": 5.13
+            },
+            {
+              "segment": "server",
+              "revenue": 12,
+              "GM": 0.05,
+              "gross": 0.6000000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 19,
+              "GM": 0.25,
+              "gross": 4.75
+            },
+            {
+              "segment": "power",
+              "revenue": 10,
+              "GM": 0.18,
+              "gross": 1.7999999999999998
+            }
+          ],
+          "revenue": 293,
+          "grossProfit": 25.34,
+          "grossMargin": 0.08648464163822525,
+          "selling": 2.45,
+          "admin": 2.25,
+          "RD": 7.4,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 13.74,
+          "cashInterest": 0.5808905872960739,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.15575808600000002,
+          "pretax": 14.170882575296073,
+          "tax": 2.1256323862944106,
+          "parentNormalProfit": 12.045250189001662,
+          "remainingDA": 8.3,
+          "remainingSBC": 0.3,
+          "remainingNWC": 4.5,
+          "remainingLeaseInterest": 0.11,
+          "remainingOCF": 16.25525018900166,
+          "remainingCapex": 8,
+          "remainingLeaseCash": 0.95,
+          "newBank": 1,
+          "bankRepayment": 2,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.3,
+          "newEmployeeShares": 0,
+          "cashDividend": 2.1378127519947827,
+          "dividendPerShareHKD": 1.0436664879704711,
+          "cashStart": 29.044529364803694,
+          "cashEnd": 32.91196680181057,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 2.0799130000000003,
+          "bankEnd": 1.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 5.345830877313472,
+          "minimumCashSatisfied": true
+        }
+      ]
+    },
+    {
+      "key": "bull",
+      "rows": [
+        {
+          "year": 2026,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 27,
+              "GM": 0.13,
+              "gross": 3.5100000000000002
+            },
+            {
+              "segment": "assembly",
+              "revenue": 118,
+              "GM": 0.04,
+              "gross": 4.72
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 29,
+              "GM": 0.105,
+              "gross": 3.045
+            },
+            {
+              "segment": "server",
+              "revenue": 1.8,
+              "GM": 0.065,
+              "gross": 0.117
+            },
+            {
+              "segment": "cooling",
+              "revenue": 1.5,
+              "GM": 0.28,
+              "gross": 0.42000000000000004
+            },
+            {
+              "segment": "power",
+              "revenue": 0.5,
+              "GM": 0.22,
+              "gross": 0.11
+            }
+          ],
+          "revenue": 177.8,
+          "grossProfit": 11.922,
+          "grossMargin": 0.06705286839145107,
+          "selling": 1.65,
+          "admin": 1.45,
+          "RD": 4.2,
+          "grant": 0.6,
+          "other": 0.1,
+          "normalEBIT": 5.322,
+          "cashInterest": 0.10949534,
+          "productInterest": 0.18175007399999998,
+          "financeCost": 0.214518347,
+          "pretax": 5.398727066999999,
+          "tax": 0.8098090600499999,
+          "parentNormalProfit": 4.588918006949999,
+          "remainingDA": 3.202624,
+          "remainingSBC": 0.069482,
+          "remainingNWC": 0.6315989999999996,
+          "remainingLeaseInterest": 0.04,
+          "remainingOCF": 6.843093006949999,
+          "remainingCapex": 2.506778,
+          "remainingLeaseCash": 0.35682600000000003,
+          "newBank": 7,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 3,
+          "trustBuybackCash": 0,
+          "newEmployeeShares": 0,
+          "cashDividend": 0.3515,
+          "dividendPerShareHKD": 0.17160004784297211,
+          "cashStart": 5.474767,
+          "cashEnd": 12.102756006949999,
+          "productsStart": 8.261367,
+          "productsEnd": 5.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 7.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 2.0366185168501127,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2027,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 32,
+              "GM": 0.18,
+              "gross": 5.76
+            },
+            {
+              "segment": "assembly",
+              "revenue": 130,
+              "GM": 0.04,
+              "gross": 5.2
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 36,
+              "GM": 0.105,
+              "gross": 3.78
+            },
+            {
+              "segment": "server",
+              "revenue": 5,
+              "GM": 0.065,
+              "gross": 0.325
+            },
+            {
+              "segment": "cooling",
+              "revenue": 7,
+              "GM": 0.28,
+              "gross": 1.9600000000000002
+            },
+            {
+              "segment": "power",
+              "revenue": 2,
+              "GM": 0.22,
+              "gross": 0.44
+            }
+          ],
+          "revenue": 212,
+          "grossProfit": 17.465,
+          "grossMargin": 0.08238207547169811,
+          "selling": 1.85,
+          "admin": 1.7,
+          "RD": 5.1,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 9.315000000000001,
+          "cashInterest": 0.242055120139,
+          "productInterest": 0.115750074,
+          "financeCost": 0.219518347,
+          "pretax": 9.453286847139001,
+          "tax": 1.41799302707085,
+          "parentNormalProfit": 8.035293820068151,
+          "remainingDA": 6.6,
+          "remainingSBC": 0.15,
+          "remainingNWC": 3,
+          "remainingLeaseInterest": 0.085,
+          "remainingOCF": 11.870293820068152,
+          "remainingCapex": 6.5,
+          "remainingLeaseCash": 0.7,
+          "newBank": 6,
+          "bankRepayment": 7,
+          "productPurchase": 0,
+          "productRedemption": 2,
+          "trustBuybackCash": 0.15,
+          "newEmployeeShares": 0,
+          "cashDividend": 1.1472295017374998,
+          "dividendPerShareHKD": 0.560070092133781,
+          "cashStart": 12.102756006949999,
+          "cashEnd": 16.47582032528065,
+          "productsStart": 5.261367,
+          "productsEnd": 3.261367,
+          "bankStart": 7.079913,
+          "bankEnd": 6.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 3.5661626896573977,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2028,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 38,
+              "GM": 0.2,
+              "gross": 7.6000000000000005
+            },
+            {
+              "segment": "assembly",
+              "revenue": 144,
+              "GM": 0.04,
+              "gross": 5.76
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 45,
+              "GM": 0.105,
+              "gross": 4.725
+            },
+            {
+              "segment": "server",
+              "revenue": 9,
+              "GM": 0.065,
+              "gross": 0.585
+            },
+            {
+              "segment": "cooling",
+              "revenue": 14,
+              "GM": 0.28,
+              "gross": 3.9200000000000004
+            },
+            {
+              "segment": "power",
+              "revenue": 6,
+              "GM": 0.22,
+              "gross": 1.32
+            }
+          ],
+          "revenue": 256,
+          "grossProfit": 23.910000000000004,
+          "grossMargin": 0.09339843750000001,
+          "selling": 2.15,
+          "admin": 2,
+          "RD": 6.2,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 14.060000000000006,
+          "cashInterest": 0.32951640650561304,
+          "productInterest": 0.071750074,
+          "financeCost": 0.205518347,
+          "pretax": 14.25574813350562,
+          "tax": 2.1383622200258428,
+          "parentNormalProfit": 12.117385913479776,
+          "remainingDA": 6.8,
+          "remainingSBC": 0.18,
+          "remainingNWC": 4,
+          "remainingLeaseInterest": 0.09,
+          "remainingOCF": 15.187385913479776,
+          "remainingCapex": 8,
+          "remainingLeaseCash": 0.75,
+          "newBank": 5,
+          "bankRepayment": 6,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.18,
+          "newEmployeeShares": 0,
+          "cashDividend": 2.008823455017038,
+          "dividendPerShareHKD": 0.9806947396557845,
+          "cashStart": 16.47582032528065,
+          "cashEnd": 20.72438278374339,
+          "productsStart": 3.261367,
+          "productsEnd": 2.261367,
+          "bankStart": 6.079913,
+          "bankEnd": 5.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 5.37784560321967,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2029,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 45,
+              "GM": 0.21,
+              "gross": 9.45
+            },
+            {
+              "segment": "assembly",
+              "revenue": 158,
+              "GM": 0.04,
+              "gross": 6.32
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 54,
+              "GM": 0.105,
+              "gross": 5.67
+            },
+            {
+              "segment": "server",
+              "revenue": 14,
+              "GM": 0.065,
+              "gross": 0.91
+            },
+            {
+              "segment": "cooling",
+              "revenue": 22,
+              "GM": 0.28,
+              "gross": 6.16
+            },
+            {
+              "segment": "power",
+              "revenue": 11,
+              "GM": 0.22,
+              "gross": 2.42
+            }
+          ],
+          "revenue": 304,
+          "grossProfit": 30.93,
+          "grossMargin": 0.10174342105263158,
+          "selling": 2.5,
+          "admin": 2.35,
+          "RD": 7.4,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 19.18,
+          "cashInterest": 0.41448765567486784,
+          "productInterest": 0.049750074,
+          "financeCost": 0.191518347,
+          "pretax": 19.452719382674868,
+          "tax": 2.91790790740123,
+          "parentNormalProfit": 16.53481147527364,
+          "remainingDA": 7.1,
+          "remainingSBC": 0.21,
+          "remainingNWC": 5.5,
+          "remainingLeaseInterest": 0.095,
+          "remainingOCF": 18.439811475273636,
+          "remainingCapex": 9.5,
+          "remainingLeaseCash": 0.8,
+          "newBank": 4,
+          "bankRepayment": 5,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.21,
+          "newEmployeeShares": 0,
+          "cashDividend": 3.029346478369944,
+          "dividendPerShareHKD": 1.4789075408854095,
+          "cashStart": 20.72438278374339,
+          "cashEnd": 25.62484778064708,
+          "productsStart": 2.261367,
+          "productsEnd": 1.261367,
+          "bankStart": 5.079913,
+          "bankEnd": 4.079913,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 7.338353653773388,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2030,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 52,
+              "GM": 0.21,
+              "gross": 10.92
+            },
+            {
+              "segment": "assembly",
+              "revenue": 172,
+              "GM": 0.04,
+              "gross": 6.88
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 63,
+              "GM": 0.105,
+              "gross": 6.614999999999999
+            },
+            {
+              "segment": "server",
+              "revenue": 20,
+              "GM": 0.065,
+              "gross": 1.3
+            },
+            {
+              "segment": "cooling",
+              "revenue": 31,
+              "GM": 0.28,
+              "gross": 8.680000000000001
+            },
+            {
+              "segment": "power",
+              "revenue": 17,
+              "GM": 0.22,
+              "gross": 3.74
+            }
+          ],
+          "revenue": 355,
+          "grossProfit": 38.135000000000005,
+          "grossMargin": 0.10742253521126761,
+          "selling": 2.85,
+          "admin": 2.7,
+          "RD": 8.7,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 24.385,
+          "cashInterest": 0.5124969556129416,
+          "productInterest": 0.027750073999999996,
+          "financeCost": 0.17751834700000002,
+          "pretax": 24.747728682612944,
+          "tax": 3.7121593023919415,
+          "parentNormalProfit": 21.035569380221002,
+          "remainingDA": 7.5,
+          "remainingSBC": 0.24,
+          "remainingNWC": 7,
+          "remainingLeaseInterest": 0.1,
+          "remainingOCF": 21.875569380221002,
+          "remainingCapex": 11,
+          "remainingLeaseCash": 0.85,
+          "newBank": 3,
+          "bankRepayment": 4,
+          "productPurchase": 0,
+          "productRedemption": 1,
+          "trustBuybackCash": 0.24,
+          "newEmployeeShares": 0,
+          "cashDividend": 4.13370286881841,
+          "dividendPerShareHKD": 2.0180472547876818,
+          "cashStart": 25.62484778064708,
+          "cashEnd": 31.27671429204967,
+          "productsStart": 1.261367,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 4.079913,
+          "bankEnd": 3.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 9.335845627958316,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2031,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 59,
+              "GM": 0.21,
+              "gross": 12.389999999999999
+            },
+            {
+              "segment": "assembly",
+              "revenue": 186,
+              "GM": 0.04,
+              "gross": 7.44
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 72,
+              "GM": 0.105,
+              "gross": 7.56
+            },
+            {
+              "segment": "server",
+              "revenue": 27,
+              "GM": 0.065,
+              "gross": 1.7550000000000001
+            },
+            {
+              "segment": "cooling",
+              "revenue": 41,
+              "GM": 0.28,
+              "gross": 11.48
+            },
+            {
+              "segment": "power",
+              "revenue": 24,
+              "GM": 0.22,
+              "gross": 5.28
+            }
+          ],
+          "revenue": 409,
+          "grossProfit": 45.905,
+          "grossMargin": 0.11223716381418093,
+          "selling": 3.2,
+          "admin": 3.05,
+          "RD": 10.1,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 30.055,
+          "cashInterest": 0.6255342858409935,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.163518347,
+          "pretax": 30.522766012840993,
+          "tax": 4.578414901926148,
+          "parentNormalProfit": 25.944351110914845,
+          "remainingDA": 7.9,
+          "remainingSBC": 0.27,
+          "remainingNWC": 8.5,
+          "remainingLeaseInterest": 0.105,
+          "remainingOCF": 25.719351110914843,
+          "remainingCapex": 12.5,
+          "remainingLeaseCash": 0.9,
+          "newBank": 2,
+          "bankRepayment": 3,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.27,
+          "newEmployeeShares": 0,
+          "cashDividend": 5.2588923450552505,
+          "dividendPerShareHKD": 2.567357547688537,
+          "cashStart": 31.27671429204967,
+          "cashEnd": 37.067173057909265,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 3.0799130000000003,
+          "bankEnd": 2.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 11.514423617969362,
+          "minimumCashSatisfied": true
+        },
+        {
+          "year": 2032,
+          "segments": [
+            {
+              "segment": "component",
+              "revenue": 66,
+              "GM": 0.21,
+              "gross": 13.86
+            },
+            {
+              "segment": "assembly",
+              "revenue": 200,
+              "GM": 0.04,
+              "gross": 8
+            },
+            {
+              "segment": "vehicle",
+              "revenue": 81,
+              "GM": 0.105,
+              "gross": 8.504999999999999
+            },
+            {
+              "segment": "server",
+              "revenue": 34,
+              "GM": 0.065,
+              "gross": 2.21
+            },
+            {
+              "segment": "cooling",
+              "revenue": 52,
+              "GM": 0.28,
+              "gross": 14.560000000000002
+            },
+            {
+              "segment": "power",
+              "revenue": 32,
+              "GM": 0.22,
+              "gross": 7.04
+            }
+          ],
+          "revenue": 465,
+          "grossProfit": 54.175,
+          "grossMargin": 0.11650537634408602,
+          "selling": 3.55,
+          "admin": 3.4,
+          "RD": 11.6,
+          "grant": 0.4,
+          "other": 0.1,
+          "normalEBIT": 36.125,
+          "cashInterest": 0.7413434611581853,
+          "productInterest": 0.005750073999999997,
+          "financeCost": 0.149518347,
+          "pretax": 36.72257518815819,
+          "tax": 5.508386278223728,
+          "parentNormalProfit": 31.21418890993446,
+          "remainingDA": 8.3,
+          "remainingSBC": 0.3,
+          "remainingNWC": 10,
+          "remainingLeaseInterest": 0.11,
+          "remainingOCF": 29.924188909934458,
+          "remainingCapex": 14,
+          "remainingLeaseCash": 0.95,
+          "newBank": 1,
+          "bankRepayment": 2,
+          "productPurchase": 0,
+          "productRedemption": 0,
+          "trustBuybackCash": 0.3,
+          "newEmployeeShares": 0,
+          "cashDividend": 6.486087777728711,
+          "dividendPerShareHKD": 3.1664664949415746,
+          "cashStart": 37.067173057909265,
+          "cashEnd": 44.25527419011501,
+          "productsStart": 0.2613669999999999,
+          "productsEnd": 0.2613669999999999,
+          "bankStart": 2.0799130000000003,
+          "bankEnd": 1.0799130000000003,
+          "sharesStart": 2.2532045,
+          "dilutedShares": 2.2532045,
+          "eps": 13.853242752681552,
+          "minimumCashSatisfied": true
+        }
+      ]
+    }
+  ]
+}

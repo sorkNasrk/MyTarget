@@ -1,0 +1,6479 @@
+{
+  "issuerId": "I033",
+  "checkedAt": "2026-10-10T12:26:44.122Z",
+  "modelVersion": "simcere-v2-short-recognition-normal-product-risk-royalty-PE-cash",
+  "passed": true,
+  "checks": [
+    {
+      "label": "reported revenue six categories",
+      "pass": true
+    },
+    {
+      "label": "reported gross bridge",
+      "pass": true
+    },
+    {
+      "label": "reported net parent bridge",
+      "pass": true
+    },
+    {
+      "label": "reported adjusted parent bridge",
+      "pass": true
+    },
+    {
+      "label": "reported consolidated pretax after tax",
+      "pass": true
+    },
+    {
+      "label": "reported segment pretax after exclusions",
+      "pass": true
+    },
+    {
+      "label": "reported operating to pretax",
+      "pass": true
+    },
+    {
+      "label": "reported research investment different from total intangibles",
+      "pass": true
+    },
+    {
+      "label": "reported liquid cash only unrestricted plus TD",
+      "pass": true
+    },
+    {
+      "label": "reported debt current and noncurrent",
+      "pass": true
+    },
+    {
+      "label": "reported redeemable capital anchor",
+      "pass": true
+    },
+    {
+      "label": "reported group shares expense",
+      "pass": true
+    },
+    {
+      "label": "reported H1 basic and diluted different",
+      "pass": true
+    },
+    {
+      "label": "reported legal shares monthly source",
+      "pass": true
+    },
+    {
+      "label": "reported basic shares unit",
+      "pass": true
+    },
+    {
+      "label": "reported H1 buybacks monetary unit",
+      "pass": true
+    },
+    {
+      "label": "reported Oct9 buybacks shares",
+      "pass": true
+    },
+    {
+      "label": "reported Oct9 buyback payment HKD",
+      "pass": true
+    },
+    {
+      "label": "reported receivable comparator yearend",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2026/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2026/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2026 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2026 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2026 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2026 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2026 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2026 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2026 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2026 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2026 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2026 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2026 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2026 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2026 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2026 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2026 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2026 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2026 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2026 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2027/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2027/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2027 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2027 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2027 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2027 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2027 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2027 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2027 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2027 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2027 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2027 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2027 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2027 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2027 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2027 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2027 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2027 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2027 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2027 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2028/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2028/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2028 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2028 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2028 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2028 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2028 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2028 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2028 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2028 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2028 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2028 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2028 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2028 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2028 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2028 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2028 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2028 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2028 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2028 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2029/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2029/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2029 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2029 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2029 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2029 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2029 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2029 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2029 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2029 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2029 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2029 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2029 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2029 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2029 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2029 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2029 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2029 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2029 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2029 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2030/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2030/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2030 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2030 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2030 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2030 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2030 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2030 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2030 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2030 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2030 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2030 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2030 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2030 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2030 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2030 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2030 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2030 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2030 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2030 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2031/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2031/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2031 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2031 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2031 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2031 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2031 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2031 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2031 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2031 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2031 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2031 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2031 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2031 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2031 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2031 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2031 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2031 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2031 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2031 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "base/2032/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "base/2032/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "base/2032 gross margin",
+      "pass": true
+    },
+    {
+      "label": "base/2032 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "base/2032 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2032 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2032 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2032 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "base/2032 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "base/2032 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "base/2032 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2032 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "base/2032 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "base/2032 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2032 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "base/2032 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "base/2032 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "base/2032 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "base/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2032 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2032 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/ledeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/ledeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/ledeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/pumeAD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/pumeAD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/pumeAD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/influenza nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/influenza independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/influenza independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/deuLora nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/deuLora independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/deuLora independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SERD nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SERD independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SERD independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/RSVtreatment nominal revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/RSVtreatment independent risk revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/RSVtreatment independent GP",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0505 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0505 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0505 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0278 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0278 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0278 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0500 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0500 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0500 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0613 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0613 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0613 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0709 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0709 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0709 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0660 foreign nominal partner sales",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0660 foreign royalty FX risk",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/SIM0660 foreign ongoing gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/neuro reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/neuro reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/auto reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/auto reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/onc reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/onc reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/other reconstructed revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032/other reconstructed gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 all revenue independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 all GP independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 separate selling admin full RD",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 gross margin",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 oncology cost allocation",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 oncology normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 other normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 core financing after operating bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 tax/consolidated",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 economic minority distinct accounting",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 parent net economic",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 EPS full diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 core cash shares expense not stripped profit",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 H2 cash simplified half explicit",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 capex excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 intangibles excludes paid H1",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 Roche cash only H2 once",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 selected milestones not total maximum",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 declared old dividend and later lag",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash opening independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash full roll independent",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 redemption and economic share alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 no unverified IPO proceeds",
+      "pass": true
+    },
+    {
+      "label": "yearEnd weights",
+      "pass": true
+    },
+    {
+      "label": "yearEnd no duplicate cash debt value",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear final target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear price return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base final target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base price return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull final target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull price return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "yearEnd independent expectation",
+      "pass": true
+    },
+    {
+      "label": "yearEnd independent expected return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "yearEnd sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear weights",
+      "pass": true
+    },
+    {
+      "label": "halfYear no duplicate cash debt value",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear final target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear price return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base final target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base price return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull final target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull price return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "halfYear independent expectation",
+      "pass": true
+    },
+    {
+      "label": "halfYear independent expected return",
+      "pass": true
+    },
+    {
+      "label": "halfYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "halfYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "oneYear weights",
+      "pass": true
+    },
+    {
+      "label": "oneYear no duplicate cash debt value",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear final target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear price return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base final target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base price return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull final target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull price return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "oneYear independent expectation",
+      "pass": true
+    },
+    {
+      "label": "oneYear independent expected return",
+      "pass": true
+    },
+    {
+      "label": "oneYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "oneYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "threeYear weights",
+      "pass": true
+    },
+    {
+      "label": "threeYear no duplicate cash debt value",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear final target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear price return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear full return annualization",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base final target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base price return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base full return annualization",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull final target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull price return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull full return annualization",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "threeYear independent expectation",
+      "pass": true
+    },
+    {
+      "label": "threeYear independent expected return",
+      "pass": true
+    },
+    {
+      "label": "threeYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "threeYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "fiveYear weights",
+      "pass": true
+    },
+    {
+      "label": "fiveYear no duplicate cash debt value",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear final target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear price return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear full return annualization",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base final target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base price return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base full return annualization",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull intrinsic normal profit PE FX",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull separate market recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull final target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull price return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull future dividend excludes old payment",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull full return annualization",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull rounded prose table",
+      "pass": true
+    },
+    {
+      "label": "fiveYear independent expectation",
+      "pass": true
+    },
+    {
+      "label": "fiveYear independent expected return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "fiveYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear score weights sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear score normal 0..5",
+      "pass": true
+    },
+    {
+      "label": "halfYear weighted total independent",
+      "pass": true
+    },
+    {
+      "label": "oneYear score weights sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear score normal 0..5",
+      "pass": true
+    },
+    {
+      "label": "oneYear weighted total independent",
+      "pass": true
+    },
+    {
+      "label": "threeYear score weights sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear score normal 0..5",
+      "pass": true
+    },
+    {
+      "label": "threeYear weighted total independent",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score weights sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score normal 0..5",
+      "pass": true
+    },
+    {
+      "label": "fiveYear weighted total independent",
+      "pass": true
+    },
+    {
+      "label": "broker latest foreign within90",
+      "pass": true
+    },
+    {
+      "label": "public first H1 after close explicit",
+      "pass": true
+    },
+    {
+      "label": "Oct9 after close not public before move",
+      "pass": true
+    },
+    {
+      "label": "old dividend timing and exclusion prose",
+      "pass": true
+    },
+    {
+      "label": "Roche global rights no China separate assets",
+      "pass": true
+    },
+    {
+      "label": "prior AbbVie4000萬 not readd",
+      "pass": true
+    },
+    {
+      "label": "all important inputs before cutoff",
+      "pass": true
+    },
+    {
+      "label": "market 7 OHLC repairs explicit",
+      "pass": true
+    },
+    {
+      "label": "no false tier contract guarantee",
+      "pass": true
+    },
+    {
+      "label": "short recognition no clinical probability",
+      "pass": true
+    },
+    {
+      "label": "normal profit PE no separate cash subtraction",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "manualReview": [
+    "逐段审阅有效正文16122汉字，无完全重复；同义重复与通用宏观未用于凑字",
+    "中报重列比较数、研发投资和实际无形资产增加范围分开",
+    "正常利润剔除BD、投资收益，不等于公司调整净利；销售行政全研发税息全部扣",
+    "经济再明份额与IFRS赎回少数账法有区别，未核最新拟上市完整结构，必须保留限制",
+    "悲观现金赎回后98%与基准/乐观上市稀释互斥，未加未知IPO资金",
+    "所有授权maximum非已收现金，AbbVie旧首付不重加，BI欧元非美元，Roche全球授权不重加中国权益",
+    "六月流动性为合并范围，H2核心OCF半年度简化，非真实季度预算",
+    "版税率、药物成功识别、收入峰值和PE是研究输入，不声称监管或机构共识",
+    "年底和半年市场识别桥与药物成功识别/情景权重分开",
+    "RSV预防、RSV治疗、不同ALK与推广权/完整权利分开；临床亚组不跨试验头对头",
+    "日上涨总量低主要与下跌日更多有关，平均上涨日量略高，不能说平均跌量更大",
+    "Word/PDF与全名单集成由父代理执行，名义目标日休市按各市场此前交易日处理"
+  ],
+  "remainingLimitations": [
+    "各既有产品未披露逐药收入及毛利，用治疗领域收入组，未来新品全部为假设",
+    "经济再明权益与赎回负债会计归母不等同，未穿透拟上市最新招股资本结构；2025公开83.1%作锚并给差异",
+    "完整授权合同的精确royaltytier及各里程碑金额/时间未公开，未来输入为判断，部分历史公告镜像404而复核中报年报",
+    "核心利润不含license与投资，但不是公司官方adjusted；不能用报表净母倍数比较不相同口径",
+    "现金流为简化年度桥，June定存并非全能立即跨境母公司调拨；未加未知IPO融资现金",
+    "H2 Roche75mUSD未确认到账/税负，研究按85%净现金非应收确定数",
+    "新药不同适应症费用为全RD包含、不重扣逐药预算；未估全球先必新价值和全早期管线",
+    "739日/157周，7根OHLC修复；行业987018为粗参考单源指数无量能比较",
+    "UBS16.6仅二手新闻，原研报与确切目标日缺失；中国投行目标不冒充外资",
+    "Oct9公告18:12收盘后，当日回购不等于市场知道未来回购下限"
+  ]
+}

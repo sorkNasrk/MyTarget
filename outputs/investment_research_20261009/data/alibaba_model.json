@@ -1,0 +1,833 @@
+{
+  "issuerId": "I075",
+  "securityId": "S086",
+  "code": "09988.HK",
+  "name": "阿里巴巴-W",
+  "asOf": "2026-10-09",
+  "price": 107,
+  "currency": "HKD",
+  "modelVersion": "alibaba-operating-bridge-pe-v1.0",
+  "status": "独立研究初版；盈利恢复及资本回报未获保证",
+  "method": "目标时点NTM各分部调整EBITA合计 × (1−研究有效税率22%) + 税后利息/联营贡献净额 → 除摊薄股数 → EPS保留2位 × PE × HKD/CNY；不额外加净现金",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核实截止日即期汇率",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2026 ended 2026-03-31",
+    "revenueCNYmillion": 1023670,
+    "adjustedEBITACNYmillion": 76416,
+    "nonGAAPNetIncomeCNYmillion": 60658,
+    "nonGAAPDilutedEPSCNY": 3.35,
+    "operatingCashFlowCNYmillion": 76213,
+    "FCFCNYmillion": -46609,
+    "capexCNYmillion": 126063,
+    "priorYearNonGAAPDilutedEPSCNY": 8.18,
+    "historicalPEResearchFX": 29.0366350068,
+    "approxTTMEPSCNY": 2.58,
+    "approxTTMPEResearchFX": 37.70260747,
+    "TTMCaution": "FY2026 EPS−2025六月季度EPS+2026六月季度EPS，仅近似；不同期间加权股数不同",
+    "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedEBITACNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPNetIncomeCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "FCFCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      },
+      "capexCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "priorYearNonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "historicalPEResearchFX": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "times",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      },
+      "approxTTMEPSCNY": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      },
+      "approxTTMPEResearchFX": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "times",
+        "period": "FY2026 ended 2026-03-31",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      }
+    },
+    "publicationDate": "2026-05-13"
+  },
+  "latestQuarter": {
+    "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+    "published": "2026-08-20",
+    "revenueCNYmillion": 268953,
+    "adjustedEBITACNYmillion": 27329,
+    "nonGAAPNetIncomeCNYmillion": 20715,
+    "nonGAAPDilutedEPSCNY": 1.07,
+    "operatingCashFlowCNYmillion": 22945,
+    "FCFCNYmillion": -44670,
+    "capexCNYmillion": 67678,
+    "cashAndOtherLiquidInvestmentsCNYmillion": 474505,
+    "interestBearingDebtResearchCNYmillion": 266530,
+    "netLiquidityResearchCNYmillion": 207975,
+    "dilutedSharesMillion": 19324,
+    "debtCaution": "银行借款+优先票据+可转债+可交换债账面值，未含租赁及经营负债；广义流动资源非现金等价物",
+    "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+    "currency": "CNY",
+    "unit": "mixed, original suffix retains scale",
+    "publicationDate": "2026-08-20",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "adjustedEBITACNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPNetIncomeCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "FCFCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "capexCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "cashAndOtherLiquidInvestmentsCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "interestBearingDebtResearchCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "netLiquidityResearchCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "dilutedSharesMillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "million shares",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; shares billion; EPS CNY per ordinary share; NTM at target date",
+    "effectiveTaxRate": 0.22,
+    "yearEnd": {
+      "commerceEBITA": [
+        135,
+        166,
+        180
+      ],
+      "cloudComputeEBITA": [
+        24,
+        34,
+        40
+      ],
+      "labsEBITA": [
+        -56,
+        -54,
+        -31
+      ],
+      "otherCorporateEliminationEBITA": [
+        -18,
+        -10,
+        -8
+      ],
+      "afterTaxInterestAssociatesNet": [
+        5,
+        4,
+        5
+      ],
+      "dilutedShares": [
+        20.5,
+        20,
+        19.5
+      ]
+    },
+    "halfYear": {
+      "commerceEBITA": [
+        135,
+        174,
+        188
+      ],
+      "cloudComputeEBITA": [
+        26,
+        39,
+        53
+      ],
+      "labsEBITA": [
+        -52,
+        -54,
+        -26
+      ],
+      "otherCorporateEliminationEBITA": [
+        -24,
+        -3,
+        4
+      ],
+      "afterTaxInterestAssociatesNet": [
+        5,
+        4,
+        5
+      ],
+      "dilutedShares": [
+        20.5,
+        20,
+        19.5
+      ]
+    },
+    "oneYear": {
+      "commerceEBITA": [
+        135,
+        182,
+        208
+      ],
+      "cloudComputeEBITA": [
+        32,
+        50,
+        70
+      ],
+      "labsEBITA": [
+        -61,
+        -42,
+        -20
+      ],
+      "otherCorporateEliminationEBITA": [
+        -22,
+        -6,
+        10
+      ],
+      "afterTaxInterestAssociatesNet": [
+        6,
+        5,
+        5
+      ],
+      "dilutedShares": [
+        20.5,
+        20,
+        19.5
+      ]
+    },
+    "threeYear": {
+      "commerceEBITA": [
+        133,
+        205,
+        250
+      ],
+      "cloudComputeEBITA": [
+        45,
+        105,
+        190
+      ],
+      "labsEBITA": [
+        -81,
+        -42,
+        -18
+      ],
+      "otherCorporateEliminationEBITA": [
+        -22,
+        -4,
+        12
+      ],
+      "afterTaxInterestAssociatesNet": [
+        5,
+        6,
+        6
+      ],
+      "dilutedShares": [
+        21,
+        19.3,
+        19.2
+      ]
+    },
+    "fiveYear": {
+      "commerceEBITA": [
+        130,
+        230,
+        310
+      ],
+      "cloudComputeEBITA": [
+        50,
+        173,
+        363
+      ],
+      "labsEBITA": [
+        -93,
+        -41,
+        -15
+      ],
+      "otherCorporateEliminationEBITA": [
+        -22,
+        -2,
+        12
+      ],
+      "afterTaxInterestAssociatesNet": [
+        4,
+        6,
+        6
+      ],
+      "dilutedShares": [
+        22,
+        19.1,
+        18.9
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        3.48,
+        5.5,
+        7.5
+      ],
+      "PE": [
+        15,
+        22,
+        28
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        57.42,
+        133.1,
+        231
+      ],
+      "priceReturnPct": [
+        -46.3364485981,
+        24.3925233645,
+        115.8878504673
+      ],
+      "totalReturnPct": [
+        -46.3364485981,
+        24.3925233645,
+        115.8878504673
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 138.655,
+      "expectedReturnPct": 29.5841121495,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 112.618,
+        "defensiveReturnPct": 5.2504672897,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 164.692,
+        "positiveReturnPct": 53.9177570093
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        3.48,
+        6.28,
+        9.02
+      ],
+      "PE": [
+        15,
+        22,
+        28
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        57.42,
+        151.98,
+        277.82
+      ],
+      "priceReturnPct": [
+        -46.3364485981,
+        42.0373831776,
+        159.6448598131
+      ],
+      "totalReturnPct": [
+        -46.3364485981,
+        42.0373831776,
+        159.6448598131
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        3.49,
+        7.43,
+        10.98
+      ],
+      "PE": [
+        14,
+        21,
+        27
+      ],
+      "cumulativeCashDividendHKD": [
+        0.5,
+        1.2,
+        1.8
+      ],
+      "priceHKD": [
+        53.75,
+        171.63,
+        326.11
+      ],
+      "priceReturnPct": [
+        -49.7663551402,
+        60.4018691589,
+        204.7757009346
+      ],
+      "totalReturnPct": [
+        -49.2990654206,
+        61.523364486,
+        206.4579439252
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        3.02,
+        10.98,
+        17.94
+      ],
+      "PE": [
+        12,
+        20,
+        27
+      ],
+      "cumulativeCashDividendHKD": [
+        1.5,
+        4.5,
+        7
+      ],
+      "priceHKD": [
+        39.86,
+        241.56,
+        532.82
+      ],
+      "priceReturnPct": [
+        -62.7476635514,
+        125.7570093458,
+        397.9626168224
+      ],
+      "totalReturnPct": [
+        -61.3457943925,
+        129.9626168224,
+        404.5046728972
+      ],
+      "baseAnnualizedTotalReturnPct": 31.9934601945
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        2.49,
+        15.02,
+        27.97
+      ],
+      "PE": [
+        10,
+        18,
+        25
+      ],
+      "cumulativeCashDividendHKD": [
+        2.5,
+        8,
+        15
+      ],
+      "priceHKD": [
+        27.39,
+        297.4,
+        769.18
+      ],
+      "priceReturnPct": [
+        -74.4018691589,
+        177.9439252336,
+        618.8598130841
+      ],
+      "totalReturnPct": [
+        -72.0654205607,
+        185.4205607477,
+        632.8785046729
+      ],
+      "baseAnnualizedTotalReturnPct": 23.3380423741
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.2,
+        1.8,
+        3.5,
+        4.2,
+        4,
+        2.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 58.9
+    },
+    "oneYear": {
+      "dimensions": [
+        3.6,
+        1.8,
+        3.9,
+        4.3,
+        4.1,
+        2.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 69.2
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4.1,
+        4.5,
+        4,
+        2.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 77.5
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4.2,
+        4.5,
+        3.8,
+        2.5
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 78.9
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "FY2026 nonGAAP PE29.04x/近似TTM37.70x，现价低于历史高点不等于盈利估值低；恢复路径有高空间和大下行",
+    "technicalRelativeStrength": "107低于MA20/60/120/250且均下斜，量比1.322；20日胜恒指3.071pp但60日落后5.281pp；周线仍下降",
+    "growthBusinessQuality": "六月云计算收入+45%及EBITA+133%，电商EBITA稳定；CMR净额-7%、Labs亏13.861bn及重资本转型限制合并质量",
+    "industryCycle": "代理与推理需求、产业上云有空间，消费弱势、算力供给/价格及出口约束具周期风险",
+    "catalysts": "截至截止日已披露模型商业化与下一季度业绩观察窗口；投行预期须等待实现",
+    "financialGovernanceDownside": "广义资源474.505bn但有息债266.530bn；季度FCF-44.670bn、资本开支67.678bn、稀释和监管约束降低分数"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（官网年度/季度原始文件）",
+    "technical": "高（锁版腾讯/新浪报价及Yahoo/腾讯复权日线）",
+    "valuation": "中低（研究分部盈利/税率/股数/PE/FX，非完整DCF）",
+    "brokerTargets": "中（公开新闻转载，期限未知不补造）"
+  },
+  "assumptions": [
+    "FY2027 Q1不是自然年H1，FY2026止2026-03-31",
+    "各目标使用NTM经营参数，不把Q1×4作为已实现全年",
+    "每份ADS代表8股普通股；美元ADS目标不用人民币普通股EPS直接乘",
+    "分部EBITA已含折旧、剔除非现金SBC等，公司nonGAAP非现金利润不是FCF",
+    "研究22%有效税率不是季度GAAP57.37%税率，不代表税收优惠获保证",
+    "税后利息/联营净贡献已计入EPS，不额外加净现金或蚂蚁估值",
+    "桥接股数纳入SBC、可转债及融资/回购假设；不保证净缩股",
+    "EPS先四舍五入至2位再计算价格，目标价保留2位",
+    "研究分红仅未来现金，无再投资，不再计已除息2026股息",
+    "长期高价需AI盈利与投入资本回报兑现，若利润低或摊薄更大价格可低于悲观",
+    "情景判断权重非统计概率，区间非最大损失边界",
+    "将资本开支作为现金/估值风险而不再从已含折旧利润全额扣除，避免双扣；完整DCF仍待更多信息"
+  ],
+  "sources": [
+    "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+    "https://data.alibabagroup.com/ecms-files/1532295521/5b1cb883-8d00-4237-a148-6631cc12a5d2/Alibaba%20Group%20Announces%20March%20Quarter%202026%20and%20Fiscal%20Year%202026%20Results.pdf",
+    "https://data.alibabagroup.com/ecms-files/1514443390/5b9061ed-71c8-465b-b000-d995d1e77bf4/Alibaba%20Group%20Holding%20Limited%20Fiscal%20Year%202026%20Annual%20Report.pdf",
+    "https://data.alibabagroup.com/ecms-files/1567773279/9a0e4864-83fe-4a69-aa1e-e5c14f5b2e73/EN%20Jun%202026%20Q%20-%20Alibaba%20Earnings%20Call.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09988/AAFN/NOW.1548528/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00700/AAFN/NOW.1544986/hk-stock-news",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09988/AAFN/NOW.1547727/research-report"
+  ],
+  "deepResearchFile": "research/alibaba_deep.md",
+  "effectiveHanzi": 14390,
+  "wordCountBasis": "正文第一节至第三十节CJK汉字；剔除结论卡、标题、来源、表格与链接；无长引文或共用宏观段落",
+  "marketSnapshot": "data/market_snapshot_locked.json",
+  "latestPeriod": {
+    "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+    "published": "2026-08-20",
+    "revenueCNYmillion": 268953,
+    "adjustedEBITACNYmillion": 27329,
+    "nonGAAPNetIncomeCNYmillion": 20715,
+    "nonGAAPDilutedEPSCNY": 1.07,
+    "operatingCashFlowCNYmillion": 22945,
+    "FCFCNYmillion": -44670,
+    "capexCNYmillion": 67678,
+    "cashAndOtherLiquidInvestmentsCNYmillion": 474505,
+    "interestBearingDebtResearchCNYmillion": 266530,
+    "netLiquidityResearchCNYmillion": 207975,
+    "dilutedSharesMillion": 19324,
+    "debtCaution": "银行借款+优先票据+可转债+可交换债账面值，未含租赁及经营负债；广义流动资源非现金等价物",
+    "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+    "currency": "CNY",
+    "unit": "mixed, original suffix retains scale",
+    "publicationDate": "2026-08-20",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "adjustedEBITACNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPNetIncomeCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "FCFCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "capexCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "cashAndOtherLiquidInvestmentsCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "interestBearingDebtResearchCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "netLiquidityResearchCNYmillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "dilutedSharesMillion": {
+        "sourceURL": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+        "currency": "CNY",
+        "unit": "million shares",
+        "period": "FY2027 Q1, 2026-04-01 to 2026-06-30",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      }
+    }
+  }
+}

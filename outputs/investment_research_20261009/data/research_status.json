@@ -1,0 +1,1492 @@
+{
+  "asOf": "2026-10-09",
+  "scope": {
+    "securities": 96,
+    "issuers": 92,
+    "excludedProducts": 7
+  },
+  "companies": [
+    {
+      "issuerId": "I001",
+      "name": "海尔生物",
+      "sector": "医药设备",
+      "securities": [
+        "S001"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16852,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "haier-bio-pe-v1.0",
+      "modelFile": "data/haier_bio_model.json",
+      "deepResearchFile": "research/haier_bio_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.214Z"
+    },
+    {
+      "issuerId": "I002",
+      "name": "迈威生物",
+      "sector": "创新药",
+      "securities": [
+        "S002"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14148,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "mabwell-rnpv-v1.1",
+      "modelFile": "data/mabwell_model.json",
+      "deepResearchFile": "research/mabwell_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.217Z"
+    },
+    {
+      "issuerId": "I003",
+      "name": "迪哲医药",
+      "sector": "创新药",
+      "securities": [
+        "S003"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13138,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "dizal-rnpv-v1.0",
+      "modelFile": "data/dizal_model.json",
+      "deepResearchFile": "research/dizal_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.218Z"
+    },
+    {
+      "issuerId": "I004",
+      "name": "益方生物",
+      "sector": "创新药",
+      "securities": [
+        "S004"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11872,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "inventis-rnpv-v1.0",
+      "modelFile": "data/inventis_model.json",
+      "deepResearchFile": "research/inventis_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.219Z"
+    },
+    {
+      "issuerId": "I005",
+      "name": "海创药业",
+      "sector": "创新药",
+      "securities": [
+        "S005"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14430,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "hinova-rnpv-v1.0",
+      "modelFile": "data/hinova_model.json",
+      "deepResearchFile": "research/hinova_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.223Z"
+    },
+    {
+      "issuerId": "I006",
+      "name": "凯莱英",
+      "sector": "CXO",
+      "securities": [
+        "S006",
+        "S057"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16741,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "asymchem-AH-pe-v1.0",
+      "modelFile": "data/asymchem_model.json",
+      "deepResearchFile": "research/asymchem_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.223Z"
+    },
+    {
+      "issuerId": "I007",
+      "name": "微创脑科学",
+      "sector": "医药设备",
+      "securities": [
+        "S007"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13997,
+      "valuationStatus": "暂不排名；融资或复牌条件参考估值",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "neuro-conditional-whole-group-economic-PE-v1.1",
+      "modelFile": "data/neuro_model.json",
+      "deepResearchFile": "research/neuro_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.224Z"
+    },
+    {
+      "issuerId": "I008",
+      "name": "英矽智能",
+      "sector": "创新药AI",
+      "securities": [
+        "S008"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13341,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+      "modelFile": "data/insilico_model.json",
+      "deepResearchFile": "research/I008_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.224Z"
+    },
+    {
+      "issuerId": "I009",
+      "name": "微创机器人-B",
+      "sector": "医药设备",
+      "securities": [
+        "S010"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12689,
+      "valuationStatus": "暂不排名；融资或复牌条件参考估值",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "robot-conditional-product-economic-PE-v1.0",
+      "modelFile": "data/robot_model.json",
+      "deepResearchFile": "research/robot_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.225Z"
+    },
+    {
+      "issuerId": "I010",
+      "name": "药明康德",
+      "sector": "CXO",
+      "securities": [
+        "S011",
+        "S037"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14716,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "wuxiapptec-normalized-adjusted-pe-v1.0",
+      "modelFile": "data/wuxi_apptec_model.json",
+      "deepResearchFile": "research/wuxi_apptec_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.225Z"
+    },
+    {
+      "issuerId": "I011",
+      "name": "恒瑞医药",
+      "sector": "创新药",
+      "securities": [
+        "S012",
+        "S022"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12137,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "hengrui-normalized-ntm-pe-v1.0",
+      "modelFile": "data/hengrui_model.json",
+      "deepResearchFile": "research/hengrui_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.225Z"
+    },
+    {
+      "issuerId": "I012",
+      "name": "百济神州",
+      "sector": "创新药",
+      "securities": [
+        "S013",
+        "S043"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16946,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "beone-v1-operating-profit-AH-royalty-excluded",
+      "modelFile": "data/beone_model.json",
+      "deepResearchFile": "research/I012_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.226Z"
+    },
+    {
+      "issuerId": "I013",
+      "name": "博腾股份",
+      "sector": "CXO",
+      "securities": [
+        "S015"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13687,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "porton-normalized-pe-v1.0",
+      "modelFile": "data/porton_model.json",
+      "deepResearchFile": "research/porton_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.226Z"
+    },
+    {
+      "issuerId": "I014",
+      "name": "迈瑞医疗",
+      "sector": "医药设备",
+      "securities": [
+        "S016"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13866,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "mindray-normalized-pe-v1.0",
+      "modelFile": "data/mindray_model.json",
+      "deepResearchFile": "research/mindray_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.227Z"
+    },
+    {
+      "issuerId": "I015",
+      "name": "皓元医药",
+      "sector": "CXO",
+      "securities": [
+        "S017"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14985,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "haoyuan-diluted-pe-v1.0",
+      "modelFile": "data/haoyuan_model.json",
+      "deepResearchFile": "research/haoyuan_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.227Z"
+    },
+    {
+      "issuerId": "I016",
+      "name": "微创医疗",
+      "sector": "医药设备",
+      "securities": [
+        "S018"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13509,
+      "valuationStatus": "暂不排名；融资或复牌条件参考估值",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "microport-conditional-eliminated-group-economic-PE-v1.0",
+      "modelFile": "data/microport_model.json",
+      "deepResearchFile": "research/microport_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.227Z"
+    },
+    {
+      "issuerId": "I017",
+      "name": "键凯科技",
+      "sector": "生物材料",
+      "securities": [
+        "S019"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13877,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "jenkem-normalized-pe-v1.0",
+      "modelFile": "data/jenkem_model.json",
+      "deepResearchFile": "research/jenkem_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.228Z"
+    },
+    {
+      "issuerId": "I018",
+      "name": "美迪西",
+      "sector": "CXO",
+      "securities": [
+        "S020"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13294,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "medicilon-normalized-pe-v1.0",
+      "modelFile": "data/medicilon_model.json",
+      "deepResearchFile": "research/medicilon_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.228Z"
+    },
+    {
+      "issuerId": "I019",
+      "name": "时代天使",
+      "sector": "医药设备",
+      "securities": [
+        "S023"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15192,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "angel-USD-whole-group-atomic-normal-PE-v1.0",
+      "modelFile": "data/angel_model.json",
+      "deepResearchFile": "research/angel_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.229Z"
+    },
+    {
+      "issuerId": "I020",
+      "name": "映恩生物-B",
+      "sector": "创新药",
+      "securities": [
+        "S024"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 17167,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "duality-v2-equityRewards-noCashSubstitute-netRights",
+      "modelFile": "data/duality_model.json",
+      "deepResearchFile": "research/I020_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.229Z"
+    },
+    {
+      "issuerId": "I021",
+      "name": "亚盛医药",
+      "sector": "创新药",
+      "securities": [
+        "S026"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16602,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "ascentage-v4-equityRewards-noCashSubstitute-finiteDistributions",
+      "modelFile": "data/ascentage_model.json",
+      "deepResearchFile": "research/I021_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.230Z"
+    },
+    {
+      "issuerId": "I022",
+      "name": "康龙化成",
+      "sector": "CXO",
+      "securities": [
+        "S027"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12848,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "pharmaron-v1-segment-normal-profit-cashroll-CBchoice",
+      "modelFile": "data/pharmaron_model.json",
+      "deepResearchFile": "research/I022_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.230Z"
+    },
+    {
+      "issuerId": "I023",
+      "name": "三生制药",
+      "sector": "创新药",
+      "securities": [
+        "S028"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13271,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "3sbio-v1-core-plus-707-rnPV",
+      "modelFile": "data/3sbio_model.json",
+      "deepResearchFile": "research/I023_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.230Z"
+    },
+    {
+      "issuerId": "I024",
+      "name": "和黄医药",
+      "sector": "创新药",
+      "securities": [
+        "S029"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16541,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "hutchmed-v2-riskFCFF-cashdate-reward-banknet-noTerminal",
+      "modelFile": "data/hutchmed_model.json",
+      "deepResearchFile": "research/I024_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.231Z"
+    },
+    {
+      "issuerId": "I025",
+      "name": "石药集团",
+      "sector": "综合药企",
+      "securities": [
+        "S030"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14492,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "cspc-v1-core-cash-assetgroups",
+      "modelFile": "data/cspc_model.json",
+      "deepResearchFile": "research/I025_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.232Z"
+    },
+    {
+      "issuerId": "I026",
+      "name": "乐普生物",
+      "sector": "创新药",
+      "securities": [
+        "S031"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14810,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "lepu-v1-netrights-annualPD1Consideration-finiteDistributions",
+      "modelFile": "data/lepu_model.json",
+      "deepResearchFile": "research/I026_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.232Z"
+    },
+    {
+      "issuerId": "I027",
+      "name": "晶泰控股",
+      "sector": "创新药AI",
+      "securities": [
+        "S032"
+      ],
+      "status": "pending",
+      "effectiveHanCharacters": 0,
+      "valuationStatus": "pending",
+      "sourceStatus": "pending"
+    },
+    {
+      "issuerId": "I028",
+      "name": "上海医药",
+      "sector": "医药流通",
+      "securities": [
+        "S033"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14518,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "shpharma-H-normalized-pe-v1.0",
+      "modelFile": "data/shpharma_model.json",
+      "deepResearchFile": "research/shpharma_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.233Z"
+    },
+    {
+      "issuerId": "I029",
+      "name": "翰森制药",
+      "sector": "创新药",
+      "securities": [
+        "S034"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11699,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "hansoh-v1",
+      "modelFile": "data/hansoh_model.json",
+      "deepResearchFile": "research/I029_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.234Z"
+    },
+    {
+      "issuerId": "I030",
+      "name": "绿叶制药",
+      "sector": "综合药企",
+      "securities": [
+        "S035"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15932,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "luye-v2-normal-lookthrough-EP-CBput-Nanjing",
+      "modelFile": "data/luye_model.json",
+      "deepResearchFile": "research/I030_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.235Z"
+    },
+    {
+      "issuerId": "I031",
+      "name": "中国生物制药",
+      "sector": "创新药",
+      "securities": [
+        "S036"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12405,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "sinobiopharm-v1-transaction-cash-bridge",
+      "modelFile": "data/sinobiopharm_model.json",
+      "deepResearchFile": "research/I031_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.235Z"
+    },
+    {
+      "issuerId": "I032",
+      "name": "远大医药",
+      "sector": "综合药企",
+      "securities": [
+        "S038"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14122,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
+      "modelFile": "data/grand_pharma_model.json",
+      "deepResearchFile": "research/grand_pharma_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.235Z"
+    },
+    {
+      "issuerId": "I033",
+      "name": "先声药业",
+      "sector": "创新药",
+      "securities": [
+        "S039"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16268,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "simcere-v2-short-recognition-normal-product-risk-royalty-PE-cash",
+      "modelFile": "data/simcere_model.json",
+      "deepResearchFile": "research/I033_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.236Z"
+    },
+    {
+      "issuerId": "I034",
+      "name": "药明生物",
+      "sector": "CXO",
+      "securities": [
+        "S040"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11610,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "wuxi-bio-v1",
+      "modelFile": "data/wuxi_bio_model.json",
+      "deepResearchFile": "research/I034_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.237Z"
+    },
+    {
+      "issuerId": "I035",
+      "name": "金斯瑞生物科技",
+      "sector": "生物科技",
+      "securities": [
+        "S041"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12558,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "genscript-v1-transparent-SOTP-preferred-residual",
+      "modelFile": "data/genscript_model.json",
+      "deepResearchFile": "research/I035_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.237Z"
+    },
+    {
+      "issuerId": "I036",
+      "name": "丽珠医药",
+      "sector": "综合药企",
+      "securities": [
+        "S042"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15922,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "livzon-H-normalized-pe-v1.0",
+      "modelFile": "data/livzon_model.json",
+      "deepResearchFile": "research/livzon_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.238Z"
+    },
+    {
+      "issuerId": "I037",
+      "name": "君圣泰医药-B",
+      "sector": "创新药",
+      "securities": [
+        "S044"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15041,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "hightide-linked-shareholder-CF-v2.0",
+      "modelFile": "data/hightide_model.json",
+      "deepResearchFile": "research/hightide_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.239Z"
+    },
+    {
+      "issuerId": "I038",
+      "name": "开拓药业-B",
+      "sector": "创新药",
+      "securities": [
+        "S045"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12296,
+      "valuationStatus": "暂不排名；融资或复牌条件参考估值",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "kintor-conditional-finite-risk-FCFF-v1.0",
+      "modelFile": "data/kintor_model.json",
+      "deepResearchFile": "research/kintor_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.239Z"
+    },
+    {
+      "issuerId": "I039",
+      "name": "再鼎医药",
+      "sector": "创新药",
+      "securities": [
+        "S046"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16901,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "zai-v2-actualTradingTarget-netTaxRewards",
+      "modelFile": "data/zai_model.json",
+      "deepResearchFile": "research/I039_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.240Z"
+    },
+    {
+      "issuerId": "I040",
+      "name": "云顶新耀",
+      "sector": "创新药",
+      "securities": [
+        "S047"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11795,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "everest-v2-fullLicenseCash-finiteFCFF-contractnet-debt",
+      "modelFile": "data/everest_model.json",
+      "deepResearchFile": "research/I040_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.241Z"
+    },
+    {
+      "issuerId": "I041",
+      "name": "诺诚健华",
+      "sector": "创新药",
+      "securities": [
+        "S048"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14862,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "innocare-v2-finiteFCFF-restrictedCash-netdebt-cleared-allshares",
+      "modelFile": "data/innocare_model.json",
+      "deepResearchFile": "research/I041_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.241Z"
+    },
+    {
+      "issuerId": "I042",
+      "name": "康希诺生物",
+      "sector": "疫苗",
+      "securities": [
+        "S049"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12775,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
+      "modelFile": "data/cansino_model.json",
+      "deepResearchFile": "research/I042_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.242Z"
+    },
+    {
+      "issuerId": "I043",
+      "name": "复星医药",
+      "sector": "综合药企",
+      "securities": [
+        "S050"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15821,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "fosun-H-native-normal-profit-v1.0",
+      "modelFile": "data/fosun_model.json",
+      "deepResearchFile": "research/fosun_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.242Z"
+    },
+    {
+      "issuerId": "I044",
+      "name": "泰格医药",
+      "sector": "CXO",
+      "securities": [
+        "S051"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13524,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "tigermed-H-native-normal-profit-v1.0",
+      "modelFile": "data/tigermed_model.json",
+      "deepResearchFile": "research/tigermed_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.243Z"
+    },
+    {
+      "issuerId": "I045",
+      "name": "昭衍新药",
+      "sector": "CXO",
+      "securities": [
+        "S052"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14870,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "joinn-H-normal-group-PE-no-bio-FV-v1.0",
+      "modelFile": "data/joinn_model.json",
+      "deepResearchFile": "research/joinn_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.244Z"
+    },
+    {
+      "issuerId": "I046",
+      "name": "君实生物",
+      "sector": "创新药",
+      "securities": [
+        "S053"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12918,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "junshi-v1-netLicensedRights-known2026Bonds-2029Put-equityOptions",
+      "modelFile": "data/junshi_model.json",
+      "deepResearchFile": "research/I046_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.244Z"
+    },
+    {
+      "issuerId": "I047",
+      "name": "康诺亚-B",
+      "sector": "创新药",
+      "securities": [
+        "S054"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13243,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "keymed-v2-finite-assets-prorated-short-recognition",
+      "modelFile": "data/keymed_model.json",
+      "deepResearchFile": "research/I047_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.245Z"
+    },
+    {
+      "issuerId": "I048",
+      "name": "信达生物",
+      "sector": "创新药",
+      "securities": [
+        "S055"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13341,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "innovent-v1",
+      "modelFile": "data/innovent_model.json",
+      "deepResearchFile": "research/I048_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.245Z"
+    },
+    {
+      "issuerId": "I049",
+      "name": "药明合联",
+      "sector": "CXO",
+      "securities": [
+        "S056"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14282,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "wuxi-xdc-v1",
+      "modelFile": "data/wuxi_xdc_model.json",
+      "deepResearchFile": "research/I049_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.246Z"
+    },
+    {
+      "issuerId": "I050",
+      "name": "康哲药业",
+      "sector": "综合药企",
+      "securities": [
+        "S058"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14188,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "cms-whole-group-normal-PE-continuing-consolidation-v1.0",
+      "modelFile": "data/cms_model.json",
+      "deepResearchFile": "research/cms_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.247Z"
+    },
+    {
+      "issuerId": "I051",
+      "name": "荣昌生物",
+      "sector": "创新药",
+      "securities": [
+        "S059"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13392,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "remegen-v2-finite-assets-Vor-residual-return-aligned-score",
+      "modelFile": "data/remegen_model.json",
+      "deepResearchFile": "research/I051_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.248Z"
+    },
+    {
+      "issuerId": "I052",
+      "name": "康方生物",
+      "sector": "创新药",
+      "securities": [
+        "S060"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11189,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "akeso-v2-year-end-cashflows",
+      "modelFile": "data/akeso_model.json",
+      "deepResearchFile": "research/I052_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.249Z"
+    },
+    {
+      "issuerId": "I053",
+      "name": "中国同辐",
+      "sector": "核医药",
+      "securities": [
+        "S061"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16273,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "circ-CASBE-whole-group-atomic-normal-PE-v1.0",
+      "modelFile": "data/circ_model.json",
+      "deepResearchFile": "research/circ_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.250Z"
+    },
+    {
+      "issuerId": "I054",
+      "name": "MINIMAX-W",
+      "sector": "AI模型",
+      "securities": [
+        "S064"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11255,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0",
+      "modelFile": "data/minimax_model.json",
+      "deepResearchFile": "research/minimax_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.250Z"
+    },
+    {
+      "issuerId": "I055",
+      "name": "智谱",
+      "sector": "AI模型",
+      "securities": [
+        "S065"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11225,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "zhipu-cloudARR-fullcost-RMB-USDsettled-bond-capital-v1.0",
+      "modelFile": "data/zhipu_model.json",
+      "deepResearchFile": "research/zhipu_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.251Z"
+    },
+    {
+      "issuerId": "I056",
+      "name": "泡泡玛特",
+      "sector": "消费",
+      "securities": [
+        "S066"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14222,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "popmart-normalized-geography-v1.0",
+      "modelFile": "data/popmart_model.json",
+      "deepResearchFile": "research/popmart_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.252Z"
+    },
+    {
+      "issuerId": "I057",
+      "name": "中广核新能源",
+      "sector": "新能源运营",
+      "securities": [
+        "S067"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12412,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "cgn-energy-quantity-price-interest-funding-v1.0",
+      "modelFile": "data/cgn_model.json",
+      "deepResearchFile": "research/cgn_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.252Z"
+    },
+    {
+      "issuerId": "I058",
+      "name": "东方甄选",
+      "sector": "消费",
+      "securities": [
+        "S068"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11407,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "eastbuy-fiscal-product-service-treasury-sbc-v1.0",
+      "modelFile": "data/eastbuy_model.json",
+      "deepResearchFile": "research/eastbuy_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.253Z"
+    },
+    {
+      "issuerId": "I059",
+      "name": "优必选",
+      "sector": "机器人",
+      "securities": [
+        "S069"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 10747,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0",
+      "modelFile": "data/ubtech_model.json",
+      "deepResearchFile": "research/ubtech_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.253Z"
+    },
+    {
+      "issuerId": "I060",
+      "name": "心动公司",
+      "sector": "游戏",
+      "securities": [
+        "S070"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14253,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "xd-normal-IFRS-two-segment-owner-profit-cash-share-v1.0",
+      "modelFile": "data/xd_model.json",
+      "deepResearchFile": "research/xd_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.254Z"
+    },
+    {
+      "issuerId": "I061",
+      "name": "比亚迪股份",
+      "sector": "汽车",
+      "securities": [
+        "S071"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 10908,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "byd-unit-owner-profit-v1.0",
+      "modelFile": "data/byd_model.json",
+      "deepResearchFile": "research/byd_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.255Z"
+    },
+    {
+      "issuerId": "I062",
+      "name": "地平线机器人-W",
+      "sector": "智能驾驶",
+      "securities": [
+        "S072"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11923,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "horizon-product-license-fullcost-CARIAD-bond-NAV-v1.0",
+      "modelFile": "data/horizon_model.json",
+      "deepResearchFile": "research/horizon_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.255Z"
+    },
+    {
+      "issuerId": "I063",
+      "name": "宁德时代",
+      "sector": "电池",
+      "securities": [
+        "S073"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14335,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "catl-normalized-four-segment-v1.0",
+      "modelFile": "data/catl_model.json",
+      "deepResearchFile": "research/catl_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.256Z"
+    },
+    {
+      "issuerId": "I064",
+      "name": "网易",
+      "sector": "游戏",
+      "securities": [
+        "S074"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12935,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "netease-pe-v1.0",
+      "modelFile": "data/netease_model.json",
+      "deepResearchFile": "research/netease_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.257Z"
+    },
+    {
+      "issuerId": "I065",
+      "name": "联想集团",
+      "sector": "硬件",
+      "securities": [
+        "S075"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13854,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "lenovo-normalized-operating-dilution-v1.0",
+      "modelFile": "data/lenovo_model.json",
+      "deepResearchFile": "research/lenovo_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.258Z"
+    },
+    {
+      "issuerId": "I066",
+      "name": "百度集团-W",
+      "sector": "互联网AI",
+      "securities": [
+        "S076"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14736,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "baidu-mutually-exclusive-normalized-v1.0",
+      "modelFile": "data/baidu_model.json",
+      "deepResearchFile": "research/baidu_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.259Z"
+    },
+    {
+      "issuerId": "I067",
+      "name": "阿里健康",
+      "sector": "互联网医疗",
+      "securities": [
+        "S077"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16824,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "alihealth-direct-platform-digital-normalized-profit-v1.0",
+      "modelFile": "data/alihealth_model.json",
+      "deepResearchFile": "research/alihealth_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.259Z"
+    },
+    {
+      "issuerId": "I068",
+      "name": "海尔智家",
+      "sector": "家电",
+      "securities": [
+        "S078"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12565,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "haier-smart-regional-economic-profit-cash-v1.1",
+      "modelFile": "data/haier_smart_model.json",
+      "deepResearchFile": "research/haier_smart_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.260Z"
+    },
+    {
+      "issuerId": "I069",
+      "name": "ASMPT",
+      "sector": "半导体设备",
+      "securities": [
+        "S079"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16026,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "asmpt-semi-smt-gross-normal-profit-HKD-v1.0",
+      "modelFile": "data/asmpt_model.json",
+      "deepResearchFile": "research/asmpt_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.260Z"
+    },
+    {
+      "issuerId": "I070",
+      "name": "京东集团-SW",
+      "sector": "互联网消费",
+      "securities": [
+        "S080"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13029,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "jd-three-segment-normalized-v1.0",
+      "modelFile": "data/jd_model.json",
+      "deepResearchFile": "research/jd_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.261Z"
+    },
+    {
+      "issuerId": "I071",
+      "name": "华虹宏力",
+      "sector": "半导体",
+      "securities": [
+        "S081"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15780,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "huahong-common-control-owner-book-PB-profit-cash-v1.0",
+      "modelFile": "data/huahong_model.json",
+      "deepResearchFile": "research/huahong_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.261Z"
+    },
+    {
+      "issuerId": "I072",
+      "name": "腾讯控股",
+      "sector": "互联网游戏",
+      "securities": [
+        "S083"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15700,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "tencent-pe-v1.0",
+      "modelFile": "data/tencent_model.json",
+      "deepResearchFile": "research/tencent_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.262Z"
+    },
+    {
+      "issuerId": "I073",
+      "name": "哔哩哔哩-W",
+      "sector": "互联网内容",
+      "securities": [
+        "S084"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14741,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "bilibili-normalized-content-games-dilution-v1.0",
+      "modelFile": "data/bilibili_model.json",
+      "deepResearchFile": "research/bilibili_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.262Z"
+    },
+    {
+      "issuerId": "I074",
+      "name": "京东健康",
+      "sector": "互联网医疗",
+      "securities": [
+        "S085"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 15459,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "jdhealth-products-services-normalized-profit-v1.0",
+      "modelFile": "data/jdhealth_model.json",
+      "deepResearchFile": "research/jdhealth_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.262Z"
+    },
+    {
+      "issuerId": "I075",
+      "name": "阿里巴巴-W",
+      "sector": "互联网AI",
+      "securities": [
+        "S086"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14892,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "alibaba-operating-bridge-pe-v1.0",
+      "modelFile": "data/alibaba_model.json",
+      "deepResearchFile": "research/alibaba_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.263Z"
+    },
+    {
+      "issuerId": "I076",
+      "name": "舜宇光学科技",
+      "sector": "光学",
+      "securities": [
+        "S087"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16214,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "sunny-four-segment-gross-to-normal-profit-v1.0",
+      "modelFile": "data/sunny_model.json",
+      "deepResearchFile": "research/sunny_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.263Z"
+    },
+    {
+      "issuerId": "I077",
+      "name": "携程集团-S",
+      "sector": "旅游",
+      "securities": [
+        "S088"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12365,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "trip-normalized-ebit-penalty-v1.0",
+      "modelFile": "data/trip_model.json",
+      "deepResearchFile": "research/trip_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.264Z"
+    },
+    {
+      "issuerId": "I078",
+      "name": "美团-W",
+      "sector": "互联网消费",
+      "securities": [
+        "S089"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16455,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "meituan-core-new-SOTP-v1.0",
+      "modelFile": "data/meituan_model.json",
+      "updatedAt": "2026-10-11T07:17:05.268Z",
+      "deepResearchFile": "research/meituan_deep.md"
+    },
+    {
+      "issuerId": "I079",
+      "name": "阅文集团",
+      "sector": "互联网内容",
+      "securities": [
+        "S090"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14411,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "20261009-yuewen-full-expense-cash-EV-v1",
+      "modelFile": "data/yuewen_model.json",
+      "deepResearchFile": "research/yuewen_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.269Z"
+    },
+    {
+      "issuerId": "I080",
+      "name": "快手-W",
+      "sector": "互联网内容",
+      "securities": [
+        "S091"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14319,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "kuaishou-core-kling-normalized-v1.0",
+      "modelFile": "data/kuaishou_model.json",
+      "deepResearchFile": "research/kuaishou_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.269Z"
+    },
+    {
+      "issuerId": "I081",
+      "name": "比亚迪电子",
+      "sector": "硬件",
+      "securities": [
+        "S092"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12693,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "byde-sixProduct-fullEconomic-profit-cash-v1.0",
+      "modelFile": "data/byde_model.json",
+      "deepResearchFile": "research/byde_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.269Z"
+    },
+    {
+      "issuerId": "I082",
+      "name": "美的集团",
+      "sector": "家电",
+      "securities": [
+        "S093"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14543,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "midea-normalized-owner-margin-v1.0",
+      "modelFile": "data/midea_model.json",
+      "deepResearchFile": "research/midea_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.270Z"
+    },
+    {
+      "issuerId": "I083",
+      "name": "众安在线",
+      "sector": "保险科技",
+      "securities": [
+        "S094"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13344,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
+      "modelFile": "data/zhongan_model.json",
+      "deepResearchFile": "research/zhongan_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.270Z"
+    },
+    {
+      "issuerId": "I084",
+      "name": "理想汽车-W",
+      "sector": "汽车",
+      "securities": [
+        "S095"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13916,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0",
+      "modelFile": "data/liauto_model.json",
+      "deepResearchFile": "research/liauto_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.270Z"
+    },
+    {
+      "issuerId": "I085",
+      "name": "小鹏集团-W",
+      "sector": "汽车",
+      "securities": [
+        "S096"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 12661,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0",
+      "modelFile": "data/xpeng_model.json",
+      "deepResearchFile": "research/xpeng_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.271Z"
+    },
+    {
+      "issuerId": "I086",
+      "name": "同程旅行",
+      "sector": "旅游",
+      "securities": [
+        "S097"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 16682,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "tongcheng-full-cost-operating-EV-dida-cash-v1.0",
+      "modelFile": "data/tongcheng_model.json",
+      "deepResearchFile": "research/tongcheng_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.271Z"
+    },
+    {
+      "issuerId": "I087",
+      "name": "小米集团-W",
+      "sector": "硬件汽车",
+      "securities": [
+        "S098"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11779,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "xiaomi-normalized-two-segment-v1.0",
+      "modelFile": "data/xiaomi_model.json",
+      "deepResearchFile": "research/xiaomi_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.272Z"
+    },
+    {
+      "issuerId": "I088",
+      "name": "蔚来-SW",
+      "sector": "汽车",
+      "securities": [
+        "S099"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 10809,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1",
+      "modelFile": "data/nio_model.json",
+      "deepResearchFile": "research/nio_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.272Z"
+    },
+    {
+      "issuerId": "I089",
+      "name": "商汤-W",
+      "sector": "AI软件",
+      "securities": [
+        "S100"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 14163,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "sensetime-ai-normal-core-evsales-liquid-portfolio-lp-financing-v1.0",
+      "modelFile": "data/sensetime_model.json",
+      "deepResearchFile": "research/sensetime_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.272Z"
+    },
+    {
+      "issuerId": "I090",
+      "name": "金蝶国际",
+      "sector": "企业软件",
+      "securities": [
+        "S101"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 13809,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "kingdee-cloud-evsales-cash-reserve-v1.0",
+      "modelFile": "data/kingdee_model.json",
+      "deepResearchFile": "research/kingdee_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.273Z"
+    },
+    {
+      "issuerId": "I091",
+      "name": "金山软件",
+      "sector": "企业软件游戏",
+      "securities": [
+        "S102"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 11319,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0",
+      "modelFile": "data/kingsoft_model.json",
+      "deepResearchFile": "research/kingsoft_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.273Z"
+    },
+    {
+      "issuerId": "I092",
+      "name": "中芯国际",
+      "sector": "半导体",
+      "securities": [
+        "S103"
+      ],
+      "status": "正文完成，待文档验收",
+      "effectiveHanCharacters": 10973,
+      "valuationStatus": "情景模型初版已复算",
+      "sourceStatus": "已核验输入见来源表；缺失与转述逐项标记",
+      "modelVersion": "smic-normalized-IFRS-owner-share-v1.0",
+      "modelFile": "data/smic_model.json",
+      "deepResearchFile": "research/smic_deep.md",
+      "updatedAt": "2026-10-11T07:17:05.273Z"
+    }
+  ],
+  "version": "research-v0.1",
+  "summary": {
+    "issuerModels": 91,
+    "securityModels": 95,
+    "rankedSecurityModels": 91,
+    "conditionedSecurityModels": 4,
+    "deepResearchPassed": 91,
+    "remainingDeepResearch": 1,
+    "withheldManuscripts": []
+  }
+}

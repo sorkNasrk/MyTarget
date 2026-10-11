@@ -1,0 +1,2612 @@
+{
+  "issuerId": "I043",
+  "asOf": "2026-10-09",
+  "collectedAt": "2026-10-10T12:35:52.285Z",
+  "documents": [
+    {
+      "name": "2026H1A",
+      "publicationDate": "2026-08-26",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505529.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "FY2025A",
+      "publicationDate": "2026-03-25",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-25/1225028389.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "2026H1H",
+      "publicationDate": "2026-09-17",
+      "url": "https://iis.aastocks.com/20260917/12335318-0.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "2026SepShares",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590308.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "Amberstone",
+      "publicationDate": "2026-09-24",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-24/1225578512.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "ShanghaiCloneExtension",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590814.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "FundReduction",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590813.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    },
+    {
+      "name": "ReservedOptions",
+      "publicationDate": "2026-09-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225584168.PDF",
+      "type": "issuer_primary",
+      "currency": "CNY",
+      "unit": "million unless explicitly shares or USD",
+      "timestampStatus": "date verified; first exchange timestamp not fully verified"
+    }
+  ],
+  "announcementIndex": [
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于参与设立私募股权投资基金及筹划出售资产进展的公告",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590814.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225590814.PDF",
+      "noticeTimestamp": 1790784000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于高级管理人员辞任的公告",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590816.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225590816.PDF",
+      "noticeTimestamp": 1790784000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于发起设立之私募股权投资基金进展暨关联交易的公告",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590813.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225590813.PDF",
+      "noticeTimestamp": 1790784000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-证券变动月报表",
+      "publicationDate": "2026-10-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590308.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225590308.PDF",
+      "noticeTimestamp": 1790784000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于2025年A股股票期权激励计划预留授予结果公告",
+      "publicationDate": "2026-09-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225584168.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225584168.PDF",
+      "noticeTimestamp": 1790611200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-28",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-28/1225583765.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225583765.PDF",
+      "noticeTimestamp": 1790524800000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-25",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-25/1225581990.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225581990.PDF",
+      "noticeTimestamp": 1790265600000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于控股子公司签订合作与许可协议的公告",
+      "publicationDate": "2026-09-24",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-24/1225578512.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225578512.PDF",
+      "noticeTimestamp": 1790179200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-23",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577087.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225577087.PDF",
+      "noticeTimestamp": 1790092800000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于股东部分股份解除质押的公告",
+      "publicationDate": "2026-09-22",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574160.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225574160.PDF",
+      "noticeTimestamp": 1790006400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-22",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574874.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225574874.PDF",
+      "noticeTimestamp": 1790006400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-19",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-19/1225571993.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225571993.PDF",
+      "noticeTimestamp": 1789747200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于股东部分股份质押及解除质押的公告",
+      "publicationDate": "2026-09-19",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-19/1225571369.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225571369.PDF",
+      "noticeTimestamp": 1789747200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-18",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-18/1225570358.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225570358.PDF",
+      "noticeTimestamp": 1789660800000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-二零二六年中期报告",
+      "publicationDate": "2026-09-18",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-18/1225570348.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225570348.PDF",
+      "noticeTimestamp": 1789660800000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-17/1225568393.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225568393.PDF",
+      "noticeTimestamp": 1789574400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-16",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-16/1225565830.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225565830.PDF",
+      "noticeTimestamp": 1789488000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-15",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-15/1225563660.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225563660.PDF",
+      "noticeTimestamp": 1789401600000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-12/1225560379.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225560379.PDF",
+      "noticeTimestamp": 1789142400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于为控股子公司提供担保的进展公告",
+      "publicationDate": "2026-09-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-12/1225559954.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225559954.PDF",
+      "noticeTimestamp": 1789142400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于控股子公司药品注册申请获受理的公告",
+      "publicationDate": "2026-09-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-12/1225559975.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225559975.PDF",
+      "noticeTimestamp": 1789142400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-11/1225558041.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225558041.PDF",
+      "noticeTimestamp": 1789056000000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-10",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-10/1225556101.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225556101.PDF",
+      "noticeTimestamp": 1788969600000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于董事会薪酬与考核委员会就2025年A股股票期权激励计划预留授予激励对象名单公示情况及核查意见说明的公告",
+      "publicationDate": "2026-09-09",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-09/1225553371.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225553371.PDF",
+      "noticeTimestamp": 1788883200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于控股子公司药品获临床试验批准的公告",
+      "publicationDate": "2026-09-09",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-09/1225553375.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225553375.PDF",
+      "noticeTimestamp": 1788883200000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-翌日披露报表",
+      "publicationDate": "2026-09-08",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-08/1225551898.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225551898.PDF",
+      "noticeTimestamp": 1788796800000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药H股公告-自愿公告",
+      "publicationDate": "2026-09-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-07/1225550323.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225550323.PDF",
+      "noticeTimestamp": 1788710400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于出售控股子公司部分股权的提示性公告",
+      "publicationDate": "2026-09-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-07/1225550324.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225550324.PDF",
+      "noticeTimestamp": 1788710400000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于控股子公司借款续展暨关联交易的公告",
+      "publicationDate": "2026-09-05",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225547955.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225547955.PDF",
+      "noticeTimestamp": 1788537600000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    },
+    {
+      "name": "复星医药",
+      "code": "600196",
+      "title": "复星医药关于股东部分股份质押的公告",
+      "publicationDate": "2026-09-05",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225547961.PDF",
+      "rawFile": "data/a_pharma_raw/600196_1225547961.PDF",
+      "noticeTimestamp": 1788537600000,
+      "query": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+    }
+  ],
+  "AR1001": {
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05531526",
+    "lastUpdatePost": {
+      "date": "2025-10-02",
+      "type": "ACTUAL"
+    },
+    "eligible": true,
+    "trial": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05531526",
+          "orgStudyIdInfo": {
+            "id": "AR1001-ADP3-US01"
+          },
+          "organization": {
+            "fullName": "AriBio Co., Ltd.",
+            "class": "INDUSTRY"
+          },
+          "briefTitle": "Phase 3, Double-blind, Randomized, Placebo-controlled Trial to Evaluate the Efficacy and Safety of AR1001 in Participants With Early Alzheimer's Disease (Polaris-AD)",
+          "officialTitle": "A Phase 3 Double-blind, Randomized, Placebo-controlled, Multi-center Trial to Evaluate the Efficacy and Safety of AR1001 Over 52 Weeks in Participants With Early Alzheimer's Disease (Polaris-AD)"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2025-09",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2022-12-23",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2026-05",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2022-08-31",
+          "studyFirstSubmitQcDate": "2022-09-02",
+          "studyFirstPostDateStruct": {
+            "date": "2022-09-08",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-09-29",
+          "lastUpdatePostDateStruct": {
+            "date": "2025-10-02",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "SPONSOR"
+          },
+          "leadSponsor": {
+            "name": "AriBio Co., Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "oversightModule": {
+          "oversightHasDmc": false,
+          "isFdaRegulatedDrug": true,
+          "isFdaRegulatedDevice": false,
+          "isUsExport": false
+        },
+        "descriptionModule": {
+          "briefSummary": "This AR1001-ADP3-US01 protocol is a double-blind, randomized, placebo-controlled, multi- center, parallel-group comparison pivotal Phase 3 study to evaluate the efficacy and safety of AR1001 for the treatment of participants with early AD.",
+          "detailedDescription": "The purpose of this Study is to evaluate the efficacy and safety of AR1001 in participants with Early Alzheimer's Disease (AD).\n\nAR1001 is a small molecule that has demonstrated its potential as a therapeutic agent for AD via its polypharmacological characteristics with multiple mechanisms to ameliorate AD pathology."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Alzheimer Disease"
+          ],
+          "keywords": [
+            "AR1001",
+            "AD",
+            "Early AD"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "A Phase 3 Double-blind, Randomized, Placebo-controlled, Multi-center Trial to Evaluate the Efficacy and Safety of AR1001 over 52 Weeks in Participants with Early Alzheimer's Disease",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "maskingDescription": "double-blind, randomized, placebo-controlled",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            }
+          },
+          "enrollmentInfo": {
+            "count": 1535,
+            "type": "ACTUAL"
+          }
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Group A - Active Comparator",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Active, AR1001 30 mg QD will be administered daily for 52 weeks during the Treatment Phase of the study. In the Extension Phase, all eligible participants who choose to participate will receive AR1001 30 mg QD for 52 weeks.",
+              "interventionNames": [
+                "Drug: AR1001"
+              ]
+            },
+            {
+              "label": "Group B - Placebo Comparator",
+              "type": "PLACEBO_COMPARATOR",
+              "description": "Placebo QD will be administered daily for 52 weeks during the Treatment Phase of the study. In the Extension Phase, all eligible participants who choose to participate will receive AR1001 30 mg QD for 52 weeks.",
+              "interventionNames": [
+                "Drug: Placebo"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AR1001",
+              "description": "AR1001 Active Oral Tablet",
+              "armGroupLabels": [
+                "Group A - Active Comparator"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo Oral Tablet",
+              "armGroupLabels": [
+                "Group B - Placebo Comparator"
+              ]
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB)",
+              "description": "Change in the CDR-SB from Baseline to Week 52",
+              "timeFrame": "52 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Alzheimer's Disease Assessment Scale, cognitive subscale (ADAS-Cog 13)",
+              "description": "Change in ADAS-Cog 13 from Baseline to Week 52",
+              "timeFrame": "52 weeks"
+            },
+            {
+              "measure": "Amsterdam-Instrumental Activities of Daily Living Questionnaire-Short Version (A-IADL-Q-SV)",
+              "description": "Change in the A-IADL-Q-SV from Baseline to Week 52",
+              "timeFrame": "52 weeks"
+            },
+            {
+              "measure": "Geriatric Depression Scale (GDS)",
+              "description": "Change in the GDS from Baseline to Week 52",
+              "timeFrame": "52 weeks"
+            },
+            {
+              "measure": "Mini-Mental Status Examination (MMSE)",
+              "description": "Change in the MMSE from Baseline to Week 52",
+              "timeFrame": "52 weeks"
+            }
+          ],
+          "otherOutcomes": [
+            {
+              "measure": "Safety Analysis",
+              "description": "* Frequency of treatment emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)\n* Changes in C-SSRS (Columbia Suicide Severity Rating Scale)",
+              "timeFrame": "156 weeks"
+            },
+            {
+              "measure": "Biomarker Analysis",
+              "description": "Change in plasma/CSF biomarker levels from Baseline to Week 52 and the end of the Extension Phase.",
+              "timeFrame": "156 weeks"
+            },
+            {
+              "measure": "Exploratory Analysis",
+              "description": "Change in both primary and secondary endpoints from Baseline and Week 52 to the end of the extension study.",
+              "timeFrame": "156 weeks"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female participants aged 55 to 90 years of age inclusive at the time of signing the informed consent form\n2. Mild cognitive impairment or mild dementia consistent with AD defined by stages 3 to 4 according to the National Institute on Aging and Alzheimer's Association (NIA-AA) at Screening\n3. Participants with a history of subjective cognitive and memory decline with onset within 5 years before Screening, confirmed by study partner.\n4. Participants who have a MMSE score greater than or equal to 20\n5. Participants with a CDR global rating of 0.5 or 1\n6. Participants with a RBANS score based on the Delayed Memory Index (DMI) score less than or equal to 85\n7. If an historic magnetic resonance imaging (MRI) is available, findings must exclude other causes of dementia.\n8. Positive biomarker for brain amyloid pathology as indicated by assessment of at least one of the following:\n\n   1. Current or historical CSF assessment with FDA-cleared assays, including Lumipulse® beta-amyloid ratio \\[1-42/1-40\\] ≤ 0.072, Elecsys® pTau 181/Aβ\\[1-42\\] greater than 0.023, Elecsys® tTau /Aβ\\[1-42\\] greater than 0.28, or other assays or cut-offs as they become FDA-cleared.\n   2. Historical amyloid positron emission tomography (PET) assessment confirmed by the Sponsor or Designee.\n9. Participants (or participant's legally authorized representative) and caregiver (s) who can sign an informed consent to participate in the study.\n10. Participants who have one (or more) identified adult study partners (s) who, in the opinion of the Investigator, has sufficient contact with and knowledge about the participant as to be able to report knowledgably about the participant's cognition, function, behavior, and safety, and compliance with the protocol. The informant/care partner must be available by phone to provide information to the Investigator and study staff about the participant as well as agree to attend in-person clinic visits that require partner input for scale completion. The informant/care partner must be literate and provide informed consent and should be available for the duration of the study. The same informant/care partner is required to be consistent across all study visits except under rare, unavoidable circumstances (e.g., unexpected informant health crisis) that are approved by the Investigator and Sponsor.\n\nExclusion Criteria:\n\n1. Participants who are female and are either pregnant, nursing, or of childbearing potential and not practicing effective contraception\n2. Participants who have signs of significant delirium which, in the opinion of the Investigator, would interfere with this study\n3. Participants who have any diagnosis of dementia or cognitive decline other than that related to AD, including, but not limited to concomitant history of significant head trauma, alcohol abuse, frontotemporal dementia, Huntington Disease, Parkinsonism (e.g., Parkinson's disease, Dementia with Lewy Bodies, etc.), significant cerebrovascular disease, and/or significant seizure disorder\n4. Participants with any current psychiatric diagnosis if, in the judgment of the Investigator, the psychiatric disorder (e.g., schizophrenia) or symptom is likely to confound interpretation of drug effect, affect cognitive assessments, or affect the participant's ability to complete the study\n5. Participants with a history of vascular dementia\n6. Participants with evidence of other neurological conditions thought to interfere with the evaluations in this study\n7. Participants with a history of myocardial infarction, unstable angina, coronary artery disease, and/or New York Heart Association (NYHA) class III or IV heart failure within the last 12 months\n8. Participants with uncontrolled hypertension (systolic blood pressure (BP) \\>160 mmHg or diastolic BP \\> 95 mmHg) or hypotension (systolic BP \\<90 mmHg or diastolic BP \\<50 mmHg). Participants may undergo repeated testing to ensure that accurate BP readings are obtained\n9. Participants with a body mass index (BMI) \\> 35 kg/m2\n10. Participants with any of the following:\n\n    1. elevation (\\>2.5x upper limit of normal \\[ULN\\]) of AST (aspartate aminotransferase, ALT (alanine transaminase, or total bilirubin (unless known prior history of Gilbert's syndrome)\n    2. deficiency (\\< lower limit of normal \\[LLN\\]) of Vitamin B12\n    3. known history of HIV (human immunodeficiency virus) positivity or positive test for HIV 1/2 at screening\n    4. known history of Hepatitis C virus (HCV) or positive test for HCV antibody (HCVAb) at screening (unless negative on confirmatory PCR test)'\n    5. positive test for Hepatitis B surface antigen (HBsAg)\n    6. known history of neurosyphilis or positive test for RPR at screening\n11. Participants who have history of cancer or malignant tumor within 5 years prior to screening with the exception of:\n\n    1. Basal or squamous cell carcinoma of the skin or cervical dysplasia, which has been adequately treated\n    2. In situ Grade 1 cervical cancer, fully treated at least 2 years prior to screening, and without recurrence.\n    3. Prostate cancer, confined to the prostate gland, which has been adequately treated (e.g., surgery and/or radiation or watchful waiting) with normal or low and stable prostate-specific antigen (PSA) levels for 2 years prior to Screening\n    4. Adequately treated non-metastatic breast cancer\n12. Participants who in the opinion of the Investigator have an inadequately treated thyroid disorder\n13. Participants with inherited degenerative retinal disease\n14. Participants who have an undiagnosed or uncontrolled seizure disorder (and/or an epileptic syndrome), which has or could lead to cognitive impairment either from repeated seizures or the medications used to control the seizure disorder\n15. Participants who are being treated, or likely to require treatment during the study, with any medications prohibited by the study protocol\n16. Participants who have participated in any investigational drug or device trial within the previous 30 days or five half-lives of an investigational drug at Screening, whichever is longer\n17. Participants taking an oral cholinesterase inhibitor and/or memantine not on a stable dose for at least 3 months prior to screening. Treatment and dosing should remain stable, with no changes throughout the trial.\n18. Participants who have been and/or are currently being treated with anti-amyloid, anti-tau, or any other investigational therapies for AD\n19. Participants who currently take any other PDE-5 Inhibitors (e.g., sildenafil)\n20. Participants who are currently receiving (or unable to stop use for at least 14 days \\[2 weeks\\] prior to receiving the first dose of the AR1001 and throughout the study) prescription or nonprescription medications or other products known to be potent inhibitors of cytochrome P450 isozyme 3A4 (CYP3A4)\n21. Alcohol or substance use disorder within the past 5 years according to Diagnostic and Statistical Manual of Mental Disorders (DSM-5)\n22. Participants who have previously participated in a clinical trial with AR1001\n23. Participants, in the opinion of the Investigator, who are unsuitable to participate in the trial\n24. Participants who in the opinion of the Investigator are at significant risk of suicide.\n25. GDS-15 score greater than equal to 8 at Screening\n26. Participants, in the opinion of the Investigator, who have any who have any contraindications to undergoing LP. Participants receiving ongoing anticoagulant therapy or antiplatelet therapy (other than aspirin and non-steroidal anti-inflammatory drugs \\[NSAIDs\\]) should also be excluded if it is considered unsafe to temporarily discontinue the therapy",
+          "healthyVolunteers": true,
+          "sex": "ALL",
+          "minimumAge": "55 Years",
+          "maximumAge": "90 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "contactsLocationsModule": {
+          "overallOfficials": [
+            {
+              "name": "James Rock",
+              "affiliation": "AriBio Co., Ltd.",
+              "role": "STUDY_DIRECTOR"
+            },
+            {
+              "name": "Sharon Sha, MD, MS",
+              "affiliation": "Stanford University",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "locations": [
+            {
+              "facility": "IMA Clinical Research Phoenix",
+              "city": "Phoenix",
+              "state": "Arizona",
+              "zip": "85012",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.44838,
+                "lon": -112.07404
+              }
+            },
+            {
+              "facility": "Perseverance Research Center, LLC",
+              "city": "Scottsdale",
+              "state": "Arizona",
+              "zip": "85253",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.50921,
+                "lon": -111.89903
+              }
+            },
+            {
+              "facility": "Clinical Endpoints - N. Scottsdale",
+              "city": "Scottsdale",
+              "state": "Arizona",
+              "zip": "85258",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.50921,
+                "lon": -111.89903
+              }
+            },
+            {
+              "facility": "Banner Sun Health Research Institute",
+              "city": "Sun City",
+              "state": "Arizona",
+              "zip": "85351",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.59754,
+                "lon": -112.27182
+              }
+            },
+            {
+              "facility": "Voyage Medical",
+              "city": "Tempe",
+              "state": "Arizona",
+              "zip": "85282",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.41477,
+                "lon": -111.90931
+              }
+            },
+            {
+              "facility": "Sutter Health's Palo Alto Medical Foundation",
+              "city": "Burlingame",
+              "state": "California",
+              "zip": "94010",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 37.5841,
+                "lon": -122.36608
+              }
+            },
+            {
+              "facility": "Neuro-Pain Medical Center",
+              "city": "Fresno",
+              "state": "California",
+              "zip": "93710",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 36.74773,
+                "lon": -119.77237
+              }
+            },
+            {
+              "facility": "Fullerton Neurology and Headache Center",
+              "city": "Fullerton",
+              "state": "California",
+              "zip": "92835",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.87029,
+                "lon": -117.92534
+              }
+            },
+            {
+              "facility": "Esperanza Clinical",
+              "city": "Murrieta",
+              "state": "California",
+              "zip": "92562",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.55391,
+                "lon": -117.21392
+              }
+            },
+            {
+              "facility": "Valley Clinical Trials, INC",
+              "city": "Northridge",
+              "state": "California",
+              "zip": "91325",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 34.22834,
+                "lon": -118.53675
+              }
+            },
+            {
+              "facility": "Havana Research Institute",
+              "city": "Pasadena",
+              "state": "California",
+              "zip": "91105",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 34.14778,
+                "lon": -118.14452
+              }
+            },
+            {
+              "facility": "Kaizen Brain Center",
+              "city": "San Diego",
+              "state": "California",
+              "zip": "92037",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 32.71571,
+                "lon": -117.16472
+              }
+            },
+            {
+              "facility": "Adaptive Research",
+              "city": "San Jose",
+              "state": "California",
+              "zip": "95124",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 37.33939,
+                "lon": -121.89496
+              }
+            },
+            {
+              "facility": "The Neuron Clinic",
+              "city": "San Marcos",
+              "state": "California",
+              "zip": "92069",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.14337,
+                "lon": -117.16614
+              }
+            },
+            {
+              "facility": "Stanford Neuroscience Health Center",
+              "city": "Stanford",
+              "state": "California",
+              "zip": "94305",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 37.42411,
+                "lon": -122.16608
+              }
+            },
+            {
+              "facility": "Denver Neurological Research",
+              "city": "Denver",
+              "state": "Colorado",
+              "zip": "80210",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.73915,
+                "lon": -104.9847
+              }
+            },
+            {
+              "facility": "Mile High Research Center",
+              "city": "Denver",
+              "state": "Colorado",
+              "zip": "80218",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.73915,
+                "lon": -104.9847
+              }
+            },
+            {
+              "facility": "CenExel Rocky Mountain Clinical Research",
+              "city": "Englewood",
+              "state": "Colorado",
+              "zip": "80113",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.64777,
+                "lon": -104.98776
+              }
+            },
+            {
+              "facility": "Topaz Clinical Research",
+              "city": "Apopka",
+              "state": "Florida",
+              "zip": "32803",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.67617,
+                "lon": -81.51186
+              }
+            },
+            {
+              "facility": "BayCare Health System, Inc",
+              "city": "Clearwater",
+              "state": "Florida",
+              "zip": "33756",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 27.96585,
+                "lon": -82.8001
+              }
+            },
+            {
+              "facility": "Vertex Research Group",
+              "city": "Clermont",
+              "state": "Florida",
+              "zip": "34711",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.54944,
+                "lon": -81.77285
+              }
+            },
+            {
+              "facility": "Arrow Clinical Trial",
+              "city": "Daytona Beach",
+              "state": "Florida",
+              "zip": "32117",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 29.21081,
+                "lon": -81.02283
+              }
+            },
+            {
+              "facility": "Brainstorm Research - Loxahatchee",
+              "city": "Loxahatchee Groves",
+              "state": "Florida",
+              "zip": "33470",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 26.68368,
+                "lon": -80.27977
+              }
+            },
+            {
+              "facility": "ClinCloud LLC",
+              "city": "Maitland",
+              "state": "Florida",
+              "zip": "32751",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.62778,
+                "lon": -81.36312
+              }
+            },
+            {
+              "facility": "Verus Clinical Research, Corp",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33135",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Vitae Research Center, LLC",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33135",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Caro Medcenter and Community Research",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33145",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Allied Biomedical Research Institute, Inc",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33155",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Future Life Clinical Trials",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33169",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Brainstorm Research",
+              "city": "Miami",
+              "state": "Florida",
+              "zip": "33176",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.77427,
+                "lon": -80.19366
+              }
+            },
+            {
+              "facility": "Meridian International Research, Inc",
+              "city": "Miami Gardens",
+              "state": "Florida",
+              "zip": "33014",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 25.94204,
+                "lon": -80.2456
+              }
+            },
+            {
+              "facility": "Charter Research - Orlando",
+              "city": "Orlando",
+              "state": "Florida",
+              "zip": "32803",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.53834,
+                "lon": -81.37924
+              }
+            },
+            {
+              "facility": "K2 Medical Research",
+              "city": "Orlando",
+              "state": "Florida",
+              "zip": "32806",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.53834,
+                "lon": -81.37924
+              }
+            },
+            {
+              "facility": "JEM Research Institute",
+              "city": "Palm Beach",
+              "state": "Florida",
+              "zip": "33462",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 26.70562,
+                "lon": -80.03643
+              }
+            },
+            {
+              "facility": "Progressive Medical Research",
+              "city": "Port Orange",
+              "state": "Florida",
+              "zip": "32127",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 29.13832,
+                "lon": -80.99561
+              }
+            },
+            {
+              "facility": "Angels Clinical Research Institute, Inc. - Tampa",
+              "city": "Tampa",
+              "state": "Florida",
+              "zip": "33614",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 27.94752,
+                "lon": -82.45843
+              }
+            },
+            {
+              "facility": "Charter Research - The Villages",
+              "city": "The Villages",
+              "state": "Florida",
+              "zip": "32162",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.93408,
+                "lon": -81.95994
+              }
+            },
+            {
+              "facility": "ClinCloud, LLC Melbourn",
+              "city": "Viera",
+              "state": "Florida",
+              "zip": "32940",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.24696,
+                "lon": -80.737
+              }
+            },
+            {
+              "facility": "Conquest Research",
+              "city": "Winter Park",
+              "state": "Florida",
+              "zip": "32789",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 28.6,
+                "lon": -81.33924
+              }
+            },
+            {
+              "facility": "iResearch -Atlanta",
+              "city": "Atlanta",
+              "state": "Georgia",
+              "zip": "30030",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.749,
+                "lon": -84.38798
+              }
+            },
+            {
+              "facility": "Atlanta Neuroscience Institute",
+              "city": "Atlanta",
+              "state": "Georgia",
+              "zip": "30327",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.749,
+                "lon": -84.38798
+              }
+            },
+            {
+              "facility": "Accel Research Sites",
+              "city": "Decatur",
+              "state": "Georgia",
+              "zip": "30030",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.77483,
+                "lon": -84.29631
+              }
+            },
+            {
+              "facility": "iResearch",
+              "city": "Savannah",
+              "state": "Georgia",
+              "zip": "31405",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 32.08354,
+                "lon": -81.09983
+              }
+            },
+            {
+              "facility": "Re:Cognition Health - Chicago",
+              "city": "Chicago",
+              "state": "Illinois",
+              "zip": "60611",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.85003,
+                "lon": -87.65005
+              }
+            },
+            {
+              "facility": "Tandem Clinical Research",
+              "city": "New Orleans",
+              "state": "Louisiana",
+              "zip": "70072",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 29.95465,
+                "lon": -90.07507
+              }
+            },
+            {
+              "facility": "BTC of New Bedford",
+              "city": "New Bedford",
+              "state": "Massachusetts",
+              "zip": "02740",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.63526,
+                "lon": -70.92701
+              }
+            },
+            {
+              "facility": "Boston Center for Memory",
+              "city": "Newton",
+              "state": "Massachusetts",
+              "zip": "02459",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 42.33704,
+                "lon": -71.20922
+              }
+            },
+            {
+              "facility": "Headlands Research - Eastern MA",
+              "city": "Plymouth",
+              "state": "Massachusetts",
+              "zip": "02360",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.95844,
+                "lon": -70.66726
+              }
+            },
+            {
+              "facility": "Boston Paincare",
+              "city": "Waltham",
+              "state": "Massachusetts",
+              "zip": "02451",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 42.37649,
+                "lon": -71.23561
+              }
+            },
+            {
+              "facility": "Sharlin Health Neuroscience Research Center",
+              "city": "Ozark",
+              "state": "Missouri",
+              "zip": "65721",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 37.02089,
+                "lon": -93.20602
+              }
+            },
+            {
+              "facility": "Alivation",
+              "city": "Lincoln",
+              "state": "Nebraska",
+              "zip": "68526",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 40.8,
+                "lon": -96.66696
+              }
+            },
+            {
+              "facility": "Wake Research- Clinical Research Center of Nevada, LLC",
+              "city": "Las Vegas",
+              "state": "Nevada",
+              "zip": "89106",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 36.17497,
+                "lon": -115.13722
+              }
+            },
+            {
+              "facility": "Advanced Memory Research Institute of New Jersey",
+              "city": "Toms River",
+              "state": "New Jersey",
+              "zip": "08755",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.95373,
+                "lon": -74.19792
+              }
+            },
+            {
+              "facility": "Dent Neuroscience Research Center",
+              "city": "Amherst",
+              "state": "New York",
+              "zip": "14226",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 42.97839,
+                "lon": -78.79976
+              }
+            },
+            {
+              "facility": "Mid-Hudson Medical Research, PLLC - New Windsor",
+              "city": "New Windsor",
+              "state": "New York",
+              "zip": "12553",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.47676,
+                "lon": -74.02375
+              }
+            },
+            {
+              "facility": "Triad Clinical Trials",
+              "city": "Greensboro",
+              "state": "North Carolina",
+              "zip": "27410",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 36.07264,
+                "lon": -79.79198
+              }
+            },
+            {
+              "facility": "AMC Research, LLC",
+              "city": "Matthews",
+              "state": "North Carolina",
+              "zip": "28105",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 35.11681,
+                "lon": -80.72368
+              }
+            },
+            {
+              "facility": "Accellacare of Winston-Salem, Triad Neurological Associates",
+              "city": "Winston-Salem",
+              "state": "North Carolina",
+              "zip": "27103",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 36.09986,
+                "lon": -80.24422
+              }
+            },
+            {
+              "facility": "NeuroScience Research Center, LLC",
+              "city": "Canton",
+              "state": "Ohio",
+              "zip": "44718",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 40.79895,
+                "lon": -81.37845
+              }
+            },
+            {
+              "facility": "American Clinical Research Institute, LLC",
+              "city": "Dayton",
+              "state": "Ohio",
+              "zip": "45432",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.75895,
+                "lon": -84.19161
+              }
+            },
+            {
+              "facility": "Rhode Island Mood and Memory REsearch",
+              "city": "East Providence",
+              "state": "Rhode Island",
+              "zip": "02914",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.81371,
+                "lon": -71.37005
+              }
+            },
+            {
+              "facility": "Health Concepts",
+              "city": "Rapid City",
+              "state": "South Dakota",
+              "zip": "57702",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 44.08054,
+                "lon": -103.23101
+              }
+            },
+            {
+              "facility": "Neurology Clinic, P.C.",
+              "city": "Cordova",
+              "state": "Tennessee",
+              "zip": "38018",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 35.15565,
+                "lon": -89.7762
+              }
+            },
+            {
+              "facility": "Center for Biomedical Research, LLC - Genesis Neuroscience Clinic",
+              "city": "Knoxville",
+              "state": "Tennessee",
+              "zip": "37909",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 35.96064,
+                "lon": -83.92074
+              }
+            },
+            {
+              "facility": "Gadolin Research LLC",
+              "city": "Beaumont",
+              "state": "Texas",
+              "zip": "77702",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 30.08605,
+                "lon": -94.10185
+              }
+            },
+            {
+              "facility": "Kerwin Medical Center",
+              "city": "Dallas",
+              "state": "Texas",
+              "zip": "75231",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 32.78306,
+                "lon": -96.80667
+              }
+            },
+            {
+              "facility": "Cognition Health Corporation- Texas",
+              "city": "Houston",
+              "state": "Texas",
+              "zip": "77030",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 29.76328,
+                "lon": -95.36327
+              }
+            },
+            {
+              "facility": "Clinical Trial Network - Houston",
+              "city": "Houston",
+              "state": "Texas",
+              "zip": "77074",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 29.76328,
+                "lon": -95.36327
+              }
+            },
+            {
+              "facility": "Bhupesh Dihenia, MD, PA",
+              "city": "Lubbock",
+              "state": "Texas",
+              "zip": "79410",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.57786,
+                "lon": -101.85517
+              }
+            },
+            {
+              "facility": "Wasatch Clinical Research, LLC",
+              "city": "Salt Lake City",
+              "state": "Utah",
+              "zip": "84107",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 40.76078,
+                "lon": -111.89105
+              }
+            },
+            {
+              "facility": "Cognition Health Corporation",
+              "city": "Fairfax",
+              "state": "Virginia",
+              "zip": "22031",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 38.84622,
+                "lon": -77.30637
+              }
+            },
+            {
+              "facility": "Integrated Neurology Services",
+              "city": "Falls Church",
+              "state": "Virginia",
+              "zip": "22043",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 38.88233,
+                "lon": -77.17109
+              }
+            },
+            {
+              "facility": "Kingfisher Cooperative",
+              "city": "Spokane",
+              "state": "Washington",
+              "zip": "99201",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 47.65966,
+                "lon": -117.42908
+              }
+            },
+            {
+              "facility": "Vaught Neurological Services, PLLC",
+              "city": "Crab Orchard",
+              "state": "West Virginia",
+              "zip": "25827",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 37.74067,
+                "lon": -81.23066
+              }
+            },
+            {
+              "facility": "Medical College of Wisconsin",
+              "city": "Wauwatosa",
+              "state": "Wisconsin",
+              "zip": "53226",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 43.04946,
+                "lon": -88.00759
+              }
+            },
+            {
+              "facility": "Centricity Research - Halifax",
+              "city": "Halifax",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 44.64269,
+                "lon": -63.57688
+              }
+            },
+            {
+              "facility": "Okanagan Clinical Trials",
+              "city": "Kelowna",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 49.88307,
+                "lon": -119.48568
+              }
+            },
+            {
+              "facility": "Parkwood Institute",
+              "city": "London",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 42.98339,
+                "lon": -81.23304
+              }
+            },
+            {
+              "facility": "Baycrest Academy for Research and Education",
+              "city": "North York",
+              "country": "Canada"
+            },
+            {
+              "facility": "Kawartha Centre - Redefining Healthy Aging",
+              "city": "Peterborough",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 44.30012,
+                "lon": -78.31623
+              }
+            },
+            {
+              "facility": "Centricity Research",
+              "city": "Toronto",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 43.70643,
+                "lon": -79.39864
+              }
+            },
+            {
+              "facility": "Sunnybrook Health Sciences Centre",
+              "city": "Toronto",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 43.70643,
+                "lon": -79.39864
+              }
+            },
+            {
+              "facility": "University Health Network-Toronto Western Hospital",
+              "city": "Toronto",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 43.70643,
+                "lon": -79.39864
+              }
+            },
+            {
+              "facility": "Royal Jubilee Hospital",
+              "city": "Victoria",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 48.4359,
+                "lon": -123.35155
+              }
+            },
+            {
+              "facility": "Medical Arts Health Research Group - West Vancouver",
+              "city": "West Vancouver",
+              "country": "Canada",
+              "geoPoint": {
+                "lat": 49.3286,
+                "lon": -123.16019
+              }
+            },
+            {
+              "facility": "Beijing Anding Hospital Capital Medical University",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "Beijing Friendship Hospital,Capital Medical University",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "Beijing Tiantan Hospital, Capital Medical University",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "Peking Union Medical College Hospital",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "Peking University Sixth Hospital",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "Xuanwu Hospital Capital Medical University",
+              "city": "Beijing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              }
+            },
+            {
+              "facility": "The First Hospital of Jilin University",
+              "city": "Changchun",
+              "country": "China",
+              "geoPoint": {
+                "lat": 43.88,
+                "lon": 125.32278
+              }
+            },
+            {
+              "facility": "Xiangya Hospital of Central South University",
+              "city": "Changsha",
+              "country": "China",
+              "geoPoint": {
+                "lat": 28.19874,
+                "lon": 112.97087
+              }
+            },
+            {
+              "facility": "The First Affiliated Hospital of Chongqing Medical University",
+              "city": "Chongqing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 29.56026,
+                "lon": 106.55771
+              }
+            },
+            {
+              "facility": "Guangdong Provincial People's Hospital",
+              "city": "Guangzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 23.11667,
+                "lon": 113.25
+              }
+            },
+            {
+              "facility": "The Affiliated Brain Hospital Of Guangzhou Medical University",
+              "city": "Guangzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 23.11667,
+                "lon": 113.25
+              }
+            },
+            {
+              "facility": "The First Affiliated Hospital, Sun Yat-sen University",
+              "city": "Guangzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 23.11667,
+                "lon": 113.25
+              }
+            },
+            {
+              "facility": "Anhui Provincial Hospital",
+              "city": "Hefei",
+              "country": "China",
+              "geoPoint": {
+                "lat": 31.86389,
+                "lon": 117.28083
+              }
+            },
+            {
+              "facility": "Tianjin Medical University General Hospital",
+              "city": "Heping",
+              "country": "China",
+              "geoPoint": {
+                "lat": 22.69419,
+                "lon": 113.79144
+              }
+            },
+            {
+              "facility": "The Second Affiliated Hospital of Nanchang University",
+              "city": "Nanchang",
+              "country": "China",
+              "geoPoint": {
+                "lat": 28.68396,
+                "lon": 115.85306
+              }
+            },
+            {
+              "facility": "Nanjing Drum Tower Hospital",
+              "city": "Nanjing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 32.06167,
+                "lon": 118.77778
+              }
+            },
+            {
+              "facility": "The Second Affiliated Hospital of Nanjing Medical University",
+              "city": "Nanjing",
+              "country": "China",
+              "geoPoint": {
+                "lat": 32.06167,
+                "lon": 118.77778
+              }
+            },
+            {
+              "facility": "Huashan Hospital affiliated to Fudan University",
+              "city": "Shanghai",
+              "country": "China",
+              "geoPoint": {
+                "lat": 31.22222,
+                "lon": 121.45806
+              }
+            },
+            {
+              "facility": "Renji Hospital, Shanghai Jiao Tong University School of Medicine",
+              "city": "Shanghai",
+              "country": "China",
+              "geoPoint": {
+                "lat": 31.22222,
+                "lon": 121.45806
+              }
+            },
+            {
+              "facility": "The First Hospital of Hebei Medical University",
+              "city": "Shijiazhuang",
+              "country": "China",
+              "geoPoint": {
+                "lat": 38.04139,
+                "lon": 114.47861
+              }
+            },
+            {
+              "facility": "The First Affiliated Hospital of Soochow University",
+              "city": "Suzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 31.30408,
+                "lon": 120.59538
+              }
+            },
+            {
+              "facility": "The Second Affiliated Hospital of Soochow University",
+              "city": "Suzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 31.30408,
+                "lon": 120.59538
+              }
+            },
+            {
+              "facility": "Tongji Hospital Of Tongji University",
+              "city": "Wuhan",
+              "country": "China",
+              "geoPoint": {
+                "lat": 30.58333,
+                "lon": 114.26667
+              }
+            },
+            {
+              "facility": "Xuzhou Central Hospital",
+              "city": "Xuzhou",
+              "country": "China",
+              "geoPoint": {
+                "lat": 34.20442,
+                "lon": 117.28386
+              }
+            },
+            {
+              "facility": "Fakultni nemocnice u sv. Anny v Brne",
+              "city": "Brno",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 49.19522,
+                "lon": 16.60796
+              }
+            },
+            {
+              "facility": "NeuroHK s.r.o.",
+              "city": "Choceň",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.00161,
+                "lon": 16.22303
+              }
+            },
+            {
+              "facility": "Fakultni nemocnice Hradec Kralove",
+              "city": "Hradec Králové",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.20923,
+                "lon": 15.83277
+              }
+            },
+            {
+              "facility": "Ambulance Smrkova ulice (A-Shine s.r.o.)",
+              "city": "Pilsen",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 49.74747,
+                "lon": 13.37759
+              }
+            },
+            {
+              "facility": "FORBELI s.r.o",
+              "city": "Prague",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.08804,
+                "lon": 14.42076
+              }
+            },
+            {
+              "facility": "INEP Medical s.r.o.",
+              "city": "Prague",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.08804,
+                "lon": 14.42076
+              }
+            },
+            {
+              "facility": "Neuropsychiatrie s.r.o.",
+              "city": "Prague",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.08804,
+                "lon": 14.42076
+              }
+            },
+            {
+              "facility": "Vestra Clinics",
+              "city": "Rychnov nad Kněžnou",
+              "zip": "516 01",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.16284,
+                "lon": 16.27488
+              }
+            },
+            {
+              "facility": "Sanos Clinic - Gandrup",
+              "city": "Gandrup",
+              "zip": "9362",
+              "country": "Denmark",
+              "geoPoint": {
+                "lat": 57.05744,
+                "lon": 10.18137
+              }
+            },
+            {
+              "facility": "Sanos Clinic - Herlev",
+              "city": "Herlev",
+              "country": "Denmark",
+              "geoPoint": {
+                "lat": 55.72366,
+                "lon": 12.43998
+              }
+            },
+            {
+              "facility": "Sanos Clinic Syddanmark - Vejle",
+              "city": "Vejle",
+              "country": "Denmark",
+              "geoPoint": {
+                "lat": 55.70927,
+                "lon": 9.5357
+              }
+            },
+            {
+              "facility": "CHU de Lille - Hopital Roger Salengro",
+              "city": "Lille",
+              "country": "France",
+              "geoPoint": {
+                "lat": 50.63391,
+                "lon": 3.05512
+              }
+            },
+            {
+              "facility": "AP-HM - Hopital de la Timone",
+              "city": "Marseille",
+              "country": "France",
+              "geoPoint": {
+                "lat": 43.29695,
+                "lon": 5.38107
+              }
+            },
+            {
+              "facility": "CHU de Nantes - Hopital Nord Laennec",
+              "city": "Nantes",
+              "country": "France",
+              "geoPoint": {
+                "lat": 47.21725,
+                "lon": -1.55336
+              }
+            },
+            {
+              "facility": "AP-HP Hopital Broca",
+              "city": "Paris",
+              "country": "France",
+              "geoPoint": {
+                "lat": 48.85341,
+                "lon": 2.3488
+              }
+            },
+            {
+              "facility": "AP-HP Hopital Lariboisiere",
+              "city": "Paris",
+              "country": "France",
+              "geoPoint": {
+                "lat": 48.85341,
+                "lon": 2.3488
+              }
+            },
+            {
+              "facility": "AP-HP Hopital Pitie-Salpetriere",
+              "city": "Paris",
+              "country": "France",
+              "geoPoint": {
+                "lat": 48.85341,
+                "lon": 2.3488
+              }
+            },
+            {
+              "facility": "CHU Rennes - Hopital Pontchaillou",
+              "city": "Rennes",
+              "zip": "35033",
+              "country": "France",
+              "geoPoint": {
+                "lat": 48.11109,
+                "lon": -1.67431
+              }
+            },
+            {
+              "facility": "CHRU de Strasbourg - Hopital de Hautepierre",
+              "city": "Strasbourg",
+              "zip": "67200",
+              "country": "France",
+              "geoPoint": {
+                "lat": 48.58392,
+                "lon": 7.74553
+              }
+            },
+            {
+              "facility": "CHU de Toulouse - Hopital La Grave",
+              "city": "Toulouse",
+              "country": "France",
+              "geoPoint": {
+                "lat": 43.60426,
+                "lon": 1.44367
+              }
+            },
+            {
+              "facility": "HCL - Hopital des Charpennes",
+              "city": "Villeurbanne",
+              "country": "France",
+              "geoPoint": {
+                "lat": 45.76601,
+                "lon": 4.8795
+              }
+            },
+            {
+              "facility": "Universitaetsklinikum Aachen, AoeR",
+              "city": "Aachen",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 50.77664,
+                "lon": 6.08342
+              }
+            },
+            {
+              "facility": "Zentrum fuer klinische Forschung Dr. med. I. Schoell",
+              "city": "Bad Homburg",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 50.22683,
+                "lon": 8.61816
+              }
+            },
+            {
+              "facility": "Charite Universitaetsmedizin Berlin",
+              "city": "Berlin",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 52.52437,
+                "lon": 13.41053
+              }
+            },
+            {
+              "facility": "Bezirkskrankenhaus Guenzburg",
+              "city": "Günzburg",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 48.45599,
+                "lon": 10.27695
+              }
+            },
+            {
+              "facility": "Universitaetsklinikum des Saarlandes",
+              "city": "Homburg",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 49.32637,
+                "lon": 7.33867
+              }
+            },
+            {
+              "facility": "Institut fuer Studien zur Psychischen Gesundheit (ISPG)",
+              "city": "Mannheim",
+              "zip": "68165",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 49.4891,
+                "lon": 8.46694
+              }
+            },
+            {
+              "facility": "Azienda Ospedaliero-Universitaria delle Marche",
+              "city": "Ancona",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 43.60717,
+                "lon": 13.5103
+              }
+            },
+            {
+              "facility": "IRCCS Istituto Centro San Giovanni di Dio Fatebenefratelli",
+              "city": "Brescia",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 45.53558,
+                "lon": 10.21472
+              }
+            },
+            {
+              "facility": "ASST Grande Ospedale Metropolitano Niguarda",
+              "city": "Milan",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "facility": "IRCCS Ospedale San Raffaele",
+              "city": "Milan",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "facility": "Fondazione IRCCS San Gerardo dei Tintori",
+              "city": "Monza",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 45.58005,
+                "lon": 9.27246
+              }
+            },
+            {
+              "facility": "Azienda Ospedaliero Universitaria Pisana",
+              "city": "Pisa",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 43.70853,
+                "lon": 10.4036
+              }
+            },
+            {
+              "facility": "Fondazione Policlinico Universitario A. Gemelli IRCCS - Universita Cattolica del Sacro Cuore",
+              "city": "Roma",
+              "zip": "00168",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "facility": "Azienda Ospedaliero Universitaria Policlinico Umberto I",
+              "city": "Roma",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "facility": "AOU Citta della Salute e della Scienza di Torino - Ospedale le Molinette",
+              "city": "Torino",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 44.88856,
+                "lon": 11.99138
+              }
+            },
+            {
+              "facility": "Pia Fondazione di Culto e Religione Cardinale Giovanni Panico",
+              "city": "Tricase",
+              "country": "Italy",
+              "geoPoint": {
+                "lat": 39.93018,
+                "lon": 18.35421
+              }
+            },
+            {
+              "facility": "Brain Research Center Den Bosch",
+              "city": "'s-Hertogenbosch",
+              "zip": "5223 LA",
+              "country": "Netherlands",
+              "geoPoint": {
+                "lat": 51.69917,
+                "lon": 5.30417
+              }
+            },
+            {
+              "facility": "Brain Research Center",
+              "city": "Amsterdam",
+              "country": "Netherlands",
+              "geoPoint": {
+                "lat": 52.37403,
+                "lon": 4.88969
+              }
+            },
+            {
+              "facility": "Amphia Ziekenhuis - Locatie Breda Molengracht",
+              "city": "Breda",
+              "country": "Netherlands",
+              "geoPoint": {
+                "lat": 51.58656,
+                "lon": 4.77596
+              }
+            },
+            {
+              "facility": "Brain Research Center Zwolle",
+              "city": "Zwolle",
+              "country": "Netherlands",
+              "geoPoint": {
+                "lat": 52.5125,
+                "lon": 6.09444
+              }
+            },
+            {
+              "facility": "KLIMED Marek Klimkiewicz",
+              "city": "Bialystok",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 53.13333,
+                "lon": 23.16433
+              }
+            },
+            {
+              "facility": "Podlaskie Centrum Psychogeriatrii",
+              "city": "Bialystok",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 53.13333,
+                "lon": 23.16433
+              }
+            },
+            {
+              "facility": "NEURO-CARE Sp. z o.o. Sp. Komandytowa",
+              "city": "Katowice",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 50.2597,
+                "lon": 19.02173
+              }
+            },
+            {
+              "facility": "Osrodek Alzheimerowski Sp. z o.o",
+              "city": "Ścinawa",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 51.41626,
+                "lon": 16.4251
+              }
+            },
+            {
+              "facility": "ETG Neurosciences Sp. Z.o.o.",
+              "city": "Warsaw",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 52.22977,
+                "lon": 21.01178
+              }
+            },
+            {
+              "facility": "NZOZ Wroclawskie Centrum Alzheimerowski",
+              "city": "Wroclaw",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 51.10286,
+                "lon": 17.03006
+              }
+            },
+            {
+              "facility": "Seoul National University Bundang Hospital",
+              "city": "Seongnam-si",
+              "state": "Bundang-gu",
+              "zip": "13620",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.43861,
+                "lon": 127.13778
+              }
+            },
+            {
+              "facility": "Chonnam National University Hospital",
+              "city": "Gwangju",
+              "state": "Dong-Gu",
+              "zip": "61469",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 35.15472,
+                "lon": 126.91556
+              }
+            },
+            {
+              "facility": "Ewha Womans University Seoul Hospital",
+              "city": "Seoul",
+              "state": "Gangseo-gu",
+              "zip": "07804",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Hallym University Chuncheon Sacred Heart Hospital",
+              "city": "Chuncheon",
+              "state": "Gangwon-do",
+              "zip": "24253",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.87472,
+                "lon": 127.73417
+              }
+            },
+            {
+              "facility": "Gachon University Gil Medical Center",
+              "city": "Incheon",
+              "state": "Namdong-Gu",
+              "zip": "21565",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.45646,
+                "lon": 126.70515
+              }
+            },
+            {
+              "facility": "Severance Hospital, Yonsei University Health System",
+              "city": "Seoul",
+              "state": "Seodaemun-gu",
+              "zip": "03722",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Ewha Womans University Mokdong Hospital",
+              "city": "Seoul",
+              "state": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Soonchunhyang University Hospital Cheonan",
+              "city": "Cheonan",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 36.8065,
+                "lon": 127.1522
+              }
+            },
+            {
+              "facility": "Kyungpook National University Chilgok Hospital",
+              "city": "Daegu",
+              "zip": "41404",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 35.87028,
+                "lon": 128.59111
+              }
+            },
+            {
+              "facility": "Yeungnam University Hospital",
+              "city": "Daegu",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 35.87028,
+                "lon": 128.59111
+              }
+            },
+            {
+              "facility": "Hanyang University Guri Hospital",
+              "city": "Guri-si",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.5986,
+                "lon": 127.1394
+              }
+            },
+            {
+              "facility": "Uijeongbu St. Mary's Hospital",
+              "city": "Gyeonggi-do",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.58944,
+                "lon": 126.76917
+              }
+            },
+            {
+              "facility": "Inha University Hospital",
+              "city": "Incheon",
+              "zip": "400-711",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.45646,
+                "lon": 126.70515
+              }
+            },
+            {
+              "facility": "Catholic Kwandong University International St.Mary's Hospital",
+              "city": "Incheon",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.45646,
+                "lon": 126.70515
+              }
+            },
+            {
+              "facility": "Asan Medical Center",
+              "city": "Seoul",
+              "zip": "05505",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "The Catholic University of Korea Seoul St.Mary's Hospital",
+              "city": "Seoul",
+              "zip": "06591",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Chung ang University Hospital",
+              "city": "Seoul",
+              "zip": "06973",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Korea University Guro Hospital",
+              "city": "Seoul",
+              "zip": "08308",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Eunpyeong St.Mary's Hospital",
+              "city": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Gangnam Severance Hospital, Yonsei University Health System",
+              "city": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Konkuk University Hospital",
+              "city": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Samsung Medical Center",
+              "city": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Severance Hospital, Yonsei University Health System",
+              "city": "Seoul",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              }
+            },
+            {
+              "facility": "Ajou University Hospital",
+              "city": "Suwon",
+              "country": "South Korea",
+              "geoPoint": {
+                "lat": 37.29111,
+                "lon": 127.00889
+              }
+            },
+            {
+              "facility": "Fundacio ACE - Institut Catala de Neurociencies Aplicades (Alzheimer Research Center Memory Clinic)",
+              "city": "Barcelona",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 41.38879,
+                "lon": 2.15899
+              }
+            },
+            {
+              "facility": "Hospital del Mar",
+              "city": "Barcelona",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 41.38879,
+                "lon": 2.15899
+              }
+            },
+            {
+              "facility": "Hospital Universitario Vall d'Hebron",
+              "city": "Barcelona",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 41.38879,
+                "lon": 2.15899
+              }
+            },
+            {
+              "facility": "Hospital Universitario Juan Ramon Jimenez",
+              "city": "Huelva",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 37.26638,
+                "lon": -6.94004
+              }
+            },
+            {
+              "facility": "Hospital Universitario 12 de Octubre",
+              "city": "Madrid",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 40.4165,
+                "lon": -3.70256
+              }
+            },
+            {
+              "facility": "Hospital Universitario Ramon y Cajal",
+              "city": "Madrid",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 40.4165,
+                "lon": -3.70256
+              }
+            },
+            {
+              "facility": "Clinica Universidad de Navarra - Pamplona",
+              "city": "Pamplona",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 42.81687,
+                "lon": -1.64323
+              }
+            },
+            {
+              "facility": "Hospital Clinico Universitario de Salamanca",
+              "city": "Salamanca",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 40.42972,
+                "lon": -3.67975
+              }
+            },
+            {
+              "facility": "Policlinica Gipuzkoa",
+              "city": "San Sebastián",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 43.56667,
+                "lon": -5.9
+              }
+            },
+            {
+              "facility": "Hospital Universitario Virgen del Rocio",
+              "city": "Seville",
+              "zip": "41013",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 37.38283,
+                "lon": -5.97317
+              }
+            },
+            {
+              "facility": "Hospital Universitari i Politecnic La Fe",
+              "city": "Valencia",
+              "country": "Spain",
+              "geoPoint": {
+                "lat": 39.47391,
+                "lon": -0.37966
+              }
+            },
+            {
+              "facility": "Fulbourn Hospital",
+              "city": "Cambridge",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 52.2,
+                "lon": 0.11667
+              }
+            },
+            {
+              "facility": "Cornwall Partnership NHS Foundation Trust",
+              "city": "Cornwell",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 51.94141,
+                "lon": -1.60746
+              }
+            },
+            {
+              "facility": "Royal Devon University Healthcare NHS Foundation Trust",
+              "city": "Exeter",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 50.7236,
+                "lon": -3.52751
+              }
+            },
+            {
+              "facility": "Hammersmith Hospital",
+              "city": "London",
+              "zip": "W12 0HS",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              }
+            },
+            {
+              "facility": "NeuroClin Glasgow",
+              "city": "Motherwell",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 55.78924,
+                "lon": -3.99187
+              }
+            },
+            {
+              "facility": "Warneford Hospital",
+              "city": "Oxford",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 51.75222,
+                "lon": -1.25596
+              }
+            },
+            {
+              "facility": "Southern Health NHS Foundation Trust",
+              "city": "Southampton",
+              "country": "United Kingdom",
+              "geoPoint": {
+                "lat": 50.90395,
+                "lon": -1.40428
+              }
+            }
+          ]
+        }
+      },
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-10-09"
+        },
+        "conditionBrowseModule": {
+          "meshes": [
+            {
+              "id": "D000544",
+              "term": "Alzheimer Disease"
+            }
+          ],
+          "ancestors": [
+            {
+              "id": "D003704",
+              "term": "Dementia"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D024801",
+              "term": "Tauopathies"
+            },
+            {
+              "id": "D019636",
+              "term": "Neurodegenerative Diseases"
+            },
+            {
+              "id": "D019965",
+              "term": "Neurocognitive Disorders"
+            },
+            {
+              "id": "D001523",
+              "term": "Mental Disorders"
+            }
+          ]
+        }
+      },
+      "hasResults": false
+    }
+  },
+  "limitations": [
+    "A/H收入差65.451386m仅确认分类口径差，未取完整对账；不可跨接两准则费用",
+    "Gland少数损益与表净利不一致，保留原表、集团归母桥不替换",
+    "H业绩公开新闻2026-08-26 01:24，首次交易所发布时分未核；9/17是中报不是首次业绩"
+  ]
+}

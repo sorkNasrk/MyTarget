@@ -1,0 +1,41 @@
+{
+  "issuerId": "I021",
+  "securityId": "S026",
+  "code": "06855.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "ascentage-v4-equityRewards-noCashSubstitute-finiteDistributions",
+  "modelFile": "data/ascentage_model.json",
+  "deepFile": "research/I021_deep.md",
+  "effectiveChineseCharacters": 16489,
+  "exactDuplicates": 0,
+  "independentQA": {
+    "file": "data/I021_independent_qa.json",
+    "passed": true,
+    "checks": 17853
+  },
+  "adapterQA": {
+    "file": "qa/ascentage_adapter_qa.json",
+    "passed": true,
+    "checks": 2018,
+    "atoms": 676,
+    "signaturesPerCase": 237
+  },
+  "visualQA": {
+    "sheets": 8,
+    "passed": true,
+    "location": "qa/ascentage_bridge"
+  },
+  "revisionAudit": {"actualOneYearTarget": "2027-10-07", "cashDiscountRecomputed": true, "SBCBoundary": "equity rewards cash addback with separate dilution; no100%cash substitute plus same shares"},
+  "parentRequired": [
+    "persistent input manifest and snapshot refresh integration",
+    "same-source Word/PDF export and per-page visual QA"
+  ],
+  "notes": [
+    "Full global RD retained; Takeda option not exercised as of cutoff",
+    "Finite shareholder distributions after bank/contingent repayment with reserve1.5bn and70% payout starting2033; final2041 netasset cash recovery by each distribution shares",
+    "Future issue netcash enters companyaccount only not separate PV; targetcash display not added to value; faircashonlyissue invariant passed",
+    "Current200mUSD ATM insufficient underbase; future12.4bnCNYgrossconditional",
+    "Bearfundingfailurezeroequitystressnotstatisticalbound"
+  ]
+}

@@ -1,0 +1,1672 @@
+{
+  "issuerId": "I070",
+  "securityId": "S080",
+  "code": "09618.HK",
+  "name": "京东集团-SW",
+  "deepResearchFile": "research/jd_deep.md",
+  "asOf": "2026-10-09",
+  "price": 105.6,
+  "currency": "HKD",
+  "modelVersion": "jd-three-segment-normalized-v1.0",
+  "status": "独立研究初版；补贴高基数、即时零售与欧洲投入持续核验",
+  "method": "零售收入×正常EBIT率+物流收入×正常EBIT率−新业务正常亏损−常态企业成本+有限净财资联营收益→20%税后×归属比÷摊薄普通股数→EPS3位×PE×1.10；集团内物流抵消收入不抵消利润，不再加物流健康工业市值或全净现金",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "USDHKD": 7.8,
+    "status": "研究换算假设，非已核即期"
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+    "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 1309085,
+    "revenue2024CNYmillion": 1158819,
+    "revenue2023CNYmillion": 1084662,
+    "profitAttributableCNYmillion": 19631,
+    "profitAttributable2024CNYmillion": 41359,
+    "profitAttributable2023CNYmillion": 24167,
+    "groupNetIncomeCNYmillion": 23142,
+    "operatingIncomeCNYmillion": 2774,
+    "dilutedEPSCNY": 6.45,
+    "dilutedEPS2024CNY": 13.43,
+    "dilutedEPS2023CNY": 7.61,
+    "weightedDilutedShares": 2978037127,
+    "OCFCNYmillion": 18991,
+    "OCF2024CNYmillion": 58095,
+    "OCF2023CNYmillion": 59521,
+    "SBCCNYmillion": 4726,
+    "leaseCashCNYmillion": 10012,
+    "leaseCaution": "美国GAAP经营租赁现金在OCF内，不能再扣一次",
+    "retailRevenueResultsCNYmillion": 1126399,
+    "retailEBITResultsCNYmillion": 51402,
+    "resultsSourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/03/05/18-02-03/JD.com%20Announces%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%2C%20and%20Annual%20Dividend.pdf",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "groupNetIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "operatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "dilutedEPS2024CNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "dilutedEPS2023CNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "weightedDilutedShares": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "OCF2024CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "OCF2023CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "SBCCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "leaseCashCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "retailRevenueResultsCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/03/05/18-02-03/JD.com%20Announces%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%2C%20and%20Annual%20Dividend.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      },
+      "retailEBITResultsCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/03/05/18-02-03/JD.com%20Announces%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%2C%20and%20Annual%20Dividend.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-04-16 20-F提交，官网4月17日文件；全年结果3月5日",
+        "status": "reported input"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1",
+    "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+    "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 662095,
+    "revenue2025H1CNYmillion": 657742,
+    "groupNetIncomeCNYmillion": 14517,
+    "profitAttributableCNYmillion": 12231,
+    "adjustedProfitAttributableCNYmillion": 16309,
+    "dilutedEPSCNY": 4.27,
+    "adjustedDilutedEPSCNY": 5.7,
+    "weightedBasicSharesMillion": 2716,
+    "weightedDilutedSharesMillion": 2841,
+    "Q2RevenueCNYmillion": 346401,
+    "Q2GroupNetIncomeCNYmillion": 8687,
+    "Q2ProfitAttributableCNYmillion": 7129,
+    "Q2AdjustedProfitAttributableCNYmillion": 8930,
+    "Q2DilutedEPSCNY": 2.51,
+    "Q2AdjustedDilutedEPSCNY": 3.14,
+    "ADSOrdinarySharesRatio": 2,
+    "retailRevenueCNYmillion": 563971,
+    "retailEBITCNYmillion": 28438,
+    "logisticsRevenueCNYmillion": 124683,
+    "logisticsEBITCNYmillion": 3283,
+    "newRevenueCNYmillion": 13539,
+    "newEBITCNYmillion": -20206,
+    "intersegmentEliminatedRevenueCNYmillion": -40098,
+    "unallocatedEBITCNYmillion": -3161,
+    "Q2RetailRevenueCNYmillion": 295383,
+    "Q2RetailEBITCNYmillion": 13478,
+    "Q2LogisticsRevenueCNYmillion": 64102,
+    "Q2LogisticsEBITCNYmillion": 2263,
+    "Q2NewRevenueCNYmillion": 7260,
+    "Q2NewEBITCNYmillion": -9854,
+    "newPropertyGainCNYmillion": 404,
+    "retailDefinition": "含京东健康与工业；估值不得再加两家全部市值",
+    "reclassification": "物流2025-10-31收购本地即时配送业务；2026部分内部配送变对第三方外部收入，新业务外部配送收入对应下降，未经重列不能由收入降幅断言客户流失",
+    "electronicsHomeRevenueCNYmillion": 290057,
+    "generalMerchandiseCNYmillion": 221877,
+    "marketplaceMarketingCNYmillion": 57377,
+    "logisticsOtherServicesCNYmillion": 92784,
+    "fulfillmentExpenseCNYmillion": 47844,
+    "marketingExpenseCNYmillion": 35674,
+    "RDCNYmillion": 14165,
+    "GACNYmillion": 6701,
+    "SBCCNYmillion": 1979,
+    "associateIncomeCNYmillion": 4187,
+    "otherIncomeCNYmillion": 6602,
+    "interestExpenseCNYmillion": 1394,
+    "OCFCNYmillion": 38273,
+    "Q2OCFCNYmillion": 37718,
+    "TTMOCFCNYmillion": 51117,
+    "consumerFinancingOCFAdjustmentCNYmillion": -2336,
+    "capitalCashNetOfProceedsCNYmillion": 10583,
+    "capitalCashDevelopmentPropertiesCNYmillion": 6015,
+    "capitalCashOtherCNYmillion": 4568,
+    "officialFCFCNYmillion": 25354,
+    "Q2OfficialFCFCNYmillion": 31835,
+    "TTMOfficialFCFCNYmillion": 31415,
+    "FCFCaution": "官方FCF调消费者融资及净资本现金；开发物业售出收入已抵资本现金；美国GAAP租赁现金已OCF，不另扣",
+    "cashEquivalentsCNYmillion": 89068,
+    "restrictedCashCNYmillion": 13396,
+    "shortInvestmentCNYmillion": 132594,
+    "totalCashRestrictedShortCNYmillion": 235058,
+    "shortDebtCNYmillion": 3534,
+    "longDebtCNYmillion": 36196,
+    "currentSeniorNotesCNYmillion": 13555,
+    "noncurrentSeniorNotesCNYmillion": 16607,
+    "totalDebtResearchCNYmillion": 69892,
+    "netCashShortResearchCNYmillion": 151770,
+    "leaseLiabilitiesCNYmillion": 35416,
+    "accountsPayableCNYmillion": 228961,
+    "customerAdvanceCNYmillion": 40982,
+    "inventoryCNYmillion": 114577,
+    "receivableCNYmillion": 28710,
+    "TTMInventoryDays": 40.5,
+    "TTM2025Q2InventoryDays": 34.1,
+    "TTMPayableDays": 64.2,
+    "TTMReceivableDays": 8.6,
+    "issuedSharesRoundedMillion": 2756,
+    "outstandingSharesRoundedMillion": 2688,
+    "repurchasedSharesH1Million": 69.9,
+    "repurchaseCashH1USDmillion": 1000,
+    "repurchaseRemainingUSDmillion": 1000,
+    "dividend2025PaidUSDperOrdinaryShare": 0.5,
+    "dividendStatus": "FY2025每普通股0.5USD在2026四月支付，基准前已付不计未来；未来金额另设假设",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "revenue2025H1CNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "groupNetIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "adjustedProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "adjustedDilutedEPSCNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "weightedBasicSharesMillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2RevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2GroupNetIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2ProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2AdjustedProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2DilutedEPSCNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2AdjustedDilutedEPSCNY": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY/ordinary share",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "ADSOrdinarySharesRatio": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "ordinary shares per ADS",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "retailRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "retailEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "logisticsRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "logisticsEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "newRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "newEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "intersegmentEliminatedRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "unallocatedEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2RetailRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2RetailEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2LogisticsRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2LogisticsEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2NewRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2NewEBITCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "newPropertyGainCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "electronicsHomeRevenueCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "generalMerchandiseCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "marketplaceMarketingCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "logisticsOtherServicesCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "fulfillmentExpenseCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "marketingExpenseCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "RDCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "GACNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "SBCCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "associateIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "otherIncomeCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "interestExpenseCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2OCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTMOCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2026-06-30",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "consumerFinancingOCFAdjustmentCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "capitalCashNetOfProceedsCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "capitalCashDevelopmentPropertiesCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "capitalCashOtherCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "officialFCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "Q2OfficialFCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTMOfficialFCFCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2026-06-30",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "cashEquivalentsCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "restrictedCashCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "shortInvestmentCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "totalCashRestrictedShortCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "shortDebtCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "longDebtCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "currentSeniorNotesCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "noncurrentSeniorNotesCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "totalDebtResearchCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "research calculation from primary inputs"
+      },
+      "netCashShortResearchCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "research calculation from primary inputs"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "accountsPayableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "customerAdvanceCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "inventoryCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "receivableCNYmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTMInventoryDays": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2026-06-30",
+        "currency": null,
+        "unit": "days",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTM2025Q2InventoryDays": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2025-06-30",
+        "currency": null,
+        "unit": "days",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTMPayableDays": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2026-06-30",
+        "currency": null,
+        "unit": "days",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "TTMReceivableDays": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "12 months ended 2026-06-30",
+        "currency": null,
+        "unit": "days",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "issuedSharesRoundedMillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "outstandingSharesRoundedMillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "repurchasedSharesH1Million": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "repurchaseCashH1USDmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "repurchaseRemainingUSDmillion": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      },
+      "dividend2025PaidUSDperOrdinaryShare": {
+        "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+        "period": "2026H1",
+        "currency": "USD",
+        "unit": "USD/ordinary share",
+        "publicationDate": "2026-08-13；文件目录18:03，会议20:00北京香港时间，收盘后",
+        "status": "reported input"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margins ratio; diluted ordinary shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 3,
+    "normalization": "零售含健康工业；物流分部含内部对集团服务，利润依真实分部已抵消规则归一；新业务亏损含外卖京喜Joybuy物业，不另加期权；常态研发履约SBC与租赁全部经济成本保留；有限财资联营收益计利润，不加全现金与投资市值；归属率为含子公司少数股东的研究正常税后归母比例",
+    "yearEnd": {
+      "retailRevenue": [
+        1130,
+        1200,
+        1250
+      ],
+      "retailEBITMargin": [
+        0.042,
+        0.048,
+        0.052
+      ],
+      "logisticsRevenue": [
+        250,
+        270,
+        290
+      ],
+      "logisticsEBITMargin": [
+        0.032,
+        0.035,
+        0.045
+      ],
+      "newBusinessLoss": [
+        34,
+        30,
+        22
+      ],
+      "corporateCost": [
+        5,
+        4,
+        4
+      ],
+      "normalNetFinanceAssociates": [
+        5,
+        6,
+        7
+      ],
+      "ownerProfitShare": [
+        0.85,
+        0.89,
+        0.91
+      ],
+      "dilutedShares": [
+        2.92,
+        2.78,
+        2.72
+      ]
+    },
+    "halfYear": {
+      "retailRevenue": [
+        1120,
+        1230,
+        1300
+      ],
+      "retailEBITMargin": [
+        0.043,
+        0.05,
+        0.054
+      ],
+      "logisticsRevenue": [
+        255,
+        285,
+        310
+      ],
+      "logisticsEBITMargin": [
+        0.033,
+        0.036,
+        0.047
+      ],
+      "newBusinessLoss": [
+        34,
+        28,
+        18
+      ],
+      "corporateCost": [
+        5,
+        4.2,
+        4.2
+      ],
+      "normalNetFinanceAssociates": [
+        5,
+        6,
+        7.5
+      ],
+      "ownerProfitShare": [
+        0.85,
+        0.89,
+        0.91
+      ],
+      "dilutedShares": [
+        2.94,
+        2.75,
+        2.68
+      ]
+    },
+    "oneYear": {
+      "retailRevenue": [
+        1160,
+        1280,
+        1380
+      ],
+      "retailEBITMargin": [
+        0.042,
+        0.05,
+        0.055
+      ],
+      "logisticsRevenue": [
+        270,
+        305,
+        340
+      ],
+      "logisticsEBITMargin": [
+        0.032,
+        0.037,
+        0.048
+      ],
+      "newBusinessLoss": [
+        35,
+        28,
+        15
+      ],
+      "corporateCost": [
+        5.2,
+        4.5,
+        4.8
+      ],
+      "normalNetFinanceAssociates": [
+        5,
+        6.5,
+        8
+      ],
+      "ownerProfitShare": [
+        0.85,
+        0.89,
+        0.92
+      ],
+      "dilutedShares": [
+        2.99,
+        2.74,
+        2.65
+      ]
+    },
+    "threeYear": {
+      "retailRevenue": [
+        1230,
+        1500,
+        1730
+      ],
+      "retailEBITMargin": [
+        0.04,
+        0.054,
+        0.062
+      ],
+      "logisticsRevenue": [
+        320,
+        390,
+        500
+      ],
+      "logisticsEBITMargin": [
+        0.03,
+        0.04,
+        0.055
+      ],
+      "newBusinessLoss": [
+        32,
+        18,
+        2
+      ],
+      "corporateCost": [
+        6,
+        5.5,
+        6.5
+      ],
+      "normalNetFinanceAssociates": [
+        4.5,
+        6.5,
+        9
+      ],
+      "ownerProfitShare": [
+        0.84,
+        0.9,
+        0.93
+      ],
+      "dilutedShares": [
+        3.1,
+        2.62,
+        2.45
+      ]
+    },
+    "fiveYear": {
+      "retailRevenue": [
+        1300,
+        1680,
+        2100
+      ],
+      "retailEBITMargin": [
+        0.038,
+        0.056,
+        0.065
+      ],
+      "logisticsRevenue": [
+        380,
+        470,
+        650
+      ],
+      "logisticsEBITMargin": [
+        0.03,
+        0.043,
+        0.06
+      ],
+      "newBusinessLoss": [
+        28,
+        12,
+        -5
+      ],
+      "corporateCost": [
+        7,
+        7,
+        9
+      ],
+      "normalNetFinanceAssociates": [
+        4,
+        7.5,
+        11
+      ],
+      "ownerProfitShare": [
+        0.84,
+        0.9,
+        0.94
+      ],
+      "dilutedShares": [
+        3.25,
+        2.5,
+        2.3
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        4.998,
+        10.001,
+        15.805
+      ],
+      "PE": [
+        9,
+        12,
+        15
+      ],
+      "priceHKD": [
+        49.48,
+        132.01,
+        260.78
+      ],
+      "priceReturnPct": [
+        -53.1439393939394,
+        25.00946969696969,
+        146.95075757575756
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -53.1439393939394,
+        25.00946969696969,
+        146.95075757575756
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 143.57,
+      "expectedReturnPct": 35.9564393939394,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 111.875,
+        "defensiveReturnPct": 5.942234848484862,
+        "positivePrice": 175.265,
+        "positiveReturnPct": 65.97064393939394
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        5.221,
+        11.796,
+        19.034
+      ],
+      "PE": [
+        9,
+        12,
+        16
+      ],
+      "priceHKD": [
+        51.69,
+        155.71,
+        335
+      ],
+      "priceReturnPct": [
+        -51.05113636363636,
+        47.45265151515152,
+        217.2348484848485
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -51.05113636363636,
+        47.45265151515152,
+        217.2348484848485
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        5.04,
+        12.807,
+        22.336
+      ],
+      "PE": [
+        9,
+        12,
+        16
+      ],
+      "priceHKD": [
+        49.9,
+        169.05,
+        393.11
+      ],
+      "priceReturnPct": [
+        -52.746212121212125,
+        60.085227272727295,
+        272.2632575757576
+      ],
+      "cumulativeCashDividendHKD": [
+        2.5,
+        4,
+        5
+      ],
+      "totalReturnPct": [
+        -50.378787878787875,
+        63.87310606060608,
+        276.9981060606061
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        5.484,
+        21.875,
+        41.075
+      ],
+      "PE": [
+        8,
+        13,
+        16
+      ],
+      "priceHKD": [
+        48.26,
+        312.81,
+        722.92
+      ],
+      "priceReturnPct": [
+        -54.29924242424242,
+        196.22159090909093,
+        584.5833333333334
+      ],
+      "cumulativeCashDividendHKD": [
+        7.5,
+        14,
+        20
+      ],
+      "totalReturnPct": [
+        -47.196969696969695,
+        209.4791666666667,
+        603.5227272727273
+      ],
+      "baseAnnualizedTotalReturnPct": 45.728268996706056
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        6.162,
+        29.604,
+        59.67
+      ],
+      "PE": [
+        8,
+        13,
+        16
+      ],
+      "priceHKD": [
+        54.23,
+        423.34,
+        1050.19
+      ],
+      "priceReturnPct": [
+        -48.645833333333336,
+        300.8901515151515,
+        894.4981060606061
+      ],
+      "cumulativeCashDividendHKD": [
+        12,
+        27,
+        42
+      ],
+      "totalReturnPct": [
+        -37.282196969696976,
+        326.4583333333333,
+        934.2708333333335
+      ],
+      "baseAnnualizedTotalReturnPct": 33.65195661758244
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.2,
+        2.7,
+        3.5,
+        3.1,
+        3.3,
+        3.5
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 62.5
+    },
+    "oneYear": {
+      "dimensions": [
+        3.6,
+        2.7,
+        3.7,
+        3.3,
+        3.5,
+        3.5
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 68.5
+    },
+    "threeYear": {
+      "dimensions": [
+        3.9,
+        2.7,
+        3.9,
+        3.5,
+        3.5,
+        3.4
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 73.8
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.9,
+        2.7,
+        4,
+        3.5,
+        3.4,
+        3.2
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 74.6
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 104.91,
+      "60": 113.295,
+      "120": 113.795,
+      "250": 114.400188
+    },
+    "maSlope5Pct": {
+      "20": -0.845896,
+      "60": -0.70117,
+      "120": -0.532469,
+      "250": -0.56748
+    },
+    "priceVsMAPct": {
+      "20": 0.657705,
+      "60": -6.792005,
+      "120": -7.201548,
+      "250": -7.692461
+    },
+    "returnPct": {
+      "20": 0.094785,
+      "60": -9.589045,
+      "120": -13.866232,
+      "250": -25.718518
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 143.157473,
+    "low52w": 95.471496,
+    "distanceFrom52wHighPct": -26.235078,
+    "distanceFrom52wLowPct": 10.608928,
+    "maxDrawdown52wPct": -32.471378,
+    "RSI14": 46.863503,
+    "ATR14": 2.320135,
+    "ATR14Pct": 2.197097,
+    "MACD": {
+      "DIF": -1.610934,
+      "DEA": -2.11113,
+      "histogram": 1.000392,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 5864385.6,
+      "20": 5571659.8,
+      "60": 8110590.633
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.655787,
+    "previous20MeanVolume": 5585040.3,
+    "upDownVolume20": {
+      "upVolume": 56359460,
+      "downVolume": 47747806,
+      "flatVolume": 7325930,
+      "upDays": 10,
+      "downDays": 9,
+      "ratio": 1.180357
+    },
+    "ranges": {
+      "20": {
+        "support": 100.400002,
+        "resistance": 107.5,
+        "toSupportPct": -4.924239,
+        "toResistancePct": 1.799244,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 100.400002,
+        "resistance": 130.899994,
+        "toSupportPct": -4.924239,
+        "toResistancePct": 23.95833,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 110.994999,
+      "60": 115.382458,
+      "120": 124.779921,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -3.457424,
+      "60": -1.408558,
+      "120": -0.298199,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -4.860581,
+      "60": -8.478291,
+      "120": -15.371001,
+      "250": null
+    },
+    "returnPct": {
+      "20": -13.229252,
+      "60": -12.190431,
+      "120": -2.812226,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 134.197677,
+    "low52w": 95.471496,
+    "distanceFrom52wHighPct": -21.310115,
+    "distanceFrom52wLowPct": 10.608928,
+    "maxDrawdown52wPct": -25.131305,
+    "RSI14": 44.567746,
+    "ATR14": 7.615512,
+    "ATR14Pct": 7.211659,
+    "MACD": {
+      "DIF": -2.608353,
+      "DEA": -1.486546,
+      "histogram": -2.243615,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 27474478.4,
+      "20": 45515914.4,
+      "60": 54162767.283
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.627899,
+    "previous20MeanVolume": 46698514.9,
+    "upDownVolume20": {
+      "upVolume": 430728313,
+      "downVolume": 479589975,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 0.898118
+    },
+    "ranges": {
+      "20": {
+        "support": 95.800003,
+        "resistance": 130.899994,
+        "toSupportPct": -9.280298,
+        "toResistancePct": 23.95833,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 95.471496,
+        "resistance": 143.157473,
+        "toSupportPct": -9.591385,
+        "toResistancePct": 35.565791,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 3.072693,
+    "excess60Pct": -6.401142,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": 3.157949,
+    "industryExcess60Pct": 3.578974
+  },
+  "brokerTargets": [
+    {
+      "issuerId": "I070",
+      "code": "09618.HK",
+      "name": "京东集团-SW",
+      "institution": "美银证券",
+      "targetPrice": 149,
+      "currency": "HKD",
+      "publicationDate": "2026-08-17",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1538706/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": "原文称H股，但公司港股普通股非中国注册H股；本研究使用上市普通股单位"
+    },
+    {
+      "issuerId": "I070",
+      "code": "09618.HK",
+      "name": "京东集团-SW",
+      "institution": "大和",
+      "targetPrice": 120,
+      "currency": "HKD",
+      "publicationDate": "2026-08-17",
+      "targetHorizon": null,
+      "rating": "持有",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1538623/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I070",
+      "code": "JD.US",
+      "name": "京东ADS",
+      "institution": "花旗",
+      "targetPrice": 39,
+      "currency": "USD",
+      "publicationDate": "2026-09-04",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1542926/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "ADSOrdinarySharesRatio": 2,
+      "HKDComparableResearch": 152.1,
+      "conversionCaution": "39USD/ADS÷2×7.8USDHKD研究假设，非机构港股目标"
+    }
+  ],
+  "confidence": {
+    "financial": "高，公司原件；季度未审计与年报审计分开",
+    "technical": "高，锁定双源复权日线",
+    "valuation": "中，资本配置与新业务亏损路径敏感",
+    "broker": "中，公开转述非原始研报"
+  },
+  "gaps": [
+    "未取截止日精确已发行与持库股月报，仅六月主源百万股四舍五入和真实加权股数",
+    "外卖单独利润在公司结果未精确公开，机构估算不当主源",
+    "港币人民币与美元港币皆研究假设",
+    "外资原研报、部分目标期限未取得",
+    "可靠流通换手率和逐笔成交未取得"
+  ],
+  "sources": [
+    "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+    "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/04/17/11-33-24/Form%2020-F%20for%20JD%20filed%2004162026.pdf",
+    "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/03/05/18-02-03/JD.com%20Announces%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%2C%20and%20Annual%20Dividend.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1538706/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1538623/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09618/AAFN/NOW.1542926/research-report"
+  ],
+  "activeScenario": "base",
+  "scenarioSnapshotDate": "2026-10-09",
+  "refreshPolicy": "单活动三分部正常利润桥，依次悲观基准乐观存快照；输入变化标待刷新"
+}

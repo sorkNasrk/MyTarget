@@ -1,0 +1,507 @@
+{
+  "issuerId": "I051",
+  "checkedAt": "2026-10-10T11:45:06.705Z",
+  "modelVersion": "remegen-v2-finite-assets-Vor-residual-return-aligned-score",
+  "checks": [
+    {
+      "label": "yearEnd/bear parentequity",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear pershare",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear target table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear zero dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base parentequity",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base pershare",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base target table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base zero dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull parentequity",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull pershare",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull recognition",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull target table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull zero dividend",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "yearEnd expected",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear parentequity",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear pershare",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear target table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear zero dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base parentequity",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base pershare",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base target table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base zero dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull parentequity",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull pershare",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull recognition",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull target table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull zero dividend",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear expected",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear parentequity",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear pershare",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear target table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear zero dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base parentequity",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base pershare",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base target table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base zero dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull parentequity",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull pershare",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull recognition",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull target table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull zero dividend",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear expected",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear parentequity",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear pershare",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear target table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear zero dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base parentequity",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base pershare",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base target table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base zero dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull parentequity",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull pershare",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull recognition",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull target table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull zero dividend",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear expected",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear parentequity",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear pershare",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear target table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear zero dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base parentequity",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base pershare",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base target table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base zero dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull parentequity",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull pershare",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull recognition",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull recipient ownership",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull target table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull zero dividend",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull asset annual sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear expected",
+      "pass": true
+    },
+    {
+      "label": "halfYear score",
+      "pass": true
+    },
+    {
+      "label": "oneYear score",
+      "pass": true
+    },
+    {
+      "label": "threeYear score",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score",
+      "pass": true
+    },
+    {
+      "label": "H1 revenue components",
+      "pass": true
+    },
+    {
+      "label": "H1 FCF including BD",
+      "pass": true
+    },
+    {
+      "label": "legal A/H shares",
+      "pass": true
+    },
+    {
+      "label": "ex treasury shares",
+      "pass": true
+    },
+    {
+      "label": "excesscash excludes Vor warrant",
+      "pass": true
+    },
+    {
+      "label": "RC48 license geographic interpretation",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "failures": [],
+  "manualReview": [
+    "核验8月24日原公告RC48许可为全球除亚洲但包含日本与新加坡",
+    "中国114例gMG事后及开放延长期与全球UPSTREAM MG未读出区分",
+    "IgAN蛋白尿附条件批准不当长期肾结局确证",
+    "Vor收款后权益扣母royalty及相同milestones，不另加账面权证或伙伴现金",
+    "香港IFRS与A股PRCGAAP独立，不拼接利润桥"
+  ],
+  "remainingLimitations": [
+    "所有多适应症资产聚合，未逐药逐适应症完整患者DCF",
+    "未来分药收入/费用/现金与资金用途没有完整三表预算",
+    "Vor残余权益简化模型，未来股数/融资和其他法律义务未完整穿透",
+    "药物royalty精确阶梯缺失；RC48自留部分非中国地域及早期ADC额外值零而central费用保留",
+    "RC28DMEJuly撤申报补安全样本非已批准",
+    "机构新闻转述、Nomura7月预测与后8月实际有差异、无确切目标日",
+    "短期认知系数无统计校准，内在尾部与目标并非最大损失边界",
+    "回购镜像Oct8封面/内附Oct9发布日期冲突、Sept回购截至数仍不后于截止",
+    "739日3根OHLC经独立源修复、52周日/周高点窗口差异不混"
+  ]
+}

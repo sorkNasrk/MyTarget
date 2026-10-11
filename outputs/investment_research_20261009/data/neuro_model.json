@@ -1,0 +1,1905 @@
+{
+  "issuerId": "I007",
+  "securityId": "S007",
+  "name": "微创脑科学",
+  "code": "02172.HK",
+  "currency": "HKD",
+  "price": 8.055,
+  "priceHKD": 8.055,
+  "referencePrice": 8.055,
+  "referencePriceDate": "2026-08-31",
+  "basePriceValid": false,
+  "asOf": "2026-10-09",
+  "marketVersion": "market-v1.6",
+  "modelVersion": "neuro-conditional-whole-group-economic-PE-v1.1",
+  "status": "独立初版；条件模型与独立QA通过",
+  "rankEligible": false,
+  "rankingExclusionReason": "2026-09-01起停牌；10月9日无有效可交易收盘价，2026中报因关联租赁审查延迟，核心当前利润/现金未可核。保留条件经营估值参考，不列四榜、不算正式目标回报或年底期望。",
+  "valuationConditioned": true,
+  "scores": {},
+  "scenarios": {},
+  "conditionalScenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "requestedTarget": "2026-12-31",
+      "profitYear": 2026,
+      "native": [
+        {
+          "key": "pessimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2026,
+          "domesticRevenue": 0.62,
+          "overseasRevenue": 0.12,
+          "revenue": 0.74,
+          "costRate": 0.3,
+          "cost": 0.222,
+          "sellingRate": 0.26,
+          "selling": 0.19240000000000002,
+          "adminRate": 0.095,
+          "admin": 0.0703,
+          "economicRDRate": 0.16,
+          "economicRD": 0.1184,
+          "grant": 0.01,
+          "reviewExtraCost": 0.035,
+          "operating": 0.11189999999999997,
+          "interest": 0.012,
+          "finance": 0.002,
+          "associateLoss": 0.01,
+          "pretax": 0.11189999999999997,
+          "taxRate": 0.2,
+          "tax": 0.022379999999999997,
+          "groupProfit": 0.08951999999999997,
+          "NCI": 0,
+          "parentProfit": 0.08951999999999997,
+          "shares": 0.58509938,
+          "EPSCNY": 0.15299964939289457,
+          "PE": 10,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 1.6829961433218403,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "base",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2026,
+          "domesticRevenue": 0.7,
+          "overseasRevenue": 0.145,
+          "revenue": 0.845,
+          "costRate": 0.26,
+          "cost": 0.2197,
+          "sellingRate": 0.23,
+          "selling": 0.19435,
+          "adminRate": 0.085,
+          "admin": 0.071825,
+          "economicRDRate": 0.14,
+          "economicRD": 0.1183,
+          "grant": 0.018,
+          "reviewExtraCost": 0.012,
+          "operating": 0.2468249999999999,
+          "interest": 0.013,
+          "finance": 0.002,
+          "associateLoss": 0.005,
+          "pretax": 0.2528249999999999,
+          "taxRate": 0.18,
+          "tax": 0.04550849999999998,
+          "groupProfit": 0.20731649999999993,
+          "NCI": 0.001,
+          "parentProfit": 0.20631649999999993,
+          "shares": 0.58509938,
+          "EPSCNY": 0.352617874932631,
+          "PE": 18,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 6.981833923666096,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "optimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2026,
+          "domesticRevenue": 0.74,
+          "overseasRevenue": 0.17,
+          "revenue": 0.91,
+          "costRate": 0.24,
+          "cost": 0.2184,
+          "sellingRate": 0.22,
+          "selling": 0.20020000000000002,
+          "adminRate": 0.08,
+          "admin": 0.0728,
+          "economicRDRate": 0.13,
+          "economicRD": 0.1183,
+          "grant": 0.025,
+          "reviewExtraCost": 0,
+          "operating": 0.3253,
+          "interest": 0.014,
+          "finance": 0.002,
+          "associateLoss": 0.003,
+          "pretax": 0.3343,
+          "taxRate": 0.16,
+          "tax": 0.053488,
+          "groupProfit": 0.280812,
+          "NCI": 0.002,
+          "parentProfit": 0.278812,
+          "shares": 0.58509938,
+          "EPSCNY": 0.4765207578924456,
+          "PE": 24,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 12.580148008360565,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        }
+      ],
+      "priceHKD": [
+        1.6829961433218403,
+        6.981833923666096,
+        12.580148008360565
+      ],
+      "priceTargets": [
+        1.6829961433218403,
+        6.981833923666096,
+        12.580148008360565
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "财报及租赁审查最终可出具可靠结果、无致命披露/索偿或业务失效；仍受集采和出口不及预期压力",
+        "财报及关联租赁审查完成并获准复牌；国内平稳恢复、海外放量，真实经营与现金支持经济盈利",
+        "审查未发现重大不可恢复损失，国内产品升级和海外渠道收入显著兑现；不把绿色通道当批准，不为脑机无订单收入估值"
+      ]
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "requestedTarget": "2027-04-09",
+      "profitYear": 2027,
+      "native": [
+        {
+          "key": "pessimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.6,
+          "overseasRevenue": 0.13,
+          "revenue": 0.73,
+          "costRate": 0.31,
+          "cost": 0.2263,
+          "sellingRate": 0.27,
+          "selling": 0.1971,
+          "adminRate": 0.1,
+          "admin": 0.073,
+          "economicRDRate": 0.16,
+          "economicRD": 0.1168,
+          "grant": 0.008,
+          "reviewExtraCost": 0.025,
+          "operating": 0.09980000000000003,
+          "interest": 0.01,
+          "finance": 0.002,
+          "associateLoss": 0.01,
+          "pretax": 0.09780000000000003,
+          "taxRate": 0.2,
+          "tax": 0.019560000000000008,
+          "groupProfit": 0.07824000000000002,
+          "NCI": 0,
+          "parentProfit": 0.07824000000000002,
+          "shares": 0.59,
+          "EPSCNY": 0.13261016949152546,
+          "PE": 11,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 1.6045830508474581,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "base",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.76,
+          "overseasRevenue": 0.2,
+          "revenue": 0.96,
+          "costRate": 0.26,
+          "cost": 0.2496,
+          "sellingRate": 0.23,
+          "selling": 0.2208,
+          "adminRate": 0.083,
+          "admin": 0.07968,
+          "economicRDRate": 0.14,
+          "economicRD": 0.13440000000000002,
+          "grant": 0.018,
+          "reviewExtraCost": 0.006,
+          "operating": 0.28751999999999994,
+          "interest": 0.012,
+          "finance": 0.002,
+          "associateLoss": 0.005,
+          "pretax": 0.29251999999999995,
+          "taxRate": 0.18,
+          "tax": 0.05265359999999999,
+          "groupProfit": 0.23986639999999995,
+          "NCI": 0.001,
+          "parentProfit": 0.23886639999999995,
+          "shares": 0.59,
+          "EPSCNY": 0.4048583050847457,
+          "PE": 20,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 8.906882711864405,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "optimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.87,
+          "overseasRevenue": 0.28,
+          "revenue": 1.15,
+          "costRate": 0.235,
+          "cost": 0.27025,
+          "sellingRate": 0.215,
+          "selling": 0.24724999999999997,
+          "adminRate": 0.077,
+          "admin": 0.08854999999999999,
+          "economicRDRate": 0.13,
+          "economicRD": 0.1495,
+          "grant": 0.025,
+          "reviewExtraCost": 0,
+          "operating": 0.41945,
+          "interest": 0.014,
+          "finance": 0.002,
+          "associateLoss": 0.003,
+          "pretax": 0.42845,
+          "taxRate": 0.16,
+          "tax": 0.068552,
+          "groupProfit": 0.359898,
+          "NCI": 0.003,
+          "parentProfit": 0.356898,
+          "shares": 0.595,
+          "EPSCNY": 0.5998285714285715,
+          "PE": 27,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 17.814908571428575,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        }
+      ],
+      "priceHKD": [
+        1.6045830508474581,
+        8.906882711864405,
+        17.814908571428575
+      ],
+      "priceTargets": [
+        1.6045830508474581,
+        8.906882711864405,
+        17.814908571428575
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "财报及租赁审查最终可出具可靠结果、无致命披露/索偿或业务失效；仍受集采和出口不及预期压力",
+        "财报及关联租赁审查完成并获准复牌；国内平稳恢复、海外放量，真实经营与现金支持经济盈利",
+        "审查未发现重大不可恢复损失，国内产品升级和海外渠道收入显著兑现；不把绿色通道当批准，不为脑机无订单收入估值"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "requestedTarget": "2027-10-09",
+      "profitYear": 2027,
+      "native": [
+        {
+          "key": "pessimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.6,
+          "overseasRevenue": 0.13,
+          "revenue": 0.73,
+          "costRate": 0.31,
+          "cost": 0.2263,
+          "sellingRate": 0.27,
+          "selling": 0.1971,
+          "adminRate": 0.1,
+          "admin": 0.073,
+          "economicRDRate": 0.16,
+          "economicRD": 0.1168,
+          "grant": 0.008,
+          "reviewExtraCost": 0.025,
+          "operating": 0.09980000000000003,
+          "interest": 0.01,
+          "finance": 0.002,
+          "associateLoss": 0.01,
+          "pretax": 0.09780000000000003,
+          "taxRate": 0.2,
+          "tax": 0.019560000000000008,
+          "groupProfit": 0.07824000000000002,
+          "NCI": 0,
+          "parentProfit": 0.07824000000000002,
+          "shares": 0.595,
+          "EPSCNY": 0.13149579831932776,
+          "PE": 12,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 1.7357445378151264,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "base",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.76,
+          "overseasRevenue": 0.2,
+          "revenue": 0.96,
+          "costRate": 0.26,
+          "cost": 0.2496,
+          "sellingRate": 0.23,
+          "selling": 0.2208,
+          "adminRate": 0.083,
+          "admin": 0.07968,
+          "economicRDRate": 0.14,
+          "economicRD": 0.13440000000000002,
+          "grant": 0.018,
+          "reviewExtraCost": 0.006,
+          "operating": 0.28751999999999994,
+          "interest": 0.012,
+          "finance": 0.002,
+          "associateLoss": 0.005,
+          "pretax": 0.29251999999999995,
+          "taxRate": 0.18,
+          "tax": 0.05265359999999999,
+          "groupProfit": 0.23986639999999995,
+          "NCI": 0.001,
+          "parentProfit": 0.23886639999999995,
+          "shares": 0.595,
+          "EPSCNY": 0.4014561344537814,
+          "PE": 22,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 9.715238453781511,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "optimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2027,
+          "domesticRevenue": 0.87,
+          "overseasRevenue": 0.28,
+          "revenue": 1.15,
+          "costRate": 0.235,
+          "cost": 0.27025,
+          "sellingRate": 0.215,
+          "selling": 0.24724999999999997,
+          "adminRate": 0.077,
+          "admin": 0.08854999999999999,
+          "economicRDRate": 0.13,
+          "economicRD": 0.1495,
+          "grant": 0.025,
+          "reviewExtraCost": 0,
+          "operating": 0.41945,
+          "interest": 0.014,
+          "finance": 0.002,
+          "associateLoss": 0.003,
+          "pretax": 0.42845,
+          "taxRate": 0.16,
+          "tax": 0.068552,
+          "groupProfit": 0.359898,
+          "NCI": 0.003,
+          "parentProfit": 0.356898,
+          "shares": 0.6,
+          "EPSCNY": 0.59483,
+          "PE": 30,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 19.62939,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        }
+      ],
+      "priceHKD": [
+        1.7357445378151264,
+        9.715238453781511,
+        19.62939
+      ],
+      "priceTargets": [
+        1.7357445378151264,
+        9.715238453781511,
+        19.62939
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "财报及租赁审查最终可出具可靠结果、无致命披露/索偿或业务失效；仍受集采和出口不及预期压力",
+        "财报及关联租赁审查完成并获准复牌；国内平稳恢复、海外放量，真实经营与现金支持经济盈利",
+        "审查未发现重大不可恢复损失，国内产品升级和海外渠道收入显著兑现；不把绿色通道当批准，不为脑机无订单收入估值"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "requestedTarget": "2029-10-09",
+      "profitYear": 2029,
+      "native": [
+        {
+          "key": "pessimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2029,
+          "domesticRevenue": 0.62,
+          "overseasRevenue": 0.17,
+          "revenue": 0.79,
+          "costRate": 0.32,
+          "cost": 0.2528,
+          "sellingRate": 0.27,
+          "selling": 0.21330000000000002,
+          "adminRate": 0.1,
+          "admin": 0.07900000000000001,
+          "economicRDRate": 0.17,
+          "economicRD": 0.1343,
+          "grant": 0.005,
+          "reviewExtraCost": 0.015,
+          "operating": 0.10059999999999995,
+          "interest": 0.008,
+          "finance": 0.003,
+          "associateLoss": 0.008,
+          "pretax": 0.09759999999999994,
+          "taxRate": 0.22,
+          "tax": 0.021471999999999988,
+          "groupProfit": 0.07612799999999995,
+          "NCI": 0,
+          "parentProfit": 0.07612799999999995,
+          "shares": 0.61,
+          "EPSCNY": 0.12479999999999991,
+          "PE": 12,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 1.647359999999999,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "base",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2029,
+          "domesticRevenue": 0.9,
+          "overseasRevenue": 0.33,
+          "revenue": 1.23,
+          "costRate": 0.255,
+          "cost": 0.31365,
+          "sellingRate": 0.225,
+          "selling": 0.27675,
+          "adminRate": 0.08,
+          "admin": 0.0984,
+          "economicRDRate": 0.14,
+          "economicRD": 0.17220000000000002,
+          "grant": 0.02,
+          "reviewExtraCost": 0.003,
+          "operating": 0.3859999999999999,
+          "interest": 0.012,
+          "finance": 0.002,
+          "associateLoss": 0.004,
+          "pretax": 0.3919999999999999,
+          "taxRate": 0.2,
+          "tax": 0.07839999999999998,
+          "groupProfit": 0.31359999999999993,
+          "NCI": 0.002,
+          "parentProfit": 0.31159999999999993,
+          "shares": 0.61,
+          "EPSCNY": 0.5108196721311474,
+          "PE": 22,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 12.361836065573769,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "optimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2029,
+          "domesticRevenue": 1.2,
+          "overseasRevenue": 0.56,
+          "revenue": 1.76,
+          "costRate": 0.23,
+          "cost": 0.4048,
+          "sellingRate": 0.21,
+          "selling": 0.3696,
+          "adminRate": 0.072,
+          "admin": 0.12672,
+          "economicRDRate": 0.13,
+          "economicRD": 0.2288,
+          "grant": 0.03,
+          "reviewExtraCost": 0,
+          "operating": 0.6600800000000001,
+          "interest": 0.016,
+          "finance": 0.002,
+          "associateLoss": 0.002,
+          "pretax": 0.6720800000000001,
+          "taxRate": 0.18,
+          "tax": 0.12097440000000002,
+          "groupProfit": 0.5511056000000001,
+          "NCI": 0.005,
+          "parentProfit": 0.5461056000000001,
+          "shares": 0.625,
+          "EPSCNY": 0.8737689600000001,
+          "PE": 28,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 26.912083968000005,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        }
+      ],
+      "priceHKD": [
+        1.647359999999999,
+        12.361836065573769,
+        26.912083968000005
+      ],
+      "priceTargets": [
+        1.647359999999999,
+        12.361836065573769,
+        26.912083968000005
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "财报及租赁审查最终可出具可靠结果、无致命披露/索偿或业务失效；仍受集采和出口不及预期压力",
+        "财报及关联租赁审查完成并获准复牌；国内平稳恢复、海外放量，真实经营与现金支持经济盈利",
+        "审查未发现重大不可恢复损失，国内产品升级和海外渠道收入显著兑现；不把绿色通道当批准，不为脑机无订单收入估值"
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "requestedTarget": "2031-10-09",
+      "profitYear": 2031,
+      "native": [
+        {
+          "key": "pessimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2031,
+          "domesticRevenue": 0.65,
+          "overseasRevenue": 0.2,
+          "revenue": 0.8500000000000001,
+          "costRate": 0.33,
+          "cost": 0.2805,
+          "sellingRate": 0.28,
+          "selling": 0.23800000000000004,
+          "adminRate": 0.105,
+          "admin": 0.08925000000000001,
+          "economicRDRate": 0.17,
+          "economicRD": 0.14450000000000002,
+          "grant": 0.004,
+          "reviewExtraCost": 0.01,
+          "operating": 0.09175000000000007,
+          "interest": 0.006,
+          "finance": 0.003,
+          "associateLoss": 0.006,
+          "pretax": 0.08875000000000006,
+          "taxRate": 0.22,
+          "tax": 0.019525000000000015,
+          "groupProfit": 0.06922500000000005,
+          "NCI": 0,
+          "parentProfit": 0.06922500000000005,
+          "shares": 0.63,
+          "EPSCNY": 0.10988095238095245,
+          "PE": 10,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 1.208690476190477,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "base",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2031,
+          "domesticRevenue": 1.05,
+          "overseasRevenue": 0.48,
+          "revenue": 1.53,
+          "costRate": 0.25,
+          "cost": 0.3825,
+          "sellingRate": 0.22,
+          "selling": 0.3366,
+          "adminRate": 0.078,
+          "admin": 0.11934,
+          "economicRDRate": 0.14,
+          "economicRD": 0.21420000000000003,
+          "grant": 0.02,
+          "reviewExtraCost": 0,
+          "operating": 0.4973599999999999,
+          "interest": 0.01,
+          "finance": 0.002,
+          "associateLoss": 0.003,
+          "pretax": 0.5023599999999999,
+          "taxRate": 0.2,
+          "tax": 0.10047199999999999,
+          "groupProfit": 0.4018879999999999,
+          "NCI": 0.003,
+          "parentProfit": 0.3988879999999999,
+          "shares": 0.64,
+          "EPSCNY": 0.6232624999999998,
+          "PE": 20,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 13.711774999999998,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        },
+        {
+          "key": "optimistic",
+          "unit": "CNY billion; shares billion",
+          "profitYear": 2031,
+          "domesticRevenue": 1.5,
+          "overseasRevenue": 0.95,
+          "revenue": 2.45,
+          "costRate": 0.23,
+          "cost": 0.5635000000000001,
+          "sellingRate": 0.205,
+          "selling": 0.50225,
+          "adminRate": 0.07,
+          "admin": 0.17150000000000004,
+          "economicRDRate": 0.135,
+          "economicRD": 0.33075000000000004,
+          "grant": 0.035,
+          "reviewExtraCost": 0,
+          "operating": 0.9170000000000001,
+          "interest": 0.015,
+          "finance": 0.002,
+          "associateLoss": 0.002,
+          "pretax": 0.9280000000000002,
+          "taxRate": 0.18,
+          "tax": 0.16704000000000002,
+          "groupProfit": 0.7609600000000001,
+          "NCI": 0.008,
+          "parentProfit": 0.7529600000000001,
+          "shares": 0.68,
+          "EPSCNY": 1.1072941176470588,
+          "PE": 25,
+          "fxHKDPerCNY": 1.1,
+          "priceHKD": 30.450588235294116,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "整集团经济盈利PE；完整研发（含历史资本化类支出）、经常激励及租赁成本在费用中，不永久加回SBC；现金利息已入盈利，集团现金/结构存款/基金价值不再加NAV，集团债务不重复扣。FY2026/H1未披露，本表全属经营和完成审查条件假设，非公司指引。"
+        }
+      ],
+      "priceHKD": [
+        1.208690476190477,
+        13.711774999999998,
+        30.450588235294116
+      ],
+      "priceTargets": [
+        1.208690476190477,
+        13.711774999999998,
+        30.450588235294116
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "财报及租赁审查最终可出具可靠结果、无致命披露/索偿或业务失效；仍受集采和出口不及预期压力",
+        "财报及关联租赁审查完成并获准复牌；国内平稳恢复、海外放量，真实经营与现金支持经济盈利",
+        "审查未发现重大不可恢复损失，国内产品升级和海外渠道收入显著兑现；不把绿色通道当批准，不为脑机无订单收入估值"
+      ]
+    }
+  },
+  "nativeInputs": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "profitYear": 2026,
+      "domestic": [
+        0.62,
+        0.7,
+        0.74
+      ],
+      "overseas": [
+        0.12,
+        0.145,
+        0.17
+      ],
+      "costRate": [
+        0.3,
+        0.26,
+        0.24
+      ],
+      "sellingRate": [
+        0.26,
+        0.23,
+        0.22
+      ],
+      "adminRate": [
+        0.095,
+        0.085,
+        0.08
+      ],
+      "economicRDRate": [
+        0.16,
+        0.14,
+        0.13
+      ],
+      "grant": [
+        0.01,
+        0.018,
+        0.025
+      ],
+      "interest": [
+        0.012,
+        0.013,
+        0.014
+      ],
+      "finance": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "associateLoss": [
+        0.01,
+        0.005,
+        0.003
+      ],
+      "reviewExtraCost": [
+        0.035,
+        0.012,
+        0
+      ],
+      "taxRate": [
+        0.2,
+        0.18,
+        0.16
+      ],
+      "NCI": [
+        0,
+        0.001,
+        0.002
+      ],
+      "shares": [
+        0.58509938,
+        0.58509938,
+        0.58509938
+      ],
+      "PE": [
+        10,
+        18,
+        24
+      ]
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "profitYear": 2027,
+      "domestic": [
+        0.6,
+        0.76,
+        0.87
+      ],
+      "overseas": [
+        0.13,
+        0.2,
+        0.28
+      ],
+      "costRate": [
+        0.31,
+        0.26,
+        0.235
+      ],
+      "sellingRate": [
+        0.27,
+        0.23,
+        0.215
+      ],
+      "adminRate": [
+        0.1,
+        0.083,
+        0.077
+      ],
+      "economicRDRate": [
+        0.16,
+        0.14,
+        0.13
+      ],
+      "grant": [
+        0.008,
+        0.018,
+        0.025
+      ],
+      "interest": [
+        0.01,
+        0.012,
+        0.014
+      ],
+      "finance": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "associateLoss": [
+        0.01,
+        0.005,
+        0.003
+      ],
+      "reviewExtraCost": [
+        0.025,
+        0.006,
+        0
+      ],
+      "taxRate": [
+        0.2,
+        0.18,
+        0.16
+      ],
+      "NCI": [
+        0,
+        0.001,
+        0.003
+      ],
+      "shares": [
+        0.59,
+        0.59,
+        0.595
+      ],
+      "PE": [
+        11,
+        20,
+        27
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "requestedTarget": "2027-10-09",
+      "profitYear": 2027,
+      "domestic": [
+        0.6,
+        0.76,
+        0.87
+      ],
+      "overseas": [
+        0.13,
+        0.2,
+        0.28
+      ],
+      "costRate": [
+        0.31,
+        0.26,
+        0.235
+      ],
+      "sellingRate": [
+        0.27,
+        0.23,
+        0.215
+      ],
+      "adminRate": [
+        0.1,
+        0.083,
+        0.077
+      ],
+      "economicRDRate": [
+        0.16,
+        0.14,
+        0.13
+      ],
+      "grant": [
+        0.008,
+        0.018,
+        0.025
+      ],
+      "interest": [
+        0.01,
+        0.012,
+        0.014
+      ],
+      "finance": [
+        0.002,
+        0.002,
+        0.002
+      ],
+      "associateLoss": [
+        0.01,
+        0.005,
+        0.003
+      ],
+      "reviewExtraCost": [
+        0.025,
+        0.006,
+        0
+      ],
+      "taxRate": [
+        0.2,
+        0.18,
+        0.16
+      ],
+      "NCI": [
+        0,
+        0.001,
+        0.003
+      ],
+      "shares": [
+        0.595,
+        0.595,
+        0.6
+      ],
+      "PE": [
+        12,
+        22,
+        30
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "profitYear": 2029,
+      "domestic": [
+        0.62,
+        0.9,
+        1.2
+      ],
+      "overseas": [
+        0.17,
+        0.33,
+        0.56
+      ],
+      "costRate": [
+        0.32,
+        0.255,
+        0.23
+      ],
+      "sellingRate": [
+        0.27,
+        0.225,
+        0.21
+      ],
+      "adminRate": [
+        0.1,
+        0.08,
+        0.072
+      ],
+      "economicRDRate": [
+        0.17,
+        0.14,
+        0.13
+      ],
+      "grant": [
+        0.005,
+        0.02,
+        0.03
+      ],
+      "interest": [
+        0.008,
+        0.012,
+        0.016
+      ],
+      "finance": [
+        0.003,
+        0.002,
+        0.002
+      ],
+      "associateLoss": [
+        0.008,
+        0.004,
+        0.002
+      ],
+      "reviewExtraCost": [
+        0.015,
+        0.003,
+        0
+      ],
+      "taxRate": [
+        0.22,
+        0.2,
+        0.18
+      ],
+      "NCI": [
+        0,
+        0.002,
+        0.005
+      ],
+      "shares": [
+        0.61,
+        0.61,
+        0.625
+      ],
+      "PE": [
+        12,
+        22,
+        28
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "profitYear": 2031,
+      "domestic": [
+        0.65,
+        1.05,
+        1.5
+      ],
+      "overseas": [
+        0.2,
+        0.48,
+        0.95
+      ],
+      "costRate": [
+        0.33,
+        0.25,
+        0.23
+      ],
+      "sellingRate": [
+        0.28,
+        0.22,
+        0.205
+      ],
+      "adminRate": [
+        0.105,
+        0.078,
+        0.07
+      ],
+      "economicRDRate": [
+        0.17,
+        0.14,
+        0.135
+      ],
+      "grant": [
+        0.004,
+        0.02,
+        0.035
+      ],
+      "interest": [
+        0.006,
+        0.01,
+        0.015
+      ],
+      "finance": [
+        0.003,
+        0.002,
+        0.002
+      ],
+      "associateLoss": [
+        0.006,
+        0.003,
+        0.002
+      ],
+      "reviewExtraCost": [
+        0.01,
+        0,
+        0
+      ],
+      "taxRate": [
+        0.22,
+        0.2,
+        0.18
+      ],
+      "NCI": [
+        0,
+        0.003,
+        0.008
+      ],
+      "shares": [
+        0.63,
+        0.64,
+        0.68
+      ],
+      "PE": [
+        10,
+        20,
+        25
+      ]
+    }
+  },
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "method": "条件整集团经济盈利PE（研发全额费用、激励不加回）",
+  "fx": {
+    "HKDPerCNY": 1.1,
+    "status": "估值假设；不是截止日已核汇率",
+    "sensitivity": [
+      0.99,
+      1.1,
+      1.21
+    ]
+  },
+  "shares": {
+    "legalTotal": 585099380,
+    "legalTreasury": 16556000,
+    "external": 568543380,
+    "SeptemberNew": 0,
+    "AugustScripNew": 64571,
+    "scripIssuePriceHKD": 9.0144,
+    "priorTotal": 585034809,
+    "optionOutstandingJuly8": 8506200,
+    "AprilGrant": 550000,
+    "AprilStrikeHKD": 10.97,
+    "legalVsValuation": "条件模型年底采用法律全股（库存未来激励再发行全部占分母，无现金加回）；以后股数为新增激励/其他稀释情景非已发行或融资指引，回购库存不当已注销"
+  },
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 790.483,
+    "cost": 209.762,
+    "gross": 580.721,
+    "otherIncome": 47.49,
+    "RD": 77.919,
+    "selling": 167.77,
+    "admin": 63.015,
+    "otherOperating": 2.011,
+    "operating": 317.496,
+    "finance": 1.597,
+    "associateLoss": 25.347,
+    "associateImpairment": 59.572,
+    "pretax": 230.98,
+    "tax": 47.229,
+    "groupProfit": 183.751,
+    "parentProfit": 184.51,
+    "NCIProfit": -0.759,
+    "SBC": 18.815,
+    "SAFEFairValueLoss": 11.047,
+    "adjustedGroupProfit": 298.532,
+    "RDExpenditure": 108.768,
+    "RDCapitalized": 30.849,
+    "OCF": 202.023,
+    "capexPPE": 19.72,
+    "capexIntangible": 27.943,
+    "FCFBeforeFinancing": 154.36,
+    "cashBegin": 622.581,
+    "cashEnd": 611.254,
+    "cashFX": -6.248,
+    "netInvesting": -67.151,
+    "netFinancing": -139.951,
+    "cashTax": 51.309,
+    "leasePrincipal": 25.101,
+    "leaseInterest": 1.179,
+    "cashDividend": 84.044,
+    "incentiveShareBuy": 29.74,
+    "totalAssets": 2107.92,
+    "totalLiabilities": 314.867,
+    "parentEquity": 1797.54,
+    "NCIEquity": -4.487,
+    "lease": 15.94,
+    "FVStructuredDeposits": 406.779,
+    "timeDepositNoncurrent": 52.086,
+    "tradeReceivables": 321.029,
+    "priorTradeReceivables": 144.061,
+    "inventory": 118.658,
+    "priorInventory": 157.318,
+    "tradeOtherReceivables": 362.002,
+    "currentAssets": 1498.693,
+    "currentLiabilities": 249.456,
+    "contractedCapex": 228.285,
+    "approvedUncontractedCapex": 39.532,
+    "SHInvestmentLeaseDeposit": 25.812,
+    "otherAssociateInvestment": 50,
+    "bankDebt": 0,
+    "bankDebtScope": "FY2025 disclosed debt-to-capital .9% consistent with lease15.940m only; not asserted current October balance"
+  },
+  "history": [
+    {
+      "period": "FY2024",
+      "revenue": 761.762,
+      "cost": 205.835,
+      "gross": 555.927,
+      "otherIncome": 56.58,
+      "RD": 96.482,
+      "selling": 132.472,
+      "admin": 55.832,
+      "otherOperating": 0.9,
+      "operating": 326.821,
+      "finance": 3.531,
+      "associateLoss": 20.557,
+      "associateImpairment": 0,
+      "pretax": 302.733,
+      "tax": 53.878,
+      "groupProfit": 248.855,
+      "parentProfit": 254.165,
+      "NCIProfit": -5.31,
+      "OCF": 284.41
+    },
+    {
+      "period": "FY2023",
+      "revenue": 665.624,
+      "groupProfit": 134.581,
+      "adjustedGroupProfit": 195.438
+    },
+    {
+      "period": "FY2022",
+      "revenue": 547.35,
+      "groupProfit": -24.678,
+      "adjustedGroupProfit": 130.696
+    },
+    {
+      "period": "FY2021",
+      "revenue": 382.799,
+      "groupProfit": 24.17,
+      "adjustedGroupProfit": 94.084
+    }
+  ],
+  "business": {
+    "domesticRevenue2025": 685.554,
+    "domesticRevenue2024": 686.468,
+    "overseasRevenue2025": 104.929,
+    "overseasRevenue2024": 75.294,
+    "products2025": {
+      "hemorrhage": 475.378,
+      "atherosclerosis": 265.395,
+      "AIS": 46.599,
+      "other": 3.111
+    },
+    "top3Customers": [
+      196.801,
+      143.974,
+      114.935
+    ],
+    "Rapid": {
+      "holdingPct": 22.3,
+      "carryingValue": 0,
+      "SAFEValue": 0,
+      "equityLoss": 25.347,
+      "impairment": 59.572,
+      "SAFEFairValueLoss": 11.047,
+      "distributor": "Tigertriever GreaterChina exclusive distribution; not all product IP"
+    },
+    "fund": {
+      "name": "深圳市中金脑科学与类脑智慧产业私募股权投资基金",
+      "ownershipPct": 20,
+      "carryingValue": 50,
+      "committedFundCapital": 1000,
+      "paidUpFundCapital": 103.5
+    },
+    "approvals": {
+      "NUMENHeliaFDA": "2026-05-25 marketing approval",
+      "APOLLODream": "2026-03-18 FDA breakthrough designation only",
+      "ArtemisDream": "2026-07-30 NMPA innovative green path only",
+      "NuWismen": "2026-09-24 NMPA innovative green path only"
+    },
+    "BCI": {
+      "OYMotion": "2026-05-28 strategic cooperation; no quantified revenue/order in reviewed release",
+      "standaloneNPV": 0
+    },
+    "suspension": {
+      "since": "2026-09-01 09:00",
+      "announcementPublished": "2026-09-01 08:56",
+      "signedDate": "2026-08-31",
+      "reason": "核出租方与关联人士背景、与股东关系、租金/保证金合理性及额外装修成本/会计处理；尚无2026中报，不断言已确认造假",
+      "latestConfirmedContinued": "2026-09-24"
+    },
+    "MPSCControlLost": "2025-12；微创医疗改权益法；脑科学自身收入口径未因此自动丢失"
+  },
+  "dividend": {
+    "FY2025DeclaredHKD": 0.09,
+    "exDate": "2026-07-02",
+    "recordDate": "2026-07-08",
+    "paidDate": "2026-08-21",
+    "scripListing": "2026-08-24",
+    "notFutureDividend": true,
+    "futureDividend": "留空；未核未来声明，条件估值不算含息回报"
+  },
+  "cashValidation": {
+    "unit": "CNY million",
+    "historicalCashAssetPool": 1070.119,
+    "structuredDepositBanks": 5,
+    "structuredDepositContracts": 8,
+    "structuredDepositPurchaseCost": 405,
+    "structuredDepositReturnRangePct": [
+      1.35,
+      1.86
+    ],
+    "structuredDepositFairValueLevel": 3,
+    "historicalCashAfterContractedCapex": 382.96900000000005,
+    "noNewOctCashClaim": true,
+    "stressBudget": {
+      "startCash": 611.254,
+      "OCF": 150,
+      "contractedCapex": 228.285,
+      "otherCapex": 39.532,
+      "leasePrincipal": 25,
+      "dividendCash": 80,
+      "reviewCashCost": 40,
+      "endCash": 348.43700000000007,
+      "notes": "一年预算压力示意，非2026实际现金预测；合同付款时间/装修整改均未知；结构存款及定存未假定可立即动用"
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 711,
+    "MA": {
+      "20": 8.7285,
+      "60": 9.254111,
+      "120": 9.765513,
+      "250": 10.830975
+    },
+    "maSlope5Pct": {
+      "20": -1.76416,
+      "60": -0.822321,
+      "120": -0.995701,
+      "250": -1.144128
+    },
+    "priceVsMAPct": {
+      "20": -7.716102,
+      "60": -12.957607,
+      "120": -17.515856,
+      "250": -25.629961
+    },
+    "returnPct": {
+      "20": -8.725212,
+      "60": -13.430158,
+      "120": -24.951456,
+      "250": -44.73954
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 14.961836,
+    "low52w": 8.005,
+    "distanceFrom52wHighPct": -46.163024,
+    "distanceFrom52wLowPct": 0.62461,
+    "maxDrawdown52wPct": -45.551651,
+    "RSI14": 31.51264,
+    "ATR14": 0.27735,
+    "ATR14Pct": 3.4432,
+    "MACD": {
+      "DIF": -0.231878,
+      "DEA": -0.185626,
+      "histogram": -0.092505,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "volumeUnit": "unverified; do not chart or infer volume",
+    "volumeRatio20": null,
+    "previous20MeanVolume": null,
+    "upDownVolume20": null,
+    "ranges": {
+      "20": {
+        "support": 8.005,
+        "resistance": 9.24,
+        "toSupportPct": -0.620732,
+        "toResistancePct": 14.711359,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 8.005,
+        "resistance": 11.3,
+        "toSupportPct": -0.620732,
+        "toResistancePct": 40.285537,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 152,
+    "MA": {
+      "20": 9.349751,
+      "60": 11.06348,
+      "120": 10.19434,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -5.448337,
+      "60": -2.765787,
+      "120": 0.01085,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -13.847977,
+      "60": -27.192893,
+      "120": -20.985567,
+      "250": null
+    },
+    "returnPct": {
+      "20": -25.910105,
+      "60": -33.407534,
+      "120": -8.081953,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 14.482679,
+    "low52w": 8.005,
+    "distanceFrom52wHighPct": -44.381837,
+    "distanceFrom52wLowPct": 0.62461,
+    "maxDrawdown52wPct": -39.310522,
+    "RSI14": 33.783601,
+    "ATR14": 0.805423,
+    "ATR14Pct": 9.999046,
+    "MACD": {
+      "DIF": -0.644292,
+      "DEA": -0.55952,
+      "histogram": -0.169543,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "volumeUnit": "unverified; do not chart or infer volume",
+    "volumeRatio20": null,
+    "previous20MeanVolume": null,
+    "upDownVolume20": null,
+    "ranges": {
+      "20": {
+        "support": 8.005,
+        "resistance": 11.3,
+        "toSupportPct": -0.620732,
+        "toResistancePct": 40.285537,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 8.005,
+        "resistance": 16.24654,
+        "toSupportPct": -0.620732,
+        "toResistancePct": 101.695096,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -1.700962535105055,
+    "marketReturn60Pct": 1.241772747033365,
+    "excess20Pct": -7.024249464894946,
+    "excess60Pct": -14.671930747033365,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空",
+    "asOf": "2026-08-31",
+    "basis": "个股与锁定指数历史同日8月31日对齐；原锁表错位字段只保留审计",
+    "rawLocked": {
+      "market": "恒生指数",
+      "marketSymbol": "^HSI",
+      "marketReturn20Pct": -2.977908,
+      "marketReturn60Pct": -3.187903,
+      "excess20Pct": -5.747304,
+      "excess60Pct": -10.242255,
+      "industryBenchmark": null,
+      "industryExcess20Pct": null,
+      "industryExcess60Pct": null,
+      "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空"
+    }
+  },
+  "lastVolumeShares": null,
+  "lastTurnoverAmount": null,
+  "marketWarnings": [
+    "自2026-09-01停牌；行情自动刷新时间不代表当日可交易收盘。当前价仅为2026-08-31参考价。",
+    "11根Yahoo OHLC逻辑不一致，按腾讯同日完整bar修复，原字段及修复记录在历史文件",
+    "历史最后交易日2026-08-31，不具备10月9日完整交易日锚",
+    "成交量单位未完成跨源核验，报价股数留空"
+  ],
+  "brokerTargets": [],
+  "confidence": "低（2025财报原件高；2026经营与交易基准缺失，条件假设低）",
+  "assumptions": [
+    "只使用截至2026-10-09公开原件；延迟中报不填造。",
+    "经济盈利完整计研发与激励，补助仅部分重复，海外收入不是批准数量。",
+    "条件价格不是可交易目标，不展示与8/31旧价的正式涨跌幅、权重或获利概率。",
+    "未知市场日历远期附目标日前最后交易日再核条件；2027一年周六已改10/8。"
+  ],
+  "limitations": [
+    "2026H1未披露及租赁核查未完成。",
+    "历史量能未完成单位交叉核验；锁表原始volume指标不用于精确量比/换手。",
+    "公开近期外资个股可核目标价缺失，不填。",
+    "独立产品市场份额及收入单价未取得，不据29万手术造平均患者售价。",
+    "脑机合作无订单，未加独立价值。",
+    "10/9及未来复牌价格未知；停牌跳空可越过历史观察位。"
+  ],
+  "deepResearchFile": "research/neuro_deep.md",
+  "qaFile": "qa/neuro_qa.json",
+  "sources": [
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "Monthly Return of Equity Issuers on Movements in Securities for the month ended 30 September 2026",
+      "publicationTime": "05/10/2026 17:23",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1005/2026100501484.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1005/2026100501484.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12361697.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - NUWISMEN LIQUID EMBOLIC AGENT ENTERS\nTHE INNOVATIVE GREEN PATH OF NMPA",
+      "publicationTime": "24/09/2026 08:00",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400057.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400057.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12344018.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "INSIDE INFORMATION\n(I) DELAY IN PUBLICATION OF 2026 INTERIM RESULTS AND\nPOSSIBLE DELAY IN PUBLICATION OF 2026 INTERIM REPORT&#x3b;\n(II) POSTPONEMENT OF THE BOARD MEETING&#x3b; AND\n(III) SUSPENSION OF TRADING",
+      "publicationTime": "01/09/2026 08:56",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026083103061.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026083103061.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12309982.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - Artemis Dream SELF-EXPANDING INTRACRANIAL RAPAMYCIN ELUTING STENT SYSTEM ENTERS THE INNOVATIVE GREEN PATH OF NMPA",
+      "publicationTime": "30/07/2026 08:09",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0730/2026073000073.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0730/2026073000073.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12261115.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "Final Dividend for the year ended 31 December 2025",
+      "publicationTime": "22/07/2026 17:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200706.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200706.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12252688.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "SCRIP DIVIDEND SCHEME IN RELATION TO THE FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "22/07/2026 17:35",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200666.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0722/2026072200666.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12252648.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - NUMEN Helia COIL RECEIVES APPROVAL FROM FDA FOR\nMARKETING",
+      "publicationTime": "25/05/2026 18:07",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0525/2026052500019.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0525/2026052500019.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12169821.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "SCRIP DIVIDEND IN RELATION TO THE FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025&#x3b; PROPOSED RE-ELECTION OF DIRECTORS&#x3b; PROPOSED RE-APPOINTMENT OF AUDITORS&#x3b; PROPOSED GRANTING OF GENERAL MANDATES TO BUY BACK SHARES AND TO ISSUE SHARES AND NOTICE OF ANNUAL GENERAL MEETING",
+      "publicationTime": "06/05/2026 20:24",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602506.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602506.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12149802.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "CLOSURE OF REGISTER OF MEMBERS\nAND RECORD DATE\nFOR FINAL DIVIDEND",
+      "publicationTime": "29/04/2026 20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904330.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904330.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12135787.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "2025 Annual Report",
+      "publicationTime": "27/04/2026 21:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042703070.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042703070.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12126442.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "Final Dividend for the year ended 31 December 2025",
+      "publicationTime": "25/03/2026 22:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502113.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502113.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12067769.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT\nFOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "25/03/2026 22:42",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502079.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502079.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12067735.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - APOLLO Dream Rapamycin Target Eluting Stent System Granted FDA\nBreakthrough Device Designation",
+      "publicationTime": "18/03/2026 17:16",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800902.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031800902.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12057348.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "POSTPONEMENT OF BOARD MEETING",
+      "publicationTime": "26/08/2026 22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082602057.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082602057.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12301393.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "Next Day Disclosure Return",
+      "publicationTime": "21/08/2026 20:23",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082101397.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082101397.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12294830.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - UPDATE ON REPURCHASE OF SHARES UNDER GENERAL MANDATE",
+      "publicationTime": "02/06/2026 22:40",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0602/2026060202886.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0602/2026060202886.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12185451.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - STRATEGIC COOPERATION AGREEMENT WITH OYMOTION TECHNOLOGIES CO., LTD.*",
+      "publicationTime": "28/05/2026 16:34",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800543.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800543.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12174117.PDF"
+    },
+    {
+      "issuerId": "I007",
+      "code": "02172.HK",
+      "title": "GRANT OF OPTIONS",
+      "publicationTime": "01/04/2026 22:19",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040104264.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040104264.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historical model million; future model billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02172_12092791.PDF"
+    }
+  ],
+  "effectiveHanzi": 13868,
+  "researchState": {
+    "stage": "released conditioned model; independent QA passed",
+    "bodyVersion": "neuro-deep-v1.1",
+    "modelVersion": "neuro-conditional-whole-group-economic-PE-v1.1",
+    "quoteVersion": "market-v1.6",
+    "effectiveHanzi": 13868
+  },
+  "qaStatus": "独立正文/条件原子模型QA通过；跨格式视觉待父集成",
+  "rawTechnicalForAudit": {
+    "daily": {
+      "basis": "以基准日名义价格归一的复权OHLC",
+      "periodUnit": "days",
+      "count": 711,
+      "MA": {
+        "20": 8.7285,
+        "60": 9.254111,
+        "120": 9.765513,
+        "250": 10.830975
+      },
+      "maSlope5Pct": {
+        "20": -1.76416,
+        "60": -0.822321,
+        "120": -0.995701,
+        "250": -1.144128
+      },
+      "priceVsMAPct": {
+        "20": -7.716102,
+        "60": -12.957607,
+        "120": -17.515856,
+        "250": -25.629961
+      },
+      "returnPct": {
+        "20": -8.725212,
+        "60": -13.430158,
+        "120": -24.951456,
+        "250": -44.73954
+      },
+      "yearWindow": 252,
+      "yearWindowExpected": 252,
+      "yearWindowComplete": true,
+      "high52w": 14.961836,
+      "low52w": 8.005,
+      "distanceFrom52wHighPct": -46.163024,
+      "distanceFrom52wLowPct": 0.62461,
+      "maxDrawdown52wPct": -45.551651,
+      "RSI14": 31.51264,
+      "ATR14": 0.27735,
+      "ATR14Pct": 3.4432,
+      "MACD": {
+        "DIF": -0.231878,
+        "DEA": -0.185626,
+        "histogram": -0.092505,
+        "convention": "MACD柱=2×(DIF−DEA)"
+      },
+      "volumeMean": {
+        "5": 1197819.4,
+        "20": 1167639.25,
+        "60": 2256450.183
+      },
+      "volumeUnit": "shares_as_provider_reported",
+      "volumeRatio20": 1.410178,
+      "previous20MeanVolume": 1148082,
+      "upDownVolume20": {
+        "upVolume": 8708091,
+        "downVolume": 14644694,
+        "flatVolume": 0,
+        "upDays": 9,
+        "downDays": 11,
+        "ratio": 0.594624
+      },
+      "ranges": {
+        "20": {
+          "support": 8.005,
+          "resistance": 9.24,
+          "toSupportPct": -0.620732,
+          "toResistancePct": 14.711359,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        },
+        "60": {
+          "support": 8.005,
+          "resistance": 11.3,
+          "toSupportPct": -0.620732,
+          "toResistancePct": 40.285537,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        }
+      },
+      "trend": "中短期下降",
+      "maxLossBoundary": false
+    },
+    "weekly": {
+      "basis": "以基准日名义价格归一的复权OHLC",
+      "periodUnit": "weeks",
+      "count": 152,
+      "MA": {
+        "20": 9.349751,
+        "60": 11.06348,
+        "120": 10.19434,
+        "250": null
+      },
+      "maSlope5Pct": {
+        "20": -5.448337,
+        "60": -2.765787,
+        "120": 0.01085,
+        "250": null
+      },
+      "priceVsMAPct": {
+        "20": -13.847977,
+        "60": -27.192893,
+        "120": -20.985567,
+        "250": null
+      },
+      "returnPct": {
+        "20": -25.910105,
+        "60": -33.407534,
+        "120": -8.081953,
+        "250": null
+      },
+      "yearWindow": 52,
+      "yearWindowExpected": 52,
+      "yearWindowComplete": true,
+      "high52w": 14.482679,
+      "low52w": 8.005,
+      "distanceFrom52wHighPct": -44.381837,
+      "distanceFrom52wLowPct": 0.62461,
+      "maxDrawdown52wPct": -39.310522,
+      "RSI14": 33.783601,
+      "ATR14": 0.805423,
+      "ATR14Pct": 9.999046,
+      "MACD": {
+        "DIF": -0.644292,
+        "DEA": -0.55952,
+        "histogram": -0.169543,
+        "convention": "MACD柱=2×(DIF−DEA)"
+      },
+      "volumeMean": {
+        "5": 4916128,
+        "20": 10804449.85,
+        "60": 26140912.033
+      },
+      "volumeUnit": "shares_as_provider_reported",
+      "volumeRatio20": 0.146043,
+      "previous20MeanVolume": 11085746.95,
+      "upDownVolume20": {
+        "upVolume": 102346562,
+        "downVolume": 113742435,
+        "flatVolume": 0,
+        "upDays": 8,
+        "downDays": 12,
+        "ratio": 0.89981
+      },
+      "ranges": {
+        "20": {
+          "support": 8.005,
+          "resistance": 11.3,
+          "toSupportPct": -0.620732,
+          "toResistancePct": 40.285537,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        },
+        "60": {
+          "support": 8.005,
+          "resistance": 16.24654,
+          "toSupportPct": -0.620732,
+          "toResistancePct": 101.695096,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        }
+      },
+      "trend": "中短期下降",
+      "maxLossBoundary": false
+    }
+  },
+  "volumeMetricsUsable": false,
+  "volumeChartsPermitted": false
+}

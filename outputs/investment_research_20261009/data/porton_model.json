@@ -1,0 +1,748 @@
+{
+  "issuerId": "I013",
+  "securityId": "S015",
+  "name": "博腾股份",
+  "code": "300363.SZ",
+  "currency": "CNY",
+  "price": 23.68,
+  "priceCNY": 23.68,
+  "asOf": "2026-10-09",
+  "modelVersion": "porton-normalized-pe-v1.0",
+  "status": "独立初版，原财报/斯洛文尼亚退出及激励股数核验；预测非一致预期，法律与完整三表缺",
+  "method": "持续归母稀释EPS×PE；退出资产损失不加回价值，盈利包含新业务亏损、正常研发与激励费；未兑现赔偿为零附加假设",
+  "shares": {
+    "issued": 543442176,
+    "sourceDate": "2026-09-30",
+    "firstTypeRegistered": 975000,
+    "firstTypeSource": "库存股过户不新增资本，9/29登记，实收认购10.71525m",
+    "firstTypeSubscriptionCNYMillion": 10.71525,
+    "firstSecondTypeAward": 14935000,
+    "reservedSecondType": 4070000,
+    "fullPotentialIssued": 562447176,
+    "pendingCancellation": 6777619,
+    "postCancellationIssuedIfCompleted": 536664557,
+    "cancelNoticeDate": "2026-09-07",
+    "note": "注销获批准并通知债权人45日程序；9/30最新股数仍543442176，不能当10/9已注销；主模型不扣拟注销股份，未来仅按第二类实际可归属比例假设新增"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 1789.88500605,
+    "cost": 1212.92738061,
+    "attributableProfit": -224.20179608,
+    "deductedProfit": -246.83360459,
+    "totalNetProfit": -255.05659622,
+    "minorityProfit": -30.85480014,
+    "continuingGroupProfit": 92.32768045,
+    "discontinuedProfit": -347.38427667,
+    "continuingAttributableProfit": 123.18248059,
+    "continuingAttributableNote": "法定归母-终止归母，终止全归母；或持续集团净利-少数损益，二桥相等，非扣非",
+    "OCF": 305.70442369,
+    "capex": 48.72413537,
+    "FCF": 256.98028832,
+    "operatingReleasedPledgedDeposit": 89.6369416,
+    "depositAdjustedOCFIllustrative": 216.06748209,
+    "depositAdjustedFCFIllustrative": 167.34334672,
+    "cashBank": 840.18689476,
+    "cashCashEquivalents": 823.49917765,
+    "restrictedCash": 16.68771711,
+    "financialCurrent": 297.44409589,
+    "financialNoncurrent": 103.96468846,
+    "bankDebtIncludingCurrent": 749.40041268,
+    "bankAccruedInterest": 0.03421512,
+    "leaseDebtIncludingCurrent": 532.58452795,
+    "totalLiabilities": 2780.86438863,
+    "parentEquity": 4956.98157593,
+    "minorityEquity": 116.80173637,
+    "assets": 7854.64770093,
+    "inventory": 851.19604378,
+    "receivables": 762.45948281,
+    "fixedAssets": 2715.61496646,
+    "CIP": 207.57881028,
+    "goodwill": 287.11111368,
+    "longDeferredExpense": 357.37866823,
+    "contractLiability": 127.38693394,
+    "RDTotal": 106.14263662,
+    "RDExpensed": 106.14263662,
+    "RDCapitalized": 0,
+    "selling": 116.10030242,
+    "admin": 200.55422824,
+    "financeCost": 17.75286228,
+    "interestExpense": 21.18524116,
+    "taxExpense": 31.80278734,
+    "impairmentTotal": 339.49492614,
+    "inventoryImpairment": 9.11751549,
+    "tariffRefundNonrecurring": 17.42413138,
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225492110.PDF",
+    "publicationDate": "2026-08-22",
+    "grossMarginPct": 32.234340390015134
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 3667.41712249,
+      "attributableMillion": 266.85952737,
+      "deductedMillion": 247.99327269,
+      "OCF": 629.05626115,
+      "dilutedEPS": 0.49
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 3011.96635432,
+      "attributableMillion": -287.75329739,
+      "deductedMillion": -272.1492685,
+      "OCF": 405.52582367,
+      "dilutedEPS": -0.53
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 3419.82952097,
+      "attributableMillion": 96.33988888,
+      "deductedMillion": 58.76717319,
+      "OCF": 757.0128188,
+      "capex": 292.56661939,
+      "FCF": 464.44619941,
+      "dilutedEPS": 0.18
+    }
+  ],
+  "segments": [
+    {
+      "name": "小分子原料药",
+      "revenueMillion": 1643.6219108,
+      "costMillion": 993.00692793,
+      "growthPct": 9.58,
+      "grossMarginPct": 39.58
+    },
+    {
+      "name": "临床后期及商业化",
+      "revenueMillion": 1345.46521884,
+      "costMillion": 736.30011069,
+      "growthPct": 24.29,
+      "grossMarginPct": 45.28
+    },
+    {
+      "name": "临床早期",
+      "revenueMillion": 298.15669196,
+      "costMillion": 256.70681724,
+      "growthPct": -28.57,
+      "grossMarginPct": 13.9
+    },
+    {
+      "name": "国外",
+      "revenueMillion": 1294.87748096,
+      "grossMarginPct": 44.57,
+      "growthPct": 12.31
+    },
+    {
+      "name": "国内",
+      "revenueMillion": 495.00752509,
+      "grossMarginPct": -0.03,
+      "growthPct": 5.77
+    }
+  ],
+  "newBusiness": [
+    {
+      "name": "小分子制剂",
+      "revenueMillionApprox": 56,
+      "attributableLossMillionApprox": 58.72,
+      "newOrdersMillion": 67.25,
+      "orderGrowthPct": 5
+    },
+    {
+      "name": "细胞基因",
+      "revenueMillion": 55.48443913,
+      "groupLossMillion": 53.92480039,
+      "attributableLossMillionApprox": 24.06,
+      "holdingPct": 42.7818,
+      "newOrdersMillion": 91.88,
+      "orderGrowthPct": 75
+    },
+    {
+      "name": "新分子",
+      "revenueMillionApprox": 28,
+      "attributableLossMillionApprox": 40.03,
+      "newOrdersMillion": 77,
+      "orderGrowthPct": 84
+    }
+  ],
+  "discontinued": {
+    "name": "斯洛文尼亚基地",
+    "decisionDate": "2026-06-05",
+    "landlordTerminationReceived": "2026-05-11",
+    "originalExpectedImpairmentMillion": [
+      330,
+      400
+    ],
+    "H1DiscontinuedLossMillion": 347.38427667,
+    "H1ContinuingRevenueExclusionMillion": 7.55991045,
+    "rights": "保留向对方主张赔偿/法律权利，对方服务费和赔偿要求由公司驳回；未取得司法最终裁决",
+    "claimAddedToModel": 0,
+    "unrealizedDisposalValueIncludedInBook": true
+  },
+  "incentiveCost": {
+    "period": "9/14授予测算",
+    "totalMillion": 169.5617,
+    "annualMillion": {
+      "2026": 26.1556,
+      "2027": 75.4707,
+      "2028": 39.7717,
+      "2029": 20.6722,
+      "2030": 7.4914
+    },
+    "note": "会计费用测算非实际审计；经常损益，本模型净利扣除，收入门槛非利润承诺"
+  },
+  "pledge": {
+    "date": "2026-09-04",
+    "controllerCombinedShares": 145012171,
+    "controllerCombinedPct": 26.68,
+    "pledgedShares": 73426000,
+    "pledgedOfTheirHoldingPct": 50.63,
+    "pledgedOfTotalPct": 13.51,
+    "nextHalfYearFundingMillion": 136.8,
+    "nextYearFundingMillion": 492.8,
+    "note": "个人融资并非上市公司银行债；无披露平仓风险为截至日公司表述，不保证未来"
+  },
+  "customerConcentration": {
+    "period": "FY2025",
+    "topFivePct": 36.18,
+    "largestPct": 16.43,
+    "sourcePage": 25
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026各市场最后交易日",
+      "epsCNY": [
+        0.15,
+        0.5,
+        0.8
+      ],
+      "PE": [
+        18,
+        30,
+        40
+      ],
+      "priceCNY": [
+        2.6999999999999997,
+        15,
+        32
+      ],
+      "revenueCNYMillion": [
+        3400,
+        3800,
+        4150
+      ],
+      "sharesMillion": [
+        543.442176,
+        543.442176,
+        543.442176
+      ],
+      "attributableProfitCNYMillion": [
+        81.5163264,
+        271.721088,
+        434.75374080000006
+      ],
+      "attributableMarginPct": [
+        2.3975390117647057,
+        7.150554947368422,
+        10.47599375421687
+      ],
+      "annualSharePaymentExpenseMillion": [
+        60,
+        60,
+        60
+      ],
+      "sharePaymentBasis": "目标未来12个月费用近似；年底60m/五年20m为研究，2027/2029原测算不能当目标跨年精确费用",
+      "profitBeforeSharePaymentTaxAdjustedMillion": [
+        132.5163264,
+        322.721088,
+        485.75374080000006
+      ],
+      "taxSensitivityRatePct": 15,
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+        "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+        "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+      ],
+      "priceReturnPct": [
+        -88.59797297297297,
+        -36.6554054054054,
+        35.13513513513513
+      ],
+      "totalReturnPct": [
+        -88.59797297297297,
+        -36.6554054054054,
+        35.13513513513513
+      ],
+      "earningsBasis": "目标日未来12个月持续归母，扣新业务亏损和经常性费用，非报告实际EPS",
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceCNY": 16.175,
+      "expectedReturnPct": -31.69341216216216,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 11.780000000000001,
+        "positivePrice": 20.57
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        0.2,
+        0.6,
+        1
+      ],
+      "PE": [
+        18,
+        32,
+        42
+      ],
+      "priceCNY": [
+        3.6,
+        19.2,
+        42
+      ],
+      "revenueCNYMillion": [
+        3450,
+        4100,
+        4500
+      ],
+      "sharesMillion": [
+        543.442176,
+        543.442176,
+        543.442176
+      ],
+      "attributableProfitCNYMillion": [
+        108.68843520000001,
+        326.0653056,
+        543.442176
+      ],
+      "attributableMarginPct": [
+        3.150389426086957,
+        7.9528123317073165,
+        12.0764928
+      ],
+      "annualSharePaymentExpenseMillion": [
+        75.4707,
+        75.4707,
+        75.4707
+      ],
+      "sharePaymentBasis": "目标未来12个月费用近似；年底60m/五年20m为研究，2027/2029原测算不能当目标跨年精确费用",
+      "profitBeforeSharePaymentTaxAdjustedMillion": [
+        172.8385302,
+        390.21540059999995,
+        607.592271
+      ],
+      "taxSensitivityRatePct": 15,
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+        "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+        "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+      ],
+      "priceReturnPct": [
+        -84.7972972972973,
+        -18.918918918918926,
+        77.36486486486487
+      ],
+      "totalReturnPct": [
+        -84.7972972972973,
+        -18.918918918918926,
+        77.36486486486487
+      ],
+      "earningsBasis": "目标日未来12个月持续归母，扣新业务亏损和经常性费用，非报告实际EPS"
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.25,
+        0.8,
+        1.3
+      ],
+      "PE": [
+        18,
+        30,
+        40
+      ],
+      "priceCNY": [
+        4.5,
+        24,
+        52
+      ],
+      "revenueCNYMillion": [
+        3500,
+        4400,
+        4900
+      ],
+      "sharesMillion": [
+        547.175926,
+        547.175926,
+        547.175926
+      ],
+      "attributableProfitCNYMillion": [
+        136.7939815,
+        437.7407408,
+        711.3287038000001
+      ],
+      "attributableMarginPct": [
+        3.9083994714285715,
+        9.9486532,
+        14.51691232244898
+      ],
+      "annualSharePaymentExpenseMillion": [
+        75.4707,
+        75.4707,
+        75.4707
+      ],
+      "sharePaymentBasis": "目标未来12个月费用近似；年底60m/五年20m为研究，2027/2029原测算不能当目标跨年精确费用",
+      "profitBeforeSharePaymentTaxAdjustedMillion": [
+        200.9440765,
+        501.8908358,
+        775.4787988
+      ],
+      "taxSensitivityRatePct": 15,
+      "cumulativeCashDividendCNY": [
+        0,
+        0.08,
+        0.15
+      ],
+      "conditions": [
+        "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+        "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+        "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+      ],
+      "priceReturnPct": [
+        -80.99662162162163,
+        1.3513513513513598,
+        119.59459459459461
+      ],
+      "totalReturnPct": [
+        -80.99662162162163,
+        1.6891891891891886,
+        120.22804054054052
+      ],
+      "earningsBasis": "目标日未来12个月持续归母，扣新业务亏损和经常性费用，非报告实际EPS"
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.45,
+        1.5,
+        2.4
+      ],
+      "PE": [
+        18,
+        28,
+        36
+      ],
+      "priceCNY": [
+        8.1,
+        42,
+        86.39999999999999
+      ],
+      "revenueCNYMillion": [
+        3900,
+        5500,
+        7200
+      ],
+      "sharesMillion": [
+        554.643426,
+        554.643426,
+        554.643426
+      ],
+      "attributableProfitCNYMillion": [
+        249.58954169999998,
+        831.9651389999999,
+        1331.1442224
+      ],
+      "attributableMarginPct": [
+        6.399731838461538,
+        15.126638890909089,
+        18.4881142
+      ],
+      "annualSharePaymentExpenseMillion": [
+        20.6722,
+        20.6722,
+        20.6722
+      ],
+      "sharePaymentBasis": "目标未来12个月费用近似；年底60m/五年20m为研究，2027/2029原测算不能当目标跨年精确费用",
+      "profitBeforeSharePaymentTaxAdjustedMillion": [
+        267.1609117,
+        849.5365089999999,
+        1348.7155923999999
+      ],
+      "taxSensitivityRatePct": 15,
+      "cumulativeCashDividendCNY": [
+        0.08,
+        0.35,
+        0.65
+      ],
+      "conditions": [
+        "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+        "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+        "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+      ],
+      "priceReturnPct": [
+        -65.79391891891892,
+        77.36486486486487,
+        264.86486486486484
+      ],
+      "totalReturnPct": [
+        -65.45608108108108,
+        78.84290540540542,
+        267.6097972972973
+      ],
+      "earningsBasis": "目标日未来12个月持续归母，扣新业务亏损和经常性费用，非报告实际EPS",
+      "baseAnnualizedTotalReturnPct": 21.38282445739639
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.65,
+        2.2,
+        3.8
+      ],
+      "PE": [
+        16,
+        25,
+        32
+      ],
+      "priceCNY": [
+        10.4,
+        55.00000000000001,
+        121.6
+      ],
+      "revenueCNYMillion": [
+        4200,
+        7300,
+        11000
+      ],
+      "sharesMillion": [
+        562.447176,
+        562.447176,
+        562.447176
+      ],
+      "attributableProfitCNYMillion": [
+        365.59066440000004,
+        1237.3837872000001,
+        2137.2992688
+      ],
+      "attributableMarginPct": [
+        8.704539628571428,
+        16.950462838356167,
+        19.429993352727273
+      ],
+      "annualSharePaymentExpenseMillion": [
+        20,
+        20,
+        20
+      ],
+      "sharePaymentBasis": "目标未来12个月费用近似；年底60m/五年20m为研究，2027/2029原测算不能当目标跨年精确费用",
+      "profitBeforeSharePaymentTaxAdjustedMillion": [
+        382.59066440000004,
+        1254.3837872000001,
+        2154.2992688
+      ],
+      "taxSensitivityRatePct": 15,
+      "cumulativeCashDividendCNY": [
+        0.2,
+        0.8,
+        1.6
+      ],
+      "conditions": [
+        "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+        "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+        "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+      ],
+      "priceReturnPct": [
+        -56.081081081081074,
+        132.26351351351354,
+        413.5135135135135
+      ],
+      "totalReturnPct": [
+        -55.23648648648649,
+        135.64189189189193,
+        420.27027027027026
+      ],
+      "earningsBasis": "目标日未来12个月持续归母，扣新业务亏损和经常性费用，非报告实际EPS",
+      "baseAnnualizedTotalReturnPct": 18.699940204505605
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        1.9,
+        3.5,
+        3.3,
+        3.9,
+        3.1,
+        2.5
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.400000000000006
+    },
+    "oneYear": {
+      "dimensions": [
+        2.4,
+        3.5,
+        3.5,
+        3.9,
+        3.3,
+        2.5
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 63.300000000000004
+    },
+    "threeYear": {
+      "dimensions": [
+        3.7,
+        3.5,
+        3.9,
+        4,
+        3.5,
+        2.7
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 74.2
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.7,
+        3.5,
+        4,
+        4,
+        3.5,
+        2.8
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 74.69999999999999
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "外包价格压力、早期项目弱和新业务亏损持续、国外资产处理及融资风险压缩PE",
+    "小分子后期商业化增长，早期筛选改善毛利，新业务逐步控亏、激励费用已扣，海外退出不再复制",
+    "商业化项目转换加速，新分子/细胞基因兑现订单和利用率，全球高价值客户增加，盈利现金质量改善"
+  ],
+  "assumptions": [
+    "EPS为目标时点未来12个月持续归母盈利能力；年底非2026当年实际EPS；收入/毛利/倍数均研究假设",
+    "主模型不扣未完成拟注销6777619股；第一类97.5万由库存过户不新增股数，第二类首次1493.5万和预留407万为未来条件归属",
+    "一年假设首次第二类25%归属、三年75%、五年100%且预留全部；不假设截至日已归属；订购现金利息收益未另加，完整融资三表仍缺",
+    "盈利包括正常研发、新业务亏损、利息、正常减值及授予费用；26.1556/75.4707m激励测算保留，非一律加回",
+    "斯洛文尼亚减值是经济损失，持续利润可剥离退出结果但不恢复资产价值；法律赔偿与超账面处置价值不附加",
+    "苏州生物仅持42.7818%却控制并合并，归母模型已扣少数，不把其全部利润或损失归母；内部50m资助不当新增集团现金收益",
+    "报表OCF含89.6369m质押存款回收，调整仅示意非全面正常化；不可把贷款偿还或理财资金循环当经营收入",
+    "5/12每股.09已派息不计未来；未来股息为假设；年底25/50/25权重不是统计概率"
+  ],
+  "brokerTargets": [],
+  "brokerTargetStatus": "公开可核验外资有效报告未取得，保留缺失；国内券商不替代外资",
+  "confidence": {
+    "fundamentals": "高：原财报、退出和激励/股数公告；法律与资产最终处置缺",
+    "technical": "高：728日双源、股量、分红核验",
+    "valuation": "中低：持续归母情景与新业务减亏、PE假设；分部DCF/三表未完",
+    "institutionTargets": "缺失"
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "FY2025 .18EPS对应131.56倍，报告TTM亏损不适用PE；一年基准24元约持平，三年42元需要利润兑现",
+    "technicalRelativeStrength": "在线上且20/60日超宽基28.31/51.25pp，但5/20/60均量递减、MACD柱很小、250日线下斜，非无条件突破",
+    "growthBusinessQuality": "后期商业化24.29%/45.28GM，但早期-28.57%/13.9GM、新业务合计亏122.81m，控亏仍需兑现",
+    "industryCycle": "外包、新分子及全球创新药需求有增长，研发融资与供应链区域化风险同时存在",
+    "catalysts": "奉贤扩产预计2027Q1、PV项目转化与新业务订单；授权许可/审计并非终端临床成功或确定销售",
+    "financialGovernanceDownside": "退出海外资产损失、内部全资提供融资而少数未同比支持、控制人个人质押13.51%总股、激励费和资本占用"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-22/1225492110.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-04/1225080083.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-06-05/1225354416.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-05-19/1225316203.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-05-14/1225307554.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-30/1225587307.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-07/1225551245.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-14/1225563376.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-22/1225492090.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-04/1225547771.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-30/1225259334.PDF"
+  ],
+  "deepResearchFile": "research/porton_deep.md",
+  "limitations": [
+    "分部完整DCF、正常化同业/历史PE分位未完成",
+    "退出合同争议/法律与实际回收缺，未计赔偿附加",
+    "激励归属/预留/注销实际时点需后续登记，现金三表联动缺",
+    "外资目标/细分行业基准缺",
+    "官方审计与客户药物临床全文未独立核验",
+    "财务资助原拟条款贷款/借款人文字和前文方向不一致，按实质保存并待合同核验，不据它认定外部利息利润",
+    "最终Word/PDF由父代理完成"
+  ],
+  "valuationChecks": {
+    "FY2025PE": 131.55555555555557,
+    "reportTTMProfitMillion": -154.92141895,
+    "reportTTMPE": null,
+    "reason": "报告TTM归母负，PE不适用；不可用负PE排序为便宜",
+    "continuingH1AnnualizedEPS": 0.4533416287145148,
+    "note": "持续归母含一次性项目，简单年化非预测"
+  },
+  "effectiveHanzi": 13470,
+  "qaFile": "qa/porton_qa.json",
+  "qaStatus": "正文汉字、完全重复段落、场景/回报/评分核算通过；持续归母双桥核验，法律/完整三表缺口保留"
+}

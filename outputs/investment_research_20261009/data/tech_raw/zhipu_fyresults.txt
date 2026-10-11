@@ -1,0 +1,1709 @@
+Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited
+take no responsibility for the contents of this announcement, make no representation as to
+its accuracy or completeness, and expressly disclaim any liability whatsoever for any loss
+howsoever arising from or in reliance upon the whole or any part of the contents of this
+announcement.
+
+
+
+
+     Knowledge Atlas Technology Joint Stock Company Limited
+
+         (A joint stock company established in the People’s Republic of China with limited liability)
+                                          (Stock Code: 2513)
+
+                    ANNUAL RESULTS ANNOUNCEMENT
+                  FOR THE YEAR ENDED 31 DECEMBER 2025
+
+The Board is pleased to present the audited consolidated results of the Group for the year
+ended 31 December 2025, together with the comparative figures for the corresponding period
+in 2024.
+
+Certain amounts and percentage figures included in this announcement have been subject to
+rounding adjustments, or have been rounded to one or two decimal places. Any discrepancies
+between the total amounts listed in any tables, charts, or other data and the sum of the
+individual amounts listed therein are due to rounding.
+
+ FINANCIAL SUMMARY
+
+                                                         Year Ended 31 December
+                                                                                                  Year-on-
+                                                               2025                  2024     Year Changes
+                                                             RMB in thousands                           %
+
+ Revenue                                                    724,334             312,414                 131.9
+ Gross profit                                               296,656             175,889                  68.7
+ R&D expenses                                            (3,180,443)         (2,195,436)                 44.9
+ loss for the year                                       (4,718,167)         (2,958,007)                 59.5
+ Net adjusted loss for the year                          (3,181,972)         (2,465,569)                 29.1
+
+
+
+
+                                                    –1–
+MANAGEMENT DISCUSSION AND ANALYSIS
+
+Business Review
+
+Business Overview
+
+In 2025, the Company’s total revenue reached RMB724.3 million, a year-on-year increase of
+131.9%. This is the best testament to the market for our long-standing strategic perseverance
+in the “foundational model + platform + ecosystem” approach. The GLM series has not only
+topped the global open-source rankings and ranked first in China, but we are also committed
+to transforming leading cognitive capabilities into tangible productivity, driving the industry
+towards industrial-grade Agentic Engineering. Currently, our programming, agent, and
+enterprise-level large model services have transcended geographical boundaries, covering 218
+countries and regions worldwide, and collaborating with over 4 million small and medium-
+sized enterprises and developers to build an ecosystem. The journey towards AGI is long,
+and we will continue to stay grounded, exploring the unknown boundaries with ultimate
+foundational model capabilities.
+
+Firm Strategic Positioning
+
+Since our establishment in 2019, we have set “enabling machines to think like humans” as
+our sole objective. On the journey towards AGI, we have always been convinced that “the
+breakthrough at the upper bound of intelligence” is the only physical first principle of this era.
+If the upper bound of intelligence determines the pricing power of technology, then the scale
+of token consumption determines the magnitude of commercial value. We have internally
+derived a concise formula:
+
+AGI Commercial Value = Upper Bound of Intelligence          Token Consumption Scale
+
+In 2025, Knowledge Atlas has demonstrated this formula through its actual position: on the
+“upper bound” side: with the high-frequency iteration from GLM-4.5 to GLM-5, we have
+consistently ranked first globally in open-source and first in China in international mainstream
+evaluations, firmly securing our place in the global top tier. This sustained generational
+leadership has granted Knowledge Atlas the core pricing power in cognitive intelligence.
+On the “scale” side: The consumption of paid tokens has achieved exponential growth with
+the deep penetration of GLM in meta-scenarios such as programming (coding) and agents.
+We have significantly reduced unit costs while achieving steady improvement in gross profit
+performance through extreme engineering optimization on the inference side.
+
+
+
+
+                                              –2–
+Entering 2026, the computing paradigm is undergoing a radical transformation. The explosive
+application of OpenClaw has prematurely ignited a token consumption frenzy. Faced with the
+computing power shortage that has outstripped supply since February 2026, we will continue
+to increase our investments, particularly in the “Day 0” adaptation of domestic chips and the
+optimization of software-hardware integration. We push inference performance to its limits
+not for short-term profitability, but to support the continuously rising exponential curve of
+high-quality token consumption. We firmly believe that the key to victory always lies in the
+extreme execution of this formula in this marathon of computing power, data, and intelligence.
+
+Innovative Core Technologies
+
+Knowledge Atlas has consistently adhered to the GLM self-developed architecture. In 2025,
+we took the lead in completing the leap from Vibe Coding to Agentic Engineering. AI is no
+longer just a simple code generator but a “digital engineer” capable of autonomous planning,
+testing, and iteration. At the foundational architecture level, we achieved stable model training
+through the Muon Split optimization strategies and MLA-256 enhancements, significantly
+reducing KVCache usage while delivering performance equivalent to GQA-8. Furthermore, by
+employing a dynamic sparse attention mechanism, we overcame the computational challenge
+of long-sequence reasoning, cutting deployment costs by 50% with zero performance
+degradation. We have also introduced the Slime framework to achieve an efficiency revolution
+in asynchronous reinforcement learning, addressing the idle-time pain point in long-
+sequential tasks for agents and achieving complete decoupling of generation and training.
+Slime maximizes GPU utilization and ensures robustness in large model training through the
+Prefill-Decode (PD) separation and heartbeat fault tolerance mechanisms. Combined with our
+proprietary direct two-sided importance sampling algorithm, we have overcome the action-
+reward alignment challenge in asynchronous training, enabling the model to efficiently learn
+from over 10,000 real software engineering environments. This system supported the birth of
+GLM-5-Turbo as the world’s first OpenClaw foundational model, enabling secure execution
+of long-chain enterprise-level tasks.
+
+We recognize the importance of computing power autonomy, and the domestic adaptation of
+GLM-5 has gone beyond simple operator transplantation, entering the Co-design (software-
+hardware collaborative design) phase. At the underlying kernel level, we have maximally
+hidden memory access and communication latency through customized fused kernels like
+Lightning Indexer and FlashComm communication optimization. This deep tuning has enabled
+GLM series models to achieve inference efficiency on domestic chips comparable to that
+of international top-tier chips, realizing a perfect closed loop between the “upper bound of
+intelligence” and the “computing foundation”.
+
+
+
+
+                                              –3–
+Remarkable Business Progress
+
+We firmly believe that AGI Commercial Value = Upper Bound of Intelligence           Token
+Consumption Scale. Over the past year, leveraging the generational leadership of the GLM
+series on the “upper bound” side and extreme cost optimization on the inference side,
+Knowledge Atlas has achieved a comprehensive breakthrough, spanning from the developer
+ecosystem to a global MaaS (Model-as-a-Service) platform.
+
+Developer Ecosystem and Coding Plan: Returning from “Features” to “Engineering Value”
+
+Developers are the most sensitive group in perceiving the upper bound of intelligence. The
+GLM Coding Plan, launched in 2025, rapidly expanded globally by virtue of its native high-
+quality engineering reasoning capabilities, reaching over 242,000 paying developers. Bolstered
+by our technological leadership, we proactively raised prices by 30% and eliminated first-
+purchase discounts in February 2026. This trend of “rising volume and price” demonstrates
+that the market is shifting from a blind price war to genuine recognition of “technological
+value”, namely, trading higher-order intelligence for more certain productivity.
+
+MaaS Platform Expanding Horizontally: Building the Digital Infrastructure for the Intelligent
+
+Era Relying on BigModel.cn, our MaaS platform has become the hub connecting foundational
+models with industrial applications. Within 24 hours of its release, GLM-5 was officially
+integrated by leading companies such as ByteDance, Alibaba, and Tencent, and 9 of the top
+10 Internet companies in China have now deeply integrated GLM. The platform has surpassed
+4 million registered users as of March 2026, and despite an 83% increase in API call pricing
+compared to the end of last year, the market still exhibits “computing power panic” with
+demand outstripping supply. This confirms that high-order intelligence is a scarce resource
+today, and whoever controls the upper bound holds the pricing power.
+
+Agent Matrix and Global Expansion: Defining a New Paradigm for “Going Global”
+
+From AutoGLM, the world’s first mobile phone agent, to AutoClaw, China’s first one-
+click installation agent, we are defining the implementation standards for Agentic AI. The
+Claw Plan, launched in March 2026, surpassed 100,000 subscribers within just two days and
+400,000 subscribers within 20 days of going live. This validates the immense commercial
+potential of long-chain agent tasks. On the global front, we are no longer merely “exporting
+software” but are outputting national-level large model infrastructure through a “sovereign
+AI” model and exploring partnerships with overseas computing power platforms through
+revenue sharing. Currently, Knowledge Atlas’s business footprint has spanned 218 countries
+and regions, truly realizing the global monetization of technological capabilities through token
+value.
+
+
+
+
+                                             –4–
+Future Outlook
+
+Knowledge Atlas is not a traditional software company. We are a native intelligent laboratory
+driven by the faith in AGI. Our moat lies not in the accumulation of computing power but in
+the foundational deconstruction of the essence of intelligence and the perseverance to translate
+this understanding into social productivity. Looking ahead to 2026, the intelligence paradigm
+will evolve from lightweight Vibe Coding to industrial-grade Agentic Engineering, then
+evolve into digital engineers with autonomous planning, environmental perception and self-
+iteration capabilities, and finally achieve the closed-loop execution of Long-horizon Task with
+logical consistency spanning multiple iterations, which will further bring about breakthroughs
+in the upper bound of intelligence and exponential growth in Token calls.
+
+Entering the TAC Era: Everyone as a “Token Architect”
+
+In the era of large models, when large models possess the closed-loop capability for Long-
+Horizon Task execution, core competitiveness will be reshaped as TAC (Token Architecture
+Capability). TAC = volume of intelligence calls          quality of intelligence     economic
+transformation efficiency. In the future, the standard for measuring the value of an individual
+or organization will no longer be how much information is mastered, but its role as a Token
+Architect in constructing complex Agent systems under a given budget and driving large
+models to complete the autonomous operation of complex Agent systems. Knowledge Atlas
+aims to become the infrastructure for enhancing the TAC of the whole society, allowing every
+drop of Token to be converted into deliverable economic increments.
+
+From “Conversational Interfaces” to “Large Language Model-Operating Systems” (LLM-OS)
+
+The traditional OS is a scheduler of hardware resources, whereas LLM-OS is a scheduler
+of intelligence. Large models are consuming software; future computing platforms will no
+longer be stacks of apps but collaborations between API stores and agent matrices. Under the
+LLM-OS architecture, models directly understand ambiguous intentions, decompose long-
+term tasks, and schedule full-stack resources. Whoever integrates their model into the system
+kernel will control the definition of next-generation computing. We are committed to making
+GLM the core engine of this autonomous system, achieving a leap from cloud-based APIs to
+device-level native intelligence.
+
+Intelligence Output Revolution: A “Global Factory” for High-Quality Tokens
+
+As token consumption, driven by applications like OpenClaw, enters an exponential trajectory,
+an intelligence output revolution is underway. First, inference re-centralization: leveraging
+the economies of scale of ultra-large-scale clusters and ultimate inference optimization,
+the efficiency of cloud-based large-parameter foundation models will be further improved.
+Second, high-quality token exports: relying on China’s full industrial chain advantages in
+energy, chip-algorithm (Co-Design) adaptation, and IDC operations, we are achieving a leap
+
+                                             –5–
+from “Made in China” to “Intelligence in China”. Token exports are not about low-price
+competition but about “high quality at competitive prices” based on top-tier intelligence levels
+like GLM-5. What we aim to supply globally are production factors representing the upper
+bound of cognitive intelligence with ultimate cost-effectiveness.
+
+Financial Review
+
+The following discussion is based on the financial data and their accompanying notes set out
+in other sections of this year’s performance announcement and should be read in conjunction
+therewith.
+
+ANALYSIS OF KEY OPERATING PERFORMANCE ITEMS
+
+Revenue
+
+As we commercialize our technologies to seize the immense market opportunities presented
+by advanced artificial intelligence, we provide intelligent services to enterprise customers,
+developers, and end-users in the most suitable, reasonable, and scalable manner. We offer
+flexible deployment options to meet the diverse needs of enterprises while ensuring efficiency,
+scalability, and data security. We primarily provide two service models: cloud-based
+deployment services and on-premises deployment services. During the Reporting Period, we
+achieved substantial revenue growth. Our revenues were RMB312.4 million and RMB724.3
+million respectively for the full years of 2024 and 2025.
+
+By deployment method:
+
+Cloud-based Deployment
+
+Revenue from cloud-based deployment increased from RMB48.5 million in 2024 to
+RMB190.4 million in 2025, representing a surge of 292.6%. This robust growth was primarily
+attributable to the Group’s continuous iterations, which significantly elevated the upper bound
+of model intelligence. The enhanced model intelligence performance further drove an increase
+in model invocations.
+
+On-premise Deployment
+
+Our revenue from on-premises deployment rose from RMB263.9 million in 2024 to
+RMB534.0 million in 2025, marking a significant increase of 102.3%. This notable growth
+was mainly driven by the Group’s continuous iterations that significantly elevated the upper
+bound of model intelligence, coupled with enhanced model versatility and sustained strong
+market demand.
+
+
+
+
+                                             –6–
+                                                  2025                        2024
+                                            RMB’000    % of Total       RMB’000    % of Total
+
+Cloud-based deployment                       190,379           26.3       48,484           15.5
+On-premises deployment                       533,955           73.7      263,930           84.5
+
+
+Total                                        724,334          100.0      312,414         100.0
+
+
+To more accurately reflect the Company’s strategic layout and the substance of its business
+development, and to provide investors with more insightful analytical perspectives on our
+business, we have optimized the method of revenue classification disclosure starting this year.
+We believe that the original classification, primarily based on deployment methods, can no
+longer comprehensively cover the Company’s increasingly diverse product forms and business
+scenarios. Therefore, we have introduced a new classification that breaks down revenues by
+business form and core product lines.
+
+Open Platform and API
+
+The Open Platform and API represent the standardized and platform-based cloud online
+services provided by the Company to developers and enterprise customers based on general-
+purpose large model capabilities. The product transforms the complex algorithmic capabilities
+of underlying large models into convenient cloud services through Application Programming
+Interface (API), Software Development Kit (SDK), and Model-as-a-Service (MaaS) platform
+services. Its revenue increased from RMB48.5 million in 2024 to RMB190.4 million in
+2025, representing a growth rate of 292.6%. This robust growth was primarily attributed
+to the elevation of the Group’s model intelligence upper bound and the increase in model
+invocations.
+
+Enterprise-level Agents
+
+Enterprise-level agents refer to autonomous intelligent systems built for complex enterprise
+scenarios, with general-purpose large models as the core control unit, combined with
+enterprise knowledge bases and tool invocation capabilities. These products integrate memory
+storage, task planning, and execution feedback mechanisms, enabling them to simulate
+the thought patterns of human experts. They autonomously understand instructions, break
+down tasks, and invoke external tools (APIs) to complete business loops, aiming to address
+the needs for automation execution and auxiliary decision-making in enterprise business
+processes, thereby comprehensively improving enterprise operational efficiency and digital
+management levels. Revenue from enterprise-level agents increased from RMB47.5 million in
+2024 to RMB165.7 million in 2025, marking a growth rate of 248.8%. This robust growth was
+primarily attributable to the elevation of the Group’s model intelligence upper bound and the
+surge in market demand for enterprise-level intelligent agent products.
+
+                                             –7–
+Enterprise-level General-purpose Large Models
+
+Enterprise-level general-purpose large models refer to a matrix of pre-trained models
+independently developed by the Company, featuring large-scale parameters and strong
+generalization capabilities, serving as the foundation for the Company’s core technological
+innovations and business development. These products are primarily delivered through private
+on-premises deployment, where the models and related software environments are directly
+deployed on the customer’s own local computing infrastructure or private cloud environments.
+Based on self-developed pre-trained foundation models with large-scale parameter sizes and
+deep learning capabilities, the Company has constructed a core model system encompassing
+language large models, code large models, multimodal large models, and contemplation and
+reflection models. Through pre-training and instruction fine-tuning with massive amounts of
+multi-source data, these models meet the AI application needs in various vertical scenarios. Its
+revenue increased from RMB214.5 million in 2024 to RMB365.7 million in 2025, representing
+a growth rate of 70.5%. This growth was primarily attributable to the elevation of the Group’s
+model intelligence upper bound, coupled with sustained strong market demand.
+
+Technical Services and Others
+
+Technical Services and Others refer to the specialised technical services provided by the
+Company to developers and enterprise clients in the AI field, based on the underlying
+technologies of general-purpose large models. This business focuses on the commercialisation
+and application of the latest technological achievements in the large model domain. Through
+in-depth technical enablement, the Company offers professional technical consultancy on
+large models, as well as certain resource matching, technical exchange and collaborative
+innovation support. Revenue increased from RMB1.9 million in 2024 to RMB2.5 million in
+2025, representing a year-on-year increase of 31.6%, primarily driven by increased customer
+demand.
+
+                                                  2025                         2024
+                                            RMB’000    % of Total        RMB’000    % of Total
+
+Open platform and API                         190,379          26.3        48,484           15.5
+Enterprise-level agents                       165,687          22.9        47,492           15.2
+Enterprise-level general-purpose
+  large models                                365,724          50.4       214,502           68.7
+Technical service and others                    2,544           0.4         1,936            0.6
+
+
+Total                                         724,334         100.0       312,414         100.0
+
+
+
+
+                                             –8–
+Gross Profit and Gross Profit Margin
+
+The Group’s gross profit increased from RMB175.9 million in 2024 to RMB296.7 million
+in 2025, representing a growth rate of 68.7%. The Group’s gross profit margin decreased
+from 56.3% in 2024 to 41.0% in 2025, primarily due to an increase in the proportion of
+cloud deployment business and a temporary decline in the gross profit margin of on-premise
+deployment business.
+
+By deployment method:
+
+Cloud-based Deployment
+
+The gross profit of the cloud-based deployment business increased from RMB1.6 million in
+2024 to RMB36.0 million in 2025, representing a growth rate of 2,150.0%, mainly due to
+diversification and expansion of cloud-based deployment business. The gross profit margin
+of the cloud-based deployment business increased from 3.3% in 2024 to 18.9% in 2025,
+primarily due to improved model inference efficiency, economies of scale from expanded
+computing capacity leading to declining marginal costs, and price increases.
+
+On-premise Deployment
+
+The gross profit of the on-premises deployment business increased from RMB174.3 million
+in 2024 to RMB260.7 million in 2025, representing a growth rate of 49.6%, mainly driven by
+revenue growth resulting from market demand expansion. The gross profit margin of the on-
+premises deployment business decreased from 66.0% in 2024 to 48.8% in 2025, primarily due
+to the investment of more delivery resources to meet customer needs.
+
+By business form and core product lines:
+
+Open Platform and API
+
+Our gross profit of the open platform and API business increased from RMB1.6 million in
+2024 to RMB36.0 million in 2025, representing a year-on-year growth of 2,150.0%. The gross
+profit margin increased from 3.3% in 2024 to 18.9% in 2025. Such increases in both gross
+profit and gross profit margin are primarily driven by expansion of cloud-based deployment
+business, the launch of programming subscription packages, and enhanced inference
+efficiency.
+
+
+
+
+                                           –9–
+Enterprise-level Agents
+
+Our gross profit of the enterprise-level agent business increased from RMB23.4 million in
+2024 to RMB86.7 million in 2025, representing a year-on-year growth of 270.5%. The gross
+profit margin slightly increased from 49.3% in 2024 to 52.3% in 2025, primarily due to the
+increase in revenue from relevant businesses, which resulted in relatively stable gross profit
+margins.
+
+Enterprise-level General-purpose Large Models
+
+Our gross profit of the enterprise-level general-purpose large model business increased from
+RMB149.2 million in 2024 to RMB171.7 million in 2025, representing a growth rate of
+15.1% year on year, primarily driven by the amplification of gross profit alongside significant
+growth in overall revenue for the business. The gross profit margin decreased from 69.6% in
+2024 to 47.0% in 2025, primarily due to a phased increase in delivery costs in line with the
+diversification of customer demands.
+
+Technical Services and Others
+
+Gross profit from the technical Services and others increased from RMB1.7 million in 2024
+to RMB2.3 million in 2025, representing a year-on-year increase of 35.3%, while gross profit
+margin rose from 89.5% in 2024 to 92.0% in 2025, primarily attributable to the stable high
+gross profit generated by technical enablement services.
+
+Cost of Sales
+
+The Group’s cost of sales increased from RMB136.5 million in 2024 to RMB427.7 million
+in 2025, representing a growth rate of 213.3%. This growth is consistent with the Group’s
+business expansion and revenue growth. Specifically, the increase in costs was primarily
+attributable to the rise in computing service fees resulting from business expansion and
+revenue growth.
+
+Capital Expenditure
+
+The Group’s capital expenditure in 2025 was approximately RMB74.7 million, representing
+a decrease of approximately 83.8% compared to RMB462.3 million in 2024. This significant
+change was mainly due to adjustments in the computing power leasing strategy: We primarily
+used leases to acquire computing power equipment in 2024, with related expenditures
+included in capital expenditure; with the expansion of business scale and rapid growth in
+computing power demand, we flexibly adjusted our computing power procurement model in
+2025, primarily relying on service procurement supplemented by partial equipment leasing to
+meet demand, resulting in a corresponding decrease in capital expenditure.
+
+
+
+                                            – 10 –
+Other Income
+
+The Group’s other income decreased from RMB19.3 million in 2024 to RMB14.8 million in
+2025.
+
+Research and Development Expenses
+
+The Group’s research and development expenses increased from RMB2,195.4 million in
+2024 to RMB3,180.4 million in 2025, representing a growth rate of 44.9%. This growth was
+primarily attributable to (i) an increase in staff costs, mainly due to the expansion of the
+Group’s R&D team and an increase in share-based payment expenses; and (ii) an increase
+in computing service fees paid to third-party computing power suppliers, mainly due to the
+Group’s significant efforts in iterating foundational models and investing in more advanced
+model training infrastructure.
+
+Sales and Distribution Expenses
+
+The Group’s selling and marketing expenses increased from RMB387.5 million in 2024 to
+RMB390.9 million in 2025, representing a growth rate of 0.9%. This growth was primarily
+attributable to (i) an increase in staff costs, mainly due to the expansion of the Group’s sales
+and marketing team and an increase in share-based payment expenses; and (ii) a decrease in
+advertising and marketing expenses as well as technical service and consulting fees, mainly
+due to the Company’s adjustment of market promotion strategies and optimization of resource
+allocation.
+
+General and Administrative Expenses
+
+Our general and administrative expenses increased from RMB133.6 million in 2024
+to RMB505.4 million in 2025, representing a growth rate of 278.3%. This growth was
+primarily attributable to an increase in staff costs, mainly due to the recruitment of additional
+administrative personnel and an increase in share-based payment expenses.
+
+Impairment Loss on Financial Assets
+
+The Group’s impairment loss on financial assets increased from RMB17.0 million in 2024 to
+RMB21.6 million in 2025, representing a growth rate of 27.1%. This increase was primarily
+due to the increase in the original value of financial assets resulting from business expansion.
+
+Finance Costs
+
+The Group’s finance costs increased from RMB38.3 million in 2024 to RMB74.3 million in
+2025, primarily due to a shift from net exchange gains in 2024 to net exchange losses in 2025.
+
+
+
+                                             – 11 –
+Share of Profit or Loss of Associates
+
+The Group’s share of profit or loss of associates increased from RMB21.3 million in 2024 to
+RMB55.0 million in 2025, representing a growth rate of 158.2%. This increase was primarily
+due to improvements in the operating and financial performance of the associates during the
+Reporting Period.
+
+Changes in Fair Value of Financial Instruments Measured at FVPL
+
+The changes in fair value of financial assets measured at fair value through profit or loss
+decreased from RMB66.3 million in 2024 to RMB25.3 million in 2025. This decrease was
+primarily due to adjustments in our investment portfolio allocation in 2025, resulting in a
+decrease in recognized fair value gains.
+
+Changes in the Carrying Amount of Financial Instruments Issued to Investors
+
+The carrying amount of financial instruments issued to investors increased from RMB468.9
+million in 2024 to RMB937.4 million in 2025. This increase was primarily due to new equity
+financing with redemption rights in 2025.
+
+Net Loss
+
+The Group recorded a net loss of RMB4,718.2 million in 2025, representing an increase from
+RMB2,958.0 million in 2024, mainly affected by the continuous increase in research and
+development investment.
+
+Non-IFRS Measure
+
+                                                                 2025               2024
+                                                              RMB’000            RMB’000
+
+Loss for the Year                                            (4,718,167)        (2,958,007)
+Add:
+– Equity-settled share-based compensation expenses              558,265             23,579
+– Changes in the carrying amount of financial
+    instruments issued to investors                             937,362            468,859
+– Listing expense                                                40,568                  –
+Adjusted net loss for the year (non-IFRS measure)            (3,181,972)        (2,465,569)
+
+
+
+
+                                          – 12 –
+ANALYSIS OF KEY ITEMS IN FINANCIAL POSITION
+
+Financial Position
+
+Shareholders’ equity decreased from RMB-3,955.1 million as of 31 December 2024, to
+RMB-8,111.0 million as of 31 December 2025, primarily due to the expansion of net losses
+resulting from increased research and development investment.
+
+Liquidity and Financial Resources
+
+We closely monitor and maintain adequate liquidity levels to meet working capital
+requirements and mitigate the impact of cash flow fluctuations. As of 31 December 2025, the
+Group held cash and cash equivalents of RMB2,259.1 million, a decrease of RMB10.1 million
+from RMB2,269.2 million as of 31 December 2024. This fluctuation was mainly attributable
+to consumption in daily operations.
+
+Debt/Borrowings
+
+As of 31 December 2025, the Group’s total borrowings amounted to RMB689.5 million, an
+increase of RMB552.2 million from RMB137.2 million as of 31 December 2024, primarily
+due to the borrowing of working capital to meet operational needs. All relevant borrowings
+are interest-bearing, denominated primarily in RMB, and unsecured.
+
+Lease Liabilities
+
+As of 31 December 2025, the total lease liabilities recognized by the Group (including both
+current and non-current portions) amounted to RMB545.1 million, a decrease of RMB126.1
+million from RMB671.3 million as of 31 December 2024. This fluctuation was influenced by
+the payment of lease obligations during the year and changes in office and data center lease
+arrangements.
+
+Gearing Ratio
+
+The Group’s gearing ratio (Gearing ratio is calculated by dividing total interest-bearing
+bank and other borrowings and lease liabilities divided by total equity as of the end of the
+period multiplied by 100%) was 15.2% as of 31 December 2025, compared to 20.4% as of
+31 December 2024. This change was primarily attributable to the impact of the Group’s
+continued strategic research and development investment on total equity.
+
+Asset Pledges
+
+The Group had no pledged assets for the year ended 31 December 2025.
+
+
+
+                                           – 13 –
+Capital Commitments
+
+The Group had no outstanding capital commitment for the year ended 31 December 2025.
+
+Contingent Liabilities
+
+The Group had no significant contingent liabilities for the year ended 31 December 2025.
+
+Significant Investments and Major Acquisitions and Disposals of Subsidiaries, Associates,
+and Joint Ventures
+
+ For the year ended 31 December 2025, the Group did not make any significant investments or
+engage in any major acquisitions or disposals of subsidiaries, associates, or joint ventures.
+
+Future Plans for Significant Investments or Capital Assets
+
+The Group had not made any significant investments or have any other future plans for
+significant investments or the purchase of capital assets for the year ended 31 December 2025.
+
+Employees and Remuneration Policy
+
+As of 31 December 2025, the Company had 1,094 permanent employees. The Company
+incurred total remuneration costs (including share-based payments) of RMB1,363.4 million
+during the Reporting Period. The Company regards talent as its core asset and is committed to
+building a market-leading, incentive-oriented, and comprehensive talent development system
+to support the Company’s continuous innovation and business growth in the field of artificial
+intelligence.
+
+We adhere to the principles of value orientation and market competition in constructing
+a competitive remuneration structure. The remuneration package consists of fixed salary,
+performance bonuses, and medium- to long-term incentives, ensuring that employee rewards
+are closely linked to company performance and individual contributions. We adopted the
+employee incentive scheme and established an employee shareholding platform to incentivize
+eligible middle and senior management, core technical and business personnel and other
+employees, consultants and other persons who are vital to the development of the Group, to
+align the interests of the Group with those of the participants of the incentive scheme, so as
+to promote the long-term growth of the Group. We regularly conduct market salary surveys to
+ensure that our salary levels remain competitive within the industry, attracting and retaining
+top technical and management talent and stimulating organizational vitality.
+
+
+
+
+                                            – 14 –
+The Company is committed to enhancing employee well-being and establishing a
+comprehensive welfare protection network. In addition to strictly complying with national
+regulations in paying social insurance and housing provident funds, the Company provides
+supplementary commercial insurance, annual health check-ups, work meal subsidies,
+and various festival bonuses, among other diversified benefits. Meanwhile, the Company
+supports the establishment of various interest clubs, regularly organizes cultural and sports
+activities, pays attention to employees’ physical and mental health, creates a harmonious and
+positive work atmosphere, and has established a comprehensive internal training system and
+knowledge-sharing mechanism to encourage cross-departmental communication and technical
+sharing and focus on employees’ personal growth.
+
+As a leading LLM company, we actively promote AI-native work methods and encourage all
+employees to deeply integrate the use of AutoClaw into their daily work and life scenarios.
+We encourage employees to shift from seeking suggestions from large models to using them
+to complete tasks, such as having AutoClaw take over most standardized execution work,
+allowing individuals to focus their energy on defining key problems, exploring cutting-edge
+technologies, and unlocking innovative thinking.
+
+Exposure to Exchange Rate Fluctuation
+
+The Group’s foreign exchange risk arises from future commercial transactions and recognized
+assets and liabilities denominated in currencies other than the functional currency of the
+relevant Group entities. Our business is primarily conducted in RMB. Most non-RMB assets
+and liabilities are cash and cash equivalents denominated in US dollars.
+
+We are primarily exposed to changes in RMB/USD exchange rates in our domestic subsidiaries
+whose functional currency is RMB. We currently do not engage in hedging activities aimed
+at or intended for managing foreign exchange rate risks. However, we continuously monitor
+currency exchange rate movements and will take necessary measures to mitigate the impact of
+exchange rates.
+
+
+
+
+                                           – 15 –
+Principal Risks and Uncertainties
+
+Our operations and Global Offering involve certain risks and uncertainties, including (i) risks
+related to our research and development; (ii) risks related to our commercialization; (iii)
+risks related to our operations; (iv) risks related to our intellectual property; (v) risks related
+to our financial position and additional funding requirements; and (vi) risks related to the
+jurisdictions in which we conduct business, including but not limited to:
+
+•    The AI industry is characterized by constant changes. If we are not able to upgrade,
+     enhance or innovate our technologies and services, our business, results of operations,
+     financial condition and prospects could be adversely affected.
+
+•    We have made and expect to continue to make substantial investments in R&D. If
+     we cannot continuously invest in our R&D activities while achieving technological
+     innovation, our business, results of operations, financial condition and prospects may be
+     materially and adversely affected.
+
+•    The development of AGI is still at an early stage and there are substantial uncertainties
+     in the future realization of AGI.
+
+•    We are exposed to risks relating to our R&D team and our senior management.
+
+•    We rely on third parties to provide computing resources to us, and any disruption of their
+     services or fluctuation of prices could adversely affect our business, results of operations
+     and financial condition.
+
+•    Our commercial success depends on the performance of our models. Any failure in
+     research and development efforts to offer high-quality models and solutions could harm
+     our business, results of operations, financial condition and prospects.
+
+•    China’s AI industry is subject to an evolving and increasingly stringent regulatory
+     environment. Future laws and regulations may impose additional requirements and other
+     obligations that could materially and adversely affect our business, results of operations,
+     financial condition and prospects.
+
+•    We may not be able to obtain or maintain adequate intellectual property rights protection
+     for our business, or the scope of such intellectual property rights protection may not be
+     sufficiently broad.
+
+•    We may not be able to compete effectively against current or future competitors.
+
+
+
+
+                                              – 16 –
+•    The size of our addressable market and the demand for our solutions may not increase
+     as rapidly as we anticipate due to a variety of factors, which would materially and
+     adversely affect our business, results of operations, financial condition and prospects.
+
+•    Any failure of our MaaS platform to perform as required could harm our business,
+     results of operations, financial condition and prospects.
+
+•    We have a limited track record in the commercialization of our business.
+
+The above list is not exhaustive. For further details, please refer to the “Risk Factors” section
+of our Prospectus.
+
+
+
+
+                                             – 17 –
+CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE
+INCOME
+For the year ended 31 December 2025
+(Expressed in Renminbi (“RMB”))
+
+                                                               2025           2024
+                                                     Note   RMB’000        RMB’000
+
+Revenue                                               5       724,334       312,414
+Cost of revenue                                              (427,678)     (136,525)
+
+
+Gross profit                                                   296,656       175,889
+Other income                                                    14,839        19,281
+Selling and marketing expenses                                (390,869)     (387,475)
+General and administration expenses                           (505,357)     (133,603)
+Research and development expenses                           (3,180,443)   (2,195,436)
+Impairment losses on financial assets                          (21,576)      (17,008)
+
+
+Loss from operations                                        (3,786,750)   (2,538,352)
+Finance costs                                                  (74,315)      (38,321)
+Share of profits less losses of associates                      54,982        21,254
+Changes in fair value of financial instruments
+  measured at fair value through profit or loss
+  (“FVPL”)                                                     25,278        66,271
+Changes in the carrying amounts of financial
+  instruments issued to investors                            (937,362)     (468,859)
+
+
+Loss before taxation                                        (4,718,167)   (2,958,007)
+Income tax                                            6              –             –
+
+
+Loss for the year                                           (4,718,167)   (2,958,007)
+
+
+
+
+                                            – 18 –
+                                                                 2025           2024
+                                                       Note   RMB’000        RMB’000
+
+Other comprehensive income for the year
+   (after tax):
+Items that may be reclassified to profit or loss:
+   – Exchange differences on translation of
+        financial statements into presentation
+        currency                                                    278            (79)
+
+
+Total comprehensive income for the year                       (4,717,889)   (2,958,086)
+
+
+Loss attributable to:
+Equity shareholders of the Company                            (4,698,203)   (2,956,491)
+Non-controlling interests                                        (19,964)       (1,516)
+
+
+                                                              (4,718,167)   (2,958,007)
+
+
+Total comprehensive income attributable to:
+Equity shareholders of the Company                            (4,697,925)   (2,956,570)
+Non-controlling interests                                        (19,964)       (1,516)
+
+
+                                                              (4,717,889)   (2,958,086)
+
+
+Loss per share
+Basic and diluted (RMB)                                 7         (12.03)        (8.72)
+
+
+
+
+                                              – 19 –
+CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+At 31 December 2025
+(Expressed in RMB)
+
+                                                            31 December     31 December
+                                                                   2025            2024
+                                                     Note      RMB’000         RMB’000
+
+Non-current assets
+Property and equipment                                          655,825         866,363
+Intangible assets                                                50,963          50,359
+Goodwill                                                         39,379          39,379
+Interests in associates                                         338,081         201,198
+Other non-current assets                                        198,202          97,260
+Time deposits                                                         –         105,343
+
+
+                                                               1,282,450      1,359,902
+
+
+Current assets
+Short-term investments measured at FVPL                          377,287         42,621
+Inventories and contract costs                                   125,817         32,465
+Trade and other receivables                           8          698,942        666,841
+Contract assets                                                    1,625          4,718
+Time deposits                                                    108,593              –
+Cash at bank and on hand                                       2,259,147      2,269,222
+
+
+                                                               3,571,411      3,015,867
+
+
+Current liabilities
+Trade and other payables                              9        1,328,631        603,488
+Contract liabilities                                             148,644         75,059
+Bank loans                                                       604,836        137,246
+Lease liabilities                                                251,316        213,161
+Financial instruments issued to investors                     10,072,827      6,676,943
+Convertible bonds                                                      –        132,158
+
+
+                                                              12,406,254      7,838,055
+
+
+Net current liabilities                                       (8,834,843)     (4,822,188)
+
+
+
+
+                                            – 20 –
+                                                           31 December     31 December
+                                                                  2025            2024
+                                                    Note      RMB’000         RMB’000
+
+Total assets less current liabilities                        (7,552,393)     (3,462,286)
+
+
+Non-current liabilities
+Bank loans                                                      84,616               –
+Lease liabilities                                              293,827         458,107
+Deferred income                                                180,146          34,752
+
+
+                                                               558,589         492,859
+
+
+NET LIABILITIES                                              (8,110,982)     (3,955,145)
+
+
+CAPITAL AND RESERVES
+Share capital/paid-in capital                                    40,281          36,224
+Reserves                                                     (8,132,783)     (3,992,853)
+
+
+Total equity – deficit attributable to equity
+  shareholders of the Company                                (8,092,502)     (3,956,629)
+Non-controlling interests                                       (18,480)          1,484
+
+
+TOTAL EQUITY – DEFICIT                                       (8,110,982)     (3,955,145)
+
+
+
+
+                                           – 21 –
+1.   CORPORATE INFORMATION
+
+     Knowledge Atlas Technology Joint Stock Company Limited (the “Company”, formerly known as Beijing
+     Zhipu Huazhang Technology Limited) was established in the People’s Republic of China (the “PRC”)
+     on 11 June 2019 as a limited liability company On 26 March 2025, the Company was converted from a
+     limited liability company into a joint stock limited liability company and changed its registered name to
+     Knowledge Atlas Technology Joint Stock Company Limited. The Company’s shares were listed on the
+     Main Board of The Stock Exchange of Hong Kong Limited (the “Stock Exchange”) on 8 January 2026.
+
+     The Company and its subsidiaries (together, the “Group”) are principally engaged in the provision of
+     large model-related services in the PRC.
+
+2.   STATEMENT OF COMPLIANCE
+
+     These financial statements have been prepared in accordance with IFRS Accounting Standards as issued
+     by the International Accounting Standards Board (the “IASB”) and the applicable disclosure requirements
+     of the Hong Kong Companies Ordinance. These financial statements also comply with the applicable
+     disclosure provisions of the Rules Governing the Listing of Securities on the Stock Exchange.
+
+     The IASB has issued certain amendments to IFRS Accounting Standards that are first effective or
+     available for early adoption for the current accounting period of the Group. Note 4 provides information
+     on any changes in accounting policies resulting from initial application of these developments to the extent
+     that they are relevant to the Group for the current accounting period reflected in these financial statements.
+
+3.   BASIS OF PREPARATION OF THE FINANCIAL STATEMENTS
+
+     The consolidated financial statements for the year ended 31 December 2025 comprise the Group and the
+     Group’s interests in associates.
+
+     The measurement basis used in the preparation of the financial statements is the historical cost basis,
+     except for investments and convertible bonds which are measured at their fair values respectively.
+
+     The preparation of the financial statements in conformity with IFRS Accounting Standards requires
+     management to make judgements, estimates and assumptions that affect the application of policies and
+     reported amounts of assets, liabilities, income and expenses. The estimates and associated assumptions
+     are based on historical experience and various other factors that are believed to be reasonable under the
+     circumstances, the results of which form the basis of making the judgements about carrying values of
+     assets and liabilities that are not readily apparent from other sources. Actual results may differ from these
+     estimates.
+
+     The estimates and underlying assumptions are reviewed on an ongoing basis. Revisions to accounting
+     estimates are recognised in the period in which the estimate is revised if the revision affects only that
+     period, or in the period of the revision and future periods if the revision affects both current and future
+     periods.
+
+
+
+
+                                                    – 22 –
+     For the year ended 31 December 2025, the Group incurred net loss of RMB4,718,167,000 and as
+     at 31 December 2025, the Group recorded net liabilities of RMB8,110,982,000 and net current
+     liabilities of RMB8,834,843,000, which included financial instruments issued to investors amounted to
+     RMB10,072,827,000. The financial instruments issued to investors have been converted into equity upon
+     the listing of the Company’s shares on the Stock Exchange on 8 January 2026. Taking the above into
+     consideration, together with the gross proceeds from the listing of the Company’s shares on the Stock
+     Exchange of approximately Hong Kong dollars (“HK$”) 5,000,365,000 (equivalent to approximately
+     RMB4,516,430,000), the cashflow forecast for the year ending 31 December 2026 prepared by
+     management of the Group, and available unutilised banking facilities of RMB5,235,909,000 as at 31
+     December 2025 can be utilised by the Group to fulfil its liquidity requirements when necessary, the
+     directors of the Company consider that the Group will have sufficient financial resources to continue as a
+     going concern for the next twelve months. Therefore, the directors of the Company are satisfied that it is
+     appropriate to prepare the financial statements on a going concern basis.
+
+4.   CHANGES IN ACCOUNTING POLICIES
+
+     The IASB has issued a number of new and revised IFRS Accounting Standards, none of these
+     developments have had a material effect on how the Group’s results and financial position for the
+     current or prior periods have been prepared or presented. The Group has not applied any new standard or
+     interpretation that is not yet effective for the current accounting period.
+
+5    REVENUE AND SEGMENT REPORTING
+
+     (a)   Revenue
+
+           The principal activities of the Group are the provision of large model-related services in the PRC.
+
+           (i)    Disaggregation of revenue
+
+                  Disaggregation of revenue from contracts with customers by major service types and timing
+                  of revenue recognition are as follows:
+
+                                                                                     2025                2024
+                                                                                  RMB’000             RMB’000
+
+                  Revenue from contracts with customers
+                    within the scope of IFRS 15
+
+                  Disaggregated by major service types:
+                  – On-premise deployment                                           533,955             263,930
+                  – Cloud-based deployment                                          190,379              48,484
+
+
+                                                                                    724,334             312,414
+
+
+
+
+                                                   – 23 –
+                                                                              2025                2024
+                                                                           RMB’000             RMB’000
+
+             Timing of revenue recognition
+
+             At a point in time                                              667,977             250,521
+             Over time                                                        56,357              61,893
+
+
+                                                                             724,334             312,414
+
+
+             The Group’s customers base is diversified. There is no individual customer contributing over
+             10% of the total revenue of the Group for the year ended 31 December 2025 (one customer
+             in 2024 amounted to approximately RMB59,465,000).
+
+      (ii)   Revenue expected to be recognised in the future arising from contracts with customers in
+             existence at the reporting date
+
+             The Group applies the practical expedient in paragraph 121(a) of IFRS 15 of not disclosing
+             the transaction price allocated to the remaining performance obligation as the original
+             expected duration of the Group’s contracts are one year or less.
+
+(b)   Segment reporting
+
+      The Group manages its businesses by service types. In a manner consistent with the way in which
+      information is reported internally to the Group’s most senior executive management for the
+      purposes of resource allocation and performance assessment, the Group has presented the following
+      two reportable segments. No operating segments have been aggregated to form the following
+      reportable segments.
+
+      •      On-premise deployment:       this segment develops and provides customised large
+                                          model-related services according to the customers’ specific
+                                          instructions and needs at the customers’ infrastructure.
+
+      •      Cloud-based deployment:      this segment develops and provides cloud-based large model-
+                                          related services to customers through cloud infrastructure.
+
+
+
+
+                                             – 24 –
+(i)   Segment results
+
+      For the purposes of assessing segment performance and allocating resources, the Group’s
+      most senior executive management monitors the results attributable to each reportable
+      segment on the following bases:
+
+      Revenue and expenses are allocated to the reportable segments with reference to revenue
+      generated by those segments and direct expenses incurred by those segments. The measure
+      used for reporting segment result is gross profit. No inter-segment sales have occurred during
+      the year. Assistance provided by one segment to another, including sharing of assets and
+      technical know-how, is not measured.
+
+      The Group’s other operating income and expenses, such as other income, selling and
+      marketing expenses, general and administrative expenses, research and development
+      expenses, impairment losses on financial assets, finance costs, and assets and liabilities are
+      not measured under individual segments. Accordingly, neither information on segment assets
+      and liabilities nor information concerning capital expenditure, interest income and interest
+      expenses is presented.
+
+      Information regarding the Group’s reportable segments as provided to the Group’s most
+      senior executive management for the purposes of resource allocation and assessment of
+      segment performance during the year is set out below.
+
+                                                                    2025
+                                                On-premise        Cloud-based
+                                                deployment         deployment               Total
+                                                  RMB’000            RMB’000              RMB’000
+
+      Segment revenue derived from
+        external customers                         533,955             190,379             724,334
+
+
+      Segment gross profit                         260,656               36,000            296,656
+
+
+                                                                    2024
+                                                On-premise         Cloud-based
+                                                deployment          deployment               Total
+                                                  RMB’000             RMB’000             RMB’000
+
+      Segment revenue derived from
+        external customers                         263,930               48,484            312,414
+
+
+      Segment gross profit                         174,256                1,633            175,889
+
+
+
+
+                                       – 25 –
+(ii)    Reconciliation of reportable segment profit or loss
+
+                                                                        2025                2024
+                                                                     RMB’000             RMB’000
+
+        Reportable segment gross profit                                296,656             175,889
+        Other income                                                    14,839              19,281
+        Selling and marketing expenses                                (390,869)           (387,475)
+        General and administration expenses                           (505,357)           (133,603)
+        Research and development expenses                           (3,180,443)         (2,195,436)
+        Impairment losses on financial assets                          (21,576)            (17,008)
+        Finance costs                                                  (74,315)            (38,321)
+        Share of profits less losses of associates                      54,982              21,254
+        Changes in fair value of financial instruments
+          measured at FVPL                                              25,278              66,271
+        Changes in the carrying amounts of financial
+          instruments issued to investors                             (937,362)           (468,859)
+
+
+        Consolidated loss before taxation                           (4,718,167)         (2,958,007)
+
+
+(iii)   Geographic information
+
+        The Group’s revenue is substantially derived from customers located in the PRC, and all
+        of the Group’s non-current assets are located or allocated to operations located in the PRC
+        Accordingly, no segment analysis based on geographical locations is provided.
+
+
+
+
+                                         – 26 –
+6   INCOME TAX IN THE CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER
+    COMPREHENSIVE INCOME
+
+    Reconciliation between income tax expense and accounting loss at applicable tax rates:
+
+                                                                                      2025                2024
+                                                                                   RMB’000             RMB’000
+
+    Loss before taxation                                                          (4,718,167)         (2,958,007)
+
+
+    Tax on loss before taxation, calculated at the rates applicable to
+      profits in the jurisdictions concerned (i)                                  (1,179,542)           (739,502)
+    Tax rates differentials (ii)                                                     445,934             290,253
+    Tax effect of additional deduction on research and development
+      expenses (iii)                                                                (139,429)           (305,408)
+    Tax effect of non-deductible expenses (iv)                                       246,469              83,782
+    Tax effect of unrecognised unused tax losses and deductible
+      temporary differences                                                         626,568             670,875
+
+
+                                                                                           –                   –
+
+
+    Notes:
+
+    (i)      Entities of the Group established in the Chinese Mainland were subject to the PRC Corporate
+             Income Tax rate of 25% during the year (2024: 25%).
+
+             Taxation for subsidiaries incorporated in other jurisdictions is calculated at the applicable income
+             tax rates in the relevant jurisdictions.
+
+    (ii)     Certain subsidiaries of the Group obtained the certificates of “High and New Technology
+             Enterprise” (“HNTE”) from the tax authorities and were subject to a preferential tax rate of 15%
+             during the years ended 31 December 2025 and 2024.
+
+    (iii)    An additional 100% of qualified research and development expenses incurred is allowed to be
+             deducted from taxable income under the PRC Corporate Income Tax laws and regulations during
+             the years ended 31 December 2025 and 2024.
+
+    (iv)     Tax effect of non-deductible expenses mainly represented the changes in the carrying amounts
+             of financial instruments issued to investors and share-based payments expenses, which are not
+             deductible in accordance with the relevant tax regulations in the PRC.
+
+
+
+
+                                                    – 27 –
+7   LOSS PER SHARE
+
+    Basic loss per share is calculated by dividing the loss attributable to ordinary equity shareholders of the
+    Company by the weighted average number of ordinary shares in issue or deemed to be in issue during the
+    year.
+
+    The Company was converted into a joint stock company with limited liability on 26 March 2025. The
+    Company’s paid-in capital of RMB36,224,375 was converted into 36,224,375 shares of RMB1.00 each
+    accordingly. For the purpose of computing basic and diluted loss per share, the weighted average number
+    of ordinary shares deemed to be in issue before the Company’s conversion into a joint stock company was
+    determined assuming the conversion into joint stock company had occurred since 1 January 2024, at the
+    exchange ratio established in the conversion in March 2025.
+
+    In addition, the weighted average number of shares throughout the periods presented has also been
+    adjusted retrospectively for the impact of a share subdivision that became effective immediately prior to
+    the completion of the listing of the Company’s shares on January 8, 2026.
+
+                                                                                      2025                2024
+
+    Loss for the year attributable to ordinary equity shareholders
+      of the Company (RMB’000)                                                  (1,918,476)         (1,394,042)
+
+
+    Weighted average number of ordinary shares deemed to be
+     in issue                                                                 159,522,220         159,875,230
+
+
+    Basic loss per share (RMB)                                                      (12.03)              (8.72)
+
+
+    (a)   Loss for the year attributable to ordinary equity shareholders of the Company
+
+                                                                                   2025                 2024
+                                                                                RMB’000              RMB’000
+
+          Loss for the year attributable to all equity shareholders
+            of the Company                                                      (4,698,203)         (2,956,491)
+          Allocation of loss for the year attributable to financial
+            instruments issued to investors                                     2,779,727            1,562,449
+
+
+          Loss for the year attributable to ordinary equity
+            shareholders of the Company                                         (1,918,476)         (1,394,042)
+
+
+
+
+                                                   – 28 –
+(b)   Weighted average number of ordinary shares in issue/deemed to be in issue
+
+                                                                                 2025                2024
+
+      Ordinary shares deemed to be in issue at 1 January                  36,224,375          28,477,938
+      Effect of ordinary shares deemed to be in issue                      2,841,407           2,112,110
+      Effect of increase in paid-in capital through transfer from
+        capital reserve                                                            –           1,982,905
+      Effect of the financial instruments issued to investors            (23,113,560)        (16,585,430)
+      Effect of share subdivision                                        143,569,998         143,887,707
+
+
+      Weighted average number of ordinary shares in
+       issue/deemed to be in issue at 31 December                        159,522,220         159,875,230
+
+
+(c)   Diluted loss per share
+
+      The financial instruments issued to investors and convertible bonds were not included in the
+      calculation of diluted loss per share as their inclusion would have been anti-dilutive. Accordingly,
+      diluted loss per share for the years ended 31 December 2025 and 2024 are the same as basic loss per
+      share.
+
+
+
+
+                                              – 29 –
+8   TRADE AND OTHER RECEIVABLES
+
+                                                                            31 December          31 December
+                                                                                   2025                 2024
+                                                                               RMB’000              RMB’000
+
+    Trade receivables                                                             339,198             100,170
+    Less: loss allowance                                                          (35,990)             (9,035)
+
+
+                                                                                  303,208              91,135
+
+
+    Deposits                                                                       70,538              67,912
+    Receivables from disposal of investments in equity securities
+      measured at FVPL (i)                                                          7,098              45,216
+    Other receivables                                                              52,029             263,805
+
+
+                                                                                  129,665             376,933
+
+    Less: loss allowance                                                          (18,994)            (27,327)
+
+
+                                                                                  110,671             349,606
+
+
+    Financial assets measured at amortised cost                                   413,879             440,741
+
+
+    Input VAT deductible                                                          168,768              98,729
+    Prepayments for computing service fee and others                              116,295             127,371
+
+
+                                                                                  285,063             226,100
+
+
+                                                                                  698,942             666,841
+
+
+    Note:
+
+    (i)     In November 2024, the Group entered into a series of equity transfer agreements with Beijing
+            Xinglian, an associate of the Group, pursuant to which, the Group divested certain unlisted equity
+            investments measured at FVPL to Beijing Xinglian at a total consideration of RMB202,528,000.
+            The consideration was determined based on arm’s length negotiation and was with reference to the
+            most recent transaction price of the equity interests in those unlisted entities.
+
+    All of the trade and other receivables are expected to be recovered or recognised as expenses within one
+    year.
+
+
+
+
+                                                   – 30 –
+    At the end of the reporting period, the ageing analysis of trade receivable (net of loss allowance), based on
+    the invoice date, is as follows:
+
+                                                                              31 December          31 December
+                                                                                     2025                 2024
+                                                                                 RMB’000              RMB’000
+
+    Within 3 months                                                                 243,484               74,191
+    3 months to 6 months                                                             19,831               13,804
+    6 months to 1 year                                                               31,406                1,444
+    1 year to 2 years                                                                 8,415                1,302
+    2 years to 3 years                                                                   72                  394
+
+
+                                                                                    303,208               91,135
+
+
+9   TRADE AND OTHER PAYABLES
+
+                                                                              31 December          31 December
+                                                                                     2025                 2024
+                                                                                 RMB’000              RMB’000
+
+    Trade payables due to third parties                                             297,139              58,293
+    Payables for computing service fees                                             727,348             269,467
+    Payables for marketing and promotion services                                    42,812              89,052
+    Payables of staff costs                                                         146,507             104,229
+    Other payables and accruals                                                      54,437              43,767
+
+
+    Financial liabilities measured at amortised cost                              1,268,243             564,808
+    Other taxes payables                                                             39,774              22,304
+    Provisions for warranties                                                        20,614              16,376
+
+
+                                                                                  1,328,631             603,488
+
+
+
+
+                                                   – 31 –
+     As at the end of the reporting period, the ageing analysis of trade payables, based on the invoice date, are as
+     follows:
+
+                                                                                31 December           31 December
+                                                                                       2025                  2024
+                                                                                   RMB’000               RMB’000
+
+     Within 3 months                                                                  229,890                57,676
+     3 months to 6 months                                                              46,448                    57
+     6 months to 1 year                                                                19,506                   257
+     More than 1 year                                                                   1,295                   303
+
+
+                                                                                      297,139                58,293
+
+
+     All of the trade and other payables are expected to be settled within one year or are repayable on demand.
+
+10   DIVIDENDS
+
+     The directors of the Company did not recommend the payment of a final dividend for the year ended 31
+     December 2025 (2024: nil).
+
+11   NON-ADJUSTING EVENTS AFTER THE REPORTING PERIOD
+
+     On 8 January 2026, the Company completed its listing on the Stock Exchange and a total of 43,032,400
+     ordinary shares were issued (including initial offering and the exercise of over-allotment option) at the
+     price of HK$116.20. Total gross proceeds received were HK$5,000,365,000 (equivalent to approximately
+     RMB4,516,430,000).
+
+
+
+
+                                                     – 32 –
+OTHER INFORMATION
+
+Issuance of H Shares and Listing on the Hong Kong Stock Exchange
+
+On 8 January 2026, we successfully completed the Global Offering of 37,419,500 H shares
+on the Hong Kong Stock Exchange (HKEX), with an offering price of HK$116.20 per H
+share (excluding 1.0% brokerage commission, 0.0027% Hong Kong Securities and Futures
+Commission (SFC) transaction levy, 0.00565% HKEX trading fee, and 0.00015% Hong Kong
+Accounting and Financial Reporting Council (AFRC) transaction levy). The underwriters
+of the Global Offering fully exercised the over-allotment option, and we newly issued and
+allotted a total of 5,612,900 H shares on 4 February 2026.
+
+Final Dividend
+
+The Board does not recommend the payment of a final dividend for the year ended 31
+December 2025 (2024: None).
+
+Purchase, Sale, or Redemption of the Company’s Listed Securities or Sale of Treasury
+Shares
+
+H Shares of the Company was first listed on the Main Board of the Hong Kong Stock
+Exchange on 8 January 2026. From the listing date until the date of this announcement,
+neither the Company nor any of its subsidiaries has purchased, sold, or redeemed any of the
+Company’s securities listed on the HKEX (including the sale of any treasury shares). The
+Company does not hold any treasury shares as of the date of this announcement.
+
+Post-Reporting Period Significant Events
+
+Save as disclosed in this announcement, there have been no other material events affecting the
+Company from the end of the Reporting Period until the date of this announcement.
+
+Compliance with the Corporate Governance Code
+
+The Board has always been committed to maintaining a high standard of corporate governance
+system, believing that a sound governance structure is the core support for safeguarding
+shareholders’ rights and interests, enhancing the long-term value of the enterprise, formulating
+scientific business strategies and policies, and strengthening operational transparency and
+accountability mechanisms.
+
+
+
+
+                                             – 33 –
+As the H shares had not been listed on the Hong Kong Stock Exchange during the Reporting
+Period, the Corporate Governance Code was not applicable to the Company during that
+time. Based on the principles and provisions of the Corporate Governance Code as set out
+in Appendix C1 to the Listing Rules, the Company recognizes that the Board should consist
+of a balanced combination of executive Directors and independent non-executive Directors
+to ensure that the Board has independent supervisory capabilities and can make objective
+judgments in major decision-making processes.
+
+From the Listing Date until the date of this announcement, the Company has strictly complied
+with all applicable provisions of the Corporate Governance Code. In addition, the Company
+will actively refer to the recommended best practices of the Corporate Governance Code,
+including establishing a sound internal control system, enhancing the timeliness and accuracy
+of information disclosure, safeguarding shareholders’ right to information and participation,
+and continuously optimizing the governance structure.
+
+Compliance with the Model Code
+
+Since its listing, the Company has adopted the Model Code as its code of conduct governing
+the Company’s securities transactions conducted by its Directors and employees who have
+access to inside information concerning the Group or the Company’s securities.
+
+The Company has made specific inquiries to all the Directors, all Directors have confirmed
+that they have complied with the Model Code from the listing date until the date of this
+announcement.
+
+Employees of the Group who may possess inside information of the Group shall comply with
+the Model Code. From the listing date until the date of this announcement, the Company
+has not identified any incidents of non-compliance with the Model Code by the relevant
+employees.
+
+Continuous Disclosure Obligations under the Listing Rules
+
+Save as disclosed in this announcement, the Company has no other disclosure obligations
+under Rules 13.20, 13.21, and 13.22 of the Listing Rules.
+
+Adequacy of Public Float
+
+Based on the information available to the Company and to the best knowledge of the
+Directors, from the Listing Date until the date of this announcement, the Company has
+continuously maintained the public float as required by the Listing Rules.
+
+
+
+
+                                           – 34 –
+Scope of Work of the Auditors
+
+The figures in respect of the Group’s consolidated statement of financial position,
+consolidated statement of comprehensive loss and the related notes thereto for the year
+ended 31 December 2025 as set out in this annual results announcement have been agreed by
+the Company’s auditor, KPMG, to the amounts set out in the Group’s audited consolidated
+financial statements for the year ended 31 December 2025. The work performed by KPMG
+in this respect did not constitute an assurance engagement and consequently no opinion or
+assurance has been expressed by KPMG on this announcement.
+
+Audit Committee
+
+The Audit Committee comprises Dr. Xie Deren, Dr. Yang Qiang, and Dr. Li Juanzi. Dr. Xie
+Deren serves as the Chairman of the Audit Committee. The Audit Committee has reviewed
+the Group’s annual results for the year ended 31 December 2025, as well as the audited
+consolidated financial statements of the Group for the year ended 31 December 2025, prepared
+in accordance with International Financial Reporting Standards.
+
+Publication of Annual Results and Annual Report
+
+This results announcement has been published on the websites of the Stock Exchange
+(http://www.hkexnews.hk) and the Company (http://www.zhipuai.cn). The Company’s
+annual report for the year ended 31 December 2025, will be published on the aforementioned
+websites of the Stock Exchange and the Company in due course and will be sent to the
+Company’s H Share shareholders in accordance with their chosen method of receiving
+corporate communications.
+
+DEFINITIONS AND GLOSSARY OF TECHNICAL TERMS
+
+In this announcement, unless the context otherwise requires, the following terms shall have
+the meanings set out below:
+
+Definitions
+
+“Articles of Association”        the articles of association of the Company adopted on 28
+                                 June 2025 and effective from the Listing Date, as amended,
+                                 modified or supplemented from time to time
+
+“Audit Committee”                the Audit Committee of the Board
+
+“CG Code”                        the Corporate Governance Code as set out in Appendix C1
+                                 to the Listing Rules
+
+
+
+                                           – 35 –
+“China” or “PRC”        the People’s Republic of China, and solely for the purposes
+                        of this announcement, excluding Hong Kong, the Macau
+                        Special Administrative Region, and Taiwan
+
+“Director(s)”           the director(s) of the Company
+
+“Global Offering”       the Hong Kong Public Offering and the International
+                        Offering as defined in the Prospectus
+
+“Group” or “We” or      the Company and its subsidiaries
+  “Knowledge Atlas”
+
+“H Shares”              the overseas-listed shares of the Company with a par value
+                        of RMB0.10 each, traded in Hong Kong dollars and listed
+                        and traded on the Stock Exchange
+
+“Hong Kong dollar(s)”   Hong Kong dollar(s), the lawful currency of Hong Kong
+
+“Hong Kong”             the Hong Kong Special Administrative Region of the PRC
+
+“Listing”               the listing of the H Shares on the Main Board of the Stock
+                        Exchange on 8 January 2026
+
+“Listing Date”          8 January 2026, the date on which the H Shares were listed
+                        on the Main Board of the Stock Exchange
+
+“Listing Rules”         “the Rules Governing the Listing of Securities on The Stock
+                        Exchange of Hong Kong Limited”
+
+“Model Code”            the Model Code for Securities Transactions by Directors
+                        of Listed Issuers contained in Appendix C3 to the Listing
+                        Rules, as amended, supplemented or otherwise modified
+                        from time to time
+
+“Prospectus”            the Prospectus of the Company dated 30 December 2025 in
+                        relation to the Global Offering and the Listing
+
+“Renminbi” or “RMB”     Renminbi, the lawful currency of the PRC
+
+“Reporting Period”      the year ended 31 December 2025
+
+
+
+
+                                 – 36 –
+“SFC”                       the Securities and Futures Commission of Hong Kong
+
+“Share(s)”                  ordinary share(s) of RMB0.10 each in the share capital of
+                            the Company, including unlisted shares and H shares
+
+“Shareholder(s)”            holder(s) of the Share(s)
+
+“Stock Exchange” or “Hong   The Stock Exchange of Hong Kong Limited
+  Kong Stock Exchange”
+
+“subsidiary(ies)”           the meaning ascribed to it under the Listing Rules
+
+“the board of Directors”    the Board of Directors of the Company
+
+“Company”                   Knowledge Atlas Technology Joint Stock Company Limited
+                            (), a limited liability
+                            company established under the laws of the PRC on 11 June
+                            2019 and converted into a joint stock company with limited
+                            liability on 26 March 2025, with its H Shares listed on the
+                            Stock Exchange (Stock Code: 2513)
+
+“treasury shares”           the meaning ascribed to it under the Listing Rules
+
+“Unlisted Share(s)”         ordinary share(s) issued by the Company, with a par value
+                            of RMB0.10 each, which is/are not listed on any stock
+                            exchange
+
+“United States,” “USA” or   the United States of America, its territories, its possessions
+  “U.S.”                    and all areas subject to its jurisdiction
+
+“U.S. dollars,” “US$” or    United States dollars, the lawful currency of the United
+  “USD”                     States
+
+“%”                         percentage
+
+
+
+
+                                      – 37 –
+Glossary of Technical Terms
+
+“AGI”                          artificial general intelligence, a sophisticated level of
+                               artificial intelligence that matches and even surpasses human
+                               capabilities across all cognitive tasks
+
+“AI”                           artificial intelligence, an area of computer science that
+                               focuses on machinery simulation of intelligence displayed by
+                               humans and other animals
+
+“AI agent”                     a system or program that utilizes AI to perform tasks and
+                               achieve goals autonomously on behalf of a user or another
+                               system
+
+“algorithm”                    a procedure or formula for solving a problem, based on
+                               conducting a sequence of specific actions, especially by a
+                               computer
+
+“API”                          application programming interface, a set of predefined
+                               rules, protocols and tools that allow users to integrate AI
+                               capabilities into applications, websites or software
+
+“computing power”              the ability of a computer system to process data and perform
+                               tasks
+
+“deep learning”                a machine learning technique that constructs artificial neural
+                               networks with multiple layers to extract features from the
+                               raw input
+
+“Direct two-sided importance   Our proprietary asynchronous training algorithm that
+  sampling algorithm”          addresses action-reward misalignment and improves the
+                               efficiency of learning from real-world environments
+
+“Dynamic sparse attention      A technique for long-sequence reasoning optimization that
+  mechanism”                   dynamically selects critical attention heads or positions to
+                               reduce computation without compromising performance
+
+“FlashComm”                    A communication optimization technique that reduces
+                               communication latency during model training or inference
+                               and improves the efficiency of distributed systems
+
+“foundation model”             a pre-trained LLM that serve as the foundation for the
+                               development of a variety of specialized models
+
+                                          – 38 –
+“general-purpose large       an AI model trained on a vast and diverse dataset and
+  model”                     designed to perform a broad range of tasks rather than being
+                             limited to a specific, narrowly defined application
+
+“GPU”                        graphics processing unit, a specialized processor originally
+                             designed for rendering graphics, but now widely used to
+                             accelerate parallel computations in fields like AI, especially
+                             for training and inference of deep learning models
+
+“Heartbeat fault tolerance   A robustness mechanism for large model training that detects
+  mechanism”                 failures via periodic heartbeat signals and enables automatic
+                             recovery to prevent training interruptions
+
+“inference”                  the process of applying trained models to new data to
+                             generate predictions
+
+“large language model        a deep-learning AI model trained on vast amounts of text to
+  (LLM)”                     understand, generate and interact in human language
+
+“large model”                a deep-learning AI model trained on vast amounts of data
+                             and designed to perform a broad range of tasks
+
+“Lightning Indexer”          Customized fused kernel technique that optimizes memory
+                             access, reduces latency, and enhances inference efficiency of
+                             models on domestic AI chips
+
+“Long-horizon tasks”         Complex tasks requiring multi-step iteration and logical
+                             consistency (e.g., enterprise-level long-chain execution),
+                             which demand long-term planning and memory capabilities
+                             of the model
+
+“MaaS”                       Model-as-a-Service, a delivery model of AI model and agent
+                             solutions catered for specific industry verticals or scenarios
+
+“MLA-256 enhancement”        Architectural and algorithmic improvements based on Multi-
+                             Level Attention with 256-dimension feature optimization to
+                             enhance long-sequence processing capability
+
+“Muon Split optimization     Our proprietary optimization for model training that splits
+  strategy”                  attention computation to reduce KVCache usage and improve
+                             training stability
+
+
+
+
+                                        – 39 –
+“open source”                    a source code that is made freely available for possible
+                                 modification and redistribution
+
+“Prefill-Decode (PD)             A technique that decouples the Prefill and Decode stages
+  decoupling”                    of model inference to streamline the inference process and
+                                 boost efficiency
+
+“pre-train”                      the process of training models on large-scale data to learn
+                                 general features prior to task-specific fine-tuning
+
+“SDK”                            software development kit, a set of software development
+                                 tools that allows the creation of applications for a certain
+                                 software package
+
+“Slime framework”                Our asynchronous reinforcement learning framework that
+                                 decouples generation and training, resolves idle cycles in
+                                 long-horizon tasks for intelligent agents, and improves GPU
+                                 utilization
+
+“Token”                          the basic unit of data processed by AI models
+
+
+For ease of reference, the names of Chinese laws and regulations, government authorities,
+institutions, natural persons or other entities are listed in both Chinese and English in this
+announcement. In the event of any ambiguity, the Chinese version shall prevail.
+
+                                                By Order of the Board
+                               Knowledge Atlas Technology Joint Stock Company Limited
+                                                   Dr. LIU Debing
+                                     Executive Director and Chairman of the Board
+
+Hong Kong, 31 March 2026
+
+As at the date of this announcement, the Board comprises: (i) Dr. Liu Debing, Dr. Zhang Peng
+and Ms. Zhang Xiaohan as executive Directors; (ii) Dr. Li Juanzi, Mr. Li Jiaqing and Mr.
+Wang Meng as non-executive Directors; and (iii) Dr. Yang Qiang, Dr. Xie Deren and Mr.
+Tang Ying as independent non-executive Directors.
+
+
+
+
+                                            – 40 –
+

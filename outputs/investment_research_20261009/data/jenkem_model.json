@@ -1,0 +1,777 @@
+{
+  "issuerId": "I017",
+  "securityId": "S019",
+  "name": "键凯科技",
+  "code": "688356.SH",
+  "currency": "CNY",
+  "price": 107.9,
+  "priceCNY": 107.9,
+  "asOf": "2026-10-09",
+  "modelVersion": "jenkem-normalized-pe-v1.0",
+  "status": "独立初版；原中报/年报及研发终止、建设和减持公告核验；正常化EPS/PE为研究情景",
+  "method": "持续归母稀释EPS×PE；剔除历史开发减值不代表追回经济损失；未成熟药物和器械不单独附加rNPV，不重复加金融资产",
+  "shares": {
+    "issued": 60650700,
+    "treasury": 147914,
+    "dividendEligible": 60502786,
+    "issuedSourceDate": "2026-08-25",
+    "note": "8/25专项公告比例及6/23实施公告核验60650700股；后续发行未见，6月登记并非10/9股东名册；EPS主模型保守包含库存股；远期5%/10%新增股份只是压力假设，无发行决定"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 185.0616835,
+    "revenueGrowthPct": 42.65,
+    "cost": 51.70922934,
+    "grossMarginPct": 72.05838163684489,
+    "attributableProfit": 2.91981369,
+    "deductedProfit": -2.10519617,
+    "pretaxProfit": 2.35982467,
+    "developmentImpairment": 70.64105624,
+    "totalAssetImpairment": 74.04366393,
+    "companyAdjustedAttributable": 62.9647,
+    "companyAdjustedDeducted": 57.9397,
+    "companyAdjustedPretax": 73.0009,
+    "OCF": 58.74275666,
+    "capex": 66.92849859,
+    "FCF": -8.18574193,
+    "cashCashEquivalents": 147.28809289,
+    "restrictedCash": 0,
+    "financialCurrent": 329.80535203,
+    "financialNoncurrent": 169.86869829,
+    "financialCurrentComponents": {
+      "wealthManagement": 127.64736214,
+      "unlistedTrust": 101.09786129,
+      "assetManagementPlan": 101.0601286
+    },
+    "financialNoncurrentComponents": {
+      "funds": 110.86869829,
+      "equity": 59
+    },
+    "bankDebt": 0,
+    "leaseDebtIncludingCurrent": 6.73175375,
+    "totalLiabilities": 73.62713561,
+    "equity": 1299.255884,
+    "assets": 1372.88301961,
+    "receivables": 123.20235479,
+    "inventory": 80.79989906,
+    "fixedAssets": 426.09686375,
+    "CIP": 10.41320755,
+    "intangible": 36.74667665,
+    "developmentAsset": 0,
+    "RDTotal": 29.41577549,
+    "RDExpensed": 23.11444994,
+    "RDCapitalized": 6.30132555,
+    "selling": 8.33130283,
+    "admin": 26.57195506,
+    "investmentGain": 12.17362073,
+    "fairValueLoss": 7.66833282,
+    "netFXLoss": 2.10929963,
+    "taxExpense": -0.55998902,
+    "publicationDate": "2026-08-26",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501475.PDF"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 292.1184009,
+      "attributableMillion": 115.7445798,
+      "deductedMillion": 112.19355694,
+      "OCF": 119.80533633,
+      "dilutedEPS": 1.91
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 227.09682517,
+      "attributableMillion": 29.837797,
+      "deductedMillion": 19.47982617,
+      "OCF": 120.17574337,
+      "dilutedEPS": 0.49
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 318.2207578,
+      "attributableMillion": 61.69980118,
+      "deductedMillion": 47.62701549,
+      "OCF": 79.48314134,
+      "dilutedEPS": 1.02,
+      "RDExpensed": 54.7191293,
+      "RDCapitalized": 43.53023213,
+      "RDTotal": 98.24936143,
+      "capex": 55.84176745,
+      "FCF": 23.64137389
+    }
+  ],
+  "segments": [
+    {
+      "name": "销售产品",
+      "revenueMillion": 170.74582648,
+      "costMillion": 48.39145315
+    },
+    {
+      "name": "技术使用费",
+      "revenueMillion": 14.03105039,
+      "costMillion": 3.11588854
+    },
+    {
+      "name": "运输服务",
+      "revenueMillion": 0.28480663,
+      "costMillion": 0.20188765
+    },
+    {
+      "name": "国内",
+      "revenueMillion": 68.82267758,
+      "growthPct": 192.1
+    },
+    {
+      "name": "国外",
+      "revenueMillion": 116.23900592,
+      "growthPct": 9.49,
+      "drugGrowthPct": -16.77,
+      "deviceGrowthPct": 42.87
+    }
+  ],
+  "customerConcentration": {
+    "period": "FY2025",
+    "topFivePct": 68.21,
+    "largestPct": 33.28,
+    "sourcePage": 26
+  },
+  "project": {
+    "name": "渤海美湾键凯科技健康园区",
+    "announcementDate": "2026-07-01",
+    "investmentCapMillion": 315,
+    "plannedMonths": 24,
+    "plannedStart": "2026-08-18",
+    "companyEstimatedReturnPct": 24.8,
+    "companyReturnDefinition": "原公告未说明净利/IRR及详细收入费用计算口径；不作为研究模型保证收益",
+    "areaSquareMeters": 31341,
+    "financing": "自有资金/银行贷款/其他合规，非募集资金；未取得实际提款时间",
+    "note": "公告6/30董事会决定、7/1刊载；计划开工非实际开工；器械生产/研发实验室/孵化器，非全额PEG材料扩产；315m不与已支出和账面CIP重复相加"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026各市场最后交易日",
+      "epsCNY": [
+        1.05,
+        2,
+        2.45
+      ],
+      "PE": [
+        35,
+        48,
+        60
+      ],
+      "priceCNY": [
+        36.75,
+        96,
+        147
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "revenueCNYMillion": [
+        330,
+        410,
+        450
+      ],
+      "sharesMillion": [
+        60.6507,
+        60.6507,
+        60.6507
+      ],
+      "attributableProfitCNYMillion": [
+        63.683235,
+        121.3014,
+        148.59421500000002
+      ],
+      "attributableMarginPct": [
+        19.29795,
+        29.58570731707317,
+        33.02093666666667
+      ],
+      "bankDebtCNYMillion": [
+        0,
+        0,
+        0
+      ],
+      "annualBankInterestCNYMillion": [
+        0,
+        0,
+        0
+      ],
+      "annualNewProjectDepreciationMillion": [
+        0,
+        0,
+        0
+      ],
+      "effectiveTaxRatePct": [
+        15,
+        15,
+        15
+      ],
+      "pretaxProfitCNYMillion": [
+        74.92145294117648,
+        142.7075294117647,
+        174.8167235294118
+      ],
+      "profitBeforeProjectInterestAndDepMillion": [
+        74.92145294117648,
+        142.7075294117647,
+        174.8167235294118
+      ],
+      "earningsBasis": "未来12个月持续归母盈利能力，已扣正常费用化研发和园区成本；不含历史开发減值反转",
+      "conditions": [
+        "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+        "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+        "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+      ],
+      "priceReturnPct": [
+        -65.9406858202039,
+        -11.02873030583874,
+        36.23725671918443
+      ],
+      "totalReturnPct": [
+        -65.9406858202039,
+        -11.02873030583874,
+        36.23725671918443
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceCNY": 93.9375,
+      "expectedReturnPct": -12.940222428174241,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 77.4,
+        "positivePrice": 110.475
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.1,
+        2.1,
+        2.8
+      ],
+      "PE": [
+        32,
+        48,
+        62
+      ],
+      "priceCNY": [
+        35.2,
+        100.80000000000001,
+        173.6
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "revenueCNYMillion": [
+        350,
+        450,
+        550
+      ],
+      "sharesMillion": [
+        60.6507,
+        60.6507,
+        60.6507
+      ],
+      "attributableProfitCNYMillion": [
+        66.71577,
+        127.36647,
+        169.82196
+      ],
+      "attributableMarginPct": [
+        19.061648571428574,
+        28.30366,
+        30.87672
+      ],
+      "bankDebtCNYMillion": [
+        100,
+        50,
+        0
+      ],
+      "annualBankInterestCNYMillion": [
+        3.5000000000000004,
+        1.7500000000000002,
+        0
+      ],
+      "annualNewProjectDepreciationMillion": [
+        0,
+        0,
+        0
+      ],
+      "effectiveTaxRatePct": [
+        15,
+        15,
+        15
+      ],
+      "pretaxProfitCNYMillion": [
+        78.4891411764706,
+        149.84290588235297,
+        199.79054117647058
+      ],
+      "profitBeforeProjectInterestAndDepMillion": [
+        81.9891411764706,
+        151.59290588235297,
+        199.79054117647058
+      ],
+      "earningsBasis": "未来12个月持续归母盈利能力，已扣正常费用化研发和园区成本；不含历史开发減值反转",
+      "conditions": [
+        "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+        "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+        "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+      ],
+      "priceReturnPct": [
+        -67.37720111214087,
+        -6.580166821130673,
+        60.88971269694159
+      ],
+      "totalReturnPct": [
+        -67.37720111214087,
+        -6.580166821130673,
+        60.88971269694159
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        1.2,
+        2.6,
+        3.4
+      ],
+      "PE": [
+        30,
+        45,
+        58
+      ],
+      "priceCNY": [
+        36,
+        117,
+        197.2
+      ],
+      "cumulativeCashDividendCNY": [
+        0.12,
+        0.32,
+        0.45
+      ],
+      "revenueCNYMillion": [
+        380,
+        520,
+        630
+      ],
+      "sharesMillion": [
+        60.6507,
+        60.6507,
+        60.6507
+      ],
+      "attributableProfitCNYMillion": [
+        72.78084,
+        157.69182,
+        206.21238
+      ],
+      "attributableMarginPct": [
+        19.15285263157895,
+        30.32535,
+        32.73212380952381
+      ],
+      "bankDebtCNYMillion": [
+        150,
+        80,
+        30
+      ],
+      "annualBankInterestCNYMillion": [
+        5.250000000000001,
+        2.8000000000000003,
+        1.05
+      ],
+      "annualNewProjectDepreciationMillion": [
+        0,
+        0,
+        0
+      ],
+      "effectiveTaxRatePct": [
+        15,
+        15,
+        15
+      ],
+      "pretaxProfitCNYMillion": [
+        85.62451764705882,
+        185.51978823529413,
+        242.6028
+      ],
+      "profitBeforeProjectInterestAndDepMillion": [
+        90.87451764705882,
+        188.31978823529414,
+        243.6528
+      ],
+      "earningsBasis": "未来12个月持续归母盈利能力，已扣正常费用化研发和园区成本；不含历史开发減值反转",
+      "conditions": [
+        "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+        "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+        "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+      ],
+      "priceReturnPct": [
+        -66.63577386468953,
+        8.43373493975903,
+        82.76181649675624
+      ],
+      "totalReturnPct": [
+        -66.52455977757184,
+        8.730305838739572,
+        83.1788693234476
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.5,
+        3.8,
+        6
+      ],
+      "PE": [
+        26,
+        40,
+        52
+      ],
+      "priceCNY": [
+        39,
+        152,
+        312
+      ],
+      "cumulativeCashDividendCNY": [
+        0.4,
+        1.2,
+        2
+      ],
+      "revenueCNYMillion": [
+        450,
+        760,
+        1150
+      ],
+      "sharesMillion": [
+        66.71577,
+        63.683235,
+        60.6507
+      ],
+      "attributableProfitCNYMillion": [
+        100.073655,
+        241.996293,
+        363.9042
+      ],
+      "attributableMarginPct": [
+        22.23859,
+        31.8416175,
+        31.64384347826087
+      ],
+      "bankDebtCNYMillion": [
+        180,
+        100,
+        0
+      ],
+      "annualBankInterestCNYMillion": [
+        6.300000000000001,
+        3.5000000000000004,
+        0
+      ],
+      "annualNewProjectDepreciationMillion": [
+        16,
+        13,
+        13
+      ],
+      "effectiveTaxRatePct": [
+        15,
+        15,
+        15
+      ],
+      "pretaxProfitCNYMillion": [
+        117.73371176470589,
+        284.7015211764706,
+        428.12258823529413
+      ],
+      "profitBeforeProjectInterestAndDepMillion": [
+        140.03371176470588,
+        301.2015211764706,
+        441.12258823529413
+      ],
+      "earningsBasis": "未来12个月持续归母盈利能力，已扣正常费用化研发和园区成本；不含历史开发減值反转",
+      "conditions": [
+        "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+        "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+        "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+      ],
+      "priceReturnPct": [
+        -63.85542168674698,
+        40.87117701575531,
+        189.15662650602408
+      ],
+      "totalReturnPct": [
+        -63.48470806302131,
+        41.983317886932326,
+        191.01019462465243
+      ],
+      "baseAnnualizedTotalReturnPct": 12.39468475320491
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        1.7,
+        5,
+        8
+      ],
+      "PE": [
+        22,
+        35,
+        45
+      ],
+      "priceCNY": [
+        37.4,
+        175,
+        360
+      ],
+      "cumulativeCashDividendCNY": [
+        0.8,
+        2.6,
+        4.5
+      ],
+      "revenueCNYMillion": [
+        500,
+        1050,
+        1900
+      ],
+      "sharesMillion": [
+        66.71577,
+        63.683235,
+        60.6507
+      ],
+      "attributableProfitCNYMillion": [
+        113.416809,
+        318.416175,
+        485.2056
+      ],
+      "attributableMarginPct": [
+        22.6833618,
+        30.32535,
+        25.537136842105262
+      ],
+      "bankDebtCNYMillion": [
+        180,
+        60,
+        0
+      ],
+      "annualBankInterestCNYMillion": [
+        6.300000000000001,
+        2.1,
+        0
+      ],
+      "annualNewProjectDepreciationMillion": [
+        16,
+        13,
+        13
+      ],
+      "effectiveTaxRatePct": [
+        15,
+        15,
+        15
+      ],
+      "pretaxProfitCNYMillion": [
+        133.43154,
+        374.60726470588236,
+        570.8301176470588
+      ],
+      "profitBeforeProjectInterestAndDepMillion": [
+        155.73154000000002,
+        389.7072647058824,
+        583.8301176470588
+      ],
+      "earningsBasis": "未来12个月持续归母盈利能力，已扣正常费用化研发和园区成本；不含历史开发減值反转",
+      "conditions": [
+        "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+        "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+        "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+      ],
+      "priceReturnPct": [
+        -65.33827618164968,
+        62.18721037998145,
+        233.64226135310471
+      ],
+      "totalReturnPct": [
+        -64.59684893419833,
+        64.59684893419832,
+        237.81278962001852
+      ],
+      "baseAnnualizedTotalReturnPct": 10.48016224506474
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        1.9,
+        4,
+        3.6,
+        3.6,
+        2.8,
+        2.8
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 62.7
+    },
+    "oneYear": {
+      "dimensions": [
+        2.6,
+        4,
+        3.7,
+        3.7,
+        3,
+        2.8
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 66.2
+    },
+    "threeYear": {
+      "dimensions": [
+        3.1,
+        4,
+        3.8,
+        3.7,
+        3.2,
+        2.9
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 69.9
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.1,
+        4,
+        3.8,
+        3.6,
+        3.1,
+        2.8
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 68.69999999999999
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "大客户内化或降价、海外药品端去库存延续，器械研发和园区回报偏弱，金融资产和估值压缩",
+    "国内新客户补回历史大客户缺口、海外器械稳步增长，材料毛利保持且研发费用受控，园区分步建设",
+    "材料全球渗透、泛PEG新用途转化、技术使用费重复发生，器械项目取得可验证订单，盈利和现金流共同改善"
+  ],
+  "assumptions": [
+    "EPS为各目标日未来12个月可持续盈利能力，年底非2026已实现EPS；收入、正常利润和PE是判断假设",
+    "开发减值70.641m是经济损失，正常化观察可剔除但不加回资产价值；其他存货损失不一律加回",
+    "归母盈利含费用化研发、后续终止收尾、园区利息折旧和维持业务投入；远期新增股份是压力假设，无公告发行",
+    "税率15%/贷款3.5%及园区折旧为简化研究输入，不等同各实体实际税率或合同；未完成逐年三表/分部DCF",
+    "现金和金融投资已在净利与PE评价中考虑，不再把全部余额附加目标价；理财、信托、资管和股权不等同可即时支付现金",
+    "已在6/29除息支付0.31元不计入未来；未来累计股息均为研究假设",
+    "停止小细胞肺癌三期，不给其新增临床/商业价值；其余二期与临床前项目因证据不足不单独加值，经济价值未知",
+    "25/50/25及40/50/10、10/50/40为判断权重，情景不是统计区间或最大损失"
+  ],
+  "brokerTargets": [],
+  "brokerTargetStatus": "公开可核验外资目标价未取得；不把国内券商意见或无日期转述当外资目标",
+  "confidence": {
+    "fundamentals": "高：原财报和专项公告；园区现金时点及临床全文未取得",
+    "technical": "高：728日双源日线，股单位和分红核对",
+    "valuation": "中低：正常化盈利、倍数及园区/融资为情景，完整DCF和三表缺",
+    "institutionTargets": "缺失"
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "历史2025PE约105.78、报告TTM约153.75、正常化更低但仍需证据；一年基准117只约8.43%股价空间",
+    "technicalRelativeStrength": "现价高20/60/120/250日线，20/60日强于沪深300但日ATR8.21%、乖离21%以上，技术4分未把同类指标重复加分",
+    "growthBusinessQuality": "收入42.65%、GM72.06%，材料定制与客户认证有壁垒；国内低基数和服务波动、最大客户33.28%约束",
+    "industryCycle": "创新药/器械材料需求扩张但客户商业化和预算有周期；海外药端-16.77%且客户可自建供应",
+    "catalysts": "材料季度兑现与新客户，而非已终止三期；园区预计24个月对半年直接利润贡献有限",
+    "financialGovernanceDownside": "无表列银行债但可支付现金仅147.3m、315m新项目、非现金金融投资和研发损失；股东已减持3%"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501475.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-29/1225231629.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501462.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-07-01/1225399088.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-06-23/1225381769.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225495074.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-09/1225553366.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-01/1225536763.PDF"
+  ],
+  "deepResearchFile": "research/jenkem_deep.md",
+  "limitations": [
+    "完整分部DCF、园区年度现金与三表融资联动未完成",
+    "临床论文/注册与专利FTO未完成独立全文核验；材料备案非终端产品批准",
+    "估值历史分位与可比正常化利润桥缺失",
+    "细分行业指数和外资机构有效目标未取得",
+    "定价、采购量、客户留存与实际园区开工提款日期未公开核验",
+    "最终Word/PDF排版由父代理完成"
+  ],
+  "valuationChecks": {
+    "FY2025PE": 105.7843137254902,
+    "TTMProfitMillion": 42.565103060000006,
+    "TTMEPS": 0.7018072843347234,
+    "companyAdjustedH1AnnualizedEPS": 2.0763057969652454,
+    "companyAdjustedH1AnnualizedPE": 51.96729699339471,
+    "conservativeAdjustedH1AnnualizedEPS": 1.733980754797554,
+    "note": "年化非预测；税后资本化全部费用化敏感税率15%仅为示意",
+    "reportTTMPE": 153.74591060604845
+  },
+  "effectiveHanzi": 13649,
+  "qaFile": "qa/jenkem_qa.json",
+  "qaStatus": "正文汉字、完全重复段落、EPS/PE/回报及评分核算通过；完整现金联动/临床核验仍属初版缺口"
+}

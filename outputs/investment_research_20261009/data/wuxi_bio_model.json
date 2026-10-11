@@ -1,0 +1,1219 @@
+{
+  "issuerId": "I034",
+  "securityId": "S040",
+  "name": "药明生物",
+  "code": "02269.HK",
+  "asOf": "2026-10-09",
+  "modelVersion": "wuxi-bio-v1",
+  "priceHKD": 53.85,
+  "priceEvidence": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01530,hk00013,hk01093,hk02157,hk02228,hk02607,hk03692,hk02186,hk01177,hk02359,hk00512,hk02096,hk02269,hk01548,hk01513,hk06160,hk02511,hk09939,hk09688,hk01952,hk09969,hk06185,hk02196,hk03347,hk06127",
+      "retrievedAt": "2026-10-10T09:16:12.054Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk06855,rt_hk03759,rt_hk01530,rt_hk00013,rt_hk01093,rt_hk02157,rt_hk02228,rt_hk02607,rt_hk03692,rt_hk02186,rt_hk01177,rt_hk02359,rt_hk00512,rt_hk02096,rt_hk02269,rt_hk01548,rt_hk01513,rt_hk06160,rt_hk02511,rt_hk09939,rt_hk09688,rt_hk01952,rt_hk09969,rt_hk06185,rt_hk02196",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/2269.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:16.284Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk02269,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:16.458Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 11787.238,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "grossProfit",
+      "value": 5448.319,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "profit",
+      "value": 2916.209,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "attributableProfit",
+      "value": 2439.813,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "adjustedAttributableProfit",
+      "value": 3305.697,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "cashBank",
+      "value": 8904.44,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    },
+    {
+      "metric": "liquidAssetsExpanded",
+      "value": 13708.5,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-22",
+      "sourceURL": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "集团期内利润2916.209与归母2439.813区分；归母调整3305.697；扩展流动资金含定存理财。"
+    }
+  ],
+  "brokerTargets": [
+    {
+      "institution": "Goldman Sachs",
+      "targetPrice": 55.8,
+      "rating": "中性",
+      "publicationDate": "2026-09-25",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "预测PE约25倍；公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1546457/research-report",
+      "newsID": "NOW.1546457",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "仍是主要增長引擎，受惠於分子推進至CMO、藥物產品(DP)快速擴張、生物類似藥機會增加及Win-the-Molecule項目。高盛相信產能利用率、規模效益及生產力提升，以及更豐富的療法組合，將帶動利潤率結構性擴張，維持藥明生物「中性」評級，目標價55.8元，對應預測市盈率約25倍。(gc/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生物科技及CXO AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Bank of America",
+      "targetPrice": 56,
+      "rating": "中性",
+      "publicationDate": "2026-09-21",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1545493/research-report",
+      "newsID": "NOW.1545493",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "、三生製藥(01530.HK) +0.080 (+0.534%) 沽空 $4.47千萬; 比率 13.219% 及時代天使(06699.HK) -0.900 (-1.082%) 沽空 $3.80百萬; 比率 13.819% 的「買入」評級，目標價分別為140港元、45.3港元、65.8元人民幣、23.8港元及107.6港元；中生製藥(01177.HK) -0.075 (-1.367%) 沽空 $8.32千萬; 比率 21.179% 目標價由7.1港元上調至7.3港元，重申「買入」評級；維持石藥集團(01093.HK) -0.200 (-2.154%) 沽空 $3.07億; 比率 36.279% 「跑輸大市」評級及目標價8.6港元；認為藥明生物(02269.HK) -0.250 (-0.462%) 沽空 $3.86億; 比率 5.335% 估值偏高，維持「中\n性」評級及目標價56港元。(gc/ad)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) (A股報價延遲最少十五分鐘。) 相關內容 《大行》大華繼顯大中華區選股納入滴滴(DIDIY.US)、信置(00083.HK)及攜程(09961.HK) 料10月市場持續波動 AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Citi",
+      "targetPrice": 62,
+      "rating": "买入",
+      "publicationDate": "2026-08-27",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541199/research-report",
+      "newsID": "NOW.1541199",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "，管理層指引今年下半年毛利率將與上半年持平，並因更高平均售價、WBS及海外產能爬坡，2027年毛利率將提高100個基點。該行將藥明生物2026-2028年收入預測上調2%、3%及8%，每股盈利預測上調10%、10%及17%，以反映上述情況；目標價由42元上調至62元。評級「買入」。(ha/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生物科技及CXO AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Daiwa",
+      "targetPrice": 59,
+      "rating": "买入",
+      "publicationDate": "2026-08-27",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "预测PE24倍；公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541244/research-report",
+      "newsID": "NOW.1541244",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": ".335% 上半年總收入按年增長18.4%至118億元人民幣，經調整非國際財務報告準則純利按年升38.4%至33.1億元人民幣，主要受毛利率由去年同期的42.7%升至46.2%所帶動，業績表現勝市場預期。 大和重申對藥明生物的「買入」評級，目標價由44港元上調至59港元，此相當於預測市盈率24倍，較此前的20倍有所提升，以反映市場情緒改善及穩固基本面。該行同時上調2026至2028年每股盈利預測12%至14%，主要基於更高的毛利率預測。(ad/da)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生物科技及CXO AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Nomura",
+      "targetPrice": 60.22,
+      "rating": "买入",
+      "publicationDate": "2026-08-26",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1540819/research-report",
+      "newsID": "NOW.1540819",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": " 收入與盈利均超出該行及市場預期。上半年收入按年增長18.4%至118億元人民幣，略高於市場及該行預期的115億元人民幣，盈利按年增長4.3%至24億元人民幣，高於市場及該行預期的22億/20億元人民幣。 該行維持藥明生物「買入」評級，並將目標價由51.38港元上調至60.22港元。管理層將2026年銷售收入增長指引由按年13-17%上調至15-18%，按固定匯率計算，由16%-20%上調至20-23%。公司亦指引2027年資本開支為80億元人民幣，基於2026年的高基數，反映出擴張步伐加快，尤其體現在5月及6月項目增長較高。該行同時上調藥明生物2026年收入/盈利預測分別1.8%和13.7%。(ha/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "Morgan Stanley",
+      "targetPrice": 57,
+      "rating": "增持",
+      "publicationDate": "2026-08-26",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1540816/research-report",
+      "newsID": "NOW.1540816",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "指引區間為20-23%，此前為16-20%。 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生物科技及CXO 在發布2026年上半年業績後，大摩上調藥明生物2026-2030年盈利預測7-11%，以反映收入增長加速。目標價相應由50港元升至57港元。評級「增持」。(ha/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) AASTOCKS新聞",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "CLSA",
+      "targetPrice": 65.7,
+      "rating": "跑赢大市",
+      "publicationDate": "2026-08-27",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "CLSA为中资控制国际券商，单独标记",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541272/research-report",
+      "newsID": "NOW.1541272",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": ")，原先指引為13%至17%(按實際匯率計算)及16%至20%(按固定匯率計算)，並重申2026至2028年收入複合年增長率約20%的目標，其中商業化生產(CMO)業務複合年增長率約30%。該行上調2026至2028年盈利預測6%至10%，目標價由51.9港元上調至65.7港元，重申「跑贏大市」評級，並視藥明生物為里昂全球醫療保健投資組合的核心持股。(ad/da)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) 相關內容 《大行》摩通：不太擔心利率上升影響中國醫療健康行業 繼續看好生物科技及CXO AASTOCKS新聞",
+      "institutionOwnership": "Chinese-controlled international brokerage"
+    }
+  ],
+  "modelType": "归母经营EPS × 合理PE × 人民币港币换算；单套假设模型三情景快照",
+  "assumptions": {
+    "eps": "全部预测EPS为研究假设；不代表管理层指引或投行一致预期，采用归母经营盈利并保留未来稀释影响",
+    "fx": "1人民币=1.10港元为估值敏感性假设，非声称基准日实测汇率",
+    "dividend": "各期限股息默认0；公司最新中报未派息，未知未来政策不补造分红",
+    "cash": "不额外加现金价值，避免含利息盈利与现金重复计价；详细DCF/净债务尚未完成",
+    "earningsHorizon": "半年用2027EPS；一年用2028前瞻EPS；三年与五年用目标年度EPS，均显式标记",
+    "probability": "25/50/25主观情景权重；非真实市场概率或置信区间",
+    "terminalRisk": "三五年PE逐步正常化；悲观不是最大损失边界",
+    "updatePolicy": "输入修改须重新运行工具以刷新所有场景，未执行不视为更新"
+  },
+  "horizons": {
+    "yearEnd": {
+      "targetDate": "2026-12-31",
+      "nonTradingDayRule": "此前最后交易日；本模型保留目标日标签，交易日对齐由总表",
+      "years": 0.2273972602739726,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "epsCNY": 1.85,
+          "earningsYear": 2027,
+          "pe": 18,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 36.63000000000001,
+          "dividendHKD": 0,
+          "capitalReturnPct": -31.97771587743731,
+          "totalReturnPct": -31.97771587743731,
+          "annualizedTotalReturnPct": null,
+          "condition": "订单/客户预算受压，估值风险折价扩大",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "epsCNY": 2.3,
+          "earningsYear": 2027,
+          "pe": 22,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 55.66,
+          "dividendHKD": 0,
+          "capitalReturnPct": 3.3611884865366592,
+          "totalReturnPct": 3.3611884865366592,
+          "annualizedTotalReturnPct": null,
+          "condition": "已公开增长路径基本兑现，按2027盈利22倍消化",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "epsCNY": 2.65,
+          "earningsYear": 2027,
+          "pe": 25,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 72.875,
+          "dividendHKD": 0,
+          "capitalReturnPct": 35.32961931290621,
+          "totalReturnPct": 35.32961931290621,
+          "annualizedTotalReturnPct": null,
+          "condition": "商业化和订单上修，经营效率改善并获得25倍估值",
+          "assumptionType": "research_judgment_not_consensus"
+        }
+      ],
+      "expectedPriceHKD": 55.20625,
+      "expectedCapitalReturnPct": 2.5185701021355644,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 51.49100000000001
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 58.74000000000001
+        }
+      ]
+    },
+    "halfYear": {
+      "targetDate": "2027-04-09",
+      "nonTradingDayRule": "此前最后交易日；本模型保留目标日标签，交易日对齐由总表",
+      "years": 0.5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "epsCNY": 1.85,
+          "earningsYear": 2027,
+          "pe": 18,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 36.63000000000001,
+          "dividendHKD": 0,
+          "capitalReturnPct": -31.97771587743731,
+          "totalReturnPct": -31.97771587743731,
+          "annualizedTotalReturnPct": null,
+          "condition": "全年利润/新订单逊预期，估值回归18倍",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "epsCNY": 2.3,
+          "earningsYear": 2027,
+          "pe": 24,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 60.72,
+          "dividendHKD": 0,
+          "capitalReturnPct": 12.757660167130913,
+          "totalReturnPct": 12.757660167130913,
+          "annualizedTotalReturnPct": null,
+          "condition": "全年经营表现支持2027EPS2.30，合理24倍",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "epsCNY": 2.65,
+          "earningsYear": 2027,
+          "pe": 28,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 81.62,
+          "dividendHKD": 0,
+          "capitalReturnPct": 51.56917363045497,
+          "totalReturnPct": 51.56917363045497,
+          "annualizedTotalReturnPct": null,
+          "condition": "新订单、毛利率超预期并获28倍估值",
+          "assumptionType": "research_judgment_not_consensus"
+        }
+      ],
+      "expectedPriceHKD": 59.9225,
+      "expectedCapitalReturnPct": 11.276694521819874,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 55.26400000000001
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 64.262
+        }
+      ]
+    },
+    "oneYear": {
+      "targetDate": "2027-10-09",
+      "nonTradingDayRule": "此前最后交易日；本模型保留目标日标签，交易日对齐由总表",
+      "years": 1,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "epsCNY": 2.2,
+          "earningsYear": 2028,
+          "pe": 18,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 43.56,
+          "dividendHKD": 0,
+          "capitalReturnPct": -19.108635097493032,
+          "totalReturnPct": -19.108635097493032,
+          "annualizedTotalReturnPct": null,
+          "condition": "扩产及汇兑压力，EPS低于主情景",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "epsCNY": 2.75,
+          "earningsYear": 2028,
+          "pe": 24,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 72.60000000000001,
+          "dividendHKD": 0,
+          "capitalReturnPct": 34.818941504178284,
+          "totalReturnPct": 34.818941504178284,
+          "annualizedTotalReturnPct": null,
+          "condition": "后期项目及商业化转化推动2028EPS2.75",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "epsCNY": 3.4,
+          "earningsYear": 2028,
+          "pe": 28,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 104.72000000000001,
+          "dividendHKD": 0,
+          "capitalReturnPct": 94.46610956360261,
+          "totalReturnPct": 94.46610956360261,
+          "annualizedTotalReturnPct": null,
+          "condition": "全球产能有效爬坡、CMO需求和毛利超预期",
+          "assumptionType": "research_judgment_not_consensus"
+        }
+      ],
+      "expectedPriceHKD": 73.37,
+      "expectedCapitalReturnPct": 36.24883936861654,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 67.40800000000002
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 79.64000000000001
+        }
+      ]
+    },
+    "threeYear": {
+      "targetDate": "2029-10-09",
+      "nonTradingDayRule": "此前最后交易日；本模型保留目标日标签，交易日对齐由总表",
+      "years": 3,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "epsCNY": 2.4,
+          "earningsYear": 2029,
+          "pe": 17,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 44.88,
+          "dividendHKD": 0,
+          "capitalReturnPct": -16.657381615598887,
+          "totalReturnPct": -16.657381615598887,
+          "annualizedTotalReturnPct": -5.8929022146612215,
+          "condition": "订单取消/低效资本投入，利润增长偏低",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "epsCNY": 3.5,
+          "earningsYear": 2029,
+          "pe": 22,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 84.7,
+          "dividendHKD": 0,
+          "capitalReturnPct": 57.288765088207995,
+          "totalReturnPct": 57.288765088207995,
+          "annualizedTotalReturnPct": 16.29630084448852,
+          "condition": "后期项目池转化及规模效率支持EPS3.50",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "epsCNY": 5,
+          "earningsYear": 2029,
+          "pe": 27,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 148.5,
+          "dividendHKD": 0,
+          "capitalReturnPct": 175.76601671309194,
+          "totalReturnPct": 175.76601671309194,
+          "annualizedTotalReturnPct": 40.2319313257838,
+          "condition": "商业化显著放量、平台份额提高，EPS5.00",
+          "assumptionType": "research_judgment_not_consensus"
+        }
+      ],
+      "expectedPriceHKD": 90.695,
+      "expectedCapitalReturnPct": 68.42154131847724,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 81.53200000000001
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 102.256
+        }
+      ]
+    },
+    "longTerm": {
+      "targetDate": "2031-10-09",
+      "nonTradingDayRule": "此前最后交易日；本模型保留目标日标签，交易日对齐由总表",
+      "years": 5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "epsCNY": 2.6,
+          "earningsYear": 2031,
+          "pe": 15,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 42.900000000000006,
+          "dividendHKD": 0,
+          "capitalReturnPct": -20.334261838440103,
+          "totalReturnPct": -20.334261838440103,
+          "annualizedTotalReturnPct": -4.4448019607709615,
+          "condition": "全球竞争/政策风险压低回报及终端倍数",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "epsCNY": 4.6,
+          "earningsYear": 2031,
+          "pe": 20,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 101.2,
+          "dividendHKD": 0,
+          "capitalReturnPct": 87.92943361188486,
+          "totalReturnPct": 87.92943361188486,
+          "annualizedTotalReturnPct": 13.448553001268614,
+          "condition": "客户黏性、全球产能及持续现金回报兑现",
+          "assumptionType": "research_judgment_not_consensus"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "epsCNY": 7.3,
+          "earningsYear": 2031,
+          "pe": 25,
+          "cnyToHkd": 1.1,
+          "targetPriceHKD": 200.75000000000003,
+          "dividendHKD": 0,
+          "capitalReturnPct": 272.79480037140206,
+          "totalReturnPct": 272.79480037140206,
+          "annualizedTotalReturnPct": 30.104994675792863,
+          "condition": "复杂生物药平台成功、份额和商业化规模显著扩大",
+          "assumptionType": "research_judgment_not_consensus"
+        }
+      ],
+      "expectedPriceHKD": 111.51250000000002,
+      "expectedCapitalReturnPct": 107.07985143918295,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 97.79000000000002
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 129.36
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "halfYear": {
+      "score": 67.80000000000001,
+      "dimensionScores": {
+        "valuation": {
+          "value": 3,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 30,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.2,
+          "weightPct": 15,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 10,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.5,
+          "weightPct": 10,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      },
+      "method": "主观证据评分，不是盈利概率；量价行业基准缺失；价格模型不冒充完整DCF"
+    },
+    "oneYear": {
+      "score": 74.4,
+      "dimensionScores": {
+        "valuation": {
+          "value": 3.5,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 15,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.3,
+          "weightPct": 25,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 15,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.7,
+          "weightPct": 10,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3.2,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      },
+      "method": "主观证据评分，不是盈利概率；量价行业基准缺失；价格模型不冒充完整DCF"
+    },
+    "threeYear": {
+      "score": 78.5,
+      "dimensionScores": {
+        "valuation": {
+          "value": 3.8,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 5,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.3,
+          "weightPct": 35,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 20,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.8,
+          "weightPct": 5,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3.2,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      },
+      "method": "主观证据评分，不是盈利概率；量价行业基准缺失；价格模型不冒充完整DCF"
+    },
+    "longTerm": {
+      "score": 74.1,
+      "dimensionScores": {
+        "valuation": {
+          "value": 3.6,
+          "weightPct": 20,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": null,
+          "weightPct": 0,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4,
+          "weightPct": 40,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 3.8,
+          "weightPct": 20,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.5,
+          "weightPct": 5,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3,
+          "weightPct": 15,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      },
+      "method": "主观证据评分，不是盈利概率；量价行业基准缺失；价格模型不冒充完整DCF"
+    }
+  },
+  "confidence": "medium",
+  "limitations": [
+    "完整DCF、逐客户取消率与资本回报模型待核验",
+    "公司资料财务口径与股权结构已有原中报基础，但预测盈利为独立假设",
+    "同行业指数相对强弱缺失，市场超额不能替代行业超额"
+  ],
+  "price": 53.85,
+  "currency": "HKD",
+  "method": "归母经营EPS × 合理PE × 人民币港币换算；单套假设模型三情景快照",
+  "deepResearchFile": "research/I034_deep.md",
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "epsCNY": [
+        1.85,
+        2.3,
+        2.65
+      ],
+      "PE": [
+        18,
+        22,
+        25
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        36.63000000000001,
+        55.66,
+        72.875
+      ],
+      "conditions": [
+        "订单/客户预算受压，估值风险折价扩大",
+        "已公开增长路径基本兑现，按2027盈利22倍消化",
+        "商业化和订单上修，经营效率改善并获得25倍估值"
+      ],
+      "earningsYear": 2027,
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 55.20625
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.85,
+        2.3,
+        2.65
+      ],
+      "PE": [
+        18,
+        24,
+        28
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        36.63000000000001,
+        60.72,
+        81.62
+      ],
+      "conditions": [
+        "全年利润/新订单逊预期，估值回归18倍",
+        "全年经营表现支持2027EPS2.30，合理24倍",
+        "新订单、毛利率超预期并获28倍估值"
+      ],
+      "earningsYear": 2027,
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 59.9225
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        2.2,
+        2.75,
+        3.4
+      ],
+      "PE": [
+        18,
+        24,
+        28
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        43.56,
+        72.60000000000001,
+        104.72000000000001
+      ],
+      "conditions": [
+        "扩产及汇兑压力，EPS低于主情景",
+        "后期项目及商业化转化推动2028EPS2.75",
+        "全球产能有效爬坡、CMO需求和毛利超预期"
+      ],
+      "earningsYear": 2028,
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 73.37
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        2.4,
+        3.5,
+        5
+      ],
+      "PE": [
+        17,
+        22,
+        27
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        44.88,
+        84.7,
+        148.5
+      ],
+      "conditions": [
+        "订单取消/低效资本投入，利润增长偏低",
+        "后期项目池转化及规模效率支持EPS3.50",
+        "商业化显著放量、平台份额提高，EPS5.00"
+      ],
+      "earningsYear": 2029,
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 90.695
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        2.6,
+        4.6,
+        7.3
+      ],
+      "PE": [
+        15,
+        20,
+        25
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        42.900000000000006,
+        101.2,
+        200.75000000000003
+      ],
+      "conditions": [
+        "全球竞争/政策风险压低回报及终端倍数",
+        "客户黏性、全球产能及持续现金回报兑现",
+        "复杂生物药平台成功、份额和商业化规模显著扩大"
+      ],
+      "earningsYear": 2031,
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 111.51250000000002
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3,
+        3.2,
+        4.2,
+        4,
+        3.5,
+        3
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 67.80000000000001,
+      "explanations": {
+        "valuation": {
+          "value": 3,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 30,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.2,
+          "weightPct": 15,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 10,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.5,
+          "weightPct": 10,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      }
+    },
+    "oneYear": {
+      "dimensions": [
+        3.5,
+        3.2,
+        4.3,
+        4,
+        3.7,
+        3.2
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 74.4,
+      "explanations": {
+        "valuation": {
+          "value": 3.5,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 15,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.3,
+          "weightPct": 25,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 15,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.7,
+          "weightPct": 10,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3.2,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      }
+    },
+    "threeYear": {
+      "dimensions": [
+        3.8,
+        3.2,
+        4.3,
+        4,
+        3.8,
+        3.2
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 78.5,
+      "explanations": {
+        "valuation": {
+          "value": 3.8,
+          "weightPct": 25,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": 3.2,
+          "weightPct": 5,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4.3,
+          "weightPct": 35,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 4,
+          "weightPct": 20,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.8,
+          "weightPct": 5,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3.2,
+          "weightPct": 10,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      }
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.6,
+        0,
+        4,
+        3.8,
+        3.5,
+        3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 74.1,
+      "explanations": {
+        "valuation": {
+          "value": 3.6,
+          "weightPct": 20,
+          "reason": "现价已反映部分增长；机构最新目标仅3.6%—22%潜在涨幅，较远盈利增长提供更大空间",
+          "evidenceConfidence": "medium"
+        },
+        "technical": {
+          "value": null,
+          "weightPct": 0,
+          "reason": "四日均线向上与强超额收益，但周RSI71.5、前高近、单日下跌巨量和近期均量偏离削弱入场优势",
+          "evidenceConfidence": "medium-high"
+        },
+        "business": {
+          "value": 4,
+          "weightPct": 40,
+          "reason": "CRDMO平台、1,064项目与后期/商业化管线，毛利及现金改善；资本回报和客户稳定须持续验证",
+          "evidenceConfidence": "medium"
+        },
+        "cycle": {
+          "value": 3.8,
+          "weightPct": 20,
+          "reason": "生物药研发融资和复杂模态需求改善；融资向订单、订单向商业化的转换有时滞",
+          "evidenceConfidence": "medium"
+        },
+        "catalysts": {
+          "value": 3.5,
+          "weightPct": 5,
+          "reason": "全年业绩及下一年度指引，订单兑现、商业化项目与海外产能爬坡",
+          "evidenceConfidence": "medium"
+        },
+        "risk": {
+          "value": 3,
+          "weightPct": 15,
+          "reason": "海外客户、政策、监管质量、外币资产、公允投资、资本开支及股权激励稀释风险",
+          "evidenceConfidence": "medium"
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://iis.aastocks.com/20260922/12341103-0.PDF",
+      "date": "2026-09-22",
+      "type": "issuer_disclosure_primary_content_mirrored"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1546457/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1545493/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541199/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541244/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1540819/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1540816/research-report",
+      "type": "broker_news_transcription"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02269/AAFN/NOW.1541272/research-report",
+      "type": "broker_news_transcription"
+    }
+  ]
+}

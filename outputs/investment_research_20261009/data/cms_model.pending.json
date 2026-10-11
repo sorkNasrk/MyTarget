@@ -1,0 +1,2209 @@
+{
+  "issuerId": "I050",
+  "securityId": "S058",
+  "name": "康哲药业",
+  "code": "00867.HK",
+  "currency": "HKD",
+  "price": 10.54,
+  "priceHKD": 10.54,
+  "asOf": "2026-10-09",
+  "marketVersion": "market-v1.6",
+  "modelVersion": "cms-whole-group-normal-PE-continuing-consolidation-v1.0",
+  "status": "独立初版；拟分拆未完成条件模型",
+  "method": "IFRS药品直销与净推广收入、全成本费用、正常财务/联营净收益、税、少数、股份PE；排除FVTPL与处置收益，联营净利润不二次按集团经营税率征税；集团PE已含皮肤现金流和净利息，不加子NAV/基金NAV/现金，不再扣净债",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "modelAssumption": true
+  },
+  "shares": {
+    "date": "2026-09-30",
+    "publicationDate": "2026-09-30",
+    "publicationTime": "2026-09-30 17:31 Asia/Hong_Kong",
+    "afterClose": true,
+    "totalIssued": 2439528512,
+    "externalTotal": 2433131512,
+    "treasury": 6397000,
+    "treasuryCancelled": false,
+    "currentModelShares": 2433131512,
+    "H1Weighted": 2419645984,
+    "FY2025Weighted": 2419522170,
+    "FY2024Weighted": 2427382419,
+    "repurchaseHKDmillion": 67.895,
+    "repurchaseCNYmillion": 59.149,
+    "notNewIssue": true,
+    "note": "法律全股=外部+6397000库存，回购未注销；当前分母用外部股份，不再减同一信托股份。H1加权与期末差不是新发行证据，全部未来增股为明示研究假设"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "publicationDate": "2026-08-17",
+    "publicationTime": "2026-08-17 21:22 Asia/Hong_Kong",
+    "afterClose": true,
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0817/2026081701623.pdf",
+    "fullReportURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102311.pdf",
+    "fullReportPublicationTime": "2026-09-01 17:10 Asia/Hong_Kong",
+    "revenue": 4500.733,
+    "directRevenue": 3558.117,
+    "promotionRevenue": 942.616,
+    "cost": 1280.173,
+    "gross": 3220.56,
+    "otherIncome": 116.544,
+    "interestIncome": 24.795,
+    "otherGains": -78.028,
+    "FXLoss": 30.285,
+    "selling": 1431.028,
+    "admin": 439.931,
+    "RD": 356.675,
+    "finance": 8.157,
+    "associate": 166.125,
+    "JV": 1.098,
+    "pretax": 1190.508,
+    "tax": 219.024,
+    "net": 971.484,
+    "minority": -14.617,
+    "parent": 986.101,
+    "EPSReported": 0.4075,
+    "amortization": 112.927,
+    "depreciationPPE": 19.488,
+    "sharePayment": 0,
+    "OCF": 692.686,
+    "capex": 33.759,
+    "intangibleDepositsPaid": 468.061,
+    "investmentAcquisition": 132.843,
+    "FVOCIEquityPurchase": 34.314,
+    "associateCapitalInjection": 94.513,
+    "associateDividendCash": 105.474,
+    "FVTPLDividendCash": 14.527,
+    "FCFBeforeLicensing": 658.927,
+    "FCFAfterLicensing": 190.866,
+    "netInvestingCash": -573.013,
+    "netFinancingCash": -222.902,
+    "dividendCash": 330.641,
+    "cashBegin": 2701.38,
+    "cashEnd": 2571.902,
+    "FXCashChange": -26.249,
+    "cashChangeBeforeFX": -103.229,
+    "bankDebt": 834.675,
+    "leaseCurrent": 16.463,
+    "leaseNoncurrent": 31.798,
+    "totalAssets": 19672.618,
+    "totalLiabilities": 1593.249,
+    "parentEquity": 17946.92,
+    "minorityEquity": 132.449,
+    "FVTPL": 3181.053,
+    "FVOCI": 380.561,
+    "associates": 3637.348,
+    "JVInvestment": 173.406,
+    "intangible": 2693.692,
+    "intangibleDepositBalance": 1364.787,
+    "goodwill": 1511.261,
+    "loan": 113.379,
+    "receivableNet": 1511.086,
+    "creditLossAllowance": 11.216,
+    "inventory": 928.128,
+    "managementFullSales": 5341.4,
+    "managementFullGross": 3212.3
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenue": 8013.285,
+      "parent": 2400.94,
+      "net": 2384.43,
+      "RD": 195.134,
+      "EPSReported": 0.9792
+    },
+    {
+      "period": "FY2024",
+      "revenue": 7468.99,
+      "parent": 1619.788,
+      "net": 1613.08,
+      "RD": 329.982,
+      "EPSReported": 0.6673,
+      "OCF": 1268.547
+    },
+    {
+      "period": "FY2025",
+      "revenue": 8212.058,
+      "parent": 1488.892,
+      "net": 1443.277,
+      "RD": 585.023,
+      "EPSReported": 0.6154,
+      "OCF": 758.421,
+      "FVTPLGain": 230.987,
+      "disposalGain": 19.594,
+      "companyNormalizedTotalNet": 1775.5,
+      "localTaxRepaymentAndSurchargeRounded": 278.8,
+      "additionalTaxExact": 223.835,
+      "publicationTime": "2026-03-16 22:43 Asia/Hong_Kong",
+      "replacementPublicationTime": "2026-03-17 17:03 Asia/Hong_Kong",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0316/2026031602212.pdf"
+    },
+    {
+      "period": "2025H1",
+      "revenue": 4001.98,
+      "parent": 941.178,
+      "net": 931.493,
+      "RD": 202.489,
+      "EPSReported": 0.3892
+    }
+  ],
+  "assets": {
+    "FVTPLListedEquity": 1.065,
+    "FVTPLCapitalFunds": 1198.889,
+    "FVTPLUnlistedLevel2": 1482.829,
+    "FVTPLConvertible": 170.273,
+    "FVTPLUnlistedLevel3": 327.997,
+    "FVOCILevel2": 34.055,
+    "FVOCILevel3": 346.506,
+    "TibetPharmaOwnershipPct": 37.82,
+    "TibetPharmaQuotedValue": 4501.91,
+    "NAVAddedToPE": 0,
+    "commitmentPPE": 70.905,
+    "commitmentFVTPL": 374.856,
+    "commitmentAssociate": 74.92,
+    "note": "未上市股权和基金不是无风险理财，基金/非上市组合有估值与流动性限制；联营利润已入集团PE，不能再加其4501.910m市值"
+  },
+  "business": {
+    "innovationExclusiveRevenue": 1698.7,
+    "innovationGrowthPct": 19.7,
+    "innovationSharePct": 37.7,
+    "VBPRevenue": 1097.6,
+    "VBPSharePct": 24.4,
+    "VBPGrowthPct": 4.6,
+    "CKMCNSRevenue": 1486,
+    "CKMCNSGrowthPct": -3.4,
+    "GastroAutoimmuneRevenue": 1483.6,
+    "GastroGrowthPct": 5.1,
+    "OphthalmologyRevenue": 472.8,
+    "OphthalmologyGrowthPct": 32,
+    "fullOphthalmologySales": 704.7,
+    "fullOphthalmologyGrowthPct": 96.8,
+    "skinExternalRevenue": 792.535,
+    "skinPriorExternalRevenue": 473.404,
+    "skinPriorManagementTotal": 498.028,
+    "skinManagementGrowthPct": 59.1,
+    "skinExternalGrowthPct": 67.41197793005551,
+    "integratedExternalRevenue": 3708.198,
+    "priorIntegratedExternalRevenue": 3528.576,
+    "skinNet": 57.465,
+    "priorSkinNet": -31.08,
+    "integratedNet": 914.019,
+    "priorIntegratedNet": 982.033,
+    "segmentGross": [
+      2659.952,
+      564.946
+    ],
+    "segmentGrossElimination": 4.338,
+    "segmentInternalRevenue": 4.347,
+    "promotionHospitalsOver": 60000,
+    "retailPharmaciesApprox": 320000,
+    "DTPApprox": 1000,
+    "onlinePlatforms": 7,
+    "note": "外部收入不与全直销管理口径混；CKM/CNS同比为−3.4%，不是此前未核读值−8.4%。中报9款上市40+管线为H1时点，9/3AD增加适应症不重复算新分子"
+  },
+  "spinOff": {
+    "firstPublicationTime": "2025-04-22 21:32 Asia/Hong_Kong",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0422/2025042201899.pdf",
+    "dateHoldingPct": 90.8,
+    "employeePlatformsPct": 9.2,
+    "method": "all issuer-held Dermavon shares distributed in specie; listing by introduction",
+    "retainedAfterCompletionPct": 0,
+    "newOfferPlanned": false,
+    "completionVerifiedAsOf": false,
+    "recordDateKnown": false,
+    "distributionRatioKnown": false,
+    "valuationCondition": "全部期限目标以未完成分拆及持续合并为条件；完成后母股必须改为保留集团模型，分派证券单列总回报，不能将子NAV另加本PE"
+  },
+  "pipelineEvents": [
+    {
+      "product": "Lumirix",
+      "event": "白癜风中国批准",
+      "publicationTime": "2026-01-30 12:07 Asia/Hong_Kong"
+    },
+    {
+      "product": "Desidustat",
+      "event": "非透析CKD贫血中国批准",
+      "publicationTime": "2026-03-13 18:42 Asia/Hong_Kong"
+    },
+    {
+      "product": "Silevimig",
+      "event": "狂犬病毒双表位抗体中国批准",
+      "publicationTime": "2026-06-22 17:30 Asia/Hong_Kong"
+    },
+    {
+      "product": "Lumirix",
+      "event": "新增AD适应症中国批准",
+      "publicationTime": "2026-09-03 17:54 Asia/Hong_Kong"
+    },
+    {
+      "product": "CMS-D001",
+      "event": "SLE临床试验批准，非上市批准",
+      "publicationTime": "2026-09-14 18:21 Asia/Hong_Kong"
+    }
+  ],
+  "dividend": {
+    "FY2025CNY": 0.1366,
+    "FY2025HKD": 0.155,
+    "FY2025ExDate": "2026-04-27",
+    "FY2025PaymentDate": "2026-05-07",
+    "H12026CNY": 0.1634,
+    "H12026HKD": 0.189,
+    "H12026ExDate": "2026-08-28",
+    "H12026PaymentDate": "2026-09-08",
+    "revisedPublicationTime": "2026-08-18 12:12 Asia/Hong_Kong",
+    "alreadyExcluded": true,
+    "note": "两笔均已除净和支付，不计未来股息；半年目标4/9在既往末期除净月份之前故保守未来息0"
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 10.748,
+      "60": 11.306663,
+      "120": 11.335849,
+      "250": 12.40456
+    },
+    "maSlope5Pct": {
+      "20": -0.985721,
+      "60": -1.145972,
+      "120": -1.122453,
+      "250": -0.498585
+    },
+    "priceVsMAPct": {
+      "20": -1.935244,
+      "60": -6.780634,
+      "120": -7.020642,
+      "250": -15.031247
+    },
+    "returnPct": {
+      "20": -3.125,
+      "60": -14.952696,
+      "120": -22.170495,
+      "250": -22.835236
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 15.088184,
+    "low52w": 9.353841,
+    "distanceFrom52wHighPct": -30.144012,
+    "distanceFrom52wLowPct": 12.680983,
+    "maxDrawdown52wPct": -34.932186,
+    "RSI14": 42.576584,
+    "ATR14": 0.452929,
+    "ATR14Pct": 4.297238,
+    "MACD": {
+      "DIF": -0.173998,
+      "DEA": -0.181277,
+      "histogram": 0.014557,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 2334473.2,
+      "20": 4854711.8,
+      "60": 5760854.867
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.808163,
+    "previous20MeanVolume": 5178411.8,
+    "upDownVolume20": {
+      "upVolume": 41734727,
+      "downVolume": 49796342,
+      "flatVolume": 5563167,
+      "upDays": 8,
+      "downDays": 11,
+      "ratio": 0.838108
+    },
+    "ranges": {
+      "20": {
+        "support": 10.11,
+        "resistance": 11.47,
+        "toSupportPct": -4.079696,
+        "toResistancePct": 8.823529,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 10.11,
+        "resistance": 12.44228,
+        "toSupportPct": -4.079696,
+        "toResistancePct": 18.048197,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 11.060997,
+      "60": 12.537219,
+      "120": 10.345975,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -2.810583,
+      "60": -1.376061,
+      "120": 1.740561,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -4.710214,
+      "60": -15.930318,
+      "120": 1.875365,
+      "250": null
+    },
+    "returnPct": {
+      "20": -2.493529,
+      "60": -18.619371,
+      "120": 64.448844,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 15.088184,
+    "low52w": 9.353841,
+    "distanceFrom52wHighPct": -30.144012,
+    "distanceFrom52wLowPct": 12.680983,
+    "maxDrawdown52wPct": -34.078279,
+    "RSI14": 40.509494,
+    "ATR14": 0.933307,
+    "ATR14Pct": 8.854907,
+    "MACD": {
+      "DIF": -0.425848,
+      "DEA": -0.384004,
+      "histogram": -0.083687,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 24546883.6,
+      "20": 30050291.7,
+      "60": 27108549
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.383589,
+    "previous20MeanVolume": 30429386.7,
+    "upDownVolume20": {
+      "upVolume": 264675990,
+      "downVolume": 336329844,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.786954
+    },
+    "ranges": {
+      "20": {
+        "support": 9.353841,
+        "resistance": 12.638998,
+        "toSupportPct": -11.25388,
+        "toResistancePct": 19.914592,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 9.353841,
+        "resistance": 15.195123,
+        "toSupportPct": -11.25388,
+        "toResistancePct": 44.166252,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -0.147092,
+    "excess60Pct": -11.764793,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryBenchmarkId": null,
+    "industryMissingReason": "综合药企不适用恒生科技；专属医药行业指数尚待核验"
+  },
+  "lastVolumeShares": 4185000,
+  "lastTurnoverAmount": 43546740,
+  "marketWarnings": [
+    "1根Yahoo OHLC逻辑不一致，按腾讯同日完整bar修复，原字段及修复记录在历史文件",
+    "近60日复权口径有超过1%的跨源差异，可能与分红复权算法或数据修订有关"
+  ],
+  "nativeInputs": {
+    "yearEnd": {
+      "earningsPeriod": "CY2027 normal forward whole-group estimate; no completed spin-off assumed",
+      "PE": [
+        10,
+        13,
+        16
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "rows": [
+        {
+          "direct": 7.2,
+          "promotion": 1.6,
+          "cost": 2.68,
+          "selling": 2.9,
+          "admin": 0.94,
+          "RD": 1.08,
+          "otherIncome": 0.11,
+          "finance": 0.04,
+          "associate": 0.28,
+          "JV": 0.003,
+          "impairment": 0.12,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.065,
+          "minority": 0,
+          "shares": 2.439528512,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 8.5,
+          "promotion": 2,
+          "cost": 3.1,
+          "selling": 3.1,
+          "admin": 0.99,
+          "RD": 0.95,
+          "otherIncome": 0.13,
+          "finance": 0.025,
+          "associate": 0.37,
+          "JV": 0.004,
+          "impairment": 0.09,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.06,
+          "minority": 0.02,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 9.25,
+          "promotion": 2.15,
+          "cost": 3.26,
+          "selling": 3.24,
+          "admin": 1.01,
+          "RD": 0.92,
+          "otherIncome": 0.145,
+          "finance": 0.023,
+          "associate": 0.43,
+          "JV": 0.006,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.065,
+          "minority": 0.035,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        }
+      ]
+    },
+    "halfYear": {
+      "earningsPeriod": "CY2027 normal forward whole-group estimate",
+      "PE": [
+        9.5,
+        14,
+        17
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "rows": [
+        {
+          "direct": 7.1,
+          "promotion": 1.55,
+          "cost": 2.69,
+          "selling": 2.93,
+          "admin": 0.95,
+          "RD": 1.1,
+          "otherIncome": 0.105,
+          "finance": 0.045,
+          "associate": 0.27,
+          "JV": 0.003,
+          "impairment": 0.135,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.07,
+          "minority": 0,
+          "shares": 2.439528512,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 8.6,
+          "promotion": 2.05,
+          "cost": 3.12,
+          "selling": 3.12,
+          "admin": 1,
+          "RD": 0.96,
+          "otherIncome": 0.13,
+          "finance": 0.025,
+          "associate": 0.375,
+          "JV": 0.004,
+          "impairment": 0.09,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.06,
+          "minority": 0.021,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 9.45,
+          "promotion": 2.2,
+          "cost": 3.29,
+          "selling": 3.26,
+          "admin": 1.025,
+          "RD": 0.94,
+          "otherIncome": 0.15,
+          "finance": 0.023,
+          "associate": 0.44,
+          "JV": 0.006,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.065,
+          "minority": 0.038,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        }
+      ]
+    },
+    "oneYear": {
+      "earningsPeriod": "CY2028 normal forward whole-group estimate",
+      "PE": [
+        9,
+        15,
+        18
+      ],
+      "div": [
+        0.2,
+        0.36,
+        0.44
+      ],
+      "rows": [
+        {
+          "direct": 7.6,
+          "promotion": 1.65,
+          "cost": 2.95,
+          "selling": 3.12,
+          "admin": 1,
+          "RD": 1.25,
+          "otherIncome": 0.105,
+          "finance": 0.055,
+          "associate": 0.28,
+          "JV": 0.004,
+          "impairment": 0.17,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.08,
+          "minority": 0.005,
+          "shares": 2.48,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 9.75,
+          "promotion": 2.25,
+          "cost": 3.48,
+          "selling": 3.4,
+          "admin": 1.08,
+          "RD": 1.12,
+          "otherIncome": 0.14,
+          "finance": 0.03,
+          "associate": 0.41,
+          "JV": 0.006,
+          "impairment": 0.1,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.065,
+          "minority": 0.025,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 10.8,
+          "promotion": 2.6,
+          "cost": 3.72,
+          "selling": 3.68,
+          "admin": 1.13,
+          "RD": 1.1,
+          "otherIncome": 0.16,
+          "finance": 0.025,
+          "associate": 0.49,
+          "JV": 0.008,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.07,
+          "minority": 0.045,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0
+        }
+      ]
+    },
+    "threeYear": {
+      "earningsPeriod": "CY2030 normal forward whole-group estimate",
+      "PE": [
+        8,
+        14,
+        17
+      ],
+      "div": [
+        0.68,
+        1.45,
+        1.95
+      ],
+      "rows": [
+        {
+          "direct": 8.2,
+          "promotion": 1.9,
+          "cost": 3.35,
+          "selling": 3.44,
+          "admin": 1.14,
+          "RD": 1.62,
+          "otherIncome": 0.09,
+          "finance": 0.065,
+          "associate": 0.3,
+          "JV": 0.005,
+          "impairment": 0.23,
+          "taxRate": 0.25,
+          "taxAdjustment": 0.09,
+          "minority": 0.01,
+          "shares": 2.58,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 12.8,
+          "promotion": 2.9,
+          "cost": 4.55,
+          "selling": 4.25,
+          "admin": 1.3,
+          "RD": 1.55,
+          "otherIncome": 0.16,
+          "finance": 0.035,
+          "associate": 0.5,
+          "JV": 0.008,
+          "impairment": 0.13,
+          "taxRate": 0.21,
+          "taxAdjustment": 0.08,
+          "minority": 0.045,
+          "shares": 2.46,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 15.1,
+          "promotion": 3.4,
+          "cost": 4.95,
+          "selling": 4.78,
+          "admin": 1.41,
+          "RD": 1.65,
+          "otherIncome": 0.185,
+          "finance": 0.025,
+          "associate": 0.62,
+          "JV": 0.011,
+          "impairment": 0.1,
+          "taxRate": 0.19,
+          "taxAdjustment": 0.095,
+          "minority": 0.075,
+          "shares": 2.45,
+          "FV": 0,
+          "disposalGain": 0
+        }
+      ]
+    },
+    "fiveYear": {
+      "earningsPeriod": "CY2032 normal forward whole-group estimate",
+      "PE": [
+        7,
+        13,
+        16
+      ],
+      "div": [
+        1.05,
+        2.85,
+        4.05
+      ],
+      "rows": [
+        {
+          "direct": 9,
+          "promotion": 2,
+          "cost": 3.8,
+          "selling": 3.77,
+          "admin": 1.27,
+          "RD": 1.95,
+          "otherIncome": 0.085,
+          "finance": 0.08,
+          "associate": 0.31,
+          "JV": 0.006,
+          "impairment": 0.28,
+          "taxRate": 0.26,
+          "taxAdjustment": 0.11,
+          "minority": 0.015,
+          "shares": 2.72,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 16.05,
+          "promotion": 3.55,
+          "cost": 5.83,
+          "selling": 5.14,
+          "admin": 1.55,
+          "RD": 1.98,
+          "otherIncome": 0.18,
+          "finance": 0.035,
+          "associate": 0.56,
+          "JV": 0.01,
+          "impairment": 0.17,
+          "taxRate": 0.22,
+          "taxAdjustment": 0.1,
+          "minority": 0.06,
+          "shares": 2.49,
+          "FV": 0,
+          "disposalGain": 0
+        },
+        {
+          "direct": 21,
+          "promotion": 4.6,
+          "cost": 6.88,
+          "selling": 6.5,
+          "admin": 1.86,
+          "RD": 2.45,
+          "otherIncome": 0.22,
+          "finance": 0.025,
+          "associate": 0.76,
+          "JV": 0.015,
+          "impairment": 0.125,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.125,
+          "minority": 0.11,
+          "shares": 2.48,
+          "FV": 0,
+          "disposalGain": 0
+        }
+      ]
+    }
+  },
+  "nativeProfitBridge": {
+    "unit": "CNY billion",
+    "formula": "revenue=direct+promotion; gross=revenue−cost; operating=gross−selling−admin−RD+otherIncome−impairment; pretax=operating−finance+associate+JV; taxable=pretax−associate−JV; tax=max(taxable,0)×taxRate+taxAdjustment; parent=pretax−tax−minority; EPS=parent/shares",
+    "normalization": "FVTPL/处置归零；正常坏账、许可预付款损失和FX压力通过impairment保留；净财务收入和联营已含集团PE；不加NAV",
+    "tax": "联营/JV为税后权益法净利润，从集团经营税基剔除，递延/分派预提及优惠到期纳入独立taxAdjustment。西藏康哲自2025从9%变15%，非西藏药业被取消优惠"
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.7,
+        1.8,
+        3.7,
+        4,
+        3.9,
+        3.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 63.4
+    },
+    "oneYear": {
+      "dimensions": [
+        4,
+        1.8,
+        3.9,
+        4,
+        4,
+        3.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 72.10000000000001
+    },
+    "threeYear": {
+      "dimensions": [
+        4.1,
+        1.8,
+        4,
+        4.1,
+        3.8,
+        3.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 77.49999999999999
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4.1,
+        4,
+        3.6,
+        3.4
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 78.6
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "现价TTM报告PE约15.2、正常CY2027约10.6；研发税与授权持续支出保留后仍有重估弹性，价格低于均线使半年兑现打折",
+    "technicalRelativeStrength": "四日均线下降，20日上/下量0.84，60日弱恒指11.76点；MACD小正柱只作收敛辅助，未确认放量突破。复权跨源有1.67%差异，关键位用区间",
+    "growthBusinessQuality": "创新独家+19.7%、皮肤扭亏眼科增长，但CKM/CNS下降、R&D+76.1%、主分部利润下行，增收不等同增净利",
+    "industryCycle": "中国专科渗透率与创新医保通道支持长期，集采老药已稳定仍有下一轮控价，院外消费与临床选择竞争",
+    "catalysts": "Lumirix AD已9/3批准，新药商业化和后期NDA有可验证节点，TYK2等仅早期，拟分拆条件不保证发生",
+    "financialGovernanceDownside": "现金高于借款但授权預付/投资/分红使现金下降，三级资产与母子分拆归属须折价；不以高净资产等同可分红现金"
+  },
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+    "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+    "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "汇丰",
+      "code": "00867.HK",
+      "currency": "HKD",
+      "targetPrice": 15.45,
+      "target": 15.45,
+      "publicationDate": "2026-09-29",
+      "publicationTime": "2026-09-29 17:28",
+      "date": "2026-09-29",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1547010/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1547010/research-report",
+      "verified": true,
+      "foreign": true,
+      "targetHorizon": "原新闻未明确目标期限，作一年估值参照；里昂使用2027年PE但目标日未载",
+      "sourceType": "AASTOCKS新闻转述，原研报缺",
+      "stale": false
+    },
+    {
+      "institution": "高盛",
+      "code": "00867.HK",
+      "currency": "HKD",
+      "targetPrice": 17.96,
+      "target": 17.96,
+      "publicationDate": "2026-08-19",
+      "publicationTime": "2026-08-19 13:16",
+      "date": "2026-08-19",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1539248/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1539248/research-report",
+      "verified": true,
+      "foreign": true,
+      "targetHorizon": "原新闻未明确目标期限，作一年估值参照；里昂使用2027年PE但目标日未载",
+      "sourceType": "AASTOCKS新闻转述，原研报缺",
+      "stale": false
+    },
+    {
+      "institution": "里昂",
+      "code": "00867.HK",
+      "currency": "HKD",
+      "targetPrice": 16.5,
+      "target": 16.5,
+      "publicationDate": "2026-03-19",
+      "publicationTime": "2026-03-19 10:12",
+      "date": "2026-03-19",
+      "rating": "跑赢大市",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510414/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510414/research-report",
+      "verified": true,
+      "foreign": true,
+      "targetHorizon": "原新闻未明确目标期限，作一年估值参照；里昂使用2027年PE但目标日未载",
+      "sourceType": "AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "花旗",
+      "code": "00867.HK",
+      "currency": "HKD",
+      "targetPrice": 17.5,
+      "target": 17.5,
+      "publicationDate": "2026-03-18",
+      "publicationTime": "2026-03-18 10:06",
+      "date": "2026-03-18",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510031/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510031/research-report",
+      "verified": true,
+      "foreign": true,
+      "targetHorizon": "原新闻未明确目标期限，作一年估值参照；里昂使用2027年PE但目标日未载",
+      "sourceType": "AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "earningsPeriod": "CY2027 normal forward whole-group estimate; no completed spin-off assumed",
+      "native": [
+        {
+          "direct": 7.2,
+          "promotion": 1.6,
+          "cost": 2.68,
+          "selling": 2.9,
+          "admin": 0.94,
+          "RD": 1.08,
+          "otherIncome": 0.11,
+          "finance": 0.04,
+          "associate": 0.28,
+          "JV": 0.003,
+          "impairment": 0.12,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.065,
+          "minority": 0,
+          "shares": 2.439528512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 8.8,
+          "grossCNYBillion": 6.120000000000001,
+          "grossMarginPct": 69.54545454545455,
+          "operatingCNYBillion": 1.1900000000000013,
+          "pretaxCNYBillion": 1.4330000000000012,
+          "taxableCNYBillion": 1.1500000000000012,
+          "taxCNYBillion": 0.3295000000000003,
+          "profitCNYBillion": 1.1035000000000008,
+          "epsCNY": 0.4523415055704013,
+          "netMarginPct": 12.539772727272736
+        },
+        {
+          "direct": 8.5,
+          "promotion": 2,
+          "cost": 3.1,
+          "selling": 3.1,
+          "admin": 0.99,
+          "RD": 0.95,
+          "otherIncome": 0.13,
+          "finance": 0.025,
+          "associate": 0.37,
+          "JV": 0.004,
+          "impairment": 0.09,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.06,
+          "minority": 0.02,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 10.5,
+          "grossCNYBillion": 7.4,
+          "grossMarginPct": 70.47619047619048,
+          "operatingCNYBillion": 2.4000000000000004,
+          "pretaxCNYBillion": 2.7490000000000006,
+          "taxableCNYBillion": 2.3750000000000004,
+          "taxCNYBillion": 0.5350000000000001,
+          "profitCNYBillion": 2.1940000000000004,
+          "epsCNY": 0.9017186244061929,
+          "netMarginPct": 20.8952380952381
+        },
+        {
+          "direct": 9.25,
+          "promotion": 2.15,
+          "cost": 3.26,
+          "selling": 3.24,
+          "admin": 1.01,
+          "RD": 0.92,
+          "otherIncome": 0.145,
+          "finance": 0.023,
+          "associate": 0.43,
+          "JV": 0.006,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.065,
+          "minority": 0.035,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 11.4,
+          "grossCNYBillion": 8.14,
+          "grossMarginPct": 71.40350877192982,
+          "operatingCNYBillion": 3.0400000000000005,
+          "pretaxCNYBillion": 3.4530000000000003,
+          "taxableCNYBillion": 3.0170000000000003,
+          "taxCNYBillion": 0.60806,
+          "profitCNYBillion": 2.80994,
+          "epsCNY": 1.154865647886936,
+          "netMarginPct": 24.648596491228073
+        }
+      ],
+      "epsCNY": [
+        0.4523415055704013,
+        0.9017186244061929,
+        1.154865647886936
+      ],
+      "PE": [
+        10,
+        13,
+        16
+      ],
+      "profitCNYBillion": [
+        1.1035000000000008,
+        2.1940000000000004,
+        2.80994
+      ],
+      "revenueCNYBillion": [
+        8.8,
+        10.5,
+        11.4
+      ],
+      "netMarginPct": [
+        12.539772727272736,
+        20.8952380952381,
+        24.648596491228073
+      ],
+      "dilutedSharesBillion": [
+        2.439528512,
+        2.433131512,
+        2.433131512
+      ],
+      "priceHKD": [
+        4.975756561274415,
+        12.89457632900856,
+        20.325635402810075
+      ],
+      "priceTargets": [
+        4.975756561274415,
+        12.89457632900856,
+        20.325635402810075
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -52.791683479369865,
+        22.339433861561297,
+        92.84284063387169
+      ],
+      "totalReturnPct": [
+        -52.791683479369865,
+        22.339433861561297,
+        92.84284063387169
+      ],
+      "conditions": [
+        "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+        "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+        "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+      ],
+      "continuingConsolidationRequired": true,
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 12.772636155525403,
+      "expectedPrice": 12.772636155525403,
+      "expectedReturnPct": 21.182506219406115,
+      "expectedTotalReturnPct": 21.182506219406115,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 10.470154329295053,
+        "positivePrice": 15.075117981755753
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "earningsPeriod": "CY2027 normal forward whole-group estimate",
+      "native": [
+        {
+          "direct": 7.1,
+          "promotion": 1.55,
+          "cost": 2.69,
+          "selling": 2.93,
+          "admin": 0.95,
+          "RD": 1.1,
+          "otherIncome": 0.105,
+          "finance": 0.045,
+          "associate": 0.27,
+          "JV": 0.003,
+          "impairment": 0.135,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.07,
+          "minority": 0,
+          "shares": 2.439528512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 8.65,
+          "grossCNYBillion": 5.960000000000001,
+          "grossMarginPct": 68.90173410404626,
+          "operatingCNYBillion": 0.9500000000000008,
+          "pretaxCNYBillion": 1.1780000000000006,
+          "taxableCNYBillion": 0.9050000000000006,
+          "taxCNYBillion": 0.2781500000000001,
+          "profitCNYBillion": 0.8998500000000005,
+          "epsCNY": 0.3688622598890127,
+          "netMarginPct": 10.402890173410409
+        },
+        {
+          "direct": 8.6,
+          "promotion": 2.05,
+          "cost": 3.12,
+          "selling": 3.12,
+          "admin": 1,
+          "RD": 0.96,
+          "otherIncome": 0.13,
+          "finance": 0.025,
+          "associate": 0.375,
+          "JV": 0.004,
+          "impairment": 0.09,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.06,
+          "minority": 0.021,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 10.649999999999999,
+          "grossCNYBillion": 7.5299999999999985,
+          "grossMarginPct": 70.70422535211267,
+          "operatingCNYBillion": 2.4899999999999984,
+          "pretaxCNYBillion": 2.8439999999999985,
+          "taxableCNYBillion": 2.4649999999999985,
+          "taxCNYBillion": 0.5529999999999997,
+          "profitCNYBillion": 2.2699999999999987,
+          "epsCNY": 0.932954091796744,
+          "netMarginPct": 21.314553990610317
+        },
+        {
+          "direct": 9.45,
+          "promotion": 2.2,
+          "cost": 3.29,
+          "selling": 3.26,
+          "admin": 1.025,
+          "RD": 0.94,
+          "otherIncome": 0.15,
+          "finance": 0.023,
+          "associate": 0.44,
+          "JV": 0.006,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.065,
+          "minority": 0.038,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 11.649999999999999,
+          "grossCNYBillion": 8.36,
+          "grossMarginPct": 71.75965665236052,
+          "operatingCNYBillion": 3.209999999999999,
+          "pretaxCNYBillion": 3.6329999999999987,
+          "taxableCNYBillion": 3.186999999999999,
+          "taxCNYBillion": 0.6386599999999998,
+          "profitCNYBillion": 2.956339999999999,
+          "epsCNY": 1.2150350219129458,
+          "netMarginPct": 25.37630901287553
+        }
+      ],
+      "epsCNY": [
+        0.3688622598890127,
+        0.932954091796744,
+        1.2150350219129458
+      ],
+      "PE": [
+        9.5,
+        14,
+        17
+      ],
+      "profitCNYBillion": [
+        0.8998500000000005,
+        2.2699999999999987,
+        2.956339999999999
+      ],
+      "revenueCNYBillion": [
+        8.65,
+        10.649999999999999,
+        11.649999999999999
+      ],
+      "netMarginPct": [
+        10.402890173410409,
+        21.314553990610317,
+        25.37630901287553
+      ],
+      "dilutedSharesBillion": [
+        2.439528512,
+        2.433131512,
+        2.433131512
+      ],
+      "priceHKD": [
+        3.8546106158401834,
+        14.36749301366986,
+        22.72115490977209
+      ],
+      "priceTargets": [
+        3.8546106158401834,
+        14.36749301366986,
+        22.72115490977209
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -63.428741785197495,
+        36.313975461763384,
+        115.57072969423237
+      ],
+      "totalReturnPct": [
+        -63.428741785197495,
+        36.313975461763384,
+        115.57072969423237
+      ],
+      "conditions": [
+        "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+        "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+        "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+      ],
+      "continuingConsolidationRequired": true
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "earningsPeriod": "CY2028 normal forward whole-group estimate",
+      "native": [
+        {
+          "direct": 7.6,
+          "promotion": 1.65,
+          "cost": 2.95,
+          "selling": 3.12,
+          "admin": 1,
+          "RD": 1.25,
+          "otherIncome": 0.105,
+          "finance": 0.055,
+          "associate": 0.28,
+          "JV": 0.004,
+          "impairment": 0.17,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.08,
+          "minority": 0.005,
+          "shares": 2.48,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 9.25,
+          "grossCNYBillion": 6.3,
+          "grossMarginPct": 68.10810810810811,
+          "operatingCNYBillion": 0.8649999999999997,
+          "pretaxCNYBillion": 1.0939999999999996,
+          "taxableCNYBillion": 0.8099999999999996,
+          "taxCNYBillion": 0.2743999999999999,
+          "profitCNYBillion": 0.8145999999999997,
+          "epsCNY": 0.3284677419354837,
+          "netMarginPct": 8.806486486486483
+        },
+        {
+          "direct": 9.75,
+          "promotion": 2.25,
+          "cost": 3.48,
+          "selling": 3.4,
+          "admin": 1.08,
+          "RD": 1.12,
+          "otherIncome": 0.14,
+          "finance": 0.03,
+          "associate": 0.41,
+          "JV": 0.006,
+          "impairment": 0.1,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.065,
+          "minority": 0.025,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 12,
+          "grossCNYBillion": 8.52,
+          "grossMarginPct": 71,
+          "operatingCNYBillion": 2.959999999999999,
+          "pretaxCNYBillion": 3.345999999999999,
+          "taxableCNYBillion": 2.9299999999999993,
+          "taxCNYBillion": 0.6509999999999998,
+          "profitCNYBillion": 2.6699999999999995,
+          "epsCNY": 1.0973512885891223,
+          "netMarginPct": 22.249999999999996
+        },
+        {
+          "direct": 10.8,
+          "promotion": 2.6,
+          "cost": 3.72,
+          "selling": 3.68,
+          "admin": 1.13,
+          "RD": 1.1,
+          "otherIncome": 0.16,
+          "finance": 0.025,
+          "associate": 0.49,
+          "JV": 0.008,
+          "impairment": 0.075,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.07,
+          "minority": 0.045,
+          "shares": 2.433131512,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 13.4,
+          "grossCNYBillion": 9.68,
+          "grossMarginPct": 72.23880597014926,
+          "operatingCNYBillion": 3.855,
+          "pretaxCNYBillion": 4.328,
+          "taxableCNYBillion": 3.83,
+          "taxCNYBillion": 0.7594000000000001,
+          "profitCNYBillion": 3.5236,
+          "epsCNY": 1.448174906544057,
+          "netMarginPct": 26.2955223880597
+        }
+      ],
+      "epsCNY": [
+        0.3284677419354837,
+        1.0973512885891223,
+        1.448174906544057
+      ],
+      "PE": [
+        9,
+        15,
+        18
+      ],
+      "profitCNYBillion": [
+        0.8145999999999997,
+        2.6699999999999995,
+        3.5236
+      ],
+      "revenueCNYBillion": [
+        9.25,
+        12,
+        13.4
+      ],
+      "netMarginPct": [
+        8.806486486486483,
+        22.249999999999996,
+        26.2955223880597
+      ],
+      "dilutedSharesBillion": [
+        2.48,
+        2.433131512,
+        2.433131512
+      ],
+      "priceHKD": [
+        3.251830645161289,
+        18.10629626172052,
+        28.67386314957233
+      ],
+      "priceTargets": [
+        3.251830645161289,
+        18.10629626172052,
+        28.67386314957233
+      ],
+      "cumulativeCashDividendHKD": [
+        0.2,
+        0.36,
+        0.44
+      ],
+      "priceReturnPct": [
+        -69.14771683907695,
+        71.78649204668426,
+        172.04803747222326
+      ],
+      "totalReturnPct": [
+        -67.25018363224584,
+        75.20205181898028,
+        176.22261052725173
+      ],
+      "conditions": [
+        "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+        "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+        "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+      ],
+      "continuingConsolidationRequired": true
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "earningsPeriod": "CY2030 normal forward whole-group estimate",
+      "native": [
+        {
+          "direct": 8.2,
+          "promotion": 1.9,
+          "cost": 3.35,
+          "selling": 3.44,
+          "admin": 1.14,
+          "RD": 1.62,
+          "otherIncome": 0.09,
+          "finance": 0.065,
+          "associate": 0.3,
+          "JV": 0.005,
+          "impairment": 0.23,
+          "taxRate": 0.25,
+          "taxAdjustment": 0.09,
+          "minority": 0.01,
+          "shares": 2.58,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 10.1,
+          "grossCNYBillion": 6.75,
+          "grossMarginPct": 66.83168316831683,
+          "operatingCNYBillion": 0.4099999999999998,
+          "pretaxCNYBillion": 0.6499999999999998,
+          "taxableCNYBillion": 0.3449999999999998,
+          "taxCNYBillion": 0.17624999999999996,
+          "profitCNYBillion": 0.46374999999999983,
+          "epsCNY": 0.1797480620155038,
+          "netMarginPct": 4.5915841584158406
+        },
+        {
+          "direct": 12.8,
+          "promotion": 2.9,
+          "cost": 4.55,
+          "selling": 4.25,
+          "admin": 1.3,
+          "RD": 1.55,
+          "otherIncome": 0.16,
+          "finance": 0.035,
+          "associate": 0.5,
+          "JV": 0.008,
+          "impairment": 0.13,
+          "taxRate": 0.21,
+          "taxAdjustment": 0.08,
+          "minority": 0.045,
+          "shares": 2.46,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 15.700000000000001,
+          "grossCNYBillion": 11.150000000000002,
+          "grossMarginPct": 71.01910828025478,
+          "operatingCNYBillion": 4.080000000000003,
+          "pretaxCNYBillion": 4.553000000000003,
+          "taxableCNYBillion": 4.045000000000003,
+          "taxCNYBillion": 0.9294500000000004,
+          "profitCNYBillion": 3.578550000000002,
+          "epsCNY": 1.4546951219512203,
+          "netMarginPct": 22.79331210191084
+        },
+        {
+          "direct": 15.1,
+          "promotion": 3.4,
+          "cost": 4.95,
+          "selling": 4.78,
+          "admin": 1.41,
+          "RD": 1.65,
+          "otherIncome": 0.185,
+          "finance": 0.025,
+          "associate": 0.62,
+          "JV": 0.011,
+          "impairment": 0.1,
+          "taxRate": 0.19,
+          "taxAdjustment": 0.095,
+          "minority": 0.075,
+          "shares": 2.45,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 18.5,
+          "grossCNYBillion": 13.55,
+          "grossMarginPct": 73.24324324324324,
+          "operatingCNYBillion": 5.794999999999999,
+          "pretaxCNYBillion": 6.400999999999999,
+          "taxableCNYBillion": 5.769999999999999,
+          "taxCNYBillion": 1.1912999999999998,
+          "profitCNYBillion": 5.134699999999999,
+          "epsCNY": 2.0957959183673465,
+          "netMarginPct": 27.75513513513513
+        }
+      ],
+      "epsCNY": [
+        0.1797480620155038,
+        1.4546951219512203,
+        2.0957959183673465
+      ],
+      "PE": [
+        8,
+        14,
+        17
+      ],
+      "profitCNYBillion": [
+        0.46374999999999983,
+        3.578550000000002,
+        5.134699999999999
+      ],
+      "revenueCNYBillion": [
+        10.1,
+        15.700000000000001,
+        18.5
+      ],
+      "netMarginPct": [
+        4.5915841584158406,
+        22.79331210191084,
+        27.75513513513513
+      ],
+      "dilutedSharesBillion": [
+        2.58,
+        2.46,
+        2.45
+      ],
+      "priceHKD": [
+        1.5817829457364336,
+        22.402304878048795,
+        39.19138367346938
+      ],
+      "priceTargets": [
+        1.5817829457364336,
+        22.402304878048795,
+        39.19138367346938
+      ],
+      "cumulativeCashDividendHKD": [
+        0.68,
+        1.45,
+        1.95
+      ],
+      "priceReturnPct": [
+        -84.99257167232986,
+        112.54558707826186,
+        271.83475971033573
+      ],
+      "totalReturnPct": [
+        -78.54095876910404,
+        126.30270282778744,
+        290.33570847693915
+      ],
+      "conditions": [
+        "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+        "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+        "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+      ],
+      "continuingConsolidationRequired": true,
+      "baseAnnualizedPriceReturnPct": 28.573272382637494,
+      "baseAnnualizedTotalReturnPct": 31.289475596708694
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "earningsPeriod": "CY2032 normal forward whole-group estimate",
+      "native": [
+        {
+          "direct": 9,
+          "promotion": 2,
+          "cost": 3.8,
+          "selling": 3.77,
+          "admin": 1.27,
+          "RD": 1.95,
+          "otherIncome": 0.085,
+          "finance": 0.08,
+          "associate": 0.31,
+          "JV": 0.006,
+          "impairment": 0.28,
+          "taxRate": 0.26,
+          "taxAdjustment": 0.11,
+          "minority": 0.015,
+          "shares": 2.72,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 11,
+          "grossCNYBillion": 7.2,
+          "grossMarginPct": 65.45454545454545,
+          "operatingCNYBillion": 0.01500000000000018,
+          "pretaxCNYBillion": 0.25100000000000017,
+          "taxableCNYBillion": -0.06499999999999984,
+          "taxCNYBillion": 0.11,
+          "profitCNYBillion": 0.12600000000000017,
+          "epsCNY": 0.04632352941176476,
+          "netMarginPct": 1.145454545454547
+        },
+        {
+          "direct": 16.05,
+          "promotion": 3.55,
+          "cost": 5.83,
+          "selling": 5.14,
+          "admin": 1.55,
+          "RD": 1.98,
+          "otherIncome": 0.18,
+          "finance": 0.035,
+          "associate": 0.56,
+          "JV": 0.01,
+          "impairment": 0.17,
+          "taxRate": 0.22,
+          "taxAdjustment": 0.1,
+          "minority": 0.06,
+          "shares": 2.49,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 19.6,
+          "grossCNYBillion": 13.770000000000001,
+          "grossMarginPct": 70.25510204081634,
+          "operatingCNYBillion": 5.110000000000003,
+          "pretaxCNYBillion": 5.645000000000003,
+          "taxableCNYBillion": 5.075000000000003,
+          "taxCNYBillion": 1.2165000000000008,
+          "profitCNYBillion": 4.368500000000003,
+          "epsCNY": 1.754417670682732,
+          "netMarginPct": 22.28826530612246
+        },
+        {
+          "direct": 21,
+          "promotion": 4.6,
+          "cost": 6.88,
+          "selling": 6.5,
+          "admin": 1.86,
+          "RD": 2.45,
+          "otherIncome": 0.22,
+          "finance": 0.025,
+          "associate": 0.76,
+          "JV": 0.015,
+          "impairment": 0.125,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.125,
+          "minority": 0.11,
+          "shares": 2.48,
+          "FV": 0,
+          "disposalGain": 0,
+          "revenueCNYBillion": 25.6,
+          "grossCNYBillion": 18.720000000000002,
+          "grossMarginPct": 73.125,
+          "operatingCNYBillion": 8.005000000000003,
+          "pretaxCNYBillion": 8.755000000000003,
+          "taxableCNYBillion": 7.980000000000003,
+          "taxCNYBillion": 1.7210000000000008,
+          "profitCNYBillion": 6.924000000000001,
+          "epsCNY": 2.7919354838709682,
+          "netMarginPct": 27.046875000000004
+        }
+      ],
+      "epsCNY": [
+        0.04632352941176476,
+        1.754417670682732,
+        2.7919354838709682
+      ],
+      "PE": [
+        7,
+        13,
+        16
+      ],
+      "profitCNYBillion": [
+        0.12600000000000017,
+        4.368500000000003,
+        6.924000000000001
+      ],
+      "revenueCNYBillion": [
+        11,
+        19.6,
+        25.6
+      ],
+      "netMarginPct": [
+        1.145454545454547,
+        22.28826530612246,
+        27.046875000000004
+      ],
+      "dilutedSharesBillion": [
+        2.72,
+        2.49,
+        2.48
+      ],
+      "priceHKD": [
+        0.35669117647058873,
+        25.088172690763066,
+        49.13806451612904
+      ],
+      "priceTargets": [
+        0.35669117647058873,
+        25.088172690763066,
+        49.13806451612904
+      ],
+      "cumulativeCashDividendHKD": [
+        1.05,
+        2.85,
+        4.05
+      ],
+      "priceReturnPct": [
+        -96.61583324031699,
+        138.02820389718283,
+        366.205545693824
+      ],
+      "totalReturnPct": [
+        -86.65378390445362,
+        165.06805209452628,
+        404.6305931321541
+      ],
+      "conditions": [
+        "集采与院外竞争加剧，新药上市慢、研发和授权失效率高，税优惠降低，增长弱且长期融资稀释；极端临床/合规/减值损失可超过此区间",
+        "新老产品更替温和，新药准入和复购增长，销售费用率逐步下降而研发保持，联营正常增长；持续合并且融资克制，不靠公允增值撑利润",
+        "AD/白癜风与免疫管线商业化快速，专科平台扩张和海外复制经现金流验证，费用效率改善，估值恢复成长溢价；非全面临床成功假设"
+      ],
+      "continuingConsolidationRequired": true,
+      "baseAnnualizedPriceReturnPct": 18.93938372541102,
+      "baseAnnualizedTotalReturnPct": 21.526636288513345
+    }
+  },
+  "confidence": {
+    "fundamentals": "高：HKEX原件财务、审批、股息与分拆条款；完整临床注册记录与产品收入未取得",
+    "technical": "中高：market-v1.6三年739日157周，价格多源一致，复权60日最大差1.67%、一根OHLC有留痕修复",
+    "valuation": "中：可编辑正常集团PE，产品分收入未披露而原子预测为研究假设；分拆完成需重建",
+    "institutionTargets": "中：2条90天内新闻可核，原研报及精确目标期限缺"
+  },
+  "assumptions": [
+    "未来全部原子经营数、PE、融资股数和HKD/CNY1.1为研究假设非公司/机构共识",
+    "年底CY2027、半年CY2027、一年CY2028、三年CY2030、五年CY2032正常前瞻；不按月份线性缩放机构目标",
+    "所有价格以未完成分拆和持续合并为条件，分拆可改变母股名义价格，届时单列实物证券总回报并重建集团边界",
+    "集团净财务/联营及皮肤利润已在PE，现金投资子NAV不再重复加；股息累加不再投资",
+    "25/50/25及40/50/10和10/50/40为判断权重，非概率或置信区间；悲观不是最大损失边界"
+  ],
+  "limitations": [
+    "单产品全费用贡献、完整许可里程碑/版税/终止条款、产品现金流及临床注册原记录未完整取得，不伪造精确分药rNPV",
+    "Dermavon后续分派比例日期、截至日持股变动及申请最终审批未取得，中报仍拟分拆；模型是条件价格，不冒充必然母股长期价",
+    "FVTPL组合穿透估值与随时变现能力不足，H1其他gain完整拆分缺，保守正常化而非精确全年扣非",
+    "专项行业指数相对收益和真实自由流通换手缺；总外部股份比例不等精确换手率",
+    "远期交易日只排除2027-10-09周末用10/8，未核所有未来假日日历；完整三张表未建，现金验证为研究桥",
+    "机构新闻动态报价不作报告日行情；花旗税项原因新闻表述与原件主体不一致，优先原件西藏康哲"
+  ],
+  "deepResearchFile": "research/cms_deep.md",
+  "qaFile": "qa/cms_qa.json",
+  "sources": [
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 September 2026",
+      "publicationTime": "30/09/2026 17:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093001444.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093001444.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12353314.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Systemic Lupus Erythematosus of Innovative Drug Highly Selective TYK2 Inhibitor CMS-D001",
+      "publicationTime": "14/09/2026 18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400883.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400883.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12331404.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug Application for Additional Indication Atopic Dermatitis (AD) for Ruxolitinib Phosphate Cream Lumirix Approved in China",
+      "publicationTime": "03/09/2026 17:54",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0903/2026090301761.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0903/2026090301761.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12318920.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Interim Report 2026",
+      "publicationTime": "01/09/2026 17:10",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102311.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102311.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12313023.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "(Revised) INTERIM DIVIDEND FOR THE SIX MONTHS ENDED 30 JUNE 2026",
+      "publicationTime": "18/08/2026 12:12",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0818/2026081800283.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0818/2026081800283.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12287898.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "INTERIM DIVIDEND FOR THE SIX MONTHS ENDED 30 JUNE 2026",
+      "publicationTime": "17/08/2026 21:28",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0817/2026081701637.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0817/2026081701637.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12287489.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "INTERIM RESULTS ANNOUNCEMENT FOR THE SIX MONTHS ENDED 30 JUNE 2026",
+      "publicationTime": "17/08/2026 21:22",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0817/2026081701623.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0817/2026081701623.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12287475.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Age-related Macular Degeneration Indication of Self-developed Innovative Drug Complement Factor B Inhibitor CMS-D017",
+      "publicationTime": "15/07/2026 18:34",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071500927.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071500927.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12245363.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug Application of Class 1 Innovative Drug Recombinant Fully Human Bispecific Antibody Against Rabies Virus Silevimig Injection Approved in China",
+      "publicationTime": "22/06/2026 17:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062200748.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062200748.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12210201.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Ulcerative Colitis and Crohn&#x27;s Disease of Innovative Drug Highly Selective TYK2 Inhibitor CMS-D001",
+      "publicationTime": "26/05/2026 06:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0526/2026052600023.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0526/2026052600023.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12169943.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug Application for the Seasonal Allergic Rhinitis Indication of Class 1 Innovative Drug MG-K10 Accepted in China",
+      "publicationTime": "23/04/2026 19:07",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042302206.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042302206.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12119027.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "PROPOSALS FOR (1) RE-ELECTION OF THE RETIRING DIRECTORS (2) DECLARATION OF FINAL DIVIDEND (3) GENERAL MANDATES TO ISSUE SHARES AND TO REPURCHASE SHARES AND (4) NOTICE OF ANNUAL GENERAL MEETING",
+      "publicationTime": "01/04/2026 19:05",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040103552.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040103552.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12092295.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Annual Report 2025",
+      "publicationTime": "01/04/2026 18:54",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040103498.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040103498.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12092241.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "FINAL DIVIDEND FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "17/03/2026 07:00",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0317/2026031700017.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0317/2026031700017.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12054520.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED 31 DECEMBER 2025 AND CHANGE OF MEMBER OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE COMMITTEE",
+      "publicationTime": "16/03/2026 22:43",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0316/2026031602212.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0316/2026031602212.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12054456.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug for Renal Anaemia Desidustat Tablets Approved in China",
+      "publicationTime": "13/03/2026 18:42",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0313/2026031301293.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0313/2026031301293.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12051735.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Overweight&#x2f;Obesity Indication of Self-Developed Innovative Drug INHBE-Targeting Small Nucleic Acid Drug CMS-D008",
+      "publicationTime": "04/03/2026 18:51",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0304/2026030401718.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0304/2026030401718.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12040967.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug Application for Additional Indication Atopic Dermatitis (AD) for Ruxolitinib Phosphate Cream Accepted and Granted Priority Review in China",
+      "publicationTime": "24/02/2026 17:47",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0224/2026022400556.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0224/2026022400556.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12028653.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Signing of Exclusive Distribution Agreement for the Original Drug Lidoderm Lidocaine Cataplasms",
+      "publicationTime": "12/02/2026 17:53",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0212/2026021200763.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0212/2026021200763.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12023483.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Complement - mediated Kidney Disease Indication of Innovative Drug Complement Factor B Inhibitor CMS-D017",
+      "publicationTime": "03/02/2026 20:55",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020302420.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020302420.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12012474.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement Approval of Drug Clinical Trials for Paroxysmal Nocturnal Hemoglobinuria Indication of Innovative Drug Complement Factor B Inhibitor CMS-D017",
+      "publicationTime": "30/01/2026 19:19",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0130/2026013001540.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0130/2026013001540.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12006476.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Voluntary and Business Update Announcement New Drug Application of Ruxolitinib Phosphate Cream Approved in China The First and Only Targeted Drug Approved in China for Vitiligo",
+      "publicationTime": "30/01/2026 12:07",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0130/2026013000223.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0130/2026013000223.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "data/pharma_raw/00867_12005531.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "PROPOSED SPIN-OFF AND SEPARATE LISTING OF DERMAVON HOLDINGS LIMITED ON THE MAIN BOARD OF THE STOCK EXCHANGE OF HONG KONG LIMITED",
+      "publicationTime": "22/04/2025 21:32",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0422/2025042201899.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0422/2025042201899.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00867_11634763.PDF"
+    },
+    {
+      "issuerId": "I050",
+      "code": "00867.HK",
+      "title": "Annual Report 2024",
+      "publicationTime": "02/04/2025 17:39",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0402/2025040201509.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0402/2025040201509.pdf",
+      "sourceType": "HKEX primary filing",
+      "reportCurrency": "CNY",
+      "financialUnit": "million; original statements thousand",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00867_11611902.PDF"
+    },
+    {
+      "title": "汇丰目标价",
+      "publicationDate": "2026-09-29",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1547010/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1547010/research-report",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "title": "高盛目标价",
+      "publicationDate": "2026-08-19",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1539248/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1539248/research-report",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "title": "里昂目标价",
+      "publicationDate": "2026-03-19",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510414/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510414/research-report",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "title": "花旗目标价",
+      "publicationDate": "2026-03-18",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510031/research-report",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00867/AAFN/NOW.1510031/research-report",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "title": "Tencent qt",
+      "sourceURL": "https://qt.gtimg.cn/q=hk01877,hk02162,hk01801,hk02268,hk06821,hk00867,hk09995,hk09926,hk01763,hk03442,hk07709,hk00100,hk02513,hk09992,hk01811,hk01797,hk09880,hk02400,hk01211,hk09660,hk03750,hk09999,hk00992,hk09888,hk00241",
+      "url": "https://qt.gtimg.cn/q=hk01877,hk02162,hk01801,hk02268,hk06821,hk00867,hk09995,hk09926,hk01763,hk03442,hk07709,hk00100,hk02513,hk09992,hk01811,hk01797,hk09880,hk02400,hk01211,hk09660,hk03750,hk09999,hk00992,hk09888,hk00241",
+      "sourceType": "locked market-v1.6"
+    },
+    {
+      "title": "Sina quotes",
+      "sourceURL": "https://hq.sinajs.cn/list=rt_hk03347,rt_hk06127,rt_hk01877,rt_hk02162,rt_hk01801,rt_hk02268,rt_hk06821,rt_hk00867,rt_hk09995,rt_hk09926,rt_hk01763,rt_hk03442,rt_hk07709,rt_hk00100,rt_hk02513,rt_hk09992,rt_hk01811,rt_hk01797,rt_hk09880,rt_hk02400,rt_hk01211,rt_hk09660,rt_hk03750,rt_hk09999,rt_hk00992",
+      "url": "https://hq.sinajs.cn/list=rt_hk03347,rt_hk06127,rt_hk01877,rt_hk02162,rt_hk01801,rt_hk02268,rt_hk06821,rt_hk00867,rt_hk09995,rt_hk09926,rt_hk01763,rt_hk03442,rt_hk07709,rt_hk00100,rt_hk02513,rt_hk09992,rt_hk01811,rt_hk01797,rt_hk09880,rt_hk02400,rt_hk01211,rt_hk09660,rt_hk03750,rt_hk09999,rt_hk00992",
+      "sourceType": "locked market-v1.6"
+    },
+    {
+      "title": "Yahoo Finance chart",
+      "sourceURL": "https://query2.finance.yahoo.com/v8/finance/chart/0867.HK?range=3y&interval=1d&events=div%2Csplits",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/0867.HK?range=3y&interval=1d&events=div%2Csplits",
+      "sourceType": "locked market-v1.6"
+    },
+    {
+      "title": "Tencent fqkline",
+      "sourceURL": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00867,day,2023-10-09,2026-10-09,1000,qfq",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00867,day,2023-10-09,2026-10-09,1000,qfq",
+      "sourceType": "locked market-v1.6"
+    }
+  ],
+  "valuationAnchors": {
+    "FY2025ReportPE": 15.658505627296242,
+    "TTMParent": 1533.815,
+    "TTMPE": 15.199892920877915,
+    "H1AnnualizedReportPE": 11.821214946763241,
+    "normalPE": 10.626173090445013,
+    "normalEPSCNY": 0.9017186244061929,
+    "PB": 1.2990431650910776
+  },
+  "cashValidation": {
+    "unit": "CNY billion",
+    "startCash": 2.571902,
+    "historyEquation": "692.686−573.013−222.902−26.249+2701.380=2571.902 CNY million",
+    "note": "future standalone research cash bridge, grants/royalty timing assumed; PE retains finance profits so cash not added",
+    "future": [
+      {
+        "period": "2026H2",
+        "OCF": 0.75,
+        "capex": 0.045,
+        "intangible": 0.43,
+        "netInvestment": -0.22,
+        "investmentCashIncome": 0.14,
+        "dividendsAndBuyback": 0.46,
+        "netFinancing": 0.1,
+        "FX": -0.02,
+        "endCash": 2.386902
+      },
+      {
+        "period": "2027",
+        "OCF": 1.7,
+        "capex": 0.09,
+        "intangible": 0.8,
+        "netInvestment": -0.28,
+        "investmentCashIncome": 0.27,
+        "dividendsAndBuyback": 0.95,
+        "netFinancing": 0.1,
+        "FX": -0.02,
+        "endCash": 2.316902
+      },
+      {
+        "period": "2028",
+        "OCF": 2.15,
+        "capex": 0.1,
+        "intangible": 0.85,
+        "netInvestment": -0.28,
+        "investmentCashIncome": 0.31,
+        "dividendsAndBuyback": 1.1,
+        "netFinancing": 0,
+        "FX": -0.02,
+        "endCash": 2.4269019999999997
+      }
+    ]
+  },
+  "effectiveHanzi": 14216,
+  "researchState": {
+    "stage": "pending independent QA",
+    "bodyVersion": "cms-deep-v1.0",
+    "effectiveHanzi": 14216,
+    "quoteVersion": "market-v1.6",
+    "modelVersion": "cms-whole-group-normal-PE-continuing-consolidation-v1.0"
+  }
+}

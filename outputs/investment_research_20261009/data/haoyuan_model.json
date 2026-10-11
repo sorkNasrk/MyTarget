@@ -1,0 +1,666 @@
+{
+  "issuerId": "I015",
+  "securityId": "S017",
+  "name": "皓元医药",
+  "code": "688131.SH",
+  "currency": "CNY",
+  "asOf": "2026-10-09",
+  "price": 93.16,
+  "priceCNY": 93.16,
+  "modelVersion": "haoyuan-diluted-pe-v1.0",
+  "status": "独立初版；原中报/年报及股数公告核验；盈利、转股和倍数为研究情景",
+  "method": "归母稀释EPS×正常化PE；主模型各场景采用全部剩余转债转股后的股数；利息影响包含在净利假设，不额外加现金或债务消失价值",
+  "shares": {
+    "issuedAtJune30": 213234092,
+    "issuedAtSeptember30": 213234116,
+    "bondFaceCNY": 821836000,
+    "bondCarryingCNYAtJune30": 740441838.3,
+    "conversionPriceCNY": 40.13,
+    "potentialNewShares": 20479342.13805133,
+    "fullConversionIssuedShares": 233713458.13805133,
+    "modelDilutedBillion": 0.23371345813805133,
+    "dilutionPct": 9.60415834117807,
+    "note": "转股时新增股数但不收到新增募集款；本模型完整转股假设非截至日事实；40.13元由9/14公告原核，9/30剩余本金和股数由10/9公告确认，具体公开时刻待核可能盘后"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 1647.97432392,
+    "revenueGrowthPct": 25.71,
+    "attributableProfit": 171.20036668,
+    "profitGrowthPct": 12.81,
+    "deductedProfit": 154.92995341,
+    "deductedGrowthPct": 10.21,
+    "totalNetProfit": 162.09591823,
+    "minorityProfit": -9.10444845,
+    "dilutedEPS": 0.81,
+    "OCF": 77.06460146,
+    "capex": 84.14276666,
+    "FCF": -7.0781652,
+    "cashBank": 1569.77020536,
+    "cashCashEquivalents": 1221.16501892,
+    "restrictedCash": 348.60518644,
+    "bankDebtIncludingCurrent": 1306.78939908,
+    "leaseDebtIncludingCurrent": 331.99216094,
+    "bondCarrying": 740.4418383,
+    "bondFace": 821.837,
+    "totalLiabilities": 3350.50778882,
+    "parentEquity": 3314.09763243,
+    "inventoryNet": 1585.20526789,
+    "inventoryProvision": 423.9635,
+    "receivableNet": 799.59075023,
+    "goodwill": 377.51828633,
+    "RDExpensed": 133.7306174,
+    "RDCapitalized": 0,
+    "RDIntensityPct": 8.11,
+    "netFXLoss": 42.34336328,
+    "interestExpense": 25.58227333,
+    "financeExpense": 69.96785584,
+    "inventoryImpairmentExpense": 80.53450696,
+    "assetImpairmentNet": 79.88689393,
+    "creditImpairment": 12.99660791,
+    "shareBasedExpense": 15.85498325,
+    "publicationDate": "2026-08-27",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513068.PDF"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 1880.04676914,
+      "attributableMillion": 127.44911365,
+      "deductedMillion": 110.12709645,
+      "OCF": -63.60617847,
+      "dilutedEPS": 0.61
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 2270.1778115,
+      "attributableMillion": 201.59008566,
+      "deductedMillion": 178.95268706,
+      "OCF": 381.96025831,
+      "capex": 304.46266244,
+      "FCF": 77.49759587,
+      "dilutedEPS": 0.96
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 2876.89620558,
+      "attributableMillion": 239.80680641,
+      "deductedMillion": 247.12787608,
+      "OCF": 317.74902962,
+      "capex": 221.78517599,
+      "FCF": 95.96385363,
+      "dilutedEPS": 1.13
+    }
+  ],
+  "segments": [
+    {
+      "name": "前端生命科学试剂",
+      "revenueMillion": 1211.9092,
+      "growthPct": 34.03,
+      "grossMarginPct": 62
+    },
+    {
+      "name": "工具化合物生化试剂",
+      "revenueMillion": 858.4401,
+      "growthPct": 32.8
+    },
+    {
+      "name": "分子砌块",
+      "revenueMillion": 353.4691,
+      "growthPct": 37.1
+    },
+    {
+      "name": "后端原料中间制剂",
+      "revenueMillion": 425.1186,
+      "growthPct": 6.45,
+      "grossMarginPct": 19.5
+    },
+    {
+      "name": "后端CRDMO",
+      "revenueMillion": 283.7991,
+      "growthPct": 15.5
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026各市场最后交易日",
+      "epsCNY": [
+        1.05,
+        1.55,
+        1.85
+      ],
+      "PE": [
+        38,
+        58,
+        72
+      ],
+      "priceCNY": [
+        39.9,
+        89.9,
+        133.20000000000002
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "revenueCNYMillion": [
+        3000,
+        3450,
+        3800
+      ],
+      "attributableProfitCNYMillion": [
+        245.39913104495392,
+        362.25586011397957,
+        432.369897555395
+      ],
+      "attributableMarginPct": [
+        8.179971034831796,
+        10.50016985837622,
+        11.378155198826184
+      ],
+      "earningsBasis": "目标时点未来12个月正常化经营能力；年底亦非当年已实现EPS，非按月线性缩放",
+      "afterTaxBondInterestSavingCNYMillion": [
+        22,
+        22,
+        22
+      ],
+      "underlyingNoConversionProfitCNYMillion": [
+        223.39913104495392,
+        340.25586011397957,
+        410.369897555395
+      ],
+      "noConversionEPSCNY": [
+        1.0476706787620884,
+        1.5956914704679788,
+        1.9245039454915134
+      ],
+      "sharesMillion": [
+        233.71345813805132,
+        233.71345813805132,
+        233.71345813805132
+      ],
+      "conditions": [
+        "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+        "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+        "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+      ],
+      "priceReturnPct": [
+        -57.17045942464577,
+        -3.4993559467582536,
+        42.97981966509234
+      ],
+      "totalReturnPct": [
+        -57.17045942464577,
+        -3.4993559467582536,
+        42.97981966509234
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceCNY": 88.22500000000001,
+      "expectedReturnPct": -5.297337913267485,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 74.23,
+        "positivePrice": 102.22000000000001
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.1,
+        1.8,
+        2.3
+      ],
+      "PE": [
+        36,
+        55,
+        70
+      ],
+      "priceCNY": [
+        39.6,
+        99,
+        161
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "revenueCNYMillion": [
+        3150,
+        3900,
+        4400
+      ],
+      "attributableProfitCNYMillion": [
+        257.0848039518565,
+        420.6842246484924,
+        537.5409537175179
+      ],
+      "attributableMarginPct": [
+        8.161422347677984,
+        10.786774990986984,
+        12.216839857216316
+      ],
+      "earningsBasis": "目标时点未来12个月正常化经营能力；年底亦非当年已实现EPS，非按月线性缩放",
+      "afterTaxBondInterestSavingCNYMillion": [
+        22,
+        22,
+        22
+      ],
+      "underlyingNoConversionProfitCNYMillion": [
+        235.0848039518565,
+        398.6842246484924,
+        515.5409537175179
+      ],
+      "noConversionEPSCNY": [
+        1.1024727579326776,
+        1.869701866320924,
+        2.417722658026814
+      ],
+      "sharesMillion": [
+        233.71345813805132,
+        233.71345813805132,
+        233.71345813805132
+      ],
+      "conditions": [
+        "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+        "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+        "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+      ],
+      "priceReturnPct": [
+        -57.49248604551309,
+        6.268784886217271,
+        72.82095319879778
+      ],
+      "totalReturnPct": [
+        -57.49248604551309,
+        6.268784886217271,
+        72.82095319879778
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        1.2,
+        2.25,
+        3
+      ],
+      "PE": [
+        34,
+        52,
+        65
+      ],
+      "priceCNY": [
+        40.8,
+        117,
+        195
+      ],
+      "cumulativeCashDividendCNY": [
+        0.15,
+        0.28,
+        0.4
+      ],
+      "revenueCNYMillion": [
+        3300,
+        4450,
+        5200
+      ],
+      "attributableProfitCNYMillion": [
+        280.4561497656616,
+        525.8552808106155,
+        701.140374414154
+      ],
+      "attributableMarginPct": [
+        8.498671205020049,
+        11.816972602485741,
+        13.483468738733732
+      ],
+      "earningsBasis": "目标时点未来12个月正常化经营能力；年底亦非当年已实现EPS，非按月线性缩放",
+      "afterTaxBondInterestSavingCNYMillion": [
+        22,
+        22,
+        22
+      ],
+      "underlyingNoConversionProfitCNYMillion": [
+        258.4561497656616,
+        503.85528081061545,
+        679.140374414154
+      ],
+      "noConversionEPSCNY": [
+        1.2120769162738556,
+        2.362920578856225,
+        3.184951766415061
+      ],
+      "sharesMillion": [
+        233.71345813805132,
+        233.71345813805132,
+        233.71345813805132
+      ],
+      "conditions": [
+        "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+        "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+        "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+      ],
+      "priceReturnPct": [
+        -56.204379562043805,
+        25.59038213825677,
+        109.31730356376126
+      ],
+      "totalReturnPct": [
+        -56.04336625161014,
+        25.890940317732934,
+        109.7466723915844
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.5,
+        3.9,
+        6.5
+      ],
+      "PE": [
+        30,
+        44,
+        58
+      ],
+      "priceCNY": [
+        45,
+        171.6,
+        377
+      ],
+      "cumulativeCashDividendCNY": [
+        0.5,
+        1.1,
+        1.7
+      ],
+      "revenueCNYMillion": [
+        4000,
+        6700,
+        9600
+      ],
+      "attributableProfitCNYMillion": [
+        350.570187207077,
+        911.4824867384002,
+        1519.1374778973336
+      ],
+      "attributableMarginPct": [
+        8.764254680176926,
+        13.604216219976122,
+        15.824348728097226
+      ],
+      "earningsBasis": "目标时点未来12个月正常化经营能力；年底亦非当年已实现EPS，非按月线性缩放",
+      "afterTaxBondInterestSavingCNYMillion": [
+        22,
+        22,
+        22
+      ],
+      "underlyingNoConversionProfitCNYMillion": [
+        328.570187207077,
+        889.4824867384002,
+        1497.1374778973336
+      ],
+      "noConversionEPSCNY": [
+        1.54088939129739,
+        4.171389191485663,
+        7.0210973083562935
+      ],
+      "sharesMillion": [
+        233.71345813805132,
+        233.71345813805132,
+        233.71345813805132
+      ],
+      "conditions": [
+        "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+        "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+        "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+      ],
+      "priceReturnPct": [
+        -51.69600686990125,
+        84.19922713610993,
+        304.6801202232718
+      ],
+      "totalReturnPct": [
+        -51.15929583512238,
+        85.37999141262344,
+        306.50493774151994
+      ],
+      "baseAnnualizedTotalReturnPct": 22.844095201019286
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        1.8,
+        5.5,
+        10
+      ],
+      "PE": [
+        26,
+        38,
+        50
+      ],
+      "priceCNY": [
+        46.800000000000004,
+        209,
+        500
+      ],
+      "cumulativeCashDividendCNY": [
+        1,
+        2.3,
+        4
+      ],
+      "revenueCNYMillion": [
+        4800,
+        9000,
+        14000
+      ],
+      "attributableProfitCNYMillion": [
+        420.6842246484924,
+        1285.4240197592824,
+        2337.1345813805133
+      ],
+      "attributableMarginPct": [
+        8.764254680176924,
+        14.28248910843647,
+        16.69381843843224
+      ],
+      "earningsBasis": "目标时点未来12个月正常化经营能力；年底亦非当年已实现EPS，非按月线性缩放",
+      "afterTaxBondInterestSavingCNYMillion": [
+        22,
+        22,
+        22
+      ],
+      "underlyingNoConversionProfitCNYMillion": [
+        398.6842246484924,
+        1263.4240197592824,
+        2315.1345813805133
+      ],
+      "noConversionEPSCNY": [
+        1.869701866320924,
+        5.925055724944513,
+        10.857242850297526
+      ],
+      "sharesMillion": [
+        233.71345813805132,
+        233.71345813805132,
+        233.71345813805132
+      ],
+      "conditions": [
+        "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+        "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+        "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+      ],
+      "priceReturnPct": [
+        -49.763847144697294,
+        124.34521253756978,
+        436.7110347788751
+      ],
+      "totalReturnPct": [
+        -48.690425075139544,
+        126.81408329755261,
+        441.00472305710605
+      ],
+      "baseAnnualizedTotalReturnPct": 17.796938499274905
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.3,
+        3.1,
+        3.9,
+        4.1,
+        3.5,
+        2.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 62.2
+    },
+    "oneYear": {
+      "dimensions": [
+        2.9,
+        3.1,
+        4,
+        4.2,
+        3.8,
+        2.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 69.2
+    },
+    "threeYear": {
+      "dimensions": [
+        3.5,
+        3.1,
+        4.2,
+        4.3,
+        3.9,
+        2.6
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 76.30000000000001
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.4,
+        3.1,
+        4.3,
+        4.2,
+        3.8,
+        2.7
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 76.69999999999999
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "试剂减速、价格压力与库存减值持续，后端利用率改善缓慢、融资和估值压缩",
+    "前端保持较快增长，后端逐渐改善毛利，汇率不进一步恶化、转股后股数摊薄已计入",
+    "前端全球份额扩张、ADC订单如期放量、盈利与现金流双改善且高倍数维持"
+  ],
+  "assumptions": [
+    "EPS为目标时点可持续归母稀释盈利能力，远期营收/净利率是研究设定非一致预期",
+    "所有主模型采用完全转股股数约233.7m，实际转股时间不确定；新募集款为0；未转股敏感性另列",
+    "PE已反映净债和现金收益，不重复加全部现金、转债本金或潜在药物成功收益",
+    "库存减值为正常成本风险不统一加回；销售、管理及研发费用纳入净利",
+    "2025Q4归母3.148m不能简单归于一笔减值，年度处置/报废/重估与季度完整桥尚缺",
+    "7/13的0.15元及9/21的0.09元已除息不计未来回报，模型分红均为假设",
+    "库存42.4亿元表述错误：准备为4.24亿元，净库存15.85亿元；正文按百万元核算",
+    "25/50/25情景权重属判断，区间不是最大损失或统计置信区间"
+  ],
+  "brokerTargets": [],
+  "brokerTargetStatus": "截至日未找到公开可核验外资机构目标价，保留缺失；不把国内券商研报列为外资",
+  "confidence": {
+    "fundamentals": "高：公司原财报及专项公告；少数减值桥待核",
+    "technical": "高：728日双源交叉，统一复权和股单位",
+    "valuation": "中低：利润率、倍数、完全转股为情景",
+    "institutionTargets": "缺失"
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "FY2025EPS1.13对应82.44倍；一年基准117元但年底基准89.9元，成长不等于低估",
+    "technicalRelativeStrength": "跌破20日但高于60/120/250日，20日上/下量比0.973、MACD回落，市场相对强但未证实新突破",
+    "growthBusinessQuality": "前端34.03%、后端6.45%，合并利润12.81%落后收入25.71%；结构改善但库存和费用拖累",
+    "industryCycle": "科研试剂及创新药研发需求有扩张潜力，融资和研发项目筛选仍有周期约束",
+    "catalysts": "ADC订单、产线爬坡与季度盈利改善；员工减持及转股供给限制短期赔率",
+    "financialGovernanceDownside": "受限资金348.6m、债券本金821.8m、库存应收及并购商誉，盈利现金化未完成"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513068.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160544.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-23/1225154385.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596147.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-14/1225562054.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-14/1225562056.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-12/1225559369.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-09/1225553973.PDF"
+  ],
+  "deepResearchFile": "research/haoyuan_deep.md",
+  "limitations": [
+    "完整分部DCF与独立历史估值分位未完成",
+    "FDA零缺陷为公司披露，未获得监管检查原件",
+    "外资目标公开可核验资料缺失",
+    "2025Q4完整利润桥、非经常损益处置项目分类桥未核，不能简单加回全部项目",
+    "CXO细分指数未取得，行业相对强弱留空",
+    "10/9股数公告精确公开时刻待核，列可能盘后",
+    "全部轉股为主模型保守假设，与未转换债务模型并非同一资本结构，不能简单保持净利润不变做正式估值"
+  ],
+  "effectiveHanzi": 14757,
+  "qaFile": "qa/haoyuan_qa.json",
+  "qaStatus": "独立汉字、完全重复、场景与评分核算通过；原始事实及假设边界已记录，初版限制保留"
+}

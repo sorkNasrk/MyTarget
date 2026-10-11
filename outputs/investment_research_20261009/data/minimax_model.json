@@ -1,0 +1,4113 @@
+{
+  "issuerId": "I054",
+  "securityId": "S064",
+  "code": "00100.HK",
+  "name": "MINIMAX-W",
+  "company": "MiniMax",
+  "asOf": "2026-10-09",
+  "price": 213,
+  "priceCurrency": "HKD",
+  "modelVersion": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/minimax_deep.md",
+  "status": "source-model-body-verified-pending-final-document-integration",
+  "nativeWorkbookQAFile": "qa/minimax_native_workbook_qa.json",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "enterpriseARR": [
+          0.55,
+          0.95,
+          1.3
+        ],
+        "enterpriseARRRecognition": [
+          0.55,
+          0.68,
+          0.78
+        ],
+        "nativeRevenue": [
+          0.08,
+          0.1,
+          0.14
+        ],
+        "enterpriseGross": [
+          0.14,
+          0.24,
+          0.34
+        ],
+        "nativeGross": [
+          0.22,
+          0.3,
+          0.38
+        ],
+        "RDCloud": [
+          0.8,
+          0.72,
+          0.82
+        ],
+        "RDOtherFull": [
+          0.1,
+          0.12,
+          0.15
+        ],
+        "salesFull": [
+          0.075,
+          0.07,
+          0.085
+        ],
+        "adminFull": [
+          0.075,
+          0.07,
+          0.09
+        ],
+        "otherOperatingCost": [
+          0.015,
+          0.012,
+          0.016
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterest": [
+          0.015,
+          0.012,
+          0.01
+        ],
+        "leaseInterest": [
+          0.002,
+          0.002,
+          0.003
+        ],
+        "DAProperty": [
+          0.015,
+          0.025,
+          0.035
+        ],
+        "DAROU": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "capitalCash": [
+          0.3,
+          0.35,
+          0.45
+        ],
+        "NWC": [
+          0.15,
+          0.08,
+          0.1
+        ],
+        "leaseCash": [
+          0.006,
+          0.009,
+          0.015
+        ],
+        "cashYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "cashAnchor": [
+          0.930905,
+          0.930905,
+          0.930905
+        ],
+        "timeDeposit": [
+          0.014038,
+          0.014038,
+          0.014038
+        ],
+        "amortisedFinancial": [
+          0.029629,
+          0.029629,
+          0.029629
+        ],
+        "liquidFinancial": [
+          0.347476,
+          0.347476,
+          0.347476
+        ],
+        "liquidRealizable": [
+          0.7,
+          0.9,
+          1
+        ],
+        "nonCoreNAV": [
+          0.007653,
+          0.007653,
+          0.007653
+        ],
+        "nonCoreRealizable": [
+          0.2,
+          0.5,
+          0.8
+        ],
+        "bankDebt": [
+          0.133555,
+          0.133555,
+          0.133555
+        ],
+        "debtBuffer": [
+          0.01,
+          0.005,
+          0
+        ],
+        "julyEquityNetHKD": [
+          9.44371,
+          9.44371,
+          9.44371
+        ],
+        "julyBondNetHKD": [
+          6.4333,
+          6.4333,
+          6.4333
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "operatingReserve": [
+          0.6,
+          0.6,
+          0.65
+        ],
+        "extraCapitalCash": [
+          0.05,
+          0.05,
+          0.08
+        ],
+        "futureEquityNet": [
+          0,
+          0,
+          0
+        ],
+        "futureIssuePriceHKD": [
+          160,
+          250,
+          400
+        ],
+        "baseSharesM": [
+          352.480183,
+          352.480183,
+          352.480183
+        ],
+        "futureAwardSharesM": [
+          1,
+          1.8,
+          3
+        ],
+        "EVSales": [
+          6,
+          12,
+          17
+        ],
+        "bondPrincipalHKD": [
+          6.5,
+          6.5,
+          6.5
+        ],
+        "bondRedemptionMultiple": [
+          1.0275,
+          1.0275,
+          1.0275
+        ],
+        "bondConversionPriceHKD": [
+          335,
+          335,
+          335
+        ],
+        "bondConvertFraction": [
+          0,
+          0,
+          0
+        ],
+        "bondResolved": [
+          0,
+          0,
+          0
+        ],
+        "FX": [
+          7.837,
+          7.837,
+          7.837
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "halfYear": {
+        "enterpriseARR": [
+          0.5,
+          1.35,
+          2.1
+        ],
+        "enterpriseARRRecognition": [
+          0.55,
+          0.76,
+          0.85
+        ],
+        "nativeRevenue": [
+          0.09,
+          0.13,
+          0.2
+        ],
+        "enterpriseGross": [
+          0.12,
+          0.32,
+          0.43
+        ],
+        "nativeGross": [
+          0.2,
+          0.33,
+          0.42
+        ],
+        "RDCloud": [
+          0.9,
+          0.95,
+          1.15
+        ],
+        "RDOtherFull": [
+          0.13,
+          0.16,
+          0.21
+        ],
+        "salesFull": [
+          0.09,
+          0.11,
+          0.17
+        ],
+        "adminFull": [
+          0.085,
+          0.1,
+          0.13
+        ],
+        "otherOperatingCost": [
+          0.015,
+          0.012,
+          0.016
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterest": [
+          0.015,
+          0.012,
+          0.01
+        ],
+        "leaseInterest": [
+          0.002,
+          0.002,
+          0.003
+        ],
+        "DAProperty": [
+          0.035,
+          0.06,
+          0.09
+        ],
+        "DAROU": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "capitalCash": [
+          0.35,
+          0.5,
+          0.75
+        ],
+        "NWC": [
+          0.18,
+          0.14,
+          0.23
+        ],
+        "leaseCash": [
+          0.006,
+          0.009,
+          0.015
+        ],
+        "cashYears": [
+          0.52,
+          0.52,
+          0.52
+        ],
+        "cashAnchor": [
+          0.930905,
+          0.930905,
+          0.930905
+        ],
+        "timeDeposit": [
+          0.014038,
+          0.014038,
+          0.014038
+        ],
+        "amortisedFinancial": [
+          0.029629,
+          0.029629,
+          0.029629
+        ],
+        "liquidFinancial": [
+          0.347476,
+          0.347476,
+          0.347476
+        ],
+        "liquidRealizable": [
+          0.7,
+          0.9,
+          1
+        ],
+        "nonCoreNAV": [
+          0.007653,
+          0.007653,
+          0.007653
+        ],
+        "nonCoreRealizable": [
+          0.2,
+          0.5,
+          0.8
+        ],
+        "bankDebt": [
+          0.133555,
+          0.133555,
+          0.133555
+        ],
+        "debtBuffer": [
+          0.01,
+          0.005,
+          0
+        ],
+        "julyEquityNetHKD": [
+          9.44371,
+          9.44371,
+          9.44371
+        ],
+        "julyBondNetHKD": [
+          6.4333,
+          6.4333,
+          6.4333
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "operatingReserve": [
+          0.65,
+          0.75,
+          0.9
+        ],
+        "extraCapitalCash": [
+          0.1,
+          0.1,
+          0.15
+        ],
+        "futureEquityNet": [
+          0.2,
+          0,
+          0
+        ],
+        "futureIssuePriceHKD": [
+          120,
+          300,
+          600
+        ],
+        "baseSharesM": [
+          352.480183,
+          352.480183,
+          352.480183
+        ],
+        "futureAwardSharesM": [
+          2,
+          4,
+          7
+        ],
+        "EVSales": [
+          4.5,
+          12,
+          18
+        ],
+        "bondPrincipalHKD": [
+          6.5,
+          6.5,
+          6.5
+        ],
+        "bondRedemptionMultiple": [
+          1.0275,
+          1.0275,
+          1.0275
+        ],
+        "bondConversionPriceHKD": [
+          335,
+          335,
+          335
+        ],
+        "bondConvertFraction": [
+          0,
+          0,
+          0
+        ],
+        "bondResolved": [
+          0,
+          0,
+          0
+        ],
+        "FX": [
+          7.837,
+          7.837,
+          7.837
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "oneYear": {
+        "enterpriseARR": [
+          0.45,
+          1.7,
+          3.1
+        ],
+        "enterpriseARRRecognition": [
+          0.57,
+          0.85,
+          0.88
+        ],
+        "nativeRevenue": [
+          0.09,
+          0.16,
+          0.28
+        ],
+        "enterpriseGross": [
+          0.1,
+          0.38,
+          0.48
+        ],
+        "nativeGross": [
+          0.18,
+          0.35,
+          0.45
+        ],
+        "RDCloud": [
+          1,
+          1.2,
+          1.75
+        ],
+        "RDOtherFull": [
+          0.16,
+          0.22,
+          0.34
+        ],
+        "salesFull": [
+          0.09,
+          0.14,
+          0.25
+        ],
+        "adminFull": [
+          0.095,
+          0.13,
+          0.2
+        ],
+        "otherOperatingCost": [
+          0.015,
+          0.012,
+          0.016
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterest": [
+          0.015,
+          0.012,
+          0.01
+        ],
+        "leaseInterest": [
+          0.002,
+          0.002,
+          0.003
+        ],
+        "DAProperty": [
+          0.07,
+          0.12,
+          0.18
+        ],
+        "DAROU": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "capitalCash": [
+          0.38,
+          0.75,
+          1.1
+        ],
+        "NWC": [
+          0.23,
+          0.25,
+          0.45
+        ],
+        "leaseCash": [
+          0.006,
+          0.009,
+          0.015
+        ],
+        "cashYears": [
+          0.9,
+          0.9,
+          0.9
+        ],
+        "cashAnchor": [
+          0.930905,
+          0.930905,
+          0.930905
+        ],
+        "timeDeposit": [
+          0.014038,
+          0.014038,
+          0.014038
+        ],
+        "amortisedFinancial": [
+          0.029629,
+          0.029629,
+          0.029629
+        ],
+        "liquidFinancial": [
+          0.347476,
+          0.347476,
+          0.347476
+        ],
+        "liquidRealizable": [
+          0.7,
+          0.9,
+          1
+        ],
+        "nonCoreNAV": [
+          0.007653,
+          0.007653,
+          0.007653
+        ],
+        "nonCoreRealizable": [
+          0.2,
+          0.5,
+          0.8
+        ],
+        "bankDebt": [
+          0.133555,
+          0.133555,
+          0.133555
+        ],
+        "debtBuffer": [
+          0.01,
+          0.005,
+          0
+        ],
+        "julyEquityNetHKD": [
+          9.44371,
+          9.44371,
+          9.44371
+        ],
+        "julyBondNetHKD": [
+          6.4333,
+          6.4333,
+          6.4333
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "operatingReserve": [
+          0.65,
+          0.95,
+          1.2
+        ],
+        "extraCapitalCash": [
+          0.18,
+          0.2,
+          0.3
+        ],
+        "futureEquityNet": [
+          0.6,
+          0.15,
+          0
+        ],
+        "futureIssuePriceHKD": [
+          100,
+          300,
+          600
+        ],
+        "baseSharesM": [
+          352.480183,
+          352.480183,
+          352.480183
+        ],
+        "futureAwardSharesM": [
+          4,
+          7,
+          11
+        ],
+        "EVSales": [
+          3.5,
+          11,
+          18
+        ],
+        "bondPrincipalHKD": [
+          6.5,
+          6.5,
+          6.5
+        ],
+        "bondRedemptionMultiple": [
+          1.0275,
+          1.0275,
+          1.0275
+        ],
+        "bondConversionPriceHKD": [
+          335,
+          335,
+          335
+        ],
+        "bondConvertFraction": [
+          0,
+          1,
+          1
+        ],
+        "bondResolved": [
+          1,
+          1,
+          1
+        ],
+        "FX": [
+          7.837,
+          7.837,
+          7.837
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "threeYear": {
+        "enterpriseARR": [
+          0.4,
+          4.3,
+          9
+        ],
+        "enterpriseARRRecognition": [
+          0.63,
+          0.91,
+          0.93
+        ],
+        "nativeRevenue": [
+          0.09,
+          0.34,
+          0.7
+        ],
+        "enterpriseGross": [
+          0.1,
+          0.49,
+          0.59
+        ],
+        "nativeGross": [
+          0.16,
+          0.42,
+          0.52
+        ],
+        "RDCloud": [
+          1.15,
+          2.1,
+          3.5
+        ],
+        "RDOtherFull": [
+          0.22,
+          0.4,
+          0.8
+        ],
+        "salesFull": [
+          0.1,
+          0.3,
+          0.7
+        ],
+        "adminFull": [
+          0.1,
+          0.25,
+          0.5
+        ],
+        "otherOperatingCost": [
+          0.015,
+          0.012,
+          0.016
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterest": [
+          0.015,
+          0.012,
+          0.01
+        ],
+        "leaseInterest": [
+          0.002,
+          0.002,
+          0.003
+        ],
+        "DAProperty": [
+          0.12,
+          0.3,
+          0.6
+        ],
+        "DAROU": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "capitalCash": [
+          0.4,
+          1.2,
+          2.4
+        ],
+        "NWC": [
+          0.3,
+          0.55,
+          1.1
+        ],
+        "leaseCash": [
+          0.006,
+          0.009,
+          0.015
+        ],
+        "cashYears": [
+          2,
+          2,
+          2
+        ],
+        "cashAnchor": [
+          0.930905,
+          0.930905,
+          0.930905
+        ],
+        "timeDeposit": [
+          0.014038,
+          0.014038,
+          0.014038
+        ],
+        "amortisedFinancial": [
+          0.029629,
+          0.029629,
+          0.029629
+        ],
+        "liquidFinancial": [
+          0.347476,
+          0.347476,
+          0.347476
+        ],
+        "liquidRealizable": [
+          0.7,
+          0.9,
+          1
+        ],
+        "nonCoreNAV": [
+          0.007653,
+          0.007653,
+          0.007653
+        ],
+        "nonCoreRealizable": [
+          0.2,
+          0.5,
+          0.8
+        ],
+        "bankDebt": [
+          0.133555,
+          0.133555,
+          0.133555
+        ],
+        "debtBuffer": [
+          0.01,
+          0.005,
+          0
+        ],
+        "julyEquityNetHKD": [
+          9.44371,
+          9.44371,
+          9.44371
+        ],
+        "julyBondNetHKD": [
+          6.4333,
+          6.4333,
+          6.4333
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "operatingReserve": [
+          0.6,
+          1.5,
+          2.5
+        ],
+        "extraCapitalCash": [
+          0.35,
+          0.55,
+          0.9
+        ],
+        "futureEquityNet": [
+          2.2,
+          0.8,
+          0.5
+        ],
+        "futureIssuePriceHKD": [
+          75,
+          300,
+          700
+        ],
+        "baseSharesM": [
+          352.480183,
+          352.480183,
+          352.480183
+        ],
+        "futureAwardSharesM": [
+          12,
+          24,
+          36
+        ],
+        "EVSales": [
+          2,
+          9,
+          13
+        ],
+        "bondPrincipalHKD": [
+          6.5,
+          6.5,
+          6.5
+        ],
+        "bondRedemptionMultiple": [
+          1.0275,
+          1.0275,
+          1.0275
+        ],
+        "bondConversionPriceHKD": [
+          335,
+          335,
+          335
+        ],
+        "bondConvertFraction": [
+          0,
+          1,
+          1
+        ],
+        "bondResolved": [
+          1,
+          1,
+          1
+        ],
+        "FX": [
+          7.837,
+          7.837,
+          7.837
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "fiveYear": {
+        "enterpriseARR": [
+          0.35,
+          7.5,
+          18
+        ],
+        "enterpriseARRRecognition": [
+          0.65,
+          0.94,
+          0.96
+        ],
+        "nativeRevenue": [
+          0.1,
+          0.55,
+          1.3
+        ],
+        "enterpriseGross": [
+          0.1,
+          0.58,
+          0.65
+        ],
+        "nativeGross": [
+          0.15,
+          0.48,
+          0.6
+        ],
+        "RDCloud": [
+          1.2,
+          2.4,
+          5
+        ],
+        "RDOtherFull": [
+          0.25,
+          0.6,
+          1.5
+        ],
+        "salesFull": [
+          0.1,
+          0.5,
+          1.3
+        ],
+        "adminFull": [
+          0.11,
+          0.4,
+          1
+        ],
+        "otherOperatingCost": [
+          0.015,
+          0.012,
+          0.016
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterest": [
+          0.015,
+          0.012,
+          0.01
+        ],
+        "leaseInterest": [
+          0.002,
+          0.002,
+          0.003
+        ],
+        "DAProperty": [
+          0.14,
+          0.55,
+          1.2
+        ],
+        "DAROU": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "capitalCash": [
+          0.42,
+          1.8,
+          4
+        ],
+        "NWC": [
+          0.35,
+          0.75,
+          2
+        ],
+        "leaseCash": [
+          0.006,
+          0.009,
+          0.015
+        ],
+        "cashYears": [
+          2.8,
+          2.8,
+          2.8
+        ],
+        "cashAnchor": [
+          0.930905,
+          0.930905,
+          0.930905
+        ],
+        "timeDeposit": [
+          0.014038,
+          0.014038,
+          0.014038
+        ],
+        "amortisedFinancial": [
+          0.029629,
+          0.029629,
+          0.029629
+        ],
+        "liquidFinancial": [
+          0.347476,
+          0.347476,
+          0.347476
+        ],
+        "liquidRealizable": [
+          0.7,
+          0.9,
+          1
+        ],
+        "nonCoreNAV": [
+          0.007653,
+          0.007653,
+          0.007653
+        ],
+        "nonCoreRealizable": [
+          0.2,
+          0.5,
+          0.8
+        ],
+        "bankDebt": [
+          0.133555,
+          0.133555,
+          0.133555
+        ],
+        "debtBuffer": [
+          0.01,
+          0.005,
+          0
+        ],
+        "julyEquityNetHKD": [
+          9.44371,
+          9.44371,
+          9.44371
+        ],
+        "julyBondNetHKD": [
+          6.4333,
+          6.4333,
+          6.4333
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "operatingReserve": [
+          0.65,
+          2.1,
+          4
+        ],
+        "extraCapitalCash": [
+          0.5,
+          0.9,
+          1.6
+        ],
+        "futureEquityNet": [
+          4,
+          1.3,
+          0.8
+        ],
+        "futureIssuePriceHKD": [
+          65,
+          300,
+          800
+        ],
+        "baseSharesM": [
+          352.480183,
+          352.480183,
+          352.480183
+        ],
+        "futureAwardSharesM": [
+          22,
+          44,
+          68
+        ],
+        "EVSales": [
+          1.2,
+          7,
+          10
+        ],
+        "bondPrincipalHKD": [
+          6.5,
+          6.5,
+          6.5
+        ],
+        "bondRedemptionMultiple": [
+          1.0275,
+          1.0275,
+          1.0275
+        ],
+        "bondConversionPriceHKD": [
+          335,
+          335,
+          335
+        ],
+        "bondConvertFraction": [
+          0,
+          1,
+          1
+        ],
+        "bondResolved": [
+          1,
+          1,
+          1
+        ],
+        "FX": [
+          7.837,
+          7.837,
+          7.837
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "type": "ARR-to-revenue-fullcost-EVsales-cash-convertible-capital",
+    "capitalNote": "USD十億；ARR只作企业年率起点，再经收入确认系数，不冒充IFRS或原件指引。完整研发SBC折旧及租成本保留；财资收益排出经营后加可实现本金。七月配股净款及债净款进入现金，股数已在九月锚；债未结算扣102.75%索偿，已结算扣现金或新增转换股，两者不重复。预期一年基准/乐观选择转换必须估值高于335并处合法窗口，年底/半年转换窗口关闭默认0。后续融资现金及发行价计算股数，若经营现金至目标不足经营储备，由同一模型计算最低补足融资并追加股数，不允许负现金维持目标价；该融资成功为条件而非自动保障，预IPO奖股已在法定分母不再加。",
+    "fieldMetadata": {
+      "enterpriseARR": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "enterpriseARRRecognition": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "nativeRevenue": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "enterpriseGross": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "nativeGross": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "RDCloud": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "RDOtherFull": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "salesFull": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "adminFull": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "otherOperatingCost": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "taxRate": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bankInterest": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "leaseInterest": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "DAProperty": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "DAROU": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "capitalCash": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "NWC": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "leaseCash": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "cashYears": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "cashAnchor": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "timeDeposit": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "amortisedFinancial": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "liquidFinancial": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "liquidRealizable": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "nonCoreNAV": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "nonCoreRealizable": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bankDebt": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "debtBuffer": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "julyEquityNetHKD": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "julyBondNetHKD": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "postJuneCashDelta": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "operatingReserve": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "extraCapitalCash": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "futureEquityNet": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "USD",
+        "unit": "USD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "futureIssuePriceHKD": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "baseSharesM": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": null,
+        "unit": "million shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "futureAwardSharesM": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "million shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "EVSales": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bondPrincipalHKD": {
+        "code": "00100.HK",
+        "reportPeriod": "2026-06/07/09原件锚",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bondRedemptionMultiple": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bondConversionPriceHKD": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bondConvertFraction": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "bondResolved": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "0/1",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "FX": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": null,
+        "unit": "HKD per USD",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      },
+      "dividend": {
+        "code": "00100.HK",
+        "reportPeriod": "目标NTM正常年率及资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+        "type": "研究假设；锚按原件，不冒充业绩指引",
+        "version": "minimax-ARRrecognition-fullcost-treasury-convertible-capital-v1.0"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "publicationDate": "2026-04-22 22:44",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_annual.pdf"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+      "publicationDate": "2026-09-30 19:39",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_interim.pdf"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "publicationDate": "2026-08-26 17:41",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_h1results.pdf"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200077.pdf",
+      "publicationDate": "2026-10-02 08:13",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_shares.pdf"
+    },
+    {
+      "id": "placing",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0716/2026071601147.pdf",
+      "publicationDate": "2026-07-16 19:36",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_placing.pdf"
+    },
+    {
+      "id": "bondterms",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0710/2026071000027.pdf",
+      "publicationDate": "2026-07-10 07:57",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_bondterms.pdf"
+    },
+    {
+      "id": "connected",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601949.pdf",
+      "publicationDate": "2026-08-26 22:29",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_connected.pdf"
+    },
+    {
+      "id": "awards",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0929/2026092901775.pdf",
+      "publicationDate": "2026-09-29 20:43",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_awards.pdf"
+    },
+    {
+      "id": "global",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100003.pdf",
+      "publicationDate": "2025-12-31 06:04",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/minimax_global.pdf"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 185,
+    "MA": {
+      "20": 255.239999,
+      "60": 277.383333,
+      "120": 438.4275,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -8.959909,
+      "60": -0.502182,
+      "120": -6.010129,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -16.54913,
+      "60": -23.210959,
+      "120": -51.417281,
+      "250": null
+    },
+    "returnPct": {
+      "20": -27.054795,
+      "60": -16.796875,
+      "120": -75.203725,
+      "250": null
+    },
+    "yearWindow": 185,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": false,
+    "high52w": 1330,
+    "low52w": 186.199997,
+    "distanceFrom52wHighPct": -83.984962,
+    "distanceFrom52wLowPct": 14.393128,
+    "maxDrawdown52wPct": -84.402261,
+    "RSI14": 35.433322,
+    "ATR14": 25.453075,
+    "ATR14Pct": 11.949801,
+    "MACD": {
+      "DIF": -20.747205,
+      "DEA": -16.445558,
+      "histogram": -8.603294,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 6115754.2,
+      "20": 9479710.55,
+      "60": 12366918.217
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.055587,
+    "previous20MeanVolume": 9716683.95,
+    "upDownVolume20": {
+      "upVolume": 78310154,
+      "downVolume": 111284057,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.703696
+    },
+    "ranges": {
+      "20": {
+        "support": 201.399994,
+        "resistance": 320.399994,
+        "toSupportPct": -5.446012,
+        "toResistancePct": 50.422532,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 186.199997,
+        "resistance": 395,
+        "toSupportPct": -12.582161,
+        "toResistancePct": 85.446009,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 40,
+    "MA": {
+      "20": 346.990002,
+      "60": null,
+      "120": null,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -26.417355,
+      "60": null,
+      "120": null,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -38.614946,
+      "60": null,
+      "120": null,
+      "250": null
+    },
+    "returnPct": {
+      "20": -72.283669,
+      "60": null,
+      "120": null,
+      "250": null
+    },
+    "yearWindow": 40,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": false,
+    "high52w": 1330,
+    "low52w": 186.199997,
+    "distanceFrom52wHighPct": -83.984962,
+    "distanceFrom52wLowPct": 14.393128,
+    "maxDrawdown52wPct": -80.594059,
+    "RSI14": 41.387506,
+    "ATR14": 123.319542,
+    "ATR14Pct": 57.896499,
+    "MACD": {
+      "DIF": -114.902596,
+      "DEA": -123.900662,
+      "histogram": 17.996133,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 51919140,
+      "20": 44355189.3,
+      "60": null
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.707348,
+    "previous20MeanVolume": 43230158.6,
+    "upDownVolume20": {
+      "upVolume": 493349294,
+      "downVolume": 393754492,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 1.252936
+    },
+    "ranges": {
+      "20": {
+        "support": 186.199997,
+        "resistance": 918,
+        "toSupportPct": -12.582161,
+        "toResistancePct": 330.985915,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": null
+    },
+    "trend": "历史不足",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -24.076887,
+    "excess60Pct": -13.608972,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -23.991631,
+    "industryExcess60Pct": -3.628856
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01877,hk02162,hk01801,hk02268,hk06821,hk00867,hk09995,hk09926,hk01763,hk03442,hk07709,hk00100,hk02513,hk09992,hk01811,hk01797,hk09880,hk02400,hk01211,hk09660,hk03750,hk09999,hk00992,hk09888,hk00241",
+      "retrievedAt": "2026-10-10T09:16:12.161Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk03347,rt_hk06127,rt_hk01877,rt_hk02162,rt_hk01801,rt_hk02268,rt_hk06821,rt_hk00867,rt_hk09995,rt_hk09926,rt_hk01763,rt_hk03442,rt_hk07709,rt_hk00100,rt_hk02513,rt_hk09992,rt_hk01811,rt_hk01797,rt_hk09880,rt_hk02400,rt_hk01211,rt_hk09660,rt_hk03750,rt_hk09999,rt_hk00992",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/0100.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:17.664Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00100,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:17.750Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        70.5,
+        223.89,
+        459.27
+      ],
+      "epsUSD": [
+        -2.891393,
+        -2.317262,
+        -2.183075
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueUSD": [
+        0.38250000000000006,
+        0.746,
+        1.154
+      ],
+      "normalParentProfitUSD": [
+        -1.0220499999999997,
+        -0.8209600000000001,
+        -0.7760399999999998
+      ],
+      "dilutedSharesM": [
+        353.480183,
+        354.280183,
+        355.480183
+      ],
+      "cashAnnualUSD": [
+        -1.4580499999999996,
+        -1.22896,
+        -1.2970399999999997
+      ],
+      "operatingCases": [
+        {
+          "enterpriseRevenueUSD": 0.30250000000000005,
+          "revenueUSD": 0.38250000000000006,
+          "grossUSD": 0.05995000000000002,
+          "fullRDUSD": 0.9,
+          "operatingUSD": -1.0050499999999998,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.0050499999999998,
+          "parentProfitUSD": -1.0220499999999997,
+          "cashAnnualUSD": -1.4580499999999996,
+          "liquidUSD": 1.2178052,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 2.479196744915146,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0,
+          "futureFinanceSharesM": 0,
+          "sharesM": 353.480183,
+          "eps": -2.891393,
+          "cashPreDividendUSD": 1.7356417449151456,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 1.7356417449151456,
+          "operatingEVUSD": 2.2950000000000004,
+          "nonCoreNAVUSD": 0.0015306,
+          "equityUSD": 3.1799648675641183,
+          "EVSales": 6,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 70.5,
+          "dividend": 0,
+          "priceReturn": -0.6690140845070423,
+          "totalReturn": -0.6690140845070423
+        },
+        {
+          "enterpriseRevenueUSD": 0.646,
+          "revenueUSD": 0.746,
+          "grossUSD": 0.18504,
+          "fullRDUSD": 0.84,
+          "operatingUSD": -0.8069600000000001,
+          "taxUSD": 0,
+          "coreProfitUSD": -0.8069600000000001,
+          "parentProfitUSD": -0.8209600000000001,
+          "cashAnnualUSD": -1.22896,
+          "liquidUSD": 1.2873004,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 2.7559644449151457,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0,
+          "futureFinanceSharesM": 0,
+          "sharesM": 354.280183,
+          "eps": -2.317262,
+          "cashPreDividendUSD": 2.017409444915146,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 2.017409444915146,
+          "operatingEVUSD": 8.952,
+          "nonCoreNAVUSD": 0.0038265,
+          "equityUSD": 10.121028467564118,
+          "EVSales": 12,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 223.89,
+          "dividend": 0,
+          "priceReturn": 0.05112676056338028,
+          "totalReturn": 0.05112676056338028
+        },
+        {
+          "enterpriseRevenueUSD": 1.014,
+          "revenueUSD": 1.154,
+          "grossUSD": 0.39796000000000004,
+          "fullRDUSD": 0.97,
+          "operatingUSD": -0.7630399999999998,
+          "taxUSD": 0,
+          "coreProfitUSD": -0.7630399999999998,
+          "parentProfitUSD": -0.7760399999999998,
+          "cashAnnualUSD": -1.2970399999999997,
+          "liquidUSD": 1.3220480000000001,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 2.843692044915146,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0,
+          "futureFinanceSharesM": 0,
+          "sharesM": 355.480183,
+          "eps": -2.183075,
+          "cashPreDividendUSD": 2.0601370449151464,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 2.0601370449151464,
+          "operatingEVUSD": 19.618,
+          "nonCoreNAVUSD": 0.0061224,
+          "equityUSD": 20.83205196756412,
+          "EVSales": 17,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 459.27,
+          "dividend": 0,
+          "priceReturn": 1.1561971830985915,
+          "totalReturn": 1.1561971830985915
+        }
+      ],
+      "priceReturnPct": [
+        -66.90140845070422,
+        5.112676056338028,
+        115.61971830985915
+      ],
+      "totalReturnPct": [
+        -66.90140845070422,
+        5.112676056338028,
+        115.61971830985915
+      ],
+      "conditions": [
+        "企业年率/确认/毛利受压，训练及后训练完整费用、债到期和未来融资稀释",
+        "企业开发者使用转正常收入，能力成本改善，完整研发仍高且资本现金约束，债转股或现金结算",
+        "模型任务经济性和海外增长兑现，较高收入毛利消化完整投入，成功情景奖股和转换股仍增"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 244.3875,
+      "expectedReturnPct": 14.73591549295774,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 186.07199999999997,
+        "defensiveReturnPct": -12.642253521126767,
+        "positivePrice": 302.703,
+        "positiveReturnPct": 42.114084507042236
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        45.15,
+        315.22,
+        785.86
+      ],
+      "epsUSD": [
+        -3.226843,
+        -2.734458,
+        -2.329614
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueUSD": [
+        0.365,
+        1.1560000000000001,
+        1.9849999999999999
+      ],
+      "normalParentProfitUSD": [
+        -1.1859999999999997,
+        -0.9747799999999999,
+        -0.83745
+      ],
+      "dilutedSharesM": [
+        367.5418496666667,
+        356.480183,
+        359.480183
+      ],
+      "cashAnnualUSD": [
+        -1.6819999999999997,
+        -1.5577799999999997,
+        -1.73345
+      ],
+      "operatingCases": [
+        {
+          "enterpriseRevenueUSD": 0.275,
+          "revenueUSD": 0.365,
+          "grossUSD": 0.051000000000000004,
+          "fullRDUSD": 1.03,
+          "operatingUSD": -1.1689999999999998,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.1689999999999998,
+          "parentProfitUSD": -1.1859999999999997,
+          "cashAnnualUSD": -1.6819999999999997,
+          "liquidUSD": 1.2178052,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 1.9190692449151459,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0.2,
+          "futureFinanceSharesM": 13.061666666666667,
+          "sharesM": 367.5418496666667,
+          "eps": -3.226843,
+          "cashPreDividendUSD": 1.3255142449151458,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 1.3255142449151458,
+          "operatingEVUSD": 1.6425,
+          "nonCoreNAVUSD": 0.0015306,
+          "equityUSD": 2.1173373675641187,
+          "EVSales": 4.5,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 45.15,
+          "dividend": 0,
+          "priceReturn": -0.7880281690140845,
+          "totalReturn": -0.7880281690140845
+        },
+        {
+          "enterpriseRevenueUSD": 1.026,
+          "revenueUSD": 1.1560000000000001,
+          "grossUSD": 0.37122,
+          "fullRDUSD": 1.1099999999999999,
+          "operatingUSD": -0.9607799999999999,
+          "taxUSD": 0,
+          "coreProfitUSD": -0.9607799999999999,
+          "parentProfitUSD": -0.9747799999999999,
+          "cashAnnualUSD": -1.5577799999999997,
+          "liquidUSD": 1.2873004,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 2.2031588449151456,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0,
+          "futureFinanceSharesM": 0,
+          "sharesM": 356.480183,
+          "eps": -2.734458,
+          "cashPreDividendUSD": 1.3146038449151456,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 1.3146038449151456,
+          "operatingEVUSD": 13.872000000000002,
+          "nonCoreNAVUSD": 0.0038265,
+          "equityUSD": 14.33822286756412,
+          "EVSales": 12,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 315.22,
+          "dividend": 0,
+          "priceReturn": 0.47990610328638517,
+          "totalReturn": 0.47990610328638517
+        },
+        {
+          "enterpriseRevenueUSD": 1.785,
+          "revenueUSD": 1.9849999999999999,
+          "grossUSD": 0.8515499999999999,
+          "fullRDUSD": 1.3599999999999999,
+          "operatingUSD": -0.82445,
+          "taxUSD": 0,
+          "coreProfitUSD": -0.82445,
+          "parentProfitUSD": -0.83745,
+          "cashAnnualUSD": -1.73345,
+          "liquidUSD": 1.3220480000000001,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0.8522074773510273,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 2.1965580449151463,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0,
+          "futureFinanceSharesM": 0,
+          "sharesM": 359.480183,
+          "eps": -2.329614,
+          "cashPreDividendUSD": 1.1630030449151463,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 1.1630030449151463,
+          "operatingEVUSD": 35.73,
+          "nonCoreNAVUSD": 0.0061224,
+          "equityUSD": 36.04691796756411,
+          "EVSales": 18,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 785.86,
+          "dividend": 0,
+          "priceReturn": 2.6894835680751172,
+          "totalReturn": 2.6894835680751172
+        }
+      ],
+      "priceReturnPct": [
+        -78.80281690140845,
+        47.99061032863852,
+        268.94835680751174
+      ],
+      "totalReturnPct": [
+        -78.80281690140845,
+        47.99061032863852,
+        268.94835680751174
+      ],
+      "conditions": [
+        "企业年率/确认/毛利受压，训练及后训练完整费用、债到期和未来融资稀释",
+        "企业开发者使用转正常收入，能力成本改善，完整研发仍高且资本现金约束，债转股或现金结算",
+        "模型任务经济性和海外增长兑现，较高收入毛利消化完整投入，成功情景奖股和转换股仍增"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-07（名义10/9港股假期向前）",
+      "priceHKD": [
+        23.18,
+        365.21,
+        1086.7
+      ],
+      "epsUSD": [
+        -3.308904,
+        -2.902025,
+        -2.909898
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueUSD": [
+        0.34650000000000003,
+        1.6049999999999998,
+        3.008
+      ],
+      "normalParentProfitUSD": [
+        -1.3351499999999998,
+        -1.1109,
+        -1.1335599999999995
+      ],
+      "dilutedSharesM": [
+        403.502183,
+        382.8016680746269,
+        389.5531336946269
+      ],
+      "cashAnnualUSD": [
+        -1.87615,
+        -1.9939,
+        -2.50956
+      ],
+      "operatingCases": [
+        {
+          "enterpriseRevenueUSD": 0.2565,
+          "revenueUSD": 0.34650000000000003,
+          "grossUSD": 0.04185,
+          "fullRDUSD": 1.16,
+          "operatingUSD": -1.31815,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.31815,
+          "parentProfitUSD": -1.3351499999999998,
+          "cashAnnualUSD": -1.87615,
+          "liquidUSD": 1.2178052,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0.8522074773510273,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": 0.17296676756411844,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0.6,
+          "futureFinanceSharesM": 47.022,
+          "sharesM": 403.502183,
+          "eps": -3.308904,
+          "cashPreDividendUSD": -0.020588232435881593,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.020588232435881593,
+          "operatingEVUSD": 1.2127500000000002,
+          "nonCoreNAVUSD": 0.0015306,
+          "equityUSD": 1.1936923675641185,
+          "EVSales": 3.5,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 23.18,
+          "dividend": 0,
+          "priceReturn": -0.8911737089201878,
+          "totalReturn": -0.8911737089201878
+        },
+        {
+          "enterpriseRevenueUSD": 1.4449999999999998,
+          "revenueUSD": 1.6049999999999998,
+          "grossUSD": 0.6051,
+          "fullRDUSD": 1.42,
+          "operatingUSD": -1.0969,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.0969,
+          "parentProfitUSD": -1.1109,
+          "cashAnnualUSD": -1.9939,
+          "liquidUSD": 1.2873004,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": 1.1186944449151457,
+          "requiredFinanceUSD": 0,
+          "totalFutureFinanceUSD": 0.15,
+          "futureFinanceSharesM": 3.9185,
+          "sharesM": 382.8016680746269,
+          "eps": -2.902025,
+          "cashPreDividendUSD": 0.18013944491514564,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": 0.18013944491514564,
+          "operatingEVUSD": 17.654999999999998,
+          "nonCoreNAVUSD": 0.0038265,
+          "equityUSD": 17.83896594491514,
+          "EVSales": 11,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 365.21,
+          "dividend": 0,
+          "priceReturn": 0.714600938967136,
+          "totalReturn": 0.714600938967136
+        },
+        {
+          "enterpriseRevenueUSD": 2.728,
+          "revenueUSD": 3.008,
+          "grossUSD": 1.4354400000000003,
+          "fullRDUSD": 2.09,
+          "operatingUSD": -1.1205599999999996,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.1205599999999996,
+          "parentProfitUSD": -1.1335599999999995,
+          "cashAnnualUSD": -2.50956,
+          "liquidUSD": 1.3220480000000001,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": 0.6893480449151459,
+          "requiredFinanceUSD": 0.5106519550848541,
+          "totalFutureFinanceUSD": 0.5106519550848541,
+          "futureFinanceSharesM": 6.669965620000002,
+          "sharesM": 389.5531336946269,
+          "eps": -2.909898,
+          "cashPreDividendUSD": -0.133555,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.133555,
+          "operatingEVUSD": 54.144,
+          "nonCoreNAVUSD": 0.0061224,
+          "equityUSD": 54.0165674,
+          "EVSales": 18,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 1086.7,
+          "dividend": 0,
+          "priceReturn": 4.1018779342723,
+          "totalReturn": 4.1018779342723
+        }
+      ],
+      "priceReturnPct": [
+        -89.11737089201878,
+        71.4600938967136,
+        410.18779342723
+      ],
+      "totalReturnPct": [
+        -89.11737089201878,
+        71.4600938967136,
+        410.18779342723
+      ],
+      "conditions": [
+        "企业年率/确认/毛利受压，训练及后训练完整费用、债到期和未来融资稀释",
+        "企业开发者使用转正常收入，能力成本改善，完整研发仍高且资本现金约束，债转股或现金结算",
+        "模型任务经济性和海外增长兑现，较高收入毛利消化完整投入，成功情景奖股和转换股仍增"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        6.08,
+        601.33,
+        1924.12
+      ],
+      "epsUSD": [
+        -2.237217,
+        -2.043525,
+        -0.472556
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueUSD": [
+        0.34199999999999997,
+        4.253,
+        9.07
+      ],
+      "normalParentProfitUSD": [
+        -1.5623999999999998,
+        -1.0158300000000002,
+        -0.2267
+      ],
+      "dilutedSharesM": [
+        698.3675463013333,
+        497.0968620252936,
+        479.73108182319834
+      ],
+      "cashAnnualUSD": [
+        -2.1433999999999997,
+        -2.46883,
+        -3.1327
+      ],
+      "operatingCases": [
+        {
+          "enterpriseRevenueUSD": 0.252,
+          "revenueUSD": 0.34199999999999997,
+          "grossUSD": 0.039599999999999996,
+          "fullRDUSD": 1.3699999999999999,
+          "operatingUSD": -1.5453999999999999,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.5453999999999999,
+          "parentProfitUSD": -1.5623999999999998,
+          "cashAnnualUSD": -2.1433999999999997,
+          "liquidUSD": 1.2178052,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0.8522074773510273,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": -2.595298232435881,
+          "requiredFinanceUSD": 0.9952982324358808,
+          "totalFutureFinanceUSD": 3.195298232435881,
+          "futureFinanceSharesM": 333.88736330133327,
+          "sharesM": 698.3675463013333,
+          "eps": -2.237217,
+          "cashPreDividendUSD": -0.1435550000000002,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.1435550000000002,
+          "operatingEVUSD": 0.6839999999999999,
+          "nonCoreNAVUSD": 0.0015306,
+          "equityUSD": 0.5419755999999998,
+          "EVSales": 2,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 6.08,
+          "dividend": 0,
+          "priceReturn": -0.9714553990610328,
+          "totalReturn": -0.9714553990610328
+        },
+        {
+          "enterpriseRevenueUSD": 3.913,
+          "revenueUSD": 4.253,
+          "grossUSD": 2.06017,
+          "fullRDUSD": 2.5,
+          "operatingUSD": -1.0018300000000002,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.0018300000000002,
+          "parentProfitUSD": -1.0158300000000002,
+          "cashAnnualUSD": -2.46883,
+          "liquidUSD": 1.2873004,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": -2.3744555550848547,
+          "requiredFinanceUSD": 3.074455555084855,
+          "totalFutureFinanceUSD": 3.8744555550848547,
+          "futureFinanceSharesM": 101.21369395066668,
+          "sharesM": 497.0968620252936,
+          "eps": -2.043525,
+          "cashPreDividendUSD": -0.138555,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.138555,
+          "operatingEVUSD": 38.277,
+          "nonCoreNAVUSD": 0.0038265,
+          "equityUSD": 38.14227150000001,
+          "EVSales": 9,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 601.33,
+          "dividend": 0,
+          "priceReturn": 1.8231455399061036,
+          "totalReturn": 1.8231455399061036
+        },
+        {
+          "enterpriseRevenueUSD": 8.370000000000001,
+          "revenueUSD": 9.07,
+          "grossUSD": 5.3023,
+          "fullRDUSD": 4.3,
+          "operatingUSD": -0.2137,
+          "taxUSD": 0,
+          "coreProfitUSD": -0.2137,
+          "parentProfitUSD": -0.2267,
+          "cashAnnualUSD": -3.1327,
+          "liquidUSD": 1.3220480000000001,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": -3.9174479550848536,
+          "requiredFinanceUSD": 5.917447955084853,
+          "totalFutureFinanceUSD": 6.417447955084853,
+          "futureFinanceSharesM": 71.84791374857141,
+          "sharesM": 479.73108182319834,
+          "eps": -0.472556,
+          "cashPreDividendUSD": -0.1335550000000009,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.1335550000000009,
+          "operatingEVUSD": 117.91,
+          "nonCoreNAVUSD": 0.0061224,
+          "equityUSD": 117.78256739999999,
+          "EVSales": 13,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 1924.12,
+          "dividend": 0,
+          "priceReturn": 8.033427230046948,
+          "totalReturn": 8.033427230046948
+        }
+      ],
+      "priceReturnPct": [
+        -97.14553990610328,
+        182.31455399061036,
+        803.3427230046948
+      ],
+      "totalReturnPct": [
+        -97.14553990610328,
+        182.31455399061036,
+        803.3427230046948
+      ],
+      "conditions": [
+        "企业年率/确认/毛利受压，训练及后训练完整费用、债到期和未来融资稀释",
+        "企业开发者使用转正常收入，能力成本改善，完整研发仍高且资本现金约束，债转股或现金结算",
+        "模型任务经济性和海外增长兑现，较高收入毛利消化完整投入，成功情景奖股和转换股仍增"
+      ],
+      "annualizedTotalReturnPct": [
+        -69.43850053337182,
+        41.33327497517021,
+        108.26558798876502
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        1.89,
+        778.77,
+        2781.07
+      ],
+      "epsUSD": [
+        -1.592955,
+        0.650963,
+        4.983963
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueUSD": [
+        0.3275,
+        7.6,
+        18.580000000000002
+      ],
+      "normalParentProfitUSD": [
+        -1.65425,
+        0.34761999999999976,
+        2.6077200000000005
+      ],
+      "dilutedSharesM": [
+        1038.4788375784617,
+        534.0092125186269,
+        523.2221391146269
+      ],
+      "cashAnnualUSD": [
+        -2.28525,
+        -1.65538,
+        -2.1982799999999996
+      ],
+      "operatingCases": [
+        {
+          "enterpriseRevenueUSD": 0.22749999999999998,
+          "revenueUSD": 0.3275,
+          "grossUSD": 0.03775,
+          "fullRDUSD": 1.45,
+          "operatingUSD": -1.63725,
+          "taxUSD": 0,
+          "coreProfitUSD": -1.63725,
+          "parentProfitUSD": -1.65425,
+          "cashAnnualUSD": -2.28525,
+          "liquidUSD": 1.2178052,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0.8522074773510273,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 0,
+          "cashBeforeFinanceUSD": -4.857198232435882,
+          "requiredFinanceUSD": 1.507198232435882,
+          "totalFutureFinanceUSD": 5.507198232435882,
+          "futureFinanceSharesM": 663.9986545784617,
+          "sharesM": 1038.4788375784617,
+          "eps": -1.592955,
+          "cashPreDividendUSD": -0.14355499999999932,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.14355499999999932,
+          "operatingEVUSD": 0.393,
+          "nonCoreNAVUSD": 0.0015306,
+          "equityUSD": 0.2509756000000007,
+          "EVSales": 1.2,
+          "impliedOperatingPE": null,
+          "FX": 7.837,
+          "price": 1.89,
+          "dividend": 0,
+          "priceReturn": -0.9911267605633802,
+          "totalReturn": -0.9911267605633802
+        },
+        {
+          "enterpriseRevenueUSD": 7.05,
+          "revenueUSD": 7.6,
+          "grossUSD": 4.353,
+          "fullRDUSD": 3,
+          "operatingUSD": 0.4409999999999997,
+          "taxUSD": 0.07937999999999995,
+          "coreProfitUSD": 0.3616199999999998,
+          "parentProfitUSD": 0.34761999999999976,
+          "cashAnnualUSD": -1.65538,
+          "liquidUSD": 1.2873004,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": -2.421859555084854,
+          "requiredFinanceUSD": 3.221859555084854,
+          "totalFutureFinanceUSD": 4.521859555084854,
+          "futureFinanceSharesM": 118.126044444,
+          "sharesM": 534.0092125186269,
+          "eps": 0.650963,
+          "cashPreDividendUSD": -0.1385550000000009,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.1385550000000009,
+          "operatingEVUSD": 53.199999999999996,
+          "nonCoreNAVUSD": 0.0038265,
+          "equityUSD": 53.065271499999994,
+          "EVSales": 7,
+          "impliedOperatingPE": 147.1157568718545,
+          "FX": 7.837,
+          "price": 778.77,
+          "dividend": 0,
+          "priceReturn": 2.6561971830985915,
+          "totalReturn": 2.6561971830985915
+        },
+        {
+          "enterpriseRevenueUSD": 17.28,
+          "revenueUSD": 18.580000000000002,
+          "grossUSD": 12.012,
+          "fullRDUSD": 6.5,
+          "operatingUSD": 3.1960000000000006,
+          "taxUSD": 0.5752800000000001,
+          "coreProfitUSD": 2.6207200000000004,
+          "parentProfitUSD": 2.6077200000000005,
+          "cashAnnualUSD": -2.1982799999999996,
+          "liquidUSD": 1.3220480000000001,
+          "julyCashUSD": 2.025904044915146,
+          "bondPaymentUSD": 0,
+          "bondDebtUSD": 0,
+          "bondConversionSharesM": 19.402985074626866,
+          "cashBeforeFinanceUSD": -4.507231955084853,
+          "requiredFinanceUSD": 7.707231955084853,
+          "totalFutureFinanceUSD": 8.507231955084853,
+          "futureFinanceSharesM": 83.33897103999998,
+          "sharesM": 523.2221391146269,
+          "eps": 4.983963,
+          "cashPreDividendUSD": -0.133555,
+          "dividendCashUSD": 0,
+          "cashPostDividendUSD": -0.133555,
+          "operatingEVUSD": 185.8,
+          "nonCoreNAVUSD": 0.0061224,
+          "equityUSD": 185.67256740000002,
+          "EVSales": 10,
+          "impliedOperatingPE": 70.89654751366037,
+          "FX": 7.837,
+          "price": 2781.07,
+          "dividend": 0,
+          "priceReturn": 12.056666666666667,
+          "totalReturn": 12.056666666666667
+        }
+      ],
+      "priceReturnPct": [
+        -99.11267605633802,
+        265.61971830985914,
+        1205.6666666666667
+      ],
+      "totalReturnPct": [
+        -99.11267605633802,
+        265.61971830985914,
+        1205.6666666666667
+      ],
+      "conditions": [
+        "企业年率/确认/毛利受压，训练及后训练完整费用、债到期和未来融资稀释",
+        "企业开发者使用转正常收入，能力成本改善，完整研发仍高且资本现金约束，债转股或现金结算",
+        "模型任务经济性和海外增长兑现，较高收入毛利消化完整投入，成功情景奖股和转换股仍增"
+      ],
+      "annualizedTotalReturnPct": [
+        -61.12982999016273,
+        29.600274664034142,
+        67.17312595367379
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.3,
+        1.3,
+        3.4,
+        4.1,
+        4,
+        2.6
+      ],
+      "total": 55.9,
+      "evidence": [
+        "ARR转确认收入后销售估值与完整利润交叉，单列融资现金和债券资本",
+        "185日/40周真实历史，中短期下降且日量不足以确认反转",
+        "API/TokenPlan及原生产品增长，留存单客完整成本与现金未稳定",
+        "代理和多模态需求广，但模型价格/海外合规/算力约束",
+        "M3.1和企业使用兑现、训练效率及2027年债转股窗口",
+        "现金融资改善但训练后训练资本高、到期102.75%与WVR和稀释"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.7,
+        1.3,
+        3.6,
+        4.2,
+        4.1,
+        2.5
+      ],
+      "total": 66.2,
+      "evidence": [
+        "ARR转确认收入后销售估值与完整利润交叉，单列融资现金和债券资本",
+        "185日/40周真实历史，中短期下降且日量不足以确认反转",
+        "API/TokenPlan及原生产品增长，留存单客完整成本与现金未稳定",
+        "代理和多模态需求广，但模型价格/海外合规/算力约束",
+        "M3.1和企业使用兑现、训练效率及2027年债转股窗口",
+        "现金融资改善但训练后训练资本高、到期102.75%与WVR和稀释"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        3,
+        1.3,
+        3.6,
+        4.3,
+        3.7,
+        2.1
+      ],
+      "total": 66.6,
+      "evidence": [
+        "ARR转确认收入后销售估值与完整利润交叉，单列融资现金和债券资本",
+        "185日/40周真实历史，中短期下降且日量不足以确认反转",
+        "API/TokenPlan及原生产品增长，留存单客完整成本与现金未稳定",
+        "代理和多模态需求广，但模型价格/海外合规/算力约束",
+        "M3.1和企业使用兑现、训练效率及2027年债转股窗口",
+        "现金融资改善但训练后训练资本高、到期102.75%与WVR和稀释"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        2.6,
+        1.3,
+        3.5,
+        4.2,
+        3.5,
+        1.8
+      ],
+      "total": 64.1,
+      "evidence": [
+        "ARR转确认收入后销售估值与完整利润交叉，单列融资现金和债券资本",
+        "185日/40周真实历史，中短期下降且日量不足以确认反转",
+        "API/TokenPlan及原生产品增长，留存单客完整成本与现金未稳定",
+        "代理和多模态需求广，但模型价格/海外合规/算力约束",
+        "M3.1和企业使用兑现、训练效率及2027年债转股窗口",
+        "现金融资改善但训练后训练资本高、到期102.75%与WVR和稀释"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "汇丰环球研究",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 330,
+      "rating": "持有",
+      "reportDate": "2026-08-27",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541301/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "原文估值参照2027年12月P/ARR，未确证目标到达期限"
+    },
+    {
+      "institution": "花旗",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 576,
+      "rating": "买入/高风险",
+      "reportDate": "2026-09-04",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1542913/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标"
+    },
+    {
+      "institution": "美银证券",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 400,
+      "rating": "买入",
+      "reportDate": "2026-08-27",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541189/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标"
+    },
+    {
+      "institution": "中金",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 786,
+      "rating": "跑赢行业",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541608/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "同条新闻盈利预测自相冲突，保留明确目标/评级，经营数以公司原件；2027PS59倍非目标期限"
+    },
+    {
+      "institution": "招银国际",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 580,
+      "rating": "买入",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541603/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标"
+    },
+    {
+      "institution": "高盛",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 760,
+      "rating": "买入",
+      "reportDate": "2026-09-10",
+      "targetHorizon": "12个月",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1543752/research-report",
+      "sourceType": "公开新闻转述；原文明确12个月DCF目标，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "9/10最新明确12个月，非按年底剩余月数线性缩放"
+    },
+    {
+      "institution": "国泰海通",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 449,
+      "rating": "增持",
+      "reportDate": "2026-09-07",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1543211/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "2026年40倍PS参照非目标到达期限"
+    }
+  ],
+  "earningsCurrency": "USD",
+  "fx": {
+    "HKDperUSD": 7.837
+  },
+  "brokerTargets": [
+    {
+      "institution": "汇丰环球研究",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 330,
+      "rating": "持有",
+      "reportDate": "2026-08-27",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541301/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "原文估值参照2027年12月P/ARR，未确证目标到达期限",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-08-27",
+      "institutionOwnership": "外资投行/研究机构"
+    },
+    {
+      "institution": "花旗",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 576,
+      "rating": "买入/高风险",
+      "reportDate": "2026-09-04",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1542913/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-09-04",
+      "institutionOwnership": "外资投行/研究机构"
+    },
+    {
+      "institution": "美银证券",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 400,
+      "rating": "买入",
+      "reportDate": "2026-08-27",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541189/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-08-27",
+      "institutionOwnership": "外资投行/研究机构"
+    },
+    {
+      "institution": "中金",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 786,
+      "rating": "跑赢行业",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541608/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "同条新闻盈利预测自相冲突，保留明确目标/评级，经营数以公司原件；2027PS59倍非目标期限",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-08-28",
+      "institutionOwnership": "中资机构"
+    },
+    {
+      "institution": "招银国际",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 580,
+      "rating": "买入",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1541603/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "估值参照年份不等于目标期限；非直接年底或确证12个月目标",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-08-28",
+      "institutionOwnership": "中资机构"
+    },
+    {
+      "institution": "高盛",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 760,
+      "rating": "买入",
+      "reportDate": "2026-09-10",
+      "targetHorizon": "12个月",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1543752/research-report",
+      "sourceType": "公开新闻转述；原文明确12个月DCF目标，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "9/10最新明确12个月，非按年底剩余月数线性缩放",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-09-10",
+      "institutionOwnership": "外资投行/研究机构"
+    },
+    {
+      "institution": "国泰海通",
+      "code": "00100.HK",
+      "currency": "HKD",
+      "targetPrice": 449,
+      "rating": "增持",
+      "reportDate": "2026-09-07",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00100/AAFN/NOW.1543211/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "2026年40倍PS参照非目标到达期限",
+      "verified": true,
+      "verificationStatus": "已核验公开新闻正文及日期；原始研报未取得",
+      "publicationDate": "2026-09-07",
+      "institutionOwnership": "中资机构"
+    }
+  ],
+  "anchor": {
+    "period": "FY2025",
+    "currency": "USD",
+    "unit": "thousand",
+    "revenue": 79038,
+    "cost": 58959,
+    "gross": 20079,
+    "otherIncome": 40369,
+    "sales": 51896,
+    "admin": 36813,
+    "RD": 252771,
+    "FVLoss": 1589850,
+    "finance": 672,
+    "impairment": 63,
+    "pretax": -1871617,
+    "owner": -1871617,
+    "SBC": 24031,
+    "listing": 6880,
+    "adjusted": -250856,
+    "OCF": -279641,
+    "capex": 920,
+    "otherCapital": 268,
+    "FCFProxy": -280829,
+    "investing": 72261,
+    "financing": 423342,
+    "startCash": 288912,
+    "FXCash": 2747,
+    "endCash": 507621
+  },
+  "interim": {
+    "period": "H1 2026",
+    "currency": "USD",
+    "unit": "thousand",
+    "revenue": 116573,
+    "enterpriseRevenue": 73929,
+    "nativeRevenue": 42644,
+    "mainlandRevenue": 45745,
+    "foreignRevenue": 70828,
+    "cost": 95760,
+    "gross": 20813,
+    "otherIncome": 8039,
+    "sales": 26973,
+    "admin": 30230,
+    "RD": 296870,
+    "FVLoss": 31025,
+    "finance": 647,
+    "impairment": 1104,
+    "pretax": -357997,
+    "owner": -357997,
+    "SBC": 28208,
+    "listing": 5733,
+    "adjusted": -293031,
+    "cash": 930905,
+    "timeDeposit": 14038,
+    "amortisedFinancial": 29629,
+    "financialCurrent": 278347,
+    "financialNonCurrent": 69129,
+    "financialTotal": 347476,
+    "restrictedCurrent": 752,
+    "restrictedNonCurrent": 41,
+    "restrictedAll": 793,
+    "nonRestrictedAll": 1322048,
+    "cashPositionAll": 1322841,
+    "otherNAV": 7653,
+    "bankDebt": 133555,
+    "leaseCurrent": 2035,
+    "leaseLong": 1833,
+    "tradeReceivables": 39144,
+    "prepayCurrent": 165431,
+    "prepayNonCurrent": 100817,
+    "payables": 170121,
+    "contractLiabilities": 18287,
+    "currentAssets": 1428617,
+    "nonCurrentAssets": 286051,
+    "currentLiabilities": 362932,
+    "nonCurrentLiabilities": 5053,
+    "equity": 1346683,
+    "OCF": -318106,
+    "capex": 187626,
+    "FCFProxy": -505732,
+    "investing": -55373,
+    "financing": 791604,
+    "startCash": 507621,
+    "FXCash": 5159,
+    "endCash": 930905,
+    "DAProperty": 2334,
+    "DAROU": 1002,
+    "interestReceived": 7949,
+    "interestIncome": 7829,
+    "financialFairValueGain": 1239,
+    "leaseCashPrincipal": 602,
+    "leaseCashInterest": 71,
+    "bankCashInterest": 557
+  },
+  "capital": {
+    "period": "2026-09-30",
+    "A": 271377649,
+    "B": 81102534,
+    "total": 352480183,
+    "treasury": 0,
+    "JuneA": 232532774,
+    "JuneB": 81102534,
+    "JuneTotal": 313635308,
+    "julyNew": 35600000,
+    "julyTotal": 349235308,
+    "SeptemberAwardsIssued": 3244875,
+    "remainingPostIPOAuthorization": 15310465,
+    "preIPOHeldUnderlying": 20890736,
+    "preIPOAlreadyIncluded": true,
+    "WVRClassBVote": 10
+  },
+  "fundraise": {
+    "date": "2026-07",
+    "equityGrossHKDbn": 9.5408,
+    "equityNetHKDbn": 9.44371,
+    "issuePriceHKD": 268,
+    "newShares": 35600000,
+    "bondPrincipalHKDbn": 6.5,
+    "bondNetHKDbn": 6.4333,
+    "bondCoupon": 0,
+    "bondRedemptionMultiple": 1.0275,
+    "bondConversionPriceHKD": 335,
+    "bondPotentialShares": 19402985,
+    "maturity": "2027-07-14 on or around",
+    "issueDate": "2026-07-16",
+    "firstWindowEnds": "2026-09-21",
+    "secondWindowStarts": "2027-05-15",
+    "cashUse80PctDeadline": "2027-12-31",
+    "conversionAdjustment": true,
+    "completionVerified": true
+  },
+  "connected": {
+    "purchaseCloudH1USDmillion": 75.6,
+    "purchaseCloudFY2025USDmillion": 75.9,
+    "cloudCapsUSDmillion": [
+      300,
+      400,
+      500
+    ],
+    "sellAPIH1USDmillion": 0.501704,
+    "sellAPICapsUSDmillion": [
+      7.5,
+      22,
+      33
+    ],
+    "capsNotGuidance": true,
+    "relatedTradePayableUSDmillion": 43.077,
+    "relatedTradeReceivableUSDmillion": 0.568
+  },
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 79038,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "cost",
+      "value": 58959,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "gross",
+      "value": 20079,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "otherIncome",
+      "value": 40369,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "sales",
+      "value": 51896,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "admin",
+      "value": 36813,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "RD",
+      "value": 252771,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "FVLoss",
+      "value": 1589850,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "finance",
+      "value": 672,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "impairment",
+      "value": 63,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "pretax",
+      "value": -1871617,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "owner",
+      "value": -1871617,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "SBC",
+      "value": 24031,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "listing",
+      "value": 6880,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "adjusted",
+      "value": -250856,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "OCF",
+      "value": -279641,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "capex",
+      "value": 920,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "otherCapital",
+      "value": 268,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "investing",
+      "value": 72261,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "financing",
+      "value": 423342,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "startCash",
+      "value": 288912,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "FXCash",
+      "value": 2747,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "endCash",
+      "value": 507621,
+      "period": "FY2025",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-04-22",
+      "publicationTime": "22:44",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "revenue",
+      "value": 116573,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "enterpriseRevenue",
+      "value": 73929,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "nativeRevenue",
+      "value": 42644,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "mainlandRevenue",
+      "value": 45745,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "foreignRevenue",
+      "value": 70828,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "cost",
+      "value": 95760,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "gross",
+      "value": 20813,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "otherIncome",
+      "value": 8039,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "sales",
+      "value": 26973,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "admin",
+      "value": 30230,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "RD",
+      "value": 296870,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "FVLoss",
+      "value": 31025,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "finance",
+      "value": 647,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "impairment",
+      "value": 1104,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "pretax",
+      "value": -357997,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "owner",
+      "value": -357997,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "SBC",
+      "value": 28208,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "listing",
+      "value": 5733,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "adjusted",
+      "value": -293031,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "cash",
+      "value": 930905,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "timeDeposit",
+      "value": 14038,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "amortisedFinancial",
+      "value": 29629,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "financialCurrent",
+      "value": 278347,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "financialNonCurrent",
+      "value": 69129,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "restrictedCurrent",
+      "value": 752,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "restrictedNonCurrent",
+      "value": 41,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "otherNAV",
+      "value": 7653,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "bankDebt",
+      "value": 133555,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "leaseCurrent",
+      "value": 2035,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "leaseLong",
+      "value": 1833,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "tradeReceivables",
+      "value": 39144,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "prepayCurrent",
+      "value": 165431,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "prepayNonCurrent",
+      "value": 100817,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "payables",
+      "value": 170121,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "contractLiabilities",
+      "value": 18287,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "currentAssets",
+      "value": 1428617,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "nonCurrentAssets",
+      "value": 286051,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "currentLiabilities",
+      "value": 362932,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "nonCurrentLiabilities",
+      "value": 5053,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "equity",
+      "value": 1346683,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "OCF",
+      "value": -318106,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "capex",
+      "value": 187626,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "investing",
+      "value": -55373,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "financing",
+      "value": 791604,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "startCash",
+      "value": 507621,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "FXCash",
+      "value": 5159,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "endCash",
+      "value": 930905,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "DAProperty",
+      "value": 2334,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "DAROU",
+      "value": 1002,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "interestReceived",
+      "value": 7949,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "interestIncome",
+      "value": 7829,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "financialFairValueGain",
+      "value": 1239,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "leaseCashPrincipal",
+      "value": 602,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "leaseCashInterest",
+      "value": 71,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    },
+    {
+      "metric": "bankCashInterest",
+      "value": 557,
+      "period": "H1 2026",
+      "currency": "USD",
+      "unit": "thousand",
+      "publicationDate": "2026-08-26",
+      "publicationTime": "17:41",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "afterMarketClose": true,
+      "note": "财务原始值美元千；FY年报4/22已核验来源日期，H1首度8/26，相关现金明细中报9/30再次公布"
+    }
+  ]
+}

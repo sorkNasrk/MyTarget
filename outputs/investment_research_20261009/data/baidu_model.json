@@ -1,0 +1,1745 @@
+{
+  "issuerId": "I066",
+  "securityId": "S076",
+  "code": "09888.HK",
+  "name": "百度集团-W",
+  "deepResearchFile": "research/baidu_deep.md",
+  "asOf": "2026-10-09",
+  "price": 83,
+  "currency": "HKD",
+  "modelVersion": "baidu-mutually-exclusive-normalized-v1.0",
+  "status": "独立研究初版；AI资本开支、广告替代与分部利润缺失持续核验",
+  "method": "BGB五块互斥收入×贡献EBIT率−共享常态成本＋爱奇艺归属经营贡献＋有限净财资联营收益→20%税后×归属比−可赎回少数股权增值及其他EPS分子储备÷摊薄普通股→EPS3位×PE×1.10；不另加全现金、昆仑、萝卜或文库市值",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "USDHKD": 7.8,
+    "status": "研究换算假设，非已核即期"
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margin ratio; diluted ordinary shares billion; NTM earnings at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 3,
+    "normalization": "五块收入互斥，Online Marketing是交叉视角，不加到五块；各块贡献率含本块直接成本、折旧、SBC，共享研发销售企业费另扣一次；爱奇艺按百度经济归属经营贡献不加全子公司市值；财资有限收益进入利润，不加全现金；EPS储备另减可赎回权益增值影响",
+    "yearEnd": {
+      "infraRevenue": [
+        30,
+        34,
+        40
+      ],
+      "applicationsRevenue": [
+        10,
+        11,
+        12
+      ],
+      "aiNativeMarketingRevenue": [
+        9,
+        11,
+        13
+      ],
+      "legacyRevenue": [
+        40,
+        42,
+        45
+      ],
+      "otherRevenue": [
+        9,
+        10,
+        11
+      ],
+      "infraContributionMargin": [
+        0.1,
+        0.18,
+        0.24
+      ],
+      "applicationsContributionMargin": [
+        0.29,
+        0.38,
+        0.43
+      ],
+      "aiNativeMarketingContributionMargin": [
+        0.29,
+        0.37,
+        0.43
+      ],
+      "legacyContributionMargin": [
+        0.3,
+        0.34,
+        0.38
+      ],
+      "otherContributionMargin": [
+        -0.14,
+        -0.08,
+        -0.03
+      ],
+      "corporateCost": [
+        10.5,
+        12,
+        14
+      ],
+      "iqiyiOwnerOperatingContribution": [
+        -0.8,
+        -0.4,
+        0.3
+      ],
+      "normalNetFinanceAssociates": [
+        2,
+        2.8,
+        3.5
+      ],
+      "ownerProfitShare": [
+        0.95,
+        0.97,
+        0.98
+      ],
+      "epsNumeratorReserve": [
+        1.1,
+        0.8,
+        0.5
+      ],
+      "dilutedShares": [
+        2.9,
+        2.78,
+        2.73
+      ]
+    },
+    "halfYear": {
+      "infraRevenue": [
+        32,
+        39,
+        48
+      ],
+      "applicationsRevenue": [
+        10,
+        12,
+        14
+      ],
+      "aiNativeMarketingRevenue": [
+        9,
+        12,
+        15
+      ],
+      "legacyRevenue": [
+        37,
+        41,
+        45
+      ],
+      "otherRevenue": [
+        9,
+        11,
+        12
+      ],
+      "infraContributionMargin": [
+        0.1,
+        0.18,
+        0.24
+      ],
+      "applicationsContributionMargin": [
+        0.29,
+        0.38,
+        0.43
+      ],
+      "aiNativeMarketingContributionMargin": [
+        0.29,
+        0.37,
+        0.43
+      ],
+      "legacyContributionMargin": [
+        0.3,
+        0.34,
+        0.38
+      ],
+      "otherContributionMargin": [
+        -0.14,
+        -0.08,
+        -0.03
+      ],
+      "corporateCost": [
+        11,
+        13,
+        15.5
+      ],
+      "iqiyiOwnerOperatingContribution": [
+        -0.9,
+        -0.3,
+        0.5
+      ],
+      "normalNetFinanceAssociates": [
+        1.8,
+        2.7,
+        3.5
+      ],
+      "ownerProfitShare": [
+        0.95,
+        0.97,
+        0.98
+      ],
+      "epsNumeratorReserve": [
+        1.1,
+        0.8,
+        0.5
+      ],
+      "dilutedShares": [
+        2.95,
+        2.77,
+        2.7
+      ]
+    },
+    "oneYear": {
+      "infraRevenue": [
+        35,
+        48,
+        65
+      ],
+      "applicationsRevenue": [
+        10,
+        14,
+        18
+      ],
+      "aiNativeMarketingRevenue": [
+        9,
+        14,
+        19
+      ],
+      "legacyRevenue": [
+        33,
+        40,
+        46
+      ],
+      "otherRevenue": [
+        9,
+        12,
+        14
+      ],
+      "infraContributionMargin": [
+        0.1,
+        0.18,
+        0.24
+      ],
+      "applicationsContributionMargin": [
+        0.29,
+        0.38,
+        0.43
+      ],
+      "aiNativeMarketingContributionMargin": [
+        0.29,
+        0.37,
+        0.43
+      ],
+      "legacyContributionMargin": [
+        0.3,
+        0.34,
+        0.38
+      ],
+      "otherContributionMargin": [
+        -0.14,
+        -0.08,
+        -0.03
+      ],
+      "corporateCost": [
+        11.5,
+        15,
+        18
+      ],
+      "iqiyiOwnerOperatingContribution": [
+        -1,
+        -0.1,
+        0.8
+      ],
+      "normalNetFinanceAssociates": [
+        1.5,
+        2.6,
+        3.5
+      ],
+      "ownerProfitShare": [
+        0.95,
+        0.97,
+        0.98
+      ],
+      "epsNumeratorReserve": [
+        1.2,
+        0.8,
+        0.5
+      ],
+      "dilutedShares": [
+        3.03,
+        2.76,
+        2.66
+      ]
+    },
+    "threeYear": {
+      "infraRevenue": [
+        43,
+        85,
+        130
+      ],
+      "applicationsRevenue": [
+        11,
+        24,
+        40
+      ],
+      "aiNativeMarketingRevenue": [
+        10,
+        25,
+        42
+      ],
+      "legacyRevenue": [
+        25,
+        37,
+        47
+      ],
+      "otherRevenue": [
+        9,
+        17,
+        25
+      ],
+      "infraContributionMargin": [
+        0.1,
+        0.18,
+        0.24
+      ],
+      "applicationsContributionMargin": [
+        0.29,
+        0.38,
+        0.43
+      ],
+      "aiNativeMarketingContributionMargin": [
+        0.29,
+        0.37,
+        0.43
+      ],
+      "legacyContributionMargin": [
+        0.3,
+        0.34,
+        0.38
+      ],
+      "otherContributionMargin": [
+        -0.14,
+        -0.08,
+        -0.03
+      ],
+      "corporateCost": [
+        13,
+        23,
+        31
+      ],
+      "iqiyiOwnerOperatingContribution": [
+        -1.2,
+        0.5,
+        1.5
+      ],
+      "normalNetFinanceAssociates": [
+        1,
+        2.5,
+        3.5
+      ],
+      "ownerProfitShare": [
+        0.94,
+        0.97,
+        0.98
+      ],
+      "epsNumeratorReserve": [
+        1.3,
+        0.9,
+        0.6
+      ],
+      "dilutedShares": [
+        3.3,
+        2.7,
+        2.5
+      ]
+    },
+    "fiveYear": {
+      "infraRevenue": [
+        50,
+        120,
+        210
+      ],
+      "applicationsRevenue": [
+        12,
+        37,
+        70
+      ],
+      "aiNativeMarketingRevenue": [
+        11,
+        37,
+        70
+      ],
+      "legacyRevenue": [
+        19,
+        34,
+        48
+      ],
+      "otherRevenue": [
+        9,
+        22,
+        40
+      ],
+      "infraContributionMargin": [
+        0.1,
+        0.18,
+        0.24
+      ],
+      "applicationsContributionMargin": [
+        0.29,
+        0.38,
+        0.43
+      ],
+      "aiNativeMarketingContributionMargin": [
+        0.29,
+        0.37,
+        0.43
+      ],
+      "legacyContributionMargin": [
+        0.3,
+        0.34,
+        0.38
+      ],
+      "otherContributionMargin": [
+        -0.14,
+        -0.08,
+        -0.03
+      ],
+      "corporateCost": [
+        12,
+        32,
+        48
+      ],
+      "iqiyiOwnerOperatingContribution": [
+        -1.4,
+        0.8,
+        2
+      ],
+      "normalNetFinanceAssociates": [
+        0.8,
+        2.5,
+        4
+      ],
+      "ownerProfitShare": [
+        0.94,
+        0.97,
+        0.98
+      ],
+      "epsNumeratorReserve": [
+        1.5,
+        1,
+        0.7
+      ],
+      "dilutedShares": [
+        3.55,
+        2.65,
+        2.35
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        2.228,
+        4.806,
+        7.548
+      ],
+      "PE": [
+        12,
+        19,
+        24
+      ],
+      "priceHKD": [
+        29.41,
+        100.45,
+        199.27
+      ],
+      "priceReturnPct": [
+        -64.56626506024097,
+        21.02409638554217,
+        140.08433734939757
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -64.56626506024097,
+        21.02409638554217,
+        140.08433734939757
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 107.39500000000001,
+      "expectedReturnPct": 29.391566265060256,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 81.91600000000001,
+        "defensiveReturnPct": -1.3060240963855274,
+        "positivePrice": 132.87400000000002,
+        "positiveReturnPct": 60.089156626506046
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.804,
+        4.888,
+        8.302
+      ],
+      "PE": [
+        12,
+        20,
+        25
+      ],
+      "priceHKD": [
+        23.81,
+        107.54,
+        228.31
+      ],
+      "priceReturnPct": [
+        -71.3132530120482,
+        29.56626506024098,
+        175.07228915662648
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -71.3132530120482,
+        29.56626506024098,
+        175.07228915662648
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        1.272,
+        5.131,
+        10.09
+      ],
+      "PE": [
+        11,
+        21,
+        26
+      ],
+      "priceHKD": [
+        15.39,
+        118.53,
+        288.57
+      ],
+      "priceReturnPct": [
+        -81.4578313253012,
+        42.80722891566264,
+        247.67469879518075
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        1
+      ],
+      "totalReturnPct": [
+        -81.4578313253012,
+        42.80722891566264,
+        248.87951807228913
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.388,
+        6.82,
+        17.814
+      ],
+      "PE": [
+        10,
+        23,
+        29
+      ],
+      "priceHKD": [
+        4.27,
+        172.55,
+        568.27
+      ],
+      "priceReturnPct": [
+        -94.855421686747,
+        107.89156626506026,
+        584.6626506024096
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        3,
+        8
+      ],
+      "totalReturnPct": [
+        -94.855421686747,
+        111.50602409638557,
+        594.3012048192771
+      ],
+      "baseAnnualizedTotalReturnPct": 28.3633119043175
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.321,
+        8.539,
+        28.273
+      ],
+      "PE": [
+        9,
+        23,
+        30
+      ],
+      "priceHKD": [
+        3.18,
+        216.04,
+        933.01
+      ],
+      "priceReturnPct": [
+        -96.16867469879517,
+        160.289156626506,
+        1024.1084337349398
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        7,
+        20
+      ],
+      "totalReturnPct": [
+        -96.16867469879517,
+        168.72289156626502,
+        1048.2048192771083
+      ],
+      "baseAnnualizedTotalReturnPct": 21.859932382689905
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+    "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+    "currency": "CNY",
+    "unit": "CNY million unless otherwise specified",
+    "revenueCNYmillion": 129079,
+    "revenue2024CNYmillion": 133125,
+    "revenue2023CNYmillion": 134598,
+    "profitAttributableCNYmillion": 5589,
+    "profitAttributable2024CNYmillion": 23760,
+    "profitAttributable2023CNYmillion": 20315,
+    "dilutedEPSCNY": 1.47,
+    "dilutedEPS2024CNY": 8.24,
+    "dilutedEPS2023CNY": 6.89,
+    "weightedDilutedSharesMillion": 2744,
+    "EPSNumeratorCNYmillion": 4043,
+    "redeemableNCIAccretionCNYmillion": 926,
+    "dilutedSubsidiaryInvesteeImpactCNYmillion": 620,
+    "OCFCNYmillion": -3013,
+    "OCF2024CNYmillion": 21234,
+    "OCF2023CNYmillion": 36615,
+    "fixedAssetCashCNYmillion": 12073,
+    "intangibleCashCNYmillion": 1344,
+    "SBCCNYmillion": 3605,
+    "longLivedImpairmentCNYmillion": 16190,
+    "BGBRevenueCNYmillion": 102485,
+    "iqiyiRevenueCNYmillion": 27290,
+    "ClassAShares": 2197993760,
+    "ClassBShares": 524020320,
+    "ADSOrdinarySharesRatio": 8,
+    "leaseCaution": "美国GAAP经营租赁现金已在OCF内，不能重复扣减",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "dilutedEPS2024CNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "dilutedEPS2023CNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "EPSNumeratorCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "redeemableNCIAccretionCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "dilutedSubsidiaryInvesteeImpactCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "OCF2024CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "OCF2023CNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "fixedAssetCashCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "intangibleCashCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "SBCCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "longLivedImpairmentCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "BGBRevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "iqiyiRevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "ClassAShares": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "ClassBShares": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      },
+      "ADSOrdinarySharesRatio": {
+        "sourceURL": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "ordinary shares per ADS",
+        "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+        "status": "reported input"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "H1/Q2 2026",
+    "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+    "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+    "currency": "CNY",
+    "unit": "CNY million unless otherwise specified",
+    "revenueCNYmillion": 63400,
+    "profitAttributableCNYmillion": 5764,
+    "operatingIncomeCNYmillion": 6217,
+    "dilutedEPSCNY": 1.81,
+    "weightedDilutedSharesMillion": 2760,
+    "SBCCNYmillion": 1272,
+    "Q2RevenueCNYmillion": 31325,
+    "Q2BGBRevenueCNYmillion": 25183,
+    "Q2IqiyiRevenueCNYmillion": 6287,
+    "Q2EliminatedRevenueCNYmillion": -145,
+    "Q2OperatingIncomeCNYmillion": 3024,
+    "Q2BGBOperatingIncomeCNYmillion": 3131,
+    "Q2NonGAAPOperatingIncomeCNYmillion": 3785,
+    "Q2BGBNonGAAPOperatingIncomeCNYmillion": 3818,
+    "Q2ProfitAttributableCNYmillion": 2319,
+    "Q2NonGAAPProfitAttributableCNYmillion": 2573,
+    "Q2DilutedEPSCNY": 0.72,
+    "Q2DilutedADS_EPSCNY": 5.74,
+    "Q2NonGAAPDilutedADS_EPSCNY": 7.22,
+    "Q2OCFCNYmillion": 3436,
+    "Q1OCFCNYmillion": 2670,
+    "H1OCFResearchSumCNYmillion": 6106,
+    "Q2CapexCNYmillion": 11390,
+    "Q1CapexCNYmillion": 5916,
+    "H1CapexResearchSumCNYmillion": 17306,
+    "H1FCFResearchSumCNYmillion": -11200,
+    "Q2FCFCNYmillion": -7954,
+    "cashCNYmillion": 24524,
+    "restrictedCashCNYmillion": 170,
+    "shortInvestCNYmillion": 141727,
+    "longDepositsHTMCNYmillion": 74311,
+    "longInvestCNYmillion": 42855,
+    "shortLoansCNYmillion": 26311,
+    "currentLongLoansCNYmillion": 2027,
+    "currentConvertibleCNYmillion": 1,
+    "currentNotesCNYmillion": 2038,
+    "longLoansCNYmillion": 20779,
+    "longConvertibleCNYmillion": 6615,
+    "longNotesCNYmillion": 46089,
+    "netFinancialAssetsProxyCNYmillion": 136702,
+    "totalCashAndInvestmentsManagementCNYbillion": 283.1,
+    "ordinaryOutstandingSharesExact": null,
+    "shareholderEquityCNYmillion": 271752,
+    "leaseLiabilitiesCNYmillion": 9037,
+    "leaseROUCNYmillion": 18574,
+    "Q2AIInfraRevenueCNYbillion": 7.3,
+    "Q2AIApplicationsRevenueCNYbillion": 2.5,
+    "Q2AINativeMarketingRevenueCNYbillion": 2.6,
+    "Q2LegacyRevenueCNYbillion": 10.4,
+    "Q2OtherRevenueCNYbillion": 2.3,
+    "classificationCaution": "管理账口径内部未审计且各分项十亿四舍五入，五块合计不强行等于法定25183m；AI-powered与Online Marketing交叉不可叠加",
+    "dualPrimaryEffectiveDate": "2026-09-01",
+    "dualPrimarySourceURL": "https://ir.baidu.com/news-releases/news-release-details/baidu-provides-update-voluntary-conversion-dual-primary-0",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "operatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "SBCCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2RevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2BGBRevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2IqiyiRevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2EliminatedRevenueCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2OperatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2BGBOperatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2NonGAAPOperatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2BGBNonGAAPOperatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2ProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2NonGAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2DilutedEPSCNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2DilutedADS_EPSCNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2NonGAAPDilutedADS_EPSCNY": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share or ADS as explicitly named",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2OCFCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q1OCFCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "H1OCFResearchSumCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "research calculation from reported lines"
+      },
+      "Q2CapexCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q1CapexCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "H1CapexResearchSumCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "research calculation from reported lines"
+      },
+      "H1FCFResearchSumCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "research calculation from reported lines"
+      },
+      "Q2FCFCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "cashCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "restrictedCashCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "shortInvestCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "longDepositsHTMCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "longInvestCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "shortLoansCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "currentLongLoansCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "currentConvertibleCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "currentNotesCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "longLoansCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "longConvertibleCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "longNotesCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "netFinancialAssetsProxyCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "research calculation from reported lines"
+      },
+      "totalCashAndInvestmentsManagementCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "ordinaryOutstandingSharesExact": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "missing"
+      },
+      "shareholderEquityCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "leaseROUCNYmillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2AIInfraRevenueCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2AIApplicationsRevenueCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2AINativeMarketingRevenueCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2LegacyRevenueCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      },
+      "Q2OtherRevenueCNYbillion": {
+        "sourceURL": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+        "status": "reported input"
+      }
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 86.372501,
+      "60": 95.2825,
+      "120": 108.2325,
+      "250": 117.3328
+    },
+    "maSlope5Pct": {
+      "20": -2.193976,
+      "60": -2.291061,
+      "120": -1.207532,
+      "250": -0.828816
+    },
+    "priceVsMAPct": {
+      "20": -3.9046,
+      "60": -12.890615,
+      "120": -23.313238,
+      "250": -29.261042
+    },
+    "returnPct": {
+      "20": -6.898488,
+      "60": -24.750682,
+      "120": -31.911404,
+      "250": -40.373562
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 161.199997,
+    "low52w": 81.75,
+    "distanceFrom52wHighPct": -48.511165,
+    "distanceFrom52wLowPct": 1.529052,
+    "maxDrawdown52wPct": -48.816198,
+    "RSI14": 37.331706,
+    "ATR14": 2.718569,
+    "ATR14Pct": 3.275384,
+    "MACD": {
+      "DIF": -2.768696,
+      "DEA": -2.850942,
+      "histogram": 0.164493,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 7666066.8,
+      "20": 13533667.9,
+      "60": 13102262.517
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.645059,
+    "previous20MeanVolume": 13758429,
+    "upDownVolume20": {
+      "upVolume": 77867680,
+      "downVolume": 192805678,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.403866
+    },
+    "ranges": {
+      "20": {
+        "support": 81.75,
+        "resistance": 92.400002,
+        "toSupportPct": -1.506024,
+        "toResistancePct": 11.325304,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 81.75,
+        "resistance": 112.599998,
+        "toSupportPct": -1.506024,
+        "toResistancePct": 35.662648,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 102.245,
+      "60": 116.2425,
+      "120": 101.365417,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -9.773209,
+      "60": -0.071638,
+      "120": -0.304483,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -18.822436,
+      "60": -28.597544,
+      "120": -18.11803,
+      "250": null
+    },
+    "returnPct": {
+      "20": -35.257409,
+      "60": -4.652502,
+      "120": -4.979963,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 161.199997,
+    "low52w": 81.75,
+    "distanceFrom52wHighPct": -48.511165,
+    "distanceFrom52wLowPct": 1.529052,
+    "maxDrawdown52wPct": -48.286604,
+    "RSI14": 33.447089,
+    "ATR14": 9.672707,
+    "ATR14Pct": 11.653864,
+    "MACD": {
+      "DIF": -9.383556,
+      "DEA": -7.366996,
+      "histogram": -4.03312,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 73976146.4,
+      "20": 62908217.4,
+      "60": 69141073.867
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.602544,
+    "previous20MeanVolume": 63614207.15,
+    "upDownVolume20": {
+      "upVolume": 418026380,
+      "downVolume": 840137968,
+      "flatVolume": 0,
+      "upDays": 7,
+      "downDays": 13,
+      "ratio": 0.497569
+    },
+    "ranges": {
+      "20": {
+        "support": 81.75,
+        "resistance": 136.800003,
+        "toSupportPct": -1.506024,
+        "toResistancePct": 64.819281,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 81.75,
+        "resistance": 161.199997,
+        "toSupportPct": -1.506024,
+        "toResistancePct": 94.216864,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -3.92058,
+    "excess60Pct": -21.562779,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -3.835324,
+    "industryExcess60Pct": -11.582663
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.9,
+        1.3,
+        2.9,
+        3.7,
+        3.1,
+        2.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 50
+    },
+    "oneYear": {
+      "dimensions": [
+        3,
+        1.3,
+        3.1,
+        3.8,
+        3.3,
+        2.7
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 57.8
+    },
+    "threeYear": {
+      "dimensions": [
+        3.3,
+        1.3,
+        3.4,
+        4,
+        3.2,
+        2.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 65.8
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.3,
+        1.3,
+        3.6,
+        4.1,
+        3.2,
+        2.3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 68.5
+    }
+  },
+  "brokerTargets": [
+    {
+      "issuerId": "I066",
+      "code": "09888.HK",
+      "name": "百度集团-W",
+      "institution": "大和",
+      "targetPrice": 160,
+      "currency": "HKD",
+      "publicationDate": "2026-08-20",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539494/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I066",
+      "code": "09888.HK",
+      "name": "百度集团-W",
+      "institution": "瑞银",
+      "targetPrice": 155,
+      "currency": "HKD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539217/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I066",
+      "code": "09888.HK",
+      "name": "百度集团-W",
+      "institution": "美银证券",
+      "targetPrice": 137,
+      "currency": "HKD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539193/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I066",
+      "code": "BIDU.US",
+      "name": "百度ADS",
+      "institution": "摩根士丹利",
+      "targetPrice": 80,
+      "currency": "USD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "减持",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539242/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "ADSOrdinarySharesRatio": 8,
+      "HKDComparableResearch": 78,
+      "conversionCaution": "每ADS八普通股，以7.8换算研究比较值，非机构港股目标"
+    },
+    {
+      "issuerId": "I066",
+      "code": "BIDU.US",
+      "name": "百度ADS",
+      "institution": "花旗",
+      "targetPrice": 166,
+      "currency": "USD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539159/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "ADSOrdinarySharesRatio": 8,
+      "HKDComparableResearch": 161.85,
+      "conversionCaution": "每ADS八普通股，以7.8换算研究比较值，非机构港股目标"
+    },
+    {
+      "issuerId": "I066",
+      "code": "BIDU.US",
+      "name": "百度ADS",
+      "institution": "野村",
+      "targetPrice": 154,
+      "currency": "USD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539156/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "ADSOrdinarySharesRatio": 8,
+      "HKDComparableResearch": 150.15,
+      "conversionCaution": "每ADS八普通股，以7.8换算研究比较值，非机构港股目标"
+    },
+    {
+      "issuerId": "I066",
+      "code": "BIDU.US",
+      "name": "百度ADS",
+      "institution": "里昂",
+      "targetPrice": 150,
+      "currency": "USD",
+      "publicationDate": "2026-08-19",
+      "targetHorizon": null,
+      "rating": "跑赢大市",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09888/AAFN/NOW.1539156/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "ADSOrdinarySharesRatio": 8,
+      "HKDComparableResearch": 146.25,
+      "conversionCaution": "每ADS八普通股，以7.8换算研究比较值，非机构港股目标"
+    }
+  ],
+  "confidence": "中：财报与行情较高可信，五块独立利润及现金回报路径缺失",
+  "gaps": [
+    "五块互斥收入分项利润、GPU云绝对收入、产能利用率与ROIC未公开核得",
+    "2026-10-09精确发行在外与库存股份月报未取得，未来分母使用独立摊薄假设",
+    "昆仑芯IPO已完成、实际分拆持股与发行条款未取官方完成文件，不设确定事件",
+    "未取得已宣布百度母公司普通股现金分红截止日决议，默认年底与半年未来股息0",
+    "机构原始研报及目标期限未取得，新闻转述期限null；富瑞标题未取正文不登记",
+    "云硬件租赁、资本现金与承诺完整拆分缺失，现金跑道仅压力计算",
+    "换手率无可靠自由流通分母；历史复权OHLC参考粗粒度恒生科技行业"
+  ],
+  "sources": [
+    {
+      "id": "BIDU-A25",
+      "url": "https://ir.baidu.com/static-files/cd96c440-1fbc-4346-9d47-4248b2ef77c0",
+      "publicationDate": "2026-03-17年报签署及审计报告日，官网披露文件；精确上线时分未取",
+      "period": "FY2025",
+      "sourceType": "公司20-F原件",
+      "localFile": "data/tech_raw/baidu_2025annual.pdf"
+    },
+    {
+      "id": "BIDU-Q226",
+      "url": "https://ir.baidu.com/static-files/e57ce78e-e47a-4c0c-8797-3cb11c8c9b0a",
+      "publicationDate": "2026-08-18；财报会议20:00北京，港股收盘后",
+      "period": "H1/Q2 2026",
+      "sourceType": "公司结果原件",
+      "localFile": "data/tech_raw/baidu_2026q2.pdf"
+    },
+    {
+      "id": "BIDU-P226",
+      "url": "https://ir.baidu.com/static-files/664448a8-65e5-4909-9985-20e3e01b4b33",
+      "publicationDate": "2026-08-18",
+      "period": "Q2 2026",
+      "sourceType": "公司演示原件",
+      "localFile": "data/tech_raw/baidu_2026q2presentation.pdf"
+    },
+    {
+      "id": "BIDU-L26",
+      "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-provides-update-voluntary-conversion-dual-primary-0",
+      "publicationDate": "2026-08-26",
+      "period": "双重主要上市9月1日",
+      "sourceType": "公司官网新闻原文"
+    },
+    {
+      "id": "BIDU-TECH",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/9888.HK?range=3y&interval=1d&events=div%2Csplits",
+      "publicationDate": "2026-10-09收盘锚，2026-10-10取得",
+      "period": "2023-10-09至2026-10-09",
+      "sourceType": "Yahoo与腾讯交叉核验",
+      "localFile": "data/history/S076.json"
+    }
+  ],
+  "activeScenario": "base",
+  "scenarioSnapshotDate": "2026-10-09",
+  "refreshPolicy": "单套活动模型，悲观基准乐观顺序计算快照；修改输入即标记待刷新，正文和总表同版再发布"
+}

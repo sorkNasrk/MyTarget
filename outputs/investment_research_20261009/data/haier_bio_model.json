@@ -1,0 +1,488 @@
+{
+  "issuerId": "I001",
+  "securityId": "S001",
+  "name": "海尔生物",
+  "code": "688139.SH",
+  "currency": "CNY",
+  "asOf": "2026-10-09",
+  "price": 35.13,
+  "priceCNY": 35.13,
+  "modelVersion": "haier-bio-pe-v1.0",
+  "status": "独立初版；2025原年报、2026原中报和股份公告核验，远期盈利/倍数为研究情景",
+  "method": "目标时点归母稀释EPS×正常化PE，存款利息已进入EPS，不再次添加全部净现金",
+  "shares": {
+    "issuedAtJune30": 316492922,
+    "cancelledJanuary6": 1459586,
+    "issuedAtSeptember30": 316492922,
+    "modelDilutedBillion": 0.316492922,
+    "note": "十月9日回购公告证实9/30股本，累计回购未等于已注销；精确盘中发布时间未核验，单列截止日观察不作为新增当日交易催化"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 1296.47246072,
+    "revenueGrowthPct": 8.45,
+    "attributableProfit": 147.41455688,
+    "profitGrowthPct": 3.28,
+    "deductedProfit": 137.54765729,
+    "deductedGrowthPct": 11.39,
+    "totalNetProfit": 148.9155368,
+    "minorityProfit": 1.50097992,
+    "dilutedEPS": 0.47,
+    "OCF": 144.27557073,
+    "capex": 35.79089912,
+    "FCF": 108.48467161,
+    "cashBank": 997.82329634,
+    "cashCashEquivalents": 724.21926225,
+    "restrictedCash": 4.0735223,
+    "bankDebtIncludingCurrent": 19.99161929,
+    "leaseDebtIncludingCurrent": 6.93414169,
+    "acquisitionPayablesCurrent": 59.37998084,
+    "totalLiabilities": 1157.33095085,
+    "parentEquity": 4421.42154927,
+    "goodwill": 757.71954674,
+    "intangibles": 338.59631633,
+    "RDExpensed": 172.49742242,
+    "RDCapitalized": 0,
+    "RDIntensityPct": 13.31,
+    "FXLoss": 11.82404346,
+    "FXGain2025H1": 4.77656323,
+    "internationalRevenueApprox": 428,
+    "internationalReportedGrowthPct": 0.17,
+    "internationalAdjustedGrowthPct": 18,
+    "domesticRevenueApprox": 865,
+    "domesticGrowthPct": 13.69,
+    "publicationDate": "2026-08-20",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482454.PDF"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 2280.89601923,
+      "attributableMillion": 406.07364393,
+      "deductedMillion": 331.27489355,
+      "OCF": 249.26453459,
+      "dilutedEPS": 1.28
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 2283.83291143,
+      "attributableMillion": 366.63279705,
+      "deductedMillion": 321.80353926,
+      "OCF": 291.66691826,
+      "capex": 126.70481278,
+      "FCF": 164.96210548,
+      "dilutedEPS": 1.16
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 2328.67237601,
+      "attributableMillion": 250.7307966,
+      "deductedMillion": 219.65011167,
+      "OCF": 267.89437318,
+      "capex": 119.25445624,
+      "FCF": 148.63991694,
+      "dilutedEPS": 0.8
+    }
+  ],
+  "businessGrowth": [
+    {
+      "name": "低温",
+      "growthPct": 13
+    },
+    {
+      "name": "实验室",
+      "growthPct": 19
+    },
+    {
+      "name": "智慧用药",
+      "growthPct": 11
+    },
+    {
+      "name": "血液技术",
+      "growthPct": -5
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026各市场最后交易日",
+      "epsCNY": [
+        0.72,
+        0.98,
+        1.14
+      ],
+      "PE": [
+        25,
+        36,
+        44
+      ],
+      "priceCNY": [
+        18,
+        35.28,
+        50.16
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+        "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+        "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+      ],
+      "profitCNYBillion": [
+        0.22787490384,
+        0.31016306356,
+        0.36080193107999997
+      ],
+      "priceReturnPct": [
+        -48.76174210076858,
+        0.42698548249358037,
+        42.78394534585821
+      ],
+      "totalReturnPct": [
+        -48.76174210076858,
+        0.42698548249358037,
+        42.78394534585821
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceCNY": 34.68,
+      "expectedReturnPct": -1.2809564474807966,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 29.856,
+        "positivePrice": 39.504000000000005
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        0.75,
+        1.08,
+        1.32
+      ],
+      "PE": [
+        25,
+        36,
+        45
+      ],
+      "priceCNY": [
+        18.75,
+        38.88,
+        59.400000000000006
+      ],
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+        "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+        "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+      ],
+      "profitCNYBillion": [
+        0.2373696915,
+        0.34181235576,
+        0.41777065704000005
+      ],
+      "priceReturnPct": [
+        -46.6268146883006,
+        10.674637062339887,
+        69.0862510674637
+      ],
+      "totalReturnPct": [
+        -46.6268146883006,
+        10.674637062339887,
+        69.0862510674637
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.8,
+        1.3,
+        1.65
+      ],
+      "PE": [
+        24,
+        35,
+        44
+      ],
+      "priceCNY": [
+        19.200000000000003,
+        45.5,
+        72.6
+      ],
+      "cumulativeCashDividendCNY": [
+        0.25,
+        0.4,
+        0.5
+      ],
+      "conditions": [
+        "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+        "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+        "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+      ],
+      "profitCNYBillion": [
+        0.25319433760000004,
+        0.41144079860000005,
+        0.5222133213
+      ],
+      "priceReturnPct": [
+        -45.3458582408198,
+        29.518929689723873,
+        106.66097352690005
+      ],
+      "totalReturnPct": [
+        -44.634215769997155,
+        30.65755764304012,
+        108.08425846854539
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.95,
+        1.95,
+        3
+      ],
+      "PE": [
+        22,
+        32,
+        40
+      ],
+      "priceCNY": [
+        20.9,
+        62.4,
+        120
+      ],
+      "cumulativeCashDividendCNY": [
+        1,
+        1.7,
+        2.4
+      ],
+      "conditions": [
+        "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+        "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+        "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+      ],
+      "profitCNYBillion": [
+        0.3006682759,
+        0.6171611979,
+        0.949478766
+      ],
+      "priceReturnPct": [
+        -40.50668943922574,
+        77.62596071733559,
+        241.58838599487615
+      ],
+      "totalReturnPct": [
+        -37.66011955593511,
+        82.46512951892966,
+        248.4201537147737
+      ],
+      "baseAnnualizedTotalReturnPct": 22.19683568829083
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        1.1,
+        2.65,
+        4.7
+      ],
+      "PE": [
+        20,
+        30,
+        38
+      ],
+      "priceCNY": [
+        22,
+        79.5,
+        178.6
+      ],
+      "cumulativeCashDividendCNY": [
+        1.8,
+        3.4,
+        5.2
+      ],
+      "conditions": [
+        "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+        "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+        "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+      ],
+      "profitCNYBillion": [
+        0.3481422142,
+        0.8387062433,
+        1.4875167334000001
+      ],
+      "priceReturnPct": [
+        -37.37546256760604,
+        126.30230572160545,
+        408.39738115570736
+      ],
+      "totalReturnPct": [
+        -32.25163677768289,
+        135.98064332479362,
+        423.1995445488186
+      ],
+      "baseAnnualizedTotalReturnPct": 18.73404846318847
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3,
+        4,
+        3.6,
+        3.8,
+        3.8,
+        3.8
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 72.6
+    },
+    "oneYear": {
+      "dimensions": [
+        3.4,
+        4,
+        3.7,
+        3.9,
+        3.8,
+        3.7
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 74.2
+    },
+    "threeYear": {
+      "dimensions": [
+        3.7,
+        4,
+        4,
+        4.2,
+        3.8,
+        3.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 78.1
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.6,
+        4,
+        4.1,
+        4.2,
+        3.7,
+        3.4
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 77.9
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "采购与出海受阻、血液技术恢复慢、资本投入侵蚀利润且倍数收缩",
+    "制药需求和国内采购改善、低温与实验室增长、项目基数消退但销售投入仍高",
+    "自动化与耗材规模扩张、海外在地化成功、现金回报和利润率提升且估值维持高溢价"
+  ],
+  "assumptions": [
+    "2025EPS0.80及2026H1稀释0.47不机械年化；未来EPS需随股数和利润率修订",
+    "海外实际0.17%与剔除项目18%区别，后者非会计实际增长",
+    "AI相关业务18%为公司口径，包含硬件和场景服务，不能全套独立软件倍数",
+    "鸿鹄增资后58.38%权益，仅归母部分入EPS，不把整个融资估值加到股价",
+    "现金等价物724.2m与货币资金997.8m及长期存款/理财不同，收益已含EPS不重复加值",
+    "六月0.33元已支付，不计未来累计分红；未来分红仅研究假设",
+    "注销与员工库存过户区别；未来稀释±5%单列敏感性",
+    "25/50/25权重为判断，情景非统计置信或最大损失区间"
+  ],
+  "brokerTargets": [],
+  "brokerTargetStatus": "尚未获得截止日前公开可核验外资目标价，不填造",
+  "confidence": {
+    "fundamentals": "高：原年报/中报与专项公告",
+    "technical": "高：双行情源交叉；腾讯早期10天缺口不影响近期指标",
+    "valuation": "中低：收入、利润率和PE是情景判断",
+    "institutionTargets": "缺失"
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "FY2025报告EPS对应43.9倍，基准一年45.5元，增长证据支持但价格不便宜",
+    "technicalRelativeStrength": "所有日均线上方且斜率正，60日+30.30%与市场超额+41.77pp；接近36.24阻力且RSI66.5",
+    "growthBusinessQuality": "收入8.45%、扣非11.39%、制药23%，利润率和海外真实收入仍需验证",
+    "industryCycle": "制药/科研工具国产替代与耗材自动化，医院公卫预算和项目波动约束",
+    "catalysts": "项目二期首单、订单增速与回购，但临床器械注册及海外放量未保证",
+    "financialGovernanceDownside": "低银行债、研发全费用化和现金回款改善；并购商誉、长期存款及关联交易要看资本回报"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482454.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047839.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597000.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-07-21/1225432871.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450297.PDF"
+  ],
+  "deepResearchFile": "research/haier_bio_deep.md",
+  "limitations": [
+    "完整分产业DCF与独立历史估值分位未完成",
+    "四产业只披露部分增速，2025生命科学/医疗创新分类不能直接拼作2026收入",
+    "海外汇率常币模型、关税和注册法律原文未全核",
+    "医药细分基准历史缺失，行业超额留空",
+    "外资目标公开资料尚缺",
+    "10/9回购公告精确发布时间待核，保守标注可能收盘后发布"
+  ],
+  "effectiveHanzi": 16768,
+  "qaFile": "qa/haier_bio_qa.json",
+  "qaStatus": "字数、重复、核算及核心原报告来源通过，估值初版限制保留"
+}

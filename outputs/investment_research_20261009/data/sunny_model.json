@@ -1,0 +1,2228 @@
+{
+  "issuerId": "I076",
+  "securityId": "S087",
+  "code": "02382.HK",
+  "name": "舜宇光学科技",
+  "deepResearchFile": "research/sunny_deep.md",
+  "asOf": "2026-10-09",
+  "price": 60.5,
+  "currency": "HKD",
+  "modelVersion": "sunny-four-segment-gross-to-normal-profit-v1.0",
+  "status": "deep-research-complete-pending-document-integration",
+  "method": "手机/车载/XR/其他收入×各正常毛利率减研发销售管理，扣正常税20%加有限税后财资/常态补助VAT/联营/NCI净项，除经济股×PE×1.10；剔换股一次性，不另加全现金或子公司/歌尔/AI估值",
+  "targetPriceRoundingDecimals": 2,
+  "fx": {
+    "HKDperCNY": 1.1,
+    "note": "统一研究假设非核验即期"
+  },
+  "businessRevenueAssumptions": {
+    "yearEnd": {
+      "handset": [
+        24.7,
+        27,
+        28.5
+      ],
+      "vehicle": [
+        7.2,
+        8.1,
+        8.6
+      ],
+      "XR": [
+        1.75,
+        2.2,
+        2.5
+      ],
+      "other": [
+        8,
+        9.9,
+        11
+      ],
+      "handsetGross": [
+        0.12,
+        0.127,
+        0.145
+      ],
+      "vehicleGross": [
+        0.29,
+        0.3,
+        0.32
+      ],
+      "XRGross": [
+        0.11,
+        0.14,
+        0.19
+      ],
+      "otherGross": [
+        0.28,
+        0.325,
+        0.345
+      ],
+      "RD": [
+        3.5,
+        3.5,
+        3.55
+      ],
+      "selling": [
+        0.38,
+        0.38,
+        0.4
+      ],
+      "admin": [
+        1.2,
+        1.18,
+        1.15
+      ],
+      "afterTaxNet": [
+        -0.05,
+        0.18,
+        0.3
+      ],
+      "shares": [
+        1.11,
+        1.09,
+        1.082
+      ]
+    },
+    "halfYear": {
+      "handset": [
+        24.3,
+        27.6,
+        29.6
+      ],
+      "vehicle": [
+        7.1,
+        8.6,
+        9.6
+      ],
+      "XR": [
+        1.7,
+        2.6,
+        3.1
+      ],
+      "other": [
+        8.2,
+        10.8,
+        12.2
+      ],
+      "handsetGross": [
+        0.12,
+        0.13,
+        0.15
+      ],
+      "vehicleGross": [
+        0.29,
+        0.3,
+        0.32
+      ],
+      "XRGross": [
+        0.11,
+        0.16,
+        0.21
+      ],
+      "otherGross": [
+        0.28,
+        0.33,
+        0.35
+      ],
+      "RD": [
+        3.55,
+        3.65,
+        3.8
+      ],
+      "selling": [
+        0.39,
+        0.4,
+        0.43
+      ],
+      "admin": [
+        1.23,
+        1.2,
+        1.22
+      ],
+      "afterTaxNet": [
+        -0.08,
+        0.2,
+        0.34
+      ],
+      "shares": [
+        1.12,
+        1.09,
+        1.085
+      ]
+    },
+    "oneYear": {
+      "handset": [
+        24,
+        29,
+        32
+      ],
+      "vehicle": [
+        7.1,
+        9.3,
+        11
+      ],
+      "XR": [
+        1.8,
+        3.2,
+        4.5
+      ],
+      "other": [
+        8.6,
+        12.1,
+        14.8
+      ],
+      "handsetGross": [
+        0.12,
+        0.14,
+        0.16
+      ],
+      "vehicleGross": [
+        0.28,
+        0.3,
+        0.325
+      ],
+      "XRGross": [
+        0.12,
+        0.18,
+        0.23
+      ],
+      "otherGross": [
+        0.27,
+        0.33,
+        0.355
+      ],
+      "RD": [
+        3.7,
+        3.75,
+        4.2
+      ],
+      "selling": [
+        0.4,
+        0.43,
+        0.49
+      ],
+      "admin": [
+        1.3,
+        1.22,
+        1.35
+      ],
+      "afterTaxNet": [
+        -0.1,
+        0.22,
+        0.38
+      ],
+      "shares": [
+        1.135,
+        1.095,
+        1.09
+      ]
+    },
+    "threeYear": {
+      "handset": [
+        24,
+        32,
+        39
+      ],
+      "vehicle": [
+        7.8,
+        13,
+        19
+      ],
+      "XR": [
+        2,
+        5.2,
+        9.8
+      ],
+      "other": [
+        9.2,
+        14,
+        22
+      ],
+      "handsetGross": [
+        0.115,
+        0.16,
+        0.18
+      ],
+      "vehicleGross": [
+        0.26,
+        0.3,
+        0.32
+      ],
+      "XRGross": [
+        0.12,
+        0.2,
+        0.25
+      ],
+      "otherGross": [
+        0.25,
+        0.31,
+        0.35
+      ],
+      "RD": [
+        3.8,
+        4.5,
+        5.4
+      ],
+      "selling": [
+        0.43,
+        0.55,
+        0.7
+      ],
+      "admin": [
+        1.3,
+        1.42,
+        1.7
+      ],
+      "afterTaxNet": [
+        -0.15,
+        0.25,
+        0.48
+      ],
+      "shares": [
+        1.19,
+        1.12,
+        1.105
+      ]
+    },
+    "fiveYear": {
+      "handset": [
+        23,
+        34,
+        45
+      ],
+      "vehicle": [
+        8.2,
+        17,
+        28
+      ],
+      "XR": [
+        2.2,
+        8,
+        16
+      ],
+      "other": [
+        9.8,
+        19,
+        33
+      ],
+      "handsetGross": [
+        0.11,
+        0.165,
+        0.19
+      ],
+      "vehicleGross": [
+        0.25,
+        0.28,
+        0.315
+      ],
+      "XRGross": [
+        0.12,
+        0.22,
+        0.26
+      ],
+      "otherGross": [
+        0.25,
+        0.3,
+        0.34
+      ],
+      "RD": [
+        3.8,
+        5.3,
+        7
+      ],
+      "selling": [
+        0.45,
+        0.65,
+        0.92
+      ],
+      "admin": [
+        1.4,
+        1.7,
+        2.2
+      ],
+      "afterTaxNet": [
+        -0.2,
+        0.3,
+        0.6
+      ],
+      "shares": [
+        1.26,
+        1.145,
+        1.12
+      ]
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion revenue/profit; shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 6,
+    "normalization": "分部segment margin是毛利，RD/selling/admin未分配不能视营业利润。合并revenue/EBITMargin由四分部毛利减常态费用计算，保留SBC及新业务RD。afterTaxInterestAssociatesNet有限税后财资、常态补助/VAT、联营、NCI和融资费用净项，非披露单字段；剔FY2025换股918.920m/处置/公允值/汇兑暂态。PE包含财资联营，不加全现金或歌尔光学全市值；车载现有并表，分拆不能全市值再加。经济分母考虑法律treasury未来再使用与激励，不将未授上限全部当发行。",
+    "yearEnd": {
+      "revenue": [
+        41.65,
+        47.2,
+        50.6
+      ],
+      "EBITMargin": [
+        0.05773109243697478,
+        0.0916207627118644,
+        0.11965415019762844
+      ],
+      "grossProfit": [
+        7.4845,
+        9.3845,
+        11.154499999999999
+      ],
+      "coreEBIT": [
+        2.4044999999999996,
+        4.3245,
+        6.054499999999999
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.05,
+        0.18,
+        0.3
+      ],
+      "dilutedShares": [
+        1.11,
+        1.09,
+        1.082
+      ]
+    },
+    "halfYear": {
+      "revenue": [
+        41.3,
+        49.60000000000001,
+        54.5
+      ],
+      "EBITMargin": [
+        0.0553995157384988,
+        0.09874999999999999,
+        0.12812844036697246
+      ],
+      "grossProfit": [
+        7.458,
+        10.148000000000001,
+        12.433
+      ],
+      "coreEBIT": [
+        2.2880000000000003,
+        4.898000000000001,
+        6.983
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.08,
+        0.2,
+        0.34
+      ],
+      "dilutedShares": [
+        1.12,
+        1.09,
+        1.085
+      ]
+    },
+    "oneYear": {
+      "revenue": [
+        41.5,
+        53.6,
+        62.3
+      ],
+      "EBITMargin": [
+        0.048337349397590365,
+        0.112294776119403,
+        0.14356340288924557
+      ],
+      "grossProfit": [
+        7.406000000000001,
+        11.419,
+        14.984
+      ],
+      "coreEBIT": [
+        2.0060000000000002,
+        6.019000000000001,
+        8.943999999999999
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.1,
+        0.22,
+        0.38
+      ],
+      "dilutedShares": [
+        1.135,
+        1.095,
+        1.09
+      ]
+    },
+    "threeYear": {
+      "revenue": [
+        43,
+        64.2,
+        89.8
+      ],
+      "EBITMargin": [
+        0.0418139534883721,
+        0.12352024922118376,
+        0.17204899777282853
+      ],
+      "grossProfit": [
+        7.328,
+        14.399999999999999,
+        23.25
+      ],
+      "coreEBIT": [
+        1.7980000000000003,
+        7.929999999999998,
+        15.450000000000003
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.15,
+        0.25,
+        0.48
+      ],
+      "dilutedShares": [
+        1.19,
+        1.12,
+        1.105
+      ]
+    },
+    "fiveYear": {
+      "revenue": [
+        43.2,
+        78,
+        122
+      ],
+      "EBITMargin": [
+        0.038055555555555565,
+        0.13051282051282054,
+        0.18549180327868853
+      ],
+      "grossProfit": [
+        7.2940000000000005,
+        17.830000000000002,
+        32.75
+      ],
+      "coreEBIT": [
+        1.6440000000000006,
+        10.180000000000001,
+        22.63
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.2,
+        0.3,
+        0.6
+      ],
+      "dilutedShares": [
+        1.26,
+        1.145,
+        1.12
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        1.687928,
+        3.339083,
+        4.753789
+      ],
+      "PE": [
+        13,
+        18,
+        22
+      ],
+      "priceHKD": [
+        24.14,
+        66.11,
+        115.04
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "手机需求与毛利下降、其他业务放缓、估值风险",
+        "手机高端化抵消销量压力、车载及其他增长、PE18",
+        "高端订单及其他业务扩张、毛利改善、PE22"
+      ],
+      "priceReturnPct": [
+        -60.09917355371901,
+        9.272727272727277,
+        90.14876033057853
+      ],
+      "totalReturnPct": [
+        -60.09917355371901,
+        9.272727272727277,
+        90.14876033057853
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 67.85000000000001,
+      "expectedReturnPct": 12.148760330578522,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 54.215,
+        "positivePrice": 81.48500000000001,
+        "defensiveReturnPct": -10.38842975206611,
+        "positiveReturnPct": 34.68595041322315
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.562857,
+        3.778349,
+        5.46212
+      ],
+      "PE": [
+        12,
+        19,
+        23
+      ],
+      "priceHKD": [
+        20.63,
+        78.97,
+        138.19
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "全年量利逊预期、研发和资本成本上升",
+        "完整财年与新机周期验证、车载及其他盈利",
+        "份额/良率与新设备订单共同改善"
+      ],
+      "priceReturnPct": [
+        -65.90082644628099,
+        30.528925619834713,
+        128.4132231404959
+      ],
+      "totalReturnPct": [
+        -65.90082644628099,
+        30.528925619834713,
+        128.4132231404959
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        1.325815,
+        4.598356,
+        6.913028
+      ],
+      "PE": [
+        11,
+        19,
+        23
+      ],
+      "priceHKD": [
+        16.04,
+        96.11,
+        174.9
+      ],
+      "cumulativeCashDividendHKD": [
+        0.4,
+        1.1,
+        1.5
+      ],
+      "conditions": [
+        "手机成本压力持续、新业务难以覆盖研发",
+        "手机结构、车载、XR与其他经营利润稳步增长",
+        "高端光学和系统订单盈利扩大而成本受控"
+      ],
+      "priceReturnPct": [
+        -73.48760330578511,
+        58.8595041322314,
+        189.09090909090912
+      ],
+      "totalReturnPct": [
+        -72.82644628099175,
+        60.677685950413206,
+        191.57024793388427
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.082689,
+        5.8875,
+        11.61991
+      ],
+      "PE": [
+        10,
+        20,
+        23
+      ],
+      "priceHKD": [
+        11.91,
+        129.53,
+        293.98
+      ],
+      "cumulativeCashDividendHKD": [
+        1.1,
+        4.2,
+        6.4
+      ],
+      "conditions": [
+        "手机同质化、车载价格下压、XR迟迟低效",
+        "四分部多样化盈利，正常成本与股数后回报",
+        "车载传感和新设备规模化，光学技术平台回报"
+      ],
+      "priceReturnPct": [
+        -80.31404958677686,
+        114.099173553719,
+        385.91735537190084
+      ],
+      "totalReturnPct": [
+        -78.49586776859503,
+        121.04132231404958,
+        396.495867768595
+      ],
+      "annualizedTotalReturnPct": [
+        -40.08889810189387,
+        30.264024030515536,
+        70.59719237543307
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.885079,
+        7.374672,
+        16.7
+      ],
+      "PE": [
+        9,
+        18,
+        22
+      ],
+      "priceHKD": [
+        8.76,
+        146.02,
+        404.14
+      ],
+      "cumulativeCashDividendHKD": [
+        1.8,
+        8.5,
+        14
+      ],
+      "conditions": [
+        "技术替代、客户自制、扩产折旧和稀释",
+        "成熟手机+车载及新设备增长，PE下降至18",
+        "光学系统供应平台兑现，订单多样化及资本效率"
+      ],
+      "priceReturnPct": [
+        -85.52066115702479,
+        141.35537190082647,
+        568
+      ],
+      "totalReturnPct": [
+        -82.54545454545455,
+        155.40495867768595,
+        591.1404958677685
+      ],
+      "annualizedTotalReturnPct": [
+        -29.46872922018261,
+        20.627371617108526,
+        47.20184996553212
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.4,
+        2.2,
+        3.8,
+        3.8,
+        3.5,
+        3.5
+      ],
+      "total": 63.2,
+      "evidence": [
+        "正常盈利PE18有空间而审计含换股PE不可直接用",
+        "现价均线下、20日强回撤，60日相对强但未反转",
+        "其他产品驱动，手机/车载/XR毛利承压",
+        "手机库存/记忆体与汽车需求，光学升级机会",
+        "全年产品结构和AR订单需核，分拆非额外免费值",
+        "资本开支、客户集中、债及库存再使用风险"
+      ],
+      "confidence": "中：财报和双源行情高，产品/客户与指引新闻中，远期毛利、增长、税与股数假设中低"
+    },
+    "oneYear": {
+      "dimensions": [
+        4,
+        2.5,
+        4,
+        4,
+        3.8,
+        3.4
+      ],
+      "total": 73.9,
+      "evidence": [
+        "正常盈利增长配PE19，现金财资不双加",
+        "需收复64–65均线群，量能和周线未确认",
+        "四分部毛利减常态研发SBC，依靠良率与收入",
+        "车载新设备扩张而手机饱和与降价约束",
+        "完整财年和新产品量产，而CPO仍早期",
+        "税/PillarTwo、联营、子公司NCI和客户议价"
+      ],
+      "confidence": "中：财报和双源行情高，产品/客户与指引新闻中，远期毛利、增长、税与股数假设中低"
+    },
+    "threeYear": {
+      "dimensions": [
+        4.2,
+        2.6,
+        4.1,
+        4.2,
+        4,
+        3.2
+      ],
+      "total": 79.5,
+      "evidence": [
+        "多元利润增长与PE20，但资本回报需证实",
+        "低技术权重，不能外推过去高点",
+        "光学精密制造和系统能力，不能全公司按软件",
+        "车载感知/XR/机器人空间，订单与售价风险",
+        "量产与研发回报、歌尔权益价值需有限归属",
+        "扩产、光学替代、联营治理与分拆稀释"
+      ],
+      "confidence": "中：财报和双源行情高，产品/客户与指引新闻中，远期毛利、增长、税与股数假设中低"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.9,
+        2.6,
+        4,
+        4.1,
+        3.8,
+        3
+      ],
+      "total": 76.8,
+      "evidence": [
+        "增长覆盖PE18成熟下降，不按高点估值",
+        "技术权重0",
+        "制造良率/质量可维持，持续研发不可加回",
+        "需求多样化但传感标准化和竞争长期存在",
+        "光学互连及AR需现金回报不能加概念市值",
+        "十年客户自制、资本配置、治理和股份再使用"
+      ],
+      "confidence": "中：财报和双源行情高，产品/客户与指引新闻中，远期毛利、增长、税与股数假设中低"
+    }
+  },
+  "anchor": {
+    "period": "FY2025 ended 2025-12-31",
+    "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 43229.126,
+    "revenuePrior": 38294.491,
+    "revenue2023": 31681.3,
+    "handsetRevenue": 27324.044,
+    "vehicleRevenue": 7327.752,
+    "XRRevenue": 2393.466,
+    "otherRevenue": 6183.864,
+    "handsetGross": 4004.411,
+    "vehicleGross": 2340.844,
+    "XRGross": 468.922,
+    "otherGross": 1701.711,
+    "grossProfit": 8515.888,
+    "selling": 342.945,
+    "RD": 3258.58,
+    "admin": 1419.957,
+    "coreEBITCalculated": 3494.406,
+    "otherIncome": 1100.398,
+    "otherGains": 1091.976,
+    "ECLLoss": 6.228,
+    "associatesProfit": 171.591,
+    "financeCosts": 436.19,
+    "pretax": 5415.953,
+    "tax": 608.963,
+    "groupProfit": 4806.99,
+    "ownerProfit": 4639.107,
+    "ownerPrior": 2699.159,
+    "NCIProfit": 167.883,
+    "EPSCNY": 4.2655,
+    "dilutedEPSCNY": 4.2479,
+    "SBC": 231.408,
+    "swapGain": 918.92,
+    "bankInterest": 272.694,
+    "investmentIncome": 328.452,
+    "governmentGrants": 256.504,
+    "otherIncomeMainVAT": 195.785,
+    "OCF": 6079.499,
+    "PPEcash": 2113.849,
+    "capexDeposits": 779.674,
+    "intangibleCash": 37.435,
+    "leasePrincipal": 54.069,
+    "interestPaidFinancing": 432.23,
+    "interestInvestmentReceivedInvesting": 242.752,
+    "afterCapexLeaseInterestProxy": 2662.242,
+    "note": "FY净利包含换股一次性；利息收到投资段，付融资段；资本现金包含设备预付款非只用折旧或管理capex",
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenuePrior": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2023": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "handsetRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "vehicleRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "XRRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "handsetGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "vehicleGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "XRGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "selling": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "admin": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCalculated": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "otherIncome": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherGains": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ECLLoss": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associatesProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeCosts": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "pretax": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tax": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerPrior": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "NCIProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "swapGain": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bankInterest": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentIncome": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "governmentGrants": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherIncomeMainVAT": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PPEcash": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capexDeposits": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "intangibleCash": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leasePrincipal": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestPaidFinancing": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestInvestmentReceivedInvesting": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCapexLeaseInterestProxy": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+        "period": "FY2025 ended 2025-12-31",
+        "publicationDate": "业绩2026-03-30 22:22；年报2026-04-24 17:44，收盘后",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      }
+    }
+  },
+  "interim": {
+    "period": "H1 2026 ended 2026-06-30",
+    "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 21905.704,
+    "revenuePrior": 19651.919,
+    "handsetRevenue": 13148.628,
+    "vehicleRevenue": 3761.928,
+    "XRRevenue": 955.72,
+    "otherRevenue": 4039.428,
+    "handsetGross": 1615.297,
+    "vehicleGross": 1138.644,
+    "XRGross": 124.503,
+    "otherGross": 1390.222,
+    "grossProfit": 4268.666,
+    "selling": 182.923,
+    "RD": 1650.726,
+    "admin": 571.078,
+    "coreEBITCalculated": 1863.939,
+    "otherIncome": 504.299,
+    "otherGains": 20.039,
+    "ECLLoss": 16.928,
+    "associatesLoss": 5.426,
+    "financeCosts": 163.699,
+    "pretax": 2202.224,
+    "tax": 252.234,
+    "PillarTwoTax": 50.704,
+    "groupProfit": 1949.99,
+    "ownerProfit": 1808.364,
+    "NCIProfit": 141.626,
+    "EPSCNY": 1.6803,
+    "dilutedEPSCNY": 1.6766,
+    "basicSharesBn": 1.076196,
+    "dilutedSharesBn": 1.078619,
+    "SBC": 74.218,
+    "bankInterest": 158.758,
+    "investmentIncome": 121.296,
+    "governmentGrants": 129.913,
+    "otherIncomeMainVAT": 69.073,
+    "FXLoss": 126.126,
+    "derivativeGain": 59.727,
+    "associateDisposalGain": 36.307,
+    "OCF": 3426.103,
+    "PPEcash": 1372.683,
+    "landCash": 2.092,
+    "capexDeposits": 262.151,
+    "managementCapex": 1636.9,
+    "leasePrincipal": 27.101,
+    "interestPaidFinancing": 69.462,
+    "bondAndInterestPaidFinancing": 83.376,
+    "interestInvestmentReceivedInvesting": 347.085,
+    "afterCapexLeaseInterestProxy": 1609.238,
+    "cashEquivalent": 3499.067,
+    "timeDepositCurrent": 1687.299,
+    "timeDepositNonCurrent": 505.448,
+    "fixedShortDeposit": 1685.304,
+    "pledgedDeposit": 14.774,
+    "FVTPLCurrent": 13326.538,
+    "FVTPLNonCurrent": 139.048,
+    "inventory": 6533.883,
+    "tradeOtherReceivablePrepay": 9139.401,
+    "FVTOCIReceivable": 710.059,
+    "tradeOtherPayable": 16373.753,
+    "contractLiability": 373.477,
+    "bankDebtCurrent": 2589.877,
+    "bankDebtNonCurrent": 500,
+    "bond": 2797.993,
+    "leaseCurrent": 50.249,
+    "leaseNonCurrent": 113.423,
+    "ownerEquity": 28900.56,
+    "capitalCommitment": 804.3,
+    "note": "其他产品毛利增长主导而手机/车载/XR毛利受压；管理capex和现金代理不混。bond本金与利息83.376m无法从该行完全拆分，代理保守全扣，不声称纯FCF",
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenuePrior": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "handsetRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "vehicleRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "XRRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherRevenue": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "handsetGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "vehicleGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "XRGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherGross": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "selling": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "admin": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCalculated": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "otherIncome": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherGains": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ECLLoss": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associatesLoss": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeCosts": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "pretax": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tax": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PillarTwoTax": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "NCIProfit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "basicSharesBn": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "dilutedSharesBn": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bankInterest": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentIncome": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "governmentGrants": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherIncomeMainVAT": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FXLoss": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "derivativeGain": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associateDisposalGain": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PPEcash": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "landCash": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capexDeposits": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "managementCapex": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leasePrincipal": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestPaidFinancing": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bondAndInterestPaidFinancing": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestInvestmentReceivedInvesting": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCapexLeaseInterestProxy": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "cashEquivalent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "timeDepositCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "timeDepositNonCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "fixedShortDeposit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "pledgedDeposit": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLNonCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "inventory": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tradeOtherReceivablePrepay": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTOCIReceivable": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tradeOtherPayable": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "contractLiability": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bankDebtCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bankDebtNonCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bond": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseNonCurrent": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerEquity": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capitalCommitment": {
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-26 19:00收盘后；报告2026-09-21 12:00",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "capital": {
+    "period": "September 2026",
+    "publicationDate": "2026-10-02 10:47",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200466.pdf",
+    "issuedExcludingLegalTreasury": 1078964800,
+    "legalTreasury": 15840000,
+    "totalIssuedIncludingTreasury": 1094804800,
+    "H1RepurchaseShares": 15840000,
+    "H1RepurchaseHKD": 1015500470,
+    "H1RepurchaseCNY": 915.2,
+    "newSchemeFutureLimit": 107896480,
+    "newSchemeServiceProviderLimit": 10789648,
+    "newSchemeGrantedAsOfJune30": 0,
+    "note": "法律treasury不同奖励信托股，会计信托已扣不再减一次；2026计划可旧/新/库存，10%未来未授额度不是即时稀释；目标经济股数不假定回购注销永久减少。",
+    "paidDividendHKD": 1.206,
+    "exDividendDate": "2026-06-05",
+    "paymentDate": "2026-06-26",
+    "dividendNote": "已除息/已付不计未来；H1无中期息，未来累计普通息研究假设"
+  },
+  "corporateEvents": {
+    "shareSwap": "2025-12-08完成，Ningbo OmniLight31.31%歌尔光学，转出相关业务不继续全额并表",
+    "furtherSubscriptionDate": "2026-06-25 17:08",
+    "subscriptionCNYmillion": 500,
+    "preOmniLightPct": 31.12,
+    "postOmniLightConditionalPct": 33.27,
+    "otherSunnyEntitiesPrePct": 3.1,
+    "otherSunnyEntitiesPostConditionalPct": 2.74,
+    "subscriptionNote": "6/25公告有条件，未取得完成公告；33.27%是OmniLight而非全集团唯一比例；不得加全歌尔收入/市值",
+    "newBondDate": "2026-07-07 17:25",
+    "newBondCNYmillion": 2700,
+    "newBondCouponPct": 2.15,
+    "newBondDue": "2031",
+    "newBondNote": "7/8预计上市，截止已知融资，不把6/30债自动当10/9债；没有完整截止资产负债表不造净债",
+    "vehicleSpinOff": "1/5及1/27申请，H1重述FormA1，不等同上市已完成；现有收益已并表不能另加全车载市值",
+    "monthlyShipment": "HKEX2026目录仅1/9十二月2025月报；未取得2026每月主源，不用预测替代实际",
+    "investorPresentation": "6/24公告指官网材料仅14天，未取得原始PPT；CPO潜力由研报转述标注"
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 64.8925,
+      "60": 62.66,
+      "120": 65.003089,
+      "250": 64.586186
+    },
+    "maSlope5Pct": {
+      "20": -2.560157,
+      "60": 0.884172,
+      "120": 0.031469,
+      "250": -0.742056
+    },
+    "priceVsMAPct": {
+      "20": -6.768887,
+      "60": -3.447175,
+      "120": -6.927501,
+      "250": -6.326718
+    },
+    "returnPct": {
+      "20": -12.063957,
+      "60": 7.2695,
+      "120": -4.21085,
+      "250": -32.452318
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 90.059025,
+    "low52w": 50.744417,
+    "distanceFrom52wHighPct": -32.821835,
+    "distanceFrom52wLowPct": 19.224939,
+    "maxDrawdown52wPct": -42.024203,
+    "RSI14": 39.00008,
+    "ATR14": 2.486097,
+    "ATR14Pct": 4.109252,
+    "MACD": {
+      "DIF": -1.006659,
+      "DEA": -0.389425,
+      "histogram": -1.234468,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 5711232.8,
+      "20": 6667829.7,
+      "60": 10860507.9
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.757523,
+    "previous20MeanVolume": 6806522.65,
+    "upDownVolume20": {
+      "upVolume": 62181816,
+      "downVolume": 71174778,
+      "flatVolume": 0,
+      "upDays": 10,
+      "downDays": 10,
+      "ratio": 0.87365
+    },
+    "ranges": {
+      "20": {
+        "support": 59.099998,
+        "resistance": 70.949997,
+        "toSupportPct": -2.314053,
+        "toResistancePct": 17.272722,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 53.450001,
+        "resistance": 74.099998,
+        "toSupportPct": -11.652891,
+        "toResistancePct": 22.479336,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "趋势交错/震荡",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 65.063527,
+      "60": 66.425862,
+      "120": 64.201084,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -0.334441,
+      "60": -1.212145,
+      "120": 1.29502,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -7.013956,
+      "60": -8.921016,
+      "120": -5.764831,
+      "250": null
+    },
+    "returnPct": {
+      "20": -16.176328,
+      "60": -20.568122,
+      "120": 25.777774,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 86.314779,
+    "low52w": 50.744417,
+    "distanceFrom52wHighPct": -29.907716,
+    "distanceFrom52wLowPct": 19.224939,
+    "maxDrawdown52wPct": -34.661921,
+    "RSI14": 46.039023,
+    "ATR14": 6.4442,
+    "ATR14Pct": 10.651571,
+    "MACD": {
+      "DIF": -0.228923,
+      "DEA": -0.224175,
+      "histogram": -0.009496,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 34212142.2,
+      "20": 74107980.05,
+      "60": 61236731.633
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.364092,
+    "previous20MeanVolume": 78431174.65,
+    "upDownVolume20": {
+      "upVolume": 576780302,
+      "downVolume": 905379299,
+      "flatVolume": 0,
+      "upDays": 7,
+      "downDays": 13,
+      "ratio": 0.637059
+    },
+    "ranges": {
+      "20": {
+        "support": 53.450001,
+        "resistance": 86.314779,
+        "toSupportPct": -11.652891,
+        "toResistancePct": 42.669056,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 50.744417,
+        "resistance": 90.059025,
+        "toSupportPct": -16.124931,
+        "toResistancePct": 48.857893,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -9.086049,
+    "excess60Pct": 10.457403,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -9.000793,
+    "industryExcess60Pct": 20.437519
+  },
+  "targets": [
+    {
+      "institution": "高盛",
+      "targetPrice": 83.3,
+      "rating": "中性",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-09-10",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1543791/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "大和",
+      "targetPrice": 73,
+      "rating": "跑赢大市",
+      "targetHorizon": "12个月",
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-31",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1542096/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "花旗",
+      "targetPrice": 94,
+      "rating": "买入",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-28",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1541588/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "美银证券",
+      "targetPrice": 69,
+      "rating": "中性",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-06-26",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1530742/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": true,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "汇丰环球研究",
+      "targetPrice": 86.9,
+      "rating": "买入",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-04-27",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1520531/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": true,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "摩根大通",
+      "targetPrice": 63,
+      "rating": "中性",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-04-01",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1515418/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": true,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    },
+    {
+      "institution": "中银国际",
+      "targetPrice": 72,
+      "rating": "买入",
+      "targetHorizon": null,
+      "code": "02382.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": false,
+      "reportDate": "2026-04-02",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02382/AAFN/NOW.1515738/research-report",
+      "sourceType": "公开新闻正文转述，原始研报未取得",
+      "outside90Days": true,
+      "note": "同机构最新，旧美银60被69覆盖；大和正文明确12个月，其余期限未明；中银中资单列；超90天且H1前观点仅背景"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SUNNY-annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-04-24 17:44",
+      "afterClose": true,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033003334.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-03-30 22:22",
+      "afterClose": true,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100313.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-09-21 12:00",
+      "afterClose": false,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601115.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-08-26 19:00",
+      "afterClose": true,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200466.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-10-02 10:47",
+      "afterClose": false,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-goertek",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0625/2026062500752.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-06-25 17:08",
+      "afterClose": true,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-bond",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0707/2026070700990.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-07-07 17:25",
+      "afterClose": true,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-dividend",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0401/2026040100145.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-04-01 07:55",
+      "afterClose": false,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    },
+    {
+      "id": "SUNNY-investor",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/2026062400053.pdf",
+      "type": "HKEX公司原始文件",
+      "publicationDate": "2026-06-24 08:00",
+      "afterClose": false,
+      "note": "保留交易所首发时间，H1后债与增资有条件，不把期末财务当截止财务"
+    }
+  ],
+  "confidence": "中：财报和双源行情高，产品/客户与指引新闻中，远期毛利、增长、税与股数假设中低",
+  "notes": [
+    "不使用FY含换股EPS直接正常PE，审计静态PE仅交叉显示",
+    "手机汽车XR其他分部重列2024，旧光学部件/模组分部不能直接拼接",
+    "新债及歌尔增资在H1后/条件事件，不能伪造截止现金/净债",
+    "车载分拆、CPO与AR订单不额外重复估值，费用保留SBC和持续RD",
+    "机构最新大和12个月明确；其余最新期限不从旧目标继承；原件未取得"
+  ]
+}

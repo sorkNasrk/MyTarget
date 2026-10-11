@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+            <html lang="en"  xmlns="https://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        /* ����� */
+
+        .brdv {
+            width: 560px;
+            height: 120px;
+            padding-top: 105px;
+            background: url(/web/images/ie/img_browser.jpg) no-repeat -0px 0px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .browser_mask_backgroud {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            filter: alpha(opacity=50);
+            background-color: #000;
+            opacity: 0.5;
+            z-index: 10000;
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1000000;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask .mask_body {
+            z-index: 100000;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 660px;
+            height: 445px;
+            background: #fff;
+            margin-left: -328px;
+            margin-top: -223px;
+            border-radius: 3px;
+        }
+
+        .browser_mask .mask_body ul li {
+            list-style-type: none;
+            float: left;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .mt50 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .bxtt {
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            padding-left: 35px;
+            background: url(/web/images/ie/icon24.png) no-repeat 5px -503px;
+        }
+
+        .browser_mask .mask_body .fl {
+            width: 96px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .chrome {
+            margin-left: -5px;
+        }
+
+        .browser_mask .mask_body .fireBrowser {
+            margin-left: 64px;
+        }
+
+        .browser_mask .mask_body .SafariBrowser {
+            margin-left: 52px;
+        }
+
+        .browser_mask .mask_body .IEBrowser {
+            margin-left: 49px;
+        }
+
+        .browser_mask .mask_body .close_btn {
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #e16c04;
+            color: #fff;
+            width: 140px;
+            line-height: 40px;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .close_window {
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .close_btn .btn:hover {
+            background-color: #ef9902;
+        }
+
+        .browser_mask .mask_body .dwbt {
+            display: inline-block;
+            text-decoration: none;
+            width: 70px;
+            height: 18px;
+            line-height: 18px;
+            padding: 7px 0px 7px 30px;
+            background: #a09f9d url(/web/images/ie/icon24.png) no-repeat 5px -740px;
+            color: #fff;
+        }
+
+        .browser_mask .mask_body .mt15 {
+            margin-top: 15px;
+        }
+
+        .browser_mask .mask_body .act {
+            background-color: #1fa9df;
+        }
+
+        .browser_mask .mask_body .dwbt:hover {
+            background-color: #1fa9df;
+            text-decoration: none;
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .f14 {
+            font-size: 14px;
+        }
+
+        .browser_mask .mask_body .pr12 {
+            padding-right: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="browser_mask" id="browser_mask">
+        <div class="mask_body">
+            <p class="mt50"><strong class="bxtt">����ǰ������汾�ϵͣ��Ƽ��������������������ʹ�ñ���վ����</strong></p>
+            <ul class="brdv">
+                <li class="chrome">
+                    <p class="f14">�ȸ������</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl act" target="_blank" href="https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><em
+                              class="pr12 f14">��������</em></a></p>
+                </li>
+                <li class="fireBrowser">
+                    <p class="f14">��������</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.firefox.com.cn/download/"><em class="pr12 f14">��������</em></a></p>
+                </li>
+                <li class="SafariBrowser">
+                    <p class="f14">Safari�����</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.apple.com/cn/safari/"><em class="pr12 f14">��������</em></a></p>
+                </li>
+                <li class="IEBrowser">
+                    <p class="f14">IE11�����</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/"><em
+                              class="pr12 f14">��������</em></a></p>
+                </li>
+            </ul>
+            <p class="close_btn">
+                <a class="btn close_window" onclick="closeClick()">�رմ��� </a>
+            </p>
+        </div>
+    </div>
+    <div class="browser_mask_backgroud" id="browser_mask_backgroud"></div>
+</body>
+<script type="text/javascript">
+    //  �ж�IE9�����������
+    ;(function() {
+        if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE", "")) < 9) {
+            document.getElementById("browser_mask").style.display = "block";
+            document.getElementById("browser_mask_backgroud").style.display = "block";
+        }
+}());
+
+
+    function closeClick() {
+        document.getElementById("browser_mask").style.display = "none";
+        document.getElementById("browser_mask_backgroud").style.display = "none";
+    };
+</script>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Keywords" content="������,���Ͻ���,����,�Ż�" />
+<meta name="Description" content="����������������޹�˾��һ�Ҹ���㡢���ʻ������������Ļ���˾���ɶ���֤ȯ�ɷ����޹�˾���Ļ��������ϱ�ҵ���š��������ռ�������ʵ���ۺ�����׿Խ�ļ������Ϸ�����������˾�ܲ������Ϻ�½�������ó������" />
+<title>����������������޹�˾-�����ǻ� �����Ƹ���</title>
+<script type="text/javascript" src="/web/script/jquery-3.6.0.min.js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="/web/script/jquery-compat-3.0.0-alpha1.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/web/script/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/web/script/newsindex.js"></script>
+<script type="text/javascript" src="/web/script/util/articleUtil.js"></script>
+<script type="text/javascript" src="/web/script/util/syncReqJs.js"></script>
+</head>
+
+<body>
+
+
+<link rel="stylesheet" type="text/css" href="/web/css/404.css"/>
+<script type="text/javascript" src="/web/script/jquery.js"></script>
+<script type="text/javascript">
+    var time=5;
+    var url="${url}";
+	function GoTo(){ 
+		$('#time').html(time);
+		if(time--==0){
+			$('#time').html("0");
+			window.clearInterval(goToId);
+			window.top.location.href="/index.shtml"; 
+		}
+	} 
+
+	var goToId=window.setInterval("GoTo()",1000); 
+</script>
+
+</head>
+<body >
+<div id="vipLoginTop">
+		<div id="warpperVLT">
+				<div class="left"><a href="/"><img src="/web/images/common/logo.png" /></a></div>
+				<p class="right"><a href="/">��˾��ҳ</a> �� <a href="/cgi-bin/service/help">��������</a></p>
+		</div>
+</div>
+
+<!--vipLogin-->
+<div id="cLogin">
+			<div id="wrapperVipLogin" class="bg404">
+					<div id="Info404">
+							<h1 class="orange"><img src="/web/images/404/404icon.gif" width="20" height="18" />�ܱ�Ǹ�������ʵ�ҳ�治���ڣ�<span id="time">5</span>����Զ���ת��ҳ��</h1>
+							<dl>
+                       	    <dt>�볢�����²�����</dt>
+                                <dd>
+                                	<ol>
+                                    	<li>�������������ַ�Ƿ���ȷ��</li>
+                                        <li>��Ҳ����<a href="/main/home/suggestions/index.shtml">��˾���</a>��</li>
+                                        <li>�绹�����ʣ������<a href="/cgi-bin/service/help">��������</a>��ý���취��</li>
+                                    </ol>
+                                </dd>
+                            </dl>
+						</div>
+						
+						
+  </div>
+</div>
+
+
+<div id="vipLoginFoot">
+	<p class="pimg">
+	Copyright 2005-<script>document.write(new Date().getFullYear())</script> ��������������ɷ����޹�˾
+
+        <img src="/web/images/hga.png"/ style="width:16px;vertical-align: baseline;">
+	<a href="https://beian.mps.gov.cn/#/query/webSearch?code=31010102008204" rel="noreferrer" target="_blank">����������31010102008204��</a>
+	<a href="https://beian.miit.gov.cn" target="_blank">��ICP��05008079��-2</a>
+	����վ��֧��IPv6
+</p>
+</div>
+
+
+</body>
+</html>

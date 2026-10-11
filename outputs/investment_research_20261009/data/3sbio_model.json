@@ -1,0 +1,4158 @@
+{
+  "issuerId": "I023",
+  "securityId": "S028",
+  "name": "三生制药",
+  "code": "01530.HK",
+  "asOf": "2026-10-09",
+  "price": 15.07,
+  "currency": "HKD",
+  "priceHKD": 15.07,
+  "modelVersion": "3sbio-v1-core-plus-707-rnPV",
+  "method": "剔除707里程碑/非经营利息/公允汇兑后的产品经营EPSPE＋归母可用超额净现金＋707肺癌/其他适应症组及未收里程碑风险调整现金流；非完整逐适应症DCF",
+  "deepResearchFile": "research/I023_deep.md",
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "earningsYear": 2027,
+      "epsCNY": [
+        0.5,
+        0.7,
+        0.95
+      ],
+      "PE": [
+        11,
+        15,
+        19
+      ],
+      "coreProductRevenueCNYbn": [
+        7.1,
+        8.2,
+        9.3
+      ],
+      "dilutedSharesBn": [
+        2.6,
+        2.57,
+        2.55
+      ],
+      "coreNetProfitCNYbn": [
+        1.3,
+        1.7989999999999997,
+        2.4225
+      ],
+      "coreNetMargin": [
+        0.18309859154929578,
+        0.219390243902439,
+        0.2604838709677419
+      ],
+      "excessNetCashCNYbn": [
+        8,
+        11.8,
+        13.5
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCNYbn": 14.029675,
+        "currentFairValueFinancialAssetsCNYbn": 5.126837,
+        "currentPortfolioRecoveryAssumption": 0.9,
+        "bankDebtCNYbn": 1.320592,
+        "leasesCNYbn": 0.066566,
+        "financialLiabilityCNYbn": 0.361557,
+        "declaredPreBaselineDividendCNYbn": 0.549319,
+        "operatingReserveCNYbn": 3,
+        "groupToParentCashAttributionAssumption": 0.9,
+        "groupAvailableCNYbn": 13.345794299999994,
+        "initialParentExcessNetCashCNYbn": 12.011214869999995
+      },
+      "forecastCumulativeDividendCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -4.0112148699999945,
+        -0.21121486999999384,
+        1.4887851300000055
+      ],
+      "royaltyRNpv": [
+        {
+          "lungPV_CNYbn": 0.3507559895215317,
+          "otherPV_CNYbn": 0.05757207593817697,
+          "milestonePV_CNYbn": 0.2101722523131281,
+          "totalPV_CNYbn": 0.6185003177728368,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.12,
+            "postTaxAndServicingFactor": 0.75,
+            "parentEconomicShareAssumption": 0.85,
+            "discountRate": 0.16,
+            "lungSuccess": 0.12,
+            "otherSuccess": 0.06,
+            "lungPeakUSDbn": 3,
+            "otherPeakUSDbn": 1,
+            "firstSalesYear": 2030
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.1,
+              "successWeight": 0.35,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 2.001368925393566,
+              "netRiskAdjustedCNYbn": 0.1666,
+              "presentValueCNYbn": 0.12378578651246269,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.15,
+              "successWeight": 0.12,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "netRiskAdjustedCNYbn": 0.08567999999999999,
+              "presentValueCNYbn": 0.04732030126639908,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.25,
+              "successWeight": 0.08,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "netRiskAdjustedCNYbn": 0.09519999999999999,
+              "presentValueCNYbn": 0.03906616453426633,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "lungSalesUSDbn": 0.15000000000000002,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.009639,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.8106393599999995
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.999315537303217,
+              "lungSalesUSDbn": 0.44999999999999996,
+              "otherSalesUSDbn": 0.15,
+              "riskAdjustedLungCashCNYbn": 0.028916999999999995,
+              "riskAdjustedOtherCashCNYbn": 0.004819499999999999,
+              "discountFactor": 2.100128299019601
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.3,
+              "riskAdjustedLungCashCNYbn": 0.05783399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.009638999999999998,
+              "discountFactor": 2.436891390156734
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 7.000684462696783,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 0.5,
+              "riskAdjustedLungCashCNYbn": 0.09639,
+              "riskAdjustedOtherCashCNYbn": 0.016065,
+              "discountFactor": 2.8265068589392497
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 8,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 3.2784148919812077
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.999315537303216,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 3.8025749592547373
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 10.001368925393566,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 4.412331467062898
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 11.000684462696784,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 5.117784570105373
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 12,
+              "lungSalesUSDbn": 2.8499999999999996,
+              "otherSalesUSDbn": 0.95,
+              "riskAdjustedLungCashCNYbn": 0.18314099999999997,
+              "riskAdjustedOtherCashCNYbn": 0.0305235,
+              "discountFactor": 5.936027041831322
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.999315537303216,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 6.885091890577021
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 14.001368925393566,
+              "lungSalesUSDbn": 2.46,
+              "otherSalesUSDbn": 0.82,
+              "riskAdjustedLungCashCNYbn": 0.1580796,
+              "riskAdjustedOtherCashCNYbn": 0.026346599999999994,
+              "discountFactor": 7.989141023630625
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 15.000684462696784,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 9.266462178633464
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 16,
+              "lungSalesUSDbn": 1.6500000000000001,
+              "otherSalesUSDbn": 0.55,
+              "riskAdjustedLungCashCNYbn": 0.106029,
+              "riskAdjustedOtherCashCNYbn": 0.017671500000000003,
+              "discountFactor": 10.748004203964154
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.999315537303218,
+              "lungSalesUSDbn": 1.0499999999999998,
+              "otherSalesUSDbn": 0.35,
+              "riskAdjustedLungCashCNYbn": 0.06747299999999998,
+              "riskAdjustedOtherCashCNYbn": 0.011245499999999999,
+              "discountFactor": 12.466418374295568
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 4.186758934469649,
+          "otherPV_CNYbn": 1.1808927021513347,
+          "milestonePV_CNYbn": 1.4985950731314839,
+          "totalPV_CNYbn": 6.866246709752468,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.15,
+            "postTaxAndServicingFactor": 0.78,
+            "parentEconomicShareAssumption": 0.9,
+            "discountRate": 0.13,
+            "lungSuccess": 0.35,
+            "otherSuccess": 0.2,
+            "lungPeakUSDbn": 6,
+            "otherPeakUSDbn": 3,
+            "firstSalesYear": 2029
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.2,
+              "successWeight": 0.6,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 2.001368925393566,
+              "netRiskAdjustedCNYbn": 0.6048,
+              "presentValueCNYbn": 0.4735678763402398,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.5,
+              "successWeight": 0.35,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "netRiskAdjustedCNYbn": 0.882,
+              "presentValueCNYbn": 0.5409471178132103,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.8,
+              "successWeight": 0.25,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "netRiskAdjustedCNYbn": 1.0080000000000002,
+              "presentValueCNYbn": 0.4840800789780339,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 3.0006844626967832,
+              "lungSalesUSDbn": 0.30000000000000004,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.0773955,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.443017708303794
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.44999999999999996,
+              "riskAdjustedLungCashCNYbn": 0.23218649999999996,
+              "riskAdjustedOtherCashCNYbn": 0.066339,
+              "discountFactor": 1.6304736099999995
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.999315537303217,
+              "lungSalesUSDbn": 1.7999999999999998,
+              "otherSalesUSDbn": 0.8999999999999999,
+              "riskAdjustedLungCashCNYbn": 0.4643729999999999,
+              "riskAdjustedOtherCashCNYbn": 0.132678,
+              "discountFactor": 1.8422810597600485
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1.5,
+              "riskAdjustedLungCashCNYbn": 0.773955,
+              "riskAdjustedOtherCashCNYbn": 0.22113000000000002,
+              "discountFactor": 2.0823001064783337
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 7.000684462696783,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 2.352802292152013
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 8,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 2.65844419290643
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.999315537303216,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 3.0037906501415907
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 10.001368925393566,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 3.395135371713111
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 11.000684462696784,
+              "lungSalesUSDbn": 5.699999999999999,
+              "otherSalesUSDbn": 2.8499999999999996,
+              "riskAdjustedLungCashCNYbn": 1.4705144999999997,
+              "riskAdjustedOtherCashCNYbn": 0.420147,
+              "discountFactor": 3.8361820469013663
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 12,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 4.3345231001916815
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.999315537303216,
+              "lungSalesUSDbn": 4.92,
+              "otherSalesUSDbn": 2.46,
+              "riskAdjustedLungCashCNYbn": 1.2692861999999998,
+              "riskAdjustedOtherCashCNYbn": 0.3626532,
+              "discountFactor": 4.897601385020605
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 14.001368925393566,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 5.535678625955766
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 15.000684462696784,
+              "lungSalesUSDbn": 3.3000000000000003,
+              "otherSalesUSDbn": 1.6500000000000001,
+              "riskAdjustedLungCashCNYbn": 0.8513505,
+              "riskAdjustedOtherCashCNYbn": 0.24324300000000001,
+              "discountFactor": 6.2547935906284575
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 16,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 1.0499999999999998,
+              "riskAdjustedLungCashCNYbn": 0.5417684999999999,
+              "riskAdjustedOtherCashCNYbn": 0.15479099999999998,
+              "discountFactor": 7.06732552679792
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.999315537303218,
+              "lungSalesUSDbn": 1.2000000000000002,
+              "otherSalesUSDbn": 0.6000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.309582,
+              "riskAdjustedOtherCashCNYbn": 0.08845200000000002,
+              "discountFactor": 7.985409810575543
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 22.20380906436489,
+          "otherPV_CNYbn": 11.819904930529123,
+          "milestonePV_CNYbn": 5.680677287560846,
+          "totalPV_CNYbn": 39.70439128245486,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.18,
+            "postTaxAndServicingFactor": 0.8,
+            "parentEconomicShareAssumption": 0.95,
+            "discountRate": 0.11,
+            "lungSuccess": 0.65,
+            "otherSuccess": 0.5,
+            "lungPeakUSDbn": 10,
+            "otherPeakUSDbn": 7,
+            "firstSalesYear": 2028
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.35,
+              "successWeight": 0.85,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 2.001368925393566,
+              "netRiskAdjustedCNYbn": 1.5826999999999998,
+              "presentValueCNYbn": 1.2843713253198907,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.9,
+              "successWeight": 0.65,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "netRiskAdjustedCNYbn": 3.1122000000000005,
+              "presentValueCNYbn": 2.0501025377340696,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 1.5,
+              "successWeight": 0.55,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "netRiskAdjustedCNYbn": 4.389000000000001,
+              "presentValueCNYbn": 2.3462034245068852,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 2.001368925393566,
+              "lungSalesUSDbn": 0.5,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.31121999999999994,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.2322760317043095
+            },
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 3.0006844626967832,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 1.05,
+              "riskAdjustedLungCashCNYbn": 0.9336599999999998,
+              "riskAdjustedOtherCashCNYbn": 0.5027399999999999,
+              "discountFactor": 1.3677286941065963
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 4,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 2.1,
+              "riskAdjustedLungCashCNYbn": 1.8673199999999996,
+              "riskAdjustedOtherCashCNYbn": 1.0054799999999997,
+              "discountFactor": 1.5180704100000004
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.999315537303217,
+              "lungSalesUSDbn": 5,
+              "otherSalesUSDbn": 3.5,
+              "riskAdjustedLungCashCNYbn": 3.112199999999999,
+              "riskAdjustedOtherCashCNYbn": 1.6757999999999997,
+              "discountFactor": 1.684937794788973
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 6.0013689253935665,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 1.8706817806825349
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 7.000684462696783,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 2.0763084594311656
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 8,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.3045377697175695
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.999315537303216,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.5578542089597924
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 10.001368925393566,
+              "lungSalesUSDbn": 9.5,
+              "otherSalesUSDbn": 6.6499999999999995,
+              "riskAdjustedLungCashCNYbn": 5.913179999999999,
+              "riskAdjustedOtherCashCNYbn": 3.184019999999999,
+              "discountFactor": 2.8398266577802667
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 11.000684462696784,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 3.1519824342951392
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 12,
+              "lungSalesUSDbn": 8.2,
+              "otherSalesUSDbn": 5.739999999999999,
+              "riskAdjustedLungCashCNYbn": 5.1040079999999985,
+              "riskAdjustedOtherCashCNYbn": 2.748311999999999,
+              "discountFactor": 3.498450596935638
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.999315537303216,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 3.8830027877158195
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 14.001368925393566,
+              "lungSalesUSDbn": 5.5,
+              "otherSalesUSDbn": 3.8500000000000005,
+              "riskAdjustedLungCashCNYbn": 3.4234199999999997,
+              "riskAdjustedOtherCashCNYbn": 1.8433799999999998,
+              "discountFactor": 4.311056818705421
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 15.000684462696784,
+              "lungSalesUSDbn": 3.5,
+              "otherSalesUSDbn": 2.4499999999999997,
+              "riskAdjustedLungCashCNYbn": 2.17854,
+              "riskAdjustedOtherCashCNYbn": 1.1730599999999995,
+              "discountFactor": 4.784931266343222
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 16,
+              "lungSalesUSDbn": 2,
+              "otherSalesUSDbn": 1.4000000000000001,
+              "riskAdjustedLungCashCNYbn": 1.2448799999999998,
+              "riskAdjustedOtherCashCNYbn": 0.6703199999999999,
+              "discountFactor": 5.31089433205483
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.999315537303218,
+              "lungSalesUSDbn": 1,
+              "otherSalesUSDbn": 0.7000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.6224399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.33515999999999996,
+              "discountFactor": 5.8946716339789
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        }
+      ],
+      "priceHKD": [
+        9.696288595980816,
+        19.53944411701468,
+        42.805913886549156
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "医保集采持续抑制核心销售，707试验/估值承压",
+        "产品降幅收窄与新药准入推进，707全球计划正常，尚无确证性成功",
+        "新药医保和核心销量明显改善、707临床推进加强市场预期"
+      ],
+      "expectedPriceHKD": 22.895272679139833
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "earningsYear": 2027,
+      "epsCNY": [
+        0.5,
+        0.7,
+        0.95
+      ],
+      "PE": [
+        12,
+        16,
+        20
+      ],
+      "coreProductRevenueCNYbn": [
+        7.1,
+        8.2,
+        9.3
+      ],
+      "dilutedSharesBn": [
+        2.6,
+        2.57,
+        2.55
+      ],
+      "coreNetProfitCNYbn": [
+        1.3,
+        1.7989999999999997,
+        2.4225
+      ],
+      "coreNetMargin": [
+        0.18309859154929578,
+        0.219390243902439,
+        0.2604838709677419
+      ],
+      "excessNetCashCNYbn": [
+        7.8,
+        12,
+        13.8
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCNYbn": 14.029675,
+        "currentFairValueFinancialAssetsCNYbn": 5.126837,
+        "currentPortfolioRecoveryAssumption": 0.9,
+        "bankDebtCNYbn": 1.320592,
+        "leasesCNYbn": 0.066566,
+        "financialLiabilityCNYbn": 0.361557,
+        "declaredPreBaselineDividendCNYbn": 0.549319,
+        "operatingReserveCNYbn": 3,
+        "groupToParentCashAttributionAssumption": 0.9,
+        "groupAvailableCNYbn": 13.345794299999994,
+        "initialParentExcessNetCashCNYbn": 12.011214869999995
+      },
+      "forecastCumulativeDividendCNYbn": [
+        0,
+        0,
+        0
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -4.211214869999995,
+        -0.011214869999994548,
+        1.7887851300000062
+      ],
+      "royaltyRNpv": [
+        {
+          "lungPV_CNYbn": 0.3651541620228706,
+          "otherPV_CNYbn": 0.05993535042352161,
+          "milestonePV_CNYbn": 0.21879960703892262,
+          "totalPV_CNYbn": 0.6438891194853148,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.12,
+            "postTaxAndServicingFactor": 0.75,
+            "parentEconomicShareAssumption": 0.85,
+            "discountRate": 0.16,
+            "lungSuccess": 0.12,
+            "otherSuccess": 0.06,
+            "lungPeakUSDbn": 3,
+            "otherPeakUSDbn": 1,
+            "firstSalesYear": 2030
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.1,
+              "successWeight": 0.35,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.730321697467488,
+              "netRiskAdjustedCNYbn": 0.1666,
+              "presentValueCNYbn": 0.12886706569418546,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.15,
+              "successWeight": 0.12,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "netRiskAdjustedCNYbn": 0.08567999999999999,
+              "presentValueCNYbn": 0.04926275094880746,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.25,
+              "successWeight": 0.08,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "netRiskAdjustedCNYbn": 0.09519999999999999,
+              "presentValueCNYbn": 0.040669790395929696,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "lungSalesUSDbn": 0.15000000000000002,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.009639,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.739245136534019
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.728268309377139,
+              "lungSalesUSDbn": 0.44999999999999996,
+              "otherSalesUSDbn": 0.15,
+              "riskAdjustedLungCashCNYbn": 0.028916999999999995,
+              "riskAdjustedOtherCashCNYbn": 0.004819499999999999,
+              "discountFactor": 2.0173194126119647
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.3,
+              "riskAdjustedLungCashCNYbn": 0.05783399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.009638999999999998,
+              "discountFactor": 2.340803802360579
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.729637234770705,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 0.5,
+              "riskAdjustedLungCashCNYbn": 0.09639,
+              "riskAdjustedOtherCashCNYbn": 0.016065,
+              "discountFactor": 2.7150565796769923
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.728952772073922,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 3.149145700897068
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.728268309377139,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 3.6526379301673026
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.730321697467488,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 4.238351498591724
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.729637234770705,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 4.915988307790136
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.728952772073923,
+              "lungSalesUSDbn": 2.8499999999999996,
+              "otherSalesUSDbn": 0.95,
+              "riskAdjustedLungCashCNYbn": 0.18314099999999997,
+              "riskAdjustedOtherCashCNYbn": 0.0305235,
+              "discountFactor": 5.701967156419017
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.728268309377139,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 6.613610004189847
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.730321697467488,
+              "lungSalesUSDbn": 2.46,
+              "otherSalesUSDbn": 0.82,
+              "riskAdjustedLungCashCNYbn": 0.1580796,
+              "riskAdjustedOtherCashCNYbn": 0.026346599999999994,
+              "discountFactor": 7.674126044865159
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.729637234770705,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 8.901081923384613
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.728952772073923,
+              "lungSalesUSDbn": 1.6500000000000001,
+              "otherSalesUSDbn": 0.55,
+              "riskAdjustedLungCashCNYbn": 0.106029,
+              "riskAdjustedOtherCashCNYbn": 0.017671500000000003,
+              "discountFactor": 10.324206162839547
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.72826830937714,
+              "lungSalesUSDbn": 1.0499999999999998,
+              "otherSalesUSDbn": 0.35,
+              "riskAdjustedLungCashCNYbn": 0.06747299999999998,
+              "riskAdjustedOtherCashCNYbn": 0.011245499999999999,
+              "discountFactor": 11.974862585275899
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 4.327775467567901,
+          "otherPV_CNYbn": 1.220666999507555,
+          "milestonePV_CNYbn": 1.5490700789865546,
+          "totalPV_CNYbn": 7.09751254606201,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.15,
+            "postTaxAndServicingFactor": 0.78,
+            "parentEconomicShareAssumption": 0.9,
+            "discountRate": 0.13,
+            "lungSuccess": 0.35,
+            "otherSuccess": 0.2,
+            "lungPeakUSDbn": 6,
+            "otherPeakUSDbn": 3,
+            "firstSalesYear": 2029
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.2,
+              "successWeight": 0.6,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.730321697467488,
+              "netRiskAdjustedCNYbn": 0.6048,
+              "presentValueCNYbn": 0.48951837675200083,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.5,
+              "successWeight": 0.35,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "netRiskAdjustedCNYbn": 0.882,
+              "presentValueCNYbn": 0.5591670555592018,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.8,
+              "successWeight": 0.25,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "netRiskAdjustedCNYbn": 1.0080000000000002,
+              "presentValueCNYbn": 0.5003846466753518,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 2.729637234770705,
+              "lungSalesUSDbn": 0.30000000000000004,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.0773955,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.3959983201794972
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.44999999999999996,
+              "riskAdjustedLungCashCNYbn": 0.23218649999999996,
+              "riskAdjustedOtherCashCNYbn": 0.066339,
+              "discountFactor": 1.577346145899002
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.728268309377139,
+              "lungSalesUSDbn": 1.7999999999999998,
+              "otherSalesUSDbn": 0.8999999999999999,
+              "riskAdjustedLungCashCNYbn": 0.4643729999999999,
+              "riskAdjustedOtherCashCNYbn": 0.132678,
+              "discountFactor": 1.782252047167597
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1.5,
+              "riskAdjustedLungCashCNYbn": 0.773955,
+              "riskAdjustedOtherCashCNYbn": 0.22113000000000002,
+              "discountFactor": 2.014450296781364
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.729637234770705,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 2.276138420657
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.728952772073922,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 2.5718212647235315
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.728268309377139,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 2.9059149292752413
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.730321697467488,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 3.2845080475586808
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.729637234770705,
+              "lungSalesUSDbn": 5.699999999999999,
+              "otherSalesUSDbn": 2.8499999999999996,
+              "riskAdjustedLungCashCNYbn": 1.4705144999999997,
+              "riskAdjustedOtherCashCNYbn": 0.420147,
+              "discountFactor": 3.711183627588315
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.728952772073923,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 4.193286701768541
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.728268309377139,
+              "lungSalesUSDbn": 4.92,
+              "otherSalesUSDbn": 2.46,
+              "riskAdjustedLungCashCNYbn": 1.2692861999999998,
+              "riskAdjustedOtherCashCNYbn": 0.3626532,
+              "discountFactor": 4.738017605088295
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.730321697467488,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 5.355303693377052
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.729637234770705,
+              "lungSalesUSDbn": 3.3000000000000003,
+              "otherSalesUSDbn": 1.6500000000000001,
+              "riskAdjustedLungCashCNYbn": 0.8513505,
+              "riskAdjustedOtherCashCNYbn": 0.24324300000000001,
+              "discountFactor": 6.050986966646814
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.728952772073923,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 1.0499999999999998,
+              "riskAdjustedLungCashCNYbn": 0.5417684999999999,
+              "riskAdjustedOtherCashCNYbn": 0.15479099999999998,
+              "discountFactor": 6.837043306397543
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.72826830937714,
+              "lungSalesUSDbn": 1.2000000000000002,
+              "otherSalesUSDbn": 0.6000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.309582,
+              "riskAdjustedOtherCashCNYbn": 0.08845200000000002,
+              "discountFactor": 7.7252126688118645
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 22.84084422101722,
+          "otherPV_CNYbn": 12.159022194923176,
+          "milestonePV_CNYbn": 5.8436579335969565,
+          "totalPV_CNYbn": 40.843524349537354,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.18,
+            "postTaxAndServicingFactor": 0.8,
+            "parentEconomicShareAssumption": 0.95,
+            "discountRate": 0.11,
+            "lungSuccess": 0.65,
+            "otherSuccess": 0.5,
+            "lungPeakUSDbn": 10,
+            "otherPeakUSDbn": 7,
+            "firstSalesYear": 2028
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.35,
+              "successWeight": 0.85,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.730321697467488,
+              "netRiskAdjustedCNYbn": 1.5826999999999998,
+              "presentValueCNYbn": 1.321220394146466,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.9,
+              "successWeight": 0.65,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "netRiskAdjustedCNYbn": 3.1122000000000005,
+              "presentValueCNYbn": 2.1089207066118933,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 1.5,
+              "successWeight": 0.55,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "netRiskAdjustedCNYbn": 4.389000000000001,
+              "presentValueCNYbn": 2.4135168328385976,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.730321697467488,
+              "lungSalesUSDbn": 0.5,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.31121999999999994,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.1979076367667294
+            },
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 2.729637234770705,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 1.05,
+              "riskAdjustedLungCashCNYbn": 0.9336599999999998,
+              "riskAdjustedOtherCashCNYbn": 0.5027399999999999,
+              "discountFactor": 1.3295825006263062
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.728952772073922,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 2.1,
+              "riskAdjustedLungCashCNYbn": 1.8673199999999996,
+              "riskAdjustedOtherCashCNYbn": 1.0054799999999997,
+              "discountFactor": 1.4757311596603058
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.728268309377139,
+              "lungSalesUSDbn": 5,
+              "otherSalesUSDbn": 3.5,
+              "riskAdjustedLungCashCNYbn": 3.112199999999999,
+              "riskAdjustedOtherCashCNYbn": 1.6757999999999997,
+              "discountFactor": 1.637944583782124
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.730321697467488,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 1.8185081372886005
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.729637234770705,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 2.018399851854603
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.728952772073922,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.2402638065952964
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.728268309377139,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.4865152058594093
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.730321697467488,
+              "lungSalesUSDbn": 9.5,
+              "otherSalesUSDbn": 6.6499999999999995,
+              "riskAdjustedLungCashCNYbn": 5.913179999999999,
+              "riskAdjustedOtherCashCNYbn": 3.184019999999999,
+              "discountFactor": 2.7606233935620432
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.729637234770705,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 3.064073090648857
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.728952772073923,
+              "lungSalesUSDbn": 8.2,
+              "otherSalesUSDbn": 5.739999999999999,
+              "riskAdjustedLungCashCNYbn": 5.1040079999999985,
+              "riskAdjustedOtherCashCNYbn": 2.748311999999999,
+              "discountFactor": 3.400878195386284
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.728268309377139,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 3.774705158030229
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.730321697467488,
+              "lungSalesUSDbn": 5.5,
+              "otherSalesUSDbn": 3.8500000000000005,
+              "riskAdjustedLungCashCNYbn": 3.4234199999999997,
+              "riskAdjustedOtherCashCNYbn": 1.8433799999999998,
+              "discountFactor": 4.190820686920324
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.729637234770705,
+              "lungSalesUSDbn": 3.5,
+              "otherSalesUSDbn": 2.4499999999999997,
+              "riskAdjustedLungCashCNYbn": 2.17854,
+              "riskAdjustedOtherCashCNYbn": 1.1730599999999995,
+              "discountFactor": 4.6514786929912795
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.728952772073923,
+              "lungSalesUSDbn": 2,
+              "otherSalesUSDbn": 1.4000000000000001,
+              "riskAdjustedLungCashCNYbn": 1.2448799999999998,
+              "riskAdjustedOtherCashCNYbn": 0.6703199999999999,
+              "discountFactor": 5.162772556430118
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.72826830937714,
+              "lungSalesUSDbn": 1,
+              "otherSalesUSDbn": 0.7000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.6224399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.33515999999999996,
+              "discountFactor": 5.7302682068800666
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        }
+      ],
+      "priceHKD": [
+        10.172414627474556,
+        20.494032607263897,
+        44.471716386074945
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "年报剔除授权后仍弱、下降量价结构延续",
+        "新药准入和产品恢复得到年报验证、底部形成需独立确认",
+        "产品增长恢复、707积极研究推进、技术站回60/120日线"
+      ],
+      "expectedPriceHKD": 23.908049057019323
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "earningsYear": 2028,
+      "epsCNY": [
+        0.56,
+        0.88,
+        1.22
+      ],
+      "PE": [
+        11,
+        17,
+        22
+      ],
+      "coreProductRevenueCNYbn": [
+        7.5,
+        9.6,
+        11.5
+      ],
+      "dilutedSharesBn": [
+        2.65,
+        2.6,
+        2.57
+      ],
+      "coreNetProfitCNYbn": [
+        1.484,
+        2.2880000000000003,
+        3.1353999999999997
+      ],
+      "coreNetMargin": [
+        0.19786666666666666,
+        0.23833333333333337,
+        0.27264347826086954
+      ],
+      "excessNetCashCNYbn": [
+        7.5,
+        12.8,
+        15
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCNYbn": 14.029675,
+        "currentFairValueFinancialAssetsCNYbn": 5.126837,
+        "currentPortfolioRecoveryAssumption": 0.9,
+        "bankDebtCNYbn": 1.320592,
+        "leasesCNYbn": 0.066566,
+        "financialLiabilityCNYbn": 0.361557,
+        "declaredPreBaselineDividendCNYbn": 0.549319,
+        "operatingReserveCNYbn": 3,
+        "groupToParentCashAttributionAssumption": 0.9,
+        "groupAvailableCNYbn": 13.345794299999994,
+        "initialParentExcessNetCashCNYbn": 12.011214869999995
+      },
+      "forecastCumulativeDividendCNYbn": [
+        0.36136363636363633,
+        0.5909090909090909,
+        0.8177272727272725
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -4.149851233636358,
+        1.379694220909097,
+        3.806512402727278
+      ],
+      "royaltyRNpv": [
+        {
+          "lungPV_CNYbn": 0.39334300230230285,
+          "otherPV_CNYbn": 0.06456218532202303,
+          "milestonePV_CNYbn": 0.23569030093613863,
+          "totalPV_CNYbn": 0.6935954885604645,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.12,
+            "postTaxAndServicingFactor": 0.75,
+            "parentEconomicShareAssumption": 0.85,
+            "discountRate": 0.16,
+            "lungSuccess": 0.12,
+            "otherSuccess": 0.06,
+            "lungPeakUSDbn": 3,
+            "otherPeakUSDbn": 1,
+            "firstSalesYear": 2030
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.1,
+              "successWeight": 0.35,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 0.1666,
+              "presentValueCNYbn": 0.1388152287166433,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.15,
+              "successWeight": 0.12,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 0.08567999999999999,
+              "presentValueCNYbn": 0.05306569217924154,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.25,
+              "successWeight": 0.08,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "netRiskAdjustedCNYbn": 0.09519999999999999,
+              "presentValueCNYbn": 0.043809380040253795,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 0.15000000000000002,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.009639,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.6146025140046445
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 0.44999999999999996,
+              "otherSalesUSDbn": 0.15,
+              "riskAdjustedLungCashCNYbn": 0.028916999999999995,
+              "riskAdjustedOtherCashCNYbn": 0.004819499999999999,
+              "discountFactor": 1.872748657871519
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.3,
+              "riskAdjustedLungCashCNYbn": 0.05783399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.009638999999999998,
+              "discountFactor": 2.173050609539018
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 0.5,
+              "riskAdjustedLungCashCNYbn": 0.09639,
+              "riskAdjustedOtherCashCNYbn": 0.016065,
+              "discountFactor": 2.520482643376694
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 2.9234628626117596
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 3.390872431329345
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 3.934610964903336
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 4.563685080294683
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 2.8499999999999996,
+              "otherSalesUSDbn": 0.95,
+              "riskAdjustedLungCashCNYbn": 0.18314099999999997,
+              "riskAdjustedOtherCashCNYbn": 0.0305235,
+              "discountFactor": 5.293336926543123
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 6.139647088903808
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.229295003422314,
+              "lungSalesUSDbn": 2.46,
+              "otherSalesUSDbn": 0.82,
+              "riskAdjustedLungCashCNYbn": 0.1580796,
+              "riskAdjustedOtherCashCNYbn": 0.026346599999999994,
+              "discountFactor": 7.124161479341557
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.22861054072553,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 8.263187833026313
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.227926078028748,
+              "lungSalesUSDbn": 1.6500000000000001,
+              "otherSalesUSDbn": 0.55,
+              "riskAdjustedLungCashCNYbn": 0.106029,
+              "riskAdjustedOtherCashCNYbn": 0.017671500000000003,
+              "discountFactor": 9.584324184940405
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.227241615331966,
+              "lungSalesUSDbn": 1.0499999999999998,
+              "otherSalesUSDbn": 0.35,
+              "riskAdjustedLungCashCNYbn": 0.06747299999999998,
+              "riskAdjustedOtherCashCNYbn": 0.011245499999999999,
+              "discountFactor": 11.116686675678654
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 4.601065732541911,
+          "otherPV_CNYbn": 1.2977496509159754,
+          "milestonePV_CNYbn": 1.6468907204505288,
+          "totalPV_CNYbn": 7.545706103908415,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.15,
+            "postTaxAndServicingFactor": 0.78,
+            "parentEconomicShareAssumption": 0.9,
+            "discountRate": 0.13,
+            "lungSuccess": 0.35,
+            "otherSuccess": 0.2,
+            "lungPeakUSDbn": 6,
+            "otherPeakUSDbn": 3,
+            "firstSalesYear": 2029
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.2,
+              "successWeight": 0.6,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 0.6048,
+              "presentValueCNYbn": 0.5204304718675504,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.5,
+              "successWeight": 0.35,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 0.882,
+              "presentValueCNYbn": 0.5944773238306721,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.8,
+              "successWeight": 0.25,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "netRiskAdjustedCNYbn": 1.0080000000000002,
+              "presentValueCNYbn": 0.5319829247523062,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 2.2286105407255303,
+              "lungSalesUSDbn": 0.30000000000000004,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.0773955,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.3130799762560872
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.44999999999999996,
+              "riskAdjustedLungCashCNYbn": 0.23218649999999996,
+              "riskAdjustedOtherCashCNYbn": 0.066339,
+              "discountFactor": 1.4836562550722698
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 1.7999999999999998,
+              "otherSalesUSDbn": 0.8999999999999999,
+              "riskAdjustedLungCashCNYbn": 0.4643729999999999,
+              "riskAdjustedOtherCashCNYbn": 0.132678,
+              "discountFactor": 1.6763913265141206
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1.5,
+              "riskAdjustedLungCashCNYbn": 0.773955,
+              "riskAdjustedOtherCashCNYbn": 0.22113000000000002,
+              "discountFactor": 1.8947976581566592
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 2.140942249104976
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 2.4190623702067633
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 2.7333118179141658
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 3.089417577914233
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 5.699999999999999,
+              "otherSalesUSDbn": 2.8499999999999996,
+              "riskAdjustedLungCashCNYbn": 1.4705144999999997,
+              "riskAdjustedOtherCashCNYbn": 0.420147,
+              "discountFactor": 3.490749837699708
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 3.944217355566177
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 4.92,
+              "otherSalesUSDbn": 2.46,
+              "riskAdjustedLungCashCNYbn": 1.2692861999999998,
+              "riskAdjustedOtherCashCNYbn": 0.3626532,
+              "discountFactor": 4.4565927870101705
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.229295003422314,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 5.037213831059273
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.22861054072553,
+              "lungSalesUSDbn": 3.3000000000000003,
+              "otherSalesUSDbn": 1.6500000000000001,
+              "riskAdjustedLungCashCNYbn": 0.8513505,
+              "riskAdjustedOtherCashCNYbn": 0.24324300000000001,
+              "discountFactor": 5.6915754894811545
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.227926078028748,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 1.0499999999999998,
+              "riskAdjustedLungCashCNYbn": 0.5417684999999999,
+              "riskAdjustedOtherCashCNYbn": 0.15479099999999998,
+              "discountFactor": 6.430942310354635
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.227241615331966,
+              "lungSalesUSDbn": 1.2000000000000002,
+              "otherSalesUSDbn": 0.6000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.309582,
+              "riskAdjustedOtherCashCNYbn": 0.08845200000000002,
+              "discountFactor": 7.266356929736433
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 24.06690114293452,
+          "otherPV_CNYbn": 12.811697428009097,
+          "milestonePV_CNYbn": 6.157335361168171,
+          "totalPV_CNYbn": 43.03593393211179,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.18,
+            "postTaxAndServicingFactor": 0.8,
+            "parentEconomicShareAssumption": 0.95,
+            "discountRate": 0.11,
+            "lungSuccess": 0.65,
+            "otherSuccess": 0.5,
+            "lungPeakUSDbn": 10,
+            "otherPeakUSDbn": 7,
+            "firstSalesYear": 2028
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.35,
+              "successWeight": 0.85,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 1.5826999999999998,
+              "presentValueCNYbn": 1.3921412144956116,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.9,
+              "successWeight": 0.65,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 3.1122000000000005,
+              "presentValueCNYbn": 2.2221239142121196,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 1.5,
+              "successWeight": 0.55,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "netRiskAdjustedCNYbn": 4.389000000000001,
+              "presentValueCNYbn": 2.54307023246044,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2028-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "lungSalesUSDbn": 0.5,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.31121999999999994,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.1368817929676982
+            },
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 2.2286105407255303,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 1.05,
+              "riskAdjustedLungCashCNYbn": 0.9336599999999998,
+              "riskAdjustedOtherCashCNYbn": 0.5027399999999999,
+              "discountFactor": 1.2618486524473698
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 2.1,
+              "riskAdjustedLungCashCNYbn": 1.8673199999999996,
+              "riskAdjustedOtherCashCNYbn": 1.0054799999999997,
+              "discountFactor": 1.4005519584642372
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 5,
+              "otherSalesUSDbn": 3.5,
+              "riskAdjustedLungCashCNYbn": 3.112199999999999,
+              "riskAdjustedOtherCashCNYbn": 1.6757999999999997,
+              "discountFactor": 1.5545016310423363
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 1.7258666095720092
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 1.915575101178727
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.126136485812108
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 2.359842928382109
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 9.5,
+              "otherSalesUSDbn": 6.6499999999999995,
+              "riskAdjustedLungCashCNYbn": 5.913179999999999,
+              "riskAdjustedOtherCashCNYbn": 3.184019999999999,
+              "discountFactor": 2.619987031598291
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 2.9079778792321824
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 8.2,
+              "otherSalesUSDbn": 5.739999999999999,
+              "riskAdjustedLungCashCNYbn": 5.1040079999999985,
+              "riskAdjustedOtherCashCNYbn": 2.748311999999999,
+              "discountFactor": 3.2276248867327477
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 3.58240772182463
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 13.229295003422314,
+              "lungSalesUSDbn": 5.5,
+              "otherSalesUSDbn": 3.8500000000000005,
+              "riskAdjustedLungCashCNYbn": 3.4234199999999997,
+              "riskAdjustedOtherCashCNYbn": 1.8433799999999998,
+              "discountFactor": 3.977324787253102
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 14.22861054072553,
+              "lungSalesUSDbn": 3.5,
+              "otherSalesUSDbn": 2.4499999999999997,
+              "riskAdjustedLungCashCNYbn": 2.17854,
+              "riskAdjustedOtherCashCNYbn": 1.1730599999999995,
+              "discountFactor": 4.414515171396931
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 15.227926078028748,
+              "lungSalesUSDbn": 2,
+              "otherSalesUSDbn": 1.4000000000000001,
+              "riskAdjustedLungCashCNYbn": 1.2448799999999998,
+              "riskAdjustedOtherCashCNYbn": 0.6703199999999999,
+              "discountFactor": 4.899761835128587
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 16.227241615331966,
+              "lungSalesUSDbn": 1,
+              "otherSalesUSDbn": 0.7000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.6224399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.33515999999999996,
+              "discountFactor": 5.438347159057485
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        }
+      ],
+      "priceHKD": [
+        10.177115108459063,
+        25.063798736268946,
+        54.36428300596226
+      ],
+      "cumulativeCashDividendHKD": [
+        0.15,
+        0.25,
+        0.35
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "新产品未抵消成熟品种降价，临床权益折价",
+        "新上市自免/长效EPO爬坡、产品增长恢复，海外进展无重大恶化",
+        "新药销售与全球开发显著好于基准、资本效率提高"
+      ],
+      "expectedPriceHKD": 28.667248896739803
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "earningsYear": 2029,
+      "epsCNY": [
+        0.65,
+        1.12,
+        1.65
+      ],
+      "PE": [
+        10,
+        18,
+        24
+      ],
+      "coreProductRevenueCNYbn": [
+        8.1,
+        11.5,
+        15
+      ],
+      "dilutedSharesBn": [
+        2.75,
+        2.66,
+        2.62
+      ],
+      "coreNetProfitCNYbn": [
+        1.7875,
+        2.9792000000000005,
+        4.3229999999999995
+      ],
+      "coreNetMargin": [
+        0.22067901234567902,
+        0.25906086956521746,
+        0.28819999999999996
+      ],
+      "excessNetCashCNYbn": [
+        6,
+        13.5,
+        17
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCNYbn": 14.029675,
+        "currentFairValueFinancialAssetsCNYbn": 5.126837,
+        "currentPortfolioRecoveryAssumption": 0.9,
+        "bankDebtCNYbn": 1.320592,
+        "leasesCNYbn": 0.066566,
+        "financialLiabilityCNYbn": 0.361557,
+        "declaredPreBaselineDividendCNYbn": 0.549319,
+        "operatingReserveCNYbn": 3,
+        "groupToParentCashAttributionAssumption": 0.9,
+        "groupAvailableCNYbn": 13.345794299999994,
+        "initialParentExcessNetCashCNYbn": 12.011214869999995
+      },
+      "forecastCumulativeDividendCNYbn": [
+        1.125,
+        2.055454545454545,
+        3.096363636363636
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -4.8862148699999945,
+        3.5442396754545507,
+        8.085148766363641
+      ],
+      "royaltyRNpv": [
+        {
+          "lungPV_CNYbn": 0.5293898922471686,
+          "otherPV_CNYbn": 0.08689252924499631,
+          "milestonePV_CNYbn": 0.13038158488529714,
+          "totalPV_CNYbn": 0.7466640063774621,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.12,
+            "postTaxAndServicingFactor": 0.75,
+            "parentEconomicShareAssumption": 0.85,
+            "discountRate": 0.16,
+            "lungSuccess": 0.12,
+            "otherSuccess": 0.06,
+            "lungPeakUSDbn": 3,
+            "otherPeakUSDbn": 1,
+            "firstSalesYear": 2030
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.1,
+              "successWeight": 0.35,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 0.1666,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.15,
+              "successWeight": 0.12,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "netRiskAdjustedCNYbn": 0.08567999999999999,
+              "presentValueCNYbn": 0.07141970468613987,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.25,
+              "successWeight": 0.08,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 0.09519999999999999,
+              "presentValueCNYbn": 0.05896188019915727,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "lungSalesUSDbn": 0.15000000000000002,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.009639,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.1996689201744566
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 2.2258726899383983,
+              "lungSalesUSDbn": 0.44999999999999996,
+              "otherSalesUSDbn": 0.15,
+              "riskAdjustedLungCashCNYbn": 0.028916999999999995,
+              "riskAdjustedOtherCashCNYbn": 0.004819499999999999,
+              "discountFactor": 1.391474583161974
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.3,
+              "riskAdjustedLungCashCNYbn": 0.05783399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.009638999999999998,
+              "discountFactor": 1.6146025140046445
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 0.5,
+              "riskAdjustedLungCashCNYbn": 0.09639,
+              "riskAdjustedOtherCashCNYbn": 0.016065,
+              "discountFactor": 1.872748657871519
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 5.2265571526351815,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 2.172167765836569
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 6.225872689938399,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 2.519458648712663
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 2.9234628626117596
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 3.390872431329345
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 9.22655715263518,
+              "lungSalesUSDbn": 2.8499999999999996,
+              "otherSalesUSDbn": 0.95,
+              "riskAdjustedLungCashCNYbn": 0.18314099999999997,
+              "riskAdjustedOtherCashCNYbn": 0.0305235,
+              "discountFactor": 3.933012453346953
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 10.225872689938399,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 4.56183099525156
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 2.46,
+              "otherSalesUSDbn": 0.82,
+              "riskAdjustedLungCashCNYbn": 0.1580796,
+              "riskAdjustedOtherCashCNYbn": 0.026346599999999994,
+              "discountFactor": 5.293336926543123
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 6.139647088903808
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 13.22655715263518,
+              "lungSalesUSDbn": 1.6500000000000001,
+              "otherSalesUSDbn": 0.55,
+              "riskAdjustedLungCashCNYbn": 0.106029,
+              "riskAdjustedOtherCashCNYbn": 0.017671500000000003,
+              "discountFactor": 7.121267151400155
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 14.225872689938399,
+              "lungSalesUSDbn": 1.0499999999999998,
+              "otherSalesUSDbn": 0.35,
+              "riskAdjustedLungCashCNYbn": 0.06747299999999998,
+              "riskAdjustedOtherCashCNYbn": 0.011245499999999999,
+              "discountFactor": 8.259830753670444
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 5.876083860557447,
+          "otherPV_CNYbn": 1.6573737960006334,
+          "milestonePV_CNYbn": 1.4386177618464777,
+          "totalPV_CNYbn": 8.972075418404557,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.15,
+            "postTaxAndServicingFactor": 0.78,
+            "parentEconomicShareAssumption": 0.9,
+            "discountRate": 0.13,
+            "lungSuccess": 0.35,
+            "otherSuccess": 0.2,
+            "lungPeakUSDbn": 6,
+            "otherPeakUSDbn": 3,
+            "firstSalesYear": 2029
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.2,
+              "successWeight": 0.6,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 0.6048,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.5,
+              "successWeight": 0.35,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "netRiskAdjustedCNYbn": 0.882,
+              "presentValueCNYbn": 0.7592151060399953,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.8,
+              "successWeight": 0.25,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 1.0080000000000002,
+              "presentValueCNYbn": 0.6794026558064825,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 0.2272416153319644,
+              "lungSalesUSDbn": 0.30000000000000004,
+              "otherSalesUSDbn": 0,
+              "riskAdjustedLungCashCNYbn": 0.0773955,
+              "riskAdjustedOtherCashCNYbn": 0,
+              "discountFactor": 1.028162195470383
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.44999999999999996,
+              "riskAdjustedLungCashCNYbn": 0.23218649999999996,
+              "riskAdjustedOtherCashCNYbn": 0.066339,
+              "discountFactor": 1.1617260944667458
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 2.2258726899383983,
+              "lungSalesUSDbn": 1.7999999999999998,
+              "otherSalesUSDbn": 0.8999999999999999,
+              "riskAdjustedLungCashCNYbn": 0.4643729999999999,
+              "riskAdjustedOtherCashCNYbn": 0.132678,
+              "discountFactor": 1.3126406752852011
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1.5,
+              "riskAdjustedLungCashCNYbn": 0.773955,
+              "riskAdjustedOtherCashCNYbn": 0.22113000000000002,
+              "discountFactor": 1.4836562550722698
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 1.6763913265141206
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 5.2265571526351815,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 1.8941637390763955
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 6.225872689938399,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 2.140225980465099
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 2.4190623702067633
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 5.699999999999999,
+              "otherSalesUSDbn": 2.8499999999999996,
+              "riskAdjustedLungCashCNYbn": 1.4705144999999997,
+              "riskAdjustedOtherCashCNYbn": 0.420147,
+              "discountFactor": 2.7333118179141658
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 9.22655715263518,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 3.088383989582987
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 10.225872689938399,
+              "lungSalesUSDbn": 4.92,
+              "otherSalesUSDbn": 2.46,
+              "riskAdjustedLungCashCNYbn": 1.2692861999999998,
+              "riskAdjustedOtherCashCNYbn": 0.3626532,
+              "discountFactor": 3.4895819805847177
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 3.944217355566177
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 3.3000000000000003,
+              "otherSalesUSDbn": 1.6500000000000001,
+              "riskAdjustedLungCashCNYbn": 0.8513505,
+              "riskAdjustedOtherCashCNYbn": 0.24324300000000001,
+              "discountFactor": 4.4565927870101705
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 13.22655715263518,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 1.0499999999999998,
+              "riskAdjustedLungCashCNYbn": 0.5417684999999999,
+              "riskAdjustedOtherCashCNYbn": 0.15479099999999998,
+              "discountFactor": 5.035528592561573
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 14.225872689938399,
+              "lungSalesUSDbn": 1.2000000000000002,
+              "otherSalesUSDbn": 0.6000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.309582,
+              "riskAdjustedOtherCashCNYbn": 0.08845200000000002,
+              "discountFactor": 5.689671329274913
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 29.319731379683382,
+          "otherPV_CNYbn": 15.78754766598336,
+          "milestonePV_CNYbn": 5.872034533362266,
+          "totalPV_CNYbn": 50.97931357902901,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.18,
+            "postTaxAndServicingFactor": 0.8,
+            "parentEconomicShareAssumption": 0.95,
+            "discountRate": 0.11,
+            "lungSuccess": 0.65,
+            "otherSuccess": 0.5,
+            "lungPeakUSDbn": 10,
+            "otherPeakUSDbn": 7,
+            "firstSalesYear": 2028
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.35,
+              "successWeight": 0.85,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 1.5826999999999998,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.9,
+              "successWeight": 0.65,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "netRiskAdjustedCNYbn": 3.1122000000000005,
+              "presentValueCNYbn": 2.738270038960558,
+              "alreadyReceivedOrPast": false
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 1.5,
+              "successWeight": 0.55,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "netRiskAdjustedCNYbn": 4.389000000000001,
+              "presentValueCNYbn": 3.1337644944017073,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2029-12-31",
+              "yearsACT36525": 0.2272416153319644,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 1.05,
+              "riskAdjustedLungCashCNYbn": 0.9336599999999998,
+              "riskAdjustedOtherCashCNYbn": 0.5027399999999999,
+              "discountFactor": 1.0239983737265097
+            },
+            {
+              "cashDate": "2030-12-31",
+              "yearsACT36525": 1.2265571526351813,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 2.1,
+              "riskAdjustedLungCashCNYbn": 1.8673199999999996,
+              "riskAdjustedOtherCashCNYbn": 1.0054799999999997,
+              "discountFactor": 1.1365570070588749
+            },
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 2.2258726899383983,
+              "lungSalesUSDbn": 5,
+              "otherSalesUSDbn": 3.5,
+              "riskAdjustedLungCashCNYbn": 3.112199999999999,
+              "riskAdjustedOtherCashCNYbn": 1.6757999999999997,
+              "discountFactor": 1.2614881658392478
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 1.4005519584642372
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 1.5545016310423363
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 5.2265571526351815,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 1.7253735616942396
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 6.225872689938399,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 1.9150278571257358
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 9.5,
+              "otherSalesUSDbn": 6.6499999999999995,
+              "riskAdjustedLungCashCNYbn": 5.913179999999999,
+              "riskAdjustedOtherCashCNYbn": 3.184019999999999,
+              "discountFactor": 2.126136485812108
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 2.359842928382109
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 9.22655715263518,
+              "lungSalesUSDbn": 8.2,
+              "otherSalesUSDbn": 5.739999999999999,
+              "riskAdjustedLungCashCNYbn": 5.1040079999999985,
+              "riskAdjustedOtherCashCNYbn": 2.748311999999999,
+              "discountFactor": 2.6192385502043356
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 10.225872689938399,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 2.9071471242282882
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 5.5,
+              "otherSalesUSDbn": 3.8500000000000005,
+              "riskAdjustedLungCashCNYbn": 3.4234199999999997,
+              "riskAdjustedOtherCashCNYbn": 1.8433799999999998,
+              "discountFactor": 3.2276248867327477
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 3.5,
+              "otherSalesUSDbn": 2.4499999999999997,
+              "riskAdjustedLungCashCNYbn": 2.17854,
+              "riskAdjustedOtherCashCNYbn": 1.1730599999999995,
+              "discountFactor": 3.58240772182463
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 13.22655715263518,
+              "lungSalesUSDbn": 2,
+              "otherSalesUSDbn": 1.4000000000000001,
+              "riskAdjustedLungCashCNYbn": 1.2448799999999998,
+              "riskAdjustedOtherCashCNYbn": 0.6703199999999999,
+              "discountFactor": 3.976188539796502
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 14.225872689938399,
+              "lungSalesUSDbn": 1,
+              "otherSalesUSDbn": 0.7000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.6224399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.33515999999999996,
+              "discountFactor": 4.41325402680756
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        }
+      ],
+      "priceHKD": [
+        9.848665602550984,
+        31.468963518889108,
+        72.10093318203508
+      ],
+      "cumulativeCashDividendHKD": [
+        0.45,
+        0.85,
+        1.3
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "新老产品均遭价格竞争，707确认性失败或未获审批",
+        "自免与支持治疗扩大产品基础，707分适应症风险仍存在",
+        "707早期商业化或临床读出使价值上修、新药贡献增强"
+      ],
+      "expectedPriceHKD": 36.221881455591074
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "earningsYear": 2031,
+      "epsCNY": [
+        0.75,
+        1.5,
+        2.35
+      ],
+      "PE": [
+        9,
+        17,
+        23
+      ],
+      "coreProductRevenueCNYbn": [
+        9,
+        15,
+        22
+      ],
+      "dilutedSharesBn": [
+        2.9,
+        2.78,
+        2.72
+      ],
+      "coreNetProfitCNYbn": [
+        2.175,
+        4.17,
+        6.392
+      ],
+      "coreNetMargin": [
+        0.24166666666666664,
+        0.27799999999999997,
+        0.29054545454545455
+      ],
+      "excessNetCashCNYbn": [
+        4.5,
+        15,
+        22
+      ],
+      "cashBridgeAnchor": {
+        "cashBankCNYbn": 14.029675,
+        "currentFairValueFinancialAssetsCNYbn": 5.126837,
+        "currentPortfolioRecoveryAssumption": 0.9,
+        "bankDebtCNYbn": 1.320592,
+        "leasesCNYbn": 0.066566,
+        "financialLiabilityCNYbn": 0.361557,
+        "declaredPreBaselineDividendCNYbn": 0.549319,
+        "operatingReserveCNYbn": 3,
+        "groupToParentCashAttributionAssumption": 0.9,
+        "groupAvailableCNYbn": 13.345794299999994,
+        "initialParentExcessNetCashCNYbn": 12.011214869999995
+      },
+      "forecastCumulativeDividendCNYbn": [
+        2.2409090909090903,
+        4.169999999999999,
+        6.676363636363637
+      ],
+      "forecastCombinedNetCashChangeBeforeDividendCNYbn": [
+        -5.270305779090904,
+        7.1587851300000045,
+        16.665148766363643
+      ],
+      "royaltyRNpv": [
+        {
+          "lungPV_CNYbn": 0.7013930034700148,
+          "otherPV_CNYbn": 0.11689883391166912,
+          "milestonePV_CNYbn": 0.07932298783808188,
+          "totalPV_CNYbn": 0.8976148252197658,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.12,
+            "postTaxAndServicingFactor": 0.75,
+            "parentEconomicShareAssumption": 0.85,
+            "discountRate": 0.16,
+            "lungSuccess": 0.12,
+            "otherSuccess": 0.06,
+            "lungPeakUSDbn": 3,
+            "otherPeakUSDbn": 1,
+            "firstSalesYear": 2030
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.1,
+              "successWeight": 0.35,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -2.7707049965776864,
+              "netRiskAdjustedCNYbn": 0.1666,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.15,
+              "successWeight": 0.12,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 0.08567999999999999,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.25,
+              "successWeight": 0.08,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 0.09519999999999999,
+              "presentValueCNYbn": 0.07932298783808188,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 0.2272416153319644,
+              "lungSalesUSDbn": 0.44999999999999996,
+              "otherSalesUSDbn": 0.15,
+              "riskAdjustedLungCashCNYbn": 0.028916999999999995,
+              "riskAdjustedOtherCashCNYbn": 0.004819499999999999,
+              "discountFactor": 1.0343024123100468
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "lungSalesUSDbn": 0.8999999999999999,
+              "otherSalesUSDbn": 0.3,
+              "riskAdjustedLungCashCNYbn": 0.05783399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.009638999999999998,
+              "discountFactor": 1.2001565068921392
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 2.2286105407255303,
+              "lungSalesUSDbn": 1.5,
+              "otherSalesUSDbn": 0.5,
+              "riskAdjustedLungCashCNYbn": 0.09639,
+              "riskAdjustedOtherCashCNYbn": 0.016065,
+              "discountFactor": 1.3920401262991955
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 1.6146025140046445
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 1.872748657871519
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 2.173050609539018
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1,
+              "riskAdjustedLungCashCNYbn": 0.19278,
+              "riskAdjustedOtherCashCNYbn": 0.03213,
+              "discountFactor": 2.520482643376694
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 2.8499999999999996,
+              "otherSalesUSDbn": 0.95,
+              "riskAdjustedLungCashCNYbn": 0.18314099999999997,
+              "riskAdjustedOtherCashCNYbn": 0.0305235,
+              "discountFactor": 2.9234628626117596
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 2.7,
+              "otherSalesUSDbn": 0.9,
+              "riskAdjustedLungCashCNYbn": 0.173502,
+              "riskAdjustedOtherCashCNYbn": 0.028916999999999998,
+              "discountFactor": 3.390872431329345
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 2.46,
+              "otherSalesUSDbn": 0.82,
+              "riskAdjustedLungCashCNYbn": 0.1580796,
+              "riskAdjustedOtherCashCNYbn": 0.026346599999999994,
+              "discountFactor": 3.934610964903336
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 0.7,
+              "riskAdjustedLungCashCNYbn": 0.13494599999999995,
+              "riskAdjustedOtherCashCNYbn": 0.022490999999999997,
+              "discountFactor": 4.563685080294683
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 1.6500000000000001,
+              "otherSalesUSDbn": 0.55,
+              "riskAdjustedLungCashCNYbn": 0.106029,
+              "riskAdjustedOtherCashCNYbn": 0.017671500000000003,
+              "discountFactor": 5.293336926543123
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 1.0499999999999998,
+              "otherSalesUSDbn": 0.35,
+              "riskAdjustedLungCashCNYbn": 0.06747299999999998,
+              "riskAdjustedOtherCashCNYbn": 0.011245499999999999,
+              "discountFactor": 6.139647088903808
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 7.150650102111592,
+          "otherPV_CNYbn": 2.0430428863175982,
+          "milestonePV_CNYbn": 0.8673841197792509,
+          "totalPV_CNYbn": 10.06107710820844,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.15,
+            "postTaxAndServicingFactor": 0.78,
+            "parentEconomicShareAssumption": 0.9,
+            "discountRate": 0.13,
+            "lungSuccess": 0.35,
+            "otherSuccess": 0.2,
+            "lungPeakUSDbn": 6,
+            "otherPeakUSDbn": 3,
+            "firstSalesYear": 2029
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.2,
+              "successWeight": 0.6,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -2.7707049965776864,
+              "netRiskAdjustedCNYbn": 0.6048,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.5,
+              "successWeight": 0.35,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 0.882,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 0.8,
+              "successWeight": 0.25,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 1.0080000000000002,
+              "presentValueCNYbn": 0.8673841197792509,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 0.2272416153319644,
+              "lungSalesUSDbn": 1.7999999999999998,
+              "otherSalesUSDbn": 0.8999999999999999,
+              "riskAdjustedLungCashCNYbn": 0.4643729999999999,
+              "riskAdjustedOtherCashCNYbn": 0.132678,
+              "discountFactor": 1.028162195470383
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "lungSalesUSDbn": 3,
+              "otherSalesUSDbn": 1.5,
+              "riskAdjustedLungCashCNYbn": 0.773955,
+              "riskAdjustedOtherCashCNYbn": 0.22113000000000002,
+              "discountFactor": 1.1621148889105049
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 2.2286105407255303,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 1.3130799762560872
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 1.4836562550722698
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 1.6763913265141206
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 6,
+              "otherSalesUSDbn": 3,
+              "riskAdjustedLungCashCNYbn": 1.54791,
+              "riskAdjustedOtherCashCNYbn": 0.44226000000000004,
+              "discountFactor": 1.8947976581566592
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 5.699999999999999,
+              "otherSalesUSDbn": 2.8499999999999996,
+              "riskAdjustedLungCashCNYbn": 1.4705144999999997,
+              "riskAdjustedOtherCashCNYbn": 0.420147,
+              "discountFactor": 2.140942249104976
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 5.4,
+              "otherSalesUSDbn": 2.7,
+              "riskAdjustedLungCashCNYbn": 1.393119,
+              "riskAdjustedOtherCashCNYbn": 0.398034,
+              "discountFactor": 2.4190623702067633
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 4.92,
+              "otherSalesUSDbn": 2.46,
+              "riskAdjustedLungCashCNYbn": 1.2692861999999998,
+              "riskAdjustedOtherCashCNYbn": 0.3626532,
+              "discountFactor": 2.7333118179141658
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 4.199999999999999,
+              "otherSalesUSDbn": 2.0999999999999996,
+              "riskAdjustedLungCashCNYbn": 1.0835369999999998,
+              "riskAdjustedOtherCashCNYbn": 0.30958199999999997,
+              "discountFactor": 3.089417577914233
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 3.3000000000000003,
+              "otherSalesUSDbn": 1.6500000000000001,
+              "riskAdjustedLungCashCNYbn": 0.8513505,
+              "riskAdjustedOtherCashCNYbn": 0.24324300000000001,
+              "discountFactor": 3.490749837699708
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 2.0999999999999996,
+              "otherSalesUSDbn": 1.0499999999999998,
+              "riskAdjustedLungCashCNYbn": 0.5417684999999999,
+              "riskAdjustedOtherCashCNYbn": 0.15479099999999998,
+              "discountFactor": 3.944217355566177
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 1.2000000000000002,
+              "otherSalesUSDbn": 0.6000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.309582,
+              "riskAdjustedOtherCashCNYbn": 0.08845200000000002,
+              "discountFactor": 4.4565927870101705
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        },
+        {
+          "lungPV_CNYbn": 32.97243406066609,
+          "otherPV_CNYbn": 17.754387571127896,
+          "milestonePV_CNYbn": 3.8605596704500167,
+          "totalPV_CNYbn": 54.587381302244,
+          "royaltyAssumptions": {
+            "royaltyRate": 0.18,
+            "postTaxAndServicingFactor": 0.8,
+            "parentEconomicShareAssumption": 0.95,
+            "discountRate": 0.11,
+            "lungSuccess": 0.65,
+            "otherSuccess": 0.5,
+            "lungPeakUSDbn": 10,
+            "otherPeakUSDbn": 7,
+            "firstSalesYear": 2028
+          },
+          "milestoneAssumptions": [
+            {
+              "year": 2028,
+              "grossUSDbn": 0.35,
+              "successWeight": 0.85,
+              "cashDate": "2028-12-31",
+              "yearsACT36525": -2.7707049965776864,
+              "netRiskAdjustedCNYbn": 1.5826999999999998,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2030,
+              "grossUSDbn": 0.9,
+              "successWeight": 0.65,
+              "cashDate": "2030-12-31",
+              "yearsACT36525": -0.7720739219712526,
+              "netRiskAdjustedCNYbn": 3.1122000000000005,
+              "presentValueCNYbn": 0,
+              "alreadyReceivedOrPast": true
+            },
+            {
+              "year": 2032,
+              "grossUSDbn": 1.5,
+              "successWeight": 0.55,
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "netRiskAdjustedCNYbn": 4.389000000000001,
+              "presentValueCNYbn": 3.8605596704500167,
+              "alreadyReceivedOrPast": false
+            }
+          ],
+          "annualCashflows": [
+            {
+              "cashDate": "2031-12-31",
+              "yearsACT36525": 0.2272416153319644,
+              "lungSalesUSDbn": 5,
+              "otherSalesUSDbn": 3.5,
+              "riskAdjustedLungCashCNYbn": 3.112199999999999,
+              "riskAdjustedOtherCashCNYbn": 1.6757999999999997,
+              "discountFactor": 1.0239983737265097
+            },
+            {
+              "cashDate": "2032-12-31",
+              "yearsACT36525": 1.2292950034223136,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 1.1368817929676982
+            },
+            {
+              "cashDate": "2033-12-31",
+              "yearsACT36525": 2.2286105407255303,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 1.2618486524473698
+            },
+            {
+              "cashDate": "2034-12-31",
+              "yearsACT36525": 3.2279260780287475,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 1.4005519584642372
+            },
+            {
+              "cashDate": "2035-12-31",
+              "yearsACT36525": 4.227241615331964,
+              "lungSalesUSDbn": 10,
+              "otherSalesUSDbn": 7,
+              "riskAdjustedLungCashCNYbn": 6.224399999999998,
+              "riskAdjustedOtherCashCNYbn": 3.3515999999999995,
+              "discountFactor": 1.5545016310423363
+            },
+            {
+              "cashDate": "2036-12-31",
+              "yearsACT36525": 5.229295003422314,
+              "lungSalesUSDbn": 9.5,
+              "otherSalesUSDbn": 6.6499999999999995,
+              "riskAdjustedLungCashCNYbn": 5.913179999999999,
+              "riskAdjustedOtherCashCNYbn": 3.184019999999999,
+              "discountFactor": 1.7258666095720092
+            },
+            {
+              "cashDate": "2037-12-31",
+              "yearsACT36525": 6.228610540725531,
+              "lungSalesUSDbn": 9,
+              "otherSalesUSDbn": 6.3,
+              "riskAdjustedLungCashCNYbn": 5.601959999999998,
+              "riskAdjustedOtherCashCNYbn": 3.0164399999999993,
+              "discountFactor": 1.915575101178727
+            },
+            {
+              "cashDate": "2038-12-31",
+              "yearsACT36525": 7.227926078028747,
+              "lungSalesUSDbn": 8.2,
+              "otherSalesUSDbn": 5.739999999999999,
+              "riskAdjustedLungCashCNYbn": 5.1040079999999985,
+              "riskAdjustedOtherCashCNYbn": 2.748311999999999,
+              "discountFactor": 2.126136485812108
+            },
+            {
+              "cashDate": "2039-12-31",
+              "yearsACT36525": 8.227241615331964,
+              "lungSalesUSDbn": 7,
+              "otherSalesUSDbn": 4.8999999999999995,
+              "riskAdjustedLungCashCNYbn": 4.35708,
+              "riskAdjustedOtherCashCNYbn": 2.346119999999999,
+              "discountFactor": 2.359842928382109
+            },
+            {
+              "cashDate": "2040-12-31",
+              "yearsACT36525": 9.229295003422314,
+              "lungSalesUSDbn": 5.5,
+              "otherSalesUSDbn": 3.8500000000000005,
+              "riskAdjustedLungCashCNYbn": 3.4234199999999997,
+              "riskAdjustedOtherCashCNYbn": 1.8433799999999998,
+              "discountFactor": 2.619987031598291
+            },
+            {
+              "cashDate": "2041-12-31",
+              "yearsACT36525": 10.22861054072553,
+              "lungSalesUSDbn": 3.5,
+              "otherSalesUSDbn": 2.4499999999999997,
+              "riskAdjustedLungCashCNYbn": 2.17854,
+              "riskAdjustedOtherCashCNYbn": 1.1730599999999995,
+              "discountFactor": 2.9079778792321824
+            },
+            {
+              "cashDate": "2042-12-31",
+              "yearsACT36525": 11.227926078028748,
+              "lungSalesUSDbn": 2,
+              "otherSalesUSDbn": 1.4000000000000001,
+              "riskAdjustedLungCashCNYbn": 1.2448799999999998,
+              "riskAdjustedOtherCashCNYbn": 0.6703199999999999,
+              "discountFactor": 3.2276248867327477
+            },
+            {
+              "cashDate": "2043-12-31",
+              "yearsACT36525": 12.227241615331964,
+              "lungSalesUSDbn": 1,
+              "otherSalesUSDbn": 0.7000000000000001,
+              "riskAdjustedLungCashCNYbn": 0.6224399999999999,
+              "riskAdjustedOtherCashCNYbn": 0.33515999999999996,
+              "discountFactor": 3.58240772182463
+            }
+          ],
+          "terminalYear": 2043,
+          "noTerminalValue": true
+        }
+      ],
+      "priceHKD": [
+        9.4723711406006,
+        37.96625353202493,
+        90.4278380266428
+      ],
+      "cumulativeCashDividendHKD": [
+        0.85,
+        1.65,
+        2.7
+      ],
+      "scenarioWeights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "conditions": [
+        "新药迭代效率低、海外权益未兑现，产品结构老化",
+        "自免/血液平台持续经营，部分海外权益形成现金，但仍风险调整",
+        "多个产品及707全球多癌种兑现，持续现金回报提高"
+      ],
+      "expectedPriceHKD": 43.958179057823315
+    }
+  },
+  "horizons": {
+    "yearEnd": {
+      "targetDate": "2026-12-31",
+      "years": 0.2272416153319644,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 9.696288595980816,
+          "epsCNY": 0.5,
+          "pe": 11,
+          "productRevenueCNYbn": 7.1,
+          "dilutedSharesBn": 2.6,
+          "coreNetProfitCNYbn": 1.3,
+          "coreNetMargin": 0.18309859154929578,
+          "excessNetCashCNYbn": 8,
+          "royaltyRNpvCNYbn": 0.6185003177728368,
+          "dividendHKD": 0,
+          "capitalReturnPct": -35.658337120233476,
+          "totalReturnPct": -35.658337120233476,
+          "annualizedTotalReturnPct": null,
+          "condition": "医保集采持续抑制核心销售，707试验/估值承压"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 19.53944411701468,
+          "epsCNY": 0.7,
+          "pe": 15,
+          "productRevenueCNYbn": 8.2,
+          "dilutedSharesBn": 2.57,
+          "coreNetProfitCNYbn": 1.7989999999999997,
+          "coreNetMargin": 0.219390243902439,
+          "excessNetCashCNYbn": 11.8,
+          "royaltyRNpvCNYbn": 6.866246709752468,
+          "dividendHKD": 0,
+          "capitalReturnPct": 29.6578906238532,
+          "totalReturnPct": 29.6578906238532,
+          "annualizedTotalReturnPct": null,
+          "condition": "产品降幅收窄与新药准入推进，707全球计划正常，尚无确证性成功"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 42.805913886549156,
+          "epsCNY": 0.95,
+          "pe": 19,
+          "productRevenueCNYbn": 9.3,
+          "dilutedSharesBn": 2.55,
+          "coreNetProfitCNYbn": 2.4225,
+          "coreNetMargin": 0.2604838709677419,
+          "excessNetCashCNYbn": 13.5,
+          "royaltyRNpvCNYbn": 39.70439128245486,
+          "dividendHKD": 0,
+          "capitalReturnPct": 184.0472056174463,
+          "totalReturnPct": 184.0472056174463,
+          "annualizedTotalReturnPct": null,
+          "condition": "新药医保和核心销量明显改善、707临床推进加强市场预期"
+        }
+      ],
+      "expectedPriceHKD": 22.895272679139833,
+      "expectedCapitalReturnPct": 51.9261624362298,
+      "expectedTotalReturnPct": 51.9261624362298,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 20.25547586250803,
+          "expectedReturnPct": 34.40926252493715
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 26.877400920621696,
+          "expectedReturnPct": 78.3503710724731
+        }
+      ]
+    },
+    "halfYear": {
+      "targetDate": "2027-04-09",
+      "years": 0.5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 10.172414627474556,
+          "epsCNY": 0.5,
+          "pe": 12,
+          "productRevenueCNYbn": 7.1,
+          "dilutedSharesBn": 2.6,
+          "coreNetProfitCNYbn": 1.3,
+          "coreNetMargin": 0.18309859154929578,
+          "excessNetCashCNYbn": 7.8,
+          "royaltyRNpvCNYbn": 0.6438891194853148,
+          "dividendHKD": 0,
+          "capitalReturnPct": -32.49890758145617,
+          "totalReturnPct": -32.49890758145617,
+          "annualizedTotalReturnPct": null,
+          "condition": "年报剔除授权后仍弱、下降量价结构延续"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 20.494032607263897,
+          "epsCNY": 0.7,
+          "pe": 16,
+          "productRevenueCNYbn": 8.2,
+          "dilutedSharesBn": 2.57,
+          "coreNetProfitCNYbn": 1.7989999999999997,
+          "coreNetMargin": 0.219390243902439,
+          "excessNetCashCNYbn": 12,
+          "royaltyRNpvCNYbn": 7.09751254606201,
+          "dividendHKD": 0,
+          "capitalReturnPct": 35.992253531943575,
+          "totalReturnPct": 35.992253531943575,
+          "annualizedTotalReturnPct": null,
+          "condition": "新药准入和产品恢复得到年报验证、底部形成需独立确认"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 44.471716386074945,
+          "epsCNY": 0.95,
+          "pe": 20,
+          "productRevenueCNYbn": 9.3,
+          "dilutedSharesBn": 2.55,
+          "coreNetProfitCNYbn": 2.4225,
+          "coreNetMargin": 0.2604838709677419,
+          "excessNetCashCNYbn": 13.8,
+          "royaltyRNpvCNYbn": 40.843524349537354,
+          "dividendHKD": 0,
+          "capitalReturnPct": 195.1009713740872,
+          "totalReturnPct": 195.1009713740872,
+          "annualizedTotalReturnPct": null,
+          "condition": "产品增长恢复、707积极研究推进、技术站回60/120日线"
+        }
+      ],
+      "expectedPriceHKD": 23.908049057019323,
+      "expectedCapitalReturnPct": 58.64664271412954,
+      "expectedTotalReturnPct": 58.64664271412954,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 21.16092217111037,
+          "expectedReturnPct": 40.41753265501242
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 28.02078252283045,
+          "expectedReturnPct": 85.93750844612111
+        }
+      ]
+    },
+    "oneYear": {
+      "targetDate": "2027-10-09",
+      "years": 1,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 10.177115108459063,
+          "epsCNY": 0.56,
+          "pe": 11,
+          "productRevenueCNYbn": 7.5,
+          "dilutedSharesBn": 2.65,
+          "coreNetProfitCNYbn": 1.484,
+          "coreNetMargin": 0.19786666666666666,
+          "excessNetCashCNYbn": 7.5,
+          "royaltyRNpvCNYbn": 0.6935954885604645,
+          "dividendHKD": 0.15,
+          "capitalReturnPct": -32.46771659947536,
+          "totalReturnPct": -31.472361589521814,
+          "annualizedTotalReturnPct": null,
+          "condition": "新产品未抵消成熟品种降价，临床权益折价"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 25.063798736268946,
+          "epsCNY": 0.88,
+          "pe": 17,
+          "productRevenueCNYbn": 9.6,
+          "dilutedSharesBn": 2.6,
+          "coreNetProfitCNYbn": 2.2880000000000003,
+          "coreNetMargin": 0.23833333333333337,
+          "excessNetCashCNYbn": 12.8,
+          "royaltyRNpvCNYbn": 7.545706103908415,
+          "dividendHKD": 0.25,
+          "capitalReturnPct": 66.31585093741836,
+          "totalReturnPct": 67.97477595400761,
+          "annualizedTotalReturnPct": null,
+          "condition": "新上市自免/长效EPO爬坡、产品增长恢复，海外进展无重大恶化"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 54.36428300596226,
+          "epsCNY": 1.22,
+          "pe": 22,
+          "productRevenueCNYbn": 11.5,
+          "dilutedSharesBn": 2.57,
+          "coreNetProfitCNYbn": 3.1353999999999997,
+          "coreNetMargin": 0.27264347826086954,
+          "excessNetCashCNYbn": 15,
+          "royaltyRNpvCNYbn": 43.03593393211179,
+          "dividendHKD": 0.35,
+          "capitalReturnPct": 260.7450763501145,
+          "totalReturnPct": 263.0675713733395,
+          "annualizedTotalReturnPct": null,
+          "condition": "新药销售与全球开发显著好于基准、资本效率提高"
+        }
+      ],
+      "expectedPriceHKD": 28.667248896739803,
+      "expectedCapitalReturnPct": 90.22726540636896,
+      "expectedTotalReturnPct": 91.88619042295821,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 24.969222139083655,
+          "expectedReturnPct": 65.68826900520011
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 33.806655718584295,
+          "expectedReturnPct": 124.33082759511808
+        }
+      ]
+    },
+    "threeYear": {
+      "targetDate": "2029-10-09",
+      "years": 3,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 9.848665602550984,
+          "epsCNY": 0.65,
+          "pe": 10,
+          "productRevenueCNYbn": 8.1,
+          "dilutedSharesBn": 2.75,
+          "coreNetProfitCNYbn": 1.7875,
+          "coreNetMargin": 0.22067901234567902,
+          "excessNetCashCNYbn": 6,
+          "royaltyRNpvCNYbn": 0.7466640063774621,
+          "dividendHKD": 0.45,
+          "capitalReturnPct": -34.647209007624525,
+          "totalReturnPct": -31.661143977763885,
+          "annualizedTotalReturnPct": -11.917580650657877,
+          "condition": "新老产品均遭价格竞争，707确认性失败或未获审批"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 31.468963518889108,
+          "epsCNY": 1.12,
+          "pe": 18,
+          "productRevenueCNYbn": 11.5,
+          "dilutedSharesBn": 2.66,
+          "coreNetProfitCNYbn": 2.9792000000000005,
+          "coreNetMargin": 0.25906086956521746,
+          "excessNetCashCNYbn": 13.5,
+          "royaltyRNpvCNYbn": 8.972075418404557,
+          "dividendHKD": 0.85,
+          "capitalReturnPct": 108.8186033104785,
+          "totalReturnPct": 114.45894836688191,
+          "annualizedTotalReturnPct": 28.95793119076555,
+          "condition": "自免与支持治疗扩大产品基础，707分适应症风险仍存在"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 72.10093318203508,
+          "epsCNY": 1.65,
+          "pe": 24,
+          "productRevenueCNYbn": 15,
+          "dilutedSharesBn": 2.62,
+          "coreNetProfitCNYbn": 4.3229999999999995,
+          "coreNetMargin": 0.28819999999999996,
+          "excessNetCashCNYbn": 17,
+          "royaltyRNpvCNYbn": 50.97931357902901,
+          "dividendHKD": 1.3,
+          "capitalReturnPct": 378.4401671004319,
+          "totalReturnPct": 387.06657718669595,
+          "annualizedTotalReturnPct": 69.51030670749256,
+          "condition": "707早期商业化或临床读出使价值上修、新药贡献增强"
+        }
+      ],
+      "expectedPriceHKD": 36.221881455591074,
+      "expectedCapitalReturnPct": 140.3575411784411,
+      "expectedTotalReturnPct": 146.080832485674,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 30.947238284983055,
+          "expectedReturnPct": 105.35659114122797
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 43.397691800879876,
+          "expectedReturnPct": 187.97406636283927
+        }
+      ]
+    },
+    "fiveYear": {
+      "targetDate": "2031-10-09",
+      "years": 5,
+      "scenarios": [
+        {
+          "scenario": "bear",
+          "probability": 0.25,
+          "targetPriceHKD": 9.4723711406006,
+          "epsCNY": 0.75,
+          "pe": 9,
+          "productRevenueCNYbn": 9,
+          "dilutedSharesBn": 2.9,
+          "coreNetProfitCNYbn": 2.175,
+          "coreNetMargin": 0.24166666666666664,
+          "excessNetCashCNYbn": 4.5,
+          "royaltyRNpvCNYbn": 0.8976148252197658,
+          "dividendHKD": 0.85,
+          "capitalReturnPct": -37.14418619375846,
+          "totalReturnPct": -31.503841137355014,
+          "annualizedTotalReturnPct": -7.288577733214263,
+          "condition": "新药迭代效率低、海外权益未兑现，产品结构老化"
+        },
+        {
+          "scenario": "base",
+          "probability": 0.5,
+          "targetPriceHKD": 37.96625353202493,
+          "epsCNY": 1.5,
+          "pe": 17,
+          "productRevenueCNYbn": 15,
+          "dilutedSharesBn": 2.78,
+          "coreNetProfitCNYbn": 4.17,
+          "coreNetMargin": 0.27799999999999997,
+          "excessNetCashCNYbn": 15,
+          "royaltyRNpvCNYbn": 10.06107710820844,
+          "dividendHKD": 1.65,
+          "capitalReturnPct": 151.93267108178455,
+          "totalReturnPct": 162.88157619127355,
+          "annualizedTotalReturnPct": 21.325483302143322,
+          "condition": "自免/血液平台持续经营，部分海外权益形成现金，但仍风险调整"
+        },
+        {
+          "scenario": "bull",
+          "probability": 0.25,
+          "targetPriceHKD": 90.4278380266428,
+          "epsCNY": 2.35,
+          "pe": 23,
+          "productRevenueCNYbn": 22,
+          "dilutedSharesBn": 2.72,
+          "coreNetProfitCNYbn": 6.392,
+          "coreNetMargin": 0.29054545454545455,
+          "excessNetCashCNYbn": 22,
+          "royaltyRNpvCNYbn": 54.587381302244,
+          "dividendHKD": 2.7,
+          "capitalReturnPct": 500.0520107939137,
+          "totalReturnPct": 517.9684009730777,
+          "annualizedTotalReturnPct": 43.94389618014542,
+          "condition": "多个产品及707全球多癌种兑现，持续现金回报提高"
+        }
+      ],
+      "expectedPriceHKD": 43.958179057823315,
+      "expectedCapitalReturnPct": 191.6932916909311,
+      "expectedTotalReturnPct": 203.05692805456746,
+      "weightSensitivity": [
+        {
+          "weights": [
+            0.4,
+            0.4,
+            0.2
+          ],
+          "expectedPriceHKD": 37.06101747437877,
+          "expectedReturnPct": 145.92579611399316
+        },
+        {
+          "weights": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "expectedPriceHKD": 53.25211085158721,
+          "expectedReturnPct": 253.3650355115276
+        }
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        4.1,
+        1.4,
+        2.8,
+        3.8,
+        3.8,
+        3.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.7,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.1,
+          "weightPct": 25,
+          "reason": "价15.07、现金与经风险折扣707分开；第三方4倍PE含首付不可复制，低经营PE需新药恢复"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 1.4,
+          "weightPct": 30,
+          "reason": "价低于所有日均线且全下降、周线弱、60日跑输恒指11.43个百分点；回购不证明底部"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 2.8,
+          "weightPct": 15,
+          "reason": "产品销售-19.3%、剔除授权收入-15.6%；成熟商业化与新药批准提供能力，但调整利润仍含里程碑"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 3.8,
+          "weightPct": 10,
+          "reason": "支持治疗/自免与消费者需求，医保集采/税率和全球肿瘤竞争影响实际市场"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 3.8,
+          "weightPct": 10,
+          "reason": "608/613/长效EPO和611准入及注册，707全球试验；未取得确证性OS效果不能视作成功"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3.6,
+          "weightPct": 10,
+          "reason": "现金银行14.03bn但部分归子公司、金融投资折扣、债务与金融负债保留，资本分派不确定"
+        }
+      ]
+    },
+    "oneYear": {
+      "dimensions": [
+        4.2,
+        1.4,
+        3.2,
+        4,
+        4.2,
+        3.5
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 68.6,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.2,
+          "weightPct": 25,
+          "reason": "价15.07、现金与经风险折扣707分开；第三方4倍PE含首付不可复制，低经营PE需新药恢复"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 1.4,
+          "weightPct": 15,
+          "reason": "价低于所有日均线且全下降、周线弱、60日跑输恒指11.43个百分点；回购不证明底部"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 3.2,
+          "weightPct": 25,
+          "reason": "产品销售-19.3%、剔除授权收入-15.6%；成熟商业化与新药批准提供能力，但调整利润仍含里程碑"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4,
+          "weightPct": 15,
+          "reason": "支持治疗/自免与消费者需求，医保集采/税率和全球肿瘤竞争影响实际市场"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 4.2,
+          "weightPct": 10,
+          "reason": "608/613/长效EPO和611准入及注册，707全球试验；未取得确证性OS效果不能视作成功"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3.5,
+          "weightPct": 10,
+          "reason": "现金银行14.03bn但部分归子公司、金融投资折扣、债务与金融负债保留，资本分派不确定"
+        }
+      ]
+    },
+    "threeYear": {
+      "dimensions": [
+        4.3,
+        1.4,
+        3.7,
+        4.2,
+        4,
+        3.3
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 76.19999999999999,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.3,
+          "weightPct": 25,
+          "reason": "价15.07、现金与经风险折扣707分开；第三方4倍PE含首付不可复制，低经营PE需新药恢复"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 1.4,
+          "weightPct": 5,
+          "reason": "价低于所有日均线且全下降、周线弱、60日跑输恒指11.43个百分点；回购不证明底部"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 3.7,
+          "weightPct": 35,
+          "reason": "产品销售-19.3%、剔除授权收入-15.6%；成熟商业化与新药批准提供能力，但调整利润仍含里程碑"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4.2,
+          "weightPct": 20,
+          "reason": "支持治疗/自免与消费者需求，医保集采/税率和全球肿瘤竞争影响实际市场"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 4,
+          "weightPct": 5,
+          "reason": "608/613/长效EPO和611准入及注册，707全球试验；未取得确证性OS效果不能视作成功"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3.3,
+          "weightPct": 10,
+          "reason": "现金银行14.03bn但部分归子公司、金融投资折扣、债务与金融负债保留，资本分派不确定"
+        }
+      ]
+    },
+    "fiveYear": {
+      "dimensions": [
+        4.1,
+        0,
+        3.8,
+        4,
+        3.6,
+        3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 75.39999999999999,
+      "explanations": [
+        {
+          "dimension": "估值与预期回报",
+          "score": 4.1,
+          "weightPct": 20,
+          "reason": "价15.07、现金与经风险折扣707分开；第三方4倍PE含首付不可复制，低经营PE需新药恢复"
+        },
+        {
+          "dimension": "技术量能",
+          "score": 0,
+          "weightPct": 0,
+          "reason": "价低于所有日均线且全下降、周线弱、60日跑输恒指11.43个百分点；回购不证明底部"
+        },
+        {
+          "dimension": "经营质量",
+          "score": 3.8,
+          "weightPct": 40,
+          "reason": "产品销售-19.3%、剔除授权收入-15.6%；成熟商业化与新药批准提供能力，但调整利润仍含里程碑"
+        },
+        {
+          "dimension": "周期需求",
+          "score": 4,
+          "weightPct": 20,
+          "reason": "支持治疗/自免与消费者需求，医保集采/税率和全球肿瘤竞争影响实际市场"
+        },
+        {
+          "dimension": "期限催化",
+          "score": 3.6,
+          "weightPct": 5,
+          "reason": "608/613/长效EPO和611准入及注册，707全球试验；未取得确证性OS效果不能视作成功"
+        },
+        {
+          "dimension": "财务治理下行风险",
+          "score": 3,
+          "weightPct": 15,
+          "reason": "现金银行14.03bn但部分归子公司、金融投资折扣、债务与金融负债保留，资本分派不确定"
+        }
+      ]
+    }
+  },
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 4526,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    },
+    {
+      "metric": "grossProfit",
+      "value": 3794.6,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    },
+    {
+      "metric": "attributableProfit",
+      "value": 1146.6,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    },
+    {
+      "metric": "adjustedOperatingAttributableProfit",
+      "value": 1436.3,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    },
+    {
+      "metric": "operatingCashFlow",
+      "value": 899.4,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    },
+    {
+      "metric": "liquidAssetsCurrent",
+      "value": 12469.2,
+      "currency": "CNY",
+      "unit": "million",
+      "period": "2026H1",
+      "publicationDate": "2026-09-30",
+      "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "sourceType": "issuer_disclosure_primary_content_mirrored",
+      "note": "归母-15.6%与调整经营利润+26.5%并存；当前现金/现金等价物/流动定存/流动抵押存款合计12469.2，券商186亿现金是更宽口径，不能混用。"
+    }
+  ],
+  "financialVerified": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "publicationDate": "2026-09-30",
+    "initialAnnouncementDate": "2026-08-20",
+    "revenue": 4525.985,
+    "productSales": 3443.021,
+    "licenseMilestones": 851.584,
+    "CDMO": 231.38,
+    "grossProfit": 3794.587,
+    "groupProfit": 1210.066,
+    "attributableProfit": 1146.595,
+    "minorityProfit": 63.471,
+    "adjustedOperatingAttributable": 1436.3,
+    "interestIncome": 223.363,
+    "FXloss": 503.308,
+    "financialFairValueGain": 78.881,
+    "derivativeGain": 64.035,
+    "financialLiabilityFairValueLoss": 22.015,
+    "shareComp": 47.204,
+    "research": 683.849,
+    "salesExpense": 1206.725,
+    "admin": 267.813,
+    "tax": 223.806,
+    "OCF": 899.385,
+    "operatingCashBeforeTax": 1483.189,
+    "cashTaxes": 583.804,
+    "PPECash": 245.221,
+    "intangibleCash": 34.8,
+    "currentCashAndDepositsInclPledged": 12469.231,
+    "cashEquivalent": 6785.032,
+    "allUnpledgedDeposits": 7244.643,
+    "cashBankTotalUnpledged": 14029.675,
+    "financialAssetsCurrent": 5126.837,
+    "financialAssetsNonCurrent": 889.088,
+    "debt": 1320.592,
+    "leases": 66.566,
+    "financialLiability": 361.557,
+    "ownerEquity": 27519.1,
+    "minorityEquity": 3245.413,
+    "declaredPreBaselineDividend": 549.319,
+    "basicSharesM": 2537.746,
+    "dilutedSharesM": 2582.811,
+    "currentSharesExTreasury": 2515.345078,
+    "currentSharesDisclosureAfterClose": true,
+    "currentTotalSharesM": 2538.321078,
+    "treasurySharesM": 22.976,
+    "interimDividendHKD": 0,
+    "priorDividendHKD": 0.25,
+    "priorExDate": "2026-07-21",
+    "priorPaymentDate": "2026-08-04",
+    "sourceURL": "https://iis.aastocks.com/20260930/12352467-0.PDF"
+  },
+  "brokerTargets": [
+    {
+      "institution": "UBS",
+      "targetPrice": 26.4,
+      "rating": "买入",
+      "publicationDate": "2026-09-09",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1543624/research-report",
+      "newsID": "NOW.1543624",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": "遍高於瑞銀預期。行業上半年收入及純利增長中位數分別為4%及3%，瑞銀目前預測全年增長可加快至7%及9%。 瑞銀列先聲藥業行業首選股，指出先聲藥業是唯一上調2026年指引的公司，經調整純利增長目標由30%上調至45%，收入增長維持30%，給予目標價16.6元。管理層表示先必新(Sanbexin)、科維可(Quviviq)及新腫瘤藥組合持續推動產品銷售增長，近期與羅氏就臨床前TCE的合作料帶來額外7,500萬美元首付款收入。 相關內容 《大行》里昂：中國醫療保健授權交易動能增強 維持對行業正面看法 基於上半年毛利率優於預期，該行將翰森製藥目標價由48.8元上調至50.8元。對於中生製藥、石藥、聯邦製藥、恒瑞醫藥及三生製藥，目標價分別為7.7元、11.8元、12.8元、81.7元及26.4元。(gc/u)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-",
+      "institutionOwnership": "foreign"
+    },
+    {
+      "institution": "CLSA",
+      "targetPrice": 30.4,
+      "rating": "跑赢大市",
+      "publicationDate": "2026-08-31",
+      "market": "港股",
+      "currency": "HKD",
+      "targetHorizon": "CLSA为中资控制国际券商；公开转述未明确目标日",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1542044/research-report",
+      "newsID": "NOW.1542044",
+      "sourceType": "financial_news_secondary",
+      "verified": true,
+      "sourceExcerpt": " 比率 13.219% 上半年業績受惠於707里程碑收入及CDMO業務強勁增長，抵銷了核心產品銷售疲弱的影響。雖然近期收入增長仍然低迷，但新一輪產品上市週期及707全球開發項目的進一步進展，應能支持中期增長。 該行維持予其「跑贏大市」評級，目標價由32.6元下調至30.4元。 相關內容 《大行》浦銀國際列出4月南向資金淨流入港股前20大個股名單(表) 該股現持有逾186億元人民幣現金，撇除現金後，現交易於預測未來一年市盈率7.4倍。(ha/da)(港股報價延遲最少十五分鐘。沽空資料截至 2026-10-09 16:25。) AASTOCKS新聞",
+      "institutionOwnership": "Chinese-controlled international brokerage"
+    },
+    {
+      "institution": "BofA Securities",
+      "targetPrice": 23.8,
+      "publicationDate": "2026-09-21",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1545493/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S028",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Citi",
+      "targetPrice": 34.4,
+      "publicationDate": "2026-08-24",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1540270/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S028",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "买入",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": false
+    },
+    {
+      "institution": "Morgan Stanley",
+      "targetPrice": 34,
+      "publicationDate": "2026-04-13",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1517225/research-report",
+      "sourceType": "financial_news_secondary",
+      "currency": "HKD",
+      "securityId": "S028",
+      "targetHorizon": "公开转述未明确目标日",
+      "rating": "增持",
+      "institutionOwnership": "foreign",
+      "verified": true,
+      "outside90Days": true
+    }
+  ],
+  "priceEvidence": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01530,hk00013,hk01093,hk02157,hk02228,hk02607,hk03692,hk02186,hk01177,hk02359,hk00512,hk02096,hk02269,hk01548,hk01513,hk06160,hk02511,hk09939,hk09688,hk01952,hk09969,hk06185,hk02196,hk03347,hk06127",
+      "retrievedAt": "2026-10-10T09:16:12.054Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk06855,rt_hk03759,rt_hk01530,rt_hk00013,rt_hk01093,rt_hk02157,rt_hk02228,rt_hk02607,rt_hk03692,rt_hk02186,rt_hk01177,rt_hk02359,rt_hk00512,rt_hk02096,rt_hk02269,rt_hk01548,rt_hk01513,rt_hk06160,rt_hk02511,rt_hk09939,rt_hk09688,rt_hk01952,rt_hk09969,rt_hk06185,rt_hk02196",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/1530.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:15.626Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk01530,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:15.745Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "assumptions": {
+    "fx": "1CNY=1.10HKD、1USD=7CNY为独立预测换算非历史实测",
+    "coreProfit": "剔除一次授权里程碑、利息、公允价值/汇兑波动，保留正常税/研发/股份酬金；包括国内成熟/新上市产品和CDMO，不含707国内直接销售或海外royalty，防止重复",
+    "royalty": "合同只披露双位数梯度；12/15/18%为研究假设。肺癌与其他癌种风险相关，成功权重各自研究判断。保留中国期权并未自动假定永远拥有国内全部经济权；模型仅海外royalty。终止2043为假设非核验专利期限，无终值",
+    "cash": "合并银行现金与定存、当前金融投资90%回收，扣银行债/租赁/金融负债、已宣股息和3bn营运储备，再乘90%归母现金归属假设；非逐子公司实证，当前现金并非全部归普通股东",
+    "milestones": "只计未来研究情景现金、远低于合同上限4.8bnUSD，不把1.25bn首付款与中国期权金再算；过目标日的模型里程碑由现金桥合并假设包含，余下rNPV排除",
+    "dividend": "0.25末期息8月4已付，基准后买入不享有；无中期息，未来息是假设",
+    "spinoff": "蔓迪全持股附条件实物分派尚未落实；目标价按基准并表范围条件估值。若实施需把除权价格和收到股票合并总回报；当前未定股数/价格故不虚填实物收益",
+    "weights": "25/50/25情景判断非统计概率",
+    "refresh": "修改输入后需重新运行活动模型并刷新全部情景"
+  },
+  "confidence": "medium",
+  "limitations": [
+    "707缺少逐试验可比随机OS及全部注册数据，肺癌/非肺癌分组只是明确假设",
+    "首付1.25bnUSD、前端1.5bn描述和中国150mUSD期权不应加总造现金",
+    "产品级利润与子公司现金归属未完整披露，归母现金/管线经济比例为假设",
+    "长期现金桥为合计预测，未完整逐年经营投资融资现金流",
+    "蔓迪实物分派若实施，名义目标价须调整，现表是并表范围条件模型",
+    "机构均公开转述，目标期限未核验，MS超90天为历史参照",
+    "行业相对强弱缺失；近期复权跨源最大差1.48%",
+    "未来目标日市场休市日历待确定，需取前交易日"
+  ],
+  "sources": [
+    {
+      "url": "https://iis.aastocks.com/20260930/12352467-0.PDF",
+      "date": "2026-09-30",
+      "type": "issuer_interim_report_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20260820/12293327-0.PDF",
+      "date": "2026-08-20",
+      "type": "issuer_interim_announcement_primary_mirrored"
+    },
+    {
+      "url": "https://iis.aastocks.com/20261009/12368677-0.PDF",
+      "date": "2026-10-09",
+      "type": "issuer_disclosure_primary_mirrored",
+      "publicationAfterClose": true
+    },
+    {
+      "url": "https://iis.aastocks.com/20261002/12359712-0.PDF",
+      "date": "2026-10-02",
+      "type": "issuer_disclosure_primary_mirrored",
+      "publicationAfterClose": false
+    },
+    {
+      "url": "https://iis.aastocks.com/20260429/12135986-0.PDF",
+      "date": "2026-04-29",
+      "type": "issuer_disclosure_primary_mirrored",
+      "publicationAfterClose": false
+    },
+    {
+      "url": "https://iis.aastocks.com/20260330/12079052-0.PDF",
+      "date": "2026-03-30",
+      "type": "issuer_disclosure_primary_mirrored",
+      "publicationAfterClose": false
+    },
+    {
+      "url": "https://iis.aastocks.com/20260330/12079042-0.PDF",
+      "date": "2026-03-30",
+      "type": "issuer_disclosure_primary_mirrored",
+      "publicationAfterClose": false
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1543624/research-report",
+      "date": "2026-09-09",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1542044/research-report",
+      "date": "2026-08-31",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1545493/research-report",
+      "date": "2026-09-21",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1540270/research-report",
+      "date": "2026-08-24",
+      "type": "financial_news_secondary"
+    },
+    {
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01530/AAFN/NOW.1517225/research-report",
+      "date": "2026-04-13",
+      "type": "financial_news_secondary"
+    }
+  ]
+}

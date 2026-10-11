@@ -1,0 +1,482 @@
+{
+  "issuerId": "I072",
+  "securityId": "S083",
+  "code": "00700.HK",
+  "name": "腾讯控股",
+  "asOf": "2026-10-09",
+  "price": 424.8,
+  "currency": "HKD",
+  "modelVersion": "tencent-pe-v1.0",
+  "status": "独立研究初版，公开参数情景；无校准概率保证",
+  "method": "目标时点NTM non-IFRS diluted EPS (CNY) × target PE × HKD per CNY",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核实2026-10-09即期外汇",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "nonIFRSDilutedEPSCNY": 27.877,
+    "nonIFRSProfitAttributableCNYmillion": 259626,
+    "FCFCNYmillionRounded": 182600,
+    "historicalPEResearchFX": 13.85306231595,
+    "sourceURL": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "nonIFRSDilutedEPSCNY": {
+        "sourceURL": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonIFRSProfitAttributableCNYmillion": {
+        "sourceURL": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "FCFCNYmillionRounded": {
+        "sourceURL": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      },
+      "historicalPEResearchFX": {
+        "sourceURL": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+        "currency": "CNY",
+        "unit": "times",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      }
+    },
+    "publicationDate": "2026-04-09年报官网文件；FY业绩稿2026-03-18"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        24,
+        28,
+        31
+      ],
+      "PE": [
+        12,
+        16,
+        20
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        316.8,
+        492.8,
+        682
+      ],
+      "priceReturnPct": [
+        -25.4237288136,
+        16.0075329567,
+        60.5461393597
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 496.1,
+      "expectedReturnPct": 16.7843691149,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 441.32,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 550.88
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        25,
+        30,
+        34
+      ],
+      "PE": [
+        12,
+        17,
+        21
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        330,
+        561,
+        785.4
+      ],
+      "priceReturnPct": [
+        -22.3163841808,
+        32.0621468927,
+        84.8870056497
+      ],
+      "totalReturnPct": [
+        -22.3163841808,
+        32.0621468927,
+        84.8870056497
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        26,
+        32,
+        38
+      ],
+      "PE": [
+        12,
+        18,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        4,
+        5.3,
+        6
+      ],
+      "priceHKD": [
+        343.2,
+        633.6,
+        919.6
+      ],
+      "priceReturnPct": [
+        -19.209039548,
+        49.1525423729,
+        116.4783427495
+      ],
+      "totalReturnPct": [
+        -18.2674199623,
+        50.4001883239,
+        117.8907721281
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        28,
+        40,
+        52
+      ],
+      "PE": [
+        11,
+        17,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        12,
+        18,
+        24
+      ],
+      "priceHKD": [
+        338.8,
+        748,
+        1258.4
+      ],
+      "priceReturnPct": [
+        -20.2448210923,
+        76.0828625235,
+        196.2335216573
+      ],
+      "totalReturnPct": [
+        -17.4199623352,
+        80.3201506591,
+        201.8832391714
+      ],
+      "baseAnnualizedTotalReturnPct": 21.7161164917
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        28,
+        50,
+        75
+      ],
+      "PE": [
+        10,
+        16,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        20,
+        35,
+        50
+      ],
+      "priceHKD": [
+        308,
+        880,
+        1815
+      ],
+      "priceReturnPct": [
+        -27.4952919021,
+        107.1563088512,
+        327.2598870056
+      ],
+      "totalReturnPct": [
+        -22.7871939736,
+        115.395480226,
+        339.0301318267
+      ],
+      "baseAnnualizedTotalReturnPct": 16.5862456424
+    }
+  },
+  "scoreScale": "0–5 subjective evidence-anchored dimension scores, weighted /5 to 100; not probability",
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        4,
+        1.5,
+        4.5,
+        4,
+        3.5,
+        4
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 65.5
+    },
+    "oneYear": {
+      "dimensions": [
+        4.1,
+        1.5,
+        4.4,
+        4,
+        3.5,
+        3.8
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 73.6
+    },
+    "threeYear": {
+      "dimensions": [
+        4.3,
+        1.5,
+        4.5,
+        4.5,
+        3.7,
+        3.6
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 83.4
+    },
+    "fiveYear": {
+      "dimensions": [
+        4.1,
+        1.5,
+        4.5,
+        4.4,
+        3.5,
+        3.5
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 84
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "研究FX下历史non-IFRS diluted PE13.85x有吸引力，但未来AI费用及现金投入可能下降盈利质量；长期高回报需经营兑现",
+    "technicalRelativeStrength": "424.8低于4条主要均线，斜率皆负，单日+3.26%且量比1.018不确认反转；60日相对恒指落后9.044个百分点，独立历史行情已核验",
+    "growthBusinessQuality": "微信14.39亿合并MAU、游戏与广告毛利可验证；净利润和新AI变现尚受费用压力",
+    "industryCycle": "国内内容需求、广告效率、云AI有空间，弱宏观、游戏高基数、算力周期是具体约束",
+    "catalysts": "十月底产品策略和十一月Q3业绩为转载提及窗口；新产品使用与付费经济性尚未完全核验",
+    "financialGovernanceDownside": "成熟业务和现金强，但H1实际FCF约429亿元，净现金下降且预付算力真实占现金，股权激励与资本配置需跟踪"
+  },
+  "assumptions": [
+    "年末和半年的EPS为各目标时点NTM，不是当年已实现盈利",
+    "2026H1 EPS14.799不机械年化",
+    "模型含股本变化，分红无再投资，无保证回购缩股",
+    "三情景不是最大损失或统计置信区间",
+    "五年悲观308与公式一致；此前440算术错误已纠正",
+    "不把2025FCF直接当未来稳态",
+    "未做完整分部DCF，复杂投资组合不追加以避免重复计算"
+  ],
+  "confidence": {
+    "fundamentals": "高（官网原始披露）",
+    "technical": "高（2026-10-10T09:14:29Z刷新后独立Yahoo复权历史与腾讯报价核验；仍不保证形态预测）",
+    "valuation": "中低（公开研究假设，盈利及FX待更新）",
+    "institutionTargets": "中（公开新闻转载，非完整研报）"
+  },
+  "sources": [
+    "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+    "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+    "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf",
+    "https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf",
+    "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00700/AAFN/NOW.1548056/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00700/AAFN/NOW.1544986/hk-stock-news"
+  ],
+  "deepResearchFile": "research/tencent_deep.md",
+  "effectiveHanzi": 15700,
+  "wordCountBasis": "标题、基准头和来源区剔除后CJK汉字计数；无表格长引文或共用宏观段落",
+  "latestPeriod": {
+    "period": "2026H1 and Q2",
+    "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+    "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix says CNY/share or rounded",
+    "revenueH1CNYmillion": 401243,
+    "profitAttributableH1CNYmillion": 114115,
+    "nonIFRSProfitAttributableH1CNYmillion": 136320,
+    "nonIFRSDilutedEPSH1CNY": 14.799,
+    "nonIFRSProfitAttributableQ2CNYmillion": 68415,
+    "nonIFRSDilutedEPSQ2CNY": 7.433,
+    "capexH1CNYmillion": 84720,
+    "capexQ2CNYmillion": 52784,
+    "netCashAtJune30CNYmillion": 58191,
+    "FCFQ2CNYmillionRounded": -13800,
+    "FCFH1ResearchCNYmillionRounded": 42900,
+    "FCFCaution": "H1为Q1披露四舍五入567亿元加Q2-138亿元，非精确半年官方财表行；capex资产与现金付款不可混用",
+    "fieldMetadata": {
+      "revenueH1CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "profitAttributableH1CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "nonIFRSProfitAttributableH1CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "nonIFRSDilutedEPSH1CNY": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "nonIFRSProfitAttributableQ2CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "nonIFRSDilutedEPSQ2CNY": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "capexH1CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "capexQ2CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "netCashAtJune30CNYmillion": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "FCFQ2CNYmillionRounded": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "reported input"
+      },
+      "FCFH1ResearchCNYmillionRounded": {
+        "sourceURL": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-12季度业绩稿；2026年8月中报",
+        "status": "research calculation from quarterly rounded company disclosures"
+      }
+    }
+  }
+}

@@ -1,0 +1,1783 @@
+{
+  "issuerId": "I078",
+  "securityId": "S089",
+  "code": "03690.HK",
+  "name": "美团-W",
+  "deepResearchFile": "research/meituan_deep.md",
+  "asOf": "2026-10-09",
+  "price": 71.5,
+  "currency": "HKD",
+  "modelVersion": "meituan-core-new-SOTP-v1.0",
+  "status": "独立研究初版；竞争恢复与海外融资成本持续核验",
+  "method": "核心本地税后正常经营EPS×PE+新业务EV销售倍数+可分配净资金−过渡融资现值，全部按总摊薄股数归一；核心不含投资及资金利息，新业务不另加盈利或海外期权",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核即期",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+    "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 364854.746,
+    "revenue2024CNYmillion": 337591.576,
+    "revenue2023CNYmillion": 276744.954,
+    "profitAttributableCNYmillion": -23355.015,
+    "profitAttributable2024CNYmillion": 35807.179,
+    "profitAttributable2023CNYmillion": 13855.828,
+    "basicEPSCNY": -3.84,
+    "dilutedEPSCNY": -3.92,
+    "coreRevenueCNYmillion": 260826.094,
+    "coreEBITCNYmillion": -6904.083,
+    "newRevenueCNYmillion": 104028.652,
+    "newEBITCNYmillion": -10082.34,
+    "unallocatedEBITCNYmillion": -8054.714,
+    "coreRevenue2024CNYmillion": 250247.496,
+    "coreEBIT2024CNYmillion": 52415.162,
+    "OCFCNYmillion": -13815.001,
+    "cashPPEAndIntangibleCNYmillion": 13270.708,
+    "FCFResearchProxyCNYmillion": -27085.709,
+    "leaseCashCNYmillion": 3334.579,
+    "FCFAfterLeaseResearchCNYmillion": -30420.288,
+    "SellingMarketingCNYmillion": 102934.044,
+    "RDCNYmillion": 25998.265,
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "basicEPSCNY": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY/share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY/share",
+        "status": "reported input"
+      },
+      "coreRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "newRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "newEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "unallocatedEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreRevenue2024CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBIT2024CNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "cashPPEAndIntangibleCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "leaseCashCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FCFAfterLeaseResearchCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "SellingMarketingCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RDCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+        "publicationDate": "2026-04-24官网年报；董事会日期2026-03-26",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1, Q2 specified by field suffix",
+    "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+    "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 195681.95,
+    "profitAttributableCNYmillion": -4672.487,
+    "groupProfitCNYmillion": -4672.036,
+    "adjustedGroupProfitCNYmillion": -2444.27,
+    "basicEPSCNY": -0.76,
+    "dilutedEPSCNY": -0.82,
+    "weightedBasicSharesMillion": 6118.848,
+    "weightedDilutedSharesMillion": 6118.848,
+    "EPSCaution": "亏损期集团期权RSU未纳入分母；联营股份激励对分子另减358.156m，未来正常盈利须单独摊薄股数",
+    "Q2RevenueCNYmillion": 104643.044,
+    "Q2OperatingProfitCNYmillion": 2691.166,
+    "Q2GroupProfitCNYmillion": 2155.222,
+    "Q2AdjustedGroupProfitCNYmillion": 2523.716,
+    "coreRevenueCNYmillion": 135593.841,
+    "coreEBITCNYmillion": 3638.333,
+    "newRevenueCNYmillion": 60088.109,
+    "newEBITCNYmillion": -3854.73,
+    "unallocatedEBITCNYmillion": -3562.248,
+    "Q2CoreRevenueCNYmillion": 71530.555,
+    "Q2CoreEBITCNYmillion": 5668.275,
+    "Q2NewRevenueCNYmillion": 33112.489,
+    "Q2NewEBITCNYmillion": -1738.915,
+    "Q2UnallocatedEBITCNYmillion": -1238.194,
+    "coreDeliveryRevenueCNYmillion": 50862.373,
+    "coreMerchantRevenueCNYmillion": 75239.037,
+    "coreProductRevenueCNYmillion": 6576.373,
+    "newProductRevenueCNYmillion": 41063.054,
+    "grossProfitCNYmillion": 61064.869,
+    "SellingMarketingCNYmillion": 47691.864,
+    "RDCNYmillion": 14713.143,
+    "GACNYmillion": 6176.463,
+    "SBCExpenseCNYmillion": 3301.589,
+    "SBCcapitalizedCNYmillion": 2.294,
+    "investmentFVTPLGainCNYmillion": 447.255,
+    "otherGainCNYmillion": 4092.643,
+    "investmentFVOCIGainCNYmillion": 22473.882,
+    "financeIncomeCNYmillion": 987.845,
+    "financeCostCNYmillion": 1593.342,
+    "associateProfitCNYmillion": -588.574,
+    "OCFCNYmillion": 2719.085,
+    "Q2OCFCNYmillion": 9733.444,
+    "cashPPEAndIntangibleCNYmillion": 6584.447,
+    "leaseCashCNYmillion": 1606.666,
+    "FCFResearchProxyCNYmillion": -3865.362,
+    "FCFAfterLeaseResearchCNYmillion": -5472.028,
+    "cashEquivalentsCNYmillion": 104716.797,
+    "shortTreasuryCNYmillion": 63597.373,
+    "longTreasuryCNYmillion": 128.672,
+    "restrictedCashCNYmillion": 21947.198,
+    "bankDebtCNYmillion": 42138.301,
+    "notesDebtCNYmillion": 46562.954,
+    "totalBankNotesDebtCNYmillion": 88701.255,
+    "leaseLiabilitiesCNYmillion": 7116.047,
+    "netCashEquivalentsResearchCNYmillion": 16015.542,
+    "netLiquidTreasuryResearchCNYmillion": 79741.587,
+    "tradePayablesCNYmillion": 39013.007,
+    "merchantPayablesCNYmillion": 27176.288,
+    "userAdvancesCNYmillion": 10299.685,
+    "inventoriesCNYmillion": 4155.077,
+    "receivablesCNYmillion": 3908.524,
+    "equityAttributableCNYmillion": 169206.46,
+    "PPECNYmillion": 43294.685,
+    "FVOCIInvestmentsCNYmillion": 36387.099,
+    "KeetaHKStatus": "主源称香港稳定盈利；中东环比效率改善，未称沙特整体已盈利",
+    "dingdongInitialPurchaseUSDmillion": 717,
+    "dingdongTerminationFeeUSDmillion": [
+      75,
+      150
+    ],
+    "dingdongStatus": "截至中报日期需监管审批及其他交割条件；不宣称截至截止日已完成",
+    "capitalCommitmentPPECNYmillion": 3994.799,
+    "capitalCommitmentInvestmentCNYmillion": 1318.193,
+    "interimDividend": 0,
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "basicEPSCNY": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY/share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY/share",
+        "status": "reported input"
+      },
+      "weightedBasicSharesMillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million shares",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "million shares",
+        "status": "reported input"
+      },
+      "Q2RevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2OperatingProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2GroupProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2AdjustedGroupProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "newRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "newEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "unallocatedEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2CoreRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2CoreEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2NewRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2NewEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2UnallocatedEBITCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreDeliveryRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreMerchantRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreProductRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "newProductRevenueCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SellingMarketingCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RDCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "GACNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBCExpenseCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBCcapitalizedCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentFVTPLGainCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "otherGainCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentFVOCIGainCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeIncomeCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeCostCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associateProfitCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "Q2OCFCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026Q2",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "cashPPEAndIntangibleCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseCashCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "FCFAfterLeaseResearchCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "cashEquivalentsCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "shortTreasuryCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "longTreasuryCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "restrictedCashCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "bankDebtCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "notesDebtCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "totalBankNotesDebtCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "netCashEquivalentsResearchCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "netLiquidTreasuryResearchCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "research calculation from primary inputs"
+      },
+      "tradePayablesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "merchantPayablesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "userAdvancesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "inventoriesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "receivablesCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "equityAttributableCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PPECNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVOCIInvestmentsCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "dingdongInitialPurchaseUSDmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "USD",
+        "unit": "USD million",
+        "status": "reported input"
+      },
+      "dingdongTerminationFeeUSDmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "USD",
+        "unit": "USD million",
+        "status": "reported input"
+      },
+      "capitalCommitmentPPECNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capitalCommitmentInvestmentCNYmillion": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interimDividend": {
+        "sourceURL": "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+        "publicationDate": "2026-09-29官网中报；Q2结果2026-08-28 17:31闭市后",
+        "period": "2026H1",
+        "currency": null,
+        "unit": "number as field",
+        "status": "reported input"
+      }
+    }
+  },
+  "shareCapital": {
+    "period": "2026-09-30",
+    "publicationDate": "2026-10-07",
+    "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+    "currency": null,
+    "unit": "shares",
+    "issuedListedBShares": 5596355247,
+    "issuedUnlistedAShares": 579152986,
+    "totalIssuedResearchShares": 6175508233,
+    "treasuryShares": 0,
+    "uncancelledRepurchaseShares": 2924800,
+    "caution": "未注销回购仍在总发行数；A类未上市而共享经济权益，不以B类股数算公司每股盈利",
+    "fieldMetadata": {
+      "issuedListedBShares": {
+        "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+        "publicationDate": "2026-10-07",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input"
+      },
+      "issuedUnlistedAShares": {
+        "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+        "publicationDate": "2026-10-07",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input"
+      },
+      "totalIssuedResearchShares": {
+        "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+        "publicationDate": "2026-10-07",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "shares",
+        "status": "research calculation from primary inputs"
+      },
+      "treasuryShares": {
+        "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+        "publicationDate": "2026-10-07",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input"
+      },
+      "uncancelledRepurchaseShares": {
+        "sourceURL": "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+        "publicationDate": "2026-10-07",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margins ratio; shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 3,
+    "normalization": "核心收入含外卖闪购到店酒旅；分部利润扣全部常态企业研发管理SBC后税后经营价值，排除净利息投资公允价值；新业务整体EV已含小象快驴海外无人配送等，过渡现金亏损另扣，不再另加海外和战略投资期权；可分配净资金低于流动财资扣银行票据债务，保留运营现金、租赁经济成本、收购与资本承诺。",
+    "yearEnd": {
+      "coreRevenue": [
+        280,
+        305,
+        325
+      ],
+      "coreEBITMargin": [
+        0.065,
+        0.115,
+        0.16
+      ],
+      "corporateCost": [
+        8,
+        8,
+        8.5
+      ],
+      "newRevenue": [
+        110,
+        130,
+        150
+      ],
+      "newEVSales": [
+        0.15,
+        0.35,
+        0.65
+      ],
+      "netDistributableTreasury": [
+        50,
+        65,
+        75
+      ],
+      "transitionFundingPV": [
+        25,
+        20,
+        12
+      ],
+      "ownerProfitShare": [
+        0.99,
+        0.995,
+        0.995
+      ],
+      "dilutedShares": [
+        6.32,
+        6.25,
+        6.22
+      ]
+    },
+    "halfYear": {
+      "coreRevenue": [
+        280,
+        320,
+        350
+      ],
+      "coreEBITMargin": [
+        0.065,
+        0.13,
+        0.175
+      ],
+      "corporateCost": [
+        8.5,
+        8.5,
+        9
+      ],
+      "newRevenue": [
+        110,
+        145,
+        175
+      ],
+      "newEVSales": [
+        0.15,
+        0.38,
+        0.7
+      ],
+      "netDistributableTreasury": [
+        45,
+        65,
+        80
+      ],
+      "transitionFundingPV": [
+        30,
+        20,
+        10
+      ],
+      "ownerProfitShare": [
+        0.99,
+        0.995,
+        0.995
+      ],
+      "dilutedShares": [
+        6.38,
+        6.26,
+        6.22
+      ]
+    },
+    "oneYear": {
+      "coreRevenue": [
+        295,
+        345,
+        390
+      ],
+      "coreEBITMargin": [
+        0.075,
+        0.15,
+        0.19
+      ],
+      "corporateCost": [
+        9,
+        9,
+        9.5
+      ],
+      "newRevenue": [
+        118,
+        165,
+        210
+      ],
+      "newEVSales": [
+        0.18,
+        0.45,
+        0.8
+      ],
+      "netDistributableTreasury": [
+        40,
+        70,
+        90
+      ],
+      "transitionFundingPV": [
+        28,
+        18,
+        8
+      ],
+      "ownerProfitShare": [
+        0.99,
+        0.995,
+        0.995
+      ],
+      "dilutedShares": [
+        6.5,
+        6.28,
+        6.2
+      ]
+    },
+    "threeYear": {
+      "coreRevenue": [
+        320,
+        450,
+        560
+      ],
+      "coreEBITMargin": [
+        0.08,
+        0.17,
+        0.215
+      ],
+      "corporateCost": [
+        11,
+        11,
+        12
+      ],
+      "newRevenue": [
+        135,
+        230,
+        350
+      ],
+      "newEVSales": [
+        0.2,
+        0.55,
+        1
+      ],
+      "netDistributableTreasury": [
+        25,
+        95,
+        150
+      ],
+      "transitionFundingPV": [
+        12,
+        10,
+        5
+      ],
+      "ownerProfitShare": [
+        0.99,
+        0.995,
+        0.995
+      ],
+      "dilutedShares": [
+        6.9,
+        6.3,
+        6.15
+      ]
+    },
+    "fiveYear": {
+      "coreRevenue": [
+        330,
+        560,
+        750
+      ],
+      "coreEBITMargin": [
+        0.09,
+        0.18,
+        0.225
+      ],
+      "corporateCost": [
+        13,
+        13,
+        15
+      ],
+      "newRevenue": [
+        145,
+        300,
+        500
+      ],
+      "newEVSales": [
+        0.2,
+        0.6,
+        1.1
+      ],
+      "netDistributableTreasury": [
+        20,
+        130,
+        250
+      ],
+      "transitionFundingPV": [
+        8,
+        6,
+        3
+      ],
+      "ownerProfitShare": [
+        0.99,
+        0.995,
+        0.995
+      ],
+      "dilutedShares": [
+        7.3,
+        6.35,
+        6.1
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "coreOperatingEPSCNY": [
+        1.278,
+        3.448,
+        5.567
+      ],
+      "epsCNY": [
+        1.278,
+        3.448,
+        5.567
+      ],
+      "EPSDefinition": "核心业务税后经营每股，不是集团归母EPS；亏损核心价值置零，仅单独正新业务资产与净资金价值可用，不存在负EPS×正PE的负目标价",
+      "PE": [
+        16,
+        22,
+        26
+      ],
+      "newEVSales": [
+        0.15,
+        0.35,
+        0.65
+      ],
+      "priceHKD": [
+        29.72,
+        99.37,
+        187.6
+      ],
+      "priceReturnPct": [
+        -58.43356643356643,
+        38.979020979020994,
+        162.37762237762237
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -58.43356643356643,
+        38.979020979020994,
+        162.37762237762237
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 104.015,
+      "expectedReturnPct": 45.47552447552447,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 80.333,
+        "defensiveReturnPct": 12.35384615384616,
+        "positivePrice": 127.697,
+        "positiveReturnPct": 78.5972027972028
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "coreOperatingEPSCNY": [
+        1.204,
+        4.209,
+        6.687
+      ],
+      "epsCNY": [
+        1.204,
+        4.209,
+        6.687
+      ],
+      "EPSDefinition": "核心业务税后经营每股，不是集团归母EPS；亏损核心价值置零，仅单独正新业务资产与净资金价值可用，不存在负EPS×正PE的负目标价",
+      "PE": [
+        15,
+        22,
+        27
+      ],
+      "newEVSales": [
+        0.15,
+        0.38,
+        0.7
+      ],
+      "priceHKD": [
+        25.3,
+        119.45,
+        232.65
+      ],
+      "priceReturnPct": [
+        -64.61538461538461,
+        67.06293706293707,
+        225.3846153846154
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -64.61538461538461,
+        67.06293706293707,
+        225.3846153846154
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "coreOperatingEPSCNY": [
+        1.599,
+        5.419,
+        8.294
+      ],
+      "epsCNY": [
+        1.599,
+        5.419,
+        8.294
+      ],
+      "EPSDefinition": "核心业务税后经营每股，不是集团归母EPS；亏损核心价值置零，仅单独正新业务资产与净资金价值可用，不存在负EPS×正PE的负目标价",
+      "PE": [
+        14,
+        22,
+        28
+      ],
+      "newEVSales": [
+        0.18,
+        0.45,
+        0.8
+      ],
+      "priceHKD": [
+        30.25,
+        153.25,
+        299.81
+      ],
+      "priceReturnPct": [
+        -57.692307692307686,
+        114.33566433566433,
+        319.31468531468533
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -57.692307692307686,
+        114.33566433566433,
+        319.31468531468533
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "coreOperatingEPSCNY": [
+        1.676,
+        8.276,
+        14.03
+      ],
+      "epsCNY": [
+        1.676,
+        8.276,
+        14.03
+      ],
+      "EPSDefinition": "核心业务税后经营每股，不是集团归母EPS；亏损核心价值置零，仅单独正新业务资产与净资金价值可用，不存在负EPS×正PE的负目标价",
+      "PE": [
+        12,
+        22,
+        28
+      ],
+      "newEVSales": [
+        0.2,
+        0.55,
+        1
+      ],
+      "priceHKD": [
+        28.5,
+        237.21,
+        520.66
+      ],
+      "priceReturnPct": [
+        -60.13986013986015,
+        231.7622377622378,
+        628.1958041958042
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -60.13986013986015,
+        231.7622377622378,
+        628.1958041958042
+      ],
+      "baseAnnualizedTotalReturnPct": 49.14509802383438
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "coreOperatingEPSCNY": [
+        1.812,
+        11.006,
+        20.063
+      ],
+      "epsCNY": [
+        1.812,
+        11.006,
+        20.063
+      ],
+      "EPSDefinition": "核心业务税后经营每股，不是集团归母EPS；亏损核心价值置零，仅单独正新业务资产与净资金价值可用，不存在负EPS×正PE的负目标价",
+      "PE": [
+        10,
+        20,
+        26
+      ],
+      "newEVSales": [
+        0.2,
+        0.6,
+        1.1
+      ],
+      "priceHKD": [
+        26.11,
+        294.79,
+        717.52
+      ],
+      "priceReturnPct": [
+        -63.48251748251747,
+        312.2937062937063,
+        903.5244755244754
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -63.48251748251747,
+        312.2937062937063,
+        903.5244755244754
+      ],
+      "baseAnnualizedTotalReturnPct": 32.75208201601929
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.4,
+        1.8,
+        3.5,
+        3.6,
+        3.8,
+        3.2
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.5
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        1.8,
+        3.8,
+        3.8,
+        3.8,
+        3.2
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 68.8
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4,
+        4,
+        3.7,
+        3.2
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 75.9
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4.1,
+        4,
+        3.7,
+        3.1
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 77.8
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 72.3075,
+      "60": 81.126667,
+      "120": 80.032917,
+      "250": 87.3478
+    },
+    "maSlope5Pct": {
+      "20": -2.851672,
+      "60": -1.096199,
+      "120": -0.832253,
+      "250": -0.743167
+    },
+    "priceVsMAPct": {
+      "20": -1.116758,
+      "60": -11.866218,
+      "120": -10.661759,
+      "250": -18.143331
+    },
+    "returnPct": {
+      "20": -4.347826,
+      "60": -18.004584,
+      "120": -17.34104,
+      "250": -32.419662
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 108,
+    "low52w": 63.650002,
+    "distanceFrom52wHighPct": -33.796296,
+    "distanceFrom52wLowPct": 12.333068,
+    "maxDrawdown52wPct": -39.44392,
+    "RSI14": 41.110259,
+    "ATR14": 2.231376,
+    "ATR14Pct": 3.120805,
+    "MACD": {
+      "DIF": -2.369773,
+      "DEA": -2.599596,
+      "histogram": 0.459646,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 16822167,
+      "20": 20888698.15,
+      "60": 37203794.633
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.084333,
+    "previous20MeanVolume": 22065987.7,
+    "upDownVolume20": {
+      "upVolume": 177697439,
+      "downVolume": 240076524,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.74017
+    },
+    "ranges": {
+      "20": {
+        "support": 68.800003,
+        "resistance": 76.300003,
+        "toSupportPct": -3.77622,
+        "toResistancePct": 6.713291,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 68.800003,
+        "resistance": 96.449997,
+        "toSupportPct": -3.77622,
+        "toResistancePct": 34.895101,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 78.289999,
+      "60": 88.7475,
+      "120": 116.73875,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -3.223215,
+      "60": -4.663134,
+      "120": -1.414879,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -8.672882,
+      "60": -19.43435,
+      "120": -38.752128,
+      "250": null
+    },
+    "returnPct": {
+      "20": -12.108172,
+      "60": -41.248971,
+      "120": -38.468157,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 108,
+    "low52w": 63.650002,
+    "distanceFrom52wHighPct": -33.796296,
+    "distanceFrom52wLowPct": 12.333068,
+    "maxDrawdown52wPct": -38.575525,
+    "RSI14": 40.737077,
+    "ATR14": 7.094708,
+    "ATR14Pct": 9.922668,
+    "MACD": {
+      "DIF": -3.629512,
+      "DEA": -2.86957,
+      "histogram": -1.519884,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 108221613.6,
+      "20": 222292122.2,
+      "60": 242092618.083
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.370211,
+    "previous20MeanVolume": 227197230.5,
+    "upDownVolume20": {
+      "upVolume": 2244585448,
+      "downVolume": 2201256996,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 1.019684
+    },
+    "ranges": {
+      "20": {
+        "support": 63.650002,
+        "resistance": 96.449997,
+        "toSupportPct": -10.979018,
+        "toResistancePct": 34.895101,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 63.650002,
+        "resistance": 124.300003,
+        "toSupportPct": -10.979018,
+        "toResistancePct": 73.846158,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -1.369918,
+    "excess60Pct": -14.816681,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -1.284662,
+    "industryExcess60Pct": -4.836565
+  },
+  "brokerTargets": [
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "摩根士丹利",
+      "targetPrice": 110,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "增持",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542154/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "花旗",
+      "targetPrice": 120,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542098/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "里昂",
+      "targetPrice": 115,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "跑赢大市",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542097/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "野村",
+      "targetPrice": 118,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542087/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "麦格理",
+      "targetPrice": 107,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "跑赢大市",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542039/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "摩根大通",
+      "targetPrice": 100,
+      "currency": "HKD",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "rating": "增持",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542038/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    },
+    {
+      "issuerId": "I078",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "institution": "高盛",
+      "targetPrice": 123,
+      "currency": "HKD",
+      "publicationDate": "2026-08-10",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1537376/research-report",
+      "sourceType": "公开新闻转述，主体及新目标已人工核对",
+      "verified": true,
+      "institutionOwnership": "外资",
+      "notes": null
+    }
+  ],
+  "confidence": {
+    "financial": "高，审计年报及中报原文",
+    "technical": "高，锁定双源日线",
+    "valuation": "中低，竞争正常化和新业务终值高度敏感",
+    "broker": "中，新闻转述且期限未公开"
+  },
+  "sources": [
+    "https://media-meituan.todayir.com/20260929060801160312349730_en.pdf",
+    "https://media-meituan.todayir.com/20260424065602168712120049_en.pdf",
+    "https://media-meituan.todayir.com/202608281731561718399005_en.pdf",
+    "https://media-meituan.todayir.com/2026100716400177912365034_en.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542154/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542098/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542097/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542087/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542039/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1542038/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03690/AAFN/NOW.1537376/research-report"
+  ],
+  "activeScenario": "base",
+  "scenarioSnapshotDate": "2026-10-09",
+  "refreshPolicy": "单活动SOTP模型，依次切换悲观基准乐观保存快照；输入变化必须标待刷新，不自动沿用旧价格",
+  "gaps": [
+    "外资原始研报及大部分目标期限未取得",
+    "未取得精确按业务和国家的订单、UE和现金流分拆",
+    "叮咚交割截止日状态未完成独立更新核验",
+    "换手率未取得可靠自由流通分母",
+    "长期路径为假设，未公开公司五年盈利预测"
+  ],
+  "severeStress": "若核心长期无经营利润、净资金耗尽且融资持续，股权可接近零；另列压力路径，不用负EPS乘PE，不作为默认悲观情景或最大损失边界。"
+}

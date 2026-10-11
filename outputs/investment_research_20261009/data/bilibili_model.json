@@ -1,0 +1,1790 @@
+{
+  "issuerId": "I073",
+  "securityId": "S084",
+  "code": "09626.HK",
+  "name": "哔哩哔哩-W",
+  "deepResearchFile": "research/bilibili_deep.md",
+  "asOf": "2026-10-09",
+  "price": 120.4,
+  "currency": "HKD",
+  "modelVersion": "bilibili-normalized-content-games-dilution-v1.0",
+  "status": "deep-research-complete-pending-document-integration",
+  "targetPriceRoundingDecimals": 2,
+  "method": "广告+VAS+游戏+IP收入合计×正常合并EBIT率×税后因子+税后融资联营少数股东与分子储备净项，除经济摊薄普通股×PE×1.10；保留持续SBC和AI折旧，不另加全现金、子公司或AI价值",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "HKDperUSD": 7.8,
+    "note": "研究假设非已核即期"
+  },
+  "operatingBridge": {
+    "unit": "CNY billion revenue/profit; ordinary diluted shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 6,
+    "normalization": "revenue为广告/VAS/游戏/IP总和，各收入不重复；合并正常EBIT率充分扣直接创作者内容分成、服务器、版权摊销、营销买量、常态研发折旧及SBC，不把调整利润全面剔SBC；afterTaxInterestAssociatesNet为有限税后财资融资/联营/NCI及EPS分子储备净项，不是披露单一字段；未来分母含2030与已发2031转换及期权/RSU/拟腾讯方案的概率条件储备，法定分母与经济分母不同；普通模型偏股份转换，不再额外加全行权/发债现金或同债务扣值；现金赎回必须同步还原股数、扣现金与再融资，不能混合有利路线",
+    "yearEnd": {
+      "revenue": [
+        31.099999999999998,
+        35.5,
+        39.2
+      ],
+      "EBITMargin": [
+        0.035,
+        0.087,
+        0.115
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.08,
+        0.12,
+        0.18
+      ],
+      "dilutedShares": [
+        0.5,
+        0.475,
+        0.47
+      ]
+    },
+    "halfYear": {
+      "revenue": [
+        30.500000000000004,
+        37.4,
+        42.9
+      ],
+      "EBITMargin": [
+        0.028,
+        0.095,
+        0.125
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.12,
+        0.13,
+        0.2
+      ],
+      "dilutedShares": [
+        0.508,
+        0.478,
+        0.47
+      ]
+    },
+    "oneYear": {
+      "revenue": [
+        30.6,
+        40.50000000000001,
+        48.800000000000004
+      ],
+      "EBITMargin": [
+        0.025,
+        0.108,
+        0.14
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.15,
+        0.14,
+        0.22
+      ],
+      "dilutedShares": [
+        0.52,
+        0.482,
+        0.47
+      ]
+    },
+    "threeYear": {
+      "revenue": [
+        30.7,
+        50.8,
+        67.3
+      ],
+      "EBITMargin": [
+        0.018,
+        0.14,
+        0.185
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.2,
+        0.18,
+        0.3
+      ],
+      "dilutedShares": [
+        0.56,
+        0.49,
+        0.47
+      ]
+    },
+    "fiveYear": {
+      "revenue": [
+        30.6,
+        60.5,
+        91.4
+      ],
+      "EBITMargin": [
+        0.012,
+        0.155,
+        0.21
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.25,
+        0.22,
+        0.38
+      ],
+      "dilutedShares": [
+        0.605,
+        0.505,
+        0.48
+      ]
+    }
+  },
+  "businessRevenueAssumptions": {
+    "yearEnd": {
+      "advertising": [
+        12,
+        14,
+        15.5
+      ],
+      "VAS": [
+        12.4,
+        13,
+        13.5
+      ],
+      "games": [
+        5,
+        6.5,
+        8
+      ],
+      "IPOther": [
+        1.7,
+        2,
+        2.2
+      ],
+      "EBITMargin": [
+        0.035,
+        0.087,
+        0.115
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.08,
+        0.12,
+        0.18
+      ],
+      "dilutedShares": [
+        0.5,
+        0.475,
+        0.47
+      ]
+    },
+    "halfYear": {
+      "advertising": [
+        11.8,
+        14.7,
+        17
+      ],
+      "VAS": [
+        12.3,
+        13.4,
+        14
+      ],
+      "games": [
+        4.8,
+        7.3,
+        9.5
+      ],
+      "IPOther": [
+        1.6,
+        2,
+        2.4
+      ],
+      "EBITMargin": [
+        0.028,
+        0.095,
+        0.125
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.12,
+        0.13,
+        0.2
+      ],
+      "dilutedShares": [
+        0.508,
+        0.478,
+        0.47
+      ]
+    },
+    "oneYear": {
+      "advertising": [
+        12,
+        16.1,
+        19.3
+      ],
+      "VAS": [
+        12.4,
+        14.1,
+        15.4
+      ],
+      "games": [
+        4.6,
+        8.2,
+        11.5
+      ],
+      "IPOther": [
+        1.6,
+        2.1,
+        2.6
+      ],
+      "EBITMargin": [
+        0.025,
+        0.108,
+        0.14
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.15,
+        0.14,
+        0.22
+      ],
+      "dilutedShares": [
+        0.52,
+        0.482,
+        0.47
+      ]
+    },
+    "threeYear": {
+      "advertising": [
+        12.5,
+        22,
+        29
+      ],
+      "VAS": [
+        12.7,
+        16.3,
+        19
+      ],
+      "games": [
+        4,
+        10,
+        16
+      ],
+      "IPOther": [
+        1.5,
+        2.5,
+        3.3
+      ],
+      "EBITMargin": [
+        0.018,
+        0.14,
+        0.185
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.2,
+        0.18,
+        0.3
+      ],
+      "dilutedShares": [
+        0.56,
+        0.49,
+        0.47
+      ]
+    },
+    "fiveYear": {
+      "advertising": [
+        12.8,
+        27.5,
+        41
+      ],
+      "VAS": [
+        13,
+        18.5,
+        24
+      ],
+      "games": [
+        3.5,
+        11.5,
+        22
+      ],
+      "IPOther": [
+        1.3,
+        3,
+        4.4
+      ],
+      "EBITMargin": [
+        0.012,
+        0.155,
+        0.21
+      ],
+      "afterTaxInterestAssociatesNet": [
+        -0.25,
+        0.22,
+        0.38
+      ],
+      "dilutedShares": [
+        0.605,
+        0.505,
+        0.48
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        1.5816,
+        5.454316,
+        8.05617
+      ],
+      "PE": [
+        12,
+        23,
+        28
+      ],
+      "priceHKD": [
+        20.88,
+        137.99,
+        248.13
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "广告预算及游戏兑现偏弱，AI投入压利润、技术反弹未确认",
+        "广告效率与新游戏改善逐步验证，保留SBC、折旧及经济稀释",
+        "新游戏强于预期、广告和社区稳定，市场风险溢价降低"
+      ],
+      "priceReturnPct": [
+        -82.65780730897009,
+        14.60963455149502,
+        106.08803986710961
+      ],
+      "totalReturnPct": [
+        -82.65780730897009,
+        14.60963455149502,
+        106.08803986710961
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 136.2475,
+      "expectedReturnPct": 13.16237541528238,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 102.16000000000001,
+        "positivePrice": 170.335,
+        "defensiveReturnPct": -15.14950166112956,
+        "positiveReturnPct": 41.474252491694344
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.108661,
+        6.21841,
+        9.553191
+      ],
+      "PE": [
+        11,
+        23,
+        28
+      ],
+      "priceHKD": [
+        13.41,
+        157.33,
+        294.24
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "旧游戏衰减、买量与服务器成本较高，新增收入难抵消",
+        "新年度利润验证，广告与新游戏增长覆盖AI和内容投入",
+        "游戏跨类型成功、商业库存效率提升且单位内容成本改善"
+      ],
+      "priceReturnPct": [
+        -88.86212624584718,
+        30.672757475083067,
+        144.38538205980066
+      ],
+      "totalReturnPct": [
+        -88.86212624584718,
+        30.672757475083067,
+        144.38538205980066
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.888462,
+        7.550207,
+        12.097021
+      ],
+      "PE": [
+        10,
+        22,
+        28
+      ],
+      "priceHKD": [
+        9.77,
+        182.72,
+        372.59
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "广告增速明显放缓，游戏与社区变现不足，资金与股数压力",
+        "广告游戏较均衡扩张，持续SBC和AI折旧后正常合并EBIT率10.8%",
+        "社区和搜索变现、新游戏长尾均较强，费用纪律稳"
+      ],
+      "priceReturnPct": [
+        -91.88538205980066,
+        51.760797342192674,
+        209.4601328903654
+      ],
+      "totalReturnPct": [
+        -91.88538205980066,
+        51.760797342192674,
+        209.4601328903654
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.432286,
+        11.978776,
+        21.830638
+      ],
+      "PE": [
+        9,
+        21,
+        27
+      ],
+      "priceHKD": [
+        4.28,
+        276.71,
+        648.37
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1,
+        3
+      ],
+      "conditions": [
+        "社区份额、游戏长尾与现金回报弱，可转债现金赎回压力",
+        "广告和游戏成长支撑规模效应，资本投入与稀释受控",
+        "形成持续游戏产品组合和高价值内容社区，利润率长期扩张"
+      ],
+      "priceReturnPct": [
+        -96.44518272425249,
+        129.8255813953488,
+        438.51328903654485
+      ],
+      "totalReturnPct": [
+        -96.44518272425249,
+        130.656146179402,
+        441.00498338870426
+      ],
+      "annualizedTotalReturnPct": [
+        -67.11944844302616,
+        32.12601720194541,
+        75.54983348366515
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.072331,
+        15.291089,
+        32.781667
+      ],
+      "PE": [
+        8,
+        19,
+        25
+      ],
+      "priceHKD": [
+        0.64,
+        319.58,
+        901.5
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        4,
+        10
+      ],
+      "conditions": [
+        "AI同质内容及平台竞争削弱长期收费，融资稀释侵蚀股权",
+        "平台持续信任与现金质量，成熟估值下降而经营扩张",
+        "内容与游戏平台成为高效商业生态，新形式扩展用户与收入"
+      ],
+      "priceReturnPct": [
+        -99.46843853820599,
+        165.43189368770763,
+        648.7541528239202
+      ],
+      "totalReturnPct": [
+        -99.46843853820599,
+        168.75415282392026,
+        657.0598006644518
+      ],
+      "annualizedTotalReturnPct": [
+        -64.91587114330683,
+        21.862767509587155,
+        49.90842358660961
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.5,
+        2.5,
+        3.6,
+        3.5,
+        4,
+        2.9
+      ],
+      "total": 64.1,
+      "evidence": [
+        "正常盈利改善有上行，悲观与AI成本很重",
+        "日线短弹低多数下降均线，未放量与60日跑输",
+        "广告增长强，游戏旧高基数，保留SBC后利润仍不厚",
+        "年轻内容与消费广告空间，预算周期压力",
+        "新游戏与EGM及后续季度财报可验证",
+        "可转债put、AI设备现金及SBC经济稀释"
+      ],
+      "confidence": "中：行情/报表高，分部正常利润率、游戏成功、AI回报和未来股数中低"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        2.7,
+        3.8,
+        3.6,
+        4,
+        2.9
+      ],
+      "total": 70.7,
+      "evidence": [
+        "广告游戏双增长可带正常利润提升，PE假设需现金",
+        "中期弱于市场，技术得分仍偏低",
+        "社区粘性支持获客广告，买量及内容分成需控制",
+        "消费与创作者生态，竞争限制广告负荷",
+        "游戏上线至长尾可在一年验证，现金也更可见",
+        "发债现金与股份转换不能双得有利，资本投入风险"
+      ],
+      "confidence": "中：行情/报表高，分部正常利润率、游戏成功、AI回报和未来股数中低"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.9,
+        2.7,
+        4,
+        3.9,
+        3.8,
+        2.8
+      ],
+      "total": 75.2,
+      "evidence": [
+        "利润率提高与成长贡献，估值倍数适度下降",
+        "只给低权重，不借短弹推三年",
+        "忠诚社区和产品组合，现金及SBC正常成本保留",
+        "优质内容与游戏仍有空间，AI同质化双向",
+        "广告效率和游戏管线但具体成功无法保证",
+        "2028/29两次持有人现金put和内容投资风险"
+      ],
+      "confidence": "中：行情/报表高，分部正常利润率、游戏成功、AI回报和未来股数中低"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.7,
+        2.6,
+        4,
+        3.8,
+        3.6,
+        2.7
+      ],
+      "total": 73.7,
+      "evidence": [
+        "成熟倍数下降，回报依赖经营增长",
+        "按方案技术权重零",
+        "社区信任、广告效率和游戏组织持续性",
+        "线上娱乐空间但竞争与监管长期限制",
+        "新形态与IP运营有机会而非既定成功",
+        "长期股数、代理内容版权、治理和周期风险提高权重"
+      ],
+      "confidence": "中：行情/报表高，分部正常利润率、游戏成功、AI回报和未来股数中低"
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+    "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 30347.766,
+    "revenue2024": 26831.525,
+    "revenue2023": 22527.987,
+    "grossProfit": 11114.112,
+    "EBIT": 1124.451,
+    "groupProfit": 1190.941,
+    "ownerProfit": 1193.531,
+    "ownerProfit2024": -1346.8,
+    "ownerProfit2023": -4822.321,
+    "EPSCNY": 2.74,
+    "SBC": 1170.535,
+    "advertising": 10058.43,
+    "VAS": 11928.286,
+    "games": 6394.638,
+    "IPOther": 1966.412,
+    "adjustedGroupProfit": 2587.538,
+    "OCF": 7147.108,
+    "OCF2024": 6014.854,
+    "OCF2023": 266.622,
+    "PPECapex": 512.858,
+    "intangibleCapex": 1314.441,
+    "afterCashCapexProxy": 5319.809,
+    "nonCashPPEAddition": 183.095,
+    "nonCashIntangibleAddition": 686.486,
+    "leaseLiability": 183.153,
+    "interestCash": 125.109,
+    "note": "ASC842 operating lease cash and paid interest already OCF，不再次扣融资租赁本金；非现金采购为未来支付压力非本期再次现金扣",
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2024": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2023": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EBIT": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit2024": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit2023": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "advertising": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "VAS": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "games": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "IPOther": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF2024": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF2023": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PPECapex": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "intangibleCapex": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCashCapexProxy": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "nonCashPPEAddition": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "nonCashIntangibleAddition": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseLiability": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestCash": {
+        "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+        "period": "FY2025",
+        "publicationDate": "全年结果2026-03-05；20-F官网2026-04-16",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "interim": {
+    "period": "H1 2026 ended 2026-06-30",
+    "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+    "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 15411.958,
+    "revenuePrior": 14340.938,
+    "advertising": 5719.547,
+    "VAS": 5879.9,
+    "games": 2914.454,
+    "IPOther": 898.057,
+    "grossProfit": 5728.196,
+    "EBIT": 539.625,
+    "groupProfit": 541.071,
+    "ownerProfit": 553.508,
+    "adjustedGroupProfit": 1289.057,
+    "adjustedOwnerProfit": 1301.494,
+    "SBC": 599.101,
+    "RD": 1929.753,
+    "sellingMarketing": 2215.303,
+    "generalAdmin": 1043.515,
+    "OCF": 2952.457,
+    "OCFPrior": 3291.36,
+    "PPECapex": 1219.708,
+    "intangibleCapex": 738.135,
+    "afterCashCapexProxy": 994.614,
+    "nonCashPPEAddition": 736.995,
+    "nonCashIntangibleAddition": 473.978,
+    "cashEquivalent": 5163.796,
+    "timeDeposits": 9766.542,
+    "shortInvestments": 9369.368,
+    "totalCashDepositsInvestments": 24299.706,
+    "shortLoansCurrentDebt": 4878.643,
+    "longDebt": 4635.647,
+    "liquidLessDebtProxy": 14785.416,
+    "deferredRevenue": 4636.24,
+    "accountsPayable": 6283.459,
+    "receivable": 1681.119,
+    "shareRepurchaseCash": 687.976,
+    "basicEPSCNY": 1.32,
+    "dilutedEPSCNY": 1.25,
+    "weightedBasicSharesBn": 0.418956516,
+    "weightedDilutedSharesBn": 0.45651331,
+    "netInterest": 131.841,
+    "exchangeLoss": 164.226,
+    "investmentLoss": 9.551,
+    "note": "liquidLessDebtProxy不是可分配现金，扣全部银行及债账面但未扣履约、运营、限制、未来capex等；不能另加正常PE",
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenuePrior": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "advertising": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "VAS": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "games": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "IPOther": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EBIT": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfit": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedOwnerProfit": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "sellingMarketing": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "generalAdmin": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCFPrior": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "PPECapex": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "intangibleCapex": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCashCapexProxy": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "nonCashPPEAddition": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "nonCashIntangibleAddition": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "cashEquivalent": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "timeDeposits": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "shortInvestments": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "totalCashDepositsInvestments": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "shortLoansCurrentDebt": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "longDebt": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "liquidLessDebtProxy": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "deferredRevenue": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "accountsPayable": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "receivable": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "shareRepurchaseCash": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "basicEPSCNY": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "weightedBasicSharesBn": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesBn": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "netInterest": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "exchangeLoss": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentLoss": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "Q2/H1公告2026-08-27；中报文件2026-09-24，Euroland原始1790265624000时区未核",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "quarter": {
+    "period": "Q2 2026",
+    "publicationDate": "2026-08-27",
+    "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 7939.923,
+    "advertising": 3130.759,
+    "VAS": 2967.415,
+    "games": 1391.902,
+    "IPOther": 449.847,
+    "grossProfit": 2954.956,
+    "EBIT": 372.87,
+    "groupProfit": 339.076,
+    "ownerProfit": 343.729,
+    "adjustedGroupProfit": 703.627,
+    "adjustedOwnerProfit": 708.28,
+    "SBC": 282.688,
+    "RD": 1008.646,
+    "serverDepreciationReason": "公司称研发增加主要服务器折旧上升",
+    "DAUmillion": 116.5,
+    "MAUroundedMillion": 371,
+    "timeSpentMinutes": 113,
+    "basicEPSCNY": 0.82,
+    "dilutedEPSCNY": 0.78,
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "advertising": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "VAS": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "games": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "IPOther": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EBIT": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedOwnerProfit": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "DAUmillion": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "million users",
+        "status": "reported input"
+      },
+      "MAUroundedMillion": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "million users",
+        "status": "reported input"
+      },
+      "timeSpentMinutes": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "minutes per day",
+        "status": "reported input"
+      },
+      "basicEPSCNY": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+        "period": "Q2 2026",
+        "publicationDate": "2026-08-27",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      }
+    }
+  },
+  "capital": {
+    "period": "September2026 month",
+    "publicationDate": "2026-10-08提交；原始1791432360000保留未核时区",
+    "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193029/HKEX-EPS_20261008_12366371_0.PDF",
+    "Y": 79700010,
+    "Z": 340434736,
+    "totalYPlusZ": 420134746,
+    "treasury": 0,
+    "bulkAwardReservedExcludedZ": 4899364,
+    "deltaRepurchasePendingCancellation": 6795540,
+    "CB2030OutstandingUSDmillion": 690,
+    "CB2030ConversionShares": 29100561,
+    "CB2031OutstandingUSDmillion": 500,
+    "CB2031ConversionShares": 25168700,
+    "TencentProposedAdditionalUSDmillion": 200,
+    "TencentProposedRepurchaseShares": 13591090,
+    "TencentProposalNotCompleted": true,
+    "EGM": "2026-10-28 16:30 Hong Kong",
+    "CB2031ConversionHKD": 155.79,
+    "CB2031Maturity": "2031-09-15",
+    "CB2031HolderCashPut": "2029-09-15",
+    "CB2030ConversionHKD": 185.63,
+    "CB2030HolderCashPut": "2028-06-01",
+    "CB2030Maturity": "2030-06-01",
+    "CB2031RegularCoupon": 0,
+    "CB2030Coupon": 0.00625,
+    "CB2031MaxFull700mShares": 35236180,
+    "secondaryTencentPlacementShares": 26374900,
+    "deltaBorrowedPlacementShares": 6976760,
+    "equityPlacementHKD": 115.38,
+    "note": "secondary及借股配售未新发股、公司无配股筹资；5亿美元市场CB和1亿美元delta回购9/9完成，腾讯2亿债和2亿回购未完成；pending取消股份仍月报注册余额内；经济分母条件扣回购加潜在转换与激励，不把未来转换说已发行"
+  },
+  "cashStress": {
+    "normalRoute": "PE有有限财资，经济股数含转换预期；不另加全部现金或新债净筹资",
+    "cashPutRoute": "低价不转股时2028/2029偿还债，用已披露本金与目标时汇率核现金；同时移除相应潜在股份，重算融资利息及普通股分母；债券现金赎回和股份发行不可同时择有利",
+    "futureCapex": "H1设备现金12.19708亿元外另7.36995亿元非现金采购，须核后续付款、AI产能使用和折旧，不把10亿元新闻capex指引当全投入上限"
+  },
+  "targets": [
+    {
+      "institution": "招银国际",
+      "targetPrice": 28,
+      "currency": "USD",
+      "rating": "买入",
+      "foreignInvestmentBank": false,
+      "code": "BILI.US",
+      "reportDate": "2026-08-31 10:59",
+      "targetHorizon": null,
+      "sourceType": "公开新闻转述，未取得原始研报",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09626/AAFN/NOW.1542045/research-report",
+      "convertedReferenceHKD": 218.4,
+      "conversionAssumption": "ADS1:1×USDHKD7.8研究假设，不声称机构直接HK目标",
+      "note": "预测盈利年度/未来15个月管线不等于目标期限，期限未明确；9/8腾讯方案状态以9/9/9/25主源校正"
+    },
+    {
+      "institution": "摩根士丹利",
+      "targetPrice": 27,
+      "currency": "USD",
+      "rating": "增持",
+      "foreignInvestmentBank": true,
+      "code": "BILI.US",
+      "reportDate": "2026-08-28 11:38",
+      "targetHorizon": null,
+      "sourceType": "公开新闻转述，未取得原始研报",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09626/AAFN/NOW.1541626/research-report",
+      "convertedReferenceHKD": 210.6,
+      "conversionAssumption": "ADS1:1×USDHKD7.8研究假设，不声称机构直接HK目标",
+      "note": "预测盈利年度/未来15个月管线不等于目标期限，期限未明确；9/8腾讯方案状态以9/9/9/25主源校正"
+    },
+    {
+      "institution": "里昂",
+      "targetPrice": 22.5,
+      "currency": "USD",
+      "rating": "跑赢大市",
+      "foreignInvestmentBank": true,
+      "code": "BILI.US",
+      "reportDate": "2026-08-28 10:45",
+      "targetHorizon": null,
+      "sourceType": "公开新闻转述，未取得原始研报",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09626/AAFN/NOW.1541601/research-report",
+      "convertedReferenceHKD": 175.5,
+      "conversionAssumption": "ADS1:1×USDHKD7.8研究假设，不声称机构直接HK目标",
+      "note": "预测盈利年度/未来15个月管线不等于目标期限，期限未明确；9/8腾讯方案状态以9/9/9/25主源校正"
+    },
+    {
+      "institution": "海通国际",
+      "targetPrice": 26,
+      "currency": "USD",
+      "rating": "跑赢大市",
+      "foreignInvestmentBank": false,
+      "code": "BILI.US",
+      "reportDate": "2026-08-17 12:04",
+      "targetHorizon": null,
+      "sourceType": "公开新闻转述，未取得原始研报",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09626/AAFN/NOW.1538634/research-report",
+      "convertedReferenceHKD": 202.79999999999998,
+      "conversionAssumption": "ADS1:1×USDHKD7.8研究假设，不声称机构直接HK目标",
+      "note": "预测盈利年度/未来15个月管线不等于目标期限，期限未明确；9/8腾讯方案状态以9/9/9/25主源校正"
+    },
+    {
+      "institution": "摩根大通",
+      "targetPrice": 170,
+      "currency": "HKD",
+      "rating": "增持",
+      "foreignInvestmentBank": true,
+      "alsoADSUSD": 22,
+      "code": "09626.HK",
+      "reportDate": "2026-09-08 11:41",
+      "targetHorizon": null,
+      "sourceType": "公开新闻转述，未取得原始研报",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09626/AAFN/NOW.1543342/hk-stock-news",
+      "convertedReferenceHKD": 170,
+      "conversionAssumption": null,
+      "note": "预测盈利年度/未来15个月管线不等于目标期限，期限未明确；9/8腾讯方案状态以9/9/9/25主源校正"
+    }
+  ],
+  "sources": [
+    {
+      "id": "BILI-annual",
+      "url": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-04-16",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-fy",
+      "url": "https://ir.bilibili.com/media/bk3fpbje/bilibili-inc-announces-fourth-quarter-and-fiscal-year-2025-financial-results.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-03-05",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-q1",
+      "url": "https://ir.bilibili.com/media/ntpl1py1/bilibili-inc-announces-first-quarter-2026-financial-results.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-05-19",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-q2",
+      "url": "https://ir.bilibili.com/media/ywxkb3pf/bilibili-inc-announces-second-quarter-2026-financial-results.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-08-27",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-interim",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4182942/HKEX-EPS_20260924_12345494_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-24",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-shares",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193029/HKEX-EPS_20261008_12366371_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-10-08",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-pricing",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4177822/HKEX-EPS_20260906_12322306_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-06（协议9/4香港收盘后）",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-completion",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4179017/HKEX-EPS_20260909_12326476_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-09",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-circular",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4184306/HKEX-EPS_20260925_12347343_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-25",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    },
+    {
+      "id": "BILI-RSU",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180586/HKEX-EPS_20260916_12334489_0.PDF",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-16",
+      "note": "Euroland目录原始毫秒保留，时区未知不机械转换"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 117.875001,
+      "60": 129.846666,
+      "120": 139.735833,
+      "250": 178.9844
+    },
+    "maSlope5Pct": {
+      "20": -1.355706,
+      "60": -1.492009,
+      "120": -2.218244,
+      "250": -1.097636
+    },
+    "priceVsMAPct": {
+      "20": 2.142101,
+      "60": -7.275246,
+      "120": -13.837418,
+      "250": -32.731567
+    },
+    "returnPct": {
+      "20": -1.149426,
+      "60": -18.59364,
+      "120": -38.256409,
+      "250": -47.42358
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 285.600006,
+    "low52w": 112.199997,
+    "distanceFrom52wHighPct": -57.843137,
+    "distanceFrom52wLowPct": 7.308383,
+    "maxDrawdown52wPct": -59.430605,
+    "RSI14": 50.054478,
+    "ATR14": 4.128849,
+    "ATR14Pct": 3.429277,
+    "MACD": {
+      "DIF": -2.538153,
+      "DEA": -3.281391,
+      "histogram": 1.486476,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 1681658,
+      "20": 3350648.4,
+      "60": 4069444.6
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.880982,
+    "previous20MeanVolume": 3429559.05,
+    "upDownVolume20": {
+      "upVolume": 35135466,
+      "downVolume": 31877502,
+      "flatVolume": 0,
+      "upDays": 12,
+      "downDays": 8,
+      "ratio": 1.102203
+    },
+    "ranges": {
+      "20": {
+        "support": 112.199997,
+        "resistance": 125.300003,
+        "toSupportPct": -6.810635,
+        "toResistancePct": 4.069768,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 112.199997,
+        "resistance": 153.800003,
+        "toSupportPct": -6.810635,
+        "toResistancePct": 27.740864,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 131.799999,
+      "60": 180.216666,
+      "120": 164.853334,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -7.780576,
+      "60": -3.043291,
+      "120": 0.023258,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -8.649467,
+      "60": -33.191527,
+      "120": -26.965382,
+      "250": null
+    },
+    "returnPct": {
+      "20": -12.816802,
+      "60": -37.226277,
+      "120": -11.988305,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 285.600006,
+    "low52w": 112.199997,
+    "distanceFrom52wHighPct": -57.843137,
+    "distanceFrom52wLowPct": 7.308383,
+    "maxDrawdown52wPct": -58.241758,
+    "RSI14": 36.282373,
+    "ATR14": 13.441448,
+    "ATR14Pct": 11.163994,
+    "MACD": {
+      "DIF": -15.366216,
+      "DEA": -15.692502,
+      "histogram": 0.652572,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 24351037.2,
+      "20": 21518422.9,
+      "60": 22321237.083
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.368152,
+    "previous20MeanVolume": 22839181.15,
+    "upDownVolume20": {
+      "upVolume": 215506650,
+      "downVolume": 214861808,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 1.003001
+    },
+    "ranges": {
+      "20": {
+        "support": 112.199997,
+        "resistance": 153.800003,
+        "toSupportPct": -6.810635,
+        "toResistancePct": 27.740864,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 112.199997,
+        "resistance": 285.600006,
+        "toSupportPct": -6.810635,
+        "toResistancePct": 137.209303,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 1.828482,
+    "excess60Pct": -15.405737,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": 1.913738,
+    "industryExcess60Pct": -5.425621
+  },
+  "confidence": "中：行情/报表高，分部正常利润率、游戏成功、AI回报和未来股数中低",
+  "notes": [
+    "ADS1份代表1股Z，USD目标转换HKD必须标研究汇率，不能自动当HK目标",
+    "原始2030现金put2028/2031put2029均在三年目标前，五年2031到期在目标前",
+    "股东减持压力变化不等于永久消除，9/8新闻前瞻不能覆盖9/9原件与9/25通函",
+    "AI常态研发折旧和SBC保留；版权现金不因摊销已经进利润而消失",
+    "全部情景现金股息假设非董事会承诺"
+  ]
+}

@@ -1,0 +1,4194 @@
+{
+  "issuerId": "I088",
+  "securityId": "S099",
+  "code": "09866.HK",
+  "name": "蔚来-SW",
+  "company": "蔚来",
+  "asOf": "2026-10-09",
+  "price": 27.1,
+  "priceCurrency": "HKD",
+  "modelVersion": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/nio_deep.md",
+  "status": "sources-model-body-pending",
+  "nativeWorkbookQAFile": "qa/nio_native_workbook_qa.json",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "vehicleDeliveriesM": [
+          0.37,
+          0.435,
+          0.49
+        ],
+        "vehicleASPThousand": [
+          245,
+          273,
+          290
+        ],
+        "otherRevenue": [
+          10,
+          12.5,
+          14
+        ],
+        "vehicleGross": [
+          0.14,
+          0.18,
+          0.205
+        ],
+        "otherGross": [
+          0.09,
+          0.16,
+          0.22
+        ],
+        "RD": [
+          9,
+          8.5,
+          9
+        ],
+        "SGA": [
+          17,
+          16.5,
+          17.5
+        ],
+        "otherOperatingCost": [
+          0.3,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "normalMinorityProfit": [
+          0.02,
+          0.1,
+          0.25
+        ],
+        "DAExOperatingROU": [
+          4.8,
+          5.3,
+          5.6
+        ],
+        "capitalCash": [
+          6.2,
+          6.4,
+          7
+        ],
+        "NWC": [
+          4,
+          2,
+          1.5
+        ],
+        "annualFinanceLeaseCash": [
+          0.4,
+          0.45,
+          0.55
+        ],
+        "annualDebtInterest": [
+          0.9,
+          0.85,
+          0.85
+        ],
+        "cashAccumulationYears": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "postJuneNetCashDelta": [
+          -3,
+          0,
+          2
+        ],
+        "cashAnchor": [
+          43.088305,
+          43.088305,
+          43.088305
+        ],
+        "debtCarryingAnchor": [
+          17.613404,
+          17.613404,
+          17.613404
+        ],
+        "debtPrincipalBuffer": [
+          0.15,
+          0.1,
+          0.05
+        ],
+        "financeLeaseAssumption": [
+          5.4,
+          5.2,
+          5.1
+        ],
+        "operatingCashReserve": [
+          16,
+          13,
+          12
+        ],
+        "extraInvestmentCash": [
+          0.5,
+          0.4,
+          0.6
+        ],
+        "newParentEquityCash": [
+          0,
+          0,
+          0
+        ],
+        "baseSharesBn": [
+          2.528692141,
+          2.528692141,
+          2.528692141
+        ],
+        "normalNewSharesBn": [
+          0.015,
+          0.02,
+          0.025
+        ],
+        "CEOIncrementalSharesBn": [
+          0,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.24,
+          0.6,
+          0.95
+        ],
+        "otherNonCoreNAV": [
+          1.8,
+          2.3,
+          3
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.5,
+          0.65
+        ],
+        "RNCIAnchor": [
+          10.222746,
+          10.222746,
+          10.222746
+        ],
+        "postJuneRedeemableInflow": [
+          0,
+          0.25,
+          0.493
+        ],
+        "RNCIRollYears": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "RNCIRollRate": [
+          0.09,
+          0.08,
+          0.075
+        ],
+        "RNCIExtraFairValueClaim": [
+          1,
+          1,
+          2
+        ],
+        "remainingChinaBuybackCash": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackClaimReduction": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackSettlementYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerExternalCash": [
+          0,
+          0.64,
+          0.64
+        ],
+        "powerNewExternalMinority": [
+          0,
+          0.3,
+          0.3
+        ],
+        "powerAttributedEquity": [
+          6,
+          13,
+          18
+        ],
+        "chipIncentiveMinority": [
+          0.1,
+          0.095614035,
+          0.095614035
+        ],
+        "chipAttributedEquity": [
+          4,
+          8,
+          13
+        ],
+        "otherOrdinaryMinorityReserve": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "halfYear": {
+        "vehicleDeliveriesM": [
+          0.34,
+          0.5,
+          0.63
+        ],
+        "vehicleASPThousand": [
+          238,
+          273,
+          292
+        ],
+        "otherRevenue": [
+          10.5,
+          14,
+          17
+        ],
+        "vehicleGross": [
+          0.13,
+          0.185,
+          0.215
+        ],
+        "otherGross": [
+          0.08,
+          0.17,
+          0.23
+        ],
+        "RD": [
+          9.5,
+          9.2,
+          10.2
+        ],
+        "SGA": [
+          17.3,
+          18,
+          20.5
+        ],
+        "otherOperatingCost": [
+          0.3,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "normalMinorityProfit": [
+          0.02,
+          0.1,
+          0.25
+        ],
+        "DAExOperatingROU": [
+          5,
+          5.8,
+          6.3
+        ],
+        "capitalCash": [
+          6.5,
+          7.2,
+          8.6
+        ],
+        "NWC": [
+          4.5,
+          2.5,
+          2.4
+        ],
+        "annualFinanceLeaseCash": [
+          0.4,
+          0.45,
+          0.55
+        ],
+        "annualDebtInterest": [
+          0.9,
+          0.85,
+          0.85
+        ],
+        "cashAccumulationYears": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "postJuneNetCashDelta": [
+          -3,
+          0,
+          2
+        ],
+        "cashAnchor": [
+          43.088305,
+          43.088305,
+          43.088305
+        ],
+        "debtCarryingAnchor": [
+          17.613404,
+          17.613404,
+          17.613404
+        ],
+        "debtPrincipalBuffer": [
+          0.15,
+          0.1,
+          0.05
+        ],
+        "financeLeaseAssumption": [
+          5.4,
+          5.2,
+          5.1
+        ],
+        "operatingCashReserve": [
+          17,
+          14,
+          14
+        ],
+        "extraInvestmentCash": [
+          1,
+          0.9,
+          1.5
+        ],
+        "newParentEquityCash": [
+          1,
+          0,
+          0
+        ],
+        "baseSharesBn": [
+          2.528692141,
+          2.528692141,
+          2.528692141
+        ],
+        "normalNewSharesBn": [
+          0.04,
+          0.05,
+          0.07
+        ],
+        "CEOIncrementalSharesBn": [
+          0,
+          0,
+          0.025
+        ],
+        "EVSales": [
+          0.2,
+          0.62,
+          1
+        ],
+        "otherNonCoreNAV": [
+          1.8,
+          2.3,
+          3
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.5,
+          0.65
+        ],
+        "RNCIAnchor": [
+          10.222746,
+          10.222746,
+          10.222746
+        ],
+        "postJuneRedeemableInflow": [
+          0,
+          0.25,
+          0.493
+        ],
+        "RNCIRollYears": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "RNCIRollRate": [
+          0.09,
+          0.08,
+          0.075
+        ],
+        "RNCIExtraFairValueClaim": [
+          1.2,
+          1.4,
+          2.5
+        ],
+        "remainingChinaBuybackCash": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackClaimReduction": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackSettlementYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerExternalCash": [
+          0,
+          0.64,
+          1.28
+        ],
+        "powerNewExternalMinority": [
+          0,
+          0.3,
+          0.34
+        ],
+        "powerAttributedEquity": [
+          5,
+          15,
+          23
+        ],
+        "chipIncentiveMinority": [
+          0.1,
+          0.095614035,
+          0.095614035
+        ],
+        "chipAttributedEquity": [
+          3,
+          10,
+          17
+        ],
+        "otherOrdinaryMinorityReserve": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "oneYear": {
+        "vehicleDeliveriesM": [
+          0.31,
+          0.6,
+          0.82
+        ],
+        "vehicleASPThousand": [
+          230,
+          275,
+          295
+        ],
+        "otherRevenue": [
+          11,
+          17,
+          23
+        ],
+        "vehicleGross": [
+          0.12,
+          0.19,
+          0.225
+        ],
+        "otherGross": [
+          0.07,
+          0.18,
+          0.24
+        ],
+        "RD": [
+          9.7,
+          10.4,
+          12.7
+        ],
+        "SGA": [
+          17.5,
+          21,
+          26.8
+        ],
+        "otherOperatingCost": [
+          0.3,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "normalMinorityProfit": [
+          0.02,
+          0.1,
+          0.25
+        ],
+        "DAExOperatingROU": [
+          5.2,
+          6.5,
+          7.9
+        ],
+        "capitalCash": [
+          6.7,
+          8.5,
+          11
+        ],
+        "NWC": [
+          5,
+          3,
+          3.6
+        ],
+        "annualFinanceLeaseCash": [
+          0.4,
+          0.45,
+          0.55
+        ],
+        "annualDebtInterest": [
+          0.9,
+          0.85,
+          0.85
+        ],
+        "cashAccumulationYears": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "postJuneNetCashDelta": [
+          -3,
+          0,
+          2
+        ],
+        "cashAnchor": [
+          43.088305,
+          43.088305,
+          43.088305
+        ],
+        "debtCarryingAnchor": [
+          17.613404,
+          17.613404,
+          17.613404
+        ],
+        "debtPrincipalBuffer": [
+          0.15,
+          0.1,
+          0.05
+        ],
+        "financeLeaseAssumption": [
+          5.4,
+          5.2,
+          5.1
+        ],
+        "operatingCashReserve": [
+          18,
+          17,
+          18
+        ],
+        "extraInvestmentCash": [
+          1.7,
+          1.8,
+          3
+        ],
+        "newParentEquityCash": [
+          2.5,
+          0,
+          0
+        ],
+        "baseSharesBn": [
+          2.528692141,
+          2.528692141,
+          2.528692141
+        ],
+        "normalNewSharesBn": [
+          0.1,
+          0.1,
+          0.15
+        ],
+        "CEOIncrementalSharesBn": [
+          0,
+          0,
+          0.05
+        ],
+        "EVSales": [
+          0.16,
+          0.64,
+          1
+        ],
+        "otherNonCoreNAV": [
+          1.8,
+          2.3,
+          3
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.5,
+          0.65
+        ],
+        "RNCIAnchor": [
+          10.222746,
+          10.222746,
+          10.222746
+        ],
+        "postJuneRedeemableInflow": [
+          0,
+          0.25,
+          0.493
+        ],
+        "RNCIRollYears": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "RNCIRollRate": [
+          0.09,
+          0.08,
+          0.075
+        ],
+        "RNCIExtraFairValueClaim": [
+          1.5,
+          2,
+          3.5
+        ],
+        "remainingChinaBuybackCash": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackClaimReduction": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackSettlementYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerExternalCash": [
+          0.64,
+          0.64,
+          1.28
+        ],
+        "powerNewExternalMinority": [
+          0.3,
+          0.3,
+          0.34
+        ],
+        "powerAttributedEquity": [
+          5,
+          18,
+          30
+        ],
+        "chipIncentiveMinority": [
+          0.1,
+          0.095614035,
+          0.095614035
+        ],
+        "chipAttributedEquity": [
+          3,
+          12,
+          23
+        ],
+        "otherOrdinaryMinorityReserve": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "threeYear": {
+        "vehicleDeliveriesM": [
+          0.26,
+          0.86,
+          1.25
+        ],
+        "vehicleASPThousand": [
+          220,
+          277,
+          298
+        ],
+        "otherRevenue": [
+          12,
+          26,
+          39
+        ],
+        "vehicleGross": [
+          0.1,
+          0.205,
+          0.235
+        ],
+        "otherGross": [
+          0.05,
+          0.2,
+          0.26
+        ],
+        "RD": [
+          10,
+          14.8,
+          20
+        ],
+        "SGA": [
+          17.8,
+          29,
+          40
+        ],
+        "otherOperatingCost": [
+          0.3,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "normalMinorityProfit": [
+          0.02,
+          0.1,
+          0.25
+        ],
+        "DAExOperatingROU": [
+          5.6,
+          9,
+          12
+        ],
+        "capitalCash": [
+          7,
+          12,
+          18
+        ],
+        "NWC": [
+          6,
+          4.5,
+          7
+        ],
+        "annualFinanceLeaseCash": [
+          0.4,
+          0.45,
+          0.55
+        ],
+        "annualDebtInterest": [
+          0.9,
+          0.85,
+          0.85
+        ],
+        "cashAccumulationYears": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "postJuneNetCashDelta": [
+          -3,
+          0,
+          2
+        ],
+        "cashAnchor": [
+          43.088305,
+          43.088305,
+          43.088305
+        ],
+        "debtCarryingAnchor": [
+          17.613404,
+          17.613404,
+          17.613404
+        ],
+        "debtPrincipalBuffer": [
+          0.15,
+          0.1,
+          0.05
+        ],
+        "financeLeaseAssumption": [
+          5.4,
+          5.2,
+          5.1
+        ],
+        "operatingCashReserve": [
+          20,
+          24,
+          31
+        ],
+        "extraInvestmentCash": [
+          3.5,
+          6,
+          10
+        ],
+        "newParentEquityCash": [
+          8,
+          0,
+          0
+        ],
+        "baseSharesBn": [
+          2.528692141,
+          2.528692141,
+          2.528692141
+        ],
+        "normalNewSharesBn": [
+          0.4,
+          0.28,
+          0.42
+        ],
+        "CEOIncrementalSharesBn": [
+          0,
+          0.05,
+          0.15
+        ],
+        "EVSales": [
+          0.1,
+          0.68,
+          0.95
+        ],
+        "otherNonCoreNAV": [
+          1.8,
+          2.3,
+          3
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.5,
+          0.65
+        ],
+        "RNCIAnchor": [
+          10.222746,
+          10.222746,
+          10.222746
+        ],
+        "postJuneRedeemableInflow": [
+          0,
+          0.25,
+          0.493
+        ],
+        "RNCIRollYears": [
+          3.3,
+          3.3,
+          3.3
+        ],
+        "RNCIRollRate": [
+          0.09,
+          0.08,
+          0.075
+        ],
+        "RNCIExtraFairValueClaim": [
+          2,
+          3,
+          7
+        ],
+        "remainingChinaBuybackCash": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackClaimReduction": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackSettlementYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerExternalCash": [
+          0.64,
+          1.28,
+          1.28
+        ],
+        "powerNewExternalMinority": [
+          0.3,
+          0.34,
+          0.34
+        ],
+        "powerAttributedEquity": [
+          4,
+          25,
+          46
+        ],
+        "chipIncentiveMinority": [
+          0.1,
+          0.095614035,
+          0.095614035
+        ],
+        "chipAttributedEquity": [
+          2,
+          18,
+          38
+        ],
+        "otherOrdinaryMinorityReserve": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0.3,
+          1
+        ]
+      },
+      "fiveYear": {
+        "vehicleDeliveriesM": [
+          0.22,
+          1.1,
+          1.7
+        ],
+        "vehicleASPThousand": [
+          210,
+          278,
+          300
+        ],
+        "otherRevenue": [
+          13,
+          35,
+          58
+        ],
+        "vehicleGross": [
+          0.09,
+          0.21,
+          0.24
+        ],
+        "otherGross": [
+          0.04,
+          0.21,
+          0.28
+        ],
+        "RD": [
+          10.2,
+          19,
+          28
+        ],
+        "SGA": [
+          18,
+          37,
+          55
+        ],
+        "otherOperatingCost": [
+          0.3,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "normalMinorityProfit": [
+          0.02,
+          0.1,
+          0.25
+        ],
+        "DAExOperatingROU": [
+          6,
+          12,
+          18
+        ],
+        "capitalCash": [
+          7.3,
+          16,
+          27
+        ],
+        "NWC": [
+          7,
+          6,
+          10
+        ],
+        "annualFinanceLeaseCash": [
+          0.4,
+          0.45,
+          0.55
+        ],
+        "annualDebtInterest": [
+          0.9,
+          0.85,
+          0.85
+        ],
+        "cashAccumulationYears": [
+          3.65,
+          3.65,
+          3.65
+        ],
+        "postJuneNetCashDelta": [
+          -3,
+          0,
+          2
+        ],
+        "cashAnchor": [
+          43.088305,
+          43.088305,
+          43.088305
+        ],
+        "debtCarryingAnchor": [
+          17.613404,
+          17.613404,
+          17.613404
+        ],
+        "debtPrincipalBuffer": [
+          0.15,
+          0.1,
+          0.05
+        ],
+        "financeLeaseAssumption": [
+          5.4,
+          5.2,
+          5.1
+        ],
+        "operatingCashReserve": [
+          22,
+          31,
+          46
+        ],
+        "extraInvestmentCash": [
+          5,
+          10,
+          18
+        ],
+        "newParentEquityCash": [
+          15,
+          0,
+          0
+        ],
+        "baseSharesBn": [
+          2.528692141,
+          2.528692141,
+          2.528692141
+        ],
+        "normalNewSharesBn": [
+          0.8,
+          0.5,
+          0.7
+        ],
+        "CEOIncrementalSharesBn": [
+          0,
+          0.1,
+          0.24845446
+        ],
+        "EVSales": [
+          0.06,
+          0.62,
+          0.9
+        ],
+        "otherNonCoreNAV": [
+          1.8,
+          2.3,
+          3
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.5,
+          0.65
+        ],
+        "RNCIAnchor": [
+          10.222746,
+          10.222746,
+          10.222746
+        ],
+        "postJuneRedeemableInflow": [
+          0,
+          0.25,
+          0.493
+        ],
+        "RNCIRollYears": [
+          5.3,
+          5.3,
+          5.3
+        ],
+        "RNCIRollRate": [
+          0.09,
+          0.08,
+          0.075
+        ],
+        "RNCIExtraFairValueClaim": [
+          3,
+          5,
+          12
+        ],
+        "remainingChinaBuybackCash": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackClaimReduction": [
+          1.002,
+          0.6,
+          0.3
+        ],
+        "ChinaBuybackSettlementYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "powerExternalCash": [
+          0.64,
+          1.28,
+          1.28
+        ],
+        "powerNewExternalMinority": [
+          0.3,
+          0.34,
+          0.34
+        ],
+        "powerAttributedEquity": [
+          3,
+          34,
+          73
+        ],
+        "chipIncentiveMinority": [
+          0.1,
+          0.095614035,
+          0.095614035
+        ],
+        "chipAttributedEquity": [
+          1,
+          25,
+          60
+        ],
+        "otherOrdinaryMinorityReserve": [
+          0.2,
+          0.3,
+          0.5
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          1.3,
+          3.5
+        ]
+      }
+    },
+    "type": "consolidated-fullcost-EVsales-mezzanine-ordinary-minority",
+    "capitalNote": "集团EV含汽车/换电/芯片经营，不再加160亿Power或122.5亿Shenji整体NAV。集团现金只用精确现金短投，不加未精确拆出的长存款。夹层全部扣资本滚增，现金加新认购同时夹层加本金；普通吉利Power及芯片激励权益另扣，旧Power/China/Shenji可赎回已归夹层不重复扣。剩余中国回购现金与结算日夹层索偿减记研究额联动；默认距六月.25年结算，六月本金按回购现金折现该.25年，结算前滚增保留、结算后扣已支付索偿的增长，现金与索偿均不得重复；减记额独立敏感性不冒充账面实绩。未来普通少数损益与夹层年度增值保留在每股利润，现金由集团正常利出发不扣非现金夹层增值。完整SBC摊销和USGAAP经营租保留。六月融资租现注缺失以2025年5.033175十亿+研究准备，六月债账面加研究本金缓冲。",
+    "fieldMetadata": {
+      "vehicleDeliveriesM": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "million vehicles",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "vehicleASPThousand": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY thousand per vehicle",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "otherRevenue": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "vehicleGross": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "otherGross": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "RD": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "SGA": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "otherOperatingCost": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "taxRate": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "normalMinorityProfit": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "DAExOperatingROU": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "capitalCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "NWC": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "annualFinanceLeaseCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "annualDebtInterest": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "cashAccumulationYears": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "postJuneNetCashDelta": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "cashAnchor": {
+        "code": "09866.HK",
+        "reportPeriod": "2026-06精确锚/历史来源",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "debtCarryingAnchor": {
+        "code": "09866.HK",
+        "reportPeriod": "2026-06精确锚/历史来源",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "debtPrincipalBuffer": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "financeLeaseAssumption": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "operatingCashReserve": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "extraInvestmentCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "newParentEquityCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "baseSharesBn": {
+        "code": "09866.HK",
+        "reportPeriod": "2026-06精确锚/历史来源",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "normalNewSharesBn": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "CEOIncrementalSharesBn": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "EVSales": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "otherNonCoreNAV": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "NAVRealizable": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "RNCIAnchor": {
+        "code": "09866.HK",
+        "reportPeriod": "2026-06精确锚/历史来源",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "postJuneRedeemableInflow": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "RNCIRollYears": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "RNCIRollRate": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "RNCIExtraFairValueClaim": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "remainingChinaBuybackCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "ChinaBuybackClaimReduction": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "ChinaBuybackSettlementYears": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "powerExternalCash": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "powerNewExternalMinority": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "powerAttributedEquity": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "chipIncentiveMinority": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "chipAttributedEquity": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "otherOrdinaryMinorityReserve": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "FX": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      },
+      "dividend": {
+        "code": "09866.HK",
+        "reportPeriod": "目标NTM正常年率/资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+        "type": "研究假设；锚按原件，其余不冒充指引",
+        "version": "nio-fullcost-group-EVsales-mezzanine-ordinaryminority-capital-v1.1"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041001291.pdf",
+      "publicationDate": "2026-04-10 21:13",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_annual.pdf"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "publicationDate": "2026-03-10 19:17",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_fyresults.pdf"
+    },
+    {
+      "id": "q1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "publicationDate": "2026-05-21 18:21",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_q1results.pdf"
+    },
+    {
+      "id": "q2results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "publicationDate": "2026-09-01 18:01",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_q2results.pdf"
+    },
+    {
+      "id": "septdeliver",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200781.pdf",
+      "publicationDate": "2026-10-02 12:13",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_septdeliver.pdf"
+    },
+    {
+      "id": "geely",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800095.pdf",
+      "publicationDate": "2026-09-28 07:45",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_geely.pdf"
+    },
+    {
+      "id": "chip",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0226/2026022600606.pdf",
+      "publicationDate": "2026-02-26 17:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/nio_chip.pdf"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 27.883,
+      "60": 32.709666,
+      "120": 38.291667,
+      "250": 41.53736
+    },
+    "maSlope5Pct": {
+      "20": -1.941269,
+      "60": -3.065236,
+      "120": -2.720234,
+      "250": -1.451418
+    },
+    "priceVsMAPct": {
+      "20": -2.808162,
+      "60": -17.149874,
+      "120": -29.227421,
+      "250": -34.757529
+    },
+    "returnPct": {
+      "20": -4.510215,
+      "60": -32.98714,
+      "120": -50.275229,
+      "250": -55.718955
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 61.75,
+    "low52w": 26.08,
+    "distanceFrom52wHighPct": -56.11336,
+    "distanceFrom52wLowPct": 3.911043,
+    "maxDrawdown52wPct": -56.732027,
+    "RSI14": 37.038897,
+    "ATR14": 1.022136,
+    "ATR14Pct": 3.771719,
+    "MACD": {
+      "DIF": -1.31409,
+      "DEA": -1.493425,
+      "histogram": 0.358669,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 2774767.2,
+      "20": 4396622,
+      "60": 5053832.117
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.811594,
+    "previous20MeanVolume": 4544427.25,
+    "upDownVolume20": {
+      "upVolume": 39498379,
+      "downVolume": 48434061,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 0.815508
+    },
+    "ranges": {
+      "20": {
+        "support": 26.08,
+        "resistance": 29.639999,
+        "toSupportPct": -3.763838,
+        "toResistancePct": 9.37269,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 26.08,
+        "resistance": 40,
+        "toSupportPct": -3.763838,
+        "toResistancePct": 47.601476,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 35.391,
+      "60": 42.5225,
+      "120": 38.529167,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -12.10044,
+      "60": -1.672987,
+      "120": -0.960937,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -23.42686,
+      "60": -36.269034,
+      "120": -29.663675,
+      "250": null
+    },
+    "returnPct": {
+      "20": -36.65264,
+      "60": -24.343942,
+      "120": -19.465087,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 58.5,
+    "low52w": 26.08,
+    "distanceFrom52wHighPct": -53.675214,
+    "distanceFrom52wLowPct": 3.911043,
+    "maxDrawdown52wPct": -51.335744,
+    "RSI14": 29.809993,
+    "ATR14": 3.514851,
+    "ATR14Pct": 12.969929,
+    "MACD": {
+      "DIF": -4.096335,
+      "DEA": -3.132585,
+      "histogram": -1.9275,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 22268705.4,
+      "20": 26797470.4,
+      "60": 33097479.2
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.491263,
+    "previous20MeanVolume": 28241146,
+    "upDownVolume20": {
+      "upVolume": 166994613,
+      "downVolume": 368954795,
+      "flatVolume": 0,
+      "upDays": 7,
+      "downDays": 13,
+      "ratio": 0.452615
+    },
+    "ranges": {
+      "20": {
+        "support": 26.08,
+        "resistance": 49.380001,
+        "toSupportPct": -3.763838,
+        "toResistancePct": 82.214026,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 26.08,
+        "resistance": 61.75,
+        "toSupportPct": -3.763838,
+        "toResistancePct": 127.859779,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -1.532307,
+    "excess60Pct": -29.799237,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -1.447051,
+    "industryExcess60Pct": -19.819121
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "retrievedAt": "2026-10-10T09:16:12.163Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/9866.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:20.066Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk09866,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:20.186Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        3.81,
+        29.99,
+        60.7
+      ],
+      "epsCNY": [
+        -5.331144,
+        -1.065187,
+        1.381539
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        100.65,
+        131.255,
+        156.1
+      ],
+      "normalParentProfitCNYbn": [
+        -13.56078923658334,
+        -2.7148343846978786,
+        3.528025901754207
+      ],
+      "dilutedSharesBn": [
+        2.543692141,
+        2.548692141,
+        2.553692141
+      ],
+      "cashOperatingProxyCNYbn": [
+        -19.408999999999995,
+        -6.224100000000003,
+        0.2596099999999971
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 90.65,
+          "revenueCNYbn": 100.65,
+          "grossProfitCNYbn": 13.591000000000003,
+          "normalOperatingProfitCNYbn": -12.708999999999998,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -12.708999999999998,
+          "annualRNCIAccretionCNYbn": 0.831789236583342,
+          "parentNormalProfitCNYbn": -13.56078923658334,
+          "dilutedSharesBn": 2.543692141,
+          "eps": -5.331144,
+          "cashOperatingProxyCNYbn": -19.408999999999995,
+          "cashPreDistributionCNYbn": -4.458899,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -4.458899,
+          "RNCIGrossPrincipalCNYbn": 10.222746,
+          "ChinaBuybackClaimReductionCNYbn": 0.9806433712961999,
+          "ChinaBuybackRollReliefCNYbn": 0.04317836593017027,
+          "RNCIPrincipalCNYbn": 9.242102628703801,
+          "RNCIRollCNYbn": 0.40693579434375937,
+          "RNCIClaimCNYbn": 10.64903842304756,
+          "ordinaryMinorityClaimCNYbn": 0.6000000000000001,
+          "operatingEVCNYbn": 24.156,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 0.36000000000000004,
+          "equityCNYbn": 8.80806257695244,
+          "EVSales": 0.24,
+          "FX": 1.1,
+          "price": 3.81,
+          "dividend": 0,
+          "priceReturn": -0.859409594095941,
+          "totalReturn": -0.859409594095941
+        },
+        {
+          "vehicleRevenueCNYbn": 118.755,
+          "revenueCNYbn": 131.255,
+          "grossProfitCNYbn": 23.375899999999998,
+          "normalOperatingProfitCNYbn": -1.824100000000002,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -1.824100000000002,
+          "annualRNCIAccretionCNYbn": 0.7907343846978767,
+          "parentNormalProfitCNYbn": -2.7148343846978786,
+          "dilutedSharesBn": 2.548692141,
+          "eps": -1.065187,
+          "cashOperatingProxyCNYbn": -6.224100000000003,
+          "cashPreDistributionCNYbn": 5.820080999999997,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 5.820080999999997,
+          "RNCIGrossPrincipalCNYbn": 10.472746,
+          "ChinaBuybackClaimReductionCNYbn": 0.5885661912765423,
+          "ChinaBuybackRollReliefCNYbn": 0.023089736868421806,
+          "RNCIPrincipalCNYbn": 9.88417980872346,
+          "RNCIRollCNYbn": 0.38776116318981707,
+          "RNCIClaimCNYbn": 11.271940971913276,
+          "ordinaryMinorityClaimCNYbn": 4.96491228,
+          "operatingEVCNYbn": 78.753,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 1.15,
+          "equityCNYbn": 69.48622774808672,
+          "EVSales": 0.6,
+          "FX": 1.1,
+          "price": 29.99,
+          "dividend": 0,
+          "priceReturn": 0.10664206642066398,
+          "totalReturn": 0.10664206642066398
+        },
+        {
+          "vehicleRevenueCNYbn": 142.1,
+          "revenueCNYbn": 156.1,
+          "grossProfitCNYbn": 32.210499999999996,
+          "normalOperatingProfitCNYbn": 5.560499999999996,
+          "normalTaxCNYbn": 1.0008899999999992,
+          "normalGroupProfitCNYbn": 4.559609999999997,
+          "annualRNCIAccretionCNYbn": 0.7815840982457899,
+          "parentNormalProfitCNYbn": 3.528025901754207,
+          "dilutedSharesBn": 2.553692141,
+          "eps": 1.381539,
+          "cashOperatingProxyCNYbn": 0.2596099999999971,
+          "cashPreDistributionCNYbn": 10.609822999999999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 10.609822999999999,
+          "RNCIGrossPrincipalCNYbn": 10.715746000000001,
+          "ChinaBuybackClaimReductionCNYbn": 0.29462469005613595,
+          "ChinaBuybackRollReliefCNYbn": 0.01084869027343503,
+          "RNCIPrincipalCNYbn": 10.421121309943866,
+          "RNCIRollCNYbn": 0.3837272340343697,
+          "RNCIClaimCNYbn": 12.804848543978235,
+          "ordinaryMinorityClaimCNYbn": 7.142982454999999,
+          "operatingEVCNYbn": 148.295,
+          "impliedGroupOperatingPE": 32.523614958296896,
+          "otherNAVCNYbn": 1.9500000000000002,
+          "equityCNYbn": 140.90699200102173,
+          "EVSales": 0.95,
+          "FX": 1.1,
+          "price": 60.7,
+          "dividend": 0,
+          "priceReturn": 1.2398523985239853,
+          "totalReturn": 1.2398523985239853
+        }
+      ],
+      "priceReturnPct": [
+        -85.9409594095941,
+        10.664206642066398,
+        123.98523985239854
+      ],
+      "totalReturnPct": [
+        -85.9409594095941,
+        10.664206642066398,
+        123.98523985239854
+      ],
+      "conditions": [
+        "销量售价毛利压力与完整费用、保修供应现金，夹层与未来融资稀释",
+        "三品牌结构改善与费用控制，正常现金和换电战略交易逐步验证；夹层与少数权益扣资本",
+        "高毛利车型与多品牌规模化，芯片换电经营贡献，完整投入仍增长且少数权利扩大"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 31.122500000000002,
+      "expectedReturnPct": 14.843173431734314,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 22.589,
+        "defensiveReturnPct": -16.645756457564588,
+        "positivePrice": 39.656,
+        "positiveReturnPct": 46.33210332103319
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        0,
+        34.17,
+        79.5
+      ],
+      "epsCNY": [
+        -6.459392,
+        -0.273291,
+        3.548345
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        91.42,
+        150.5,
+        200.96
+      ],
+      "normalParentProfitCNYbn": [
+        -16.592189236583344,
+        -0.704734384697876,
+        9.309763901754206
+      ],
+      "dilutedSharesBn": [
+        2.568692141,
+        2.578692141,
+        2.623692141
+      ],
+      "cashOperatingProxyCNYbn": [
+        -23.040399999999998,
+        -5.013999999999999,
+        4.241347999999998
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 80.92,
+          "revenueCNYbn": 91.42,
+          "grossProfitCNYbn": 11.3596,
+          "normalOperatingProfitCNYbn": -15.740400000000001,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -15.740400000000001,
+          "annualRNCIAccretionCNYbn": 0.831789236583342,
+          "parentNormalProfitCNYbn": -16.592189236583344,
+          "dilutedSharesBn": 2.568692141,
+          "eps": -6.459392,
+          "cashOperatingProxyCNYbn": -23.040399999999998,
+          "cashPreDistributionCNYbn": -11.445279000000001,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -11.445279000000001,
+          "RNCIGrossPrincipalCNYbn": 10.222746,
+          "ChinaBuybackClaimReductionCNYbn": 0.9806433712961999,
+          "ChinaBuybackRollReliefCNYbn": 0.06999267126607418,
+          "RNCIPrincipalCNYbn": 9.242102628703801,
+          "RNCIRollCNYbn": 0.6596480127563086,
+          "RNCIClaimCNYbn": 11.101750641460109,
+          "ordinaryMinorityClaimCNYbn": 0.5,
+          "operatingEVCNYbn": 18.284000000000002,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 0.36000000000000004,
+          "equityCNYbn": -4.403029641460107,
+          "EVSales": 0.2,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 136.5,
+          "revenueCNYbn": 150.5,
+          "grossProfitCNYbn": 27.6325,
+          "normalOperatingProfitCNYbn": 0.23250000000000098,
+          "normalTaxCNYbn": 0.0465000000000002,
+          "normalGroupProfitCNYbn": 0.18600000000000078,
+          "annualRNCIAccretionCNYbn": 0.7907343846978767,
+          "parentNormalProfitCNYbn": -0.704734384697876,
+          "dilutedSharesBn": 2.578692141,
+          "eps": -0.273291,
+          "cashOperatingProxyCNYbn": -5.013999999999999,
+          "cashPreDistributionCNYbn": 3.308600999999999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 3.308600999999999,
+          "RNCIGrossPrincipalCNYbn": 10.472746,
+          "ChinaBuybackClaimReductionCNYbn": 0.5885661912765423,
+          "ChinaBuybackRollReliefCNYbn": 0.03737612970067991,
+          "RNCIPrincipalCNYbn": 9.88417980872346,
+          "RNCIRollCNYbn": 0.62768197016962,
+          "RNCIClaimCNYbn": 11.91186177889308,
+          "ordinaryMinorityClaimCNYbn": 5.75614035,
+          "operatingEVCNYbn": 93.31,
+          "impliedGroupOperatingPE": 501.6666666666646,
+          "otherNAVCNYbn": 1.15,
+          "equityCNYbn": 80.10059887110693,
+          "EVSales": 0.62,
+          "FX": 1.1,
+          "price": 34.17,
+          "dividend": 0,
+          "priceReturn": 0.26088560885608847,
+          "totalReturn": 0.26088560885608847
+        },
+        {
+          "vehicleRevenueCNYbn": 183.96,
+          "revenueCNYbn": 200.96,
+          "grossProfitCNYbn": 43.4614,
+          "normalOperatingProfitCNYbn": 12.611399999999994,
+          "normalTaxCNYbn": 2.270051999999999,
+          "normalGroupProfitCNYbn": 10.341347999999996,
+          "annualRNCIAccretionCNYbn": 0.7815840982457899,
+          "parentNormalProfitCNYbn": 9.309763901754206,
+          "dilutedSharesBn": 2.623692141,
+          "eps": 3.548345,
+          "cashOperatingProxyCNYbn": 4.241347999999998,
+          "cashPreDistributionCNYbn": 10.206507599999995,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 10.206507599999995,
+          "RNCIGrossPrincipalCNYbn": 10.715746000000001,
+          "ChinaBuybackClaimReductionCNYbn": 0.29462469005613595,
+          "ChinaBuybackRollReliefCNYbn": 0.017548721140670187,
+          "RNCIPrincipalCNYbn": 10.421121309943866,
+          "RNCIRollCNYbn": 0.6207129205853595,
+          "RNCIClaimCNYbn": 13.541834230529226,
+          "ordinaryMinorityClaimCNYbn": 9.945438595,
+          "operatingEVCNYbn": 200.96,
+          "impliedGroupOperatingPE": 19.43266970611569,
+          "otherNAVCNYbn": 1.9500000000000002,
+          "equityCNYbn": 189.62923477447075,
+          "EVSales": 1,
+          "FX": 1.1,
+          "price": 79.5,
+          "dividend": 0,
+          "priceReturn": 1.933579335793358,
+          "totalReturn": 1.933579335793358
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        26.088560885608846,
+        193.3579335793358
+      ],
+      "totalReturnPct": [
+        -100,
+        26.088560885608846,
+        193.3579335793358
+      ],
+      "conditions": [
+        "销量售价毛利压力与完整费用、保修供应现金，夹层与未来融资稀释",
+        "三品牌结构改善与费用控制，正常现金和换电战略交易逐步验证；夹层与少数权益扣资本",
+        "高毛利车型与多品牌规模化，芯片换电经营贡献，完整投入仍增长且少数权利扩大"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-07（名义10/9港股假期向前）",
+      "priceHKD": [
+        0,
+        40.21,
+        100.4
+      ],
+      "epsCNY": [
+        -7.23774,
+        0.516327,
+        5.721556
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        82.3,
+        182,
+        264.9
+      ],
+      "normalParentProfitCNYbn": [
+        -19.025789236583346,
+        1.357265615302127,
+        15.612365901754199
+      ],
+      "dilutedSharesBn": [
+        2.628692141,
+        2.628692141,
+        2.728692141
+      ],
+      "cashOperatingProxyCNYbn": [
+        -25.974,
+        -4.051999999999995,
+        8.543949999999988
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 71.3,
+          "revenueCNYbn": 82.3,
+          "grossProfitCNYbn": 9.325999999999999,
+          "normalOperatingProfitCNYbn": -18.174000000000003,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -18.174000000000003,
+          "annualRNCIAccretionCNYbn": 0.831789236583342,
+          "parentNormalProfitCNYbn": -19.025789236583346,
+          "dilutedSharesBn": 2.628692141,
+          "eps": -7.23774,
+          "cashOperatingProxyCNYbn": -25.974,
+          "cashPreDistributionCNYbn": -22.714999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -22.714999,
+          "RNCIGrossPrincipalCNYbn": 10.222746,
+          "ChinaBuybackClaimReductionCNYbn": 0.9806433712961999,
+          "ChinaBuybackRollReliefCNYbn": 0.11625286006969335,
+          "RNCIPrincipalCNYbn": 9.242102628703801,
+          "RNCIRollCNYbn": 1.0956285384607194,
+          "RNCIClaimCNYbn": 11.83773116716452,
+          "ordinaryMinorityClaimCNYbn": 2,
+          "operatingEVCNYbn": 13.168,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 0.36000000000000004,
+          "equityCNYbn": -23.02473016716452,
+          "EVSales": 0.16,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 165,
+          "revenueCNYbn": 182,
+          "grossProfitCNYbn": 34.410000000000004,
+          "normalOperatingProfitCNYbn": 2.810000000000005,
+          "normalTaxCNYbn": 0.562000000000001,
+          "normalGroupProfitCNYbn": 2.2480000000000038,
+          "annualRNCIAccretionCNYbn": 0.7907343846978767,
+          "parentNormalProfitCNYbn": 1.357265615302127,
+          "dilutedSharesBn": 2.628692141,
+          "eps": 0.516327,
+          "cashOperatingProxyCNYbn": -4.051999999999995,
+          "cashPreDistributionCNYbn": -1.7792989999999964,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -1.7792989999999964,
+          "RNCIGrossPrincipalCNYbn": 10.472746,
+          "ChinaBuybackClaimReductionCNYbn": 0.5885661912765423,
+          "ChinaBuybackRollReliefCNYbn": 0.06193215024753881,
+          "RNCIPrincipalCNYbn": 9.88417980872346,
+          "RNCIRollCNYbn": 1.0400674011870452,
+          "RNCIClaimCNYbn": 12.924247209910504,
+          "ordinaryMinorityClaimCNYbn": 6.84736842,
+          "operatingEVCNYbn": 116.48,
+          "impliedGroupOperatingPE": 51.814946619217,
+          "otherNAVCNYbn": 1.15,
+          "equityCNYbn": 96.07908537008952,
+          "EVSales": 0.64,
+          "FX": 1.1,
+          "price": 40.21,
+          "dividend": 0,
+          "priceReturn": 0.4837638376383764,
+          "totalReturn": 0.4837638376383764
+        },
+        {
+          "vehicleRevenueCNYbn": 241.89999999999998,
+          "revenueCNYbn": 264.9,
+          "grossProfitCNYbn": 59.94749999999999,
+          "normalOperatingProfitCNYbn": 20.29749999999999,
+          "normalTaxCNYbn": 3.653549999999998,
+          "normalGroupProfitCNYbn": 16.64394999999999,
+          "annualRNCIAccretionCNYbn": 0.7815840982457899,
+          "parentNormalProfitCNYbn": 15.612365901754199,
+          "dilutedSharesBn": 2.728692141,
+          "eps": 5.721556,
+          "cashOperatingProxyCNYbn": 8.543949999999988,
+          "cashPreDistributionCNYbn": 10.060258499999986,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 10.060258499999986,
+          "RNCIGrossPrincipalCNYbn": 10.715746000000001,
+          "ChinaBuybackClaimReductionCNYbn": 0.29462469005613595,
+          "ChinaBuybackRollReliefCNYbn": 0.029043591611405538,
+          "RNCIPrincipalCNYbn": 10.421121309943866,
+          "RNCIRollCNYbn": 1.0272960877829245,
+          "RNCIClaimCNYbn": 14.94841739772679,
+          "ordinaryMinorityClaimCNYbn": 12.899122805000001,
+          "operatingEVCNYbn": 264.9,
+          "impliedGroupOperatingPE": 15.915693089681245,
+          "otherNAVCNYbn": 1.9500000000000002,
+          "equityCNYbn": 249.06271829727314,
+          "EVSales": 1,
+          "FX": 1.1,
+          "price": 100.4,
+          "dividend": 0,
+          "priceReturn": 2.7047970479704797,
+          "totalReturn": 2.7047970479704797
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        48.37638376383764,
+        270.479704797048
+      ],
+      "totalReturnPct": [
+        -100,
+        48.37638376383764,
+        270.479704797048
+      ],
+      "conditions": [
+        "销量售价毛利压力与完整费用、保修供应现金，夹层与未来融资稀释",
+        "三品牌结构改善与费用控制，正常现金和换电战略交易逐步验证；夹层与少数权益扣资本",
+        "高毛利车型与多品牌规模化，芯片换电经营贡献，完整投入仍增长且少数权利扩大"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        0,
+        55.07,
+        131.53
+      ],
+      "epsCNY": [
+        -7.72761,
+        2.496717,
+        9.597909
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.3,
+        1
+      ],
+      "normalRevenueCNYbn": [
+        69.2,
+        264.22,
+        411.5
+      ],
+      "normalParentProfitCNYbn": [
+        -22.631789236583344,
+        7.137345615302126,
+        29.740965901754205
+      ],
+      "dilutedSharesBn": [
+        2.928692141,
+        2.8586921409999997,
+        3.098692141
+      ],
+      "cashOperatingProxyCNYbn": [
+        -30.479999999999997,
+        -0.7719199999999973,
+        16.372549999999993
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 57.2,
+          "revenueCNYbn": 69.2,
+          "grossProfitCNYbn": 6.32,
+          "normalOperatingProfitCNYbn": -21.78,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -21.78,
+          "annualRNCIAccretionCNYbn": 0.831789236583342,
+          "parentNormalProfitCNYbn": -22.631789236583344,
+          "dilutedSharesBn": 2.928692141,
+          "eps": -7.72761,
+          "cashOperatingProxyCNYbn": -30.479999999999997,
+          "cashPreDistributionCNYbn": -69.04109899999997,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -69.04109899999997,
+          "RNCIGrossPrincipalCNYbn": 10.222746,
+          "ChinaBuybackClaimReductionCNYbn": 0.9806433712961999,
+          "ChinaBuybackRollReliefCNYbn": 0.32257904118961794,
+          "RNCIPrincipalCNYbn": 9.242102628703801,
+          "RNCIRollCNYbn": 3.040155771004366,
+          "RNCIClaimCNYbn": 14.282258399708168,
+          "ordinaryMinorityClaimCNYbn": 1.5999999999999999,
+          "operatingEVCNYbn": 6.920000000000001,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 0.36000000000000004,
+          "equityCNYbn": -77.64335739970814,
+          "EVSales": 0.1,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 238.22,
+          "revenueCNYbn": 264.22,
+          "grossProfitCNYbn": 54.0351,
+          "normalOperatingProfitCNYbn": 10.035100000000003,
+          "normalTaxCNYbn": 2.0070200000000007,
+          "normalGroupProfitCNYbn": 8.028080000000003,
+          "annualRNCIAccretionCNYbn": 0.7907343846978767,
+          "parentNormalProfitCNYbn": 7.137345615302126,
+          "dilutedSharesBn": 2.8586921409999997,
+          "eps": 2.496717,
+          "cashOperatingProxyCNYbn": -0.7719199999999973,
+          "cashPreDistributionCNYbn": -10.670514999999995,
+          "dividendCashCNYbn": 0.779643311181818,
+          "cashPostDistributionCNYbn": -11.450158311181813,
+          "RNCIGrossPrincipalCNYbn": 10.472746,
+          "ChinaBuybackClaimReductionCNYbn": 0.5885661912765423,
+          "ChinaBuybackRollReliefCNYbn": 0.1701750742771461,
+          "RNCIPrincipalCNYbn": 9.88417980872346,
+          "RNCIRollCNYbn": 2.857862136916156,
+          "RNCIClaimCNYbn": 15.742041945639615,
+          "ordinaryMinorityClaimCNYbn": 10.52105263,
+          "operatingEVCNYbn": 179.66960000000003,
+          "impliedGroupOperatingPE": 22.380145688632894,
+          "otherNAVCNYbn": 1.15,
+          "equityCNYbn": 143.10634711317863,
+          "EVSales": 0.68,
+          "FX": 1.1,
+          "price": 55.07,
+          "dividend": 0.3,
+          "priceReturn": 1.0321033210332105,
+          "totalReturn": 1.043173431734317
+        },
+        {
+          "vehicleRevenueCNYbn": 372.5,
+          "revenueCNYbn": 411.5,
+          "grossProfitCNYbn": 97.6775,
+          "normalOperatingProfitCNYbn": 37.527499999999996,
+          "normalTaxCNYbn": 6.754949999999999,
+          "normalGroupProfitCNYbn": 30.772549999999995,
+          "annualRNCIAccretionCNYbn": 0.7815840982457899,
+          "parentNormalProfitCNYbn": 29.740965901754205,
+          "dilutedSharesBn": 3.098692141,
+          "eps": 9.597909,
+          "cashOperatingProxyCNYbn": 16.372549999999993,
+          "cashPreDistributionCNYbn": 20.454765999999978,
+          "dividendCashCNYbn": 2.816992855454545,
+          "cashPostDistributionCNYbn": 17.637773144545434,
+          "RNCIGrossPrincipalCNYbn": 10.715746000000001,
+          "ChinaBuybackClaimReductionCNYbn": 0.29462469005613595,
+          "ChinaBuybackRollReliefCNYbn": 0.0794144679459167,
+          "RNCIPrincipalCNYbn": 10.421121309943866,
+          "RNCIRollCNYbn": 2.8089560453041567,
+          "RNCIClaimCNYbn": 20.23007735524802,
+          "ordinaryMinorityClaimCNYbn": 19.77333333,
+          "operatingEVCNYbn": 390.92499999999995,
+          "impliedGroupOperatingPE": 12.703692089215876,
+          "otherNAVCNYbn": 1.9500000000000002,
+          "equityCNYbn": 370.5093624592974,
+          "EVSales": 0.95,
+          "FX": 1.1,
+          "price": 131.53,
+          "dividend": 1,
+          "priceReturn": 3.8535055350553504,
+          "totalReturn": 3.8904059040590404
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        103.21033210332105,
+        385.35055350553506
+      ],
+      "totalReturnPct": [
+        -100,
+        104.31734317343171,
+        389.040590405904
+      ],
+      "conditions": [
+        "销量售价毛利压力与完整费用、保修供应现金，夹层与未来融资稀释",
+        "三品牌结构改善与费用控制，正常现金和换电战略交易逐步验证；夹层与少数权益扣资本",
+        "高毛利车型与多品牌规模化，芯片换电经营贡献，完整投入仍增长且少数权利扩大"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        26.892243971660257,
+        69.73899861314527
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0,
+        55.68,
+        156.64
+      ],
+      "epsCNY": [
+        -7.412458,
+        3.644867,
+        12.789284
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1.3,
+        3.5
+      ],
+      "normalRevenueCNYbn": [
+        59.2,
+        340.8,
+        568
+      ],
+      "normalParentProfitCNYbn": [
+        -24.673789236583342,
+        11.403665615302124,
+        44.4702159017542
+      ],
+      "dilutedSharesBn": [
+        3.3286921410000003,
+        3.128692141,
+        3.477146601
+      ],
+      "cashOperatingProxyCNYbn": [
+        -33.422,
+        0.9943999999999996,
+        25.101799999999987
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 46.2,
+          "revenueCNYbn": 59.2,
+          "grossProfitCNYbn": 4.678000000000001,
+          "normalOperatingProfitCNYbn": -23.822,
+          "normalTaxCNYbn": 0,
+          "normalGroupProfitCNYbn": -23.822,
+          "annualRNCIAccretionCNYbn": 0.831789236583342,
+          "parentNormalProfitCNYbn": -24.673789236583342,
+          "dilutedSharesBn": 3.3286921410000003,
+          "eps": -7.412458,
+          "cashOperatingProxyCNYbn": -33.422,
+          "cashPreDistributionCNYbn": -117.42739899999998,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -117.42739899999998,
+          "RNCIGrossPrincipalCNYbn": 10.222746,
+          "ChinaBuybackClaimReductionCNYbn": 0.9806433712961999,
+          "ChinaBuybackRollReliefCNYbn": 0.5677151769782007,
+          "RNCIPrincipalCNYbn": 9.242102628703801,
+          "RNCIRollCNYbn": 5.350448575989477,
+          "RNCIClaimCNYbn": 17.59255120469328,
+          "ordinaryMinorityClaimCNYbn": 1.2,
+          "operatingEVCNYbn": 3.552,
+          "impliedGroupOperatingPE": null,
+          "otherNAVCNYbn": 0.36000000000000004,
+          "equityCNYbn": -132.30795020469324,
+          "EVSales": 0.06,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 305.8,
+          "revenueCNYbn": 340.8,
+          "grossProfitCNYbn": 71.568,
+          "normalOperatingProfitCNYbn": 15.367999999999999,
+          "normalTaxCNYbn": 3.0736,
+          "normalGroupProfitCNYbn": 12.2944,
+          "annualRNCIAccretionCNYbn": 0.7907343846978767,
+          "parentNormalProfitCNYbn": 11.403665615302124,
+          "dilutedSharesBn": 3.128692141,
+          "eps": 3.644867,
+          "cashOperatingProxyCNYbn": 0.9943999999999996,
+          "cashPreDistributionCNYbn": -16.265539000000004,
+          "dividendCashCNYbn": 3.6975452575454546,
+          "cashPostDistributionCNYbn": -19.963084257545457,
+          "RNCIGrossPrincipalCNYbn": 10.472746,
+          "ChinaBuybackClaimReductionCNYbn": 0.5885661912765423,
+          "ChinaBuybackRollReliefCNYbn": 0.29642962086527996,
+          "RNCIPrincipalCNYbn": 9.88417980872346,
+          "RNCIRollCNYbn": 4.9781379166705895,
+          "RNCIClaimCNYbn": 19.86231772539405,
+          "ordinaryMinorityClaimCNYbn": 14.250350875000002,
+          "operatingEVCNYbn": 211.296,
+          "impliedGroupOperatingPE": 17.186361270171787,
+          "otherNAVCNYbn": 1.15,
+          "equityCNYbn": 158.3702471420605,
+          "EVSales": 0.62,
+          "FX": 1.1,
+          "price": 55.68,
+          "dividend": 1.3,
+          "priceReturn": 1.054612546125461,
+          "totalReturn": 1.102583025830258
+        },
+        {
+          "vehicleRevenueCNYbn": 510,
+          "revenueCNYbn": 568,
+          "grossProfitCNYbn": 138.64,
+          "normalOperatingProfitCNYbn": 55.48999999999999,
+          "normalTaxCNYbn": 9.988199999999997,
+          "normalGroupProfitCNYbn": 45.50179999999999,
+          "annualRNCIAccretionCNYbn": 0.7815840982457899,
+          "parentNormalProfitCNYbn": 44.4702159017542,
+          "dilutedSharesBn": 3.477146601,
+          "eps": 12.789284,
+          "cashOperatingProxyCNYbn": 25.101799999999987,
+          "cashPreDistributionCNYbn": 51.41947099999995,
+          "dividendCashCNYbn": 11.063648275909088,
+          "cashPostDistributionCNYbn": 40.355822724090864,
+          "RNCIGrossPrincipalCNYbn": 10.715746000000001,
+          "ChinaBuybackClaimReductionCNYbn": 0.29462469005613595,
+          "ChinaBuybackRollReliefCNYbn": 0.13762431190998603,
+          "RNCIPrincipalCNYbn": 10.421121309943866,
+          "RNCIRollCNYbn": 4.867886833714627,
+          "RNCIClaimCNYbn": 27.289008143658492,
+          "ordinaryMinorityClaimCNYbn": 31.0568421,
+          "operatingEVCNYbn": 511.2,
+          "impliedGroupOperatingPE": 11.234720384688082,
+          "otherNAVCNYbn": 1.9500000000000002,
+          "equityCNYbn": 495.1599724804324,
+          "EVSales": 0.9,
+          "FX": 1.1,
+          "price": 156.64,
+          "dividend": 3.5,
+          "priceReturn": 4.780073800738006,
+          "totalReturn": 4.909225092250922
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        105.4612546125461,
+        478.0073800738006
+      ],
+      "totalReturnPct": [
+        -100,
+        110.2583025830258,
+        490.9225092250922
+      ],
+      "conditions": [
+        "销量售价毛利压力与完整费用、保修供应现金，夹层与未来融资稀释",
+        "三品牌结构改善与费用控制，正常现金和换电战略交易逐步验证；夹层与少数权益扣资本",
+        "高毛利车型与多品牌规模化，芯片换电经营贡献，完整投入仍增长且少数权利扩大"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        16.02474719313296,
+        42.66127682554837
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3,
+        1.7,
+        3.2,
+        2.9,
+        3.6,
+        2.5
+      ],
+      "total": 52.8,
+      "evidence": [
+        "完整经营费用销售估值与利润，夹层少数权益及融资资金股数联动",
+        "日周线仍跌，缩量和日柱转正只有初步企稳",
+        "三品牌改善汽车毛利，完整SBC后盈利安全垫薄",
+        "高端纯电与换电空间，价格竞争/补贴/海外资本风险",
+        "ES8/ES9及三品牌实际交付、换电吉利与芯片融资条件兑现",
+        "薄永久权益、供应债/融资租/受限现金、RNCI赎回增值和条件CEO奖股"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.3,
+        1.7,
+        3.4,
+        3.1,
+        3.7,
+        2.4
+      ],
+      "total": 60.1,
+      "evidence": [
+        "完整经营费用销售估值与利润，夹层少数权益及融资资金股数联动",
+        "日周线仍跌，缩量和日柱转正只有初步企稳",
+        "三品牌改善汽车毛利，完整SBC后盈利安全垫薄",
+        "高端纯电与换电空间，价格竞争/补贴/海外资本风险",
+        "ES8/ES9及三品牌实际交付、换电吉利与芯片融资条件兑现",
+        "薄永久权益、供应债/融资租/受限现金、RNCI赎回增值和条件CEO奖股"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.4,
+        1.7,
+        3.6,
+        3.3,
+        3.5,
+        2.2
+      ],
+      "total": 65,
+      "evidence": [
+        "完整经营费用销售估值与利润，夹层少数权益及融资资金股数联动",
+        "日周线仍跌，缩量和日柱转正只有初步企稳",
+        "三品牌改善汽车毛利，完整SBC后盈利安全垫薄",
+        "高端纯电与换电空间，价格竞争/补贴/海外资本风险",
+        "ES8/ES9及三品牌实际交付、换电吉利与芯片融资条件兑现",
+        "薄永久权益、供应债/融资租/受限现金、RNCI赎回增值和条件CEO奖股"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.2,
+        1.7,
+        3.6,
+        3.2,
+        3.3,
+        2
+      ],
+      "total": 63.7,
+      "evidence": [
+        "完整经营费用销售估值与利润，夹层少数权益及融资资金股数联动",
+        "日周线仍跌，缩量和日柱转正只有初步企稳",
+        "三品牌改善汽车毛利，完整SBC后盈利安全垫薄",
+        "高端纯电与换电空间，价格竞争/补贴/海外资本风险",
+        "ES8/ES9及三品牌实际交付、换电吉利与芯片融资条件兑现",
+        "薄永久权益、供应债/融资租/受限现金、RNCI赎回增值和条件CEO奖股"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "大摩",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 68.5,
+      "rating": "增持",
+      "reportDate": "2026-09-16",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1544829/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "期限未公开明确，不直接采用为年底或证实12个月目标"
+    },
+    {
+      "institution": "美银证券",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 40,
+      "rating": "中性",
+      "reportDate": "2026-09-02",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1542591/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "新闻综合毛利18.6%混写，原件18.4%；期限未明确"
+    },
+    {
+      "institution": "海通国际",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 32.7,
+      "rating": "中性",
+      "reportDate": "2026-09-07",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1543129/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "期限未公开明确，不直接采用为年底或证实12个月目标"
+    },
+    {
+      "institution": "交银国际",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 52.1,
+      "rating": "买入",
+      "reportDate": "2026-09-04",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1542942/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "期限未公开明确，不直接采用为年底或证实12个月目标"
+    },
+    {
+      "institution": "招银国际",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 47,
+      "rating": "买入",
+      "reportDate": "2026-09-03",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1542712/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "7.22亿为普通股归属亏，集团5.28亿，非矛盾；期限未明确"
+    },
+    {
+      "institution": "中金",
+      "code": "09866.HK",
+      "currency": "HKD",
+      "targetPrice": 48,
+      "rating": "跑赢行业",
+      "reportDate": "2026-09-02",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09866/AAFN/NOW.1542632/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "期限未公开明确，不直接采用为年底或证实12个月目标"
+    }
+  ],
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 87487.51,
+    "vehicleRevenue": 76883.876,
+    "otherRevenue": 10603.634,
+    "vehicleCost": 65670.81,
+    "otherCost": 9900.995,
+    "gross": 11915.705,
+    "RD": 10604.993,
+    "SGA": 16087.747,
+    "otherOperatingIncome": 735.797,
+    "operating": -14041.238,
+    "interestInvestment": 761.658,
+    "interestExpense": 885.248,
+    "debtLoss": 14.66,
+    "equityInvestee": -1092.184,
+    "otherNonOperating": 450.953,
+    "pretax": -14820.719,
+    "taxExpense": 121.882,
+    "groupProfit": -14942.601,
+    "RNCIAccretion": 609.857,
+    "NCIProfit": 18.22,
+    "ownerProfit": -15570.678,
+    "OCF": 2992.612,
+    "capexIncludingIntangible": 6065.226,
+    "FCFProxy": -3072.614,
+    "financeLease": 5033.175
+  },
+  "interim": {
+    "period": "H1 2026",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 57669.516,
+    "vehicleRevenue": 51841.937,
+    "otherRevenue": 5827.579,
+    "vehicleCost": 42165.426,
+    "otherCost": 4738.463,
+    "gross": 10765.627,
+    "RD": 4029.942,
+    "SGA": 7921.822,
+    "otherOperatingIncome": 530.107,
+    "operating": -656.03,
+    "interestInvestment": 96.935,
+    "interestExpense": 456.794,
+    "equityInvestee": -187.291,
+    "otherNonOperating": 388.04,
+    "pretax": -815.14,
+    "taxExpense": 44.951,
+    "groupProfit": -860.091,
+    "RNCIAccretion": 357.312,
+    "NCIProfit": 0.196,
+    "ownerProfit": -1217.599,
+    "cash": 17453.564,
+    "restricted": 13510.507,
+    "longRestricted": 68.625,
+    "shortInvest": 25634.741,
+    "cashAnchor": 43088.305,
+    "cashPositionApprox": 56700,
+    "longTimeDepositExact": null,
+    "currentDebt": 9062.478,
+    "longDebt": 8550.926,
+    "debtCarrying": 17613.404,
+    "financeLeaseCurrentExact": null,
+    "RNCI": 10222.746,
+    "ownerEquity": 4064.04,
+    "NCIEquity": -18.561,
+    "totalEquity": 4045.479,
+    "assets": 136211.34,
+    "liabilities": 121943.115,
+    "tradePayable": 60385.478,
+    "inventory": 11089.742,
+    "relatedReceivable": 14986.044,
+    "operatingLease": 11382.536,
+    "OCFExact": null,
+    "FCFExact": null,
+    "Q2OCFReportedPositive": true,
+    "SBC": 929.692,
+    "nonGAAPGroup": 69.601,
+    "deliveries": 191123
+  },
+  "quarters": {
+    "Q1": {
+      "revenue": 25532.655,
+      "vehicle": 22783.708,
+      "other": 2748.947,
+      "gross": 4859.137,
+      "RD": 1885.024,
+      "SGA": 3497.306,
+      "otherOperatingIncome": 214.382,
+      "operating": -308.811,
+      "groupProfit": -332.082,
+      "RNCIAccretion": 164.987,
+      "NCIProfit": -1.061,
+      "ownerProfit": -496.008,
+      "SBC": 375.598,
+      "nonGAAPGroup": 43.516,
+      "deliveries": 83465
+    },
+    "Q2": {
+      "revenue": 32136.861,
+      "vehicle": 29058.229,
+      "other": 3078.632,
+      "gross": 5906.49,
+      "RD": 2144.918,
+      "SGA": 4424.516,
+      "otherOperatingIncome": 315.725,
+      "operating": -347.219,
+      "groupProfit": -528.009,
+      "RNCIAccretion": 192.325,
+      "NCIProfit": 1.257,
+      "ownerProfit": -721.591,
+      "SBC": 554.094,
+      "nonGAAPGroup": 26.085,
+      "deliveries": 107658
+    },
+    "Q3": {
+      "july": 35934,
+      "august": 35836,
+      "september": 37408,
+      "deliveries": 109178,
+      "guidance": [
+        108000,
+        111000
+      ],
+      "revenueGuidance": [
+        33.293,
+        34.052
+      ],
+      "actualRevenue": null
+    }
+  },
+  "capital": {
+    "period": "2026-06-30 latest aggregate publicly verified by cutoff",
+    "Aeconomic": 2361371468,
+    "C": 148500000,
+    "economicTotal": 2509871468,
+    "reserve": 18820673,
+    "legalConservative": 2528692141,
+    "SeptemberAggregateExact": null,
+    "CEOConditionalAward": 248454460,
+    "CEOTranches": 10,
+    "ADSOrdinaryRatio": 1,
+    "note": "六月实质在外+已发行保留奖股作为保守法定锚，九月总股未取得，未来加显式新增含六月后与目标期奖股/融资；CEO新248454460条件奖分档独立新增，不把注册或在外重复计算。"
+  },
+  "transactions": {
+    "geely": {
+      "date": "2026-09-28",
+      "completionVerified": false,
+      "powerPostMoneyCNYbn": 16,
+      "cashCNYbn": 0.64,
+      "inKindYiyiPercent": 1,
+      "geelyShare": 0.3,
+      "ChinaPowerShare": 0.636,
+      "existingInvestorShare": 0.064,
+      "geelyOptionalCash": 0.64,
+      "geelyOptionalShare": 0.34,
+      "ChinaOptionalShare": 0.6,
+      "HaohanShare": 0.1,
+      "HaohanCashAmount": null,
+      "assetSaleAmount": null,
+      "note": "实物换股非集团现金，160亿整体估值不另加；Haohan投资现金与卖充电资产可能循环，净额和价值缺失置研究额外投资而不造来源"
+    },
+    "chip": {
+      "initialCNYbn": 2.257,
+      "initialNioShare": 0.627,
+      "initialInvestorShare": 0.273,
+      "incentiveShare": 0.1,
+      "laterCNYbn": 0.493,
+      "laterPostMoneyCNYbn": 12.25,
+      "laterNioShare": 0.5995,
+      "redeemable": true,
+      "completionVerified": false
+    },
+    "China": {
+      "FY2025Share": 0.918,
+      "afterConditionalCombinedInjectionAndPurchaseShare": 0.923,
+      "maximumBuybackCNYbn": 1.002,
+      "JuneSettlementExact": null,
+      "JuneClaimBookReductionExact": null,
+      "expectedPostCombinedInjectionAndPurchaseShare": 0.923,
+      "IPOApplication": "2027-12-31",
+      "IPOCompletion": "2028-12-31",
+      "newInvestorAnnualRate": 0.075,
+      "oldInvestorAnnualRate": 0.085,
+      "note": "六月整体夹层确数优先，不假造三层细拆；增值研究率.075/.08/.09及追加公允索偿敏感性保留"
+    }
+  },
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 87487.51,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "vehicleRevenue",
+      "value": 76883.876,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherRevenue",
+      "value": 10603.634,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "vehicleCost",
+      "value": 65670.81,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherCost",
+      "value": 9900.995,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "gross",
+      "value": 11915.705,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "RD",
+      "value": 10604.993,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "SGA",
+      "value": 16087.747,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherOperatingIncome",
+      "value": 735.797,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "operating",
+      "value": -14041.238,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "interestInvestment",
+      "value": 761.658,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "interestExpense",
+      "value": 885.248,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "debtLoss",
+      "value": 14.66,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "equityInvestee",
+      "value": -1092.184,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherNonOperating",
+      "value": 450.953,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "pretax",
+      "value": -14820.719,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "taxExpense",
+      "value": 121.882,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "groupProfit",
+      "value": -14942.601,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "RNCIAccretion",
+      "value": 609.857,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "NCIProfit",
+      "value": 18.22,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "ownerProfit",
+      "value": -15570.678,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-03-10",
+      "publicationTime": "19:17",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031001132.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "OCF",
+      "value": 2992.612,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-04-10",
+      "publicationTime": "21:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041001291.pdf",
+      "afterMarketClose": true,
+      "note": "年度现金流/租债明细按4月10日年报首次核验原件；未称3月结果已公布该明细"
+    },
+    {
+      "metric": "capexIncludingIntangible",
+      "value": 6065.226,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-04-10",
+      "publicationTime": "21:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041001291.pdf",
+      "afterMarketClose": true,
+      "note": "年度现金流/租债明细按4月10日年报首次核验原件；未称3月结果已公布该明细"
+    },
+    {
+      "metric": "financeLease",
+      "value": 5033.175,
+      "period": "FY2025",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-04-10",
+      "publicationTime": "21:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041001291.pdf",
+      "afterMarketClose": true,
+      "note": "年度现金流/租债明细按4月10日年报首次核验原件；未称3月结果已公布该明细"
+    },
+    {
+      "metric": "revenue",
+      "value": 57669.516,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "vehicleRevenue",
+      "value": 51841.937,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherRevenue",
+      "value": 5827.579,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "vehicleCost",
+      "value": 42165.426,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherCost",
+      "value": 4738.463,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "gross",
+      "value": 10765.627,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "RD",
+      "value": 4029.942,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "SGA",
+      "value": 7921.822,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherOperatingIncome",
+      "value": 530.107,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "operating",
+      "value": -656.03,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "interestInvestment",
+      "value": 96.935,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "interestExpense",
+      "value": 456.794,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "equityInvestee",
+      "value": -187.291,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "otherNonOperating",
+      "value": 388.04,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "pretax",
+      "value": -815.14,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "taxExpense",
+      "value": 44.951,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "groupProfit",
+      "value": -860.091,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "RNCIAccretion",
+      "value": 357.312,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "NCIProfit",
+      "value": 0.196,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "ownerProfit",
+      "value": -1217.599,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "cash",
+      "value": 17453.564,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "restricted",
+      "value": 13510.507,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "longRestricted",
+      "value": 68.625,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "shortInvest",
+      "value": 25634.741,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "currentDebt",
+      "value": 9062.478,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "longDebt",
+      "value": 8550.926,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "RNCI",
+      "value": 10222.746,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "ownerEquity",
+      "value": 4064.04,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "NCIEquity",
+      "value": -18.561,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "assets",
+      "value": 136211.34,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "liabilities",
+      "value": 121943.115,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "tradePayable",
+      "value": 60385.478,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "inventory",
+      "value": 11089.742,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "relatedReceivable",
+      "value": 14986.044,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "operatingLease",
+      "value": 11382.536,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "SBC",
+      "value": 929.692,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "nonGAAPGroup",
+      "value": 69.601,
+      "period": "H1 2026",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "deliveries",
+      "value": 191123,
+      "period": "H1 2026",
+      "currency": null,
+      "unit": "vehicles",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "交易所首次结果公开日期；货币原始值人民币百万"
+    },
+    {
+      "metric": "Q1.revenue",
+      "value": 25532.655,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.vehicle",
+      "value": 22783.708,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.other",
+      "value": 2748.947,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.gross",
+      "value": 4859.137,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.RD",
+      "value": 1885.024,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.SGA",
+      "value": 3497.306,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.otherOperatingIncome",
+      "value": 214.382,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.operating",
+      "value": -308.811,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.groupProfit",
+      "value": -332.082,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.RNCIAccretion",
+      "value": 164.987,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.NCIProfit",
+      "value": -1.061,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.ownerProfit",
+      "value": -496.008,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.SBC",
+      "value": 375.598,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.nonGAAPGroup",
+      "value": 43.516,
+      "period": "2026 Q1",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q1.deliveries",
+      "value": 83465,
+      "period": "2026 Q1",
+      "currency": null,
+      "unit": "vehicles",
+      "publicationDate": "2026-05-21",
+      "publicationTime": "18:21",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100995.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.revenue",
+      "value": 32136.861,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.vehicle",
+      "value": 29058.229,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.other",
+      "value": 3078.632,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.gross",
+      "value": 5906.49,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.RD",
+      "value": 2144.918,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.SGA",
+      "value": 4424.516,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.otherOperatingIncome",
+      "value": 315.725,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.operating",
+      "value": -347.219,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.groupProfit",
+      "value": -528.009,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.RNCIAccretion",
+      "value": 192.325,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.NCIProfit",
+      "value": 1.257,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.ownerProfit",
+      "value": -721.591,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.SBC",
+      "value": 554.094,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.nonGAAPGroup",
+      "value": 26.085,
+      "period": "2026 Q2",
+      "currency": "CNY",
+      "unit": "million",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q2.deliveries",
+      "value": 107658,
+      "period": "2026 Q2",
+      "currency": null,
+      "unit": "vehicles",
+      "publicationDate": "2026-09-01",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090102911.pdf",
+      "afterMarketClose": true,
+      "note": "季度交易所结果原件；首次公开日期，与半年报9/1分别保留"
+    },
+    {
+      "metric": "Q3.september",
+      "value": 37408,
+      "period": "2026 Q3",
+      "currency": null,
+      "unit": "vehicles",
+      "publicationDate": "2026-10-02",
+      "publicationTime": "12:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200781.pdf",
+      "afterMarketClose": false,
+      "note": "九月及第三季度交付公告原始数量；非Q3收入或财务结果"
+    },
+    {
+      "metric": "Q3.deliveries",
+      "value": 109178,
+      "period": "2026 Q3",
+      "currency": null,
+      "unit": "vehicles",
+      "publicationDate": "2026-10-02",
+      "publicationTime": "12:13",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200781.pdf",
+      "afterMarketClose": false,
+      "note": "九月及第三季度交付公告原始数量；非Q3收入或财务结果"
+    }
+  ]
+}

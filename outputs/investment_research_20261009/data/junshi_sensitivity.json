@@ -1,0 +1,183 @@
+{
+  "modelVersion": "junshi-v1-netLicensedRights-known2026Bonds-2029Put-equityOptions",
+  "asOf": "2026-10-09",
+  "baseYear": 5.621598139191985,
+  "rows": [
+    {
+      "label": "折现减2pp",
+      "yearPriceHKD": 7.027361340167149,
+      "fivePriceHKD": 10.674127237576569,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": 25.00646908882782
+    },
+    {
+      "label": "折现加2pp",
+      "yearPriceHKD": 4.518926456504174,
+      "fivePriceHKD": 7.909681537315125,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": -19.614914751738244
+    },
+    {
+      "label": "torip全收入减20%",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -2.250002246810742,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "torip全收入加20%",
+      "yearPriceHKD": 7.876848911537005,
+      "fivePriceHKD": 12.851592039004235,
+      "minimumCashCNYbn": 2.469495994693952,
+      "fundingFailure": false,
+      "changeYearPct": 40.117609201236434
+    },
+    {
+      "label": "国内PD1毛利减5pp",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -0.058202828129398254,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "全研发加20%",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -0.6338183422600464,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "全资本加20%",
+      "yearPriceHKD": 5.409640165742571,
+      "fivePriceHKD": 8.82618027446319,
+      "minimumCashCNYbn": 0.2862176599294035,
+      "fundingFailure": false,
+      "changeYearPct": -3.7704220081423157
+    },
+    {
+      "label": "全新品延迟2年",
+      "yearPriceHKD": 3.464172510112917,
+      "fivePriceHKD": 5.652023080891784,
+      "minimumCashCNYbn": 0.4000853768856635,
+      "fundingFailure": false,
+      "changeYearPct": -38.37744313379831
+    },
+    {
+      "label": "JS207净峰值减30%",
+      "yearPriceHKD": 4.928498846519361,
+      "fivePriceHKD": 8.041166874154307,
+      "minimumCashCNYbn": 0.8574024918757518,
+      "fundingFailure": false,
+      "changeYearPct": -12.329221611209762
+    },
+    {
+      "label": "JS212净峰值减30%",
+      "yearPriceHKD": 5.178948086163777,
+      "fivePriceHKD": 8.449791121050112,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": -7.87409633467383
+    },
+    {
+      "label": "BTLA概率减15pp",
+      "yearPriceHKD": 5.197842690469184,
+      "fivePriceHKD": 8.480618898629523,
+      "minimumCashCNYbn": 0.8436716082757515,
+      "fundingFailure": false,
+      "changeYearPct": -7.537988988727484
+    },
+    {
+      "label": "IL17版税10%",
+      "yearPriceHKD": 5.452776032844081,
+      "fivePriceHKD": 8.89655925119148,
+      "minimumCashCNYbn": 0.7477206561783886,
+      "fundingFailure": false,
+      "changeYearPct": -3.003098090041867
+    },
+    {
+      "label": "非流动金融回收0",
+      "yearPriceHKD": 5.427834392445135,
+      "fivePriceHKD": 8.855865340366137,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": -3.446773354288546
+    },
+    {
+      "label": "发行价减30%",
+      "yearPriceHKD": 5.335499360298012,
+      "fivePriceHKD": 8.705214721395256,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": -5.089278383301421
+    },
+    {
+      "label": "无权益再融资",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -2.0764319893574106,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "仅2029权益3bn",
+      "yearPriceHKD": 5.621598139191985,
+      "fivePriceHKD": 9.172003513524714,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": 0
+    },
+    {
+      "label": "仅2029权益2bn",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -0.1285714893102642,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "银行短债不续贷",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -1.1739938555439762,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "分配率40%",
+      "yearPriceHKD": 5.621598139191985,
+      "fivePriceHKD": 9.172003513524714,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": 0
+    },
+    {
+      "label": "忽略亏损限制仅参照",
+      "yearPriceHKD": 6.553477452282964,
+      "fivePriceHKD": 10.692425308576748,
+      "minimumCashCNYbn": 0.8732448918757517,
+      "fundingFailure": false,
+      "changeYearPct": 16.576768563270548
+    },
+    {
+      "label": "无理财赎回",
+      "yearPriceHKD": 0,
+      "fivePriceHKD": 0,
+      "minimumCashCNYbn": -0.08686632181841196,
+      "fundingFailure": true,
+      "changeYearPct": -100
+    },
+    {
+      "label": "新债费用3%",
+      "yearPriceHKD": 5.615640314966248,
+      "fivePriceHKD": 9.162282935251705,
+      "minimumCashCNYbn": 0.8438533370235312,
+      "fundingFailure": false,
+      "changeYearPct": -0.10598096979221872
+    }
+  ]
+}

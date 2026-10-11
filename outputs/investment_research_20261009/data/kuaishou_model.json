@@ -1,0 +1,1644 @@
+{
+  "issuerId": "I080",
+  "securityId": "S091",
+  "code": "01024.HK",
+  "name": "快手-W",
+  "deepResearchFile": "research/kuaishou_deep.md",
+  "asOf": "2026-10-09",
+  "price": 30.1,
+  "currency": "HKD",
+  "modelVersion": "kuaishou-core-kling-normalized-v1.0",
+  "status": "独立研究初版；核心广告电商与可灵融资及回报持续核验",
+  "method": "广告、直播、Other除可灵收入×独立贡献率−共享核心成本；可灵收入×直接贡献率−专属常态研发投资，乘研究归属比例；加有限净财资收益→20%税后−EPS分子储备÷摊薄普通股→EPS3位×PE×1.10；不加全净现金或可灵融资估值，内部免费AIGC不重复收入",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "USDHKD": 7.8,
+    "status": "研究换算假设，非已核即期"
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margins ratio; diluted ordinary shares billion; NTM earnings at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 3,
+    "normalization": "Other明确扣可灵避免重复；全世界业务在三类收入里不再加海外分部；贡献率含本块直接成本折旧股份费用，共享核心费另扣；可灵专属持续研发扣一次，归属比反映未来股权假设不称已完成68.33%；财资进入有限盈利不加全现金；EPS储备覆盖可赎回与其他分子变化",
+    "yearEnd": {
+      "adRevenue": [
+        75,
+        79,
+        83
+      ],
+      "liveRevenue": [
+        30,
+        32,
+        34
+      ],
+      "otherExKlingRevenue": [
+        19,
+        21,
+        23
+      ],
+      "klingRevenue": [
+        3.2,
+        3.8,
+        4.8
+      ],
+      "adContributionMargin": [
+        0.27,
+        0.31,
+        0.34
+      ],
+      "liveContributionMargin": [
+        0.17,
+        0.19,
+        0.21
+      ],
+      "otherContributionMargin": [
+        0.37,
+        0.42,
+        0.46
+      ],
+      "corporateCost": [
+        20,
+        23,
+        25
+      ],
+      "klingContributionMargin": [
+        0.3,
+        0.46,
+        0.58
+      ],
+      "klingFixedRD": [
+        8,
+        8,
+        7.5
+      ],
+      "klingOwnerShare": [
+        0.64,
+        0.6833,
+        0.72
+      ],
+      "normalNetFinanceAssociates": [
+        0.4,
+        0.8,
+        1.2
+      ],
+      "epsNumeratorReserve": [
+        0.4,
+        0.2,
+        0.1
+      ],
+      "dilutedShares": [
+        4.5,
+        4.4,
+        4.3
+      ]
+    },
+    "halfYear": {
+      "adRevenue": [
+        72,
+        80,
+        86
+      ],
+      "liveRevenue": [
+        29,
+        31,
+        34
+      ],
+      "otherExKlingRevenue": [
+        18,
+        22,
+        25
+      ],
+      "klingRevenue": [
+        3.5,
+        5,
+        7
+      ],
+      "adContributionMargin": [
+        0.265,
+        0.32,
+        0.35
+      ],
+      "liveContributionMargin": [
+        0.17,
+        0.19,
+        0.22
+      ],
+      "otherContributionMargin": [
+        0.37,
+        0.43,
+        0.47
+      ],
+      "corporateCost": [
+        19,
+        24,
+        26
+      ],
+      "klingContributionMargin": [
+        0.3,
+        0.48,
+        0.6
+      ],
+      "klingFixedRD": [
+        8,
+        8.5,
+        8
+      ],
+      "klingOwnerShare": [
+        0.62,
+        0.6833,
+        0.72
+      ],
+      "normalNetFinanceAssociates": [
+        0.3,
+        0.8,
+        1.2
+      ],
+      "epsNumeratorReserve": [
+        0.4,
+        0.2,
+        0.1
+      ],
+      "dilutedShares": [
+        4.55,
+        4.37,
+        4.25
+      ]
+    },
+    "oneYear": {
+      "adRevenue": [
+        70,
+        84,
+        93
+      ],
+      "liveRevenue": [
+        27,
+        31,
+        35
+      ],
+      "otherExKlingRevenue": [
+        18,
+        24,
+        28
+      ],
+      "klingRevenue": [
+        4,
+        7,
+        11
+      ],
+      "adContributionMargin": [
+        0.265,
+        0.33,
+        0.36
+      ],
+      "liveContributionMargin": [
+        0.17,
+        0.2,
+        0.23
+      ],
+      "otherContributionMargin": [
+        0.37,
+        0.44,
+        0.48
+      ],
+      "corporateCost": [
+        18.5,
+        25.5,
+        28
+      ],
+      "klingContributionMargin": [
+        0.32,
+        0.51,
+        0.62
+      ],
+      "klingFixedRD": [
+        8.3,
+        9,
+        9
+      ],
+      "klingOwnerShare": [
+        0.6,
+        0.67,
+        0.72
+      ],
+      "normalNetFinanceAssociates": [
+        0.2,
+        0.8,
+        1.2
+      ],
+      "epsNumeratorReserve": [
+        0.45,
+        0.25,
+        0.1
+      ],
+      "dilutedShares": [
+        4.65,
+        4.34,
+        4.18
+      ]
+    },
+    "threeYear": {
+      "adRevenue": [
+        65,
+        100,
+        130
+      ],
+      "liveRevenue": [
+        22,
+        31,
+        38
+      ],
+      "otherExKlingRevenue": [
+        17,
+        31,
+        42
+      ],
+      "klingRevenue": [
+        6,
+        17,
+        32
+      ],
+      "adContributionMargin": [
+        0.255,
+        0.35,
+        0.39
+      ],
+      "liveContributionMargin": [
+        0.17,
+        0.21,
+        0.25
+      ],
+      "otherContributionMargin": [
+        0.36,
+        0.46,
+        0.5
+      ],
+      "corporateCost": [
+        17,
+        31,
+        39
+      ],
+      "klingContributionMargin": [
+        0.35,
+        0.57,
+        0.68
+      ],
+      "klingFixedRD": [
+        8.5,
+        12,
+        16
+      ],
+      "klingOwnerShare": [
+        0.5,
+        0.62,
+        0.7
+      ],
+      "normalNetFinanceAssociates": [
+        0,
+        0.8,
+        1.4
+      ],
+      "epsNumeratorReserve": [
+        0.55,
+        0.35,
+        0.15
+      ],
+      "dilutedShares": [
+        4.95,
+        4.22,
+        3.92
+      ]
+    },
+    "fiveYear": {
+      "adRevenue": [
+        60,
+        115,
+        165
+      ],
+      "liveRevenue": [
+        18,
+        30,
+        42
+      ],
+      "otherExKlingRevenue": [
+        16,
+        39,
+        60
+      ],
+      "klingRevenue": [
+        8,
+        32,
+        70
+      ],
+      "adContributionMargin": [
+        0.25,
+        0.36,
+        0.4
+      ],
+      "liveContributionMargin": [
+        0.16,
+        0.22,
+        0.26
+      ],
+      "otherContributionMargin": [
+        0.35,
+        0.47,
+        0.52
+      ],
+      "corporateCost": [
+        16,
+        36,
+        52
+      ],
+      "klingContributionMargin": [
+        0.37,
+        0.6,
+        0.7
+      ],
+      "klingFixedRD": [
+        9,
+        16,
+        25
+      ],
+      "klingOwnerShare": [
+        0.45,
+        0.57,
+        0.67
+      ],
+      "normalNetFinanceAssociates": [
+        0,
+        0.8,
+        1.6
+      ],
+      "epsNumeratorReserve": [
+        0.6,
+        0.45,
+        0.2
+      ],
+      "dilutedShares": [
+        5.25,
+        4.12,
+        3.65
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        1.382,
+        2.303,
+        3.464
+      ],
+      "PE": [
+        10,
+        17,
+        21
+      ],
+      "priceHKD": [
+        15.2,
+        43.07,
+        80.02
+      ],
+      "priceReturnPct": [
+        -49.501661129568106,
+        43.08970099667773,
+        165.8471760797342
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -49.501661129568106,
+        43.08970099667773,
+        165.8471760797342
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 45.34,
+      "expectedReturnPct": 50.63122923588039,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 35.617000000000004,
+        "defensiveReturnPct": 18.328903654485053,
+        "positivePrice": 55.063,
+        "positiveReturnPct": 82.93355481727576
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.259,
+        2.441,
+        4.079
+      ],
+      "PE": [
+        10,
+        18,
+        22
+      ],
+      "priceHKD": [
+        13.85,
+        48.33,
+        98.71
+      ],
+      "priceReturnPct": [
+        -53.98671096345515,
+        60.56478405315613,
+        227.94019933554813
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -53.98671096345515,
+        60.56478405315613,
+        227.94019933554813
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        1.157,
+        2.918,
+        5.067
+      ],
+      "PE": [
+        9,
+        19,
+        23
+      ],
+      "priceHKD": [
+        11.45,
+        60.99,
+        128.2
+      ],
+      "priceReturnPct": [
+        -61.96013289036546,
+        102.62458471760797,
+        325.91362126245843
+      ],
+      "cumulativeCashDividendHKD": [
+        0.1,
+        0.4,
+        0.7
+      ],
+      "totalReturnPct": [
+        -61.627906976744185,
+        103.95348837209299,
+        328.2392026578072
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.897,
+        4.493,
+        9.683
+      ],
+      "PE": [
+        8,
+        21,
+        25
+      ],
+      "priceHKD": [
+        7.89,
+        103.79,
+        266.28
+      ],
+      "priceReturnPct": [
+        -73.7873754152824,
+        244.81727574750832,
+        784.6511627906975
+      ],
+      "cumulativeCashDividendHKD": [
+        0.2,
+        1.8,
+        3.8
+      ],
+      "totalReturnPct": [
+        -73.12292358803987,
+        250.79734219269102,
+        797.2757475083055
+      ],
+      "baseAnnualizedTotalReturnPct": 51.944656414594114
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.611,
+        6.29,
+        16.121
+      ],
+      "PE": [
+        7,
+        21,
+        26
+      ],
+      "priceHKD": [
+        4.7,
+        145.3,
+        461.06
+      ],
+      "priceReturnPct": [
+        -84.38538205980066,
+        382.72425249169436,
+        1431.7607973421927
+      ],
+      "cumulativeCashDividendHKD": [
+        0.3,
+        4.2,
+        9
+      ],
+      "totalReturnPct": [
+        -83.38870431893687,
+        396.67774086378734,
+        1461.6611295681062
+      ],
+      "baseAnnualizedTotalReturnPct": 37.789124098962226
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+    "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless otherwise specified",
+    "revenueCNYmillion": 142776,
+    "revenue2024CNYmillion": 126898,
+    "revenue2023CNYmillion": 113470,
+    "profitAttributableCNYmillion": 18617,
+    "profitAttributable2024CNYmillion": 15335,
+    "profitAttributable2023CNYmillion": 6396,
+    "dilutedEPSCNY": 4.23,
+    "dilutedEPS2024CNY": 3.48,
+    "weightedDilutedSharesMillion": 4402,
+    "OCFCNYmillion": 26716,
+    "OCF2024CNYmillion": 29787,
+    "capitalPurchasePrepaymentCNYmillion": 14942,
+    "adRevenueCNYmillion": 81462,
+    "liveRevenueCNYmillion": 39087,
+    "otherRevenueCNYmillion": 22227,
+    "ecommerceGMVCNYmillion": 1598070.7,
+    "KlingStandaloneRevenueProFormaCNYbillion": 1.1,
+    "KlingStandaloneRevenueSourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+    "KlingRevenueStatus": "重组假设下未审计2025收入，7月2日公告；非单独已审计报表",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "dilutedEPS2024CNY": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "OCF2024CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "capitalPurchasePrepaymentCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "adRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "liveRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "otherRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "ecommerceGMVCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+        "status": "reported input"
+      },
+      "KlingStandaloneRevenueProFormaCNYbillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "FY2025 pro forma",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported unaudited pro forma"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "H1/Q2 2026",
+    "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+    "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless otherwise specified",
+    "revenueCNYmillion": 69251,
+    "profitAttributableCNYmillion": 6049,
+    "profitGroupCNYmillion": 6057,
+    "adjustedNetProfitGroupCNYmillion": 7287,
+    "grossProfitCNYmillion": 35577,
+    "operatingProfitCNYmillion": 7352,
+    "dilutedEPSCNY": 1.38,
+    "weightedDilutedSharesMillion": 4397,
+    "Q2RevenueCNYmillion": 35535,
+    "Q2adRevenueCNYmillion": 20639,
+    "Q2liveRevenueCNYmillion": 8690,
+    "Q2otherRevenueCNYmillion": 6206,
+    "Q2ProfitAttributableCNYmillion": 3146,
+    "Q2ProfitGroupCNYmillion": 3152,
+    "Q2AdjustedNetProfitGroupCNYmillion": 3913,
+    "Q2OperatingProfitCNYmillion": 3757,
+    "Q2GrossProfitCNYmillion": 18328,
+    "Q2DilutedEPSCNY": 0.72,
+    "Q2WeightedDilutedSharesMillion": 4374,
+    "Q2KlingRevenueCNYmillionLowerBound": 850,
+    "Q2KlingRevenueStatus": "超过850m，不将阈值当精确收入；presentation Q1超过650m",
+    "Q2DAUMillion": 412.3,
+    "Q2MAUMillion": 797.3,
+    "Q2AdRevenueCNYperDAU": 50.1,
+    "Q2OCFCNYmillion": 5919,
+    "OCFCNYmillion": 9044,
+    "capitalPurchasePrepaymentCNYmillion": 17941,
+    "leasePrincipalInterestCashCNYmillion": 1919,
+    "FCFProxyAfterLeaseCNYmillion": -10816,
+    "FCFProxyCaution": "OCF−资本购买及预付−IFRS融资租赁本息；银行票据融资与利息分类另核，不等同公司官方FCF",
+    "SBCCNYmillion": 1311,
+    "cashCNYmillion": 11696,
+    "restrictedCashCNYmillion": 220,
+    "shortDepositsCNYmillion": 12358,
+    "longDepositsCNYmillion": 14291,
+    "currentFVTPL_CNYmillion": 56353,
+    "longFVTPL_CNYmillion": 29618,
+    "borrowingsCNYmillion": 27362,
+    "leaseLiabilitiesCNYmillion": 11672,
+    "dividendPayableCNYmillion": 2584,
+    "notesArrangementDetailsStatus": "融资现金流含票据安排及应收票据贴现，其他应付中的完整附注拆分仍需逐项核查；净资金不作价格底",
+    "netAvailableFundsLessBorrowingsProxyCNYbillion": 93.9,
+    "managementAvailableFundsCNYbillion": 121.3,
+    "Q2RDCNYmillion": 4581,
+    "RDCNYmillion": 8202,
+    "ordinarySharesJune": 4326907654,
+    "ordinarySharesSept": 4304151598,
+    "classASharesSept": 659348952,
+    "classBSharesSept": 3644802646,
+    "treasurySharesSept": 0,
+    "shareSourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+    "sharePublicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+    "dividend2025AlreadyPaidHKDperOrdinaryShare": 0.69,
+    "dividendStatus": "7月已付不计未来回报，董事会未宣中期息",
+    "klingTransactionSigningDate": "2026-07-02 收盘后",
+    "klingTransactionSourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+    "klingInitialCommitmentUSDmillion": 2028.2,
+    "klingSameDayJoinderUSDmillion": 766.39,
+    "klingSubscriptionLimitUSDmillion": 3000,
+    "klingPreTransactionValueUSDmillion": 15000,
+    "klingDilutionFullLimitAndSchemesPct": 68.33,
+    "klingSchemeLimitPct": 15,
+    "klingRedemptionSimpleAnnualRate": 0.08,
+    "klingRedemptionLatestDate": "2031-10-30或更早合同Latest Listing Date，附重组与许可触发",
+    "klingFinancingCompletionStatus": "7/2主源为条件协议，上限与满激励池假设；9/2美银新闻称完成但截止日独立完成原件未取",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "profitGroupCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "adjustedNetProfitGroupCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "grossProfitCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "operatingProfitCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2RevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2adRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2liveRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2otherRevenueCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2ProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2ProfitGroupCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2AdjustedNetProfitGroupCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2OperatingProfitCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2GrossProfitCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2DilutedEPSCNY": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2WeightedDilutedSharesMillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2KlingRevenueCNYmillionLowerBound": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported lower bound"
+      },
+      "Q2DAUMillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": null,
+        "unit": "million accounts",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2MAUMillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": null,
+        "unit": "million accounts",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2AdRevenueCNYperDAU": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY per DAU",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2OCFCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "capitalPurchasePrepaymentCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "leasePrincipalInterestCashCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "FCFProxyAfterLeaseCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "research calculation"
+      },
+      "SBCCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "cashCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "restrictedCashCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "shortDepositsCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "longDepositsCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "currentFVTPL_CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "longFVTPL_CNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "borrowingsCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "dividendPayableCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "netAvailableFundsLessBorrowingsProxyCNYbillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "research calculation"
+      },
+      "managementAvailableFundsCNYbillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "Q2RDCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "RDCNYmillion": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "ordinarySharesJune": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "ordinarySharesSept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+        "status": "reported input"
+      },
+      "classASharesSept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+        "status": "reported input"
+      },
+      "classBSharesSept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+        "status": "reported input"
+      },
+      "treasurySharesSept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+        "status": "reported input"
+      },
+      "dividend2025AlreadyPaidHKDperOrdinaryShare": {
+        "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+        "period": "H1/Q2 2026",
+        "currency": "HKD",
+        "unit": "HKD per ordinary share",
+        "publicationDate": "2026-08-19 结果公告；中报9月3日港交所，官网9月8日文件",
+        "status": "reported input"
+      },
+      "klingInitialCommitmentUSDmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingSameDayJoinderUSDmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingSubscriptionLimitUSDmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingPreTransactionValueUSDmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": "USD",
+        "unit": "USD million",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingDilutionFullLimitAndSchemesPct": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "percent",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingSchemeLimitPct": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "percent",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      },
+      "klingRedemptionSimpleAnnualRate": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+        "period": "H1/Q2 2026",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-07-02收盘后",
+        "status": "reported input"
+      }
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 30.24,
+      "60": 36.103333,
+      "120": 40.513664,
+      "250": 53.828828
+    },
+    "maSlope5Pct": {
+      "20": -2.677652,
+      "60": -3.305003,
+      "120": -1.548879,
+      "250": -1.853751
+    },
+    "priceVsMAPct": {
+      "20": -0.462964,
+      "60": -16.628197,
+      "120": -25.704078,
+      "250": -44.082008
+    },
+    "returnPct": {
+      "20": -4.927353,
+      "60": -35.84825,
+      "120": -34.100794,
+      "250": -66.666552
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 91.037031,
+    "low52w": 28.52,
+    "distanceFrom52wHighPct": -66.936532,
+    "distanceFrom52wLowPct": 5.539972,
+    "maxDrawdown52wPct": -68.394132,
+    "RSI14": 42.722058,
+    "ATR14": 1.157861,
+    "ATR14Pct": 3.846714,
+    "MACD": {
+      "DIF": -1.286546,
+      "DEA": -1.502481,
+      "histogram": 0.43187,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 30174454.8,
+      "20": 31511359.15,
+      "60": 43949876.6
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.905443,
+    "previous20MeanVolume": 30539934.35,
+    "upDownVolume20": {
+      "upVolume": 319185813,
+      "downVolume": 311041370,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 1.026184
+    },
+    "ranges": {
+      "20": {
+        "support": 28.52,
+        "resistance": 32.040001,
+        "toSupportPct": -5.249169,
+        "toResistancePct": 6.445186,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 28.52,
+        "resistance": 47.400002,
+        "toSupportPct": -5.249169,
+        "toResistancePct": 57.47509,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 38.738933,
+      "60": 55.796756,
+      "120": 53.063804,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -9.239318,
+      "60": -5.939192,
+      "120": -1.650043,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -22.300391,
+      "60": -46.054212,
+      "120": -43.275834,
+      "250": null
+    },
+    "returnPct": {
+      "20": -32.916802,
+      "60": -58.79928,
+      "120": -37.551898,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 83.761934,
+    "low52w": 28.52,
+    "distanceFrom52wHighPct": -64.064822,
+    "distanceFrom52wLowPct": 5.539972,
+    "maxDrawdown52wPct": -62.968809,
+    "RSI14": 28.261132,
+    "ATR14": 4.127749,
+    "ATR14Pct": 13.713451,
+    "MACD": {
+      "DIF": -6.088609,
+      "DEA": -5.703098,
+      "histogram": -0.771024,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 156808823.8,
+      "20": 264242988.85,
+      "60": 216475333.567
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.564883,
+    "previous20MeanVolume": 267085986.8,
+    "upDownVolume20": {
+      "upVolume": 2793740156,
+      "downVolume": 2491119621,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 1.12148
+    },
+    "ranges": {
+      "20": {
+        "support": 28.52,
+        "resistance": 48.271256,
+        "toSupportPct": -5.249169,
+        "toResistancePct": 60.369621,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 28.52,
+        "resistance": 91.037031,
+        "toSupportPct": -5.249169,
+        "toResistancePct": 202.448608,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -1.949445,
+    "excess60Pct": -32.660347,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -1.864189,
+    "industryExcess60Pct": -22.680231
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.3,
+        2.1,
+        2.9,
+        3.4,
+        3.8,
+        2.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 57.4
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        2.1,
+        3.1,
+        3.7,
+        3.8,
+        2.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 64.7
+    },
+    "threeYear": {
+      "dimensions": [
+        4.1,
+        2.1,
+        3.6,
+        4,
+        3.7,
+        2.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 72.5
+    },
+    "fiveYear": {
+      "dimensions": [
+        4.1,
+        2.1,
+        3.8,
+        4.1,
+        3.5,
+        2.3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 73.6
+    }
+  },
+  "brokerTargets": [
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "institution": "花旗",
+      "targetPrice": 41,
+      "currency": "HKD",
+      "publicationDate": "2026-09-29",
+      "targetHorizon": null,
+      "rating": "中性",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01024/AAFN/NOW.1546870/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "institution": "美银证券",
+      "targetPrice": 53,
+      "currency": "HKD",
+      "publicationDate": "2026-09-02",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01024/AAFN/NOW.1542587/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "institution": "野村",
+      "targetPrice": 40,
+      "currency": "HKD",
+      "publicationDate": "2026-08-21",
+      "targetHorizon": null,
+      "rating": "中性",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01024/AAFN/NOW.1539847/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "institution": "高盛",
+      "targetPrice": 38,
+      "currency": "HKD",
+      "publicationDate": "2026-08-21",
+      "targetHorizon": null,
+      "rating": "中性",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01024/AAFN/NOW.1539826/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    },
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "institution": "汇丰研究",
+      "targetPrice": 45,
+      "currency": "HKD",
+      "publicationDate": "2026-08-21",
+      "targetHorizon": null,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01024/AAFN/NOW.1539820/research-report",
+      "sourceType": "公开新闻转述",
+      "verified": true,
+      "institutionOwnership": "外资"
+    }
+  ],
+  "confidence": "中：财报行情高可信，可灵独立盈利、现金与融资完成条款核验不足",
+  "gaps": [
+    "可灵独立利润现金与融资完成原件未取，68.33%仅满上限与激励池情景，不是确认实际最新持股",
+    "新融资现金属于可灵公司不能全加母公司净现金；8%简单年息赎回触发必须保留",
+    "2026半年精确电商总GMV未在已核结果取得，机构指引不能当实际值",
+    "三块收入独立贡献利润未公开，模型为研究假设；可灵直接成本及专属研发待取",
+    "票据安排/贴现完整负债附注与净资金归属未全核，净资金不作为股价底",
+    "9月28日4.0预告/有限试用以花旗9/29新闻核得，正式推出与实际能力未取独立原始证明",
+    "外资原研报及明确目标期限缺失，最新新闻去重，期限null",
+    "自由流通换手分母与逐笔成交缺失，量能使用日线观察"
+  ],
+  "sources": [
+    {
+      "id": "KUA-Q226",
+      "url": "https://ir.kuaishou.com/static-files/3dd8a357-fa7b-4388-b023-f1105b05e4de",
+      "publicationDate": "2026-08-19 16:50:18香港（公告目录时间）收盘后",
+      "period": "H1/Q2 2026",
+      "sourceType": "公司官网交易所原件",
+      "localFile": "data/tech_raw/kuaishou_2026q2.pdf"
+    },
+    {
+      "id": "KUA-A25",
+      "url": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/04/24/18-14-04/Eng%20Annual%20report%202025.pdf",
+      "publicationDate": "2026-03-25业绩和董事会审计报告；年报港交所4月24日，官网文件18:14",
+      "period": "FY2025",
+      "sourceType": "公司官网交易所原件",
+      "localFile": "data/tech_raw/kuaishou_2025annual.pdf"
+    },
+    {
+      "id": "KUA-H126",
+      "url": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+      "publicationDate": "2026-09-03港交所，官网9月8日10:47文件",
+      "period": "H1/Q2 2026",
+      "sourceType": "公司官网交易所原件",
+      "localFile": "data/tech_raw/kuaishou_2026interim.pdf"
+    },
+    {
+      "id": "KUA-P226",
+      "url": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/09/19-36-43/2Q26%20MP_EN_0904%28Final%29.pdf",
+      "publicationDate": "2026-08月演示；官网9月9日19:36文件",
+      "period": "H1/Q2 2026",
+      "sourceType": "公司官网交易所原件",
+      "localFile": "data/tech_raw/kuaishou_2026q2presentation.pdf"
+    },
+    {
+      "id": "KUA-KLING",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4150664/HKEX-EPS_20260702_12230299_0.PDF",
+      "publicationDate": "2026-07-02收盘后",
+      "period": "融资协议及重组激励",
+      "sourceType": "公司公告原件经官网内嵌目录取得",
+      "localFile": "data/tech_raw/kuaishou_kling_transaction.pdf"
+    },
+    {
+      "id": "KUA-SHARES",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192236/HKEX-EPS_20261007_12365118_0.PDF",
+      "publicationDate": "2026-10-07 20:35:24香港（公告目录时间转换），截至9月30日",
+      "period": "2026-09-30",
+      "sourceType": "月报原件经官网内嵌目录取得",
+      "localFile": "data/tech_raw/kuaishou_202609shares.pdf"
+    }
+  ],
+  "activeScenario": "base",
+  "scenarioSnapshotDate": "2026-10-09",
+  "refreshPolicy": "单套活动经营桥按悲观基准乐观顺序快照；输入改即待刷新，正文与总表同版发布"
+}

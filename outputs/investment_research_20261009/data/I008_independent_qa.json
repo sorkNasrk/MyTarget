@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": 1286935,
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
+  "independentAtomicRebuild": true,
+  "inputEdits": 31,
+  "sensitivityCases": 13,
+  "scope": "3cases26years67assets32active5horizons; independent atomic calculations, cached outputs, cash debt option source score checks"
+}

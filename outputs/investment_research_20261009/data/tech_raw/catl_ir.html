@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="上海雍熙信息技术有限公司提供技术支持,http://www.yongsy.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="renderer" content="webkit">
+  <meta name="description"
+        content="宁德时代新能源科技股份有限公司是全球领先的锂离子电池研发制造公司，公司专注于新能源汽车动力电池系统、储能系统的研发、生产和销售，致力于为全球新能源应用提供一流解决方案。" />
+  <meta name="keywords" content="catl,宁德,宁德时代,新能源,电池" />
+  <title>该页面不存在-404</title>
+  <link rel="shortcut icon" href="https://www.catl.com/favicon.ico">
+  <link rel="stylesheet" href="/template/1/default/_files/css/404life.css?v=20211105">
+  <script src="/template/1/default/_files/js/jquery-1.12.4.min.js"></script>
+  <script src="/template/1/default/_files/js/jquery.cookie.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="he_logobox">
+    <div class="he_cont1200">
+      <div class="he_phbx">
+        <a href="javascript:;"  onclick="back()">
+          <img src="/template/1/default/_files/images/logo2.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="he_content">
+    <div class="he_cont1200">
+      <h1>404</h1>
+      <p>Sorry，the page does not exist</p>
+      <div class="buttons">
+        <a href="javascript:;"  onclick="back()">return to homepage</a><br>
+        <!-- <span>© www.yongsy.com</span> -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    function back() {
+        var rel = document.referrer;
+        var host = window.location.host;
+        //判断是否是来源于本站
+        var islocal = false;
+        if(rel && rel.indexOf(host) > -1){
+             islocal = true;
+           }
+
+        if(islocal){
+
+            if (rel.indexOf('/en') != -1 || rel.indexOf('/en/') != -1) {
+                window.location.href = "http://" + host + "/en";
+            } else {
+                window.location.href = "http://" + host;
+            }
+        }else{
+                var language= $.cookie('language');
+
+                if(language == 'en'){
+                    window.location.href = "http://"+host+"/en";
+                }else{
+                    window.location.href = "http://"+host;
+                }
+        }
+    }
+</script>
+</body>
+</html>

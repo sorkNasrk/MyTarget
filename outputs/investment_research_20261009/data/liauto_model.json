@@ -1,0 +1,2578 @@
+{
+  "issuerId": "I084",
+  "securityId": "S095",
+  "code": "02015.HK",
+  "name": "理想汽车-W",
+  "company": "理想汽车",
+  "asOf": "2026-10-09",
+  "price": 44.66,
+  "priceCurrency": "HKD",
+  "modelVersion": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/liauto_deep.md",
+  "status": "source-model-body-verified-pending-final-document-integration",
+  "nativeWorkbookQAFile": "qa/liauto_native_workbook_qa.json",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "vehicleDeliveriesM": [
+          0.32,
+          0.4,
+          0.47
+        ],
+        "vehicleASPThousand": [
+          225,
+          240,
+          255
+        ],
+        "otherRevenue": [
+          5.5,
+          6.5,
+          7
+        ],
+        "vehicleGross": [
+          0.075,
+          0.13,
+          0.17
+        ],
+        "otherGross": [
+          0.29,
+          0.34,
+          0.36
+        ],
+        "RD": [
+          11.5,
+          11.2,
+          11.5
+        ],
+        "SGA": [
+          8.8,
+          8.9,
+          9.4
+        ],
+        "otherOperatingCost": [
+          0.35,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.22,
+          0.18,
+          0.16
+        ],
+        "minorityOperatingProfit": [
+          0.03,
+          0.04,
+          0.05
+        ],
+        "DAExOperatingROU": [
+          5.4,
+          5.6,
+          5.7
+        ],
+        "capitalCash": [
+          5.3,
+          5.3,
+          5.7
+        ],
+        "NWC": [
+          3.5,
+          2,
+          1.7
+        ],
+        "annualFinanceLeaseCash": [
+          0.12,
+          0.12,
+          0.13
+        ],
+        "annualDebtInterest": [
+          0.23,
+          0.2,
+          0.19
+        ],
+        "cashAccumulationYears": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "postJuneNetCashDelta": [
+          -10,
+          -6,
+          -3
+        ],
+        "operatingCashReserve": [
+          38,
+          30,
+          25
+        ],
+        "futureExtraInvestmentCash": [
+          0.5,
+          0.4,
+          0.5
+        ],
+        "extraBuybackHKDbn": [
+          0,
+          0.3,
+          0.5
+        ],
+        "buybackAvgHKD": [
+          42,
+          48,
+          58
+        ],
+        "normalNewSharesBn": [
+          0.008,
+          0.01,
+          0.015
+        ],
+        "treasuryReissueSharesBn": [
+          0,
+          0,
+          0
+        ],
+        "treasurySaleHKD": [
+          40,
+          48,
+          58
+        ],
+        "EVSales": [
+          0.18,
+          0.55,
+          1
+        ],
+        "otherInvestmentNAV": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.6,
+          0.75
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "cashAnchor": [
+          87.475951,
+          87.475951,
+          87.475951
+        ],
+        "debtPrincipalAnchor": [
+          7.160045,
+          7.160045,
+          7.160045
+        ],
+        "financeLeaseAnchor": [
+          0.349322,
+          0.349322,
+          0.349322
+        ],
+        "NCICashReserve": [
+          0.532911,
+          0.532911,
+          0.532911
+        ],
+        "baseSharesBn": [
+          2.061229316,
+          2.061229316,
+          2.061229316
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "halfYear": {
+        "vehicleDeliveriesM": [
+          0.29,
+          0.44,
+          0.56
+        ],
+        "vehicleASPThousand": [
+          220,
+          238,
+          258
+        ],
+        "otherRevenue": [
+          5.7,
+          7,
+          8.3
+        ],
+        "vehicleGross": [
+          0.07,
+          0.15,
+          0.19
+        ],
+        "otherGross": [
+          0.28,
+          0.34,
+          0.37
+        ],
+        "RD": [
+          11.8,
+          11.6,
+          12
+        ],
+        "SGA": [
+          8.6,
+          9.1,
+          10.2
+        ],
+        "otherOperatingCost": [
+          0.4,
+          0.22,
+          0.16
+        ],
+        "taxRate": [
+          0.23,
+          0.19,
+          0.165
+        ],
+        "minorityOperatingProfit": [
+          0.03,
+          0.045,
+          0.06
+        ],
+        "DAExOperatingROU": [
+          5.6,
+          5.8,
+          6.1
+        ],
+        "capitalCash": [
+          5.7,
+          5.7,
+          6.2
+        ],
+        "NWC": [
+          4,
+          2.2,
+          2
+        ],
+        "annualFinanceLeaseCash": [
+          0.13,
+          0.13,
+          0.14
+        ],
+        "annualDebtInterest": [
+          0.25,
+          0.21,
+          0.2
+        ],
+        "cashAccumulationYears": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "postJuneNetCashDelta": [
+          -10,
+          -6,
+          -3
+        ],
+        "operatingCashReserve": [
+          39,
+          32,
+          28
+        ],
+        "futureExtraInvestmentCash": [
+          1,
+          0.8,
+          1.2
+        ],
+        "extraBuybackHKDbn": [
+          0,
+          0.8,
+          1.2
+        ],
+        "buybackAvgHKD": [
+          38,
+          52,
+          65
+        ],
+        "normalNewSharesBn": [
+          0.02,
+          0.025,
+          0.035
+        ],
+        "treasuryReissueSharesBn": [
+          0,
+          0,
+          0
+        ],
+        "treasurySaleHKD": [
+          35,
+          52,
+          65
+        ],
+        "EVSales": [
+          0.15,
+          0.65,
+          1.15
+        ],
+        "otherInvestmentNAV": [
+          1,
+          1.15,
+          1.3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.6,
+          0.75
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "cashAnchor": [
+          87.475951,
+          87.475951,
+          87.475951
+        ],
+        "debtPrincipalAnchor": [
+          7.160045,
+          7.160045,
+          7.160045
+        ],
+        "financeLeaseAnchor": [
+          0.349322,
+          0.349322,
+          0.349322
+        ],
+        "NCICashReserve": [
+          0.532911,
+          0.532911,
+          0.532911
+        ],
+        "baseSharesBn": [
+          2.061229316,
+          2.061229316,
+          2.061229316
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "oneYear": {
+        "vehicleDeliveriesM": [
+          0.27,
+          0.52,
+          0.68
+        ],
+        "vehicleASPThousand": [
+          210,
+          236,
+          258
+        ],
+        "otherRevenue": [
+          6,
+          8.2,
+          10
+        ],
+        "vehicleGross": [
+          0.065,
+          0.17,
+          0.2
+        ],
+        "otherGross": [
+          0.27,
+          0.35,
+          0.38
+        ],
+        "RD": [
+          12,
+          12.5,
+          13.6
+        ],
+        "SGA": [
+          8.4,
+          9.8,
+          11.8
+        ],
+        "otherOperatingCost": [
+          0.45,
+          0.25,
+          0.17
+        ],
+        "taxRate": [
+          0.24,
+          0.195,
+          0.17
+        ],
+        "minorityOperatingProfit": [
+          0.035,
+          0.06,
+          0.09
+        ],
+        "DAExOperatingROU": [
+          5.8,
+          6.2,
+          6.8
+        ],
+        "capitalCash": [
+          5.8,
+          6.2,
+          7.5
+        ],
+        "NWC": [
+          4.5,
+          2.7,
+          2.8
+        ],
+        "annualFinanceLeaseCash": [
+          0.14,
+          0.14,
+          0.16
+        ],
+        "annualDebtInterest": [
+          0.27,
+          0.22,
+          0.21
+        ],
+        "cashAccumulationYears": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "postJuneNetCashDelta": [
+          -10,
+          -6,
+          -3
+        ],
+        "operatingCashReserve": [
+          40,
+          35,
+          31
+        ],
+        "futureExtraInvestmentCash": [
+          1.7,
+          1.6,
+          2.5
+        ],
+        "extraBuybackHKDbn": [
+          0.1,
+          1.5,
+          2
+        ],
+        "buybackAvgHKD": [
+          34,
+          58,
+          80
+        ],
+        "normalNewSharesBn": [
+          0.04,
+          0.05,
+          0.07
+        ],
+        "treasuryReissueSharesBn": [
+          0.02,
+          0,
+          0
+        ],
+        "treasurySaleHKD": [
+          30,
+          58,
+          80
+        ],
+        "EVSales": [
+          0.12,
+          0.75,
+          1.2
+        ],
+        "otherInvestmentNAV": [
+          0.9,
+          1.25,
+          1.5
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.6,
+          0.75
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "cashAnchor": [
+          87.475951,
+          87.475951,
+          87.475951
+        ],
+        "debtPrincipalAnchor": [
+          7.160045,
+          7.160045,
+          7.160045
+        ],
+        "financeLeaseAnchor": [
+          0.349322,
+          0.349322,
+          0.349322
+        ],
+        "NCICashReserve": [
+          0.532911,
+          0.532911,
+          0.532911
+        ],
+        "baseSharesBn": [
+          2.061229316,
+          2.061229316,
+          2.061229316
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "threeYear": {
+        "vehicleDeliveriesM": [
+          0.24,
+          0.78,
+          1.1
+        ],
+        "vehicleASPThousand": [
+          200,
+          235,
+          260
+        ],
+        "otherRevenue": [
+          6.5,
+          12,
+          17
+        ],
+        "vehicleGross": [
+          0.055,
+          0.185,
+          0.22
+        ],
+        "otherGross": [
+          0.25,
+          0.36,
+          0.4
+        ],
+        "RD": [
+          12.2,
+          16,
+          20
+        ],
+        "SGA": [
+          8.2,
+          13,
+          18
+        ],
+        "otherOperatingCost": [
+          0.6,
+          0.35,
+          0.22
+        ],
+        "taxRate": [
+          0.25,
+          0.21,
+          0.185
+        ],
+        "minorityOperatingProfit": [
+          0.04,
+          0.12,
+          0.2
+        ],
+        "DAExOperatingROU": [
+          6,
+          8,
+          10
+        ],
+        "capitalCash": [
+          6.2,
+          8.2,
+          11
+        ],
+        "NWC": [
+          5,
+          3.5,
+          5
+        ],
+        "annualFinanceLeaseCash": [
+          0.16,
+          0.17,
+          0.2
+        ],
+        "annualDebtInterest": [
+          0.3,
+          0.24,
+          0.22
+        ],
+        "cashAccumulationYears": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "postJuneNetCashDelta": [
+          -10,
+          -6,
+          -3
+        ],
+        "operatingCashReserve": [
+          42,
+          44,
+          47
+        ],
+        "futureExtraInvestmentCash": [
+          4,
+          6,
+          10
+        ],
+        "extraBuybackHKDbn": [
+          0.2,
+          4,
+          7
+        ],
+        "buybackAvgHKD": [
+          28,
+          72,
+          115
+        ],
+        "normalNewSharesBn": [
+          0.12,
+          0.15,
+          0.21
+        ],
+        "treasuryReissueSharesBn": [
+          0.06,
+          0.02,
+          0
+        ],
+        "treasurySaleHKD": [
+          25,
+          72,
+          115
+        ],
+        "EVSales": [
+          0.09,
+          0.8,
+          1.15
+        ],
+        "otherInvestmentNAV": [
+          0.65,
+          1.6,
+          2.4
+        ],
+        "NAVRealizable": [
+          0.2,
+          0.6,
+          0.75
+        ],
+        "dividend": [
+          0,
+          0.6,
+          1.4
+        ],
+        "cashAnchor": [
+          87.475951,
+          87.475951,
+          87.475951
+        ],
+        "debtPrincipalAnchor": [
+          7.160045,
+          7.160045,
+          7.160045
+        ],
+        "financeLeaseAnchor": [
+          0.349322,
+          0.349322,
+          0.349322
+        ],
+        "NCICashReserve": [
+          0.532911,
+          0.532911,
+          0.532911
+        ],
+        "baseSharesBn": [
+          2.061229316,
+          2.061229316,
+          2.061229316
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "fiveYear": {
+        "vehicleDeliveriesM": [
+          0.2,
+          1,
+          1.55
+        ],
+        "vehicleASPThousand": [
+          190,
+          235,
+          260
+        ],
+        "otherRevenue": [
+          6.8,
+          17,
+          27
+        ],
+        "vehicleGross": [
+          0.05,
+          0.19,
+          0.225
+        ],
+        "otherGross": [
+          0.24,
+          0.37,
+          0.42
+        ],
+        "RD": [
+          12.4,
+          20,
+          28
+        ],
+        "SGA": [
+          8.2,
+          16.5,
+          24.5
+        ],
+        "otherOperatingCost": [
+          0.7,
+          0.45,
+          0.3
+        ],
+        "taxRate": [
+          0.25,
+          0.225,
+          0.2
+        ],
+        "minorityOperatingProfit": [
+          0.05,
+          0.2,
+          0.35
+        ],
+        "DAExOperatingROU": [
+          6.2,
+          10,
+          14
+        ],
+        "capitalCash": [
+          6.3,
+          10.5,
+          16
+        ],
+        "NWC": [
+          5.5,
+          4.5,
+          7
+        ],
+        "annualFinanceLeaseCash": [
+          0.18,
+          0.2,
+          0.25
+        ],
+        "annualDebtInterest": [
+          0.34,
+          0.27,
+          0.24
+        ],
+        "cashAccumulationYears": [
+          3.65,
+          3.65,
+          3.65
+        ],
+        "postJuneNetCashDelta": [
+          -10,
+          -6,
+          -3
+        ],
+        "operatingCashReserve": [
+          44,
+          52,
+          62
+        ],
+        "futureExtraInvestmentCash": [
+          6,
+          11,
+          20
+        ],
+        "extraBuybackHKDbn": [
+          0.3,
+          7,
+          14
+        ],
+        "buybackAvgHKD": [
+          22,
+          88,
+          150
+        ],
+        "normalNewSharesBn": [
+          0.22,
+          0.28,
+          0.4
+        ],
+        "treasuryReissueSharesBn": [
+          0.09,
+          0.04,
+          0
+        ],
+        "treasurySaleHKD": [
+          20,
+          88,
+          150
+        ],
+        "EVSales": [
+          0.06,
+          0.75,
+          1.05
+        ],
+        "otherInvestmentNAV": [
+          0.4,
+          2,
+          3.5
+        ],
+        "NAVRealizable": [
+          0.15,
+          0.6,
+          0.75
+        ],
+        "dividend": [
+          0,
+          1.8,
+          4
+        ],
+        "cashAnchor": [
+          87.475951,
+          87.475951,
+          87.475951
+        ],
+        "debtPrincipalAnchor": [
+          7.160045,
+          7.160045,
+          7.160045
+        ],
+        "financeLeaseAnchor": [
+          0.349322,
+          0.349322,
+          0.349322
+        ],
+        "NCICashReserve": [
+          0.532911,
+          0.532911,
+          0.532911
+        ],
+        "baseSharesBn": [
+          2.061229316,
+          2.061229316,
+          2.061229316
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      }
+    },
+    "type": "normal-full-expense-volume-ASP-operating-EVsales-capital",
+    "capitalNote": "汽车数量×净ASP、服务收入及毛利减完整研发销售行政，SBC/摊销/USGAAP经营租成本均保留；亏损阶段经营EV销售倍数结合正常利润检视，排财资收入另加受约束现金，扣借款本金融资租债与少数现金。未来现金DA不加回经营ROU，借款息/融资租现金另扣，资本含正常新增设施；库存转售现金/股数联动，回购本金/股数联动，累计息扣本金。",
+    "fieldMetadata": {
+      "vehicleDeliveriesM": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "million vehicles",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "vehicleASPThousand": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY thousand per vehicle",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "otherRevenue": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "vehicleGross": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "otherGross": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "RD": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "SGA": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "otherOperatingCost": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "taxRate": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "minorityOperatingProfit": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "DAExOperatingROU": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "capitalCash": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "NWC": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "annualFinanceLeaseCash": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "annualDebtInterest": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "cashAccumulationYears": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "postJuneNetCashDelta": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "cashAnchor": {
+        "code": "02015.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "debtPrincipalAnchor": {
+        "code": "02015.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "financeLeaseAnchor": {
+        "code": "02015.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "NCICashReserve": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "operatingCashReserve": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "futureExtraInvestmentCash": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "extraBuybackHKDbn": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "buybackAvgHKD": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "normalNewSharesBn": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "treasuryReissueSharesBn": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "treasurySaleHKD": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "baseSharesBn": {
+        "code": "02015.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "EVSales": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "otherInvestmentNAV": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "NAVRealizable": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "FX": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      },
+      "dividend": {
+        "code": "02015.HK",
+        "reportPeriod": "目标NTM正常年率/锁定前后资本假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "liauto-fullcost-volume-ASP-operating-EVsales-capital-v1.0"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041000366.pdf",
+      "publicationDate": "2026-04-10 16:36",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_annual.pdf"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0312/2026031200310.pdf",
+      "publicationDate": "2026-03-12 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_fyresults.pdf"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+      "publicationDate": "2026-09-08 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_interim.pdf"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600506.pdf",
+      "publicationDate": "2026-08-26 17:04",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_h1results.pdf"
+    },
+    {
+      "id": "q2results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600316.pdf",
+      "publicationDate": "2026-08-26 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_q2results.pdf"
+    },
+    {
+      "id": "q1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800509.pdf",
+      "publicationDate": "2026-05-28 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_q1results.pdf"
+    },
+    {
+      "id": "septdeliver",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1001/2026100100037.pdf",
+      "publicationDate": "2026-10-01 18:12",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_septdeliver.pdf"
+    },
+    {
+      "id": "augdeliver",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090100613.pdf",
+      "publicationDate": "2026-09-01 12:00",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_augdeliver.pdf"
+    },
+    {
+      "id": "juldeliver",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0802/2026080200003.pdf",
+      "publicationDate": "2026-08-02 18:02",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_juldeliver.pdf"
+    },
+    {
+      "id": "repurchase",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0324/2026032401608.pdf",
+      "publicationDate": "2026-03-24 22:08",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_repurchase.pdf"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700656.pdf",
+      "publicationDate": "2026-10-07 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/liauto_shares.pdf"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 45.191,
+      "60": 47.798833,
+      "120": 53.563333,
+      "250": 63.214
+    },
+    "maSlope5Pct": {
+      "20": -2.739756,
+      "60": -0.904596,
+      "120": -2.198242,
+      "250": -1.788971
+    },
+    "priceVsMAPct": {
+      "20": -1.175014,
+      "60": -6.566757,
+      "120": -16.622067,
+      "250": -29.351093
+    },
+    "returnPct": {
+      "20": -3.915663,
+      "60": -11.388892,
+      "120": -37.494749,
+      "250": -56.215686
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 103.300003,
+    "low52w": 41.700001,
+    "distanceFrom52wHighPct": -56.7667,
+    "distanceFrom52wLowPct": 7.098319,
+    "maxDrawdown52wPct": -58.431371,
+    "RSI14": 46.501678,
+    "ATR14": 1.678674,
+    "ATR14Pct": 3.758786,
+    "MACD": {
+      "DIF": -1.193486,
+      "DEA": -1.131096,
+      "histogram": -0.124779,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 4712910.2,
+      "20": 8077414.7,
+      "60": 9488219.333
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.044305,
+    "previous20MeanVolume": 8056066.85,
+    "upDownVolume20": {
+      "upVolume": 86034188,
+      "downVolume": 75514106,
+      "flatVolume": 0,
+      "upDays": 11,
+      "downDays": 9,
+      "ratio": 1.139313
+    },
+    "ranges": {
+      "20": {
+        "support": 41.700001,
+        "resistance": 48.459999,
+        "toSupportPct": -6.627853,
+        "toResistancePct": 8.50873,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 41.700001,
+        "resistance": 56.099998,
+        "toSupportPct": -6.627853,
+        "toResistancePct": 25.615759,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 49.284,
+      "60": 66.781333,
+      "120": 81.500667,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -10.730329,
+      "60": -7.109673,
+      "120": -1.520281,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -9.382355,
+      "60": -33.125025,
+      "120": -45.202902,
+      "250": null
+    },
+    "returnPct": {
+      "20": -27.734627,
+      "60": -52.840548,
+      "120": -35.415765,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 90.849998,
+    "low52w": 41.700001,
+    "distanceFrom52wHighPct": -50.842046,
+    "distanceFrom52wLowPct": 7.098319,
+    "maxDrawdown52wPct": -49.917744,
+    "RSI14": 36.675863,
+    "ATR14": 4.981083,
+    "ATR14Pct": 11.153343,
+    "MACD": {
+      "DIF": -5.558198,
+      "DEA": -5.811004,
+      "histogram": 0.505612,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 40893267.6,
+      "20": 56825678.75,
+      "60": 62282801.183
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.374951,
+    "previous20MeanVolume": 62847045.9,
+    "upDownVolume20": {
+      "upVolume": 466220310,
+      "downVolume": 670293265,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.695547
+    },
+    "ranges": {
+      "20": {
+        "support": 41.700001,
+        "resistance": 62.349998,
+        "toSupportPct": -6.627853,
+        "toResistancePct": 39.610385,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 41.700001,
+        "resistance": 105.300003,
+        "toSupportPct": -6.627853,
+        "toResistancePct": 135.781467,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -0.937755,
+    "excess60Pct": -8.200989,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -0.852499,
+    "industryExcess60Pct": 1.779127
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "retrievedAt": "2026-10-10T09:16:12.163Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/2015.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:19.744Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk02015,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:19.873Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        22.15,
+        52.34,
+        94.73
+      ],
+      "epsCNY": [
+        -6.613573,
+        -2.736105,
+        0.725176
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        77.5,
+        102.5,
+        126.85
+      ],
+      "normalParentProfitCNYbn": [
+        -13.685,
+        -5.649999999999999,
+        1.4993800000000004
+      ],
+      "dilutedSharesBn": [
+        2.069229316,
+        2.0649793159999996,
+        2.0676086263448274
+      ],
+      "cashOperatingProxyCNYbn": [
+        -17.435000000000002,
+        -7.669999999999999,
+        -0.5206199999999996
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 72,
+          "revenueCNYbn": 77.5,
+          "grossProfitCNYbn": 6.994999999999999,
+          "normalOperatingProfitCNYbn": -13.655000000000001,
+          "operatingMargin": -0.17619354838709678,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -13.685,
+          "dilutedSharesBn": 2.069229316,
+          "eps": -6.613573,
+          "EVSales": 0.18,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -17.435000000000002,
+          "accumulatedCashCNYbn": -3.4870000000000005,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 27.446673000000004,
+          "buybackCashCNYbn": 0,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 27.446673000000004,
+          "operatingEVCNYbn": 13.95,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.275,
+          "equityCNYbn": 41.671673000000006,
+          "price": 22.15,
+          "dividend": 0,
+          "priceReturn": -0.5040304523063144,
+          "totalReturn": -0.5040304523063144
+        },
+        {
+          "vehicleRevenueCNYbn": 96,
+          "revenueCNYbn": 102.5,
+          "grossProfitCNYbn": 14.690000000000001,
+          "normalOperatingProfitCNYbn": -5.6099999999999985,
+          "operatingMargin": -0.05473170731707316,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -5.649999999999999,
+          "dilutedSharesBn": 2.0649793159999996,
+          "eps": -2.736105,
+          "EVSales": 0.55,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -7.669999999999999,
+          "accumulatedCashCNYbn": -1.5339999999999998,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 41.499672999999994,
+          "buybackCashCNYbn": 0.2727272727272727,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 41.22694572727272,
+          "operatingEVCNYbn": 56.37500000000001,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.66,
+          "equityCNYbn": 98.26194572727272,
+          "price": 52.34,
+          "dividend": 0,
+          "priceReturn": 0.17196596506941342,
+          "totalReturn": 0.17196596506941342
+        },
+        {
+          "vehicleRevenueCNYbn": 119.85,
+          "revenueCNYbn": 126.85,
+          "grossProfitCNYbn": 22.8945,
+          "normalOperatingProfitCNYbn": 1.8445000000000005,
+          "operatingMargin": 0.014540796216003158,
+          "normalTaxCNYbn": 0.2951200000000001,
+          "parentNormalProfitCNYbn": 1.4993800000000004,
+          "dilutedSharesBn": 2.0676086263448274,
+          "eps": 0.725176,
+          "EVSales": 1,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -0.5206199999999996,
+          "accumulatedCashCNYbn": -0.10412399999999994,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 50.829549,
+          "buybackCashCNYbn": 0.45454545454545453,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 50.37500354545455,
+          "operatingEVCNYbn": 126.85,
+          "impliedOperatingPE": 84.60163534260825,
+          "otherNAVCNYbn": 0.8250000000000001,
+          "equityCNYbn": 178.05000354545453,
+          "price": 94.73,
+          "dividend": 0,
+          "priceReturn": 1.1211374832064491,
+          "totalReturn": 1.1211374832064491
+        }
+      ],
+      "priceReturnPct": [
+        -50.403045230631434,
+        17.19659650694134,
+        112.11374832064492
+      ],
+      "totalReturnPct": [
+        -50.403045230631434,
+        17.19659650694134,
+        112.11374832064492
+      ],
+      "conditions": [
+        "车型销量/净售价/毛利承压，完整研发与保修供应储备，亏损持续消耗现金",
+        "产品刷新逐步恢复毛利与规模，完整研发和USGAAP租成本，保守法定非库存分母",
+        "多车型与AI改善产品价值，销量和毛利同时改善，研发及资本仍随扩张增长"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 55.39,
+      "expectedReturnPct": 24.02597402597404,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 44.503,
+        "defensiveReturnPct": -0.35154500671741307,
+        "positivePrice": 66.277,
+        "positiveReturnPct": 48.40349305866549
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        16.62,
+        58.87,
+        118.99
+      ],
+      "epsCNY": [
+        -7.095806,
+        -1.389288,
+        3.251295
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        69.5,
+        111.72,
+        152.78000000000003
+      ],
+      "normalParentProfitCNYbn": [
+        -14.768,
+        -2.877000000000002,
+        6.755437000000005
+      ],
+      "dilutedSharesBn": [
+        2.081229316,
+        2.0708447006153845,
+        2.0777677775384618
+      ],
+      "cashOperatingProxyCNYbn": [
+        -19.248,
+        -5.317000000000002,
+        4.3154370000000055
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 63.8,
+          "revenueCNYbn": 69.5,
+          "grossProfitCNYbn": 6.062,
+          "normalOperatingProfitCNYbn": -14.738000000000001,
+          "operatingMargin": -0.21205755395683454,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -14.768,
+          "dilutedSharesBn": 2.081229316,
+          "eps": -7.095806,
+          "EVSales": 0.15,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -19.248,
+          "accumulatedCashCNYbn": -8.6616,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 20.772073,
+          "buybackCashCNYbn": 0,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 20.772073,
+          "operatingEVCNYbn": 10.424999999999999,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.25,
+          "equityCNYbn": 31.447072999999996,
+          "price": 16.62,
+          "dividend": 0,
+          "priceReturn": -0.6278549037169726,
+          "totalReturn": -0.6278549037169726
+        },
+        {
+          "vehicleRevenueCNYbn": 104.72,
+          "revenueCNYbn": 111.72,
+          "grossProfitCNYbn": 18.087999999999997,
+          "normalOperatingProfitCNYbn": -2.832000000000002,
+          "operatingMargin": -0.02534908700322236,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -2.877000000000002,
+          "dilutedSharesBn": 2.0708447006153845,
+          "eps": -1.389288,
+          "EVSales": 0.65,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -5.317000000000002,
+          "accumulatedCashCNYbn": -2.392650000000001,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 38.241023,
+          "buybackCashCNYbn": 0.7272727272727273,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 37.51375027272727,
+          "operatingEVCNYbn": 72.618,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.69,
+          "equityCNYbn": 110.82175027272726,
+          "price": 58.87,
+          "dividend": 0,
+          "priceReturn": 0.3181818181818181,
+          "totalReturn": 0.3181818181818181
+        },
+        {
+          "vehicleRevenueCNYbn": 144.48000000000002,
+          "revenueCNYbn": 152.78000000000003,
+          "grossProfitCNYbn": 30.522200000000005,
+          "normalOperatingProfitCNYbn": 8.162200000000006,
+          "operatingMargin": 0.0534245320068072,
+          "normalTaxCNYbn": 1.346763000000001,
+          "parentNormalProfitCNYbn": 6.755437000000005,
+          "dilutedSharesBn": 2.0777677775384618,
+          "eps": 3.251295,
+          "EVSales": 1.15,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 4.3154370000000055,
+          "accumulatedCashCNYbn": 1.9419466500000024,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 49.17561965,
+          "buybackCashCNYbn": 1.0909090909090908,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 48.08471055909091,
+          "operatingEVCNYbn": 175.69700000000003,
+          "impliedOperatingPE": 26.008236032694835,
+          "otherNAVCNYbn": 0.9750000000000001,
+          "equityCNYbn": 224.75671055909092,
+          "price": 118.99,
+          "dividend": 0,
+          "priceReturn": 1.6643528884908196,
+          "totalReturn": 1.6643528884908196
+        }
+      ],
+      "priceReturnPct": [
+        -62.785490371697264,
+        31.818181818181813,
+        166.43528884908196
+      ],
+      "totalReturnPct": [
+        -62.785490371697264,
+        31.818181818181813,
+        166.43528884908196
+      ],
+      "conditions": [
+        "车型销量/净售价/毛利承压，完整研发与保修供应储备，亏损持续消耗现金",
+        "产品刷新逐步恢复毛利与规模，完整研发和USGAAP租成本，保守法定非库存分母",
+        "多车型与AI改善产品价值，销量和毛利同时改善，研发及资本仍随扩张增长"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09（休市取此前交易日）",
+      "priceHKD": [
+        9.59,
+        69.93,
+        141.43
+      ],
+      "epsCNY": [
+        -7.35476,
+        0.427662,
+        5.205483
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        62.7,
+        130.92,
+        185.44000000000003
+      ],
+      "normalParentProfitCNYbn": [
+        -15.5795,
+        0.8918320000000011,
+        10.963940000000003
+      ],
+      "dilutedSharesBn": [
+        2.1182881395294118,
+        2.0853672470344824,
+        2.106229316
+      ],
+      "cashOperatingProxyCNYbn": [
+        -20.4895,
+        -2.1681679999999997,
+        7.093940000000002
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 56.7,
+          "revenueCNYbn": 62.7,
+          "grossProfitCNYbn": 5.3055,
+          "normalOperatingProfitCNYbn": -15.5445,
+          "operatingMargin": -0.24791866028708132,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -15.5795,
+          "dilutedSharesBn": 2.1182881395294118,
+          "eps": -7.35476,
+          "EVSales": 0.12,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -20.4895,
+          "accumulatedCashCNYbn": -17.416075,
+          "treasuryCashCNYbn": 0.5454545454545454,
+          "cashPreDistributionCNYbn": 10.863052545454545,
+          "buybackCashCNYbn": 0.09090909090909091,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 10.772143454545454,
+          "operatingEVCNYbn": 7.524,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.18000000000000002,
+          "equityCNYbn": 18.476143454545454,
+          "price": 9.59,
+          "dividend": 0,
+          "priceReturn": -0.7852664576802508,
+          "totalReturn": -0.7852664576802508
+        },
+        {
+          "vehicleRevenueCNYbn": 122.72,
+          "revenueCNYbn": 130.92,
+          "grossProfitCNYbn": 23.732400000000002,
+          "normalOperatingProfitCNYbn": 1.1824000000000012,
+          "operatingMargin": 0.009031469599755586,
+          "normalTaxCNYbn": 0.23056800000000024,
+          "parentNormalProfitCNYbn": 0.8918320000000011,
+          "dilutedSharesBn": 2.0853672470344824,
+          "eps": 0.427662,
+          "EVSales": 0.75,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -2.1681679999999997,
+          "accumulatedCashCNYbn": -1.8429427999999997,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 34.990730199999994,
+          "buybackCashCNYbn": 1.3636363636363635,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 33.62709383636363,
+          "operatingEVCNYbn": 98.19,
+          "impliedOperatingPE": 110.09921151068798,
+          "otherNAVCNYbn": 0.75,
+          "equityCNYbn": 132.56709383636363,
+          "price": 69.93,
+          "dividend": 0,
+          "priceReturn": 0.565830721003135,
+          "totalReturn": 0.565830721003135
+        },
+        {
+          "vehicleRevenueCNYbn": 175.44000000000003,
+          "revenueCNYbn": 185.44000000000003,
+          "grossProfitCNYbn": 38.888000000000005,
+          "normalOperatingProfitCNYbn": 13.318000000000003,
+          "operatingMargin": 0.07181837791199311,
+          "normalTaxCNYbn": 2.2640600000000006,
+          "parentNormalProfitCNYbn": 10.963940000000003,
+          "dilutedSharesBn": 2.106229316,
+          "eps": 5.205483,
+          "EVSales": 1.2,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 7.093940000000002,
+          "accumulatedCashCNYbn": 6.029849000000001,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 48.963522,
+          "buybackCashCNYbn": 1.8181818181818181,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": 47.14534018181818,
+          "operatingEVCNYbn": 222.52800000000002,
+          "impliedOperatingPE": 20.296353318241433,
+          "otherNAVCNYbn": 1.125,
+          "equityCNYbn": 270.7983401818182,
+          "price": 141.43,
+          "dividend": 0,
+          "priceReturn": 2.1668159426780123,
+          "totalReturn": 2.1668159426780123
+        }
+      ],
+      "priceReturnPct": [
+        -78.52664576802508,
+        56.5830721003135,
+        216.68159426780122
+      ],
+      "totalReturnPct": [
+        -78.52664576802508,
+        56.5830721003135,
+        216.68159426780122
+      ],
+      "conditions": [
+        "车型销量/净售价/毛利承压，完整研发与保修供应储备，亏损持续消耗现金",
+        "产品刷新逐步恢复毛利与规模，完整研发和USGAAP租成本，保守法定非库存分母",
+        "多车型与AI改善产品价值，销量和毛利同时改善，研发及资本仍随扩张增长"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        0,
+        92.79,
+        201.22
+      ],
+      "epsCNY": [
+        -7.508662,
+        3.169407,
+        11.524142
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.6,
+        1.4
+      ],
+      "normalRevenueCNYbn": [
+        54.5,
+        195.3,
+        303
+      ],
+      "normalParentProfitCNYbn": [
+        -16.775,
+        6.895594999999999,
+        25.4725
+      ],
+      "dilutedSharesBn": [
+        2.234086458857143,
+        2.1756737604444445,
+        2.2103597507826085
+      ],
+      "cashOperatingProxyCNYbn": [
+        -22.435,
+        2.7855950000000007,
+        19.0525
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 48,
+          "revenueCNYbn": 54.5,
+          "grossProfitCNYbn": 4.265000000000001,
+          "normalOperatingProfitCNYbn": -16.735,
+          "operatingMargin": -0.3070642201834862,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -16.775,
+          "dilutedSharesBn": 2.234086458857143,
+          "eps": -7.508662,
+          "EVSales": 0.09,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -22.435,
+          "accumulatedCashCNYbn": -51.60049999999999,
+          "treasuryCashCNYbn": 1.3636363636363635,
+          "cashPreDistributionCNYbn": -26.803190636363627,
+          "buybackCashCNYbn": 0.18181818181818182,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -26.98500881818181,
+          "operatingEVCNYbn": 4.905,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.13,
+          "equityCNYbn": -21.95000881818181,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 183.3,
+          "revenueCNYbn": 195.3,
+          "grossProfitCNYbn": 38.2305,
+          "normalOperatingProfitCNYbn": 8.8805,
+          "operatingMargin": 0.0454710701484895,
+          "normalTaxCNYbn": 1.8649049999999998,
+          "parentNormalProfitCNYbn": 6.895594999999999,
+          "dilutedSharesBn": 2.1756737604444445,
+          "eps": 3.169407,
+          "EVSales": 0.8,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 2.7855950000000007,
+          "accumulatedCashCNYbn": 6.406868500000001,
+          "treasuryCashCNYbn": 1.3090909090909089,
+          "cashPreDistributionCNYbn": 31.14963240909091,
+          "buybackCashCNYbn": 3.6363636363636362,
+          "dividendCashCNYbn": 1.186731142060606,
+          "cashPostDistributionCNYbn": 26.326537630666667,
+          "operatingEVCNYbn": 156.24,
+          "impliedOperatingPE": 22.65794322317364,
+          "otherNAVCNYbn": 0.96,
+          "equityCNYbn": 183.5265376306667,
+          "price": 92.79,
+          "dividend": 0.6,
+          "priceReturn": 1.077698163905061,
+          "totalReturn": 1.0911330049261085
+        },
+        {
+          "vehicleRevenueCNYbn": 286,
+          "revenueCNYbn": 303,
+          "grossProfitCNYbn": 69.72,
+          "normalOperatingProfitCNYbn": 31.5,
+          "operatingMargin": 0.10396039603960396,
+          "normalTaxCNYbn": 5.8275,
+          "parentNormalProfitCNYbn": 25.4725,
+          "dilutedSharesBn": 2.2103597507826085,
+          "eps": 11.524142,
+          "EVSales": 1.15,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 19.0525,
+          "accumulatedCashCNYbn": 43.82074999999999,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 63.25442299999999,
+          "buybackCashCNYbn": 6.363636363636363,
+          "dividendCashCNYbn": 2.813185137359683,
+          "cashPostDistributionCNYbn": 54.07760149900395,
+          "operatingEVCNYbn": 348.45,
+          "impliedOperatingPE": 13.679458239277652,
+          "otherNAVCNYbn": 1.7999999999999998,
+          "equityCNYbn": 404.32760149900395,
+          "price": 201.22,
+          "dividend": 1.4,
+          "priceReturn": 3.5055978504254366,
+          "totalReturn": 3.5369458128078826
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        107.7698163905061,
+        350.55978504254364
+      ],
+      "totalReturnPct": [
+        -100,
+        109.11330049261085,
+        353.69458128078827
+      ],
+      "conditions": [
+        "车型销量/净售价/毛利承压，完整研发与保修供应储备，亏损持续消耗现金",
+        "产品刷新逐步恢复毛利与规模，完整研发和USGAAP租成本，保守法定非库存分母",
+        "多车型与AI改善产品价值，销量和毛利同时改善，研发及资本仍随扩张增长"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        27.877425890979545,
+        65.54695518814509
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0,
+        101.6,
+        248.54
+      ],
+      "epsCNY": [
+        -7.557708,
+        4.62368,
+        16.479609
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1.8,
+        4
+      ],
+      "normalRevenueCNYbn": [
+        44.8,
+        252,
+        430
+      ],
+      "normalParentProfitCNYbn": [
+        -17.817999999999998,
+        10.642249999999999,
+        39.022
+      ],
+      "dilutedSharesBn": [
+        2.3575929523636363,
+        2.3016838614545456,
+        2.3678959826666666
+      ],
+      "cashOperatingProxyCNYbn": [
+        -23.938,
+        5.1722499999999965,
+        29.532
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 38,
+          "revenueCNYbn": 44.8,
+          "grossProfitCNYbn": 3.532,
+          "normalOperatingProfitCNYbn": -17.767999999999997,
+          "operatingMargin": -0.3966071428571428,
+          "normalTaxCNYbn": 0,
+          "parentNormalProfitCNYbn": -17.817999999999998,
+          "dilutedSharesBn": 2.3575929523636363,
+          "eps": -7.557708,
+          "EVSales": 0.06,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -23.938,
+          "accumulatedCashCNYbn": -87.3737,
+          "treasuryCashCNYbn": 1.636363636363636,
+          "cashPreDistributionCNYbn": -66.30366336363636,
+          "buybackCashCNYbn": 0.2727272727272727,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -66.57639063636363,
+          "operatingEVCNYbn": 2.6879999999999997,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.06,
+          "equityCNYbn": -63.82839063636362,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 235,
+          "revenueCNYbn": 252,
+          "grossProfitCNYbn": 50.94,
+          "normalOperatingProfitCNYbn": 13.989999999999998,
+          "operatingMargin": 0.05551587301587301,
+          "normalTaxCNYbn": 3.14775,
+          "parentNormalProfitCNYbn": 10.642249999999999,
+          "dilutedSharesBn": 2.3016838614545456,
+          "eps": 4.62368,
+          "EVSales": 0.75,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 5.1722499999999965,
+          "accumulatedCashCNYbn": 18.87871249999999,
+          "treasuryCashCNYbn": 3.1999999999999997,
+          "cashPreDistributionCNYbn": 32.51238549999999,
+          "buybackCashCNYbn": 6.363636363636363,
+          "dividendCashCNYbn": 3.766391773289256,
+          "cashPostDistributionCNYbn": 22.382357363074373,
+          "operatingEVCNYbn": 189,
+          "impliedOperatingPE": 17.759402382015082,
+          "otherNAVCNYbn": 1.2,
+          "equityCNYbn": 212.58235736307435,
+          "price": 101.6,
+          "dividend": 1.8,
+          "priceReturn": 1.2749664128974474,
+          "totalReturn": 1.3152709359605912
+        },
+        {
+          "vehicleRevenueCNYbn": 403,
+          "revenueCNYbn": 430,
+          "grossProfitCNYbn": 102.015,
+          "normalOperatingProfitCNYbn": 49.215,
+          "operatingMargin": 0.11445348837209303,
+          "normalTaxCNYbn": 9.843000000000002,
+          "parentNormalProfitCNYbn": 39.022,
+          "dilutedSharesBn": 2.3678959826666666,
+          "eps": 16.479609,
+          "EVSales": 1.05,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 29.532,
+          "accumulatedCashCNYbn": 107.7918,
+          "treasuryCashCNYbn": 0,
+          "cashPreDistributionCNYbn": 102.225473,
+          "buybackCashCNYbn": 12.727272727272727,
+          "dividendCashCNYbn": 8.610530846060605,
+          "cashPostDistributionCNYbn": 80.88766942666666,
+          "operatingEVCNYbn": 451.5,
+          "impliedOperatingPE": 11.57039618676644,
+          "otherNAVCNYbn": 2.625,
+          "equityCNYbn": 535.0126694266667,
+          "price": 248.54,
+          "dividend": 4,
+          "priceReturn": 4.565158978952082,
+          "totalReturn": 4.654724585759069
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        127.49664128974474,
+        456.51589789520824
+      ],
+      "totalReturnPct": [
+        -100,
+        131.52709359605913,
+        465.47245857590684
+      ],
+      "conditions": [
+        "车型销量/净售价/毛利承压，完整研发与保修供应储备，亏损持续消耗现金",
+        "产品刷新逐步恢复毛利与规模，完整研发和USGAAP租成本，保守法定非库存分母",
+        "多车型与AI改善产品价值，销量和毛利同时改善，研发及资本仍随扩张增长"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        18.28246428730955,
+        41.410706314750676
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.8,
+        2.4,
+        2.8,
+        2.7,
+        3.6,
+        3.5
+      ],
+      "total": 56.4,
+      "evidence": [
+        "EV销售结合完整经营利润及资本约束，亏损不能用行情PE判断低估",
+        "日周均线下降，10/9反弹量接近平均，未确认长趋势",
+        "家庭产品和增程经验，纯电切换/毛利与月交付待验证",
+        "价格竞争与补贴退坡风险，新能源长期渗透",
+        "新L6/纯电刷新、i9与海外，真实交付/毛利验证",
+        "较多现金但亏损/回购/供应保修与WVR约束"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.2,
+        2.4,
+        3,
+        2.9,
+        3.8,
+        3.3
+      ],
+      "total": 61.1,
+      "evidence": [
+        "EV销售结合完整经营利润及资本约束，亏损不能用行情PE判断低估",
+        "日周均线下降，10/9反弹量接近平均，未确认长趋势",
+        "家庭产品和增程经验，纯电切换/毛利与月交付待验证",
+        "价格竞争与补贴退坡风险，新能源长期渗透",
+        "新L6/纯电刷新、i9与海外，真实交付/毛利验证",
+        "较多现金但亏损/回购/供应保修与WVR约束"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.4,
+        2.4,
+        3.3,
+        3.2,
+        3.8,
+        3.1
+      ],
+      "total": 65.3,
+      "evidence": [
+        "EV销售结合完整经营利润及资本约束，亏损不能用行情PE判断低估",
+        "日周均线下降，10/9反弹量接近平均，未确认长趋势",
+        "家庭产品和增程经验，纯电切换/毛利与月交付待验证",
+        "价格竞争与补贴退坡风险，新能源长期渗透",
+        "新L6/纯电刷新、i9与海外，真实交付/毛利验证",
+        "较多现金但亏损/回购/供应保修与WVR约束"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.3,
+        2.4,
+        3.4,
+        3.1,
+        3.6,
+        2.9
+      ],
+      "total": 65.1,
+      "evidence": [
+        "EV销售结合完整经营利润及资本约束，亏损不能用行情PE判断低估",
+        "日周均线下降，10/9反弹量接近平均，未确认长趋势",
+        "家庭产品和增程经验，纯电切换/毛利与月交付待验证",
+        "价格竞争与补贴退坡风险，新能源长期渗透",
+        "新L6/纯电刷新、i9与海外，真实交付/毛利验证",
+        "较多现金但亏损/回购/供应保修与WVR约束"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "大摩",
+      "code": "02015.HK",
+      "currency": "HKD",
+      "targetPrice": 68.5,
+      "rating": "增持",
+      "reportDate": "2026-09-16",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02015/AAFN/NOW.1544829/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确，非年底目标"
+    },
+    {
+      "institution": "高盛",
+      "code": "02015.HK",
+      "currency": "HKD",
+      "targetPrice": 55,
+      "rating": "中性",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02015/AAFN/NOW.1541713/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确，非年底目标"
+    },
+    {
+      "institution": "中金",
+      "code": "02015.HK",
+      "currency": "HKD",
+      "targetPrice": 68,
+      "rating": "跑赢行业",
+      "reportDate": "2026-08-28",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/02015/AAFN/NOW.1541707/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "公开报道把Q2降15.1%误称上半年；本章H1采用原件降13.4%，不使用该错误转述数据"
+    }
+  ],
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0410/2026041000366.pdf",
+    "publicationDate": "2026-04-10 16:36",
+    "revenue": 112312.511,
+    "vehicleRevenue": 106683.1,
+    "otherRevenue": 5629.411,
+    "vehicleCost": 87591.473,
+    "otherCost": 3735.98,
+    "gross": 20985.058,
+    "RD": 11314.949,
+    "SGA": 10664.857,
+    "otherOperatingIncome": 473.631,
+    "operating": -521.117,
+    "interestExpense": 168.078,
+    "interestInvestmentIncome": 1918.883,
+    "otherIncome": 67.447,
+    "pretax": 1297.135,
+    "tax": 157.707,
+    "groupProfit": 1139.428,
+    "NCI": 14.99,
+    "ownerProfit": 1124.438,
+    "SBC": 1257.754,
+    "nonGAAPGroup": 2397.182,
+    "deliveries": 406343,
+    "vehicleMargin": 17.9,
+    "OCF": -8611.397,
+    "capex": 4205.517,
+    "FCF": -12816.914
+  },
+  "history": [
+    {
+      "period": "FY2024",
+      "revenue": 144459.946,
+      "vehicle": 138538.092,
+      "other": 5921.854,
+      "gross": 29656.138,
+      "RD": 11071.358,
+      "SGA": 12229.323,
+      "otherOperating": 663.657,
+      "operating": 7019.114,
+      "groupProfit": 8045.25,
+      "ownerProfit": 8032.35,
+      "NCI": 12.9,
+      "deliveries": 500508,
+      "vehicleMargin": 19.8
+    }
+  ],
+  "interim": {
+    "period": "H1 2026",
+    "currency": "CNY",
+    "unit": "million",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0908/2026090800186.pdf",
+    "publicationDate": "2026-09-08 16:30",
+    "revenue": 48649.801,
+    "vehicleRevenue": 45599.67,
+    "otherRevenue": 3050.131,
+    "vehicleCost": 42021.304,
+    "otherCost": 1984.397,
+    "gross": 4644.1,
+    "RD": 5497.792,
+    "SGA": 4327.247,
+    "otherOperatingExpense": 118.701,
+    "operating": -5299.64,
+    "interestExpense": 156.906,
+    "interestInvestmentIncome": 849.053,
+    "otherIncome": 57.447,
+    "pretax": -4550.046,
+    "taxBenefit": 568.757,
+    "currentTax": 16.31,
+    "deferredTaxBenefit": 585.067,
+    "groupProfit": -3981.289,
+    "NCI": 12.423,
+    "ownerProfit": -3993.712,
+    "SBC": 374.777,
+    "nonGAAPGroup": -3606.512,
+    "deliveries": 193472,
+    "cash": 40117.782,
+    "restricted": 14.782,
+    "shortTime": 40664.846,
+    "shortFinancial": 4809.428,
+    "shortCombined": 45474.274,
+    "longTime": 1883.895,
+    "longInvestments": 2976.994,
+    "equityInvestment": 1093.099,
+    "cashAnchor": 87475.951,
+    "cashPositionInclRestricted": 87490.733,
+    "borrowingsCurrent": 286.205,
+    "borrowingsLong": 6863.999,
+    "borrowingsCarrying": 7150.204,
+    "convertiblePrincipal": 989.945,
+    "convertibleCarrying": 984.611,
+    "convertibleUnamort": 5.334,
+    "debtPrincipal": 7160.045,
+    "securedPrincipal": 4170.1,
+    "unsecuredPrincipal": 2000,
+    "financeLease": 349.322,
+    "operatingLeaseCurrent": 1572.211,
+    "operatingLeaseLong": 5620.164,
+    "tradePayable": 38756.08,
+    "notesPayable": 15306.09,
+    "warrantyCurrent": 1127.648,
+    "ownerEquity": 65428.704,
+    "NCIEquity": 532.911,
+    "totalEquity": 65961.615,
+    "totalLiabilities": 74717.985,
+    "totalAssets": 140679.6,
+    "OCF": -6075.969,
+    "netInvesting": -5261.929,
+    "netFinancing": -5150.621,
+    "FXcash": -286.996,
+    "startCashRestricted": 56908.079,
+    "endCashRestricted": 40132.564,
+    "capex": 2613.116,
+    "disposalPPE": 728.197,
+    "FCF": -8689.085,
+    "DACFwithLandCost": 2718.023,
+    "SBCcashAddback": 374.777,
+    "interestCFAdjustment": 86.484,
+    "inventoryWriteDown": 269.922,
+    "taxCash": 711.387,
+    "interestCash": 61.339,
+    "capitalCommitmentApprox": 4800,
+    "leaseNote": "USGAAP经营租全成本仍在完整费用，现金流不再加回ROU摊销；融资租本金债务另列",
+    "bondUnamort": 4.507
+  },
+  "quarters": {
+    "Q1": {
+      "revenue": 22982.911,
+      "vehicle": 21533.182,
+      "other": 1449.729,
+      "gross": 1808.045,
+      "RD": 2722.159,
+      "SGA": 2049.203,
+      "otherOperatingExpense": 35.473,
+      "operating": -2998.79,
+      "groupProfit": -2276.032,
+      "NCI": 13.499,
+      "owner": -2289.531,
+      "OCF": -6090.994,
+      "capex": 1297.326,
+      "FCF": -7388.32,
+      "vehicleGross": 6.1
+    },
+    "Q2": {
+      "revenue": 25666.89,
+      "vehicle": 24066.488,
+      "other": 1600.402,
+      "gross": 2836.055,
+      "RD": 2775.633,
+      "SGA": 2278.044,
+      "otherOperatingExpense": 83.228,
+      "operating": -2300.85,
+      "groupProfit": -1705.257,
+      "NCI": -1.076,
+      "owner": -1704.181,
+      "OCF": 15.025,
+      "capex": 1315.79,
+      "FCF": -1300.765,
+      "vehicleGross": 9.4
+    },
+    "Q3": {
+      "deliveryActual": 99964,
+      "july": 30468,
+      "august": 37679,
+      "september": 31817,
+      "deliveryGuidance": [
+        95000,
+        100000
+      ],
+      "revenueGuidanceCNYbn": [
+        26.6,
+        28
+      ],
+      "revenueActual": null,
+      "noQ3EarningsYet": true
+    }
+  },
+  "capital": {
+    "period": "2026-09-30",
+    "publicationDate": "2026-10-07 16:30",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700656.pdf",
+    "AExTreasury": 1716030157,
+    "B": 345199159,
+    "totalExTreasury": 2061229316,
+    "treasuryRepurchased": 102294952,
+    "totalLegalIncludingTreasury": 2163524268,
+    "JuneGAAPOutstanding": 1973963298,
+    "JuneLegalExBuybackTreasury": 2098992140,
+    "JuneGAAPExcludedAdditional": 125028842,
+    "JuneBulkDepositaryReserve": 16471442,
+    "CEOAwardShares": 108557400,
+    "options2019": 24934316,
+    "options2020": 47261032,
+    "RSU2019": 26799440,
+    "RSU2020": 4497500,
+    "convertibleUSD": 145700000,
+    "convertiblePossibleAShares": 10281116,
+    "buybackProgramUSD": 1000000000,
+    "buybackSeptShares": 10040700,
+    "note": "分母使用九月法定非库存A+B保守包含潜在归属奖股；不重复加CEO已发行股；未来库存转售独立现金股数联动，未来新增股额外。九月精确GAAP经济在外未披露，不拿六月代十月。",
+    "LatestPracticableBulkReserve": 16431018,
+    "JuneReserveDerivation": "104804000 issued reserve minus42731722 options exercised minus45600836 RSUs vested; differs Latest Practicable Date 16431018"
+  },
+  "effectiveHanCharacters": 13611,
+  "researchQAFile": "qa/liauto_qa.json"
+}

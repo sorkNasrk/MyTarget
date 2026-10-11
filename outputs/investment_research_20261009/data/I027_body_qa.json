@@ -1,0 +1,13 @@
+{
+  "issuerId": "I027",
+  "passed": true,
+  "checks": 121,
+  "effectiveChineseCharacters": 16053,
+  "paragraphs": 81,
+  "exactDuplicates": 0,
+  "nearDuplicates": 0,
+  "maxParagraph8HanJaccard": 0.019498607242339833,
+  "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "excluded": "opening, heading rows, tables, sources; only issuer-specific narrative counted",
+  "scope": "four horizon/YE consistency, financial first-public metadata, XTN004 indication, lease cash total, CB/event minimum and ESOP boundaries"
+}

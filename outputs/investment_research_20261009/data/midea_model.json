@@ -1,0 +1,1645 @@
+{
+  "issuerId": "I082",
+  "securityId": "S093",
+  "code": "00300.HK",
+  "name": "美的集团",
+  "deepResearchFile": "research/midea_deep.md",
+  "asOf": "2026-10-09",
+  "price": 93.65,
+  "currency": "HKD",
+  "targetPriceRoundingDecimals": 2,
+  "modelVersion": "midea-normalized-owner-margin-v1.0",
+  "status": "deep-research-complete-pending-document-integration",
+  "method": "单一正常归母利润率PE模型；NTM营业总收入×正常归母EPS分子代理净利率÷全公司摊薄普通股数×目标PE×研究汇率；股份费用不加回，投资公允价值/处置/未核退款不永续化，不另加全部金融资产",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "note": "研究假设，非已核即时汇率；港币兑人民币敏感性由总表另列"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "coreRevenueCNYbn": [
+        460,
+        490,
+        500
+      ],
+      "coreNetMargin": [
+        0.085,
+        0.095,
+        0.105
+      ],
+      "dilutedSharesBn": [
+        7.6,
+        7.5,
+        7.45
+      ],
+      "epsCNY": [
+        5.144736842105264,
+        6.206666666666666,
+        7.046979865771812
+      ],
+      "PE": [
+        10,
+        16,
+        19
+      ],
+      "priceHKD": [
+        56.59,
+        109.24,
+        147.28
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.55,
+        0.6
+      ],
+      "priceReturnPct": [
+        -39.572877736251996,
+        16.647090229578197,
+        57.2664175120128
+      ],
+      "totalReturnPct": [
+        -39.572877736251996,
+        17.23438334223171,
+        57.9071009076348
+      ],
+      "conditions": [
+        "需求下滑、原料与汇率拖累持续，投行预期兑现失败",
+        "海外自有品牌和渠道效率支持正常盈利，市场仍给成熟龙头倍数",
+        "国内份额与楼宇业务增长确认，现金分配预期改善且风险溢价回落"
+      ],
+      "normalization": "目标时点未来十二个月正常归母每股盈利分子代理；净利率已含有限财资联营收益、税和归属/SBC成本及EPS分子储备；剔未核一次性公允价值/处置/退款，无额外现金叠加",
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 105.5875,
+      "expectedReturnPct": 12.746930058729312,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 91.98400000000001,
+        "positivePrice": 119.191,
+        "defensiveReturnPct": -1.7789642285104046,
+        "positiveReturnPct": 27.272824345969028
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "coreRevenueCNYbn": [
+        450,
+        505,
+        530
+      ],
+      "coreNetMargin": [
+        0.083,
+        0.097,
+        0.108
+      ],
+      "dilutedSharesBn": [
+        7.65,
+        7.48,
+        7.4
+      ],
+      "epsCNY": [
+        4.88235294117647,
+        6.548796791443849,
+        7.735135135135135
+      ],
+      "PE": [
+        9.5,
+        16.5,
+        20
+      ],
+      "priceHKD": [
+        51.02,
+        118.86,
+        170.17
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.55,
+        0.6
+      ],
+      "priceReturnPct": [
+        -45.52055525894288,
+        26.91938067271755,
+        81.70848905499197
+      ],
+      "totalReturnPct": [
+        -45.52055525894288,
+        27.50667378537106,
+        82.34917245061395
+      ],
+      "conditions": [
+        "国内渠道调整扰动、海外补库存失速，毛利修复失败",
+        "年度业绩验证、分红提案获批、海外品牌和楼宇业务形成盈利修复",
+        "家电消费和工业订单同步改善，利润率与估值均上修"
+      ],
+      "normalization": "目标时点未来十二个月正常归母每股盈利分子代理；净利率已含有限财资联营收益、税和归属/SBC成本及EPS分子储备；剔未核一次性公允价值/处置/退款，无额外现金叠加"
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "coreRevenueCNYbn": [
+        450,
+        530,
+        570
+      ],
+      "coreNetMargin": [
+        0.082,
+        0.099,
+        0.11
+      ],
+      "dilutedSharesBn": [
+        7.7,
+        7.44,
+        7.3
+      ],
+      "epsCNY": [
+        4.792207792207792,
+        7.05241935483871,
+        8.589041095890412
+      ],
+      "PE": [
+        9,
+        17,
+        21
+      ],
+      "priceHKD": [
+        47.44,
+        131.88,
+        198.41
+      ],
+      "cumulativeCashDividendHKD": [
+        3,
+        5.1,
+        6
+      ],
+      "priceReturnPct": [
+        -49.34329951948746,
+        40.82221035771487,
+        111.86332087560062
+      ],
+      "totalReturnPct": [
+        -46.139882541377474,
+        46.268019220501856,
+        118.27015483182058
+      ],
+      "conditions": [
+        "需求弱、竞争压价、现金分配缩减及股数上升",
+        "海外品牌、渠道改革和工业多元化支持近两位数正常归母利润率",
+        "全球份额增长、产品升级和高质量工业项目推动利润率扩张"
+      ],
+      "normalization": "目标时点未来十二个月正常归母每股盈利分子代理；净利率已含有限财资联营收益、税和归属/SBC成本及EPS分子储备；剔未核一次性公允价值/处置/退款，无额外现金叠加"
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "coreRevenueCNYbn": [
+        470,
+        620,
+        760
+      ],
+      "coreNetMargin": [
+        0.078,
+        0.102,
+        0.115
+      ],
+      "dilutedSharesBn": [
+        7.9,
+        7.3,
+        6.9
+      ],
+      "epsCNY": [
+        4.640506329113923,
+        8.663013698630136,
+        12.666666666666666
+      ],
+      "PE": [
+        8.5,
+        18,
+        22
+      ],
+      "priceHKD": [
+        43.39,
+        171.53,
+        306.53
+      ],
+      "cumulativeCashDividendHKD": [
+        9,
+        17,
+        22
+      ],
+      "priceReturnPct": [
+        -53.66791243993594,
+        83.16070475173518,
+        227.31446876668443
+      ],
+      "totalReturnPct": [
+        -44.057661505605985,
+        101.31340096102508,
+        250.80619327282426
+      ],
+      "conditions": [
+        "海外本土化成本和资本开支回报弱，业务收缩抵消规模优势",
+        "海外品牌和楼宇工业解决方案持续扩大，回购适度减少摊薄股数",
+        "自主品牌、楼宇节能、工业自动化均扩大份额并保留盈利"
+      ],
+      "normalization": "目标时点未来十二个月正常归母每股盈利分子代理；净利率已含有限财资联营收益、税和归属/SBC成本及EPS分子储备；剔未核一次性公允价值/处置/退款，无额外现金叠加",
+      "baseAnnualizedTotalReturnPct": 26.267300382189497
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "coreRevenueCNYbn": [
+        490,
+        725,
+        970
+      ],
+      "coreNetMargin": [
+        0.075,
+        0.105,
+        0.12
+      ],
+      "dilutedSharesBn": [
+        8.1,
+        7.1,
+        6.5
+      ],
+      "epsCNY": [
+        4.537037037037037,
+        10.721830985915494,
+        17.907692307692308
+      ],
+      "PE": [
+        8,
+        18,
+        23
+      ],
+      "priceHKD": [
+        39.93,
+        212.29,
+        453.06
+      ],
+      "cumulativeCashDividendHKD": [
+        15,
+        32,
+        46
+      ],
+      "priceReturnPct": [
+        -57.36252002135611,
+        126.68446342765614,
+        383.7800320341698
+      ],
+      "totalReturnPct": [
+        -41.345435130806194,
+        160.854244527496,
+        432.89909236518946
+      ],
+      "conditions": [
+        "制造利润率长期压缩、并购减值和股权激励稀释抑制每股增长",
+        "全球品牌和工业能力支持收入与每股盈利复利，资本分配维持纪律",
+        "全球品牌溢价与工业服务收入扩大，双位数归母利润率和长期重估成立"
+      ],
+      "normalization": "目标时点未来十二个月正常归母每股盈利分子代理；净利率已含有限财资联营收益、税和归属/SBC成本及EPS分子储备；剔未核一次性公允价值/处置/退款，无额外现金叠加",
+      "baseAnnualizedTotalReturnPct": 21.137771951428697
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+    "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+    "currency": "CNY",
+    "unit": "CNY million unless specified",
+    "revenueCNYmillion": 458502.407,
+    "operatingRevenuePRC_CNYmillion": 456451.731,
+    "revenue2024CNYmillion": 409084.266,
+    "operatingRevenuePRC2024CNYmillion": 407149.6,
+    "operatingRevenuePRC2023CNYmillion": 372037.28,
+    "profitAttributableCNYmillion": 43945.411,
+    "profitAttributable2024IFRS_CNYmillion": 38538.987,
+    "profitAttributable2024PRC_CNYmillion": 38537.237,
+    "profitAttributable2023PRC_CNYmillion": 33719.935,
+    "PRCProfitAfterNonRecurringCNYmillion": 41267.233,
+    "PRCProfitAfterNonRecurring2024CNYmillion": 35741.418,
+    "grossProfitCNYmillion": 120040.213,
+    "operatingProfitCNYmillion": 54743.159,
+    "dilutedEPSCNY": 5.76,
+    "OCFCNYmillion": 53345.93,
+    "capitalPurchaseCNYmillion": 11141.889,
+    "leaseRelatedCashCNYmillion": 1587.045,
+    "interestPaidFinancingCashCNYmillion": 2043.776,
+    "FCFProxyBeforeInterestCNYmillion": 40616.996,
+    "FCFProxyAfterFinancingInterestCNYmillion": 38573.22,
+    "acquisitionSubsNetCashCNYmillion": 6089.139,
+    "repurchaseRefundRestrictedSharesCNYmillion": 11698.7,
+    "dividendsPaidToOwnersCNYmillion": 30486.973,
+    "smartHomeRevenueCNYmillion": 299927.239,
+    "commercialIndustrialRevenueCNYmillion": 122752.958,
+    "buildingRevenueCNYmillion": 35790.825,
+    "roboticsRevenueCNYmillion": 31010.933,
+    "industrialRevenueCNYmillion": 27232.432,
+    "domesticRevenuePRC_CNYmillion": 260504.038,
+    "overseasRevenuePRC_CNYmillion": 195947.693,
+    "inputMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "operatingRevenuePRC_CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "operatingRevenuePRC2024CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "operatingRevenuePRC2023CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "profitAttributable2024IFRS_CNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "profitAttributable2024PRC_CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "profitAttributable2023PRC_CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2023",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "PRCProfitAfterNonRecurringCNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "PRCProfitAfterNonRecurring2024CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2024",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "grossProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "operatingProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "capitalPurchaseCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "leaseRelatedCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "interestPaidFinancingCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "FCFProxyBeforeInterestCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "research calculation"
+      },
+      "FCFProxyAfterFinancingInterestCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "research calculation"
+      },
+      "acquisitionSubsNetCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "repurchaseRefundRestrictedSharesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "dividendsPaidToOwnersCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "smartHomeRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "commercialIndustrialRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "buildingRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "roboticsRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "industrialRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "domesticRevenuePRC_CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      },
+      "overseasRevenuePRC_CNYmillion": {
+        "sourceURL": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+        "period": "FY2025",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-03-30年度结果；H股年报2026-04-24，目录时区未独立核验",
+        "status": "reported input"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "H1 2026",
+    "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+    "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+    "currency": "CNY",
+    "unit": "CNY million unless specified",
+    "revenueCNYmillion": 261052.379,
+    "operatingRevenueCNYmillion": 260042.49,
+    "financialServiceInterestRevenueCNYmillion": 1009.683,
+    "feesCommissionRevenueCNYmillion": 0.206,
+    "revenueComparativeCNYmillion": 252331.494,
+    "profitAttributableCNYmillion": 26446.037,
+    "profitAttributableComparativeCNYmillion": 26013.69,
+    "groupProfitCNYmillion": 26582.874,
+    "grossProfitCNYmillion": 65286.471,
+    "operatingProfitCNYmillion": 31743.624,
+    "profitBeforeTaxCNYmillion": 31844.556,
+    "taxCNYmillion": 5261.682,
+    "dilutedEPSCNY": 3.5,
+    "weightedDilutedSharesMillion": 7540.304,
+    "adjustedDilutedNumeratorCNYmillion": 26381.974,
+    "dividendRestrictedSharesNumeratorDeductionCNYmillion": 165.744,
+    "OCFCNYmillion": 37552.09,
+    "capitalPurchaseCNYmillion": 2634.21,
+    "leaseRelatedCashCNYmillion": 738.532,
+    "interestPaidFinancingCashCNYmillion": 477.308,
+    "FCFProxyBeforeInterestCNYmillion": 34179.348,
+    "FCFProxyAfterFinancingInterestCNYmillion": 33702.04,
+    "smartHomeRevenueManagementCNYmillion": 174340.606,
+    "buildingRevenueManagementCNYmillion": 21625.109,
+    "roboticsRevenueManagementCNYmillion": 16620.817,
+    "industrialRevenueManagementCNYmillion": 13137.739,
+    "otherCommercialRevenueManagementCNYmillion": 15282.454,
+    "commercialIndustrialRevenueManagementCNYmillion": 66666.119,
+    "smartHomeExternalSegmentRevenueCNYmillion": 190858.087,
+    "buildingExternalSegmentRevenueCNYmillion": 20827.899,
+    "industrialExternalSegmentRevenueCNYmillion": 16266.386,
+    "otherExternalSegmentRevenueCNYmillion": 33100.007,
+    "segmentProfitCNYmillion": 24601.987,
+    "comparativeSegmentProfitCNYmillion": 31310.842,
+    "otherProfitLossSegmentReconciliationCNYmillion": 7242.569,
+    "domesticRevenueCNYmillion": 147925.351,
+    "overseasRevenueCNYmillion": 113127.028,
+    "otherIncomeCNYmillion": 4699.033,
+    "otherIncomeInterestCNYmillion": 3189.121,
+    "governmentGrantCNYmillion": 1031.492,
+    "VATAdditionalDeductionCNYmillion": 478.42,
+    "financialInstrumentGainsCNYmillion": 6798.533,
+    "exchangeLossCNYmillion": 5886.293,
+    "otherGainsNetCNYmillion": 404.9,
+    "cashCNYmillion": 74614.244,
+    "termRestrictedCashCNYmillion": 16028.539,
+    "currentAmortizedFinancialAssetsCNYmillion": 158736.824,
+    "nonCurrentAmortizedFinancialAssetsCNYmillion": 69005.745,
+    "currentFVPLAssetsCNYmillion": 3155.691,
+    "nonCurrentFVPLAssetsCNYmillion": 7269.509,
+    "loanReceivablesCNYmillion": 14929.346,
+    "borrowingsCNYmillion": 80327.263,
+    "leaseLiabilitiesCNYmillion": 3312.246,
+    "inventoryCNYmillion": 55440.969,
+    "amortizedTradeNoteReceivablesCNYmillion": 68189.144,
+    "FVOCITradeNoteReceivablesCNYmillion": 7659.731,
+    "tradeNotePayablesCNYmillion": 157035.826,
+    "contractLiabilitiesCNYmillion": 45458.117,
+    "otherPayablesAccrualsCNYmillion": 112859.756,
+    "ownerEquityCNYmillion": 212861.055,
+    "ordinaryRegisteredSeptShares": 7629933870,
+    "ordinaryExTreasurySeptShares": 7441638907,
+    "HSharesExTreasurySept": 650204000,
+    "HSharesTreasurySept": 644500,
+    "ASharesExTreasurySept": 6791434907,
+    "ASharesTreasurySept": 187650463,
+    "ASharesExTreasuryOct8": 6789574940,
+    "ASharesTreasuryOct8": 189620163,
+    "ASharesTotalOct8": 6979195103,
+    "dividendFY2025AlreadyPaidHKD": 4.36734,
+    "dividendH12026ProposedCNY": 0.5,
+    "inputMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "operatingRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "financialServiceInterestRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "feesCommissionRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "revenueComparativeCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "profitAttributableComparativeCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "groupProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "grossProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "operatingProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "profitBeforeTaxCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "taxCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": null,
+        "unit": "million ordinary shares",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "adjustedDilutedNumeratorCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "dividendRestrictedSharesNumeratorDeductionCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "capitalPurchaseCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "leaseRelatedCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "interestPaidFinancingCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "FCFProxyBeforeInterestCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "research calculation"
+      },
+      "FCFProxyAfterFinancingInterestCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "research calculation"
+      },
+      "smartHomeRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "buildingRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "roboticsRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "industrialRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherCommercialRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "commercialIndustrialRevenueManagementCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "smartHomeExternalSegmentRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "buildingExternalSegmentRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "industrialExternalSegmentRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherExternalSegmentRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "segmentProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "comparativeSegmentProfitCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherProfitLossSegmentReconciliationCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "domesticRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "overseasRevenueCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherIncomeCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherIncomeInterestCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "governmentGrantCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "VATAdditionalDeductionCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "financialInstrumentGainsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "exchangeLossCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherGainsNetCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "cashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "termRestrictedCashCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "currentAmortizedFinancialAssetsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "nonCurrentAmortizedFinancialAssetsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "currentFVPLAssetsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "nonCurrentFVPLAssetsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "loanReceivablesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "borrowingsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "inventoryCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "amortizedTradeNoteReceivablesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "FVOCITradeNoteReceivablesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "tradeNotePayablesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "contractLiabilitiesCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "otherPayablesAccrualsCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "ownerEquityCNYmillion": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "ordinaryRegisteredSeptShares": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "ordinaryExTreasurySeptShares": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "HSharesExTreasurySept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "HSharesTreasurySept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "ASharesExTreasurySept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "ASharesTreasurySept": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+        "period": "2026-09-30",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-07（文件日期；目录时区未核验）",
+        "status": "reported input"
+      },
+      "ASharesExTreasuryOct8": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193271/HKEX-EPS_20261008_12366880_0.PDF",
+        "period": "2026-10-08",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-08（文件日期）",
+        "status": "reported input"
+      },
+      "ASharesTreasuryOct8": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193271/HKEX-EPS_20261008_12366880_0.PDF",
+        "period": "2026-10-08",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-08（文件日期）",
+        "status": "reported input"
+      },
+      "ASharesTotalOct8": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193271/HKEX-EPS_20261008_12366880_0.PDF",
+        "period": "2026-10-08",
+        "currency": null,
+        "unit": "ordinary shares",
+        "publicationDate": "2026-10-08（文件日期）",
+        "status": "reported input"
+      },
+      "dividendFY2025AlreadyPaidHKD": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+        "period": "H1 2026",
+        "currency": "HKD",
+        "unit": "HKD per ordinary share",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "reported input"
+      },
+      "dividendH12026ProposedCNY": {
+        "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4184410/HKEX-EPS_20260927_12347689_0.PDF",
+        "period": "H1 2026",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "publicationDate": "2026-08-28结果；中报2026-09-15；精确交易所发布时间未核验",
+        "status": "proposed, shareholder approval pending"
+      }
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 498,
+    "MA": {
+      "20": 95.397501,
+      "60": 96.788334,
+      "120": 90.882627,
+      "250": 86.263094
+    },
+    "maSlope5Pct": {
+      "20": -1.972924,
+      "60": 0.131041,
+      "120": 0.421299,
+      "250": 0.327137
+    },
+    "priceVsMAPct": {
+      "20": -1.831808,
+      "60": -3.242469,
+      "120": 3.044999,
+      "250": 8.56323
+    },
+    "returnPct": {
+      "20": -5.68983,
+      "60": 2.070847,
+      "120": 10.150025,
+      "250": 19.798556
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 101.699997,
+    "low52w": 73.827334,
+    "distanceFrom52wHighPct": -7.915433,
+    "distanceFrom52wLowPct": 26.850039,
+    "maxDrawdown52wPct": -16.719742,
+    "RSI14": 43.768321,
+    "ATR14": 1.786897,
+    "ATR14Pct": 1.908059,
+    "MACD": {
+      "DIF": -1.629933,
+      "DEA": -1.28627,
+      "histogram": -0.687326,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 5539370.4,
+      "20": 5524990.05,
+      "60": 5101303.5
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.588713,
+    "previous20MeanVolume": 5343553,
+    "upDownVolume20": {
+      "upVolume": 47999715,
+      "downVolume": 62500086,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 0.767994
+    },
+    "ranges": {
+      "20": {
+        "support": 90,
+        "resistance": 101.300003,
+        "toSupportPct": -3.897493,
+        "toResistancePct": 8.168714,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 90,
+        "resistance": 101.699997,
+        "toSupportPct": -3.897493,
+        "toResistancePct": 8.59583,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "趋势交错/震荡",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 106,
+    "MA": {
+      "20": 92.297175,
+      "60": 85.528427,
+      "120": null,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": 3.102386,
+      "60": 2.160411,
+      "120": null,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": 1.46573,
+      "60": 9.495762,
+      "120": null,
+      "250": null
+    },
+    "returnPct": {
+      "20": 10.582949,
+      "60": 22.765713,
+      "120": null,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 101.699997,
+    "low52w": 73.827334,
+    "distanceFrom52wHighPct": -7.915433,
+    "distanceFrom52wLowPct": 26.850039,
+    "maxDrawdown52wPct": -13.694256,
+    "RSI14": 53.359013,
+    "ATR14": 4.489976,
+    "ATR14Pct": 4.794422,
+    "MACD": {
+      "DIF": 3.09808,
+      "DEA": 3.566094,
+      "histogram": -0.936027,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 25615344.2,
+      "20": 30020208.9,
+      "60": 22775887.6
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.909371,
+    "previous20MeanVolume": 30457167.2,
+    "upDownVolume20": {
+      "upVolume": 403486224,
+      "downVolume": 196917954,
+      "flatVolume": 0,
+      "upDays": 13,
+      "downDays": 7,
+      "ratio": 2.049007
+    },
+    "ranges": {
+      "20": {
+        "support": 78.099998,
+        "resistance": 101.699997,
+        "toSupportPct": -16.604382,
+        "toResistancePct": 8.59583,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 73.827334,
+        "resistance": 101.699997,
+        "toSupportPct": -21.166757,
+        "toResistancePct": 8.59583,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期上升",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -2.711922,
+    "excess60Pct": 5.25875,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -2.626666,
+    "industryExcess60Pct": 15.238866
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.4,
+        2.8,
+        4.3,
+        3.4,
+        3.5,
+        4.1
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 68.69999999999999
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        2.8,
+        4.3,
+        3.8,
+        3.6,
+        4.1
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 75.7
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        2.8,
+        4.4,
+        4,
+        3.7,
+        4
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 81.3
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        2.8,
+        4.4,
+        4.1,
+        3.5,
+        3.9
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 82.8
+    }
+  },
+  "brokerTargets": [
+    {
+      "institution": "富瑞",
+      "date": "2026-08-31 16:03",
+      "code": "00300.HK",
+      "currency": "HKD",
+      "targetPrice": 124,
+      "rating": "买入",
+      "targetHorizon": null,
+      "sourceType": "新闻转述，未取得完整原始研报",
+      "url": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00300/AAFN/NOW.1542158/research-report",
+      "note": "半年报后，DCF目标"
+    },
+    {
+      "institution": "里昂",
+      "date": "2026-07-24 15:04",
+      "code": "00300.HK",
+      "currency": "HKD",
+      "targetPrice": 103,
+      "rating": "跑赢大市",
+      "targetHorizon": null,
+      "sourceType": "新闻转述，未取得完整原始研报",
+      "url": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00300/AAFN/NOW.1534845/research-report",
+      "note": "半年报前；新闻关税描述未作为已核监管税率"
+    },
+    {
+      "institution": "汇丰",
+      "date": "2026-07-17 11:07",
+      "code": "00300.HK",
+      "currency": "HKD",
+      "targetPrice": 110,
+      "rating": null,
+      "targetHorizon": null,
+      "sourceType": "新闻转述，未取得完整原始研报",
+      "url": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00300/AAFN/NOW.1533781/research-report",
+      "note": "正文明确美的110HKD；标题14属于雅迪"
+    },
+    {
+      "institution": "花旗",
+      "date": "2026-06-08 10:41",
+      "code": "00300.HK",
+      "currency": "HKD",
+      "targetPrice": 126.3,
+      "rating": "买入",
+      "targetHorizon": null,
+      "sourceType": "新闻转述，未取得完整原始研报",
+      "url": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00300/AAFN/NOW.1527924/research-report",
+      "note": "超过90天且半年报前，估值参考，非年底目标"
+    }
+  ],
+  "confidence": {
+    "financial": "高（H股IFRS与A股准则保留差异，结果与年报核对）",
+    "technical": "高（双来源；H股上市不足三年）",
+    "valuation": "中（收入、利润率、融资与回购路径是假设）",
+    "broker": "中（公开新闻转述、期限不明）"
+  },
+  "gaps": [
+    "H股历史始于2024-10-02，缺上市首两周；不补造三年历史或120/250周均线",
+    "公告目录毫秒时间未独立核验时区；保留文件日期与来源原值，不能当作精确香港发布时刻",
+    "2026-10-09变动单目录时间跨到10/10且时区待核，未作为10/9收盘前已知股数；采用九月月报及明确10/8文件更新",
+    "半年扣非净利A股原件尚未单独核；不把IFRS归母或分部利润标扣非",
+    "长鑫投资各项价值、税基、解禁与实际处置、美国关税退款原始监管/公司原件未完整核验，不纳入单独额外价值",
+    "个股家电行业同日可核指数缺；恒生科技只属粗参考，不充当精确家电行业指数",
+    "机构原始完整报告和明确目标期限缺，不声称12个月共识",
+    "2026中期股息仍需10/13股东会批准，确切HKD与税率及登记日期截至基准日未公告；未来股息均模型假设"
+  ],
+  "sources": [
+    {
+      "title": "midea_2025annual_en",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "publicationDate": "24 April 2026",
+      "rawProviderTime": "/Date(1777041007000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "midea_2026h1results",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4172922/HKEX-EPS_20260828_12305700_0.PDF",
+      "publicationDate": "28 August 2026",
+      "rawProviderTime": "/Date(1787939095000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "midea_2026interimdividend",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4172938/HKEX-EPS_20260828_12305740_0.PDF",
+      "publicationDate": "28 August 2026",
+      "rawProviderTime": "/Date(1787939418000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "midea_2026interim",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+      "publicationDate": "15 September 2026",
+      "rawProviderTime": "/Date(1789485481000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "midea_2026egm",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4184410/HKEX-EPS_20260927_12347689_0.PDF",
+      "publicationDate": "27 September 2026",
+      "rawProviderTime": "/Date(1790525512000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "midea_202609shares",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4192253/HKEX-EPS_20261007_12365200_0.PDF",
+      "publicationDate": "07 October 2026",
+      "rawProviderTime": "/Date(1791383953000)/",
+      "timeZoneVerification": "未完成，不将rawProviderTime机械转换当香港发布时间"
+    },
+    {
+      "title": "2025 A股中文年报",
+      "url": "https://www.midea.com.cn/content/dam/mideacn-aem/投资者关系/2025年度报告.pdf.coredownload.inline.pdf",
+      "publicationDate": "2026年3月，精确官网上线时间未核验"
+    },
+    {
+      "title": "midea_20261008return",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193271/HKEX-EPS_20261008_12366880_0.PDF",
+      "publicationDate": "2026-10-08（文件）",
+      "scope": "used for disclosed Oct8 A share change"
+    },
+    {
+      "title": "midea_20261009return",
+      "url": "https://ea-cdn.eurolandir.com/press-releases-attachments/4193629/HKEX-EPS_20261009_12368606_0.PDF",
+      "publicationDate": "2026-10-09（文件）；目录跨日待核",
+      "scope": "not used for valuation input pending timestamp verification"
+    },
+    {
+      "title": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "publicationDate": "行情2026-10-09",
+      "retrievedAt": "2026-10-10T09:16:12.163Z"
+    },
+    {
+      "title": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "publicationDate": "行情2026-10-09",
+      "retrievedAt": null
+    },
+    {
+      "title": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/0300.HK?range=3y&interval=1d&events=div%2Csplits",
+      "publicationDate": "行情2026-10-09",
+      "retrievedAt": "2026-10-10T09:13:19.619Z"
+    },
+    {
+      "title": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00300,day,2023-10-09,2026-10-09,1000,qfq",
+      "publicationDate": "行情2026-10-09",
+      "retrievedAt": "2026-10-10T09:13:19.787Z"
+    }
+  ],
+  "activeScenario": "基准",
+  "scenarioSnapshotDate": "2026-10-09",
+  "refreshPolicy": "修改任何收入/利润率/股数/倍数/汇率/股息输入即标记待刷新；单套活动模型顺序运行悲观/基准/乐观，保存版本；同源文档须同步再核验"
+}

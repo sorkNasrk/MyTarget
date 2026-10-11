@@ -1,0 +1,29 @@
+{
+  "issuerId": "I040",
+  "securityId": "S047",
+  "code": "01952.HK",
+  "asOf": "2026-10-09",
+  "status": "deep_model_native_artifact_completed_released",
+  "modelVersion": "everest-v2-fullLicenseCash-finiteFCFF-contractnet-debt",
+  "model": "data/everest_model.json",
+  "deepResearch": "research/I040_deep.md",
+  "effectiveChineseCharacters": 11729,
+  "exactDuplicateParagraphs": 0,
+  "independentChecks": 3751,
+  "adapterChecks": 1599,
+  "editableAtomicInputs": 730,
+  "scenarioSignatureInputs": 255,
+  "native": "tools/everest_native.mjs",
+  "workbook": "tools/everest_workbook.mjs",
+  "sourceVersion": "HKEX20261009-annual2023to2025-H12026-license-close-primary-clinicalRCT",
+  "parentRemaining": "总表接入、持久刷新状态验证、Word/PDF同源数字与逐页排版验证",
+  "knownLimits": [
+    "未来收入分组、临床概率、完整费用与许可预算是研究输入，不是公司披露预测",
+    "Travere已交割但112.5mUSD银行到账日期未确证，净因子覆盖税及上游假设",
+    "六月金融权益和联营账面折损并非2026-10-09现时报价",
+    "全部未来许可现金入FCFF，2026H1已付448.136m只从剩余cash预算剔除一次",
+    "并购USD100m2028/29偿付后目标净债归零；H1已付不重复扣",
+    "悲观经营收缩才保持现金正，不收缩额外stress2029资金缺口且股权零",
+    "没有90日内公开可核验外资研报，最新MS2026May29 40HKD超90日"
+  ]
+}

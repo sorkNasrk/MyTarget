@@ -1,0 +1,97 @@
+{
+  "modelVersion": "insilico-v3-perIndicationDemand-ConditionalFunding-UnallocatedClinical",
+  "baseOneYearHKD": 0,
+  "rows": [
+    {
+      "label": "2027全部CB转股",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.5574257465918456,
+      "fundingFailure": true
+    },
+    {
+      "label": "临床时间全部延两年",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -1.0840766386523935,
+      "fundingFailure": true
+    },
+    {
+      "label": "2027起新交易收入减半",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -1.8282797531145518,
+      "fundingFailure": true
+    },
+    {
+      "label": "2027起新交易收入增加50%",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.1270240562612844,
+      "fundingFailure": true
+    },
+    {
+      "label": "取消全部基金出资",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.8493719635191463,
+      "fundingFailure": true
+    },
+    {
+      "label": "平台研发2027起减20%",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.575184722296074,
+      "fundingFailure": true
+    },
+    {
+      "label": "全部临床2027起增30%",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -1.4032484014703963,
+      "fundingFailure": true
+    },
+    {
+      "label": "全部临床2027起增100%",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -2.6675988125455694,
+      "fundingFailure": true
+    },
+    {
+      "label": "中国IPF风险净权益归零",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -1.1357176794243011,
+      "fundingFailure": true
+    },
+    {
+      "label": "折现率增加两百分点",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.8950741510191464,
+      "fundingFailure": true
+    },
+    {
+      "label": "2028额外股权融资150mUSD以30HKD",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.739882980836876,
+      "fundingFailure": true
+    },
+    {
+      "label": "已授option全部不行权",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.912694540211709,
+      "fundingFailure": true
+    },
+    {
+      "label": "所有已签近端2027收入减半",
+      "oneYearIntrinsicHKD": 0,
+      "threeYearIntrinsicHKD": 0,
+      "minimumCashUSDbn": -0.9245378785191464,
+      "fundingFailure": true
+    }
+  ]
+}

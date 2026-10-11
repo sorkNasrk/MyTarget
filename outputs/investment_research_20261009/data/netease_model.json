@@ -1,0 +1,545 @@
+{
+  "issuerId": "I064",
+  "securityId": "S074",
+  "code": "09999.HK",
+  "name": "网易",
+  "asOf": "2026-10-09",
+  "price": 193.5,
+  "currency": "HKD",
+  "modelVersion": "netease-pe-v1.0",
+  "status": "独立研究初版，非校准预测",
+  "method": "目标时点NTM non-GAAP diluted EPS (CNY per ordinary share) × target PE × HKD per CNY; no extra net cash addition because consolidated EPS includes financial income",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "统一研究假设，非已核即期"
+  },
+  "ADSratio": 5,
+  "anchor": {
+    "period": "FY2025",
+    "nonGAAPDilutedEPSCNY": 11.6,
+    "nonGAAPProfitAttributableCNYmillion": 37343.702,
+    "revenueCNYmillion": 112625.807,
+    "operatingCashFlowRoundedCNYmillion": 50700,
+    "historicalPEAtResearchFX": 15.1645768025,
+    "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "operatingCashFlowRoundedCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "historicalPEAtResearchFX": {
+        "sourceURL": "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+        "currency": "CNY",
+        "unit": "times",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      }
+    },
+    "publicationDate": "2026-02-11"
+  },
+  "latest": {
+    "period": "2026H1",
+    "nonGAAPDilutedEPSCNY": 5.9,
+    "nonGAAPProfitAttributableCNYmillion": 19021.538,
+    "GAAPProfitAttributableCNYmillion": 17654.762,
+    "revenueCNYmillion": 60697.827,
+    "operatingIncomeCNYmillion": 24746.171,
+    "operatingCashFlowCNYmillion": 23706,
+    "researchCashAfterEquipmentAndContentCNYmillion": 23023.494,
+    "cashAfterInvestmentsStatus": "research metric, not company's formal FCF definition",
+    "netCashRoundedCNYmillion": 167500,
+    "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+    "currency": "CNY",
+    "unit": "mixed, original suffix retains scale",
+    "publicationDate": "2026-08-20",
+    "fieldMetadata": {
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "GAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "researchCashAfterEquipmentAndContentCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "netCashRoundedCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      }
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        10,
+        12,
+        13.5
+      ],
+      "PE": [
+        12,
+        16,
+        20
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        132,
+        211.2,
+        297
+      ],
+      "priceReturnPct": [
+        -31.7829457364,
+        9.1472868217,
+        53.488372093
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 212.85,
+      "expectedReturnPct": 10,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 188.1,
+        "defensiveReturnPct": -2.7906976744,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 237.6,
+        "positiveReturnPct": 22.7906976744
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        10.5,
+        12.5,
+        14
+      ],
+      "PE": [
+        12,
+        17,
+        21
+      ],
+      "cumulativeCashDividendHKD": [
+        1,
+        2,
+        2.5
+      ],
+      "priceHKD": [
+        138.6,
+        233.75,
+        323.4
+      ],
+      "priceReturnPct": [
+        -28.3720930233,
+        20.8010335917,
+        67.1317829457
+      ],
+      "totalReturnPct": [
+        -27.8552971576,
+        21.834625323,
+        68.4237726098
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        11,
+        13,
+        15
+      ],
+      "PE": [
+        12,
+        18,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        2,
+        4,
+        5
+      ],
+      "priceHKD": [
+        145.2,
+        257.4,
+        363
+      ],
+      "priceReturnPct": [
+        -24.9612403101,
+        33.023255814,
+        87.5968992248
+      ],
+      "totalReturnPct": [
+        -23.9276485788,
+        35.0904392765,
+        90.180878553
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        11,
+        16,
+        21
+      ],
+      "PE": [
+        11,
+        17,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        6,
+        14,
+        20
+      ],
+      "priceHKD": [
+        133.1,
+        299.2,
+        508.2
+      ],
+      "priceReturnPct": [
+        -31.2144702842,
+        54.6253229974,
+        162.6356589147
+      ],
+      "totalReturnPct": [
+        -28.1136950904,
+        61.8604651163,
+        172.9715762274
+      ],
+      "baseAnnualizedTotalReturnPct": 17.412299759
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        10,
+        19,
+        28
+      ],
+      "PE": [
+        10,
+        16,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        10,
+        25,
+        38
+      ],
+      "priceHKD": [
+        110,
+        334.4,
+        677.6
+      ],
+      "priceReturnPct": [
+        -43.1524547804,
+        72.8165374677,
+        250.180878553
+      ],
+      "totalReturnPct": [
+        -37.984496124,
+        85.7364341085,
+        269.819121447
+      ],
+      "baseAnnualizedTotalReturnPct": 13.182536013
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.6,
+        3.1,
+        4.1,
+        4,
+        3.7,
+        4.2
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 72.7
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        3.1,
+        4.2,
+        4.1,
+        4,
+        4.2
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 78
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        3.1,
+        4.2,
+        4.1,
+        3.8,
+        4
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 80.7
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.8,
+        3.1,
+        4.1,
+        4,
+        3.7,
+        3.8
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 79.1
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "historical nonGAAP PE15.16x, cash strong but no double addition; Q2 investment and tax losses limit earnings certainty",
+    "technicalRelativeStrength": "price above MA20/60/120 with 1.445 volume ratio, below MA250; weekly mixed; excess HSI20+8.66pp/60-2.19pp",
+    "growthBusinessQuality": "H1 game revenue+8.3%, game gross margin Q2 76.1%; mature franchises support operating income, content concentration matters",
+    "industryCycle": "global content and AI efficiency opportunities, channel pricing and product supply competition constrain perpetuity",
+    "catalysts": "new and mature game update cycles and quarterly operating-to-net-profit bridge; unannounced release dates not invented",
+    "financialGovernanceDownside": "H1 OCF23.706bn, net cash167.5bn, light equipment spending; investments, taxes, SBC and cash deployment remain risks"
+  },
+  "confidence": {
+    "primaryFundamentals": "高",
+    "technical": "高（锁版独立Yahoo与Tencent报价）",
+    "valuation": "中低（研究盈利/PE/FX区间）",
+    "brokerTargets": "中（公开转载，部分经营文字与官网冲突，目标价主体匹配）"
+  },
+  "assumptions": [
+    "NTM EPS at target date, not guaranteed FY accounting forecast",
+    "company nonGAAP excludes SBC only; investment/FX/tax losses remain",
+    "one ADS represents5 ordinary shares; all EPS in CNY per ordinary share",
+    "no net-cash value addition without stripping financial income",
+    "FCF research proxy not comparable to Tencent company FCF without definition explanation",
+    "dividends not reinvested, historic ex-dividends excluded",
+    "five-year 19CNY base EPS implies about10.4% growth from FY2025; content renewal must prove sustainability",
+    "no universal success rate or product revenue invented",
+    "scenarios not maximum loss boundaries"
+  ],
+  "sources": [
+    "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+    "https://ir.netease.com/static-files/93a788ed-25f4-452a-9d1d-97bc3aca0a24",
+    "https://ir.netease.com/static-files/0c5eceec-d577-4822-a112-d23d7d3cf83a",
+    "https://ir.netease.com/static-files/12085e16-bfc8-4e2b-b110-cd5b861521ed",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09999/AAFN/NOW.1539884/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09999/AAFN/NOW.1539851/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09999/AAFN/NOW.1539821/research-report"
+  ],
+  "deepResearchFile": "research/netease_deep.md",
+  "effectiveHanzi": 12935,
+  "marketSnapshot": "data/market_snapshot_locked.json",
+  "latestPeriod": {
+    "period": "2026H1",
+    "nonGAAPDilutedEPSCNY": 5.9,
+    "nonGAAPProfitAttributableCNYmillion": 19021.538,
+    "GAAPProfitAttributableCNYmillion": 17654.762,
+    "revenueCNYmillion": 60697.827,
+    "operatingIncomeCNYmillion": 24746.171,
+    "operatingCashFlowCNYmillion": 23706,
+    "researchCashAfterEquipmentAndContentCNYmillion": 23023.494,
+    "cashAfterInvestmentsStatus": "research metric, not company's formal FCF definition",
+    "netCashRoundedCNYmillion": 167500,
+    "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+    "currency": "CNY",
+    "unit": "mixed, original suffix retains scale",
+    "publicationDate": "2026-08-20",
+    "fieldMetadata": {
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "nonGAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "GAAPProfitAttributableCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingIncomeCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      },
+      "researchCashAfterEquipmentAndContentCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "research calculation from primary inputs"
+      },
+      "netCashRoundedCNYmillion": {
+        "sourceURL": "https://ir.netease.com/static-files/6848caa4-627a-474c-9fce-934334ba3976",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-08-20",
+        "status": "reported input; original field suffix retains scale"
+      }
+    }
+  }
+}

@@ -1,0 +1,1493 @@
+{
+  "issuerId": "I063",
+  "securityId": "S073",
+  "code": "03750.HK",
+  "name": "宁德时代",
+  "asOf": "2026-10-09",
+  "price": 491.4,
+  "currency": "HKD",
+  "modelVersion": "catl-normalized-four-segment-v1.0",
+  "status": "独立研究初版；海外爬坡、现金流和储能需求持续核验",
+  "method": "四分部NTM收入×正常EBIT率+有限正常净金融联营→税后×归母份额÷摊薄股数→EPS3位×PE×1.10，不另加现金、矿股和换电期权",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核即期汇率",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-03-10巨潮年报披露",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+    "currency": "CNY",
+    "unit": "mixed; original field suffix retains scale",
+    "revenueCNYmillion": 423701.834,
+    "revenue2024CNYmillion": 362012.554,
+    "revenue2023CNYmillion": 400917.045,
+    "profitAttributableCNYmillion": 72201.282,
+    "profitAttributable2024CNYmillion": 50744.682,
+    "profitAttributable2023CNYmillion": 44121.248,
+    "profitExNonRecurringCNYmillion": 64507.864,
+    "EPSCNY": 16.14,
+    "OCFCNYmillion": 133219.982,
+    "cashLongAssetAcquisitionCNYmillion": 42344.558,
+    "FCFResearchProxyCNYmillion": 90875.424,
+    "RDCNYmillion": 22146.581,
+    "batterySalesGWh": 661,
+    "batteryProductionGWh": 748,
+    "batteryCapacityGWh": 772,
+    "capacityUtilization": 0.969,
+    "powerRevenueCNYmillion": 316506.369,
+    "storageRevenueCNYmillion": 62439.82,
+    "materialsRevenueCNYmillion": 21860.936,
+    "miningRevenueCNYmillion": 5978.096,
+    "otherRevenueCNYmillion": 16916.612,
+    "earningsCaution": "2025EPS为期中发行加权股数，不能固定长期分母；2023/2024历史利润不冒充预测",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitExNonRecurringCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "cashLongAssetAcquisitionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "RDCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batterySalesGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batteryProductionGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batteryCapacityGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "capacityUtilization": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": null,
+        "unit": "number as field name",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "powerRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "storageRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "materialsRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "miningRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "otherRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+        "period": "FY2025",
+        "publicationDate": "2026-03-10巨潮年报披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1",
+    "publicationDate": "2026-07-25巨潮披露",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "currency": "CNY",
+    "unit": "mixed; original field suffix retains scale",
+    "revenueCNYmillion": 276916.58,
+    "revenueGrowthPct": 54.8,
+    "profitAttributableCNYmillion": 43284.002,
+    "profitGrowthPct": 41.98,
+    "profitExNonRecurringCNYmillion": 39013.3,
+    "EPSCNY": 9.51,
+    "groupProfitCNYmillion": 47030.638,
+    "minorityProfitCNYmillion": 3746.636,
+    "OCFCNYmillion": 60216.851,
+    "OCFGrowthPct": 2.61,
+    "cashLongAssetAcquisitionCNYmillion": 25072.772,
+    "FCFResearchProxyCNYmillion": 35144.079,
+    "financialExpenseCNYmillion": -630.793,
+    "interestCostCNYmillion": 1392.225,
+    "interestIncomeCNYmillion": 4887.257,
+    "otherIncomeCNYmillion": 4589.631,
+    "investmentIncomeCNYmillion": 6152.679,
+    "associatesInvestmentIncomeCNYmillion": 5722.218,
+    "FVGainCNYmillion": 1240.685,
+    "expensedRDCNYmillion": 11376.545,
+    "capitalizedRDCNYmillion": 0,
+    "normalEBITResearchCNYmillion": 45377.03,
+    "normalEBITMarginResearch": 0.1638653416852108,
+    "normalEBITCaution": "收入减成本税金销售管理研发，仅研究代理，不是官方调整EBIT；未含不稳定补贴金融投资及减值，模型率另含常态信用售后",
+    "powerRevenueCNYmillion": 192124.89,
+    "powerGrossMargin": 0.2063,
+    "storageRevenueCNYmillion": 53260.967,
+    "storageGrossMargin": 0.2396,
+    "materialsRecyclingMiningRevenueCNYmillion": 18811.078,
+    "materialsGrossMargin": 0.2704,
+    "otherRevenueResearchCNYmillion": 12719.645,
+    "overseasRevenueCNYmillion": 87129.188,
+    "overseasGrossMargin": 0.2997,
+    "ChinaRevenueCNYmillion": 189787.392,
+    "ChinaGrossMargin": 0.2116,
+    "groupGrossMargin": 0.2393,
+    "batteryCapacityGWh": 525,
+    "batteryCapacityUnderConstructionGWh": 764,
+    "batteryProductionGWh": 498,
+    "capacityUtilization": 0.9486,
+    "capacityCaution": "H1报告表列期间产能及产量，不能与全年772不经期间换算直接推产能骤降；产量非销量",
+    "cashBankCNYmillion": 372053.275,
+    "cashEquivalentsNetOverdraftCNYmillion": 340586.216,
+    "bankOverdraftCNYmillion": 6210.332,
+    "shortDebtCNYmillion": 20885.906,
+    "longDebtCNYmillion": 74262.746,
+    "bondsCNYmillion": 28512.039,
+    "currentLongDebtCNYmillion": 17447.694,
+    "currentBondsCNYmillion": 3912.781,
+    "interestDebtResearchCNYmillion": 145021.166,
+    "leaseDebtIncludingCurrentCNYmillion": 3980.727,
+    "netCashResearchCNYmillion": 195565.05,
+    "netCashCaution": "现金等价物已扣银行透支；如再加含透支短借会双扣，研究净额为保守代理非公司定义；不将此直接再加PE价值",
+    "inventoriesCNYmillion": 130819.205,
+    "tradeReceivablesCNYmillion": 88417.984,
+    "receivableFinancingCNYmillion": 51923.468,
+    "tradePayablesCNYmillion": 202508.781,
+    "notesPayableCNYmillion": 152977.931,
+    "contractLiabilityCNYmillion": 36482.664,
+    "supplierFinancePayablesCNYmillion": 57764.224,
+    "supplierCashAlreadyAdvancedCNYmillion": 50406.338,
+    "operatingInventoryCashUseCNYmillion": 37859.085,
+    "operatingReceivableCashUseCNYmillion": 33026.925,
+    "operatingPayableCashContributionCNYmillion": 71690.439,
+    "ownerEquityCNYmillion": 379353.71,
+    "sharesAtJune30": 4626650861,
+    "treasurySharesAtJune30": 28319044,
+    "HPlacementDate": "2026-04-30",
+    "HPlacementShares": 62385000,
+    "HPlacementPriceHKD": 628.2,
+    "paidInterimDividendCNYperShare": 1.411,
+    "paidInterimDividendHKDperShare": 1.629,
+    "dividendCaution": "2026八月除息已含历史，不加基准日之后累计分红；未来分红全研究假设",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "revenueGrowthPct": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "percentage points (percent value)",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitGrowthPct": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "percentage points (percent value)",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "profitExNonRecurringCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "groupProfitCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "minorityProfitCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "OCFGrowthPct": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "percentage points (percent value)",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "cashLongAssetAcquisitionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "financialExpenseCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "interestCostCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "interestIncomeCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "otherIncomeCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "investmentIncomeCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "associatesInvestmentIncomeCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "FVGainCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "expensedRDCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "capitalizedRDCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "normalEBITResearchCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "normalEBITMarginResearch": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "research calculation from primary inputs"
+      },
+      "powerRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "powerGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "storageRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "storageGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "materialsRecyclingMiningRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "materialsGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "otherRevenueResearchCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "overseasRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "overseasGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "ChinaRevenueCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "ChinaGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "groupGrossMargin": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batteryCapacityGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batteryCapacityUnderConstructionGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "batteryProductionGWh": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "GWh",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "capacityUtilization": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "number as field name",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "cashBankCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "cashEquivalentsNetOverdraftCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "bankOverdraftCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "shortDebtCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "longDebtCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "bondsCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "currentLongDebtCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "currentBondsCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "interestDebtResearchCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "leaseDebtIncludingCurrentCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "netCashResearchCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "research calculation from primary inputs"
+      },
+      "inventoriesCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "tradeReceivablesCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "receivableFinancingCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "tradePayablesCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "notesPayableCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "contractLiabilityCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "supplierFinancePayablesCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "supplierCashAlreadyAdvancedCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "operatingInventoryCashUseCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "operatingReceivableCashUseCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "operatingPayableCashContributionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "ownerEquityCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "sharesAtJune30": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "treasurySharesAtJune30": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "HPlacementShares": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": null,
+        "unit": "shares",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "HPlacementPriceHKD": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "HKD",
+        "unit": "HKD/share",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "paidInterimDividendCNYperShare": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "CNY",
+        "unit": "ratio",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "paidInterimDividendHKDperShare": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "currency": "HKD",
+        "unit": "HKD/share",
+        "status": "reported input or research-defined grouping; see original suffix and notes"
+      },
+      "totalProvisionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "status": "reported input"
+      },
+      "afterSalesProvisionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "status": "reported input"
+      },
+      "salesRebateProvisionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "status": "reported input"
+      },
+      "abandonmentOtherProvisionCNYmillion": {
+        "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-07-25巨潮披露",
+        "status": "reported input"
+      }
+    },
+    "totalProvisionCNYmillion": 98607.243,
+    "afterSalesProvisionCNYmillion": 59131.359,
+    "salesRebateProvisionCNYmillion": 39327.759,
+    "abandonmentOtherProvisionCNYmillion": 148.125,
+    "provisionCaution": "预计负债合计包含售后、返利及弃置，不全是质量保修"
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margins ratio; shares billion; NTM at target date",
+    "effectiveTaxRate": 0.16,
+    "epsRoundingDecimals": 3,
+    "normalization": "四分部正常EBIT率含折旧、研发、销售、管理、股份支付、常态售后与营运信用成本；剔不稳定补贴和投资公允变化；有限净金融联营贡献已计，不额外加全部现金、矿股市值或换电期权",
+    "yearEnd": {
+      "powerRevenue": [
+        360,
+        435,
+        490
+      ],
+      "powerEBITMargin": [
+        0.11,
+        0.155,
+        0.18
+      ],
+      "storageRevenue": [
+        95,
+        125,
+        160
+      ],
+      "storageEBITMargin": [
+        0.1,
+        0.17,
+        0.21
+      ],
+      "materialsRevenue": [
+        30,
+        40,
+        48
+      ],
+      "materialsEBITMargin": [
+        0.08,
+        0.15,
+        0.2
+      ],
+      "otherRevenue": [
+        20,
+        23,
+        27
+      ],
+      "otherEBITMargin": [
+        0.15,
+        0.24,
+        0.3
+      ],
+      "normalNetFinanceAssociates": [
+        3,
+        8,
+        12
+      ],
+      "ownerProfitShare": [
+        0.92,
+        0.93,
+        0.94
+      ],
+      "dilutedShares": [
+        4.8,
+        4.64,
+        4.6
+      ]
+    },
+    "halfYear": {
+      "powerRevenue": [
+        365,
+        460,
+        535
+      ],
+      "powerEBITMargin": [
+        0.105,
+        0.16,
+        0.185
+      ],
+      "storageRevenue": [
+        100,
+        145,
+        190
+      ],
+      "storageEBITMargin": [
+        0.09,
+        0.18,
+        0.225
+      ],
+      "materialsRevenue": [
+        29,
+        42,
+        55
+      ],
+      "materialsEBITMargin": [
+        0.07,
+        0.15,
+        0.21
+      ],
+      "otherRevenue": [
+        20,
+        25,
+        30
+      ],
+      "otherEBITMargin": [
+        0.14,
+        0.25,
+        0.32
+      ],
+      "normalNetFinanceAssociates": [
+        3,
+        8,
+        12
+      ],
+      "ownerProfitShare": [
+        0.92,
+        0.93,
+        0.94
+      ],
+      "dilutedShares": [
+        4.82,
+        4.63,
+        4.6
+      ]
+    },
+    "oneYear": {
+      "powerRevenue": [
+        385,
+        505,
+        600
+      ],
+      "powerEBITMargin": [
+        0.1,
+        0.165,
+        0.19
+      ],
+      "storageRevenue": [
+        115,
+        175,
+        245
+      ],
+      "storageEBITMargin": [
+        0.08,
+        0.19,
+        0.24
+      ],
+      "materialsRevenue": [
+        30,
+        48,
+        65
+      ],
+      "materialsEBITMargin": [
+        0.06,
+        0.16,
+        0.22
+      ],
+      "otherRevenue": [
+        21,
+        30,
+        38
+      ],
+      "otherEBITMargin": [
+        0.13,
+        0.26,
+        0.33
+      ],
+      "normalNetFinanceAssociates": [
+        3,
+        8,
+        13
+      ],
+      "ownerProfitShare": [
+        0.92,
+        0.94,
+        0.95
+      ],
+      "dilutedShares": [
+        4.85,
+        4.62,
+        4.58
+      ]
+    },
+    "threeYear": {
+      "powerRevenue": [
+        405,
+        650,
+        850
+      ],
+      "powerEBITMargin": [
+        0.085,
+        0.17,
+        0.2
+      ],
+      "storageRevenue": [
+        145,
+        290,
+        490
+      ],
+      "storageEBITMargin": [
+        0.06,
+        0.2,
+        0.25
+      ],
+      "materialsRevenue": [
+        32,
+        65,
+        105
+      ],
+      "materialsEBITMargin": [
+        0.05,
+        0.17,
+        0.24
+      ],
+      "otherRevenue": [
+        23,
+        50,
+        78
+      ],
+      "otherEBITMargin": [
+        0.1,
+        0.28,
+        0.35
+      ],
+      "normalNetFinanceAssociates": [
+        2,
+        9,
+        16
+      ],
+      "ownerProfitShare": [
+        0.9,
+        0.94,
+        0.96
+      ],
+      "dilutedShares": [
+        5,
+        4.6,
+        4.52
+      ]
+    },
+    "fiveYear": {
+      "powerRevenue": [
+        425,
+        780,
+        1150
+      ],
+      "powerEBITMargin": [
+        0.075,
+        0.17,
+        0.205
+      ],
+      "storageRevenue": [
+        180,
+        430,
+        820
+      ],
+      "storageEBITMargin": [
+        0.05,
+        0.2,
+        0.255
+      ],
+      "materialsRevenue": [
+        35,
+        90,
+        160
+      ],
+      "materialsEBITMargin": [
+        0.04,
+        0.17,
+        0.25
+      ],
+      "otherRevenue": [
+        25,
+        78,
+        135
+      ],
+      "otherEBITMargin": [
+        0.08,
+        0.28,
+        0.35
+      ],
+      "normalNetFinanceAssociates": [
+        2,
+        10,
+        20
+      ],
+      "ownerProfitShare": [
+        0.9,
+        0.95,
+        0.96
+      ],
+      "dilutedShares": [
+        5.15,
+        4.58,
+        4.45
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        9.258,
+        18.216,
+        26.005
+      ],
+      "PE": [
+        17,
+        26,
+        32
+      ],
+      "priceHKD": [
+        173.12,
+        520.98,
+        915.38
+      ],
+      "priceReturnPct": [
+        -64.77004477004476,
+        6.01953601953602,
+        86.2800162800163
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -64.77004477004476,
+        6.01953601953602,
+        86.2800162800163
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 532.615,
+      "expectedReturnPct": 8.387260887260894,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 421.276,
+        "defensiveReturnPct": -14.270248270248265,
+        "positivePrice": 643.9540000000001,
+        "positiveReturnPct": 31.044770044770065
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        8.843,
+        20.289,
+        30.018
+      ],
+      "PE": [
+        17,
+        26,
+        32
+      ],
+      "priceHKD": [
+        165.36,
+        580.27,
+        1056.63
+      ],
+      "priceReturnPct": [
+        -66.34920634920634,
+        18.08506308506308,
+        115.02442002442007
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -66.34920634920634,
+        18.08506308506308,
+        115.02442002442007
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        8.8,
+        23.937,
+        37.05
+      ],
+      "PE": [
+        16,
+        25,
+        32
+      ],
+      "priceHKD": [
+        154.88,
+        658.27,
+        1304.16
+      ],
+      "priceReturnPct": [
+        -68.48188848188848,
+        33.958078958078964,
+        165.39682539682542
+      ],
+      "cumulativeCashDividendHKD": [
+        4,
+        8,
+        11
+      ],
+      "totalReturnPct": [
+        -67.66788766788767,
+        35.58608058608059,
+        167.63532763532766
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        7.413,
+        34.768,
+        64.405
+      ],
+      "PE": [
+        15,
+        24,
+        32
+      ],
+      "priceHKD": [
+        122.31,
+        917.88,
+        2267.06
+      ],
+      "priceReturnPct": [
+        -75.1098901098901,
+        86.7887667887668,
+        361.34717134717135
+      ],
+      "cumulativeCashDividendHKD": [
+        12,
+        27,
+        42
+      ],
+      "totalReturnPct": [
+        -72.66788766788767,
+        92.28327228327228,
+        369.89417989417996
+      ],
+      "baseAnnualizedTotalReturnPct": 24.350394705455457
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        6.793,
+        46.301,
+        100.048
+      ],
+      "PE": [
+        14,
+        23,
+        30
+      ],
+      "priceHKD": [
+        104.61,
+        1171.42,
+        3301.58
+      ],
+      "priceReturnPct": [
+        -78.71184371184371,
+        138.3842083842084,
+        571.8722018722019
+      ],
+      "cumulativeCashDividendHKD": [
+        20,
+        53,
+        90
+      ],
+      "totalReturnPct": [
+        -74.64183964183964,
+        149.16971916971923,
+        590.1872201872202
+      ],
+      "baseAnnualizedTotalReturnPct": 20.032555553194385
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.3,
+        1.8,
+        4.3,
+        4,
+        2.8,
+        3.6
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 61
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        1.8,
+        4.4,
+        4.2,
+        3.5,
+        3.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 73.2
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        1.8,
+        4.5,
+        4.4,
+        3.5,
+        3.6
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 81.6
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.9,
+        1.8,
+        4.5,
+        4.5,
+        3.5,
+        3.5
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 83.6
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "历史FY2025 EPS16.14在1.10汇率约27.68倍，强增长但现金及毛利受压；基准一年658.27有条件收益，正常利润和PE敏感",
+    "technicalRelativeStrength": "现价低20/60/120/250日均线且各斜率负，20日上下量比0.514，60日落后恒指17.487pp；单日3.06%反弹非反转",
+    "growthBusinessQuality": "H1收入+54.8%、扣非+43.44%，动力和储能领先，研发全部费用化；海外制造与保修带持续资本成本",
+    "industryCycle": "电动化储能与数据中心供电需求支持，车市竞争、海外本土化及储能电价机制影响盈利",
+    "catalysts": "三季财报及2027首季需求更清晰；产品发布战略协议不当确定订单",
+    "financialGovernanceDownside": "现金覆盖借债但受限与透支须分，库存应收增长、供应商融资57.764bn、保修预计负债与新配售需监控"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（巨潮公司中报年报）",
+    "technical": "高（双报价双日线，H上市346日，不造三年）",
+    "valuation": "中（正常利润、份额、股数和PE研究假设）",
+    "brokerTargets": "中（公开新闻转述，期限null）"
+  },
+  "assumptions": [
+    "四分部收入含集团内部抵销后的外部口径，材料矿资源归并，其他非再加一套换电价值",
+    "NTM为目标时点未来12个月盈利估计，非目标日累计实现",
+    "正常EBIT率含全部常态研发折旧售后股份支付信用成本，不统一免研发",
+    "有限正常净金融联营不机械延续公允价值涨幅与补贴，不额外加净现金或矿股市值",
+    "税16%固定假设，可用13%-22%敏感性，不是税率承诺",
+    "归母份额0.90-0.96显式，合资海外未全部属于普通股东",
+    "港元人民币1.10研究汇率，未称即期",
+    "所有长期经营输入、倍数和未来股息均研究假设非公司指引",
+    "上半年产能525GWh不与全年772直接同比，产量498不当销量",
+    "现金等价物有透支净额，研究净现金为保守代理非企业价值加项",
+    "H股历史从2025-05-20，120/250周线缺失，不补A股日线",
+    "技术观察位非精确成交量分布，无逐笔与换手数据不宣称主力吸筹",
+    "年底权重25/50/25非获利概率，情景不是最大损失边界",
+    "已支付中期1.629HKD不加未来总回报，一年基准未来8HKD假设可变",
+    "EPS3位、目标价格2位，预计回报含分红单列，无再投资与税费"
+  ],
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03750/AAFN/NOW.1548483/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03750/AAFN/NOW.1548298/research-report"
+  ],
+  "deepResearchFile": "research/catl_deep.md",
+  "effectiveHanzi": 13961,
+  "wordCountBasis": "第一至三十四节独立正文汉字，不含标题摘要表格来源",
+  "marketSnapshot": "data/market_snapshot_locked.json"
+}

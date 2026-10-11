@@ -1,0 +1,1824 @@
+{
+  "issuerId": "I074",
+  "securityId": "S085",
+  "code": "06618.HK",
+  "name": "京东健康",
+  "deepResearchFile": "research/jdhealth_deep.md",
+  "asOf": "2026-10-09",
+  "price": 36.08,
+  "currency": "HKD",
+  "modelVersion": "jdhealth-products-services-normalized-profit-v1.0",
+  "status": "deep-research-complete-pending-document-integration",
+  "method": "商品+市场广告其他服务收入×正常核心营业率×78%+有限税后财资联营/NCI归属净项，除经济摊薄股×PE×1.10；保留常态SBC，不另加全现金、母公司资产或独立AI价值",
+  "targetPriceRoundingDecimals": 2,
+  "fx": {
+    "HKDperCNY": 1.1,
+    "HKDperUSD": 7.8,
+    "note": "研究假设非已核即期"
+  },
+  "businessRevenueAssumptions": {
+    "yearEnd": {
+      "products": [
+        65,
+        70,
+        74
+      ],
+      "services": [
+        13,
+        15,
+        16
+      ],
+      "EBITMargin": [
+        0.058,
+        0.08,
+        0.095
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.4,
+        1.35,
+        1.6
+      ],
+      "dilutedShares": [
+        3.23,
+        3.21,
+        3.2
+      ]
+    },
+    "halfYear": {
+      "products": [
+        63,
+        76,
+        83
+      ],
+      "services": [
+        12.5,
+        16.5,
+        19
+      ],
+      "EBITMargin": [
+        0.055,
+        0.083,
+        0.102
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.3,
+        1.35,
+        1.7
+      ],
+      "dilutedShares": [
+        3.25,
+        3.205,
+        3.19
+      ]
+    },
+    "oneYear": {
+      "products": [
+        62,
+        82,
+        97
+      ],
+      "services": [
+        12,
+        18.5,
+        23
+      ],
+      "EBITMargin": [
+        0.052,
+        0.09,
+        0.11
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.25,
+        1.4,
+        1.8
+      ],
+      "dilutedShares": [
+        3.28,
+        3.2,
+        3.18
+      ]
+    },
+    "threeYear": {
+      "products": [
+        66,
+        112,
+        149
+      ],
+      "services": [
+        12,
+        28,
+        40
+      ],
+      "EBITMargin": [
+        0.045,
+        0.105,
+        0.13
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.15,
+        1.5,
+        2.1
+      ],
+      "dilutedShares": [
+        3.45,
+        3.21,
+        3.19
+      ]
+    },
+    "fiveYear": {
+      "products": [
+        70,
+        145,
+        205
+      ],
+      "services": [
+        11,
+        42,
+        66
+      ],
+      "EBITMargin": [
+        0.038,
+        0.115,
+        0.145
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.1,
+        1.6,
+        2.4
+      ],
+      "dilutedShares": [
+        3.65,
+        3.23,
+        3.2
+      ]
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion revenue/profit; diluted ordinary shares billion; NTM at target date",
+    "effectiveTaxRate": 0.22,
+    "epsRoundingDecimals": 6,
+    "normalization": "核心营业率从毛利扣履约、营销、研发、管理及常态SBC，不含报表other income/FVTPL损益；afterTaxInterestAssociatesNet为有限税后现金利息、正常理财收益、融资成本、联营/NCI归属净项及分子储备，避免把2025特殊减值/低税和2026理财迁移直接年化，不是单一披露字段。PE包含有限财资，不另加全部存款/理财；不加JD集团物流市值或独立AI估值。经济分母基于九月法律股数后常态激励、条件回购与未来融资储备，非月报所有方案上限",
+    "yearEnd": {
+      "revenue": [
+        78,
+        85,
+        90
+      ],
+      "EBITMargin": [
+        0.058,
+        0.08,
+        0.095
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.4,
+        1.35,
+        1.6
+      ],
+      "dilutedShares": [
+        3.23,
+        3.21,
+        3.2
+      ]
+    },
+    "halfYear": {
+      "revenue": [
+        75.5,
+        92.5,
+        102
+      ],
+      "EBITMargin": [
+        0.055,
+        0.083,
+        0.102
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.3,
+        1.35,
+        1.7
+      ],
+      "dilutedShares": [
+        3.25,
+        3.205,
+        3.19
+      ]
+    },
+    "oneYear": {
+      "revenue": [
+        74,
+        100.5,
+        120
+      ],
+      "EBITMargin": [
+        0.052,
+        0.09,
+        0.11
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.25,
+        1.4,
+        1.8
+      ],
+      "dilutedShares": [
+        3.28,
+        3.2,
+        3.18
+      ]
+    },
+    "threeYear": {
+      "revenue": [
+        78,
+        140,
+        189
+      ],
+      "EBITMargin": [
+        0.045,
+        0.105,
+        0.13
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.15,
+        1.5,
+        2.1
+      ],
+      "dilutedShares": [
+        3.45,
+        3.21,
+        3.19
+      ]
+    },
+    "fiveYear": {
+      "revenue": [
+        81,
+        187,
+        271
+      ],
+      "EBITMargin": [
+        0.038,
+        0.115,
+        0.145
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.1,
+        1.6,
+        2.4
+      ],
+      "dilutedShares": [
+        3.65,
+        3.23,
+        3.2
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        1.216322,
+        2.072897,
+        2.584063
+      ],
+      "PE": [
+        13,
+        19,
+        23
+      ],
+      "priceHKD": [
+        17.39,
+        43.32,
+        65.38
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "营养品/器械低迷、供应链利润减弱及风险溢价上升",
+        "药品和服务增长覆盖费用，正常经营率8%，财资有限纳入",
+        "健康品恢复、药品服务强增长、毛利改善及风险偏好提升"
+      ],
+      "priceReturnPct": [
+        -51.80155210643015,
+        20.066518847006655,
+        81.20842572062084
+      ],
+      "totalReturnPct": [
+        -51.80155210643015,
+        20.066518847006655,
+        81.20842572062084
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 42.3525,
+      "expectedReturnPct": 17.384977827050996,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 35.153999999999996,
+        "positivePrice": 49.551,
+        "defensiveReturnPct": -2.56651884700666,
+        "positiveReturnPct": 37.33647450110866
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.088908,
+        2.289688,
+        3.07684
+      ],
+      "PE": [
+        12,
+        20,
+        24
+      ],
+      "priceHKD": [
+        14.37,
+        50.37,
+        81.23
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "双十一后需求弱、补贴价格战、现金回报较弱",
+        "全年与新年验证供应链效率，服务增长及正常税负后盈利",
+        "份额、复购与服务变现较强，费用控制覆盖线下扩张"
+      ],
+      "priceReturnPct": [
+        -60.17184035476719,
+        39.60643015521064,
+        125.13858093126386
+      ],
+      "totalReturnPct": [
+        -60.17184035476719,
+        39.60643015521064,
+        125.13858093126386
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.991293,
+        2.642219,
+        3.803774
+      ],
+      "PE": [
+        11,
+        21,
+        24
+      ],
+      "priceHKD": [
+        11.99,
+        61.04,
+        100.42
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0.15
+      ],
+      "conditions": [
+        "健康品承压与药品价格竞争，服务费增长不足",
+        "商品与服务均衡扩张，常态SBC后正常核心率9%",
+        "医保与院外药增长、服务变现和运营效率协同"
+      ],
+      "priceReturnPct": [
+        -66.76829268292683,
+        69.17960088691797,
+        178.32594235033264
+      ],
+      "totalReturnPct": [
+        -66.76829268292683,
+        69.17960088691797,
+        178.74168514412418
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.837043,
+        4.039252,
+        6.666019
+      ],
+      "PE": [
+        10,
+        20,
+        24
+      ],
+      "priceHKD": [
+        9.21,
+        88.86,
+        175.98
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1,
+        2.5
+      ],
+      "conditions": [
+        "流量成本和线下资本压力，监管及股份稀释",
+        "院外供应链和慢病复购，服务占比提高而估值下降",
+        "可信药品平台和专业服务规模效应，正常核心率13%"
+      ],
+      "priceReturnPct": [
+        -74.47339246119734,
+        146.2860310421286,
+        387.7494456762749
+      ],
+      "totalReturnPct": [
+        -74.47339246119734,
+        149.05764966740577,
+        394.6784922394678
+      ],
+      "annualizedTotalReturnPct": [
+        -36.56469478685111,
+        35.550137293145,
+        70.38878632843225
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.685162,
+        5.688514,
+        10.328156
+      ],
+      "PE": [
+        9,
+        18,
+        22
+      ],
+      "priceHKD": [
+        6.78,
+        112.63,
+        249.94
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        3,
+        7
+      ],
+      "conditions": [
+        "平台渠道优势消失、价格透明及持续稀释",
+        "健康管理与供应链形成长期复购，正常核心率11.5%",
+        "全渠道与AI服务盈利形成，增长覆盖成熟估值下降"
+      ],
+      "priceReturnPct": [
+        -81.20842572062084,
+        212.16740576496673,
+        592.7383592017738
+      ],
+      "totalReturnPct": [
+        -81.20842572062084,
+        220.48226164079824,
+        612.1396895787141
+      ],
+      "annualizedTotalReturnPct": [
+        -28.419845243744735,
+        26.229481803259482,
+        48.085671217894024
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.6,
+        2.5,
+        4.1,
+        3.8,
+        3.7,
+        3.8
+      ],
+      "total": 67.9,
+      "evidence": [
+        "正常利润上行与估值可修复，但现金理财收益不能双加",
+        "短弹重回20日而60/120/250仍下降、未放量",
+        "毛利核心经营增长强，净利受财资和税影响",
+        "院外药需求相对稳，健康品监管与消费影响",
+        "双十一与全年业绩、补贴高基数可验证",
+        "现金资源较多，关联费用/信托股及线下租赁限制"
+      ],
+      "confidence": "中：报表/行情高，正常营业率、服务增长、财资税率和长期稀释中低"
+    },
+    "oneYear": {
+      "dimensions": [
+        4,
+        2.7,
+        4.3,
+        4,
+        4,
+        3.8
+      ],
+      "total": 77.2,
+      "evidence": [
+        "收入增长加正常利润率扩张，PE21需证实",
+        "仍弱趋势，等待周线与量价确认",
+        "供应链规模和服务复购，保留常态SBC",
+        "慢病线上渗透和全渠道，竞争与医保限制",
+        "药品、服务、器械基数及全年现金能够核实",
+        "财资降息税率变化和母公司流量成本"
+      ],
+      "confidence": "中：报表/行情高，正常营业率、服务增长、财资税率和长期稀释中低"
+    },
+    "threeYear": {
+      "dimensions": [
+        4.2,
+        2.8,
+        4.3,
+        4.2,
+        4,
+        3.6
+      ],
+      "total": 81.9,
+      "evidence": [
+        "正常盈利成长而PE20，不依赖现金重复估值",
+        "短线得分低权重，长期不 extrapolate",
+        "院外供应链可信度和复购，服务份额改善",
+        "慢病健康管理空间，价格透明制约利润",
+        "平台效率和专病服务形成而非AI名词估值",
+        "理财、关联定价及平台替代与股数风险"
+      ],
+      "confidence": "中：报表/行情高，正常营业率、服务增长、财资税率和长期稀释中低"
+    },
+    "fiveYear": {
+      "dimensions": [
+        4,
+        2.8,
+        4.2,
+        4.2,
+        3.8,
+        3.5
+      ],
+      "total": 80.7,
+      "evidence": [
+        "成长覆盖PE18成熟下降，股息非承诺",
+        "技术维度权重0",
+        "供应链与服务质量需多年维持，医患信任",
+        "人口需求支持而消费和支付压力仍在",
+        "AI和全渠道需证明独立现金贡献",
+        "十年渠道替代、医疗责任、代理治理与持续稀释"
+      ],
+      "confidence": "中：报表/行情高，正常营业率、服务增长、财资税率和长期稀释中低"
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+    "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 73441.487,
+    "revenue2024": 58159.881,
+    "revenue2023": 53529.941,
+    "products": 60884.805,
+    "services": 12556.682,
+    "grossProfit": 18199.162,
+    "fulfillment": 7619.103,
+    "sellingMarketing": 3842.618,
+    "RD": 1634,
+    "generalAdmin": 1162.659,
+    "coreEBITCalculated": 3940.782,
+    "otherIncomeNet": 769.613,
+    "financeIncome": 1537.534,
+    "financeCosts": 11.098,
+    "financialImpairment": 142.786,
+    "associatesJVLoss": 64.05,
+    "tax": 662.886,
+    "groupProfit": 5367.109,
+    "ownerProfit": 5375.405,
+    "ownerProfit2024": 4161.844,
+    "ownerProfit2023": 2141.841,
+    "adjustedGroupProfit": 6533.004,
+    "SBC": 590.724,
+    "investmentLossAdjustment": 842.702,
+    "adjustedTaxEffect": -267.531,
+    "EPSCNY": 1.7,
+    "dilutedEPSCNY": 1.68,
+    "basicSharesBn": 3.163483,
+    "dilutedSharesBn": 3.196251,
+    "OCF": 10173.949,
+    "OCF2024": 4332.367,
+    "interestReceivedOCF": 1682.135,
+    "taxPaid": 349.747,
+    "capexAndROU": 151.009,
+    "leasePrincipal": 68.053,
+    "interestPaidFinancing": 11.098,
+    "afterCashCapexLeaseInterestProxy": 9943.789,
+    "note": "现金利息收到在OCF，支付利息及租赁本金在融资活动另扣；现金代理非可无条件分配自由现金",
+    "supplierFinancingIncludedTradePayable": 2024.038,
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2024": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenue2023": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "products": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "services": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "fulfillment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "sellingMarketing": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "generalAdmin": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCalculated": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "otherIncomeNet": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeIncome": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeCosts": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financialImpairment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associatesJVLoss": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tax": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit2024": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit2023": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentLossAdjustment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedTaxEffect": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "basicSharesBn": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "dilutedSharesBn": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCF2024": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestReceivedOCF": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "taxPaid": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capexAndROU": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leasePrincipal": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestPaidFinancing": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCashCapexLeaseInterestProxy": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "supplierFinancingIncludedTradePayable": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+        "period": "FY2025",
+        "publicationDate": "年报文件2026-04-24；全年业绩批准/CEO信2026-03-05",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "interim": {
+    "period": "H1 2026 ended 2026-06-30",
+    "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+    "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+    "currency": "CNY",
+    "unit": "CNY million unless stated",
+    "revenue": 40887.884,
+    "revenuePrior": 35290.047,
+    "products": 33903.508,
+    "services": 6984.376,
+    "grossProfit": 10685.993,
+    "fulfillment": 4084.378,
+    "sellingMarketing": 1876.478,
+    "RD": 909.104,
+    "generalAdmin": 648.015,
+    "coreEBITCalculated": 3168.018,
+    "adjustedCoreEBITCalculated": 3477.128,
+    "otherIncomeNet": 478.564,
+    "financeIncome": 636.009,
+    "financeIncomePrior": 808.563,
+    "financeCosts": 8.744,
+    "financialImpairmentReversal": 10.738,
+    "associatesJVLoss": 33.809,
+    "pretaxProfit": 4250.776,
+    "tax": 815.368,
+    "currentTax": 552.305,
+    "deferredTax": 263.063,
+    "groupProfit": 3435.408,
+    "ownerProfit": 3436.804,
+    "adjustedGroupProfit": 3872.631,
+    "SBC": 309.11,
+    "investmentAdjustment": -9.695,
+    "adjustedTaxEffect": 137.808,
+    "EPSCNY": 1.08,
+    "dilutedEPSCNY": 1.07,
+    "basicSharesBn": 3.17763,
+    "dilutedSharesBn": 3.204362,
+    "OCF": 4461.03,
+    "OCFPrior": 6244.721,
+    "interestReceivedOCF": 775.484,
+    "taxPaid": 519.05,
+    "capexAndROU": 90.513,
+    "leasePrincipal": 56.211,
+    "interestPaidFinancing": 8.744,
+    "afterCashCapexLeaseInterestProxy": 4305.562,
+    "repurchasePaymentAndPrepayment": 845.777,
+    "cashEquivalent": 20445.564,
+    "timeDeposits": 13726.137,
+    "FVTPLCurrent": 13244.059,
+    "FVTPLNonCurrent": 20934.755,
+    "FVTPLWealthNoncurrent": 20840.634,
+    "FVTPLPrivateEquity": 94.121,
+    "amortizedWealthCurrent": 1857.452,
+    "amortizedWealthNoncurrent": 1376.133,
+    "restrictedCash": 6.842,
+    "inventory": 7383.539,
+    "inventoryYearEnd": 6858.213,
+    "tradeReceivable": 547.361,
+    "tradePayable": 14449.851,
+    "tradePayableYearEnd": 13209.545,
+    "contractLiability": 584.167,
+    "merchantDeposit": 1216.335,
+    "leaseLiability": 874.85,
+    "ownerEquity": 61456.106,
+    "JDMarketingServiceRevenue": 2214.7,
+    "JDLogisticsServiceExpense": 2702.592,
+    "JDTechnologyTrafficExpense": 1506.808,
+    "JDMarketingExpense": 714.42,
+    "JDTechnologyServiceExpense": 317.557,
+    "fullyImpairedRelatedReceivableGross": 301.553,
+    "note": "一报告分部，只披露商品/服务收入，无完整独立分部利润。商品总额法与市场佣金净额不能直接比较收入规模。信托treasury会计值并非法律库存股。理财非全部保证本金即时现金",
+    "supplierFinancingIncludedTradePayable": 2196.495,
+    "fieldMetadata": {
+      "revenue": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "revenuePrior": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "products": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "services": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "grossProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "fulfillment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "sellingMarketing": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "RD": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "generalAdmin": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "coreEBITCalculated": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "adjustedCoreEBITCalculated": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "otherIncomeNet": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeIncome": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeIncomePrior": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financeCosts": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "financialImpairmentReversal": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "associatesJVLoss": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "pretaxProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tax": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "currentTax": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "deferredTax": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "groupProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedGroupProfit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "SBC": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "investmentAdjustment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "adjustedTaxEffect": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "dilutedEPSCNY": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY per ordinary share",
+        "status": "reported input"
+      },
+      "basicSharesBn": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "dilutedSharesBn": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "ordinary shares billion",
+        "status": "reported input"
+      },
+      "OCF": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "OCFPrior": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestReceivedOCF": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "taxPaid": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "capexAndROU": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leasePrincipal": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "interestPaidFinancing": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "afterCashCapexLeaseInterestProxy": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input calculation"
+      },
+      "repurchasePaymentAndPrepayment": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "cashEquivalent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "timeDeposits": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLCurrent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLNonCurrent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLWealthNoncurrent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "FVTPLPrivateEquity": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "amortizedWealthCurrent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "amortizedWealthNoncurrent": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "restrictedCash": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "inventory": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "inventoryYearEnd": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tradeReceivable": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tradePayable": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "tradePayableYearEnd": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "contractLiability": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "merchantDeposit": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "leaseLiability": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "ownerEquity": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "JDMarketingServiceRevenue": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "JDLogisticsServiceExpense": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "JDTechnologyTrafficExpense": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "JDMarketingExpense": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "JDTechnologyServiceExpense": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "fullyImpairedRelatedReceivableGross": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      },
+      "supplierFinancingIncludedTradePayable": {
+        "sourceURL": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+        "period": "H1 2026 ended 2026-06-30",
+        "publicationDate": "业绩2026-08-13；中报文件2026-09-04",
+        "currency": "CNY",
+        "unit": "CNY million",
+        "status": "reported input"
+      }
+    }
+  },
+  "capital": {
+    "period": "September 2026 month",
+    "publicationDate": "2026-10-07提交",
+    "sourceURL": "https://manager.wisdomir.com/files/586/2026/1007/20261007164501_39216733_en.pdf",
+    "issuedExcludingLegalTreasury": 3190481011,
+    "legalTreasury": 0,
+    "H1IssuedShares": 3211075000,
+    "H1RepurchasedShares": 21544100,
+    "H1RepurchaseHKDmillion": 840.3,
+    "repurchaseCancellation": "July2026",
+    "preIPOOptionsOutstanding": 9424010,
+    "preIPOFundedExistingTrustShares": true,
+    "postIPOOptionsGrantedOutstanding": 0,
+    "postIPOOptionSchemeFutureLimit": 312708211,
+    "postIPOShareAwardMayIssue": 13564567,
+    "note": "九月issued排除法律库存0；H1股份已回购但7月才注销。preIPO旧股信托履约不需要新发，PostIPO312708211为所有未来可授上限不等于已授稀释；13.564567m为奖股安排月报may issue，不能全部与财报trust已发份额不核重叠地相加"
+  },
+  "targets": [
+    {
+      "institution": "野村",
+      "targetPrice": 60,
+      "rating": "买入",
+      "code": "06618.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-17 16:37",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/06618/AAFN/NOW.1538723/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "正文核目标归属，盈利预测年份或DCF不等于目标期限；瑞银同文阿里3.1排除，7/6超90天且业绩前；10/2里昂阿里3.7排除"
+    },
+    {
+      "institution": "高盛",
+      "targetPrice": 59,
+      "rating": "买入",
+      "code": "06618.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-17 10:40",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/06618/AAFN/NOW.1538599/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "正文核目标归属，盈利预测年份或DCF不等于目标期限；瑞银同文阿里3.1排除，7/6超90天且业绩前；10/2里昂阿里3.7排除"
+    },
+    {
+      "institution": "美银证券",
+      "targetPrice": 57,
+      "rating": "买入",
+      "code": "06618.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-14 17:41",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/06618/AAFN/NOW.1538417/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "正文核目标归属，盈利预测年份或DCF不等于目标期限；瑞银同文阿里3.1排除，7/6超90天且业绩前；10/2里昂阿里3.7排除"
+    },
+    {
+      "institution": "里昂",
+      "targetPrice": 61,
+      "rating": "跑赢大市",
+      "code": "06618.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-08-14 10:19",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/06618/AAFN/NOW.1538279/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "outside90Days": false,
+      "note": "正文核目标归属，盈利预测年份或DCF不等于目标期限；瑞银同文阿里3.1排除，7/6超90天且业绩前；10/2里昂阿里3.7排除"
+    },
+    {
+      "institution": "瑞银",
+      "targetPrice": 61.9,
+      "rating": "买入",
+      "code": "06618.HK",
+      "currency": "HKD",
+      "foreignInvestmentBank": true,
+      "reportDate": "2026-07-06 12:26",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/06618/AAFN/NOW.1531897/research-report",
+      "sourceType": "公开新闻转述，原始研报未取得",
+      "outside90Days": true,
+      "note": "正文核目标归属，盈利预测年份或DCF不等于目标期限；瑞银同文阿里3.1排除，7/6超90天且业绩前；10/2里昂阿里3.7排除"
+    }
+  ],
+  "sources": [
+    {
+      "id": "JDHEALTH-annual",
+      "url": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-04-24",
+      "note": "保存官网PDF目录文件日期；H1末页确认8/13公告，新闻8/14股价反应并非公告发布日期"
+    },
+    {
+      "id": "JDHEALTH-interim",
+      "url": "https://manager.wisdomir.com/files/586/2026/0904/20260904164501_77326722_en.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-09-04",
+      "note": "保存官网PDF目录文件日期；H1末页确认8/13公告，新闻8/14股价反应并非公告发布日期"
+    },
+    {
+      "id": "JDHEALTH-h1results",
+      "url": "https://manager.wisdomir.com/files/586/2026/0813/20260813164501_80478687_en.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-08-13",
+      "note": "保存官网PDF目录文件日期；H1末页确认8/13公告，新闻8/14股价反应并非公告发布日期"
+    },
+    {
+      "id": "JDHEALTH-shares",
+      "url": "https://manager.wisdomir.com/files/586/2026/1007/20261007164501_39216733_en.pdf",
+      "type": "公司原始文件",
+      "publicationDate": "2026-10-07",
+      "note": "保存官网PDF目录文件日期；H1末页确认8/13公告，新闻8/14股价反应并非公告发布日期"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 35.395,
+      "60": 37.134333,
+      "120": 38.627833,
+      "250": 49.09264
+    },
+    "maSlope5Pct": {
+      "20": -0.500379,
+      "60": -0.488611,
+      "120": -1.377843,
+      "250": -1.249234
+    },
+    "priceVsMAPct": {
+      "20": 1.935307,
+      "60": -2.839236,
+      "120": -6.595843,
+      "250": -26.506291
+    },
+    "returnPct": {
+      "20": 4.157053,
+      "60": -7.959181,
+      "120": -25.546837,
+      "250": -45.907041
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 71.699997,
+    "low52w": 31.84,
+    "distanceFrom52wHighPct": -49.679214,
+    "distanceFrom52wLowPct": 13.316589,
+    "maxDrawdown52wPct": -54.084711,
+    "RSI14": 52.055739,
+    "ATR14": 1.252388,
+    "ATR14Pct": 3.471142,
+    "MACD": {
+      "DIF": -0.308366,
+      "DEA": -0.424011,
+      "histogram": 0.231291,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 3245047,
+      "20": 6564164.9,
+      "60": 8067565.817
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.731674,
+    "previous20MeanVolume": 6794581.25,
+    "upDownVolume20": {
+      "upVolume": 78031345,
+      "downVolume": 47820403,
+      "flatVolume": 5431550,
+      "upDays": 12,
+      "downDays": 7,
+      "ratio": 1.631758
+    },
+    "ranges": {
+      "20": {
+        "support": 33.380001,
+        "resistance": 37.580002,
+        "toSupportPct": -7.483373,
+        "toResistancePct": 4.157428,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 33.380001,
+        "resistance": 42.299999,
+        "toSupportPct": -7.483373,
+        "toResistancePct": 17.239459,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 36.791,
+      "60": 50.706667,
+      "120": 41.64,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -5.866851,
+      "60": -2.619205,
+      "120": 1.021374,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -1.932533,
+      "60": -28.845644,
+      "120": -13.35254,
+      "250": null
+    },
+    "returnPct": {
+      "20": -11.089206,
+      "60": -41.093874,
+      "120": 54.188043,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 71.699997,
+    "low52w": 31.84,
+    "distanceFrom52wHighPct": -49.679214,
+    "distanceFrom52wLowPct": 13.316589,
+    "maxDrawdown52wPct": -53.483636,
+    "RSI14": 39.875232,
+    "ATR14": 3.552451,
+    "ATR14Pct": 9.84604,
+    "MACD": {
+      "DIF": -3.076734,
+      "DEA": -3.503439,
+      "histogram": 0.85341,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 34219528.2,
+      "20": 46394484.65,
+      "60": 41397402.8
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.331851,
+    "previous20MeanVolume": 48893148.4,
+    "upDownVolume20": {
+      "upVolume": 315571548,
+      "downVolume": 612318145,
+      "flatVolume": 0,
+      "upDays": 7,
+      "downDays": 13,
+      "ratio": 0.515372
+    },
+    "ranges": {
+      "20": {
+        "support": 31.84,
+        "resistance": 42.299999,
+        "toSupportPct": -11.751668,
+        "toResistancePct": 17.239459,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 31.84,
+        "resistance": 71.699997,
+        "toSupportPct": -11.751668,
+        "toResistancePct": 98.725036,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 7.134961,
+    "excess60Pct": -4.771278,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": 7.220217,
+    "industryExcess60Pct": 5.208838
+  },
+  "confidence": "中：报表/行情高，正常营业率、服务增长、财资税率和长期稀释中低",
+  "notes": [
+    "年报无末期息、H1未建议息，未来分红全为研究假设",
+    "外资转载10/2里昂3.7实际00241.HK阿里健康，排除京东目标",
+    "研究汇率1.10，静态审计EPS1.68换HKD后PE约19.52，供应商19.34非直接模型输入",
+    "价格目标为目标时点未来12月正常盈利估值，不等同当年已披露利润",
+    "未来现金压力主要履约、供应商账期、线下租赁及AI研发，非当前银行借款"
+  ]
+}

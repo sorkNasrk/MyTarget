@@ -1,0 +1,4077 @@
+<!DOCTYPE html>
+            <html lang="en"  xmlns="https://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css">
+        /* 浏览器 */
+
+        .brdv {
+            width: 560px;
+            height: 120px;
+            padding-top: 105px;
+            background: url(/web/images/ie/img_browser.jpg) no-repeat -0px 0px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .browser_mask_backgroud {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            filter: alpha(opacity=50);
+            background-color: #000;
+            opacity: 0.5;
+            z-index: 10000;
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1000000;
+            overflow: auto;
+            display: none;
+        }
+
+        .browser_mask .mask_body {
+            z-index: 100000;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 660px;
+            height: 445px;
+            background: #fff;
+            margin-left: -328px;
+            margin-top: -223px;
+            border-radius: 3px;
+        }
+
+        .browser_mask .mask_body ul li {
+            list-style-type: none;
+            float: left;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .mt50 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .bxtt {
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
+            padding-left: 35px;
+            background: url(/web/images/ie/icon24.png) no-repeat 5px -503px;
+        }
+
+        .browser_mask .mask_body .fl {
+            width: 96px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .chrome {
+            margin-left: -5px;
+        }
+
+        .browser_mask .mask_body .fireBrowser {
+            margin-left: 64px;
+        }
+
+        .browser_mask .mask_body .SafariBrowser {
+            margin-left: 52px;
+        }
+
+        .browser_mask .mask_body .IEBrowser {
+            margin-left: 49px;
+        }
+
+        .browser_mask .mask_body .close_btn {
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #e16c04;
+            color: #fff;
+            width: 140px;
+            line-height: 40px;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .browser_mask .mask_body .close_btn .close_window {
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .close_btn .btn:hover {
+            background-color: #ef9902;
+        }
+
+        .browser_mask .mask_body .dwbt {
+            display: inline-block;
+            text-decoration: none;
+            width: 70px;
+            height: 18px;
+            line-height: 18px;
+            padding: 7px 0px 7px 30px;
+            background: #a09f9d url(/web/images/ie/icon24.png) no-repeat 5px -740px;
+            color: #fff;
+        }
+
+        .browser_mask .mask_body .mt15 {
+            margin-top: 15px;
+        }
+
+        .browser_mask .mask_body .act {
+            background-color: #1fa9df;
+        }
+
+        .browser_mask .mask_body .dwbt:hover {
+            background-color: #1fa9df;
+            text-decoration: none;
+            transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            -ms-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+        .browser_mask .mask_body .f14 {
+            font-size: 14px;
+        }
+
+        .browser_mask .mask_body .pr12 {
+            padding-right: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="browser_mask" id="browser_mask">
+        <div class="mask_body">
+            <p class="mt50"><strong class="bxtt">您当前浏览器版本较低，推荐下载以下浏览器以正常使用本网站服务。</strong></p>
+            <ul class="brdv">
+                <li class="chrome">
+                    <p class="f14">谷歌浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl act" target="_blank" href="https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><em
+                              class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="fireBrowser">
+                    <p class="f14">火狐浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.firefox.com.cn/download/"><em class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="SafariBrowser">
+                    <p class="f14">Safari浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://www.apple.com/cn/safari/"><em class="pr12 f14">官网下载</em></a></p>
+                </li>
+                <li class="IEBrowser">
+                    <p class="f14">IE11浏览器</p>
+                    <p class="mt15"><a class="dwbt inl tsc wc tl" target="_blank" href="https://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/"><em
+                              class="pr12 f14">官网下载</em></a></p>
+                </li>
+            </ul>
+            <p class="close_btn">
+                <a class="btn close_window" onclick="closeClick()">关闭窗口 </a>
+            </p>
+        </div>
+    </div>
+    <div class="browser_mask_backgroud" id="browser_mask_backgroud"></div>
+</body>
+<script type="text/javascript">
+    //  判断IE9及以下浏览器
+    ;(function() {
+        if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE", "")) < 9) {
+            document.getElementById("browser_mask").style.display = "block";
+            document.getElementById("browser_mask_backgroud").style.display = "block";
+        }
+}());
+
+
+    function closeClick() {
+        document.getElementById("browser_mask").style.display = "none";
+        document.getElementById("browser_mask_backgroud").style.display = "none";
+    };
+</script>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Keywords" content="汇添富纳斯达克生物科技ETF基金净值,净值走势图,分红记录,拆分记录" />
+<meta name="Description" content="汇添富纳斯达克生物科技ETF基金档案，可查询基金净值，基金收益，基金概况，基金经理，基金费率，基金公告，季报投资策略，资产投资组合，十大股票持仓，五大债券持仓等相关信息。" />
+<title>汇添富纳斯达克生物科技ETF(513290)基金净值-基金产品-汇添富基金管理股份有限公司
+</title>
+<script type="text/javascript" src="/web/script/jquery-3.6.0.min.js"></script>
+<!--[if IE 8]>
+<script type="text/javascript" src="/web/script/jquery-compat-3.0.0-alpha1.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/web/script/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/web/script/newsindex.js"></script>
+<script type="text/javascript" src="/web/script/util/articleUtil.js"></script>
+<script type="text/javascript" src="/web/script/util/syncReqJs.js"></script>
+</head>
+
+<body>
+
+
+<link rel="stylesheet" type="text/css" href="/web/css/pofund.css" />
+<script type="text/javascript" language="javascript" src="/web/script/util/swfobject.js"></script>
+<script type="text/javascript" src="/web/script/new_My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/web/script/interaction.js"></script>
+<script language="javascript" type="text/javascript" src="/web/script/ajaxPage2.js"></script>
+<script type="text/javascript" language="javascript" src="/web/script/util/fndcomm.js"></script>
+<script type="text/javascript">
+    var status = "N";
+    var fundId = "513290";
+    $(document).ready(function() {
+        $(".sharetable tr:even").css("backgroundColor","#FFF4D2");
+        $(".tipsBox").focus(function() {
+            $(".tips").fadeIn(300);
+        })
+        $(".tipsImg").click(function() {
+            $(".tips").hide();
+        })
+        $('#selecttime').val('12');
+    })
+</script>
+<style>
+    .nds {
+        display: none;
+    }
+    .inventory-tab {
+        display: flex;
+        margin-top: 10px;
+        color: #333;
+    }
+
+    .inventory-tab li {
+        padding: 4px 10px;
+        cursor: pointer;
+    }
+
+    .inventory-tab .active {
+        color: #ddaf59;
+    }
+</style>
+
+<script type="text/javascript" src="/web/script/stat_new.js?v1.0.1"></script>
+<link rel="stylesheet" type="text/css" href="/web/css/header_omp.css" />
+<!-- ---------------------------头部header----------------------------- -->
+<div class="top">
+    <div class="h-link">
+    </div>
+</div>
+<!-- h-link end -->
+<div id="headerW" class="omp">
+    <div class="clear"></div>
+            <div class="logoS">
+
+            <img src="/upload/20160104/201601041451875032384.jpg"  width="300" alt="" usemap="#logoimgmap" />
+            <map name="logoimgmap"  id="logoimgmap" >
+                <area href="/" shape="rect" coords="0,0,150,60" />
+                <area  target="_blank"  href="http://www.99fund.com/" shape="rect" coords="151,0,300,60" />
+            </map>
+        </div>
+
+    <script type="text/javascript">
+        function gotoURL(l) {
+            window.location = l;
+        }
+        jQuery.ajax({
+            type: "POST",
+            url: "/cgi-bin/sso/User?function=AjaxLoginDiv",
+            data: "",
+            cache: false,
+            success: function(msg){
+                if(msg!=''){
+                    jQuery(".h-link").append(msg);
+                    $(".managePrBox").hover(function(){
+                            $(".managePrBox ul").css("display","block")}
+                        ,function(){
+                            $(".managePrBox ul").css("display","none");}
+                    );
+                }
+            }
+        });
+       function clickEvents (k) {}
+    </script>
+<!--nav-->
+<div class="navS">
+<ul>
+      <li>
+  	  <a href="/main/index.shtml" ><span>首页</span></a>
+      </li>
+      <li>
+	<div id="Layer1" style="background-color: rgb(255, 255, 255); position: absolute; visibility: hidden; left: 176px; top: 37px; font-size: 12px; color: rgb(119, 119, 119);"></div>
+      		<a id="navSa" href="/main/xcash/index.shtml"  style="text-decoration:none;"><span>现金宝
+			<em onmouseover="document.all.Layer1.style.visibility='visible'" onmouseout="document.all.Layer1.style.visibility='hidden'"><!--
+[+0.848%] 
+--></em></span></a>
+      </li>
+      <li>
+      		<a href="/main/products/jijinhb/index.shtml" class="cur"><span>基金产品</span></a>
+      </li>
+      <li>
+      		<a href="/main/xfinainvts/index.shtml" ><span>资管产品</span></a>
+      </li>
+       <li>
+            <a href="https://trade.99fund.com/ias/landing" ><span>投顾服务</span></a>
+       </li>
+      <li>
+      		<a href="/main/xinvest/index.shtml" ><span>养老基金</span></a>
+      </li>
+      <li>
+      		<a href="https://qy.99fund.com/index.htm" ><span>企业理财</span></a>
+      </li>
+</ul>
+<!--nav end-->
+</div>
+<div class="clear"></div>
+<div class="nav-bg-color"></div>
+</div>
+<!--END header-->
+
+
+<script language="javascript">
+    function changedate() {
+        var date = $('#enddate').val();
+        var jsonVal = {};
+        url = "/cgi-bin/fundproduct/EtfStockAction?function=GetETFInfo&fundid=" + fundId + "&date=" + date;
+        $("#etfdata").loadData(url, jsonVal);
+
+    }
+    function changeSubdate() {
+        var date = $('#subEndDate').val();
+        var jsonVal = {};
+        url = "/cgi-bin/fundproduct/EtfStockAction?function=GetEtfSub&fundid=" + fundId + "&date=" + date;
+        $("#subData").loadData(url, jsonVal);
+    }
+
+    // 使用 jQuery 的 ajaxComplete 监听所有 AJAX 请求完成
+    $(document).ajaxComplete(function(event, xhr, settings) {
+        if (settings.url.includes('/cgi-bin/fundproduct/EtfStockAction?function=GetETFInfo')) {
+            console.log('GetETFInfo AJAX request completed');
+            // 在这里执行 AJAX 完成后的操作
+            if (fundId === '551520') {
+                formatPercentageCells();
+            }
+        }
+    });
+
+
+    function formatPercentageCells() {
+        $('td[align="center"]').each(function() {
+            let $cell = $(this);
+            let text = $cell.text().trim();
+
+            // 匹配所有数字百分比格式（如 02.00%, 2.5%, 15%等）
+            let match = text.match(/^(\d+).?(\d*)%$/);
+            if (match) {
+                let whole = match[1].replace(/^0+/, ''); // 移除前导零
+                let decimal = match[2] || '00';
+                // 保证2位小数
+                decimal = decimal.length > 2 ? decimal.substr(0,2) : decimal.padEnd(2, '0');
+                $cell.text(whole + (decimal ? '.' + decimal : '') + '%');
+            }
+        });
+    }
+</script>
+
+
+<script language="javascript">
+    function changekqdate() {
+        var date = $('#enddate').val();
+        var jsonVal = {};
+        url = "/cgi-bin/fundproduct/EtfStockAction?function=GetKuaiQianETFInfo&fundid=" + fundId + "&date=" + date;
+        $("#kqetfdata").loadData(url, jsonVal);
+    };
+
+</script>
+<script language="javascript">
+    // 申赎清单切换
+    $(document).ready(function () {
+        $('#inventory-tab li').click(function () {
+            var current = $(this).index();
+            $('#inventory-tab li').removeClass('active').eq(current).addClass('active');
+            $('.inventory-content').addClass('nds').eq(current).removeClass('nds');
+            if(current==1){
+                $("#stockInfoQuery").hide();
+            }else {
+                $("#stockInfoQuery").show();
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript" src="/web/script/select.js"></script>
+<!-------content---------->
+<div id="wrapperCont" style="margin-top:20px;">
+    <input type="hidden" id="fundid" value="513290" />
+    <!--左侧导航-->
+    <script language="javascript">
+   $(document).ready(
+	   	function()
+	   	{
+	   		var obj=$('#fundid').val();
+	   		$('#'+obj).attr('id','on');
+	   	}
+	   );
+	 //新基金窗口  
+	function windowopen(url)
+	{
+	    var isexists=url.split("/");
+		if(isexists.length<=1)
+		{
+		  url="https://"+url;
+		}
+		window.open(url);
+	}
+  </script>
+  <!--左侧导航-->
+  <div class="left leftNav">
+    <div id="leftTop">
+      <h2>公募基金</h2>
+    </div>
+ <div id="leftBg">
+      <dl>
+	   
+		  <dt>
+        	<div class="sn_name">
+            	<a href="###">混合型基金</a>
+            	<div class="sn_tip">
+                	<p><strong>混合型基金：</strong>指投资于股票、债券和货币市场工具等有价证券，股票资产占基金资产比例的下限低于60%的基金。预期风险收益水平低于股票基金，高于债券基金。</p>
+                </div>
+            </div>
+        </dt>
+		
+		 
+				<dd id="027793">
+             <div >
+                <a href="/main/products/pofund/027793/fundgk.shtml">汇添富资源精选混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="027792">
+             <div >
+                <a href="/main/products/pofund/027792/fundgk.shtml">汇添富资源精选混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022321">
+             <div >
+                <a href="/main/products/pofund/022321/fundgk.shtml">汇添富弘瑞回报混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022320">
+             <div >
+                <a href="/main/products/pofund/022320/fundgk.shtml">汇添富弘瑞回报混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="004424">
+             <div >
+                <a href="/main/products/pofund/004424/fundgk.shtml">汇添富文体娱乐混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015183">
+             <div >
+                <a href="/main/products/pofund/015183/fundgk.shtml">汇添富文体娱乐混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015184">
+             <div >
+                <a href="/main/products/pofund/015184/fundgk.shtml">汇添富文体娱乐混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013123">
+             <div >
+                <a href="/main/products/pofund/013123/fundgk.shtml">汇添富精选核心优势一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013124">
+             <div >
+                <a href="/main/products/pofund/013124/fundgk.shtml">汇添富精选核心优势一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014279">
+             <div >
+                <a href="/main/products/pofund/014279/fundgk.shtml">汇添富北交所创新精选两年定开混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014280">
+             <div >
+                <a href="/main/products/pofund/014280/fundgk.shtml">汇添富北交所创新精选两年定开混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="001417">
+             <div >
+                <a href="/main/products/pofund/001417/fundgk.shtml">汇添富医疗服务灵活配置混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="002165">
+             <div >
+                <a href="/main/products/pofund/002165/fundgk.shtml">汇添富达欣混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015121">
+             <div >
+                <a href="/main/products/pofund/015121/fundgk.shtml">汇添富医疗服务灵活配置混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015122">
+             <div >
+                <a href="/main/products/pofund/015122/fundgk.shtml">汇添富医疗服务灵活配置混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="001801">
+             <div >
+                <a href="/main/products/pofund/001801/fundgk.shtml">汇添富达欣混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="010298">
+             <div >
+                <a href="/main/products/pofund/010298/fundgk.shtml">汇添富品牌驱动六个月持有混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="017043">
+             <div >
+                <a href="/main/products/pofund/017043/fundgk.shtml">汇添富品质价值混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013367">
+             <div >
+                <a href="/main/products/pofund/013367/fundgk.shtml">汇添富多元价值发现混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013368">
+             <div >
+                <a href="/main/products/pofund/013368/fundgk.shtml">汇添富多元价值发现混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022416">
+             <div >
+                <a href="/main/products/pofund/022416/fundgk.shtml">汇添富弘盛回报混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022417">
+             <div >
+                <a href="/main/products/pofund/022417/fundgk.shtml">汇添富弘盛回报混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="026873">
+             <div >
+                <a href="/main/products/pofund/026873/fundgk.shtml">汇添富消费新机遇混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="026872">
+             <div >
+                <a href="/main/products/pofund/026872/fundgk.shtml">汇添富消费新机遇混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015116">
+             <div >
+                <a href="/main/products/pofund/015116/fundgk.shtml">汇添富大盘核心资产混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015117">
+             <div >
+                <a href="/main/products/pofund/015117/fundgk.shtml">汇添富大盘核心资产混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="008063">
+             <div >
+                <a href="/main/products/pofund/008063/fundgk.shtml">汇添富大盘核心资产混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015182">
+             <div >
+                <a href="/main/products/pofund/015182/fundgk.shtml">汇添富逆向投资混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="470098">
+             <div >
+                <a href="/main/products/pofund/470098/fundgk.shtml">汇添富逆向投资混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015181">
+             <div >
+                <a href="/main/products/pofund/015181/fundgk.shtml">汇添富逆向投资混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013148">
+             <div >
+                <a href="/main/products/pofund/013148/fundgk.shtml">汇添富碳中和主题混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013147">
+             <div >
+                <a href="/main/products/pofund/013147/fundgk.shtml">汇添富碳中和主题混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="017876">
+             <div >
+                <a href="/main/products/pofund/017876/fundgk.shtml">汇添富新能源精选混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="017877">
+             <div >
+                <a href="/main/products/pofund/017877/fundgk.shtml">汇添富新能源精选混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="000083">
+             <div >
+                <a href="/main/products/pofund/000083/fundgk.shtml">汇添富消费行业混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015119">
+             <div >
+                <a href="/main/products/pofund/015119/fundgk.shtml">汇添富沪港深大盘价值混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015118">
+             <div >
+                <a href="/main/products/pofund/015118/fundgk.shtml">汇添富沪港深大盘价值混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="024786">
+             <div >
+                <a href="/main/products/pofund/024786/fundgk.shtml">汇添富港股通红利回报混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="024787">
+             <div >
+                <a href="/main/products/pofund/024787/fundgk.shtml">汇添富港股通红利回报混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="005504">
+             <div >
+                <a href="/main/products/pofund/005504/fundgk.shtml">汇添富沪港深大盘价值混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013551">
+             <div >
+                <a href="/main/products/pofund/013551/fundgk.shtml">汇添富品牌价值一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="013550">
+             <div >
+                <a href="/main/products/pofund/013550/fundgk.shtml">汇添富品牌价值一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="012993">
+             <div >
+                <a href="/main/products/pofund/012993/fundgk.shtml">汇添富品牌力一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="004774">
+             <div >
+                <a href="/main/products/pofund/004774/fundgk.shtml">汇添富添福吉祥混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="023354">
+             <div >
+                <a href="/main/products/pofund/023354/fundgk.shtml">汇添富添福吉祥混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="012994">
+             <div >
+                <a href="/main/products/pofund/012994/fundgk.shtml">汇添富品牌力一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="501063">
+             <div >
+                <a href="/main/products/pofund/501063/fundgk.shtml">汇添富悦享两年持有混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="025710">
+             <div >
+                <a href="/main/products/pofund/025710/fundgk.shtml">汇添富价值驱动混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="025709">
+             <div >
+                <a href="/main/products/pofund/025709/fundgk.shtml">汇添富价值驱动混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+   
+				<dd id="014833">
+             <div >
+                <a href="/main/products/pofund/014833/fundgk.shtml">汇添富盈鑫混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+  
+				<dd id="014834">
+             <div >
+                <a href="/main/products/pofund/014834/fundgk.shtml">汇添富盈鑫混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="002420">
+             <div >
+                <a href="/main/products/pofund/002420/fundgk.shtml">汇添富盈鑫混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="519069">
+             <div >
+                <a href="/main/products/pofund/519069/fundgk.shtml">汇添富价值精选混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="470008">
+             <div >
+                <a href="/main/products/pofund/470008/fundgk.shtml">汇添富策略回报混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="501065">
+             <div >
+                <a href="/main/products/pofund/501065/fundgk.shtml">汇添富经典成长定开混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+  
+				<dd id="027386">
+             <div >
+                <a href="/main/products/pofund/027386/fundgk.shtml">汇添富价值智选混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="027385">
+             <div >
+                <a href="/main/products/pofund/027385/fundgk.shtml">汇添富价值智选混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014508">
+             <div >
+                <a href="/main/products/pofund/014508/fundgk.shtml">汇添富先进制造混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014509">
+             <div >
+                <a href="/main/products/pofund/014509/fundgk.shtml">汇添富先进制造混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="006259">
+             <div >
+                <a href="/main/products/pofund/006259/fundgk.shtml">汇添富红利增长混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="006260">
+             <div >
+                <a href="/main/products/pofund/006260/fundgk.shtml">汇添富红利增长混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="018441">
+             <div >
+                <a href="/main/products/pofund/018441/fundgk.shtml">汇添富量化选股混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="018440">
+             <div >
+                <a href="/main/products/pofund/018440/fundgk.shtml">汇添富量化选股混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014523">
+             <div >
+                <a href="/main/products/pofund/014523/fundgk.shtml">汇添富低碳投资一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="014522">
+             <div >
+                <a href="/main/products/pofund/014522/fundgk.shtml">汇添富低碳投资一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="019360">
+             <div >
+                <a href="/main/products/pofund/019360/fundgk.shtml">汇添富积极优选三年定开混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="005351">
+             <div >
+                <a href="/main/products/pofund/005351/fundgk.shtml">汇添富行业整合混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="011827">
+             <div >
+                <a href="/main/products/pofund/011827/fundgk.shtml">汇添富健康生活一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="011826">
+             <div >
+                <a href="/main/products/pofund/011826/fundgk.shtml">汇添富健康生活一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015191">
+             <div >
+                <a href="/main/products/pofund/015191/fundgk.shtml">汇添富行业整合混合D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="015190">
+             <div >
+                <a href="/main/products/pofund/015190/fundgk.shtml">汇添富行业整合混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="005329">
+             <div >
+                <a href="/main/products/pofund/005329/fundgk.shtml">汇添富民安增益定开混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="005330">
+             <div >
+                <a href="/main/products/pofund/005330/fundgk.shtml">汇添富民安增益定开混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="021199">
+             <div >
+                <a href="/main/products/pofund/021199/fundgk.shtml">汇添富优选价值混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="021198">
+             <div >
+                <a href="/main/products/pofund/021198/fundgk.shtml">汇添富优选价值混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+  
+				<dd id="019651">
+             <div >
+                <a href="/main/products/pofund/019651/fundgk.shtml">汇添富稳健睿选一年持有混合B</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="011118">
+             <div >
+                <a href="/main/products/pofund/011118/fundgk.shtml">汇添富稳健睿选一年持有混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="011119">
+             <div >
+                <a href="/main/products/pofund/011119/fundgk.shtml">汇添富稳健睿选一年持有混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="001796">
+             <div >
+                <a href="/main/products/pofund/001796/fundgk.shtml">汇添富安鑫智选混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="024344">
+             <div >
+                <a href="/main/products/pofund/024344/fundgk.shtml">汇添富创新医药混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+   
+				<dd id="002158">
+             <div >
+                <a href="/main/products/pofund/002158/fundgk.shtml">汇添富安鑫智选混合C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="006113">
+             <div >
+                <a href="/main/products/pofund/006113/fundgk.shtml">汇添富创新医药混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="021515">
+             <div >
+                <a href="/main/products/pofund/021515/fundgk.shtml">汇添富红利智选混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="010219">
+             <div >
+                <a href="/main/products/pofund/010219/fundgk.shtml">汇添富稳健添益一年持有混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="021516">
+             <div >
+                <a href="/main/products/pofund/021516/fundgk.shtml">汇添富红利智选混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="007639">
+             <div >
+                <a href="/main/products/pofund/007639/fundgk.shtml">汇添富竞争优势灵活配置混合A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022573">
+             <div >
+                <a href="/main/products/pofund/022573/fundgk.shtml">汇添富弘达回报混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="022572">
+             <div >
+                <a href="/main/products/pofund/022572/fundgk.shtml">汇添富弘达回报混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="017801">
+             <div >
+                <a href="/main/products/pofund/017801/fundgk.shtml">汇添富战略精选中小盘市值3年持有混合发起A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="017802">
+             <div >
+                <a href="/main/products/pofund/017802/fundgk.shtml">汇添富战略精选中小盘市值3年持有混合发起C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="027245">
+             <div >
+                <a href="/main/products/pofund/027245/fundgk.shtml">汇添富医疗创新混合发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="027246">
+             <div >
+                <a href="/main/products/pofund/027246/fundgk.shtml">汇添富医疗创新混合发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+				<dd id="010439">
+             <div >
+                <a href="/main/products/pofund/010439/fundgk.shtml">汇添富稳健汇盈一年持有混合</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+			   
+
+      	<dt>
+        	<div class="sn_name"><a href="###">股票型基金</a>
+                <div class="sn_tip">
+                    <p><strong>股票型基金：</strong>指以股票为主要投资对象，股票资产占基金资产比例超过60%的基金。预期收益较高，预期风险也较高。</p>
+                 </div>
+            </div>
+        </dt>
+        <dt class="sn_subth">
+        	<div class="sn_name">
+                <a href="###">风格类</a>
+                <div class="sn_tip">
+                    <p><strong>风格类股票型基金：</strong>指重点投资特定风格类资产的基金。</p>
+                </div>
+            </div>
+        </dt>
+		    
+			 
+			 
+        <dt class="sn_subth">
+        	<div class="sn_name">
+                <a href="###">主题类</a>
+                <div class="sn_tip">
+                    <p><strong>主题类股票型基金：</strong>指根据不同主题投资策略重点投资相应主题资产的基金。</p>
+                </div>
+            </div>
+        </dt>
+		     				<dd id="007524">
+             <div >
+                <a href="/main/products/pofund/007524/fundgk.shtml">汇添富内需增长股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="007523">
+             <div >
+                <a href="/main/products/pofund/007523/fundgk.shtml">汇添富内需增长股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="001725">
+             <div >
+                <a href="/main/products/pofund/001725/fundgk.shtml">汇添富高端制造股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015114">
+             <div >
+                <a href="/main/products/pofund/015114/fundgk.shtml">汇添富高端制造股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015115">
+             <div >
+                <a href="/main/products/pofund/015115/fundgk.shtml">汇添富高端制造股票D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="009550">
+             <div >
+                <a href="/main/products/pofund/009550/fundgk.shtml">汇添富开放视野中国优势六个月持有股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="009551">
+             <div >
+                <a href="/main/products/pofund/009551/fundgk.shtml">汇添富开放视野中国优势六个月持有股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="011424">
+             <div >
+                <a href="/main/products/pofund/011424/fundgk.shtml">汇添富外延增长主题股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="000925">
+             <div >
+                <a href="/main/products/pofund/000925/fundgk.shtml">汇添富外延增长主题股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="001685">
+             <div >
+                <a href="/main/products/pofund/001685/fundgk.shtml">汇添富沪港深新价值股票</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="005802">
+             <div >
+                <a href="/main/products/pofund/005802/fundgk.shtml">汇添富智能制造股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015197">
+             <div >
+                <a href="/main/products/pofund/015197/fundgk.shtml">汇添富智能制造股票D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015196">
+             <div >
+                <a href="/main/products/pofund/015196/fundgk.shtml">汇添富智能制造股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="001490">
+             <div >
+                <a href="/main/products/pofund/001490/fundgk.shtml">汇添富国企创新增长股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015124">
+             <div >
+                <a href="/main/products/pofund/015124/fundgk.shtml">汇添富国企创新增长股票D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015123">
+             <div >
+                <a href="/main/products/pofund/015123/fundgk.shtml">汇添富国企创新增长股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="001541">
+             <div >
+                <a href="/main/products/pofund/001541/fundgk.shtml">汇添富民营新动力股票</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+    
+        <dt class="sn_subth">
+        	<div class="sn_name">
+                <a href="###">行业类</a>
+                <div class="sn_tip">
+                    <p><strong>行业类股票型基金：</strong>指重点投资某一行业或板块的基金。</p>
+                </div>
+            </div>
+        </dt>
+		     				<dd id="001726">
+             <div >
+                <a href="/main/products/pofund/001726/fundgk.shtml">汇添富新兴消费股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015194">
+             <div >
+                <a href="/main/products/pofund/015194/fundgk.shtml">汇添富新兴消费股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015195">
+             <div >
+                <a href="/main/products/pofund/015195/fundgk.shtml">汇添富新兴消费股票D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="011419">
+             <div >
+                <a href="/main/products/pofund/011419/fundgk.shtml">汇添富消费精选两年持有股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="011418">
+             <div >
+                <a href="/main/products/pofund/011418/fundgk.shtml">汇添富消费精选两年持有股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="000696">
+             <div >
+                <a href="/main/products/pofund/000696/fundgk.shtml">汇添富环保行业股票</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015198">
+             <div >
+                <a href="/main/products/pofund/015198/fundgk.shtml">汇添富移动互联股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="000697">
+             <div >
+                <a href="/main/products/pofund/000697/fundgk.shtml">汇添富移动互联股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015199">
+             <div >
+                <a href="/main/products/pofund/015199/fundgk.shtml">汇添富移动互联股票D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+    
+             <dt class="sn_subth">
+                <div class="sn_name">
+                    <a href="###">普通类</a>
+                    <div class="sn_tip">
+                        <p><strong>普通类股票型基金：</strong>指在风格类资产、主题类资产、行业类资产等相对均衡配置的股票型基金。</p>
+                    </div>
+                </div>
+            </dt>
+		    				<dd id="011122">
+             <div >
+                <a href="/main/products/pofund/011122/fundgk.shtml">汇添富ESG可持续成长股票A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="011123">
+             <div >
+                <a href="/main/products/pofund/011123/fundgk.shtml">汇添富ESG可持续成长股票C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+    
+		
+		
+		 <dt>
+            <div class="sn_name"><a href="###">海外基金</a>
+                <div class="sn_tip">
+                    <p><strong>海外基金：</strong>指在中国大陆募集投资于境外市场有价证券的基金。有利于帮助投资者把握海外市场投资机会。预期风险收益水平高。</p>
+
+                 </div>
+            </div>
+        </dt>
+        					<dd id="513260">
+             <div >
+                <a href="/main/products/pofund/513260/fundgk.shtml">汇添富恒生科技ETF</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="013127">
+             <div >
+                <a href="/main/products/pofund/013127/fundgk.shtml">汇添富恒生科技ETF联接发起式（QDII）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="013128">
+             <div >
+                <a href="/main/products/pofund/013128/fundgk.shtml">汇添富恒生科技ETF联接发起式（QDII）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="164705">
+             <div >
+                <a href="/main/products/pofund/164705/fundgk.shtml">汇添富恒生指数（QDII-LOF）</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="010789">
+             <div >
+                <a href="/main/products/pofund/010789/fundgk.shtml">汇添富恒生指数（QDII-LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="159577">
+             <div >
+                <a href="/main/products/pofund/159577/fundgk.shtml">汇添富MSCI美国50ETF</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="159660">
+             <div >
+                <a href="/main/products/pofund/159660/fundgk.shtml">汇添富纳斯达克100ETF</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021773">
+             <div >
+                <a href="/main/products/pofund/021773/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币E</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018966">
+             <div >
+                <a href="/main/products/pofund/018966/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018967">
+             <div >
+                <a href="/main/products/pofund/018967/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018968">
+             <div >
+                <a href="/main/products/pofund/018968/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018969">
+             <div >
+                <a href="/main/products/pofund/018969/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）美元现钞</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="001668">
+             <div >
+                <a href="/main/products/pofund/001668/fundgk.shtml">汇添富全球移动互联混合（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015203">
+             <div >
+                <a href="/main/products/pofund/015203/fundgk.shtml">汇添富全球移动互联混合（QDII）人民币D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015202">
+             <div >
+                <a href="/main/products/pofund/015202/fundgk.shtml">汇添富全球移动互联混合（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="006426">
+             <div >
+                <a href="/main/products/pofund/006426/fundgk.shtml">汇添富全球移动互联混合（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="006308">
+             <div >
+                <a href="/main/products/pofund/006308/fundgk.shtml">汇添富全球消费混合（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="006309">
+             <div >
+                <a href="/main/products/pofund/006309/fundgk.shtml">汇添富全球消费混合（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="006310">
+             <div >
+                <a href="/main/products/pofund/006310/fundgk.shtml">汇添富全球消费混合（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004419">
+             <div >
+                <a href="/main/products/pofund/004419/fundgk.shtml">汇添富美元债债券（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004420">
+             <div >
+                <a href="/main/products/pofund/004420/fundgk.shtml">汇添富美元债债券（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004421">
+             <div >
+                <a href="/main/products/pofund/004421/fundgk.shtml">汇添富美元债债券（QDII）美元现汇A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004422">
+             <div >
+                <a href="/main/products/pofund/004422/fundgk.shtml">汇添富美元债债券（QDII）美元现汇C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="513280">
+             <div >
+                <a href="/main/products/pofund/513280/fundgk.shtml">汇添富恒生生物科技ETF</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="020634">
+             <div >
+                <a href="/main/products/pofund/020634/fundgk.shtml">汇添富恒生生物科技ETF发起式联接（QDII）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="020635">
+             <div >
+                <a href="/main/products/pofund/020635/fundgk.shtml">汇添富恒生生物科技ETF发起式联接（QDII）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="164701">
+             <div >
+                <a href="/main/products/pofund/164701/fundgk.shtml">汇添富黄金及贵金属（QDII-LOF-FOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018543">
+             <div >
+                <a href="/main/products/pofund/018543/fundgk.shtml">汇添富黄金及贵金属（QDII-LOF-FOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="016199">
+             <div >
+                <a href="/main/products/pofund/016199/fundgk.shtml">汇添富全球汽车产业升级混合（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="016202">
+             <div >
+                <a href="/main/products/pofund/016202/fundgk.shtml">汇添富全球汽车产业升级混合（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="016201">
+             <div >
+                <a href="/main/products/pofund/016201/fundgk.shtml">汇添富全球汽车产业升级混合（QDII）美元现钞</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="016200">
+             <div >
+                <a href="/main/products/pofund/016200/fundgk.shtml">汇添富全球汽车产业升级混合（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004877">
+             <div >
+                <a href="/main/products/pofund/004877/fundgk.shtml">汇添富全球医疗混合（QDII）人民币</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004879">
+             <div >
+                <a href="/main/products/pofund/004879/fundgk.shtml">汇添富全球医疗混合（QDII）美元现钞</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004878">
+             <div >
+                <a href="/main/products/pofund/004878/fundgk.shtml">汇添富全球医疗混合（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017894">
+             <div >
+                <a href="/main/products/pofund/017894/fundgk.shtml">汇添富纳斯达克生物科技ETF发起式联接（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017895">
+             <div >
+                <a href="/main/products/pofund/017895/fundgk.shtml">汇添富纳斯达克生物科技ETF发起式联接（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017951">
+             <div >
+                <a href="/main/products/pofund/017951/fundgk.shtml">汇添富纳斯达克生物科技ETF发起式联接（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017952">
+             <div >
+                <a href="/main/products/pofund/017952/fundgk.shtml">汇添富纳斯达克生物科技ETF发起式联接（QDII）美元现钞</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="513290">
+             <div >
+                <a href="/main/products/pofund/513290/fundgk.shtml">汇添富纳斯达克生物科技ETF</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017873">
+             <div >
+                <a href="/main/products/pofund/017873/fundgk.shtml">汇添富香港优势精选混合（QDII）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470888">
+             <div >
+                <a href="/main/products/pofund/470888/fundgk.shtml">汇添富香港优势精选混合（QDII）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+    
+		
+		
+		 <dt>
+            <div class="sn_name"><a href="###">指数型基金</a>
+                <div class="sn_tip">
+                    <p><strong>指数型基金：</strong>指以标的股票指数为主要跟踪对象进行指数化投资运作的基金。预期风险收益水平低于股票基金，高于混合基金。</p>
+
+                 </div>
+            </div>
+        </dt>
+        					<dd id="027167">
+             <div >
+                <a href="/main/products/pofund/027167/fundgk.shtml">汇添富中证金融科技主题ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="027166">
+             <div >
+                <a href="/main/products/pofund/027166/fundgk.shtml">汇添富中证金融科技主题ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="023255">
+             <div >
+                <a href="/main/products/pofund/023255/fundgk.shtml">汇添富中证全指软件ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="023254">
+             <div >
+                <a href="/main/products/pofund/023254/fundgk.shtml">汇添富中证全指软件ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025167">
+             <div >
+                <a href="/main/products/pofund/025167/fundgk.shtml">汇添富恒生港股通中国科技ETF联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025166">
+             <div >
+                <a href="/main/products/pofund/025166/fundgk.shtml">汇添富恒生港股通中国科技ETF联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021603">
+             <div >
+                <a href="/main/products/pofund/021603/fundgk.shtml">汇添富中证信息技术应用创新产业ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021602">
+             <div >
+                <a href="/main/products/pofund/021602/fundgk.shtml">汇添富中证信息技术应用创新产业ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="013127">
+             <div >
+                <a href="/main/products/pofund/013127/fundgk.shtml">汇添富恒生科技ETF联接发起式（QDII）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="013128">
+             <div >
+                <a href="/main/products/pofund/013128/fundgk.shtml">汇添富恒生科技ETF联接发起式（QDII）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="019165">
+             <div >
+                <a href="/main/products/pofund/019165/fundgk.shtml">汇添富中证细分有色金属产业主题ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="019164">
+             <div >
+                <a href="/main/products/pofund/019164/fundgk.shtml">汇添富中证细分有色金属产业主题ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501008">
+             <div >
+                <a href="/main/products/pofund/501008/fundgk.shtml">汇添富中证互联网医疗指数（LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501007">
+             <div >
+                <a href="/main/products/pofund/501007/fundgk.shtml">汇添富中证互联网医疗指数（LOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017519">
+             <div >
+                <a href="/main/products/pofund/017519/fundgk.shtml">汇添富北证50成份指数A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017520">
+             <div >
+                <a href="/main/products/pofund/017520/fundgk.shtml">汇添富北证50成份指数C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="510820">
+             <div >
+                <a href="/main/products/pofund/510820/fundgk.shtml">上海改革</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501048">
+             <div >
+                <a href="/main/products/pofund/501048/fundgk.shtml">汇添富中证全指证券公司ETF联接（LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501011">
+             <div >
+                <a href="/main/products/pofund/501011/fundgk.shtml">汇添富中证中药ETF联接（LOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501047">
+             <div >
+                <a href="/main/products/pofund/501047/fundgk.shtml">汇添富中证全指证券公司ETF联接（LOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501012">
+             <div >
+                <a href="/main/products/pofund/501012/fundgk.shtml">汇添富中证中药ETF联接（LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="164705">
+             <div >
+                <a href="/main/products/pofund/164705/fundgk.shtml">汇添富恒生指数（QDII-LOF）</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="010789">
+             <div >
+                <a href="/main/products/pofund/010789/fundgk.shtml">汇添富恒生指数（QDII-LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017633">
+             <div >
+                <a href="/main/products/pofund/017633/fundgk.shtml">汇添富中证全指医疗器械ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017634">
+             <div >
+                <a href="/main/products/pofund/017634/fundgk.shtml">汇添富中证全指医疗器械ETF发起式联接D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017632">
+             <div >
+                <a href="/main/products/pofund/017632/fundgk.shtml">汇添富中证全指医疗器械ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="026689">
+             <div >
+                <a href="/main/products/pofund/026689/fundgk.shtml">汇添富中证港股通综合指数增强C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="026688">
+             <div >
+                <a href="/main/products/pofund/026688/fundgk.shtml">汇添富中证港股通综合指数增强A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501057">
+             <div >
+                <a href="/main/products/pofund/501057/fundgk.shtml">汇添富中证新能源汽车产业指数（LOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501058">
+             <div >
+                <a href="/main/products/pofund/501058/fundgk.shtml">汇添富中证新能源汽车产业指数（LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="014543">
+             <div >
+                <a href="/main/products/pofund/014543/fundgk.shtml">汇添富中证沪港深云计算产业ETF联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="014544">
+             <div >
+                <a href="/main/products/pofund/014544/fundgk.shtml">汇添富中证沪港深云计算产业ETF联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025662">
+             <div >
+                <a href="/main/products/pofund/025662/fundgk.shtml">汇添富标普港股通低波红利指数C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025661">
+             <div >
+                <a href="/main/products/pofund/025661/fundgk.shtml">汇添富标普港股通低波红利指数A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501305">
+             <div >
+                <a href="/main/products/pofund/501305/fundgk.shtml">汇添富中证港股通高股息投资ETF联接（LOF）A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="501306">
+             <div >
+                <a href="/main/products/pofund/501306/fundgk.shtml">汇添富中证港股通高股息投资ETF联接（LOF）C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021773">
+             <div >
+                <a href="/main/products/pofund/021773/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币E</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018966">
+             <div >
+                <a href="/main/products/pofund/018966/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018967">
+             <div >
+                <a href="/main/products/pofund/018967/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018968">
+             <div >
+                <a href="/main/products/pofund/018968/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）美元现汇</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018969">
+             <div >
+                <a href="/main/products/pofund/018969/fundgk.shtml">汇添富纳斯达克100ETF发起式联接（QDII）美元现钞</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="027711">
+             <div >
+                <a href="/main/products/pofund/027711/fundgk.shtml">汇添富中证畜牧养殖产业ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="027710">
+             <div >
+                <a href="/main/products/pofund/027710/fundgk.shtml">汇添富中证畜牧养殖产业ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="020196">
+             <div >
+                <a href="/main/products/pofund/020196/fundgk.shtml">汇添富中证红利ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="020195">
+             <div >
+                <a href="/main/products/pofund/020195/fundgk.shtml">汇添富中证红利ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="026655">
+             <div >
+                <a href="/main/products/pofund/026655/fundgk.shtml">汇添富上证科创板人工智能ETF发起式联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="026654">
+             <div >
+                <a href="/main/products/pofund/026654/fundgk.shtml">汇添富上证科创板人工智能ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="000248">
+             <div >
+                <a href="/main/products/pofund/000248/fundgk.shtml">汇添富中证主要消费ETF联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="012857">
+             <div >
+                <a href="/main/products/pofund/012857/fundgk.shtml">汇添富中证主要消费ETF联接C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="012862">
+             <div >
+                <a href="/main/products/pofund/012862/fundgk.shtml">汇添富中证电池主题ETF发起式联接A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+    
+			<!--
+				 <dt>
+            <div class="sn_name"><a href="###">保本型基金</a>
+                <div class="sn_tip">
+                    <p><strong>保本型基金：</strong>指投资人在投资契约到期时，可以收回投资本金至少某一约定百分比的基金。预期风险收益水平低于债券基金，高于货币基金。</p>
+
+                 </div>
+            </div>
+        </dt>
+        		
+		-->
+		<dt>
+        	<div class="sn_name">
+            	<a href="###">债券型基金</a>
+            	<div class="sn_tip">
+                	<p><strong>债券型基金：</strong>指以债券为主要投资对象，债券资产占基金资产比例超过80%的基金。预期风险收益水平低于混合基金，高于货币基金。</p>
+                </div>
+            </div>
+        </dt>
+        	 				<dd id="004452">
+             <div >
+                <a href="/main/products/pofund/004452/fundgk.shtml">汇添富双鑫添利债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025178">
+             <div >
+                <a href="/main/products/pofund/025178/fundgk.shtml">汇添富双鑫添利债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004451">
+             <div >
+                <a href="/main/products/pofund/004451/fundgk.shtml">汇添富双鑫添利债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017459">
+             <div >
+                <a href="/main/products/pofund/017459/fundgk.shtml">汇添富丰和纯债A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017460">
+             <div >
+                <a href="/main/products/pofund/017460/fundgk.shtml">汇添富丰和纯债C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470058">
+             <div >
+                <a href="/main/products/pofund/470058/fundgk.shtml">汇添富可转换债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025413">
+             <div >
+                <a href="/main/products/pofund/025413/fundgk.shtml">汇添富可转换债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470059">
+             <div >
+                <a href="/main/products/pofund/470059/fundgk.shtml">汇添富可转换债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470088">
+             <div >
+                <a href="/main/products/pofund/470088/fundgk.shtml">汇添富6月红定期开放债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470089">
+             <div >
+                <a href="/main/products/pofund/470089/fundgk.shtml">汇添富6月红定期开放债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025354">
+             <div >
+                <a href="/main/products/pofund/025354/fundgk.shtml">汇添富双利债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470018">
+             <div >
+                <a href="/main/products/pofund/470018/fundgk.shtml">汇添富双利债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="000692">
+             <div >
+                <a href="/main/products/pofund/000692/fundgk.shtml">汇添富双利债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018841">
+             <div >
+                <a href="/main/products/pofund/018841/fundgk.shtml">汇添富稳元回报债券发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018840">
+             <div >
+                <a href="/main/products/pofund/018840/fundgk.shtml">汇添富稳元回报债券发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="008398">
+             <div >
+                <a href="/main/products/pofund/008398/fundgk.shtml">汇添富鑫福债</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="019577">
+             <div >
+                <a href="/main/products/pofund/019577/fundgk.shtml">汇添富稳兴回报债券发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="019576">
+             <div >
+                <a href="/main/products/pofund/019576/fundgk.shtml">汇添富稳兴回报债券发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021460">
+             <div >
+                <a href="/main/products/pofund/021460/fundgk.shtml">汇添富增强收益债券E</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017902">
+             <div >
+                <a href="/main/products/pofund/017902/fundgk.shtml">汇添富双颐债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017903">
+             <div >
+                <a href="/main/products/pofund/017903/fundgk.shtml">汇添富双颐债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017153">
+             <div >
+                <a href="/main/products/pofund/017153/fundgk.shtml">汇添富鑫悦纯债C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017152">
+             <div >
+                <a href="/main/products/pofund/017152/fundgk.shtml">汇添富鑫悦纯债A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025465">
+             <div >
+                <a href="/main/products/pofund/025465/fundgk.shtml">汇添富双颐债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="021355">
+             <div >
+                <a href="/main/products/pofund/021355/fundgk.shtml">汇添富增强收益债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="470078">
+             <div >
+                <a href="/main/products/pofund/470078/fundgk.shtml">汇添富增强收益债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="519078">
+             <div >
+                <a href="/main/products/pofund/519078/fundgk.shtml">汇添富增强收益债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018768">
+             <div >
+                <a href="/main/products/pofund/018768/fundgk.shtml">汇添富稳乐回报债券发起式C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018767">
+             <div >
+                <a href="/main/products/pofund/018767/fundgk.shtml">汇添富稳乐回报债券发起式A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004419">
+             <div >
+                <a href="/main/products/pofund/004419/fundgk.shtml">汇添富美元债债券（QDII）人民币A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018488">
+             <div >
+                <a href="/main/products/pofund/018488/fundgk.shtml">汇添富鑫荣纯债C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015854">
+             <div >
+                <a href="/main/products/pofund/015854/fundgk.shtml">汇添富稳安三个月持有债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018487">
+             <div >
+                <a href="/main/products/pofund/018487/fundgk.shtml">汇添富鑫荣纯债A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015855">
+             <div >
+                <a href="/main/products/pofund/015855/fundgk.shtml">汇添富稳安三个月持有债券E</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="016636">
+             <div >
+                <a href="/main/products/pofund/016636/fundgk.shtml">汇添富稳安三个月持有债券B</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="024652">
+             <div >
+                <a href="/main/products/pofund/024652/fundgk.shtml">汇添富稳安三个月持有债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="023456">
+             <div >
+                <a href="/main/products/pofund/023456/fundgk.shtml">汇添富增强回报债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018831">
+             <div >
+                <a href="/main/products/pofund/018831/fundgk.shtml">汇添富稳健回报债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="023455">
+             <div >
+                <a href="/main/products/pofund/023455/fundgk.shtml">汇添富增强回报债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004534">
+             <div >
+                <a href="/main/products/pofund/004534/fundgk.shtml">汇添富双盈回报一年持有债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004469">
+             <div >
+                <a href="/main/products/pofund/004469/fundgk.shtml">汇添富鑫益定开债A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017593">
+             <div >
+                <a href="/main/products/pofund/017593/fundgk.shtml">汇添富添添乐双盈债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004535">
+             <div >
+                <a href="/main/products/pofund/004535/fundgk.shtml">汇添富双盈回报一年持有债券C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="026845">
+             <div >
+                <a href="/main/products/pofund/026845/fundgk.shtml">汇添富添添乐双盈债券E</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="029377">
+             <div >
+                <a href="/main/products/pofund/029377/fundgk.shtml">汇添富添添乐双盈债券Y</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="017592">
+             <div >
+                <a href="/main/products/pofund/017592/fundgk.shtml">汇添富添添乐双盈债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="004420">
+             <div >
+                <a href="/main/products/pofund/004420/fundgk.shtml">汇添富美元债债券（QDII）人民币C</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="015853">
+             <div >
+                <a href="/main/products/pofund/015853/fundgk.shtml">汇添富稳安三个月持有债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="018830">
+             <div >
+                <a href="/main/products/pofund/018830/fundgk.shtml">汇添富稳健回报债券A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+				<dd id="025463">
+             <div >
+                <a href="/main/products/pofund/025463/fundgk.shtml">汇添富稳健回报债券D</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+             </dd>
+ 
+<!--理财产品开始-->		
+<dt>
+	<div class="sn_name">
+		<a href="###">理财产品</a>
+		<div class="sn_tip">
+			<p><strong>理财产品：</strong>汇添富理财30天</p>
+		</div>
+	</div>
+</dt>
+		<dd id="472028">
+             <div >
+                <a href="/main/products/pofund/472028/fundgk.shtml">添富理财28天B</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+        </dd>
+		<dd id="471028">
+             <div >
+                <a href="/main/products/pofund/471028/fundgk.shtml">添富理财28天A</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+        </dd>
+		<dd id="471021">
+             <div >
+                <a href="/main/products/pofund/471021/fundgk.shtml">汇添富理财21天发起式B</a>
+                <div class="sn_tip">
+                	<p></p>
+                </div>
+             </div>
+        </dd>
+   
+<!--理财产品结束-->		
+		<dt>
+        		<div class="sn_name"><a href="###">货币型基金</a>
+				<div class="sn_tip">
+					<p><strong>货币型基金：</strong>指仅投资于货币市场工具的基金，具有风险低、流动性好的特点，是投资者理想的现金管理工具。风险低，预期收益高于活期利率。</p>
+				</div>
+			</div>
+		</dt>
+        				<dd id="519518">
+				<div >
+					<a href="/main/products/pofund/519518/fundgk.shtml">汇添富货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000650">
+				<div >
+					<a href="/main/products/pofund/000650/fundgk.shtml">汇添富货币D</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000642">
+				<div >
+					<a href="/main/products/pofund/000642/fundgk.shtml">汇添富货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="012830">
+				<div >
+					<a href="/main/products/pofund/012830/fundgk.shtml">汇添富货币E</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="519517">
+				<div >
+					<a href="/main/products/pofund/519517/fundgk.shtml">汇添富货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="519888">
+				<div >
+					<a href="/main/products/pofund/519888/fundgk.shtml">汇添富收益快线货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="519889">
+				<div >
+					<a href="/main/products/pofund/519889/fundgk.shtml">汇添富收益快线货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="009588">
+				<div >
+					<a href="/main/products/pofund/009588/fundgk.shtml">汇添富现金宝货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000330">
+				<div >
+					<a href="/main/products/pofund/000330/fundgk.shtml">汇添富现金宝货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="009589">
+				<div >
+					<a href="/main/products/pofund/009589/fundgk.shtml">汇添富现金宝货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000397">
+				<div >
+					<a href="/main/products/pofund/000397/fundgk.shtml">汇添富全额宝货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="017062">
+				<div >
+					<a href="/main/products/pofund/017062/fundgk.shtml">汇添富全额宝货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="016096">
+				<div >
+					<a href="/main/products/pofund/016096/fundgk.shtml">汇添富和聚宝货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="018793">
+				<div >
+					<a href="/main/products/pofund/018793/fundgk.shtml">汇添富和聚宝货币D</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000600">
+				<div >
+					<a href="/main/products/pofund/000600/fundgk.shtml">汇添富和聚宝货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="018792">
+				<div >
+					<a href="/main/products/pofund/018792/fundgk.shtml">汇添富和聚宝货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="159005">
+				<div >
+					<a href="/main/products/pofund/159005/fundgk.shtml">汇添富收益快钱货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="013002">
+				<div >
+					<a href="/main/products/pofund/013002/fundgk.shtml">汇添富收益快钱货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="159006">
+				<div >
+					<a href="/main/products/pofund/159006/fundgk.shtml">汇添富收益快钱货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="013003">
+				<div >
+					<a href="/main/products/pofund/013003/fundgk.shtml">汇添富收益快钱货币D</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="018770">
+				<div >
+					<a href="/main/products/pofund/018770/fundgk.shtml">汇添富收益快钱货币F</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="017872">
+				<div >
+					<a href="/main/products/pofund/017872/fundgk.shtml">汇添富收益快钱货币E</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="511980">
+				<div >
+					<a href="/main/products/pofund/511980/fundgk.shtml">汇添富添富通货币E</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000980">
+				<div >
+					<a href="/main/products/pofund/000980/fundgk.shtml">汇添富添富通货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="000366">
+				<div >
+					<a href="/main/products/pofund/000366/fundgk.shtml">汇添富添富通货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="017871">
+				<div >
+					<a href="/main/products/pofund/017871/fundgk.shtml">汇添富添富通货币C</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="007868">
+				<div >
+					<a href="/main/products/pofund/007868/fundgk.shtml">汇添富汇鑫货币A</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+			<dd id="007869">
+				<div >
+					<a href="/main/products/pofund/007869/fundgk.shtml">汇添富汇鑫货币B</a>
+					<div class="sn_tip">
+						<p></p>
+					</div>
+				</div>
+			</dd>
+    
+		
+      </dl>
+    </div>
+    <div id="leftBottom"></div>
+  </div>
+<div id="tooltip"></div>
+<script type="text/javascript">
+$(function(){
+	var mouseon=false;
+	$('.sn_name a,.sn_namelist a').mouseover(function(e) {
+		var tip = $(this).next(".sn_tip");
+		mouseon=true;
+		$("#tooltip").html(tip.html());
+		$('#tooltip').css({
+				  top:e.pageY - 15,
+				  left:e.pageX + 40
+			}).show();
+	}).mousemove(function(e) {
+		$('#tooltip').css({
+				  top:e.pageY - 15,
+				  left:e.pageX + 40
+			});
+	}).mouseout(function() {
+		if(mouseon==true){
+			$('#tooltip').hide();
+			mouseon=false;
+		}
+	});	
+})
+</script>
+
+    <!--查询是否是ETF基金-->
+            <input type="hidden" id="booleanEtf" value="995" >
+
+
+<!--右侧区域-->
+<div class="right w782">
+            <!--当前位置-->
+        <p class="pos"><img src="/web/images/common/pos.png" width="11" height="11" align="texttop" /><a href="/main/products/pofund/index.shtml">基金产品</a> &gt; <a href="fundgk.shtml">汇添富纳斯达克生物科技ETF</a> &gt; <a>基金净值</a></p>
+
+        <div id="rightTab">
+  <ul>
+  	    <li name="fundgk"><a href="fundgk.shtml">
+	基金概况
+	</a></li>
+    <li name="fundinfo"><a href="fundinfo.shtml">
+	基本信息
+	</a></li>
+    <li name="fundnav"><a href="fundnav.shtml">
+	净值&#8226;分红
+	</a></li>
+    <li name="fundyield"><a href="fundyield.shtml">
+	基金收益
+	</a></li>
+    <li name="ETFlist"><a href="ETFlist.shtml">
+	申购/赎回清单
+	</a></li>
+    <li name="fundzh"><a href="fundzh.shtml">
+	投资组合
+	</a></li>
+    <li name="fundmanager"><a href="fundmanager.shtml">
+	基金经理
+	</a></li>
+    <li name="fundgg"><a href="fundgg.shtml">
+	公告
+	</a></li>
+    <li name="fundrate"><a href="fundrate.shtml">
+	费率
+	</a></li>
+    <li name="fundseat"><a href="fundseat.shtml">
+	销售机构
+	</a></li>
+    <li name="aboutnews"><a href="aboutnews.shtml">
+	新闻
+	</a></li>
+    <li name="purUpperLimit"><a href="purUpperLimit.shtml">
+	单账号净申购上限
+	</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+	var url = location.href;
+	var catalogNo = url.substring(url.lastIndexOf("/") + 1,url.indexOf(".shtml"));
+	jQuery("li[name='"+catalogNo+"']").attr("id","on").find("a").removeAttr("href");
+</script>
+
+        <script type="text/javascript">
+            var purUpperlimit = $("#rightTab").find("li[name='purUpperLimit']");
+            var etf = $("#rightTab").find("li[name='ETFlist']");
+            var fundgg = $("#rightTab").find("li[name='fundgg']");
+            var fundrate = $("#rightTab").find("li[name='fundrate']");
+            var aboutnews = $("#rightTab").find("li[name='aboutnews']");
+            fundgg.addClass("fundgg");
+            fundrate.addClass("fundrate");
+            aboutnews.addClass("aboutnews");
+
+            var booleanEtf = $("#booleanEtf").val();
+            if(booleanEtf == 0){
+                etf.hide();
+            }else {
+                etf.addClass("fundlist");
+            }
+
+            if (fundId != '519888' && fundId != '519889') {
+                purUpperlimit.hide();
+            } else {
+                purUpperlimit.addClass("fundlist");
+            }
+        </script>
+    <h1 class="H1Pro">汇添富纳斯达克生物科技ETF
+        <span class="fundNum">( 基金代码 513290 )</span>
+        <span id="stockInfoQuery"><a href="/cgi-bin/etfproduct/EtfInfoAction?function=etfLogin" style="font-size:12px;color:#c79732;text-align:right;float:right;padding-right:10px;">补券信息查询</a></span>
+    </h1>
+
+
+<div class="inventory-content">
+    <input type="hidden" id="totalPages" name="totalPages" value="5" />
+        <!-- start-->
+        <div id="etfdata">
+            <div id="navzs2">
+                <div class="section">
+                    <div id="table3_pro" style="margin-top:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <th width="34%" align="right">请选择日期后，点击"查询"按钮进行查询</th>
+                                <td width="18%" align="center"><input value="2026-10-09" name="enddate" id="enddate" maxlength="10" onclick="WdatePicker({el:this})" class="Wdate tipsBox" type="text"></td>
+                                <td width="48%"><img src="/web/images/pofund/btnCha.png" style="cursor: pointer;" class="tipsImg" onclick="changedate();" height="23" width="40"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="h2Tit">
+                        <h2>基本信息</h2><span class="ico_down">
+								<input type="hidden" value="">
+      <a class="yellow"  href="/cgi-bin/fundproduct/EtfStockAction?function=DownLoad&fundId=513290&tradingDay=20261009&urlType=1" target="_blank">场内申赎清单</a>&nbsp;&nbsp;&nbsp;
+                    </span></div>
+                <table width="100%" border="0" cellspacing="2" cellpadding="0" class="infotable" style="border-top:none; margin-top:10px;">
+                    <tr>
+                        <th width="40%" class="color_888">最新公告日期</th>
+                        <td width="60%">2026-10-09</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">基金名称</th>
+                        <td>纳指生物科技ETF汇添富</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">基金管理公司名称</th>
+                        <td>汇添富基金</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">交易代码</th>
+                        <td>513290</td>
+                    </tr>
+
+                </table>
+                <div class="h2Tit" style="margin-top:10px;">
+                    <h2>2026-09-30日 信息内容</h2>
+                </div>
+                <table width="100%" border="0" cellspacing="2" cellpadding="0" class="infotable" style="border-top:none; margin-top:10px;">
+                    <tr>
+                        <th width="40%" class="color_888">现金差额(单位：元)</th>
+                        <td width="60%">29055.65</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">最小申购、赎回单位净值(单位：元)</th>
+                        <td>857888.42</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">基金份额净值(单位：元)</th>
+                        <td>1.7158</td>
+                    </tr>
+                </table>
+                <div class="h2Tit" style="margin-top:10px;">
+                    <h2>2026-10-09日 信息内容</h2>
+                </div>
+                <table width="100%" border="0" cellspacing="2" cellpadding="0" class="infotable" style="border-top:none; margin-top:10px;">
+                    <tr>
+                        <th width="40%" class="color_888">最小申购、赎回单位的预估现金部分(单位：元)</th>
+                        <td width="60%">28428.31</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">最小基金单位现金分红</th>
+                        <td>0 元</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">现金替代比例上限</th>
+                        <td>100.00%</td>
+                    </tr>
+                        <tr>
+                            <th class="color_888">当天净申购基金份额上限</th>
+                            <td> 500000份 </td>
+                        </tr>
+                        <tr>
+                            <th class="color_888">当天净赎回基金份额上限</th>
+                            <td>  100000000份 </td>
+                        </tr>
+
+                        <tr>
+                            <th class="color_888">单个证券账户当天净申购的基金份额上限</th>
+                            <td>  不设上限 </td>
+                        </tr>
+                        <tr>
+                            <th class="color_888">单个证券账户当天净赎回的基金份额上限</th>
+                            <td> 不设上限 </td>
+                        </tr>
+
+                        <tr>
+                            <th class="color_888">当天累计可申购的基金份额上限</th>
+                            <td> 不设上限 </td>
+                        </tr>
+                        <tr>
+                            <th class="color_888">当天累计可赎回的基金份额上限</th>
+                            <td> 200000000份 </td>
+                        </tr>
+
+                        <tr>
+                            <th class="color_888">单个证券账户当天累计可申购的基金份额上限</th>
+                            <td> 500000份 </td>
+                        </tr>
+
+                        <tr>
+                            <th class="color_888">单个证券账户当天累计可赎回的基金份额上限</th>
+                            <td> 不设上限 </td>
+                        </tr>
+                    <tr>
+                        <th class="color_888">是否需要公布IOPV</th>
+                        <td>是</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">最小申购、赎回单位(单位：份)</th>
+                        <td>500000</td>
+                    </tr>
+                    <tr>
+                        <th class="color_888">申购、赎回的允许情况</th>
+                        <td>允许申购、允许赎回</td>
+                    </tr>
+                        <tr>
+                            <th class="color_888">申购赎回模式</th>
+                            <td>现金申赎</td>
+                        </tr>
+                </table>
+                <div class="clear ch16"></div>
+            </div>
+        </div>
+        <!--end -->
+
+        <!--start -->
+        <div id="mfnd2" style="">
+            <div class="section">
+                <div class="h2Tit">
+                    <h2>成分股信息内容</h2>
+                </div>
+                <table class="sharetable intervalbg" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                    <tr class="even">
+                        <th width="11%">证券代码</th>
+                        <th width="11%">证券简称</th>
+                        <th width="11%">股票数量</th>
+                        <th width="12%">现金替代标志</th>
+
+                            <th width="15%">申购溢价比例</th>
+                            <th width="15%">赎回折价比例</th>
+                            <th width="12%"> 固定替代金额</th>
+                        <th width="15%">挂牌市场</th>
+                    </tr>
+                    <tr >
+                        <td align="center">AARD</td>
+                        <td align="center">AARD</td>
+                        <td align="center">2</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">66.810</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ABCL</td>
+                        <td align="center">ABCL</td>
+                        <td align="center">27</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">2,333.110</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ABSI</td>
+                        <td align="center">ABSI</td>
+                        <td align="center">14</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">869.370</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ABUS</td>
+                        <td align="center">ABUS</td>
+                        <td align="center">17</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">491.190</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ABVX</td>
+                        <td align="center">ABVX</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">2,930.110</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ACAD</td>
+                        <td align="center">ACAD</td>
+                        <td align="center">14</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,852.830</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ACIU</td>
+                        <td align="center">ACIU</td>
+                        <td align="center">8</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">138.470</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ACRS</td>
+                        <td align="center">ACRS</td>
+                        <td align="center">12</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">274.790</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ADMA</td>
+                        <td align="center">ADMA</td>
+                        <td align="center">19</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,297.580</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ADPT</td>
+                        <td align="center">ADPT</td>
+                        <td align="center">13</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">2,300.980</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AGIO</td>
+                        <td align="center">AGIO</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,070.540</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALKS</td>
+                        <td align="center">ALKS</td>
+                        <td align="center">14</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">3,907.910</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALLO</td>
+                        <td align="center">ALLO</td>
+                        <td align="center">29</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">279.300</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALMS</td>
+                        <td align="center">ALMS</td>
+                        <td align="center">11</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">501.560</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALNY</td>
+                        <td align="center">ALNY</td>
+                        <td align="center">11</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">16,625.660</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALT</td>
+                        <td align="center">ALT</td>
+                        <td align="center">16</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">286.650</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ALVO</td>
+                        <td align="center">ALVO</td>
+                        <td align="center">28</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,103.210</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AMGN</td>
+                        <td align="center">AMGN</td>
+                        <td align="center">24</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">66,771.240</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AMLX</td>
+                        <td align="center">AMLX</td>
+                        <td align="center">10</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,847.440</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AMPH</td>
+                        <td align="center">AMPH</td>
+                        <td align="center">4</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">688.060</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AMRX</td>
+                        <td align="center">AMRX</td>
+                        <td align="center">29</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">3,838.000</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ANAB</td>
+                        <td align="center">ANAB</td>
+                        <td align="center">2</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">614.910</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ANIP</td>
+                        <td align="center">ANIP</td>
+                        <td align="center">2</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">968.910</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ANNX</td>
+                        <td align="center">ANNX</td>
+                        <td align="center">16</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">432.120</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AQST</td>
+                        <td align="center">AQST</td>
+                        <td align="center">10</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">311.160</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARCT</td>
+                        <td align="center">ARCT</td>
+                        <td align="center">2</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">171.950</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARDX</td>
+                        <td align="center">ARDX</td>
+                        <td align="center">21</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">461.080</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARGX</td>
+                        <td align="center">ARGX</td>
+                        <td align="center">2</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">12,506.270</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARQT</td>
+                        <td align="center">ARQT</td>
+                        <td align="center">10</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,627.870</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARVN</td>
+                        <td align="center">ARVN</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">250.880</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ARWR</td>
+                        <td align="center">ARWR</td>
+                        <td align="center">12</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">4,968.890</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">ASND</td>
+                        <td align="center">ASND</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">7,691.820</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AUPH</td>
+                        <td align="center">AUPH</td>
+                        <td align="center">11</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,186.120</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AURA</td>
+                        <td align="center">AURA</td>
+                        <td align="center">9</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">391.580</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AUTL</td>
+                        <td align="center">AUTL</td>
+                        <td align="center">17</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">207.240</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AVBP</td>
+                        <td align="center">AVBP</td>
+                        <td align="center">4</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">455.020</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AVIR</td>
+                        <td align="center">AVIR</td>
+                        <td align="center">7</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">236.200</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AVXL</td>
+                        <td align="center">AVXL</td>
+                        <td align="center">8</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">82.440</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">AXSM</td>
+                        <td align="center">AXSM</td>
+                        <td align="center">4</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">4,659.880</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BBIO</td>
+                        <td align="center">BBIO</td>
+                        <td align="center">17</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">7,614.030</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BCAX</td>
+                        <td align="center">BCAX</td>
+                        <td align="center">6</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">663.540</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BCRX</td>
+                        <td align="center">BCRX</td>
+                        <td align="center">21</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,188.070</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BCYC</td>
+                        <td align="center">BCYC</td>
+                        <td align="center">4</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">100.490</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BDTX</td>
+                        <td align="center">BDTX</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">61.630</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BEAM</td>
+                        <td align="center">BEAM</td>
+                        <td align="center">9</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">1,501.460</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BIIB</td>
+                        <td align="center">BIIB</td>
+                        <td align="center">12</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">17,954.430</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BIOA</td>
+                        <td align="center">BIOA</td>
+                        <td align="center">4</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">168.650</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BMRN</td>
+                        <td align="center">BMRN</td>
+                        <td align="center">16</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">5,948.440</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">BNTX</td>
+                        <td align="center">BNTX</td>
+                        <td align="center">10</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">6,415.180</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CABA</td>
+                        <td align="center">CABA</td>
+                        <td align="center">14</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">185.750</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CADL</td>
+                        <td align="center">CADL</td>
+                        <td align="center">6</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">396.830</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CAI</td>
+                        <td align="center">CAI</td>
+                        <td align="center">24</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">4,380.510</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CCCC</td>
+                        <td align="center">CCCC</td>
+                        <td align="center">10</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">189.930</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CDXS</td>
+                        <td align="center">CDXS</td>
+                        <td align="center">9</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">85.470</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CGEM</td>
+                        <td align="center">CGEM</td>
+                        <td align="center">5</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">526.350</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CGON</td>
+                        <td align="center">CGON</td>
+                        <td align="center">7</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">2,940.950</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CHRS</td>
+                        <td align="center">CHRS</td>
+                        <td align="center">13</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">88.430</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">CMPS</td>
+                        <td align="center">CMPS</td>
+                        <td align="center">11</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">866.070</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">COGT</td>
+                        <td align="center">COGT</td>
+                        <td align="center">14</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">2,841.940</td>
+                        <td align="center">其他</td>
+            </tr>
+                    <tr >
+                        <td align="center">COLL</td>
+                        <td align="center">COLL</td>
+                        <td align="center">3</td>
+                        <td align="center">允许</td>
+                            <td align="center">10.00%</td>
+                            <td align="center"></td>
+                            <td align="center">443.100</td>
+                        <td align="center">其他</td>
+            </tr>
+</tbody>
+</table>
+<div class="pagination"></div>
+<script language="javascript" type="text/javascript" src="/web/script/ajaxPage2.js"></script>
+<script>
+    $(".pagination").getLinkStr({
+        pagecount: $("#totalPages").val(),
+        numPerPage: 60,
+        isShowJump: false,
+        ajaxRequestPath: '/cgi-bin/fundproduct/EtfStockAction?function=StockPage&fundid=513290&date=20261009',
+        divId: 'mfnd2',
+    });
+
+    // 使用 jQuery 的 ajaxComplete 监听所有 AJAX 请求完成
+    $(document).ajaxComplete(function(event, xhr, settings) {
+        if (settings.url.includes('/cgi-bin/fundproduct/EtfStockAction?function=StockPage')) {
+            console.log('StockPage AJAX request completed');
+            // 在这里执行 AJAX 完成后的操作
+            if (fundId === '551520') {
+                formatPercentageCells();
+            }
+        }
+    });
+
+    function formatPercentageCells() {
+        $('td[align="center"]').each(function() {
+            let $cell = $(this);
+            let text = $cell.text().trim();
+
+            // 匹配所有数字百分比格式（如 02.00%, 2.5%, 15%等）
+            let match = text.match(/^(\d+).?(\d*)%$/);
+            if (match) {
+                let whole = match[1].replace(/^0+/, ''); // 移除前导零
+                let decimal = match[2] || '00';
+                // 保证2位小数
+                decimal = decimal.length > 2 ? decimal.substr(0,2) : decimal.padEnd(2, '0');
+                $cell.text(whole + (decimal ? '.' + decimal : '') + '%');
+            }
+        });
+    }
+</script>
+</div>
+</div>
+
+<!-- end -->
+</div>
+
+
+
+<div class="section" id="perUpperlimit"></div>
+</div>
+<!-- end-->
+
+<!--集合申购申赎清单 start-->
+
+
+<!--集合申购申赎清单 end-->
+
+</div>
+
+</div>
+<div class="clear"></div>
+</div>
+
+<!-----foot---->
+
+<div class="site_map">
+	<div class="wrap clearfix">
+		<p>希望以下内容能够帮到您：</p>
+		<dl> 
+			<dt>账户管理</dt>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628794.html" target="_blank">开户</a><a href="https://www.99fund.com/service/help_detail/10628804.html" target="_blank">登录</a><a href="https://www.99fund.com/service/help_detail/10628808.html" target="_blank">手机</a><a href="https://www.99fund.com/service/help_detail/10628809.html" target="_blank">邮箱</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10177322.html" target="_blank">账户查询</a><a href="https://www.99fund.com/service/help_detail/10628816.html" target="_blank">对账单</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628818.html" target="_blank">登录密码</a><a href="https://www.99fund.com/service/help_detail/10628819.html" target="_blank">交易密码</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10628828.html" target="_blank">基金客户</a><a href="https://www.99fund.com/service/help_detail/10628839.html" target="_blank">信用卡客户</a></dd>
+			<dd><a href="https://trade.99fund.com/vip/account" target="_blank">资管产品</a></dd>
+		</dl>
+		<dl> 
+			<dt>支付方式</dt>
+			<dd><a href="https://www.99fund.com/service/help_detail/10534749.html " target="_blank">银行卡支付</a></dd>
+			<dd><a href="https://www.99fund.com/main/cash/account/szmjj/index.shtml" target="_blank">现金宝支付</a></dd>
+			<dd><a href="https://trade.99fund.com/third-party-register" target="_blank">第三方支付</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/11374039.html" target="_blank">支付限额</a></dd>
+			<dd><a href="https://www.99fund.com/service/help_detail/10534749.html" target="_blank">支付费率</a></dd>
+			<dd><a href="https://www.99fund.com/main/service/xssl/flow/bdyhk/index.shtml" target="_blank">关联流程</a></dd>
+		</dl>
+		<dl>
+			<dt>网上交易</dt>
+			<dd><a href="https://trade.99fund.com/trade/purchase" target="_blank">认购 /申购</a><a href="https://trade.99fund.com/trade/redeem" target="_blank">赎回</a></dd>
+			<dd><a href="https://trade.99fund.com/trade/aip" target="_blank">定投</a><a href="https://trade.99fund.com/trade/convert" target="_blank">转换</a></dd>
+			<dd><a href="https://trade.99fund.com/trade/share-bouns" target="_blank">分红</a><a href="https://trade.99fund.com/trade/cancel" target="_blank">撤单</a></dd>
+			<dd><a href="https://trade.99fund.com/transaction/fund" target="_blank">交易申请查询</a></dd>
+			<dd><a href="https://trade.99fund.com/transaction/smac" target="_blank">现金宝交易</a></dd>
+	        </dl>
+		<dl>
+			<dt>基金产品/理财产品</dt>
+		        <dd><a href="/main/products/pofund/519518/fundgk.shtml" target="_blank">货币基金</a><a href="/main/products/pofund/470030/fundgk.shtml" target="_blank">理财产品</a></dd>
+		        <dd><a href="/main/products/pofund/001685/fundgk.shtml" target="_blank">股票型</a><a href="/main/products/pofund/519008/fundgk.shtml" target="_blank">混合型</a></dd>
+		        <dd><a href="/main/products/pofund/470007/fundgk.shtml" target="_blank">指数型</a><a href="/main/products/pofund/519078/fundgk.shtml" target="_blank">债券型</a></dd>
+		        <dd><a href="/main/products/pofund/470888/fundgk.shtml" target="_blank">QDII基金</a><a href="/main/products/pofund/164701/fundgk.shtml" target="_blank">LOF基金</a></dd>
+		        <dd><a href="/main/products/pofund/159912/fundgk.shtml" target="_blank">ETF基金</a></dd>
+		</dl>
+		<dl>
+			<dt>客服中心</dt>
+			<dd><a href="/main/service/index.shtml" target="_blank">客服中心</a><a href="/cgi-bin/service/help?utm_source=n100821016" target="_blank">帮助中心</a></dd>
+			<dd><a href="/main/service/xssl/index.shtml" target="_blank">新手上路</a><a href="/main/service/selfService/index.shtml" target="_blank">自助大厅</a></dd>
+			 <dd><a href="/main/service/serviceIntroduce/index.shtml" target="_blank">服务介绍</a></dd>
+			<dd><a href="/service/help_list/3395.html" target="_blank">业务表格下载</a>&nbsp;</dd>
+			<dd><a href="/main/service/education/jjtzrqyxz/index.shtml" target="_blank">投资者教育</a>
+</dd>
+<dd><a href="/cgi-bin/etfproduct/EtfInfoAction?function=etfLogin" target="_blank">ETF补券查询</a>&nbsp</dd>
+		</dl>
+		<dl class="last"> 
+			<dt>汇添富公司</dt>
+			<dd><a href="/main/gywm/gsjs/index.shtml" target="_blank">关于我们</a><a href="/main/gywm/qywh/index.shtml" target="_blank">企业文化</a></dd>
+			<dd><a href="/main/gywm/jzys/index.shtml" target="_blank">竞争优势</a><a href="/main/gywm/gsxw/index.shtml" target="_blank">公司新闻</a></dd>
+			<dd><a href="/main/gywm/xxpl/index.shtml" target="_blank">信息披露</a><a href="/main/gywm/gsdsj/index.shtml" target="_blank">公司大事记</a></dd>
+			<dd><a href="/main/gywm/cyjm/shzp/index.shtml" target="_blank">诚邀加盟</a><a href="/main/gywm/shzr/index.shtml" target="_blank">社会责任</a></dd>
+			<dd><a href="/main/gywm/lxwm/index.shtml" target="_blank">联系我们</a><a href="http://www.chinauniversalasset.com" target="_blank">English版</a></dd>
+			<dd><a href="https://www.99fund.com/xjb/phone.html?utm_source=n111201003" target="_blank">手机版</a></dd>
+		</dl>
+	</div>
+</div>
+<div class="wrap new_footer" style="width:999px " >
+	<p class="p_a">
+		<a href="https://edu.99fund.com/" target="_blank">投资者教育基地</a>|
+		<a href="/main/service/education/jjtzrqyxz/index.shtml" target="_blank">投资人权益须知</a>|<a href="/main/service/education/fxq/fxqzcfg/index.shtml" target="_blank">反洗钱</a>|
+		<a href="/main/service/education/rule/zlsyhl/index.shtml" target="_blank">治理商业贿赂</a>|<a href="https://cloud.99fund.com/ncms/content/upload/file/20260930103241483.pdf" target="_blank">信息公示</a>|<a href="/main/service/education/fxts/index.shtml" target="_blank">风险提示</a>|
+		<a href="/main/service/education/privacy/index.shtml" target="_blank">个人信息保护</a>|
+		<a href="/main/gywm/lxwm/index.shtml" target="_blank">联系我们</a>|<a href="https://www.chinauniversalasset.com" target="_blank">ABOUT CUAM</a>
+	</p>
+	<p><span>客服电话：400-888-9918(免长途话费)</span><span>客服邮箱：<a href="">service@99fund.com</a></span><span>客服热线人工服务时间：交易日8:30-17:30 、在线客服人工服务时间：交易日8:30-21:00（节假日除外）</span></p>
+	<p><span>公司地址：上海市黄浦区外马路728号</span><span>邮编：200010</span><span>联系电话：(86)021-28932888</span><span>传真：(86) 021-28932998</span></p>
+	<p>
+		<span>汇添富旗下网站：<a href="https://www.chinauniversalasset.com/" target="_blank">China Universal Asset Management</a></span><span><a href="https://cuamfoundation.99fund.com/" target="_blank">上海汇添富公益基金会</a></span>
+	</p>
+	<p class="pimg">
+	Copyright 2005-<script>document.write(new Date().getFullYear())</script> 汇添富基金管理股份有限公司
+
+        <img src="/web/images/hga.png"/ style="width:16px;vertical-align: baseline;">
+	<a href="https://beian.mps.gov.cn/#/query/webSearch?code=31010102008204" rel="noreferrer" target="_blank">沪公网安备31010102008204号</a>
+	<a href="https://beian.miit.gov.cn" target="_blank">沪ICP备05008079号-2</a>
+	本网站已支持IPv6
+</p>
+	<p>
+		本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。
+	</p>
+	<p>
+		<!-- 上海网警 -->
+		<img src="/web/images/police.png"/>&emsp;&emsp;
+		<!-- 网络社会征信 -->
+		<a href="https://www.zx110.org" target="_blank"><img src="/web/images/zx110.png"/></a>&emsp;&emsp;
+		<!-- 企业亮照 -->
+		<a href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20130116140046615" target="_blank"><img src="/web/images/qylzicon.gif" border=0/></a>&emsp;&emsp;
+
+
+		<!-- 可信网站 -->
+		<img src="/web/images/trust.png"/>
+		<script id="kXScript" type="text/javascript" src="https://kxlogo.knet.cn/seallogo.dll?sn=e20120231010782725vsat000000&h=45"></script>
+	</p>
+</div>
+<script>
+	//pad 下载 神策
+	$(function () {
+		 let $downpdf = $("#downpdf a");
+		let url = $downpdf.attr("href");
+		 //alert(url);
+		$downpdf.click(function () {
+			sensors.track('NoticePdfOpen', {
+				'$url': url,
+				'$url_path': url,
+				'$noticePdfUrl': url,
+			});
+		});
+	})
+
+</script>
+<script type="text/javascript" src="/web/script/ready.js"></script>
+<!--查询提示层-->
+<script>
+    $(function () {
+        /* if(513290==510810 || 513290==560050){
+             $('#inventory-tab li').removeClass('active').eq(1).addClass('active');
+             $('.inventory-content').addClass('nds').eq(1).removeClass('nds');
+             $("#stockInfoQuery").hide();
+         }*/
+    })
+</script>
+
+</body>
+
+</html>

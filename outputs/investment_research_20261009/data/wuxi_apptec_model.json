@@ -1,0 +1,719 @@
+{
+  "issuerId": "I010",
+  "name": "药明康德",
+  "asOf": "2026-10-09",
+  "modelVersion": "wuxiapptec-normalized-adjusted-pe-v1.0",
+  "status": "独立初版，判断性情景，未校准概率",
+  "preferredSecurity": "603259.SH",
+  "method": "目标时点正常化经调整稀释EPS(CNY)×各上市地PE；H股乘HKD/CNY研究汇率，不额外叠加投资权益/出售收益/现金",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设非核验即期",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "shares": {
+    "issuedTotal": 2983757155,
+    "A": 2473280246,
+    "H": 510476909,
+    "dilutedWeighted2026H1": 2949022000,
+    "modelDilutedBillion": 2.949022,
+    "note": "用已披露H1稀释加权基数解释情景利润规模；未来EPS应随可转债、回购/激励调整，非假设永远固定股数",
+    "sourceURL": "https://iis.aastocks.com/20260904/12320378-0.PDF"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 28897.5,
+    "continuingRevenue2025H1": 19525.5,
+    "totalRevenue2025H1": 20799.3,
+    "chemistryRevenue": 24986,
+    "testingRevenue": 2480.6,
+    "biologyRevenue": 1391.9,
+    "TIDESRevenue": 7260,
+    "smallMoleculeDMRevenue": 14990,
+    "grossProfit": 15382.1,
+    "grossMarginPct": 53.2,
+    "attributableProfit": 11080.2,
+    "adjustedAttributableProfit": 11570.5,
+    "dilutedIFRSEPS": 3.76,
+    "dilutedAdjustedEPS": 3.92,
+    "OCF": 9311.038,
+    "capex": 2961.559,
+    "FCF": 6349.479,
+    "adjustedFCF": 7020.9,
+    "adjustedFCFTaxAddback": 671.5,
+    "adjustedFCFTaxAddbackNote": "中报百万元原表显示671.5；两组四舍五入FCF相减差0.1，不用差额替代原表输入",
+    "cash": 26953.584,
+    "bankDebt": 7981.2,
+    "convertibleDebtLiability": 6585.807,
+    "totalLiabilities": 32378.6,
+    "backlog": 66430,
+    "backlogYOYPct": 25.2,
+    "chemistryMolecules": 3731,
+    "commercialMolecules": 95,
+    "phase3Molecules": 94,
+    "TIDESMoleculeGrowthPct": 68,
+    "sourceURL": "https://iis.aastocks.com/20260904/12320378-0.PDF",
+    "publicationDate": "2026-09-04",
+    "note": "2026H1无已终止业务销售；持续经营同比+48%、整体+38.9%不能混用；IFRS净利+33.7%vs经调整+83.2%，剥离及投资相关项拆分",
+    "sourceSigningDate": "2026-08-03",
+    "publicationDateNote": "2026-09-04为取得完整PDF镜像日期，业绩8月已公布，首次官方上传精确时间未核"
+  },
+  "companyGuidance": {
+    "FY2026RevenueCNYBillion": [
+      58.5,
+      60.5
+    ],
+    "continuingRevenueGrowthPct": [
+      35,
+      39
+    ],
+    "TIDESGrowthPct": 45,
+    "capexCNYBillion": [
+      7.5,
+      8.5
+    ],
+    "adjustedFCFCNYBillion": [
+      13.5,
+      14.5
+    ],
+    "status": "中报管理层前瞻指引，非实现/保证"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "eps": [
+        6.7,
+        8.2,
+        9.3
+      ],
+      "PEA": [
+        16,
+        22,
+        29
+      ],
+      "PEH": [
+        17,
+        24,
+        30
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "profitCNYBillion": [
+        19.758447399999998,
+        24.181980399999997,
+        27.4259046
+      ],
+      "A": [
+        107.2,
+        180.39999999999998,
+        269.70000000000005
+      ],
+      "H": [
+        125.29000000000002,
+        216.48,
+        306.90000000000003
+      ],
+      "Areturn": [
+        -32.0659062103929,
+        14.321926489226854,
+        70.91254752851712
+      ],
+      "Hreturn": [
+        -39.76442307692307,
+        4.076923076923067,
+        47.54807692307694
+      ],
+      "Atotal": [
+        -32.0659062103929,
+        14.321926489226854,
+        70.91254752851712
+      ],
+      "Htotal": [
+        -39.76442307692307,
+        4.076923076923067,
+        47.54807692307694
+      ]
+    },
+    "halfYear": {
+      "eps": [
+        6.8,
+        8.8,
+        10
+      ],
+      "PEA": [
+        17,
+        23,
+        29
+      ],
+      "PEH": [
+        18,
+        25,
+        31
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "profitCNYBillion": [
+        20.053349599999997,
+        25.9513936,
+        29.490219999999997
+      ],
+      "A": [
+        115.6,
+        202.4,
+        290
+      ],
+      "H": [
+        134.64000000000001,
+        242.00000000000006,
+        341
+      ],
+      "Areturn": [
+        -26.742712294043102,
+        28.263624841571612,
+        83.77693282636247
+      ],
+      "Hreturn": [
+        -35.26923076923077,
+        16.346153846153875,
+        63.942307692307686
+      ],
+      "Atotal": [
+        -26.742712294043102,
+        28.263624841571612,
+        83.77693282636247
+      ],
+      "Htotal": [
+        -35.26923076923077,
+        16.346153846153875,
+        63.942307692307686
+      ]
+    },
+    "oneYear": {
+      "eps": [
+        7,
+        9.5,
+        11.8
+      ],
+      "PEA": [
+        17,
+        23,
+        30
+      ],
+      "PEH": [
+        18,
+        25,
+        31
+      ],
+      "div": [
+        1.2,
+        1.8,
+        2.3
+      ],
+      "profitCNYBillion": [
+        20.643154,
+        28.015708999999998,
+        34.7984596
+      ],
+      "A": [
+        119,
+        218.5,
+        354
+      ],
+      "H": [
+        138.60000000000002,
+        261.25,
+        402.38000000000005
+      ],
+      "Areturn": [
+        -24.588086185044368,
+        38.46641318124207,
+        124.33460076045625
+      ],
+      "Hreturn": [
+        -33.365384615384606,
+        25.60096153846154,
+        93.4519230769231
+      ],
+      "Atotal": [
+        -23.827629911280102,
+        39.607097591888476,
+        125.79214195183775
+      ],
+      "Htotal": [
+        -32.73076923076922,
+        26.55288461538463,
+        94.66826923076925
+      ]
+    },
+    "threeYear": {
+      "eps": [
+        7.2,
+        12.5,
+        17.5
+      ],
+      "PEA": [
+        15,
+        22,
+        28
+      ],
+      "PEH": [
+        16,
+        24,
+        29
+      ],
+      "div": [
+        4,
+        7,
+        10
+      ],
+      "profitCNYBillion": [
+        21.232958399999998,
+        36.862775,
+        51.607884999999996
+      ],
+      "A": [
+        108,
+        275,
+        490
+      ],
+      "H": [
+        126.72000000000001,
+        330,
+        558.25
+      ],
+      "Areturn": [
+        -31.558935361216733,
+        74.27122940430924,
+        210.51964512040558
+      ],
+      "Hreturn": [
+        -39.07692307692307,
+        58.653846153846146,
+        168.3894230769231
+      ],
+      "Atotal": [
+        -29.024081115335875,
+        78.70722433460075,
+        216.8567807351077
+      ],
+      "Htotal": [
+        -36.96153846153846,
+        62.35576923076922,
+        173.6778846153846
+      ],
+      "AbaseAnnualizedTotalReturnPct": 21.352120568227107,
+      "HbaseAnnualizedTotalReturnPct": 17.531941032604404
+    },
+    "fiveYear": {
+      "eps": [
+        7.5,
+        15.5,
+        24
+      ],
+      "PEA": [
+        14,
+        20,
+        27
+      ],
+      "PEH": [
+        15,
+        22,
+        28
+      ],
+      "div": [
+        7,
+        14,
+        21
+      ],
+      "profitCNYBillion": [
+        22.117665,
+        45.709841,
+        70.776528
+      ],
+      "A": [
+        105,
+        310,
+        648
+      ],
+      "H": [
+        123.75000000000001,
+        375.1,
+        739.2
+      ],
+      "Areturn": [
+        -33.46007604562738,
+        96.45120405576677,
+        310.6463878326996
+      ],
+      "Hreturn": [
+        -40.504807692307686,
+        80.33653846153848,
+        255.38461538461542
+      ],
+      "Atotal": [
+        -29.024081115335875,
+        105.3231939163498,
+        323.9543726235741
+      ],
+      "Htotal": [
+        -36.80288461538461,
+        87.74038461538463,
+        266.49038461538464
+      ],
+      "AbaseAnnualizedTotalReturnPct": 15.474901978803013,
+      "HbaseAnnualizedTotalReturnPct": 13.42571893005231
+    }
+  },
+  "scores": {
+    "A": {
+      "halfYear": {
+        "dimensions": [
+          3.5,
+          3.8,
+          4.5,
+          4.3,
+          4.2,
+          3.5
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 77.8
+      },
+      "oneYear": {
+        "dimensions": [
+          3.8,
+          3.8,
+          4.6,
+          4.4,
+          4.1,
+          3.4
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 81.6
+      },
+      "threeYear": {
+        "dimensions": [
+          4.1,
+          3.8,
+          4.5,
+          4.5,
+          4,
+          3.3
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 84.39999999999999
+      },
+      "fiveYear": {
+        "dimensions": [
+          4,
+          3.8,
+          4.4,
+          4.5,
+          3.8,
+          3.2
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 82.6
+      }
+    },
+    "H": {
+      "halfYear": {
+        "dimensions": [
+          2.8,
+          4.1,
+          4.5,
+          4.3,
+          4.2,
+          3.4
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 75.89999999999999
+      },
+      "oneYear": {
+        "dimensions": [
+          3.2,
+          4.1,
+          4.6,
+          4.4,
+          4.1,
+          3.3
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 79.3
+      },
+      "threeYear": {
+        "dimensions": [
+          3.7,
+          4.1,
+          4.5,
+          4.5,
+          4,
+          3.2
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 82.5
+      },
+      "fiveYear": {
+        "dimensions": [
+          3.6,
+          4.1,
+          4.4,
+          4.5,
+          3.8,
+          3.1
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 80.69999999999999
+      }
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "securities": [
+    {
+      "securityId": "S011",
+      "code": "603259.SH",
+      "currency": "CNY",
+      "price": 157.8,
+      "scoreRef": "scores.A"
+    },
+    {
+      "securityId": "S037",
+      "code": "02359.HK",
+      "currency": "HKD",
+      "price": 208,
+      "scoreRef": "scores.H"
+    }
+  ],
+  "probability": {
+    "weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "status": "判断权重非统计概率",
+    "expectedYearEndA": 184.425,
+    "expectedYearEndH": 216.28750000000002,
+    "defensiveWeights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "positiveWeights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "expectedYearEndAReturnPct": 16.872623574144498,
+    "expectedYearEndHReturnPct": 3.9843750000000178,
+    "defensiveYearEndA": 160.04999999999998,
+    "positiveYearEndA": 208.8,
+    "defensiveYearEndH": 189.046,
+    "positiveYearEndH": 243.52900000000002
+  },
+  "brokerTargets": [
+    {
+      "institution": "Goldman Sachs",
+      "date": "2026-09-30",
+      "target": 220.1,
+      "code": "02359.HK",
+      "currency": "HKD",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1547187/research-report",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 5.817307692307683
+    },
+    {
+      "institution": "HSBC",
+      "date": "2026-09-09",
+      "target": 220.5,
+      "code": "02359.HK",
+      "currency": "HKD",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03696/AAFN/NOW.1543616/research-report",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 6.009615384615374
+    },
+    {
+      "institution": "Bank of America",
+      "date": "2026-08-12",
+      "target": 242,
+      "code": "02359.HK",
+      "currency": "HKD",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1537765/research-report",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 16.346153846153854
+    },
+    {
+      "institution": "Bank of America",
+      "date": "2026-08-12",
+      "target": 210.5,
+      "code": "603259.SH",
+      "currency": "CNY",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1537765/research-report",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 33.39670468948035
+    },
+    {
+      "institution": "Morgan Stanley",
+      "date": "2026-08-28",
+      "target": 220,
+      "code": "02359.HK",
+      "currency": "HKD",
+      "rating": "增持",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1541627/research-report",
+      "note": "当年EPS上调含约31亿处置收益，2027-30仅0-1%，不能永久化处置收益",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 5.769230769230771
+    },
+    {
+      "institution": "Citi",
+      "date": "2026-08-05",
+      "target": 215,
+      "code": "02359.HK",
+      "currency": "HKD",
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1536638/research-report",
+      "sourceType": "公开财务新闻转述",
+      "horizon": "新闻未明确目标日，不作年底目标",
+      "upsidePct": 3.3653846153846256
+    }
+  ],
+  "assumptions": [
+    "正常化经调整EPS，参考H1稀释3.92但不机械年化；未来利润增速逐渐放缓",
+    "不将2025XDC出售或2026后续处置收益年年重复；不与持续经营利润混算",
+    "经调整指标剔除股份支付/汇兑/投资收益，不等于全部现金可分配；FCF用原OCF扣真实capex",
+    "A股当前相对H股研究汇率折价约16.5%，H股图形较强而估值空间较低",
+    "中报未公开所有大客户/药物分子名，不推断具体GLP1客户；在手订单非保证收入",
+    "中报可转债初始153港元转股价、潜在51,146,959H股已核；9-10月实际转换/月报未核，故未来股数±5%敏感性",
+    "海外法律最终效力未完成法律原文全审，不把授权政策改善等同全部CXO风险解决",
+    "三情景非最大损失边界，长期PE和EPS需持续更新"
+  ],
+  "scoreReasons": {
+    "valuationExpectedReturn": "A股较便宜，基准一年38.47%vsH25.60%；上半年强增长已反映在H价，悲观利润/PE压缩明显",
+    "technicalRelativeStrength": "A回调仍上60，H全均线上斜率正；近60市场超额强，但最新跌日放量、上涨下跌量比不占优",
+    "growthBusinessQuality": "持续收入48%、化学53%、DM72.7%、订单25.2%实证；成熟订单转化与工艺平台强",
+    "industryCycle": "全球研发融资与商业化需求，多肽/核酸长期机会；竞争价格、供给和客户集中限制",
+    "catalysts": "业绩指引/订单兑现、产能爬坡和新分子，临近Q3仍可证伪；政策不可简单消除",
+    "financialGovernanceDownside": "OCF93亿/FCF63.5亿较强；负债增、可转债与回购/理财影响资本配置，全球政策尾部风险"
+  },
+  "scenarioConditions": {
+    "pessimistic": "订单转化放缓、价格/利用率下降、客户迁移政策尾部，盈利持平且估值压缩",
+    "base": "后期商业化和TIDES持续增长，产能有序释放，正常化利润增速回归稳健，海外服务保持",
+    "optimistic": "多客户商业化快速扩张，新分子高增长，工艺和利用率维持高利润率，全球政策风险下降"
+  },
+  "limitations": [
+    "未完成EV/EBITDA或分部DCF独立交叉估值",
+    "2025全年原年报和全部后续处置/可转债原条款全文未核",
+    "未取得客户级合同及特定药物名，行业GLP1敞口不等同单一客户判断",
+    "PE/FX/远期EPS为研究假设，不能解释为市场一致预期"
+  ],
+  "deepResearchFile": "research/wuxi_apptec_deep.md",
+  "deepResearchEffectiveHanzi": 14564,
+  "qaFile": "qa/wuxi_apptec_qa.json",
+  "qaStatus": "独立初版字数及公式通过；完整年报/最新股份/DCF交叉待补",
+  "convertible": {
+    "issueDate": "2026-05-21",
+    "subscriptionDateAfterClose": "2026-05-14",
+    "maturityYear": 2027,
+    "principalCNYMillion": 6780,
+    "initialConversionPriceHKD": 153,
+    "potentialHSharesInitial": 51146959,
+    "potentialPctOfIssuedAtReport": 1.71,
+    "convertedAsOf2026H1": false,
+    "netProceedsCNYMillion": 6944.452,
+    "note": "美元结算零票息；不能认为无会计利息/发行成本；本期末未转不延伸至研究截止日；转股债务与股份同步更新",
+    "sourceURL": "https://iis.aastocks.com/20260904/12320378-0.PDF",
+    "PDFPages": [34, 35, 107]
+  },
+  "sources": [
+    "https://iis.aastocks.com/20260904/12320378-0.PDF",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1547187/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1537765/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02359/AAFN/NOW.1541627/research-report"
+  ]
+}

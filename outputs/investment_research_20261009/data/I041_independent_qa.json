@@ -1,0 +1,403 @@
+{
+  "passed": true,
+  "checks": 7994,
+  "modelVersion": "innocare-v2-finiteFCFF-restrictedCash-netdebt-cleared-allshares",
+  "scope": "independentnativeannual/horizon recomputation; financial identities, contractcap, cash/stock/debt/acquisition checks; representativeatomic edits",
+  "sensitivity": [
+    {
+      "test": {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 6,
+        "value": 0.65
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.18190086667519,
+          "price": 13.746330606672633,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.526502364082566,
+          "price": 14.25702700947018,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.181725266720065,
+          "price": 15.181725266720065,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.016919363780982,
+          "price": 18.016919363780982,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.014501158414202,
+          "price": 21.014501158414202,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareAsset",
+        "field": "start",
+        "groupIndex": 6,
+        "value": 2030
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.136540651623623,
+          "price": 13.714578456136536,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.47987571414892,
+          "price": 14.217394357026581,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.132678762276392,
+          "price": 15.132678762276392,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 17.957772728476755,
+          "price": 17.957772728476755,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 20.968801049379955,
+          "price": 20.968801049379955,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 4,
+        "value": 1.8
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.419227267971172,
+          "price": 13.91245908757982,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.77045480171235,
+          "price": 14.464386581455498,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.438338476832303,
+          "price": 15.438338476832303,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.329857835773524,
+          "price": 18.329857835773524,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.40306470085701,
+          "price": 21.40306470085701,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareAnnual",
+        "field": "zenasPriceUSD",
+        "index": 4,
+        "value": 15
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.570723273541955,
+          "price": 14.018506291479369,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.926180501206167,
+          "price": 14.596753426025241,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.602146110944682,
+          "price": 15.602146110944682,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.529737312734987,
+          "price": 18.529737312734987,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.512199128907213,
+          "price": 21.512199128907213,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareGlobal",
+        "field": "discount",
+        "value": 0.135
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 13.268780103955121,
+          "price": 13.107146072768586,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 13.632173555445332,
+          "price": 13.496847522128533,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 14.327526102115513,
+          "price": 14.327526102115513,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 17.409380326924573,
+          "price": 17.409380326924573,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 20.773994905979688,
+          "price": 20.773994905979688,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareGlobal",
+        "field": "startCash",
+        "value": 7.32768054
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 13.944018733883375,
+          "price": 13.579813113718362,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.297265321710443,
+          "price": 14.062175523453876,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 14.96914843327408,
+          "price": 14.96914843327408,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 17.882978533238255,
+          "price": 17.882978533238255,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 20.972244467570356,
+          "price": 20.972244467570356,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareGlobal",
+        "field": "zenasRecovery",
+        "value": 0.5
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.33127586947875,
+          "price": 13.850893108635125,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.68290016715993,
+          "price": 14.389965142085941,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.351787315089696,
+          "price": 15.351787315089696,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.233207436493444,
+          "price": 18.233207436493444,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.294699647717586,
+          "price": 21.294699647717586,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareGlobal",
+        "field": "acquisition",
+        "value": 0.6
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.493956682119833,
+          "price": 13.964769677483883,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.849143123034596,
+          "price": 14.531271654579406,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.524608657459241,
+          "price": 15.524608657459241,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.450514227800348,
+          "price": 18.450514227800348,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.54897431777181,
+          "price": 21.54897431777181,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareGlobal",
+        "field": "rewardBudgetFactor",
+        "value": 1.2
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.56358444735685,
+          "price": 14.013509113149796,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.914824620600537,
+          "price": 14.587100927510457,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.583002386889456,
+          "price": 15.583002386889456,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.47620453316513,
+          "price": 18.47620453316513,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.53719659775885,
+          "price": 21.53719659775885,
+          "dividend": 0.03
+        }
+      ]
+    },
+    {
+      "test": {
+        "kind": "innocareCurve",
+        "index": 3,
+        "value": 0.5
+      },
+      "horizons": [
+        {
+          "h": "yearEnd",
+          "intrinsic": 14.387994528220378,
+          "price": 13.890596169754264,
+          "dividend": 0
+        },
+        {
+          "h": "halfYear",
+          "intrinsic": 14.738350059237618,
+          "price": 14.437097550351975,
+          "dividend": 0
+        },
+        {
+          "h": "oneYear",
+          "intrinsic": 15.404567545472437,
+          "price": 15.404567545472437,
+          "dividend": 0
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 18.28865025632652,
+          "price": 18.28865025632652,
+          "dividend": 0
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 21.336366618914514,
+          "price": 21.336366618914514,
+          "dividend": 0.03
+        }
+      ]
+    }
+  ],
+  "remaining": "artifact workbook and parent persistent snapshot workflow not yet checked"
+}

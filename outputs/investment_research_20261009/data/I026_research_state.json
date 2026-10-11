@@ -1,0 +1,31 @@
+{
+  "issuerId": "I026",
+  "securityId": "S031",
+  "code": "02157.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "lepu-v1-netrights-annualPD1Consideration-finiteDistributions",
+  "modelFile": "data/lepu_model.json",
+  "deepFile": "research/I026_deep.md",
+  "effectiveChineseCharacters": 14695,
+  "exactDuplicates": 0,
+  "independentQA": {"file": "data/I026_independent_qa.json", "passed": true, "checks": 10418},
+  "adapterQA": {"file": "qa/lepu_adapter_qa.json", "passed": true, "checks": 2248, "atoms": 661, "signaturesPerCase": 232},
+  "visualQA": {"sheets": 8, "additionalDetailRenders": 3, "passed": true, "location": "qa/lepu_bridge"},
+  "peerEconomicReview": {"reviewer": "/root/market_data", "passed": true, "scope": "CMGgross x netRate x0.30 x p withoutKYMduplication; PD1pastpayonce then uncappedannual4.375%; financialequitiesnotcash; SBCdilutionnotdoublecash"},
+  "revisionAudit": {"actualOneYearTarget": "2027-10-07", "cashDiscountRecomputed": true},
+  "parentRequired": ["release registry and persistent input manifest integration", "three scenario snapshot refresh and numeric QA", "same-source Word/PDF export and per-page visual QA"],
+  "notes": [
+    "Cash684.568mCNY only, financial501.098mnonlisted excluded; FVTOCI396.677m WuhanBinhui notExcalipoint;2025reclassgain289.442m noncash",
+    "PD1paycurrent30.622m once H2 then previousYearPD1sales x4.375%; FV270.712m nevercap; final2041 unpaidannualamount deducted once",
+    "FCFF accrualPD1 annualcost is reference only; finalvaluemodel usescashpayment and terminalunpaid noadditionalFVdeduction",
+    "CorePD1/NPCsplitunpublished andresearchonly;12netregionalassets;CMGownershipsingle0.30linkedonassetdisplayandriskbuild",
+    "H1RDfull208.263m plusphysicalandintangcapex172.702m;H2budgetsubtractknownH1capexonce;ROUDAexcludedrentinoperatingcost",
+    "Base1700mCNYgrossfuturefinancingconditional, totalnewissuance386.574mshares; only2027capital800mremainssolventandlessdilution, notclaimall1700mrequiredforsurvival",
+    "NoCapital andbankNoRolloverfundingfailures;startdelay2yremainssolventbutvaluefalls;minimumcashbase254.109m",
+    "2033bankclearedexcess800m65%distribution and2041cashfinancialnetrecoveryresearchpolicynotpromise;no targetcashorissuePVaddition",
+    "Scores49.4/57.7/64.5/65.9;oneYearbase5.816758216575HKD; yearEndexpected6.007268433986 +57.258335968225% drivenbylargeoptimistictail",
+    "ESMOCMG/MRG007firstresultsaftercutoffexcluded;MRG003randomizedOSCIcrosses1,adjustedOSanalysisnotoriginalconfirmedOS",
+    "Only2024MS5HKDoldsecondarytargetrecord;no recent90daysforeigntargetverified;Nomura138.29belongsAkesoexcluded"
+  ]
+}

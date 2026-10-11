@@ -1,0 +1,723 @@
+{
+  "issuerId": "I006",
+  "name": "凯莱英",
+  "asOf": "2026-10-09",
+  "status": "独立初版；原2025年报、2026中报、9月股份变化核验；正常化EPS/PE为研究假设",
+  "modelVersion": "asymchem-AH-pe-v1.0",
+  "securities": [
+    {
+      "securityId": "S006",
+      "code": "002821.SZ",
+      "currency": "CNY",
+      "price": 177.93
+    },
+    {
+      "securityId": "S057",
+      "code": "06821.HK",
+      "currency": "HKD",
+      "price": 155.1
+    }
+  ],
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究转换假设；非已核验10/9汇率，±5%敏感性",
+    "CNYperHKD": 0.9090909090909091
+  },
+  "preferredSecurity": "06821.HK",
+  "method": "统一归母正常化稀释EPS(CNY)×本地PE，H乘假设HKDperCNY；净现金与利息不再重复加价",
+  "shares": {
+    "issuedJune30": 360780970,
+    "issuedSeptember30": 361948670,
+    "ASeptember30": 334114160,
+    "HSeptember30": 27834510,
+    "AInventorySeptember30": 0,
+    "modelDilutedBillion": 0.36194867,
+    "note": "10/7呈交、10/8巨潮月报，九月A增发1285200且库存1151300转激励；未来分母可变"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 3606.83930251,
+    "revenueGrowthPct": 13.13,
+    "constantCurrencyRevenueGrowthPct": 16.2,
+    "attributableProfit": 520.462195,
+    "deductedProfit": 524.80256861,
+    "totalNetProfit": 514.10917787,
+    "minorityLoss": -6.35301713,
+    "profitGrowthPct": -15.71,
+    "deductedGrowthPct": -7.3,
+    "dilutedEPS": 1.45,
+    "adjustedNetProfitCompanyApprox": 753,
+    "adjustedGrowthPct": 12.9,
+    "adjustedReconciliation": "公司MD&A仅摘要调整，全文原调节桥尚未核验，不能替代报告利润",
+    "OCF": 822.28975659,
+    "capex": 854.93371822,
+    "FCF": -32.64396163,
+    "cashBank": 5522.66874368,
+    "cashCashEquivalents": 3699.63960839,
+    "restrictedCash": 153.51745303,
+    "bankDebt": 39.88590268,
+    "leaseDebtIncludingCurrent": 306.72158275,
+    "totalLiabilities": 3085.95488345,
+    "parentEquity": 17739.86616283,
+    "goodwill": 146.18344705,
+    "inventory": 1909.75961004,
+    "receivable": 1821.77679333,
+    "contractLiability": 388.09665345,
+    "RD": 251.88184374,
+    "FXLoss": 200.46081607,
+    "FXLoss2025H1": 30.73521846,
+    "publicationDate": "2026-08-25",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496302.PDF"
+  },
+  "segments": [
+    {
+      "name": "小分子",
+      "revenueMillion": 2296.9472628,
+      "growthPct": -5.44,
+      "grossMarginPct": 47.83
+    },
+    {
+      "name": "新兴",
+      "revenueMillion": 1304.05390991,
+      "growthPct": 72.49,
+      "grossMarginPct": 32.5
+    }
+  ],
+  "geographies": [
+    {
+      "name": "境内",
+      "revenueMillion": 1205.20859606,
+      "growthPct": 68.95,
+      "grossMarginPct": 24.67
+    },
+    {
+      "name": "境外",
+      "revenueMillion": 2401.63070645,
+      "growthPct": -2.96,
+      "constantCurrencyGrowthPct": 1,
+      "grossMarginPct": 51.1
+    }
+  ],
+  "orders": {
+    "asOf": "2026中报披露日",
+    "USDmillion": 1673,
+    "growthPct": 53.77,
+    "newOrderGrowthPct": 54.59,
+    "note": "不含H1已确认收入，非全部2026年内交付；临床/客户取消及规模风险"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 7825.19029827,
+      "attributableMillion": 2268.81044407,
+      "deductedMillion": 2104.14413484,
+      "OCF": 3549.72838328,
+      "dilutedEPS": 6.26,
+      "note": "历史特殊大订单周期，不用作正常峰值利润外推"
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 5804.65733692,
+      "attributableMillion": 948.950036,
+      "deductedMillion": 849.53721496,
+      "OCF": 1254.33701451,
+      "capex": 1130.00769354,
+      "FCF": 124.32932097,
+      "dilutedEPS": 2.69
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 6670.18101325,
+      "attributableMillion": 1132.56977563,
+      "deductedMillion": 1036.50920554,
+      "OCF": 1407.5850597,
+      "capex": 1270.36218563,
+      "FCF": 137.22287407,
+      "dilutedEPS": 3.16
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "eps": [
+        2.8,
+        4,
+        5
+      ],
+      "PEA": [
+        24,
+        43,
+        54
+      ],
+      "PEH": [
+        20,
+        33,
+        44
+      ],
+      "A": [
+        67.19999999999999,
+        172,
+        270
+      ],
+      "H": [
+        61.60000000000001,
+        145.20000000000002,
+        242.00000000000003
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "Areturn": [
+        -62.23233856010791,
+        -3.332771314561911,
+        51.745068285280716
+      ],
+      "Hreturn": [
+        -60.2836879432624,
+        -6.382978723404243,
+        56.02836879432627
+      ],
+      "Atotal": [
+        -62.23233856010791,
+        -3.332771314561911,
+        51.745068285280716
+      ],
+      "Htotal": [
+        -60.2836879432624,
+        -6.382978723404243,
+        56.02836879432627
+      ],
+      "profitCNYBillion": [
+        1.0134562759999999,
+        1.44779468,
+        1.8097433499999998
+      ],
+      "conditions": [
+        "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+        "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+        "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+      ]
+    },
+    "halfYear": {
+      "eps": [
+        3,
+        4.5,
+        5.8
+      ],
+      "PEA": [
+        24,
+        42,
+        54
+      ],
+      "PEH": [
+        20,
+        34,
+        44
+      ],
+      "A": [
+        72,
+        189,
+        313.2
+      ],
+      "H": [
+        66,
+        168.3,
+        280.72
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "Areturn": [
+        -59.53464845725848,
+        6.221547799696503,
+        76.02427921092563
+      ],
+      "Hreturn": [
+        -57.446808510638306,
+        8.510638297872353,
+        80.99290780141845
+      ],
+      "Atotal": [
+        -59.53464845725848,
+        6.221547799696503,
+        76.02427921092563
+      ],
+      "Htotal": [
+        -57.446808510638306,
+        8.510638297872353,
+        80.99290780141845
+      ],
+      "profitCNYBillion": [
+        1.08584601,
+        1.6287690149999998,
+        2.099302286
+      ],
+      "conditions": [
+        "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+        "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+        "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+      ]
+    },
+    "oneYear": {
+      "eps": [
+        3.3,
+        5.5,
+        7.3
+      ],
+      "PEA": [
+        23,
+        40,
+        50
+      ],
+      "PEH": [
+        20,
+        34,
+        42
+      ],
+      "A": [
+        75.89999999999999,
+        220,
+        365
+      ],
+      "H": [
+        72.60000000000001,
+        205.70000000000002,
+        337.26
+      ],
+      "div": [
+        0.8,
+        1.5,
+        2
+      ],
+      "Areturn": [
+        -57.342775248693314,
+        23.644129713932436,
+        105.13685157084245
+      ],
+      "Hreturn": [
+        -53.191489361702125,
+        32.62411347517733,
+        117.44680851063829
+      ],
+      "Atotal": [
+        -56.89316023155174,
+        24.487157871072895,
+        106.26088911369638
+      ],
+      "Htotal": [
+        -52.6241134751773,
+        33.68794326241136,
+        118.86524822695037
+      ],
+      "profitCNYBillion": [
+        1.1944306109999998,
+        1.990717685,
+        2.642225291
+      ],
+      "conditions": [
+        "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+        "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+        "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+      ]
+    },
+    "threeYear": {
+      "eps": [
+        3.8,
+        8.3,
+        12.5
+      ],
+      "PEA": [
+        22,
+        35,
+        44
+      ],
+      "PEH": [
+        20,
+        30,
+        39
+      ],
+      "A": [
+        83.6,
+        290.5,
+        550
+      ],
+      "H": [
+        83.60000000000001,
+        273.90000000000003,
+        536.25
+      ],
+      "div": [
+        3.3,
+        6,
+        8.5
+      ],
+      "Areturn": [
+        -53.01523070870567,
+        63.266453099533514,
+        209.1103242848311
+      ],
+      "Hreturn": [
+        -46.099290780141835,
+        76.59574468085108,
+        245.74468085106383
+      ],
+      "Atotal": [
+        -51.16056876299668,
+        66.63856572809533,
+        213.8874838419603
+      ],
+      "Htotal": [
+        -43.75886524822694,
+        80.85106382978728,
+        251.7730496453901
+      ],
+      "profitCNYBillion": [
+        1.3754049459999997,
+        3.0041739610000002,
+        4.524358374999999
+      ],
+      "conditions": [
+        "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+        "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+        "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+      ],
+      "AbaseAnnualizedTotalReturnPct": 18.5564463057839,
+      "HbaseAnnualizedTotalReturnPct": 21.835454924145314
+    },
+    "fiveYear": {
+      "eps": [
+        4.2,
+        11.5,
+        19
+      ],
+      "PEA": [
+        20,
+        32,
+        40
+      ],
+      "PEH": [
+        18,
+        28,
+        36
+      ],
+      "A": [
+        84,
+        368,
+        760
+      ],
+      "H": [
+        83.16000000000001,
+        354.20000000000005,
+        752.4000000000001
+      ],
+      "div": [
+        6,
+        11,
+        17
+      ],
+      "Areturn": [
+        -52.79042320013488,
+        106.82290788512336,
+        327.1342662844939
+      ],
+      "Hreturn": [
+        -46.38297872340424,
+        128.3687943262412,
+        385.10638297872345
+      ],
+      "Atotal": [
+        -49.41831057157309,
+        113.00511437082,
+        336.6885853987523
+      ],
+      "Htotal": [
+        -42.127659574468076,
+        136.1702127659575,
+        397.16312056737604
+      ],
+      "profitCNYBillion": [
+        1.520184414,
+        4.162409705,
+        6.87702473
+      ],
+      "conditions": [
+        "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+        "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+        "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+      ],
+      "AbaseAnnualizedTotalReturnPct": 16.326324527044434,
+      "HbaseAnnualizedTotalReturnPct": 18.753118771467236
+    }
+  },
+  "scores": {
+    "A": {
+      "halfYear": {
+        "dimensions": [
+          2.8,
+          3.5,
+          4,
+          4.2,
+          4.1,
+          3.9
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 71.39999999999999
+      },
+      "oneYear": {
+        "dimensions": [
+          3.2,
+          3.5,
+          4.1,
+          4.2,
+          4,
+          3.8
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 75.19999999999999
+      },
+      "threeYear": {
+        "dimensions": [
+          3.7,
+          3.5,
+          4.3,
+          4.4,
+          4,
+          3.6
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 80.89999999999999
+      },
+      "fiveYear": {
+        "dimensions": [
+          3.6,
+          3.5,
+          4.4,
+          4.4,
+          3.8,
+          3.4
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 81.2
+      }
+    },
+    "H": {
+      "halfYear": {
+        "dimensions": [
+          3.2,
+          3.5,
+          4,
+          4.2,
+          4.1,
+          3.9
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 73.39999999999999
+      },
+      "oneYear": {
+        "dimensions": [
+          3.6,
+          3.5,
+          4.1,
+          4.2,
+          4,
+          3.8
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 77.19999999999999
+      },
+      "threeYear": {
+        "dimensions": [
+          4,
+          3.5,
+          4.3,
+          4.4,
+          4,
+          3.6
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 82.39999999999999
+      },
+      "fiveYear": {
+        "dimensions": [
+          3.9,
+          3.5,
+          4.4,
+          4.4,
+          3.8,
+          3.4
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 82.4
+      }
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "订单取消/延迟与新产能闲置、海外政策和汇率不利、盈利及倍数压缩",
+    "在手项目有序交付、新兴产能利用率提高与利润恢复，成熟小分子稳定、正常汇兑",
+    "全球多肽和核酸后期项目规模放量、技术与产能壁垒形成，成本下降且保持成长溢价"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "高盛",
+      "date": "2026-09-30",
+      "code": "06821.HK",
+      "currency": "HKD",
+      "target": 168.2,
+      "rating": "买入",
+      "horizon": "公开新闻未明确；按一年参考而非年底保证",
+      "sourceType": "AASTOCKS新闻转述",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/06821/AAFN/NOW.1547187/research-report",
+      "note": "与9/11同机构同价去重，保留最新"
+    },
+    {
+      "institution": "野村",
+      "date": "2026-07-10",
+      "code": "06821.HK",
+      "currency": "HKD",
+      "target": 131.48,
+      "rating": "买入",
+      "horizon": "公开新闻未明确；一年参考",
+      "sourceType": "AASTOCKS新闻转述",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/06821/AAFN/NOW.1532719/research-report"
+    }
+  ],
+  "brokerTargetStatus": "2家近90日公开转述核验；原付费报告/明确期限未得，A股目标缺失；旧美银币种冲突条目排除",
+  "assumptions": [
+    "2026公司全年收入19%–22%指引是前瞻，非已实现；基准年底EPS4需下半年利润恢复",
+    "调整753m完整调节桥未取，不按调整EPS直接年化",
+    "长期利润保留股份支付、折旧和产能成本；不年化2023特殊订单利润",
+    "已付1.30元早于10/9，不计未来，未来分红研究假设",
+    "九月最新股数与半年加权不同，±5%稀释敏感性",
+    "A/H共享归母盈利、本地PE分别估值，FX1.10只是透明假设",
+    "三情景25/50/25非获利概率/统计区间/最大损失"
+  ],
+  "confidence": {
+    "fundamentals": "高：原A股年报/中报/月报；调整利润桥中低",
+    "technical": "高：A/H各双行情核验，H量/流动性与A区别",
+    "valuation": "中低：EPS恢复与本地PE为研究假设",
+    "institutionTargets": "中：公开新闻转述，非原付费报告"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496302.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-31/1225053960.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595394.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-24/1225579943.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-24/1225582447.PDF"
+  ],
+  "deepResearchFile": "research/asymchem_deep.md",
+  "limitations": [
+    "调整净利润753m完整原调节桥未获得，不替代归母520.462m",
+    "完整分业务正常化现金流/EV EBITDA与DCF交叉待补",
+    "明确外资目标期限及原报告未取得，A股公开外资目标缺失",
+    "海外生物安全/采购/关税法律原文尚未完整适用核验",
+    "CXO专属指数缺失，987018创新药不冒充CXO基准",
+    "H成交量较小，浮动股换手率未取得不造；货币转换1.10未核实时点汇率"
+  ],
+  "probability": {
+    "weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "defensiveWeights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "positiveWeights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "expectedYearEndA": 170.3,
+    "defensiveYearEndA": 139.88,
+    "positiveYearEndA": 200.72,
+    "expectedYearEndH": 148.50000000000003,
+    "defensiveYearEndH": 121.44000000000001,
+    "positiveYearEndH": 175.56
+  },
+  "fxSensitivity": {
+    "oneYearBaseHKD": 205.70000000000002,
+    "fxMinus5Pct": 195.41500000000002,
+    "fxPlus5Pct": 215.985,
+    "oneYearBaseCNYInvestorReturnHKDStrength5Pct": 40.37234042553193,
+    "oneYearBaseCNYInvestorReturnHKDWeak5Pct": 27.003546099290787
+  },
+  "effectiveHanzi": 16641,
+  "qaFile": "qa/asymchem_qa.json",
+  "qaStatus": "独立正文字数、重复与A/H公式通过，调整利润桥/完整DCF待补"
+}

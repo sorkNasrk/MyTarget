@@ -1,0 +1,22 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "code": "02228.HK",
+  "cutoff": "2026-10-09",
+  "version": "xtalpi-per-drug-evidence-v3",
+  "evidenceFile": "qa/xtalpi_per_asset_evidence.json",
+  "evidenceSHA256": "4e2809b04b13de56f604398aa3e7c0c9e673ed38c66baf7567b5adac34e97db7",
+  "currency": "CNY",
+  "cashflowUnit": "billion",
+  "valuationPolicy": "Seven named own-development indication rows have transparent demand, net realization, probability and ownership research assumptions, supported by issuer identity and disease disclosure. Other unnamed, unmapped or ownership-unclear rows remain zero observations. Evidence null fields remain unknown facts; research assumptions are separate. All clinical costs remain unallocated and are retained, with no arbitrary allocation of old sales peaks or costs.",
+  "assetIndicationIds": [
+    "XTN004_IBS", "XTN004_IBD", "ALX001_IBD", "ALX002_SLE", "ALX002_RA", "ALX005_MG", "ALX005_ITP", "XS01_IgAN", "XS01_PNH",
+    "DOVETREE_UNNAMED_ONCOLOGY", "DOVETREE_UNALLOCATED_OTHER_TARGETS", "GPCR_UNNAMED_METABOLIC",
+    "PEP08_SOLID_TUMOUR", "PEP08_BRAIN_POTENTIAL", "RTX117_CMT", "RTX117_VWM", "RTX117_AD_POTENTIAL",
+    "SIGX1094_DGC", "SIGX1094_KRASG12C_NSCLC_COMBO", "SIGX2649_MESO", "SIGX2649_LIVER", "SIGX2649_LUNG", "META_MP5342_IBD",
+    "LEMAN_META1019_CD19_MALIGNANCY", "LEMAN_META1019_AUTOIMMUNE", "LEMAN_GPC3_LIVER", "LEMAN_EGFRVIII_GLIOMA", "LEMAN_CLDN182_GASTRIC", "LEMAN_META10TILS_SOLID",
+    "METIS_MTS004_PBA", "METIS_MTS105_HCC", "AILUX_LILLY_UNNAMED_BISPEC", "VISEN_UNNAMED_ENDOCRINE", "HEC_UNNAMED_JV_PIPELINES", "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+    "OWNED_UNNAMED_MOLECULAR_GLUES", "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY", "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE", "OWNED_UNNAMED_SIRNA_METABOLIC", "OWNED_UNNAMED_SIRNA_CNS",
+    "PX002C_GLUCOSE_CONSUMER", "PX003C_LIPID_CONSUMER", "PX001C_COSMETICS"
+  ]
+}

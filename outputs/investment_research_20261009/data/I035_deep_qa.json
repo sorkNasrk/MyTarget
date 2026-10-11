@@ -1,0 +1,12 @@
+{
+  "issuerId": "I035",
+  "file": "research/I035_deep.md",
+  "checkedAt": "2026-10-10T11:13:22.641Z",
+  "method": "仅正文非标题、非表格、非列表段落；剔除研究基准元数据，来源列表不纳入；只计CJK统一及扩展A汉字",
+  "effectiveChineseCharacters": 12422,
+  "minimum": 10000,
+  "passed": true,
+  "exactDuplicateParagraphs": [],
+  "similarityReview": "仅逐段完全重复检测；同义重复仍须编辑人工审阅",
+  "modelConsistency": "情景与量价数值须独立核对模型"
+}

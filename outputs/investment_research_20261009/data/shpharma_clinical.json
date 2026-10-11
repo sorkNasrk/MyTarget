@@ -1,0 +1,25 @@
+{
+  "asOf": "2026-10-09",
+  "issuerId": "I028",
+  "doi": "10.1016/j.neurot.2026.e00953",
+  "pmid": "42508294",
+  "pmcid": "PMC13445381",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13445381/fullTextXML",
+  "metaURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42508294&format=json",
+  "firstPublicationDate": "2026-07-27",
+  "journalIssue": "2026-09",
+  "trialPhase": 2,
+  "centres": 11,
+  "randomizedPatients": 140,
+  "followupWeeks": 48,
+  "primaryPrespecifiedMethod": "ANCOVA with LOCF missing imputation; superiority P<0.049 and lower CI>0",
+  "primaryResult": "Did not reach prespecified statistical superiority",
+  "postHocMMRM": {
+    "LSMD": 2.29,
+    "lowerCI": 0.52,
+    "upperCI": 4.06,
+    "p": 0.0114
+  },
+  "survival": "2.8–3.5 months is external indirect modelling, not direct trial survival evidence",
+  "dateConflict": "H1 report discussion says results published; actual article first publication 7/27 after June period-end, but before report publication and cutoff. Preserve both period-end clinical status and publication date."
+}

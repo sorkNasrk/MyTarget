@@ -1,0 +1,652 @@
+{
+  "asOf": "2026-10-09",
+  "modelVersion": "duality-v2-equityRewards-noCashSubstitute-netRights",
+  "rows": [
+    {
+      "test": "base",
+      "minCashCNYbn": 1.7272624347974062,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 125.13475798892472,
+          "intrinsicPriceHKD": 78.03592361622677,
+          "fundingFailure": false,
+          "capitalReturnPct": -31.508068971579238
+        },
+        "halfYear": {
+          "targetPriceHKD": 101.14870522620214,
+          "intrinsicPriceHKD": 80.76088153275269,
+          "fundingFailure": false,
+          "capitalReturnPct": -44.63672401412033
+        },
+        "oneYear": {
+          "targetPriceHKD": 85.99125841043136,
+          "intrinsicPriceHKD": 85.99125841043136,
+          "fundingFailure": false,
+          "capitalReturnPct": -52.93308242450391
+        },
+        "threeYear": {
+          "targetPriceHKD": 110.872146024579,
+          "intrinsicPriceHKD": 110.872146024579,
+          "fundingFailure": false,
+          "capitalReturnPct": -39.31464366470772
+        },
+        "fiveYear": {
+          "targetPriceHKD": 142.8035130847023,
+          "intrinsicPriceHKD": 142.8035130847023,
+          "fundingFailure": false,
+          "capitalReturnPct": -21.83715758910656
+        }
+      }
+    },
+    {
+      "test": "discount_minus2pp",
+      "minCashCNYbn": 1.7272624347974062,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 134.8121838512115,
+          "intrinsicPriceHKD": 95.63124336583913,
+          "fundingFailure": false,
+          "capitalReturnPct": -26.21117468461329
+        },
+        "halfYear": {
+          "targetPriceHKD": 115.33588017866343,
+          "intrinsicPriceHKD": 98.4948502233293,
+          "fundingFailure": false,
+          "capitalReturnPct": -36.87143942054546
+        },
+        "oneYear": {
+          "targetPriceHKD": 103.95386273938321,
+          "intrinsicPriceHKD": 103.95386273938321,
+          "fundingFailure": false,
+          "capitalReturnPct": -43.101334023326096
+        },
+        "threeYear": {
+          "targetPriceHKD": 129.3343679870764,
+          "intrinsicPriceHKD": 129.3343679870764,
+          "fundingFailure": false,
+          "capitalReturnPct": -29.209431862574487
+        },
+        "fiveYear": {
+          "targetPriceHKD": 160.7677612794226,
+          "intrinsicPriceHKD": 160.7677612794226,
+          "fundingFailure": false,
+          "capitalReturnPct": -12.004509425603393
+        }
+      }
+    },
+    {
+      "test": "discount_plus2pp",
+      "minCashCNYbn": 1.7272624347974062,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 117.42649333782599,
+          "intrinsicPriceHKD": 64.02089697786545,
+          "fundingFailure": false,
+          "capitalReturnPct": -35.72715197710673
+        },
+        "halfYear": {
+          "targetPriceHKD": 89.79671994658027,
+          "intrinsicPriceHKD": 66.57089993322535,
+          "fundingFailure": false,
+          "capitalReturnPct": -50.85018065321276
+        },
+        "oneYear": {
+          "targetPriceHKD": 71.49851016238726,
+          "intrinsicPriceHKD": 71.49851016238726,
+          "fundingFailure": false,
+          "capitalReturnPct": -60.86562114811862
+        },
+        "threeYear": {
+          "targetPriceHKD": 95.47492176109108,
+          "intrinsicPriceHKD": 95.47492176109108,
+          "fundingFailure": false,
+          "capitalReturnPct": -47.74224315211216
+        },
+        "fiveYear": {
+          "targetPriceHKD": 127.34081044268737,
+          "intrinsicPriceHKD": 127.34081044268737,
+          "fundingFailure": false,
+          "capitalReturnPct": -30.300596364155787
+        }
+      }
+    },
+    {
+      "test": "USShare_25pct_costlinked",
+      "minCashCNYbn": 1.924392798663599,
+      "firstNegativeYear": null,
+      "USShare": 0.25,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 123.31525705700977,
+          "intrinsicPriceHKD": 74.72774010365417,
+          "fundingFailure": false,
+          "capitalReturnPct": -32.503964391346585
+        },
+        "halfYear": {
+          "targetPriceHKD": 98.40974291893036,
+          "intrinsicPriceHKD": 77.33717864866296,
+          "fundingFailure": false,
+          "capitalReturnPct": -46.135882365117475
+        },
+        "oneYear": {
+          "targetPriceHKD": 82.34582371681793,
+          "intrinsicPriceHKD": 82.34582371681793,
+          "fundingFailure": false,
+          "capitalReturnPct": -54.92839424366834
+        },
+        "threeYear": {
+          "targetPriceHKD": 106.17193375713829,
+          "intrinsicPriceHKD": 106.17193375713829,
+          "fundingFailure": false,
+          "capitalReturnPct": -41.88728311048807
+        },
+        "fiveYear": {
+          "targetPriceHKD": 136.74963167173183,
+          "intrinsicPriceHKD": 136.74963167173183,
+          "fundingFailure": false,
+          "capitalReturnPct": -25.15072158088022
+        }
+      }
+    },
+    {
+      "test": "USShare_45pct_costlinked",
+      "minCashCNYbn": 1.2374628778233105,
+      "firstNegativeYear": null,
+      "USShare": 0.45,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 126.95425892083966,
+          "intrinsicPriceHKD": 81.34410712879941,
+          "fundingFailure": false,
+          "capitalReturnPct": -30.512173551811895
+        },
+        "halfYear": {
+          "targetPriceHKD": 103.88766753347393,
+          "intrinsicPriceHKD": 84.18458441684243,
+          "fundingFailure": false,
+          "capitalReturnPct": -43.13756566312319
+        },
+        "oneYear": {
+          "targetPriceHKD": 89.63669310404475,
+          "intrinsicPriceHKD": 89.63669310404475,
+          "fundingFailure": false,
+          "capitalReturnPct": -50.93777060533948
+        },
+        "threeYear": {
+          "targetPriceHKD": 115.5723582920197,
+          "intrinsicPriceHKD": 115.5723582920197,
+          "fundingFailure": false,
+          "capitalReturnPct": -36.74200421892736
+        },
+        "fiveYear": {
+          "targetPriceHKD": 148.8573944976728,
+          "intrinsicPriceHKD": 148.8573944976728,
+          "fundingFailure": false,
+          "capitalReturnPct": -18.523593597332887
+        }
+      }
+    },
+    {
+      "test": "USShare_zero_costlinked_proxy",
+      "minCashCNYbn": 2.001162972481731,
+      "firstNegativeYear": null,
+      "USShare": 0,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 118.76650472722244,
+          "intrinsicPriceHKD": 66.45728132222264,
+          "fundingFailure": false,
+          "capitalReturnPct": -34.99370294076495
+        },
+        "halfYear": {
+          "targetPriceHKD": 91.56233715075086,
+          "intrinsicPriceHKD": 68.77792143843858,
+          "fundingFailure": false,
+          "capitalReturnPct": -49.88377824261037
+        },
+        "oneYear": {
+          "targetPriceHKD": 73.23223698278437,
+          "intrinsicPriceHKD": 73.23223698278437,
+          "fundingFailure": false,
+          "capitalReturnPct": -59.916673791579434
+        },
+        "threeYear": {
+          "targetPriceHKD": 94.42140308853651,
+          "intrinsicPriceHKD": 94.42140308853651,
+          "fundingFailure": false,
+          "capitalReturnPct": -48.31888172493897
+        },
+        "fiveYear": {
+          "targetPriceHKD": 121.61492813930562,
+          "intrinsicPriceHKD": 121.61492813930562,
+          "fundingFailure": false,
+          "capitalReturnPct": -33.43463156031438
+        }
+      }
+    },
+    {
+      "test": "UScommercialPeak_minus30pct",
+      "minCashCNYbn": 1.637543814677454,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 119.98902189818924,
+          "intrinsicPriceHKD": 68.68003981488953,
+          "fundingFailure": false,
+          "capitalReturnPct": -34.32456382146183
+        },
+        "halfYear": {
+          "targetPriceHKD": 93.4026376378446,
+          "intrinsicPriceHKD": 71.07829704730577,
+          "fundingFailure": false,
+          "capitalReturnPct": -48.87649828251527
+        },
+        "oneYear": {
+          "targetPriceHKD": 75.68159352358596,
+          "intrinsicPriceHKD": 75.68159352358596,
+          "fundingFailure": false,
+          "capitalReturnPct": -58.576029817413264
+        },
+        "threeYear": {
+          "targetPriceHKD": 97.57946148979687,
+          "intrinsicPriceHKD": 97.57946148979687,
+          "fundingFailure": false,
+          "capitalReturnPct": -46.59033306524528
+        },
+        "fiveYear": {
+          "targetPriceHKD": 125.68251274370806,
+          "intrinsicPriceHKD": 125.68251274370806,
+          "fundingFailure": false,
+          "capitalReturnPct": -31.2082579399518
+        }
+      }
+    },
+    {
+      "test": "global1311_p_minus15pp",
+      "minCashCNYbn": 1.5796187036889675,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 115.87079561912122,
+          "intrinsicPriceHKD": 61.192355671129526,
+          "fundingFailure": false,
+          "capitalReturnPct": -36.5786559282314
+        },
+        "halfYear": {
+          "targetPriceHKD": 87.20331871839117,
+          "intrinsicPriceHKD": 63.32914839798898,
+          "fundingFailure": false,
+          "capitalReturnPct": -52.26966682080395
+        },
+        "oneYear": {
+          "targetPriceHKD": 67.43058101211403,
+          "intrinsicPriceHKD": 67.43058101211403,
+          "fundingFailure": false,
+          "capitalReturnPct": -63.092183354070045
+        },
+        "threeYear": {
+          "targetPriceHKD": 86.94108404384507,
+          "intrinsicPriceHKD": 86.94108404384507,
+          "fundingFailure": false,
+          "capitalReturnPct": -52.41319975706345
+        },
+        "fiveYear": {
+          "targetPriceHKD": 111.98026445795566,
+          "intrinsicPriceHKD": 111.98026445795566,
+          "fundingFailure": false,
+          "capitalReturnPct": -38.70812016532257
+        }
+      }
+    },
+    {
+      "test": "1310_global_p_minus15pp",
+      "minCashCNYbn": 1.7272624347974062,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 122.84832738848061,
+          "intrinsicPriceHKD": 73.87877706996476,
+          "fundingFailure": false,
+          "capitalReturnPct": -32.75953618583436
+        },
+        "halfYear": {
+          "targetPriceHKD": 97.70685635272103,
+          "intrinsicPriceHKD": 76.4585704409013,
+          "fundingFailure": false,
+          "capitalReturnPct": -46.520604076233695
+        },
+        "oneYear": {
+          "targetPriceHKD": 81.41031355396122,
+          "intrinsicPriceHKD": 81.41031355396122,
+          "fundingFailure": false,
+          "capitalReturnPct": -55.44044140450946
+        },
+        "threeYear": {
+          "targetPriceHKD": 104.96574115918062,
+          "intrinsicPriceHKD": 104.96574115918062,
+          "fundingFailure": false,
+          "capitalReturnPct": -42.547487050256905
+        },
+        "fiveYear": {
+          "targetPriceHKD": 135.19605354935172,
+          "intrinsicPriceHKD": 135.19605354935172,
+          "fundingFailure": false,
+          "capitalReturnPct": -26.00106538075987
+        }
+      }
+    },
+    {
+      "test": "allCommercialStart_plus2y",
+      "minCashCNYbn": -2.98331397055843,
+      "firstNegativeYear": 2032,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 82.21499999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -55.00000000000001
+        },
+        "halfYear": {
+          "targetPriceHKD": 36.53999999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -80
+        },
+        "oneYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "threeYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "fiveYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        }
+      }
+    },
+    {
+      "test": "RD_plus20pct",
+      "minCashCNYbn": -0.7010489351388979,
+      "firstNegativeYear": 2030,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 82.21499999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -55.00000000000001
+        },
+        "halfYear": {
+          "targetPriceHKD": 36.53999999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -80
+        },
+        "oneYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "threeYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "fiveYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        }
+      }
+    },
+    {
+      "test": "futureIssuePx_minus30pct",
+      "minCashCNYbn": 1.7272624347974062,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 120.45916895294013,
+          "intrinsicPriceHKD": 69.53485264170935,
+          "fundingFailure": false,
+          "capitalReturnPct": -34.067231005506216
+        },
+        "halfYear": {
+          "targetPriceHKD": 94.11036745498865,
+          "intrinsicPriceHKD": 71.96295931873583,
+          "fundingFailure": false,
+          "capitalReturnPct": -48.489125640400296
+        },
+        "oneYear": {
+          "targetPriceHKD": 76.62354983392724,
+          "intrinsicPriceHKD": 76.62354983392724,
+          "fundingFailure": false,
+          "capitalReturnPct": -58.06045438756035
+        },
+        "threeYear": {
+          "targetPriceHKD": 98.79396537681363,
+          "intrinsicPriceHKD": 98.79396537681363,
+          "fundingFailure": false,
+          "capitalReturnPct": -45.92557997985023
+        },
+        "fiveYear": {
+          "targetPriceHKD": 127.24679582056464,
+          "intrinsicPriceHKD": 127.24679582056464,
+          "fundingFailure": false,
+          "capitalReturnPct": -30.352054832750596
+        }
+      }
+    },
+    {
+      "test": "only_AsharePlan",
+      "minCashCNYbn": -2.6594554046409877,
+      "firstNegativeYear": 2029,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 82.21499999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -55.00000000000001
+        },
+        "halfYear": {
+          "targetPriceHKD": 36.53999999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -80
+        },
+        "oneYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "threeYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "fiveYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        }
+      }
+    },
+    {
+      "test": "no_futureCapital",
+      "minCashCNYbn": -6.766563809323863,
+      "firstNegativeYear": 2028,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 82.21499999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -55.00000000000001
+        },
+        "halfYear": {
+          "targetPriceHKD": 36.53999999999999,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -80
+        },
+        "oneYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "threeYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        },
+        "fiveYear": {
+          "targetPriceHKD": 0,
+          "intrinsicPriceHKD": 0,
+          "fundingFailure": true,
+          "capitalReturnPct": -100
+        }
+      }
+    },
+    {
+      "test": "Genentech_delayed",
+      "minCashCNYbn": 1.7251468508329397,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 125.1226551595489,
+          "intrinsicPriceHKD": 78.0139184719071,
+          "fundingFailure": false,
+          "capitalReturnPct": -31.514693399261684
+        },
+        "halfYear": {
+          "targetPriceHKD": 101.13048638778866,
+          "intrinsicPriceHKD": 80.73810798473585,
+          "fundingFailure": false,
+          "capitalReturnPct": -44.64669601106258
+        },
+        "oneYear": {
+          "targetPriceHKD": 85.96700996223129,
+          "intrinsicPriceHKD": 85.96700996223129,
+          "fundingFailure": false,
+          "capitalReturnPct": -52.94635470047548
+        },
+        "threeYear": {
+          "targetPriceHKD": 110.84088148049155,
+          "intrinsicPriceHKD": 110.84088148049155,
+          "fundingFailure": false,
+          "capitalReturnPct": -39.331756168313326
+        },
+        "fiveYear": {
+          "targetPriceHKD": 142.76324429862066,
+          "intrinsicPriceHKD": 142.76324429862066,
+          "fundingFailure": false,
+          "capitalReturnPct": -21.85919852292245
+        }
+      }
+    },
+    {
+      "test": "bank_no_rollover",
+      "minCashCNYbn": 1.7276465768269493,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 125.13695558803576,
+          "intrinsicPriceHKD": 78.03991925097414,
+          "fundingFailure": false,
+          "capitalReturnPct": -31.50686612586986
+        },
+        "halfYear": {
+          "targetPriceHKD": 101.15201335373649,
+          "intrinsicPriceHKD": 80.76501669217062,
+          "fundingFailure": false,
+          "capitalReturnPct": -44.63491332581473
+        },
+        "oneYear": {
+          "targetPriceHKD": 85.99566137824604,
+          "intrinsicPriceHKD": 85.99566137824604,
+          "fundingFailure": false,
+          "capitalReturnPct": -52.93067248043457
+        },
+        "threeYear": {
+          "targetPriceHKD": 110.8778229561592,
+          "intrinsicPriceHKD": 110.8778229561592,
+          "fundingFailure": false,
+          "capitalReturnPct": -39.31153642246349
+        },
+        "fiveYear": {
+          "targetPriceHKD": 142.81082498225518,
+          "intrinsicPriceHKD": 142.81082498225518,
+          "fundingFailure": false,
+          "capitalReturnPct": -21.833155455799012
+        }
+      }
+    },
+    {
+      "test": "distributionRate_40pct",
+      "minCashCNYbn": 2.0231238350000003,
+      "firstNegativeYear": null,
+      "USShare": 0.35,
+      "scenarios": {
+        "yearEnd": {
+          "targetPriceHKD": 121.91489876035118,
+          "intrinsicPriceHKD": 72.18163410972943,
+          "fundingFailure": false,
+          "capitalReturnPct": -33.27044402826974
+        },
+        "halfYear": {
+          "targetPriceHKD": 96.3017315824445,
+          "intrinsicPriceHKD": 74.70216447805564,
+          "fundingFailure": false,
+          "capitalReturnPct": -47.28969262044635
+        },
+        "oneYear": {
+          "targetPriceHKD": 79.54015616887332,
+          "intrinsicPriceHKD": 79.54015616887332,
+          "fundingFailure": false,
+          "capitalReturnPct": -56.464063399631456
+        },
+        "threeYear": {
+          "targetPriceHKD": 102.55446858890672,
+          "intrinsicPriceHKD": 102.55446858890672,
+          "fundingFailure": false,
+          "capitalReturnPct": -43.86728593929572
+        },
+        "fiveYear": {
+          "targetPriceHKD": 132.09033036831437,
+          "intrinsicPriceHKD": 132.09033036831437,
+          "fundingFailure": false,
+          "capitalReturnPct": -27.700968599718458
+        }
+      }
+    }
+  ]
+}

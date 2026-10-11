@@ -1,0 +1,5040 @@
+{
+  "issuerId": "I059",
+  "securityId": "S069",
+  "code": "09880.HK",
+  "name": "优必选",
+  "company": "UBTECH",
+  "asOf": "2026-10-09",
+  "price": 71.75,
+  "priceCurrency": "HKD",
+  "earningsCurrency": "RMB",
+  "fx": {
+    "HKDperRMB": 1.1684
+  },
+  "modelVersion": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/ubtech_deep.md",
+  "status": "sources-model-body-pending",
+  "nativeWorkbookQAFile": "qa/ubtech_native_workbook_qa.json",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "humanoidUnits": [
+          2300,
+          4200,
+          6500
+        ],
+        "humanoidASP": [
+          0.52,
+          0.6,
+          0.68
+        ],
+        "legacyRevenue": [
+          0.75,
+          0.9,
+          1.05
+        ],
+        "legacyGross": [
+          0.28,
+          0.35,
+          0.39
+        ],
+        "humanoidGross": [
+          0.38,
+          0.5,
+          0.55
+        ],
+        "UqiRevenue": [
+          0.35,
+          0.48,
+          0.65
+        ],
+        "UqiOperatingMargin": [
+          -0.03,
+          0.08,
+          0.13
+        ],
+        "FengRevenue": [
+          0.5,
+          0.6,
+          0.75
+        ],
+        "FengOperatingMargin": [
+          0.01,
+          0.065,
+          0.1
+        ],
+        "centralRD": [
+          0.72,
+          0.8,
+          0.95
+        ],
+        "centralSales": [
+          0.42,
+          0.46,
+          0.56
+        ],
+        "centralAdmin": [
+          0.25,
+          0.28,
+          0.33
+        ],
+        "normalSBC": [
+          0.1,
+          0.14,
+          0.2
+        ],
+        "creditLoss": [
+          0.16,
+          0.12,
+          0.1
+        ],
+        "surcharge": [
+          0.025,
+          0.04,
+          0.07
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterestFull": [
+          0.06,
+          0.06,
+          0.075
+        ],
+        "leaseInterest": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "DANonROU": [
+          0.09,
+          0.11,
+          0.14
+        ],
+        "DAROU": [
+          0.027,
+          0.03,
+          0.045
+        ],
+        "capitalCashExInterest": [
+          0.55,
+          0.65,
+          0.9
+        ],
+        "NWC": [
+          0.6,
+          0.7,
+          1
+        ],
+        "leaseCash": [
+          0.04,
+          0.045,
+          0.065
+        ],
+        "cashYears": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cashAnchor": [
+          2.325626,
+          2.325626,
+          2.325626
+        ],
+        "liquidNAV": [
+          0.270055,
+          0.270055,
+          0.270055
+        ],
+        "liquidRealizable": [
+          0.85,
+          0.98,
+          1
+        ],
+        "otherInvestmentNAV": [
+          0.081575,
+          0.081575,
+          0.081575
+        ],
+        "otherInvestmentRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "associateNAV": [
+          0.119264,
+          0.119264,
+          0.119264
+        ],
+        "associateRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "bankDebt": [
+          0.997327,
+          0.997327,
+          0.997327
+        ],
+        "extraDebt": [
+          0.15,
+          0.12,
+          0.1
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "extraCapitalCash": [
+          0.25,
+          0.32,
+          0.45
+        ],
+        "operatingReserve": [
+          0.65,
+          0.75,
+          1
+        ],
+        "futureEquityNet": [
+          0.4,
+          0.25,
+          0.2
+        ],
+        "futureIssuePriceHKD": [
+          50,
+          75,
+          120
+        ],
+        "baseSharesM": [
+          503.401373,
+          503.401373,
+          503.401373
+        ],
+        "newAwardSharesM": [
+          1.4,
+          1.959832,
+          1.959832
+        ],
+        "trustSharesHeldM": [
+          1.14695,
+          1.14695,
+          1.14695
+        ],
+        "trustToDeliverFraction": [
+          0.5,
+          0.7,
+          1
+        ],
+        "humEVSales": [
+          6,
+          11,
+          16
+        ],
+        "UqiEVSales": [
+          1,
+          2,
+          3
+        ],
+        "FengEVSales": [
+          0.8,
+          1.2,
+          1.8
+        ],
+        "UqiOwnership": [
+          0.3988,
+          0.3988,
+          0.3988
+        ],
+        "FengOwnership": [
+          0.4301,
+          0.4301,
+          0.4301
+        ],
+        "UqiNetCapital": [
+          0.07,
+          0.1,
+          0.15
+        ],
+        "FengNetCapital": [
+          0.27,
+          0.31,
+          0.34
+        ],
+        "otherNCIValue": [
+          0.04,
+          0.06,
+          0.09
+        ],
+        "FX": [
+          1.1684,
+          1.1684,
+          1.1684
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "halfYear": {
+        "humanoidUnits": [
+          2400,
+          6500,
+          10000
+        ],
+        "humanoidASP": [
+          0.48,
+          0.57,
+          0.64
+        ],
+        "legacyRevenue": [
+          0.72,
+          1,
+          1.25
+        ],
+        "legacyGross": [
+          0.27,
+          0.36,
+          0.4
+        ],
+        "humanoidGross": [
+          0.34,
+          0.5,
+          0.56
+        ],
+        "UqiRevenue": [
+          0.4,
+          0.65,
+          0.9
+        ],
+        "UqiOperatingMargin": [
+          -0.03,
+          0.08,
+          0.13
+        ],
+        "FengRevenue": [
+          0.55,
+          0.7,
+          0.85
+        ],
+        "FengOperatingMargin": [
+          0.01,
+          0.065,
+          0.1
+        ],
+        "centralRD": [
+          0.85,
+          1,
+          1.3
+        ],
+        "centralSales": [
+          0.45,
+          0.58,
+          0.78
+        ],
+        "centralAdmin": [
+          0.28,
+          0.34,
+          0.44
+        ],
+        "normalSBC": [
+          0.13,
+          0.18,
+          0.28
+        ],
+        "creditLoss": [
+          0.18,
+          0.15,
+          0.12
+        ],
+        "surcharge": [
+          0.025,
+          0.04,
+          0.07
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterestFull": [
+          0.06,
+          0.06,
+          0.075
+        ],
+        "leaseInterest": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "DANonROU": [
+          0.12,
+          0.15,
+          0.22
+        ],
+        "DAROU": [
+          0.027,
+          0.03,
+          0.045
+        ],
+        "capitalCashExInterest": [
+          0.7,
+          0.9,
+          1.4
+        ],
+        "NWC": [
+          0.65,
+          1,
+          1.8
+        ],
+        "leaseCash": [
+          0.04,
+          0.045,
+          0.065
+        ],
+        "cashYears": [
+          1,
+          1,
+          1
+        ],
+        "cashAnchor": [
+          2.325626,
+          2.325626,
+          2.325626
+        ],
+        "liquidNAV": [
+          0.270055,
+          0.270055,
+          0.270055
+        ],
+        "liquidRealizable": [
+          0.85,
+          0.98,
+          1
+        ],
+        "otherInvestmentNAV": [
+          0.081575,
+          0.081575,
+          0.081575
+        ],
+        "otherInvestmentRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "associateNAV": [
+          0.119264,
+          0.119264,
+          0.119264
+        ],
+        "associateRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "bankDebt": [
+          0.997327,
+          0.997327,
+          0.997327
+        ],
+        "extraDebt": [
+          0.15,
+          0.12,
+          0.1
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "extraCapitalCash": [
+          0.25,
+          0.32,
+          0.45
+        ],
+        "operatingReserve": [
+          0.7,
+          0.9,
+          1.4
+        ],
+        "futureEquityNet": [
+          0.8,
+          0.5,
+          0.4
+        ],
+        "futureIssuePriceHKD": [
+          40,
+          80,
+          150
+        ],
+        "baseSharesM": [
+          503.401373,
+          503.401373,
+          503.401373
+        ],
+        "newAwardSharesM": [
+          1.5,
+          1.959832,
+          1.959832
+        ],
+        "trustSharesHeldM": [
+          1.14695,
+          1.14695,
+          1.14695
+        ],
+        "trustToDeliverFraction": [
+          1,
+          1,
+          1
+        ],
+        "humEVSales": [
+          4.5,
+          10,
+          15
+        ],
+        "UqiEVSales": [
+          1,
+          2,
+          3
+        ],
+        "FengEVSales": [
+          0.8,
+          1.2,
+          1.8
+        ],
+        "UqiOwnership": [
+          0.3988,
+          0.3988,
+          0.3988
+        ],
+        "FengOwnership": [
+          0.4301,
+          0.4301,
+          0.4301
+        ],
+        "UqiNetCapital": [
+          0.07,
+          0.1,
+          0.15
+        ],
+        "FengNetCapital": [
+          0.27,
+          0.31,
+          0.34
+        ],
+        "otherNCIValue": [
+          0.04,
+          0.06,
+          0.09
+        ],
+        "FX": [
+          1.1684,
+          1.1684,
+          1.1684
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "oneYear": {
+        "humanoidUnits": [
+          2700,
+          10000,
+          18000
+        ],
+        "humanoidASP": [
+          0.44,
+          0.53,
+          0.6
+        ],
+        "legacyRevenue": [
+          0.75,
+          1.1,
+          1.5
+        ],
+        "legacyGross": [
+          0.25,
+          0.36,
+          0.4
+        ],
+        "humanoidGross": [
+          0.3,
+          0.5,
+          0.57
+        ],
+        "UqiRevenue": [
+          0.45,
+          0.9,
+          1.4
+        ],
+        "UqiOperatingMargin": [
+          -0.03,
+          0.08,
+          0.13
+        ],
+        "FengRevenue": [
+          0.6,
+          0.85,
+          1.1
+        ],
+        "FengOperatingMargin": [
+          0.01,
+          0.065,
+          0.1
+        ],
+        "centralRD": [
+          0.95,
+          1.3,
+          1.9
+        ],
+        "centralSales": [
+          0.5,
+          0.75,
+          1.15
+        ],
+        "centralAdmin": [
+          0.32,
+          0.42,
+          0.65
+        ],
+        "normalSBC": [
+          0.18,
+          0.25,
+          0.4
+        ],
+        "creditLoss": [
+          0.2,
+          0.18,
+          0.16
+        ],
+        "surcharge": [
+          0.025,
+          0.04,
+          0.07
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterestFull": [
+          0.06,
+          0.06,
+          0.075
+        ],
+        "leaseInterest": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "DANonROU": [
+          0.16,
+          0.23,
+          0.35
+        ],
+        "DAROU": [
+          0.027,
+          0.03,
+          0.045
+        ],
+        "capitalCashExInterest": [
+          0.8,
+          1.3,
+          2.4
+        ],
+        "NWC": [
+          0.75,
+          1.5,
+          3
+        ],
+        "leaseCash": [
+          0.04,
+          0.045,
+          0.065
+        ],
+        "cashYears": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "cashAnchor": [
+          2.325626,
+          2.325626,
+          2.325626
+        ],
+        "liquidNAV": [
+          0.270055,
+          0.270055,
+          0.270055
+        ],
+        "liquidRealizable": [
+          0.85,
+          0.98,
+          1
+        ],
+        "otherInvestmentNAV": [
+          0.081575,
+          0.081575,
+          0.081575
+        ],
+        "otherInvestmentRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "associateNAV": [
+          0.119264,
+          0.119264,
+          0.119264
+        ],
+        "associateRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "bankDebt": [
+          0.997327,
+          0.997327,
+          0.997327
+        ],
+        "extraDebt": [
+          0.15,
+          0.12,
+          0.1
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "extraCapitalCash": [
+          0.25,
+          0.32,
+          0.45
+        ],
+        "operatingReserve": [
+          0.75,
+          1.3,
+          2
+        ],
+        "futureEquityNet": [
+          1.4,
+          0.8,
+          0.7
+        ],
+        "futureIssuePriceHKD": [
+          30,
+          85,
+          180
+        ],
+        "baseSharesM": [
+          503.401373,
+          503.401373,
+          503.401373
+        ],
+        "newAwardSharesM": [
+          2,
+          2.963295,
+          2.963295
+        ],
+        "trustSharesHeldM": [
+          1.14695,
+          1.14695,
+          1.14695
+        ],
+        "trustToDeliverFraction": [
+          1,
+          1,
+          1
+        ],
+        "humEVSales": [
+          3.5,
+          9,
+          13
+        ],
+        "UqiEVSales": [
+          1,
+          2,
+          3
+        ],
+        "FengEVSales": [
+          0.8,
+          1.2,
+          1.8
+        ],
+        "UqiOwnership": [
+          0.3988,
+          0.3988,
+          0.3988
+        ],
+        "FengOwnership": [
+          0.4301,
+          0.4301,
+          0.4301
+        ],
+        "UqiNetCapital": [
+          0.07,
+          0.1,
+          0.15
+        ],
+        "FengNetCapital": [
+          0.27,
+          0.31,
+          0.34
+        ],
+        "otherNCIValue": [
+          0.04,
+          0.06,
+          0.09
+        ],
+        "FX": [
+          1.1684,
+          1.1684,
+          1.1684
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "threeYear": {
+        "humanoidUnits": [
+          3000,
+          28000,
+          60000
+        ],
+        "humanoidASP": [
+          0.34,
+          0.43,
+          0.5
+        ],
+        "legacyRevenue": [
+          0.8,
+          1.7,
+          2.6
+        ],
+        "legacyGross": [
+          0.24,
+          0.36,
+          0.4
+        ],
+        "humanoidGross": [
+          0.24,
+          0.48,
+          0.55
+        ],
+        "UqiRevenue": [
+          0.6,
+          1.8,
+          3
+        ],
+        "UqiOperatingMargin": [
+          -0.03,
+          0.08,
+          0.13
+        ],
+        "FengRevenue": [
+          0.7,
+          1.3,
+          2
+        ],
+        "FengOperatingMargin": [
+          0.01,
+          0.065,
+          0.1
+        ],
+        "centralRD": [
+          1.2,
+          2.6,
+          4.5
+        ],
+        "centralSales": [
+          0.6,
+          1.5,
+          2.9
+        ],
+        "centralAdmin": [
+          0.4,
+          0.85,
+          1.6
+        ],
+        "normalSBC": [
+          0.22,
+          0.55,
+          1
+        ],
+        "creditLoss": [
+          0.23,
+          0.3,
+          0.45
+        ],
+        "surcharge": [
+          0.025,
+          0.04,
+          0.07
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterestFull": [
+          0.06,
+          0.06,
+          0.075
+        ],
+        "leaseInterest": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "DANonROU": [
+          0.25,
+          0.65,
+          1.3
+        ],
+        "DAROU": [
+          0.027,
+          0.03,
+          0.045
+        ],
+        "capitalCashExInterest": [
+          0.9,
+          2.7,
+          6
+        ],
+        "NWC": [
+          0.85,
+          3,
+          7
+        ],
+        "leaseCash": [
+          0.04,
+          0.045,
+          0.065
+        ],
+        "cashYears": [
+          3,
+          3,
+          3
+        ],
+        "cashAnchor": [
+          2.325626,
+          2.325626,
+          2.325626
+        ],
+        "liquidNAV": [
+          0.270055,
+          0.270055,
+          0.270055
+        ],
+        "liquidRealizable": [
+          0.85,
+          0.98,
+          1
+        ],
+        "otherInvestmentNAV": [
+          0.081575,
+          0.081575,
+          0.081575
+        ],
+        "otherInvestmentRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "associateNAV": [
+          0.119264,
+          0.119264,
+          0.119264
+        ],
+        "associateRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "bankDebt": [
+          0.997327,
+          0.997327,
+          0.997327
+        ],
+        "extraDebt": [
+          0.15,
+          0.12,
+          0.1
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "extraCapitalCash": [
+          0.25,
+          0.32,
+          0.45
+        ],
+        "operatingReserve": [
+          0.75,
+          2.5,
+          5
+        ],
+        "futureEquityNet": [
+          3,
+          2,
+          2
+        ],
+        "futureIssuePriceHKD": [
+          20,
+          90,
+          200
+        ],
+        "baseSharesM": [
+          503.401373,
+          503.401373,
+          503.401373
+        ],
+        "newAwardSharesM": [
+          3,
+          8,
+          14
+        ],
+        "trustSharesHeldM": [
+          1.14695,
+          1.14695,
+          1.14695
+        ],
+        "trustToDeliverFraction": [
+          1,
+          1,
+          1
+        ],
+        "humEVSales": [
+          1.8,
+          6,
+          9
+        ],
+        "UqiEVSales": [
+          1,
+          2,
+          3
+        ],
+        "FengEVSales": [
+          0.8,
+          1.2,
+          1.8
+        ],
+        "UqiOwnership": [
+          0.3988,
+          0.3988,
+          0.3988
+        ],
+        "FengOwnership": [
+          0.4301,
+          0.4301,
+          0.4301
+        ],
+        "UqiNetCapital": [
+          0.07,
+          0.1,
+          0.15
+        ],
+        "FengNetCapital": [
+          0.27,
+          0.31,
+          0.34
+        ],
+        "otherNCIValue": [
+          0.04,
+          0.06,
+          0.09
+        ],
+        "FX": [
+          1.1684,
+          1.1684,
+          1.1684
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "fiveYear": {
+        "humanoidUnits": [
+          3500,
+          50000,
+          140000
+        ],
+        "humanoidASP": [
+          0.28,
+          0.35,
+          0.42
+        ],
+        "legacyRevenue": [
+          0.8,
+          2.3,
+          3.8
+        ],
+        "legacyGross": [
+          0.22,
+          0.35,
+          0.4
+        ],
+        "humanoidGross": [
+          0.2,
+          0.46,
+          0.53
+        ],
+        "UqiRevenue": [
+          0.65,
+          2.8,
+          5
+        ],
+        "UqiOperatingMargin": [
+          -0.03,
+          0.08,
+          0.13
+        ],
+        "FengRevenue": [
+          0.8,
+          1.8,
+          3
+        ],
+        "FengOperatingMargin": [
+          0.01,
+          0.065,
+          0.1
+        ],
+        "centralRD": [
+          1.3,
+          3.6,
+          8
+        ],
+        "centralSales": [
+          0.65,
+          2.2,
+          5.5
+        ],
+        "centralAdmin": [
+          0.45,
+          1.3,
+          3.2
+        ],
+        "normalSBC": [
+          0.25,
+          0.8,
+          2
+        ],
+        "creditLoss": [
+          0.25,
+          0.4,
+          0.8
+        ],
+        "surcharge": [
+          0.025,
+          0.04,
+          0.07
+        ],
+        "taxRate": [
+          0.25,
+          0.18,
+          0.18
+        ],
+        "bankInterestFull": [
+          0.06,
+          0.06,
+          0.075
+        ],
+        "leaseInterest": [
+          0.003,
+          0.004,
+          0.006
+        ],
+        "DANonROU": [
+          0.32,
+          1,
+          2.8
+        ],
+        "DAROU": [
+          0.027,
+          0.03,
+          0.045
+        ],
+        "capitalCashExInterest": [
+          1,
+          3.8,
+          12
+        ],
+        "NWC": [
+          0.9,
+          4.4,
+          15
+        ],
+        "leaseCash": [
+          0.04,
+          0.045,
+          0.065
+        ],
+        "cashYears": [
+          4.5,
+          4.5,
+          4.5
+        ],
+        "cashAnchor": [
+          2.325626,
+          2.325626,
+          2.325626
+        ],
+        "liquidNAV": [
+          0.270055,
+          0.270055,
+          0.270055
+        ],
+        "liquidRealizable": [
+          0.85,
+          0.98,
+          1
+        ],
+        "otherInvestmentNAV": [
+          0.081575,
+          0.081575,
+          0.081575
+        ],
+        "otherInvestmentRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "associateNAV": [
+          0.119264,
+          0.119264,
+          0.119264
+        ],
+        "associateRealizable": [
+          0.3,
+          0.6,
+          0.9
+        ],
+        "bankDebt": [
+          0.997327,
+          0.997327,
+          0.997327
+        ],
+        "extraDebt": [
+          0.15,
+          0.12,
+          0.1
+        ],
+        "postJuneCashDelta": [
+          -0.35,
+          -0.2,
+          -0.1
+        ],
+        "extraCapitalCash": [
+          0.25,
+          0.32,
+          0.45
+        ],
+        "operatingReserve": [
+          0.8,
+          3.5,
+          9
+        ],
+        "futureEquityNet": [
+          5,
+          3.5,
+          4
+        ],
+        "futureIssuePriceHKD": [
+          15,
+          100,
+          250
+        ],
+        "baseSharesM": [
+          503.401373,
+          503.401373,
+          503.401373
+        ],
+        "newAwardSharesM": [
+          5,
+          15,
+          28
+        ],
+        "trustSharesHeldM": [
+          1.14695,
+          1.14695,
+          1.14695
+        ],
+        "trustToDeliverFraction": [
+          1,
+          1,
+          1
+        ],
+        "humEVSales": [
+          1,
+          4.5,
+          7
+        ],
+        "UqiEVSales": [
+          1,
+          2,
+          3
+        ],
+        "FengEVSales": [
+          0.8,
+          1.2,
+          1.8
+        ],
+        "UqiOwnership": [
+          0.3988,
+          0.3988,
+          0.3988
+        ],
+        "FengOwnership": [
+          0.4301,
+          0.4301,
+          0.4301
+        ],
+        "UqiNetCapital": [
+          0.07,
+          0.1,
+          0.15
+        ],
+        "FengNetCapital": [
+          0.27,
+          0.31,
+          0.34
+        ],
+        "otherNCIValue": [
+          0.04,
+          0.06,
+          0.09
+        ],
+        "FX": [
+          1.1684,
+          1.1684,
+          1.1684
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "type": "humanoid-units-ASP-fullcost-Uqi-Feng-NCI-finance",
+    "capitalNote": "RMB十亿/股数百万。全尺寸销量×RMB百万ASP，不把全部921台当WalkerS；优奇物流/锋龙分开收入和全费用利润，中央研发销售行政不再重复包含已独立业务费用，额外常态SBC保留。全集团合并现金、债与现金代理，终值扣优奇60.12%、锋龙56.99%独立权益（EV+研究净资本分配）及其他NCI；不是全部合并价值归母，锋龙不另完整加所持市值。借款利息含资本化全部扣正常利润和现金，资本现金ExInterest避免重复；PPE/ROU折旧分别加回后扣完整租现金，不重复扣租债。九月法定503.401373m与信托已发持股分开，目标交付解除有效流通分母扣减；2026新奖股月报未发，按条件目标新增。现金不足自动最低补足股融与发行价联动，不保证融资成功。",
+    "fieldMetadata": {
+      "humanoidUnits": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "units",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "humanoidASP": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB million per unit",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "legacyRevenue": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "legacyGross": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "humanoidGross": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "UqiRevenue": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "UqiOperatingMargin": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FengRevenue": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FengOperatingMargin": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "centralRD": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "centralSales": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "centralAdmin": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "normalSBC": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "creditLoss": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "surcharge": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "taxRate": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "bankInterestFull": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "leaseInterest": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "DANonROU": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "DAROU": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "capitalCashExInterest": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "NWC": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "leaseCash": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "cashYears": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "cashAnchor": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "liquidNAV": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "liquidRealizable": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "otherInvestmentNAV": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "otherInvestmentRealizable": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "associateNAV": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "associateRealizable": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "bankDebt": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "extraDebt": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "postJuneCashDelta": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "extraCapitalCash": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "operatingReserve": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "futureEquityNet": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "futureIssuePriceHKD": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "baseSharesM": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": null,
+        "unit": "million shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "newAwardSharesM": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "million shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "trustSharesHeldM": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": null,
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "trustToDeliverFraction": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "humEVSales": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "UqiEVSales": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FengEVSales": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "UqiOwnership": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FengOwnership": {
+        "code": "09880.HK",
+        "reportPeriod": "2026-06/09/10原件锚",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "UqiNetCapital": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FengNetCapital": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "otherNCIValue": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "RMB",
+        "unit": "RMB billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "FX": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": null,
+        "unit": "HKD per RMB",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      },
+      "dividend": {
+        "code": "09880.HK",
+        "reportPeriod": "目标NTM正常经营及资本研究准备",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+        "type": "研究假设；源锚与正常分配不冒充指引",
+        "version": "ubtech-units-ASP-fullcost-UqiFeng-NCI-finance-v1.0"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "publicationDate": "2026-04-14 22:31",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_annual.pdf"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "publicationDate": "2026-03-31 20:03",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_fyresults.pdf"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "publicationDate": "2026-09-24 18:01",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_interim.pdf"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "publicationDate": "2026-08-28 18:45",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_h1results.pdf"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100201963.pdf",
+      "publicationDate": "2026-10-02 16:48",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_shares.pdf"
+    },
+    {
+      "id": "onmarket",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1008/2026100801141.pdf",
+      "publicationDate": "2026-10-08 19:56",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_onmarket.pdf"
+    },
+    {
+      "id": "awards",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400763.pdf",
+      "publicationDate": "2026-09-14 18:00",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_awards.pdf"
+    },
+    {
+      "id": "circulation",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092301339.pdf",
+      "publicationDate": "2026-09-23 19:14",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_circulation.pdf"
+    },
+    {
+      "id": "credit",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0810/2026081001368.pdf",
+      "publicationDate": "2026-08-10 22:52",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/ubtech_credit.pdf"
+    },
+    {
+      "id": "fenglong",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608171828059018_1.pdf",
+      "publicationDate": "2026-08-18",
+      "publicationTimeStatus": "公告平台只提供日期，时刻待核验",
+      "afterMarketClose": null,
+      "sourceType": "锋龙半年度报告原件经公开镜像",
+      "localFile": "data/tech_raw/ubtech_fenglong.pdf"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 683,
+    "MA": {
+      "20": 76.255,
+      "60": 81.713333,
+      "120": 93.372917,
+      "250": 108.3868
+    },
+    "maSlope5Pct": {
+      "20": -3.57538,
+      "60": -1.218947,
+      "120": -1.590571,
+      "250": -1.319422
+    },
+    "priceVsMAPct": {
+      "20": -5.907809,
+      "60": -12.193032,
+      "120": -23.15759,
+      "250": -33.801902
+    },
+    "returnPct": {
+      "20": -10.980147,
+      "60": -19.109355,
+      "120": -37.006147,
+      "250": -54.502219
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 161,
+    "low52w": 69,
+    "distanceFrom52wHighPct": -55.434783,
+    "distanceFrom52wLowPct": 3.985507,
+    "maxDrawdown52wPct": -56.119215,
+    "RSI14": 38.093083,
+    "ATR14": 3.329988,
+    "ATR14Pct": 4.641099,
+    "MACD": {
+      "DIF": -2.811311,
+      "DEA": -2.486979,
+      "histogram": -0.648664,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 2708321.2,
+      "20": 3269006.9,
+      "60": 4839355.067
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.206484,
+    "previous20MeanVolume": 3313719.4,
+    "upDownVolume20": {
+      "upVolume": 24367896,
+      "downVolume": 41012242,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.594162
+    },
+    "ranges": {
+      "20": {
+        "support": 69,
+        "resistance": 82.349998,
+        "toSupportPct": -3.832753,
+        "toResistancePct": 14.773516,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 69,
+        "resistance": 95.449997,
+        "toSupportPct": -3.832753,
+        "toResistancePct": 33.031355,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 146,
+    "MA": {
+      "20": 88.6075,
+      "60": 109.5125,
+      "120": 99.37125,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -9.134493,
+      "60": -1.112917,
+      "120": -3.37609,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -19.024914,
+      "60": -34.482365,
+      "120": -27.796017,
+      "250": null
+    },
+    "returnPct": {
+      "20": -42.090396,
+      "60": -22.766417,
+      "120": -54.646017,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 156.399994,
+    "low52w": 69,
+    "distanceFrom52wHighPct": -54.124039,
+    "distanceFrom52wLowPct": 3.985507,
+    "maxDrawdown52wPct": -50.346021,
+    "RSI14": 38.018091,
+    "ATR14": 11.50919,
+    "ATR14Pct": 16.040682,
+    "MACD": {
+      "DIF": -9.042852,
+      "DEA": -8.063986,
+      "histogram": -1.957732,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 16672348.8,
+      "20": 35667748.45,
+      "60": 40245793.783
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.359903,
+    "previous20MeanVolume": 37625754.65,
+    "upDownVolume20": {
+      "upVolume": 338644268,
+      "downVolume": 374710701,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 0.903749
+    },
+    "ranges": {
+      "20": {
+        "support": 69,
+        "resistance": 125,
+        "toSupportPct": -3.832753,
+        "toResistancePct": 74.216028,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 69,
+        "resistance": 161,
+        "toSupportPct": -3.832753,
+        "toResistancePct": 124.390244,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -8.002239,
+    "excess60Pct": -15.921452,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -7.916983,
+    "industryExcess60Pct": -5.941336
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk01877,hk02162,hk01801,hk02268,hk06821,hk00867,hk09995,hk09926,hk01763,hk03442,hk07709,hk00100,hk02513,hk09992,hk01811,hk01797,hk09880,hk02400,hk01211,hk09660,hk03750,hk09999,hk00992,hk09888,hk00241",
+      "retrievedAt": "2026-10-10T09:16:12.161Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk03347,rt_hk06127,rt_hk01877,rt_hk02162,rt_hk01801,rt_hk02268,rt_hk06821,rt_hk00867,rt_hk09995,rt_hk09926,rt_hk01763,rt_hk03442,rt_hk07709,rt_hk00100,rt_hk02513,rt_hk09992,rt_hk01811,rt_hk01797,rt_hk09880,rt_hk02400,rt_hk01211,rt_hk09660,rt_hk03750,rt_hk09999,rt_hk00992",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/9880.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:17.931Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk09880,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:18.052Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        25.7,
+        86.86,
+        203.21
+      ],
+      "epsRMB": [
+        -2.095301,
+        -0.594775,
+        0.966067
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueRMB": [
+        2.796,
+        4.5,
+        6.87
+      ],
+      "normalParentProfitRMB": [
+        -1.0760945249999998,
+        -0.30268798760000015,
+        0.49009400200000003
+      ],
+      "dilutedSharesM": [
+        513.5750979999999,
+        508.91178666666667,
+        507.30853833333333
+      ],
+      "cashAnnualRMB": [
+        -2.15027,
+        -1.5165320000000002,
+        -1.2071999999999998
+      ],
+      "operatingCases": [
+        {
+          "humanoidRevenueRMB": 1.196,
+          "coreRevenueRMB": 1.946,
+          "revenueRMB": 2.796,
+          "coreGrossRMB": 0.66448,
+          "UqiOperatingRMB": -0.010499999999999999,
+          "FengOperatingRMB": 0.005,
+          "centralOperatingRMB": -1.0105199999999999,
+          "operatingRMB": -1.01602,
+          "taxRMB": 0.00125,
+          "coreAfterTaxRMB": -1.0105199999999999,
+          "UqiAfterTaxRMB": -0.010499999999999999,
+          "FengAfterTaxRMB": 0.00375,
+          "groupProfitRMB": -1.01727,
+          "nonControlProfitRMB": -0.004175474999999999,
+          "parentProfitRMB": -1.0760945249999998,
+          "cashAnnualRMB": -2.15027,
+          "liquidRMB": 2.55517275,
+          "cashBeforeFinanceRMB": 0.8800377500000001,
+          "requiredFinanceRMB": 0,
+          "totalFutureFinanceRMB": 0.4,
+          "futureFinanceSharesM": 9.3472,
+          "effectiveTrustSharesM": 0.573475,
+          "sharesM": 513.5750979999999,
+          "eps": -2.095301,
+          "cashPreDividendRMB": -0.51728925,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -0.51728925,
+          "coreEVRMB": 11.676,
+          "UqiEVRMB": 0.35,
+          "FengEVRMB": 0.4,
+          "operatingEVRMB": 12.426,
+          "nonControlValueRMB": 0.6743370000000001,
+          "nonCoreNAVRMB": 0.06025169999999999,
+          "equityRMB": 11.294625450000002,
+          "EVSales": 6,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 25.7,
+          "dividend": 0,
+          "priceReturn": -0.6418118466898954,
+          "totalReturn": -0.6418118466898954
+        },
+        {
+          "humanoidRevenueRMB": 2.52,
+          "coreRevenueRMB": 3.42,
+          "revenueRMB": 4.5,
+          "coreGrossRMB": 1.575,
+          "UqiOperatingRMB": 0.0384,
+          "FengOperatingRMB": 0.039,
+          "centralOperatingRMB": -0.2650000000000001,
+          "operatingRMB": -0.18760000000000013,
+          "taxRMB": 0.013931999999999998,
+          "coreAfterTaxRMB": -0.2650000000000001,
+          "UqiAfterTaxRMB": 0.031487999999999995,
+          "FengAfterTaxRMB": 0.03198,
+          "groupProfitRMB": -0.20153200000000013,
+          "nonControlProfitRMB": 0.037155987599999996,
+          "parentProfitRMB": -0.30268798760000015,
+          "cashAnnualRMB": -1.5165320000000002,
+          "liquidRMB": 2.5902799,
+          "cashBeforeFinanceRMB": 1.3120138999999997,
+          "requiredFinanceRMB": 0,
+          "totalFutureFinanceRMB": 0.25,
+          "futureFinanceSharesM": 3.894666666666667,
+          "effectiveTrustSharesM": 0.34408500000000003,
+          "sharesM": 508.91178666666667,
+          "eps": -0.594775,
+          "cashPreDividendRMB": -0.3053131000000002,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -0.3053131000000002,
+          "coreEVRMB": 37.62,
+          "UqiEVRMB": 0.96,
+          "FengEVRMB": 0.72,
+          "operatingEVRMB": 39.3,
+          "nonControlValueRMB": 1.284269,
+          "nonCoreNAVRMB": 0.12050339999999998,
+          "equityRMB": 37.83092129999999,
+          "EVSales": 11,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 86.86,
+          "dividend": 0,
+          "priceReturn": 0.21059233449477355,
+          "totalReturn": 0.21059233449477355
+        },
+        {
+          "humanoidRevenueRMB": 4.42,
+          "coreRevenueRMB": 5.47,
+          "revenueRMB": 6.87,
+          "coreGrossRMB": 2.8405,
+          "UqiOperatingRMB": 0.0845,
+          "FengOperatingRMB": 0.07500000000000001,
+          "centralOperatingRMB": 0.6305000000000001,
+          "operatingRMB": 0.79,
+          "taxRMB": 0.1422,
+          "coreAfterTaxRMB": 0.5170100000000001,
+          "UqiAfterTaxRMB": 0.06929,
+          "FengAfterTaxRMB": 0.06150000000000001,
+          "groupProfitRMB": 0.6478,
+          "nonControlProfitRMB": 0.07670599800000001,
+          "parentProfitRMB": 0.49009400200000003,
+          "cashAnnualRMB": -1.2071999999999998,
+          "liquidRMB": 2.5956810000000003,
+          "cashBeforeFinanceRMB": 1.4420810000000004,
+          "requiredFinanceRMB": 0,
+          "totalFutureFinanceRMB": 0.2,
+          "futureFinanceSharesM": 1.9473333333333336,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 507.30853833333333,
+          "eps": 0.966067,
+          "cashPreDividendRMB": -0.4552459999999996,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -0.4552459999999996,
+          "coreEVRMB": 87.52,
+          "UqiEVRMB": 1.9500000000000002,
+          "FengEVRMB": 1.35,
+          "operatingEVRMB": 90.82,
+          "nonControlValueRMB": 2.315651,
+          "nonCoreNAVRMB": 0.1807551,
+          "equityRMB": 88.22985809999999,
+          "EVSales": 16,
+          "impliedCoreOperatingPE": 169.28105839345463,
+          "FX": 1.1684,
+          "price": 203.21,
+          "dividend": 0,
+          "priceReturn": 1.8321951219512198,
+          "totalReturn": 1.8321951219512198
+        }
+      ],
+      "priceReturnPct": [
+        -64.18118466898954,
+        21.059233449477354,
+        183.21951219512198
+      ],
+      "totalReturnPct": [
+        -64.18118466898954,
+        21.059233449477354,
+        183.21951219512198
+      ],
+      "conditions": [
+        "销量/价/毛利受压、资本和应收回款不足，未来融资必须成功且严重稀释",
+        "工业及商业交付转换正常销量，完整中央费用和子公司成本保留，NCI与融资资本可核验",
+        "任务经济性及量产可靠性提高，资本效率改善但常态奖股与少数权益仍扣"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 100.6575,
+      "expectedReturnPct": 40.28919860627178,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 74.031,
+        "defensiveReturnPct": 3.1790940766550646,
+        "positivePrice": 127.284,
+        "positiveReturnPct": 77.39930313588852
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        15.96,
+        105.83,
+        260.84
+      ],
+      "epsRMB": [
+        -2.557882,
+        -0.210625,
+        1.713776
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueRMB": [
+        2.822,
+        6.055000000000001,
+        9.4
+      ],
+      "normalParentProfitRMB": [
+        -1.3949314374999997,
+        -0.10844813700000007,
+        0.8843188420000003
+      ],
+      "dilutedSharesM": [
+        545.3461889225,
+        514.8876098105,
+        516.006100144
+      ],
+      "cashAnnualRMB": [
+        -2.639795,
+        -1.8225500000000001,
+        -2.0122799999999996
+      ],
+      "operatingCases": [
+        {
+          "humanoidRevenueRMB": 1.152,
+          "coreRevenueRMB": 1.8719999999999999,
+          "revenueRMB": 2.822,
+          "coreGrossRMB": 0.5860799999999999,
+          "UqiOperatingRMB": -0.012,
+          "FengOperatingRMB": 0.0055000000000000005,
+          "centralOperatingRMB": -1.3289199999999999,
+          "operatingRMB": -1.3354199999999998,
+          "taxRMB": 0.0013750000000000001,
+          "coreAfterTaxRMB": -1.3289199999999999,
+          "UqiAfterTaxRMB": -0.012,
+          "FengAfterTaxRMB": 0.004125,
+          "groupProfitRMB": -1.3367949999999997,
+          "nonControlProfitRMB": -0.004863562499999999,
+          "parentProfitRMB": -1.3949314374999997,
+          "cashAnnualRMB": -2.639795,
+          "liquidRMB": 2.55517275,
+          "cashBeforeFinanceRMB": -0.6846222499999999,
+          "requiredFinanceRMB": 0.5846222499999998,
+          "totalFutureFinanceRMB": 1.3846222499999998,
+          "futureFinanceSharesM": 40.4448159225,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 545.3461889225,
+          "eps": -2.557882,
+          "cashPreDividendRMB": -1.147327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.147327,
+          "coreEVRMB": 8.424,
+          "UqiEVRMB": 0.4,
+          "FengEVRMB": 0.44000000000000006,
+          "operatingEVRMB": 9.264,
+          "nonControlValueRMB": 0.7271930000000001,
+          "nonCoreNAVRMB": 0.06025169999999999,
+          "equityRMB": 7.449731699999999,
+          "EVSales": 4.5,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 15.96,
+          "dividend": 0,
+          "priceReturn": -0.7775609756097561,
+          "totalReturn": -0.7775609756097561
+        },
+        {
+          "humanoidRevenueRMB": 3.7049999999999996,
+          "coreRevenueRMB": 4.705,
+          "revenueRMB": 6.055000000000001,
+          "coreGrossRMB": 2.2125,
+          "UqiOperatingRMB": 0.052000000000000005,
+          "FengOperatingRMB": 0.0455,
+          "centralOperatingRMB": -0.07750000000000007,
+          "operatingRMB": 0.019999999999999934,
+          "taxRMB": 0.01755,
+          "coreAfterTaxRMB": -0.07750000000000007,
+          "UqiAfterTaxRMB": 0.042640000000000004,
+          "FengAfterTaxRMB": 0.037309999999999996,
+          "groupProfitRMB": 0.002449999999999935,
+          "nonControlProfitRMB": 0.046898137,
+          "parentProfitRMB": -0.10844813700000007,
+          "cashAnnualRMB": -1.8225500000000001,
+          "liquidRMB": 2.5902799,
+          "cashBeforeFinanceRMB": 0.24772989999999978,
+          "requiredFinanceRMB": 0.15227010000000019,
+          "totalFutureFinanceRMB": 0.6522701000000002,
+          "futureFinanceSharesM": 9.526404810500004,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 514.8876098105,
+          "eps": -0.210625,
+          "cashPreDividendRMB": -1.117327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.117327,
+          "coreEVRMB": 47.05,
+          "UqiEVRMB": 1.3,
+          "FengEVRMB": 0.84,
+          "operatingEVRMB": 49.19,
+          "nonControlValueRMB": 1.5570650000000001,
+          "nonCoreNAVRMB": 0.12050339999999998,
+          "equityRMB": 46.63611139999999,
+          "EVSales": 10,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 105.83,
+          "dividend": 0,
+          "priceReturn": 0.4749825783972126,
+          "totalReturn": 0.4749825783972126
+        },
+        {
+          "humanoidRevenueRMB": 6.4,
+          "coreRevenueRMB": 7.65,
+          "revenueRMB": 9.4,
+          "coreGrossRMB": 4.0840000000000005,
+          "UqiOperatingRMB": 0.117,
+          "FengOperatingRMB": 0.085,
+          "centralOperatingRMB": 1.0940000000000005,
+          "operatingRMB": 1.2960000000000005,
+          "taxRMB": 0.23328000000000007,
+          "coreAfterTaxRMB": 0.8970800000000004,
+          "UqiAfterTaxRMB": 0.09594000000000001,
+          "FengAfterTaxRMB": 0.06970000000000001,
+          "groupProfitRMB": 1.0627200000000003,
+          "nonControlProfitRMB": 0.09740115800000002,
+          "parentProfitRMB": 0.8843188420000003,
+          "cashAnnualRMB": -2.0122799999999996,
+          "liquidRMB": 2.5956810000000003,
+          "cashBeforeFinanceRMB": 0.033401000000000625,
+          "requiredFinanceRMB": 0.9665989999999992,
+          "totalFutureFinanceRMB": 1.3665989999999992,
+          "futureFinanceSharesM": 10.644895143999994,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 516.006100144,
+          "eps": 1.713776,
+          "cashPreDividendRMB": -1.097327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.097327,
+          "coreEVRMB": 114.75,
+          "UqiEVRMB": 2.7,
+          "FengEVRMB": 1.53,
+          "operatingEVRMB": 118.98,
+          "nonControlValueRMB": 2.8691329999999997,
+          "nonCoreNAVRMB": 0.1807551,
+          "equityRMB": 115.1942951,
+          "EVSales": 15,
+          "impliedCoreOperatingPE": 127.91501315378778,
+          "FX": 1.1684,
+          "price": 260.84,
+          "dividend": 0,
+          "priceReturn": 2.635400696864111,
+          "totalReturn": 2.635400696864111
+        }
+      ],
+      "priceReturnPct": [
+        -77.75609756097562,
+        47.49825783972126,
+        263.54006968641113
+      ],
+      "totalReturnPct": [
+        -77.75609756097562,
+        47.49825783972126,
+        263.54006968641113
+      ],
+      "conditions": [
+        "销量/价/毛利受压、资本和应收回款不足，未来融资必须成功且严重稀释",
+        "工业及商业交付转换正常销量，完整中央费用和子公司成本保留，NCI与融资资本可核验",
+        "任务经济性及量产可靠性提高，资本效率改善但常态奖股与少数权益仍扣"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-07（名义10/9港股假期向前）",
+      "priceHKD": [
+        10.68,
+        122.88,
+        352.26
+      ],
+      "epsRMB": [
+        -2.653468,
+        0.120707,
+        3.754485
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueRMB": [
+        2.988,
+        8.15,
+        14.8
+      ],
+      "normalParentProfitRMB": [
+        -1.69754835,
+        0.06595083249999989,
+        2.006631932
+      ],
+      "dilutedSharesM": [
+        639.74701363,
+        546.3696200687059,
+        534.4626043533333
+      ],
+      "cashAnnualRMB": [
+        -3.1031,
+        -2.453735,
+        -2.91624
+      ],
+      "operatingCases": [
+        {
+          "humanoidRevenueRMB": 1.188,
+          "coreRevenueRMB": 1.938,
+          "revenueRMB": 2.988,
+          "coreGrossRMB": 0.5439,
+          "UqiOperatingRMB": -0.0135,
+          "FengOperatingRMB": 0.006,
+          "centralOperatingRMB": -1.6310999999999998,
+          "operatingRMB": -1.6385999999999998,
+          "taxRMB": 0.0015,
+          "coreAfterTaxRMB": -1.6310999999999998,
+          "UqiAfterTaxRMB": -0.0135,
+          "FengAfterTaxRMB": 0.0045000000000000005,
+          "groupProfitRMB": -1.6401,
+          "nonControlProfitRMB": -0.005551649999999998,
+          "parentProfitRMB": -1.69754835,
+          "cashAnnualRMB": -3.1031,
+          "liquidRMB": 2.55517275,
+          "cashBeforeFinanceRMB": -2.69947725,
+          "requiredFinanceRMB": 2.0494772500000003,
+          "totalFutureFinanceRMB": 3.44947725,
+          "futureFinanceSharesM": 134.34564063000002,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 639.74701363,
+          "eps": -2.653468,
+          "cashPreDividendRMB": -1.147327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.147327,
+          "coreEVRMB": 6.7829999999999995,
+          "UqiEVRMB": 0.45,
+          "FengEVRMB": 0.48,
+          "operatingEVRMB": 7.712999999999999,
+          "nonControlValueRMB": 0.7800490000000001,
+          "nonCoreNAVRMB": 0.06025169999999999,
+          "equityRMB": 5.8458757,
+          "EVSales": 3.5,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 10.68,
+          "dividend": 0,
+          "priceReturn": -0.8511498257839721,
+          "totalReturn": -0.8511498257839721
+        },
+        {
+          "humanoidRevenueRMB": 5.3,
+          "coreRevenueRMB": 6.4,
+          "revenueRMB": 8.15,
+          "coreGrossRMB": 3.046,
+          "UqiOperatingRMB": 0.07200000000000001,
+          "FengOperatingRMB": 0.05525,
+          "centralOperatingRMB": 0.10599999999999984,
+          "operatingRMB": 0.23324999999999985,
+          "taxRMB": 0.041984999999999974,
+          "coreAfterTaxRMB": 0.08691999999999987,
+          "UqiAfterTaxRMB": 0.05904000000000001,
+          "FengAfterTaxRMB": 0.045305,
+          "groupProfitRMB": 0.19126499999999988,
+          "nonControlProfitRMB": 0.0613141675,
+          "parentProfitRMB": 0.06595083249999989,
+          "cashAnnualRMB": -2.453735,
+          "liquidRMB": 2.5902799,
+          "cashBeforeFinanceRMB": -1.6103226000000002,
+          "requiredFinanceRMB": 2.1103226,
+          "totalFutureFinanceRMB": 2.9103225999999998,
+          "futureFinanceSharesM": 40.00495206870588,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 546.3696200687059,
+          "eps": 0.120707,
+          "cashPreDividendRMB": -1.1173270000000004,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.1173270000000004,
+          "coreEVRMB": 57.6,
+          "UqiEVRMB": 1.8,
+          "FengEVRMB": 1.02,
+          "operatingEVRMB": 60.42,
+          "nonControlValueRMB": 1.9602470000000003,
+          "nonCoreNAVRMB": 0.12050339999999998,
+          "equityRMB": 57.46292939999999,
+          "EVSales": 9,
+          "impliedCoreOperatingPE": 662.6783248964575,
+          "FX": 1.1684,
+          "price": 122.88,
+          "dividend": 0,
+          "priceReturn": 0.7126132404181185,
+          "totalReturn": 0.7126132404181185
+        },
+        {
+          "humanoidRevenueRMB": 10.8,
+          "coreRevenueRMB": 12.3,
+          "revenueRMB": 14.8,
+          "coreGrossRMB": 6.756,
+          "UqiOperatingRMB": 0.182,
+          "FengOperatingRMB": 0.11000000000000001,
+          "centralOperatingRMB": 2.426,
+          "operatingRMB": 2.718,
+          "taxRMB": 0.48923999999999995,
+          "coreAfterTaxRMB": 1.9893200000000002,
+          "UqiAfterTaxRMB": 0.14923999999999998,
+          "FengAfterTaxRMB": 0.09020000000000002,
+          "groupProfitRMB": 2.22876,
+          "nonControlProfitRMB": 0.141128068,
+          "parentProfitRMB": 2.006631932,
+          "cashAnnualRMB": -2.91624,
+          "liquidRMB": 2.5956810000000003,
+          "cashBeforeFinanceRMB": -2.328679,
+          "requiredFinanceRMB": 3.628679,
+          "totalFutureFinanceRMB": 4.328679,
+          "futureFinanceSharesM": 28.09793635333334,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 534.4626043533333,
+          "eps": 3.754485,
+          "cashPreDividendRMB": -1.097327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.097327,
+          "coreEVRMB": 159.9,
+          "UqiEVRMB": 4.199999999999999,
+          "FengEVRMB": 1.9800000000000002,
+          "operatingEVRMB": 166.07999999999998,
+          "nonControlValueRMB": 4.027387999999999,
+          "nonCoreNAVRMB": 0.1807551,
+          "equityRMB": 161.13604009999997,
+          "EVSales": 13,
+          "impliedCoreOperatingPE": 80.37922506183017,
+          "FX": 1.1684,
+          "price": 352.26,
+          "dividend": 0,
+          "priceReturn": 3.909547038327526,
+          "totalReturn": 3.909547038327526
+        }
+      ],
+      "priceReturnPct": [
+        -85.11498257839722,
+        71.26132404181185,
+        390.9547038327526
+      ],
+      "totalReturnPct": [
+        -85.11498257839722,
+        71.26132404181185,
+        390.9547038327526
+      ],
+      "conditions": [
+        "销量/价/毛利受压、资本和应收回款不足，未来融资必须成功且严重稀释",
+        "工业及商业交付转换正常销量，完整中央费用和子公司成本保留，NCI与融资资本可核验",
+        "任务经济性及量产可靠性提高，资本效率改善但常态奖股与少数权益仍扣"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09（远期日历待复核）",
+      "priceHKD": [
+        2.57,
+        140.63,
+        549.52
+      ],
+      "epsRMB": [
+        -2.084759,
+        0.672096,
+        9.293265
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueRMB": [
+        3.12,
+        16.84,
+        37.6
+      ],
+      "normalParentProfitRMB": [
+        -2.306120375,
+        0.46487593299999946,
+        5.873472639999998
+      ],
+      "dilutedSharesM": [
+        1106.180657945,
+        691.6810543782223,
+        632.013929398
+      ],
+      "cashAnnualRMB": [
+        -3.82395,
+        -4.485646,
+        -5.554800000000002
+      ],
+      "operatingCases": [
+        {
+          "humanoidRevenueRMB": 1.02,
+          "coreRevenueRMB": 1.82,
+          "revenueRMB": 3.12,
+          "coreGrossRMB": 0.43679999999999997,
+          "UqiOperatingRMB": -0.018,
+          "FengOperatingRMB": 0.006999999999999999,
+          "centralOperatingRMB": -2.2382,
+          "operatingRMB": -2.2491999999999996,
+          "taxRMB": 0.0017499999999999998,
+          "coreAfterTaxRMB": -2.2382,
+          "UqiAfterTaxRMB": -0.018,
+          "FengAfterTaxRMB": 0.0052499999999999995,
+          "groupProfitRMB": -2.2509499999999996,
+          "nonControlProfitRMB": -0.007829625,
+          "parentProfitRMB": -2.306120375,
+          "cashAnnualRMB": -3.82395,
+          "liquidRMB": 2.55517275,
+          "cashBeforeFinanceRMB": -9.51667725,
+          "requiredFinanceRMB": 7.266677250000001,
+          "totalFutureFinanceRMB": 10.26667725,
+          "futureFinanceSharesM": 599.779284945,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 1106.180657945,
+          "eps": -2.084759,
+          "cashPreDividendRMB": -1.147327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.147327,
+          "coreEVRMB": 3.2760000000000002,
+          "UqiEVRMB": 0.6,
+          "FengEVRMB": 0.5599999999999999,
+          "operatingEVRMB": 4.436,
+          "nonControlValueRMB": 0.915821,
+          "nonCoreNAVRMB": 0.06025169999999999,
+          "equityRMB": 2.4331037,
+          "EVSales": 1.8,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 2.57,
+          "dividend": 0,
+          "priceReturn": -0.9641811846689895,
+          "totalReturn": -0.9641811846689895
+        },
+        {
+          "humanoidRevenueRMB": 12.04,
+          "coreRevenueRMB": 13.739999999999998,
+          "revenueRMB": 16.84,
+          "coreGrossRMB": 6.3911999999999995,
+          "UqiOperatingRMB": 0.14400000000000002,
+          "FengOperatingRMB": 0.0845,
+          "centralOperatingRMB": 0.5511999999999992,
+          "operatingRMB": 0.7796999999999993,
+          "taxRMB": 0.14034599999999986,
+          "coreAfterTaxRMB": 0.4519839999999994,
+          "UqiAfterTaxRMB": 0.11808000000000002,
+          "FengAfterTaxRMB": 0.06929,
+          "groupProfitRMB": 0.6393539999999994,
+          "nonControlProfitRMB": 0.11047806700000001,
+          "parentProfitRMB": 0.46487593299999946,
+          "cashAnnualRMB": -4.485646,
+          "liquidRMB": 2.5902799,
+          "cashBeforeFinanceRMB": -11.386658100000002,
+          "requiredFinanceRMB": 11.886658100000002,
+          "totalFutureFinanceRMB": 13.886658100000002,
+          "futureFinanceSharesM": 180.27968137822228,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 691.6810543782223,
+          "eps": 0.672096,
+          "cashPreDividendRMB": -1.117327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.117327,
+          "coreEVRMB": 82.44,
+          "UqiEVRMB": 3.6,
+          "FengEVRMB": 1.56,
+          "operatingEVRMB": 87.6,
+          "nonControlValueRMB": 3.350153,
+          "nonCoreNAVRMB": 0.12050339999999998,
+          "equityRMB": 83.25302339999999,
+          "EVSales": 6,
+          "impliedCoreOperatingPE": 182.39583702077974,
+          "FX": 1.1684,
+          "price": 140.63,
+          "dividend": 0,
+          "priceReturn": 0.96,
+          "totalReturn": 0.96
+        },
+        {
+          "humanoidRevenueRMB": 30,
+          "coreRevenueRMB": 32.6,
+          "revenueRMB": 37.6,
+          "coreGrossRMB": 17.54,
+          "UqiOperatingRMB": 0.39,
+          "FengOperatingRMB": 0.2,
+          "centralOperatingRMB": 7.019999999999999,
+          "operatingRMB": 7.6099999999999985,
+          "taxRMB": 1.3697999999999997,
+          "coreAfterTaxRMB": 5.756399999999999,
+          "UqiAfterTaxRMB": 0.31980000000000003,
+          "FengAfterTaxRMB": 0.164,
+          "groupProfitRMB": 6.240199999999999,
+          "nonControlProfitRMB": 0.28572736000000004,
+          "parentProfitRMB": 5.873472639999998,
+          "cashAnnualRMB": -5.554800000000002,
+          "liquidRMB": 2.5956810000000003,
+          "cashBeforeFinanceRMB": -14.618719000000006,
+          "requiredFinanceRMB": 17.618719000000006,
+          "totalFutureFinanceRMB": 19.618719000000006,
+          "futureFinanceSharesM": 114.61255639800005,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 632.013929398,
+          "eps": 9.293265,
+          "cashPreDividendRMB": -1.097327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.097327,
+          "coreEVRMB": 293.40000000000003,
+          "UqiEVRMB": 9,
+          "FengEVRMB": 3.6,
+          "operatingEVRMB": 306.00000000000006,
+          "nonControlValueRMB": 7.836386000000001,
+          "nonCoreNAVRMB": 0.1807551,
+          "equityRMB": 297.24704210000004,
+          "EVSales": 9,
+          "impliedCoreOperatingPE": 50.96935584740464,
+          "FX": 1.1684,
+          "price": 549.52,
+          "dividend": 0,
+          "priceReturn": 6.6588153310104525,
+          "totalReturn": 6.6588153310104525
+        }
+      ],
+      "priceReturnPct": [
+        -96.41811846689895,
+        96,
+        665.8815331010453
+      ],
+      "totalReturnPct": [
+        -96.41811846689895,
+        96,
+        665.8815331010453
+      ],
+      "conditions": [
+        "销量/价/毛利受压、资本和应收回款不足，未来融资必须成功且严重稀释",
+        "工业及商业交付转换正常销量，完整中央费用和子公司成本保留，NCI与融资资本可核验",
+        "任务经济性及量产可靠性提高，资本效率改善但常态奖股与少数权益仍扣"
+      ],
+      "annualizedTotalReturnPct": [
+        -67.03621501766621,
+        25.14649491351948,
+        97.11538956132432
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09（远期日历待复核）",
+      "priceHKD": [
+        0.61,
+        120.68,
+        624.99
+      ],
+      "epsRMB": [
+        -1.381438,
+        0.53686,
+        13.205164
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueRMB": [
+        3.2300000000000004,
+        24.400000000000002,
+        70.6
+      ],
+      "normalParentProfitRMB": [
+        -2.621196,
+        0.47281537800000034,
+        10.990845000000006
+      ],
+      "dilutedSharesM": [
+        1897.4402569266665,
+        880.7056228884,
+        832.3141889023998
+      ],
+      "cashAnnualRMB": [
+        -4.219499999999999,
+        -6.573079999999999,
+        -12.762519999999995
+      ],
+      "operatingCases": [
+        {
+          "humanoidRevenueRMB": 0.9800000000000001,
+          "coreRevenueRMB": 1.7800000000000002,
+          "revenueRMB": 3.2300000000000004,
+          "coreGrossRMB": 0.37200000000000005,
+          "UqiOperatingRMB": -0.0195,
+          "FengOperatingRMB": 0.008,
+          "centralOperatingRMB": -2.553,
+          "operatingRMB": -2.5645,
+          "taxRMB": 0.002,
+          "coreAfterTaxRMB": -2.553,
+          "UqiAfterTaxRMB": -0.0195,
+          "FengAfterTaxRMB": 0.006,
+          "groupProfitRMB": -2.5664999999999996,
+          "nonControlProfitRMB": -0.008303999999999999,
+          "parentProfitRMB": -2.621196,
+          "cashAnnualRMB": -4.219499999999999,
+          "liquidRMB": 2.55517275,
+          "cashBeforeFinanceRMB": -17.032577249999996,
+          "requiredFinanceRMB": 12.832577249999996,
+          "totalFutureFinanceRMB": 17.832577249999996,
+          "futureFinanceSharesM": 1389.0388839266666,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 1897.4402569266665,
+          "eps": -1.381438,
+          "cashPreDividendRMB": -1.1473269999999993,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.1473269999999993,
+          "coreEVRMB": 1.7800000000000002,
+          "UqiEVRMB": 0.65,
+          "FengEVRMB": 0.6400000000000001,
+          "operatingEVRMB": 3.0700000000000003,
+          "nonControlValueRMB": 0.991473,
+          "nonCoreNAVRMB": 0.06025169999999999,
+          "equityRMB": 0.9914517000000009,
+          "EVSales": 1,
+          "impliedCoreOperatingPE": null,
+          "FX": 1.1684,
+          "price": 0.61,
+          "dividend": 0,
+          "priceReturn": -0.9914982578397212,
+          "totalReturn": -0.9914982578397212
+        },
+        {
+          "humanoidRevenueRMB": 17.5,
+          "coreRevenueRMB": 19.8,
+          "revenueRMB": 24.400000000000002,
+          "coreGrossRMB": 8.855,
+          "UqiOperatingRMB": 0.22399999999999998,
+          "FengOperatingRMB": 0.117,
+          "centralOperatingRMB": 0.5150000000000005,
+          "operatingRMB": 0.8560000000000004,
+          "taxRMB": 0.15408000000000008,
+          "coreAfterTaxRMB": 0.4223000000000004,
+          "UqiAfterTaxRMB": 0.18367999999999998,
+          "FengAfterTaxRMB": 0.09594000000000001,
+          "groupProfitRMB": 0.7019200000000003,
+          "nonControlProfitRMB": 0.165104622,
+          "parentProfitRMB": 0.47281537800000034,
+          "cashAnnualRMB": -6.573079999999999,
+          "liquidRMB": 2.5902799,
+          "cashBeforeFinanceRMB": -27.508580099999996,
+          "requiredFinanceRMB": 27.508580099999996,
+          "totalFutureFinanceRMB": 31.008580099999996,
+          "futureFinanceSharesM": 362.3042498884,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 880.7056228884,
+          "eps": 0.53686,
+          "cashPreDividendRMB": -1.117327,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.117327,
+          "coreEVRMB": 89.10000000000001,
+          "UqiEVRMB": 5.6,
+          "FengEVRMB": 2.16,
+          "operatingEVRMB": 96.86,
+          "nonControlValueRMB": 4.894493,
+          "nonCoreNAVRMB": 0.12050339999999998,
+          "equityRMB": 90.9686834,
+          "EVSales": 4.5,
+          "impliedCoreOperatingPE": 210.98744968032187,
+          "FX": 1.1684,
+          "price": 120.68,
+          "dividend": 0,
+          "priceReturn": 0.6819512195121953,
+          "totalReturn": 0.6819512195121953
+        },
+        {
+          "humanoidRevenueRMB": 58.8,
+          "coreRevenueRMB": 62.599999999999994,
+          "revenueRMB": 70.6,
+          "coreGrossRMB": 32.684000000000005,
+          "UqiOperatingRMB": 0.65,
+          "FengOperatingRMB": 0.30000000000000004,
+          "centralOperatingRMB": 13.114000000000004,
+          "operatingRMB": 14.064000000000005,
+          "taxRMB": 2.531520000000001,
+          "coreAfterTaxRMB": 10.753480000000003,
+          "UqiAfterTaxRMB": 0.533,
+          "FengAfterTaxRMB": 0.24600000000000005,
+          "groupProfitRMB": 11.532480000000005,
+          "nonControlProfitRMB": 0.460635,
+          "parentProfitRMB": 10.990845000000006,
+          "cashAnnualRMB": -12.762519999999995,
+          "liquidRMB": 2.5956810000000003,
+          "cashBeforeFinanceRMB": -55.38565899999998,
+          "requiredFinanceRMB": 60.385658999999976,
+          "totalFutureFinanceRMB": 64.38565899999998,
+          "futureFinanceSharesM": 300.9128159023999,
+          "effectiveTrustSharesM": 0,
+          "sharesM": 832.3141889023998,
+          "eps": 13.205164,
+          "cashPreDividendRMB": -1.097327000000007,
+          "dividendCashRMB": 0,
+          "cashPostDividendRMB": -1.097327000000007,
+          "coreEVRMB": 438.19999999999993,
+          "UqiEVRMB": 15,
+          "FengEVRMB": 5.4,
+          "operatingEVRMB": 458.5999999999999,
+          "nonControlValueRMB": 12.469406,
+          "nonCoreNAVRMB": 0.1807551,
+          "equityRMB": 445.2140220999999,
+          "EVSales": 7,
+          "impliedCoreOperatingPE": 40.74959919951493,
+          "FX": 1.1684,
+          "price": 624.99,
+          "dividend": 0,
+          "priceReturn": 7.710662020905923,
+          "totalReturn": 7.710662020905923
+        }
+      ],
+      "priceReturnPct": [
+        -99.14982578397212,
+        68.19512195121953,
+        771.0662020905924
+      ],
+      "totalReturnPct": [
+        -99.14982578397212,
+        68.19512195121953,
+        771.0662020905924
+      ],
+      "conditions": [
+        "销量/价/毛利受压、资本和应收回款不足，未来融资必须成功且严重稀释",
+        "工业及商业交付转换正常销量，完整中央费用和子公司成本保留，NCI与融资资本可核验",
+        "任务经济性及量产可靠性提高，资本效率改善但常态奖股与少数权益仍扣"
+      ],
+      "annualizedTotalReturnPct": [
+        -61.46089844514682,
+        10.959037083504942,
+        54.17367781694511
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.9,
+        1.3,
+        3.3,
+        4.1,
+        3.7,
+        2.5
+      ],
+      "total": 52.8,
+      "evidence": [
+        "销量ASP与全成本回报交叉，少数资本和融资稀释扣足，估值非跌幅推导",
+        "长短均线下降，上涨量弱及接近69观察低位，未见确认反转",
+        "全尺寸921台已确认但订单不等收入，标准化/可靠性/复购待检验",
+        "工业和服务空间大，廉价形态与传统自动化竞争同时存在",
+        "交付爬坡、客户回款及2026新奖股条件兑现，不以展会新闻预测收入",
+        "应收集中、资本化利息、并购商誉、子公司权益与现金融资约束"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3,
+        1.3,
+        3.4,
+        4.3,
+        3.8,
+        2.1
+      ],
+      "total": 60.6,
+      "evidence": [
+        "销量ASP与全成本回报交叉，少数资本和融资稀释扣足，估值非跌幅推导",
+        "长短均线下降，上涨量弱及接近69观察低位，未见确认反转",
+        "全尺寸921台已确认但订单不等收入，标准化/可靠性/复购待检验",
+        "工业和服务空间大，廉价形态与传统自动化竞争同时存在",
+        "交付爬坡、客户回款及2026新奖股条件兑现，不以展会新闻预测收入",
+        "应收集中、资本化利息、并购商誉、子公司权益与现金融资约束"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        2.7,
+        1.3,
+        3.3,
+        4.4,
+        3.5,
+        1.9
+      ],
+      "total": 62.8,
+      "evidence": [
+        "销量ASP与全成本回报交叉，少数资本和融资稀释扣足，估值非跌幅推导",
+        "长短均线下降，上涨量弱及接近69观察低位，未见确认反转",
+        "全尺寸921台已确认但订单不等收入，标准化/可靠性/复购待检验",
+        "工业和服务空间大，廉价形态与传统自动化竞争同时存在",
+        "交付爬坡、客户回款及2026新奖股条件兑现，不以展会新闻预测收入",
+        "应收集中、资本化利息、并购商誉、子公司权益与现金融资约束"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        2.4,
+        1.3,
+        3.2,
+        4.3,
+        3.3,
+        1.7
+      ],
+      "total": 60.8,
+      "evidence": [
+        "销量ASP与全成本回报交叉，少数资本和融资稀释扣足，估值非跌幅推导",
+        "长短均线下降，上涨量弱及接近69观察低位，未见确认反转",
+        "全尺寸921台已确认但订单不等收入，标准化/可靠性/复购待检验",
+        "工业和服务空间大，廉价形态与传统自动化竞争同时存在",
+        "交付爬坡、客户回款及2026新奖股条件兑现，不以展会新闻预测收入",
+        "应收集中、资本化利息、并购商誉、子公司权益与现金融资约束"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "摩根大通",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 74,
+      "rating": "中性",
+      "reportDate": "2026-09-29",
+      "publicationDate": "2026-09-29",
+      "targetHorizon": "2027年12月",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1546879/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": false,
+      "verified": true,
+      "note": "原文明示2027年12月，非本章一年10月目标"
+    },
+    {
+      "institution": "美银证券",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 135,
+      "rating": "买入",
+      "reportDate": "2026-08-31",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1542136/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": false,
+      "verified": true,
+      "note": "公开目标到达期限未明；花旗7/3已超90天，保留最新可核验且时效明示"
+    },
+    {
+      "institution": "花旗",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 125,
+      "rating": "买入",
+      "reportDate": "2026-07-03",
+      "publicationDate": "2026-07-03",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1531694/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": true,
+      "verified": true,
+      "note": "公开目标到达期限未明；花旗7/3已超90天，保留最新可核验且时效明示"
+    },
+    {
+      "institution": "招商证券国际",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 172,
+      "rating": "买入",
+      "reportDate": "2026-09-30",
+      "publicationDate": "2026-09-30",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1547177/research-report",
+      "sourceType": "已核验公开新闻多公司表，逐行匹配优必选172；原研报未取得",
+      "foreignInvestmentBank": false,
+      "institutionOwnership": "中资机构",
+      "outside90Days": false,
+      "verified": true,
+      "note": "大和9/9仅评级无公开价，不填造；招商明确表格匹配优必选"
+    }
+  ],
+  "brokerTargets": [
+    {
+      "institution": "摩根大通",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 74,
+      "rating": "中性",
+      "reportDate": "2026-09-29",
+      "publicationDate": "2026-09-29",
+      "targetHorizon": "2027年12月",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1546879/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": false,
+      "verified": true,
+      "note": "原文明示2027年12月，非本章一年10月目标"
+    },
+    {
+      "institution": "美银证券",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 135,
+      "rating": "买入",
+      "reportDate": "2026-08-31",
+      "publicationDate": "2026-08-31",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1542136/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": false,
+      "verified": true,
+      "note": "公开目标到达期限未明；花旗7/3已超90天，保留最新可核验且时效明示"
+    },
+    {
+      "institution": "花旗",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 125,
+      "rating": "买入",
+      "reportDate": "2026-07-03",
+      "publicationDate": "2026-07-03",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1531694/research-report",
+      "sourceType": "已核验公开新闻正文，原研报未取得",
+      "foreignInvestmentBank": true,
+      "institutionOwnership": "外资投行",
+      "outside90Days": true,
+      "verified": true,
+      "note": "公开目标到达期限未明；花旗7/3已超90天，保留最新可核验且时效明示"
+    },
+    {
+      "institution": "招商证券国际",
+      "code": "09880.HK",
+      "currency": "HKD",
+      "targetPrice": 172,
+      "rating": "买入",
+      "reportDate": "2026-09-30",
+      "publicationDate": "2026-09-30",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09880/AAFN/NOW.1547177/research-report",
+      "sourceType": "已核验公开新闻多公司表，逐行匹配优必选172；原研报未取得",
+      "foreignInvestmentBank": false,
+      "institutionOwnership": "中资机构",
+      "outside90Days": false,
+      "verified": true,
+      "note": "大和9/9仅评级无公开价，不填造；招商明确表格匹配优必选"
+    }
+  ],
+  "anchor": {
+    "period": "FY2025",
+    "currency": "RMB",
+    "unit": "thousand",
+    "revenue": 2000999,
+    "humanoidRevenue": 820557,
+    "nonembodied": 47963,
+    "otherRobot": 628656,
+    "hardware": 499207,
+    "others": 4616,
+    "cost": 1247186,
+    "gross": 753813,
+    "surcharge": 19610,
+    "sales": 471011,
+    "admin": 335623,
+    "RD": 507483,
+    "financeSigned": 594,
+    "otherIncome": 36952,
+    "investment": -47159,
+    "FVGain": 56,
+    "credit": 151439,
+    "assetImpair": 39272,
+    "disposalGain": 972,
+    "operating": -779210,
+    "nonOperatingIncome": 6023,
+    "nonOperatingExpense": 1493,
+    "pretax": -774680,
+    "tax": 15143,
+    "group": -789823,
+    "owner": -703191,
+    "NCI": -86632,
+    "SBC": 99300,
+    "adjusted": -690523,
+    "interestExp": 2614,
+    "interestIncome": 41971,
+    "DAROU": 27300,
+    "DANonROU": 59222,
+    "EBITDAAdjusted": -437504,
+    "cashBank": 4918605,
+    "restricted": 30725,
+    "endCash": 4887880,
+    "OCF": -784111,
+    "capex": 409024,
+    "FCFProxy": -1193135,
+    "investing": -661295,
+    "financing": 5183677,
+    "startCash": 1190960,
+    "FXCash": -41351
+  },
+  "interim": {
+    "period": "H1 2026",
+    "currency": "RMB",
+    "unit": "thousand",
+    "revenue": 1269130,
+    "humanoidRevenue": 590299,
+    "humanoidUnits": 921,
+    "nonembodied": 32725,
+    "otherRobot": 245754,
+    "hardware": 259377,
+    "FengCategoryRevenue": 139176,
+    "others": 1799,
+    "cost": 702252,
+    "gross": 566878,
+    "surcharge": 12696,
+    "sales": 238034,
+    "admin": 149346,
+    "RD": 303083,
+    "financeExpense": 23282,
+    "bankGrossInterest": 21182,
+    "bankCapitalizedInterest": 21182,
+    "leaseInterest": 1191,
+    "interestIncome": 52596,
+    "FXLoss": 73857,
+    "otherFinance": 830,
+    "otherIncome": 8288,
+    "investment": -32609,
+    "associateLoss": 34492,
+    "FVGain": 55,
+    "credit": 91070,
+    "assetImpair": 3771,
+    "disposalLoss": 423,
+    "operating": -279093,
+    "nonOperatingNet": -694,
+    "pretax": -279787,
+    "tax": 59040,
+    "group": -338827,
+    "owner": -311478,
+    "NCI": -27349,
+    "SBC": 0,
+    "adjusted": -338827,
+    "DATotal": 62207,
+    "EBITDAAdjusted": -174144,
+    "cashBank": 2381213,
+    "restricted": 55587,
+    "endCash": 2325626,
+    "liquidNAV": 270055,
+    "otherEquityNAV": 78533,
+    "otherFinancialNAV": 3042,
+    "associateNAV": 119264,
+    "bankShort": 383256,
+    "bankLong": 486655,
+    "bankCurrentLong": 127416,
+    "bankDebt": 997327,
+    "leaseCurrent": 22350,
+    "leaseLong": 23877,
+    "currentAssets": 5688328,
+    "nonCurrentAssets": 5154428,
+    "currentLiabilities": 2325902,
+    "nonCurrentLiabilities": 658387,
+    "equity": 7858467,
+    "ownerEquity": 6966071,
+    "NCIEquity": 892396,
+    "receivable": 1679607,
+    "inventory": 985473,
+    "prepay": 174627,
+    "payable": 883795,
+    "contract": 133345,
+    "OCF": -749490,
+    "capex": 261283,
+    "FCFProxy": -1010773,
+    "acquisitionNet": 1508969,
+    "investing": -1814965,
+    "financing": 62185,
+    "startCash": 4887880,
+    "FXCash": -59984,
+    "DAFixed": 31260,
+    "DAROU": 12658,
+    "amortIntangible": 9632,
+    "amortPrepay": 8657,
+    "leaseCash": 18530,
+    "leaseFinanceCash": 17028,
+    "capitalPayable": 238461,
+    "singleCustomerRevenue": 308543,
+    "FengPurchaseCost": 1665324,
+    "FengGoodwill": 1123510,
+    "FengNCIAtAcquire": 717925,
+    "FengFVNetAssets": 1259739,
+    "FengShareFVNetAssets": 541814,
+    "FengOwnership": 0.4301,
+    "UqiOwnership": 0.3988,
+    "UqiMinorityRaise": 155000,
+    "UqiCapitalSurplus": 60798,
+    "UqiNCIRaise": 94202,
+    "nonOperatingIncome": 895,
+    "nonOperatingExpense": 1589
+  },
+  "fenglong": {
+    "period": "H1 2026",
+    "currency": "RMB",
+    "unit": "yuan",
+    "revenue": 267140627.23,
+    "parentProfit": -2015091.32,
+    "OCF": 161586.31,
+    "cash": 189922431.59,
+    "cashBank": 196289785.32,
+    "restricted": 6367353.73,
+    "liquidNAV": 140000000,
+    "bankShort": 12001338.88,
+    "parentEquity": 1020983472.74,
+    "share": 0.4301,
+    "consolidatedRevenueComparability": "优必选类别收入139176千、附注收购日至末137780千不相同；本章不假称精确无差额桥，独立正常年率模型并表扣NCI"
+  },
+  "capital": {
+    "period": "2026-09-30",
+    "H": 438189327,
+    "domestic": 65212046,
+    "total": 503401373,
+    "JuneH": 432735396,
+    "JuneDomestic": 70665977,
+    "fullCirculationJuly": 5453931,
+    "fullCirculationProposed": 17581288,
+    "treasuryLegal": 0,
+    "accountingTrustCostRMBthousand": 57716,
+    "trustHeldOctober8": 1146950,
+    "October8Purchased": 80000,
+    "October8CostHKD": 5534823,
+    "newAwardsUnissued": 3624470,
+    "grantFirstMaximum": 1959832,
+    "grantSecondMaximum": 1003463,
+    "grantThirdMaximum": 542865,
+    "grantFourthMaximum": 118310,
+    "schemeMaximum": 50340137,
+    "monthlyAwardsNotIssued": true
+  },
+  "financialEvidence": [
+    {
+      "metric": "revenue",
+      "value": 2000999,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "humanoidRevenue",
+      "value": 820557,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonembodied",
+      "value": 47963,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherRobot",
+      "value": 628656,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "hardware",
+      "value": 499207,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "others",
+      "value": 4616,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "cost",
+      "value": 1247186,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "gross",
+      "value": 753813,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "surcharge",
+      "value": 19610,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "sales",
+      "value": 471011,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "admin",
+      "value": 335623,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "RD",
+      "value": 507483,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "financeSigned",
+      "value": 594,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherIncome",
+      "value": 36952,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "investment",
+      "value": -47159,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FVGain",
+      "value": 56,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "credit",
+      "value": 151439,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "assetImpair",
+      "value": 39272,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "disposalGain",
+      "value": 972,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "operating",
+      "value": -779210,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonOperatingIncome",
+      "value": 6023,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonOperatingExpense",
+      "value": 1493,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "pretax",
+      "value": -774680,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "tax",
+      "value": 15143,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "group",
+      "value": -789823,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "owner",
+      "value": -703191,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "NCI",
+      "value": -86632,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "SBC",
+      "value": 99300,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "adjusted",
+      "value": -690523,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "interestExp",
+      "value": 2614,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "interestIncome",
+      "value": 41971,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "DAROU",
+      "value": 27300,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "EBITDAAdjusted",
+      "value": -437504,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "cashBank",
+      "value": 4918605,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-03-31",
+      "publicationTime": "20:03",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033102607.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "restricted",
+      "value": 30725,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "endCash",
+      "value": 4887880,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "OCF",
+      "value": -784111,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "capex",
+      "value": 409024,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "investing",
+      "value": -661295,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "financing",
+      "value": 5183677,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "startCash",
+      "value": 1190960,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FXCash",
+      "value": -41351,
+      "period": "FY2025",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-04-14",
+      "publicationTime": "22:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401168.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "revenue",
+      "value": 1269130,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "humanoidRevenue",
+      "value": 590299,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "humanoidUnits",
+      "value": 921,
+      "period": "H1 2026",
+      "currency": null,
+      "unit": "units",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "全尺寸销量台数，不适用财报金额单位"
+    },
+    {
+      "metric": "nonembodied",
+      "value": 32725,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherRobot",
+      "value": 245754,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "hardware",
+      "value": 259377,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengCategoryRevenue",
+      "value": 139176,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "others",
+      "value": 1799,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "cost",
+      "value": 702252,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "gross",
+      "value": 566878,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "surcharge",
+      "value": 12696,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "sales",
+      "value": 238034,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "admin",
+      "value": 149346,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "RD",
+      "value": 303083,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "financeExpense",
+      "value": 23282,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "bankGrossInterest",
+      "value": 21182,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "bankCapitalizedInterest",
+      "value": 21182,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "leaseInterest",
+      "value": 1191,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "interestIncome",
+      "value": 52596,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FXLoss",
+      "value": 73857,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherFinance",
+      "value": 830,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherIncome",
+      "value": 8288,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "investment",
+      "value": -32609,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "associateLoss",
+      "value": 34492,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FVGain",
+      "value": 55,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "credit",
+      "value": 91070,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "assetImpair",
+      "value": 3771,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "disposalLoss",
+      "value": 423,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "operating",
+      "value": -279093,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "pretax",
+      "value": -279787,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "tax",
+      "value": 59040,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "group",
+      "value": -338827,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "owner",
+      "value": -311478,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "NCI",
+      "value": -27349,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "SBC",
+      "value": 0,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "adjusted",
+      "value": -338827,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "EBITDAAdjusted",
+      "value": -174144,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "cashBank",
+      "value": 2381213,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "restricted",
+      "value": 55587,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "endCash",
+      "value": 2325626,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "liquidNAV",
+      "value": 270055,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherEquityNAV",
+      "value": 78533,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "otherFinancialNAV",
+      "value": 3042,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "associateNAV",
+      "value": 119264,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "bankShort",
+      "value": 383256,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "bankLong",
+      "value": 486655,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "bankCurrentLong",
+      "value": 127416,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "leaseCurrent",
+      "value": 22350,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "leaseLong",
+      "value": 23877,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "currentAssets",
+      "value": 5688328,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonCurrentAssets",
+      "value": 5154428,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "currentLiabilities",
+      "value": 2325902,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonCurrentLiabilities",
+      "value": 658387,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "equity",
+      "value": 7858467,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "ownerEquity",
+      "value": 6966071,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "NCIEquity",
+      "value": 892396,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "receivable",
+      "value": 1679607,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "inventory",
+      "value": 985473,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "prepay",
+      "value": 174627,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "payable",
+      "value": 883795,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "contract",
+      "value": 133345,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "OCF",
+      "value": -749490,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "capex",
+      "value": 261283,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "acquisitionNet",
+      "value": 1508969,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "investing",
+      "value": -1814965,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "financing",
+      "value": 62185,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "startCash",
+      "value": 4887880,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FXCash",
+      "value": -59984,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "DAFixed",
+      "value": 31260,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "DAROU",
+      "value": 12658,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "amortIntangible",
+      "value": 9632,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "amortPrepay",
+      "value": 8657,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "leaseCash",
+      "value": 18530,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "leaseFinanceCash",
+      "value": 17028,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "capitalPayable",
+      "value": 238461,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "singleCustomerRevenue",
+      "value": 308543,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengPurchaseCost",
+      "value": 1665324,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengGoodwill",
+      "value": 1123510,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengNCIAtAcquire",
+      "value": 717925,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengFVNetAssets",
+      "value": 1259739,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "FengShareFVNetAssets",
+      "value": 541814,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "UqiMinorityRaise",
+      "value": 155000,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "UqiCapitalSurplus",
+      "value": 60798,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "UqiNCIRaise",
+      "value": 94202,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-09-24",
+      "publicationTime": "18:01",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401451.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonOperatingIncome",
+      "value": 895,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    },
+    {
+      "metric": "nonOperatingExpense",
+      "value": 1589,
+      "period": "H1 2026",
+      "currency": "RMB",
+      "unit": "thousand",
+      "publicationDate": "2026-08-28",
+      "publicationTime": "18:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801691.pdf",
+      "afterMarketClose": true,
+      "note": "财表PRC GAAP人民币千；完整现金流/附注年报4/14、中报9/24，利润3/31或8/28"
+    }
+  ]
+}

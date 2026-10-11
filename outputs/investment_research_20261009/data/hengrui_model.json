@@ -1,0 +1,652 @@
+{
+  "issuerId": "I011",
+  "name": "恒瑞医药",
+  "asOf": "2026-10-09",
+  "modelVersion": "hengrui-normalized-ntm-pe-v1.0",
+  "status": "独立研究初版，判断性情景，未校准获利概率",
+  "preferredSecurity": "01276.HK",
+  "method": "共享人民币正常化NTM每股盈利×各市场合理PE；H股乘研究汇率HKD/CNY。总股数计算EPS，不按H股股数分配全部公司利润。",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核实截止日即期汇率",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "shareCount": {
+    "total": 6637199874,
+    "A": 6379002274,
+    "H": 258197600,
+    "period": "2026H1",
+    "sourceURL": "https://iis.aastocks.com/20260819/12291039-0.PDF",
+    "note": "9月证券变动月报未全文核验；固定已披露股数，稀释±2%、±5%另列，不假设回购注销"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 15455.584,
+    "innovativeDrugRevenue": 8809.344,
+    "oncologyInnovativeRevenue": 6264.6,
+    "nonOncologyInnovativeRevenue": 2544.8,
+    "genericRevenue": 5138.8,
+    "licenseRevenue": 1422.302,
+    "attributableProfit": 4465.439,
+    "cashEquivalents": 38031.524,
+    "cashBank": 38721.633,
+    "OCF": 1987.004,
+    "PPEmoneyOut": 394.443,
+    "landMoneyOut": 10.001,
+    "developmentMoneyOut": 1173.062,
+    "conservativeFreeCashFlow": 409.498,
+    "rdTotal": 4605.1,
+    "rdExpensed": 3492.9,
+    "KaileraFairValueGain": 820.7,
+    "totalAssets": 70773.122,
+    "parentEquity": 64466.431,
+    "sourceURL": "https://iis.aastocks.com/20260819/12291039-0.PDF",
+    "publication": "2026-08-19 21:35",
+    "comparators": {
+      "2025H1Revenue": 15761.194,
+      "2025H1AttributableProfit": 4450.107,
+      "2025H1OCF": 4300.453
+    },
+    "note": "H1利润含公平价值、利息和汇兑，不能机械×2；FCF=OCF−购置PPE−土地−新增无形资产"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "eps": [
+        1.1,
+        1.45,
+        1.8
+      ],
+      "PEA": [
+        24,
+        34,
+        44
+      ],
+      "PEH": [
+        22,
+        33,
+        43
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "profitBillionCNY": [
+        7.300919861400001,
+        9.6239398173,
+        11.946959773200001
+      ],
+      "A": [
+        26.400000000000002,
+        49.3,
+        79.2
+      ],
+      "H": [
+        26.620000000000005,
+        52.635000000000005,
+        85.14000000000001
+      ],
+      "Areturn": [
+        -43.64994663820704,
+        5.229455709711828,
+        69.05016008537888
+      ],
+      "Hreturn": [
+        -44.54166666666666,
+        9.65625000000001,
+        77.37500000000004
+      ],
+      "Atotal": [
+        -43.64994663820704,
+        5.229455709711828,
+        69.05016008537888
+      ],
+      "Htotal": [
+        -44.54166666666666,
+        9.65625000000001,
+        77.37500000000004
+      ],
+      "Aexpected": 51.05,
+      "Hexpected": 54.25750000000001
+    },
+    "halfYear": {
+      "eps": [
+        1.15,
+        1.6,
+        2
+      ],
+      "PEA": [
+        24,
+        36,
+        45
+      ],
+      "PEH": [
+        22,
+        34,
+        44
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "profitBillionCNY": [
+        7.6327798551,
+        10.6195197984,
+        13.274399748
+      ],
+      "A": [
+        27.599999999999998,
+        57.6,
+        90
+      ],
+      "H": [
+        27.83,
+        59.84000000000001,
+        96.80000000000001
+      ],
+      "Areturn": [
+        -41.088580576307365,
+        22.945570971184637,
+        92.10245464247598
+      ],
+      "Hreturn": [
+        -42.02083333333334,
+        24.666666666666682,
+        101.6666666666667
+      ],
+      "Atotal": [
+        -41.088580576307365,
+        22.945570971184637,
+        92.10245464247598
+      ],
+      "Htotal": [
+        -42.02083333333334,
+        24.666666666666682,
+        101.6666666666667
+      ]
+    },
+    "oneYear": {
+      "eps": [
+        1.25,
+        1.8,
+        2.35
+      ],
+      "PEA": [
+        24,
+        36,
+        46
+      ],
+      "PEH": [
+        22,
+        35,
+        45
+      ],
+      "div": [
+        0.15,
+        0.25,
+        0.35
+      ],
+      "profitBillionCNY": [
+        8.296499842500001,
+        11.946959773200001,
+        15.597419703900002
+      ],
+      "A": [
+        30,
+        64.8,
+        108.10000000000001
+      ],
+      "H": [
+        30.250000000000004,
+        69.30000000000001,
+        116.325
+      ],
+      "Areturn": [
+        -35.96584845250801,
+        38.31376734258269,
+        130.73639274279617
+      ],
+      "Hreturn": [
+        -36.979166666666664,
+        44.37500000000003,
+        142.34375
+      ],
+      "Atotal": [
+        -35.64567769477055,
+        38.84738527214513,
+        131.48345784418356
+      ],
+      "Htotal": [
+        -36.635416666666664,
+        44.94791666666671,
+        143.14583333333334
+      ]
+    },
+    "threeYear": {
+      "eps": [
+        1.4,
+        2.45,
+        3.75
+      ],
+      "PEA": [
+        22,
+        34,
+        44
+      ],
+      "PEH": [
+        20,
+        33,
+        43
+      ],
+      "div": [
+        0.5,
+        0.9,
+        1.4
+      ],
+      "profitBillionCNY": [
+        9.2920798236,
+        16.261139691300002,
+        24.8894995275
+      ],
+      "A": [
+        30.799999999999997,
+        83.30000000000001,
+        165
+      ],
+      "H": [
+        30.800000000000004,
+        88.93500000000002,
+        177.37500000000003
+      ],
+      "Areturn": [
+        -34.25827107790823,
+        77.80149413020278,
+        252.18783351120595
+      ],
+      "Hreturn": [
+        -35.83333333333333,
+        85.28125000000004,
+        269.53125000000006
+      ],
+      "Atotal": [
+        -33.19103521878336,
+        79.72251867662756,
+        255.1760939167556
+      ],
+      "Htotal": [
+        -34.68749999999999,
+        87.34375000000003,
+        272.73958333333337
+      ],
+      "AbaseAnnualizedTotalReturnPct": 21.581500450992742,
+      "HbaseAnnualizedTotalReturnPct": 23.27634125193221
+    },
+    "fiveYear": {
+      "eps": [
+        1.5,
+        3.25,
+        5.4
+      ],
+      "PEA": [
+        20,
+        32,
+        42
+      ],
+      "PEH": [
+        18,
+        31,
+        41
+      ],
+      "div": [
+        0.8,
+        1.75,
+        3
+      ],
+      "profitBillionCNY": [
+        9.955799811,
+        21.5708995905,
+        35.840879319600006
+      ],
+      "A": [
+        30,
+        104,
+        226.8
+      ],
+      "H": [
+        29.700000000000003,
+        110.825,
+        243.54000000000002
+      ],
+      "Areturn": [
+        -35.96584845250801,
+        121.98505869797222,
+        384.0981856990395
+      ],
+      "Hreturn": [
+        -38.125,
+        130.88541666666669,
+        407.37500000000006
+      ],
+      "Atotal": [
+        -34.25827107790822,
+        125.72038420490928,
+        390.50160085378866
+      ],
+      "Htotal": [
+        -36.291666666666664,
+        134.89583333333334,
+        414.2500000000001
+      ],
+      "AbaseAnnualizedTotalReturnPct": 17.683115212447653,
+      "HbaseAnnualizedTotalReturnPct": 18.624682388272305
+    }
+  },
+  "scores": {
+    "A": {
+      "halfYear": {
+        "dimensions": [
+          3.4,
+          2.7,
+          4,
+          4,
+          4.1,
+          4
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 69.4
+      },
+      "oneYear": {
+        "dimensions": [
+          3.8,
+          2.7,
+          4.1,
+          4,
+          4.1,
+          3.9
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 75.6
+      },
+      "threeYear": {
+        "dimensions": [
+          4,
+          2.7,
+          4.2,
+          4.3,
+          4,
+          3.8
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 80.89999999999999
+      },
+      "fiveYear": {
+        "dimensions": [
+          4,
+          2.7,
+          4.3,
+          4.3,
+          3.7,
+          3.7
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 82.39999999999999
+      }
+    },
+    "H": {
+      "halfYear": {
+        "dimensions": [
+          3.7,
+          3,
+          4,
+          4,
+          4.1,
+          3.9
+        ],
+        "weights": [
+          25,
+          30,
+          15,
+          10,
+          10,
+          10
+        ],
+        "total": 72.5
+      },
+      "oneYear": {
+        "dimensions": [
+          4.1,
+          3,
+          4.1,
+          4,
+          4.1,
+          3.8
+        ],
+        "weights": [
+          25,
+          15,
+          25,
+          15,
+          10,
+          10
+        ],
+        "total": 77.79999999999998
+      },
+      "threeYear": {
+        "dimensions": [
+          4.2,
+          3,
+          4.2,
+          4.3,
+          4,
+          3.7
+        ],
+        "weights": [
+          25,
+          5,
+          35,
+          20,
+          5,
+          10
+        ],
+        "total": 82
+      },
+      "fiveYear": {
+        "dimensions": [
+          4.2,
+          3,
+          4.3,
+          4.3,
+          3.7,
+          3.6
+        ],
+        "weights": [
+          20,
+          0,
+          40,
+          20,
+          5,
+          15
+        ],
+        "total": 82.9
+      }
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "securities": [
+    {
+      "securityId": "S012",
+      "code": "600276.SH",
+      "currency": "CNY",
+      "price": 46.85,
+      "scenarios": "scenarios.*.A/Areturn/Atotal",
+      "scores": "scores.A"
+    },
+    {
+      "securityId": "S022",
+      "code": "01276.HK",
+      "currency": "HKD",
+      "price": 48,
+      "scenarios": "scenarios.*.H/Hreturn/Htotal",
+      "scores": "scores.H"
+    }
+  ],
+  "probability": {
+    "weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "status": "判断权重，不是统计概率",
+    "yearEndExpectedPriceA": 51.05,
+    "yearEndExpectedReturnAPct": 8.964781216648877,
+    "yearEndExpectedPriceH": 54.2575,
+    "yearEndExpectedReturnHPct": 13.036458333333334,
+    "defensiveWeights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "positiveWeights": [
+      0.1,
+      0.5,
+      0.4
+    ]
+  },
+  "brokerTargets": [
+    {
+      "institution": "HSBC",
+      "date": "2026-09-29",
+      "code": "01276.HK",
+      "currency": "HKD",
+      "target": 72.5,
+      "upsidePct": 51.04166666666667,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1547010/research-report",
+      "sourceType": "公开新闻转述",
+      "horizon": "未明确；作为约一年估值参照"
+    },
+    {
+      "institution": "JPMorgan",
+      "date": "2026-10-07",
+      "code": "01276.HK",
+      "currency": "HKD",
+      "target": 65,
+      "upsidePct": 35.41666666666667,
+      "rating": "增持",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01276/AAFN/NOW.1548079/research-report",
+      "sourceType": "公开新闻转述",
+      "horizon": "未明确；作为约一年估值参照"
+    }
+  ],
+  "excludedBrokerReferences": [
+    {
+      "institution": "UBS",
+      "target": 97.4,
+      "date": "2026-07-09",
+      "reason": "后续8月下调81.7标题存在，完整正文/日期未核验，97.4不作为现行目标"
+    },
+    {
+      "institution": "Nomura",
+      "target": 82.18,
+      "date": "2026-07-27",
+      "reason": "8月中报后报道显示预测失准，后续现行目标未核验，仅旧假设对照"
+    },
+    {
+      "institution": "Citi",
+      "target": 120,
+      "reason": "列表标题存在但正文/日期/口径缺失，排除可核验目标统计"
+    },
+    {
+      "institution": "Morgan Stanley",
+      "target": 82,
+      "reason": "列表标题存在但正文/日期/口径缺失，排除可核验目标统计"
+    }
+  ],
+  "assumptions": [
+    "EPS为各目标时点未来12个月正常化盈利，包含未来产品及可持续里程碑，剔除纯金融资产公平价值收益的稳态外推",
+    "不额外叠加全管线rNPV、首付、现金、Kailera权益价值，避免与PE盈利预期重复计价；简化整公司盈利模型非完整分管线DCF",
+    "BMS152亿美元为潜在全额，6亿美元首付与H1收入确认不同；HRS1596交易仅核公开新闻转述，不计总额为确定现金",
+    "长期EPS需要创新药/非肿瘤、临床及支付兑现；悲观包含盈利增长不足和估值压缩",
+    "分红按累计现金不再投资计；年内已派分红不重复加入未来回报",
+    "A/H倍数允许差异，不是无摩擦套利；汇率1.10为研究假设",
+    "技术支撑非最大亏损边界；年底宽情景非置信区间"
+  ],
+  "confidence": {
+    "financials": "高：中报原始披露镜像页核验；2025全年原年报完整复核仍缺",
+    "technical": "最新二源报价；三年provider数量按锁版逐项标示",
+    "valuation": "中低：EPS/PE/FX判断假设，非机构一致预期",
+    "clinical": "中：中报及公开新闻，未建逐资产成功率模型"
+  },
+  "sources": [
+    "https://iis.aastocks.com/20260819/12291039-0.PDF",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01276/HK6/NOW.1539421/result-announcement",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01276/AAFN/NOW.1547245/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01276/AAFN/NOW.1548079/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01276/AAFN/NOW.1545726/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01801/AAFN/NOW.1547010/research-report"
+  ],
+  "deepResearchFile": "research/hengrui_deep.md",
+  "effectiveHanzi": 12027,
+  "wordCountBasis": "剔除标题、基准头及来源区后的CJK汉字；正文无表格、长引文或共用宏观段落",
+  "scoreReasons": {
+    "valuationExpectedReturn": "H股研究汇率下折价，一年基准上行44.38%，但正常化盈利与高PE须兑现",
+    "technicalRelativeStrength": "A/H站上20日但低于60/120/250，60日回报落后市场；H最新量比1.64仍仅反弹",
+    "growthBusinessQuality": "创新16.4%和非肿瘤74%真实放量；肿瘤2.6%与仿制-16.1%抵消",
+    "industryCycle": "疾病刚需、慢病与全球授权；医保集采、竞争、利率为约束",
+    "catalysts": "BMS首付/履约、免疫代谢、医院准入；获批/政策仍未知",
+    "financialGovernanceDownside": "现金与低负债强；OCF落后利润、研发资本化和公平价值需复核"
+  },
+  "scenarioConditions": {
+    "pessimistic": "新品减速，肿瘤仿制拖累，授权临床延后，政策或估值压缩",
+    "base": "医保新品扩张，肿瘤新品抵消老药，授权有序兑现，正常化EPS上升",
+    "optimistic": "多领域及全球合作强兑现，免疫代谢推进，保留高创新估值"
+  },
+  "modelLimitations": ["简化整公司PE模型，未完成逐药rNPV/DCF", "2025原年报和9月股数变动未全文复核", "HRS1596合同仅公开转述", "缺独立医药细分指数历史", "盈利/PE/FX及权重均判断性假设"]
+}

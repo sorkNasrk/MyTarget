@@ -1,0 +1,29 @@
+{
+  "issuerId": "I020",
+  "securityId": "S024",
+  "code": "09606.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "duality-v2-equityRewards-noCashSubstitute-netRights",
+  "modelFile": "data/duality_model.json",
+  "deepFile": "research/I020_deep.md",
+  "effectiveChineseCharacters": 17075,
+  "exactDuplicates": 0,
+  "independentQA": {"file": "data/I020_independent_qa.json", "passed": true, "checks": 20572},
+  "adapterQA": {"file": "qa/duality_adapter_qa.json", "passed": true, "checks": 2023, "atoms": 715, "signaturesPerCase": 250},
+  "visualQA": {"sheets": 8, "additionalDetailRenders": 2, "passed": true, "location": "qa/duality_bridge"},
+  "peerEconomicReview": {"reviewer": "/root/market_data", "passed": true, "scope": "cash bank and restricted identity; US economic rights and RD joint sensitivity; finite distributions with no extra issuePV"},
+  "revisionAudit": {"actualOneYearTarget": "2027-10-07", "cashDiscountRecomputed": true, "SBCBoundary": "equity rewards cash addback with separate dilution; no100%cash substitute plus same shares"},
+  "parentRequired": ["release registry and persistent input manifest integration", "three scenario snapshot refresh and numeric QA", "same-source Word/PDF export and per-page visual QA"],
+  "notes": [
+    "Cash2.938635bn excludes independent restricted67.823m; no double restricted subtraction",
+    "FullCOGS452.689m+RD606.667m retained; US25/35/45% assumption jointly scales net economic contribution and USRD, no extra USroyalty",
+    "PastUS290.670m paid once H2; Genentech45mUSD expected not verified receipt",
+    "Finite shareholder distributions starting2033 after banks and pastUS cleared; reserve1bn and70% payout;2041 netcashfinancial less remaining liabilities; targetcash display not added",
+    "Future issue cash enters company account only, no separate PV; faircash-onlyissue invariant and discount/employee dilution checks passed",
+    "Base9.2bn conditional grosscapital, current Aplan4.1bn alone insufficient;1year funding failure stresses explicit",
+    "Oct9 19:32 filing excluded cutoff; Sept30 filing eligible",
+    "Scores53.9/60.4/64.7/66.2 reflect negative base returns despite wide bull upside; medium evidence confidence",
+    "AdapterUSShareRef minimum positive prevents denominatorzero; rates fractions not probabilities of profit"
+  ]
+}

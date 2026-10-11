@@ -1,0 +1,32 @@
+{
+  "issuerId": "I042",
+  "securityId": "S049",
+  "code": "06185.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
+  "modelFile": "data/cansino_model.json",
+  "deepFile": "research/I042_deep.md",
+  "effectiveChineseCharacters": 12426,
+  "exactDuplicates": 0,
+  "independentQA": {"file": "data/I042_independent_qa.json", "passed": true, "checks": 143911, "inputEdits": 28, "sensitivityCases": 11},
+  "bodyQA": {"file": "data/I042_body_qa.json", "passed": true, "checks": 49},
+  "adapterQA": {"file": "qa/cansino_adapter_qa.json", "passed": true, "checks": 5046, "atoms": 886, "signaturesPerCase": 307},
+  "visualQA": {"sheets": 8, "additionalDetailRenders": 3, "passed": true, "location": "qa/cansino_bridge"},
+  "peerEconomicReview": {"reviewer": "/root/market_data", "passed": true, "scope": "post-dividend terminal plus same-year dividend cash closure; deposits/structured redemptions paired; lease/SBC and all-share option boundary clarified; H1 cash treatment revised"},
+  "parentRequired": ["release registry and persistent input manifest integration", "three scenario snapshot refresh and numeric QA", "same-source Word/PDF export and per-page visual QA"],
+  "notes": [
+    "Seven commercial net segments plus eight risk net asset groups; H1 product split is not public and forecast split explicitly research.",
+    "PRC new capitalised development 10.359m versus 67.098m transfer; HKFRS wording difference disclosed; actual H1 cash capex57.496m only once.",
+    "June cash1172.180m, structured506.378m, currentTerm164.612m, longTerm300.642m separate; derivative1.394m/restricted0.579m excluded; equity/funds168.657m terminal discount only.",
+    "First cash forecast annual budget less H1HKFRSOCF plus investment cashyield minus financeinterestcash; accrued bankinterest0.590m paid once H2; loanprincipal965.908m only.",
+    "AllA/Hshares247.043801m; A options outstanding2.0283m plus reserved0.2874m, H0.860m; exercises pair currency-adjusted cash and shares, not yet issued grant shares.",
+    "PCV24/PBPV replaces PCV13 and combined replaces DT, net revenue cannibal rates single activity inputs; Gates grants not purchase contracts.",
+    "ROUDA included addback, leaseinterest in profit and cashprincipal separate; SBC addback paired to known options/new employee dilution; no targetcash orFCFF double valuation.",
+    "Industrial campus planned2244.7m invested905.7m, futurecapex budget not limited to17.466m contractcommit; parentretained166.252m positive, group accumulatedloss472.164m not same legal restriction.",
+    "CLSA49.6 title/list date2026Sep1 verified but fullreport/term missing; CLSA belongsChinesefinancialgroup excluded strictforeign; UBS52.4Apr30 older90days, BofA56Aug2025 historical.",
+    "Scores60.3/60.6/65.5/68.6; oneYearbase21.758045HKD below35.02 current; yearEnd expected30.582168 -12.672280%; optimistic tail not recommendation probability.",
+    "Base mincash1471.930m; fullbankpay2027 min1267.498m stillsolvent, not claim rollover essential; PCVDTcut30% oneYearvalue15.903975, mRNAzero21.726864.",
+    "OneYearactual2027Oct7; future3y/5ycalendarpending;13OHLCbadbarsrepairedtwoProviderarchive; vaccineindustrybenchmarkmissingnoinventedproxy."
+  ]
+}

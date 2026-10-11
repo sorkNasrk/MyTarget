@@ -1,0 +1,4049 @@
+{
+  "issuerId": "I091",
+  "securityId": "S102",
+  "code": "03888.HK",
+  "name": "金山软件",
+  "asOf": "2026-10-09",
+  "price": 25.62,
+  "currency": "HKD",
+  "earningsCurrency": "CNY",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "note": "研究转换假设，非声称即期"
+  },
+  "deepResearchFile": "research/kingsoft_deep.md",
+  "qaFile": "qa/kingsoft_qa.json",
+  "modelVersion": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0",
+  "status": "source-model-body-verified-pending-final-document-integration",
+  "targetPriceRoundingDecimals": 2,
+  "method": "办公/游戏完整常态费用、股酬、租息、正常税及产权份额后利润分别PE；游戏亏损扣明确年数资金准备。集团正常财资归母税后利润低PE，KC所持股权及非KC联营合营投资NAV按归属/可实现/控股折让另计；不计单列NAV的未实现投资收益，不另加全部现金，避免复式资本化。",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "officeRevenue": [
+          6.6,
+          7.15,
+          7.6
+        ],
+        "gameRevenue": [
+          2.9,
+          3.25,
+          3.65
+        ],
+        "officeGross": [
+          0.77,
+          0.81,
+          0.83
+        ],
+        "gameGross": [
+          0.68,
+          0.72,
+          0.75
+        ],
+        "officeRD": [
+          2.5,
+          2.5,
+          2.48
+        ],
+        "gameRD": [
+          1.34,
+          1.36,
+          1.38
+        ],
+        "officeSelling": [
+          1.03,
+          1,
+          0.97
+        ],
+        "gameSelling": [
+          0.54,
+          0.6,
+          0.66
+        ],
+        "officeAdmin": [
+          0.5,
+          0.46,
+          0.45
+        ],
+        "gameAdmin": [
+          0.3,
+          0.3,
+          0.3
+        ],
+        "officeSBC": [
+          0.29,
+          0.26,
+          0.25
+        ],
+        "gameSBC": [
+          0.13,
+          0.12,
+          0.12
+        ],
+        "officeOtherIncome": [
+          0.17,
+          0.2,
+          0.23
+        ],
+        "gameOtherIncome": [
+          0.025,
+          0.04,
+          0.045
+        ],
+        "officeLeaseInterest": [
+          0.003,
+          0.003,
+          0.003
+        ],
+        "gameLeaseInterest": [
+          0.007,
+          0.007,
+          0.007
+        ],
+        "officeTax": [
+          0.22,
+          0.15,
+          0.13
+        ],
+        "gameTax": [
+          0.25,
+          0.2,
+          0.16
+        ],
+        "officeParent": [
+          0.51,
+          0.52,
+          0.52
+        ],
+        "gameParent": [
+          0.72,
+          0.74,
+          0.75
+        ],
+        "parentNormalFinanceAfterTax": [
+          0.28,
+          0.38,
+          0.45
+        ],
+        "financePE": [
+          10,
+          12,
+          13
+        ],
+        "officePE": [
+          23,
+          35,
+          44
+        ],
+        "gamePE": [
+          7,
+          10,
+          13
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "KCGroupStakeNAV": [
+          3.5,
+          6.1,
+          8.5
+        ],
+        "KCParentWithinGroup": [
+          0.9,
+          1,
+          1
+        ],
+        "otherJVAssocNAV": [
+          3,
+          4.83,
+          7.1
+        ],
+        "otherNAVParentFraction": [
+          0.5,
+          0.52,
+          0.6
+        ],
+        "otherNAVRealizable": [
+          0.45,
+          0.6,
+          0.75
+        ],
+        "holdingDiscount": [
+          0.25,
+          0.15,
+          0.1
+        ],
+        "baseShares": [
+          1.37444031,
+          1.37444031,
+          1.37444031
+        ],
+        "additionalBuybackHKDbn": [
+          0,
+          0.1,
+          0.2
+        ],
+        "buybackAveragePriceHKD": [
+          22,
+          25,
+          29
+        ],
+        "normalShareDilution": [
+          0.006,
+          0.006,
+          0.008
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "annualParentDA": [
+          0.16,
+          0.17,
+          0.18
+        ],
+        "annualParentCapitalCash": [
+          0.2,
+          0.17,
+          0.16
+        ],
+        "annualParentNWC": [
+          0.15,
+          0.08,
+          0.04
+        ],
+        "annualCashSharePurchase": [
+          0.07,
+          0.08,
+          0.08
+        ]
+      },
+      "halfYear": {
+        "officeRevenue": [
+          6.7,
+          7.65,
+          8.5
+        ],
+        "gameRevenue": [
+          2.7,
+          3.4,
+          4.1
+        ],
+        "officeGross": [
+          0.76,
+          0.812,
+          0.84
+        ],
+        "gameGross": [
+          0.66,
+          0.735,
+          0.77
+        ],
+        "officeRD": [
+          2.65,
+          2.65,
+          2.7
+        ],
+        "gameRD": [
+          1.3,
+          1.4,
+          1.49
+        ],
+        "officeSelling": [
+          1.1,
+          1.08,
+          1.05
+        ],
+        "gameSelling": [
+          0.5,
+          0.63,
+          0.72
+        ],
+        "officeAdmin": [
+          0.54,
+          0.5,
+          0.49
+        ],
+        "gameAdmin": [
+          0.31,
+          0.31,
+          0.31
+        ],
+        "officeSBC": [
+          0.31,
+          0.29,
+          0.28
+        ],
+        "gameSBC": [
+          0.13,
+          0.13,
+          0.13
+        ],
+        "officeOtherIncome": [
+          0.16,
+          0.21,
+          0.25
+        ],
+        "gameOtherIncome": [
+          0.02,
+          0.04,
+          0.05
+        ],
+        "officeLeaseInterest": [
+          0.003,
+          0.003,
+          0.003
+        ],
+        "gameLeaseInterest": [
+          0.008,
+          0.008,
+          0.008
+        ],
+        "officeTax": [
+          0.23,
+          0.16,
+          0.13
+        ],
+        "gameTax": [
+          0.25,
+          0.2,
+          0.16
+        ],
+        "officeParent": [
+          0.505,
+          0.515,
+          0.515
+        ],
+        "gameParent": [
+          0.72,
+          0.74,
+          0.75
+        ],
+        "parentNormalFinanceAfterTax": [
+          0.25,
+          0.39,
+          0.47
+        ],
+        "financePE": [
+          10,
+          12,
+          13
+        ],
+        "officePE": [
+          22,
+          35,
+          45
+        ],
+        "gamePE": [
+          7,
+          11,
+          14
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "KCGroupStakeNAV": [
+          3,
+          6.5,
+          10
+        ],
+        "KCParentWithinGroup": [
+          0.9,
+          1,
+          1
+        ],
+        "otherJVAssocNAV": [
+          2.8,
+          5,
+          8
+        ],
+        "otherNAVParentFraction": [
+          0.5,
+          0.52,
+          0.6
+        ],
+        "otherNAVRealizable": [
+          0.4,
+          0.6,
+          0.75
+        ],
+        "holdingDiscount": [
+          0.27,
+          0.15,
+          0.1
+        ],
+        "baseShares": [
+          1.37444031,
+          1.37444031,
+          1.37444031
+        ],
+        "additionalBuybackHKDbn": [
+          0,
+          0.25,
+          0.4
+        ],
+        "buybackAveragePriceHKD": [
+          20,
+          28,
+          34
+        ],
+        "normalShareDilution": [
+          0.012,
+          0.015,
+          0.02
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "annualParentDA": [
+          0.17,
+          0.19,
+          0.21
+        ],
+        "annualParentCapitalCash": [
+          0.25,
+          0.2,
+          0.19
+        ],
+        "annualParentNWC": [
+          0.17,
+          0.1,
+          0.06
+        ],
+        "annualCashSharePurchase": [
+          0.08,
+          0.09,
+          0.1
+        ]
+      },
+      "oneYear": {
+        "officeRevenue": [
+          6.9,
+          8.5,
+          10.1
+        ],
+        "gameRevenue": [
+          2.6,
+          3.8,
+          5
+        ],
+        "officeGross": [
+          0.75,
+          0.82,
+          0.85
+        ],
+        "gameGross": [
+          0.65,
+          0.75,
+          0.78
+        ],
+        "officeRD": [
+          2.75,
+          2.95,
+          3.1
+        ],
+        "gameRD": [
+          1.26,
+          1.5,
+          1.7
+        ],
+        "officeSelling": [
+          1.16,
+          1.18,
+          1.2
+        ],
+        "gameSelling": [
+          0.49,
+          0.72,
+          0.92
+        ],
+        "officeAdmin": [
+          0.56,
+          0.55,
+          0.56
+        ],
+        "gameAdmin": [
+          0.32,
+          0.32,
+          0.34
+        ],
+        "officeSBC": [
+          0.32,
+          0.32,
+          0.32
+        ],
+        "gameSBC": [
+          0.13,
+          0.14,
+          0.15
+        ],
+        "officeOtherIncome": [
+          0.15,
+          0.23,
+          0.28
+        ],
+        "gameOtherIncome": [
+          0.02,
+          0.045,
+          0.055
+        ],
+        "officeLeaseInterest": [
+          0.004,
+          0.004,
+          0.004
+        ],
+        "gameLeaseInterest": [
+          0.009,
+          0.009,
+          0.009
+        ],
+        "officeTax": [
+          0.235,
+          0.165,
+          0.14
+        ],
+        "gameTax": [
+          0.25,
+          0.2,
+          0.17
+        ],
+        "officeParent": [
+          0.5,
+          0.51,
+          0.51
+        ],
+        "gameParent": [
+          0.72,
+          0.735,
+          0.745
+        ],
+        "parentNormalFinanceAfterTax": [
+          0.23,
+          0.42,
+          0.53
+        ],
+        "financePE": [
+          9,
+          12,
+          13
+        ],
+        "officePE": [
+          21,
+          34,
+          45
+        ],
+        "gamePE": [
+          6,
+          11,
+          15
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "KCGroupStakeNAV": [
+          2.7,
+          7,
+          12
+        ],
+        "KCParentWithinGroup": [
+          0.9,
+          1,
+          1
+        ],
+        "otherJVAssocNAV": [
+          2.5,
+          5.4,
+          9.8
+        ],
+        "otherNAVParentFraction": [
+          0.5,
+          0.52,
+          0.6
+        ],
+        "otherNAVRealizable": [
+          0.4,
+          0.6,
+          0.75
+        ],
+        "holdingDiscount": [
+          0.28,
+          0.15,
+          0.1
+        ],
+        "baseShares": [
+          1.37444031,
+          1.37444031,
+          1.37444031
+        ],
+        "additionalBuybackHKDbn": [
+          0.03,
+          0.45,
+          0.75
+        ],
+        "buybackAveragePriceHKD": [
+          19,
+          31,
+          43
+        ],
+        "normalShareDilution": [
+          0.02,
+          0.025,
+          0.035
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0.08,
+          0.15,
+          0.22
+        ],
+        "annualParentDA": [
+          0.18,
+          0.21,
+          0.24
+        ],
+        "annualParentCapitalCash": [
+          0.29,
+          0.24,
+          0.23
+        ],
+        "annualParentNWC": [
+          0.2,
+          0.12,
+          0.085
+        ],
+        "annualCashSharePurchase": [
+          0.08,
+          0.1,
+          0.12
+        ]
+      },
+      "threeYear": {
+        "officeRevenue": [
+          7.5,
+          11.8,
+          16.8
+        ],
+        "gameRevenue": [
+          2.5,
+          5,
+          7.5
+        ],
+        "officeGross": [
+          0.73,
+          0.82,
+          0.86
+        ],
+        "gameGross": [
+          0.65,
+          0.77,
+          0.8
+        ],
+        "officeRD": [
+          3,
+          4,
+          5.1
+        ],
+        "gameRD": [
+          1.24,
+          1.85,
+          2.4
+        ],
+        "officeSelling": [
+          1.3,
+          1.6,
+          1.9
+        ],
+        "gameSelling": [
+          0.47,
+          0.94,
+          1.35
+        ],
+        "officeAdmin": [
+          0.64,
+          0.74,
+          0.93
+        ],
+        "gameAdmin": [
+          0.35,
+          0.4,
+          0.49
+        ],
+        "officeSBC": [
+          0.35,
+          0.45,
+          0.55
+        ],
+        "gameSBC": [
+          0.14,
+          0.19,
+          0.25
+        ],
+        "officeOtherIncome": [
+          0.16,
+          0.3,
+          0.4
+        ],
+        "gameOtherIncome": [
+          0.02,
+          0.055,
+          0.08
+        ],
+        "officeLeaseInterest": [
+          0.005,
+          0.005,
+          0.005
+        ],
+        "gameLeaseInterest": [
+          0.01,
+          0.013,
+          0.017
+        ],
+        "officeTax": [
+          0.24,
+          0.18,
+          0.15
+        ],
+        "gameTax": [
+          0.25,
+          0.21,
+          0.18
+        ],
+        "officeParent": [
+          0.475,
+          0.49,
+          0.49
+        ],
+        "gameParent": [
+          0.7,
+          0.72,
+          0.73
+        ],
+        "parentNormalFinanceAfterTax": [
+          0.18,
+          0.48,
+          0.68
+        ],
+        "financePE": [
+          9,
+          11,
+          12
+        ],
+        "officePE": [
+          19,
+          31,
+          40
+        ],
+        "gamePE": [
+          6,
+          12,
+          16
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "KCGroupStakeNAV": [
+          1.8,
+          9,
+          18
+        ],
+        "KCParentWithinGroup": [
+          0.9,
+          1,
+          1
+        ],
+        "otherJVAssocNAV": [
+          1.8,
+          6.8,
+          15
+        ],
+        "otherNAVParentFraction": [
+          0.48,
+          0.5,
+          0.58
+        ],
+        "otherNAVRealizable": [
+          0.35,
+          0.6,
+          0.8
+        ],
+        "holdingDiscount": [
+          0.3,
+          0.14,
+          0.08
+        ],
+        "baseShares": [
+          1.37444031,
+          1.37444031,
+          1.37444031
+        ],
+        "additionalBuybackHKDbn": [
+          0.12,
+          1.5,
+          2.7
+        ],
+        "buybackAveragePriceHKD": [
+          18,
+          42,
+          63
+        ],
+        "normalShareDilution": [
+          0.07,
+          0.09,
+          0.13
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0.3,
+          0.8,
+          1.4
+        ],
+        "annualParentDA": [
+          0.2,
+          0.28,
+          0.37
+        ],
+        "annualParentCapitalCash": [
+          0.34,
+          0.34,
+          0.4
+        ],
+        "annualParentNWC": [
+          0.25,
+          0.2,
+          0.16
+        ],
+        "annualCashSharePurchase": [
+          0.09,
+          0.14,
+          0.2
+        ]
+      },
+      "fiveYear": {
+        "officeRevenue": [
+          8.1,
+          14.8,
+          24
+        ],
+        "gameRevenue": [
+          2.4,
+          5.8,
+          10
+        ],
+        "officeGross": [
+          0.72,
+          0.82,
+          0.86
+        ],
+        "gameGross": [
+          0.64,
+          0.77,
+          0.8
+        ],
+        "officeRD": [
+          3.25,
+          5.05,
+          7.4
+        ],
+        "gameRD": [
+          1.2,
+          2.1,
+          3.1
+        ],
+        "officeSelling": [
+          1.43,
+          2,
+          2.7
+        ],
+        "gameSelling": [
+          0.45,
+          1.08,
+          1.85
+        ],
+        "officeAdmin": [
+          0.71,
+          0.95,
+          1.33
+        ],
+        "gameAdmin": [
+          0.38,
+          0.46,
+          0.63
+        ],
+        "officeSBC": [
+          0.38,
+          0.58,
+          0.78
+        ],
+        "gameSBC": [
+          0.15,
+          0.23,
+          0.34
+        ],
+        "officeOtherIncome": [
+          0.17,
+          0.36,
+          0.55
+        ],
+        "gameOtherIncome": [
+          0.025,
+          0.065,
+          0.095
+        ],
+        "officeLeaseInterest": [
+          0.005,
+          0.005,
+          0.005
+        ],
+        "gameLeaseInterest": [
+          0.013,
+          0.016,
+          0.022
+        ],
+        "officeTax": [
+          0.25,
+          0.19,
+          0.16
+        ],
+        "gameTax": [
+          0.25,
+          0.22,
+          0.19
+        ],
+        "officeParent": [
+          0.45,
+          0.475,
+          0.475
+        ],
+        "gameParent": [
+          0.68,
+          0.7,
+          0.715
+        ],
+        "parentNormalFinanceAfterTax": [
+          0.14,
+          0.52,
+          0.85
+        ],
+        "financePE": [
+          8,
+          10,
+          12
+        ],
+        "officePE": [
+          17,
+          28,
+          35
+        ],
+        "gamePE": [
+          5,
+          11,
+          15
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "KCGroupStakeNAV": [
+          1,
+          10,
+          26
+        ],
+        "KCParentWithinGroup": [
+          0.9,
+          1,
+          1
+        ],
+        "otherJVAssocNAV": [
+          1.2,
+          8,
+          23
+        ],
+        "otherNAVParentFraction": [
+          0.45,
+          0.48,
+          0.55
+        ],
+        "otherNAVRealizable": [
+          0.3,
+          0.6,
+          0.8
+        ],
+        "holdingDiscount": [
+          0.32,
+          0.14,
+          0.08
+        ],
+        "baseShares": [
+          1.37444031,
+          1.37444031,
+          1.37444031
+        ],
+        "additionalBuybackHKDbn": [
+          0.2,
+          2.8,
+          5
+        ],
+        "buybackAveragePriceHKD": [
+          17,
+          52,
+          89
+        ],
+        "normalShareDilution": [
+          0.11,
+          0.15,
+          0.21
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0.6,
+          1.7,
+          3.3
+        ],
+        "annualParentDA": [
+          0.22,
+          0.35,
+          0.5
+        ],
+        "annualParentCapitalCash": [
+          0.38,
+          0.43,
+          0.58
+        ],
+        "annualParentNWC": [
+          0.29,
+          0.24,
+          0.25
+        ],
+        "annualCashSharePurchase": [
+          0.1,
+          0.19,
+          0.28
+        ]
+      }
+    },
+    "periodBasis": "各目标时点NTM正常年率CNY十亿；NAV目标时点集团所持权益CNY十亿(非被投总市值)，回购股息为累计",
+    "note": "正式分部没有完整费用分配，office/game费用桶是研究假设，合计含完整常态股酬及研发；52%办公基于年报近似，未来激励稀释另降；游戏72/76/100%实体混合归属假设；基金归母未逐笔公开，其份额单列不把99.9986%基金合伙份额错作上市归母；现金财资已PE化，不再加银行现金。",
+    "capitalNote": "财资资本化为未来回购分红前的正常收益资产估值，SOTP折后明确减累计额外回购及现金分红本金，股数同时按额外回购/均价及正常稀释计算；不把回购免费提高每股价值。",
+    "fieldMetadata": {
+      "officeRevenue": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameRevenue": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeGross": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameGross": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeRD": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameRD": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeSelling": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameSelling": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeAdmin": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameAdmin": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeSBC": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameSBC": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeOtherIncome": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameOtherIncome": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeLeaseInterest": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameLeaseInterest": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeTax": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameTax": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officeParent": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gameParent": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "parentNormalFinanceAfterTax": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "financePE": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "officePE": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "gamePE": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "lossFundingYears": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "KCGroupStakeNAV": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点所持权益NAV",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "KCParentWithinGroup": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "otherJVAssocNAV": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点所持权益NAV",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "otherNAVParentFraction": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点所持权益NAV",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "otherNAVRealizable": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点所持权益NAV",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "holdingDiscount": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "baseShares": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "additionalBuybackHKDbn": {
+        "code": "03888.HK",
+        "reportPeriod": "截至各目标时点累计",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "buybackAveragePriceHKD": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "normalShareDilution": {
+        "code": "03888.HK",
+        "reportPeriod": "截至各目标时点累计",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "FX": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "dividend": {
+        "code": "03888.HK",
+        "reportPeriod": "截至各目标时点累计",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "annualParentDA": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "annualParentCapitalCash": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "annualParentNWC": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      },
+      "annualCashSharePurchase": {
+        "code": "03888.HK",
+        "reportPeriod": "各目标时点NTM正常年率",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+        "type": "研究假设非公司指引",
+        "version": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0"
+      }
+    }
+  },
+  "anchor": {
+    "period": "FY2025 ended2025-12-31",
+    "publicationDate": "2026-04-22 16:30",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+    "currency": "CNY",
+    "unit": "CNY million except EPS/shares",
+    "revenue": 9682.881,
+    "office": 5928.745,
+    "game": 3754.136,
+    "costRevenue": 1819.046,
+    "gross": 7863.835,
+    "RD": 3533.966,
+    "selling": 1790.947,
+    "admin": 714.239,
+    "SBC": 296.474,
+    "otherIncome": 269.552,
+    "otherExpenses": 22.664,
+    "operating": 1775.097,
+    "officeSegmentResult": 1531.935,
+    "gameSegmentResult": 241.853,
+    "leaseInterest": 1.309,
+    "otherGains": 1252.473,
+    "financeIncome": 660.257,
+    "financeCosts": 56.186,
+    "JV": 132.628,
+    "associate": -450.581,
+    "pretax": 3313.688,
+    "tax": 438.622,
+    "groupProfit": 2875.066,
+    "ownerProfit": 2004.388,
+    "NCI": 870.678,
+    "EPS": 1.46,
+    "dilutedEPS": 1.45,
+    "OCF": 2291.62,
+    "PPEcash": 314.024,
+    "intangibleCash": 28.047,
+    "leasePrincipal": 23.362,
+    "interestPaid": 3.754,
+    "investmentInterestReceived": 345.336,
+    "operatingInterestReceived": 108.312,
+    "DA": 250.142,
+    "bankCash": 22587.238,
+    "bankDebt": 10,
+    "ownerEquity": 26034.346,
+    "NCIEquity": 6592.336,
+    "totalEquity": 32626.682,
+    "officeParentApprox": 0.52,
+    "SeasunParentApprox": 0.72,
+    "ShiyouParentApprox": 0.76,
+    "afterCapexLeaseInterestProxy": 1922.433,
+    "note": "FY2025游戏高基数回落；收入-6%、op-51%而归母+29%，投资收益不当经营增长"
+  },
+  "interim": {
+    "period": "H1 2026 ended2026-06-30",
+    "publicationDate": "2026-09-23 16:31",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+    "currency": "CNY",
+    "unit": "CNY million except EPS/shares",
+    "revenue": 4927.132,
+    "office": 3313.262,
+    "game": 1613.87,
+    "costRevenue": 1025.627,
+    "gross": 3901.505,
+    "RD": 1872.629,
+    "selling": 779.351,
+    "admin": 375.855,
+    "SBC": 182.424,
+    "otherIncome": 126.738,
+    "otherExpenses": 4.012,
+    "operating": 813.972,
+    "officeSegmentResult": 872.926,
+    "gameSegmentResult": -63.697,
+    "segmentTotal": 809.229,
+    "leaseInterest": 4.743,
+    "nonLeaseFinanceCost": 0.102,
+    "otherGains": 124.353,
+    "financeIncome": 295.272,
+    "financeCosts": 4.845,
+    "JV": 2110.255,
+    "associate": 152.717,
+    "pretax": 3491.724,
+    "tax": 336.25,
+    "groupProfit": 3155.474,
+    "ownerProfit": 1639.276,
+    "NCI": 1516.198,
+    "EPS": 1.19,
+    "dilutedEPS": 1.19,
+    "basicShares": 1373220349,
+    "dilutedShares": 1376563964,
+    "adjustedOwner": 580.575,
+    "adjustedGroup": 1126.221,
+    "adjustedNCI": 545.646,
+    "adjustedGroupSBC": 182.424,
+    "adjustedFV": -17.325,
+    "adjustedFX": -73.38,
+    "adjustedNonKCJVAssoc": -2362.897,
+    "adjustedTax": 241.925,
+    "OCF": 709.645,
+    "PPEcash": 101.528,
+    "intangibleCash": 12.681,
+    "leasePrincipal": 23.579,
+    "interestPaid": 4.52,
+    "DA": 148.587,
+    "operatingInterestReceived": 17.434,
+    "investmentInterestReceived": 192.948,
+    "afterCapexLeaseInterestProxy": 567.337,
+    "bankCash": 24494.092,
+    "cashEquivalents": 3826.569,
+    "cashBankBalances": 3122.105,
+    "shortTermDeposits": 704.464,
+    "longTermDeposits": 20667.523,
+    "restrictedCash": 2.923,
+    "cashResourcesCompanyDefinition": 27156.6,
+    "nonRMBFinancialAssets": 3795.5,
+    "financialCurrent": 2246.11,
+    "financialNonCurrent": 715.303,
+    "amortizedAssets": 413.723,
+    "JVassets": 3075.289,
+    "associateAssets": 4674.004,
+    "bankDebt": 10,
+    "leaseCurrent": 47.459,
+    "leaseLong": 210.908,
+    "ownerEquity": 27083.085,
+    "NCIEquity": 7986.206,
+    "totalEquity": 35069.291,
+    "totalAssets": 42391.893,
+    "totalLiabilities": 7322.602,
+    "receivables": 966.422,
+    "receivablesPrior": 788.145,
+    "contractCurrent": 3221.249,
+    "contractLong": 1218.597,
+    "parentDividendPaid": 154.559,
+    "NCIDividendCash": 250.418,
+    "NCIDividendDeclared": 281.877,
+    "repurchaseCash": 336.747,
+    "repurchaseIssuerCash": 318.882,
+    "shareAwardMarketPurchase": 17.865,
+    "interimDividend": 0,
+    "KCSharesHeld": 1492621584,
+    "KCvotingFraction": 0.3294,
+    "KCstakeMarketValue": 6133.5,
+    "KCstakeBookValue": 2915,
+    "KCnetLossStandalone": 418.7,
+    "ShunjinCost": 700,
+    "ShunjinPartnershipFraction": 0.999986,
+    "ShunjinGroupNAV": 3047.6,
+    "ShunjinReportedGain": 2124.2,
+    "VATrefund": 82.611,
+    "grants": 22.725,
+    "otherNormalIncome": 21.402,
+    "capitalCommitment": 306.44,
+    "note": "JV2110.255m/associate152.717m主要未实现，不年化；PRC办公扣非净利2487.375m仍可能包含投资，与正常经营不同。财资资产集团归属不当全部上市。KC独立loss与集团份额不同。"
+  },
+  "capital": {
+    "period": "2026-09 month",
+    "publicationDate": "2026-10-07 16:36",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+    "issuedShares": 1374440310,
+    "treasury": 0,
+    "knownPendingCancel": 0,
+    "monthlyChange": 0,
+    "options2011": 2529800,
+    "options2007": 4400000,
+    "options2024Granted": 250000,
+    "ungrantedSchemeCapacity": 133666711,
+    "existingAwardsMayNewIssue": 23800,
+    "all2020BondsEnded": "2025-04-29",
+    "FY25ConvertedNewShares": 65401193,
+    "FY25ConversionHKD": 34.77,
+    "note": "2025CB全部转股/赎回，2026不继续扣旧CB；schemeCapacity未授不是现在新股。无待注销月报动作，未来回购另假设。"
+  },
+  "events": {
+    "office": {
+      "Q2IndividualRevenue": 1038.7,
+      "Q2WPS365Revenue": 253.1,
+      "Q2SoftwareRevenue": 375.8,
+      "annualAccumulatedPayingIndividualUsersMillion": 48.25,
+      "individualGrowthPct": 17,
+      "WPS365GrowthPct": 61,
+      "softwareGrowthPct": 34,
+      "ComateRepresentativeUseCases": 26,
+      "ComateFunctions": 11,
+      "note": "累计年度付费人数非月付费用户/新付费人数；订阅+AI usage/席位+AI usage探索未当已完整收费。"
+    },
+    "games": {
+      "GooseGooseDuckPublicBeta": "2026-01-07",
+      "JX3Expansion": "2026-04",
+      "EmpressesCollaboration": "2026-04",
+      "JourneyCollaboration": "2026-07",
+      "JX32027EngineUpgrade": "美银新闻转述预测/计划，不称已完成",
+      "note": "QuestMobile排名公司转述非独立核算；排行榜不直接给流水/留存，游戏整体下降。"
+    },
+    "WPSPRC": {
+      "publicationDate": "2026-08-19 19:06",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901183.pdf",
+      "revenue": 3313.263,
+      "pretax": 2764.563,
+      "ownerProfit": 2517.594,
+      "afterNonRecurringOwner": 2487.375,
+      "OCF": 642.693,
+      "ownerEquity": 15076.743,
+      "EPS": 5.44,
+      "note": "中国准则办公子公司，包括投资与不同合并范围，不能整个当港股归母/核心利润；中文SSE下载200返回HTML未取得，明确原件访问限制。"
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 24.771,
+      "60": 25.280333,
+      "120": 24.160817,
+      "250": 26.419096
+    },
+    "maSlope5Pct": {
+      "20": 0.299631,
+      "60": 0.334709,
+      "120": 0.251293,
+      "250": -0.697638
+    },
+    "priceVsMAPct": {
+      "20": 3.427399,
+      "60": 1.343604,
+      "120": 6.039466,
+      "250": -3.024686
+    },
+    "returnPct": {
+      "20": 5.867768,
+      "60": 3.808756,
+      "120": 5.648456,
+      "250": -25.193777
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 37.965535,
+    "low52w": 20.374174,
+    "distanceFrom52wHighPct": -32.51774,
+    "distanceFrom52wLowPct": 25.747434,
+    "maxDrawdown52wPct": -42.122541,
+    "RSI14": 58.197652,
+    "ATR14": 0.77639,
+    "ATR14Pct": 3.030404,
+    "MACD": {
+      "DIF": 0.042352,
+      "DEA": -0.034814,
+      "histogram": 0.154331,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 3462760,
+      "20": 5765010.85,
+      "60": 9123459.667
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.208453,
+    "previous20MeanVolume": 5772746,
+    "upDownVolume20": {
+      "upVolume": 64585196,
+      "downVolume": 50715021,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 1.273492
+    },
+    "ranges": {
+      "20": {
+        "support": 23.82,
+        "resistance": 25.68,
+        "toSupportPct": -7.025765,
+        "toResistancePct": 0.234188,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 23.18,
+        "resistance": 29.26,
+        "toSupportPct": -9.523813,
+        "toResistancePct": 14.207646,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期上升",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 24.2935,
+      "60": 27.090539,
+      "120": 29.607436,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": 1.686517,
+      "60": -2.84328,
+      "120": -0.033292,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": 5.460312,
+      "60": -5.428235,
+      "120": -13.46768,
+      "250": null
+    },
+    "returnPct": {
+      "20": 19.676061,
+      "60": -24.932372,
+      "120": 8.345257,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 37.965535,
+    "low52w": 20.374174,
+    "distanceFrom52wHighPct": -32.51774,
+    "distanceFrom52wLowPct": 25.747434,
+    "maxDrawdown52wPct": -37.448314,
+    "RSI14": 52.354686,
+    "ATR14": 2.126547,
+    "ATR14Pct": 8.300337,
+    "MACD": {
+      "DIF": -0.06659,
+      "DEA": -0.297318,
+      "histogram": 0.461456,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 29580568.6,
+      "20": 66680743.6,
+      "60": 63334622.45
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.250425,
+    "previous20MeanVolume": 69137756.7,
+    "upDownVolume20": {
+      "upVolume": 843465666,
+      "downVolume": 490149206,
+      "flatVolume": 0,
+      "upDays": 12,
+      "downDays": 8,
+      "ratio": 1.720835
+    },
+    "ranges": {
+      "20": {
+        "support": 20.374174,
+        "resistance": 29.26,
+        "toSupportPct": -20.475514,
+        "toResistancePct": 14.207646,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 20.374174,
+        "resistance": 37.965535,
+        "toSupportPct": -20.475514,
+        "toResistancePct": 48.187094,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 8.845676,
+    "excess60Pct": 6.996659,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": 8.930932,
+    "industryExcess60Pct": 16.976775
+  },
+  "confidence": "中：交易所IFRS分部/现金股数/量价高；费用分配和非现金NAV归属/实现/折价假设中低；不以未实现投资收益支撑PE",
+  "sources": [
+    {
+      "id": "KINGSOFT-annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "publicationDate": "2026-04-22 16:30",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "publicationDate": "2026-09-23 16:31",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-q2results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901069.pdf",
+      "publicationDate": "2026-08-19 18:34",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-q1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052700638.pdf",
+      "publicationDate": "2026-05-27 16:55",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500615.pdf",
+      "publicationDate": "2026-03-25 17:09",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "publicationDate": "2026-10-07 16:36",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-option",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061201178.pdf",
+      "publicationDate": "2026-06-12 18:30",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-wpsincentive",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0601/2026060103664.pdf",
+      "publicationDate": "2026-06-01 20:50",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    },
+    {
+      "id": "KINGSOFT-wpsh1",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901183.pdf",
+      "publicationDate": "2026-08-19 19:06",
+      "afterClose": true,
+      "type": "HKEX原始披露"
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "priceHKD": [
+        8.69,
+        26.77,
+        48.51
+      ],
+      "epsCNY": [
+        0.303639,
+        0.840209,
+        1.256041
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        9.5,
+        10.4,
+        11.25
+      ],
+      "normalParentProfitCNYbn": [
+        0.41915619999999987,
+        1.1564970000000003,
+        1.7277389999999995
+      ],
+      "dilutedSharesBn": [
+        1.38044031,
+        1.37644031,
+        1.375543758275862
+      ],
+      "SOTPValueCNYbn": [
+        10.911594449999999,
+        33.49709165909093,
+        60.6616027181818
+      ],
+      "cashOperatingProxyCNYbn": [
+        0.1591561999999999,
+        0.9964970000000003,
+        1.6277389999999994
+      ],
+      "operatingCases": [
+        {
+          "op": 0.9289999999999998,
+          "gp": -0.3200000000000001,
+          "office": 0.3695561999999999,
+          "game": -0.23040000000000008,
+          "normal": 0.41915619999999987,
+          "officeValue": 8.499792599999997,
+          "gameValue": -0.5760000000000002,
+          "financeValue": 2.8000000000000003,
+          "KCValue": 3.15,
+          "otherValue": 0.675,
+          "sum": 14.548792599999999,
+          "buybackCapitalCNY": 0,
+          "dividendCapitalCNY": 0,
+          "equity": 10.911594449999999,
+          "shares": 1.38044031,
+          "eps": 0.303639,
+          "price": 8.69,
+          "cash": 0.1591561999999999
+        },
+        {
+          "op": 1.768500000000001,
+          "gp": -0.007000000000000201,
+          "office": 0.7816770000000005,
+          "game": -0.005180000000000149,
+          "normal": 1.1564970000000003,
+          "officeValue": 27.35869500000002,
+          "gameValue": -0.010360000000000298,
+          "financeValue": 4.5600000000000005,
+          "KCValue": 6.1,
+          "otherValue": 1.50696,
+          "sum": 39.51529500000002,
+          "buybackCapitalCNY": 0.09090909090909091,
+          "dividendCapitalCNY": 0,
+          "equity": 33.49709165909093,
+          "shares": 1.37644031,
+          "eps": 0.840209,
+          "price": 26.77,
+          "cash": 0.9964970000000003
+        },
+        {
+          "op": 2.3849999999999993,
+          "gp": 0.3154999999999999,
+          "office": 1.0789739999999997,
+          "game": 0.19876499999999994,
+          "normal": 1.7277389999999995,
+          "officeValue": 47.47485599999999,
+          "gameValue": 2.583944999999999,
+          "financeValue": 5.8500000000000005,
+          "KCValue": 8.5,
+          "otherValue": 3.195,
+          "sum": 67.60380099999998,
+          "buybackCapitalCNY": 0.18181818181818182,
+          "dividendCapitalCNY": 0,
+          "equity": 60.6616027181818,
+          "shares": 1.375543758275862,
+          "eps": 1.256041,
+          "price": 48.51,
+          "cash": 1.6277389999999994
+        }
+      ],
+      "priceReturnPct": [
+        -66.08118657298985,
+        4.488680718188909,
+        89.34426229508195
+      ],
+      "totalReturnPct": [
+        -66.08118657298985,
+        4.488680718188909,
+        89.34426229508195
+      ],
+      "conditions": [
+        "办公增速降/AI毛利降、游戏延续损失、投资NAV及归属折价",
+        "WPS温和AI付费/企业升级，游戏缓慢稳定，NAV不年化，控股折价保留",
+        "办公商业化/游戏组合和KC资本回报均改善，仍完整股酬税与稀释"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 27.685,
+      "expectedReturnPct": 8.060109289617468,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 21.712,
+        "defensiveReturnPct": -15.253708040593295,
+        "positivePrice": 33.658,
+        "positiveReturnPct": 31.373926619828254
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        6.09,
+        28.19,
+        58.68
+      ],
+      "epsCNY": [
+        0.130726,
+        0.903674,
+        1.519105
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        9.4,
+        11.05,
+        12.6
+      ],
+      "normalParentProfitCNYbn": [
+        0.1812436500000003,
+        1.2475328800000005,
+        2.1004293499999998
+      ],
+      "dilutedSharesBn": [
+        1.38644031,
+        1.3805117385714285,
+        1.3826756041176471
+      ],
+      "SOTPValueCNYbn": [
+        7.671716219000004,
+        35.37664565272729,
+        73.75797931136363
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.14875634999999965,
+        1.0475328800000003,
+        1.9604293499999996
+      ],
+      "operatingCases": [
+        {
+          "op": 0.6490000000000005,
+          "gp": -0.4459999999999998,
+          "office": 0.25236365000000016,
+          "game": -0.32111999999999985,
+          "normal": 0.1812436500000003,
+          "officeValue": 5.552000300000003,
+          "gameValue": -0.8027999999999996,
+          "financeValue": 2.5,
+          "KCValue": 2.7,
+          "otherValue": 0.5599999999999999,
+          "sum": 10.509200300000005,
+          "buybackCapitalCNY": 0,
+          "dividendCapitalCNY": 0,
+          "equity": 7.671716219000004,
+          "shares": 1.38644031,
+          "eps": 0.130726,
+          "price": 6.09,
+          "cash": -0.14875634999999965
+        },
+        {
+          "op": 1.8988000000000012,
+          "gp": 0.0610000000000002,
+          "office": 0.8214208800000005,
+          "game": 0.03611200000000012,
+          "normal": 1.2475328800000005,
+          "officeValue": 28.749730800000016,
+          "gameValue": 0.39723200000000136,
+          "financeValue": 4.68,
+          "KCValue": 6.5,
+          "otherValue": 1.56,
+          "sum": 41.88696280000002,
+          "buybackCapitalCNY": 0.22727272727272727,
+          "dividendCapitalCNY": 0,
+          "equity": 35.37664565272729,
+          "shares": 1.3805117385714285,
+          "eps": 0.903674,
+          "price": 28.19,
+          "cash": 1.0475328800000003
+        },
+        {
+          "op": 2.866999999999999,
+          "gp": 0.5489999999999996,
+          "office": 1.2845593499999997,
+          "game": 0.3458699999999998,
+          "normal": 2.1004293499999998,
+          "officeValue": 57.80517074999999,
+          "gameValue": 4.842179999999997,
+          "financeValue": 6.109999999999999,
+          "KCValue": 10,
+          "otherValue": 3.5999999999999996,
+          "sum": 82.35735074999998,
+          "buybackCapitalCNY": 0.36363636363636365,
+          "dividendCapitalCNY": 0,
+          "equity": 73.75797931136363,
+          "shares": 1.3826756041176471,
+          "eps": 1.519105,
+          "price": 58.68,
+          "cash": 1.9604293499999996
+        }
+      ],
+      "priceReturnPct": [
+        -76.22950819672131,
+        10.031225604996097,
+        129.03981264637002
+      ],
+      "totalReturnPct": [
+        -76.22950819672131,
+        10.031225604996097,
+        129.03981264637002
+      ],
+      "conditions": [
+        "办公增速降/AI毛利降、游戏延续损失、投资NAV及归属折价",
+        "WPS温和AI付费/企业升级，游戏缓慢稳定，NAV不年化，控股折价保留",
+        "办公商业化/游戏组合和KC资本回报均改善，仍完整股酬税与稀释"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "priceHKD": [
+        4.66,
+        31.16,
+        73
+      ],
+      "epsCNY": [
+        0.053004,
+        1.065975,
+        1.911947
+      ],
+      "cumulativeCashDividendHKD": [
+        0.08,
+        0.15,
+        0.22
+      ],
+      "normalRevenueCNYbn": [
+        9.5,
+        12.3,
+        15.1
+      ],
+      "normalParentProfitCNYbn": [
+        0.07382750000000046,
+        1.4762945999999997,
+        2.6614272000000003
+      ],
+      "dilutedSharesBn": [
+        1.392861362631579,
+        1.384924180967742,
+        1.3919984495348836
+      ],
+      "SOTPValueCNYbn": [
+        5.89570966453589,
+        39.22699733350441,
+        92.37518752827482
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.3161724999999996,
+        1.2262945999999997,
+        2.4664272000000005
+      ],
+      "operatingCases": [
+        {
+          "op": 0.5310000000000007,
+          "gp": -0.4989999999999998,
+          "office": 0.20310750000000027,
+          "game": -0.3592799999999998,
+          "normal": 0.07382750000000046,
+          "officeValue": 4.265257500000006,
+          "gameValue": -0.8981999999999996,
+          "financeValue": 2.0700000000000003,
+          "KCValue": 2.43,
+          "otherValue": 0.5,
+          "sum": 8.367057500000007,
+          "buybackCapitalCNY": 0.027272727272727268,
+          "dividendCapitalCNY": 0.10129900819138754,
+          "equity": 5.89570966453589,
+          "shares": 1.392861362631579,
+          "eps": 0.053004,
+          "price": 4.66,
+          "cash": -0.3161724999999996
+        },
+        {
+          "op": 2.196,
+          "gp": 0.20599999999999963,
+          "office": 0.9351666000000001,
+          "game": 0.12112799999999978,
+          "normal": 1.4762945999999997,
+          "officeValue": 31.795664400000003,
+          "gameValue": 1.3324079999999976,
+          "financeValue": 5.04,
+          "KCValue": 7,
+          "otherValue": 1.6848,
+          "sum": 46.8528724,
+          "buybackCapitalCNY": 0.40909090909090906,
+          "dividendCapitalCNY": 0.18885329740469206,
+          "equity": 39.22699733350441,
+          "shares": 1.384924180967742,
+          "eps": 1.065975,
+          "price": 31.16,
+          "cash": 1.2262945999999997
+        },
+        {
+          "op": 3.6809999999999996,
+          "gp": 0.8360000000000002,
+          "office": 1.6144865999999998,
+          "game": 0.5169406000000001,
+          "normal": 2.6614272000000003,
+          "officeValue": 72.65189699999999,
+          "gameValue": 7.7541090000000015,
+          "financeValue": 6.890000000000001,
+          "KCValue": 12,
+          "otherValue": 4.41,
+          "sum": 103.70600599999999,
+          "buybackCapitalCNY": 0.6818181818181818,
+          "dividendCapitalCNY": 0.2783996899069767,
+          "equity": 92.37518752827482,
+          "shares": 1.3919984495348836,
+          "eps": 1.911947,
+          "price": 73,
+          "cash": 2.4664272000000005
+        }
+      ],
+      "priceReturnPct": [
+        -81.81108508977361,
+        21.623731459797035,
+        184.9336455893833
+      ],
+      "totalReturnPct": [
+        -81.49882903981265,
+        22.20921155347384,
+        185.79234972677594
+      ],
+      "conditions": [
+        "办公增速降/AI毛利降、游戏延续损失、投资NAV及归属折价",
+        "WPS温和AI付费/企业升级，游戏缓慢稳定，NAV不年化，控股折价保留",
+        "办公商业化/游戏组合和KC资本回报均改善，仍完整股酬税与稀释"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        2.13,
+        37.5,
+        103.52
+      ],
+      "epsCNY": [
+        -0.064516,
+        1.434391,
+        2.922712
+      ],
+      "cumulativeCashDividendHKD": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "normalRevenueCNYbn": [
+        10,
+        16.8,
+        24.3
+      ],
+      "normalParentProfitCNYbn": [
+        -0.09276000000000012,
+        2.0493514,
+        4.271787300000001
+      ],
+      "dilutedSharesBn": [
+        1.4377736433333335,
+        1.4287260242857143,
+        1.461583167142857
+      ],
+      "SOTPValueCNYbn": [
+        2.7803610063636355,
+        48.712772184155845,
+        137.54295100327275
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.5727600000000002,
+        1.6493514,
+        3.8817873
+      ],
+      "operatingCases": [
+        {
+          "op": 0.33999999999999964,
+          "gp": -0.565,
+          "office": 0.12273999999999988,
+          "game": -0.39549999999999996,
+          "normal": -0.09276000000000012,
+          "officeValue": 2.3320599999999976,
+          "gameValue": -1.1864999999999999,
+          "financeValue": 1.6199999999999999,
+          "KCValue": 1.62,
+          "otherValue": 0.3024,
+          "sum": 4.687959999999999,
+          "buybackCapitalCNY": 0.10909090909090907,
+          "dividendCapitalCNY": 0.39212008454545455,
+          "equity": 2.7803610063636355,
+          "shares": 1.4377736433333335,
+          "eps": -0.064516,
+          "price": 2.13,
+          "cash": -0.5727600000000002
+        },
+        {
+          "op": 3.181,
+          "gp": 0.512,
+          "office": 1.2781258,
+          "game": 0.2912256,
+          "normal": 2.0493514,
+          "officeValue": 39.6218998,
+          "gameValue": 3.4947071999999997,
+          "financeValue": 5.279999999999999,
+          "KCValue": 9,
+          "otherValue": 2.04,
+          "sum": 59.436607,
+          "buybackCapitalCNY": 1.3636363636363635,
+          "dividendCapitalCNY": 1.0390734722077923,
+          "equity": 48.712772184155845,
+          "shares": 1.4287260242857143,
+          "eps": 1.434391,
+          "price": 37.5,
+          "cash": 1.6493514
+        },
+        {
+          "op": 6.363000000000001,
+          "gp": 1.5730000000000002,
+          "office": 2.6501895,
+          "game": 0.9415978000000002,
+          "normal": 4.271787300000001,
+          "officeValue": 106.00758,
+          "gameValue": 15.065564800000002,
+          "financeValue": 8.16,
+          "KCValue": 18,
+          "otherValue": 6.96,
+          "sum": 154.19314480000003,
+          "buybackCapitalCNY": 2.4545454545454546,
+          "dividendCapitalCNY": 1.8601967581818177,
+          "equity": 137.54295100327275,
+          "shares": 1.461583167142857,
+          "eps": 2.922712,
+          "price": 103.52,
+          "cash": 3.8817873
+        }
+      ],
+      "priceReturnPct": [
+        -91.68618266978923,
+        46.37002341920373,
+        304.0593286494926
+      ],
+      "totalReturnPct": [
+        -90.5152224824356,
+        49.492583918813416,
+        309.5238095238095
+      ],
+      "conditions": [
+        "办公增速降/AI毛利降、游戏延续损失、投资NAV及归属折价",
+        "WPS温和AI付费/企业升级，游戏缓慢稳定，NAV不年化，控股折价保留",
+        "办公商业化/游戏组合和KC资本回报均改善，仍完整股酬税与稀释"
+      ],
+      "annualizedTotalReturnPct": [
+        -54.395358150593374,
+        14.342201453988611,
+        59.99007874989706
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0.38,
+        37.25,
+        119.48
+      ],
+      "epsCNY": [
+        -0.144735,
+        1.616304,
+        3.715293
+      ],
+      "cumulativeCashDividendHKD": [
+        0.6,
+        1.7,
+        3.3
+      ],
+      "normalRevenueCNYbn": [
+        10.5,
+        20.6,
+        34
+      ],
+      "normalParentProfitCNYbn": [
+        -0.2131475,
+        2.3769272499999996,
+        5.67793495
+      ],
+      "dilutedSharesBn": [
+        1.4726756041176472,
+        1.470594156153846,
+        1.5282605347191012
+      ],
+      "SOTPValueCNYbn": [
+        0.5075943159358285,
+        49.80133181139859,
+        166.00052616038815
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.7631475,
+        1.8669272499999994,
+        5.06793495
+      ],
+      "operatingCases": [
+        {
+          "op": 0.22699999999999995,
+          "gp": -0.6319999999999999,
+          "office": 0.07661249999999999,
+          "game": -0.42976,
+          "normal": -0.2131475,
+          "officeValue": 1.3024124999999998,
+          "gameValue": -1.28928,
+          "financeValue": 1.12,
+          "KCValue": 0.9,
+          "otherValue": 0.162,
+          "sum": 2.1951324999999997,
+          "buybackCapitalCNY": 0.18181818181818182,
+          "dividendCapitalCNY": 0.8032776022459893,
+          "equity": 0.5075943159358285,
+          "shares": 1.4726756041176472,
+          "eps": -0.144735,
+          "price": 0.38,
+          "cash": -0.7631475
+        },
+        {
+          "op": 3.910999999999999,
+          "gp": 0.645,
+          "office": 1.5047572499999995,
+          "game": 0.35217,
+          "normal": 2.3769272499999996,
+          "officeValue": 42.13320299999999,
+          "gameValue": 3.8738699999999997,
+          "financeValue": 5.2,
+          "KCValue": 10,
+          "otherValue": 2.304,
+          "sum": 63.51107299999999,
+          "buybackCapitalCNY": 2.545454545454545,
+          "dividendCapitalCNY": 2.2727364231468528,
+          "equity": 49.80133181139859,
+          "shares": 1.470594156153846,
+          "eps": 1.616304,
+          "price": 37.25,
+          "cash": 1.8669272499999994
+        },
+        {
+          "op": 8.975,
+          "gp": 2.153000000000001,
+          "office": 3.581025,
+          "game": 1.2469099500000005,
+          "normal": 5.67793495,
+          "officeValue": 125.335875,
+          "gameValue": 18.70364925000001,
+          "financeValue": 10.2,
+          "KCValue": 26,
+          "otherValue": 10.120000000000001,
+          "sum": 190.35952425,
+          "buybackCapitalCNY": 4.545454545454545,
+          "dividendCapitalCNY": 4.584781604157302,
+          "equity": 166.00052616038815,
+          "shares": 1.5282605347191012,
+          "eps": 3.715293,
+          "price": 119.48,
+          "cash": 5.06793495
+        }
+      ],
+      "priceReturnPct": [
+        -98.5167837626854,
+        45.394223263075716,
+        366.3544106167057
+      ],
+      "totalReturnPct": [
+        -96.17486338797814,
+        52.02966432474629,
+        379.23497267759564
+      ],
+      "conditions": [
+        "办公增速降/AI毛利降、游戏延续损失、投资NAV及归属折价",
+        "WPS温和AI付费/企业升级，游戏缓慢稳定，NAV不年化，控股折价保留",
+        "办公商业化/游戏组合和KC资本回报均改善，仍完整股酬税与稀释"
+      ],
+      "annualizedTotalReturnPct": [
+        -47.93697597248323,
+        8.739083264764535,
+        36.80743510499491
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.2,
+        3.3,
+        3.4,
+        4,
+        3.5,
+        3.3
+      ],
+      "total": 67.6,
+      "evidence": [
+        "正常SOTP价有限，不能低PE视同便宜",
+        "日20/60/120向上且收于其上、250仍下，量比1.21",
+        "WPS+25%游戏-19%，费用AI/SBC高",
+        "国内替代/协同AI机会与推理成本",
+        "季度WPS续费/经典游戏更新，NAV变动不等现金",
+        "大现金集团存在少数权利/控股折价"
+      ],
+      "confidence": "中：交易所IFRS分部/现金股数/量价高；费用分配和非现金NAV归属/实现/折价假设中低；不以未实现投资收益支撑PE"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.7,
+        3.3,
+        3.7,
+        4.1,
+        3.8,
+        3.2
+      ],
+      "total": 73.2,
+      "evidence": [
+        "办公利润增长和游戏稳定可改善目标",
+        "日改善周60仍弱",
+        "WPS365及收费模型转换，游戏恢复需证据",
+        "企业软件需求及AI生产力空间",
+        "游戏2027升级和AI付费验证",
+        "投资变现/母子股数和税费"
+      ],
+      "confidence": "中：交易所IFRS分部/现金股数/量价高；费用分配和非现金NAV归属/实现/折价假设中低；不以未实现投资收益支撑PE"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.8,
+        3.3,
+        4,
+        4.2,
+        3.7,
+        3.1
+      ],
+      "total": 77,
+      "evidence": [
+        "利润复利与投资NAV折价共同，非全现金加PE",
+        "技术低权重",
+        "个人/企业软件商业化和研发组织",
+        "国产替代和AI工作流程长期",
+        "办公价值与游戏更新组合",
+        "非实现NAV波动、生态关联与控股资本配置"
+      ],
+      "confidence": "中：交易所IFRS分部/现金股数/量价高；费用分配和非现金NAV归属/实现/折价假设中低；不以未实现投资收益支撑PE"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.5,
+        3.3,
+        3.8,
+        4,
+        3.4,
+        2.9
+      ],
+      "total": 72.5,
+      "evidence": [
+        "成熟办公PE28，避免永续高增长",
+        "技术零权重",
+        "跨端协同及组织盈利需持续验证",
+        "AI可能改变办公入口，模型/平台竞争",
+        "收费架构及经典IP长期更替",
+        "长期母子激励稀释、投资/关联/财资回报"
+      ],
+      "confidence": "中：交易所IFRS分部/现金股数/量价高；费用分配和非现金NAV归属/实现/折价假设中低；不以未实现投资收益支撑PE"
+    }
+  },
+  "targets": [
+    {
+      "institution": "美银",
+      "code": "03888.HK",
+      "currency": "HKD",
+      "targetPrice": 26,
+      "reportDate": "2026-08-21",
+      "rating": "中性",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03888/AAFN/NOW.1539922/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "outside90Days": false,
+      "foreignInvestmentBank": true,
+      "note": "期限公开摘要未明，不填12个月；同机构最新有效公司目标，跨金山云评级不混用"
+    },
+    {
+      "institution": "花旗",
+      "code": "03888.HK",
+      "currency": "HKD",
+      "targetPrice": 33,
+      "reportDate": "2026-06-08",
+      "rating": "买入",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03888/AAFN/NOW.1527934/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "outside90Days": true,
+      "foreignInvestmentBank": true,
+      "note": "期限公开摘要未明，不填12个月；同机构最新有效公司目标，跨金山云评级不混用"
+    },
+    {
+      "institution": "里昂",
+      "code": "03888.HK",
+      "currency": "HKD",
+      "targetPrice": 29.1,
+      "reportDate": "2026-04-08",
+      "rating": "跑赢大市",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03888/AAFN/NOW.1516176/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "outside90Days": true,
+      "foreignInvestmentBank": true,
+      "note": "期限公开摘要未明，不填12个月；同机构最新有效公司目标，跨金山云评级不混用"
+    },
+    {
+      "institution": "大摩",
+      "code": "03888.HK",
+      "currency": "HKD",
+      "targetPrice": 33,
+      "reportDate": "2025-11-28",
+      "rating": "与大市同步",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03888/AAFN/NOW.1487034/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "outside90Days": true,
+      "foreignInvestmentBank": true,
+      "note": "期限公开摘要未明，不填12个月；同机构最新有效公司目标，跨金山云评级不混用"
+    },
+    {
+      "institution": "中金",
+      "code": "03888.HK",
+      "currency": "HKD",
+      "targetPrice": 33,
+      "reportDate": "2026-08-25",
+      "rating": "跑赢行业",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/03888/AAFN/NOW.1540572/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "outside90Days": false,
+      "foreignInvestmentBank": false,
+      "note": "期限公开摘要未明，不填12个月；同机构最新有效公司目标，跨金山云评级不混用"
+    }
+  ],
+  "notes": [
+    "单SOTP活动不以2.1bnJV未实现收益年化，不把集团total归母",
+    "正常财资PE不再加全现金；NAV仅非现金权益投资不加交易理财类现金资源",
+    "办公52%/game72-76-100%桶，费用分配非正式财务，降可信度",
+    "游戏亏损按资金准备扣除不把负EPS乘正PE当资产",
+    "基金99.9986%是集团LP份额非上市公司归母百分比，otherParentFraction与realizable公开",
+    "控股折价仍适用，子公司A股市场价不直接映射港股母价",
+    "期权常态费用保留且母子稀释各处理，不把授权上限已发"
+  ],
+  "inputMetadata": {
+    "anchor.revenue": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.office": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.game": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.costRevenue": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.gross": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.RD": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.selling": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.admin": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.SBC": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.otherIncome": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.otherExpenses": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.operating": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.officeSegmentResult": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.gameSegmentResult": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.leaseInterest": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.otherGains": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.financeIncome": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.financeCosts": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.JV": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.associate": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.pretax": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.tax": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.groupProfit": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.ownerProfit": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.NCI": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.EPS": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY per share",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.dilutedEPS": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY per share",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.OCF": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.PPEcash": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.intangibleCash": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.leasePrincipal": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.interestPaid": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.investmentInterestReceived": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.operatingInterestReceived": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.DA": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.bankCash": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.bankDebt": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.ownerEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.NCIEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.totalEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.officeParentApprox": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": null,
+      "unit": "fraction",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.SeasunParentApprox": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": null,
+      "unit": "fraction",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.ShiyouParentApprox": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": null,
+      "unit": "fraction",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "anchor.afterCapexLeaseInterestProxy": {
+      "code": "03888.HK",
+      "reportPeriod": "FY2025 ended2025-12-31",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-04-22 16:30",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200390.pdf",
+      "type": "原始披露"
+    },
+    "interim.revenue": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.office": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.game": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.costRevenue": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.gross": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.RD": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.selling": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.admin": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.SBC": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.otherIncome": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.otherExpenses": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.operating": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.officeSegmentResult": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.gameSegmentResult": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.segmentTotal": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.leaseInterest": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.nonLeaseFinanceCost": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.otherGains": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.financeIncome": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.financeCosts": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.JV": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.associate": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.pretax": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.tax": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.groupProfit": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ownerProfit": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.NCI": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.EPS": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY per share",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.dilutedEPS": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY per share",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.basicShares": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.dilutedShares": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedOwner": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedGroup": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedNCI": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedGroupSBC": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedFV": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedFX": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedNonKCJVAssoc": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.adjustedTax": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.OCF": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.PPEcash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.intangibleCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.leasePrincipal": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.interestPaid": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.DA": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.operatingInterestReceived": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.investmentInterestReceived": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.afterCapexLeaseInterestProxy": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.bankCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.cashEquivalents": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.cashBankBalances": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.shortTermDeposits": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.longTermDeposits": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.restrictedCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.cashResourcesCompanyDefinition": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.nonRMBFinancialAssets": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.financialCurrent": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.financialNonCurrent": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.amortizedAssets": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.JVassets": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.associateAssets": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.bankDebt": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.leaseCurrent": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.leaseLong": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ownerEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.NCIEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.totalEquity": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.totalAssets": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.totalLiabilities": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.receivables": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.receivablesPrior": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.contractCurrent": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.contractLong": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.parentDividendPaid": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.NCIDividendCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.NCIDividendDeclared": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.repurchaseCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.repurchaseIssuerCash": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.shareAwardMarketPurchase": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.interimDividend": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.KCSharesHeld": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.KCvotingFraction": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "fraction",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.KCstakeMarketValue": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.KCstakeBookValue": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.KCnetLossStandalone": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ShunjinCost": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ShunjinPartnershipFraction": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": null,
+      "unit": "fraction",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ShunjinGroupNAV": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.ShunjinReportedGain": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.VATrefund": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.grants": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.otherNormalIncome": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "interim.capitalCommitment": {
+      "code": "03888.HK",
+      "reportPeriod": "H1 2026 ended2026-06-30",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-09-23 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300330.pdf",
+      "type": "原始披露"
+    },
+    "capital.issuedShares": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.treasury": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "CNY million",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.knownPendingCancel": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.monthlyChange": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": "CNY",
+      "unit": "CNY million",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.options2011": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.options2007": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.options2024Granted": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.ungrantedSchemeCapacity": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.existingAwardsMayNewIssue": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.FY25ConvertedNewShares": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": null,
+      "unit": "shares",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    },
+    "capital.FY25ConversionHKD": {
+      "code": "03888.HK",
+      "reportPeriod": "2026-09 month",
+      "currency": "CNY",
+      "unit": "HKD per share",
+      "publicationDate": "2026-10-07 16:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700858.pdf",
+      "type": "原始披露"
+    }
+  },
+  "nativeWorkbookQAFile": "qa/kingsoft_native_workbook_qa.json"
+}

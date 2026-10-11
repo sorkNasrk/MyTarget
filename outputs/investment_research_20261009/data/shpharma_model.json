@@ -1,0 +1,1036 @@
+{
+  "issuerId": "I028",
+  "securityId": "S033",
+  "name": "上海医药",
+  "code": "02607.HK",
+  "currency": "HKD",
+  "asOf": "2026-10-09",
+  "price": 11.03,
+  "priceHKD": 11.03,
+  "modelVersion": "shpharma-H-normalized-pe-v1.0",
+  "marketVersion": "market-v1.6",
+  "status": "独立初版；A/H原中报、年报、股数、股息、处置与ALS原试验核验；目标盈利/PE为研究假设",
+  "method": "正常化全发行人归母EPS(CNY)×H股合理PE×假设HKDperCNY；基准扣除一次性处置收益，不重复加未收款Vitaco或管线rNPV",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "CNYperHKD": 0.9090909090909091,
+    "status": "研究换汇假设，非已核10/9市场汇率；历史中期股息按原公告.11663HKD"
+  },
+  "shares": {
+    "period": "2026-09-30",
+    "publicationDate": "2026-10-02",
+    "totalIssued": 3708361809,
+    "A": 2789289105,
+    "H": 919072704,
+    "inventoryA": 0,
+    "inventoryH": 0,
+    "modelDilutedBillion": 3.708361809,
+    "note": "全归母利润除A+H全股，不能用H市值替代公司全权益；旧2019期权已届满不再重复加股数"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 147469.7293952,
+    "revenueGrowthPct": 4.15,
+    "attributableProfit": 3504.44747563,
+    "deductedProfit": 2477.23050887,
+    "managementAdjustedProfitRounded": 2828,
+    "adjustedGrowthPct": 1.65,
+    "profitGrowthPct": -21.4,
+    "deductedGrowthPct": 17.98,
+    "totalNetProfit": 4341.65631304,
+    "minorityProfit": 837.20883741,
+    "nonrecurring": 1027.21696676,
+    "EPSReported": 0.95,
+    "EPSDeducted": 0.67,
+    "OCF": 4449.5092481,
+    "capex": 1040.9880056,
+    "FCF": 3408.5212425,
+    "segmentCapitalExpenditure": 708.93917385,
+    "cashBank": 36572.96851383,
+    "cashCashEquivalents": 32284.10492605,
+    "otherCashOutsideCashEq": 4288.86358778,
+    "acceptanceGuarantee": 1845.21013503,
+    "LCGuarantee": 35.09898326,
+    "termDepositOver3Months": 1755,
+    "otherRestrictedCash": 653.55446949,
+    "shortDebt": 46528.51626524,
+    "longDebt": 3277.06672923,
+    "currentLongDebt": 1121.79928813,
+    "bankDebtTotal": 50927.3822826,
+    "commercialPaperTotal": 6021.15616438,
+    "leaseDebtTotal": 1956.71011153,
+    "totalAssets": 240769.41844923,
+    "totalLiabilities": 147983.63863047,
+    "parentEquity": 78347.95589737,
+    "minorityEquity": 14437.82392139,
+    "goodwill": 12652.94417272,
+    "developmentAssets": 92.27473555,
+    "RDManagementRounded": 1053,
+    "RDExpensed": 970.86115568,
+    "RDManagementGapRounded": 82.13884432,
+    "RDGapStatus": "MD&A研发投入减费用的差额；非完整资本化桥，不能全部声称本期内部资本化",
+    "selling": 6538.19737723,
+    "admin": 2739.55055774,
+    "financeExpense": 694.50860001,
+    "interestExpense": 706.03199894,
+    "interestIncome": 84.93978919,
+    "FXLoss": 46.18339018,
+    "creditLoss": 507.82664126,
+    "assetLoss": 28.04516832,
+    "investmentIncome": 827.27935009,
+    "assetDisposalIncome": 179.69981859,
+    "transactionFinancialAssets": 9416.88070356,
+    "receivableNet": 90767.87856085,
+    "receivableNetStart": 82306.40062983,
+    "receivableGross": 94123.31084898,
+    "receivableAllowance": 3355.43228813,
+    "receivableAgeLess1Year": 88713.32438525,
+    "receivableAge1to2Years": 3312.92899669,
+    "receivableAgeOver2Years": 2097.05746704,
+    "nonrecourseFactoringDerecognized": 2571.99559232,
+    "factoringLoss": 62.7706486,
+    "inventory": 42684.9861084,
+    "inventoryStart": 45358.94755004,
+    "payable": 56604.67232133,
+    "OCFInventoryRelease": 2635.89713623,
+    "OCFReceivableUse": -6504.74902529,
+    "OCFPayablesSource": 2517.68437696,
+    "publicationCN": "2026-08-28",
+    "firstPublicNews": "2026-08-27 19:08 Asia/Hong_Kong",
+    "publicationHKReport": "2026-09-17",
+    "dateNote": "H公告镜像8/27及公开新闻19:08确认收盘后已有业绩；原文署8/28，首次交易所时分未核，不把镜像日期当发布时间",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518810.PDF",
+    "sourceHK": "https://iis.aastocks.com/20260917/12335519-0.PDF",
+    "publicationDate": "2026-08-28",
+    "firstPublicDate": "2026-08-27",
+    "publicationTimeStatus": "业绩8/27新闻19:08确认收盘后已有；H原文内署8/28，交易所时分未核",
+    "metricMetadata": {
+      "EPSReported": {
+        "unit": "per ordinary share",
+        "currency": "CNY"
+      },
+      "EPSDeducted": {
+        "unit": "per ordinary share",
+        "currency": "CNY"
+      },
+      "RDManagementGapRounded": {
+        "unit": "million",
+        "currency": "CNY",
+        "status": "MD&A总额与费用差额，非完整资本化桥"
+      }
+    }
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenue": 260295.08894353,
+      "attributableProfit": 3767.99958118,
+      "deductedProfit": 3596.11232629,
+      "OCF": 5231.5197271,
+      "EPSReported": 1.02
+    },
+    {
+      "period": "FY2024",
+      "revenue": 275250.93488966,
+      "attributableProfit": 4552.52843869,
+      "deductedProfit": 4065.06635818,
+      "OCF": 5827.25773133,
+      "EPSReported": 1.23
+    },
+    {
+      "period": "FY2025",
+      "revenue": 283579.60056298,
+      "attributableProfit": 5724.55750841,
+      "deductedProfit": 2980.44049417,
+      "managementAdjustedProfitRounded": 4721,
+      "OCF": 6154.20137937,
+      "EPSReported": 1.54,
+      "EPSDeducted": 0.8,
+      "publicationDate": "2026-03-31",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225063837.PDF"
+    }
+  ],
+  "segments": [
+    {
+      "name": "工业",
+      "revenue": 13186.34938177,
+      "externalRevenue": 11305.76108814,
+      "cost": 5309.50257133,
+      "segmentProfitBeforeUnallocated": 1826.04862206,
+      "MDContributionProfitRounded": 1343
+    },
+    {
+      "name": "分销",
+      "revenue": 134411.10658692,
+      "externalRevenue": 131402.19465318,
+      "cost": 126742.41266899,
+      "segmentProfitBeforeUnallocated": 3661.58364054
+    },
+    {
+      "name": "零售",
+      "revenue": 4091.93847126,
+      "externalRevenue": 4091.7069062,
+      "cost": 3687.0652509,
+      "segmentProfitBeforeUnallocated": 55.06537914
+    },
+    {
+      "name": "其他",
+      "revenue": 864.0441399,
+      "externalRevenue": 670.06674768,
+      "cost": 434.6360248,
+      "segmentProfitBeforeUnallocated": 35.89885945
+    },
+    {
+      "name": "抵销",
+      "revenue": -5083.70918465,
+      "externalRevenue": 0,
+      "cost": -4964.17987958,
+      "segmentProfitBeforeUnallocated": -30.89335617
+    }
+  ],
+  "businessServiceSubsets": {
+    "innovativeDrugDistributionRevenueLowerBound": 33000,
+    "growthLowerBoundPct": 29,
+    "importAgencyRevenueLowerBound": 20000,
+    "growthLowerBoundImportPct": 15,
+    "deviceHealthRevenueLowerBound": 24000,
+    "growthLowerBoundDevicePct": 6,
+    "note": "MD&A重叠子类，不能相加；分销创新药不是自产创新药收入"
+  },
+  "dividend": {
+    "interimCNY": 0.1,
+    "interimHKD": 0.11663,
+    "announcementUpdate": "2026-09-03",
+    "exDate": "2026-09-16",
+    "recordDate": "2026-09-17",
+    "paymentDate": "2026-10-23",
+    "newInvestorEligible": false,
+    "note": "已除净，10/9新买者即使付款未来也不获；年底和半年模型累计分红为0，一年及多年均未知研究假设"
+  },
+  "disposal": {
+    "ZeusVitaco": {
+      "board": "2026-09-28",
+      "publicationCN": "2026-09-30",
+      "mirrorHK": "2026-09-29",
+      "signed": true,
+      "closedAsOf": false,
+      "enterpriseValueUSD": 396732460,
+      "equityValueUSDLowerBound": 349900000,
+      "economicOwnershipPct": 56.85,
+      "classOrdinaryOwnershipPct": 60,
+      "companyProceedsUSDLowerBound": 199100000,
+      "companyProceedsCNYmillionIndicative": 1335.8,
+      "disclosedUSDCNY": 6.708,
+      "escrowUSD": 10753500,
+      "escrowReleaseMonths": [
+        12,
+        18
+      ],
+      "status": "协议已签，交割监管条件和净债/营运资本调整未完成；所得税/费用待核，不列已到账或最终净收益",
+      "oldCostCNYmillion": 948,
+      "note": "不把EV当股权价、不把100%权益价当公司所得、不把税前所得当归母处置利润、更不乘多年PE"
+    }
+  },
+  "fundCommitment": {
+    "board": "2026-07-17",
+    "agreementSigned": "2026-07-24",
+    "HKDocumentSignedDates": [
+      "2026-07-18",
+      "2026-07-25"
+    ],
+    "mirrorDates": [
+      "2026-07-17",
+      "2026-07-24"
+    ],
+    "commitmentCNYmillion": 300,
+    "totalCNYmillion": 1500,
+    "ownershipPct": 20,
+    "callProportions": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "termYears": 8,
+    "extendPossible": true,
+    "LPFeesPctInvestment": 2,
+    "LPFeesPctExit": 1.8,
+    "hurdleSimplePct": 8,
+    "carriedInterestPct": 20,
+    "status": "分期按缴款通知；8%门槛非保本承诺；两个管理/执行费用分别1%，须合看成本；未核每期到账不一次扣已付300m"
+  },
+  "clinical": {
+    "ALS": {
+      "doi": "10.1016/j.neurot.2026.e00953",
+      "firstPublicationDate": "2026-07-27",
+      "phase": 2,
+      "patients": 140,
+      "centres": 11,
+      "weeks": 48,
+      "prespecifiedLOCF": "未达到预设统计优效",
+      "postHocMMRM": {
+        "difference": 2.29,
+        "CI": [
+          0.52,
+          4.06
+        ],
+        "p": 0.0114
+      },
+      "survival": "间接外部推算2.8–3.5月非RCT直接证实",
+      "status": "III入组进行，不能由事后分析写已临床成功"
+    }
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 10.902926,
+      "60": 11.364545,
+      "120": 11.32542,
+      "250": 11.287234
+    },
+    "maSlope5Pct": {
+      "20": -0.991286,
+      "60": -0.465121,
+      "120": -0.121085,
+      "250": -0.102174
+    },
+    "priceVsMAPct": {
+      "20": 1.165504,
+      "60": -2.943757,
+      "120": -2.608472,
+      "250": -2.278978
+    },
+    "returnPct": {
+      "20": -0.017096,
+      "60": -8.697026,
+      "120": -0.847738,
+      "250": -4.085205
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 12.169705,
+    "low52w": 10.47443,
+    "distanceFrom52wHighPct": -9.3651,
+    "distanceFrom52wLowPct": 5.30406,
+    "maxDrawdown52wPct": -10.932004,
+    "RSI14": 50.210741,
+    "ATR14": 0.205466,
+    "ATR14Pct": 1.862789,
+    "MACD": {
+      "DIF": -0.090995,
+      "DEA": -0.121115,
+      "histogram": 0.060241,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 934940,
+      "20": 1679158.9,
+      "60": 1571567.817
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.043002,
+    "previous20MeanVolume": 1763658.9,
+    "upDownVolume20": {
+      "upVolume": 13305140,
+      "downVolume": 20278038,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.656135
+    },
+    "ranges": {
+      "20": {
+        "support": 10.7,
+        "resistance": 11.13,
+        "toSupportPct": -2.99184,
+        "toResistancePct": 0.906618,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 10.7,
+        "resistance": 12.169705,
+        "toSupportPct": -2.99184,
+        "toResistancePct": 10.332774,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 11.291986,
+      "60": 11.306138,
+      "120": 11.146134,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -1.007801,
+      "60": -0.742099,
+      "120": 0.166168,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -2.320104,
+      "60": -2.442375,
+      "120": -1.041924,
+      "250": null
+    },
+    "returnPct": {
+      "20": -1.608492,
+      "60": -8.232471,
+      "120": 6.36877,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 12.169705,
+    "low52w": 10.47443,
+    "distanceFrom52wHighPct": -9.3651,
+    "distanceFrom52wLowPct": 5.30406,
+    "maxDrawdown52wPct": -9.815166,
+    "RSI14": 45.472271,
+    "ATR14": 0.410393,
+    "ATR14Pct": 3.720701,
+    "MACD": {
+      "DIF": -0.088915,
+      "DEA": -0.010156,
+      "histogram": -0.157518,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 8751695.6,
+      "20": 10025733.9,
+      "60": 12214014.467
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.435297,
+    "previous20MeanVolume": 10739104.75,
+    "upDownVolume20": {
+      "upVolume": 114401863,
+      "downVolume": 86112815,
+      "flatVolume": 0,
+      "upDays": 11,
+      "downDays": 9,
+      "ratio": 1.328511
+    },
+    "ranges": {
+      "20": {
+        "support": 10.7,
+        "resistance": 12.169705,
+        "toSupportPct": -2.99184,
+        "toResistancePct": 10.332774,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 10.47443,
+        "resistance": 12.217937,
+        "toSupportPct": -5.036899,
+        "toResistancePct": 10.770054,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 2.960812,
+    "excess60Pct": -5.509123,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空"
+  },
+  "lastVolumeShares": 1839500,
+  "lastTurnoverAmount": 20252359.6,
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "epsCNY": [
+        0.95,
+        1.22,
+        1.4
+      ],
+      "PE": [
+        6.5,
+        8.5,
+        10
+      ],
+      "revenueCNYBillion": [
+        287,
+        295,
+        303
+      ],
+      "profitCNYBillion": [
+        3.5229437185499997,
+        4.52420140698,
+        5.1917065326
+      ],
+      "netMarginPct": [
+        1.227506522142857,
+        1.5336275955864405,
+        1.7134344992079207
+      ],
+      "priceHKD": [
+        6.7925,
+        11.407,
+        15.400000000000002
+      ],
+      "priceTargets": [
+        6.7925,
+        11.407,
+        15.400000000000002
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -38.41795104261105,
+        3.417951042611067,
+        39.61922030825025
+      ],
+      "totalReturnPct": [
+        -38.41795104261105,
+        3.417951042611067,
+        39.61922030825025
+      ],
+      "conditions": [
+        "yearEnd：医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降；EPS 0.95 CNY，收入 287bn，H PE 6.5 为研究输入。",
+        "yearEnd：流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE；EPS 1.22 CNY，收入 295bn，H PE 8.5 为研究输入。",
+        "yearEnd：创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升；EPS 1.4 CNY，收入 303bn，H PE 10 为研究输入。"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 11.251625,
+      "expectedPrice": 11.251625,
+      "expectedReturnPct": 2.0092928377153374,
+      "expectedTotalReturnPct": 2.0092928377153374,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 9.960500000000001,
+        "positivePrice": 12.542750000000002
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1,
+        1.25,
+        1.55
+      ],
+      "PE": [
+        6.5,
+        9.5,
+        11
+      ],
+      "revenueCNYBillion": [
+        290,
+        300,
+        315
+      ],
+      "profitCNYBillion": [
+        3.708361809,
+        4.63545226125,
+        5.74796080395
+      ],
+      "netMarginPct": [
+        1.2787454513793104,
+        1.54515075375,
+        1.8247494615714286
+      ],
+      "priceHKD": [
+        7.15,
+        13.062500000000002,
+        18.755000000000003
+      ],
+      "priceTargets": [
+        7.15,
+        13.062500000000002,
+        18.755000000000003
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -35.17679057116953,
+        18.427017225747978,
+        70.03626473254762
+      ],
+      "totalReturnPct": [
+        -35.17679057116953,
+        18.427017225747978,
+        70.03626473254762
+      ],
+      "conditions": [
+        "halfYear：医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降；EPS 1 CNY，收入 290bn，H PE 6.5 为研究输入。",
+        "halfYear：流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE；EPS 1.25 CNY，收入 300bn，H PE 9.5 为研究输入。",
+        "halfYear：创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升；EPS 1.55 CNY，收入 315bn，H PE 11 为研究输入。"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "epsCNY": [
+        1.02,
+        1.4,
+        1.8
+      ],
+      "PE": [
+        6.5,
+        10,
+        12
+      ],
+      "revenueCNYBillion": [
+        290,
+        315,
+        340
+      ],
+      "profitCNYBillion": [
+        3.78252904518,
+        5.1917065326,
+        6.6750512562
+      ],
+      "netMarginPct": [
+        1.3043203604068965,
+        1.648160804,
+        1.963250369470588
+      ],
+      "priceHKD": [
+        7.293,
+        15.400000000000002,
+        23.760000000000005
+      ],
+      "priceTargets": [
+        7.293,
+        15.400000000000002,
+        23.760000000000005
+      ],
+      "cumulativeCashDividendHKD": [
+        0.3,
+        0.48,
+        0.62
+      ],
+      "priceReturnPct": [
+        -33.88032638259292,
+        39.61922030825025,
+        115.41251133272898
+      ],
+      "totalReturnPct": [
+        -31.160471441523118,
+        43.970988213961945,
+        121.03354487760657
+      ],
+      "conditions": [
+        "oneYear：医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降；EPS 1.02 CNY，收入 290bn，H PE 6.5 为研究输入。",
+        "oneYear：流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE；EPS 1.4 CNY，收入 315bn，H PE 10 为研究输入。",
+        "oneYear：创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升；EPS 1.8 CNY，收入 340bn，H PE 12 为研究输入。"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.05,
+        1.8,
+        2.6
+      ],
+      "PE": [
+        6,
+        10.5,
+        13
+      ],
+      "revenueCNYBillion": [
+        290,
+        370,
+        450
+      ],
+      "profitCNYBillion": [
+        3.89377989945,
+        6.6750512562,
+        9.6417407034
+      ],
+      "netMarginPct": [
+        1.342682723948276,
+        1.804067907081081,
+        2.1426090452
+      ],
+      "priceHKD": [
+        6.9300000000000015,
+        20.790000000000003,
+        37.18000000000001
+      ],
+      "priceTargets": [
+        6.9300000000000015,
+        20.790000000000003,
+        37.18000000000001
+      ],
+      "cumulativeCashDividendHKD": [
+        0.85,
+        1.6,
+        2.3
+      ],
+      "priceReturnPct": [
+        -37.17135086128738,
+        88.48594741613785,
+        237.0806890299185
+      ],
+      "totalReturnPct": [
+        -29.46509519492292,
+        102.99184043517684,
+        257.932910244787
+      ],
+      "conditions": [
+        "threeYear：医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降；EPS 1.05 CNY，收入 290bn，H PE 6 为研究输入。",
+        "threeYear：流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE；EPS 1.8 CNY，收入 370bn，H PE 10.5 为研究输入。",
+        "threeYear：创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升；EPS 2.6 CNY，收入 450bn，H PE 13 为研究输入。"
+      ],
+      "baseAnnualizedPriceReturnPct": 23.52636423300578,
+      "baseAnnualizedTotalReturnPct": 26.61724519921307
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        1.1,
+        2.2,
+        3.5
+      ],
+      "PE": [
+        5.5,
+        10,
+        12
+      ],
+      "revenueCNYBillion": [
+        300,
+        430,
+        580
+      ],
+      "profitCNYBillion": [
+        4.0791979899,
+        8.1583959798,
+        12.9792663315
+      ],
+      "netMarginPct": [
+        1.3597326633,
+        1.8973013906511629,
+        2.2378045399137934
+      ],
+      "priceHKD": [
+        6.655000000000001,
+        24.200000000000003,
+        46.2
+      ],
+      "priceTargets": [
+        6.655000000000001,
+        24.200000000000003,
+        46.2
+      ],
+      "cumulativeCashDividendHKD": [
+        1.4,
+        3,
+        4.6
+      ],
+      "priceReturnPct": [
+        -39.66455122393471,
+        119.40163191296466,
+        318.8576609247507
+      ],
+      "totalReturnPct": [
+        -26.971894832275588,
+        146.60018132366278,
+        360.5621033544878
+      ],
+      "conditions": [
+        "fiveYear：医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降；EPS 1.1 CNY，收入 300bn，H PE 5.5 为研究输入。",
+        "fiveYear：流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE；EPS 2.2 CNY，收入 430bn，H PE 10 为研究输入。",
+        "fiveYear：创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升；EPS 3.5 CNY，收入 580bn，H PE 12 为研究输入。"
+      ],
+      "baseAnnualizedPriceReturnPct": 17.016733503374827,
+      "baseAnnualizedTotalReturnPct": 19.783963245480884
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.4,
+        2.2,
+        3,
+        3.2,
+        3.2,
+        2.9
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 57.8
+    },
+    "oneYear": {
+      "dimensions": [
+        3.7,
+        2.2,
+        3.2,
+        3.3,
+        3.1,
+        3
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 63.2
+    },
+    "threeYear": {
+      "dimensions": [
+        3.6,
+        2.2,
+        3.4,
+        3.5,
+        3.1,
+        3
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 67.1
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.3,
+        2.2,
+        3.5,
+        3.5,
+        3,
+        3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 67.2
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scoreScale": "0—5证据判断×期限权重/5，非获利概率",
+  "scoreReasons": {
+    "valuationExpectedReturn": "现价按1.10研究换汇与正常化EPS1.22约8.22倍；一年基准+39.6%，报告低PE部分来自一次性收益，正常化并非无条件极便宜",
+    "technicalRelativeStrength": "20日短反弹且超恒指2.96pp，60日落后5.51pp；60/120/250线微降、量比1.043、上涨/下跌量.656，无确认突破",
+    "growthBusinessQuality": "H1扣非+17.98但管理调整+1.65，流通与工业不同盈利口径；渠道护城河需转成净利润和回款",
+    "industryCycle": "老龄化和创新药渠道扩张支持需求，医保压价、医院支付和融资成本形成双向周期",
+    "catalysts": "Q3/年报持续盈利、Vitaco有条件交割、仿制新批及BCD085进度；旧已除净股息不是新买催化收益",
+    "financialGovernanceDownside": "现金等价32.28bn但银行/票据/租债58.91bn，净债26.62bn；应收90.77bn和商誉12.65bn，国企支持不等信用担保"
+  },
+  "scenarioConditions": [
+    "医院回款放缓、流通价格压力及信用损失增加，工业推广难兑现，临床/处置延后，正常化利润和H PE共同下降",
+    "流通温和增长、库存和资金效率持续改善，工业新品抵销降价及少数利益，正常化盈利渐恢复，处置只带资本效率不把一次性乘PE",
+    "创新药供应链/CSO显著提高利润率且回款不恶化，工业多个新品成功准入，净债降低、治理资本配置改善，估值合理提升"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "高盛",
+      "date": "2026-05-05",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 10.63,
+      "rating": "沽售",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1522606/research-report",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "摩根士丹利",
+      "date": "2026-04-24",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 15.8,
+      "rating": "增持",
+      "EPSCNY": [
+        1.46,
+        1.61,
+        1.72
+      ],
+      "EPSPeriods": [
+        2026,
+        2027,
+        2028
+      ],
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1520078/research-report",
+      "note": "5/5报道18.8CNY为A股，未覆盖此H目标",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "花旗",
+      "date": "2026-04-14",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 13.5,
+      "rating": "买入",
+      "profitCNYBillion": [
+        4.956,
+        5.394,
+        5.768
+      ],
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1517463/research-report",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "美银证券",
+      "date": "2026-04-08",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 14,
+      "rating": "买入",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1516294/research-report",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "里昂",
+      "date": "2026-04-08",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 15.2,
+      "rating": "跑赢大市",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1516191/research-report",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    },
+    {
+      "institution": "瑞银",
+      "date": "2026-04-01",
+      "code": "02607.HK",
+      "currency": "HKD",
+      "target": 15.2,
+      "rating": "买入",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02607/AAFN/NOW.1515496/research-report",
+      "horizon": "公开新闻未明确目标期限，仅一年参照",
+      "sourceType": "公开AASTOCKS新闻转述，原研报缺",
+      "stale": true
+    }
+  ],
+  "brokerTargetStatus": "已核公开同机构最新H目标均超过90天；业绩后近90天公司目标缺，9/22摩通政策文章无该公司目标；新闻转述非原研报，不合成新鲜共识",
+  "assumptions": [
+    "年底用FY2026正常化EPS；半年用前瞻运行率，一年2027研究EPS，三/五年目标日正常化前瞻EPS，均非公司发布一致预测",
+    "FY2025报告EPS1.54包含大量一次性、扣非仅.80；H1扣非.67不能机械×2，目标对下半年季节与费用采用保守正常化假设",
+    "EPS已含财务利息、普通资产及新药贡献，净现金/投资/rNPV不再次加价；Vitaco未到款不硬加现金",
+    "全股3.708361809bn不变是研究假设，未来融资/回购未承诺；±5%股数敏感性",
+    "换汇固定1.10HKD/CNY是研究假设非锁现汇；RMB投资者另外对HKD/CNY±5%做敏感",
+    "已除净中期股息.11663不计新买未来分红；一年累计.30/.48/.62HKD及多年研究值，税前不再投资",
+    "资本性支出分部708.939m与现金购建1040.988m定义不同，FCF使用现金购建口径",
+    "研发1053m为管理四舍五入值；费用970.861m差额不是完整内部资本化明细，保留范围差",
+    "年底是剩余约两个月信息定价，不能用多年DCF即刻兑现；25/50/25及40/50/10、10/50/40为判断权重"
+  ],
+  "confidence": {
+    "fundamentals": "高：A/H原财报、分部与现金注释；调整利润完整桥缺",
+    "technical": "高：锁版多来源739日，2根OHLC修复记录；近60复权跨源最大1.07%差留档",
+    "valuation": "中低：正常化利润/PE/汇率研究假设，信用和资本配置路径不确定",
+    "institutionTargets": "中低：已核新闻，均旧于90天，原报告和期限未取"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518810.PDF",
+    "https://iis.aastocks.com/20260917/12335519-0.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-31/1225063837.PDF",
+    "https://iis.aastocks.com/20261002/12359200-0.PDF",
+    "https://iis.aastocks.com/20260903/12318526-0.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-30/1225589298.PDF",
+    "https://iis.aastocks.com/20260717/12248606-0.PDF",
+    "https://iis.aastocks.com/20260724/12256173-0.PDF",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13445381/fullTextXML"
+  ],
+  "deepResearchFile": "research/shpharma_deep.md",
+  "limitations": [
+    "已核完整分部财表但管理调整28.28亿与扣非24.77亿完整差额桥缺，未擅自并同",
+    "BCD085等原完整临床统计及最新批准缺，不当已上市；ALS预设与事后明确区分",
+    "近90天有效外资公司目标缺，原研报/期限缺",
+    "行业独立相对指数与流通换手缺，不造",
+    "多产品逐项rNPV未完成，成熟PE模型基准不依赖ALS成功",
+    "氯维地平H镜像10/9但原署10/10，首次披露时分未核；保守排除截止日模型"
+  ],
+  "effectiveHanzi": 14378,
+  "qaFile": "qa/shpharma_qa.json",
+  "cashBridge": {
+    "cashEqCNYmillion": 32284.10492605,
+    "financingDebtCNYmillion": 58905.24855851001,
+    "netDebtCNYmillion": 26621.143632460007
+  },
+  "valuationAnchors": {
+    "normalEPSCNY": 1.22,
+    "FY2025EPSCurrentShares": 1.5436890474162468,
+    "FY2025DeductEPSCurrentShares": 0.803708119023507,
+    "TTMReportProfitCNYmillion": 4770.140107430001,
+    "TTMDeductProfitCNYmillion": 3357.90607051,
+    "bookValueCNY": 21.127376435390854,
+    "normalHPE": 8.21907600596125,
+    "TTMReportHPE": 7.795317200919578,
+    "TTMDeductHPE": 11.073792550902954,
+    "HPB": 0.4746104069256729
+  },
+  "fxSensitivity": {
+    "oneYearBaseTargetMinus5Pct": 14.63,
+    "oneYearBaseTargetPlus5Pct": 16.17,
+    "RMBInvestorTotalReturnHKDWeak5Pct": 36.77243880326384,
+    "RMBInvestorTotalReturnHKDStrong5Pct": 51.16953762466005
+  },
+  "qaStatus": "独立正文与模型保存，独立QA见qaFile；Word/PDF及总表交由集成验证"
+}

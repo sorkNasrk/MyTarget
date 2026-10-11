@@ -1,0 +1,3106 @@
+{
+  "issuerId": "I085",
+  "securityId": "S096",
+  "code": "09868.HK",
+  "name": "小鹏集团-W",
+  "company": "小鹏集团",
+  "asOf": "2026-10-09",
+  "price": 38.34,
+  "priceCurrency": "HKD",
+  "modelVersion": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/xpeng_deep.md",
+  "status": "sources-model-body-pending",
+  "nativeWorkbookQAFile": "qa/xpeng_native_workbook_qa.json",
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "vehicleDeliveriesM": [
+          0.38,
+          0.46,
+          0.51
+        ],
+        "vehicleASPThousand": [
+          160,
+          175,
+          185
+        ],
+        "serviceRevenue": [
+          7,
+          8.5,
+          10
+        ],
+        "vehicleGross": [
+          0.09,
+          0.13,
+          0.16
+        ],
+        "serviceGross": [
+          0.52,
+          0.63,
+          0.69
+        ],
+        "coreRD": [
+          10.7,
+          10.9,
+          11.4
+        ],
+        "coreSGA": [
+          9.6,
+          10.1,
+          10.7
+        ],
+        "otherCoreCost": [
+          0.25,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "coreDAExOperatingROU": [
+          2.4,
+          2.6,
+          2.8
+        ],
+        "coreCapitalCash": [
+          3.7,
+          4,
+          4.5
+        ],
+        "coreNWC": [
+          4,
+          2,
+          1.5
+        ],
+        "annualFinanceLeaseCash": [
+          0.32,
+          0.35,
+          0.4
+        ],
+        "annualDebtInterest": [
+          0.7,
+          0.65,
+          0.65
+        ],
+        "cashAccumulationYears": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "postJuneCoreCashDelta": [
+          -4,
+          -2,
+          0
+        ],
+        "cashAnchor": [
+          30.85839,
+          30.85839,
+          30.85839
+        ],
+        "debtAnchor": [
+          19.759493,
+          19.759493,
+          19.759493
+        ],
+        "financeLeaseAnchor": [
+          4.725279,
+          4.725279,
+          4.725279
+        ],
+        "postJuneDebtAdd": [
+          0.885,
+          0.885,
+          0.885
+        ],
+        "coreCashReserve": [
+          12,
+          10,
+          9
+        ],
+        "extraCoreInvestment": [
+          0.3,
+          0.3,
+          0.4
+        ],
+        "baseSharesBn": [
+          1.918679109,
+          1.918679109,
+          1.918679109
+        ],
+        "normalNewSharesBn": [
+          0.008,
+          0.01,
+          0.015
+        ],
+        "newEquityCashCNYbn": [
+          0,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.38,
+          0.85,
+          1.35
+        ],
+        "otherNAV": [
+          2.3,
+          2.7,
+          3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.55,
+          0.7
+        ],
+        "robotParentContribution": [
+          0,
+          1.4,
+          1.4
+        ],
+        "robotExternalPreferredCash": [
+          0,
+          4.2,
+          4.2
+        ],
+        "robotExecutiveCash": [
+          0,
+          0.7,
+          0.7
+        ],
+        "robotWarrantCash": [
+          0,
+          0,
+          0
+        ],
+        "robotOtherCash": [
+          0,
+          0,
+          0
+        ],
+        "robotAnnualRevenue": [
+          0,
+          0.03,
+          0.06
+        ],
+        "robotGross": [
+          0.15,
+          0.35,
+          0.45
+        ],
+        "robotRD": [
+          2,
+          2.4,
+          2.8
+        ],
+        "robotSGA": [
+          0.3,
+          0.5,
+          0.8
+        ],
+        "robotDA": [
+          0.08,
+          0.15,
+          0.25
+        ],
+        "robotCapital": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "robotNWC": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "robotCashYears": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "robotEVBeforeCash": [
+          0,
+          6,
+          16
+        ],
+        "robotParentOwnership": [
+          1,
+          0.7396610168711761,
+          0.7396610168711761
+        ],
+        "robotPreferredFraction": [
+          0,
+          0.09457627118481617,
+          0.09457627118481617
+        ],
+        "robotClaimYears": [
+          0.3,
+          0.3,
+          0.3
+        ],
+        "robotRecourseWeight": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "halfYear": {
+        "vehicleDeliveriesM": [
+          0.35,
+          0.53,
+          0.64
+        ],
+        "vehicleASPThousand": [
+          155,
+          176,
+          192
+        ],
+        "serviceRevenue": [
+          7.3,
+          10,
+          12.5
+        ],
+        "vehicleGross": [
+          0.085,
+          0.145,
+          0.18
+        ],
+        "serviceGross": [
+          0.5,
+          0.65,
+          0.7
+        ],
+        "coreRD": [
+          11,
+          12,
+          13
+        ],
+        "coreSGA": [
+          9.7,
+          11.2,
+          12.8
+        ],
+        "otherCoreCost": [
+          0.25,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "coreDAExOperatingROU": [
+          2.6,
+          2.9,
+          3.3
+        ],
+        "coreCapitalCash": [
+          4,
+          4.5,
+          5.5
+        ],
+        "coreNWC": [
+          4.5,
+          2.4,
+          2.3
+        ],
+        "annualFinanceLeaseCash": [
+          0.32,
+          0.35,
+          0.4
+        ],
+        "annualDebtInterest": [
+          0.7,
+          0.65,
+          0.65
+        ],
+        "cashAccumulationYears": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "postJuneCoreCashDelta": [
+          -4,
+          -2,
+          0
+        ],
+        "cashAnchor": [
+          30.85839,
+          30.85839,
+          30.85839
+        ],
+        "debtAnchor": [
+          19.759493,
+          19.759493,
+          19.759493
+        ],
+        "financeLeaseAnchor": [
+          4.725279,
+          4.725279,
+          4.725279
+        ],
+        "postJuneDebtAdd": [
+          0.885,
+          0.885,
+          0.885
+        ],
+        "coreCashReserve": [
+          13,
+          11,
+          10
+        ],
+        "extraCoreInvestment": [
+          0.6,
+          0.7,
+          1
+        ],
+        "baseSharesBn": [
+          1.918679109,
+          1.918679109,
+          1.918679109
+        ],
+        "normalNewSharesBn": [
+          0.02,
+          0.028,
+          0.04
+        ],
+        "newEquityCashCNYbn": [
+          0,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.3,
+          0.9,
+          1.4
+        ],
+        "otherNAV": [
+          2.3,
+          2.7,
+          3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.55,
+          0.7
+        ],
+        "robotParentContribution": [
+          0,
+          1.4,
+          1.4
+        ],
+        "robotExternalPreferredCash": [
+          0,
+          4.2,
+          4.305
+        ],
+        "robotExecutiveCash": [
+          0,
+          0.7,
+          0.7
+        ],
+        "robotWarrantCash": [
+          0,
+          0,
+          3.5
+        ],
+        "robotOtherCash": [
+          0,
+          0,
+          0
+        ],
+        "robotAnnualRevenue": [
+          0,
+          0.1,
+          0.3
+        ],
+        "robotGross": [
+          0.15,
+          0.35,
+          0.45
+        ],
+        "robotRD": [
+          2.2,
+          2.8,
+          3.5
+        ],
+        "robotSGA": [
+          0.3,
+          0.5,
+          0.8
+        ],
+        "robotDA": [
+          0.08,
+          0.15,
+          0.25
+        ],
+        "robotCapital": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "robotNWC": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "robotCashYears": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "robotEVBeforeCash": [
+          0,
+          9,
+          24
+        ],
+        "robotParentOwnership": [
+          1,
+          0.7396610168711761,
+          0.6841251302401754
+        ],
+        "robotPreferredFraction": [
+          0,
+          0.09457627118481617,
+          0.08966209172213506
+        ],
+        "robotClaimYears": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "robotRecourseWeight": [
+          0.7,
+          0.2,
+          0.08
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "oneYear": {
+        "vehicleDeliveriesM": [
+          0.32,
+          0.62,
+          0.8
+        ],
+        "vehicleASPThousand": [
+          150,
+          176,
+          195
+        ],
+        "serviceRevenue": [
+          7.5,
+          12,
+          16
+        ],
+        "vehicleGross": [
+          0.08,
+          0.16,
+          0.195
+        ],
+        "serviceGross": [
+          0.48,
+          0.65,
+          0.71
+        ],
+        "coreRD": [
+          11.2,
+          13.2,
+          15.1
+        ],
+        "coreSGA": [
+          9.8,
+          12.8,
+          15.8
+        ],
+        "otherCoreCost": [
+          0.25,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "coreDAExOperatingROU": [
+          2.8,
+          3.3,
+          4
+        ],
+        "coreCapitalCash": [
+          4.2,
+          5.3,
+          7
+        ],
+        "coreNWC": [
+          5,
+          2.8,
+          3
+        ],
+        "annualFinanceLeaseCash": [
+          0.32,
+          0.35,
+          0.4
+        ],
+        "annualDebtInterest": [
+          0.7,
+          0.65,
+          0.65
+        ],
+        "cashAccumulationYears": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "postJuneCoreCashDelta": [
+          -4,
+          -2,
+          0
+        ],
+        "cashAnchor": [
+          30.85839,
+          30.85839,
+          30.85839
+        ],
+        "debtAnchor": [
+          19.759493,
+          19.759493,
+          19.759493
+        ],
+        "financeLeaseAnchor": [
+          4.725279,
+          4.725279,
+          4.725279
+        ],
+        "postJuneDebtAdd": [
+          0.885,
+          0.885,
+          0.885
+        ],
+        "coreCashReserve": [
+          14,
+          12,
+          11
+        ],
+        "extraCoreInvestment": [
+          1,
+          1.4,
+          2
+        ],
+        "baseSharesBn": [
+          1.918679109,
+          1.918679109,
+          1.918679109
+        ],
+        "normalNewSharesBn": [
+          0.05,
+          0.065,
+          0.09
+        ],
+        "newEquityCashCNYbn": [
+          1.5,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.24,
+          0.95,
+          1.45
+        ],
+        "otherNAV": [
+          2.3,
+          2.7,
+          3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.55,
+          0.7
+        ],
+        "robotParentContribution": [
+          1.4,
+          1.4,
+          1.4
+        ],
+        "robotExternalPreferredCash": [
+          4.2,
+          4.2,
+          4.305
+        ],
+        "robotExecutiveCash": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "robotWarrantCash": [
+          0,
+          0,
+          3.5
+        ],
+        "robotOtherCash": [
+          0,
+          0,
+          0
+        ],
+        "robotAnnualRevenue": [
+          0.05,
+          0.5,
+          1.2
+        ],
+        "robotGross": [
+          0.15,
+          0.35,
+          0.45
+        ],
+        "robotRD": [
+          2.4,
+          3.4,
+          4.6
+        ],
+        "robotSGA": [
+          0.3,
+          0.5,
+          0.8
+        ],
+        "robotDA": [
+          0.08,
+          0.15,
+          0.25
+        ],
+        "robotCapital": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "robotNWC": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "robotCashYears": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "robotEVBeforeCash": [
+          0,
+          12,
+          35
+        ],
+        "robotParentOwnership": [
+          0.7396610168711761,
+          0.7396610168711761,
+          0.6841251302401754
+        ],
+        "robotPreferredFraction": [
+          0.09457627118481617,
+          0.09457627118481617,
+          0.08966209172213506
+        ],
+        "robotClaimYears": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "robotRecourseWeight": [
+          0.75,
+          0.2,
+          0.08
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ]
+      },
+      "threeYear": {
+        "vehicleDeliveriesM": [
+          0.28,
+          0.9,
+          1.4
+        ],
+        "vehicleASPThousand": [
+          145,
+          178,
+          200
+        ],
+        "serviceRevenue": [
+          8,
+          18,
+          28
+        ],
+        "vehicleGross": [
+          0.07,
+          0.18,
+          0.215
+        ],
+        "serviceGross": [
+          0.46,
+          0.64,
+          0.7
+        ],
+        "coreRD": [
+          11.5,
+          18,
+          25
+        ],
+        "coreSGA": [
+          10,
+          18,
+          27
+        ],
+        "otherCoreCost": [
+          0.25,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "coreDAExOperatingROU": [
+          3.1,
+          5,
+          7.5
+        ],
+        "coreCapitalCash": [
+          4.5,
+          7,
+          11
+        ],
+        "coreNWC": [
+          5.5,
+          4,
+          6
+        ],
+        "annualFinanceLeaseCash": [
+          0.32,
+          0.35,
+          0.4
+        ],
+        "annualDebtInterest": [
+          0.7,
+          0.65,
+          0.65
+        ],
+        "cashAccumulationYears": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "postJuneCoreCashDelta": [
+          -4,
+          -2,
+          0
+        ],
+        "cashAnchor": [
+          30.85839,
+          30.85839,
+          30.85839
+        ],
+        "debtAnchor": [
+          19.759493,
+          19.759493,
+          19.759493
+        ],
+        "financeLeaseAnchor": [
+          4.725279,
+          4.725279,
+          4.725279
+        ],
+        "postJuneDebtAdd": [
+          0.885,
+          0.885,
+          0.885
+        ],
+        "coreCashReserve": [
+          16,
+          18,
+          23
+        ],
+        "extraCoreInvestment": [
+          2,
+          4,
+          7
+        ],
+        "baseSharesBn": [
+          1.918679109,
+          1.918679109,
+          1.918679109
+        ],
+        "normalNewSharesBn": [
+          0.25,
+          0.21,
+          0.3
+        ],
+        "newEquityCashCNYbn": [
+          5,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.16,
+          1,
+          1.35
+        ],
+        "otherNAV": [
+          2.3,
+          2.7,
+          3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.55,
+          0.7
+        ],
+        "robotParentContribution": [
+          1.4,
+          1.4,
+          1.4
+        ],
+        "robotExternalPreferredCash": [
+          4.2,
+          4.305,
+          4.305
+        ],
+        "robotExecutiveCash": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "robotWarrantCash": [
+          0,
+          3.5,
+          3.5
+        ],
+        "robotOtherCash": [
+          0,
+          0,
+          0
+        ],
+        "robotAnnualRevenue": [
+          0.2,
+          3,
+          9
+        ],
+        "robotGross": [
+          0.15,
+          0.35,
+          0.45
+        ],
+        "robotRD": [
+          2.2,
+          5,
+          8
+        ],
+        "robotSGA": [
+          0.3,
+          0.5,
+          0.8
+        ],
+        "robotDA": [
+          0.08,
+          0.15,
+          0.25
+        ],
+        "robotCapital": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "robotNWC": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "robotCashYears": [
+          2.7,
+          2.7,
+          2.7
+        ],
+        "robotEVBeforeCash": [
+          0,
+          22,
+          65
+        ],
+        "robotParentOwnership": [
+          0.7396610168711761,
+          0.6841251302401754,
+          0.6841251302401754
+        ],
+        "robotPreferredFraction": [
+          0.09457627118481617,
+          0.08966209172213506,
+          0.08966209172213506
+        ],
+        "robotClaimYears": [
+          3.3,
+          3.3,
+          3.3
+        ],
+        "robotRecourseWeight": [
+          0.8,
+          0.25,
+          0.07
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          0,
+          0.5
+        ]
+      },
+      "fiveYear": {
+        "vehicleDeliveriesM": [
+          0.23,
+          1.2,
+          2
+        ],
+        "vehicleASPThousand": [
+          140,
+          180,
+          205
+        ],
+        "serviceRevenue": [
+          8.5,
+          25,
+          43
+        ],
+        "vehicleGross": [
+          0.065,
+          0.19,
+          0.225
+        ],
+        "serviceGross": [
+          0.44,
+          0.63,
+          0.7
+        ],
+        "coreRD": [
+          11.7,
+          23,
+          36
+        ],
+        "coreSGA": [
+          10.2,
+          24,
+          39
+        ],
+        "otherCoreCost": [
+          0.25,
+          0.2,
+          0.15
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "coreDAExOperatingROU": [
+          3.3,
+          7,
+          11
+        ],
+        "coreCapitalCash": [
+          4.7,
+          9,
+          16
+        ],
+        "coreNWC": [
+          6,
+          5,
+          8
+        ],
+        "annualFinanceLeaseCash": [
+          0.32,
+          0.35,
+          0.4
+        ],
+        "annualDebtInterest": [
+          0.7,
+          0.65,
+          0.65
+        ],
+        "cashAccumulationYears": [
+          3.65,
+          3.65,
+          3.65
+        ],
+        "postJuneCoreCashDelta": [
+          -4,
+          -2,
+          0
+        ],
+        "cashAnchor": [
+          30.85839,
+          30.85839,
+          30.85839
+        ],
+        "debtAnchor": [
+          19.759493,
+          19.759493,
+          19.759493
+        ],
+        "financeLeaseAnchor": [
+          4.725279,
+          4.725279,
+          4.725279
+        ],
+        "postJuneDebtAdd": [
+          0.885,
+          0.885,
+          0.885
+        ],
+        "coreCashReserve": [
+          18,
+          24,
+          35
+        ],
+        "extraCoreInvestment": [
+          3,
+          7,
+          13
+        ],
+        "baseSharesBn": [
+          1.918679109,
+          1.918679109,
+          1.918679109
+        ],
+        "normalNewSharesBn": [
+          0.5,
+          0.36,
+          0.52
+        ],
+        "newEquityCashCNYbn": [
+          10,
+          0,
+          0
+        ],
+        "EVSales": [
+          0.1,
+          0.9,
+          1.25
+        ],
+        "otherNAV": [
+          2.3,
+          2.7,
+          3
+        ],
+        "NAVRealizable": [
+          0.25,
+          0.55,
+          0.7
+        ],
+        "robotParentContribution": [
+          1.4,
+          1.4,
+          1.4
+        ],
+        "robotExternalPreferredCash": [
+          4.2,
+          4.305,
+          4.305
+        ],
+        "robotExecutiveCash": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "robotWarrantCash": [
+          0,
+          3.5,
+          3.5
+        ],
+        "robotOtherCash": [
+          0,
+          0,
+          0
+        ],
+        "robotAnnualRevenue": [
+          0.3,
+          8,
+          25
+        ],
+        "robotGross": [
+          0.15,
+          0.35,
+          0.45
+        ],
+        "robotRD": [
+          2,
+          7,
+          12
+        ],
+        "robotSGA": [
+          0.3,
+          0.5,
+          0.8
+        ],
+        "robotDA": [
+          0.08,
+          0.15,
+          0.25
+        ],
+        "robotCapital": [
+          0.3,
+          0.7,
+          1.2
+        ],
+        "robotNWC": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "robotCashYears": [
+          4.1,
+          4.1,
+          4.1
+        ],
+        "robotEVBeforeCash": [
+          0,
+          32,
+          115
+        ],
+        "robotParentOwnership": [
+          0.7396610168711761,
+          0.6841251302401754,
+          0.6841251302401754
+        ],
+        "robotPreferredFraction": [
+          0.09457627118481617,
+          0.08966209172213506,
+          0.08966209172213506
+        ],
+        "robotClaimYears": [
+          5.3,
+          5.3,
+          5.3
+        ],
+        "robotRecourseWeight": [
+          0.9,
+          0.3,
+          0.07
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "dividend": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    "type": "core-vehicle-service-EVsales-robot-capital-waterfall",
+    "capitalNote": "汽车技术完整费用与机器人完整费用分开计，无公开历史分部费用则不冒充事实。母出资自汽车现金扣并进入机器现金，外部优先/管理层普通/认股款不全加母现金。机器人EV排现金，优先权与母追索短缺单算，主法不采用融资投后值。USGAAP经营租成本保留，DA排经营ROU，融资租本金/未来租金和借款息独立。法定奖股保守包含，未来新增与融资现金联动。",
+    "fieldMetadata": {
+      "vehicleDeliveriesM": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "million vehicles",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "vehicleASPThousand": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY thousand per vehicle",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "serviceRevenue": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "vehicleGross": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "serviceGross": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreRD": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreSGA": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "otherCoreCost": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "taxRate": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreDAExOperatingROU": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreCapitalCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreNWC": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "annualFinanceLeaseCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "annualDebtInterest": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "cashAccumulationYears": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "postJuneCoreCashDelta": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "cashAnchor": {
+        "code": "09868.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "debtAnchor": {
+        "code": "09868.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "financeLeaseAnchor": {
+        "code": "09868.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "postJuneDebtAdd": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "coreCashReserve": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "extraCoreInvestment": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "baseSharesBn": {
+        "code": "09868.HK",
+        "reportPeriod": "2026-06/09公开锚",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "normalNewSharesBn": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "newEquityCashCNYbn": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "EVSales": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "otherNAV": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "NAVRealizable": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotParentContribution": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotExternalPreferredCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotExecutiveCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotWarrantCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotOtherCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotAnnualRevenue": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotGross": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotRD": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotSGA": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotDA": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotCapital": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotNWC": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotCashYears": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotEVBeforeCash": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotParentOwnership": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotPreferredFraction": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotClaimYears": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "robotRecourseWeight": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "FX": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      },
+      "dividend": {
+        "code": "09868.HK",
+        "reportPeriod": "目标NTM正常年率/资本假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+        "type": "研究假设，非公司指引",
+        "version": "xpeng-core-fullcost-EVsales-robot-preference-recourse-v1.0"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0416/2026041601155.pdf",
+      "publicationDate": "2026-04-16 18:02",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_annual.pdf"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032000678.pdf",
+      "publicationDate": "2026-03-20 17:00",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_fyresults.pdf"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092800844.pdf",
+      "publicationDate": "2026-09-28 17:00",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_interim.pdf"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082401032.pdf",
+      "publicationDate": "2026-08-24 18:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_h1results.pdf"
+    },
+    {
+      "id": "q2results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082401045.pdf",
+      "publicationDate": "2026-08-24 18:36",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_q2results.pdf"
+    },
+    {
+      "id": "q1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0528/2026052800773.pdf",
+      "publicationDate": "2026-05-28 17:04",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_q1results.pdf"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100701290.pdf",
+      "publicationDate": "2026-10-07 17:32",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_shares.pdf"
+    },
+    {
+      "id": "septdeliver",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100200759.pdf",
+      "publicationDate": "2026-10-02 12:10",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_septdeliver.pdf"
+    },
+    {
+      "id": "dogotix",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400642.pdf",
+      "publicationDate": "2026-08-24 17:05",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_dogotix.pdf"
+    },
+    {
+      "id": "overseas",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600007.pdf",
+      "publicationDate": "2026-09-16 06:05",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/xpeng_overseas.pdf"
+    }
+  ],
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 39.342,
+      "60": 44.365167,
+      "120": 51.571583,
+      "250": 65.10416
+    },
+    "maSlope5Pct": {
+      "20": -3.002959,
+      "60": -2.782231,
+      "120": -2.434645,
+      "250": -1.620097
+    },
+    "priceVsMAPct": {
+      "20": -2.546897,
+      "60": -13.58085,
+      "120": -25.656733,
+      "250": -41.109754
+    },
+    "returnPct": {
+      "20": -7.836534,
+      "60": -32.20159,
+      "120": -44.992824,
+      "250": -59.663336
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 110.800003,
+    "low52w": 35.639999,
+    "distanceFrom52wHighPct": -65.397113,
+    "distanceFrom52wLowPct": 7.575761,
+    "maxDrawdown52wPct": -66.562213,
+    "RSI14": 40.760877,
+    "ATR14": 1.37401,
+    "ATR14Pct": 3.583749,
+    "MACD": {
+      "DIF": -1.737023,
+      "DEA": -1.848361,
+      "histogram": 0.222675,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 6211675.2,
+      "20": 7998321.95,
+      "60": 11480083.15
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.323215,
+    "previous20MeanVolume": 8112545.95,
+    "upDownVolume20": {
+      "upVolume": 74386477,
+      "downVolume": 85579962,
+      "flatVolume": 0,
+      "upDays": 9,
+      "downDays": 11,
+      "ratio": 0.869204
+    },
+    "ranges": {
+      "20": {
+        "support": 35.639999,
+        "resistance": 42.16,
+        "toSupportPct": -7.042256,
+        "toResistancePct": 9.963485,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 35.639999,
+        "resistance": 56.549999,
+        "toSupportPct": -7.042256,
+        "toResistancePct": 47.496085,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 48.2165,
+      "60": 67.064667,
+      "120": 62.4565,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -10.47726,
+      "60": -4.230729,
+      "120": 0.574884,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -20.483652,
+      "60": -42.831297,
+      "120": -38.613275,
+      "250": null
+    },
+    "returnPct": {
+      "20": -38.753992,
+      "60": -50.465118,
+      "120": 30.186753,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 110.800003,
+    "low52w": 35.639999,
+    "distanceFrom52wHighPct": -65.397113,
+    "distanceFrom52wLowPct": 7.575761,
+    "maxDrawdown52wPct": -63.161092,
+    "RSI14": 31.630449,
+    "ATR14": 5.038643,
+    "ATR14Pct": 13.142001,
+    "MACD": {
+      "DIF": -7.043824,
+      "DEA": -6.6515,
+      "histogram": -0.784647,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 39798562.2,
+      "20": 68889988,
+      "60": 78105460.033
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.433391,
+    "previous20MeanVolume": 71663597.6,
+    "upDownVolume20": {
+      "upVolume": 592416013,
+      "downVolume": 785383747,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.754301
+    },
+    "ranges": {
+      "20": {
+        "support": 35.639999,
+        "resistance": 72.349998,
+        "toSupportPct": -7.042256,
+        "toResistancePct": 88.706307,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 35.639999,
+        "resistance": 110.800003,
+        "toSupportPct": -7.042256,
+        "toResistancePct": 188.993226,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -4.858626,
+    "excess60Pct": -29.013687,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -4.77337,
+    "industryExcess60Pct": -19.033571
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "retrievedAt": "2026-10-10T09:16:12.163Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/9868.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:19.889Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk09868,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:20.027Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        6.46,
+        41.15,
+        85.25
+      ],
+      "epsCNY": [
+        -7.130404,
+        -3.897616,
+        -1.498081
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        67.8,
+        89,
+        104.35000000000001
+      ],
+      "normalParentProfitCNYbn": [
+        -13.738,
+        -7.517250508249264,
+        -2.8968088132807095
+      ],
+      "dilutedSharesBn": [
+        1.926679109,
+        1.928679109,
+        1.9336791089999998
+      ],
+      "cashOperatingProxyCNYbn": [
+        -20.378,
+        -13.4195,
+        -9.426999999999998
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 60.8,
+          "revenueCNYbn": 67.8,
+          "grossProfitCNYbn": 9.112,
+          "normalOperatingProfitCNYbn": -11.437999999999999,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -11.437999999999999,
+          "robotOperatingProfitCNYbn": -2.3,
+          "robotNormalProfitCNYbn": -2.3,
+          "parentNormalProfitCNYbn": -13.738,
+          "dilutedSharesBn": 1.926679109,
+          "eps": -7.130404,
+          "operatingMargin": -0.16870206489675516,
+          "coreCashAnnualCNYbn": -17.758,
+          "cashOperatingProxyCNYbn": -20.378,
+          "robotCashAnnualCNYbn": -2.6199999999999997,
+          "robotCashCNYbn": -0.6549999999999999,
+          "robotTotalEquityCNYbn": 0,
+          "preferredClaimCNYbn": 0,
+          "preferredAllocationCNYbn": 0,
+          "robotParentEquityCNYbn": 0,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0.6549999999999999,
+          "cashPreDistributionCNYbn": -15.017981999999998,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -15.017981999999998,
+          "operatingEVCNYbn": 25.764,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.575,
+          "equityCNYbn": 11.321018,
+          "EVSales": 0.38,
+          "FX": 1.1,
+          "price": 6.46,
+          "dividend": 0,
+          "priceReturn": -0.8315075639019301,
+          "totalReturn": -0.8315075639019301
+        },
+        {
+          "vehicleRevenueCNYbn": 80.5,
+          "revenueCNYbn": 89,
+          "grossProfitCNYbn": 15.82,
+          "normalOperatingProfitCNYbn": -5.38,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -5.38,
+          "robotOperatingProfitCNYbn": -2.8895,
+          "robotNormalProfitCNYbn": -2.8895,
+          "parentNormalProfitCNYbn": -7.517250508249264,
+          "dilutedSharesBn": 1.928679109,
+          "eps": -3.897616,
+          "operatingMargin": -0.06044943820224719,
+          "coreCashAnnualCNYbn": -9.78,
+          "cashOperatingProxyCNYbn": -13.4195,
+          "robotCashAnnualCNYbn": -3.6395,
+          "robotCashCNYbn": 5.390124999999999,
+          "robotTotalEquityCNYbn": 11.390125,
+          "preferredClaimCNYbn": 5.04,
+          "preferredAllocationCNYbn": 5.04,
+          "robotParentEquityCNYbn": 5.1875599956998935,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -10.167382,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -10.167382,
+          "operatingEVCNYbn": 75.64999999999999,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 1.4850000000000003,
+          "equityCNYbn": 72.15517799569989,
+          "EVSales": 0.85,
+          "FX": 1.1,
+          "price": 41.15,
+          "dividend": 0,
+          "priceReturn": 0.07329160146061531,
+          "totalReturn": 0.07329160146061531
+        },
+        {
+          "vehicleRevenueCNYbn": 94.35000000000001,
+          "revenueCNYbn": 104.35000000000001,
+          "grossProfitCNYbn": 21.996000000000002,
+          "normalOperatingProfitCNYbn": -0.25399999999999745,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -0.25399999999999745,
+          "robotOperatingProfitCNYbn": -3.5729999999999995,
+          "robotNormalProfitCNYbn": -3.5729999999999995,
+          "parentNormalProfitCNYbn": -2.8968088132807095,
+          "dilutedSharesBn": 1.9336791089999998,
+          "eps": -1.498081,
+          "operatingMargin": -0.0024341159559175605,
+          "coreCashAnnualCNYbn": -4.503999999999998,
+          "cashOperatingProxyCNYbn": -9.426999999999998,
+          "robotCashAnnualCNYbn": -4.923,
+          "robotCashCNYbn": 5.06925,
+          "robotTotalEquityCNYbn": 21.06925,
+          "preferredClaimCNYbn": 5.04,
+          "preferredAllocationCNYbn": 5.04,
+          "robotParentEquityCNYbn": 13.094654996724087,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -6.2121819999999985,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -6.2121819999999985,
+          "operatingEVCNYbn": 140.87250000000003,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 2.0999999999999996,
+          "equityCNYbn": 149.8549729967241,
+          "EVSales": 1.35,
+          "FX": 1.1,
+          "price": 85.25,
+          "dividend": 0,
+          "priceReturn": 1.2235263432446528,
+          "totalReturn": 1.2235263432446528
+        }
+      ],
+      "priceReturnPct": [
+        -83.15075639019301,
+        7.329160146061531,
+        122.35263432446528
+      ],
+      "totalReturnPct": [
+        -83.15075639019301,
+        7.329160146061531,
+        122.35263432446528
+      ],
+      "conditions": [
+        "销量净价及汽车毛利承压，技术里程碑不续，研发与资本消耗；融资稀释与机器人优先/追索压力",
+        "汽车平台和服务成长同步，完整研发销售行政与保修现金；机器人分批融资及完全摊薄按假设",
+        "规模/高价值车型/服务合作改善，机器人有真实付费与兑现，完整投入仍增长"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 43.5025,
+      "expectedReturnPct": 13.46504955659884,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 31.683999999999997,
+        "defensiveReturnPct": -17.360459050599907,
+        "positivePrice": 55.321,
+        "positiveReturnPct": 44.29055816379759
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        0,
+        49.24,
+        113.86
+      ],
+      "epsCNY": [
+        -7.834587,
+        -2.973984,
+        0.604339
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        61.55,
+        103.28,
+        135.38
+      ],
+      "normalParentProfitCNYbn": [
+        -15.188749999999999,
+        -5.789393220084392,
+        1.183706832549667
+      ],
+      "dilutedSharesBn": [
+        1.938679109,
+        1.946679109,
+        1.958679109
+      ],
+      "cashOperatingProxyCNYbn": [
+        -22.428749999999997,
+        -12.389400000000002,
+        -7.031912000000003
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 54.25,
+          "revenueCNYbn": 61.55,
+          "grossProfitCNYbn": 8.26125,
+          "normalOperatingProfitCNYbn": -12.688749999999999,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -12.688749999999999,
+          "robotOperatingProfitCNYbn": -2.5,
+          "robotNormalProfitCNYbn": -2.5,
+          "parentNormalProfitCNYbn": -15.188749999999999,
+          "dilutedSharesBn": 1.938679109,
+          "eps": -7.834587,
+          "operatingMargin": -0.20615353371242892,
+          "coreCashAnnualCNYbn": -19.608749999999997,
+          "cashOperatingProxyCNYbn": -22.428749999999997,
+          "robotCashAnnualCNYbn": -2.82,
+          "robotCashCNYbn": -1.9739999999999998,
+          "robotTotalEquityCNYbn": 0,
+          "preferredClaimCNYbn": 0,
+          "preferredAllocationCNYbn": 0,
+          "robotParentEquityCNYbn": 0,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 1.9739999999999998,
+          "cashPreDistributionCNYbn": -22.9093195,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -22.9093195,
+          "operatingEVCNYbn": 18.465,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.575,
+          "equityCNYbn": -3.8693194999999987,
+          "EVSales": 0.3,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 93.28,
+          "revenueCNYbn": 103.28,
+          "grossProfitCNYbn": 20.025599999999997,
+          "normalOperatingProfitCNYbn": -3.3744000000000023,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -3.3744000000000023,
+          "robotOperatingProfitCNYbn": -3.2649999999999997,
+          "robotNormalProfitCNYbn": -3.2649999999999997,
+          "parentNormalProfitCNYbn": -5.789393220084392,
+          "dilutedSharesBn": 1.946679109,
+          "eps": -2.973984,
+          "operatingMargin": -0.03267234701781567,
+          "coreCashAnnualCNYbn": -8.374400000000003,
+          "cashOperatingProxyCNYbn": -12.389400000000002,
+          "robotCashAnnualCNYbn": -4.015,
+          "robotCashCNYbn": 3.4895,
+          "robotTotalEquityCNYbn": 12.4895,
+          "preferredClaimCNYbn": 5.04,
+          "preferredAllocationCNYbn": 5.04,
+          "robotParentEquityCNYbn": 6.085664170070095,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -13.379862,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -13.379862,
+          "operatingEVCNYbn": 92.952,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 1.4850000000000003,
+          "equityCNYbn": 87.14280217007008,
+          "EVSales": 0.9,
+          "FX": 1.1,
+          "price": 49.24,
+          "dividend": 0,
+          "priceReturn": 0.28429838288993214,
+          "totalReturn": 0.28429838288993214
+        },
+        {
+          "vehicleRevenueCNYbn": 122.88,
+          "revenueCNYbn": 135.38,
+          "grossProfitCNYbn": 30.868399999999998,
+          "normalOperatingProfitCNYbn": 4.9183999999999966,
+          "normalTaxCNYbn": 0.8853119999999993,
+          "coreNormalProfitCNYbn": 4.033087999999998,
+          "robotOperatingProfitCNYbn": -4.165,
+          "robotNormalProfitCNYbn": -4.165,
+          "parentNormalProfitCNYbn": 1.183706832549667,
+          "dilutedSharesBn": 1.958679109,
+          "eps": 0.604339,
+          "operatingMargin": 0.03633032944304917,
+          "coreCashAnnualCNYbn": -1.5169120000000025,
+          "cashOperatingProxyCNYbn": -7.031912000000003,
+          "robotCashAnnualCNYbn": -5.515000000000001,
+          "robotCashCNYbn": 6.044500000000001,
+          "robotTotalEquityCNYbn": 30.0445,
+          "preferredClaimCNYbn": 5.1659999999999995,
+          "preferredAllocationCNYbn": 5.1659999999999995,
+          "robotParentEquityCNYbn": 18.69636197494825,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -7.593992399999999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -7.593992399999999,
+          "operatingEVCNYbn": 189.53199999999998,
+          "impliedOperatingPE": 46.99426345271913,
+          "otherNAVCNYbn": 2.0999999999999996,
+          "equityCNYbn": 202.73436957494823,
+          "EVSales": 1.4,
+          "FX": 1.1,
+          "price": 113.86,
+          "dividend": 0,
+          "priceReturn": 1.9697443922796034,
+          "totalReturn": 1.9697443922796034
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        28.429838288993214,
+        196.97443922796035
+      ],
+      "totalReturnPct": [
+        -100,
+        28.429838288993214,
+        196.97443922796035
+      ],
+      "conditions": [
+        "销量净价及汽车毛利承压，技术里程碑不续，研发与资本消耗；融资稀释与机器人优先/追索压力",
+        "汽车平台和服务成长同步，完整研发销售行政与保修现金；机器人分批融资及完全摊薄按假设",
+        "规模/高价值车型/服务合作改善，机器人有真实付费与兑现，完整投入仍增长"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-07（名义10/9，港股假期向前）",
+      "priceHKD": [
+        0,
+        58.75,
+        146.95
+      ],
+      "epsCNY": [
+        -8.026467,
+        -1.863223,
+        2.72505
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        55.5,
+        121.12,
+        172
+      ],
+      "normalParentProfitCNYbn": [
+        -15.801537287925642,
+        -3.6960372878451278,
+        5.473751867032746
+      ],
+      "dilutedSharesBn": [
+        1.968679109,
+        1.9836791089999999,
+        2.008679109
+      ],
+      "cashOperatingProxyCNYbn": [
+        -24.2425,
+        -11.215799999999998,
+        -4.461400000000001
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 48,
+          "revenueCNYbn": 55.5,
+          "grossProfitCNYbn": 7.4399999999999995,
+          "normalOperatingProfitCNYbn": -13.81,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -13.81,
+          "robotOperatingProfitCNYbn": -2.6925,
+          "robotNormalProfitCNYbn": -2.6925,
+          "parentNormalProfitCNYbn": -15.801537287925642,
+          "dilutedSharesBn": 1.968679109,
+          "eps": -8.026467,
+          "operatingMargin": -0.24882882882882884,
+          "coreCashAnnualCNYbn": -21.23,
+          "cashOperatingProxyCNYbn": -24.2425,
+          "robotCashAnnualCNYbn": -3.0124999999999997,
+          "robotCashCNYbn": 2.6850000000000005,
+          "robotTotalEquityCNYbn": 2.6850000000000005,
+          "preferredClaimCNYbn": 5.04,
+          "preferredAllocationCNYbn": 2.6850000000000005,
+          "robotParentEquityCNYbn": 0,
+          "robotRecourseCNYbn": 1.7662499999999997,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -31.456882,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -31.456882,
+          "operatingEVCNYbn": 13.32,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.575,
+          "equityCNYbn": -19.328132,
+          "EVSales": 0.24,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 109.12,
+          "revenueCNYbn": 121.12,
+          "grossProfitCNYbn": 25.259200000000003,
+          "normalOperatingProfitCNYbn": -0.9407999999999965,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -0.9407999999999965,
+          "robotOperatingProfitCNYbn": -3.725,
+          "robotNormalProfitCNYbn": -3.725,
+          "parentNormalProfitCNYbn": -3.6960372878451278,
+          "dilutedSharesBn": 1.9836791089999999,
+          "eps": -1.863223,
+          "operatingMargin": -0.0077675033025098785,
+          "coreCashAnnualCNYbn": -6.740799999999997,
+          "cashOperatingProxyCNYbn": -11.215799999999998,
+          "robotCashAnnualCNYbn": -4.4750000000000005,
+          "robotCashCNYbn": 0.9299999999999997,
+          "robotTotalEquityCNYbn": 12.93,
+          "preferredClaimCNYbn": 5.04,
+          "preferredAllocationCNYbn": 5.04,
+          "robotParentEquityCNYbn": 6.4455185316938115,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -17.041061999999997,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -17.041061999999997,
+          "operatingEVCNYbn": 115.064,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 1.4850000000000003,
+          "equityCNYbn": 105.9534565316938,
+          "EVSales": 0.95,
+          "FX": 1.1,
+          "price": 58.75,
+          "dividend": 0,
+          "priceReturn": 0.5323422013562857,
+          "totalReturn": 0.5323422013562857
+        },
+        {
+          "vehicleRevenueCNYbn": 156,
+          "revenueCNYbn": 172,
+          "grossProfitCNYbn": 41.78,
+          "normalOperatingProfitCNYbn": 10.729999999999999,
+          "normalTaxCNYbn": 1.9313999999999998,
+          "coreNormalProfitCNYbn": 8.798599999999999,
+          "robotOperatingProfitCNYbn": -4.859999999999999,
+          "robotNormalProfitCNYbn": -4.859999999999999,
+          "parentNormalProfitCNYbn": 5.473751867032746,
+          "dilutedSharesBn": 2.008679109,
+          "eps": 2.72505,
+          "operatingMargin": 0.06238372093023255,
+          "coreCashAnnualCNYbn": 1.7485999999999988,
+          "cashOperatingProxyCNYbn": -4.461400000000001,
+          "robotCashAnnualCNYbn": -6.21,
+          "robotCashCNYbn": 2.453000000000001,
+          "robotTotalEquityCNYbn": 37.453,
+          "preferredClaimCNYbn": 5.1659999999999995,
+          "preferredAllocationCNYbn": 5.1659999999999995,
+          "robotParentEquityCNYbn": 24.263900117979553,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 0,
+          "cashPreDistributionCNYbn": -7.425072,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -7.425072,
+          "operatingEVCNYbn": 249.4,
+          "impliedOperatingPE": 28.345418589321035,
+          "otherNAVCNYbn": 2.0999999999999996,
+          "equityCNYbn": 268.3388281179796,
+          "EVSales": 1.45,
+          "FX": 1.1,
+          "price": 146.95,
+          "dividend": 0,
+          "priceReturn": 2.8328116849243603,
+          "totalReturn": 2.8328116849243603
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        53.234220135628576,
+        283.28116849243605
+      ],
+      "totalReturnPct": [
+        -100,
+        53.234220135628576,
+        283.28116849243605
+      ],
+      "conditions": [
+        "销量净价及汽车毛利承压，技术里程碑不续，研发与资本消耗；融资稀释与机器人优先/追索压力",
+        "汽车平台和服务成长同步，完整研发销售行政与保修现金；机器人分批融资及完全摊薄按假设",
+        "规模/高价值车型/服务合作改善，机器人有真实付费与兑现，完整投入仍增长"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        0,
+        82.45,
+        226.46
+      ],
+      "epsCNY": [
+        -7.864217,
+        0.131745,
+        8.754491
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0.5
+      ],
+      "normalRevenueCNYbn": [
+        48.6,
+        178.20000000000002,
+        308
+      ],
+      "normalParentProfitCNYbn": [
+        -17.054962711671806,
+        0.28044317043122025,
+        19.423405631359167
+      ],
+      "dilutedSharesBn": [
+        2.168679109,
+        2.128679109,
+        2.218679109
+      ],
+      "cashOperatingProxyCNYbn": [
+        -25.938,
+        -8.8752,
+        6.022999999999997
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 40.6,
+          "revenueCNYbn": 48.6,
+          "grossProfitCNYbn": 6.522,
+          "normalOperatingProfitCNYbn": -15.228,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -15.228,
+          "robotOperatingProfitCNYbn": -2.47,
+          "robotNormalProfitCNYbn": -2.47,
+          "parentNormalProfitCNYbn": -17.054962711671806,
+          "dilutedSharesBn": 2.168679109,
+          "eps": -7.864217,
+          "operatingMargin": -0.3133333333333333,
+          "coreCashAnnualCNYbn": -23.148,
+          "cashOperatingProxyCNYbn": -25.938,
+          "robotCashAnnualCNYbn": -2.79,
+          "robotCashCNYbn": -1.2330000000000005,
+          "robotTotalEquityCNYbn": 0,
+          "preferredClaimCNYbn": 5.414366918381471,
+          "preferredAllocationCNYbn": 0,
+          "robotParentEquityCNYbn": 0,
+          "robotRecourseCNYbn": 4.331493534705177,
+          "robotSupportCNYbn": 1.2330000000000005,
+          "cashPreDistributionCNYbn": -67.384782,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -67.384782,
+          "operatingEVCNYbn": 7.776000000000001,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.575,
+          "equityCNYbn": -63.36527553470517,
+          "EVSales": 0.16,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 160.20000000000002,
+          "revenueCNYbn": 178.20000000000002,
+          "grossProfitCNYbn": 40.356,
+          "normalOperatingProfitCNYbn": 4.1560000000000015,
+          "normalTaxCNYbn": 0.8312000000000004,
+          "coreNormalProfitCNYbn": 3.324800000000001,
+          "robotOperatingProfitCNYbn": -4.45,
+          "robotNormalProfitCNYbn": -4.45,
+          "parentNormalProfitCNYbn": 0.28044317043122025,
+          "dilutedSharesBn": 2.128679109,
+          "eps": 0.131745,
+          "operatingMargin": 0.023322109988776662,
+          "coreCashAnnualCNYbn": -3.6751999999999985,
+          "cashOperatingProxyCNYbn": -8.8752,
+          "robotCashAnnualCNYbn": -5.2,
+          "robotCashCNYbn": -4.135,
+          "robotTotalEquityCNYbn": 22,
+          "preferredClaimCNYbn": 5.5497260913410065,
+          "preferredAllocationCNYbn": 5.5497260913410065,
+          "robotParentEquityCNYbn": 12.36249273804029,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 4.135,
+          "cashPreDistributionCNYbn": -32.49934199999999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -32.49934199999999,
+          "operatingEVCNYbn": 178.20000000000002,
+          "impliedOperatingPE": 53.59720885466794,
+          "otherNAVCNYbn": 1.4850000000000003,
+          "equityCNYbn": 159.54815073804033,
+          "EVSales": 1,
+          "FX": 1.1,
+          "price": 82.45,
+          "dividend": 0,
+          "priceReturn": 1.1504955659885234,
+          "totalReturn": 1.1504955659885234
+        },
+        {
+          "vehicleRevenueCNYbn": 280,
+          "revenueCNYbn": 308,
+          "grossProfitCNYbn": 79.8,
+          "normalOperatingProfitCNYbn": 27.65,
+          "normalTaxCNYbn": 4.976999999999999,
+          "coreNormalProfitCNYbn": 22.673,
+          "robotOperatingProfitCNYbn": -4.75,
+          "robotNormalProfitCNYbn": -4.75,
+          "parentNormalProfitCNYbn": 19.423405631359167,
+          "dilutedSharesBn": 2.218679109,
+          "eps": 8.754491,
+          "operatingMargin": 0.08977272727272727,
+          "coreCashAnnualCNYbn": 12.122999999999998,
+          "cashOperatingProxyCNYbn": 6.022999999999997,
+          "robotCashAnnualCNYbn": -6.1000000000000005,
+          "robotCashCNYbn": -6.565000000000001,
+          "robotTotalEquityCNYbn": 65,
+          "preferredClaimCNYbn": 5.5497260913410065,
+          "preferredAllocationCNYbn": 5.828035961938779,
+          "robotParentEquityCNYbn": 44.468133465611395,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 6.565000000000001,
+          "cashPreDistributionCNYbn": -4.593482000000007,
+          "dividendCashCNYbn": 1.008490504090909,
+          "cashPostDistributionCNYbn": -5.601972504090916,
+          "operatingEVCNYbn": 415.8,
+          "impliedOperatingPE": 18.338993516517444,
+          "otherNAVCNYbn": 2.0999999999999996,
+          "equityCNYbn": 456.76616096152054,
+          "EVSales": 1.35,
+          "FX": 1.1,
+          "price": 226.46,
+          "dividend": 0.5,
+          "priceReturn": 4.906624934793949,
+          "totalReturn": 4.919666145018257
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        115.04955659885235,
+        490.66249347939487
+      ],
+      "totalReturnPct": [
+        -100,
+        115.04955659885235,
+        491.96661450182575
+      ],
+      "conditions": [
+        "销量净价及汽车毛利承压，技术里程碑不续，研发与资本消耗；融资稀释与机器人优先/追索压力",
+        "汽车平台和服务成长同步，完整研发销售行政与保修现金；机器人分批融资及完全摊薄按假设",
+        "规模/高价值车型/服务合作改善，机器人有真实付费与兑现，完整投入仍增长"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        29.07620371841466,
+        80.89743326691992
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0,
+        93.14,
+        308.74
+      ],
+      "epsCNY": [
+        -7.43585,
+        1.955787,
+        15.436064
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1,
+        3
+      ],
+      "normalRevenueCNYbn": [
+        40.7,
+        241,
+        453
+      ],
+      "normalParentProfitCNYbn": [
+        -17.9849355930445,
+        4.456611887871175,
+        37.64360604812772
+      ],
+      "dilutedSharesBn": [
+        2.418679109,
+        2.278679109,
+        2.4386791089999997
+      ],
+      "cashOperatingProxyCNYbn": [
+        -27.311999999999998,
+        -5.778,
+        21.753999999999998
+      ],
+      "operatingCases": [
+        {
+          "vehicleRevenueCNYbn": 32.2,
+          "revenueCNYbn": 40.7,
+          "grossProfitCNYbn": 5.833,
+          "normalOperatingProfitCNYbn": -16.317,
+          "normalTaxCNYbn": 0,
+          "coreNormalProfitCNYbn": -16.317,
+          "robotOperatingProfitCNYbn": -2.255,
+          "robotNormalProfitCNYbn": -2.255,
+          "parentNormalProfitCNYbn": -17.9849355930445,
+          "dilutedSharesBn": 2.418679109,
+          "eps": -7.43585,
+          "operatingMargin": -0.4009090909090909,
+          "coreCashAnnualCNYbn": -24.737,
+          "cashOperatingProxyCNYbn": -27.311999999999998,
+          "robotCashAnnualCNYbn": -2.5749999999999997,
+          "robotCashCNYbn": -4.257499999999998,
+          "robotTotalEquityCNYbn": 0,
+          "preferredClaimCNYbn": 6.315317573600148,
+          "preferredAllocationCNYbn": 0,
+          "robotParentEquityCNYbn": 0,
+          "robotRecourseCNYbn": 5.683785816240134,
+          "robotSupportCNYbn": 4.257499999999998,
+          "cashPreDistributionCNYbn": -105.45893199999999,
+          "dividendCashCNYbn": 0,
+          "cashPostDistributionCNYbn": -105.45893199999999,
+          "operatingEVCNYbn": 4.07,
+          "impliedOperatingPE": null,
+          "otherNAVCNYbn": 0.575,
+          "equityCNYbn": -106.49771781624011,
+          "EVSales": 0.1,
+          "FX": 1.1,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "vehicleRevenueCNYbn": 216,
+          "revenueCNYbn": 241,
+          "grossProfitCNYbn": 56.79,
+          "normalOperatingProfitCNYbn": 9.59,
+          "normalTaxCNYbn": 1.9180000000000001,
+          "coreNormalProfitCNYbn": 7.672,
+          "robotOperatingProfitCNYbn": -4.7,
+          "robotNormalProfitCNYbn": -4.7,
+          "parentNormalProfitCNYbn": 4.456611887871175,
+          "dilutedSharesBn": 2.278679109,
+          "eps": 1.955787,
+          "operatingMargin": 0.03979253112033195,
+          "coreCashAnnualCNYbn": -0.3279999999999994,
+          "cashOperatingProxyCNYbn": -5.778,
+          "robotCashAnnualCNYbn": -5.45,
+          "robotCashCNYbn": -12.439999999999998,
+          "robotTotalEquityCNYbn": 32,
+          "preferredClaimCNYbn": 6.473200512940151,
+          "preferredAllocationCNYbn": 6.473200512940151,
+          "robotParentEquityCNYbn": 19.183563449243092,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 12.439999999999998,
+          "cashPreDistributionCNYbn": -42.548581999999996,
+          "dividendCashCNYbn": 2.0715264627272725,
+          "cashPostDistributionCNYbn": -44.620108462727266,
+          "operatingEVCNYbn": 216.9,
+          "impliedOperatingPE": 28.271637122002087,
+          "otherNAVCNYbn": 1.4850000000000003,
+          "equityCNYbn": 192.94845498651583,
+          "EVSales": 0.9,
+          "FX": 1.1,
+          "price": 93.14,
+          "dividend": 1,
+          "priceReturn": 1.4293166405842461,
+          "totalReturn": 1.4553990610328635
+        },
+        {
+          "vehicleRevenueCNYbn": 410,
+          "revenueCNYbn": 453,
+          "grossProfitCNYbn": 122.35,
+          "normalOperatingProfitCNYbn": 47.199999999999996,
+          "normalTaxCNYbn": 8.495999999999999,
+          "coreNormalProfitCNYbn": 38.70399999999999,
+          "robotOperatingProfitCNYbn": -1.55,
+          "robotNormalProfitCNYbn": -1.55,
+          "parentNormalProfitCNYbn": 37.64360604812772,
+          "dilutedSharesBn": 2.4386791089999997,
+          "eps": 15.436064,
+          "operatingMargin": 0.10419426048565121,
+          "coreCashAnnualCNYbn": 24.653999999999996,
+          "cashOperatingProxyCNYbn": 21.753999999999998,
+          "robotCashAnnualCNYbn": -2.9,
+          "robotCashCNYbn": -1.9849999999999977,
+          "robotTotalEquityCNYbn": 115,
+          "preferredClaimCNYbn": 6.473200512940151,
+          "preferredAllocationCNYbn": 10.311140548045532,
+          "robotParentEquityCNYbn": 78.67438997762017,
+          "robotRecourseCNYbn": 0,
+          "robotSupportCNYbn": 1.9849999999999977,
+          "cashPreDistributionCNYbn": 44.09071799999999,
+          "dividendCashCNYbn": 6.6509430245454535,
+          "cashPostDistributionCNYbn": 37.43977497545453,
+          "operatingEVCNYbn": 566.25,
+          "impliedOperatingPE": 14.630270773046716,
+          "otherNAVCNYbn": 2.0999999999999996,
+          "equityCNYbn": 684.4641649530747,
+          "EVSales": 1.25,
+          "FX": 1.1,
+          "price": 308.74,
+          "dividend": 3,
+          "priceReturn": 7.052686489306208,
+          "totalReturn": 7.13093375065206
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        142.93166405842462,
+        705.2686489306208
+      ],
+      "totalReturnPct": [
+        -100,
+        145.53990610328634,
+        713.093375065206
+      ],
+      "conditions": [
+        "销量净价及汽车毛利承压，技术里程碑不续，研发与资本消耗；融资稀释与机器人优先/追索压力",
+        "汽车平台和服务成长同步，完整研发销售行政与保修现金；机器人分批融资及完全摊薄按假设",
+        "规模/高价值车型/服务合作改善，机器人有真实付费与兑现，完整投入仍增长"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        19.68078168445704,
+        52.06458621038974
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.1,
+        1.8,
+        3.1,
+        2.9,
+        3.5,
+        2.7
+      ],
+      "total": 53.8,
+      "evidence": [
+        "汽车技术EV销售结合完整费用与现金，机器人优先权后才归母，非融资估值机械加总",
+        "日周线低于主要均线，反弹柱改善但跌日量较大，长期趋势待确认",
+        "平台研发与技术授权有价值，汽车毛利低于综合毛利，追补里程碑不能年率化",
+        "新能源/海外/具身智能空间伴随价格竞争、关税与投入周期",
+        "G9L/L03刷新、技术合作/OTA和真实订单；机器人完成及付费验证",
+        "现金受限、借款及融资租上升，SBC/WVR/关联交易及赎回追索"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.4,
+        1.8,
+        3.3,
+        3.1,
+        3.7,
+        2.6
+      ],
+      "total": 60.8,
+      "evidence": [
+        "汽车技术EV销售结合完整费用与现金，机器人优先权后才归母，非融资估值机械加总",
+        "日周线低于主要均线，反弹柱改善但跌日量较大，长期趋势待确认",
+        "平台研发与技术授权有价值，汽车毛利低于综合毛利，追补里程碑不能年率化",
+        "新能源/海外/具身智能空间伴随价格竞争、关税与投入周期",
+        "G9L/L03刷新、技术合作/OTA和真实订单；机器人完成及付费验证",
+        "现金受限、借款及融资租上升，SBC/WVR/关联交易及赎回追索"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.5,
+        1.8,
+        3.6,
+        3.4,
+        3.6,
+        2.4
+      ],
+      "total": 66.5,
+      "evidence": [
+        "汽车技术EV销售结合完整费用与现金，机器人优先权后才归母，非融资估值机械加总",
+        "日周线低于主要均线，反弹柱改善但跌日量较大，长期趋势待确认",
+        "平台研发与技术授权有价值，汽车毛利低于综合毛利，追补里程碑不能年率化",
+        "新能源/海外/具身智能空间伴随价格竞争、关税与投入周期",
+        "G9L/L03刷新、技术合作/OTA和真实订单；机器人完成及付费验证",
+        "现金受限、借款及融资租上升，SBC/WVR/关联交易及赎回追索"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.3,
+        1.8,
+        3.7,
+        3.3,
+        3.4,
+        2.2
+      ],
+      "total": 66,
+      "evidence": [
+        "汽车技术EV销售结合完整费用与现金，机器人优先权后才归母，非融资估值机械加总",
+        "日周线低于主要均线，反弹柱改善但跌日量较大，长期趋势待确认",
+        "平台研发与技术授权有价值，汽车毛利低于综合毛利，追补里程碑不能年率化",
+        "新能源/海外/具身智能空间伴随价格竞争、关税与投入周期",
+        "G9L/L03刷新、技术合作/OTA和真实订单；机器人完成及付费验证",
+        "现金受限、借款及融资租上升，SBC/WVR/关联交易及赎回追索"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "大摩",
+      "code": "09868.HK",
+      "currency": "HKD",
+      "targetPrice": 70,
+      "rating": "增持",
+      "reportDate": "2026-09-16",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09868/AAFN/NOW.1544829/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "此前96，最新70；目标期限未公开，不用于年底直接套价"
+    }
+  ],
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 76719.742,
+    "vehicleRevenue": 68378.92,
+    "serviceRevenue": 8340.822,
+    "vehicleCost": 59598.391,
+    "serviceCost": 2648.432,
+    "gross": 14472.919,
+    "RD": 9489.979,
+    "SGA": 9398.456,
+    "otherOperatingIncome": 1761.419,
+    "contingentFV": -117.305,
+    "operating": -2771.402,
+    "interestIncome": 1163.21,
+    "interestExpense": 379.931,
+    "investment": 500.533,
+    "FX": 285.998,
+    "otherNonOperating": 44.789,
+    "pretax": -1156.803,
+    "taxExpense": 13.585,
+    "equityInvestee": 30.928,
+    "ownerProfit": -1139.46,
+    "OCF": 8258.529,
+    "capex": 3155.865,
+    "FCFProxy": 5102.664,
+    "deliveries": 429445
+  },
+  "interim": {
+    "period": "H1 2026",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 32777.374,
+    "vehicleRevenue": 28045.797,
+    "serviceRevenue": 4731.577,
+    "vehicleCost": 24657.041,
+    "serviceCost": 1354.258,
+    "gross": 6766.075,
+    "RD": 5821.431,
+    "SGA": 4379.922,
+    "otherOperatingIncome": 319.499,
+    "contingentFV": 98.775,
+    "operating": -3017.004,
+    "interestIncome": 473.912,
+    "interestExpense": 289.467,
+    "derivativeFV": 36.868,
+    "investment": 28.74,
+    "FX": -274.023,
+    "otherNonOperating": 11.442,
+    "pretax": -3029.532,
+    "taxExpense": 83.532,
+    "equityInvestee": -8.1,
+    "ownerProfit": -3121.164,
+    "SBC": 296.952,
+    "nonGAAPOwner": -2922.987,
+    "priorPerformanceRevenue": 680.183,
+    "deliveries": 165977,
+    "cash": 14238.387,
+    "restrictedCash": 6924.327,
+    "shortDeposit": 7780.96,
+    "restrictedShortDeposit": 1207.694,
+    "shortInvestment": 1537.877,
+    "longDepositCurrent": 4485.471,
+    "restrictedLongDepositCurrent": 0,
+    "longDeposit": 2815.695,
+    "restrictedLongDeposit": 1488.663,
+    "cashNonRestricted": 30858.39,
+    "cashPositionAll": 40479.074,
+    "allRestricted": 9620.684,
+    "longInvest": 2708.224,
+    "currentDebt": 10776.156,
+    "longDebt": 8983.337,
+    "debt": 19759.493,
+    "shortBank": 10070,
+    "longBankCurrent": 659.509,
+    "ABSCurrent": 46.647,
+    "financeLeaseCurrent": 75.91,
+    "financeLeaseLong": 4649.369,
+    "financeLease": 4725.279,
+    "operatingLease": 2374.193,
+    "assets": 101586.316,
+    "liabilities": 74577.464,
+    "equity": 27008.852,
+    "inventory": 13729.266,
+    "accountsPayable": 15721.318,
+    "notesPayable": 13993.642,
+    "OCF": -11724.809,
+    "capex": 1562.498,
+    "intangibleCash": 5.235,
+    "FCFProxy": -13287.307,
+    "investing": 2916.457,
+    "financing": 6985.023,
+    "FXCash": -415.06,
+    "startCashRestricted": 23401.103,
+    "endCashRestricted": 21162.714,
+    "cashInterest": 337.58,
+    "cashTax": 36.997,
+    "DA": 1519.311,
+    "DAExROU": 1280.145,
+    "inventoryCashChange": -3623.103,
+    "payableCashChange": -2280.357,
+    "notesCashChange": -5168.082,
+    "postJuneABS": 885,
+    "robotHistoricalCostNotDisclosed": true
+  },
+  "capital": {
+    "period": "2026-09-30",
+    "A": 1569970852,
+    "B": 348708257,
+    "totalLegal": 1918679109,
+    "reservedADS": 2543536,
+    "JuneAissued": 1567388524,
+    "JuneAeconomic": 1564662874,
+    "JuneB": 348708257,
+    "JuneReserve": 2725650,
+    "JuneLegal": 1916096781,
+    "JuneEconomic": 1913371131,
+    "S8RegisteredAdditional": 14000000,
+    "ADSOrdinaryRatio": 2,
+    "note": "九月法定股包含保留ADS奖股，分母采用法定保守额；S-8注册不等于发行、现金融资或新增独立1400万股当日。"
+  },
+  "robotTransaction": {
+    "date": "2026-08-24",
+    "statusAtAnnouncement": "none closing conditions satisfied or waived",
+    "completionProofByCutoff": null,
+    "parentUSD": 200000000,
+    "externalPreferredUSD": 600000000,
+    "executiveOrdinaryUSD": 100000000,
+    "totalSubscriptionUSD": 900000000,
+    "warrantMaximumUSD": 500000000,
+    "additionalPreferredUSD": 15000000,
+    "parentBefore": 1,
+    "parentPostInitial": 0.8197,
+    "parentFullyDiluted": 0.6841,
+    "incentiveMandate": 0.15,
+    "existingParentTransfer": 250401583,
+    "newIncentive": 219101385,
+    "preMoneyUSD": 5000000000,
+    "postMoneyUSD": 6300000000,
+    "claimMin": 1.2,
+    "claimCompound": 0.08,
+    "IPOYears": 7,
+    "mezzanine": true,
+    "capitalFXCNYperUSD": 7,
+    "note": "完成日期及逐笔收款缺失，用情景分阶段假设；绝不把90亿/9亿美元全加母现金。优先权模型为普通股审慎归属敏感性，不替代法律/会计公允价值测算。"
+  }
+}

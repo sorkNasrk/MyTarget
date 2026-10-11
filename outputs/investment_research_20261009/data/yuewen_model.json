@@ -1,0 +1,2545 @@
+{
+  "issuerId": "I079",
+  "securityId": "S090",
+  "code": "00772.HK",
+  "company": "阅文集团",
+  "name": "阅文集团",
+  "asOf": "2026-10-09",
+  "modelVersion": "20261009-yuewen-full-expense-cash-EV-v1",
+  "price": 20.84,
+  "priceCurrency": "HKD",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/yuewen_deep.md",
+  "nativeWorkbookQAFile": "qa/yuewen_native_workbook_qa.json",
+  "status": "source-model-body-verified-pending-final-document-integration",
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 19.6715,
+      "60": 20.142833,
+      "120": 21.621917,
+      "250": 28.3526
+    },
+    "maSlope5Pct": {
+      "20": -1.304469,
+      "60": -0.07937,
+      "120": -1.267533,
+      "250": -1.368813
+    },
+    "priceVsMAPct": {
+      "20": 5.940067,
+      "60": 3.461116,
+      "120": -3.616315,
+      "250": -26.497041
+    },
+    "returnPct": {
+      "20": 5.62595,
+      "60": 0.385356,
+      "120": -22.412512,
+      "250": -47.240506
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 45.5,
+    "low52w": 18,
+    "distanceFrom52wHighPct": -54.197802,
+    "distanceFrom52wLowPct": 15.777778,
+    "maxDrawdown52wPct": -58.685766,
+    "RSI14": 57.511956,
+    "ATR14": 0.949123,
+    "ATR14Pct": 4.554332,
+    "MACD": {
+      "DIF": -0.051513,
+      "DEA": -0.147819,
+      "histogram": 0.192613,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 3963471.4,
+      "20": 4076657.25,
+      "60": 5814154.167
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 2.703454,
+    "previous20MeanVolume": 3765619.15,
+    "upDownVolume20": {
+      "upVolume": 52808923,
+      "downVolume": 24366171,
+      "flatVolume": 4358051,
+      "upDays": 10,
+      "downDays": 9,
+      "ratio": 2.167305
+    },
+    "ranges": {
+      "20": {
+        "support": 18.719999,
+        "resistance": 21.219999,
+        "toSupportPct": -10.17275,
+        "toResistancePct": 1.823412,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 18,
+        "resistance": 23.139999,
+        "toSupportPct": -13.627639,
+        "toResistancePct": 11.036464,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "趋势交错/震荡",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 20.537,
+      "60": 29.62,
+      "120": 28.515833,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -6.172332,
+      "60": -3.392042,
+      "120": -0.975229,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": 1.475386,
+      "60": -29.642134,
+      "120": -26.917794,
+      "250": null
+    },
+    "returnPct": {
+      "20": -8.995633,
+      "60": -44.307854,
+      "120": -19.846154,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 45.5,
+    "low52w": 18,
+    "distanceFrom52wHighPct": -54.197802,
+    "distanceFrom52wLowPct": 15.777778,
+    "maxDrawdown52wPct": -56.510291,
+    "RSI14": 44.770728,
+    "ATR14": 2.438432,
+    "ATR14Pct": 11.70073,
+    "MACD": {
+      "DIF": -1.910801,
+      "DEA": -2.371118,
+      "histogram": 0.920634,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 23786914.8,
+      "20": 30825790.95,
+      "60": 28909844.417
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.639625,
+    "previous20MeanVolume": 30982752.05,
+    "upDownVolume20": {
+      "upVolume": 342469256,
+      "downVolume": 231576957,
+      "flatVolume": 42469606,
+      "upDays": 11,
+      "downDays": 8,
+      "ratio": 1.478857
+    },
+    "ranges": {
+      "20": {
+        "support": 18,
+        "resistance": 25.98,
+        "toSupportPct": -13.627639,
+        "toResistancePct": 24.664107,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 18,
+        "resistance": 46.880001,
+        "toSupportPct": -13.627639,
+        "toResistancePct": 124.95202,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 8.603858,
+    "excess60Pct": 3.573259,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": 8.689114,
+    "industryExcess60Pct": 13.553375
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "retrievedAt": "2026-10-10T09:16:12.163Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/0772.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:19.280Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00772,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:19.405Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042300390.pdf",
+      "publicationDate": "2026-04-23 16:33",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_annual.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0317/2026031700356.pdf",
+      "publicationDate": "2026-03-17 16:30",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_fyresults.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+      "publicationDate": "2026-09-16 16:30",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_interim.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0811/2026081100261.pdf",
+      "publicationDate": "2026-08-11 16:30",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_h1results.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "tax",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0603/2026060302696.pdf",
+      "publicationDate": "2026-06-03 21:53",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_tax.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "acquisition",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0602/2026060202672.pdf",
+      "publicationDate": "2026-06-02 21:38",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_acquisition.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100201488.pdf",
+      "publicationDate": "2026-10-02 16:32",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_shares.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "priorcapital",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1008/2026100800739.pdf",
+      "publicationDate": "2026-10-08 17:46",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_priorcapital.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "daily",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1009/2026100900442.pdf",
+      "publicationDate": "2026-10-09 17:07",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_daily.pdf",
+      "sourceType": "交易所公司原件"
+    },
+    {
+      "id": "profitwarning",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0210/2026021001206.pdf",
+      "publicationDate": "2026-02-10 22:01",
+      "afterMarketClose": true,
+      "localFile": "data/tech_raw/yuewen_profitwarning.pdf",
+      "sourceType": "交易所公司原件"
+    }
+  ],
+  "targets": [
+    {
+      "institution": "野村",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 25,
+      "rating": "中性",
+      "reportDate": "2026-08-18",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1538918/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "最近90日；报告期限公开摘要未明，不填12个月"
+    },
+    {
+      "institution": "瑞银",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 29.5,
+      "rating": "买入",
+      "reportDate": "2026-08-13",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1538023/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "最近90日；报告期限公开摘要未明，不填12个月"
+    },
+    {
+      "institution": "花旗",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 25,
+      "rating": "买入",
+      "reportDate": "2026-08-13",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1537993/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "最近90日；报告期限公开摘要未明，不填12个月"
+    },
+    {
+      "institution": "大摩",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 20,
+      "rating": "与大市同步",
+      "reportDate": "2026-08-12",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1537747/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "最近90日；报告期限公开摘要未明，不填12个月"
+    },
+    {
+      "institution": "里昂",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 24.3,
+      "rating": "跑赢大市",
+      "reportDate": "2026-08-10",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1537370/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "中报前报告；期限公开摘要未明，不填12个月"
+    },
+    {
+      "institution": "富瑞",
+      "code": "00772.HK",
+      "currency": "HKD",
+      "targetPrice": 24.4,
+      "rating": "买入",
+      "reportDate": "2026-07-23",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00772/AAFN/NOW.1534604/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "最近90日；报告期限公开摘要未明，不填12个月"
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        6.05,
+        23.58,
+        47.49
+      ],
+      "epsCNY": [
+        -0.211787,
+        0.614344,
+        1.163673
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        7,
+        7.95,
+        8.85
+      ],
+      "normalParentProfitCNYbn": [
+        -0.21450000000000025,
+        0.6219600000000002,
+        1.1796700000000007
+      ],
+      "dilutedSharesBn": [
+        1.012810294777778,
+        1.0123961533636363,
+        1.0137468027142857
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.6545000000000002,
+        0.44696000000000025,
+        1.0696700000000006
+      ],
+      "operatingCases": [
+        {
+          "revenueCNYbn": 7,
+          "readingGrossProfit": 1.775,
+          "ipGrossProfit": 1.4835,
+          "grossProfitCNYbn": 3.2584999999999997,
+          "coreEBIT": -0.19650000000000023,
+          "taxable": -0.20250000000000024,
+          "tax": 0,
+          "parentNormalProfitCNYbn": -0.21450000000000025,
+          "dilutedSharesBn": 1.012810294777778,
+          "eps": -0.211787,
+          "PE": 15,
+          "FX": 1.1,
+          "operatingValueCNYbn": -0.5362500000000006,
+          "cashOperatingProxyCNYbn": -0.6545000000000002,
+          "futureAccumulatedCashCNYbn": -0.13090000000000004,
+          "cashBeforeDistributionsCNYbn": 6.079684999999999,
+          "netExcessCashCNYbn": 6.0433213636363625,
+          "assocValueCNYbn": 0.06,
+          "equityCNYbn": 5.567071363636361,
+          "price": 6.05,
+          "dividend": 0,
+          "priceReturn": -0.7096928982725528,
+          "totalReturn": -0.7096928982725528
+        },
+        {
+          "revenueCNYbn": 7.95,
+          "readingGrossProfit": 2.014,
+          "ipGrossProfit": 2.075,
+          "grossProfitCNYbn": 4.089,
+          "coreEBIT": 0.7840000000000003,
+          "taxable": 0.7780000000000002,
+          "tax": 0.14004000000000003,
+          "parentNormalProfitCNYbn": 0.6219600000000002,
+          "dilutedSharesBn": 1.0123961533636363,
+          "eps": 0.614344,
+          "PE": 23,
+          "FX": 1.1,
+          "operatingValueCNYbn": 14.305080000000004,
+          "cashOperatingProxyCNYbn": 0.44696000000000025,
+          "futureAccumulatedCashCNYbn": 0.08939200000000005,
+          "cashBeforeDistributionsCNYbn": 7.279977000000001,
+          "netExcessCashCNYbn": 7.207249727272728,
+          "assocValueCNYbn": 0.1875,
+          "equityCNYbn": 21.699829727272732,
+          "price": 23.58,
+          "dividend": 0,
+          "priceReturn": 0.13147792706333972,
+          "totalReturn": 0.13147792706333972
+        },
+        {
+          "revenueCNYbn": 8.85,
+          "readingGrossProfit": 2.24775,
+          "ipGrossProfit": 2.64,
+          "grossProfitCNYbn": 4.8877500000000005,
+          "coreEBIT": 1.4377500000000007,
+          "taxable": 1.4317500000000007,
+          "tax": 0.22908000000000012,
+          "parentNormalProfitCNYbn": 1.1796700000000007,
+          "dilutedSharesBn": 1.0137468027142857,
+          "eps": 1.163673,
+          "PE": 30,
+          "FX": 1.1,
+          "operatingValueCNYbn": 35.39010000000002,
+          "cashOperatingProxyCNYbn": 1.0696700000000006,
+          "futureAccumulatedCashCNYbn": 0.21393400000000012,
+          "cashBeforeDistributionsCNYbn": 8.104519,
+          "netExcessCashCNYbn": 7.9954280909090905,
+          "assocValueCNYbn": 0.378,
+          "equityCNYbn": 43.763528090909105,
+          "price": 47.49,
+          "dividend": 0,
+          "priceReturn": 1.2787907869481767,
+          "totalReturn": 1.2787907869481767
+        }
+      ],
+      "priceReturnPct": [
+        -70.96928982725528,
+        13.147792706333972,
+        127.87907869481768
+      ],
+      "totalReturnPct": [
+        -70.96928982725528,
+        13.147792706333972,
+        127.87907869481768
+      ],
+      "conditions": [
+        "付费阅读继续流失，短剧投流/AI版权成本压低毛利，现金消耗和经营准备金上升",
+        "阅读逐步稳定，IP业务扩张并承担全部费用，现金留存与回购本金联动",
+        "IP多形态兑现与海外变现，毛利和营销效率改善，仍保留股酬/资本开支/稀释"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 25.174999999999997,
+      "expectedReturnPct": 20.80134357005756,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 18.959,
+        "defensiveReturnPct": -9.025911708253364,
+        "positivePrice": 31.391000000000002,
+        "positiveReturnPct": 50.628598848368526
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        4.8,
+        26.1,
+        52.21
+      ],
+      "epsCNY": [
+        -0.433936,
+        0.721107,
+        1.266984
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        6.9,
+        8.4,
+        9.7
+      ],
+      "normalParentProfitCNYbn": [
+        -0.4399999999999997,
+        0.7305050000000001,
+        1.2884850000000003
+      ],
+      "dilutedSharesBn": [
+        1.0139736934705883,
+        1.013032517,
+        1.016970017
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.9349999999999998,
+        0.5005050000000001,
+        1.1284850000000002
+      ],
+      "operatingCases": [
+        {
+          "revenueCNYbn": 6.9,
+          "readingGrossProfit": 1.666,
+          "ipGrossProfit": 1.47,
+          "grossProfitCNYbn": 3.136,
+          "coreEBIT": -0.4189999999999997,
+          "taxable": -0.4249999999999997,
+          "tax": 0,
+          "parentNormalProfitCNYbn": -0.4399999999999997,
+          "dilutedSharesBn": 1.0139736934705883,
+          "eps": -0.433936,
+          "PE": 14,
+          "FX": 1.1,
+          "operatingValueCNYbn": -1.0999999999999992,
+          "cashOperatingProxyCNYbn": -0.9349999999999998,
+          "futureAccumulatedCashCNYbn": -0.42074999999999996,
+          "cashBeforeDistributionsCNYbn": 5.589835,
+          "netExcessCashCNYbn": 5.4807440909090905,
+          "assocValueCNYbn": 0.045000000000000005,
+          "equityCNYbn": 4.425744090909092,
+          "price": 4.8,
+          "dividend": 0,
+          "priceReturn": -0.7696737044145874,
+          "totalReturn": -0.7696737044145874
+        },
+        {
+          "revenueCNYbn": 8.4,
+          "readingGrossProfit": 2.05975,
+          "ipGrossProfit": 2.34325,
+          "grossProfitCNYbn": 4.4030000000000005,
+          "coreEBIT": 0.9330000000000002,
+          "taxable": 0.9270000000000002,
+          "tax": 0.17149500000000004,
+          "parentNormalProfitCNYbn": 0.7305050000000001,
+          "dilutedSharesBn": 1.013032517,
+          "eps": 0.721107,
+          "PE": 23,
+          "FX": 1.1,
+          "operatingValueCNYbn": 16.801615,
+          "cashOperatingProxyCNYbn": 0.5005050000000001,
+          "futureAccumulatedCashCNYbn": 0.22522725000000005,
+          "cashBeforeDistributionsCNYbn": 7.29581225,
+          "netExcessCashCNYbn": 7.0230849772727275,
+          "assocValueCNYbn": 0.21000000000000002,
+          "equityCNYbn": 24.03469997727273,
+          "price": 26.1,
+          "dividend": 0,
+          "priceReturn": 0.2523992322456814,
+          "totalReturn": 0.2523992322456814
+        },
+        {
+          "revenueCNYbn": 9.7,
+          "readingGrossProfit": 2.3520000000000003,
+          "ipGrossProfit": 3.08,
+          "grossProfitCNYbn": 5.432,
+          "coreEBIT": 1.5970000000000004,
+          "taxable": 1.5910000000000004,
+          "tax": 0.26251500000000005,
+          "parentNormalProfitCNYbn": 1.2884850000000003,
+          "dilutedSharesBn": 1.016970017,
+          "eps": 1.266984,
+          "PE": 31,
+          "FX": 1.1,
+          "operatingValueCNYbn": 39.94303500000001,
+          "cashOperatingProxyCNYbn": 1.1284850000000002,
+          "futureAccumulatedCashCNYbn": 0.5078182500000001,
+          "cashBeforeDistributionsCNYbn": 8.288403249999998,
+          "netExcessCashCNYbn": 7.879312340909089,
+          "assocValueCNYbn": 0.45,
+          "equityCNYbn": 48.2723473409091,
+          "price": 52.21,
+          "dividend": 0,
+          "priceReturn": 1.5052783109404992,
+          "totalReturn": 1.5052783109404992
+        }
+      ],
+      "priceReturnPct": [
+        -76.96737044145874,
+        25.239923224568138,
+        150.52783109404993
+      ],
+      "totalReturnPct": [
+        -76.96737044145874,
+        25.239923224568138,
+        150.52783109404993
+      ],
+      "conditions": [
+        "付费阅读继续流失，短剧投流/AI版权成本压低毛利，现金消耗和经营准备金上升",
+        "阅读逐步稳定，IP业务扩张并承担全部费用，现金留存与回购本金联动",
+        "IP多形态兑现与海外变现，毛利和营销效率改善，仍保留股酬/资本开支/稀释"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09（休市取此前交易日）",
+      "priceHKD": [
+        3.26,
+        27.44,
+        59.05
+      ],
+      "epsCNY": [
+        -0.614763,
+        0.790333,
+        1.47232
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.1,
+        0.18
+      ],
+      "normalRevenueCNYbn": [
+        6.800000000000001,
+        9.2,
+        11.3
+      ],
+      "normalParentProfitCNYbn": [
+        -0.6280000000000001,
+        0.8048300000000004,
+        1.5132249999999992
+      ],
+      "dilutedSharesBn": [
+        1.021532517,
+        1.0183428618275863,
+        1.0277825170000001
+      ],
+      "cashOperatingProxyCNYbn": [
+        -1.1880000000000002,
+        0.4948300000000004,
+        1.2982249999999993
+      ],
+      "operatingCases": [
+        {
+          "revenueCNYbn": 6.800000000000001,
+          "readingGrossProfit": 1.536,
+          "ipGrossProfit": 1.476,
+          "grossProfitCNYbn": 3.012,
+          "coreEBIT": -0.6030000000000001,
+          "taxable": -0.6100000000000001,
+          "tax": 0,
+          "parentNormalProfitCNYbn": -0.6280000000000001,
+          "dilutedSharesBn": 1.021532517,
+          "eps": -0.614763,
+          "PE": 13,
+          "FX": 1.1,
+          "operatingValueCNYbn": -1.5700000000000003,
+          "cashOperatingProxyCNYbn": -1.1880000000000002,
+          "futureAccumulatedCashCNYbn": -1.0098,
+          "cashBeforeDistributionsCNYbn": 4.7507850000000005,
+          "netExcessCashCNYbn": 4.568966818181819,
+          "assocValueCNYbn": 0.032,
+          "equityCNYbn": 3.0309668181818186,
+          "price": 3.26,
+          "dividend": 0,
+          "priceReturn": -0.8435700575815739,
+          "totalReturn": -0.8435700575815739
+        },
+        {
+          "revenueCNYbn": 9.2,
+          "readingGrossProfit": 2.16,
+          "ipGrossProfit": 2.7300000000000004,
+          "grossProfitCNYbn": 4.890000000000001,
+          "coreEBIT": 1.0500000000000005,
+          "taxable": 1.0430000000000006,
+          "tax": 0.19817000000000012,
+          "parentNormalProfitCNYbn": 0.8048300000000004,
+          "dilutedSharesBn": 1.0183428618275863,
+          "eps": 0.790333,
+          "PE": 23,
+          "FX": 1.1,
+          "operatingValueCNYbn": 18.51109000000001,
+          "cashOperatingProxyCNYbn": 0.4948300000000004,
+          "futureAccumulatedCashCNYbn": 0.4206055000000003,
+          "cashBeforeDistributionsCNYbn": 7.291190500000001,
+          "netExcessCashCNYbn": 6.653159330742948,
+          "assocValueCNYbn": 0.24,
+          "equityCNYbn": 25.404249330742957,
+          "price": 27.44,
+          "dividend": 0.1,
+          "priceReturn": 0.31669865642994255,
+          "totalReturn": 0.32149712092130533
+        },
+        {
+          "revenueCNYbn": 11.3,
+          "readingGrossProfit": 2.6219999999999994,
+          "ipGrossProfit": 3.8524999999999996,
+          "grossProfitCNYbn": 6.474499999999999,
+          "coreEBIT": 1.914499999999999,
+          "taxable": 1.907499999999999,
+          "tax": 0.32427499999999987,
+          "parentNormalProfitCNYbn": 1.5132249999999992,
+          "dilutedSharesBn": 1.0277825170000001,
+          "eps": 1.47232,
+          "PE": 31,
+          "FX": 1.1,
+          "operatingValueCNYbn": 46.909974999999974,
+          "cashOperatingProxyCNYbn": 1.2982249999999993,
+          "futureAccumulatedCashCNYbn": 1.1034912499999994,
+          "cashBeforeDistributionsCNYbn": 8.63407625,
+          "netExcessCashCNYbn": 7.6931663835818185,
+          "assocValueCNYbn": 0.5670000000000001,
+          "equityCNYbn": 55.17014138358179,
+          "price": 59.05,
+          "dividend": 0.18,
+          "priceReturn": 1.8334932821497119,
+          "totalReturn": 1.842130518234165
+        }
+      ],
+      "priceReturnPct": [
+        -84.35700575815738,
+        31.669865642994253,
+        183.3493282149712
+      ],
+      "totalReturnPct": [
+        -84.35700575815738,
+        32.149712092130535,
+        184.2130518234165
+      ],
+      "conditions": [
+        "付费阅读继续流失，短剧投流/AI版权成本压低毛利，现金消耗和经营准备金上升",
+        "阅读逐步稳定，IP业务扩张并承担全部费用，现金留存与回购本金联动",
+        "IP多形态兑现与海外变现，毛利和营销效率改善，仍保留股酬/资本开支/稀释"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        0,
+        26.95,
+        79.53
+      ],
+      "epsCNY": [
+        -1.198045,
+        0.857688,
+        2.174324
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0.55,
+        1
+      ],
+      "normalRevenueCNYbn": [
+        6.449999999999999,
+        12.1,
+        18
+      ],
+      "normalParentProfitCNYbn": [
+        -1.2585000000000002,
+        0.9020000000000004,
+        2.393159999999998
+      ],
+      "dilutedSharesBn": [
+        1.0504610884285714,
+        1.0516640959473684,
+        1.1006454202258067
+      ],
+      "cashOperatingProxyCNYbn": [
+        -1.9485000000000001,
+        0.4270000000000004,
+        1.963159999999998
+      ],
+      "operatingCases": [
+        {
+          "revenueCNYbn": 6.449999999999999,
+          "readingGrossProfit": 1.1925,
+          "ipGrossProfit": 1.482,
+          "grossProfitCNYbn": 2.6745,
+          "coreEBIT": -1.2255000000000003,
+          "taxable": -1.2335000000000003,
+          "tax": 0,
+          "parentNormalProfitCNYbn": -1.2585000000000002,
+          "dilutedSharesBn": 1.0504610884285714,
+          "eps": -1.198045,
+          "PE": 11,
+          "FX": 1.1,
+          "operatingValueCNYbn": -3.7755000000000005,
+          "cashOperatingProxyCNYbn": -1.9485000000000001,
+          "futureAccumulatedCashCNYbn": -4.48155,
+          "cashBeforeDistributionsCNYbn": 0.37903499999999957,
+          "netExcessCashCNYbn": 0.01539863636363592,
+          "assocValueCNYbn": 0.015,
+          "equityCNYbn": -3.7451013636363646,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "revenueCNYbn": 12.1,
+          "readingGrossProfit": 2.475,
+          "ipGrossProfit": 4.104,
+          "grossProfitCNYbn": 6.579000000000001,
+          "coreEBIT": 1.2490000000000003,
+          "taxable": 1.2400000000000004,
+          "tax": 0.2480000000000001,
+          "parentNormalProfitCNYbn": 0.9020000000000004,
+          "dilutedSharesBn": 1.0516640959473684,
+          "eps": 0.857688,
+          "PE": 23,
+          "FX": 1.1,
+          "operatingValueCNYbn": 20.74600000000001,
+          "cashOperatingProxyCNYbn": 0.4270000000000004,
+          "futureAccumulatedCashCNYbn": 0.9821000000000008,
+          "cashBeforeDistributionsCNYbn": 6.802685000000001,
+          "netExcessCashCNYbn": 4.640489315662681,
+          "assocValueCNYbn": 0.375,
+          "equityCNYbn": 25.76148931566269,
+          "price": 26.95,
+          "dividend": 0.55,
+          "priceReturn": 0.29318618042226485,
+          "totalReturn": 0.3195777351247602
+        },
+        {
+          "revenueCNYbn": 18,
+          "readingGrossProfit": 3.54,
+          "ipGrossProfit": 7.199999999999999,
+          "grossProfitCNYbn": 10.739999999999998,
+          "coreEBIT": 3.149999999999998,
+          "taxable": 3.137999999999998,
+          "tax": 0.5648399999999997,
+          "parentNormalProfitCNYbn": 2.393159999999998,
+          "dilutedSharesBn": 1.1006454202258067,
+          "eps": 2.174324,
+          "PE": 30,
+          "FX": 1.1,
+          "operatingValueCNYbn": 71.79479999999995,
+          "cashOperatingProxyCNYbn": 1.963159999999998,
+          "futureAccumulatedCashCNYbn": 4.515267999999995,
+          "cashBeforeDistributionsCNYbn": 10.425852999999995,
+          "netExcessCashCNYbn": 6.697993527067444,
+          "assocValueCNYbn": 1.08,
+          "equityCNYbn": 79.57279352706739,
+          "price": 79.53,
+          "dividend": 1,
+          "priceReturn": 2.816218809980806,
+          "totalReturn": 2.864203454894434
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        29.318618042226486,
+        281.6218809980806
+      ],
+      "totalReturnPct": [
+        -100,
+        31.957773512476017,
+        286.4203454894434
+      ],
+      "conditions": [
+        "付费阅读继续流失，短剧投流/AI版权成本压低毛利，现金消耗和经营准备金上升",
+        "阅读逐步稳定，IP业务扩张并承担全部费用，现金留存与回购本金联动",
+        "IP多形态兑现与海外变现，毛利和营销效率改善，仍保留股酬/资本开支/稀释"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        9.684432623582474,
+        56.92302141188228
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0,
+        22.81,
+        101.45
+      ],
+      "epsCNY": [
+        -1.649859,
+        0.882993,
+        3.139223
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1.2,
+        2.5
+      ],
+      "normalRevenueCNYbn": [
+        6.2,
+        15.1,
+        27
+      ],
+      "normalParentProfitCNYbn": [
+        -1.794,
+        0.9770600000000002,
+        3.7516200000000017
+      ],
+      "dilutedSharesBn": [
+        1.0873658503333334,
+        1.106532517,
+        1.195079028627907
+      ],
+      "cashOperatingProxyCNYbn": [
+        -2.589,
+        0.3770600000000002,
+        3.1316200000000016
+      ],
+      "operatingCases": [
+        {
+          "revenueCNYbn": 6.2,
+          "readingGrossProfit": 0.9460000000000001,
+          "ipGrossProfit": 1.48,
+          "grossProfitCNYbn": 2.426,
+          "coreEBIT": -1.754,
+          "taxable": -1.764,
+          "tax": 0,
+          "parentNormalProfitCNYbn": -1.794,
+          "dilutedSharesBn": 1.0873658503333334,
+          "eps": -1.649859,
+          "PE": 9,
+          "FX": 1.1,
+          "operatingValueCNYbn": -5.382,
+          "cashOperatingProxyCNYbn": -2.589,
+          "futureAccumulatedCashCNYbn": -9.44985,
+          "cashBeforeDistributionsCNYbn": -5.289264999999999,
+          "netExcessCashCNYbn": -5.743810454545454,
+          "assocValueCNYbn": 0.0075,
+          "equityCNYbn": -11.118310454545453,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "revenueCNYbn": 15.1,
+          "readingGrossProfit": 2.856,
+          "ipGrossProfit": 5.5,
+          "grossProfitCNYbn": 8.356,
+          "coreEBIT": 1.4260000000000002,
+          "taxable": 1.4140000000000001,
+          "tax": 0.29694000000000004,
+          "parentNormalProfitCNYbn": 0.9770600000000002,
+          "dilutedSharesBn": 1.106532517,
+          "eps": 0.882993,
+          "PE": 21,
+          "FX": 1.1,
+          "operatingValueCNYbn": 20.51826,
+          "cashOperatingProxyCNYbn": 0.3770600000000002,
+          "futureAccumulatedCashCNYbn": 1.3762690000000006,
+          "cashBeforeDistributionsCNYbn": 5.796854000000001,
+          "netExcessCashCNYbn": 1.8624548905454557,
+          "assocValueCNYbn": 0.5625,
+          "equityCNYbn": 22.943214890545455,
+          "price": 22.81,
+          "dividend": 1.2,
+          "priceReturn": 0.09452975047984635,
+          "totalReturn": 0.15211132437619956
+        },
+        {
+          "revenueCNYbn": 27,
+          "readingGrossProfit": 4.8,
+          "ipGrossProfit": 11.59,
+          "grossProfitCNYbn": 16.39,
+          "coreEBIT": 5.020000000000001,
+          "taxable": 5.002000000000002,
+          "tax": 0.9503800000000003,
+          "parentNormalProfitCNYbn": 3.7516200000000017,
+          "dilutedSharesBn": 1.195079028627907,
+          "eps": 3.139223,
+          "PE": 27,
+          "FX": 1.1,
+          "operatingValueCNYbn": 101.29374000000004,
+          "cashOperatingProxyCNYbn": 3.1316200000000016,
+          "futureAccumulatedCashCNYbn": 11.430413000000005,
+          "cashBeforeDistributionsCNYbn": 14.840998000000006,
+          "netExcessCashCNYbn": 7.124909298572945,
+          "assocValueCNYbn": 1.8,
+          "equityCNYbn": 110.21864929857298,
+          "price": 101.45,
+          "dividend": 2.5,
+          "priceReturn": 3.868042226487524,
+          "totalReturn": 3.9880038387715935
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        9.452975047984635,
+        386.8042226487524
+      ],
+      "totalReturnPct": [
+        -100,
+        15.211132437619955,
+        398.80038387715933
+      ],
+      "conditions": [
+        "付费阅读继续流失，短剧投流/AI版权成本压低毛利，现金消耗和经营准备金上升",
+        "阅读逐步稳定，IP业务扩张并承担全部费用，现金留存与回购本金联动",
+        "IP多形态兑现与海外变现，毛利和营销效率改善，仍保留股酬/资本开支/稀释"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        2.872404050073163,
+        37.90669667934874
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.1,
+        3.3,
+        3.1,
+        3.5,
+        3.5,
+        3.3
+      ],
+      "total": 65.2,
+      "evidence": [
+        "现金及正常利润重估，中报PE受历史税扰动",
+        "日放量反弹仍低120/250且各均线斜率负",
+        "阅读降7.3%，IP+40.3%但广告和研发费用上升",
+        "阅读免费替代与IP可视化需求并行",
+        "短剧/漫剧及IP游戏验证，六个月非完整复利",
+        "现金较厚但收购和内容投入需扣，历史税支付"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        3.5,
+        3.3,
+        3.4,
+        3.7,
+        3.5,
+        3.2
+      ],
+      "total": 68.9,
+      "evidence": [
+        "完整费用后盈利改善可驱动估值",
+        "周60弱，不能日反弹替代盈利",
+        "AI成本/渠道投流、免费与付费混合变现",
+        "消费广告和游戏内容需求恢复条件",
+        "年度阅读MPU稳定/IP收入及现金转化",
+        "关联收购/NCI、版权治理和资本配置"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        3.7,
+        3.3,
+        3.7,
+        3.9,
+        3.4,
+        3
+      ],
+      "total": 72.7,
+      "evidence": [
+        "正常经营PE加超额现金，增长不是总现金重复PE",
+        "量价权重低",
+        "作品矩阵和多形态开发，可实现利润需证据",
+        "IP消费空间与免费内容竞争共存",
+        "国际工具及改编商业化",
+        "人才契约、少数权利和内容资本周转"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.4,
+        3.3,
+        3.6,
+        3.7,
+        3.2,
+        2.8
+      ],
+      "total": 68.8,
+      "evidence": [
+        "终端PE21，现金留存及股本共同",
+        "技术零权重",
+        "原创供给、授权与产品开发组织",
+        "AI稀释一般内容稀缺性，优质IP价值有条件",
+        "十年IP代际更新",
+        "长期平台依赖/资本配置及稀释"
+      ],
+      "confidence": "中"
+    }
+  },
+  "nativeInput": {
+    "type": "full-fee-operating-EV-plus-excess-cash",
+    "rows": {
+      "yearEnd": {
+        "readingRevenue": [
+          3.55,
+          3.8,
+          4.05
+        ],
+        "ipRevenue": [
+          3.45,
+          4.15,
+          4.8
+        ],
+        "readingGross": [
+          0.5,
+          0.53,
+          0.555
+        ],
+        "ipGross": [
+          0.43,
+          0.5,
+          0.55
+        ],
+        "selling": [
+          2.15,
+          2.14,
+          2.3
+        ],
+        "RD": [
+          0.68,
+          0.69,
+          0.73
+        ],
+        "adminExRD": [
+          0.58,
+          0.55,
+          0.57
+        ],
+        "creditCost": [
+          0.08,
+          0.045,
+          0.025
+        ],
+        "copyrightRecovery": [
+          0.06,
+          0.1,
+          0.13
+        ],
+        "subsidy": [
+          0.055,
+          0.07,
+          0.075
+        ],
+        "ipImpairment": [
+          0.08,
+          0.05,
+          0.03
+        ],
+        "leaseInterest": [
+          0.006,
+          0.006,
+          0.006
+        ],
+        "taxRate": [
+          0.24,
+          0.18,
+          0.16
+        ],
+        "minorityProfit": [
+          0.012,
+          0.016,
+          0.023
+        ],
+        "operatingPE": [
+          15,
+          23,
+          30
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "postJuneCashDelta": [
+          -0.5,
+          -0.24,
+          -0.05
+        ],
+        "operatingReserve": [
+          2.7,
+          2,
+          1.5
+        ],
+        "DA": [
+          0.17,
+          0.17,
+          0.18
+        ],
+        "capitalCash": [
+          0.24,
+          0.19,
+          0.19
+        ],
+        "NWC": [
+          0.35,
+          0.13,
+          0.07
+        ],
+        "annualCashSharePurchase": [
+          0.02,
+          0.025,
+          0.03
+        ],
+        "cashAccumulationYears": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "futureAcquisitionCash": [
+          0.05,
+          0.03,
+          0.02
+        ],
+        "extraBuybackHKDbn": [
+          0.04,
+          0.08,
+          0.12
+        ],
+        "buybackAvgHKD": [
+          18,
+          22,
+          28
+        ],
+        "normalDilution": [
+          0.006,
+          0.007,
+          0.009
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "otherAssocNAV": [
+          0.12,
+          0.25,
+          0.42
+        ],
+        "assocRealizable": [
+          0.5,
+          0.75,
+          0.9
+        ],
+        "baseShares": [
+          1.010093517,
+          1.010093517,
+          1.010093517
+        ],
+        "pendingCancel": [
+          0.001061,
+          0.001061,
+          0.001061
+        ],
+        "cashAnchor": [
+          9.861365,
+          9.861365,
+          9.861365
+        ],
+        "completedAcquisitionCash": [
+          0.40078,
+          0.40078,
+          0.40078
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "halfYear": {
+        "readingRevenue": [
+          3.4,
+          3.85,
+          4.2
+        ],
+        "ipRevenue": [
+          3.5,
+          4.55,
+          5.5
+        ],
+        "readingGross": [
+          0.49,
+          0.535,
+          0.56
+        ],
+        "ipGross": [
+          0.42,
+          0.515,
+          0.56
+        ],
+        "selling": [
+          2.15,
+          2.2,
+          2.55
+        ],
+        "RD": [
+          0.72,
+          0.75,
+          0.83
+        ],
+        "adminExRD": [
+          0.6,
+          0.59,
+          0.62
+        ],
+        "creditCost": [
+          0.1,
+          0.05,
+          0.03
+        ],
+        "copyrightRecovery": [
+          0.055,
+          0.1,
+          0.14
+        ],
+        "subsidy": [
+          0.05,
+          0.075,
+          0.09
+        ],
+        "ipImpairment": [
+          0.09,
+          0.055,
+          0.035
+        ],
+        "leaseInterest": [
+          0.006,
+          0.006,
+          0.006
+        ],
+        "taxRate": [
+          0.25,
+          0.185,
+          0.165
+        ],
+        "minorityProfit": [
+          0.015,
+          0.025,
+          0.04
+        ],
+        "operatingPE": [
+          14,
+          23,
+          31
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "postJuneCashDelta": [
+          -0.5,
+          -0.24,
+          -0.05
+        ],
+        "operatingReserve": [
+          2.8,
+          2.05,
+          1.55
+        ],
+        "DA": [
+          0.18,
+          0.18,
+          0.2
+        ],
+        "capitalCash": [
+          0.27,
+          0.21,
+          0.22
+        ],
+        "NWC": [
+          0.38,
+          0.17,
+          0.1
+        ],
+        "annualCashSharePurchase": [
+          0.025,
+          0.03,
+          0.04
+        ],
+        "cashAccumulationYears": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "futureAcquisitionCash": [
+          0.15,
+          0.1,
+          0.08
+        ],
+        "extraBuybackHKDbn": [
+          0.12,
+          0.3,
+          0.45
+        ],
+        "buybackAvgHKD": [
+          17,
+          25,
+          32
+        ],
+        "normalDilution": [
+          0.012,
+          0.016,
+          0.022
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "otherAssocNAV": [
+          0.1,
+          0.28,
+          0.5
+        ],
+        "assocRealizable": [
+          0.45,
+          0.75,
+          0.9
+        ],
+        "baseShares": [
+          1.010093517,
+          1.010093517,
+          1.010093517
+        ],
+        "pendingCancel": [
+          0.001061,
+          0.001061,
+          0.001061
+        ],
+        "cashAnchor": [
+          9.861365,
+          9.861365,
+          9.861365
+        ],
+        "completedAcquisitionCash": [
+          0.40078,
+          0.40078,
+          0.40078
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "oneYear": {
+        "readingRevenue": [
+          3.2,
+          4,
+          4.6
+        ],
+        "ipRevenue": [
+          3.6,
+          5.2,
+          6.7
+        ],
+        "readingGross": [
+          0.48,
+          0.54,
+          0.57
+        ],
+        "ipGross": [
+          0.41,
+          0.525,
+          0.575
+        ],
+        "selling": [
+          2.12,
+          2.4,
+          3
+        ],
+        "RD": [
+          0.75,
+          0.85,
+          1
+        ],
+        "adminExRD": [
+          0.62,
+          0.66,
+          0.75
+        ],
+        "creditCost": [
+          0.11,
+          0.065,
+          0.04
+        ],
+        "copyrightRecovery": [
+          0.05,
+          0.11,
+          0.16
+        ],
+        "subsidy": [
+          0.045,
+          0.085,
+          0.11
+        ],
+        "ipImpairment": [
+          0.11,
+          0.06,
+          0.04
+        ],
+        "leaseInterest": [
+          0.007,
+          0.007,
+          0.007
+        ],
+        "taxRate": [
+          0.25,
+          0.19,
+          0.17
+        ],
+        "minorityProfit": [
+          0.018,
+          0.04,
+          0.07
+        ],
+        "operatingPE": [
+          13,
+          23,
+          31
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "postJuneCashDelta": [
+          -0.5,
+          -0.24,
+          -0.05
+        ],
+        "operatingReserve": [
+          2.9,
+          2.15,
+          1.7
+        ],
+        "DA": [
+          0.19,
+          0.2,
+          0.23
+        ],
+        "capitalCash": [
+          0.3,
+          0.24,
+          0.25
+        ],
+        "NWC": [
+          0.42,
+          0.23,
+          0.14
+        ],
+        "annualCashSharePurchase": [
+          0.03,
+          0.04,
+          0.055
+        ],
+        "cashAccumulationYears": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "futureAcquisitionCash": [
+          0.3,
+          0.2,
+          0.18
+        ],
+        "extraBuybackHKDbn": [
+          0.2,
+          0.6,
+          0.85
+        ],
+        "buybackAvgHKD": [
+          16,
+          29,
+          40
+        ],
+        "normalDilution": [
+          0.025,
+          0.03,
+          0.04
+        ],
+        "dividend": [
+          0,
+          0.1,
+          0.18
+        ],
+        "otherAssocNAV": [
+          0.08,
+          0.32,
+          0.63
+        ],
+        "assocRealizable": [
+          0.4,
+          0.75,
+          0.9
+        ],
+        "baseShares": [
+          1.010093517,
+          1.010093517,
+          1.010093517
+        ],
+        "pendingCancel": [
+          0.001061,
+          0.001061,
+          0.001061
+        ],
+        "cashAnchor": [
+          9.861365,
+          9.861365,
+          9.861365
+        ],
+        "completedAcquisitionCash": [
+          0.40078,
+          0.40078,
+          0.40078
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "threeYear": {
+        "readingRevenue": [
+          2.65,
+          4.5,
+          6
+        ],
+        "ipRevenue": [
+          3.8,
+          7.6,
+          12
+        ],
+        "readingGross": [
+          0.45,
+          0.55,
+          0.59
+        ],
+        "ipGross": [
+          0.39,
+          0.54,
+          0.6
+        ],
+        "selling": [
+          2.1,
+          3.25,
+          4.9
+        ],
+        "RD": [
+          0.9,
+          1.2,
+          1.65
+        ],
+        "adminExRD": [
+          0.7,
+          0.95,
+          1.3
+        ],
+        "creditCost": [
+          0.14,
+          0.1,
+          0.07
+        ],
+        "copyrightRecovery": [
+          0.04,
+          0.14,
+          0.23
+        ],
+        "subsidy": [
+          0.04,
+          0.11,
+          0.16
+        ],
+        "ipImpairment": [
+          0.14,
+          0.08,
+          0.06
+        ],
+        "leaseInterest": [
+          0.008,
+          0.009,
+          0.012
+        ],
+        "taxRate": [
+          0.25,
+          0.2,
+          0.18
+        ],
+        "minorityProfit": [
+          0.025,
+          0.09,
+          0.18
+        ],
+        "operatingPE": [
+          11,
+          23,
+          30
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "postJuneCashDelta": [
+          -0.5,
+          -0.24,
+          -0.05
+        ],
+        "operatingReserve": [
+          3.2,
+          2.7,
+          2.4
+        ],
+        "DA": [
+          0.22,
+          0.29,
+          0.42
+        ],
+        "capitalCash": [
+          0.42,
+          0.38,
+          0.47
+        ],
+        "NWC": [
+          0.45,
+          0.32,
+          0.28
+        ],
+        "annualCashSharePurchase": [
+          0.04,
+          0.065,
+          0.1
+        ],
+        "cashAccumulationYears": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "futureAcquisitionCash": [
+          0.9,
+          0.7,
+          1.1
+        ],
+        "extraBuybackHKDbn": [
+          0.4,
+          1.8,
+          3
+        ],
+        "buybackAvgHKD": [
+          14,
+          38,
+          62
+        ],
+        "normalDilution": [
+          0.07,
+          0.09,
+          0.14
+        ],
+        "dividend": [
+          0,
+          0.55,
+          1
+        ],
+        "otherAssocNAV": [
+          0.05,
+          0.5,
+          1.2
+        ],
+        "assocRealizable": [
+          0.3,
+          0.75,
+          0.9
+        ],
+        "baseShares": [
+          1.010093517,
+          1.010093517,
+          1.010093517
+        ],
+        "pendingCancel": [
+          0.001061,
+          0.001061,
+          0.001061
+        ],
+        "cashAnchor": [
+          9.861365,
+          9.861365,
+          9.861365
+        ],
+        "completedAcquisitionCash": [
+          0.40078,
+          0.40078,
+          0.40078
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "fiveYear": {
+        "readingRevenue": [
+          2.2,
+          5.1,
+          8
+        ],
+        "ipRevenue": [
+          4,
+          10,
+          19
+        ],
+        "readingGross": [
+          0.43,
+          0.56,
+          0.6
+        ],
+        "ipGross": [
+          0.37,
+          0.55,
+          0.61
+        ],
+        "selling": [
+          2.1,
+          4.1,
+          7
+        ],
+        "RD": [
+          1,
+          1.65,
+          2.8
+        ],
+        "adminExRD": [
+          0.8,
+          1.25,
+          1.9
+        ],
+        "creditCost": [
+          0.17,
+          0.14,
+          0.1
+        ],
+        "copyrightRecovery": [
+          0.035,
+          0.18,
+          0.3
+        ],
+        "subsidy": [
+          0.035,
+          0.13,
+          0.22
+        ],
+        "ipImpairment": [
+          0.18,
+          0.1,
+          0.09
+        ],
+        "leaseInterest": [
+          0.01,
+          0.012,
+          0.018
+        ],
+        "taxRate": [
+          0.25,
+          0.21,
+          0.19
+        ],
+        "minorityProfit": [
+          0.03,
+          0.14,
+          0.3
+        ],
+        "operatingPE": [
+          9,
+          21,
+          27
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "postJuneCashDelta": [
+          -0.5,
+          -0.24,
+          -0.05
+        ],
+        "operatingReserve": [
+          3.4,
+          3.2,
+          3.5
+        ],
+        "DA": [
+          0.25,
+          0.4,
+          0.62
+        ],
+        "capitalCash": [
+          0.52,
+          0.52,
+          0.7
+        ],
+        "NWC": [
+          0.48,
+          0.39,
+          0.38
+        ],
+        "annualCashSharePurchase": [
+          0.045,
+          0.09,
+          0.16
+        ],
+        "cashAccumulationYears": [
+          3.65,
+          3.65,
+          3.65
+        ],
+        "futureAcquisitionCash": [
+          1.4,
+          1.6,
+          2.5
+        ],
+        "extraBuybackHKDbn": [
+          0.5,
+          3,
+          5.5
+        ],
+        "buybackAvgHKD": [
+          12,
+          48,
+          86
+        ],
+        "normalDilution": [
+          0.12,
+          0.16,
+          0.25
+        ],
+        "dividend": [
+          0,
+          1.2,
+          2.5
+        ],
+        "otherAssocNAV": [
+          0.03,
+          0.75,
+          2
+        ],
+        "assocRealizable": [
+          0.25,
+          0.75,
+          0.9
+        ],
+        "baseShares": [
+          1.010093517,
+          1.010093517,
+          1.010093517
+        ],
+        "pendingCancel": [
+          0.001061,
+          0.001061,
+          0.001061
+        ],
+        "cashAnchor": [
+          9.861365,
+          9.861365,
+          9.861365
+        ],
+        "completedAcquisitionCash": [
+          0.40078,
+          0.40078,
+          0.40078
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      }
+    },
+    "capitalNote": "六月现金含历史税款已支付后的余额；扣七月完成收购，六月后净变动为研究假设，不虚构十月现金。正常利润不含存款利息/未实现投资/联营，经营PE加超额现金及其他联营NAV。现金积累由正常年率现金桥乘明确期间系数，减额外收购、回购及股息本金；股数联动。毛利与销售行政已含常态SBC和版权摊销，RD从行政分拆只扣一次。",
+    "fieldMetadata": {
+      "readingRevenue": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "ipRevenue": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "readingGross": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "ipGross": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "selling": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "RD": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "adminExRD": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "creditCost": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "copyrightRecovery": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "subsidy": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "ipImpairment": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "leaseInterest": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "taxRate": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "minorityProfit": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "baseShares": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "pendingCancel": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "extraBuybackHKDbn": {
+        "code": "00772.HK",
+        "reportPeriod": "截至各目标日累计研究假设",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "buybackAvgHKD": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "normalDilution": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "operatingPE": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "lossFundingYears": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "cashAnchor": {
+        "code": "00772.HK",
+        "reportPeriod": "2026六月锚/七月已完成事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "completedAcquisitionCash": {
+        "code": "00772.HK",
+        "reportPeriod": "2026六月锚/七月已完成事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "postJuneCashDelta": {
+        "code": "00772.HK",
+        "reportPeriod": "截至各目标日累计研究假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "operatingReserve": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "DA": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "capitalCash": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "NWC": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "annualCashSharePurchase": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "cashAccumulationYears": {
+        "code": "00772.HK",
+        "reportPeriod": "截至各目标日累计研究假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "futureAcquisitionCash": {
+        "code": "00772.HK",
+        "reportPeriod": "截至各目标日累计研究假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "dividend": {
+        "code": "00772.HK",
+        "reportPeriod": "截至各目标日累计研究假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "otherAssocNAV": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "assocRealizable": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      },
+      "FX": {
+        "code": "00772.HK",
+        "reportPeriod": "各目标日NTM正常年率或余额",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+        "type": "研究假设非公司指引",
+        "version": "20261009-yuewen-full-expense-cash-EV-v1"
+      }
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "note": "原始年报财务表为RMB'000；本锚点金额已除以1000转换成人民币百万，revenue 7,366,176千元对应7,366.176百万元。核验原文data/tech_raw/yuewen_annual.txt:137、139。",
+    "publicationDate": "2026-04-23 16:33",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042300390.pdf",
+    "revenue": 7366.176,
+    "reading": 4047.042,
+    "ip": 3319.134,
+    "gross": 3396.814,
+    "readingGross": 2075.446,
+    "ipGross": 1321.368,
+    "selling": 2010.985,
+    "admin": 1007.346,
+    "otherLoss": -1245.84,
+    "interest": 166.96,
+    "creditCost": 104.054,
+    "operating": -804.451,
+    "finance": -12.663,
+    "associate": 200.84,
+    "pretax": -616.274,
+    "tax": 160.09,
+    "groupProfit": -776.364,
+    "NCI": -0.31,
+    "ownerProfit": -776.054,
+    "SBC": 131.246,
+    "nonIFRSInvestAddback": 1389.444,
+    "acquiredAmortAddback": 19,
+    "adjustmentTax": 94.85,
+    "adjustedOwner": 858.486,
+    "DAppe": 38.117,
+    "DAlease": 63.605,
+    "DAintangible": 101.218,
+    "EBITDA": 477.369,
+    "acquisitionExpense": 5.417,
+    "adjustedEBITDA": 614.032,
+    "netCash": 9436,
+    "OCF": -276.514
+  },
+  "interim": {
+    "period": "H1 2026",
+    "publicationDate": "2026-09-16 16:30",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600256.pdf",
+    "revenue": 3531.388,
+    "reading": 1840.019,
+    "ip": 1691.369,
+    "readingCost": 874.909,
+    "ipCost": 864.386,
+    "gross": 1792.093,
+    "readingGross": 965.11,
+    "ipGross": 826.983,
+    "selling": 1011.398,
+    "admin": 559.988,
+    "RDWithinAdmin": 299.612,
+    "creditCost": 6.22,
+    "interest": 81.306,
+    "otherGains": -24.996,
+    "operating": 270.797,
+    "finance": 0.529,
+    "fxGain": 3.625,
+    "leaseInterest": 3.096,
+    "associate": 88.778,
+    "pretax": 360.104,
+    "tax": 224.94,
+    "currentTax": 245.236,
+    "deferredTaxCredit": 20.296,
+    "groupProfit": 135.164,
+    "NCI": -0.212,
+    "ownerProfit": 135.376,
+    "SBC": 78.946,
+    "investmentAddback": 7.234,
+    "acquiredAmortAddback": 10.193,
+    "adjustmentTax": 27.089,
+    "adjustedOwner": 258.838,
+    "copyrightRecovery": 79.377,
+    "subsidy": 41.356,
+    "fvGain": 14.695,
+    "jvDilutedGain": 1.856,
+    "jvDisposalGain": 0.201,
+    "ipImpairment": 27.722,
+    "totalLateSurcharge": 134.669,
+    "otherNet": -0.09,
+    "specificHistoricalTax": 166.22,
+    "specificHistoricalSurcharge": 133.81,
+    "totalHistoricalTaxPaid": 300.03,
+    "OCF": 289.373,
+    "PPEcash": 17.826,
+    "intangibleCash": 25.775,
+    "leasePrincipal": 41.366,
+    "leaseCashInterest": 3.096,
+    "companyFCF": 204.406,
+    "afterAllLeaseFCF": 201.31,
+    "DAppe": 18.446,
+    "DAlease": 29.308,
+    "DAintangible": 40.318,
+    "EBITDA": 302.559,
+    "acquisitionExpense": 2.709,
+    "adjustedEBITDA": 384.214,
+    "cashEquivalents": 2617.427,
+    "termNonCurrent": 2212.245,
+    "termCurrent": 3002.839,
+    "financialFVPLCurrent": 2028.854,
+    "structuredCashProxy": 2028.854,
+    "netCash": 9861.365,
+    "borrowings": 0,
+    "ownerEquity": 17470.81,
+    "NCIEquity": 3.225,
+    "totalEquity": 17474.035,
+    "totalAssets": 21309.16,
+    "totalLiabilities": 3835.125,
+    "currentAssets": 11896.882,
+    "currentLiabilities": 3575.626,
+    "leaseCurrent": 57.744,
+    "leaseNonCurrent": 98.797,
+    "receivables": 1550.012,
+    "prepaymentsCurrent": 1561.933,
+    "inventories": 615.247,
+    "filmRights": 520.57,
+    "filmOpening": 649.443,
+    "filmAdditions": 304.387,
+    "filmCosts": 433.26,
+    "filmInProgress": 519.11,
+    "filmCompleted": 1.46,
+    "shortDramaAIRevenueLowerBound": 430,
+    "merchandiseGMV": 780,
+    "MAUm": 134.1,
+    "MPUm": 8.2,
+    "ARPURMB": 32.7,
+    "selfMAUm": 103.5,
+    "tencentMAUm": 30.6,
+    "aiTranslatedWorksLowerBound": 30000,
+    "translatedRevenueFraction": 0.4
+  },
+  "capital": {
+    "period": "2026-10-09",
+    "publicationDate": "2026-10-09 17:07",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1009/2026100900442.pdf",
+    "issuedShares": 1010093517,
+    "treasury": 0,
+    "knownPendingCancel": 1061000,
+    "SeptMonthShares": 1014293517,
+    "Oct8Cancelled": 4200000,
+    "Oct9Repurchased": 61000,
+    "Oct9CashHKD": 1215490,
+    "optionsOutstandingSept": 9451288,
+    "newSharesPotentialSept": 6986380,
+    "acquisitionCashCNYm": 400.78,
+    "acquisitionCompleted": "2026-07-31",
+    "YHKTGroupFraction": 0.597
+  }
+}

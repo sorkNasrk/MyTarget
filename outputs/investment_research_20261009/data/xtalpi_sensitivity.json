@@ -1,0 +1,97 @@
+{
+  "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "baseOneYearHKD": 0.6273243681385106,
+  "rows": [
+    {
+      "label": "2027全部CB转股",
+      "oneYearIntrinsicHKD": 0.6592397213557174,
+      "threeYearIntrinsicHKD": 0.8424876751725932,
+      "minimumCashCNYbn": 3.7615375081363633,
+      "fundingFailure": false
+    },
+    {
+      "label": "临床时间全部延两年",
+      "oneYearIntrinsicHKD": 0.62386438264956,
+      "threeYearIntrinsicHKD": 0.7972791024796377,
+      "minimumCashCNYbn": 1.2646876954063413,
+      "fundingFailure": false
+    },
+    {
+      "label": "2027起新交易收入减半",
+      "oneYearIntrinsicHKD": 0.35986864492060083,
+      "threeYearIntrinsicHKD": 0.45990083456010933,
+      "minimumCashCNYbn": 0.2642484689512301,
+      "fundingFailure": false
+    },
+    {
+      "label": "2027起新交易收入增加50%",
+      "oneYearIntrinsicHKD": 0.8242390109507948,
+      "threeYearIntrinsicHKD": 1.0533515891524943,
+      "minimumCashCNYbn": 1.2695644077351087,
+      "fundingFailure": false
+    },
+    {
+      "label": "取消全部基金出资",
+      "oneYearIntrinsicHKD": 0.6427565138663681,
+      "threeYearIntrinsicHKD": 0.8214226532887006,
+      "minimumCashCNYbn": 1.4272527638994918,
+      "fundingFailure": false
+    },
+    {
+      "label": "平台研发2027起减20%",
+      "oneYearIntrinsicHKD": 0.7689652574075241,
+      "threeYearIntrinsicHKD": 0.9827134667636195,
+      "minimumCashCNYbn": 1.2753726269131906,
+      "fundingFailure": false
+    },
+    {
+      "label": "未分配临床2027起增30%",
+      "oneYearIntrinsicHKD": 0.5864253768490453,
+      "threeYearIntrinsicHKD": 0.7494332280035314,
+      "minimumCashCNYbn": 1,
+      "fundingFailure": false
+    },
+    {
+      "label": "未分配临床2027起增100%",
+      "oneYearIntrinsicHKD": 0.43268473360084936,
+      "threeYearIntrinsicHKD": 0.5529575107282647,
+      "minimumCashCNYbn": 0.2101269778890891,
+      "fundingFailure": false
+    },
+    {
+      "label": "零值项目人工输入成功率仍不产生收益",
+      "oneYearIntrinsicHKD": 0.6273243681385102,
+      "threeYearIntrinsicHKD": 0.801700855350842,
+      "minimumCashCNYbn": 1.2646876954063413,
+      "fundingFailure": false
+    },
+    {
+      "label": "折现率增加两百分点",
+      "oneYearIntrinsicHKD": 0.46985994521032015,
+      "threeYearIntrinsicHKD": 0.6219844948238542,
+      "minimumCashCNYbn": 1.2646876954063413,
+      "fundingFailure": false
+    },
+    {
+      "label": "2028额外股权融资150mCNY以30HKD",
+      "oneYearIntrinsicHKD": 0.6298887909549666,
+      "threeYearIntrinsicHKD": 0.8049781072317708,
+      "minimumCashCNYbn": 1.2646876954063413,
+      "fundingFailure": false
+    },
+    {
+      "label": "已授option全部不行权",
+      "oneYearIntrinsicHKD": 0.6268055099165991,
+      "threeYearIntrinsicHKD": 0.8010377708264097,
+      "minimumCashCNYbn": 1.119435321214765,
+      "fundingFailure": false
+    },
+    {
+      "label": "所有已签近端2027收入减半",
+      "oneYearIntrinsicHKD": 0.6251231142799621,
+      "threeYearIntrinsicHKD": 0.7988877220008992,
+      "minimumCashCNYbn": 1.2582493392419578,
+      "fundingFailure": false
+    }
+  ]
+}

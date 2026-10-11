@@ -1,0 +1,762 @@
+{
+  "issuerId": "I018",
+  "securityId": "S020",
+  "name": "美迪西",
+  "code": "688202.SH",
+  "currency": "CNY",
+  "price": 104,
+  "priceCNY": 104,
+  "asOf": "2026-10-09",
+  "modelVersion": "medicilon-normalized-pe-v1.0",
+  "status": "独立初版，原中报/年报/诉讼/募资/激励核验，情景为研究假设；完整三表、监管与司法原件缺",
+  "method": "目标时点未来12个月持续归母稀释EPS×PE；研发、信用损失、股份支付及扩建运营成本进入盈利，不额外叠加客户药物rNPV或全部现金资产",
+  "shares": {
+    "issued": 134352184,
+    "sourceDate": "2026-08-25",
+    "marketLatestShares": 134352184,
+    "secondTypeAward": 1000000,
+    "awardSource": "2025/9/15首次80万+预留20万，来源回购库存非新增发行",
+    "ESOPTransferredShares": 1371948,
+    "ESOPTransferDate": "2025-10-24",
+    "ESOPSubscriptionMillion": 23.9404926,
+    "ESOPSource": "回购库存，12个月锁定；不是公司新发行融资",
+    "note": "主模型短期总股固定；三年2%、五年5%增股仅未宣布未来融资/激励压力假设，不归因于此次回购来源计划；模型不重复从发行股本剔除已转库存"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "publicationDate": "2026-08-25",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498030.PDF",
+    "revenue": 761.47415585,
+    "cost": 520.87030663,
+    "pretax": 53.61938188,
+    "attributableProfit": 51.6024355,
+    "deductedProfit": 43.02681095,
+    "netProfitWithoutSharePaymentCompanyMeasure": 66.14215914,
+    "sharePaymentExpense": 16.96313513,
+    "sharePaymentAfterTaxCompanyBridge": 14.53972364,
+    "OCF": 134.79529953,
+    "capex": 108.01967511,
+    "FCF": 26.77562442,
+    "cashBank": 288.52843295,
+    "cashCashEquivalents": 228.55258845,
+    "restrictedAssetNote": 59.9758445,
+    "restrictedCashFlowNote": 59.9750445,
+    "restrictedNoteDifferenceCNY": 800,
+    "restrictedCashExcludesGuaranteeAssetNote": 59.4758445,
+    "restrictedCashLitigationNote": 59.4750445,
+    "guaranteeDeposit": 0.5,
+    "financialCurrent": 192.84574829,
+    "financialCurrentType": "理财产品，不全部作自由现金",
+    "debtInvestmentsCurrent": 43.06341046,
+    "debtInvestmentsNoncurrent": 88.14548883,
+    "financialNoncurrent": 98.64479758,
+    "bankDebtIncludingDiscountedBillsAndInterest": 156.72448206,
+    "bankCreditPrincipal": 141.64,
+    "discountedBillsLiability": 15,
+    "bankAccruedInterest": 0.08448206,
+    "leaseDebtIncludingCurrent": 65.98434322,
+    "totalLiabilities": 878.1704832,
+    "parentEquity": 2002.72817024,
+    "assets": 2880.89865344,
+    "receivables": 445.78673385,
+    "receivablesGross": 688.23505604,
+    "receivablesAllowance": 242.44832219,
+    "contractAssets": 36.63492728,
+    "inventory": 208.13060742,
+    "prepayments": 154.30285788,
+    "contractLiability": 187.41857956,
+    "payableBills": 150.96666,
+    "payableAccounts": 154.09716349,
+    "CIP": 103.74271349,
+    "fixedAssets": 649.33177216,
+    "intangibles": 264.72224359,
+    "RDTotal": 53.73674966,
+    "RDExpensed": 53.73674966,
+    "RDCapitalized": 0,
+    "selling": 45.5815439,
+    "admin": 59.48347357,
+    "financeCost": 11.08961883,
+    "interestExpense": 3.13673789,
+    "taxExpense": 2.01694638,
+    "creditLoss": 25.55695047,
+    "assetImpairmentGain": 0.44245813,
+    "depreciation": 42.61860821,
+    "ROUAmortization": 7.50015164,
+    "intangibleAmortization": 4.62789211,
+    "longDeferredAmortization": 11.73010702,
+    "inventoryCashIncrease": 96.1598192,
+    "operatingReceivableCashIncrease": 155.37258318,
+    "operatingPayableCashIncrease": 242.60241414,
+    "newOrdersMillionCompanyRounded": 1233,
+    "newOrderGrowthPct": 104.74,
+    "employees": 2780,
+    "employeeYOYGrowthPct": 22.52,
+    "dualCNUSStudyRevenueRounded": 167,
+    "dualCNUSSharePct": 21.87,
+    "clientINDSuccessesH1": 39,
+    "grossMarginPct": 31.597112964579154
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenueMillion": 1365.63088393,
+      "attributableMillion": -33.2106031,
+      "deductedMillion": -57.61613566,
+      "OCF": 33.31857917,
+      "dilutedEPS": -0.26
+    },
+    {
+      "period": "FY2024",
+      "revenueMillion": 1037.74573063,
+      "attributableMillion": -330.84582197,
+      "deductedMillion": -347.71316825,
+      "OCF": -22.74759587,
+      "capex": 110.391513,
+      "FCF": -133.13910887,
+      "dilutedEPS": -2.47
+    },
+    {
+      "period": "FY2025",
+      "revenueMillion": 1163.06246378,
+      "attributableMillion": -167.82822144,
+      "deductedMillion": -181.15691756,
+      "OCF": 105.17442403,
+      "capex": 69.03393954,
+      "FCF": 36.14048449,
+      "dilutedEPS": -1.27
+    }
+  ],
+  "segments": [
+    {
+      "name": "药物发现和药学",
+      "revenueMillion": 347.18860826,
+      "costMillion": 272.26440145,
+      "growthPct": 29.42,
+      "grossMarginPct": 21.58026070771636
+    },
+    {
+      "name": "临床前研究",
+      "revenueMillion": 414.24306417,
+      "costMillion": 248.60590518,
+      "growthPct": 52.26,
+      "grossMarginPct": 39.98549965389998
+    },
+    {
+      "name": "境内",
+      "revenueMillion": 413.50396951,
+      "costMillion": 289.76427245,
+      "grossMarginPct": 29.92466969703601
+    },
+    {
+      "name": "境外",
+      "revenueMillion": 347.97018634,
+      "costMillion": 231.10603418,
+      "grossMarginPct": 33.5845301544922
+    }
+  ],
+  "customerConcentration": {
+    "period": "FY2025",
+    "topFivePct": 21.58,
+    "largestPct": 5.18,
+    "topFiveMillion": 251.0809,
+    "sourcePage": 64,
+    "note": "脱敏客户名称，不推断真实药物或与坏账附注客户序号相同"
+  },
+  "supplierConcentration": {
+    "period": "FY2025",
+    "topFivePct": 48.43,
+    "topFiveMillion": 172.3332
+  },
+  "litigation": {
+    "announcementDate": "2026-09-19",
+    "originalClaimMillion": 158.5337892,
+    "firstInstanceCompensationMillion": 0.150552,
+    "courtAcceptanceFeesMillion": 0.003311,
+    "preservationFeesMillion": 0.005,
+    "finalJudgment": false,
+    "appealWindow": "判决书送达15日，公告未给精确送达及后续上诉结果",
+    "counterclaimWithdrawn": true,
+    "claimAddedToValuation": 0,
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-09-19/1225572796.PDF",
+    "note": "一审驳回其他本诉请求；保留另诉权不当确定收入，冻结现金解除未验证"
+  },
+  "capitalProjects": {
+    "sourceDate": "2026-08-25",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498013.PDF",
+    "northShanghaiTerminated": true,
+    "terminationApproval": "2025-08董事会/9-15股东会",
+    "oldPlannedTotalInvestmentMillion": 1570,
+    "remainingReallocatedMillion": 289.9,
+    "expansionPlannedRaisedFundMillion": 217,
+    "expansionSpentMillion": 120.9577,
+    "expansionProgressPct": 55.74,
+    "expansionExpectedUse": "2027-01",
+    "overseasCenterRaisedFundMillion": 40,
+    "overseasExpectedUse": "2027-08",
+    "pendingPurposeMillion": 49.9,
+    "raisedNetMillion": 985.29067459,
+    "raisedFundDedicatedCashMillion": 2.1443,
+    "raisedTemporaryWorkingCapitalMillion": 54,
+    "raisedCashManagementMillion": 140.5,
+    "cashManagementAuthorizationAug7Million": 180,
+    "misuseBeforeCorrectionMillion": 1,
+    "repaidWithInterestMillion": 1.0092,
+    "note": "建设日期和授权额不是已投产/已购理财或新增融资；临时补流至4/21后不超过12月需归还，集团内部归还不等于新增资金"
+  },
+  "incentive": {
+    "grantDate": "2025-09-15",
+    "announcementDate": "2025-09-16",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2025-09-16/1224661934.PDF",
+    "secondTypeShares": 1000000,
+    "grantPriceCNY": 31.37,
+    "source": "回购库存",
+    "vesting": [
+      0.5,
+      0.5
+    ],
+    "vestingStartMonths": [
+      12,
+      24
+    ],
+    "grantForecastCostsMillion": {
+      "2025": 9.4342,
+      "2026": 31.4658,
+      "2027": 9.4902
+    },
+    "grantForecastTotalMillion": 50.3902,
+    "H1ActualAllPlansMillion": 16.96313513,
+    "note": "原授予预测仅第二类，与两类计划合并实际费用不同；收入考核非盈利承诺，后续新激励费研究设定"
+  },
+  "reduction": {
+    "planPublicationDate": "2026-08-15",
+    "shareholder": "陈建煌，非控制人",
+    "maximumShares": 2257396,
+    "start": "2026-09-07",
+    "end": "2026-12-04",
+    "latestPublicationDate": "2026-09-22",
+    "actualUntil": "2026-09-18",
+    "actualSoldShares": 991366,
+    "actualSoldPct": 0.74,
+    "remainingHoldingShares": 8038220,
+    "remainingHoldingPct": 5.98,
+    "theoreticalRemainingMaximumAfterLastReport": 1266030,
+    "note": "理论余量非10/9实时余额，不假设必卖完"
+  },
+  "relatedPurchase": {
+    "sourceDate": "2026-08-25",
+    "annualMaximumMillion": 10,
+    "incrementMillion": 5,
+    "actualJanJulMillion": 1.3743,
+    "relation": "参股23%普莱全资普鑫，繁育销售实验猴，股东家属关系见原公告",
+    "note": "授权上限不是实际购买或确定公允证明"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026各市场最后交易日",
+      "epsCNY": [
+        0.5,
+        1.2,
+        2
+      ],
+      "PE": [
+        25,
+        50,
+        60
+      ],
+      "priceCNY": [
+        12.5,
+        60,
+        120
+      ],
+      "revenueCNYMillion": [
+        1400,
+        1750,
+        1950
+      ],
+      "sharesMillion": [
+        134.352184,
+        134.352184,
+        134.352184
+      ],
+      "attributableProfitCNYMillion": [
+        67.176092,
+        161.2226208,
+        268.704368
+      ],
+      "attributableMarginPct": [
+        4.798292285714286,
+        9.212721188571427,
+        13.77971117948718
+      ],
+      "annualSharePaymentExpenseMillion": [
+        34,
+        34,
+        34
+      ],
+      "sharePaymentBasis": "目标未来12月全部计划研究近似，非原授予跨年精确桥",
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+        "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+        "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+      ],
+      "priceReturnPct": [
+        -87.98076923076923,
+        -42.307692307692314,
+        15.384615384615374
+      ],
+      "totalReturnPct": [
+        -87.98076923076923,
+        -42.307692307692314,
+        15.384615384615374
+      ],
+      "earningsBasis": "目标未来12月持续归母，包含正常坏账/研发/激励/税与扩建运行成本",
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceCNY": 63.125,
+      "expectedReturnPct": -39.30288461538461,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 47,
+        "positivePrice": 79.25
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        0.7,
+        1.6,
+        2.8
+      ],
+      "PE": [
+        25,
+        45,
+        55
+      ],
+      "priceCNY": [
+        17.5,
+        72,
+        154
+      ],
+      "revenueCNYMillion": [
+        1450,
+        1950,
+        2250
+      ],
+      "sharesMillion": [
+        134.352184,
+        134.352184,
+        134.352184
+      ],
+      "attributableProfitCNYMillion": [
+        94.04652879999999,
+        214.9634944,
+        376.18611519999996
+      ],
+      "attributableMarginPct": [
+        6.4859675034482756,
+        11.023768943589744,
+        16.719382897777777
+      ],
+      "annualSharePaymentExpenseMillion": [
+        15,
+        15,
+        15
+      ],
+      "sharePaymentBasis": "目标未来12月全部计划研究近似，非原授予跨年精确桥",
+      "cumulativeCashDividendCNY": [
+        0,
+        0,
+        0
+      ],
+      "conditions": [
+        "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+        "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+        "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+      ],
+      "priceReturnPct": [
+        -83.17307692307692,
+        -30.76923076923077,
+        48.07692307692308
+      ],
+      "totalReturnPct": [
+        -83.17307692307692,
+        -30.76923076923077,
+        48.07692307692308
+      ],
+      "earningsBasis": "目标未来12月持续归母，包含正常坏账/研发/激励/税与扩建运行成本"
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.9,
+        2.1,
+        3.5
+      ],
+      "PE": [
+        25,
+        38,
+        48
+      ],
+      "priceCNY": [
+        22.5,
+        79.8,
+        168
+      ],
+      "revenueCNYMillion": [
+        1600,
+        2200,
+        2600
+      ],
+      "sharesMillion": [
+        134.352184,
+        134.352184,
+        134.352184
+      ],
+      "attributableProfitCNYMillion": [
+        120.9169656,
+        282.1395864,
+        470.232644
+      ],
+      "attributableMarginPct": [
+        7.55731035,
+        12.824526654545453,
+        18.08587092307692
+      ],
+      "annualSharePaymentExpenseMillion": [
+        15,
+        15,
+        15
+      ],
+      "sharePaymentBasis": "目标未来12月全部计划研究近似，非原授予跨年精确桥",
+      "cumulativeCashDividendCNY": [
+        0,
+        0.1,
+        0.2
+      ],
+      "conditions": [
+        "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+        "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+        "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+      ],
+      "priceReturnPct": [
+        -78.36538461538461,
+        -23.269230769230774,
+        61.53846153846154
+      ],
+      "totalReturnPct": [
+        -78.36538461538461,
+        -23.17307692307693,
+        61.73076923076921
+      ],
+      "earningsBasis": "目标未来12月持续归母，包含正常坏账/研发/激励/税与扩建运行成本"
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.4,
+        4,
+        6.8
+      ],
+      "PE": [
+        23,
+        32,
+        42
+      ],
+      "priceCNY": [
+        32.199999999999996,
+        128,
+        285.59999999999997
+      ],
+      "revenueCNYMillion": [
+        2000,
+        3400,
+        4900
+      ],
+      "sharesMillion": [
+        137.03922768,
+        137.03922768,
+        137.03922768
+      ],
+      "attributableProfitCNYMillion": [
+        191.854918752,
+        548.15691072,
+        931.866748224
+      ],
+      "attributableMarginPct": [
+        9.5927459376,
+        16.12226208,
+        19.017688739265306
+      ],
+      "annualSharePaymentExpenseMillion": [
+        18,
+        18,
+        18
+      ],
+      "sharePaymentBasis": "目标未来12月全部计划研究近似，非原授予跨年精确桥",
+      "cumulativeCashDividendCNY": [
+        0.1,
+        0.8,
+        1.5
+      ],
+      "conditions": [
+        "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+        "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+        "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+      ],
+      "priceReturnPct": [
+        -69.03846153846153,
+        23.076923076923084,
+        174.61538461538458
+      ],
+      "totalReturnPct": [
+        -68.9423076923077,
+        23.84615384615385,
+        176.0576923076923
+      ],
+      "earningsBasis": "目标未来12月持续归母，包含正常坏账/研发/激励/税与扩建运行成本",
+      "baseAnnualizedTotalReturnPct": 7.389257897671331
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        1.7,
+        5.5,
+        9
+      ],
+      "PE": [
+        20,
+        28,
+        35
+      ],
+      "priceCNY": [
+        34,
+        154,
+        315
+      ],
+      "revenueCNYMillion": [
+        2500,
+        4600,
+        6600
+      ],
+      "sharesMillion": [
+        141.06979320000002,
+        141.06979320000002,
+        141.06979320000002
+      ],
+      "attributableProfitCNYMillion": [
+        239.81864844000003,
+        775.8838626000002,
+        1269.6281388000002
+      ],
+      "attributableMarginPct": [
+        9.592745937600002,
+        16.86704049130435,
+        19.236789981818184
+      ],
+      "annualSharePaymentExpenseMillion": [
+        25,
+        25,
+        25
+      ],
+      "sharePaymentBasis": "目标未来12月全部计划研究近似，非原授予跨年精确桥",
+      "cumulativeCashDividendCNY": [
+        0.3,
+        2,
+        3.5
+      ],
+      "conditions": [
+        "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+        "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+        "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+      ],
+      "priceReturnPct": [
+        -67.3076923076923,
+        48.07692307692308,
+        202.8846153846154
+      ],
+      "totalReturnPct": [
+        -67.01923076923077,
+        50,
+        206.25
+      ],
+      "earningsBasis": "目标未来12月持续归母，包含正常坏账/研发/激励/税与扩建运行成本",
+      "baseAnnualizedTotalReturnPct": 8.447177119769854
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        1.8,
+        3.6,
+        3.7,
+        4,
+        3.5,
+        2.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 62.099999999999994
+    },
+    "oneYear": {
+      "dimensions": [
+        2.1,
+        3.6,
+        3.9,
+        4,
+        3.7,
+        2.7
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 65.6
+    },
+    "threeYear": {
+      "dimensions": [
+        2.8,
+        3.6,
+        4.1,
+        4,
+        3.8,
+        3
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 72.1
+    },
+    "fiveYear": {
+      "dimensions": [
+        3,
+        3.6,
+        4.1,
+        4,
+        3.6,
+        3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 73.39999999999999
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scenarioConditions": [
+    "订单反复或低价、坏账与人员成本拖累，恢复EPS受压，PE收缩",
+    "订单交付及临床前结构提高效率，研发/坏账/股份支付/税与扩建成本均扣，海外投入逐步改善",
+    "海外高质量合同和新分子服务放量，客户回款改善、扩建利用率兑现，盈利增长支持较高倍数"
+  ],
+  "assumptions": [
+    "EPS为目标日未来12个月归母能力，不是报告实际或年底2026年度EPS；收入/净利/PE为独立研究假设",
+    "主模型不双加全部货币资金和金融资产；冻结资金是公司资产但非可即时支付，不当司法赔偿盈利",
+    "第二类100万和员工持股1371948由回购库存转出不新增已发行股本；三年2%和五年5%仅未来额外股本压力设定",
+    "所有情景净利扣正常研发、信用损失、激励、扩建折旧人员、利息及税；税率恢复不能套H1低税负为长期",
+    "H1现金流有经营应付242.6024m支持，同时存货/应收占用，简单FCF不能全部视作稳定股息能力",
+    "北上海1570m计划已终止，不继续列其未来产能；当前扩建及海外项目预计日期非已经投产",
+    "一审赔偿.150552m并驳其他请求，仍可上诉；反诉撤回不加确定赔偿价值，未假设冻结已全解除",
+    "年底25/50/25为判断权重，敏感40/50/10和10/50/40，非统计概率与最大损失"
+  ],
+  "brokerTargets": [],
+  "brokerTargetStatus": "公开可核验外资有效目标报告未取得，留空，不以国内券商或无日期转载替代",
+  "confidence": {
+    "fundamentals": "高：原财报/资本项目/激励/诉讼公告；司法全文与监管证件缺",
+    "technical": "高：锁版728日日线双源；行业RS缺，周线尾周短",
+    "valuation": "中低：盈利复苏、税和扩建效率/PE假设；完整分部DCF、三表未完",
+    "institutionTargets": "缺失"
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "104元对应H1法定简单年化135.38倍、扣非约162.38倍；TTM仍亏，短期价格已先行，三年基准128需恢复537m以上归母",
+    "technicalRelativeStrength": "价格上日20/60/120/250且斜率正，RS超宽基14.83/46.27pp；MACD柱负，均量低于60日，ATR7.13%波动大",
+    "growthBusinessQuality": "H1收入40.91%及临床前52.26%、GM31.60，订单104.74%；坏账25.56m和人员扩张使盈利不能简单倍增",
+    "industryCycle": "创新药早期研发和双报支持需求，融资/医保与NAMs替代部分实验服务会改变价格结构",
+    "catalysts": "扩建预计2027/1、海外中心2027/8与客户项目转换；一审降低诉请现实压力，尚非终审",
+    "financialGovernanceDownside": "冻结现金、应收大额准备、募资误用已纠正、关联猴采购与减持，海外主体亏损和扩建继续用现金"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498030.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-04-23/1225150908.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-19/1225572796.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574214.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-15/1225474771.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498013.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498029.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498022.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463431.PDF",
+    "https://static.cninfo.com.cn/finalpage/2025-09-16/1224661934.PDF"
+  ],
+  "deepResearchFile": "research/medicilon_deep.md",
+  "limitations": [
+    "完整DCF/三表营运资本与股数融资联动未完成",
+    "无公开有效外资目标、细分行业相对强弱及历史PE分位",
+    "原中报冻结货币资金附注存在800元差异，保留原文未擅自改值",
+    "一审判决全文/最终上诉及冻结解除时间未独立核验",
+    "质量复查/AAALAC原证及客户IND全文未独立核验，不能当临床疗效",
+    "最终Word/PDF父代理统一制作验证"
+  ],
+  "valuationChecks": {
+    "marketCapMillion": 13972.627136,
+    "PB": 6.976796623540562,
+    "reportTTMProfitMillion": -103.32742972999999,
+    "reportTTMPE": null,
+    "H1AnnualizedEPS": 0.7681666790024047,
+    "H1AnnualizedDeductEPS": 0.6405078007514936,
+    "note": "TTM负不适用PE；H1简单年化非预测、已考虑全部发行股而非报告加权股数",
+    "H1AnnualizedPE": 135.38728357114073,
+    "H1AnnualizedDeductPE": 162.3711684353869
+  },
+  "effectiveHanzi": 13063,
+  "qaFile": "qa/medicilon_qa.json",
+  "qaStatus": "有效汉字、完全重复段落、评分/情景/回报公式通过；原件冻结附注800元差异和司法/完整三表缺口保留"
+}

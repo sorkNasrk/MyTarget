@@ -1,0 +1,1097 @@
+{
+  "issuerId": "I092",
+  "securityId": "S103",
+  "code": "00981.HK",
+  "name": "中芯国际",
+  "asOf": "2026-10-09",
+  "price": 57.65,
+  "currency": "HKD",
+  "modelVersion": "smic-normalized-IFRS-owner-share-v1.0",
+  "status": "独立研究初版；高资本开支、归母比例与政策不确定性较大",
+  "method": "目标时点NTM收入×含折旧及正常研发SBC的EBIT率+净金融联营经常贡献→×85%税后→×归母利润比例→除目标全公司摊薄股数；USD EPS保留4位×PE×7.8，价格保留2位；无额外现金或净资产加值",
+  "fx": {
+    "HKDperUSD": 7.8,
+    "status": "研究汇率假设，非已核截止日即期",
+    "sensitivityPct": [
+      -1,
+      0,
+      1
+    ],
+    "CNYFXNote": "人民币经营与资产影响在经营敏感性中另讨论；不得把USD EPS套1.10人民币汇率"
+  },
+  "anchor": {
+    "period": "FY2025 IFRS",
+    "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+    "revenueUSDmillion": 9326.799,
+    "revenue2024USDmillion": 8029.921,
+    "revenue2023USDmillion": 6321.56,
+    "profitAttributableUSDmillion": 685.131,
+    "profitAttributable2024USDmillion": 492.748,
+    "profitAttributable2023USDmillion": 902.526,
+    "profitAttributableExNonRecurringUSDmillion": 575.556,
+    "OCFUSDmillion": 3194.303,
+    "OCF2024USDmillion": 3175.555,
+    "grossMargin": 0.21,
+    "ownerEquityUSDmillion": 21439.67,
+    "sharesAt2025End": 8000408035,
+    "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+    "currency": "USD",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenue2024USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenue2023USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributable2024USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributable2023USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableExNonRecurringUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCF2024USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "grossMargin": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "ownerEquityUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "sharesAt2025End": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "shares",
+        "period": "FY2025 IFRS",
+        "publicationDate": "2026-03-26财表批准；官网年报09 Apr 2026",
+        "status": "reported input; field suffix retains original scale"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1 and Q2 IFRS",
+    "q2PublicationDate": "2026-08-13",
+    "interimPublicationDate": "2026-09-04官网日期",
+    "revenueH1USDmillion": 5511.075,
+    "profitAttributableH1USDmillion": 676.645,
+    "profitAttributableExNonRecurringH1USDmillion": 433.383,
+    "profitAttributableH1CASUSDmillion": 649.453,
+    "GAAPDifferenceNote": "IFRS与中国准则被动稀释联营收益确认不同，不混两套利润",
+    "nonRecurringH1USDmillion": 243.262,
+    "nonRecurringAssociatesFVPLH1USDmillion": 218.993,
+    "revenueQ2USDmillion": 3005.588,
+    "grossMarginQ2": 0.253,
+    "operatingProfitQ2USDmillion": 534.179,
+    "otherOperatingIncomeQ2USDmillion": 112.612,
+    "normalEBITExOtherOperatingIncomeQ2ResearchUSDmillion": 421.567,
+    "normalEBITMarginExOtherOperatingIncomeQ2Research": 0.1402610737,
+    "otherIncomeNetQ2USDmillion": 275.907,
+    "associatesJointVentureGainQ2USDmillion": 193.824,
+    "profitQ2USDmillion": 733.219,
+    "profitAttributableQ2USDmillion": 479.197,
+    "minorityProfitQ2USDmillion": 254.022,
+    "monthlyCapacity8inchEquivalentQ2": 1096500,
+    "waferShipments8inchEquivalentQ2": 2869495,
+    "utilizationQ2": 0.937,
+    "revenueChinaShareQ2": 0.902,
+    "waferRevenueShareQ2": 0.946,
+    "waferRevenue12inchShareQ2": 0.782,
+    "industrialAutoWaferRevenueShareQ2": 0.165,
+    "consumerElectronicsWaferRevenueShareQ2": 0.442,
+    "totalDAQ2USDmillion": 1211.721,
+    "costOfSalesDAQ2USDmillion": 924.796,
+    "capexQ2USDmillionRounded": 1835.7,
+    "capexQ1USDmillionRounded": 1562.8,
+    "cashPPEAndIntangibleH1USDmillion": 2859.39,
+    "OCFH1USDmillion": 3207.101,
+    "OCFQ2USDmillion": 2522.116,
+    "FCFResearchProxyH1USDmillion": 347.711,
+    "FCFResearchProxyQ2USDmillion": 975.509,
+    "capexCaution": "capex与现金PPE无形支出时点定义不同，FCF代理未扣联营投资957.586m及全部资本部署",
+    "cashEquivalentsUSDmillion": 8216.015,
+    "totalCashOnHandUSDmillion": 13856.615,
+    "totalDebtUSDmillion": 14018.957,
+    "netDebtUSDmillion": 162.342,
+    "ownerEquityUSDmillion": 25149.484,
+    "minorityEquityUSDmillion": 12707.904,
+    "totalEquityUSDmillion": 37857.388,
+    "sharesAtJune30": 8560805995,
+    "weightedDilutedQ2million": 8068,
+    "weightedDilutedCaution": "期中增发不能用旧Q2加权分母永久预测",
+    "SMNCAcquisitionDate": "2026-06-12",
+    "SMNCStakeAcquired": 0.49,
+    "SMNCStakeAfter": 1,
+    "acquisitionIssuedShares": 547182073,
+    "considerationSharesUSDmillion": 5961.167,
+    "minorityCarryingValueAcquiredUSDmillion": 2986.876,
+    "reserveReductionUSDmillion": 2974.291,
+    "lockupReleaseDate": "2027-06-23",
+    "Q3GuidanceRevenueQoQ": [
+      0.02,
+      0.04
+    ],
+    "Q3GuidanceGrossMargin": [
+      0.26,
+      0.28
+    ],
+    "guidanceCaution": "公司预测非实现；大和新闻22%-24%与主源冲突，主源优先",
+    "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+    "currency": "USD",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableExNonRecurringH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableH1CASUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonRecurringH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonRecurringAssociatesFVPLH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenueQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "grossMarginQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "operatingProfitQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "otherOperatingIncomeQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "normalEBITExOtherOperatingIncomeQ2ResearchUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "research calculation from cited inputs"
+      },
+      "normalEBITMarginExOtherOperatingIncomeQ2Research": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "research calculation from cited inputs"
+      },
+      "otherIncomeNetQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "associatesJointVentureGainQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "profitAttributableQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "minorityProfitQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "monthlyCapacity8inchEquivalentQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "physical units as field name",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "waferShipments8inchEquivalentQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "physical units as field name",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "utilizationQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenueChinaShareQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "waferRevenueShareQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "waferRevenue12inchShareQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "industrialAutoWaferRevenueShareQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "consumerElectronicsWaferRevenueShareQ2": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "totalDAQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "costOfSalesDAQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "capexQ2USDmillionRounded": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "capexQ1USDmillionRounded": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashPPEAndIntangibleH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "FCFResearchProxyH1USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "research calculation from cited inputs"
+      },
+      "FCFResearchProxyQ2USDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "research calculation from cited inputs"
+      },
+      "cashEquivalentsUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "totalCashOnHandUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "totalDebtUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "netDebtUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "ownerEquityUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "minorityEquityUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "totalEquityUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "sharesAtJune30": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "shares",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "weightedDilutedQ2million": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "number as field name",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "SMNCStakeAcquired": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "SMNCStakeAfter": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "acquisitionIssuedShares": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "shares",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "considerationSharesUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "minorityCarryingValueAcquiredUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "reserveReductionUSDmillion": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+        "currency": "USD",
+        "unit": "USDmillion",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "Q3GuidanceRevenueQoQ": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "number as field name",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "Q3GuidanceGrossMargin": {
+        "sourceURL": "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+        "currency": "USD",
+        "unit": "ratio",
+        "period": "2026H1 and Q2 IFRS",
+        "publicationDate": "2026-08-13",
+        "status": "reported input; field suffix retains original scale"
+      }
+    }
+  },
+  "valuationCrossCheck": {
+    "ownerBookValueUSDperShare": 2.9377472185,
+    "ownerBookValueHKDperShare": 22.9144283044,
+    "currentPBResearch": 2.5158820999,
+    "FY2025PEUsing2025EndSharesResearch": 86.3064449359,
+    "H1ExNonRecurringAnnualizedPEUsingJuneEndSharesResearch": 72.9990985074,
+    "cautions": [
+      "年化半年度不是正式正常预测",
+      "净资产只用归母权益，不能总权益除上市股数",
+      "PB只是交叉，单套主模型用PE，不平均两模型",
+      "账面资产不等于清算价值，回报需高于资本成本"
+    ]
+  },
+  "operatingBridge": {
+    "unit": "USD billion; diluted shares billion; NTM at target date",
+    "effectiveTaxRate": 0.15,
+    "epsRoundingDecimals": 4,
+    "normalization": "EBIT含折旧、研发及SBC正常成本，剔不稳定政府资金、公允投资和被动稀释收益；净金融联营经常贡献单列。归母比例反映合资厂利润差异，SMNC收购不代表全部子公司100%归母",
+    "yearEnd": {
+      "revenue": [
+        12,
+        12.5,
+        13
+      ],
+      "EBITMargin": [
+        0.1,
+        0.16,
+        0.21
+      ],
+      "netFinancialAssociates": [
+        -0.15,
+        0,
+        0.05
+      ],
+      "ownerProfitShare": [
+        0.65,
+        0.75,
+        0.8
+      ],
+      "dilutedShares": [
+        8.8,
+        8.65,
+        8.6
+      ]
+    },
+    "halfYear": {
+      "revenue": [
+        12,
+        13.5,
+        14.5
+      ],
+      "EBITMargin": [
+        0.09,
+        0.175,
+        0.235
+      ],
+      "netFinancialAssociates": [
+        -0.15,
+        0,
+        0.05
+      ],
+      "ownerProfitShare": [
+        0.65,
+        0.76,
+        0.82
+      ],
+      "dilutedShares": [
+        8.85,
+        8.7,
+        8.6
+      ]
+    },
+    "oneYear": {
+      "revenue": [
+        12.5,
+        14.5,
+        16
+      ],
+      "EBITMargin": [
+        0.09,
+        0.19,
+        0.25
+      ],
+      "netFinancialAssociates": [
+        -0.18,
+        0,
+        0.05
+      ],
+      "ownerProfitShare": [
+        0.65,
+        0.77,
+        0.83
+      ],
+      "dilutedShares": [
+        8.95,
+        8.75,
+        8.65
+      ]
+    },
+    "threeYear": {
+      "revenue": [
+        13,
+        18.5,
+        23
+      ],
+      "EBITMargin": [
+        0.075,
+        0.23,
+        0.3
+      ],
+      "netFinancialAssociates": [
+        -0.25,
+        0,
+        0.1
+      ],
+      "ownerProfitShare": [
+        0.65,
+        0.8,
+        0.85
+      ],
+      "dilutedShares": [
+        9.3,
+        8.9,
+        8.75
+      ]
+    },
+    "fiveYear": {
+      "revenue": [
+        14,
+        23,
+        32
+      ],
+      "EBITMargin": [
+        0.065,
+        0.25,
+        0.32
+      ],
+      "netFinancialAssociates": [
+        -0.3,
+        0,
+        0.1
+      ],
+      "ownerProfitShare": [
+        0.65,
+        0.82,
+        0.87
+      ],
+      "dilutedShares": [
+        9.7,
+        9.05,
+        8.8
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsUSD": [
+        0.0659,
+        0.1474,
+        0.2198
+      ],
+      "PE": [
+        35,
+        55,
+        70
+      ],
+      "priceHKD": [
+        17.99,
+        63.23,
+        120.01
+      ],
+      "priceReturnPct": [
+        -68.7944492628,
+        9.6790980052,
+        108.169991327
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -68.7944492628,
+        9.6790980052,
+        108.169991327
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 66.115,
+      "expectedReturnPct": 14.6834345186,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 50.812,
+        "defensiveReturnPct": -11.8612315698,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 81.418,
+        "positiveReturnPct": 41.2281006071
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsUSD": [
+        0.0581,
+        0.1754,
+        0.2802
+      ],
+      "PE": [
+        32,
+        55,
+        70
+      ],
+      "priceHKD": [
+        14.5,
+        75.25,
+        152.99
+      ],
+      "priceReturnPct": [
+        -74.8482220295,
+        30.5290546401,
+        165.3772766696
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -74.8482220295,
+        30.5290546401,
+        165.3772766696
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsUSD": [
+        0.0583,
+        0.2061,
+        0.3303
+      ],
+      "PE": [
+        30,
+        52,
+        68
+      ],
+      "priceHKD": [
+        13.64,
+        83.59,
+        175.19
+      ],
+      "priceReturnPct": [
+        -76.3399826539,
+        44.9956634866,
+        203.8855160451
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -76.3399826539,
+        44.9956634866,
+        203.8855160451
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsUSD": [
+        0.0431,
+        0.3251,
+        0.578
+      ],
+      "PE": [
+        25,
+        45,
+        60
+      ],
+      "priceHKD": [
+        8.4,
+        114.11,
+        270.5
+      ],
+      "priceReturnPct": [
+        -85.4293148309,
+        97.935819601,
+        369.2107545533
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -85.4293148309,
+        97.935819601,
+        369.2107545533
+      ],
+      "baseAnnualizedTotalReturnPct": 25.5571544565
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsUSD": [
+        0.0347,
+        0.4428,
+        0.8689
+      ],
+      "PE": [
+        20,
+        38,
+        52
+      ],
+      "priceHKD": [
+        5.41,
+        131.25,
+        352.43
+      ],
+      "priceReturnPct": [
+        -90.6157849089,
+        127.6669557676,
+        511.3269731136
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -90.6157849089,
+        127.6669557676,
+        511.3269731136
+      ],
+      "baseAnnualizedTotalReturnPct": 17.8853942026
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.8,
+        1.6,
+        3.6,
+        4.2,
+        3.8,
+        2.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 55.8
+    },
+    "oneYear": {
+      "dimensions": [
+        3.1,
+        1.6,
+        3.8,
+        4.3,
+        4,
+        2.7
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 65.6
+    },
+    "threeYear": {
+      "dimensions": [
+        3.4,
+        1.6,
+        4.1,
+        4.5,
+        3.9,
+        2.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 74.2
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.3,
+        1.6,
+        4.2,
+        4.5,
+        3.8,
+        2.3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 75.5
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "价格57.65约2.52倍归母净资产、H1扣非年化PE73；主模型一年52倍需成长实现，不能称传统低估值。极端悲观非资产底",
+    "technicalRelativeStrength": "低于20/60/120/250日线，60日跌23.34%，落后恒指20.15pp、恒科10.17pp；反弹1.5%量比1.623但20日上下量比0.545，周线压力",
+    "growthBusinessQuality": "Q2收入+36.1%、利用率93.7%、毛利25.3%，技术平台和规模有价值；投资收益及少数股东、折旧限制每股利润兑现",
+    "industryCycle": "国产替代、AI配套及工业车用成长；消费者组件昂贵、终端疲弱、成熟制程扩产与政策风险并存",
+    "catalysts": "Q3指引与随后季度、价格和新产能认证、收购归母贡献是窗口，指引不当实际",
+    "financialGovernanceDownside": "总债14.019bn接近广义现金13.857bn，H1资本开支3.399bn、联营注资0.958bn；子公司少数注資、SBC、资产收购稀释与政策需持续观察"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（官方季度PDF、半年报告与年报；少数股数和非经常项直接核）",
+    "technical": "高（锁版双源，换手率未核）",
+    "valuation": "中低（USD正常EBIT、税、归母比例、股份和高PE均研究假设）",
+    "brokerTargets": "中（公开新闻转述，有一条财务冲突，原研报缺失）"
+  },
+  "assumptions": [
+    "只推荐名单内00981.HK；688981不新增到96证券总范围",
+    "财报USD，港股HKD，研究USD/HKD7.8，不套人民币1.10",
+    "归母盈利而非集团盈利，全公司A与H总股数为分母",
+    "期末85.608亿股含SMNC收购增发，不能继续使用Q2加权80.68亿",
+    "正常EBIT含研发SBC和折旧，剔不稳定政府资金及投资变化",
+    "税15%为研究正常假设，实际地区与优惠变化需重算",
+    "收购SMNC49%使该厂100%，其他合资厂仍有少数股东",
+    "净金融联营经常贡献为零或有限正负，资本价值不再加全现金或净资产",
+    "资本开支与现金PPE不同口径；自由现金研究代理不包括联营注资和全部支出",
+    "PB只交叉参考，不与PE取平均造新价格",
+    "EPS四位，港价两位；分红暂零",
+    "高PE依赖持续成长和战略溢价，研究并未认定历史均值",
+    "年底权重为判断非统计概率，区间非最大损失",
+    "长期悲观盈利价不是清算价值，资产退出和资本返还需要独立一致桥",
+    "政策、良率、客户份额和先进节点细节缺失不补造"
+  ],
+  "sources": [
+    "https://smic.cdn.shwebspace.com/uploads/6a7d7c4f/ER_EN.pdf",
+    "https://smic.cdn.shwebspace.com/uploads/6a9a8a01/AR_EN.pdf",
+    "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+    "https://www.smics.com/en/site/company_financialSummary",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00981/AAFN/NOW.1538751/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00981/AAFN/NOW.1538713/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00981/AAFN/NOW.1538613/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00981/AAFN/NOW.1538600/research-report"
+  ],
+  "deepResearchFile": "research/smic_deep.md",
+  "effectiveHanzi": 10663,
+  "wordCountBasis": "第一至三十四节独立正文汉字；标题、结论卡、表格、来源与长引文不计",
+  "marketSnapshot": "data/market_snapshot_locked.json"
+}

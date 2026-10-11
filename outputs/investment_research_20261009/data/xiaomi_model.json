@@ -1,0 +1,939 @@
+{
+  "issuerId": "I087",
+  "securityId": "S098",
+  "code": "01810.HK",
+  "name": "小米集团-W",
+  "asOf": "2026-10-09",
+  "price": 25.96,
+  "currency": "HKD",
+  "modelVersion": "xiaomi-normalized-two-segment-v1.0",
+  "status": "独立研究初版；汽车AI利润、现金流与组件周期须持续复核",
+  "method": "目标时点NTM手机AIoT正常EBIT与汽车AI新业务正常EBIT合计×80%+税后其他经常贡献→除目标摊薄股数→EPS保留3位×PE×HKDperCNY；不另加全额现金或投资市值；现金分红暂为零",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非截止日已核即期汇率",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-04-28年报官网文件日期",
+    "revenueCNYmillion": 457286.687,
+    "adjustedGroupNetProfitCNYmillion": 39166.303,
+    "revenue2024CNYmillion": 365906.35,
+    "adjustedGroupNetProfit2024CNYmillion": 27234.531,
+    "revenue2023CNYmillion": 270970.141,
+    "adjustedGroupNetProfit2023CNYmillion": 19272.754,
+    "smartphoneAIoTRevenueCNYbillionRounded": 351.2,
+    "newBusinessRevenueCNYbillionRounded": 106.1,
+    "newBusinessIncomeFromOperationsCNYbillionRounded": 0.9,
+    "OCFCNYmillion": 34142.377,
+    "cashPurchasePPELandIntangibleCNYmillion": 12769.155,
+    "FCFResearchProxyCNYmillion": 21373.222,
+    "cashFlowCaution": "OCF减财表购买PPE土地无形资产仅研究代理，未扣融资行递延无形资产款2499.913百万元、租赁及全部投资，不冒称公司FCF",
+    "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedGroupNetProfitCNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedGroupNetProfit2024CNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedGroupNetProfit2023CNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "smartphoneAIoTRevenueCNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessRevenueCNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessIncomeFromOperationsCNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashPurchasePPELandIntangibleCNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-28年报官网文件日期",
+        "status": "research calculation from cited inputs"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1 and Q2",
+    "publicationDate": "2026-08-18",
+    "revenueH1CNYmillion": 208063.2,
+    "adjustedGroupNetProfitH1CNYmillion": 12291.208,
+    "gaapProfitAttributableH1CNYmillion": 14185.525,
+    "revenueQ2CNYmillion": 108921.6,
+    "adjustedGroupNetProfitQ2CNYmillion": 6219.073,
+    "smartphoneRevenueQ2CNYbillionRounded": 42.1,
+    "smartphoneShipmentsQ2million": 31.2,
+    "smartphoneASPQ2CNY": 1351,
+    "smartphoneGrossMarginQ2": 0.085,
+    "IoTRevenueQ2CNYbillionRounded": 31.3,
+    "IoTGrossMarginQ2": 0.201,
+    "internetRevenueQ2CNYbillionRounded": 9,
+    "internetGrossMarginQ2": 0.768,
+    "newBusinessRevenueQ2CNYbillionRounded": 24.9,
+    "EVRevenueQ2CNYbillionRounded": 23.9,
+    "newBusinessGrossMarginQ2": 0.192,
+    "newBusinessOperatingLossQ2CNYbillionRounded": 2.6,
+    "EVDeliveriesQ2": 104199,
+    "RDCNYbillionQ2Rounded": 9.2,
+    "newBusinessOperatingExpensesQ2CNYbillionRounded": 7.4,
+    "OCFH1CNYmillion": 2050.234,
+    "OCFQ1CNYmillionRounded": -1792,
+    "OCFQ2CNYmillionRounded": 3842.2,
+    "managementAdjustedOCFQ1CNYbillionRounded": -5.2,
+    "managementAdjustedOCFQ2CNYbillionRounded": 11.2,
+    "adjustedOCFCaution": "未经审计或审阅的管理补充指标，剔除金融保理等营运项目，不替代正式OCF",
+    "cashEquivalentsCNYmillion": 37252.369,
+    "cashResourcesCNYbillionRounded": 219.3,
+    "interestBearingBorrowingsCNYmillion": 39276.762,
+    "currentBorrowingsCNYmillion": 29570.36,
+    "noncurrentBorrowingsCNYmillion": 9706.402,
+    "netBroadResourcesResearchCNYbillion": 180.023238,
+    "capexQ1CNYmillionRounded": 3274.1,
+    "capexQ2CNYmillionRounded": 3620.5,
+    "cashPurchasePPEQ2CNYbillionRounded": 1.5,
+    "capexCaution": "管理capex与现金购买PPE定义及时差不同，不混算FCF",
+    "dilutedSharesH1billion": 26.451879,
+    "dilutedSharesQ2billion": 26.508777,
+    "potentialConvertibleSharesQ2million": 168.31,
+    "EPSCaution": "公司调整利润为集团净利；用调整集团利润除GAAP摊薄股数为研究近似，非公司披露调整EPS，法定归母及可转债利息须另桥接",
+    "repurchaseThroughDate": "2026-08-13",
+    "repurchaseSharesThroughDate": 377465400,
+    "repurchaseHKDThroughDate": 11665522937,
+    "repurchaseCaution": "包含七八月，非全部H1；回购可与配售、授予和可转债并存",
+    "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueH1CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedGroupNetProfitH1CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "gaapProfitAttributableH1CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenueQ2CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedGroupNetProfitQ2CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "smartphoneRevenueQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "smartphoneShipmentsQ2million": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "physical units as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "smartphoneASPQ2CNY": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "smartphoneGrossMarginQ2": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "IoTRevenueQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "IoTGrossMarginQ2": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "internetRevenueQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "internetGrossMarginQ2": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessRevenueQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "EVRevenueQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessGrossMarginQ2": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessOperatingLossQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "EVDeliveriesQ2": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "physical units as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "RDCNYbillionQ2Rounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "newBusinessOperatingExpensesQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFH1CNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFQ1CNYmillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "OCFQ2CNYmillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "managementAdjustedOCFQ1CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "managementAdjustedOCFQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashEquivalentsCNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashResourcesCNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "interestBearingBorrowingsCNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "currentBorrowingsCNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "noncurrentBorrowingsCNYmillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "netBroadResourcesResearchCNYbillion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "research calculation from cited inputs"
+      },
+      "capexQ1CNYmillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "capexQ2CNYmillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashPurchasePPEQ2CNYbillionRounded": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "CNYbillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "dilutedSharesH1billion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "billion shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "dilutedSharesQ2billion": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "billion shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "potentialConvertibleSharesQ2million": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "million shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "repurchaseSharesThroughDate": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "CNY",
+        "unit": "shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "repurchaseHKDThroughDate": {
+        "sourceURL": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+        "currency": "HKD",
+        "unit": "HKD",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-08-18",
+        "status": "reported input; field suffix retains original scale"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; diluted shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "epsRoundingDecimals": 3,
+    "normalization": "两分部含正常研发、销售、行政及股份报酬经济成本，剔非经常投资公允变化和不确定补贴；税后其他为有限经常金融贡献，不另加全部净现金。分部EBIT是研究预测，非公司分部指引",
+    "yearEnd": {
+      "smartphoneAIoTEBIT": [
+        22,
+        34,
+        44
+      ],
+      "newBusinessEBIT": [
+        -12,
+        -6,
+        4
+      ],
+      "afterTaxOther": [
+        2,
+        3,
+        4
+      ],
+      "dilutedShares": [
+        27.5,
+        26.5,
+        26
+      ]
+    },
+    "halfYear": {
+      "smartphoneAIoTEBIT": [
+        23,
+        36,
+        47
+      ],
+      "newBusinessEBIT": [
+        -12,
+        -2,
+        7
+      ],
+      "afterTaxOther": [
+        2,
+        3,
+        4
+      ],
+      "dilutedShares": [
+        27.5,
+        26.3,
+        25.8
+      ]
+    },
+    "oneYear": {
+      "smartphoneAIoTEBIT": [
+        24,
+        38,
+        52
+      ],
+      "newBusinessEBIT": [
+        -12,
+        4,
+        16
+      ],
+      "afterTaxOther": [
+        2,
+        3,
+        4
+      ],
+      "dilutedShares": [
+        28,
+        26,
+        25.5
+      ]
+    },
+    "threeYear": {
+      "smartphoneAIoTEBIT": [
+        25,
+        46,
+        70
+      ],
+      "newBusinessEBIT": [
+        -13,
+        18,
+        42
+      ],
+      "afterTaxOther": [
+        2,
+        3,
+        4
+      ],
+      "dilutedShares": [
+        29,
+        25.8,
+        25
+      ]
+    },
+    "fiveYear": {
+      "smartphoneAIoTEBIT": [
+        27,
+        56,
+        92
+      ],
+      "newBusinessEBIT": [
+        -15,
+        32,
+        70
+      ],
+      "afterTaxOther": [
+        1.5,
+        3,
+        4
+      ],
+      "dilutedShares": [
+        30,
+        25.5,
+        24.5
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        0.364,
+        0.958,
+        1.631
+      ],
+      "PE": [
+        18,
+        26,
+        32
+      ],
+      "priceHKD": [
+        7.21,
+        27.4,
+        57.41
+      ],
+      "priceReturnPct": [
+        -72.2265023112,
+        5.5469953775,
+        121.1479198767
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -72.2265023112,
+        5.5469953775,
+        121.1479198767
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 29.855,
+      "expectedReturnPct": 15.0038520801,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 22.325,
+        "defensiveReturnPct": -14.0023112481,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 37.385,
+        "positiveReturnPct": 44.0100154083
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        0.393,
+        1.148,
+        1.829
+      ],
+      "PE": [
+        18,
+        26,
+        32
+      ],
+      "priceHKD": [
+        7.78,
+        32.83,
+        64.38
+      ],
+      "priceReturnPct": [
+        -70.030816641,
+        26.4637904468,
+        147.9969183359
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -70.030816641,
+        26.4637904468,
+        147.9969183359
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        0.414,
+        1.408,
+        2.29
+      ],
+      "PE": [
+        16,
+        25,
+        32
+      ],
+      "priceHKD": [
+        7.29,
+        38.72,
+        80.61
+      ],
+      "priceReturnPct": [
+        -71.9183359014,
+        49.1525423729,
+        210.5161787365
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -71.9183359014,
+        49.1525423729,
+        210.5161787365
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        0.4,
+        2.101,
+        3.744
+      ],
+      "PE": [
+        14,
+        24,
+        32
+      ],
+      "priceHKD": [
+        6.16,
+        55.47,
+        131.79
+      ],
+      "priceReturnPct": [
+        -76.2711864407,
+        113.6748844376,
+        407.6656394453
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -76.2711864407,
+        113.6748844376,
+        407.6656394453
+      ],
+      "baseAnnualizedTotalReturnPct": 28.8005821423
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        0.37,
+        2.878,
+        5.453
+      ],
+      "PE": [
+        12,
+        22,
+        30
+      ],
+      "priceHKD": [
+        4.88,
+        69.65,
+        179.95
+      ],
+      "priceReturnPct": [
+        -81.2018489985,
+        168.2973805855,
+        593.1818181818
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -81.2018489985,
+        168.2973805855,
+        593.1818181818
+      ],
+      "baseAnnualizedTotalReturnPct": 21.8213159381
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.1,
+        2.6,
+        3.2,
+        3.8,
+        3.8,
+        3
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 61.9
+    },
+    "oneYear": {
+      "dimensions": [
+        3.5,
+        2.6,
+        3.7,
+        4,
+        4,
+        3
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 69.8
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        2.6,
+        4,
+        4.2,
+        3.8,
+        2.8
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 76.8
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.9,
+        2.6,
+        4.1,
+        4.2,
+        3.7,
+        2.7
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 77
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "H1调整利润下降42.8%，当前PE须正常化；基准一年38.72有空间，但利润修复、汽车盈亏和长期倍数假设敏感，极端悲观低价非资产底或损失上限",
+    "technicalRelativeStrength": "10/9放量9.72%上涨且量比2.441，但仍在60/120/250日线下方，均线下降，上下量比0.849；60日落后恒指2.412pp、领先恒科7.568pp",
+    "growthBusinessQuality": "用户、设备互联、互联网现金与汽车品牌形成机会，2026H1收入下降8.4%、新业务Q2经营亏损2.6bn制约确认度",
+    "industryCycle": "端侧AI、智能家居及新能源车需求有空间，元件涨价、补贴退坡、价格竞争及海外政策压利润",
+    "catalysts": "季度毛利与现金、交付结构、汽车研发与MiMo商业化是窗口；公司产品计划不冒充订单及盈利兑现",
+    "financialGovernanceDownside": "广义资源219.3bn含受限投资，有息借款39.277bn；H1正式OCF2.050bn、库存与预付增长、配售可转债和SBC需监控"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（官网季度财表与年报，调整EPS研究近似独立标明）",
+    "technical": "高（锁版双报价及双日线，换手率缺失）",
+    "valuation": "中低（正常EBIT、税、股数、FX和PE均研究假设）",
+    "brokerTargets": "中（公开新闻转述，目标期限缺失null）"
+  },
+  "assumptions": [
+    "自然年财报；股价HKD、经营CNY，汇率1.10为研究假设",
+    "目标盈利为目标时点未来12个月正常盈利，不是截至目标日累积利润",
+    "两分部覆盖全业务，手机互联网不得再单独追加市值",
+    "分部正常EBIT含研发与股份报酬经济成本，非公司预测或机械季度年化",
+    "税后其他贡献不含非经常公允价值涨幅，不额外加广义现金",
+    "H1调整集团利润除摊薄股是近似，非官方调整归母EPS",
+    "FY2025新业务全年经营盈利0.9bn不证明2026Q2新业务盈利，实际Q2亏损2.6bn",
+    "资本开支、现金购买PPE和递延无形资产支付按不同定义，未混算",
+    "2025配售800m股53.25HKD，2026回购截至8/13含七八月；股数三情景显式变化",
+    "潜在可转债及多类股份表决权风险，反摊薄当期不代表未来无稀释",
+    "现金分红暂零，不保证公司永不分红；无再投资",
+    "相对恒科是粗粒度参考，汽车专属基准未核，换手率为空",
+    "252交易日高与52周高窗口不相同，不混用第三方52周高",
+    "EPS保留3位，价格保留2位；期望权重非概率，情景区间非最大损失",
+    "严重悲观情景基于盈利估值而非清算资产价值，现金部署、项目退出及资本回报可能改变结果"
+  ],
+  "sources": [
+    "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+    "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01810/AAFN/NOW.1547181/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/01810/AAFN/NOW.1547472/research-report"
+  ],
+  "deepResearchFile": "research/xiaomi_deep.md",
+  "effectiveHanzi": 11438,
+  "wordCountBasis": "第一至三十四节独立正文汉字；标题、结论卡、表格、长引文和来源不计",
+  "marketSnapshot": "data/market_snapshot_locked.json"
+}

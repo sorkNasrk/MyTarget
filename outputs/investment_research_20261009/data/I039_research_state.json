@@ -1,0 +1,29 @@
+{
+  "issuerId": "I039",
+  "securityId": "S046",
+  "code": "09688.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "zai-v2-actualTradingTarget-netTaxRewards",
+  "modelFile": "data/zai_model.json",
+  "deepFile": "research/I039_deep.md",
+  "effectiveChineseCharacters": 16821,
+  "exactDuplicates": 0,
+  "independentQA": {"file": "data/I039_independent_qa.json", "passed": true, "checks": 10552},
+  "adapterQA": {"file": "qa/zai_adapter_qa.json", "passed": true, "checks": 2242, "atoms": 733, "signaturesPerCase": 256},
+  "visualQA": {"sheets": 8, "additionalDetailRenders": 2, "passed": true, "location": "qa/zai_bridge"},
+  "peerEconomicReview": {"reviewer": "/root/market_data", "passed": true, "scope": "available cash excludes restricted; release exactly100m once; residual1.118m terminal; SBC18% net-tax budget plus separate employee shares"},
+  "revisionAudit": {"actualOneYearTarget": "2027-10-07", "cashDiscountRecomputed": true, "SBCBoundary": "equity rewards cash addback with separate dilution; no100%cash substitute plus same shares"},
+  "parentRequired": ["release registry and persistent input manifest integration", "three scenario snapshot refresh and numeric QA", "same-source Word/PDF export and per-page visual QA"],
+  "notes": [
+    "607.522m free cash plus10m short investments=617.522m available; restricted101.118m excluded initially",
+    "Only100m restricted released once after bank cleared and earliest2028; residual1.118m terminal recovery",
+    "Full research cash including development licensing; approved license payments within capital budget; intangible payable not deducted twice",
+    "SBC cash addback followed by18% net tax settlement budget from H1actual4.472/25.465; employee economic shares separate; no100%cash substitute plus same dilution",
+    "Future600mUSD base gross financing conditional, HKDissue prices20/24/26; bear funding failure pressure0 not market inevitability",
+    "2032 distributions after bank cleared,200m reserve60% payout;2041 financial net recovery; no separate targetcash/issuePV; per distribution fully diluted shares",
+    "First ESMO Zoci1L dataOct26 unavailable cutoff; SAD healthyPKPD not AD clinical response; Bema failures omitted from growth assets",
+    "Scores58.9/61/64/65.9; base returns negative first3horizons,5year only+5.10%; medium evidence confidence",
+    "Foreign targets older than90days and secondary news; Citi47USD ADS divided by10ordinary and FX7.8 assumption"
+  ]
+}

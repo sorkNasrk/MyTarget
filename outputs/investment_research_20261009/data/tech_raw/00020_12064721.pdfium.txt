@@ -1,0 +1,2427 @@
+
+[PDF PAGE 1]
+1
+Hong Kong Exchanges and Clearing Limited, The Stock Exchange of Hong Kong Limited and Hong Kong Securities 
+Clearing Company Limited take no responsibility for the contents of this announcement, make no representation as to 
+its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in 
+reliance upon the whole or any part of the contents of this announcement.
+(A company controlled through weighted voting rights and incorporated in the Cayman Islands with limited liability)
+(Stock Codes: 0020 (HKD Counter) and 80020 (RMB Counter))
+ ANNUAL RESULTS ANNOUNCEMENT
+FOR THE YEAR ENDED DECEMBER 31, 2025
+The Board is pleased to announce the consolidated financial results of the Group for the year ended 
+December 31, 2025. The consolidated financial statements for the year ended December 31, 2025 
+have been audited by the Auditor in accordance with the International Standards on Auditing, and 
+reviewed by the Audit Committee.
+KEY HIGHLIGHTS
+Financial Summary
+Year ended December 31,
+2025 2024
+Year-over￾Amount year change
+As a 
+percentage 
+of revenue Amount
+As a 
+percentage 
+of revenue
+(RMB in thousands, except for percentages)
+Revenue 5,014,640 100.0 3,772,101 100.0 32.9%
+Gross Profit 2,056,424 41.0 1,619,697 42.9 27.0%
+Loss for the year (1,782,002) (35.5) (4,306,584) (114.2) -58.6%
+EBITDA (471,298) (9.4) (3,143,053) (83.3) -85.0%
+Non-IFRS Measures:
+Adjusted EBITDA (645,442) (12.9) (3,116,992) (82.6) -79.3%
+Adjusted net loss (1,956,146) (39.0) (4,280,523) (113.5) -54.3%
+
+[PDF PAGE 2]
+2
+BUSINESS REVIEW AND OUTLOOK
+OVERALL PERFORMANCE
+We firmly believe that the native multimodal large models, and in particular cross-modal 
+knowledge fusion, represent a highly efficient path to breaking through the current upper limit of 
+intelligence. SenseTime is committed to developing a new generation of SenseNova multimodal 
+large models under an innovative architecture, with the aim of breaking down barriers between 
+understanding and generation to deeply empower Agentic AI applications. In 2025, through the 
+synergistic “three-in-one” strategy of “computing infrastructure – large model R&D – large model 
+applications”, we achieved full resonance and deliverables between fundamental technological 
+innovation and commercial closed-loop.
+In terms of original innovation,
+• In 2025, SenseTime continuously rolled out industry-leading multimodal large models, 
+a technical roadmap we adhered to for many years. We deeply integrated multimodality 
+with advanced reasoning and Agent capabilities, and pioneered interleaved image-text 
+chain-of-thought, which has propelled our multimodal models to top rankings in authoritative 
+benchmark evaluations repeatedly.
+• We recognized that the prevailing multimodal model architectures have obvious limitations in 
+further breaking the upper limit of intelligence. In response, SenseTime unveiled and open￾sourced the NEO SenseNova architecture, our next-generation native multimodal architecture, 
+in the fourth quarter of 2025. Evolving beyond the mainstream “encoder-connector-LLM 
+hub” splicing architecture, we achieved the fundamental unification of “left-brain (logical 
+intelligence) + right-brain (spatial intelligence)”, equipping it with complex analytical 
+and decision-making capabilities to understand the physical world. NEO also delivers 
+extraordinary learning efficiency, achieving state-of-the-art performance with only one tenth 
+of the data and computing power required by comparable models, redefining efficiency 
+frontiers and marks the arrival of the new era for multimodal “native architecture”.
+• In the fourth quarter, we released a series of achievements on multimodality. In November, 
+we released and open-sourced the SenseNova-SI Spatial Intelligence Model. In a 
+comprehensive evaluation integrating several internationally authoritative spatial intelligence 
+metrics, the SenseNova-SI-1.3 series demonstrated outstanding performance and ranked first 
+globally among peer models (as of Feb 2026). Its overall performance outperformed Gemini￾3-Pro and Cambrican-S across multiple authoritative benchmark tests. It also tops the ranking 
+in HuggingFace in terms of download volume. In December, we jointly released and open￾sourced the world model Kairos-SenseNova with ecosystem enterprises, becoming the first 
+open-source embodied native world model to achieve integrated “multimodal understanding – 
+generation – prediction”.
+• We are expected to launch a new foundational model based on the second-generation NEO 
+architecture in Q2 this year, pioneering the validation of a new “Scaling Law” for unified 
+understanding and generation in native multimodal architecture, with expectations to deliver 
+a further exponential leap in efficiency and cost-effectiveness to broadly empower Agentic 
+AI applications.
+
+[PDF PAGE 3]
+3
+In terms of the commercial closed loop,
+• Revenue Hits Record High, Maintaining Leadership Scale: For the full year of 2025, the 
+Group’s total revenue increased by 32.9% year-on-year, reaching RMB5,014.6 million, being 
+the fastest growth in three years.
+• Established the Trend of Consistently Significant Narrowing Losses: Net loss of the Group 
+narrowed by 58.6% year-on-year to RMB1,782.0 million, and adjusted net loss narrowed by 
+54.3% year-on-year to RMB1,956.1 million, achieving four consecutive half-year periods of 
+EBITDA accelerating loss reduction; EBITDA in the second half of 2025 was RMB376.4 
+million, turning positive for the first time since listing.
+• Enhanced Capital Efficiency, Robust Cash Flow: Trade receivables collection increased 
+by 5.4% year-on-year to RMB4,870.9 million, hitting a record high; cash conversion cycle 
+(CCC) significantly improved from 228 days as at the end of 2024 to 129 days as at the end 
+of 2025; and the Group’s operating cash flow achieved a positive net inflow for the first time 
+since its listing in the second half of 2025.
+Through organizational restructuring and ecosystem synergy under the “1+X” strategy, we are 
+moving forward with a leaner, more agile posture. Backed by our generational leadership in 
+integrated multimodality and Spatial Intelligence, we are securing pivotal strategic position in the 
+Agent-Native and Physical AI eras.
+BUSINESS SEGMENT PERFORMANCE
+Generative AI
+Large Model R&D: We have established a leading position with cutting-edge technologies in 
+multi-modal large model for our proprietary architecture
+In 2025, SenseTime continued to invest in R&D of cutting-edge technologies, comprehensively 
+establishing its leading position in the domestic multimodal large model sector. The SenseNova 
+series of large models continuously raised the ceiling for multimodal reasoning, with the 
+SenseNova-SI Spatial Intelligence Model being the first to break down boundaries between 
+the virtual and the real, ultimately culminating in the release of the new NEO architecture, 
+which fundamentally reshaped the underlying logic of native multimodality. Collectively, these 
+breakthroughs not only redefined model inference efficiency and training paradigms, but also 
+marked SenseTime’s entry into a new era in its pursuit of multimodal integration.
+
+[PDF PAGE 4]
+4
+1. SenseNova Multimodal Large Model Series
+In April 2025, the SenseNova V6 became China’s first native multimodal general-purpose 
+model integrating language and vision, topping both SuperCLUE (language) and 
+OpenCompass (multimodal) benchmarks with one single model.
+SenseNova V6.5 launched in July 2025, achieving early fusion at the encoder level, 
+reducing the visual encoder to 1B parameters and improving cost-performance by three-fold. 
+Meanwhile, it spearheaded commercial-grade interleaved text-image reasoning in China and 
+integrated imagistic thinking into the large model reasoning process. SenseNova V6.5 secured 
+its leading position in China in SuperCLUE Benchmark in December 2025, and achieved the 
+highest score nationwide in visual reasoning, and took the lead in seven sub-tasks including 
+scientific reasoning, logical reasoning and code design.
+Building on such foundation, we further launched an agent that combines visual reasoning 
+with deep search, and open-sourced SenseNova-MARS in Jan 2026. It outperformed 
+Gemini-3-Pro and GPT-5.2 in multimodal searching and reasoning benchmarks, becoming the 
+first Agentic VLM model to support deep fusion of dynamic visual reasoning and image/text 
+search. Such achievement represents a leading international level in the field of autonomous 
+intelligent agents and has already begun commercial deployment in city-level application 
+scenarios.
+2. SenseNova-SI Spatial Intelligence Model Series
+Building on our long-standing expertise in Computer Vision, we systematically built 
+a spatial intelligence framework, which seeks to break down boundaries between the 
+digital world and physical world, empowering application scenarios such as embodied 
+intelligence and autonomous driving. In Nov 2025, we released and open-sourced the 
+SenseNova-SI Spatial Intelligence Model. In a comprehensive evaluation integrating 
+several internationally authoritative spatial intelligence metrics, SenseNova-SI-1.3 
+demonstrated outstanding performance and ranked first globally among peer 
+models (as of Feb 2026). Its overall performance outperformed Gemini-3-Pro and 
+Cambrican-S across multiple authoritative benchmark tests. It also tops the ranking in 
+HuggingFace in terms of download volume. In December, we jointly released and open￾sourced the Kaiwu world model Kairos-SenseNova with ecosystem enterprises, becoming 
+the first open-source embodied native world model to achieve integrated “multimodal 
+understanding – generation – prediction”, in the globally recognised Embodied Intelligence 
+Benchmark, Kairos 3.0-4B outperformed all other models across the board. In the A800 GPU 
+Benchmark, thanks to its model capabilities and inference tools, Kairos 3.0-4B achieved an 
+inference speed seventy-two times faster than Cosmos 2.5, setting a new global performance 
+record for embodied world models and fully demonstrating its cutting-edge technical prowess.
+
+[PDF PAGE 5]
+5
+3. Launched the Integrated Multimodal Model Architecture – NEO
+In December 2025, SenseTime unveiled and open-sourced NEO, an entirely new native 
+multimodal model architecture. As the industry’s first commercially-viable native multimodal 
+architecture (Native VLM), NEO evolved beyond the mainstream “encoder-connector-LLM 
+hub” splicing architecture. Designed from first principles, NEO features three core 
+innovations: Native Embedding, Native RoPE, Native Multi-head Attention, to achieve the 
+fusion of textual and visual information at the core level. NEO also delivers extraordinary 
+learning efficiency, it achieves state-of-the-art performance comparable to peer models of 
+similar scale in the industry with only one-tenth the training data and computing power.
+We will launch a new model based on the second-generation NEO architecture in the second 
+quarter of 2026, taking the lead in the industry in validating a new “Scaling Law” under the 
+native multimodal architecture that deeply unifies understanding and generation. We expect 
+this model to play a significant role in areas such as full-modality reasoning, perception 
+and generative interactive creation, and spatial intelligence. Leveraging its powerful visual 
+reasoning capabilities, it will significantly enhance the ability of agents to process multimodal 
+information including images, videos, documents and webpages, enabling agents to handle 
+complex scenario tasks more efficiently and deeply empowering agent AI and embodied 
+intelligence applications.
+Large Model Applications: Penetrating High-Value Scenarios and Securing Strategic 
+Positions in Vertical Applications
+By deeply understanding industry demands and continuously upgrading product capabilities, we 
+have established leadership positions across multiple high-value large-model application segments. 
+Thanks to our outstanding market performance, SenseTime’s Little Raccoon, Kapi Camera, and 
+Kapi Accounting have been prominently featured on the “AI Efficiency” and “AI Entertainment/
+Application” lists of the authoritative tech media QuantumBit’s “2025 Flagship AI 100” rankings.
+1. High-Value Productivity Scenarios
+We leverage a comprehensive framework combining task complexity and fault tolerance to 
+unlock the closed-loop value of agents across strategic scenarios such as office, education, 
+finance, marketing and content generation:
+• In general office scenarios, SenseTime Raccoon has served over 15 million individual 
+users and thousands of enterprise customers. In 2025, the Raccoon series recorded 
+a seven-fold increase in monthly active users (MAUs), fully validating strong 
+market appeal and acceptance. In product evolution, we have realized processing of 
+million-scale data in seconds and autonomous generation of high-quality, editable PPT 
+documents. Our enterprise-grade data analytics solution delivers 95% analysis accuracy 
+and reduces analysis duration by 90%, greatly improving office efficiency.
+
+[PDF PAGE 6]
+6
+• In the e-commerce marketing sector, we now cover the entire e-commerce workflow. 
+AI is no longer a mere “chat bot”, but becomes the “hands” to manage backends and 
+execute tasks, enabling end-to-end autonomous implementation from decision-making 
+to execution. For example, we have formed an in-depth strategic cooperation with 
+SMZDM, helping it improve store operation efficiency by twenty times, live broadcast 
+operation efficiency by six times, traffic placement efficiency by five times, and 
+real-time monitoring efficiency by three times.
+• In content creation, SenseTime launched Seko in 2025, the industry’s first full-process 
+short drama creation agent integrating scripting and production. It directly generates 
+and creates single episode up to three minutes long and can continuously generate a 
+hundred episodes. Seko quickly attracted over 300,000 creators and reached 100,000 
+monthly active users (MAUs) within just a few months from launch. The live-action 
+short drama Wan Xin Ji, powered by Seko, topped the Douyin AI Short Drama Chart 
+upon its release in October 2025, becoming a phenomenal hit.
+• In the financial sector, centering on the “Financial Intelligent Decision-Making 
+Platform” as our core delivery vehicle, and through a differentiated model of 
+“standardized products + ecosystem-driven delivery”, we have successfully addressed 
+the industry’s pain points of heavy reliance on labor and limited scalability, while 
+achieving low-cost monetization by leveraging our domestic adaptation advantages. 
+In the banking sector, we have successfully penetrated client scenarios through the 
+“Frontier Deployment Engineer” (FDE) model, achieving rapid revenue expansion 
+across institutions such as Ping An Bank and Bank of Ningbo. In the insurance sector, 
+we entered the trillion-RMB claims market in 2025, using it as an entry point to 
+advance closed-loop industry exploration across underwriting and pricing, marketing 
+and services, as well as healthcare.
+• In empowering intelligent terminals, we leverage the core strengths of the “SenseNova”
+large model in full-modality interaction, low latency and long memory to drive the 
+deep integration of multimodal large models into various terminal hardware, serving 
+as interaction nodes between AI and the physical world. At the same time, we have 
+enabled “pan-terminal hardware” such as smartphones, AI glasses, in-vehicle interaction 
+systems and embodied intelligence, with customers including Xiaomi, BYD and 
+Transsion.
+2. AI-Native Consumer APPs for Young Users
+In 2025, SenseTime made progress in exploring a new generation of AI-native consumer 
+applications, for example, the Kapi product series successfully accumulated users reaching 
+the tens of millions scale, validating the explosive growth potential of AI-native applications.
+Kapi Camera, the industry’s first AI camera assistant built on multimodal large models. As 
+a globally launched original Chinese product, it has topped the free charts on App Stores in 
+multiple countries worldwide. As an AI financial assistant for young people, Kapi Budgeting 
+saw its user base grow rapidly in 2025. Its T+1 retention rate steady at 70% – an industry￾leading level – making it a benchmark for the seamless integration of SenseTime’s AI 
+technologies into daily life. Both products were selected for the QbitAI 2025 AI 100 Flagship 
+Products List, among which Kapi Camera ranked among Quantum Bit’s Top 10 Newly Added 
+Downloaded Apps in the “AI Entertainment & Lifestyle” category.
+
+[PDF PAGE 7]
+7
+SenseCore AI Infrastructure: Dual Engines of Capability Building and Scenario-based 
+Deployment Forge a Solid Foundation for AI Productivity
+As the solid foundation of our “Infrastructure – Model – Application” three-in-one strategy, 
+SenseCore achieved a profound transition from technological strengths to an industrial closed loop 
+in 2025. Through in-depth coordination between underlying computing power and algorithm R&D, 
+it supported nearly one million model R&D tasks throughout the year. In the China Full-Stack 
+AI Cloud Service Market Report H1 2025 released by Frost & Sullivan and LeadLeo Research 
+Institute, SenseCore ranked among the top 4 in China’s full-stack AI cloud service market and 
+ranked first among native AI cloud vendors, continuing to lead the native AI cloud vendor sector.
+1. Advancing Infrastructure Capability to Upgrade the Computing Power Foundation from 
+“Available” to “Effective”
+SenseCore has unlocked the full chain from underlying hardware to top-level applications 
+and from software stacks to model adaptation, accelerating the formation of a positive cycle 
+in the AI industry:
+• In-depth hardware-software co-optimization for differentiated advantages: In 
+capability building, the core strength of SenseCore lies in its high-level optimization 
+for hardware and software for large model R&D. The in-depth linkage of “computing 
+power, model and application” forms our most robust technological moat. While 
+enabling continuous breakthroughs and generational leadership in model development, 
+it provides performance assurances and efficiency for upper-layer applications. Taking 
+the LightX2V World Model Inference System as an example, leveraging cutting-edge 
+technologies including step distillation and extreme quantization, we took the lead in 
+realizing real-time video generation for physical world simulation. Amid chip process 
+constraints, we also outperformed overseas top chips on domestic hardware. With its 
+exceptional computing efficiency, the system has been officially recommended by 
+various leading developers such as Alibaba and Tencent. Its open-source model has 
+been downloaded over ten million times on HuggingFace, consistently ranking among 
+the top ten globally (on par with OpenAI gpt-oss).
+• Domestic ecosystem collaboration and model closed loop: We partnered with over 
+a dozen of chip suppliers including Huawei Ascend, Hygon and Cambricon to launch 
+the “SenseCore Computing Power Mall”, enabling flexible combination and allocation 
+of diverse computing resources, platform tools and industry model services. SenseCore 
+took the lead in completing full adaptation to the Ascend 384 super-node, possessing 
+end-to-end delivery capabilities from liquid-cooled clusters to AI platforms. Kaiwu 
+Kairos-SenseNova, a landmark domestic world model, has realized full-process training 
+on domestic computing clusters, becoming the first world model to generate dynamic 
+scenes in real time on the domestic chip ecosystem.
+
+[PDF PAGE 8]
+8
+• Global export of expertise: SenseCore has translated its leading domestic intelligent 
+computing expertise into global competitiveness by launching China’s first overseas 
+domestic computing cluster in Saudi Arabia. By exporting our highly adaptable software 
+stack, this project has validated our exceptional delivery capabilities in heterogeneous 
+environments and the commercial potential of our asset-light global expansion model.
+Since 2025, SenseCore has secured multiple authoritative certifications in safety and 
+compliance, platform capabilities and computing performance, further consolidating its 
+industry-leading position. In February 2026, its native AI cloud platform was awarded the 
+“Excellent Level” certification in the Software Supply Chain Security Capability Assessment 
+by the Ministry of Industry and Information Technology (MIIT), becoming one of the first 
+enterprises nationwide to receive this honor. In January 2026, in the authoritative test of 
+“Computing-Model-Application Integration – Computing Platform Service Capability”
+jointly conducted by the China Academy of Information and Communications Technology 
+(CAICT) and China Telecommunication Technology Labs (CTTL), the platform received 
+the industry’s first “5A Excellence Level” certification. In the 2025 China Large Model 
+Inference Computing Power Market Analysis Report released by IDC in August 2025, 
+SenseCore achieved full marks in all core dimensions, including “performance optimization”, 
+“cloud-on-premise integration” and “large model training and inference”.
+2. Scenario-based Solutions Bridge the “Last Mile” of AI Commercialization
+Leveraging our end-to-end capabilities in “computing power – platform – solutions – 
+services”, we have built a strong industrial cluster advantage in key sectors such as 
+cutting-edge industrial R&D, AI4S (AI for Science), internet, interactive video content 
+generation, embodied intelligence, smart hardware, and industrial intelligence, as part of our 
+implementation of the national “AI+” initiative. SenseCore has become a core partner for 
+numerous leading domestic research institutions, internet technology giants, top-tier Pan￾entertainment companies, embodied intelligence robotics firms, and first-tier large-model 
+unicorns.
+3. Significantly Reducing Energy Consumption Costs by Pioneering the “Computing Power 
+Synergy Large Model × Energy Dispatch Engine”
+As of the release of this result announcement, the total operational computing scale of 
+SenseCore has reached 40,400 PetaFLOPS (FP16). While pursuing ultimate computing 
+efficiency, we actively respond to the national call for “computing-power synergy”. 
+With the support of CATL, we have developed the world’s first AI intelligent system to 
+achieve full-chain integration of “computing power management – IDC operation – energy 
+storage systems”. By leveraging large models to analyze computing task data, the system 
+can accurately predict power load and dynamically generate the optimal energy dispatch 
+strategy. We estimate that the system will deliver a 7% reduction in electricity costs and cut 
+carbon dioxide emissions by over 4,000 tonnes. This practice not only sets a technological 
+benchmark for green computing in the industry, but also provides a replicable and verifiable 
+SenseTime solution for low-carbon operation of large-scale intelligent computing centers.
+
+[PDF PAGE 9]
+9
+Computer Vision
+After years of strategic business optimization, the Group’s Computer Vision has successfully 
+broken through the boundaries of traditional “perceptual intelligence” and been fully upgraded 
+into a spatial intelligence and visual decision-making hub – powered by multimodal large models 
+as its core engine – that deeply understands and reshapes interactions with the physical world. 
+This marks that SenseTime Computer Vision business is moving from the technology investment 
+phase into a period of large-scale commercial returns, becoming a solid pillar driving the Group’s 
+revenue growth and cash flow improvement.
+• Global leadership: SenseTime has ranked first in China’s computer vision market share for 
+9 consecutive years. Recognized for its strong global footprint, the Company was named a 
+“Flagship Brand” in the 2025 Forbes China Go-International Series Selection. Customers 
+from Southeast Asia, Northeast Asia and Middle East continued to repurchase our products 
+and services, while new customers from South America and Europe started to pay more 
+attention to our products, validating the strong influence of our brand and the adaptability of 
+our products across various markets.
+• Upgrade of SenseFoundry Platform: Building on more than a decade of expertise and 
+technical heritage, the Computer Vision business has unlocked its second growth curve by 
+redefining its SenseFoundry Platform. We have established a new multimodal algorithm 
+production system centered on “integrating general and specialty capabilities, and unifying 
+skills training and multimodal large model”. With multimodal large model agents as the 
+core, it integrates inference scheduling with on-site model training. This system uses large 
+models to understand complex long-tail scenarios and perform progressive reasoning, while 
+small models execute specific tasks efficiently. It fundamentally solves the classic trade-off 
+in traditional AI deployment between computing cost and accuracy. The share of projects 
+adopting multimodal and agent capabilities jumped from nearly 0% in 2024 to around 60% in 
+2025.
+X Businesses
+In 2025, the Group firmly implemented its “1+X” strategy. Through strategic restructuring of 
+vertical businesses and market-oriented incentive mechanisms, we successfully unlocked asset 
+value and operational vitality of our ecosystem enterprises. We have established a highly efficient 
+collaborative system in which the “mothership (Group)” provides the foundational platform, while 
+the sub-vessels (ecosystem) compete in targeted sectors, realizing a strategic shift from standalone 
+business growth to multiplied ecosystem value.
+• Continuous expansion and diversification of the innovation ecosystem: Backed by the 
+Group’s foundational enablement in large models and spatial intelligence, we have built one 
+of China’s most dynamic AI ecosystem matrices, forming a complete closed loop covering 
+upstream core components to downstream vertical applications, including: intelligent driving 
+with cutting-edge world model capabilities and mass-production delivery, high-performance 
+inference GPUs, edge AI chips empowering universal intelligent connectivity, a pioneer in 
+the new category of home AI robots, smart healthcare and smart retail focused on industrial 
+digital transformation, and ACE Robotics representing frontier breakthroughs in embodied 
+intelligence. This diversified portfolio allows SenseTime to fully capture growth potential 
+across all sectors where AI penetrates physical spaces and deeply integrates with the real 
+economy.
+
+[PDF PAGE 10]
+10
+• Market-oriented financing validates the growth resilience of “sub-vessels”: Ecosystem 
+enterprises incubated by the Group have achieved smooth progress in private market 
+financing, gaining strong recognition from external investors, including internet industry 
+leaders, top-tier venture capital firms and industrial funds. Leveraging the computing 
+infrastructure and foundational models provided by the Group, these ecosystem entities have 
+drastically shortened the cycle from technology R&D to large-scale commercial deployment.
+STRATEGIC OUTLOOK
+Looking ahead to 2026, the global AI industry will enter its critical stage of development and 
+competition. Rising intelligence density and extreme optimization of unit intelligence costs 
+will further drive an exponential boom in generative AI. SenseTime is fully prepared to prove 
+its strength in this decisive moment with an even more focused business portfolio and a leaner 
+organizational structure.
+1. Continued commitment to the native multimodal path to define new heights of intelligence: 
+We will continue to deepen our native multimodal architecture and establish our global 
+leadership in integrated native multimodal large models and spatial intelligence, breaking 
+through limits of artificial intelligence via more efficient pathways, thereby empowering AI 
+systems to their full potential.
+2. Capturing the wave of industrial intelligent upgrade in the Agent-native era leveraging 
+our native multimodal capabilities: We firmly believe in the trend of AI evolving from a 
+“productivity tool” to “productivity” itself and will deepen our presence in vertical sectors 
+with a high penetration rate of intelligent agents, including general office, education 
+and marketing. Meanwhile, we will further explore differentiated experiences for a new 
+generation of AI-native applications, achieving explosive growth in both user scale and 
+commercial value.
+3. Extreme optimization of unit intelligence costs and full promotion of domestic substitution: 
+Building on the synergistic advantage of the three-in-one “computing power – model – 
+application” strategy, we will continue to reduce inference costs for large models, aiming to 
+make exceptional cost-effectiveness our most solid competitive barrier.
+4. Computer Vision: We will consolidate our “profit formula” of CV2.0, and drive large-scale 
+business expansion. At the same time, we will maintain dual engines at home and abroad, and 
+establish the “SenseTime Solution” as a global benchmark for the smart industry.
+5. Continuously unlocking ecosystem value from the “1+X” strategy: We will further refine the 
+“mothership + sub-vessels” cluster collaboration model, keep empowering ecosystem entities 
+through synergy, and capture value-added dividends from the intelligent transformation boom 
+across vertical industries.
+
+[PDF PAGE 11]
+11
+ENVIRONMENT, SOCIAL, AND GOVERNANCE
+In 2025, amid the rapid evolution of artificial intelligence, SenseTime Group placed sustainable 
+development and responsible innovation at its core. We systematically addressed the challenges 
+brought by large models in terms of safety, environmental protection and social-economic impact, 
+committing to building a trustworthy, green and inclusive technological future. Recognized for its 
+outstanding ESG practices, SenseTime was named the sole representative enterprise from the AI 
+industry on the “2024-2025 Forbes China Sustainable Innovation and Development Enterprises”
+list.
+Environmental Protection
+In response to the computing power and energy consumption challenges arising from large 
+model development, we drove green transformation through technological innovation. During the 
+year, we became one of the first companies in China to achieve an industrial-level closed loop 
+spanning from “computing power scheduling” to “energy storage and power conservation”. The 
+Computing-Power Synergy Platform deployed at the SenseTime Lingang AIDC deeply integrates 
+energy large models with our partners’ energy storage technologies, improving the energy 
+efficiency of AI infrastructure. The proportion of renewable energy in use has increased to 5.7%, 
+successfully validating a feasible pathway for the coordination of high-performance computing 
+and sustainable development. In addition, we applied AI technologies to broader environmental 
+fields such as biodiversity monitoring, and continued to leverage technology to protect natural 
+ecosystems in the Red Sea region of the Middle East.
+Large Model Technology and Social Development
+SenseTime advances the research and application of technology guided by the belief that 
+“technology should help people jointly accomplish goals beyond individual capacity, rather 
+than merely replacing human roles”. We firmly believe that only when technology embodies 
+humanity can innovation truly deliver public welfare. To this end, we have systematically provided 
+public-benefit and standardized training on AI tools across society, supported the open sharing 
+of high-quality educational resources, and launched targeted training programs for different 
+groups. These efforts help workers acquire AI skills and promote the diversified development of 
+employment patterns. Meanwhile, we integrate safety and trustworthiness into the entire process 
+of technology R&D and application, establishing an ethical review mechanism covering the full 
+lifecycle of models. We continue to build a more friendly and accessible environment, helping the 
+elderly, teenagers and other groups better access and use artificial intelligence, so that the care of 
+technology reaches every corner of society.
+Technology Inclusion and Global Sharing
+SenseTime’s intelligent chest CT analysis system has been continuously deployed in Southeast 
+Asia. As the only medical case selected, it was included in the opening white paper of the 
+2025 World Artificial Intelligence Conference (WAIC), setting an example for AI in advancing 
+global healthcare cooperation. In Saudi Arabia, SenseTime MEA has actively participated in the 
+development of local AI education and talent ecosystems, deeply integrating with the national 
+education system to create a replicable and sustainable model for artificial intelligence talent 
+cultivation. Furthermore, SenseTime has actively engaged in the international governance of AI 
+ethics. We provided expert input during the drafting of key documents including Indonesia’s 
+national artificial intelligence strategic roadmap and ethical governance guidelines, sharing our 
+practical experience in AI ethics and governance.
+
+[PDF PAGE 12]
+12
+MANAGEMENT DISCUSSION AND ANALYSIS
+Year ended December 31, 2025 compared to Year ended December 31, 2024
+The following table sets forth the comparative figures for the Years ended December 31, 2025 and 
+2024:
+Year ended December 31
+2025 2024
+RMB’000 RMB’000
+Revenue 5,014,640 3,772,101
+Cost of sales (2,958,216) (2,152,404)
+Gross profit 2,056,424 1,619,697
+Selling expenses (569,206) (654,693)
+Administrative expenses (1,225,759) (1,463,598)
+Research and development expenses (3,775,359) (4,131,884)
+Net impairment losses on financial assets and contract assets (286,782) (780,956)
+Other income 431,680 343,351
+Other gains – net 1,917,144 538,829
+Operating loss (1,451,858) (4,529,254)
+Finance income 258,007 449,010
+Finance cost (201,251) (179,932)
+Finance income – net 56,756 269,078
+Share of losses of investments accounted for using 
+ the equity method (221,495) (4,376)
+Fair value losses of preferred share (43,005) (35,114)
+Loss before income tax (1,659,602) (4,299,666)
+Income tax expenses (122,400) (6,918)
+Loss for the year (1,782,002) (4,306,584)
+Loss is attributable to:
+Equity holders of the Company (1,765,929) (4,278,383)
+Non-controlling interests (16,073) (28,201)
+(1,782,002) (4,306,584)
+Non-IFRS measures:
+Adjusted EBITDA (645,442) (3,116,992)
+Adjusted net losses (1,956,146) (4,280,523)
+
+[PDF PAGE 13]
+13
+Revenue
+Our revenue increased by 32.9% to RMB5,014.6 million in 2025, compared to RMB3,772.1 million 
+in 2024, primarily driven by continued expansion of Generative AI. The following table sets out a 
+breakdown of our revenue streams in absolute amounts and as percentages of our total revenue for 
+the years indicated:
+Year ended December 31
+2025 2024
+RMB million % RMB million %
+Generative AI 3,629.5 72.4 2,404.0 63.7
+Computer Vision 1,083.1 21.6 1,047.1 27.8
+X Businesses 302.0 6.0 321.0 8.5
+Total 5,014.6 100.0 3,772.1 100.0
+Our Generative AI revenue increased by 51.0% to RMB3,629.5 million in 2025, compared 
+to RMB2,404.0 million in 2024, driven by exponentially growing demand for generative AI 
+model training, fine-tuning, and inference. This growth was further underpinned by integrated 
+industrial solutions that facilitate the joint commercialization of computing platforms, models, 
+and applications, thereby fostering replicable best practices across industries and contributing to 
+sustained overall revenue growth.
+Our Computer Vision revenue increased by 3.4% to RMB1,083.1 million in 2025, compared to 
+RMB1,047.1 million in 2024. Benefiting from domestic demand recovery and sustained growth in 
+overseas markets, computer vision is entering a second growth phase through multimodal vision 
+agents. Our year-over-year revenue growth rate for the 2nd half of 2025 reached 20.9%.
+Our X Businesses revenue decreased by 5.9% to RMB302.0 million in 2025, compared to 
+RMB321.0 million in 2024. During the 2nd half of 2025, four X Businesses contribute revenue: 
+Autonomous Driving, Smart Healthcare, Home Robotics and Smart Retail. Over time, we would 
+expect our X Business composition to evolve as we incubate more X Businesses or as existing X 
+Businesses attract external investors and become deconsolidated from our financial statements. As 
+a result, year-over-year comparison will become less meaningful going forward for this particular 
+revenue line. The revenue decline in 2025 is primarily attributable to the deconsolidation of 
+Autonomous Driving business in August 2025.
+
+[PDF PAGE 14]
+14
+Cost of sales
+Our cost of sales increased by 37.4% from RMB2,152.4 million in 2024 to RMB2,958.2 million in 
+2025. The following table sets out a breakdown of our cost of sales by nature in absolute amounts 
+and as percentages of our cost of sales for the years indicated:
+Year ended December 31
+2025 2024
+RMB million % RMB million %
+Hardware costs and subcontracting 
+ service fees 2,315.2 78.3 1,705.4 79.2
+AIDC operation costs 328.6 11.1 124.7 5.8
+Employee benefit expenses 42.1 1.4 62.2 2.9
+Depreciation and amortization 260.2 8.8 217.3 10.1
+Other expenses 12.1 0.4 42.8 2.0
+Total 2,958.2 100.0 2,152.4 100.0
+The increase in cost of sales was primarily attributable to the increase in hardware costs and 
+subcontracting service fees, whose percentage contribution to total cost of sales has remained 
+largely stable. AIDC-related depreciation and operational costs grew faster than total cost of sales 
+due to our continued expansion of generative AI-related services.
+Gross Profit and Gross Margin
+Our gross profit increased by 27.0% from RMB1,619.7 million in 2024 to RMB2,056.4 million in 
+2025, which is largely in line with the increase of revenue. Our gross margin slightly decreased 
+from 42.9% in 2024 to 41.0% in 2025, mainly due to increase of AIDC-related business, whose 
+gross margin has slightly declined from 2024 to 2025.
+Research and Development Expenses
+Our research and development expenses decreased by 8.6% from RMB4,131.9 million in 2024 
+to RMB3,775.4 million in 2025, primarily due to the decrease of employee benefit expenses, and 
+partially offset by the increase of server operation and cloud-based service fees.
+Selling Expenses
+Our selling expenses decreased by 13.1% from RMB654.7 million in 2024 to RMB569.2 million in 
+2025, primarily due to the decrease of employee benefit expenses.
+
+[PDF PAGE 15]
+15
+Administrative Expenses
+Our administrative expenses decreased by 16.2% from RMB1,463.6 million in 2024 to 
+RMB1,225.8 million in 2025, primarily due to decrease in employee benefit expenses and 
+depreciation and amortisation.
+Net Impairment Losses on Financial Assets and Contract Assets
+Our net impairment losses on financial assets and contract assets decreased by 63.3% from 
+RMB781.0 million in 2024 to RMB286.8 million in 2025 primarily attributable to continuously 
+strengthened collection of accounts receivables and the fact that we have relatively high balance 
+sheet provisions for account receivables.
+Other Income
+Our other income increased by 25.7% from RMB343.4 million in 2024 to RMB431.7 million in 
+2025 primarily due to an increase in government grants.
+Other Gains – Net
+We had net other gains of RMB1,917.1 million in 2025 compared to RMB538.8 million in 2024. 
+The net other gains in 2025 primarily consist of gains on disposal of subsidiaries and associates 
+amounting to RMB1,312.7 million and fair value gains on financial assets at fair value through 
+profit or loss amounting to RMB646.0 million.
+Finance Income – Net
+Net finance income decreased by 78.9% from RMB269.1 million in 2024 to RMB56.8 million in 
+2025, mainly attributable to an RMB241.3 million gain from remeasurement of put option liability 
+in prior year.
+Fair Value Losses of Preferred Share
+Fair value losses of preferred shares increased from RMB35.1 million in 2024 to RMB43.0 million 
+in 2025 resulting from changes in the fair value change of preferred share issued by a subsidiary of 
+the Company.
+
+[PDF PAGE 16]
+16
+Income tax expenses
+We had income tax expenses of RMB122.4 million in 2025 compared to RMB6.9 million in 2024 
+primarily attributable to a decrease in deferred income tax assets.
+Loss for the year
+As a result of the foregoing, we had a loss of RMB1,782.0 million in 2025, compared with a loss 
+of RMB4,306.6 million in 2024. Our significant revenue and gross profit growth, combined with 
+continued focus on improving operational efficiency, contributed to the reduction in losses.
+Non-IFRS Measures
+To supplement our consolidated results which are prepared and presented in accordance with IFRS, 
+we also use EBITDA/adjusted EBITDA and adjusted net loss as additional financial measures, 
+which are not required by, or presented in accordance with, IFRS. We believe that these non-IFRS 
+measures facilitate comparisons of operating performance from year to year and company to 
+company by eliminating potential impacts of items that our management does not consider to 
+be indicative of our operating performance such as certain non-cash items and certain impact of 
+financing and investment activities. We believe that these measures provide useful information to 
+investors and others in understanding and evaluating our consolidated results of operations in the 
+same manner as they help our management. However, our presentation of the EBITDA/adjusted 
+EBITDA and adjusted net loss may not be comparable to similarly titled measures presented by 
+other companies. The use of these non-IFRS measures has limitations as an analytical tool, and you 
+should not consider them in isolation from, or as substitute for analysis of, our results of operations 
+or financial condition as reported under IFRS.
+
+[PDF PAGE 17]
+17
+The following table sets out EBITDA/adjusted EBITDA and a reconciliation from loss before 
+income tax for the years to EBITDA/adjusted EBITDA for the years indicated:
+Year ended December 31
+2025 2024
+RMB million RMB million
+Loss before income tax (1,659.6) (4,299.7)
+Add:
+Finance income, net (56.8) (269.1)
+Depreciation and amortization 1,245.1 1,425.7
+EBITDA (471.3) (3,143.1)
+Add:
+Fair value losses of preferred share 43.0 35.1
+Share-based compensation expenses 292.5 177.7
+Fair value gains on financial assets at fair value 
+ through profit or loss (646.0) (163.0)
+Net asset value of investment funds attributable to limited partners 134.6 (27.8)
+Professional service fees in connection with equity fundraising 1.8 4.0
+Adjusted EBITDA (645.4) (3,117.0)
+The following table reconciles our adjusted net loss for the years presented to the most directly 
+comparable financial measure calculated and presented in accordance with IFRS, which is net loss 
+for the years:
+Year ended December 31
+2025 2024
+RMB million RMB million
+Net losses for the year (1,782.0) (4,306.6)
+Add:
+Fair value losses of preferred share 43.0 35.1
+Share-based compensation expenses 292.5 177.7
+Fair value gains on financial assets at fair value 
+ through profit or loss (646.0) (163.0)
+Net asset value of investment funds attributable to limited partners 134.6 (27.8)
+Professional service fees in connection with equity fundraising 1.8 4.0
+Adjusted net losses (1,956.1) (4,280.5)
+
+[PDF PAGE 18]
+18
+Trade, Other Receivables and Prepayments
+Our trade, other receivables and prepayments decreased from RMB5,068.0 million as of December 
+31, 2024 to RMB4,304.1 million as of December 31, 2025, which primarily comprise trade 
+receivables and other receivables.
+Trade Receivables
+The following table sets out a breakdown of our trade receivables as of the dates indicated:
+Year ended December 31
+2025 2024
+RMB million RMB million
+Trade receivables
+– Due from related parties 368.5 13.9
+– Due from third parties 5,526.9 6,959.7
+Provision for impairment (3,384.9) (4,581.9)
+Total 2,510.4 2,391.7
+Our net trade receivables increased as of December 31, 2025, compared to that as of December 31, 
+2024.
+Trade receivables’ aging analysis based on date of revenue recognition is as follows:
+Year ended December 31
+2025 2024
+RMB million RMB million
+Up to 6 months 1,896.2 863.4
+6 months to 1 year 309.7 278.4
+1 to 2 years 235.1 262.5
+2 to 3 years 118.7 1,748.2
+More than 3 years 3,335.6 3,821.1
+5,895.3 6,973.6
+As of December 31, 2025, the long aging of our gross trade receivables over 2 years has improved 
+due to further enhanced collection efforts, compared to that as of December 31, 2024. A significant 
+portion of our historical revenue was derived from Smart City projects, which typically features 
+a long payment cycle as required by the customers’ internal financial management and payment 
+approval processes. Although our overall cash collection has maintained a relatively healthy 
+momentum since 2024, cash collections for relatively long outstanding receivables remain 
+challenging, as some of our customers, especially those from or are exposed to the public sector, 
+face budget constraints.
+
+[PDF PAGE 19]
+19
+LIQUIDITY AND FINANCIAL RESOURCES
+We have historically funded our cash requirements principally from capital contribution from 
+shareholders. We had cash and cash equivalents of RMB10,887.1 million and term deposits of 
+RMB2,282.7 million as of December 31, 2025, compared to the balance of RMB8,888.0 million 
+and RMB2,970.5 million as of December 31, 2024.
+The following table sets forth a summary of our cash flows for the years indicated:
+Year ended December 31
+2025 2024
+RMB million RMB million
+Net cash used in operating activities (301.1) (3,926.7)
+Net cash used in investing activities (3,506.8) (2,796.5)
+Net cash generated from financing activities 5,620.7 6,259.9
+Net increase/(decrease) in cash and cash equivalents 1,812.7 (463.3)
+Cash and cash equivalents at the beginning of the year 8,888.0 9,423.5
+Exchange changes on cash and cash equivalents 186.4 (72.2)
+Cash and cash equivalents at the end of the year 10,887.1 8,888.0
+Net Cash Used in Operating Activities
+Net cash used in operating activities represents the cash used in our operations plus the income 
+tax paid. Cash used in our operations primarily comprises our loss before income tax adjusted by 
+non-cash items and changes in working capital.
+For the year ended December 31, 2025, net cash used in operating activities was RMB301.1 
+million, which was primarily attributable to our loss before income tax, as adjusted by (i) 
+depreciation and amortization, fair value gains on financial assets at fair value through profit 
+or loss, provision for impairment of financial assets and contract assets and gains on disposal 
+of subsidiaries; and (ii) changes in operating assets and liabilities. Net cash used in operating 
+activities decreased significantly in 2025 primarily due to decrease in net loss and improvement in 
+working capital management.
+Net Cash Used in Investing Activities
+For the year ended December 31, 2025, net cash used in investing activities was RMB3,506.8 
+million, which was mainly attributable to purchase of property, plant and equipment, net 
+acquisition of investments in financial assets at fair value through profit and loss partially offset by 
+net decrease in investments in term deposits.
+Net Cash Generated from Financing Activities
+For the year ended December 31, 2025, net cash generated from financing activities was 
+RMB5,620.7 million, which was mainly attributable to net proceeds from placing ordinary shares 
+and capital injection by limited partners of investment fund controlled by the Group.
+
+[PDF PAGE 20]
+20
+Borrowings
+As of December 31, 2024 and December 31, 2025, we had total borrowings of RMB5,921.8 million 
+and RMB5,724.6 million, respectively. Repayment analysis and the currency denomination of 
+bank borrowings of the Group as at December 31, 2025 are set out in note 14 to the consolidated 
+financial statements.
+The Group maintains a prudent approach in its treasury management with interest rate exposure 
+maintained principally on a floating rate basis. The Group did not use any interest rate swap 
+contracts or other financial instruments to hedge against its interest rate risk. The Group will 
+continue to monitor interest rate risk exposure and will consider hedging significant interest rate 
+risk exposure should the need arises.
+Exposure to Exchange Rate Fluctuation
+Foreign exchange risk arises when future commercial transactions or recognized assets and 
+liabilities are denominated in a currency that is not the respective Group entities’ functional 
+currency. The Company’s functional currency is USD. The Company’s primary subsidiaries 
+were incorporated in Chinese Mainland, Hong Kong, Japan, Singapore and Middle East. These 
+subsidiaries considered RMB, HKD, JPY, SGD and SAR (Saudi Riyal) as their functional 
+currencies, respectively.
+We are primarily exposed to fluctuations in the HKD/RMB, HKD/USD and USD/SGD exchange 
+rates. During the reporting period, we entered into certain foreign exchange forward contracts to 
+hedge our exposure to fluctuations in the USD/RMB exchange rate. These contracts did not qualify 
+for hedge accounting and were fully settled as of December 31, 2025. We will continue to monitor 
+foreign exchange rate movements and will take necessary measures to mitigate the impact of 
+exchange rate fluctuations.
+Employees, Training and Remuneration Policies
+As at December 31, 2025, the Group had 2,472 employees. The number of employees employed by 
+the Group varies from time to time depending on needs.
+The Group formulates the remuneration package for its employees based on the overall 
+remuneration standard in the market, industry practice and the Group’s remuneration strategy. In 
+addition to salary, in-house training programmes and employee benefits, employees may receive 
+year-end performance incentives depending on their individual performance, which includes cash 
+incentives or share options.
+
+[PDF PAGE 21]
+21
+Use of Proceeds from Placing of Class B Shares under General Mandate
+December 2024 Placing
+On December 11, 2024, the Company entered into a placing agreement (the “December 2024 
+Placing Agreement”) with China International Capital Corporation Hong Kong Securities Limited, 
+Guotai Junan Securities (Hong Kong) Limited and Huatai Financial Holdings (Hong Kong) Limited 
+in relation to the placing of 1,865,000,000 new Class B Shares (the “December 2024 Placing 
+Shares”) at HK$1.50 per Placing Share (the “December 2024 Placing Price”) to not less than 
+six placees who and whose ultimate beneficial owner(s) (where applicable) shall be independent 
+third parties (the “December 2024 Placing”). All the conditions set out in the December 2024 
+Placing Agreement were fulfilled and the December 2024 Placing was completed on December 
+17, 2024, where a total of 1,865,000,000 new Class B Shares, representing approximately 5.12% 
+of the number of the then issued Class B Shares and approximately 5.04% of the number of the 
+then existing issued Shares as enlarged by the allotment and issue of the December 2024 Placing 
+Shares, have been successfully placed to no fewer than six independent placees at the December 
+2024 Placing Price of HK$1.50 pursuant to the terms and conditions of the December 2024 Placing 
+Agreement. For details, please refer to the announcements of the Company dated December 11, 
+2024 and December 17, 2024 respectively.
+The Directors considered that the December 2024 Placing represents a suitable financing option for 
+the Company to raise further funding to support the Group’s continuous development and business 
+growth, which is in the interest of the Company and its Shareholders as a whole.
+The net proceeds from the December 2024 Placing, after deducting the placing commission and 
+other relevant costs and expenses of the December 2024 Placing, amounted to approximately 
+HK$2,787.1 million (representing a net issue price of approximately HK$1.49 per December 2024 
+Placing Share). The Company intended to use such net proceeds mainly for further enhancing the 
+scale of the Company’s industry leading AI infrastructure – SenseCore, supporting the further 
+development of generative AI including large model research and product development, and for 
+the purpose of general working capital of the Company. As at December 31, 2025, all of such net 
+proceeds had been utilised by the Group. Details of the use of proceeds from the Placing are set 
+out below:
+Intended purposes of 
+placing net proceeds
+Planned 
+proportion 
+of the net 
+proceeds 
+Planned use of 
+the net proceeds 
+Actual use of 
+net proceeds 
+during the 
+Reporting 
+Period
+Net proceeds 
+unused as of 
+December 
+31, 2025 
+Expected 
+timeline for 
+fully utilising 
+the net 
+proceeds from 
+the Placing
+(%)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+Enhancing the scale of the Company’s 
+ industry leading AI infrastructure 35.0 975.5 975.5 – NA
+Supporting the further development of 
+ generative AI 30.0 836.1 836.1 – NA
+General working capital 35.0 975.5 975.5 – NA
+Total 100.0 2,787.1 2,787.1 –
+
+[PDF PAGE 22]
+22
+July 2025 Subscription and Placing
+On July 23, 2025, the Company entered into a subscription agreement (the “Subscription 
+Agreement”) with Infini Capital Management Limited (the “Subscriber”, who and whose ultimate 
+beneficial owners are independent third parties of the Company), pursuant to which the Subscriber 
+has agreed to subscribe for, and the Company has agreed to issue, a total of 1,666,667,000 new 
+Class B Shares at HK$1.50 per Subscription Share (the “Subscription Price”). In addition, on 
+July 23, 2025, the Company also entered into a placing agreement (the “Placing Agreement”) 
+with Guotai Junan Securities (Hong Kong) Limited and CLSA Limited (collectively, the “Placing 
+Agents”), pursuant to which the Placing Agents have agreed to, amongst others, assist in 
+completing the transactions contemplated under the Subscription Agreement. All the conditions set 
+out in the Subscription Agreement and the Placing Agreement were fulfilled and the completion of 
+the Subscription Agreement and the Placing Agreement took place on July 31, 2025, where a total 
+of 1,666,667,000 Subscription Shares, representing approximately 4.38% of the number of the then 
+issued Class B Shares and approximately 4.31% of the number of the then existing issued Shares 
+as enlarged by the allotment and issue of the Subscription Shares, were issued by the Company 
+at the Subscription Price of HK$1.50 pursuant to the terms and conditions of the Subscription 
+Agreement. For details, please refer to the announcements of the Company dated July 24, 2025 and 
+July 31, 2025 respectively.
+The net proceeds from the Subscription, after deducting the Subscription commission and other 
+relevant costs and expenses of the Subscription, amounted to approximately HK$2,498 million. 
+The Company intended to use such net proceeds mainly for supporting the development of the 
+Company’s core business, which includes the building of an industry-leading AI Cloud and 
+continuously expanding the scale and scenario coverage of the Company’s AI infrastructure – 
+SenseCore; supporting the R&D of Generative AI, as well as productization of the Company’s 
+Multimodality Large Model, with a focus on advancing the commercial application in vertical 
+scenarios such as smart devices; exploring the integration and application of AI in innovative 
+fields, including but not limited to, exploring areas such as embodied intelligence robotics, 
+blockchain, real-world assets (RWA), digital assets and stablecoins, independently or in 
+collaboration with strategic partners, as well as obtaining relevant qualifications, and to applying 
+AI large models in risk control and settlement in digital finance; and for the purpose of general 
+working capital of the Company. As at December 31, 2025, all of such net proceeds had been 
+utilised by the Group. Details of the use of proceeds from the Subscription are set out below:
+Intended purposes of 
+placing net proceeds
+Planned 
+proportion 
+of the net 
+proceeds 
+Planned use 
+of the net 
+proceeds 
+Actual use 
+of net proceeds 
+during the 
+Reporting 
+Period
+Net proceeds 
+unused as of 
+December 
+31, 2025 
+Expected 
+timeline for 
+fully utilising 
+the net 
+proceeds from 
+the Subscription
+(%)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+Supporting the development of the 
+ Company’s core business 30.0 749.4 749.4 – NA
+Supporting the R&D of Generative 
+ AI, productization of the Company’s 
+ Multimodality Large Model 30.0 749.4 749.4 – NA
+Exploring the integration and application 
+ of AI in innovative fields 20.0 499.6 499.6 – NA
+General working capital 20.0 499.6 499.6 – NA
+Total 100.0 2,498.0 2,498.0 –
+
+[PDF PAGE 23]
+23
+December 2025 Placing
+On December 18, 2025, the Company entered into a placing agreement (the “December 2025 
+Placing Agreement”) with Guotai Junan Securities (Hong Kong) Limited and CMB International 
+Capital Limited in relation to the placing of 1,750,000,000 new Class B Shares (the “December 
+2025 Placing Shares”) at HK$1.80 per December 2025 Placing Share (the “December 2025 
+Placing Price”) to not less than six placees who and whose ultimate beneficial owner(s) (where 
+applicable) shall be independent third parties (the “December 2025 Placing”). All the conditions 
+set out in the December 2025 Placing Agreement were fulfilled and the December 2025 Placing 
+was completed on December 29, 2025, where a total of 1,750,000,000 new Class B Shares (with 
+an aggregate nominal value of US$43.75), representing approximately 4.40% of the number of 
+the then issued Class B Shares and approximately 4.33% of the number of the then existing issued 
+Shares as enlarged by the allotment and issue of such placing shares, have been successfully placed 
+to no fewer than six independent placees (which were individual, professional, corporate and/or 
+institutional investors) at the placing price of HK$1.80 pursuant to the terms and conditions of 
+the December 2025 Placing Agreement. The closing price of the Class B Share as quoted on the 
+Stock Exchange on December 17, 2025, being the date on which the December 2025 Placing Price 
+was fixed, was HK$1.97. For details, please refer to the announcements of the Company dated 
+December 18, 2025 and December 29, 2025 respectively.
+The Directors considered that the December 2025 Placing represents a suitable financing option 
+for the Company to raise further funding to support the Group’s continuous development and 
+business growth taking into account the then recent market conditions, which is in the interest of 
+the Company and its Shareholders as a whole.
+The net proceeds from the December 2025 Placing, after deducting the placing commission and 
+other relevant costs and expenses of the December 2025 Placing, amounted to approximately 
+HK$3,146 million. The Company intends to use the net proceeds to support its core business 
+development, which includes building an industry-leading AI Cloud and expanding its AI 
+infrastructure (SenseCore) with increased adoption of domestic chips; funding the R&D and 
+commercialization of Generative AI and its Multimodality Large Model; exploring AI integration 
+in innovative vertical fields such as finance, education and marketing, and for general working 
+capital purposes covering operating costs, talent development, branding and sales initiatives. The 
+unutilised proceeds are expected to be fully used by December 31, 2026, except for the portion 
+allocated to core business development which is expected to be fully utilized by June 30, 2026. 
+Details of the use of proceeds are set out as follows:
+Intended purposes of 
+placing net proceeds
+Planned 
+proportion 
+of the net 
+proceeds 
+Planned use 
+of the net 
+proceeds 
+Actual use 
+of net proceeds 
+during the 
+Reporting 
+Period
+Net proceeds 
+unused as of 
+December 
+31, 2025 
+Expected 
+timeline for 
+fully utilising 
+the net 
+proceeds from 
+the Placing
+(%)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+Supporting the development of the 
+ Company’s core business 30.0 943.7 – 943.7 By June 30, 2026
+Supporting the R&D of Generative 
+ AI, productization of the Company’s 
+ Multimodality Large Model 30.0 943.7 – 943.7
+By December 
+31, 2026
+
+[PDF PAGE 24]
+24
+Intended purposes of 
+placing net proceeds
+Planned 
+proportion 
+of the net 
+proceeds 
+Planned use 
+of the net 
+proceeds 
+Actual use 
+of net proceeds 
+during the 
+Reporting 
+Period
+Net proceeds 
+unused as of 
+December 
+31, 2025 
+Expected 
+timeline for 
+fully utilising 
+the net 
+proceeds from 
+the Placing
+(%)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+(Approximately 
+HK$ million)
+Exploring the integration and application 
+ of AI in innovative fields 20.0 629.1 – 629.1
+By December 
+31, 2026
+General working capital 20.0 629.1 – 629.1
+By December 
+31, 2026
+Total 100.0 3,145.7 – 3,145.7
+Gearing Ratio
+As of December 31, 2025, our gearing ratio was -6.9%, which represented a net cash position. Our 
+gearing ratio is calculated as net debt divided by total capital at the end of each financial year. 
+Net debt equals to our total borrowings, lease liabilities and preferred share and other financial 
+liabilities less our cash and cash equivalents. Total capital is calculated as total equity plus net 
+debt.
+Contingent Liabilities
+As of December 31, 2025, we did not have any material contingent liabilities.
+Significant Investments held
+As of December 31, 2025, we did not hold any significant investments in the equity interest of 
+other companies.
+Material Acquisitions and Disposals of Subsidiaries, Associates and Joint Ventures
+For the year ended December 31, 2025, we did not have any material acquisitions or disposals of 
+subsidiaries, associates and joint ventures.
+Pledge of Assets
+As of December 31, 2025, we pledged certain buildings and land use rights with carrying amount 
+of RMB4,110.5 million and restricted guarantee deposits amounting to RMB41.4 million for 
+borrowings.
+Future Plans for Material Investments and Capital Assets
+As of December 31, 2025, we have no specific future plan for material investments and acquisition 
+of capital assets. The Group will continue to identify new investment opportunities in companies 
+with principal businesses related to the Group’s core business with a view to create synergies with 
+the Group’s existing core business and improve the Group’s service and products to its customers.
+
+[PDF PAGE 25]
+25
+CONSOLIDATED INCOME STATEMENT
+FOR THE YEAR ENDED DECEMBER 31, 2025
+Year ended 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Revenue 3(a), 4(b) 5,014,640 3,772,101
+Cost of sales 5 (2,958,216) (2,152,404)
+Gross profit 2,056,424 1,619,697
+Selling expenses 5 (569,206) (654,693)
+Administrative expenses 5 (1,225,759) (1,463,598)
+Research and development expenses 5 (3,775,359) (4,131,884)
+Net impairment losses on financial assets and 
+ contract assets (286,782) (780,956)
+Other income 431,680 343,351
+Other gains – net 6 1,917,144 538,829
+Operating loss (1,451,858) (4,529,254)
+Finance income 258,007 449,010
+Finance cost (201,251) (179,932)
+Finance income – net 56,756 269,078
+Share of losses of investments accounted for using the 
+ equity method (221,495) (4,376)
+Fair value losses of preferred share (43,005) (35,114)
+Loss before income tax (1,659,602) (4,299,666)
+Income tax expenses 7 (122,400) (6,918)
+Loss for the year (1,782,002) (4,306,584)
+Loss is attributable to:
+Equity holders of the Company (1,765,929) (4,278,383)
+Non-controlling interests (16,073) (28,201)
+(1,782,002) (4,306,584)
+Loss per share for loss attributable to equity holders 
+ of the Company
+Basic and diluted loss per share (RMB) 8 (0.05) (0.13)
+
+[PDF PAGE 26]
+26
+CONSOLIDATED STATEMENT OF COMPREHENSIVE LOSS
+FOR THE YEAR ENDED DECEMBER 31, 2025
+Year ended 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Loss for the year (1,782,002) (4,306,584)
+Other comprehensive (loss)/income
+Item that may be reclassified to profit or loss
+ Exchange differences on translation of foreign 
+ operations 815,128 (533,931)
+ Evaluation gains upon transfer from property, plant and 
+ equipment to investment properties 3,558 –
+Items that will not be reclassified to profit or loss
+ Exchange differences on translation of foreign 
+ operations (1,193,402) 706,707
+ Effects of changes in credit risk for financial liabilities 
+ designated as at fair value through profit or loss (4,847) (7,642)
+Other comprehensive (loss)/income for the year, net 
+ of taxes (379,563) 165,134
+Total comprehensive loss for the year (2,161,565) (4,141,450)
+Total comprehensive loss for the year is attributable to:
+Equity holders of the Company (2,145,652) (4,109,769)
+Non-controlling interests (15,913) (31,681)
+(2,161,565) (4,141,450)
+
+[PDF PAGE 27]
+27
+CONSOLIDATED BALANCE SHEET
+FOR THE YEAR ENDED DECEMBER 31, 2025
+As at 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Assets
+Non-current assets
+Property, plant and equipment 10 5,883,256 7,277,392
+Right-of-use assets 282,692 239,470
+Investment properties 2,512,134 –
+Intangible assets 121,279 238,550
+Contract assets 4(d) 15,791 21,386
+Investments accounted for using the equity method 1,426,743 702,405
+Deferred income tax assets 654,554 743,763
+Restricted cash 21,601 51,417
+Financial assets at fair value through profit or loss 12 7,510,261 6,363,496
+Long-term receivables 35,118 35,303
+Other non-current assets 1,658,231 699,557
+20,121,660 16,372,739
+Current assets
+Inventories 248,115 452,307
+Contract assets 4(d) 3,230 5,717
+Trade, other receivables and prepayments 11 4,304,083 5,067,957
+Financial assets at fair value through profit or loss 12 571,969 701,087
+Derivative financial instrument 3,097 –
+Restricted cash 483,707 141,210
+Term deposits 2,282,664 2,970,506
+Cash and cash equivalents 10,887,050 8,887,988
+18,783,915 18,226,772
+Total assets 38,905,575 34,599,511
+
+[PDF PAGE 28]
+28
+As at 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Equity
+Equity attributable to equity holders of the Company
+Share capital 7 6
+Other reserves 81,472,449 76,069,902
+Currency translation reserves 3,924,983 4,303,417
+Accumulated losses (58,678,480) (56,912,551)
+26,718,959 23,460,774
+Non-controlling interests 341,944 180,931
+Total equity 27,060,903 23,641,705
+Liabilities
+Non-current liabilities
+Borrowings 14 3,710,335 4,681,464
+Lease liabilities 176,010 99,259
+Deferred income tax liabilities 16,758 16,521
+Contract liabilities 4(e) 39,361 54,478
+Deferred revenue 209,500 212,087
+Other financial liabilities 1,959,550 1,103,866
+Long-term payables 13(b) – 36,190
+6,111,514 6,203,865
+Current liabilities
+Borrowings 14 2,014,250 1,240,334
+Trade and other payables 13(a) 2,090,358 1,788,754
+Lease liabilities 62,358 97,276
+Contract liabilities 4(e) 228,914 276,913
+Deferred revenue 84,681 142,069
+Current income tax liabilities 27,217 3,548
+Preferred share liabilities 1,225,380 1,205,047
+5,733,158 4,753,941
+Total liabilities 11,844,672 10,957,806
+Total equity and liabilities 38,905,575 34,599,511
+Net current assets 13,050,757 13,472,831
+Total assets less current liabilities 33,172,417 29,845,570
+
+[PDF PAGE 29]
+29
+CONSOLIDATED STATEMENT OF CHANGES IN EQUITY
+FOR THE YEAR ENDED DECEMBER 31, 2025
+Equity attributable to equity holders of the Company
+Note
+Share 
+capital
+Other 
+reserves
+Currency 
+translation 
+reserves
+Accumulated 
+losses Total
+Non￾controlling 
+interests Total equity
+RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000
+As at 1 January 2025 6 76,069,902 4,303,417 (56,912,551) 23,460,774 180,931 23,641,705
+Comprehensive loss
+Loss for the year – – – (1,765,929) (1,765,929) (16,073) (1,782,002)
+Effects of changes in credit risk for 
+ financial liabilities designated as at 
+ fair value through profit or loss – (4,847) – – (4,847) – (4,847)
+Revaluation gains upon transfer from 
+ property, plant and equipment to 
+ investment properties – 3,558 – – 3,558 – 3,558
+Exchange differences on translation of 
+ foreign operations – – (378,434) – (378,434) 160 (378,274)
+Total comprehensive loss – (1,289) (378,434) (1,765,929) (2,145,652) (15,913) (2,161,565)
+Transactions with equity holders
+Placing of ordinary shares 1 5,162,484 – – 5,162,485 – 5,162,485
+Treasury shares issued to employees – 125,790 – – 125,790 – 125,790
+Transactions with non-controlling interests – 110,074 – – 110,074 (110,074) –
+Recognition of financial instruments with 
+ preferred rights at amortised cost – (287,000) – – (287,000) 287,000 –
+Share-based compensation – 292,488 – – 292,488 – 292,488
+Total transactions with equity holders 1 5,403,836 – – 5,403,837 176,926 5,580,763
+As at 31 December 2025 7 81,472,449 3,924,983 (58,678,480) 26,718,959 341,944 27,060,903
+
+[PDF PAGE 30]
+30
+Equity attributable to equity holders of the Company
+Note
+Share 
+capital
+Other 
+reserves
+Currency 
+translation 
+reserves
+Accumulated 
+losses Total
+Non￾controlling 
+interests Total equity
+RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000
+As at 1 January 2024 5 71,666,422 4,127,161 (52,634,168) 23,159,420 (3,947) 23,155,473
+Comprehensive loss
+Loss for the year – – – (4,278,383) (4,278,383) (28,201) (4,306,584)
+Effects of changes in credit risk for 
+ financial liabilities designated as at fair 
+ value through profit or loss – (7,642) – – (7,642) – (7,642)
+Exchange differences on translation of 
+ foreign operations – – 176,256 – 176,256 (3,480) 172,776
+Total comprehensive loss – (7,642) 176,256 (4,278,383) (4,109,769) (31,681) (4,141,450)
+Transactions with equity holders
+Placing of ordinary shares 1 4,369,166 – – 4,369,167 – 4,369,167
+Treasury shares issued to employees – 94,319 – – 94,319 – 94,319
+Transactions with non-controlling interests – (31,585) – – (31,585) 31,585 –
+Recognition of financial instruments with 
+ preferred rights at amortised cost – (184,974) – – (184,974) 184,974 –
+Purchase of ordinary shares of the 
+ Company for share award scheme – (13,530) – – (13,530) – (13,530)
+Share-based compensation – 177,726 – – 177,726 – 177,726
+Total transactions with equity holders 1 4,411,122 – – 4,411,123 216,559 4,627,682
+As at 31 December 2024 6 76,069,902 4,303,417 (56,912,551) 23,460,774 180,931 23,641,705
+
+[PDF PAGE 31]
+31
+CONSOLIDATED STATEMENT OF CASH FLOWS
+FOR THE YEAR ENDED DECEMBER 31, 2025
+Year ended 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Cash flows from operating activities
+Cash used in operations (291,441) (3,900,712)
+Income tax paid (9,701) (26,016)
+Net cash used in operating activities (301,142) (3,926,728)
+Cash flows from investing activities
+Purchase of property, plant and equipment (3,398,894) (934,633)
+Purchase of intangible assets (88,789) (194,144)
+Proceeds from disposal of property, plant and equipment 
+ and intangible assets 136,259 9,055
+Net cash outflow from disposal of subsidiaries (174,926) (238,564)
+Increase in investments accounted for using the 
+ equity method (55,297) (16,159)
+Dividend and interest received from financial assets at fair 
+ value through profit and loss 10,581 8,956
+Acquisition of debt and equity investments 12 (1,131,235) (484,085)
+Disposal of debt and equity investments 12 468,270 850,284
+Net decrease/(increase) in investments in term deposits 662,726 (1,855,438)
+Interest received from banks 251,938 216,434
+Acquisition of structured deposits 12 (8,859,000) (3,529,000)
+Disposal of structured deposits 12 9,020,269 3,369,048
+Increase in restricted cash for derivative instruments (351,448) –
+Proceeds from disposal of associates 2,726 1,778
+Net cash used in from investing activities (3,506,820) (2,796,468)
+
+[PDF PAGE 32]
+32
+Year ended 31 December
+Note 2025 2024
+RMB’000 RMB’000
+Cash flows from financing activities
+Proceeds from borrowings 2,249,306 1,837,972
+Repayments of borrowings (2,445,464) (390,140)
+Interest paid (185,281) (173,107)
+Principal elements of lease payments (95,679) (129,258)
+Interest elements of lease payments (10,381) (8,925)
+Capital injection by limited partners of investment fund 
+ controlled by the Group 533,000 414,272
+Decrease in restricted cash for the issuance of 
+ bank borrowings 110,672 163,880
+Repurchase of ordinary shares – (13,530)
+Capital contribution by non-controlling shareholder 287,000 184,974
+Net payment of settlement of put option liability – (21,330)
+Net proceeds from placing of ordinary shares 5,162,485 4,369,167
+Proceeds from exercise of restricted shares and 
+ share options 14,994 25,899
+Net cash generated from financing activities 5,620,652 6,259,874
+Net increase/(decrease) in cash and cash equivalents 1,812,690 (463,322)
+Cash and cash equivalents at beginning of year 8,887,988 9,423,495
+Effect of foreign exchange rates changes 186,372 (72,185)
+Cash and cash equivalents at end of year 10,887,050 8,887,988
+
+[PDF PAGE 33]
+33
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+1 GENERAL INFORMATION
+SenseTime Group Inc. (the “Company”) was incorporated in the Cayman Islands on 15 October 2014 as an 
+exempted company with limited liability under the Companies Law (Cap. 22, Law 3 of 1961 as consolidated and 
+revised) of the Cayman Islands. The address of the Company’s registered office is Vistra (Cayman) Limited, 
+of P.O. Box 31119 Grand Pavilion, Hibiscus Way, 802 West Bay Road, Grand Cayman, KY1-1205, Cayman 
+Islands.
+The Company is an investment holding company. The principal activities of the Company and its subsidiaries 
+(the “Group”), including the structured entities (collectively, the “Group”), are the sale of advanced artificial 
+intelligence (“AI”) software, sale of AI software platform and related services, sale of software-embedded 
+hardware and related services, Artificial Intelligence Data Center (“AIDC”) service as well as research and 
+development activities in relation to AI technology mainly in the People’s Republic of China (the “PRC”), 
+Northeast Asia, Southeast Asia and other geographical areas.
+The Group is a leading AI software company with customers across a broad spectrum of industries.
+The Group does not have ultimate holding company and controlling shareholder.
+On 30 December 2021, the Company has successfully listed on the Main Board of the Stock Exchange of Hong 
+Kong Limited.
+These consolidated financial statements are presented in thousands of Renminbi (“RMB’000”), unless otherwise 
+stated. These consolidated financial statements were approved for issue by the Board of Directors on 24 March 
+2026.
+2 BASIS OF PREPARATION AND CHANGES IN ACCOUNTING POLICY AND DISCLOSURES
+2.1 Basis of preparation
+(a) Compliance with IFRS Accounting Standards (“IFRS”)
+The consolidated financial statements of the Group have been prepared in accordance with IFRS 
+Accounting Standards (which include all IFRS Accounting Standards, International Accounting 
+Standards (“IASs”) and Interpretations) issued by the International Accounting Standards Board 
+(“IASB”) and the disclosure requirements of Hong Kong Companies Ordinance Cap. 622.
+(b) Historical cost convention
+The consolidated financial statements have been prepared under the historical cost convention, as 
+modified by the revaluation of certain financial assets and liabilities which are measured at fair 
+value.
+2.2 Changes in accounting policy and disclosures
+(a) Amendments to standards adopted by the Group
+The Group has applied the following standards and amendments for the first time for its financial 
+year commencing 1 January 2025:
+IAS 21 (Amendment) Lack of Exchangeability
+The adoption of above amended standard did not have any material impact on the amounts 
+recognised in prior periods and are not expected to significantly affect the current or future 
+periods.
+
+[PDF PAGE 34]
+34
+(b) New standards and amendments to standards not yet adopted
+The followings are new standards and amendments that have been issued but are not effective for 
+the year ended December 31, 2025, and have not been early adopted by the Group. The Group 
+plans to adopt these new standards and amendments when they become effective:
+Standards and amendments
+Effective for 
+accounting 
+periods 
+beginning on or 
+after
+IFRS 7 and IFRS 9 
+ (Amendment)
+Amendments to the Classification and 
+ Measurement of Financial Instruments
+January 1, 2026
+IFRS 7 and IFRS 9 
+ (Amendment)
+Contracts Referencing Nature-dependent Electricity January 1, 2026
+Annual Improvements 
+ to IFRS
+Annual Improvements to IFRS Accounting Standards January 1, 2026
+IFRS 19 and Amendment Subsidiaries without public accountability: 
+ disclosures
+January 1, 2027
+IFRS 18 Presentation and disclosure in financial statements January 1, 2027
+IAS 21 (Amendment) Transaction to a Hyperinflationary 
+ Presentation Currency
+January 1, 2027
+IFRS 10 and IAS 28 
+ (Amendment)
+Sale or Contribution of Assets between an 
+ Investor and its Associate
+To be determined
+Amendment to 
+ illustrative Examples 
+ on IFRS 7, IFRS 18, 
+ IAS 1, IAS 8, IAS 36 
+ and IAS 37
+Disclosure about Uncertainties in the Financial 
+ Statements
+To be determined
+According to the assessment made by the directors of the Company, these new standards and 
+amendments are either not relevant to the Group or not significant to the financial performance and 
+positions of the Group when they become effective, except for IFRS 18 which will mainly impact 
+the presentation of the consolidated income statements.
+IFRS 18 will replace IAS 1 Presentation of Financial Statements, introducing new requirements 
+that will help to achieve comparability of the financial performance of similar entities and provide 
+more relevant information and transparency to users. Even though IFRS 18 will not impact the 
+recognition or measurement of items in the financial statements, its impacts on presentation and 
+disclosure are expected to be pervasive, in particular those related to the statement of financial 
+performance and providing management-defined performance measures within the financial 
+statements.
+Management is currently assessing the detailed implications of applying the new standard on the 
+Group’s consolidated financial statements. From the high-level preliminary assessment performed, 
+the following potential impacts have been identified:
+(i) Impact on consolidated income statement:
+Although the adoption of IFRS 18 will have no impact on the Group’s net loss, the Group 
+expects that grouping items of income and expenses in the consolidated income statement 
+into the new categories will impact how operating loss is calculated and reported. From 
+the high-level impact assessment that the Group has performed, the following items might 
+potentially impact operating loss:
+Foreign exchange differences
+Foreign exchange differences currently aggregated in the line item “other gains – net” in 
+operating loss might need to be disaggregated, with some foreign exchange gains or losses 
+presented below operating loss, unless doing so would involve undue cost or effort.
+
+[PDF PAGE 35]
+35
+Gain or loss of investments measured at fair value through profit or loss
+The gain or loss of investments measured at fair value through profit or loss currently 
+aggregated in the line item “other gains – net” in operating loss and will be presented below 
+operating loss.
+(ii) Impact on consolidated balance sheets:
+The line items presented on the primary financial statements might change as a result of the 
+application of the concept of ‘useful structured summary’ and the enhanced principles on 
+aggregation and disaggregation.
+(iii) Impact on disclosures:
+The Group does not expect there to be a significant change in the information that is 
+currently disclosed in the notes because the requirement to disclose material information 
+remains unchanged; however, the way in which the information is grouped might change as 
+a result of the aggregation/disaggregation principles. In addition, there will be significant 
+new disclosures required for:
+– For the first annual period of application of IFRS 18, a reconciliation for each line 
+item in the income statement between the restated amounts presented by applying 
+IFRS 18 and the amounts previously presented applying IAS 1.
+– The Group will apply the new standard from its mandatory effective date of 1 January 
+2027. Retrospective application is required, and so the comparative information for 
+the financial year ending 31 December 2026 will be restated in accordance with IFRS 
+18.
+3 SEGMENT INFORMATION
+The Company develops software and hardware products for different industry verticals and use cases based on 
+the same AI infrastructure platform and model training framework. The technologies and nature of the products 
+of different business lines are substantially similar. The executive directors of the Company, who are the 
+chief operating decision makers, for the purpose of resource allocation and assessment of performance did not 
+segregate operating segment financial information and the executive directors reviewed the financial results of 
+the Group as a whole. Therefore, no further information about the operating segment is presented.
+(a) Revenue by geographical
+The Company is domiciled in the Cayman Islands while the Group mainly operates its businesses in 
+four principal geographical areas of the world. The following table shows the Group’s total consolidated 
+revenue by location of the customers for the year ended 31 December 2025:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Chinese Mainland 4,621,763 3,201,529
+Northeast Asia 105,925 354,337
+Southeast Asia 76,698 52,108
+Others* 210,254 164,127
+5,014,640 3,772,101
+
+[PDF PAGE 36]
+36
+* Other geographical areas mainly represented Hong Kong and Middle East.
+(b) Non-current assets by geographical
+The total of the non-current assets including property, plant and equipment, right-of-use assets, 
+investment properties and intangible assets as at 31 December 2025, broken down by the location of the 
+assets, is as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Chinese Mainland 8,567,687 7,588,715
+Northeast Asia 32,380 42,673
+Southeast Asia 12,463 3,941
+Others* 186,831 120,083
+8,799,361 7,755,412
+* Other geographical areas mainly represented Hong Kong and Middle East.
+4 REVENUE
+(a) Information about major customers
+The major customers which contributed more than 10% of total revenue of the Group for the year ended 
+31 December 2025 are listed as below:
+Year ended 31 December
+2025 2024
+Percentage of revenue from the major customers to the total 
+ revenue of the Group
+Client A 19.0% –
+Client B – 12.2%
+(b) Disaggregation of revenue
+Disaggregation of revenue from contracts with customers by the timing of revenue recognition is as 
+follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Revenue
+– recognised point in time 4,044,227 3,036,401
+– recognised over time 970,413 735,700
+5,014,640 3,772,101
+(c) During the year ended 31 December 2025, the Group determines revenue should be reported on a gross or 
+net basis based on principle/agent assessment and revenue are primarily reported on a gross basis.
+
+[PDF PAGE 37]
+37
+(d) Contract assets
+The Group has recognised the following contract assets with customers:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Current assets 3,734 6,906
+Loss allowance (504) (1,189)
+3,230 5,717
+Non-current assets 18,045 25,836
+Loss allowance (2,254) (4,450)
+15,791 21,386
+19,021 27,103
+(e) Contract liabilities
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Current
+Deferred service fee income 19,472 19,608
+Advances from customers 209,442 257,305
+228,914 276,913
+Non-current
+Deferred service fee income 39,361 54,478
+The addition of contract liabilities was mainly due to the increase of cash payments made upfront by the 
+Group’s customers under sales contract. The following table shows how much of the revenue, which was 
+included in the contract liability balance at the beginning of the year, recognised during the year ended 
+31 December 2025 relates to carried-forward contract liabilities:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Revenue recognised that were included in the contract liabilities 
+ at the beginning of the year 132,305 123,064
+
+[PDF PAGE 38]
+38
+Unsatisfied performance obligations
+The following table shows unsatisfied performance obligations resulting from long-term contracts:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Aggregate amount of the transaction price allocated to long-term 
+ contracts that are partially or fully unsatisfied 58,833 74,086
+Management expects that 33% (2024: 26%) of the transaction price allocated to unsatisfied performance 
+obligations as of 31 December 2025 will be recognised as revenue during the next year. The remaining 
+67% (2024: 74%) will be recognised over one year.
+All other contracts are for periods of one year or less or are billed based on time incurred. As permitted 
+under IFRS 15, the transaction price allocated to these unsatisfied contracts is not disclosed.
+5 EXPENSES BY NATURE
+The expenses charged to cost of sales, selling expenses, administrative expenses and research and development 
+expenses are analysed below:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Employee benefit expenses 2,564,256 3,351,243
+Hardware costs and project subcontracting service fee 2,315,194 1,705,440
+Depreciation and amortisation 1,245,060 1,425,691
+Server operation and cloud based service fee 1,249,484 623,715
+Professional service and other consulting fee 471,201 590,882
+Marketing and travelling expenses 221,655 212,196
+Utilities, property management and administrative expenses 203,316 202,472
+Data labelling fee 115,223 112,726
+Research and development tools and consumables 74,424 62,520
+Taxes and surcharges 30,029 41,441
+Auditor’s remuneration
+ – Audit services 9,500 13,990
+ – Non-audit services 994 737
+Other expenses 28,204 59,526
+8,528,540 8,402,579
+
+[PDF PAGE 39]
+39
+6 OTHER GAINS – NET
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Fair value gains on financial assets at fair value through profit 
+ or loss (Note 12) 645,996 162,996
+Changes on net asset value of investment funds attributable to 
+ limited partners (134,568) 27,803
+Gains on disposal of subsidiaries (i) 1,268,287 242,901
+Gains on disposal of associates (ii) 44,395 –
+Donations (3,819) (2,530)
+Fair value gain on investment properties 4,289 –
+Net foreign exchange gains 103,613 107,389
+Losses on disposal of property, plant and equipment (35,828) (3,714)
+Gains on early termination of leasing contracts 13,499 1,462
+Debt forgiveness 14,324 –
+Others (3,044) 2,522
+1,917,144 538,829
+(i) During the year ended 31 December 2025, the Group disposed its interests in certain subsidiaries to third 
+parties and lost control over these subsidiaries and these subsidiaries became associates of the Group. The 
+Group recognised net gain amounted RMB937,640,000 based on cash consideration of RMB50,000,000, 
+the fair value of the associates amounted RMB823,000,000 on disposal date and the carrying amount of 
+net liabilities of these subsidiaries amounted RMB64,640,000.
+During the year ended 31 December 2025, certain subsidiaries of the Group issued new equity interests 
+to third parties and these subsidiaries were no longer controlled by the Group and became associates and 
+joint venture to the Group. The Group recognised net gain amounted RMB330,647,000 on disposal of 
+subsidiaries based on the fair value of associates as at disposal date amounted RMB378,166,000 and the 
+carrying amount of net assets of these subsidiaries amounted RMB47,519,000.
+(ii) During the year ended 31 December 2025, the Group disposed its interests in certain associates to 
+third parties. The Group recognised net gain amounted RMB44,395,000 based on cash consideration of 
+RMB349,175,000, and the carrying amount of these associate amounted RMB304,780,000 on disposal 
+date.
+
+[PDF PAGE 40]
+40
+7 INCOME TAX EXPENSES
+(i) Cayman Islands
+The Company was redomiciled in the Cayman Islands in 2014 as an exempted company with limited 
+liability, and is exempted from Cayman Islands income tax under the current tax laws of the Cayman 
+Islands. In addition, no Cayman Islands withholding tax is imposed upon any payments of dividends.
+(ii) British Virgin Islands
+Under the current laws of the British Virgin Islands, entities incorporated in British Virgin Islands are not 
+subject to tax on their income or capital gains.
+(iii) Hong Kong
+Entities incorporated in Hong Kong are subject to Hong Kong profits tax of which the tax rate is 8.25% 
+(2024: 8.25%) for assessable profits in the first HKD2 million (2024: HKD2 million) and the remaining 
+assessable profits are taxed at 16.5% (2024: 16.5%).
+(iv) Singapore
+Entities incorporated in Singapore are subject to income tax at a rate of 17% for the year ended 31 
+December 2025 (2024: 17%).
+(v) Malaysia
+Malaysia income tax rate is 24% for the year ended 31 December 2025 (2024: 24%). In the case that the 
+paid-up capital is Malaysian Ringgit (“MYR”) 2.5 million or less, and the gross income from business is 
+not more than MYR50 million, the income tax rate on the first MYR0.15 million chargeable income is 
+15%, the income tax rate on the next MYR0.45 million chargeable income is 17% and the part in excess 
+of MYR0.6 million is 24%.
+(vi) Saudi Arabia
+Enterprises incorporated in Saudi Arabia are subject to income tax rate of 20% for the year ended 31 
+December 2025 (2024: 20%) on foreign ownership portion.
+(vii) The United Arab Emirates
+Enterprises incorporated in the United Arab Emirates are subject to UAE corporate tax at a rate of 9% 
+(2024: 9%) on taxable income exceeding AED0.375 million.
+(viii) PRC corporate income tax (“CIT”)
+The income tax provision of the Group in respect of its operations in Chinese Mainland was subject to 
+statutory tax rate of 25% on the assessable profits, based on the existing legislation, interpretations and 
+practices in respect thereof.
+Some of the subsidiaries were qualified as “High and New Technology Enterprises” (“HNTEs”) under the 
+relevant PRC laws and regulations. Accordingly, these entities were entitled to a preferential income tax 
+rate of 15% in 2025.
+(ix) PRC Withholding Tax (“WHT”)
+According to the applicable PRC tax regulations, dividends distributed by a company established in the 
+PRC to a foreign investor with respect to profits derived after 1 January 2008 are generally subject to 
+a 10% WHT. If a foreign investor incorporated in Hong Kong meets the conditions and requirements 
+under the double taxation treaty arrangement entered into between the PRC and Hong Kong, the relevant 
+withholding tax rate will be reduced from 10% to 5%.
+
+[PDF PAGE 41]
+41
+During the year ended 31 December 2025, no deferred income tax liability on WHT was accrued as at the 
+end of each reporting period because the subsidiaries of the Group were accumulated losses making in 
+these periods (2024: nil).
+The Group shall be subject to withholding tax in respect of the taxable income derived from the provision 
+of technical services between the subsidiaries across the countries, the applicable tax rate is 25% applied 
+with a deemed profit rate according to the PRC tax regulation.
+The income tax expenses of the Group is analysed as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Current income tax (32,548) (20,020)
+Deferred income tax (89,852) 13,102
+Income tax expenses (122,400) (6,918)
+The tax on the Group’s loss before tax differs from the theoretical amount that would arise using the 
+weighted average tax rate applicable to losses of the consolidated entities as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Loss before tax (1,659,602) (4,299,666)
+Tax calculated at statutory tax rates applicable to each group entity 441,060 669,983
+Tax effects of:
+Super deduction for research and development expenses (a) 117,986 298,779
+Income not subject to tax 189,382 302,025
+Associates and joint ventures’ results reported net of tax (166,508) (47,647)
+Expenses not deductible for tax purpose (b) (29,624) (40,793)
+Tax losses for which no deferred income tax asset was 
+recognised (c) (506,060) (949,931)
+Other temporary difference for which no deferred income tax asset 
+ was recognised (12,362) (82,387)
+Accrued withholding tax (10,907) (14,468)
+Reversal of previously recognised deferred tax assets for tax 
+ losses and temporary differences (126,716) (143,713)
+Others (18,651) 1,234
+Tax expenses (122,400) (6,918)
+The Group has operation mainly in Chinese Mainland, and Hong Kong. It is within the scope of the 
+OECD Pillar Two model rules. As of the reporting date, there is no public announcement in Chinese 
+Mainland. In Hong Kong, the Inland Revenue (Amendment) (Minimum Tax for Multinational Enterprise 
+Groups) Ordinance 2025 was enacted on 6 June 2025, effectively implementing the Income Inclusion 
+Rule (IIR) and the Hong Kong Minimum Top-up Tax (HKMTT) for fiscal years beginning on or after 1 
+January 2025. Given the Group’s current revenue levels and tax loss position, the Group does not meet 
+the “in-scope MNE group” criteria under the Hong Kong Ordinance. Accordingly, there is no current 
+tax exposure or mandatory notification requirement via the IRD’s Pillar Two requirement. The Group 
+continues to apply the exception to recognising and disclosing information about deferred tax assets 
+and liabilities related to Pillar Two income taxes, as provided in the amendments to IAS 12 issued in 
+November 2023.
+
+[PDF PAGE 42]
+42
+In addition, since the Pillar Two legislation in Chinese Mainland was not enacted as at the reporting date, 
+and due to the uncertainty of the announcement of the legislation and the complexities in applying the 
+legislation and calculating GloBE income, the Group is in the process of assessing its exposure to the 
+Pillar Two legislation for when it comes into effect.
+(a) Super deduction for research and development expenses
+According to the relevant laws and regulations promulgated by the State Taxation Administration 
+of the PRC, for the period from 1 January 2022 to 30 September 2022, enterprises engaging in 
+qualified research and development activities are entitled to claim 175% of their research and 
+development expenses so incurred as tax deductible expenses when determining their assessable 
+profits for that year; for the period from 1 October 2022 to 31 December 2027, enterprises 
+engaging in qualified research and development activities are entitled to claim 200% of their 
+research and development expenses so incurred as tax deductible expenses when determining their 
+assessable profits for that year (“Super Deduction”).
+(b) Expenses not deductible for tax purpose
+Expenses not deductible for tax purpose include share base payment expenses, business 
+entertainment expenses exceeding threshold, employee commercial insurance expenses, 
+non-deductible donations etc.
+(c) Tax losses for which no deferred income tax assets was recognised
+The Group only recognised deferred income tax assets for cumulative tax losses if it is probable 
+that future taxable amounts will be available to utilize those tax losses. Management will continue 
+to assess the recognition of deferred income tax assets in future reporting periods. As at 31 
+December 2025, the Group did not recognise deferred income tax assets of RMB2,963,244,000 
+(2024: RMB3,188,508,000). The expiration dates of unused tax losses for which no deferred tax 
+asset has been recognised are as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+2026 446,108 448,986
+2027 901,166 906,661
+2028 1,431,748 1,454,641
+2029 1,903,464 2,373,852
+2030 1,498,271 1,294,693
+2031 992,815 1,469,986
+2032 1,791,330 2,407,531
+2033 1,739,205 2,385,798
+2034 1,753,731 3,247,401
+2035 1,568,194 –
+Indefinitely 3,103,895 2,478,759
+17,129,927 18,468,308
+
+[PDF PAGE 43]
+43
+8 LOSS PER SHARE
+Basic
+The basic loss per share is calculated by dividing the loss attributable to equity holders of the Company by 
+the weighted average number of ordinary shares (excluding treasury shares) issued during the year ended 31 
+December 2025:
+Year ended 31 December
+2025 2024
+Loss attributable to equity holders of the Company (RMB’000) (1,765,929) (4,278,383)
+Weighted average number of ordinary shares in issue (thousand) 37,090,891 33,371,312
+Basic loss per share (expressed in RMB per share) (0.05) (0.13)
+Diluted
+Diluted loss per share is calculated by adjusting the weighted average number of ordinary shares outstanding 
+to assume conversion of all dilutive potential ordinary shares. The Company has three categories of dilutive 
+potential ordinary shares: preferred shares issued by a subsidiary of the Company, restricted share units 
+(“RSUs”) and share options. As the Group incurred losses for the year ended 31 December 2025, the dilutive 
+potential ordinary shares were not included in the calculation of diluted loss per share as their inclusion would 
+be anti-dilution. Accordingly, diluted loss per share for the year ended 31 December 2025 is the same as basic 
+loss per share of the respective year (2024: same as basic loss per share of the respective year).
+9 DIVIDENDS
+No dividend had been declared or paid by the Company during the year ended 31 December 2025 (2024: nil).
+10 PROPERTY, PLANT AND EQUIPMENT
+Buildings and 
+facilities (a)
+Property 
+improvement
+Large-scale 
+electronic 
+equipment
+Computers 
+and related 
+equipment
+Office 
+equipment 
+and furniture
+Transportation 
+equipment and 
+vehicles
+Other 
+equipment
+Construction 
+in progress Total
+RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000
+At 1 January 2025
+Cost 4,764,221 558,058 4,461,218 819,139 65,039 63,396 39,338 31,954 10,802,363
+Accumulated depreciation (407,583) (324,360) (2,123,370) (575,105) (38,949) (41,393) (14,211) – (3,524,971)
+Net book amount 4,356,638 233,698 2,337,848 244,034 26,090 22,003 25,127 31,954 7,277,392
+Year ended 
+ 31 December 2025
+Opening net book amount 4,356,638 233,698 2,337,848 244,034 26,090 22,003 25,127 31,954 7,277,392
+Additions 268 – 1,834,569 201,960 1,212 4,191 1,867 291,533 2,335,600
+Internal transfer – 13,016 – 1,066 – 2,170 – (16,252) –
+Transfer to investment 
+properties (2,503,101) – – – – – – – (2,503,101)
+Disposals – (11,455) (94,986) (26,328) (1,416) (3,649) (1,806) (812) (140,452)
+Disposals of subsidiaries – (2,725) (23,960) (26,487) (422) (12,160) (41) – (65,795)
+Depreciation charge (105,501) (62,833) (688,593) (139,706) (8,309) (7,082) (4,688) – (1,016,712)
+Currency translation 
+differences (463) (368) (115) (69) (47) (31) (354) (2,229) (3,676)
+Closing net book amount 1,747,841 169,333 3,364,763 254,470 17,108 5,442 20,105 304,194 5,883,256
+
+[PDF PAGE 44]
+44
+Buildings and 
+facilities (a)
+Property 
+improvement
+Large-scale 
+electronic 
+equipment
+Computers 
+and related 
+equipment
+Office 
+equipment 
+and furniture
+Transportation 
+equipment and 
+vehicles
+Other 
+equipment
+Construction 
+in progress Total
+RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000
+At 31 December 2025
+Cost 2,121,427 556,526 5,768,789 738,926 58,364 20,201 31,591 304,194 9,600,018
+Accumulated depreciation (373,586) (387,193) (2,404,026) (484,456) (41,256) (14,759) (11,486) – (3,716,762)
+Net book amount 1,747,841 169,333 3,364,763 254,470 17,108 5,442 20,105 304,194 5,883,256
+Buildings and 
+facilities (a)
+Property 
+improvement
+Large-scale 
+electronic 
+equipment
+Computers 
+and related 
+equipment
+Office 
+equipment and 
+furniture
+Transportation 
+equipment and 
+vehicles
+Other 
+equipment
+Construction 
+in progress Total
+RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000 RMB’000
+At 1 January 2024
+Cost 4,567,174 412,066 3,986,353 702,503 75,904 60,317 36,727 126,667 9,967,711
+Accumulated depreciation (277,109) (251,896) (1,503,121) (477,220) (34,839) (35,023) (9,796) – (2,589,004)
+Net book amount 4,290,065 160,170 2,483,232 225,283 41,065 25,294 26,931 126,667 7,378,707
+Year ended 
+ 31 December 2024
+Opening net book amount 4,290,065 160,170 2,483,232 225,283 41,065 25,294 26,931 126,667 7,378,707
+Additions – 46,920 533,456 173,575 8,805 8,107 4,410 278,955 1,054,228
+Internal transfer 198,042 126,081 48,011 763 – 671 – (373,568) –
+Disposals – (138) (1,468) (2,381) (7,206) (1,719) (423) (136) (13,471)
+Disposals of subsidiaries – (27,007) (30,416) (4,734) (5,738) – – – (67,895)
+Depreciation charge (130,114) (72,464) (695,147) (147,509) (11,547) (9,592) (4,781) – (1,071,154)
+Currency translation 
+differences (1,355) 136 180 (963) 711 (758) (1,010) 36 (3,023)
+Closing net book amount 4,356,638 233,698 2,337,848 244,034 26,090 22,003 25,127 31,954 7,277,392
+At 31 December 2024
+Cost 4,764,221 558,058 4,461,218 819,139 65,039 63,396 39,338 31,954 10,802,363
+Accumulated depreciation (407,583) (324,360) (2,123,370) (575,105) (38,949) (41,393) (14,211) – (3,524,971)
+Net book amount 4,356,638 233,698 2,337,848 244,034 26,090 22,003 25,127 31,954 7,277,392
+
+[PDF PAGE 45]
+45
+(a) As at 31 December 2025, certain buildings with carrying amount of RMB1,537,922,000 (31 December 
+2024: RMB4,142,979,000) were pledged as collaterals for the Group’s borrowings (Note 14).
+(b) Depreciation charges were expensed off in the following categories in the consolidated income 
+statements:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+– Cost of sales 256,816 213,005
+– Selling expenses 12,644 16,627
+– Administrative expenses 145,301 202,533
+– Research and development expenses 601,951 638,989
+1,016,712 1,071,154
+(c) Impairment assessment for property, plant and equipment, right-of-use assets and intangible assets
+According to IAS 36 “Impairment of assets”, when any indicators of impairment are identified, property, 
+plant and equipment are reviewed for impairment based on each cash generating unit (“CGU”). As at 31 
+December 2025, the Group continue to incur net losses as the Group was still in the stage of expanding 
+its business and operations in the rapidly growing AI software market, and are continuously investing in 
+research and development. The Group considered two CGUs (including CGU of core business and CGU 
+of Tetras.AI Shenzhen) had impairment indicators and therefore performed impairment test on them.
+For the purpose of impairment review, the carrying amount of these CGUs were compared to the 
+corresponding recoverable amount, which were based predominantly on value-in-use. Value-in-use 
+calculations use pre-tax cash flow projections based on financial budgets approved by management 
+covering a five-year period. The accuracy and reliability of the information is reasonably assured by 
+the appropriate budgeting, forecast and control process established by the Group. Management engaged 
+an independent external valuer to assess the recoverable amount of each of the CGUs respectively and 
+leveraged management’s extensive experiences in the AI industry and provided forecast based on past 
+performance and their expectation of future business plans and market developments. As a result, no 
+impairment loss on these CGUs is required to be recognised for the year ended 31 December 2025 (2024: 
+nil).
+The following table sets out the key assumptions adopted by management in the impairment assessment:
+As at 31 December
+2025 2024
+Gross margin rate (%) 37% to 98% 27% to 65%
+Annual revenue growth rate (%) 6% to 25% 5% to 49%
+Pre-tax discount rate (%) 18% to 21% 17% to 22%
+The budgeted gross margin rate and budgeted annual revenue growth rate used in the impairment testing 
+were determined by management based on past performance and its expectation for market development. 
+Discount rates reflect market assessments of the time value and the specific risks relating to the industry. 
+These estimates and judgments may be affected by unexpected changes in the future market or economic 
+conditions. The directors of the Company have considered the reasonably possible changes to the key 
+assumptions as adopted in the impairment assessments and considered will not result in any impairment 
+charge to be recognised.
+
+[PDF PAGE 46]
+46
+11 TRADE, OTHER RECEIVABLES AND PREPAYMENTS
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Notes receivables (a) 56,724 70,206
+Provision for impairment (49,019) (49,033)
+7,705 21,173
+Trade receivables (b)
+ – Due from related parties 368,451 13,852
+ – Due from third parties 5,526,893 6,959,714
+Gross trade receivables 5,895,344 6,973,566
+Provision for impairment (3,384,897) (4,581,875)
+2,510,447 2,391,691
+Other receivables (c)
+– Refundable deposits (i) 30,040 81,565
+– Loans to related parties (ii) 28,287 114,430
+– Payments on behalf of customers (iii) 369,348 412,814
+– Others (iv) 346,757 210,304
+Gross other receivables 774,432 819,113
+Provision for impairment (v) (311,743) (396,712)
+462,689 422,401
+Prepayments 895,462 1,448,577
+Input VAT to be deducted 427,780 784,115
+Total trade, other receivables and prepayments 4,304,083 5,067,957
+As at 31 December 2025, the fair value of trade and other receivables of the Group, except for the prepayments 
+and input VAT to be deducted which are not financial assets, approximated their carrying amounts.
+The carrying amounts of the Group’s notes receivables, trade, other receivables, prepayments and input VAT to 
+be deducted, excluding provision for impairment, are denominated in the following currencies:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+– RMB 7,561,559 9,544,130
+– USD 264,853 340,050
+– SAR 82,550 41,275
+– MYR 54,950 64,410
+– SGD 30,544 43,920
+– HKD 30,212 26,126
+– JPY 3,864 17,450
+– Others 21,210 18,216
+8,049,742 10,095,577
+
+[PDF PAGE 47]
+47
+(a) Notes receivables
+The aging analysis of the notes receivables based on date of revenue recognition is as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Bank’s notes receivables
+ – Up to 6 months 7,624 20,743
+Commercial notes receivables
+ – Up to 6 months 100 463
+ – Over 1 year 49,000 49,000
+56,724 70,206
+(b) Trade receivables
+The credit terms given to trade customers are determined on an individual basis with normal credit period 
+mainly around 90 to 270 days. The aging analysis of the trade receivables based on date of revenue 
+recognition is as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Up to 6 months 1,896,217 863,425
+6 months to 1 year 309,726 278,411
+1 to 2 years 235,122 262,468
+2 to 3 years 118,721 1,748,177
+More than 3 years 3,335,558 3,821,085
+5,895,344 6,973,566
+Due to the short-term nature of the current receivables, their carrying amounts are considered to be 
+approximately the same as their fair values.
+The Group does not hold any collateral as security over these debtors.
+As at 31 December 2025, the loss allowance of individually impaired trade receivables is determined as 
+follows:
+Individual
+Trade 
+receivables
+Expected 
+credit loss 
+rate
+Loss 
+allowance Reason
+RMB’000 % RMB’000
+Trade receivables 495,833 97.74% (484,640) The likelihood of recovery
+As at 31 December 2025, the loss allowance of collectively impaired trade receivables is determined as 
+follows:
+At 31 December 2025
+Up to 6 
+months
+6 months 
+to 1 year
+1 to 2 
+years
+2 to 3 
+years
+3 to 4 
+years
+Over 4 
+years Total
+Expected credit loss rate 2.95% 5.79% 15.44% 56.47% 82.18% 100.00% N.A.
+Gross carrying amount – trade 
+ receivables (RMB’000) 1,882,646 309,726 230,398 118,399 751,893 2,106,449 5,399,511
+Loss allowance (RMB’000) (55,553) (17,928) (35,566) (66,857) (617,904) (2,106,449) (2,900,257)
+
+[PDF PAGE 48]
+48
+As at 31 December 2024, the loss allowance of individually impaired trade receivables is determined as 
+follows:
+Individual
+Trade 
+receivables
+Expected 
+credit loss 
+rate
+Loss 
+allowance Reason
+RMB’000 % RMB’000
+Trade receivables 1,214,060 77.16% (936,767) The likelihood of recovery
+As at 31 December 2024, the loss allowance of collectively impaired trade receivables is determined as 
+follows:
+At 31 December 2024
+Up to 6 
+months
+6 months 
+to 1 year
+1 to 2 
+years
+2 to 3 
+years
+3 to 4 
+years
+Over 4 
+years Total
+Expected credit loss rate 6.15% 15.80% 41.21% 64.00% 81.55% 100.00% N.A.
+Gross carrying amount – trade 
+ receivables (RMB’000) 860,087 278,278 262,169 1,474,035 2,103,532 781,405 5,759,506
+Loss allowance (RMB’000) (52,886) (43,963) (108,031) (943,395) (1,715,428) (781,405) (3,645,108)
+(c) Other receivables
+(i) Refundable deposits
+Refundable deposits consist primarily of security deposits for rental and projects.
+(ii) Loans to related parties
+The loans to related parties represent the loans granted to related parties for their general business 
+operations by the Group. These loans were repayable on demand.
+(iii) Payments on behalf of customers
+Payments on behalf of customers represent receivables arising from the sales transactions the 
+Group acting as an agent. The Group assessed whether revenue should be reported on a gross 
+or net basis for each sales transaction. For certain sales transactions where the Group acts as 
+agent, revenue is recorded on a net basis and the receivables arising from these transactions were 
+recorded in other receivables.
+(iv) Others
+Others primarily include staff advance and receivables due from staff for the exercise of restricted 
+shares and share options.
+(v) Impairment and risk exposure
+For other receivables, management makes periodic collective assessments as well as individual 
+assessment on the recoverability of other receivables based on historical settlement records and 
+past experiences incorporating forward-looking information. Impairment on other receivables is 
+measured as either 12-month expected credit losses or lifetime expected credit loss, depending on 
+whether there has been a significant increase in credit risk since initial recognition. If a significant 
+increase in credit risk of a receivable has occurred since initial recognition, then impairment is 
+measured as lifetime expected credit losses.
+
+[PDF PAGE 49]
+49
+12 FINANCIAL ASSETS AT FAIR VALUE THROUGH PROFIT OR LOSS
+Financial assets mandatorily measured at FVPL include the following:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Non-current assets
+Debt investments (a)
+ – Unlisted 3,893,508 3,196,029
+ – Investments in bonds 1,330,278 1,270,576
+ – Fund 1,001,587 747,755
+Equity investments (b)
+ – Listed 865,737 782,940
+ – Unlisted 419,151 366,196
+7,510,261 6,363,496
+Current assets
+Structured deposits (c) 571,969 701,087
+8,082,230 7,064,583
+(a) Debt investments
+The movement of the debt investments is analysed as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+At beginning of the year 5,214,360 5,766,378
+Additions 829,783 420,135
+Disposals (34,623) (526,911)
+Transfer to equity investments(i) (277,440) (663,622)
+Fair value changes 555,922 172,070
+Currency translation differences (62,629) 46,310
+At end of the year 6,225,373 5,214,360
+(i) One of the companies invested by the Group was listed on the Hong Kong Stock Exchange in 
+2025, the preferred shares held by the Group was converted into ordinary shares, accordingly the 
+investment was transferred from debt investment to equity investment.
+The Group made investments in various industry companies in the form of convertible redeemable 
+preferred share, ordinary shares with preferential rights and convertible loans. The Group has 
+the right to require and demand the investees to redeem all of the investments held by the Group 
+at guaranteed predetermined amount upon redemption events which are out of control of the 
+investees. Hence these investments are accounted for as debt instruments and are measured as 
+financial assets at fair value through profit or loss. In addition, the Group also made investments in 
+certain investment funds as a limited partner, these investments were included in debt investments, 
+depending on the investment contract terms.
+
+[PDF PAGE 50]
+50
+(b) Equity investments
+The movement of the equity investments is analysed as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+At beginning of the year 1,149,136 761,097
+Additions 301,452 63,950
+Transfer from debt investments 277,440 663,622
+Disposals (483,647) (323,373)
+Fair value changes 54,780 (28,404)
+Currency translation differences (14,273) 12,244
+At end of the year 1,284,888 1,149,136
+The fair values of the listed securities are determined based on the closing price quoted in active markets. 
+The fair values of the unlisted securities are measured using a valuation technique with unobservable 
+inputs.
+(c) Structured deposits
+Structured deposits represented the wealth management products issued by reputable banks in Chinese 
+Mainland or in Hong Kong. The wealth management products were non-principal protected with maturity 
+of less than 1 year.
+The movement of the wealth management products is analysed as follows:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+At beginning of the year 701,087 521,805
+Additions 8,859,000 3,529,000
+Disposals (9,020,269) (3,369,048)
+Fair value changes 32,151 19,330
+At end of the year 571,969 701,087
+(d) Amounts recognised in the consolidated income statement
+During the year ended 31 December 2025, the following gains were recognised in the consolidated 
+income statement:
+Year ended 31 December
+2025 2024
+RMB’000 RMB’000
+Fair value (losses)/gains on investments in:
+Debt investments 555,922 172,070
+Equity investments 54,780 (28,404)
+Derivative financial instrument 3,143 –
+Structured deposits 32,151 19,330
+645,996 162,996
+
+[PDF PAGE 51]
+51
+13 TRADE AND OTHER PAYABLES AND LONG-TERM PAYABLES
+(a) Trade and other payables
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Note payables 29 –
+Trade payables
+– Third parties 679,482 462,873
+– Related parties 2,522 9,091
+Long-term payables due within 1 year – 22,333
+Other payables
+– Third parties 624,129 539,049
+– Related parties 52,181 7,452
+Payables on purchase of property, plant and equipment and 
+ intangible assets 357,103 269,557
+Accrued taxes other than income tax 60,923 80,143
+Staff salaries and welfare payables 287,596 362,926
+VAT payables related to contract liabilities 21,482 27,334
+Accrued warranty expenses 4,911 7,996
+2,090,358 1,788,754
+(i) The carrying amounts of trade and other payables are considered to be approximated to their fair 
+values, due to their short-term nature.
+(ii) Aging analysis of the note and trade payables based on purchase date at the end of 31 December 
+2025 are as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Up to 6 months 540,971 272,711
+6 months to 1 year 13,612 12,341
+1 to 2 years 27,098 68,551
+More than 2 years 100,352 118,361
+682,033 471,964
+(b) Long-term payables
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Long-term payables – 36,190
+Long-term payables represented the obligations to pay for goods and licensed intellectual properties with 
+payments due more than one year. The fair values of long-term payables as at 31 December 2025 were nil 
+(2024: RMB35,107,000).
+
+[PDF PAGE 52]
+52
+14 BORROWINGS
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Non-Current
+Bank borrowing – secured (a) 3,611,939 3,719,739
+Bank borrowing – guaranteed (b) 1,156,745 1,133,685
+Bank borrowing – unsecured and unguaranteed 39,400 40,000
+Less: current portion of non-current borrowings (1,097,749) (211,960)
+3,710,335 4,681,464
+Current
+Short-term borrowing – guaranteed (b) 330,500 473,350
+Short-term borrowing – unsecured and unguaranteed 582,266 550,234
+Current portion of non-current borrowings 1,097,749 211,960
+Interest payable 3,735 4,790
+2,014,250 1,240,334
+Total 5,724,585 5,921,798
+(a) Secured bank borrowings
+As at 31 December 2025, the Group had non-current bank borrowings with carrying amount of 
+RMB29,760,000 (31 December 2024: RMB129,360,000) which were secured by the Group’s restricted 
+deposits of USD5,896,000 (equivalent to RMB41,441,000) (31 December 2024: USD20,900,000 
+(equivalent to RMB161,514,000)).
+As at 31 December 2025, the Group had a non-current bank borrowing with carrying amount of 
+RMB1,932,039,000 (31 December 2024: RMB1,930,239,000) which was pledged by equity interest of 
+Shanghai Yuqin Information Technology Co., Ltd. (“Shanghai Yuqin”) and joint liability guarantee from 
+Shanghai Yuqin and Shanghai SenseTime. In addition, certain buildings (Note 10(a)) with a carrying 
+amount of RMB953,089,000 and land use right with a carrying amount of RMB60,455,000 (31 December 
+2024: buildings (Note 10(a)) with a carrying amount of RMB1,013,970,000 and land use right with a 
+carrying amount of RMB61,811,000 respectively were also pledged as collaterals for this bank borrowing.
+As at 31 December 2025, the Group had a non-current bank borrowing with carrying amount of 
+RMB1,650,140,000 which was pledged by certain buildings with a carrying amount of RMB584,833,000 
+(Note 10(a)) in property, plant and equipment and RMB2,512,134,000 in investment properties 
+respectively as a collateral for the Group’s borrowings. (31 December 2024: bank borrowing with 
+carrying amount of RMB1,660,140,000 which was pledged by certain buildings (Note 10(a)) with a 
+carrying amount of RMB3,129,009,000 as a collateral for the Group’s borrowings).
+(b) Guaranteed bank borrowings
+As at 31 December 2025, the Group had non-current bank borrowings with carrying amount of 
+RMB140,000,000 (31 December 2024: RMB142,000,000) for public rental housing, which was 
+guaranteed by a state-owned property developer before the property registration is ready. After that, this 
+borrowing will be guaranteed by Shanghai SenseTime and be pledged by the public rental housing itself 
+as a collateral.
+As at 31 December 2025, the Group had non-current bank borrowings with carrying amount of 
+RMB578,725,000 (31 December 2024: RMB581,985,000) which were guaranteed by SenseTime Group 
+Limited.
+
+[PDF PAGE 53]
+53
+As at 31 December 2025, the Group had non-current bank borrowings with carrying amount of 
+RMB109,200,000 (31 December 2024: RMB109,700,000) which were guaranteed by Beijing SenseTime.
+As at 31 December 2025, the Group had non-current bank borrowings with carrying amount of 
+RMB328,820,000 which were guaranteed by Shanghai SenseTime.
+As at 31 December 2025, the Group had current bank borrowings with carrying amount of 
+RMB320,000,000 (31 December 2024: RMB465,350,000) which were guaranteed by SenseTime Group 
+Limited.
+As at 31 December 2025, the Group had current bank borrowings with carrying amount of 
+RMB10,500,000 which were guaranteed by Shanghai SenseTime.
+The Group’s borrowings are all denominated in RMB.
+The exposure of the Group’s borrowings to interest rate changes and the contractual repricing dates or 
+maturity date whichever is earlier were as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+6 months or less 1,277,936 966,915
+Between 6 and 12 months 732,579 268,630
+Between 1 and 2 years 570,970 1,093,809
+Between 2 and 5 years 1,460,725 1,866,514
+Over 5 years 1,678,640 1,721,140
+5,720,850 5,917,008
+The aggregate principal amounts of bank borrowings and applicable interest rates are as follows:
+As at 31 December 2025 As at 31 December 2024
+Amount Interest rate Amount Interest rate
+RMB’000 Per annum RMB’000 Per annum
+RMB bank borrowings 5,720,850 1.48%~3.80% 5,917,008 1.95%~3.80%
+As at 31 December 2025, the weighted average effective interest rate for borrowings was 2.52% (2024: 
+2.89%).
+The fair values of current borrowings equal to their carrying amount as the discounting impact is not 
+significant.
+The fair values of non-current borrowings as at 31 December 2025 were disclosed as follows:
+As at 31 December
+2025 2024
+RMB’000 RMB’000
+Non-current borrowings 3,723,466 4,663,793
+15 EVENTS AFTER THE BALANCE SHEET DATE
+As at 31 December 2025, there were no significant events after the balance sheet date for the Group.
+
+[PDF PAGE 54]
+54
+PURCHASE, SALE OR REDEMPTION OF THE COMPANY’S LISTED SECURITIES
+During the Reporting Period and up to the date of this announcement, neither the Company nor 
+any of its subsidiaries or consolidated affiliated entities purchased, sold or redeemed any of the 
+Company’s securities listed on the Stock Exchange (including any sale of treasury shares).
+EVENTS AFTER THE REPORTING PERIOD
+Save as disclosed in this announcement, there was no other significant events that may affect the 
+Group since the end of the Reporting Period.
+COMPLIANCE WITH THE CORPORATE GOVERNANCE CODE
+The Company is committed to achieving high standards of corporate governance with a view 
+to safeguarding the interests of the Shareholders. The principles of the Company’s corporate 
+governance are to promote effective internal control measures, to enhance transparency of the work 
+of the Board, and to strengthen accountability to all the Shareholders.
+During the Reporting Period, the Company has complied with the corporate governance 
+requirements under the Corporate Governance Code set out in Part 2 of Appendix C1 to the Listing 
+Rules, save for code provision C.2.1 as discussed below.
+Pursuant to code provision C.2.1 of Part 2 of the Corporate Governance Code, companies listed on 
+the Stock Exchange are expected to comply with, but may choose to deviate from, the requirement 
+that the responsibilities between the chairman and the chief executive officer should be segregated 
+and should be performed by different individuals. The Company does not have a separate chairman 
+and chief executive officer, and Dr. Xu Li currently performs these two roles. The Board believes 
+that vesting the roles of both executive chairman of the Board and chief executive officer in the 
+same person has the benefit of ensuring consistent leadership within the Group and enables more 
+effective and efficient overall strategic planning for the Group. The Board considers that the 
+balance of power and authority for the present arrangement will not be impaired and this structure 
+will enable the Company to make and implement decisions promptly and effectively. The Board 
+will continue to review and consider splitting the roles of executive chairman of the Board and the 
+chief executive officer of the Company at a time when it is appropriate by taking into account the 
+circumstances of the Group as a whole.
+As disclosed in the announcement of the Company dated March 14, 2025, as a result of the 
+resignation of Mr. Li Wei, the Company was temporarily unable to comply with Rules 3.10(1) 
+and 3.10A (in respect of having at least three independent non-executive Directors representing 
+at least one-third of the Board), and the requirements under Rules 3.21 (in respect of the audit 
+committee having at least three members with a majority of members comprising independent non￾executive Directors), 3.25 (in respect of the remuneration committee having an independent non￾executive Director as chairman with a majority of members comprising independent non-executive 
+Directors), 3.27A and 8A.28 (in respect of the nomination committee having an independent non￾executive Director as chairman with a majority of members comprising independent non-executive 
+Directors).
+
+[PDF PAGE 55]
+55
+As disclosed in the announcement of the Company dated May 30, 2025, Mr. Chiu Duncan was 
+appointed as an independent non-executive Director of the Company. Following the appointment 
+of Mr. Chiu Duncan as an independent non-executive Director and the aforementioned changes 
+to the composition of the Board committees, the Company has re-complied with the relevant 
+requirements under Listing Rules.
+FINAL DIVIDEND
+The Board has resolved not to recommend the payment of a final dividend for the year ended 
+December 31, 2025.
+ANNUAL GENERAL MEETING
+The AGM will be held on June 24, 2026. A notice convening the AGM will be published and 
+despatched to the Shareholders (if requested) in the manner required by the Listing Rules in due 
+course.
+CLOSURE OF THE REGISTER OF MEMBERS
+For the purposes of determining the entitlement to attend and vote at the AGM, the register 
+of members of the Company will be closed from June 18, 2026 to June 24, 2026 (both days 
+inclusive), during which period no transfer of shares of the Company will be registered. In order to 
+be eligible to attend and vote at the AGM, all properly completed transfer forms accompanied by 
+the relevant share certificates must be lodged with the Company’s branch share registrar in Hong 
+Kong, Computershare Hong Kong Investor Services Limited, at Shops 1712-1716, 17th Floor, 
+Hopewell Centre, 183 Queen’s Road East, Wan Chai, Hong Kong, for registration not later than 
+4:30 p.m. on June 17, 2026.
+DIRECTORS’ SECURITIES TRANSACTIONS
+The Board has adopted the Model Code as the code of conduct regulating Directors’ dealings 
+in securities of the Company. In response to specific enquiries made by the Board, all Directors 
+confirmed that they have complied with the provisions of the Model Code during the Reporting 
+Period and up to the date of this announcement.
+SCOPE OF WORK OF THE AUDITOR
+The figures in respect of the Group’s consolidated balance sheet, consolidated income 
+statement, consolidated statement of comprehensive loss, consolidated statement of changes in 
+equity, consolidated statement of cash flows and the related notes thereto for the year ended 
+December 31, 2025 as set out in this announcement have been agreed by the Group’s auditor, 
+PricewaterhouseCoopers, to the amounts set out in the Group’s audited consolidated financial 
+statements for the year. The work performed by PricewaterhouseCoopers in this respect did not 
+constitute an assurance engagement in accordance with Hong Kong Standards on Auditing, Hong 
+Kong Standards on Review Engagements or Hong Kong Standards on Assurance Engagements 
+issued by the Hong Kong Institute of Certified Public Accountants and consequently no assurance 
+has been expressed by PricewaterhouseCoopers on announcement.
+
+[PDF PAGE 56]
+56
+PUBLICATION OF THE ANNUAL RESULTS ANNOUNCEMENT AND ANNUAL REPORT
+This annual results announcement has been published on the website of the Stock Exchange at 
+www.hkexnews.hk and the website of the Company at www.sensetime.com. The annual report of 
+the Company for the year ended December 31, 2025 will be published on the aforesaid websites of 
+the Stock Exchange and the Company and will be despatched to the Shareholders (if requested) in 
+due course.
+DEFINITIONS
+In this announcement, unless the context otherwise requires, the following expression shall have 
+the meanings set out below:
+“AGM” the annual general meeting for the year ended December 31, 2025 to be 
+held on June 24, 2026 or any adjournment thereof
+“Audit Committee” the audit committee of the Company
+“Auditor” PricewaterhouseCoopers, the independent auditor of the Company
+“Board” the board of Directors of the Company
+“Class A Share(s)” the class A ordinary shares of the Company with a par value of 
+US$0.000000025 each
+“Class B Share(s)” the class B ordinary shares of the Company with a par value of 
+US$0.000000025 each
+“Company” SenseTime Group Inc. (商湯集團股份有限公司), an exempted 
+company incorporated under the laws of Cayman Islands with limited 
+liability, the issued Class B Shares of which are listed on the Main 
+Board of the Stock Exchange (stock codes: 0020 (HKD Counter) and 
+80020 (RMB Counter))
+“Director(s)” the director(s) of the Company
+“Dr. Xu Li” Dr. Xu Li (徐立), the Company’s co-founder, executive Chairman 
+of the Board, executive Director, chief executive officer and a WVR 
+Beneficiary (within the meaning ascribed thereto under the Listing 
+Rules)
+“Group”, “SenseTime”
+ or “we”
+the Company and its subsidiaries and consolidated affiliated entities
+“HKD” or “HK$” Hong Kong Dollars, the lawful currency of Hong Kong
+“Hong Kong” Hong Kong Special Administrative Region of the PRC
+
+[PDF PAGE 57]
+57
+“IFRS” International Financial Reporting Standards
+“JPY” Japanese Yen, the lawful currency of Japan
+“Listing Rules” the Rules Governing the Listing of Securities on the Stock Exchange
+“Model Code” Model Code for Securities Transactions by Directors of Listed Issuers, 
+as set out in Appendix C3 of the Listing Rules
+“PRC” or “China” the People’s Republic of China
+“Reporting Period” the year ended December 31, 2025
+“RMB” Renminbi, the lawful currency of the PRC
+“SGD” Singapore Dollars, the lawful currency of Singapore
+“Share(s)” the Class A Shares and Class B Shares
+“Shareholder(s)” the holder(s) of Share(s)
+“Stock Exchange” The Stock Exchange of Hong Kong Limited
+“USD” or “US$” United States Dollars, the lawful currency of the United States
+By order of the Board
+SenseTime Group Inc.
+商湯集團股份有限公司
+Dr. Xu Li
+Executive Chairman
+Chief Executive Officer
+Hong Kong, March 24, 2026
+As at the date of this announcement, the executive Directors are Dr. Xu Li, Dr. Wang Xiaogang, 
+Dr. Lin Dahua, Mr. Yang Fan and Mr. Wang Zheng; the non-executive Director is Ms. Fan 
+Yuanyuan; and the independent non-executive Directors are Prof. Xue Lan, Mr. Lyn Frank Yee 
+Chon and Mr. Chiu Duncan.
+This announcement contains certain forward-looking statements. These forward-looking statements 
+are based on information currently available to the Group or the current belief, expectations and 
+assumptions of the Board. These forward-looking statements are subject to risks, uncertainties 
+and other factors beyond the Company’s control which may cause actual results or performance 
+to differ materially from those expressed or implied in such forward-looking statements. In light 
+of the risks and uncertainties, the inclusion of forward-looking statements in this announcement 
+should not be regarded as representations by the Board or the Company that the plans and 
+objectives will be achieved, and shareholders and investors of the Company should not place undue 
+reliance on such statements.

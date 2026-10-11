@@ -1,0 +1,3054 @@
+{
+  "issuerId": "I086",
+  "securityId": "S097",
+  "code": "00780.HK",
+  "name": "同程旅行",
+  "company": "同程旅行",
+  "asOf": "2026-10-09",
+  "price": 10.04,
+  "priceCurrency": "HKD",
+  "modelVersion": "tongcheng-full-cost-operating-EV-dida-cash-v1.0",
+  "targetPriceRoundingDecimals": 2,
+  "confidence": "中",
+  "deepResearchFile": "research/tongcheng_deep.md",
+  "nativeWorkbookQAFile": "qa/tongcheng_native_workbook_qa.json",
+  "status": "source-model-body-verified-pending-final-document-integration",
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 10.27825,
+      "60": 12.079417,
+      "120": 13.42434,
+      "250": 17.418409
+    },
+    "maSlope5Pct": {
+      "20": -3.499671,
+      "60": -1.748095,
+      "120": -2.533055,
+      "250": -1.418776
+    },
+    "priceVsMAPct": {
+      "20": -2.318002,
+      "60": -16.883404,
+      "120": -25.210473,
+      "250": -42.359832
+    },
+    "returnPct": {
+      "20": -7.123034,
+      "60": -22.650231,
+      "120": -45.761868,
+      "250": -55.322167
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 24.923129,
+    "low52w": 9.645,
+    "distanceFrom52wHighPct": -59.716134,
+    "distanceFrom52wLowPct": 4.095386,
+    "maxDrawdown52wPct": -60.644643,
+    "RSI14": 35.305609,
+    "ATR14": 0.340353,
+    "ATR14Pct": 3.389967,
+    "MACD": {
+      "DIF": -0.511588,
+      "DEA": -0.563295,
+      "histogram": 0.103415,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 6035266.2,
+      "20": 7995552.65,
+      "60": 12974667.9
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 1.017098,
+    "previous20MeanVolume": 8519674.5,
+    "upDownVolume20": {
+      "upVolume": 65727358,
+      "downVolume": 94183695,
+      "flatVolume": 0,
+      "upDays": 7,
+      "downDays": 13,
+      "ratio": 0.697863
+    },
+    "ranges": {
+      "20": {
+        "support": 9.645,
+        "resistance": 10.83,
+        "toSupportPct": -3.934263,
+        "toResistancePct": 7.868526,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 9.645,
+        "resistance": 14.57,
+        "toSupportPct": -3.934263,
+        "toResistancePct": 45.119522,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 12.382532,
+      "60": 17.862847,
+      "120": 17.921112,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -11.493161,
+      "60": -4.484227,
+      "120": -1.39128,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -18.918038,
+      "60": -43.793954,
+      "120": -43.97669,
+      "250": null
+    },
+    "returnPct": {
+      "20": -31.227945,
+      "60": -48.019496,
+      "120": -32.525621,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 24.923129,
+    "low52w": 9.645,
+    "distanceFrom52wHighPct": -59.716134,
+    "distanceFrom52wLowPct": 4.095386,
+    "maxDrawdown52wPct": -57.196819,
+    "RSI14": 24.182032,
+    "ATR14": 1.087109,
+    "ATR14Pct": 10.827775,
+    "MACD": {
+      "DIF": -1.868618,
+      "DEA": -1.794716,
+      "histogram": -0.147805,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 44839840.2,
+      "20": 66233250.8,
+      "60": 49182895.017
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.444485,
+    "previous20MeanVolume": 67890480.9,
+    "upDownVolume20": {
+      "upVolume": 504502244,
+      "downVolume": 820162772,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.615125
+    },
+    "ranges": {
+      "20": {
+        "support": 9.645,
+        "resistance": 15.216639,
+        "toSupportPct": -3.934263,
+        "toResistancePct": 51.560149,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 9.645,
+        "resistance": 24.923129,
+        "toSupportPct": -3.934263,
+        "toResistancePct": 148.238337,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": -4.145126,
+    "excess60Pct": -19.462328,
+    "industryBenchmark": "恒生科技（科技/互联网/硬件相关粗粒度参考，不代表专属行业）",
+    "industryExcess20Pct": -4.05987,
+    "industryExcess60Pct": -9.482212
+  },
+  "marketSources": [
+    {
+      "source": "Tencent qt",
+      "url": "https://qt.gtimg.cn/q=hk06690,hk00522,hk09618,hk01347,hkHSTECH,hk00700,hk09626,hk06618,hk09988,hk02382,hk09961,hk03690,hk00772,hk01024,hk00285,hk00300,hk06060,hk02015,hk09868,hk00780,hk01810,hk09866,hk00020,hk00268,hk03888",
+      "retrievedAt": "2026-10-10T09:16:12.163Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Sina quotes",
+      "url": "https://hq.sinajs.cn/list=rt_hk09888,rt_hk00241,rt_hk06690,rt_hk00522,rt_hk09618,rt_hk01347,rt_hk00700,rt_hk09626,rt_hk06618,rt_hk09988,rt_hk02382,rt_hk09961,rt_hk03690,rt_hk00772,rt_hk01024,rt_hk00285,rt_hk00300,rt_hk06060,rt_hk02015,rt_hk09868,rt_hk00780,rt_hk01810,rt_hk09866,rt_hk00020",
+      "retrievedAt": null,
+      "status": "available"
+    },
+    {
+      "source": "Yahoo Finance chart",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/0780.HK?range=3y&interval=1d&events=div%2Csplits",
+      "retrievedAt": "2026-10-10T09:13:19.891Z",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source": "Tencent fqkline",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk00780,day,2023-10-09,2026-10-09,1000,qfq",
+      "retrievedAt": "2026-10-10T09:13:20.008Z",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "annual",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800528.pdf",
+      "publicationDate": "2026-04-28 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_annual.pdf"
+    },
+    {
+      "id": "fyresults",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0324/2026032400294.pdf",
+      "publicationDate": "2026-03-24 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_fyresults.pdf"
+    },
+    {
+      "id": "interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+      "publicationDate": "2026-09-11 17:00",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_interim.pdf"
+    },
+    {
+      "id": "h1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400456.pdf",
+      "publicationDate": "2026-08-24 16:30",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_h1results.pdf"
+    },
+    {
+      "id": "q1results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0521/2026052100484.pdf",
+      "publicationDate": "2026-05-21 16:51",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_q1results.pdf"
+    },
+    {
+      "id": "shares",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1006/2026100600866.pdf",
+      "publicationDate": "2026-10-06 17:00",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_shares.pdf"
+    },
+    {
+      "id": "didaclose",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082101081.pdf",
+      "publicationDate": "2026-08-21 19:05",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_didaclose.pdf"
+    },
+    {
+      "id": "didaoffer",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062902445.pdf",
+      "publicationDate": "2026-06-29 22:28",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_didaoffer.pdf"
+    },
+    {
+      "id": "didacomposite",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0731/2026073100003.pdf",
+      "publicationDate": "2026-07-31 06:02",
+      "afterMarketClose": false,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/tongcheng_didacomposite.pdf"
+    },
+    {
+      "id": "dida_interim",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100468.pdf",
+      "publicationDate": "2026-09-11 16:48",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/dida_interim.pdf"
+    },
+    {
+      "id": "dida_dividend",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080502043.pdf",
+      "publicationDate": "2026-08-05 22:56",
+      "afterMarketClose": true,
+      "sourceType": "交易所公司原件",
+      "localFile": "data/tech_raw/dida_dividend.pdf"
+    }
+  ],
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年港股最后交易日",
+      "priceHKD": [
+        4.67,
+        17.01,
+        31.44
+      ],
+      "epsCNY": [
+        0.498188,
+        1.194203,
+        1.666568
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        19.42,
+        21.249999999999996,
+        22.85
+      ],
+      "normalParentProfitCNYbn": [
+        1.1778728000000018,
+        2.8185871999999983,
+        3.9391023100000013
+      ],
+      "dilutedSharesBn": [
+        2.3643159619999996,
+        2.3602250529090907,
+        2.363601676285714
+      ],
+      "cashOperatingProxyCNYbn": [
+        0.8728728000000018,
+        2.903587199999998,
+        4.164102310000001
+      ],
+      "operatingCases": [
+        {
+          "OTARevenueCNYbn": 16.700000000000003,
+          "revenueCNYbn": 19.42,
+          "grossProfitCNYbn": 12.180500000000002,
+          "normalCoreBeforeTaxCNYbn": 1.7585000000000024,
+          "tax": 0.4220400000000006,
+          "oldOwnerNormalProfitCNYbn": 1.2914600000000018,
+          "didaOwnerNormalProfitCNYbn": -0.1135872,
+          "parentNormalProfitCNYbn": 1.1778728000000018,
+          "dilutedSharesBn": 2.3643159619999996,
+          "eps": 0.498188,
+          "PE": 8,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 0.8728728000000018,
+          "accumulatedCashCNYbn": 0.17457456000000038,
+          "operatingValueCNYbn": 9.422982400000015,
+          "didaResidualCashCNYbn": 0.21100450938086598,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 0.2913026274035947,
+          "cashPostDistributionCNYbn": 0.2913026274035947,
+          "otherNAVCNYbn": 0.32000000000000006,
+          "equityCNYbn": 10.034285027403609,
+          "price": 4.67,
+          "dividend": 0,
+          "priceReturn": -0.5348605577689243,
+          "totalReturn": -0.5348605577689243
+        },
+        {
+          "OTARevenueCNYbn": 18.2,
+          "revenueCNYbn": 21.249999999999996,
+          "grossProfitCNYbn": 14.073999999999998,
+          "normalCoreBeforeTaxCNYbn": 3.711999999999998,
+          "tax": 0.7795199999999995,
+          "oldOwnerNormalProfitCNYbn": 2.8824799999999984,
+          "didaOwnerNormalProfitCNYbn": -0.0638928,
+          "parentNormalProfitCNYbn": 2.8185871999999983,
+          "dilutedSharesBn": 2.3602250529090907,
+          "eps": 1.194203,
+          "PE": 12,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 2.903587199999998,
+          "accumulatedCashCNYbn": 0.5807174399999996,
+          "operatingValueCNYbn": 33.82304639999998,
+          "didaResidualCashCNYbn": 0.246500509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 1.9129415074035936,
+          "cashPostDistributionCNYbn": 1.8220324164945028,
+          "otherNAVCNYbn": 0.8450000000000001,
+          "equityCNYbn": 36.49007881649448,
+          "price": 17.01,
+          "dividend": 0,
+          "priceReturn": 0.6942231075697214,
+          "totalReturn": 0.6942231075697214
+        },
+        {
+          "OTARevenueCNYbn": 19.5,
+          "revenueCNYbn": 22.85,
+          "grossProfitCNYbn": 15.585,
+          "normalCoreBeforeTaxCNYbn": 4.8980000000000015,
+          "tax": 0.9061300000000002,
+          "oldOwnerNormalProfitCNYbn": 3.9318700000000013,
+          "didaOwnerNormalProfitCNYbn": 0.0072323100000000005,
+          "parentNormalProfitCNYbn": 3.9391023100000013,
+          "dilutedSharesBn": 2.363601676285714,
+          "eps": 1.666568,
+          "PE": 16,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 4.164102310000001,
+          "accumulatedCashCNYbn": 0.8328204620000004,
+          "operatingValueCNYbn": 63.02563696000002,
+          "didaResidualCashCNYbn": 0.281996509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 3.2205405294035927,
+          "cashPostDistributionCNYbn": 3.0841768930399565,
+          "otherNAVCNYbn": 1.4400000000000002,
+          "equityCNYbn": 67.54981385303998,
+          "price": 31.44,
+          "dividend": 0,
+          "priceReturn": 2.1314741035856577,
+          "totalReturn": 2.1314741035856577
+        }
+      ],
+      "priceReturnPct": [
+        -53.48605577689243,
+        69.42231075697214,
+        213.14741035856576
+      ],
+      "totalReturnPct": [
+        -53.48605577689243,
+        69.42231075697214,
+        213.14741035856576
+      ],
+      "conditions": [
+        "交通/住宿需求和服务收费承压，固定费用难收缩，运营储备与嘀嗒亏损消耗现金",
+        "交通稳定/住宿组合改善和酒店管理，完整股酬摊销后正常经营盈利，嘀嗒不假设立即爆发",
+        "国际/酒店管理及AI改善效率、嘀嗒整合有贡献，仍完整费用税和少数归属"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 17.532500000000002,
+      "expectedReturnPct": 74.62649402390443,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 13.517000000000001,
+        "defensiveReturnPct": 34.63147410358569,
+        "positivePrice": 21.548000000000002,
+        "positiveReturnPct": 114.62151394422312
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "priceHKD": [
+        2.66,
+        20,
+        39.41
+      ],
+      "epsCNY": [
+        0.308867,
+        1.351664,
+        1.975708
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "normalRevenueCNYbn": [
+        18.98,
+        22.7,
+        25.4
+      ],
+      "normalParentProfitCNYbn": [
+        0.7348917599999991,
+        3.191602,
+        4.675589348
+      ],
+      "dilutedSharesBn": [
+        2.3793159619999997,
+        2.3612390389230766,
+        2.366538184222222
+      ],
+      "cashOperatingProxyCNYbn": [
+        0.33489175999999904,
+        3.2466019999999998,
+        4.880589348
+      ],
+      "operatingCases": [
+        {
+          "OTARevenueCNYbn": 16.4,
+          "revenueCNYbn": 18.98,
+          "grossProfitCNYbn": 11.768999999999998,
+          "normalCoreBeforeTaxCNYbn": 1.178999999999999,
+          "tax": 0.29474999999999973,
+          "oldOwnerNormalProfitCNYbn": 0.8392499999999992,
+          "didaOwnerNormalProfitCNYbn": -0.10435824,
+          "parentNormalProfitCNYbn": 0.7348917599999991,
+          "dilutedSharesBn": 2.3793159619999997,
+          "eps": 0.308867,
+          "PE": 7.5,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 0.33489175999999904,
+          "accumulatedCashCNYbn": 0.15070129199999957,
+          "operatingValueCNYbn": 5.511688199999993,
+          "didaResidualCashCNYbn": 0.21100450938086598,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": -0.05257064059640629,
+          "cashPostDistributionCNYbn": -0.05257064059640629,
+          "otherNAVCNYbn": 0.30000000000000004,
+          "equityCNYbn": 5.759117559403586,
+          "price": 2.66,
+          "dividend": 0,
+          "priceReturn": -0.7350597609561753,
+          "totalReturn": -0.7350597609561753
+        },
+        {
+          "OTARevenueCNYbn": 19.4,
+          "revenueCNYbn": 22.7,
+          "grossProfitCNYbn": 15.131499999999999,
+          "normalCoreBeforeTaxCNYbn": 4.1665,
+          "tax": 0.874965,
+          "oldOwnerNormalProfitCNYbn": 3.231535,
+          "didaOwnerNormalProfitCNYbn": -0.039933,
+          "parentNormalProfitCNYbn": 3.191602,
+          "dilutedSharesBn": 2.3612390389230766,
+          "eps": 1.351664,
+          "PE": 12.5,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 3.2466019999999998,
+          "accumulatedCashCNYbn": 1.4609709,
+          "operatingValueCNYbn": 39.895025000000004,
+          "didaResidualCashCNYbn": 0.246500509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 2.3931949674035944,
+          "cashPostDistributionCNYbn": 2.1204676946763215,
+          "otherNAVCNYbn": 0.9099999999999999,
+          "equityCNYbn": 42.92549269467632,
+          "price": 20,
+          "dividend": 0,
+          "priceReturn": 0.9920318725099604,
+          "totalReturn": 0.9920318725099604
+        },
+        {
+          "OTARevenueCNYbn": 21.599999999999998,
+          "revenueCNYbn": 25.4,
+          "grossProfitCNYbn": 17.52,
+          "normalCoreBeforeTaxCNYbn": 5.84,
+          "tax": 1.1096,
+          "oldOwnerNormalProfitCNYbn": 4.6453999999999995,
+          "didaOwnerNormalProfitCNYbn": 0.030189348,
+          "parentNormalProfitCNYbn": 4.675589348,
+          "dilutedSharesBn": 2.366538184222222,
+          "eps": 1.975708,
+          "PE": 17,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 4.880589348,
+          "accumulatedCashCNYbn": 2.1962652066,
+          "operatingValueCNYbn": 79.485018916,
+          "didaResidualCashCNYbn": 0.281996509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 4.1639852740035925,
+          "cashPostDistributionCNYbn": 3.709439819458138,
+          "otherNAVCNYbn": 1.6,
+          "equityCNYbn": 84.79445873545814,
+          "price": 39.41,
+          "dividend": 0,
+          "priceReturn": 2.9252988047808763,
+          "totalReturn": 2.9252988047808763
+        }
+      ],
+      "priceReturnPct": [
+        -73.50597609561753,
+        99.20318725099604,
+        292.52988047808765
+      ],
+      "totalReturnPct": [
+        -73.50597609561753,
+        99.20318725099604,
+        292.52988047808765
+      ],
+      "conditions": [
+        "交通/住宿需求和服务收费承压，固定费用难收缩，运营储备与嘀嗒亏损消耗现金",
+        "交通稳定/住宿组合改善和酒店管理，完整股酬摊销后正常经营盈利，嘀嗒不假设立即爆发",
+        "国际/酒店管理及AI改善效率、嘀嗒整合有贡献，仍完整费用税和少数归属"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09（休市取此前交易日）",
+      "priceHKD": [
+        0.86,
+        23.04,
+        44.69
+      ],
+      "epsCNY": [
+        0.163538,
+        1.507085,
+        2.241459
+      ],
+      "cumulativeCashDividendHKD": [
+        0.12,
+        0.26,
+        0.35
+      ],
+      "normalRevenueCNYbn": [
+        18.560000000000002,
+        24.750000000000004,
+        29
+      ],
+      "normalParentProfitCNYbn": [
+        0.3921741999999989,
+        3.5782963495000017,
+        5.363025628000001
+      ],
+      "dilutedSharesBn": [
+        2.3980659619999996,
+        2.374315962,
+        2.3926492953333334
+      ],
+      "cashOperatingProxyCNYbn": [
+        -0.11282580000000132,
+        3.553296349500002,
+        5.468025628000001
+      ],
+      "operatingCases": [
+        {
+          "OTARevenueCNYbn": 16.1,
+          "revenueCNYbn": 18.560000000000002,
+          "grossProfitCNYbn": 11.446,
+          "normalCoreBeforeTaxCNYbn": 0.7279999999999986,
+          "tax": 0.18199999999999966,
+          "oldOwnerNormalProfitCNYbn": 0.49599999999999894,
+          "didaOwnerNormalProfitCNYbn": -0.1038258,
+          "parentNormalProfitCNYbn": 0.3921741999999989,
+          "dilutedSharesBn": 2.3980659619999996,
+          "eps": 0.163538,
+          "PE": 7,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -0.11282580000000132,
+          "accumulatedCashCNYbn": -0.09590193000000112,
+          "operatingValueCNYbn": 2.7452193999999923,
+          "didaResidualCashCNYbn": 0.21100450938086598,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": -0.7991738625964063,
+          "cashPostDistributionCNYbn": -1.106235603905497,
+          "otherNAVCNYbn": 0.24499999999999997,
+          "equityCNYbn": 1.8839837960944952,
+          "price": 0.86,
+          "dividend": 0.12,
+          "priceReturn": -0.9143426294820717,
+          "totalReturn": -0.9023904382470119
+        },
+        {
+          "OTARevenueCNYbn": 21.1,
+          "revenueCNYbn": 24.750000000000004,
+          "grossProfitCNYbn": 16.594,
+          "normalCoreBeforeTaxCNYbn": 4.649000000000003,
+          "tax": 0.9995350000000006,
+          "oldOwnerNormalProfitCNYbn": 3.574465000000002,
+          "didaOwnerNormalProfitCNYbn": 0.0038313495,
+          "parentNormalProfitCNYbn": 3.5782963495000017,
+          "dilutedSharesBn": 2.374315962,
+          "eps": 1.507085,
+          "PE": 13,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 3.553296349500002,
+          "accumulatedCashCNYbn": 3.0203018970750013,
+          "operatingValueCNYbn": 46.51785254350002,
+          "didaResidualCashCNYbn": 0.246500509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 3.3025259644785954,
+          "cashPostDistributionCNYbn": 2.1958694643695047,
+          "otherNAVCNYbn": 1.0075,
+          "equityCNYbn": 49.72122200786952,
+          "price": 23.04,
+          "dividend": 0.26,
+          "priceReturn": 1.2948207171314743,
+          "totalReturn": 1.3207171314741037
+        },
+        {
+          "OTARevenueCNYbn": 24.5,
+          "revenueCNYbn": 29,
+          "grossProfitCNYbn": 20.0465,
+          "normalCoreBeforeTaxCNYbn": 6.706500000000001,
+          "tax": 1.3077675000000002,
+          "oldOwnerNormalProfitCNYbn": 5.288732500000001,
+          "didaOwnerNormalProfitCNYbn": 0.074293128,
+          "parentNormalProfitCNYbn": 5.363025628000001,
+          "dilutedSharesBn": 2.3926492953333334,
+          "eps": 2.241459,
+          "PE": 17,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 5.468025628000001,
+          "accumulatedCashCNYbn": 4.647821783800001,
+          "operatingValueCNYbn": 91.17143567600002,
+          "didaResidualCashCNYbn": 0.281996509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 5.865541851203594,
+          "cashPostDistributionCNYbn": 4.195153439052079,
+          "otherNAVCNYbn": 1.8399999999999999,
+          "equityCNYbn": 97.2065891150521,
+          "price": 44.69,
+          "dividend": 0.35,
+          "priceReturn": 3.4511952191235062,
+          "totalReturn": 3.4860557768924307
+        }
+      ],
+      "priceReturnPct": [
+        -91.43426294820716,
+        129.48207171314743,
+        345.11952191235065
+      ],
+      "totalReturnPct": [
+        -90.2390438247012,
+        132.07171314741038,
+        348.6055776892431
+      ],
+      "conditions": [
+        "交通/住宿需求和服务收费承压，固定费用难收缩，运营储备与嘀嗒亏损消耗现金",
+        "交通稳定/住宿组合改善和酒店管理，完整股酬摊销后正常经营盈利，嘀嗒不假设立即爆发",
+        "国际/酒店管理及AI改善效率、嘀嗒整合有贡献，仍完整费用税和少数归属"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "priceHKD": [
+        0,
+        29.92,
+        65.85
+      ],
+      "epsCNY": [
+        -0.234652,
+        1.90822,
+        3.221784
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1,
+        1.5
+      ],
+      "normalRevenueCNYbn": [
+        17.919999999999998,
+        31.750000000000004,
+        42.5
+      ],
+      "normalParentProfitCNYbn": [
+        -0.5826139999999995,
+        4.672471544000001,
+        8.142975999999997
+      ],
+      "dilutedSharesBn": [
+        2.4828873905714284,
+        2.448601676285714,
+        2.527473856736842
+      ],
+      "cashOperatingProxyCNYbn": [
+        -1.2126139999999994,
+        4.447471544000001,
+        8.172975999999997
+      ],
+      "operatingCases": [
+        {
+          "OTARevenueCNYbn": 15.6,
+          "revenueCNYbn": 17.919999999999998,
+          "grossProfitCNYbn": 10.755,
+          "normalCoreBeforeTaxCNYbn": -0.4149999999999995,
+          "tax": 0,
+          "oldOwnerNormalProfitCNYbn": -0.4849999999999995,
+          "didaOwnerNormalProfitCNYbn": -0.09761399999999999,
+          "parentNormalProfitCNYbn": -0.5826139999999995,
+          "dilutedSharesBn": 2.4828873905714284,
+          "eps": -0.234652,
+          "PE": 6,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -1.2126139999999994,
+          "accumulatedCashCNYbn": -2.7890121999999984,
+          "operatingValueCNYbn": -1.7478419999999986,
+          "didaResidualCashCNYbn": 0.21100450938086598,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": -4.692284132596405,
+          "cashPostDistributionCNYbn": -4.8286477689600416,
+          "otherNAVCNYbn": 0.15,
+          "equityCNYbn": -6.42648976896004,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "OTARevenueCNYbn": 27.1,
+          "revenueCNYbn": 31.750000000000004,
+          "grossProfitCNYbn": 21.491500000000002,
+          "normalCoreBeforeTaxCNYbn": 6.066500000000002,
+          "tax": 1.3346300000000004,
+          "oldOwnerNormalProfitCNYbn": 4.601870000000002,
+          "didaOwnerNormalProfitCNYbn": 0.07060154399999999,
+          "parentNormalProfitCNYbn": 4.672471544000001,
+          "dilutedSharesBn": 2.448601676285714,
+          "eps": 1.90822,
+          "PE": 13,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 4.447471544000001,
+          "accumulatedCashCNYbn": 10.229184551200001,
+          "operatingValueCNYbn": 60.742130072000016,
+          "didaResidualCashCNYbn": 0.246500509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 8.411408618603595,
+          "cashPostDistributionCNYbn": 4.549043458343855,
+          "otherNAVCNYbn": 1.3,
+          "equityCNYbn": 66.59117353034387,
+          "price": 29.92,
+          "dividend": 1,
+          "priceReturn": 1.9800796812749009,
+          "totalReturn": 2.079681274900399
+        },
+        {
+          "OTARevenueCNYbn": 36,
+          "revenueCNYbn": 42.5,
+          "grossProfitCNYbn": 30,
+          "normalCoreBeforeTaxCNYbn": 10.199999999999998,
+          "tax": 2.0399999999999996,
+          "oldOwnerNormalProfitCNYbn": 7.929999999999998,
+          "didaOwnerNormalProfitCNYbn": 0.21297600000000003,
+          "parentNormalProfitCNYbn": 8.142975999999997,
+          "dilutedSharesBn": 2.527473856736842,
+          "eps": 3.221784,
+          "PE": 17,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 8.172975999999997,
+          "accumulatedCashCNYbn": 18.79784479999999,
+          "operatingValueCNYbn": 138.43059199999996,
+          "didaResidualCashCNYbn": 0.281996509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 16.515564867403583,
+          "cashPostDistributionCNYbn": 10.06900960821698,
+          "otherNAVCNYbn": 2.8000000000000003,
+          "equityCNYbn": 151.29960160821696,
+          "price": 65.85,
+          "dividend": 1.5,
+          "priceReturn": 5.558764940239044,
+          "totalReturn": 5.70816733067729
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        198.00796812749007,
+        555.8764940239043
+      ],
+      "totalReturnPct": [
+        -100,
+        207.96812749003988,
+        570.816733067729
+      ],
+      "conditions": [
+        "交通/住宿需求和服务收费承压，固定费用难收缩，运营储备与嘀嗒亏损消耗现金",
+        "交通稳定/住宿组合改善和酒店管理，完整股酬摊销后正常经营盈利，嘀嗒不假设立即爆发",
+        "国际/酒店管理及AI改善效率、嘀嗒整合有贡献，仍完整费用税和少数归属"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        45.49070806459952,
+        88.59693439220395
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "priceHKD": [
+        0,
+        31.4,
+        82.67
+      ],
+      "epsCNY": [
+        -0.639675,
+        2.112347,
+        4.154389
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        2.1,
+        3.4
+      ],
+      "normalRevenueCNYbn": [
+        17.380000000000003,
+        39.2,
+        58.8
+      ],
+      "normalParentProfitCNYbn": [
+        -1.6328659999999984,
+        5.3805141700000005,
+        11.261999398000006
+      ],
+      "dilutedSharesBn": [
+        2.5526492953333335,
+        2.5471731048571424,
+        2.710867686137931
+      ],
+      "cashOperatingProxyCNYbn": [
+        -2.3578659999999987,
+        5.070514170000002,
+        11.141999398000006
+      ],
+      "operatingCases": [
+        {
+          "OTARevenueCNYbn": 15.200000000000001,
+          "revenueCNYbn": 17.380000000000003,
+          "grossProfitCNYbn": 10.152000000000001,
+          "normalCoreBeforeTaxCNYbn": -1.4629999999999983,
+          "tax": 0,
+          "oldOwnerNormalProfitCNYbn": -1.5529999999999984,
+          "didaOwnerNormalProfitCNYbn": -0.07986599999999999,
+          "parentNormalProfitCNYbn": -1.6328659999999984,
+          "dilutedSharesBn": 2.5526492953333335,
+          "eps": -0.639675,
+          "PE": 5,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": -2.3578659999999987,
+          "accumulatedCashCNYbn": -8.606210899999995,
+          "operatingValueCNYbn": -4.898597999999995,
+          "didaResidualCashCNYbn": 0.21100450938086598,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": -11.509482832596401,
+          "cashPostDistributionCNYbn": -11.736755559869128,
+          "otherNAVCNYbn": 0.0875,
+          "equityCNYbn": -16.547853559869125,
+          "price": 0,
+          "dividend": 0,
+          "priceReturn": -1,
+          "totalReturn": -1
+        },
+        {
+          "OTARevenueCNYbn": 33.5,
+          "revenueCNYbn": 39.2,
+          "grossProfitCNYbn": 26.761000000000003,
+          "normalCoreBeforeTaxCNYbn": 7.101000000000001,
+          "tax": 1.6332300000000002,
+          "oldOwnerNormalProfitCNYbn": 5.2677700000000005,
+          "didaOwnerNormalProfitCNYbn": 0.11274416999999999,
+          "parentNormalProfitCNYbn": 5.3805141700000005,
+          "dilutedSharesBn": 2.5471731048571424,
+          "eps": 2.112347,
+          "PE": 12,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 5.070514170000002,
+          "accumulatedCashCNYbn": 18.507376720500005,
+          "operatingValueCNYbn": 64.56617004,
+          "didaResidualCashCNYbn": 0.246500509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 13.989600787903596,
+          "cashPostDistributionCNYbn": 6.399543042267234,
+          "otherNAVCNYbn": 1.7550000000000001,
+          "equityCNYbn": 72.72071308226724,
+          "price": 31.4,
+          "dividend": 2.1,
+          "priceReturn": 2.127490039840638,
+          "totalReturn": 2.3366533864541834
+        },
+        {
+          "OTARevenueCNYbn": 49.5,
+          "revenueCNYbn": 58.8,
+          "grossProfitCNYbn": 41.845000000000006,
+          "normalCoreBeforeTaxCNYbn": 14.195000000000007,
+          "tax": 2.9099750000000015,
+          "oldOwnerNormalProfitCNYbn": 10.905025000000006,
+          "didaOwnerNormalProfitCNYbn": 0.356974398,
+          "parentNormalProfitCNYbn": 11.261999398000006,
+          "dilutedSharesBn": 2.710867686137931,
+          "eps": 4.154389,
+          "PE": 16,
+          "FX": 1.1,
+          "cashOperatingProxyCNYbn": 11.141999398000006,
+          "accumulatedCashCNYbn": 40.668297802700025,
+          "operatingValueCNYbn": 180.1919903680001,
+          "didaResidualCashCNYbn": 0.281996509380866,
+          "didaPurchaseCashCNYbn": 1.1487944419772724,
+          "cashPreDistributionCNYbn": 33.38601787010362,
+          "cashPostDistributionCNYbn": 19.552426840222747,
+          "otherNAVCNYbn": 4,
+          "equityCNYbn": 203.74441720822284,
+          "price": 82.67,
+          "dividend": 3.4,
+          "priceReturn": 7.23406374501992,
+          "totalReturn": 7.572709163346614
+        }
+      ],
+      "priceReturnPct": [
+        -100,
+        212.7490039840638,
+        723.406374501992
+      ],
+      "totalReturnPct": [
+        -100,
+        233.66533864541833,
+        757.2709163346614
+      ],
+      "conditions": [
+        "交通/住宿需求和服务收费承压，固定费用难收缩，运营储备与嘀嗒亏损消耗现金",
+        "交通稳定/住宿组合改善和酒店管理，完整股酬摊销后正常经营盈利，嘀嗒不假设立即爆发",
+        "国际/酒店管理及AI改善效率、嘀嗒整合有贡献，仍完整费用税和少数归属"
+      ],
+      "annualizedTotalReturnPct": [
+        -100,
+        27.25129738029166,
+        53.68221737363812
+      ]
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.8,
+        2,
+        3.5,
+        3.3,
+        3.1,
+        3.3
+      ],
+      "total": 60.9,
+      "evidence": [
+        "正常盈利及较低现价有空间，完整费用估值",
+        "日周均线均弱、上涨日量低、相对弱",
+        "完整成本盈利增长，MPU下降/管理并表贡献",
+        "油价天气及消费压短期",
+        "季度旅游/住宿和要约整合验证",
+        "现金不能全分配，客户/债务/少数归属"
+      ],
+      "confidence": "中"
+    },
+    "oneYear": {
+      "dimensions": [
+        4,
+        2,
+        3.6,
+        3.6,
+        3.2,
+        3.2
+      ],
+      "total": 67.6,
+      "evidence": [
+        "正常经营利润及现金联合，目标不取机构平均",
+        "技术仍低但权重降",
+        "住宿结构/酒店管理及开发效率",
+        "交通恢复及国际空间",
+        "季度数据与嘀嗒止亏条件",
+        "并购资本配置/监管/客户储备"
+      ],
+      "confidence": "中"
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        2,
+        3.8,
+        3.9,
+        3.2,
+        3
+      ],
+      "total": 73.4,
+      "evidence": [
+        "盈利复利，股息现金扣股数联动",
+        "技术仅5%",
+        "平台交叉销售与酒店管理组织",
+        "国内旅游渗透/出境机会",
+        "AI效率和多产品整合",
+        "平台依赖/并购及少数资本"
+      ],
+      "confidence": "中"
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.7,
+        2,
+        3.8,
+        3.8,
+        3,
+        2.9
+      ],
+      "total": 72.1,
+      "evidence": [
+        "PE12，现金留存和分红本金约束",
+        "技术零权重",
+        "服务供给和重复消费能力",
+        "旅行长期需求与竞争",
+        "国际市场/效率",
+        "长期平台规则和资本回报"
+      ],
+      "confidence": "中"
+    }
+  },
+  "targets": [
+    {
+      "institution": "高盛",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 24,
+      "rating": "买入",
+      "reportDate": "2026-09-18",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1545319/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "9/18最新同价摘要未明期限；8/25旧同价摘要明确12个月，保留历史证据但不重复共识"
+    },
+    {
+      "institution": "大摩",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 24,
+      "rating": "增持",
+      "reportDate": "2026-08-26",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540821/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "汇丰",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 18,
+      "rating": "买入",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540584/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "花旗",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 22,
+      "rating": "买入",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "富瑞",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 18,
+      "rating": "买入",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "瑞银",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 18,
+      "rating": "买入",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "摩通",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 15,
+      "rating": "中性",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "里昂",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 13,
+      "rating": "持有",
+      "reportDate": "2026-08-25",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "美银",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 19,
+      "rating": "买入",
+      "reportDate": "2026-08-07",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1537100/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": true,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "招银国际",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 23.7,
+      "rating": "买入",
+      "reportDate": "2026-08-26",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540844/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    },
+    {
+      "institution": "中银国际",
+      "code": "00780.HK",
+      "currency": "HKD",
+      "targetPrice": 19.5,
+      "rating": "买入",
+      "reportDate": "2026-07-30",
+      "targetHorizon": null,
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1535787/research-report",
+      "sourceType": "公开新闻转述，原研报未取得",
+      "foreignInvestmentBank": false,
+      "outside90Days": false,
+      "note": "目标期未公开明确；非公司预测，重大事项后需复核"
+    }
+  ],
+  "nativeInput": {
+    "rows": {
+      "yearEnd": {
+        "accommodationRevenue": [
+          5.4,
+          6,
+          6.5
+        ],
+        "transportRevenue": [
+          7.2,
+          7.7,
+          8.1
+        ],
+        "otherOTARevenue": [
+          4.1,
+          4.5,
+          4.9
+        ],
+        "tourismRevenue": [
+          2.4,
+          2.65,
+          2.85
+        ],
+        "OTAGross": [
+          0.715,
+          0.75,
+          0.77
+        ],
+        "tourismGross": [
+          0.1,
+          0.16,
+          0.2
+        ],
+        "serviceDevelopment": [
+          2.25,
+          2.25,
+          2.35
+        ],
+        "selling": [
+          6.6,
+          6.7,
+          6.95
+        ],
+        "admin": [
+          1.5,
+          1.4,
+          1.4
+        ],
+        "creditCost": [
+          0.09,
+          0.05,
+          0.035
+        ],
+        "normalSubsidy": [
+          0.07,
+          0.09,
+          0.1
+        ],
+        "leaseInterest": [
+          0.052,
+          0.052,
+          0.052
+        ],
+        "taxRate": [
+          0.24,
+          0.21,
+          0.185
+        ],
+        "existingNCI": [
+          0.045,
+          0.05,
+          0.06
+        ],
+        "didaRevenue": [
+          0.32,
+          0.4,
+          0.5
+        ],
+        "didaOperatingMargin": [
+          -0.4,
+          -0.18,
+          0.02
+        ],
+        "didaPostJuneCashDelta": [
+          -0.08,
+          -0.04,
+          0
+        ],
+        "postJuneCashDelta": [
+          -0.45,
+          -0.1,
+          0.2
+        ],
+        "operatingReserve": [
+          7.8,
+          7,
+          6.3
+        ],
+        "DA": [
+          1.35,
+          1.4,
+          1.42
+        ],
+        "capitalCashIncludingLease": [
+          0.9,
+          0.78,
+          0.76
+        ],
+        "NWC": [
+          0.55,
+          0.35,
+          0.25
+        ],
+        "annualCashSharePurchase": [
+          0.035,
+          0.045,
+          0.055
+        ],
+        "annualDebtInterest": [
+          0.17,
+          0.14,
+          0.13
+        ],
+        "cashAccumulationYears": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "futureAcquisitionCash": [
+          0.08,
+          0.05,
+          0.03
+        ],
+        "extraBuybackHKDbn": [
+          0,
+          0.1,
+          0.15
+        ],
+        "buybackAvgHKD": [
+          9,
+          11,
+          14
+        ],
+        "normalDilution": [
+          0.01,
+          0.015,
+          0.02
+        ],
+        "PE": [
+          8,
+          12,
+          16
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "otherNAV": [
+          0.8,
+          1.3,
+          1.8
+        ],
+        "otherNAVRealizable": [
+          0.4,
+          0.65,
+          0.8
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "didaParentFraction": [
+          0.8874,
+          0.8874,
+          0.8874
+        ],
+        "didaCashAnchor": [
+          1.413568,
+          1.413568,
+          1.413568
+        ],
+        "didaSpecialDividendHKDbn": [
+          1.2053686130280001,
+          1.2053686130280001,
+          1.2053686130280001
+        ],
+        "didaAcceptedSharesBn": [
+          0.910755954,
+          0.910755954,
+          0.910755954
+        ],
+        "didaOfferHKD": [
+          1.3875,
+          1.3875,
+          1.3875
+        ],
+        "cashAnchor": [
+          14.657394,
+          14.657394,
+          14.657394
+        ],
+        "debtAnchor": [
+          4.18475,
+          4.18475,
+          4.18475
+        ],
+        "longPayable": [
+          0.376971,
+          0.376971,
+          0.376971
+        ],
+        "contingentLiability": [
+          0.202975,
+          0.202975,
+          0.202975
+        ],
+        "pastDividendPayable": [
+          0.50818,
+          0.50818,
+          0.50818
+        ],
+        "baseShares": [
+          2.354315962,
+          2.354315962,
+          2.354315962
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "halfYear": {
+        "accommodationRevenue": [
+          5.3,
+          6.4,
+          7.2
+        ],
+        "transportRevenue": [
+          6.9,
+          8,
+          8.7
+        ],
+        "otherOTARevenue": [
+          4.2,
+          5,
+          5.7
+        ],
+        "tourismRevenue": [
+          2.3,
+          2.85,
+          3.2
+        ],
+        "OTAGross": [
+          0.705,
+          0.755,
+          0.78
+        ],
+        "tourismGross": [
+          0.09,
+          0.17,
+          0.21
+        ],
+        "serviceDevelopment": [
+          2.35,
+          2.45,
+          2.65
+        ],
+        "selling": [
+          6.6,
+          7,
+          7.5
+        ],
+        "admin": [
+          1.55,
+          1.5,
+          1.55
+        ],
+        "creditCost": [
+          0.1,
+          0.055,
+          0.04
+        ],
+        "normalSubsidy": [
+          0.065,
+          0.095,
+          0.115
+        ],
+        "leaseInterest": [
+          0.055,
+          0.055,
+          0.055
+        ],
+        "taxRate": [
+          0.25,
+          0.21,
+          0.19
+        ],
+        "existingNCI": [
+          0.045,
+          0.06,
+          0.085
+        ],
+        "didaRevenue": [
+          0.28,
+          0.45,
+          0.6
+        ],
+        "didaOperatingMargin": [
+          -0.42,
+          -0.1,
+          0.07
+        ],
+        "didaPostJuneCashDelta": [
+          -0.08,
+          -0.04,
+          0
+        ],
+        "postJuneCashDelta": [
+          -0.45,
+          -0.1,
+          0.2
+        ],
+        "operatingReserve": [
+          8,
+          7.3,
+          6.6
+        ],
+        "DA": [
+          1.4,
+          1.5,
+          1.6
+        ],
+        "capitalCashIncludingLease": [
+          0.98,
+          0.85,
+          0.86
+        ],
+        "NWC": [
+          0.6,
+          0.4,
+          0.34
+        ],
+        "annualCashSharePurchase": [
+          0.04,
+          0.05,
+          0.065
+        ],
+        "annualDebtInterest": [
+          0.18,
+          0.145,
+          0.13
+        ],
+        "cashAccumulationYears": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "futureAcquisitionCash": [
+          0.2,
+          0.15,
+          0.15
+        ],
+        "extraBuybackHKDbn": [
+          0,
+          0.3,
+          0.5
+        ],
+        "buybackAvgHKD": [
+          8.5,
+          13,
+          18
+        ],
+        "normalDilution": [
+          0.025,
+          0.03,
+          0.04
+        ],
+        "PE": [
+          7.5,
+          12.5,
+          17
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "otherNAV": [
+          0.75,
+          1.4,
+          2
+        ],
+        "otherNAVRealizable": [
+          0.4,
+          0.65,
+          0.8
+        ],
+        "dividend": [
+          0,
+          0,
+          0
+        ],
+        "didaParentFraction": [
+          0.8874,
+          0.8874,
+          0.8874
+        ],
+        "didaCashAnchor": [
+          1.413568,
+          1.413568,
+          1.413568
+        ],
+        "didaSpecialDividendHKDbn": [
+          1.2053686130280001,
+          1.2053686130280001,
+          1.2053686130280001
+        ],
+        "didaAcceptedSharesBn": [
+          0.910755954,
+          0.910755954,
+          0.910755954
+        ],
+        "didaOfferHKD": [
+          1.3875,
+          1.3875,
+          1.3875
+        ],
+        "cashAnchor": [
+          14.657394,
+          14.657394,
+          14.657394
+        ],
+        "debtAnchor": [
+          4.18475,
+          4.18475,
+          4.18475
+        ],
+        "longPayable": [
+          0.376971,
+          0.376971,
+          0.376971
+        ],
+        "contingentLiability": [
+          0.202975,
+          0.202975,
+          0.202975
+        ],
+        "pastDividendPayable": [
+          0.50818,
+          0.50818,
+          0.50818
+        ],
+        "baseShares": [
+          2.354315962,
+          2.354315962,
+          2.354315962
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "oneYear": {
+        "accommodationRevenue": [
+          5.2,
+          6.9,
+          8.2
+        ],
+        "transportRevenue": [
+          6.6,
+          8.5,
+          9.5
+        ],
+        "otherOTARevenue": [
+          4.3,
+          5.7,
+          6.8
+        ],
+        "tourismRevenue": [
+          2.2,
+          3.1,
+          3.7
+        ],
+        "OTAGross": [
+          0.7,
+          0.76,
+          0.785
+        ],
+        "tourismGross": [
+          0.08,
+          0.18,
+          0.22
+        ],
+        "serviceDevelopment": [
+          2.45,
+          2.7,
+          3.05
+        ],
+        "selling": [
+          6.55,
+          7.55,
+          8.5
+        ],
+        "admin": [
+          1.6,
+          1.68,
+          1.82
+        ],
+        "creditCost": [
+          0.12,
+          0.065,
+          0.045
+        ],
+        "normalSubsidy": [
+          0.06,
+          0.11,
+          0.135
+        ],
+        "leaseInterest": [
+          0.058,
+          0.06,
+          0.06
+        ],
+        "taxRate": [
+          0.25,
+          0.215,
+          0.195
+        ],
+        "existingNCI": [
+          0.05,
+          0.075,
+          0.11
+        ],
+        "didaRevenue": [
+          0.26,
+          0.55,
+          0.8
+        ],
+        "didaOperatingMargin": [
+          -0.45,
+          0.01,
+          0.13
+        ],
+        "didaPostJuneCashDelta": [
+          -0.08,
+          -0.04,
+          0
+        ],
+        "postJuneCashDelta": [
+          -0.45,
+          -0.1,
+          0.2
+        ],
+        "operatingReserve": [
+          8.2,
+          7.7,
+          7
+        ],
+        "DA": [
+          1.45,
+          1.7,
+          1.88
+        ],
+        "capitalCashIncludingLease": [
+          1.07,
+          1.05,
+          1.15
+        ],
+        "NWC": [
+          0.65,
+          0.46,
+          0.4
+        ],
+        "annualCashSharePurchase": [
+          0.045,
+          0.065,
+          0.09
+        ],
+        "annualDebtInterest": [
+          0.19,
+          0.15,
+          0.135
+        ],
+        "cashAccumulationYears": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "futureAcquisitionCash": [
+          0.5,
+          0.4,
+          0.5
+        ],
+        "extraBuybackHKDbn": [
+          0.05,
+          0.6,
+          1
+        ],
+        "buybackAvgHKD": [
+          8,
+          15,
+          24
+        ],
+        "normalDilution": [
+          0.05,
+          0.06,
+          0.08
+        ],
+        "PE": [
+          7,
+          13,
+          17
+        ],
+        "lossFundingYears": [
+          2.5,
+          2,
+          1.5
+        ],
+        "otherNAV": [
+          0.7,
+          1.55,
+          2.3
+        ],
+        "otherNAVRealizable": [
+          0.35,
+          0.65,
+          0.8
+        ],
+        "dividend": [
+          0.12,
+          0.26,
+          0.35
+        ],
+        "didaParentFraction": [
+          0.8874,
+          0.8874,
+          0.8874
+        ],
+        "didaCashAnchor": [
+          1.413568,
+          1.413568,
+          1.413568
+        ],
+        "didaSpecialDividendHKDbn": [
+          1.2053686130280001,
+          1.2053686130280001,
+          1.2053686130280001
+        ],
+        "didaAcceptedSharesBn": [
+          0.910755954,
+          0.910755954,
+          0.910755954
+        ],
+        "didaOfferHKD": [
+          1.3875,
+          1.3875,
+          1.3875
+        ],
+        "cashAnchor": [
+          14.657394,
+          14.657394,
+          14.657394
+        ],
+        "debtAnchor": [
+          4.18475,
+          4.18475,
+          4.18475
+        ],
+        "longPayable": [
+          0.376971,
+          0.376971,
+          0.376971
+        ],
+        "contingentLiability": [
+          0.202975,
+          0.202975,
+          0.202975
+        ],
+        "pastDividendPayable": [
+          0.50818,
+          0.50818,
+          0.50818
+        ],
+        "baseShares": [
+          2.354315962,
+          2.354315962,
+          2.354315962
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "threeYear": {
+        "accommodationRevenue": [
+          5,
+          8.8,
+          12
+        ],
+        "transportRevenue": [
+          6,
+          10,
+          12.5
+        ],
+        "otherOTARevenue": [
+          4.6,
+          8.3,
+          11.5
+        ],
+        "tourismRevenue": [
+          2.1,
+          3.8,
+          5
+        ],
+        "OTAGross": [
+          0.68,
+          0.765,
+          0.8
+        ],
+        "tourismGross": [
+          0.07,
+          0.2,
+          0.24
+        ],
+        "serviceDevelopment": [
+          2.65,
+          3.55,
+          4.5
+        ],
+        "selling": [
+          6.55,
+          9.6,
+          12.4
+        ],
+        "admin": [
+          1.8,
+          2.25,
+          2.95
+        ],
+        "creditCost": [
+          0.16,
+          0.1,
+          0.065
+        ],
+        "normalSubsidy": [
+          0.055,
+          0.15,
+          0.2
+        ],
+        "leaseInterest": [
+          0.065,
+          0.075,
+          0.085
+        ],
+        "taxRate": [
+          0.25,
+          0.22,
+          0.2
+        ],
+        "existingNCI": [
+          0.07,
+          0.13,
+          0.23
+        ],
+        "didaRevenue": [
+          0.22,
+          0.85,
+          1.5
+        ],
+        "didaOperatingMargin": [
+          -0.5,
+          0.12,
+          0.2
+        ],
+        "didaPostJuneCashDelta": [
+          -0.08,
+          -0.04,
+          0
+        ],
+        "postJuneCashDelta": [
+          -0.45,
+          -0.1,
+          0.2
+        ],
+        "operatingReserve": [
+          8.8,
+          9,
+          9
+        ],
+        "DA": [
+          1.6,
+          2.3,
+          3
+        ],
+        "capitalCashIncludingLease": [
+          1.2,
+          1.65,
+          2.1
+        ],
+        "NWC": [
+          0.75,
+          0.6,
+          0.55
+        ],
+        "annualCashSharePurchase": [
+          0.06,
+          0.11,
+          0.17
+        ],
+        "annualDebtInterest": [
+          0.22,
+          0.165,
+          0.15
+        ],
+        "cashAccumulationYears": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "futureAcquisitionCash": [
+          1.1,
+          1.2,
+          2
+        ],
+        "extraBuybackHKDbn": [
+          0.15,
+          1.8,
+          3.3
+        ],
+        "buybackAvgHKD": [
+          7,
+          21,
+          38
+        ],
+        "normalDilution": [
+          0.15,
+          0.18,
+          0.26
+        ],
+        "PE": [
+          6,
+          13,
+          17
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "otherNAV": [
+          0.5,
+          2,
+          3.5
+        ],
+        "otherNAVRealizable": [
+          0.3,
+          0.65,
+          0.8
+        ],
+        "dividend": [
+          0,
+          1,
+          1.5
+        ],
+        "didaParentFraction": [
+          0.8874,
+          0.8874,
+          0.8874
+        ],
+        "didaCashAnchor": [
+          1.413568,
+          1.413568,
+          1.413568
+        ],
+        "didaSpecialDividendHKDbn": [
+          1.2053686130280001,
+          1.2053686130280001,
+          1.2053686130280001
+        ],
+        "didaAcceptedSharesBn": [
+          0.910755954,
+          0.910755954,
+          0.910755954
+        ],
+        "didaOfferHKD": [
+          1.3875,
+          1.3875,
+          1.3875
+        ],
+        "cashAnchor": [
+          14.657394,
+          14.657394,
+          14.657394
+        ],
+        "debtAnchor": [
+          4.18475,
+          4.18475,
+          4.18475
+        ],
+        "longPayable": [
+          0.376971,
+          0.376971,
+          0.376971
+        ],
+        "contingentLiability": [
+          0.202975,
+          0.202975,
+          0.202975
+        ],
+        "pastDividendPayable": [
+          0.50818,
+          0.50818,
+          0.50818
+        ],
+        "baseShares": [
+          2.354315962,
+          2.354315962,
+          2.354315962
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      },
+      "fiveYear": {
+        "accommodationRevenue": [
+          4.8,
+          11,
+          17
+        ],
+        "transportRevenue": [
+          5.5,
+          11.5,
+          15.5
+        ],
+        "otherOTARevenue": [
+          4.9,
+          11,
+          17
+        ],
+        "tourismRevenue": [
+          2,
+          4.6,
+          7
+        ],
+        "OTAGross": [
+          0.66,
+          0.77,
+          0.81
+        ],
+        "tourismGross": [
+          0.06,
+          0.21,
+          0.25
+        ],
+        "serviceDevelopment": [
+          2.8,
+          4.6,
+          6.4
+        ],
+        "selling": [
+          6.6,
+          12,
+          17
+        ],
+        "admin": [
+          2,
+          3,
+          4.3
+        ],
+        "creditCost": [
+          0.19,
+          0.15,
+          0.1
+        ],
+        "normalSubsidy": [
+          0.05,
+          0.18,
+          0.26
+        ],
+        "leaseInterest": [
+          0.075,
+          0.09,
+          0.11
+        ],
+        "taxRate": [
+          0.25,
+          0.23,
+          0.205
+        ],
+        "existingNCI": [
+          0.09,
+          0.2,
+          0.38
+        ],
+        "didaRevenue": [
+          0.18,
+          1.1,
+          2.3
+        ],
+        "didaOperatingMargin": [
+          -0.5,
+          0.15,
+          0.22
+        ],
+        "didaPostJuneCashDelta": [
+          -0.08,
+          -0.04,
+          0
+        ],
+        "postJuneCashDelta": [
+          -0.45,
+          -0.1,
+          0.2
+        ],
+        "operatingReserve": [
+          9.2,
+          10.5,
+          12
+        ],
+        "DA": [
+          1.8,
+          3,
+          4.2
+        ],
+        "capitalCashIncludingLease": [
+          1.4,
+          2.25,
+          3.1
+        ],
+        "NWC": [
+          0.8,
+          0.72,
+          0.8
+        ],
+        "annualCashSharePurchase": [
+          0.075,
+          0.16,
+          0.26
+        ],
+        "annualDebtInterest": [
+          0.25,
+          0.18,
+          0.16
+        ],
+        "cashAccumulationYears": [
+          3.65,
+          3.65,
+          3.65
+        ],
+        "futureAcquisitionCash": [
+          1.7,
+          2.4,
+          4
+        ],
+        "extraBuybackHKDbn": [
+          0.25,
+          3,
+          6
+        ],
+        "buybackAvgHKD": [
+          6,
+          28,
+          58
+        ],
+        "normalDilution": [
+          0.24,
+          0.3,
+          0.46
+        ],
+        "PE": [
+          5,
+          12,
+          16
+        ],
+        "lossFundingYears": [
+          3,
+          2,
+          1.5
+        ],
+        "otherNAV": [
+          0.35,
+          2.7,
+          5
+        ],
+        "otherNAVRealizable": [
+          0.25,
+          0.65,
+          0.8
+        ],
+        "dividend": [
+          0,
+          2.1,
+          3.4
+        ],
+        "didaParentFraction": [
+          0.8874,
+          0.8874,
+          0.8874
+        ],
+        "didaCashAnchor": [
+          1.413568,
+          1.413568,
+          1.413568
+        ],
+        "didaSpecialDividendHKDbn": [
+          1.2053686130280001,
+          1.2053686130280001,
+          1.2053686130280001
+        ],
+        "didaAcceptedSharesBn": [
+          0.910755954,
+          0.910755954,
+          0.910755954
+        ],
+        "didaOfferHKD": [
+          1.3875,
+          1.3875,
+          1.3875
+        ],
+        "cashAnchor": [
+          14.657394,
+          14.657394,
+          14.657394
+        ],
+        "debtAnchor": [
+          4.18475,
+          4.18475,
+          4.18475
+        ],
+        "longPayable": [
+          0.376971,
+          0.376971,
+          0.376971
+        ],
+        "contingentLiability": [
+          0.202975,
+          0.202975,
+          0.202975
+        ],
+        "pastDividendPayable": [
+          0.50818,
+          0.50818,
+          0.50818
+        ],
+        "baseShares": [
+          2.354315962,
+          2.354315962,
+          2.354315962
+        ],
+        "FX": [
+          1.1,
+          1.1,
+          1.1
+        ]
+      }
+    },
+    "type": "full-expense-operating-earnings-EV-and-attributable-cash",
+    "capitalNote": "主业正常利润排除存款/理财/未实现/联营、银行债息及长应付款摊息，扣租息/常态SBC和全部摊销；经营PE加调整现金，减借款及长应付/或有本金。未来现金年率再扣借款利息，资本含租赁本金。客户资金及运营负债储备不当分红现金。六月后旧息支付、嘀嗒要约本金与特别息后归属现金独立扣加，88.74%权益和经营损益一致。未来回购与股数联动，分红本金扣权益后总回报单列。",
+    "fieldMetadata": {
+      "accommodationRevenue": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "transportRevenue": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "otherOTARevenue": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "tourismRevenue": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "OTAGross": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "tourismGross": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "serviceDevelopment": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "selling": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "admin": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "creditCost": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "normalSubsidy": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "leaseInterest": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "taxRate": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "existingNCI": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaRevenue": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaOperatingMargin": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaParentFraction": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaCashAnchor": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaSpecialDividendHKDbn": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaPostJuneCashDelta": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaAcceptedSharesBn": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "didaOfferHKD": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "cashAnchor": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "debtAnchor": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "longPayable": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "contingentLiability": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "pastDividendPayable": {
+        "code": "00780.HK",
+        "reportPeriod": "2026-06-30锚/已公开后续事件",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "postJuneCashDelta": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "operatingReserve": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "DA": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "capitalCashIncludingLease": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "NWC": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "annualCashSharePurchase": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "annualDebtInterest": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "cashAccumulationYears": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "futureAcquisitionCash": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "extraBuybackHKDbn": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": "HKD",
+        "unit": "HKD billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "buybackAvgHKD": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "normalDilution": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "baseShares": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "billion shares",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "PE": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "multiple",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "lossFundingYears": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "years",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "otherNAV": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": "CNY",
+        "unit": "CNY billion",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "otherNAVRealizable": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "fraction",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "FX": {
+        "code": "00780.HK",
+        "reportPeriod": "目标时点NTM正常年率/余额",
+        "currency": null,
+        "unit": "HKD per CNY",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      },
+      "dividend": {
+        "code": "00780.HK",
+        "reportPeriod": "锁定日前/后独立累计假设",
+        "currency": "HKD",
+        "unit": "HKD per share",
+        "publicationDate": "2026-10-09 assumption snapshot",
+        "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+        "type": "研究假设非公司指引",
+        "version": "tongcheng-full-cost-operating-EV-dida-cash-v1.0"
+      }
+    }
+  },
+  "anchor": {
+    "period": "FY2025",
+    "currency": "CNY",
+    "unit": "million",
+    "note": "原始年报财务表为RMB'000；本锚点金额已除以1000转换成人民币百万，revenue 19,395,959千元对应19,395.959百万元。dividendHKD为港元每普通股，单独保留，不按金额总量单位解释。核验原文data/tech_raw/tongcheng_annual.txt:291、296。",
+    "publicationDate": "2026-04-28 16:30",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800528.pdf",
+    "revenue": 19395.959,
+    "cost": 6538.207,
+    "gross": 12857.752,
+    "OTA": 16471.477,
+    "tourism": 2924.482,
+    "OTAProfit": 4769.888,
+    "tourismProfit": -385.499,
+    "unallocated": -1247.008,
+    "serviceDevelopment": 2039.051,
+    "selling": 6281.306,
+    "admin": 1265.916,
+    "credit": 17.101,
+    "FVgain": 152.163,
+    "otherIncome": 104.625,
+    "otherGains": -373.785,
+    "operating": 3137.381,
+    "financeIncome": 171.728,
+    "financeCosts": 344.021,
+    "associate": 55.912,
+    "pretax": 3021,
+    "tax": 611.898,
+    "groupProfit": 2409.102,
+    "NCI": 37.868,
+    "ownerProfit": 2371.234,
+    "SBCgross": 247.521,
+    "SBCnet": 241.001,
+    "acquiredAmort": 279.803,
+    "FXloss": 10.107,
+    "investeeGain": 59.669,
+    "goodwillImpairment": 453.437,
+    "otherAdjust": 69.522,
+    "adjustedGroupProfit": 3403.303,
+    "dividendHKD": 0.25
+  },
+  "interim": {
+    "period": "H1 2026",
+    "publicationDate": "2026-09-11 17:00",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100567.pdf",
+    "revenue": 9992.819,
+    "cost": 3169.931,
+    "gross": 6822.888,
+    "accommodation": 2845.115,
+    "transport": 3962.228,
+    "otherOTA": 1986.79,
+    "tourism": 1198.686,
+    "OTA": 8794.133,
+    "OTAProfit": 2451.634,
+    "tourismProfit": 12.77,
+    "unallocated": -617.964,
+    "serviceDevelopment": 1052.504,
+    "selling": 3318.98,
+    "admin": 712.534,
+    "credit": 19.916,
+    "FVgain": 66.235,
+    "otherIncome": 54.895,
+    "otherGains": 6.356,
+    "operating": 1846.44,
+    "financeIncome": 49.73,
+    "depositInterest": 39.64,
+    "otherFinance": 10.09,
+    "financeCosts": 113.966,
+    "bankInterest": 64.312,
+    "payableAmortInterest": 26.625,
+    "leaseInterest": 23.029,
+    "associate": -18.399,
+    "pretax": 1763.805,
+    "tax": 345.852,
+    "groupProfit": 1417.953,
+    "NCI": 6.708,
+    "ownerProfit": 1411.245,
+    "SBCgross": 82.051,
+    "SBCtaxEffect": 75.203,
+    "SBCnet": 157.254,
+    "acquiredAmort": 173.554,
+    "FXloss": 39.143,
+    "investeeGain": 17.929,
+    "otherAdjust": 22.027,
+    "adjustedGroupProfit": 1792.002,
+    "DA": 263.868,
+    "amortAll": 433.819,
+    "EBITDAOtherAdjust": 13.294,
+    "adjustedEBITDA": 2660.686,
+    "cash": 6782.318,
+    "shortAmortized": 2164.461,
+    "shortFVPL": 5315.455,
+    "longAmortized": 395.16,
+    "cashAnchor": 14657.394,
+    "restricted": 446.039,
+    "borrowingsCurrent": 3315.146,
+    "borrowingsLong": 869.604,
+    "borrowings": 4184.75,
+    "longPayable": 376.971,
+    "contingentLiability": 202.975,
+    "dividendPayable": 508.18,
+    "customerAdvances": 2361.787,
+    "totalAssets": 44109.667,
+    "totalLiabilities": 19486.619,
+    "ownerEquity": 23603.526,
+    "NCIEquity": 1019.522,
+    "totalEquity": 24623.048,
+    "currentAssets": 23136.237,
+    "currentLiabilities": 15891.649,
+    "leaseCurrent": 294.877,
+    "leaseLong": 913.349,
+    "OCF": 2633.826,
+    "operatingInterestReceived": 30.72,
+    "PPEcash": 176.174,
+    "intangibleCash": 2.272,
+    "leaseCash": 174.19,
+    "allLeaseFCFProxy": 2281.19,
+    "subsidiaryAcquisitionNetCash": 361.121,
+    "averageMPUm": 45.1,
+    "APUm": 253.9,
+    "travelersServedm": 2044.3
+  },
+  "dida": {
+    "period": "H1 2026 & offer events",
+    "publicationDate": "2026-09-11 16:48",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100468.pdf",
+    "revenue": 165.249,
+    "groupLoss": -62.312,
+    "adjustedLossApprox": -57.2,
+    "cash": 1120.39,
+    "financialFVPL": 293.178,
+    "restricted": 303.67,
+    "borrowings": 0,
+    "OCF": 2.317,
+    "JuneCashProxy": 1413.568,
+    "offerAcceptedShares": 910755954,
+    "totalShares": 1026282344,
+    "offerPriceHKD": 1.3875,
+    "specialDividendHKD": 1.1745,
+    "recordDate": "2026-07-20",
+    "paymentDate": "2026-08-31",
+    "parentFraction": 0.8874,
+    "notFullyOwned": true,
+    "note": "88.74%非100%，嘀嗒公众持股短缺不等于同程母股持股短缺；六月现金须扣特别股息，不能将旧股东特别息算同程收益。完成后现金/购买价分摊未披露，独立现金变动假设。"
+  },
+  "capital": {
+    "period": "2026-09-30",
+    "publicationDate": "2026-10-06 17:00",
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1006/2026100600866.pdf",
+    "issuedShares": 2354315962,
+    "treasury": 0,
+    "knownPendingCancel": 0,
+    "existingUnvestedRSUsAtJune": 13864968,
+    "unvestedCapacityNotActualIssue": true
+  },
+  "brokerHistoricalReferences": [
+    {
+      "institution": "高盛",
+      "reportDate": "2026-08-25",
+      "targetPrice": 24,
+      "currency": "HKD",
+      "targetHorizon": "12个月",
+      "sourceURL": "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/00780/AAFN/NOW.1540537/research-report",
+      "sourceType": "新闻转述",
+      "supersededByLatestSamePrice": "2026-09-18"
+    }
+  ]
+}

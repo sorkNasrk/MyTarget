@@ -1,0 +1,292 @@
+[
+  {
+    "test": "折现9.5%",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.5351620493470943,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 36.790591758628594,
+        "returnPct": 24.292539725096596
+      },
+      "halfYear": {
+        "price": 39.41340022828023,
+        "returnPct": 33.153379149595374
+      },
+      "oneYear": {
+        "price": 43.26263554438816,
+        "returnPct": 46.15755251482485
+      },
+      "threeYear": {
+        "price": 50.51080247887245,
+        "returnPct": 70.64460296916366
+      },
+      "fiveYear": {
+        "price": 57.586190806487096,
+        "returnPct": 94.54794191380775
+      }
+    }
+  },
+  {
+    "test": "折现13.5%",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.5351620493470943,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 30.94600366068209,
+        "returnPct": 4.547309664466526
+      },
+      "halfYear": {
+        "price": 32.14867727839508,
+        "returnPct": 8.61039621079418
+      },
+      "oneYear": {
+        "price": 34.67992946866495,
+        "returnPct": 17.16192388062483
+      },
+      "threeYear": {
+        "price": 43.57806320957667,
+        "returnPct": 47.2231865188401
+      },
+      "fiveYear": {
+        "price": 52.93091911307155,
+        "returnPct": 78.82067267929578
+      }
+    }
+  },
+  {
+    "test": "维适平收入-30%",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.2713069325494935,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 29.444558972694296,
+        "returnPct": -0.5251386057625207
+      },
+      "halfYear": {
+        "price": 30.070209515496305,
+        "returnPct": 1.5885456604604942
+      },
+      "oneYear": {
+        "price": 31.714464920776052,
+        "returnPct": 7.143462570189363
+      },
+      "threeYear": {
+        "price": 38.57102795839844,
+        "returnPct": 30.307526886481195
+      },
+      "fiveYear": {
+        "price": 45.642731667215436,
+        "returnPct": 54.19841779464674
+      }
+    }
+  },
+  {
+    "test": "耐赋康收入-15%",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.0035561467053538,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 30.068561508032836,
+        "returnPct": 1.5829780676784866
+      },
+      "halfYear": {
+        "price": 30.878929797241014,
+        "returnPct": 4.320708774462889
+      },
+      "oneYear": {
+        "price": 32.76165506847824,
+        "returnPct": 10.681267123237292
+      },
+      "threeYear": {
+        "price": 39.96081469303921,
+        "returnPct": 35.00275234134869
+      },
+      "fiveYear": {
+        "price": 47.45299310255375,
+        "returnPct": 60.314165887005885
+      }
+    }
+  },
+  {
+    "test": "完整研发+40%",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 0.9154068776691038,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 28.764634757521012,
+        "returnPct": -2.8221798732398273
+      },
+      "halfYear": {
+        "price": 29.190684236809886,
+        "returnPct": -1.3828235242909326
+      },
+      "oneYear": {
+        "price": 30.605697770311767,
+        "returnPct": 3.397627602404607
+      },
+      "threeYear": {
+        "price": 37.404454156574594,
+        "returnPct": 26.366399177616874
+      },
+      "fiveYear": {
+        "price": 44.49171105636074,
+        "returnPct": 50.309834649867355
+      }
+    }
+  },
+  {
+    "test": "未来许可支付双倍",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 0.8332006068470941,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 28.266790706260146,
+        "returnPct": -4.504085451823836
+      },
+      "halfYear": {
+        "price": 28.54894006311548,
+        "returnPct": -3.550878165150406
+      },
+      "oneYear": {
+        "price": 29.79341429010493,
+        "returnPct": 0.6534266557598922
+      },
+      "threeYear": {
+        "price": 36.47079538960927,
+        "returnPct": 23.2121465865178
+      },
+      "fiveYear": {
+        "price": 43.4434935405817,
+        "returnPct": 46.76855925872194
+      }
+    }
+  },
+  {
+    "test": "Travere首付延迟出模型",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 0.8790672918470943,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 32.378029330680896,
+        "returnPct": 9.385234225273287
+      },
+      "halfYear": {
+        "price": 33.91022700596516,
+        "returnPct": 14.561577722855269
+      },
+      "oneYear": {
+        "price": 36.7106759591563,
+        "returnPct": 24.022553916068556
+      },
+      "threeYear": {
+        "price": 44.88005384108073,
+        "returnPct": 51.621803517164636
+      },
+      "fiveYear": {
+        "price": 53.19397925633297,
+        "returnPct": 79.70938937950326
+      }
+    }
+  },
+  {
+    "test": "金融联营均零",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.5351620493470943,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 33.07888438124269,
+        "returnPct": 11.752987774468536
+      },
+      "halfYear": {
+        "price": 34.79600445064065,
+        "returnPct": 17.554069090002187
+      },
+      "oneYear": {
+        "price": 37.79452636384641,
+        "returnPct": 27.684210688670284
+      },
+      "threeYear": {
+        "price": 45.97166857242951,
+        "returnPct": 55.309691123072646
+      },
+      "fiveYear": {
+        "price": 54.28332042880984,
+        "returnPct": 83.38959604327647
+      }
+    }
+  },
+  {
+    "test": "全部EVER001收入零保留费用",
+    "additionalNotWeighted": true,
+    "case": 1,
+    "minCash": 1.5351620493470943,
+    "firstCashDeficit": null,
+    "horizons": {
+      "yearEnd": {
+        "price": 29.393549380295575,
+        "returnPct": -0.6974683098122547
+      },
+      "halfYear": {
+        "price": 30.008151900353976,
+        "returnPct": 1.378891555249906
+      },
+      "oneYear": {
+        "price": 31.63336406266433,
+        "returnPct": 6.869473184676789
+      },
+      "threeYear": {
+        "price": 38.39547652040545,
+        "returnPct": 29.714447704072477
+      },
+      "fiveYear": {
+        "price": 45.09717579705586,
+        "returnPct": 52.35532363870223
+      }
+    }
+  },
+  {
+    "test": "不收缩费用的悲观失败",
+    "additionalNotWeighted": true,
+    "case": 0,
+    "minCash": -3.301404635279199,
+    "firstCashDeficit": 2029,
+    "horizons": {
+      "yearEnd": {
+        "price": 0,
+        "returnPct": -100
+      },
+      "halfYear": {
+        "price": 0,
+        "returnPct": -100
+      },
+      "oneYear": {
+        "price": 0,
+        "returnPct": -100
+      },
+      "threeYear": {
+        "price": 0,
+        "returnPct": -100
+      },
+      "fiveYear": {
+        "price": 0,
+        "returnPct": -100
+      }
+    }
+  }
+]

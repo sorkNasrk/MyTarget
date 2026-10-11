@@ -1,0 +1,2014 @@
+{
+  "issuerId": "I022",
+  "checkedAt": "2026-10-10T12:00:50.229Z",
+  "modelVersion": "pharmaron-v1-segment-normal-profit-cashroll-CBchoice",
+  "passed": true,
+  "checks": [
+    {
+      "label": "H1 revenue sum",
+      "pass": true
+    },
+    {
+      "label": "H1 gross profit sum",
+      "pass": true
+    },
+    {
+      "label": "H1 cost bridge",
+      "pass": true
+    },
+    {
+      "label": "H1 minority profit bridge",
+      "pass": true
+    },
+    {
+      "label": "H1 adjusted profit bridge",
+      "pass": true
+    },
+    {
+      "label": "H1 FCF before lease",
+      "pass": true
+    },
+    {
+      "label": "H1 FCF after financing interest and lease",
+      "pass": true
+    },
+    {
+      "label": "Sept A/H legal shares",
+      "pass": true
+    },
+    {
+      "label": "Sept ex treasury shares",
+      "pass": true
+    },
+    {
+      "label": "cash anchor",
+      "pass": true
+    },
+    {
+      "label": "CB net model cash fee bridge",
+      "pass": true
+    },
+    {
+      "label": "cash ending row neutral description",
+      "pass": true
+    },
+    {
+      "label": "actual H1 OCF after bank interest",
+      "pass": true
+    },
+    {
+      "label": "actual H1 investments sum",
+      "pass": true
+    },
+    {
+      "label": "actual declared dividend cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2026 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2027 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2028 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2029 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2030 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2031 net debt",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 revenue",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 gross",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 EPS",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bear/2032 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2026 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2026 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2026 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2026 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2026 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2026 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2026 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2026 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2026 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2026 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2026 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2026 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2026 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2027 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2027 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2027 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2027 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2027 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2027 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2027 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2027 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2027 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2027 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2027 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2027 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2027 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2028 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2028 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2028 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2028 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2028 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2028 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2028 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2028 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2028 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2028 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2028 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2028 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2028 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2029 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2029 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2029 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2029 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2029 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2029 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2029 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2029 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2029 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2029 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2029 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2029 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2029 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2030 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2030 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2030 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2030 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2030 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2030 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2030 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2030 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2030 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2030 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2030 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2030 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2030 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2031 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2031 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2031 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2031 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2031 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2031 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2031 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2031 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2031 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2031 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2031 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2031 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2031 net debt",
+      "pass": true
+    },
+    {
+      "label": "base/2032 revenue",
+      "pass": true
+    },
+    {
+      "label": "base/2032 gross",
+      "pass": true
+    },
+    {
+      "label": "base/2032 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "base/2032 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "base/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "base/2032 EPS",
+      "pass": true
+    },
+    {
+      "label": "base/2032 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "base/2032 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "base/2032 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "base/2032 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "base/2032 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "base/2032 cash roll",
+      "pass": true
+    },
+    {
+      "label": "base/2032 opening cash",
+      "pass": true
+    },
+    {
+      "label": "base/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "base/2032 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2026 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2027 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2028 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2029 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2030 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2031 net debt",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 revenue",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 gross",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 normal pretax",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 tax/parent bridge",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 diluted shares",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 EPS",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 normalized OCF",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 remaining OCF convention",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 remaining capex",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 CB proceeds once",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 CB cash/dilution alternatives",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 cash roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 opening cash",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 bank roll",
+      "pass": true
+    },
+    {
+      "label": "bull/2032 net debt",
+      "pass": true
+    },
+    {
+      "label": "yearEnd no separate cash debt PE",
+      "pass": true
+    },
+    {
+      "label": "yearEnd weights sum",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear PE target",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear shared target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bear dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base PE target",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base shared target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/base dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull PE target",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull shared target array",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull total return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull table rounding",
+      "pass": true
+    },
+    {
+      "label": "yearEnd/bull dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "yearEnd expected price",
+      "pass": true
+    },
+    {
+      "label": "yearEnd expected capital return",
+      "pass": true
+    },
+    {
+      "label": "yearEnd sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "yearEnd sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear no separate cash debt PE",
+      "pass": true
+    },
+    {
+      "label": "halfYear weights sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear PE target",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear shared target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bear dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base PE target",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base shared target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/base dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull PE target",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull shared target array",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull table rounding",
+      "pass": true
+    },
+    {
+      "label": "halfYear/bull dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "halfYear expected price",
+      "pass": true
+    },
+    {
+      "label": "halfYear expected capital return",
+      "pass": true
+    },
+    {
+      "label": "halfYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "halfYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "oneYear no separate cash debt PE",
+      "pass": true
+    },
+    {
+      "label": "oneYear weights sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear PE target",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear shared target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bear dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base PE target",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base shared target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/base dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull PE target",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull shared target array",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull table rounding",
+      "pass": true
+    },
+    {
+      "label": "oneYear/bull dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "oneYear expected price",
+      "pass": true
+    },
+    {
+      "label": "oneYear expected capital return",
+      "pass": true
+    },
+    {
+      "label": "oneYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "oneYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "threeYear no separate cash debt PE",
+      "pass": true
+    },
+    {
+      "label": "threeYear weights sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear PE target",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear shared target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bear dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base PE target",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base shared target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear/base dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull PE target",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull shared target array",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull table rounding",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull CAGR",
+      "pass": true
+    },
+    {
+      "label": "threeYear/bull dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "threeYear expected price",
+      "pass": true
+    },
+    {
+      "label": "threeYear expected capital return",
+      "pass": true
+    },
+    {
+      "label": "threeYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "threeYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "fiveYear no separate cash debt PE",
+      "pass": true
+    },
+    {
+      "label": "fiveYear weights sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear PE target",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear shared target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bear dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base PE target",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base shared target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/base dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull annual profit snapshot",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull PE target",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull shared target array",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull total return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull table rounding",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull CAGR",
+      "pass": true
+    },
+    {
+      "label": "fiveYear/bull dividend entitlement schedule",
+      "pass": true
+    },
+    {
+      "label": "fiveYear expected price",
+      "pass": true
+    },
+    {
+      "label": "fiveYear expected capital return",
+      "pass": true
+    },
+    {
+      "label": "fiveYear sensitivity 0.4/0.4/0.2",
+      "pass": true
+    },
+    {
+      "label": "fiveYear sensitivity 0.2/0.4/0.4",
+      "pass": true
+    },
+    {
+      "label": "halfYear score weight sum",
+      "pass": true
+    },
+    {
+      "label": "halfYear score",
+      "pass": true
+    },
+    {
+      "label": "halfYear score bounds",
+      "pass": true
+    },
+    {
+      "label": "oneYear score weight sum",
+      "pass": true
+    },
+    {
+      "label": "oneYear score",
+      "pass": true
+    },
+    {
+      "label": "oneYear score bounds",
+      "pass": true
+    },
+    {
+      "label": "threeYear score weight sum",
+      "pass": true
+    },
+    {
+      "label": "threeYear score",
+      "pass": true
+    },
+    {
+      "label": "threeYear score bounds",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score weight sum",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score",
+      "pass": true
+    },
+    {
+      "label": "fiveYear score bounds",
+      "pass": true
+    },
+    {
+      "label": "broker Goldman Sachs cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker Daiwa cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker BofA Securities cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker Morgan Stanley cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker Nomura cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker HSBC cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker UBS cutoff/date",
+      "pass": true
+    },
+    {
+      "label": "broker institutions latest unique",
+      "pass": true
+    },
+    {
+      "label": "Oct9 shareholder transfer postclose",
+      "pass": true
+    },
+    {
+      "label": "CXO matched benchmark unavailable",
+      "pass": true
+    },
+    {
+      "label": "future dividend August assumption",
+      "pass": true
+    },
+    {
+      "label": "HK 2026 final dividend excluded",
+      "pass": true
+    },
+    {
+      "label": "adjusted FX prose unified CNY",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "manualReview": [
+    "中报 IFRS 与 A 股准则不拼接成本桥；2025H1 分部已重列",
+    "归母正常 PE 已扣普通融资成本，不额外加现金或扣同一净债",
+    "现金桥由扣息净利润起算，上半年 IFRS OCF 减融资银行息作残期锚；租赁本金独立扣现金",
+    "2027 悲观偿还 CB 与基准乐观转股互斥；年底和半年前瞻股数非当期已经去债",
+    "口服 GLP1 客户未披露名或合同额，不用药品全球销售替代服务收入",
+    "当日股东询价转让在 21:24 发布，属于旧股交易且不解释当日价格",
+    "日线两根 OHLC 已经独立来源修复；匹配 CXO 行业指数缺失",
+    "正文每节逐项阅读并统一亿元与十亿元表达"
+  ],
+  "remainingLimitations": [
+    "全公司现金流为年度简化桥，未完成三张财报预测和分产能利用率订单金额模型",
+    "重组前2025CMC与2026综合CDMO不能直接比较，2026H1对重列2025H1",
+    "CB固定汇率与即期结算、早赎/调价条款未全数值穿透",
+    "全球口服GLP1客户合同额/销量及盈利未披露，不能按药品总销售估CDMO",
+    "行业匹配CXO价格基准缺失，不以创新药指数冒充；日线2根OHLC经独立源修复",
+    "2026Oct9 21:24员工平台A股询价转让收盘后，不能解释当日跌幅",
+    "外资均新闻转述，精确目标日及原研报缺失",
+    "资本规划杭州2bn/绍兴3bn并非全部已承诺当期支出；现金/债务将受真实资金时间影响",
+    "中期资产负债表现金1457.570m与现金流末行1457.336m差0.234m，原因未确认；用前者为余额锚并保留差异"
+  ]
+}

@@ -1,0 +1,1981 @@
+{
+  "issuerId": "I044",
+  "securityId": "S051",
+  "name": "泰格医药",
+  "code": "03347.HK",
+  "currency": "HKD",
+  "asOf": "2026-10-09",
+  "price": 44.56,
+  "priceHKD": 44.56,
+  "marketVersion": "market-v1.6",
+  "modelVersion": "tigermed-H-native-normal-profit-v1.0",
+  "status": "独立初版；正常临床利润及全股PE研究假设",
+  "method": "临床及相关业务原子成本利润桥，正常联营/存单收益小额保留，投资公允变动与出售收益不永久资本化；全集团归母正常利润PE，不另加金融投资NAV、现金或子公司市值，不二次扣净债",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "modelAssumption": true
+  },
+  "shares": {
+    "date": "2026-09-30",
+    "publicationDate": "2026-10-07",
+    "totalIssued": 861026050,
+    "A": 737901250,
+    "H": 123124800,
+    "inventoryA": 26847258,
+    "inventoryH": 0,
+    "externalA": 711053992,
+    "externalH": 123124800,
+    "externalTotal": 834178792,
+    "proposedCancellationA": 5883780,
+    "legalIfCompleted": 855142270,
+    "cancellationCompleted": false,
+    "awardedTreasuryA": 9174770,
+    "awardPublicationTime": "2026-10-09 21:41 Asia/Hong_Kong",
+    "awardAfterClose": true,
+    "awardPriceCNY": 39.32,
+    "awardEmployees": 498,
+    "note": "9/23批准拟注销旧库存，债权申报至11/7；10/9授予来自库存且收盘后，无新发行。未来采用保守全股，不同时额外叠加库存交付；长期外部融资/新激励稀释为显式研究假设",
+    "publicationTime": "2026-10-07 16:31 Asia/Hong_Kong"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "publicationDate": "2026-08-28",
+    "publicationTime": "2026-08-28 16:31 Asia/Hong_Kong",
+    "afterClose": true,
+    "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800477.pdf",
+    "AFilingURL": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525347.PDF",
+    "revenue": 3707.5601742,
+    "cost": 2687.04429379,
+    "taxesAndSurcharges": 17.21527085,
+    "selling": 109.73624702,
+    "admin": 353.24601052,
+    "RDExpensed": 139.36521943,
+    "RDCapitalized": 0,
+    "financeExpense": 42.28457156,
+    "interestExpense": 32.81658951,
+    "interestIncome": 7.47774722,
+    "otherIncome": 27.39866755,
+    "investmentIncome": -2.43188675,
+    "associateJVIncome": 21.66220034,
+    "fairValueGain": -443.32379417,
+    "creditGain": 2.72137418,
+    "assetLoss": 3.59860199,
+    "assetDisposal": -18.08306874,
+    "operating": -78.64874889,
+    "nonOperatingIncome": 0.59590099,
+    "nonOperatingExpense": 2.16246004,
+    "pretax": -80.21530794,
+    "tax": 105.25601183,
+    "totalNetProfit": -185.47131977,
+    "minorityProfit": 227.68818064,
+    "attributableProfit": -413.15950041,
+    "deductedProfit": 277.72054546,
+    "nonrecurring": -690.88004587,
+    "nonrecurringTax": 34.06339856,
+    "nonrecurringMinority": 202.84694073,
+    "OCF": 425.78233529,
+    "capex": 106.1024269,
+    "FCF": 319.67990839,
+    "cashBank": 2099.26413282,
+    "cashCashEquivalents": 2043.07899631,
+    "restrictedOrExcludedCash": 56.18513651,
+    "largeCertificates": 1674.74701791,
+    "parentCashBank": 485.94431869,
+    "parentOCF": -89.43629241,
+    "totalAssets": 27893.19448955,
+    "totalLiabilities": 4801.62852448,
+    "parentEquity": 19477.21758062,
+    "minorityEquity": 3614.34838445,
+    "goodwill": 3454.54505458,
+    "receivables": 1331.73620722,
+    "contractAssets": 2721.74079839,
+    "contractLiabilities": 1354.7100373,
+    "sharePayment": 4.74268545,
+    "investmentCashIn": 1110.90671843,
+    "investmentCashOut": 1062.09443342,
+    "investmentPurchase": 949.33978882,
+    "buybackCash": 824.40511861,
+    "leaseCash": 46.65404456,
+    "acquisitionTailCash": 90.53885,
+    "minorityPurchaseCash": 30
+  },
+  "debt": {
+    "short": 245.64474391,
+    "longIncludingCurrent": 1629.15470942,
+    "leaseIncludingCurrent": 380.76523025,
+    "convertibleAccounting": 88.2400902,
+    "convertibleDerivativeFV": 28.70021759,
+    "financingSubtotal": 2343.80477378,
+    "financingIncludingDerivative": 2372.50499137,
+    "netCashEquivalentBasis": 300.72577747,
+    "note": "子DreamCIS可转债负债账面/衍生公允分别列示，集团内部购买抵销的逐项桥未取得，不另重复加30亿KRW本金；转股稀释子权益，不给泰格母H股加股数。PE含融资费用净债不二次扣"
+  },
+  "investments": {
+    "otherNoncurrentFV": 9612.94880469,
+    "otherEquity": 5.81256873,
+    "wealth": 27.80652503,
+    "totalFV": 9646.56789845,
+    "listedUnrestricted": 115.42125149,
+    "listedRestricted": 591.76961653,
+    "unlistedEquity": 4373.27664597,
+    "funds": 4412.67830176,
+    "debtTools": 121.80734529,
+    "layer3": 8907.76229302,
+    "longEquity": 4358.85080585,
+    "PaigeLoss": 719.32690696,
+    "BeixinGain": 291.98971426,
+    "BeixinLockEnd": "2027-02-04",
+    "PaigeLockEnd": "2026-05-26",
+    "parentOwnershipComplete": false,
+    "NAVAddedToPE": 0,
+    "note": "合并基金不等全归母，泰誉五期持股0.85%仍控制并表；不得用全部FV加归母股权；未完成全基金LP/GP经济归属与税穿透。本版不做NAV加价"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenue": 7384.03946088,
+      "attributableProfit": 2024.84998911,
+      "deductedProfit": 1477.24205332,
+      "OCF": 1150.43794205,
+      "EPSReported": 2.34
+    },
+    {
+      "period": "FY2024",
+      "revenue": 6603.12016278,
+      "attributableProfit": 405.14349182,
+      "deductedProfit": 854.89542522,
+      "OCF": 1097.00190374,
+      "EPSReported": 0.47
+    },
+    {
+      "period": "FY2025",
+      "revenue": 6832.80061535,
+      "attributableProfit": 887.89007631,
+      "deductedProfit": 355.0788145,
+      "OCF": 1118.08477054,
+      "EPSReported": 1.04,
+      "publicationDate": "2026-03-31",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051947.PDF"
+    }
+  ],
+  "segments": [
+    {
+      "name": "临床试验技术",
+      "revenue": 1773.39348198,
+      "cost": 1399.30151528,
+      "gross": 374.0919667,
+      "grossMarginPct": 21.09,
+      "revenueGrowthPct": 20.68
+    },
+    {
+      "name": "临床相关及实验室",
+      "revenue": 1842.43942282,
+      "cost": 1254.16384512,
+      "gross": 588.2755777,
+      "grossMarginPct": 31.93,
+      "revenueGrowthPct": 7.76
+    },
+    {
+      "name": "其他业务",
+      "revenue": 91.7272694,
+      "cost": 33.57893339,
+      "gross": 58.14833601
+    }
+  ],
+  "business": {
+    "projectsDrug": 667,
+    "phaseI": 274,
+    "phaseII": 128,
+    "phaseIII": 140,
+    "phaseIV": 39,
+    "otherPhase": 86,
+    "domestic": 403,
+    "overseasSingle": 209,
+    "MRCT": 55,
+    "SMOProjects": 3094,
+    "employees": 11984,
+    "priorEmployees": 11130,
+    "CRCOver": 4000,
+    "CRAOver": 1360,
+    "statisticsOver": 900,
+    "laboratoryOver": 1800,
+    "mainlandMainRevenue": 2029.63032509,
+    "outsideMainRevenue": 1586.20257971,
+    "mainLaborCost": 1352.4424,
+    "mainProjectCost": 1008.7962,
+    "mainIndirectCost": 292.2268,
+    "netNewOrderAmountPublished": false,
+    "note": "净新订单增速加快、均价回升为公司定性判断，精确金额/同比缺；项目数量非金额，DCT子订单不与集团总单相加"
+  },
+  "governance": {
+    "warningLetterReceived": "2026-09-11",
+    "advancePenaltyNotice": true,
+    "finalPenaltyVerified": false,
+    "proposedFineCNYmillion": 1,
+    "perPersonFineCNYmillion": 0.5,
+    "note": "2019/2022累计权益及减持未及时披露，非财报造假案；9/11调查完毕不等最终处罚，保留陈述申辩听证程序",
+    "updatePublicationTime": "2026-09-11 22:27 Asia/Hong_Kong"
+  },
+  "incentives": {
+    "performanceBasis": "审计扣非归母剔本次及其他激励股份支付，非业绩预测承诺",
+    "thresholdGrowthFromFY2025": [
+      45,
+      103,
+      170
+    ],
+    "fullGrowthFromFY2025": [
+      60,
+      155,
+      240
+    ],
+    "awardedCostCNYmillion": [
+      17.9771,
+      67.8749,
+      25.887,
+      6.1655
+    ],
+    "totalAwardCostCNYmillion": 117.9044,
+    "afterClose": true,
+    "note": "未来admin/RD/selling已包含持续股付成本，不将加回考核利润直接当估值归母利润",
+    "firstProposalTime": "2026-08-28 22:13 Asia/Hong_Kong",
+    "grantPrimaryURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1009/2026100901223.pdf"
+  },
+  "dividend": {
+    "FY2025CNY": 0.126,
+    "FY2025HKD": 0.14468,
+    "exDate": "2026-06-18",
+    "recordDate": "2026-06-26",
+    "paymentDate": "2026-07-22",
+    "alreadyExcluded": true,
+    "H12026": 0
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 45.259,
+      "60": 41.372,
+      "120": 38.336809,
+      "250": 41.419466
+    },
+    "maSlope5Pct": {
+      "20": 2.428371,
+      "60": 1.549639,
+      "120": 0.237649,
+      "250": -0.020011
+    },
+    "priceVsMAPct": {
+      "20": -1.544443,
+      "60": 7.705696,
+      "120": 16.232941,
+      "250": 7.582268
+    },
+    "returnPct": {
+      "20": 6.297717,
+      "60": 13.557591,
+      "120": 3.918281,
+      "250": -5.949576
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 56.73517,
+    "low52w": 27.989352,
+    "distanceFrom52wHighPct": -21.45965,
+    "distanceFrom52wLowPct": 59.203403,
+    "maxDrawdown52wPct": -46.594206,
+    "RSI14": 51.50141,
+    "ATR14": 2.447527,
+    "ATR14Pct": 5.492656,
+    "MACD": {
+      "DIF": 0.990046,
+      "DEA": 1.330133,
+      "histogram": -0.680175,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 638000,
+      "20": 1208972.35,
+      "60": 1626124.65
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.743017,
+    "previous20MeanVolume": 1242502.35,
+    "upDownVolume20": {
+      "upVolume": 14820152,
+      "downVolume": 9359295,
+      "flatVolume": 0,
+      "upDays": 11,
+      "downDays": 9,
+      "ratio": 1.583469
+    },
+    "ranges": {
+      "20": {
+        "support": 40.02,
+        "resistance": 48.360001,
+        "toSupportPct": -10.188512,
+        "toResistancePct": 8.527827,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 36.099998,
+        "resistance": 48.360001,
+        "toSupportPct": -18.985644,
+        "toResistancePct": 8.527827,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "回调，仍高于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 38.399871,
+      "60": 42.13652,
+      "120": 38.100602,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": 4.856924,
+      "60": -1.73324,
+      "120": 1.493201,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": 16.04206,
+      "60": 5.751498,
+      "120": 16.953535,
+      "250": null
+    },
+    "returnPct": {
+      "20": 39.725331,
+      "60": -23.342473,
+      "120": 52.981666,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 56.73517,
+    "low52w": 27.989352,
+    "distanceFrom52wHighPct": -21.45965,
+    "distanceFrom52wLowPct": 59.203403,
+    "maxDrawdown52wPct": -43.949276,
+    "RSI14": 60.386042,
+    "ATR14": 4.489176,
+    "ATR14Pct": 10.074451,
+    "MACD": {
+      "DIF": 1.323262,
+      "DEA": 0.184739,
+      "histogram": 2.277046,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 6364529.4,
+      "20": 8845951.05,
+      "60": 9785208.367
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.348874,
+    "previous20MeanVolume": 9143705.15,
+    "upDownVolume20": {
+      "upVolume": 129200619,
+      "downVolume": 47718402,
+      "flatVolume": 0,
+      "upDays": 14,
+      "downDays": 6,
+      "ratio": 2.707564
+    },
+    "ranges": {
+      "20": {
+        "support": 27.989352,
+        "resistance": 48.360001,
+        "toSupportPct": -37.187273,
+        "toResistancePct": 8.527827,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 27.989352,
+        "resistance": 59.024485,
+        "toSupportPct": -37.187273,
+        "toResistancePct": 32.46069,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "趋势交错/震荡",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 9.275625,
+    "excess60Pct": 16.745494,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空"
+  },
+  "lastVolumeShares": 923200,
+  "lastTurnoverAmount": 40091812,
+  "nativeInputs": {
+    "yearEnd": {
+      "PE": [
+        35,
+        49,
+        56
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "rows": [
+        {
+          "clinical": 3.55,
+          "related": 3.7,
+          "other": 0.17,
+          "labor": 2.7,
+          "project": 1.97,
+          "overhead": 0.66,
+          "otherCost": 0.07,
+          "taxes": 0.034874,
+          "selling": 0.24,
+          "admin": 0.72,
+          "RD": 0.31,
+          "finance": 0.12,
+          "otherIncome": 0.005,
+          "associate": 0.035,
+          "investment": 0.02,
+          "creditLoss": 0.025,
+          "assetLoss": 0.035,
+          "taxRate": 0.22,
+          "taxAdjustment": 0.012,
+          "minority": 0.05,
+          "shares": 0.86102605
+        },
+        {
+          "clinical": 3.85,
+          "related": 3.85,
+          "other": 0.18,
+          "labor": 2.91,
+          "project": 2.02,
+          "overhead": 0.65,
+          "otherCost": 0.065,
+          "taxes": 0.037036,
+          "selling": 0.24,
+          "admin": 0.76,
+          "RD": 0.32,
+          "finance": 0.095,
+          "otherIncome": 0.006,
+          "associate": 0.045,
+          "investment": 0.025,
+          "creditLoss": 0.012,
+          "assetLoss": 0.02,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.05,
+          "shares": 0.86102605
+        },
+        {
+          "clinical": 4.02,
+          "related": 4,
+          "other": 0.18,
+          "labor": 2.96,
+          "project": 2.055,
+          "overhead": 0.66,
+          "otherCost": 0.065,
+          "taxes": 0.03854,
+          "selling": 0.245,
+          "admin": 0.76,
+          "RD": 0.32,
+          "finance": 0.085,
+          "otherIncome": 0.008,
+          "associate": 0.06,
+          "investment": 0.025,
+          "creditLoss": 0.01,
+          "assetLoss": 0.015,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.06,
+          "shares": 0.86102605
+        }
+      ]
+    },
+    "halfYear": {
+      "PE": [
+        32,
+        43,
+        51
+      ],
+      "div": [
+        0,
+        0,
+        0
+      ],
+      "rows": [
+        {
+          "clinical": 3.65,
+          "related": 3.75,
+          "other": 0.18,
+          "labor": 2.74,
+          "project": 2.04,
+          "overhead": 0.68,
+          "otherCost": 0.07,
+          "taxes": 0.035626000000000005,
+          "selling": 0.25,
+          "admin": 0.73,
+          "RD": 0.34,
+          "finance": 0.14,
+          "otherIncome": 0.005,
+          "associate": 0.025,
+          "investment": 0.018,
+          "creditLoss": 0.035,
+          "assetLoss": 0.045,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.015,
+          "minority": 0.05,
+          "shares": 0.88
+        },
+        {
+          "clinical": 4.22,
+          "related": 4.03,
+          "other": 0.19,
+          "labor": 3.09,
+          "project": 2.09,
+          "overhead": 0.67,
+          "otherCost": 0.068,
+          "taxes": 0.039668,
+          "selling": 0.255,
+          "admin": 0.795,
+          "RD": 0.37,
+          "finance": 0.095,
+          "otherIncome": 0.006,
+          "associate": 0.05,
+          "investment": 0.025,
+          "creditLoss": 0.016,
+          "assetLoss": 0.022,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.065,
+          "shares": 0.86102605
+        },
+        {
+          "clinical": 4.63,
+          "related": 4.3,
+          "other": 0.2,
+          "labor": 3.22,
+          "project": 2.19,
+          "overhead": 0.7,
+          "otherCost": 0.07,
+          "taxes": 0.042911,
+          "selling": 0.275,
+          "admin": 0.83,
+          "RD": 0.39,
+          "finance": 0.085,
+          "otherIncome": 0.009,
+          "associate": 0.065,
+          "investment": 0.025,
+          "creditLoss": 0.012,
+          "assetLoss": 0.018,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.085,
+          "shares": 0.86102605
+        }
+      ]
+    },
+    "oneYear": {
+      "PE": [
+        30,
+        43,
+        51
+      ],
+      "div": [
+        0.05,
+        0.18,
+        0.24
+      ],
+      "rows": [
+        {
+          "clinical": 3.72,
+          "related": 3.82,
+          "other": 0.18,
+          "labor": 2.77,
+          "project": 2.04,
+          "overhead": 0.7,
+          "otherCost": 0.07,
+          "taxes": 0.036284,
+          "selling": 0.255,
+          "admin": 0.74,
+          "RD": 0.35,
+          "finance": 0.15,
+          "otherIncome": 0.005,
+          "associate": 0.025,
+          "investment": 0.018,
+          "creditLoss": 0.04,
+          "assetLoss": 0.055,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.02,
+          "minority": 0.055,
+          "shares": 0.9
+        },
+        {
+          "clinical": 4.4,
+          "related": 4.1,
+          "other": 0.2,
+          "labor": 3.15,
+          "project": 2.115,
+          "overhead": 0.68,
+          "otherCost": 0.07,
+          "taxes": 0.040889999999999996,
+          "selling": 0.265,
+          "admin": 0.81,
+          "RD": 0.39,
+          "finance": 0.09,
+          "otherIncome": 0.006,
+          "associate": 0.055,
+          "investment": 0.025,
+          "creditLoss": 0.018,
+          "assetLoss": 0.023,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.07,
+          "shares": 0.86102605
+        },
+        {
+          "clinical": 4.9,
+          "related": 4.5,
+          "other": 0.21,
+          "labor": 3.35,
+          "project": 2.29,
+          "overhead": 0.73,
+          "otherCost": 0.075,
+          "taxes": 0.045167000000000006,
+          "selling": 0.29,
+          "admin": 0.87,
+          "RD": 0.42,
+          "finance": 0.08,
+          "otherIncome": 0.01,
+          "associate": 0.07,
+          "investment": 0.027,
+          "creditLoss": 0.013,
+          "assetLoss": 0.018,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.095,
+          "shares": 0.86102605
+        }
+      ]
+    },
+    "threeYear": {
+      "PE": [
+        23,
+        35,
+        43
+      ],
+      "div": [
+        0.16,
+        0.65,
+        0.95
+      ],
+      "rows": [
+        {
+          "clinical": 4,
+          "related": 4,
+          "other": 0.19,
+          "labor": 2.97,
+          "project": 2.11,
+          "overhead": 0.76,
+          "otherCost": 0.08,
+          "taxes": 0.038493,
+          "selling": 0.285,
+          "admin": 0.82,
+          "RD": 0.39,
+          "finance": 0.18,
+          "otherIncome": 0.006,
+          "associate": 0.025,
+          "investment": 0.016,
+          "creditLoss": 0.055,
+          "assetLoss": 0.07,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.025,
+          "minority": 0.06,
+          "shares": 0.94
+        },
+        {
+          "clinical": 5.7,
+          "related": 5.15,
+          "other": 0.23,
+          "labor": 4,
+          "project": 2.55,
+          "overhead": 0.86,
+          "otherCost": 0.085,
+          "taxes": 0.05207600000000001,
+          "selling": 0.34,
+          "admin": 1.01,
+          "RD": 0.55,
+          "finance": 0.085,
+          "otherIncome": 0.008,
+          "associate": 0.07,
+          "investment": 0.03,
+          "creditLoss": 0.025,
+          "assetLoss": 0.03,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.014,
+          "minority": 0.1,
+          "shares": 0.88
+        },
+        {
+          "clinical": 7.2,
+          "related": 6.2,
+          "other": 0.28,
+          "labor": 4.68,
+          "project": 3.09,
+          "overhead": 1,
+          "otherCost": 0.095,
+          "taxes": 0.064296,
+          "selling": 0.4,
+          "admin": 1.15,
+          "RD": 0.68,
+          "finance": 0.075,
+          "otherIncome": 0.012,
+          "associate": 0.095,
+          "investment": 0.035,
+          "creditLoss": 0.02,
+          "assetLoss": 0.027,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.012,
+          "minority": 0.16,
+          "shares": 0.88
+        }
+      ]
+    },
+    "fiveYear": {
+      "PE": [
+        21,
+        31,
+        38
+      ],
+      "div": [
+        0.25,
+        1.35,
+        2.1
+      ],
+      "rows": [
+        {
+          "clinical": 4.15,
+          "related": 4.12,
+          "other": 0.2,
+          "labor": 3.02,
+          "project": 2.18,
+          "overhead": 0.8,
+          "otherCost": 0.085,
+          "taxes": 0.039809,
+          "selling": 0.3,
+          "admin": 0.86,
+          "RD": 0.42,
+          "finance": 0.2,
+          "otherIncome": 0.006,
+          "associate": 0.02,
+          "investment": 0.014,
+          "creditLoss": 0.065,
+          "assetLoss": 0.08,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.03,
+          "minority": 0.065,
+          "shares": 0.99
+        },
+        {
+          "clinical": 7,
+          "related": 6.15,
+          "other": 0.26,
+          "labor": 4.86,
+          "project": 3.03,
+          "overhead": 1.05,
+          "otherCost": 0.095,
+          "taxes": 0.063027,
+          "selling": 0.405,
+          "admin": 1.2,
+          "RD": 0.75,
+          "finance": 0.09,
+          "otherIncome": 0.01,
+          "associate": 0.085,
+          "investment": 0.032,
+          "creditLoss": 0.032,
+          "assetLoss": 0.04,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.02,
+          "minority": 0.13,
+          "shares": 0.91
+        },
+        {
+          "clinical": 9.6,
+          "related": 8,
+          "other": 0.33,
+          "labor": 6.18,
+          "project": 3.85,
+          "overhead": 1.33,
+          "otherCost": 0.11,
+          "taxes": 0.084271,
+          "selling": 0.49,
+          "admin": 1.42,
+          "RD": 0.98,
+          "finance": 0.07,
+          "otherIncome": 0.015,
+          "associate": 0.115,
+          "investment": 0.04,
+          "creditLoss": 0.027,
+          "assetLoss": 0.035,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.016,
+          "minority": 0.22,
+          "shares": 0.91
+        }
+      ]
+    }
+  },
+  "nativeProfitBridge": {
+    "unit": "CNY billion",
+    "formula": "revenue=clinical+related+other; cost=labor+project+overhead+otherCost; operating=revenue−cost−taxes−selling−admin−RD+otherIncome+associate+investment−creditLoss−assetLoss; pretax=operating−finance; tax=max(pretax,0)×taxRate+taxAdjustment; parent=pretax−tax−minority; EPS=parent/shares",
+    "normalization": "投资公允/处置不重复，正常联营及存单收益保留小额；基金少数非经常与正常经营少数区别；无NAV加价",
+    "tax": "盈利经营主体税不能被并表投损机械抵销，未来税率加税调金额单独编辑"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "native": [
+        {
+          "clinical": 3.55,
+          "related": 3.7,
+          "other": 0.17,
+          "labor": 2.7,
+          "project": 1.97,
+          "overhead": 0.66,
+          "otherCost": 0.07,
+          "taxes": 0.034874,
+          "selling": 0.24,
+          "admin": 0.72,
+          "RD": 0.31,
+          "finance": 0.12,
+          "otherIncome": 0.005,
+          "associate": 0.035,
+          "investment": 0.02,
+          "creditLoss": 0.025,
+          "assetLoss": 0.035,
+          "taxRate": 0.22,
+          "taxAdjustment": 0.012,
+          "minority": 0.05,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 7.42,
+          "costCNYBillion": 5.4,
+          "grossCNYBillion": 2.0199999999999996,
+          "grossMarginPct": 27.22371967654986,
+          "operatingCNYBillion": 0.7151259999999995,
+          "pretaxCNYBillion": 0.5951259999999995,
+          "taxCNYBillion": 0.1429277199999999,
+          "profitCNYBillion": 0.40219827999999963,
+          "epsCNY": 0.46711511225473334,
+          "netMarginPct": 5.42046199460916
+        },
+        {
+          "clinical": 3.85,
+          "related": 3.85,
+          "other": 0.18,
+          "labor": 2.91,
+          "project": 2.02,
+          "overhead": 0.65,
+          "otherCost": 0.065,
+          "taxes": 0.037036,
+          "selling": 0.24,
+          "admin": 0.76,
+          "RD": 0.32,
+          "finance": 0.095,
+          "otherIncome": 0.006,
+          "associate": 0.045,
+          "investment": 0.025,
+          "creditLoss": 0.012,
+          "assetLoss": 0.02,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.05,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 7.88,
+          "costCNYBillion": 5.6450000000000005,
+          "grossCNYBillion": 2.2349999999999994,
+          "grossMarginPct": 28.36294416243654,
+          "operatingCNYBillion": 0.9219639999999993,
+          "pretaxCNYBillion": 0.8269639999999994,
+          "taxCNYBillion": 0.1753927999999999,
+          "profitCNYBillion": 0.6015711999999994,
+          "epsCNY": 0.6986678277620049,
+          "netMarginPct": 7.634152284263952
+        },
+        {
+          "clinical": 4.02,
+          "related": 4,
+          "other": 0.18,
+          "labor": 2.96,
+          "project": 2.055,
+          "overhead": 0.66,
+          "otherCost": 0.065,
+          "taxes": 0.03854,
+          "selling": 0.245,
+          "admin": 0.76,
+          "RD": 0.32,
+          "finance": 0.085,
+          "otherIncome": 0.008,
+          "associate": 0.06,
+          "investment": 0.025,
+          "creditLoss": 0.01,
+          "assetLoss": 0.015,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.06,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 8.2,
+          "costCNYBillion": 5.740000000000001,
+          "grossCNYBillion": 2.459999999999998,
+          "grossMarginPct": 29.999999999999982,
+          "operatingCNYBillion": 1.1644599999999983,
+          "pretaxCNYBillion": 1.0794599999999983,
+          "taxCNYBillion": 0.2023027999999997,
+          "profitCNYBillion": 0.8171571999999987,
+          "epsCNY": 0.9490504962074012,
+          "netMarginPct": 9.965331707317057
+        }
+      ],
+      "epsCNY": [
+        0.46711511225473334,
+        0.6986678277620049,
+        0.9490504962074012
+      ],
+      "PE": [
+        35,
+        49,
+        56
+      ],
+      "profitCNYBillion": [
+        0.40219827999999963,
+        0.6015711999999994,
+        0.8171571999999987
+      ],
+      "revenueCNYBillion": [
+        7.42,
+        7.88,
+        8.2
+      ],
+      "netMarginPct": [
+        5.42046199460916,
+        7.634152284263952,
+        9.965331707317057
+      ],
+      "dilutedSharesBillion": [
+        0.86102605,
+        0.86102605,
+        0.86102605
+      ],
+      "priceHKD": [
+        17.983931821807236,
+        37.658195916372065,
+        58.46151056637592
+      ],
+      "priceTargets": [
+        17.983931821807236,
+        37.658195916372065,
+        58.46151056637592
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -59.64108657583655,
+        -15.488788338482806,
+        31.19728583118473
+      ],
+      "totalReturnPct": [
+        -59.64108657583655,
+        -15.488788338482806,
+        31.19728583118473
+      ],
+      "conditions": [
+        "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+        "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+        "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 37.94045855523182,
+      "expectedPrice": 37.94045855523182,
+      "expectedReturnPct": -14.855344355404354,
+      "expectedTotalReturnPct": -14.855344355404354,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 31.86882174354652,
+        "positivePrice": 44.01209536691712
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "native": [
+        {
+          "clinical": 3.65,
+          "related": 3.75,
+          "other": 0.18,
+          "labor": 2.74,
+          "project": 2.04,
+          "overhead": 0.68,
+          "otherCost": 0.07,
+          "taxes": 0.035626000000000005,
+          "selling": 0.25,
+          "admin": 0.73,
+          "RD": 0.34,
+          "finance": 0.14,
+          "otherIncome": 0.005,
+          "associate": 0.025,
+          "investment": 0.018,
+          "creditLoss": 0.035,
+          "assetLoss": 0.045,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.015,
+          "minority": 0.05,
+          "shares": 0.88,
+          "revenueCNYBillion": 7.58,
+          "costCNYBillion": 5.53,
+          "grossCNYBillion": 2.05,
+          "grossMarginPct": 27.044854881266488,
+          "operatingCNYBillion": 0.6623739999999996,
+          "pretaxCNYBillion": 0.5223739999999996,
+          "taxCNYBillion": 0.13514601999999992,
+          "profitCNYBillion": 0.33722797999999965,
+          "epsCNY": 0.38321361363636325,
+          "netMarginPct": 4.448917941952502
+        },
+        {
+          "clinical": 4.22,
+          "related": 4.03,
+          "other": 0.19,
+          "labor": 3.09,
+          "project": 2.09,
+          "overhead": 0.67,
+          "otherCost": 0.068,
+          "taxes": 0.039668,
+          "selling": 0.255,
+          "admin": 0.795,
+          "RD": 0.37,
+          "finance": 0.095,
+          "otherIncome": 0.006,
+          "associate": 0.05,
+          "investment": 0.025,
+          "creditLoss": 0.016,
+          "assetLoss": 0.022,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.065,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 8.44,
+          "costCNYBillion": 5.917999999999999,
+          "grossCNYBillion": 2.5220000000000002,
+          "grossMarginPct": 29.88151658767773,
+          "operatingCNYBillion": 1.1053320000000004,
+          "pretaxCNYBillion": 1.0103320000000005,
+          "taxCNYBillion": 0.2120664000000001,
+          "profitCNYBillion": 0.7332656000000004,
+          "epsCNY": 0.8516183685731696,
+          "netMarginPct": 8.687981042654034
+        },
+        {
+          "clinical": 4.63,
+          "related": 4.3,
+          "other": 0.2,
+          "labor": 3.22,
+          "project": 2.19,
+          "overhead": 0.7,
+          "otherCost": 0.07,
+          "taxes": 0.042911,
+          "selling": 0.275,
+          "admin": 0.83,
+          "RD": 0.39,
+          "finance": 0.085,
+          "otherIncome": 0.009,
+          "associate": 0.065,
+          "investment": 0.025,
+          "creditLoss": 0.012,
+          "assetLoss": 0.018,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.085,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 9.129999999999999,
+          "costCNYBillion": 6.180000000000001,
+          "grossCNYBillion": 2.9499999999999984,
+          "grossMarginPct": 32.31106243154434,
+          "operatingCNYBillion": 1.4810889999999979,
+          "pretaxCNYBillion": 1.396088999999998,
+          "taxCNYBillion": 0.2592960199999996,
+          "profitCNYBillion": 1.0517929799999983,
+          "epsCNY": 1.2215576752875228,
+          "netMarginPct": 11.520185980284758
+        }
+      ],
+      "epsCNY": [
+        0.38321361363636325,
+        0.8516183685731696,
+        1.2215576752875228
+      ],
+      "PE": [
+        32,
+        43,
+        51
+      ],
+      "profitCNYBillion": [
+        0.33722797999999965,
+        0.7332656000000004,
+        1.0517929799999983
+      ],
+      "revenueCNYBillion": [
+        7.58,
+        8.44,
+        9.129999999999999
+      ],
+      "netMarginPct": [
+        4.448917941952502,
+        8.687981042654034,
+        11.520185980284758
+      ],
+      "dilutedSharesBillion": [
+        0.88,
+        0.86102605,
+        0.86102605
+      ],
+      "priceHKD": [
+        13.489119199999987,
+        40.281548833510925,
+        68.52938558363003
+      ],
+      "priceTargets": [
+        13.489119199999987,
+        40.281548833510925,
+        68.52938558363003
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceReturnPct": [
+        -69.72818850987436,
+        -9.60155109176184,
+        53.79126028642287
+      ],
+      "totalReturnPct": [
+        -69.72818850987436,
+        -9.60155109176184,
+        53.79126028642287
+      ],
+      "conditions": [
+        "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+        "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+        "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "native": [
+        {
+          "clinical": 3.72,
+          "related": 3.82,
+          "other": 0.18,
+          "labor": 2.77,
+          "project": 2.04,
+          "overhead": 0.7,
+          "otherCost": 0.07,
+          "taxes": 0.036284,
+          "selling": 0.255,
+          "admin": 0.74,
+          "RD": 0.35,
+          "finance": 0.15,
+          "otherIncome": 0.005,
+          "associate": 0.025,
+          "investment": 0.018,
+          "creditLoss": 0.04,
+          "assetLoss": 0.055,
+          "taxRate": 0.23,
+          "taxAdjustment": 0.02,
+          "minority": 0.055,
+          "shares": 0.9,
+          "revenueCNYBillion": 7.72,
+          "costCNYBillion": 5.580000000000001,
+          "grossCNYBillion": 2.139999999999999,
+          "grossMarginPct": 27.720207253885995,
+          "operatingCNYBillion": 0.7117159999999987,
+          "pretaxCNYBillion": 0.5617159999999987,
+          "taxCNYBillion": 0.1491946799999997,
+          "profitCNYBillion": 0.357521319999999,
+          "epsCNY": 0.39724591111110996,
+          "netMarginPct": 4.631105181347137
+        },
+        {
+          "clinical": 4.4,
+          "related": 4.1,
+          "other": 0.2,
+          "labor": 3.15,
+          "project": 2.115,
+          "overhead": 0.68,
+          "otherCost": 0.07,
+          "taxes": 0.040889999999999996,
+          "selling": 0.265,
+          "admin": 0.81,
+          "RD": 0.39,
+          "finance": 0.09,
+          "otherIncome": 0.006,
+          "associate": 0.055,
+          "investment": 0.025,
+          "creditLoss": 0.018,
+          "assetLoss": 0.023,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.01,
+          "minority": 0.07,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 8.7,
+          "costCNYBillion": 6.015000000000001,
+          "grossCNYBillion": 2.6849999999999987,
+          "grossMarginPct": 30.86206896551723,
+          "operatingCNYBillion": 1.2241099999999983,
+          "pretaxCNYBillion": 1.1341099999999982,
+          "taxCNYBillion": 0.23682199999999964,
+          "profitCNYBillion": 0.8272879999999985,
+          "epsCNY": 0.9608164584567429,
+          "netMarginPct": 9.50905747126435
+        },
+        {
+          "clinical": 4.9,
+          "related": 4.5,
+          "other": 0.21,
+          "labor": 3.35,
+          "project": 2.29,
+          "overhead": 0.73,
+          "otherCost": 0.075,
+          "taxes": 0.045167000000000006,
+          "selling": 0.29,
+          "admin": 0.87,
+          "RD": 0.42,
+          "finance": 0.08,
+          "otherIncome": 0.01,
+          "associate": 0.07,
+          "investment": 0.027,
+          "creditLoss": 0.013,
+          "assetLoss": 0.018,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.008,
+          "minority": 0.095,
+          "shares": 0.86102605,
+          "revenueCNYBillion": 9.610000000000001,
+          "costCNYBillion": 6.445000000000001,
+          "grossCNYBillion": 3.165,
+          "grossMarginPct": 32.93444328824141,
+          "operatingCNYBillion": 1.6158329999999999,
+          "pretaxCNYBillion": 1.5358329999999998,
+          "taxCNYBillion": 0.28444993999999996,
+          "profitCNYBillion": 1.1563830599999998,
+          "epsCNY": 1.3430291220573405,
+          "netMarginPct": 12.033122372528613
+        }
+      ],
+      "epsCNY": [
+        0.39724591111110996,
+        0.9608164584567429,
+        1.3430291220573405
+      ],
+      "PE": [
+        30,
+        43,
+        51
+      ],
+      "profitCNYBillion": [
+        0.357521319999999,
+        0.8272879999999985,
+        1.1563830599999998
+      ],
+      "revenueCNYBillion": [
+        7.72,
+        8.7,
+        9.610000000000001
+      ],
+      "netMarginPct": [
+        4.631105181347137,
+        9.50905747126435,
+        12.033122372528613
+      ],
+      "dilutedSharesBillion": [
+        0.9,
+        0.86102605,
+        0.86102605
+      ],
+      "priceHKD": [
+        13.10911506666663,
+        45.446618485003945,
+        75.3439337474168
+      ],
+      "priceTargets": [
+        13.10911506666663,
+        45.446618485003945,
+        75.3439337474168
+      ],
+      "cumulativeCashDividendHKD": [
+        0.05,
+        0.18,
+        0.24
+      ],
+      "priceReturnPct": [
+        -70.58098055056861,
+        1.9897183236174731,
+        69.08423192867323
+      ],
+      "totalReturnPct": [
+        -70.46877229204078,
+        2.3936680543176436,
+        69.6228315696068
+      ],
+      "conditions": [
+        "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+        "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+        "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "native": [
+        {
+          "clinical": 4,
+          "related": 4,
+          "other": 0.19,
+          "labor": 2.97,
+          "project": 2.11,
+          "overhead": 0.76,
+          "otherCost": 0.08,
+          "taxes": 0.038493,
+          "selling": 0.285,
+          "admin": 0.82,
+          "RD": 0.39,
+          "finance": 0.18,
+          "otherIncome": 0.006,
+          "associate": 0.025,
+          "investment": 0.016,
+          "creditLoss": 0.055,
+          "assetLoss": 0.07,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.025,
+          "minority": 0.06,
+          "shares": 0.94,
+          "revenueCNYBillion": 8.19,
+          "costCNYBillion": 5.92,
+          "grossCNYBillion": 2.2699999999999996,
+          "grossMarginPct": 27.71672771672771,
+          "operatingCNYBillion": 0.6585069999999997,
+          "pretaxCNYBillion": 0.47850699999999974,
+          "taxCNYBillion": 0.13984167999999994,
+          "profitCNYBillion": 0.2786653199999998,
+          "epsCNY": 0.2964524680851062,
+          "netMarginPct": 3.4025069597069577
+        },
+        {
+          "clinical": 5.7,
+          "related": 5.15,
+          "other": 0.23,
+          "labor": 4,
+          "project": 2.55,
+          "overhead": 0.86,
+          "otherCost": 0.085,
+          "taxes": 0.05207600000000001,
+          "selling": 0.34,
+          "admin": 1.01,
+          "RD": 0.55,
+          "finance": 0.085,
+          "otherIncome": 0.008,
+          "associate": 0.07,
+          "investment": 0.03,
+          "creditLoss": 0.025,
+          "assetLoss": 0.03,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.014,
+          "minority": 0.1,
+          "shares": 0.88,
+          "revenueCNYBillion": 11.080000000000002,
+          "costCNYBillion": 7.495,
+          "grossCNYBillion": 3.5850000000000017,
+          "grossMarginPct": 32.35559566787005,
+          "operatingCNYBillion": 1.6859240000000018,
+          "pretaxCNYBillion": 1.6009240000000018,
+          "taxCNYBillion": 0.3341848000000004,
+          "profitCNYBillion": 1.1667392000000012,
+          "epsCNY": 1.3258400000000015,
+          "netMarginPct": 10.530137184115533
+        },
+        {
+          "clinical": 7.2,
+          "related": 6.2,
+          "other": 0.28,
+          "labor": 4.68,
+          "project": 3.09,
+          "overhead": 1,
+          "otherCost": 0.095,
+          "taxes": 0.064296,
+          "selling": 0.4,
+          "admin": 1.15,
+          "RD": 0.68,
+          "finance": 0.075,
+          "otherIncome": 0.012,
+          "associate": 0.095,
+          "investment": 0.035,
+          "creditLoss": 0.02,
+          "assetLoss": 0.027,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.012,
+          "minority": 0.16,
+          "shares": 0.88,
+          "revenueCNYBillion": 13.68,
+          "costCNYBillion": 8.865,
+          "grossCNYBillion": 4.8149999999999995,
+          "grossMarginPct": 35.19736842105263,
+          "operatingCNYBillion": 2.6157039999999996,
+          "pretaxCNYBillion": 2.5407039999999994,
+          "taxCNYBillion": 0.46932671999999986,
+          "profitCNYBillion": 1.9113772799999997,
+          "epsCNY": 2.172019636363636,
+          "netMarginPct": 13.972056140350876
+        }
+      ],
+      "epsCNY": [
+        0.2964524680851062,
+        1.3258400000000015,
+        2.172019636363636
+      ],
+      "PE": [
+        23,
+        35,
+        43
+      ],
+      "profitCNYBillion": [
+        0.2786653199999998,
+        1.1667392000000012,
+        1.9113772799999997
+      ],
+      "revenueCNYBillion": [
+        8.19,
+        11.080000000000002,
+        13.68
+      ],
+      "netMarginPct": [
+        3.4025069597069577,
+        10.530137184115533,
+        13.972056140350876
+      ],
+      "dilutedSharesBillion": [
+        0.94,
+        0.88,
+        0.88
+      ],
+      "priceHKD": [
+        7.500247442553188,
+        51.044840000000065,
+        102.73652879999999
+      ],
+      "priceTargets": [
+        7.500247442553188,
+        51.044840000000065,
+        102.73652879999999
+      ],
+      "cumulativeCashDividendHKD": [
+        0.16,
+        0.65,
+        0.95
+      ],
+      "priceReturnPct": [
+        -83.16820591886628,
+        14.553052064632087,
+        130.55773967684016
+      ],
+      "totalReturnPct": [
+        -82.80913949157723,
+        16.011759425493842,
+        132.6896965888689
+      ],
+      "conditions": [
+        "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+        "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+        "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+      ],
+      "baseAnnualizedPriceReturnPct": 4.633050786491233,
+      "baseAnnualizedTotalReturnPct": 5.075307857195477
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "native": [
+        {
+          "clinical": 4.15,
+          "related": 4.12,
+          "other": 0.2,
+          "labor": 3.02,
+          "project": 2.18,
+          "overhead": 0.8,
+          "otherCost": 0.085,
+          "taxes": 0.039809,
+          "selling": 0.3,
+          "admin": 0.86,
+          "RD": 0.42,
+          "finance": 0.2,
+          "otherIncome": 0.006,
+          "associate": 0.02,
+          "investment": 0.014,
+          "creditLoss": 0.065,
+          "assetLoss": 0.08,
+          "taxRate": 0.24,
+          "taxAdjustment": 0.03,
+          "minority": 0.065,
+          "shares": 0.99,
+          "revenueCNYBillion": 8.469999999999999,
+          "costCNYBillion": 6.085,
+          "grossCNYBillion": 2.384999999999999,
+          "grossMarginPct": 28.158205430932693,
+          "operatingCNYBillion": 0.6601909999999994,
+          "pretaxCNYBillion": 0.4601909999999994,
+          "taxCNYBillion": 0.14044583999999985,
+          "profitCNYBillion": 0.2547451599999995,
+          "epsCNY": 0.25731834343434296,
+          "netMarginPct": 3.0076170011806322
+        },
+        {
+          "clinical": 7,
+          "related": 6.15,
+          "other": 0.26,
+          "labor": 4.86,
+          "project": 3.03,
+          "overhead": 1.05,
+          "otherCost": 0.095,
+          "taxes": 0.063027,
+          "selling": 0.405,
+          "admin": 1.2,
+          "RD": 0.75,
+          "finance": 0.09,
+          "otherIncome": 0.01,
+          "associate": 0.085,
+          "investment": 0.032,
+          "creditLoss": 0.032,
+          "assetLoss": 0.04,
+          "taxRate": 0.2,
+          "taxAdjustment": 0.02,
+          "minority": 0.13,
+          "shares": 0.91,
+          "revenueCNYBillion": 13.41,
+          "costCNYBillion": 9.035000000000002,
+          "grossCNYBillion": 4.374999999999998,
+          "grossMarginPct": 32.6249067859806,
+          "operatingCNYBillion": 2.011972999999998,
+          "pretaxCNYBillion": 1.921972999999998,
+          "taxCNYBillion": 0.4043945999999996,
+          "profitCNYBillion": 1.3875783999999984,
+          "epsCNY": 1.5248114285714267,
+          "netMarginPct": 10.347340790454872
+        },
+        {
+          "clinical": 9.6,
+          "related": 8,
+          "other": 0.33,
+          "labor": 6.18,
+          "project": 3.85,
+          "overhead": 1.33,
+          "otherCost": 0.11,
+          "taxes": 0.084271,
+          "selling": 0.49,
+          "admin": 1.42,
+          "RD": 0.98,
+          "finance": 0.07,
+          "otherIncome": 0.015,
+          "associate": 0.115,
+          "investment": 0.04,
+          "creditLoss": 0.027,
+          "assetLoss": 0.035,
+          "taxRate": 0.18,
+          "taxAdjustment": 0.016,
+          "minority": 0.22,
+          "shares": 0.91,
+          "revenueCNYBillion": 17.93,
+          "costCNYBillion": 11.469999999999999,
+          "grossCNYBillion": 6.460000000000001,
+          "grossMarginPct": 36.02900167317346,
+          "operatingCNYBillion": 3.5937290000000006,
+          "pretaxCNYBillion": 3.5237290000000008,
+          "taxCNYBillion": 0.6502712200000001,
+          "profitCNYBillion": 2.6534577800000005,
+          "epsCNY": 2.915887670329671,
+          "netMarginPct": 14.798983714445066
+        }
+      ],
+      "epsCNY": [
+        0.25731834343434296,
+        1.5248114285714267,
+        2.915887670329671
+      ],
+      "PE": [
+        21,
+        31,
+        38
+      ],
+      "profitCNYBillion": [
+        0.2547451599999995,
+        1.3875783999999984,
+        2.6534577800000005
+      ],
+      "revenueCNYBillion": [
+        8.469999999999999,
+        13.41,
+        17.93
+      ],
+      "netMarginPct": [
+        3.0076170011806322,
+        10.347340790454872,
+        14.798983714445066
+      ],
+      "dilutedSharesBillion": [
+        0.99,
+        0.91,
+        0.91
+      ],
+      "priceHKD": [
+        5.944053733333322,
+        51.99606971428565,
+        121.88410461978026
+      ],
+      "priceTargets": [
+        5.944053733333322,
+        51.99606971428565,
+        121.88410461978026
+      ],
+      "cumulativeCashDividendHKD": [
+        0.25,
+        1.35,
+        2.1
+      ],
+      "priceReturnPct": [
+        -86.66056163973671,
+        16.687768658630265,
+        173.5280624321819
+      ],
+      "totalReturnPct": [
+        -86.09952034709757,
+        19.717391638881622,
+        178.24080929035065
+      ],
+      "conditions": [
+        "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+        "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+        "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+      ],
+      "baseAnnualizedPriceReturnPct": 3.134761126745156,
+      "baseAnnualizedTotalReturnPct": 3.664832238294524
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2,
+        3.5,
+        3.1,
+        3.8,
+        3.5,
+        2.1
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.1
+    },
+    "oneYear": {
+      "dimensions": [
+        2.3,
+        3.5,
+        3.5,
+        4,
+        3.7,
+        2.2
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 63.3
+    },
+    "threeYear": {
+      "dimensions": [
+        2.5,
+        3.5,
+        3.7,
+        4,
+        3.4,
+        2.3
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 65.89999999999999
+    },
+    "fiveYear": {
+      "dimensions": [
+        2.2,
+        3.5,
+        3.8,
+        3.9,
+        3.2,
+        2.2
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 64.60000000000001
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scoreReasons": {
+    "valuationExpectedReturn": "H1扣非年化约63倍、TTM扣非约83倍；正常化FY2026基准约58倍，短期估值昂贵。一年正常盈利增长仍被43倍估值限制，上行主要依赖乐观业绩",
+    "technicalRelativeStrength": "20/60日高于恒指9.28/16.75个百分点，日20线下回调且量比.743；周修复但60周仍降，辅助MACD不重复加分",
+    "growthBusinessQuality": "临床收入+20.68%但毛利21.09%下降；低价合同/SMO结构压利润，海外实验恢复支撑质量改善",
+    "industryCycle": "创新临床、跨境授权资金与供给退出助力CRO复苏；研发融资与全球数据政策仍可逆",
+    "catalysts": "净新订单平均价与执行转收入、低价合同消化、Frontage利用率、AI产品验证与治理尾部改善",
+    "financialGovernanceDownside": "报告投损与基金少数复杂、三级估值8.91bn、母现金/OCF偏弱、大回购再借款及控制人披露警示，约束进取排名"
+  },
+  "scenarioConditions": [
+    "订单改善未转收入、低价合同拖延，SMO成本与AI研发扩张、汇率/数据政策压需求，投资继续减值且母公司资本回收慢",
+    "新单均价修复且取消率受控，临床/实验利用率改善，费用增长低收入，正常利润恢复但不依赖投资公允收益或强制取消库存",
+    "海外同步试验及实验室快速放量，高价项目替换旧合同，AI经验证节省成本且合规，客户融资/数据政策有利，利润和风险溢价同时改善"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "高盛",
+      "publicationDate": "2026-09-30",
+      "targetPrice": 52.1,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1547187/research-report",
+      "stale": false,
+      "code": "03347.HK",
+      "currency": "HKD",
+      "date": "2026-09-30",
+      "target": 52.1,
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1547187/research-report",
+      "verified": true,
+      "targetHorizon": "原新闻未明确期限，作为一年估值参照",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "institution": "花旗",
+      "publicationDate": "2026-09-14",
+      "targetPrice": 73,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1544253/research-report",
+      "stale": false,
+      "code": "03347.HK",
+      "currency": "HKD",
+      "date": "2026-09-14",
+      "target": 73,
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1544253/research-report",
+      "verified": true,
+      "targetHorizon": "原新闻未明确期限，作为一年估值参照",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "institution": "汇丰研究",
+      "publicationDate": "2026-09-09",
+      "targetPrice": 55.4,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1543616/research-report",
+      "stale": false,
+      "code": "03347.HK",
+      "currency": "HKD",
+      "date": "2026-09-09",
+      "target": 55.4,
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1543616/research-report",
+      "verified": true,
+      "targetHorizon": "原新闻未明确期限，作为一年估值参照",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "institution": "瑞银",
+      "publicationDate": "2026-07-14",
+      "targetPrice": 51.3,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1533134/research-report",
+      "stale": false,
+      "code": "03347.HK",
+      "currency": "HKD",
+      "date": "2026-07-14",
+      "target": 51.3,
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1533134/research-report",
+      "verified": true,
+      "targetHorizon": "原新闻未明确期限，作为一年估值参照",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    },
+    {
+      "institution": "大和",
+      "publicationDate": "2026-07-08",
+      "targetPrice": 44,
+      "rating": "买入",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1532245/research-report",
+      "stale": true,
+      "code": "03347.HK",
+      "currency": "HKD",
+      "date": "2026-07-08",
+      "target": 44,
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1532245/research-report",
+      "verified": true,
+      "targetHorizon": "原新闻未明确期限，作为一年估值参照",
+      "sourceType": "AASTOCKS新闻转述，原研报缺"
+    }
+  ],
+  "confidence": {
+    "fundamentals": "高：A/H同口径原件；投资归属穿透及CB抵销桥缺",
+    "technical": "高：锁739日/157周；匹配CRO行业基准缺",
+    "valuation": "中低：正常盈利/合理倍数/现金及融资模型假设",
+    "institutionTargets": "中：公开新闻原文已核，原研报与明确期限缺"
+  },
+  "assumptions": [
+    "未来收入成本费用税少数股数PE与汇率均为研究假设，非一致预期或公司保证",
+    "现价约58倍FY2026基准正常PE仍高，投资资产价值体现在全集团风险/资本配置与倍数选择，不额外加NAV",
+    "五/三年含息年化累计税前现金不再投资；长期经营与资本投入持续检验",
+    "10/9 21:41授予为截止日收盘后信息，不称当天已被收盘价吸收，股付持续费用不全部加回",
+    "全股保守分母避免拟注销和库存交付双算；未保证取消完成及以后新融资",
+    "固定HKD/CNY1.10为研究换汇，人民币投资者另±5%敏感",
+    "25/50/25及敏感权重是判断假设，非概率统计区间或损失边界"
+  ],
+  "limitations": [
+    "未完成全部基金LP/GP经济权益与税穿透，无精确归母投资NAV或分基金目标价；本版活动PE不加NAV",
+    "子DreamCIS可转债内部3bnKRW持有抵销及负债/衍生明细完整桥缺，均保留原表，不能重复母公司转股",
+    "新单精确金额、合同取消率/回款分层/每期价格与AI净收益缺；管理定性改善非硬指标",
+    "匹配CRO行业指数相对强弱与准确流通换手缺；H发行数归一换手仅观察",
+    "原投行研报与明确目标期限缺，近90日四项已核新闻；大和旧版标过时",
+    "H1受控基金正收益少数与集团总体投损并存，实际税/少数不可简单净损×统一比率",
+    "未实现完整三张表；现金检验为显式研究OCF/投资/融资桥",
+    "2026-10-09收盘后授予信息单列，下一交易日市场反应尚未知"
+  ],
+  "sources": [
+    "https://iis.aastocks.com/20260828/12304122-0.PDF",
+    "https://iis.aastocks.com/20260828/12306414-0.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051947.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-10-08/1225596426.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-10-08/1225596422.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-12/1225560508.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-23/1225579077.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530140.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530139.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-29/1225525351.PDF",
+    "https://iis.aastocks.com/20261009/12369067-0.PDF",
+    "https://iis.aastocks.com/20260630/12223436-0.PDF",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1547187/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1544253/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1543616/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1533134/research-report",
+    "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/03347/AAFN/NOW.1532245/research-report",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800477.pdf",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1009/2026100901223.pdf",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700712.pdf",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091101819.pdf"
+  ],
+  "deepResearchFile": "research/tigermed_deep.md",
+  "qaFile": "qa/tigermed_qa.json",
+  "valuationAnchors": {
+    "TTMReportProfit": 91.39344206000004,
+    "TTMDeductProfit": 422.04696513,
+    "TTMReportPE": 381.6398829978091,
+    "TTMDeductPE": 82.64336772046641,
+    "H1AnnualizedDeductPE": 62.795826784751014,
+    "normalEPSCNY": 0.6986678277620049,
+    "normalPE": 57.98047269308353,
+    "PB": 1.7907785026363696
+  },
+  "cashValidation": {
+    "unit": "CNY billion",
+    "startCashEq": 2.04307899631,
+    "note": "集团OCF与资产回收不等母自由现金；存单到期回收是现金重分类非收入，投资出售本金非重复利润；future为研究假设，不再造三张表完整性",
+    "futureResearch": [
+      {
+        "period": "2026H2",
+        "OCF": 0.7,
+        "capex": 0.18,
+        "netInvestments": -0.2,
+        "certificateRecovery": 0.3,
+        "dividendBuyback": 0.03,
+        "acquisitionMinority": 0.04,
+        "netNewFinancing": 0,
+        "endCashEq": 2.5930789963099996
+      },
+      {
+        "period": "2027",
+        "OCF": 1.3,
+        "capex": 0.35,
+        "netInvestments": -0.45,
+        "certificateRecovery": 0.45,
+        "dividendBuyback": 0.2,
+        "acquisitionMinority": 0.12,
+        "netNewFinancing": -0.2,
+        "endCashEq": 3.0230789963099998
+      }
+    ]
+  },
+  "fxSensitivity": {
+    "RMBOneYearBaseHKDWeak5Pct": -2.7260153483982474,
+    "RMBOneYearBaseHKDStrong5Pct": 7.513351457033535
+  },
+  "effectiveHanzi": 13386,
+  "qaStatus": "pending独立QA，不允许提前集成"
+}

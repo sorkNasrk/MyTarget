@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/content/gcs/download?resource=%2Fpublic-website%2Fwebapp%2Fcontents%2Fen%2Findexes%2Freport%2Fhstech%2Fcon_9Oct26.pdf",
+    "date": "2026-10-09",
+    "reportType": "con-pdf-1",
+    "status": 200,
+    "file": "data/product_raw/hsi_20261009_con-pdf-1.pdf",
+    "bytes": 52689,
+    "pdf": true
+  },
+  {
+    "url": "https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/content/gcs/download?resource=%2Fpublic-website%2Fwebapp%2Fcontents%2Fen%2Findexes%2Freport%2Fhstech%2Fidx_9Oct26.csv",
+    "date": "2026-10-09",
+    "reportType": "idx",
+    "status": 200,
+    "file": "data/product_raw/hsi_20261009_idx.txt",
+    "bytes": 508,
+    "pdf": false
+  },
+  {
+    "url": "https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/content/gcs/download?resource=%2Fpublic-website%2Fwebapp%2Fcontents%2Fen%2Findexes%2FIndex_Performance_Summary_9Oct26.xls",
+    "date": "2026-10-09",
+    "reportType": "ips",
+    "status": 200,
+    "file": "data/product_raw/hsi_20261009_ips.txt",
+    "bytes": 189440,
+    "pdf": false
+  }
+]

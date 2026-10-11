@@ -1,0 +1,19 @@
+{
+  "issuerId": "I024",
+  "securityId": "S029",
+  "name": "和黄医药",
+  "asOf": "2026-10-09",
+  "modelVersion": "hutchmed-v2-riskFCFF-cashdate-reward-banknet-noTerminal",
+  "status": "native_model_and_deep_qa_passed_ready_for_parent_integration",
+  "effectiveChineseCharacters": 16445,
+  "exactDuplicateParagraphs": 0,
+  "independentModelChecks": 4515,
+  "model": "data/hutchmed_model.json",
+  "deepResearch": "research/I024_deep.md",
+  "sources": "data/hutchmed_sources.json",
+  "publicationTitles": "data/hutchmed_hkex_titles.json",
+  "deepQA": "data/I024_deep_qa.json",
+  "independentQA": "data/I024_independent_qa.json",
+  "parentIntegrationRequired": ["Excel active model and scenario snapshots", "Word/PDF same-source numbers", "full-list ranking", "render visual QA"],
+  "remainingLimitations": ["Future product economics and probabilities are research inputs", "Future trading calendars require confirmation", "Broker targets are secondary news, original reports unavailable", "Date cash is annual interpolation, not actual daily treasury budget"]
+}

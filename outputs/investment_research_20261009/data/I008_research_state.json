@@ -1,0 +1,59 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "code": "03696.HK",
+  "status": "deep-complete-model-released-parent-integration-pending",
+  "asOf": "2026-10-09",
+  "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+  "modelFile": "data/insilico_model.json",
+  "deepFile": "research/I008_deep.md",
+  "effectiveChineseCharacters": 13041,
+  "exactDuplicates": 0,
+  "independentQA": {
+    "file": "data/I008_independent_qa.json",
+    "passed": true,
+    "checks": 306435,
+    "inputEdits": 29,
+    "sensitivityCases": 12
+  },
+  "bodyQA": {
+    "file": "data/I008_body_qa.json",
+    "passed": true,
+    "checks": 51
+  },
+  "adapterQA": {
+    "file": "qa/insilico_adapter_qa.json",
+    "passed": true,
+    "checks": 56364,
+    "atoms": 1100,
+    "signaturesPerCase": 385
+  },
+  "visualQA": {
+    "sheets": 9,
+    "additionalDetailRenders": 3,
+    "passed": true,
+    "location": "qa/insilico_bridge"
+  },
+  "peerEconomicReview": {
+    "reviewer": "/root/tech_sources",
+    "file": "qa/insilico_economic_review.md",
+    "passed": true,
+    "checks": 10,
+    "repairs": "cash reserve comparison now 1e-10 tolerance; target EPS normal profit divided target interpolated shares, new native and Excel boundary checks passed"
+  },
+  "parentRequired": [
+    "registry USD FX and activity manifest integration",
+    "three scenario snapshots and numeric QA",
+    "same-source Word/PDF and per-page QA"
+  ],
+  "notes": [
+    "USD billion and billion shares; researchFXHKDperUSD7.8, CB fixed7.8394 separate",
+    "26year finite shareholder distribution to2051; postdividend terminal recovery only",
+    "H1EconomicCash85.255m actual bridge; options/RSUs cash/shares symmetrical",
+    "585120194 September actual shares; future options17.776905m RSU4.172179m; CB305m principal/net301.6m",
+    "71 randomized IIa safety primary; FVC secondary; USoralIND voluntaryinactive; ESMOOct23 cutoffexcluded",
+    "Four foreign targets100/71/85/84.5 primaryreportsmissing; JPM2027Dec not12m",
+    "OneYearbase6.147087 vs49; YE expected33.974941 -30.663385%; no recommendation inflation",
+    "minimumcashbase29.001m vs25m only4.001m cushion; fundsfailure means modeledplanfails not bankruptcyforecast"
+  ]
+}

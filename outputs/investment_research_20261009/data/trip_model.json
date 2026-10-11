@@ -1,0 +1,703 @@
+{
+  "issuerId": "I077",
+  "securityId": "S088",
+  "code": "09961.HK",
+  "name": "携程集团-S",
+  "asOf": "2026-10-09",
+  "price": 304.4,
+  "currency": "HKD",
+  "modelVersion": "trip-normalized-ebit-penalty-v1.0",
+  "status": "独立研究初版；监管后佣金与现金付款时间仍需核验",
+  "method": "NTM收入×正常调整EBIT利润率(含折旧)×(1−20%研究税率)+税后净利息/联营等贡献→除摊薄股数→EPS四舍五入2位×PE×FX−5.18bn一次性罚款资本价值预留/股数×FX；不额外加净现金",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非截止日已核即期汇率",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "revenueCNYmillionRounded": 62400,
+    "nonGAAPProfitCNYmillionRounded": 31800,
+    "nonGAAPDilutedEPSCNY": 45.59,
+    "otherInvestmentGainsIncludedCNYmillionRounded": 15900,
+    "MakeMyTripDisposalGainCNYmillionRounded": 15200,
+    "operatingCashFlowCNYmillion": 14379,
+    "equipmentSoftwarePurchasesCNYmillion": 797,
+    "FCFResearchProxyCNYmillion": 13582,
+    "cashFlowCaution": "OCF减设备软件购买仅研究近似，非公司FCF，未扣全部投资/融资/贷款支出",
+    "earningsCaution": "FY nonGAAP仍含大额其他投资收益，45.59不可当正常经常EPS；不采用第三方PE5.2作为估值输入",
+    "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueCNYmillionRounded": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPProfitCNYmillionRounded": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPDilutedEPSCNY": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "otherInvestmentGainsIncludedCNYmillionRounded": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "MakeMyTripDisposalGainCNYmillionRounded": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "operatingCashFlowCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "equipmentSoftwarePurchasesCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "reported input; field suffix retains original scale"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": null,
+        "status": "research calculation from cited inputs"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1 and Q2",
+    "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+    "revenueH1CNYmillion": 31871,
+    "revenueQ2CNYmillion": 15663,
+    "gaapProfitAttributableH1CNYmillion": 41,
+    "nonGAAPProfitAttributableH1CNYmillion": 8703,
+    "nonGAAPDilutedEPSH1CNY": 12.98,
+    "nonGAAPProfitQ2CNYmillion": 4798,
+    "nonGAAPDilutedEPSQ2CNY": 7.27,
+    "adjustedEBITDAQ2CNYmillion": 4565,
+    "depreciationAmortizationQ2CNYmillion": 200,
+    "adjustedEBITQ2ResearchCNYmillion": 4365,
+    "penaltyCNYmillion": 5180,
+    "penaltyRounding": "公司6-K精确5.180bn，press release四舍五入5.2bn；电话会转录5.28bn冲突优先财表",
+    "paymentStatus": "未核实实际付款时点；不能称已付清",
+    "cashIncludingRestrictedDepositsInvestmentsCNYmillion": 100516,
+    "cashIncludingRestrictedCNYmillion": 56016,
+    "interestBearingDebtCNYmillion": 26397,
+    "netLiquidityResearchCNYmillion": 74119,
+    "dilutedSharesH1NonGAAP": 670474047.501408,
+    "dilutedSharesQ2NonGAAP": 659356092.004572,
+    "GAAPLossShareDenominatorCaution": "亏损季度GAAP摊薄股数632330255非正盈利nonGAAP分母",
+    "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+    "currency": "CNY",
+    "unit": "mixed; see fieldMetadata and original field suffix",
+    "fieldMetadata": {
+      "revenueH1CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "revenueQ2CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "gaapProfitAttributableH1CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPProfitAttributableH1CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPDilutedEPSH1CNY": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPProfitQ2CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "nonGAAPDilutedEPSQ2CNY": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedEBITDAQ2CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "depreciationAmortizationQ2CNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "adjustedEBITQ2ResearchCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "research calculation from cited inputs"
+      },
+      "penaltyCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashIncludingRestrictedDepositsInvestmentsCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "cashIncludingRestrictedCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "interestBearingDebtCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "reported input; field suffix retains original scale"
+      },
+      "netLiquidityResearchCNYmillion": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "research calculation from cited inputs"
+      },
+      "dilutedSharesH1NonGAAP": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "research calculation from cited inputs"
+      },
+      "dilutedSharesQ2NonGAAP": {
+        "sourceURL": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+        "currency": "CNY",
+        "unit": "shares",
+        "period": "2026H1 and Q2",
+        "publicationDate": "2026-09-15 US date; earnings call 2026-09-16 HK 08:00",
+        "status": "research calculation from cited inputs"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; shares billion; NTM at target date",
+    "effectiveTaxRate": 0.2,
+    "oneTimePenaltyReserveCNYbillion": 5.18,
+    "penaltyTreatment": "同一估值中的单次资本价值预留，不从每年EPS重复扣；不把不明付款时点视为零成本。若核实已反映在同模型现金价值且重复扣则取消预留、保留支付事实。监管后经常影响另入收入/利润率",
+    "yearEnd": {
+      "revenue": [
+        60,
+        67,
+        72
+      ],
+      "adjustedEBITMargin": [
+        0.23,
+        0.28,
+        0.33
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.5,
+        1.5,
+        2
+      ],
+      "dilutedShares": [
+        0.69,
+        0.66,
+        0.65
+      ]
+    },
+    "halfYear": {
+      "revenue": [
+        60,
+        70,
+        78
+      ],
+      "adjustedEBITMargin": [
+        0.23,
+        0.29,
+        0.34
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.5,
+        1.5,
+        2
+      ],
+      "dilutedShares": [
+        0.69,
+        0.655,
+        0.64
+      ]
+    },
+    "oneYear": {
+      "revenue": [
+        62,
+        75,
+        85
+      ],
+      "adjustedEBITMargin": [
+        0.23,
+        0.3,
+        0.35
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.5,
+        1.5,
+        2
+      ],
+      "dilutedShares": [
+        0.7,
+        0.65,
+        0.63
+      ]
+    },
+    "threeYear": {
+      "revenue": [
+        64,
+        95,
+        128
+      ],
+      "adjustedEBITMargin": [
+        0.22,
+        0.31,
+        0.36
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.4,
+        1.5,
+        2
+      ],
+      "dilutedShares": [
+        0.72,
+        0.64,
+        0.61
+      ]
+    },
+    "fiveYear": {
+      "revenue": [
+        66,
+        120,
+        180
+      ],
+      "adjustedEBITMargin": [
+        0.2,
+        0.31,
+        0.37
+      ],
+      "afterTaxInterestAssociatesNet": [
+        0.3,
+        1.5,
+        2
+      ],
+      "dilutedShares": [
+        0.75,
+        0.63,
+        0.59
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        16.72,
+        25.01,
+        32.32
+      ],
+      "PE": [
+        12,
+        16,
+        20
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        212.45,
+        431.54,
+        702.27
+      ],
+      "priceReturnPct": [
+        -30.2069645204,
+        41.7674113009,
+        130.7063074901
+      ],
+      "totalReturnPct": [
+        -30.2069645204,
+        41.7674113009,
+        130.7063074901
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 444.45,
+      "expectedReturnPct": 46.0085413929,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "defensivePrice": 370.977,
+        "defensiveReturnPct": 21.8715505913,
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "positivePrice": 517.923,
+        "positiveReturnPct": 70.1455321945
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        16.72,
+        27.08,
+        36.28
+      ],
+      "PE": [
+        12,
+        16,
+        21
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "priceHKD": [
+        212.45,
+        467.91,
+        829.16
+      ],
+      "priceReturnPct": [
+        -30.2069645204,
+        53.7155059133,
+        172.3915900131
+      ],
+      "totalReturnPct": [
+        -30.2069645204,
+        53.7155059133,
+        172.3915900131
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        17.01,
+        30,
+        40.95
+      ],
+      "PE": [
+        11,
+        16,
+        21
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        1,
+        2
+      ],
+      "priceHKD": [
+        197.68,
+        519.23,
+        936.9
+      ],
+      "priceReturnPct": [
+        -35.0591327201,
+        70.5749014455,
+        207.7858081472
+      ],
+      "totalReturnPct": [
+        -35.0591327201,
+        70.9034165572,
+        208.4428383706
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        16.2,
+        39.16,
+        63.71
+      ],
+      "PE": [
+        10,
+        17,
+        22
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        5,
+        10
+      ],
+      "priceHKD": [
+        170.29,
+        723.39,
+        1532.44
+      ],
+      "priceReturnPct": [
+        -44.0571616294,
+        137.6445466491,
+        403.4296977661
+      ],
+      "totalReturnPct": [
+        -44.0571616294,
+        139.2871222076,
+        406.714848883
+      ],
+      "baseAnnualizedTotalReturnPct": 33.7538963586
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        14.48,
+        49.62,
+        93.69
+      ],
+      "PE": [
+        9,
+        16,
+        21
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        10,
+        20
+      ],
+      "priceHKD": [
+        135.75,
+        864.27,
+        2154.58
+      ],
+      "priceReturnPct": [
+        -55.4040735874,
+        183.9257555848,
+        607.8120893561
+      ],
+      "totalReturnPct": [
+        -55.4040735874,
+        187.2109067017,
+        614.38239159
+      ],
+      "baseAnnualizedTotalReturnPct": 23.492387103
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.8,
+        1.4,
+        3.8,
+        3.9,
+        3.4,
+        3.1
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.6
+    },
+    "oneYear": {
+      "dimensions": [
+        4,
+        1.4,
+        3.9,
+        4,
+        3.6,
+        3.1
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 69.1
+    },
+    "threeYear": {
+      "dimensions": [
+        4,
+        1.4,
+        4.1,
+        4.2,
+        3.6,
+        3
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 76.5
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.9,
+        1.4,
+        4.1,
+        4.1,
+        3.5,
+        3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 77.3
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "除去FY2025大投资收益后正常盈利有价值，监管后佣金/需求与费用影响不确定；罚款一次资本扣减而非抹除",
+    "technicalRelativeStrength": "304.4低于全部20/60/120/250日均线且皆下斜；当日+2.84%量比0.637，60日落后恒指7.858pp，仍下降",
+    "growthBusinessQuality": "H1收入31.871bn+11.2%，国际平台Q2+50%，供应和履约有优势；运输收入-1%与营销增15%限制利润",
+    "industryCycle": "国际/入境结构需求与国内出行有空间，油价、地缘、消费及供给价格形成周期",
+    "catalysts": "下一季度、酒店规则适应及国际效率为观察窗口，公开稿Q3指引不冒充实现",
+    "financialGovernanceDownside": "六月广义资源100.516bn含受限资金，有息债26.397bn；客户预付款、罚款、SBC、联营及监管经常费用须跟踪"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（官网PDF+6-K原财表，电话会转录冲突单独标记）",
+    "technical": "高（锁版双报价双日线）",
+    "valuation": "中低（研究NTM收入/利润率/税率/股数/罚款保留/PE/FX）",
+    "brokerTargets": "中（公开转载，机构目标期限未知不补造）"
+  },
+  "assumptions": [
+    "普通股与ADS一对一，美元目标先核币种，不混人民币EPS",
+    "nonGAAP盈利不是纯核心经营，2025处置收益仍含必须剥离",
+    "研究经营桥EBIT含折旧并剔除非现金SBC，股数反映授予/可转债及回购，不保证净缩股",
+    "罚款5.18bn在目标资本价值只扣一次，支付状态未知；监管经常影响不能只靠一次性调整消除",
+    "20%税率是研究常态税假设，季度亏损税率不能机械外推",
+    "金融及联营净贡献包含在EPS，不再加全部净现金/投资市值",
+    "H1现金流表未核可公开版本，未虚构2026H1OCF/FCF",
+    "分红研究假设，无再投资，2025已支付分红不重算",
+    "NTM目标时点，未来日期遇休市取此前交易日由统一总表处理",
+    "情景权重不是统计概率，区间不是最大损失",
+    "EPS先保留2位，价格扣精确罚款/股数后保留2位",
+    "云式巨额训练预算不套携程，AI应用成本与收益逐项观察"
+  ],
+  "sources": [
+    "https://investors.trip.com/static-files/2f337a9d-0a49-4c46-8764-bce15cc9e3f0",
+    "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/09/15/18-14-50/Form%206-K%202026%20Q2-EN.xlsx",
+    "https://investors.trip.com/static-files/b37720cc-2263-4a11-bd61-1fb6cd5190d1",
+    "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/7-57-44/TCOM%2020F_04282026.pdf",
+    "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/02/25/18-33-13/Trip.com%20Group%20Limited%20Reports%20Unaudited%20Fourth%20Quarter%20and%20Full%20Year%20of%202025%20Financial%20Results.pdf",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09961/AAFN/NOW.1545319/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09961/AAFN/NOW.1547727/research-report"
+  ],
+  "deepResearchFile": "research/trip_deep.md",
+  "effectiveHanzi": 11990,
+  "wordCountBasis": "第一至二十八节独立正文CJK汉字；标题、结论卡、表格、长引文与来源不计；无共用宏观段落",
+  "marketSnapshot": "data/market_snapshot_locked.json"
+}

@@ -1,0 +1,1388 @@
+{
+  "issuerId": "I056",
+  "securityId": "S066",
+  "code": "09992.HK",
+  "name": "泡泡玛特",
+  "asOf": "2026-10-09",
+  "price": 152.3,
+  "currency": "HKD",
+  "modelVersion": "popmart-normalized-geography-v1.0",
+  "status": "独立研究初版；海外需求库存与IP组合持续复核",
+  "method": "两地区外部收入×正常EBIT率−未分配企业中心成本+有限正常其他→税后归母÷摊薄股数→EPS3位×PE×1.10；不额外加IP和全净现金",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "status": "研究假设，非已核即期",
+    "sensitivityPct": [
+      -5,
+      0,
+      5
+    ]
+  },
+  "anchor": {
+    "period": "FY2025",
+    "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+    "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 37120.052,
+    "revenue2024CNYmillion": 13037.749,
+    "revenue2023CNYmillion": 6301.002,
+    "profitAttributableCNYmillion": 12775.689,
+    "profitAttributable2024CNYmillion": 3125.473,
+    "profitAttributable2023CNYmillion": 1082.344,
+    "adjustedGroupProfitCNYmillion": 13083.646,
+    "EPSCNY": 9.58,
+    "weightedDilutedSharesMillion": 1333.145,
+    "OCFCNYmillion": 10865.152,
+    "cashPPECNYmillion": 985.25,
+    "cashIntangibleCNYmillion": 186.287,
+    "FCFResearchProxyCNYmillion": 9693.615,
+    "PRCRevenueCNYmillion": 20851.717,
+    "overseasRevenueResearchCNYmillion": 16268.335,
+    "THEMONSTERSRevenueCNYmillion": 14161.064,
+    "earningsCaution": "调整纯利为集团净利加回SBC，不冒充调整归母EPS；经营桥含SBC经济成本",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "revenue2024CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "revenue2023CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "profitAttributable2024CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "profitAttributable2023CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "adjustedGroupProfitCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": null,
+        "unit": "million shares",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashPPECNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashIntangibleCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "research calculation from primary inputs"
+      },
+      "PRCRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasRevenueResearchCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "research calculation from primary inputs"
+      },
+      "THEMONSTERSRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "FY2025",
+        "publicationDate": "2026-04-21官网年报，全年结果2026-03-25",
+        "status": "reported input; original suffix retains scale"
+      }
+    }
+  },
+  "latestPeriod": {
+    "period": "2026H1",
+    "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+    "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+    "currency": "CNY",
+    "unit": "CNYmillion unless suffix indicates otherwise",
+    "revenueCNYmillion": 17172.921,
+    "profitAttributableCNYmillion": 5038.384,
+    "groupProfitCNYmillion": 5100.31,
+    "adjustedGroupProfitCNYmillion": 5155.777,
+    "adjustedProfitCaution": "nonIFRS集团净利加回股份支付；未剔FX，不等于归母净利。不能将7.2亿FX加回后再称公司调整利润",
+    "EPSCNY": 3.79,
+    "weightedDilutedSharesMillion": 1327.866,
+    "issuedSharesAtJune30": 1331723150,
+    "repurchasedAndCancelledSharesH1": 11220000,
+    "repurchaseCostH1HKD": 1744493320,
+    "repurchaseCostH1CNYmillion": 1545.689,
+    "PRCRevenueCNYmillion": 12200.509,
+    "overseasRevenueCNYmillion": 4972.412,
+    "PRCSegmentEBITCNYmillion": 6471.322,
+    "overseasSegmentEBITCNYmillion": 1508.492,
+    "unallocatedCostCNYmillion": 869.072,
+    "normalGroupSegmentEBITCNYmillion": 7110.742,
+    "PRCDefinition": "财表PRC含中国内地香港澳门台湾；不是纯内地",
+    "overseasDefinition": "海外排除PRC四区域",
+    "PRCRetailRevenueCNYmillion": 6089.686,
+    "PRCOnlineRevenueCNYmillion": 4778.746,
+    "PRCRoboshopRevenueCNYmillion": 778.953,
+    "PRCOtherRevenueCNYmillion": 553.124,
+    "overseasRetailRevenueCNYmillion": 3022.301,
+    "overseasOnlineRevenueCNYmillion": 1433.325,
+    "overseasRoboshopRevenueCNYmillion": 171.572,
+    "overseasOtherRevenueCNYmillion": 345.214,
+    "THEMONSTERSRevenueCNYmillion": 4454.361,
+    "THEMONSTERS2025H1RevenueCNYmillion": 4814.017,
+    "TwinkleRevenueCNYmillion": 2649.969,
+    "CRYBABYRevenueCNYmillion": 1632.57,
+    "DIMOORevenueCNYmillion": 1619.217,
+    "SKULLPANDARevenueCNYmillion": 1551.211,
+    "HIRONORevenueCNYmillion": 1008.855,
+    "MOLLYRevenueCNYmillion": 900.631,
+    "artistIPRevenueCNYmillion": 15289.469,
+    "licensedIPRevenueCNYmillion": 1771.199,
+    "grossMargin": 0.697,
+    "nonIFRSGroupNetMargin": 0.3,
+    "exchangeLossCNYmillion": 720.27,
+    "governmentGrantCNYmillion": 239.476,
+    "licenseAndServicesIncomeCNYmillion": 60.599,
+    "normalFinanceNetCNYmillion": 11.479,
+    "employeeBenefitCNYmillion": 1405.025,
+    "marketingCNYmillion": 444.073,
+    "licenseExpenseCNYmillion": 376.247,
+    "logisticsExpenseCNYmillion": 754.346,
+    "platformFeeCNYmillion": 561.961,
+    "variableShortLeaseExpenseCNYmillion": 673.12,
+    "ROUDACNYmillion": 451.934,
+    "PPEDACNYmillion": 301.991,
+    "OCFCNYmillion": 3637.324,
+    "cashGeneratedBeforeInterestTaxCNYmillion": 6764.282,
+    "cashTaxPaidCNYmillion": 3219.674,
+    "cashTaxPaid2025H1CNYmillion": 1189.626,
+    "cashPPECNYmillion": 673.56,
+    "cashIntangibleCNYmillion": 50.579,
+    "leasePrincipalCashCNYmillion": 502.889,
+    "FCFResearchProxyCNYmillion": 2913.185,
+    "FCFAfterLeaseResearchCNYmillion": 2410.296,
+    "FCFCaution": "OCF减PPE无形，再减租赁本金为研究代理；未扣全部投资收购与资本返还",
+    "inventoriesCNYmillion": 6101.53,
+    "inventoryTurnoverDays": 201,
+    "inventoryTurnover2025Days": 123,
+    "inventoryImpairmentCNYmillion": 22.806,
+    "receivablesCNYmillion": 627.306,
+    "tradePayablesCNYmillion": 905.15,
+    "contractLiabilityCNYmillion": 513.419,
+    "licenseFeesPayableCNYmillion": 518.858,
+    "cashEquivalentsCNYmillion": 12442.065,
+    "termDepositsCNYmillion": 1721.96,
+    "restrictedCashCNYmillion": 227.402,
+    "cashAndTermsResearchCNYmillion": 14164.025,
+    "bankDebtCNYmillion": 0,
+    "leaseLiabilitiesCNYmillion": 3727.572,
+    "hedgingCaution": "中报与结果仍称未对冲外汇；机构会后说计划对冲，仅计划非已实现",
+    "interimDividend": 0,
+    "dividendH1AlreadyPaidCNYperShare": 2.3817,
+    "dividendCaution": "基准前2025年度股息已支付，未来另假设；董事会未建议2026H1中期息",
+    "fieldMetadata": {
+      "revenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "profitAttributableCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "groupProfitCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "adjustedGroupProfitCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "EPSCNY": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNY/share or CNY/item as field name",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "weightedDilutedSharesMillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "million shares",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "issuedSharesAtJune30": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "shares",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "repurchasedAndCancelledSharesH1": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "shares",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "repurchaseCostH1HKD": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "HKD",
+        "unit": "HKD/share",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "repurchaseCostH1CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCSegmentEBITCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasSegmentEBITCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "unallocatedCostCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "normalGroupSegmentEBITCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCRetailRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCOnlineRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCRoboshopRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PRCOtherRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasRetailRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasOnlineRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasRoboshopRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "overseasOtherRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "THEMONSTERSRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "THEMONSTERS2025H1RevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "TwinkleRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "CRYBABYRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "DIMOORevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "SKULLPANDARevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "HIRONORevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "MOLLYRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "artistIPRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "licensedIPRevenueCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "grossMargin": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "nonIFRSGroupNetMargin": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "exchangeLossCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "governmentGrantCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "licenseAndServicesIncomeCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "normalFinanceNetCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "employeeBenefitCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "marketingCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "licenseExpenseCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "logisticsExpenseCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "platformFeeCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "variableShortLeaseExpenseCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "ROUDACNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "PPEDACNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "OCFCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashGeneratedBeforeInterestTaxCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashTaxPaidCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashTaxPaid2025H1CNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashPPECNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashIntangibleCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "leasePrincipalCashCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "FCFResearchProxyCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "research calculation from primary inputs"
+      },
+      "FCFAfterLeaseResearchCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "research calculation from primary inputs"
+      },
+      "inventoriesCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "inventoryTurnoverDays": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "days",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "inventoryTurnover2025Days": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "days",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "inventoryImpairmentCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "receivablesCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "tradePayablesCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "contractLiabilityCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "licenseFeesPayableCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashEquivalentsCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "termDepositsCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "restrictedCashCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "cashAndTermsResearchCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "research calculation from primary inputs"
+      },
+      "bankDebtCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "leaseLiabilitiesCNYmillion": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "CNYmillion",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "interimDividend": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": null,
+        "unit": "number as field name",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      },
+      "dividendH1AlreadyPaidCNYperShare": {
+        "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+        "currency": "CNY",
+        "unit": "ratio",
+        "period": "2026H1",
+        "publicationDate": "2026-09-24中报；2026-08-20结果公告",
+        "status": "reported input; original suffix retains scale"
+      }
+    }
+  },
+  "operatingBridge": {
+    "unit": "CNY billion; margins ratio; diluted shares billion; NTM at target date",
+    "effectiveTaxRate": 0.25,
+    "epsRoundingDecimals": 3,
+    "normalization": "PRC含港澳台与海外外部收入×正常分部EBIT率，减未分配企业中心成本，加有限正常其他税前；含研发设计授权营销折旧租赁股份支付经济成本；不持续加回FX、SBC，不额外加全部现金或IP价值",
+    "yearEnd": {
+      "PRCRevenue": [
+        22,
+        25.5,
+        28
+      ],
+      "PRCEBITMargin": [
+        0.42,
+        0.5,
+        0.53
+      ],
+      "overseasRevenue": [
+        6.5,
+        9.5,
+        13
+      ],
+      "overseasEBITMargin": [
+        0.16,
+        0.28,
+        0.36
+      ],
+      "corporateCost": [
+        1.8,
+        1.8,
+        1.9
+      ],
+      "normalOther": [
+        0.05,
+        0.1,
+        0.15
+      ],
+      "ownerProfitShare": [
+        0.98,
+        0.988,
+        0.99
+      ],
+      "dilutedShares": [
+        1.35,
+        1.32,
+        1.3
+      ]
+    },
+    "halfYear": {
+      "PRCRevenue": [
+        21,
+        27,
+        30
+      ],
+      "PRCEBITMargin": [
+        0.4,
+        0.5,
+        0.53
+      ],
+      "overseasRevenue": [
+        6,
+        10.8,
+        16
+      ],
+      "overseasEBITMargin": [
+        0.14,
+        0.3,
+        0.38
+      ],
+      "corporateCost": [
+        1.9,
+        1.85,
+        2
+      ],
+      "normalOther": [
+        0.05,
+        0.1,
+        0.15
+      ],
+      "ownerProfitShare": [
+        0.98,
+        0.988,
+        0.99
+      ],
+      "dilutedShares": [
+        1.36,
+        1.31,
+        1.29
+      ]
+    },
+    "oneYear": {
+      "PRCRevenue": [
+        21.5,
+        30,
+        34
+      ],
+      "PRCEBITMargin": [
+        0.39,
+        0.5,
+        0.54
+      ],
+      "overseasRevenue": [
+        6.2,
+        13,
+        21
+      ],
+      "overseasEBITMargin": [
+        0.12,
+        0.32,
+        0.4
+      ],
+      "corporateCost": [
+        2,
+        2,
+        2.2
+      ],
+      "normalOther": [
+        0.05,
+        0.15,
+        0.2
+      ],
+      "ownerProfitShare": [
+        0.98,
+        0.99,
+        0.99
+      ],
+      "dilutedShares": [
+        1.38,
+        1.3,
+        1.27
+      ]
+    },
+    "threeYear": {
+      "PRCRevenue": [
+        23,
+        41,
+        58
+      ],
+      "PRCEBITMargin": [
+        0.34,
+        0.49,
+        0.54
+      ],
+      "overseasRevenue": [
+        7.5,
+        24,
+        48
+      ],
+      "overseasEBITMargin": [
+        0.1,
+        0.34,
+        0.42
+      ],
+      "corporateCost": [
+        2.3,
+        2.8,
+        4
+      ],
+      "normalOther": [
+        0,
+        0.2,
+        0.3
+      ],
+      "ownerProfitShare": [
+        0.97,
+        0.99,
+        0.99
+      ],
+      "dilutedShares": [
+        1.42,
+        1.27,
+        1.22
+      ]
+    },
+    "fiveYear": {
+      "PRCRevenue": [
+        25,
+        53,
+        85
+      ],
+      "PRCEBITMargin": [
+        0.3,
+        0.48,
+        0.54
+      ],
+      "overseasRevenue": [
+        9,
+        37,
+        83
+      ],
+      "overseasEBITMargin": [
+        0.08,
+        0.35,
+        0.43
+      ],
+      "corporateCost": [
+        2.6,
+        3.8,
+        6
+      ],
+      "normalOther": [
+        0,
+        0.2,
+        0.3
+      ],
+      "ownerProfitShare": [
+        0.97,
+        0.99,
+        0.99
+      ],
+      "dilutedShares": [
+        1.48,
+        1.25,
+        1.18
+      ]
+    }
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026年底最后交易日",
+      "epsCNY": [
+        4.644,
+        7.696,
+        10.149
+      ],
+      "PE": [
+        14,
+        20,
+        27
+      ],
+      "priceHKD": [
+        71.52,
+        169.31,
+        301.43
+      ],
+      "priceReturnPct": [
+        -53.04005252790546,
+        11.16874589625738,
+        97.91858174655283
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -53.04005252790546,
+        11.16874589625738,
+        97.91858174655283
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 177.89249999999998,
+      "expectedReturnPct": 16.80400525279053,
+      "weightSensitivity": {
+        "defensive": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positive": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 143.406,
+        "defensiveReturnPct": -5.839789888378199,
+        "positivePrice": 212.37900000000002,
+        "positiveReturnPct": 39.4478003939593
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        3.994,
+        8.479,
+        11.586
+      ],
+      "PE": [
+        13,
+        21,
+        28
+      ],
+      "priceHKD": [
+        57.11,
+        195.86,
+        356.85
+      ],
+      "priceReturnPct": [
+        -62.50164149704531,
+        28.601444517399877,
+        134.30728824688117
+      ],
+      "cumulativeCashDividendHKD": [
+        0,
+        0,
+        0
+      ],
+      "totalReturnPct": [
+        -62.50164149704531,
+        28.601444517399877,
+        134.30728824688117
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-09",
+      "epsCNY": [
+        3.824,
+        9.887,
+        14.476
+      ],
+      "PE": [
+        12,
+        22,
+        30
+      ],
+      "priceHKD": [
+        50.48,
+        239.27,
+        477.71
+      ],
+      "priceReturnPct": [
+        -66.85489166119501,
+        57.10439921208141,
+        213.6638214051214
+      ],
+      "cumulativeCashDividendHKD": [
+        0.7,
+        2.2,
+        3.5
+      ],
+      "totalReturnPct": [
+        -66.39527248850952,
+        58.5489166119501,
+        215.9619172685489
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        3.212,
+        14.996,
+        29.079
+      ],
+      "PE": [
+        10,
+        24,
+        32
+      ],
+      "priceHKD": [
+        35.33,
+        395.89,
+        1023.58
+      ],
+      "priceReturnPct": [
+        -76.80236375574523,
+        159.94090610636897,
+        572.081418253447
+      ],
+      "cumulativeCashDividendHKD": [
+        2,
+        8,
+        14
+      ],
+      "totalReturnPct": [
+        -75.48916611950098,
+        165.193696651346,
+        581.2738017071568
+      ],
+      "baseAnnualizedTotalReturnPct": 38.416458222698104
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        2.763,
+        20.665,
+        47.753
+      ],
+      "PE": [
+        9,
+        24,
+        32
+      ],
+      "priceHKD": [
+        27.35,
+        545.56,
+        1680.91
+      ],
+      "priceReturnPct": [
+        -82.04202232435982,
+        258.21405121470775,
+        1003.6835193696652
+      ],
+      "cumulativeCashDividendHKD": [
+        3.5,
+        17,
+        35
+      ],
+      "totalReturnPct": [
+        -79.74392646093237,
+        269.3762311227839,
+        1026.6644780039396
+      ],
+      "baseAnnualizedTotalReturnPct": 29.865499160055542
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        2.9,
+        2.8,
+        3.2,
+        2.8,
+        3,
+        3.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 59.9
+    },
+    "oneYear": {
+      "dimensions": [
+        3.3,
+        2.8,
+        3.6,
+        3.3,
+        3.3,
+        3.7
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 66.8
+    },
+    "threeYear": {
+      "dimensions": [
+        3.8,
+        2.8,
+        3.9,
+        3.8,
+        3.5,
+        3.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 74.8
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.8,
+        2.8,
+        4,
+        3.8,
+        3.5,
+        3.3
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 75.8
+    }
+  },
+  "scoreReasons": {
+    "valuationExpectedReturn": "FY2025 EPS9.58约14.45倍历史，爆发高基数不可直接长期化；一年基准修复有条件，海外下降与库存制约估值",
+    "technicalRelativeStrength": "低20/60/120/250日线，近期窄幅震荡，上下量1.424；60日落后恒指6.211pp但领先恒科3.769pp，未量能突破",
+    "growthBusinessQuality": "IP平台与PRC渠道成长，H1收入+23.8%调整集团利润仅+9.5%，海外跌11.1%、THEMONSTERS跌7.47%",
+    "industryCycle": "情绪消费长空间但潮流和可选消费周期高，海外高基数正常化；非硬必需消费",
+    "catalysts": "季末经营、库存、海外线下与新品IP真实销售、回购执行；计划不当已完成",
+    "financialGovernanceDownside": "无银行借债，现金定存14.164bn但租赁3.728bn、库存201日、OCF降39.15%，SBC与创始人治理需监控"
+  },
+  "confidence": {
+    "primaryFundamentals": "高（官网原报告）",
+    "technical": "高（锁版双源；专属潮玩指数未核，换手率缺失）",
+    "valuation": "中低（IP需求、渠道修复、利润率及倍数研究假设）",
+    "brokerTargets": "中（公开转述，期限多数null）"
+  },
+  "assumptions": [
+    "财表PRC包含港澳台，与新闻中国/内地称谓区别；两区域之外需扣未分配成本",
+    "所有收入利润率股数税FX分红未来值为研究假设，非公司指引",
+    "目标日NTM盈利非截至日累计利润",
+    "正常EBIT含设计研发授权营销折旧租赁SBC及常态减值经济成本",
+    "调整纯利为集团口径+SBC，不能用归母EPS分母当官方调整EPS",
+    "不另加全净现金或每IP价值；经营利润与资本价值只算一次",
+    "不把THE MONSTERS销售全部当单一LABUBU精确指标",
+    "首季只有公开增长区间未取得绝对数，不造Q2精确收入与同比",
+    "库存周转按公司报告201日与FY123，不改写为同季比较",
+    "官方文件称未对冲；新闻未来对冲计划不冒充执行",
+    "计划20-50亿回购仅新闻转述未取得独立授权公告，未来股数为研究假设",
+    "历史年度分红已付不再加未来，2026H1中期无分红",
+    "年底权重非概率，严重悲观非清算底或最大损失",
+    "H股价格本币回报，人民币汇率1.10研究假设另敏感性",
+    "日均线可得，周250空；相对恒科仅粗参，非潮玩基准",
+    "EPS3位、价格2位、含息年化无再投资税费"
+  ],
+  "sources": [
+    "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+    "https://popwebsite.paquapp.com/pdf/953b3d49-ce38-401c-ac77-ee1c96da862b-INTERIM%20RESULTS%20ANNOUNCEMENT%20FOR%20THE%20SIX%20MONTHS%20ENDED%2030%20JUNE%202026%20AND%20SUPPLEMENTAL%20ANNOUNCEMENT%20ON%20GRANT%20OF%20AWARDS.pdf",
+    "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+    "https://www.popmart.com.cn/apis/portal/investor/file/list?investorId=12&pageNum=1&pageSize=100&fileType=3",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09992/AAFN/NOW.1539885/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09992/AAFN/NOW.1539857/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09992/AAFN/NOW.1539842/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09992/AAFN/NOW.1539829/research-report",
+    "https://www.aastocks.com/sc/stocks/analysis/stock-aafn-con/09992/AAFN/NOW.1539806/research-report"
+  ],
+  "deepResearchFile": "research/popmart_deep.md",
+  "effectiveHanzi": 13877,
+  "wordCountBasis": "第一至三十四节独立正文汉字，标题表格来源不计",
+  "marketSnapshot": "data/market_snapshot_locked.json"
+}

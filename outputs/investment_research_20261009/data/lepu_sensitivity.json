@@ -1,0 +1,158 @@
+{
+  "modelVersion": "lepu-v1-netrights-annualPD1Consideration-finiteDistributions",
+  "basePriceHKD": 5.8167582165747715,
+  "rows": [
+    {
+      "test": "discount-2pp",
+      "oneYearPriceHKD": 6.908549320083625,
+      "baseDifferencePct": 18.769752203174093,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "discount+2pp",
+      "oneYearPriceHKD": 4.922284490600435,
+      "baseDifferencePct": -15.37752976263559,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "CMGpeak-30%",
+      "oneYearPriceHKD": 5.541858095591072,
+      "baseDifferencePct": -4.726002194837243,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "CMGnetRate8%",
+      "oneYearPriceHKD": 5.5668490156805,
+      "baseDifferencePct": -4.2963656316702075,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "CMGnetRate14%",
+      "oneYearPriceHKD": 6.066667417469041,
+      "baseDifferencePct": 4.296365631670174,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "CMG2Lp-15pp",
+      "oneYearPriceHKD": 5.7194409243935445,
+      "baseDifferencePct": -1.6730503238715166,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "MRG003core-20%",
+      "oneYearPriceHKD": 5.38526055208361,
+      "baseDifferencePct": -7.418181200339657,
+      "minCashCNYbn": 0.22470920100000003,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "PD1core-20%",
+      "oneYearPriceHKD": 5.571444830954498,
+      "baseDifferencePct": -4.217355724383676,
+      "minCashCNYbn": 0.21274920100000005,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "MRG007p-15pp",
+      "oneYearPriceHKD": 5.466327706363454,
+      "baseDifferencePct": -6.024498477739215,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "allRD+20%",
+      "oneYearPriceHKD": 5.5290362840497975,
+      "baseDifferencePct": -4.94643101556318,
+      "minCashCNYbn": 0.20910920099999997,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "allstart+2y",
+      "oneYearPriceHKD": 4.03822417305711,
+      "baseDifferencePct": -30.576035263933676,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "allissuePx-30%",
+      "oneYearPriceHKD": 5.416669362643208,
+      "baseDifferencePct": -6.87821014790535,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.552248913876821
+    },
+    {
+      "test": "noNewCapital",
+      "oneYearPriceHKD": 0,
+      "baseDifferencePct": -100,
+      "minCashCNYbn": -0.5628631848236001,
+      "fundingFailure": true,
+      "issueSharesBn": 0
+    },
+    {
+      "test": "only2027Capital",
+      "oneYearPriceHKD": 6.115934833367124,
+      "baseDifferencePct": 5.143356585457726,
+      "minCashCNYbn": 0.22223557790719678,
+      "fundingFailure": false,
+      "issueSharesBn": 0.2046511627906977
+    },
+    {
+      "test": "bankNoRollover",
+      "oneYearPriceHKD": 0,
+      "baseDifferencePct": -100,
+      "minCashCNYbn": -0.42852117426000025,
+      "fundingFailure": true,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "financialRecovery0",
+      "oneYearPriceHKD": 5.793720631971701,
+      "baseDifferencePct": -0.39605539280325175,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "distribution40%",
+      "oneYearPriceHKD": 5.387110980020335,
+      "baseDifferencePct": -7.3863691863650605,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "capex+20%",
+      "oneYearPriceHKD": 5.6974418695307225,
+      "baseDifferencePct": -2.0512516181961815,
+      "minCashCNYbn": 0.19610920100000007,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    },
+    {
+      "test": "PD1cost+2pp",
+      "oneYearPriceHKD": 5.782437106502435,
+      "baseDifferencePct": -0.5900384508769618,
+      "minCashCNYbn": 0.254109201,
+      "fundingFailure": false,
+      "issueSharesBn": 0.38657423971377464
+    }
+  ]
+}

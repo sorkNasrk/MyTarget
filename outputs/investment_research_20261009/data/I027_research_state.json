@@ -1,0 +1,100 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "code": "02228.HK",
+  "asOf": "2026-10-09",
+  "status": "v3-frozen-issuer-model-body-adapter-reviewed-parent-document-integration-pending",
+  "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "modelFile": "data/xtalpi_model.json",
+  "modelSHA256": "568d9b080ee8f5bba0889d8b6c2eac10134bbce668d61f4cf498a37e97468b83",
+  "nativeSHA256": "3ac3d5797441981833e16ea85509edcf897b974ad45901f3962f761af1df3d02",
+  "workbookSHA256": "540cf983e831683ac332f754d13f350559b39d476396252dca83c72eeb31cf62",
+  "deepFile": "research/I027_deep.md",
+  "bodySHA256": "9d2deda32477155291bba4f61f9295b654614d2bd8d3c167bf13fb071c0c63ce",
+  "effectiveChineseCharacters": 16053,
+  "paragraphs": 81,
+  "exactDuplicates": 0,
+  "nearDuplicates": 0,
+  "assetEvidence": {
+    "file": "qa/xtalpi_per_asset_evidence.json",
+    "SHA256": "4e2809b04b13de56f604398aa3e7c0c9e673ed38c66baf7567b5adac34e97db7",
+    "rows": 43,
+    "activeIndications": 7,
+    "zeroObservation": 36
+  },
+  "independentQA": {
+    "file": "data/I027_independent_qa.json",
+    "passed": true,
+    "checks": 805506,
+    "sensitivityCases": 13
+  },
+  "bodyQA": {
+    "file": "data/I027_body_qa.json",
+    "passed": true,
+    "checks": 121
+  },
+  "adapterQA": {
+    "file": "qa/xtalpi_adapter_qa.json",
+    "passed": true,
+    "checks": 86860,
+    "atoms": 2996,
+    "signaturesPerCase": 1017
+  },
+  "peerEconomicReview": {
+    "file": "qa/xtalpi_v3_economic_review.json",
+    "passed": true,
+    "checks": 1601
+  },
+  "peerBodyReview": {
+    "file": "qa/xtalpi_v3_body_review.json",
+    "passed": true,
+    "checks": 183
+  },
+  "peerTechnicalReview": {
+    "file": "qa/xtalpi_v3_technical_review.json",
+    "passed": true,
+    "checks": 57
+  },
+  "peerFactReview": {
+    "file": "qa/xtalpi_v3_body_fact_recheck.json",
+    "passed": true,
+    "checks": 20,
+    "SHA256": "8755250e77e2a146c5cbe1a69c0025709d871b8acb4e5ff515f1b49eb9f6c8ea"
+  },
+  "visualQA": {
+    "location": "qa/xtalpi_bridge",
+    "sheets": 9,
+    "detailRenders": 4,
+    "passed": true,
+    "notes": "Prior shared layout reviewed; v3 net-rights, valuation, operating cash, risk-revenue and clinical changes visually rechecked; final Word/PDF page review remains parent responsibility"
+  },
+  "scores": [
+    46.2,
+    53.3,
+    59.2,
+    65.3
+  ],
+  "yearEnd": {
+    "bear": 3.14325,
+    "base": 4.740176499,
+    "bull": 6.368116196,
+    "expectedPriceHKD": 4.747929799,
+    "expectedReturnPct": -32.026774535
+  },
+  "parentRequired": [
+    "CNY FX/EPS and recognitionColumn U activity adapter integration",
+    "refresh all three scenario snapshots and total ranking",
+    "same-source Word/PDF and per-page visual QA",
+    "retain limitations: demand combined regions, unallocated clinical budget and unverified net commercial rights"
+  ],
+  "notes": [
+    "Seven named self-owned indication demand models, not legacy grouped peak-sales split; 36 evidence observations retain zero gate",
+    "patients × priceCNY × share independently calculates peak sales; Chinese plus potential overseas payable segments are one research sum, not complete region-specific rNPV",
+    "Ownership 1 is a self-owned/wholly-owned Ailux research assumption, not verified unencumbered net rights; 0/50/100 sensitivity keeps clinical expense unchanged",
+    "Original clinical budgets retained unallocated; per-drug zero cost is not absence of development expense; budget pressure starts 2027",
+    "CNY billion, billion shares, EPS CNY, HKDperCNY 1.1; finite 2051 shareholder distributions without perpetuity",
+    "CB already in June cash; January 26 2027 repayment at 101.76% in all formal scenarios; conversion sensitivity adds matching shares",
+    "H1 lease total cash 17.086m charged once; 217188943 preissued shares not added again; buyback 50.632139m HKD charged once",
+    "Minimum includes annual yearends and January 26 CB event, not daily/monthly minimum; base 1.264687695 and bull .853528562 CNYbn"
+  ]
+}

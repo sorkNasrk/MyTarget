@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 3751,
+  "modelVersion": "everest-v2-fullLicenseCash-finiteFCFF-contractnet-debt",
+  "scope": "primarystatementidentities+48yearsassetFCFFcashdebt+15horizons+returns+weights+shareallcashcutoff",
+  "notes": [
+    "EPS_CNY is normalprofitproxy before economiclicensepayments, not statutoryforecast; licensingcashincludedFCFF",
+    "listedandassociate anchors are June book plus explicit recovery not claimed Oct9quotes",
+    "2026license fullannual includes H1 .448136, cashremaining subtracts knownpaid onlyonce"
+  ]
+}

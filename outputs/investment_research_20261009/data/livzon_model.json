@@ -1,0 +1,899 @@
+{
+  "issuerId": "I036",
+  "securityId": "S042",
+  "name": "丽珠医药",
+  "code": "01513.HK",
+  "currency": "HKD",
+  "asOf": "2026-10-09",
+  "price": 22.16,
+  "priceHKD": 22.16,
+  "modelVersion": "livzon-H-normalized-pe-v1.0",
+  "marketVersion": "market-v1.6",
+  "status": "独立初版；原年报、中报、新药、分红及月报核验；未来盈利/PE/FX为研究假设",
+  "method": "统一归母正常化稀释EPS(CNY)×H股合理PE×假设HKDperCNY；未来净现金利息、新品盈利已在EPS内，不重复加资产或rNPV",
+  "fx": {
+    "HKDperCNY": 1.1,
+    "CNYperHKD": 0.9090909090909091,
+    "status": "研究换汇假设，非已核10/9市场汇率；特别股息按已公布1.185HKD锁定"
+  },
+  "shares": {
+    "period": "2026-09-30",
+    "publicationHK": "2026-10-07",
+    "publicationCN": "2026-10-09",
+    "totalIssued": 887907171,
+    "A": 588100054,
+    "H": 299807117,
+    "inventoryA": 0,
+    "inventoryH": 0,
+    "modelDilutedBillion": 0.887907171,
+    "note": "模型全发行人归母利润除全股；H单独市值不可代全公司权益"
+  },
+  "anchor": {
+    "period": "2026H1",
+    "currency": "CNY",
+    "unit": "million",
+    "revenue": 4999.66970865,
+    "revenueGrowthPct": -20.28,
+    "attributableProfit": 932.19921306,
+    "deductedProfit": 890.20086832,
+    "profitGrowthPct": -27.23,
+    "deductedGrowthPct": -29.26,
+    "totalNetProfit": 1120.9151749,
+    "minorityProfit": 188.71596184,
+    "nonrecurring": 41.99834474,
+    "EPSReported": 1.05,
+    "OCF": 1762.93473453,
+    "capex": 204.72269116,
+    "FCF": 1558.21204337,
+    "cashBank": 7440.78319794,
+    "cashCashEquivalents": 7350.9055251,
+    "restrictedCash": 3.9746,
+    "termDepositOutsideCashEq": 84.175,
+    "accruedInterestOutsideCashEq": 1.72807284,
+    "shortDebt": 3395.81577799,
+    "longDebt": 25.9,
+    "currentLongDebt": 0,
+    "leaseDebt": 18.48434658,
+    "currentLeaseDebt": 15.90785064,
+    "transactionFinancialAssets": 382.59348353,
+    "otherEquityInvestments": 1856.24883735,
+    "longEquityInvestments": 1266.49959881,
+    "totalAssets": 23591.48997354,
+    "totalLiabilities": 8993.76423515,
+    "parentEquity": 13365.82614956,
+    "minorityEquity": 1231.89958883,
+    "goodwill": 1094.52779982,
+    "developmentAssets": 401.38267218,
+    "RDManagementTotal": 381.50257604,
+    "RDExpensed": 358.02239934,
+    "RDCapitalizedInternal": 19.74049782,
+    "RDExternalCapitalized": 16.76628,
+    "RDFootnoteTotal": 394.52917716,
+    "selling": 1148.12875739,
+    "admin": 268.35101573,
+    "interestExpense": 21.79306892,
+    "interestIncome": 49.82686579,
+    "FXLoss": 38.36622609,
+    "FXCashEffect": -101.56711861,
+    "investmentIncome": 84.3000999,
+    "promotionPayable": 2537.53036293,
+    "dividendPayable": 444.1422954,
+    "acquisitionCashNet": 1557.16042797,
+    "publicationDate": "2026-08-22",
+    "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-22/1225490312.PDF"
+  },
+  "history": [
+    {
+      "period": "FY2023",
+      "revenue": 12430.03832582,
+      "attributableProfit": 1953.65083328,
+      "deductedProfit": 1881.34534596,
+      "OCF": 3248.9341918,
+      "EPSReported": 2.1
+    },
+    {
+      "period": "FY2024",
+      "revenue": 11812.33885468,
+      "attributableProfit": 2061.09580397,
+      "deductedProfit": 1979.19582547,
+      "OCF": 2978.84752676,
+      "EPSReported": 2.24
+    },
+    {
+      "period": "FY2025",
+      "revenue": 12020.34921961,
+      "attributableProfit": 2023.24932779,
+      "deductedProfit": 2009.16442708,
+      "OCF": 3145.03896809,
+      "EPSReported": 2.27,
+      "publicationDate": "2026-03-25",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-25/1225029104.PDF"
+    }
+  ],
+  "segments": [
+    {
+      "name": "消化道",
+      "revenue": 954.01985743,
+      "growthPct": -29.39
+    },
+    {
+      "name": "精神",
+      "revenue": 153.36439696,
+      "growthPct": -51.62
+    },
+    {
+      "name": "促性激素",
+      "revenue": 1206.45120732,
+      "growthPct": -21.13
+    },
+    {
+      "name": "抗感染及其他化学",
+      "revenue": 127.83017701,
+      "growthPct": 77.41
+    },
+    {
+      "name": "化学制剂合计",
+      "revenue": 2441.66563872,
+      "growthPct": -25.33,
+      "grossMarginPct": 76.04
+    },
+    {
+      "name": "原料药和中间体",
+      "revenue": 1610.98577351,
+      "growthPct": -3.04,
+      "grossMarginPct": 35.66
+    },
+    {
+      "name": "中药",
+      "revenue": 520.98658107,
+      "growthPct": -34.83,
+      "grossMarginPct": 76.03
+    },
+    {
+      "name": "生物制品",
+      "revenue": 94.37290829,
+      "growthPct": -0.47
+    },
+    {
+      "name": "诊断试剂及设备",
+      "revenue": 270.20846723,
+      "growthPct": -27.78
+    },
+    {
+      "name": "其他",
+      "revenue": 61.45033983,
+      "growthPct": -14.7
+    }
+  ],
+  "geographies": [
+    {
+      "name": "境内全部",
+      "revenue": 3870.68156969,
+      "growthPct": -26.52,
+      "grossMarginPct": 66.1
+    },
+    {
+      "name": "境外全部",
+      "revenue": 1128.98813896,
+      "growthPct": 12.43,
+      "grossMarginPct": 44.72
+    }
+  ],
+  "acquisitions": {
+    "IMP": {
+      "purchaseDate": "2026-05-08",
+      "equityCostCNYmillion": 1549.43920472,
+      "economicOwnershipPct": 67.87,
+      "votingOwnershipPct": 67.88,
+      "revenueSincePurchase": 96.84278928,
+      "netProfitSincePurchase": -14.08539182,
+      "goodwill": 969.61649688,
+      "note": "并购后利润非目标公开整个H1；97m并表收入混在境外增长，归母含少数"
+    },
+    "newBeijiang": {
+      "contractDate": "2026-08-21",
+      "publicationDate": "2026-08-22",
+      "fromPct": 87.1399,
+      "toPct": 90.6443,
+      "increasePct": 3.5044,
+      "costCNYmillion": 106.6958,
+      "netProfitFY2025": 544.4244,
+      "netProfitH1": 275.3427,
+      "status": "已签/审议通过；本源未核截至10/9交割及支付，模型只作敏感性，不硬加利润"
+    }
+  },
+  "dividend": {
+    "specialCNY": 1.02,
+    "specialHKD": 1.185,
+    "declaredFXHKDperCNY": 1.16206,
+    "approval": "2026-09-24",
+    "updated": "2026-09-25",
+    "exDate": "2026-10-14",
+    "recordDate": "2026-10-15",
+    "paymentDate": "2026-11-03",
+    "gross": true,
+    "note": "10/9基准尚未除净，未来含税总回报加1.185；旧2025年终1.643HKD已除净不计，价格目标为除净后"
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 739,
+    "MA": {
+      "20": 21.404,
+      "60": 23.132667,
+      "120": 24.280454,
+      "250": 26.322002
+    },
+    "maSlope5Pct": {
+      "20": 1.024212,
+      "60": -1.606386,
+      "120": -0.919534,
+      "250": -0.789915
+    },
+    "priceVsMAPct": {
+      "20": 3.53205,
+      "60": -4.204732,
+      "120": -8.733174,
+      "250": -15.811874
+    },
+    "returnPct": {
+      "20": 6.436119,
+      "60": -17.804151,
+      "120": -18.39485,
+      "250": -32.945685
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 33.310568,
+    "low52w": 19.799999,
+    "distanceFrom52wHighPct": -33.474566,
+    "distanceFrom52wLowPct": 11.919198,
+    "maxDrawdown52wPct": -40.184444,
+    "RSI14": 53.42278,
+    "ATR14": 0.84835,
+    "ATR14Pct": 3.828294,
+    "MACD": {
+      "DIF": -0.040104,
+      "DEA": -0.182432,
+      "histogram": 0.284656,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 991052,
+      "20": 1761739.5,
+      "60": 1423964.033
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.741994,
+    "previous20MeanVolume": 1785466.3,
+    "upDownVolume20": {
+      "upVolume": 16938925,
+      "downVolume": 18295865,
+      "flatVolume": 0,
+      "upDays": 8,
+      "downDays": 12,
+      "ratio": 0.925834
+    },
+    "ranges": {
+      "20": {
+        "support": 20.360001,
+        "resistance": 23.18,
+        "toSupportPct": -8.122739,
+        "toResistancePct": 4.602888,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 19.799999,
+        "resistance": 27.32,
+        "toSupportPct": -10.649824,
+        "toResistancePct": 23.285199,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "短期反弹，仍低于60日线",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 157,
+    "MA": {
+      "20": 23.781858,
+      "60": 27.146701,
+      "120": 26.114861,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -4.750271,
+      "60": -4.098251,
+      "120": -0.257263,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -6.819728,
+      "60": -18.369455,
+      "120": -15.144101,
+      "250": null
+    },
+    "returnPct": {
+      "20": -14.121712,
+      "60": -35.083758,
+      "120": -2.28354,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 32.42854,
+    "low52w": 19.799999,
+    "distanceFrom52wHighPct": -31.665132,
+    "distanceFrom52wLowPct": 11.919198,
+    "maxDrawdown52wPct": -34.282273,
+    "RSI14": 40.767159,
+    "ATR14": 1.597272,
+    "ATR14Pct": 7.207905,
+    "MACD": {
+      "DIF": -1.406091,
+      "DEA": -1.222519,
+      "histogram": -0.367144,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": 8009131.8,
+      "20": 5968107.2,
+      "60": 4852498.383
+    },
+    "volumeUnit": "shares_as_provider_reported",
+    "volumeRatio20": 0.834983,
+    "previous20MeanVolume": 5934561.8,
+    "upDownVolume20": {
+      "upVolume": 67845832,
+      "downVolume": 51516312,
+      "flatVolume": 0,
+      "upDays": 12,
+      "downDays": 8,
+      "ratio": 1.316978
+    },
+    "ranges": {
+      "20": {
+        "support": 19.799999,
+        "resistance": 27.32,
+        "toSupportPct": -10.649824,
+        "toResistancePct": 23.285199,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 19.799999,
+        "resistance": 36.894973,
+        "toSupportPct": -10.649824,
+        "toResistancePct": 66.49356,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -2.977908,
+    "marketReturn60Pct": -3.187903,
+    "excess20Pct": 9.414027,
+    "excess60Pct": -14.616248,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryBenchmarkId": null,
+    "industryMissingReason": "综合药企不适用恒生科技；专属医药行业指数尚待核验"
+  },
+  "scenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "epsCNY": [
+        1.6,
+        1.95,
+        2.2
+      ],
+      "PE": [
+        8,
+        10.5,
+        13
+      ],
+      "revenueCNYBillion": [
+        9.2,
+        10.1,
+        10.8
+      ],
+      "profitCNYBillion": [
+        1.4206514736000002,
+        1.73141898345,
+        1.9533957762000003
+      ],
+      "netMarginPct": [
+        15.441863843478265,
+        17.142762212376237,
+        18.08699792777778
+      ],
+      "priceHKD": [
+        14.080000000000002,
+        22.5225,
+        31.460000000000004
+      ],
+      "priceTargets": [
+        14.080000000000002,
+        22.5225,
+        31.460000000000004
+      ],
+      "cumulativeCashDividendHKD": [
+        1.185,
+        1.185,
+        1.185
+      ],
+      "conditions": [
+        "yearEnd：老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩；目标EPS1.6CNY、H PE8、收入9.2bn CNY为该期限研究输入。",
+        "yearEnd：降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12；目标EPS1.95CNY、H PE10.5、收入10.1bn CNY为该期限研究输入。",
+        "yearEnd：IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估；目标EPS2.2CNY、H PE13、收入10.8bn CNY为该期限研究输入。"
+      ],
+      "priceReturnPct": [
+        -36.462093862815884,
+        1.6358303249097483,
+        41.96750902527078
+      ],
+      "totalReturnPct": [
+        -31.114620938628146,
+        6.983303249097461,
+        47.31498194945849
+      ],
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "expectedPriceHKD": 22.646250000000002,
+      "expectedPrice": 22.646250000000002,
+      "expectedReturnPct": 2.194268953068601,
+      "expectedTotalReturnPct": 7.541741877256314,
+      "weightSensitivity": {
+        "defensiveWeights": [
+          0.4,
+          0.5,
+          0.1
+        ],
+        "positiveWeights": [
+          0.1,
+          0.5,
+          0.4
+        ],
+        "defensivePrice": 20.039250000000003,
+        "positivePrice": 25.253250000000005
+      }
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "epsCNY": [
+        1.65,
+        2.1,
+        2.55
+      ],
+      "PE": [
+        8,
+        11.5,
+        15
+      ],
+      "revenueCNYBillion": [
+        9.5,
+        10.7,
+        11.8
+      ],
+      "profitCNYBillion": [
+        1.46504683215,
+        1.8646050591000003,
+        2.26416328605
+      ],
+      "netMarginPct": [
+        15.421545601578947,
+        17.42621550560748,
+        19.187824458050848
+      ],
+      "priceHKD": [
+        14.52,
+        26.565000000000005,
+        42.075
+      ],
+      "priceTargets": [
+        14.52,
+        26.565000000000005,
+        42.075
+      ],
+      "cumulativeCashDividendHKD": [
+        1.185,
+        1.185,
+        1.185
+      ],
+      "conditions": [
+        "halfYear：老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩；目标EPS1.65CNY、H PE8、收入9.5bn CNY为该期限研究输入。",
+        "halfYear：降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12；目标EPS2.1CNY、H PE11.5、收入10.7bn CNY为该期限研究输入。",
+        "halfYear：IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估；目标EPS2.55CNY、H PE15、收入11.8bn CNY为该期限研究输入。"
+      ],
+      "priceReturnPct": [
+        -34.47653429602888,
+        19.87815884476536,
+        89.86913357400724
+      ],
+      "totalReturnPct": [
+        -29.129061371841157,
+        25.225631768953093,
+        95.21660649819496
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "epsCNY": [
+        1.7,
+        2.3,
+        2.9
+      ],
+      "PE": [
+        8,
+        12,
+        16
+      ],
+      "revenueCNYBillion": [
+        9.6,
+        11.2,
+        12.7
+      ],
+      "profitCNYBillion": [
+        1.5094421907,
+        2.0421864933,
+        2.5749307959
+      ],
+      "netMarginPct": [
+        15.723356153125001,
+        18.23380797589286,
+        20.275045637007874
+      ],
+      "priceHKD": [
+        14.96,
+        30.36,
+        51.04
+      ],
+      "priceTargets": [
+        14.96,
+        30.36,
+        51.04
+      ],
+      "cumulativeCashDividendHKD": [
+        2.05,
+        2.505,
+        2.835
+      ],
+      "conditions": [
+        "oneYear：老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩；目标EPS1.7CNY、H PE8、收入9.6bn CNY为该期限研究输入。",
+        "oneYear：降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12；目标EPS2.3CNY、H PE12、收入11.2bn CNY为该期限研究输入。",
+        "oneYear：IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估；目标EPS2.9CNY、H PE16、收入12.7bn CNY为该期限研究输入。"
+      ],
+      "priceReturnPct": [
+        -32.49097472924187,
+        37.00361010830324,
+        130.3249097472924
+      ],
+      "totalReturnPct": [
+        -23.24007220216606,
+        48.307761732851986,
+        143.11823104693138
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "epsCNY": [
+        1.9,
+        2.9,
+        4.2
+      ],
+      "PE": [
+        8,
+        13,
+        17
+      ],
+      "revenueCNYBillion": [
+        10,
+        13.2,
+        16.5
+      ],
+      "profitCNYBillion": [
+        1.6870236249,
+        2.5749307959,
+        3.7292101182000006
+      ],
+      "netMarginPct": [
+        16.870236248999998,
+        19.50705148409091,
+        22.601273443636366
+      ],
+      "priceHKD": [
+        16.72,
+        41.47,
+        78.54
+      ],
+      "priceTargets": [
+        16.72,
+        41.47,
+        78.54
+      ],
+      "cumulativeCashDividendHKD": [
+        3.2,
+        5,
+        6.5
+      ],
+      "conditions": [
+        "threeYear：老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩；目标EPS1.9CNY、H PE8、收入10bn CNY为该期限研究输入。",
+        "threeYear：降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12；目标EPS2.9CNY、H PE13、收入13.2bn CNY为该期限研究输入。",
+        "threeYear：IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估；目标EPS4.2CNY、H PE17、收入16.5bn CNY为该期限研究输入。"
+      ],
+      "priceReturnPct": [
+        -24.548736462093867,
+        87.13898916967509,
+        254.42238267148016
+      ],
+      "totalReturnPct": [
+        -10.108303249097483,
+        109.70216606498195,
+        283.7545126353791
+      ],
+      "baseAnnualizedPriceReturnPct": 23.23141249062173,
+      "baseAnnualizedTotalReturnPct": 27.99734818419395
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "epsCNY": [
+        2,
+        3.6,
+        5.5
+      ],
+      "PE": [
+        7,
+        12,
+        16
+      ],
+      "revenueCNYBillion": [
+        10.6,
+        15.5,
+        20
+      ],
+      "profitCNYBillion": [
+        1.775814342,
+        3.1964658156000003,
+        4.8834894405
+      ],
+      "netMarginPct": [
+        16.75296549056604,
+        20.622360100645164,
+        24.4174472025
+      ],
+      "priceHKD": [
+        15.400000000000002,
+        47.52000000000001,
+        96.80000000000001
+      ],
+      "priceTargets": [
+        15.400000000000002,
+        47.52000000000001,
+        96.80000000000001
+      ],
+      "cumulativeCashDividendHKD": [
+        5,
+        9,
+        13.5
+      ],
+      "conditions": [
+        "fiveYear：老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩；目标EPS2CNY、H PE7、收入10.6bn CNY为该期限研究输入。",
+        "fiveYear：降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12；目标EPS3.6CNY、H PE12、收入15.5bn CNY为该期限研究输入。",
+        "fiveYear：IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估；目标EPS5.5CNY、H PE16、收入20bn CNY为该期限研究输入。"
+      ],
+      "priceReturnPct": [
+        -30.505415162454863,
+        114.44043321299642,
+        336.82310469314086
+      ],
+      "totalReturnPct": [
+        -7.942238267148005,
+        155.05415162454875,
+        397.74368231046935
+      ],
+      "baseAnnualizedPriceReturnPct": 16.482674897791295,
+      "baseAnnualizedTotalReturnPct": 20.594216269116504
+    }
+  },
+  "scores": {
+    "halfYear": {
+      "dimensions": [
+        3.4,
+        2.5,
+        2.8,
+        3.2,
+        3.7,
+        3.7
+      ],
+      "weights": [
+        25,
+        30,
+        15,
+        10,
+        10,
+        10
+      ],
+      "total": 61.599999999999994
+    },
+    "oneYear": {
+      "dimensions": [
+        3.8,
+        2.5,
+        3.1,
+        3.3,
+        3.8,
+        3.6
+      ],
+      "weights": [
+        25,
+        15,
+        25,
+        15,
+        10,
+        10
+      ],
+      "total": 66.7
+    },
+    "threeYear": {
+      "dimensions": [
+        3.7,
+        2.5,
+        3.5,
+        3.5,
+        3.6,
+        3.5
+      ],
+      "weights": [
+        25,
+        5,
+        35,
+        20,
+        5,
+        10
+      ],
+      "total": 70.1
+    },
+    "fiveYear": {
+      "dimensions": [
+        3.5,
+        2.5,
+        3.6,
+        3.5,
+        3.4,
+        3.4
+      ],
+      "weights": [
+        20,
+        0,
+        40,
+        20,
+        5,
+        15
+      ],
+      "total": 70.39999999999999
+    }
+  },
+  "dimensionOrder": [
+    "valuationExpectedReturn",
+    "technicalRelativeStrength",
+    "growthBusinessQuality",
+    "industryCycle",
+    "catalysts",
+    "financialGovernanceDownside"
+  ],
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "scoreScale": "0—5证据判断×期限权重/5，非获利概率",
+  "scoreReasons": {
+    "valuationExpectedReturn": "全股归母TTM盈利下调后H约10.7倍；一年基准30.36+37%，但仍需新品抵消既有下降",
+    "technicalRelativeStrength": "20线转升及短期超恒指9.41pp，60/120/250和周线下方、量比0.742，反弹未强突破",
+    "growthBusinessQuality": "H1收入-20.28/扣非-29.26；生物和长效新品已获批，商业化尚待实际复购现金",
+    "industryCycle": "医保价格和生育辅助需求矛盾；东南亚收购扩大渠道但并购贡献不等有机恢复",
+    "catalysts": "莱康奇塔8/28已公告获批、3M9/30已公告批准、11/3派1.185HKD；审批变为销量催化",
+    "financialGovernanceDownside": "OCF1.76bn、现金7.35bn，净银行/租债约3.89bn；推广应付2.54bn、投资波动和收购商誉不能忽略"
+  },
+  "scenarioConditions": [
+    "老品降价量不足补价、IL17/长效准入慢，IMP整合费用、原料药弱、估值收缩",
+    "降价基数逐渐消化，新品温和准入贡献及东南亚整合，2027盈利回至2.04bn，HPE12",
+    "IL17和3M/促卵泡素份额成功提升，司美/J P1366后续商业化有经济回报、海外高质量增长且PE重估"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "汇丰研究",
+      "date": "2026-09-29",
+      "code": "01513.HK",
+      "currency": "HKD",
+      "target": 22.3,
+      "previous": 29,
+      "rating": "持有",
+      "horizon": "新闻未明确期限，仅一年参照，不能声称已核12个月",
+      "sourceType": "公开AASTOCKS新闻转述；同日表/正文去重",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01513/AAFN/NOW.1547010/research-report",
+      "note": "近90天、业绩后，原付费报告缺失"
+    },
+    {
+      "institution": "高盛",
+      "date": "2025-04-01",
+      "code": "01513.HK",
+      "currency": "HKD",
+      "target": 20.35,
+      "previous": 21.1,
+      "rating": "中性",
+      "horizon": "未明确；历史背景，不当最新有效共识",
+      "sourceType": "公开新闻转述，超过90天",
+      "url": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/01513/AAFN/NOW.1430988/research-report",
+      "stale": true
+    }
+  ],
+  "brokerTargetStatus": "最新可核公开汇丰22.3HKD持有；原报告/期限未得，不能合成精确机构共识",
+  "assumptions": [
+    "年底EPS用FY2026研究值，半年用未来12个月正常化运行率，一年用2027研究值，长期为目标日未来12个月正常化盈利；不是已发布一致预测",
+    "PE估价已经包含未来现金利息/新药利润，净现金和管线rNPV不再加价",
+    "预测H股转换固定1.10HKD/CNY，非基准现汇；已知特别股息1.185独立锁定",
+    "未来累计分红研究假设含特别股息，税前不再投资；未来政策支付日/金额尚未确定",
+    "已发全股.887907171bn，未来稀释和回购均不当既定；±5%分母敏感性",
+    "半年目标为2027/4/9；一年10/9周六取10/8此前交易日，年底12/31半日交易不误当休市",
+    "年底三情景是剩余数月信息定价，非多年DCF全兑现；25/50/25主观权重不是最大损失或置信区间",
+    "研发MD&A381.503m与注释内部/外购明细394.529m范围不同，分别列出，未强行并成相同总额"
+  ],
+  "confidence": {
+    "fundamentals": "高：原年报中报和公告；管线优效具体统计尚未独立原试验核验",
+    "technical": "高：锁版双来源，8条OHLC修复留档、行业指数缺",
+    "valuation": "中低：公开EPS/倍数/换汇研究假设，盈利下降尚未反转",
+    "institutionTargets": "中：公开转述，报告期限与原件缺"
+  },
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-08-22/1225490312.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-03-25/1225029104.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520257.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-30/1225587853.PDF",
+    "https://iis.aastocks.com/20260925/12346836-0.PDF",
+    "https://iis.aastocks.com/20261007/12365371-0.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-08-22/1225490310.PDF",
+    "https://static.cninfo.com.cn/finalpage/2026-09-12/1225561640.PDF"
+  ],
+  "deepResearchFile": "research/livzon_deep.md",
+  "limitations": [
+    "原外资报告与明确目标期限缺",
+    "莱康奇塔头对头原统计终点全文未核，不造P值/优效幅度",
+    "截至10/9JP1366/司美后续状态原公告未核新增批准，不填已上市",
+    "公司管理口径R&D与财报资本化范围差13.027m保留差异，需原桥",
+    "没有独立药企行业指数20/60线及浮动股换手，不造",
+    "完整分部DCF未完成，PE及净资产/现金收益交叉非多模型一致"
+  ],
+  "effectiveHanzi": 15707,
+  "qaFile": "qa/livzon_qa.json",
+  "cashBridge": {
+    "cashEqCNYmillion": 7350.9055251,
+    "bankAndLeaseCNYmillion": 3456.10797521,
+    "netCashEqCNYmillion": 3894.79754989
+  },
+  "valuationAnchors": {
+    "FY2025EPSUsingCurrentShares": 2.278672133609787,
+    "TTMAttributableProfitCNYmillion": 1674.3605843200003,
+    "TTMEPS": 1.885738328291979,
+    "HPEFY2025": 8.84087458143479,
+    "HPETTM": 10.683059384862498
+  },
+  "fxSensitivity": {
+    "oneYearBaseTargetMinus5Pct": 28.842,
+    "oneYearBaseTargetPlus5Pct": 31.878,
+    "RMBInvestorTotalReturnHKDWeak5Pct": 40.892373646209364,
+    "RMBInvestorTotalReturnHKDStrong5Pct": 55.7231498194946
+  },
+  "qaStatus": "独立正文15707有效汉字、100段无完全重复，价格/回报/评分及财务桥公式通过；原试验统计和完整DCF缺口明列"
+}

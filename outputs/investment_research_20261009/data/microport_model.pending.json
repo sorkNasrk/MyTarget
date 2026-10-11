@@ -1,0 +1,2821 @@
+{
+  "issuerId": "I016",
+  "securityId": "S018",
+  "name": "微创医疗",
+  "code": "00853.HK",
+  "currency": "HKD",
+  "price": 6.075,
+  "priceHKD": 6.075,
+  "referencePrice": 6.075,
+  "referencePriceDate": "2026-08-31",
+  "basePriceValid": false,
+  "asOf": "2026-10-09",
+  "marketVersion": "market-v1.6",
+  "modelVersion": "microport-conditional-eliminated-group-economic-PE-v1.0",
+  "status": "条件独立初版待QA",
+  "rankEligible": false,
+  "valuationConditioned": true,
+  "rankingExclusionReason": "9月1日起股票及40168债券停牌；核心中报、租赁核查、债务持续经营未解，8月31旧价非10月9可交易现价。条件模型不排名不列正式收益/期望。",
+  "scores": {},
+  "scenarios": {},
+  "conditionalScenarios": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "requestedTarget": "2026-12-31",
+      "profitYear": 2027,
+      "native": [
+        {
+          "key": "pessimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.19
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.045
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.08
+            }
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "revenue": 1.0150000000000001,
+          "cost": 0.47705000000000003,
+          "selling": 0.29435,
+          "admin": 0.15225000000000002,
+          "economicRD": 0.14210000000000003,
+          "operating": -0.0957499999999999,
+          "pretax": -0.2147499999999999,
+          "tax": 0,
+          "groupProfit": -0.2147499999999999,
+          "parentProfit": -0.22674999999999992,
+          "shares": 1.917386655,
+          "EPSUSD": -0.11825992394841192,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 0,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "base",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.24
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.17
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.11
+            }
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "revenue": 1.31,
+          "cost": 0.5109,
+          "selling": 0.32095,
+          "admin": 0.1441,
+          "economicRD": 0.1441,
+          "operating": 0.18695,
+          "pretax": 0.12395000000000002,
+          "tax": 0.024790000000000006,
+          "groupProfit": 0.09916000000000001,
+          "parentProfit": 0.054160000000000014,
+          "shares": 1.917386655,
+          "EPSUSD": 0.02824678051177946,
+          "PE": 28,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 6.169096863772634,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "optimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.29
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.27
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.09
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.28
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.13
+            }
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "revenue": 1.58,
+          "cost": 0.5846,
+          "selling": 0.3713,
+          "admin": 0.15800000000000003,
+          "economicRD": 0.1738,
+          "operating": 0.30630000000000007,
+          "pretax": 0.2683000000000001,
+          "tax": 0.050977000000000015,
+          "groupProfit": 0.21732300000000007,
+          "parentProfit": 0.15732300000000007,
+          "shares": 1.917386655,
+          "EPSUSD": 0.08205074317678511,
+          "PE": 35,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 22.399852887262337,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        }
+      ],
+      "priceHKD": [
+        0,
+        6.169096863772634,
+        22.399852887262337
+      ],
+      "priceTargets": [
+        0,
+        6.169096863772634,
+        22.399852887262337
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "可靠报表及复牌仍无法扭转高融资和经营亏损；PE方法0不等于清算结果",
+        "租赁与财报核实、维持持续经营及债权安排；全集团外部业务和完整费用兑现",
+        "可靠复牌、经营增长和成本改善同时兑现且债务获合理解决；不自动认定豁免或未完成处置已到款"
+      ]
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "requestedTarget": "2027-04-09",
+      "profitYear": 2027,
+      "native": [
+        {
+          "key": "pessimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.19
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.045
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.08
+            }
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "revenue": 1.0150000000000001,
+          "cost": 0.47705000000000003,
+          "selling": 0.29435,
+          "admin": 0.15225000000000002,
+          "economicRD": 0.14210000000000003,
+          "operating": -0.0957499999999999,
+          "pretax": -0.2147499999999999,
+          "tax": 0,
+          "groupProfit": -0.2147499999999999,
+          "parentProfit": -0.22674999999999992,
+          "shares": 1.95,
+          "EPSUSD": -0.11628205128205124,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 0,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "base",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.24
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.17
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.11
+            }
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "revenue": 1.31,
+          "cost": 0.5109,
+          "selling": 0.32095,
+          "admin": 0.1441,
+          "economicRD": 0.1441,
+          "operating": 0.18695,
+          "pretax": 0.12395000000000002,
+          "tax": 0.024790000000000006,
+          "groupProfit": 0.09916000000000001,
+          "parentProfit": 0.054160000000000014,
+          "shares": 1.94,
+          "EPSUSD": 0.027917525773195884,
+          "PE": 30,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 6.532701030927837,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "optimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.29
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.27
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.09
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.28
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.13
+            }
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "revenue": 1.58,
+          "cost": 0.5846,
+          "selling": 0.3713,
+          "admin": 0.15800000000000003,
+          "economicRD": 0.1738,
+          "operating": 0.30630000000000007,
+          "pretax": 0.2683000000000001,
+          "tax": 0.050977000000000015,
+          "groupProfit": 0.21732300000000007,
+          "parentProfit": 0.15732300000000007,
+          "shares": 1.94,
+          "EPSUSD": 0.08109432989690726,
+          "PE": 38,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 24.03635938144331,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        }
+      ],
+      "priceHKD": [
+        0,
+        6.532701030927837,
+        24.03635938144331
+      ],
+      "priceTargets": [
+        0,
+        6.532701030927837,
+        24.03635938144331
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "可靠报表及复牌仍无法扭转高融资和经营亏损；PE方法0不等于清算结果",
+        "租赁与财报核实、维持持续经营及债权安排；全集团外部业务和完整费用兑现",
+        "可靠复牌、经营增长和成本改善同时兑现且债务获合理解决；不自动认定豁免或未完成处置已到款"
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "requestedTarget": "2027-10-09",
+      "profitYear": 2027,
+      "native": [
+        {
+          "key": "pessimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.19
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.045
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.08
+            }
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "revenue": 1.0150000000000001,
+          "cost": 0.47705000000000003,
+          "selling": 0.29435,
+          "admin": 0.15225000000000002,
+          "economicRD": 0.14210000000000003,
+          "operating": -0.0957499999999999,
+          "pretax": -0.2147499999999999,
+          "tax": 0,
+          "groupProfit": -0.2147499999999999,
+          "parentProfit": -0.22674999999999992,
+          "shares": 2.02,
+          "EPSUSD": -0.11225247524752471,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 0,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "base",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.23
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.24
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.07
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.17
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.11
+            }
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "revenue": 1.31,
+          "cost": 0.5109,
+          "selling": 0.32095,
+          "admin": 0.1441,
+          "economicRD": 0.1441,
+          "operating": 0.18695,
+          "pretax": 0.12395000000000002,
+          "tax": 0.024790000000000006,
+          "groupProfit": 0.09916000000000001,
+          "parentProfit": 0.054160000000000014,
+          "shares": 1.97,
+          "EPSUSD": 0.027492385786802038,
+          "PE": 32,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 6.862099492385789,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "optimistic",
+          "profitYear": 2027,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.26
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.29
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.27
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.09
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.28
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.13
+            }
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "revenue": 1.58,
+          "cost": 0.5846,
+          "selling": 0.3713,
+          "admin": 0.15800000000000003,
+          "economicRD": 0.1738,
+          "operating": 0.30630000000000007,
+          "pretax": 0.2683000000000001,
+          "tax": 0.050977000000000015,
+          "groupProfit": 0.21732300000000007,
+          "parentProfit": 0.15732300000000007,
+          "shares": 1.97,
+          "EPSUSD": 0.0798593908629442,
+          "PE": 40,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 24.91612994923859,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        }
+      ],
+      "priceHKD": [
+        0,
+        6.862099492385789,
+        24.91612994923859
+      ],
+      "priceTargets": [
+        0,
+        6.862099492385789,
+        24.91612994923859
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "可靠报表及复牌仍无法扭转高融资和经营亏损；PE方法0不等于清算结果",
+        "租赁与财报核实、维持持续经营及债权安排；全集团外部业务和完整费用兑现",
+        "可靠复牌、经营增长和成本改善同时兑现且债务获合理解决；不自动认定豁免或未完成处置已到款"
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "requestedTarget": "2029-10-09",
+      "profitYear": 2029,
+      "native": [
+        {
+          "key": "pessimistic",
+          "profitYear": 2029,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.2
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.19
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.22
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.22
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.055
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.08
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.085
+            }
+          ],
+          "costRate": 0.48,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.145,
+          "grant": 0.008,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.025,
+          "cashInterest": 0.003,
+          "finance": 0.105,
+          "associateOtherNet": -0.025,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.24,
+          "NCI": 0.015,
+          "revenue": 1.05,
+          "cost": 0.504,
+          "selling": 0.3045,
+          "admin": 0.1575,
+          "economicRD": 0.15225,
+          "operating": -0.10024999999999995,
+          "pretax": -0.22024999999999992,
+          "tax": 0,
+          "groupProfit": -0.22024999999999992,
+          "parentProfit": -0.2352499999999999,
+          "shares": 2.3,
+          "EPSUSD": -0.10228260869565214,
+          "PE": 10,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 0,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "base",
+          "profitYear": 2029,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.27
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.25
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.29
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.3
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.11
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.28
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.12
+            }
+          ],
+          "costRate": 0.38,
+          "sellingRate": 0.24,
+          "adminRate": 0.105,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.005,
+          "cashInterest": 0.009,
+          "finance": 0.06,
+          "associateOtherNet": -0.008,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.21,
+          "NCI": 0.065,
+          "revenue": 1.62,
+          "cost": 0.6156,
+          "selling": 0.38880000000000003,
+          "admin": 0.1701,
+          "economicRD": 0.17820000000000003,
+          "operating": 0.2692999999999999,
+          "pretax": 0.2272999999999999,
+          "tax": 0.04773299999999998,
+          "groupProfit": 0.17956699999999992,
+          "parentProfit": 0.11456699999999992,
+          "shares": 2.1,
+          "EPSUSD": 0.05455571428571424,
+          "PE": 27,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 11.489433428571418,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "optimistic",
+          "profitYear": 2029,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.34
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.32
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.35
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.39
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.16
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.48
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.17
+            }
+          ],
+          "costRate": 0.36,
+          "sellingRate": 0.23,
+          "adminRate": 0.095,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.011,
+          "finance": 0.043,
+          "associateOtherNet": -0.004,
+          "NeuroEquityProfit": 0.03,
+          "taxRate": 0.2,
+          "NCI": 0.1,
+          "revenue": 2.21,
+          "cost": 0.7956,
+          "selling": 0.5083,
+          "admin": 0.20995,
+          "economicRD": 0.2431,
+          "operating": 0.4670500000000002,
+          "pretax": 0.4610500000000002,
+          "tax": 0.09221000000000004,
+          "groupProfit": 0.36884000000000017,
+          "parentProfit": 0.2688400000000002,
+          "shares": 2.1,
+          "EPSUSD": 0.1280190476190477,
+          "PE": 33,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 32.952102857142876,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        }
+      ],
+      "priceHKD": [
+        0,
+        11.489433428571418,
+        32.952102857142876
+      ],
+      "priceTargets": [
+        0,
+        11.489433428571418,
+        32.952102857142876
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "可靠报表及复牌仍无法扭转高融资和经营亏损；PE方法0不等于清算结果",
+        "租赁与财报核实、维持持续经营及债权安排；全集团外部业务和完整费用兑现",
+        "可靠复牌、经营增长和成本改善同时兑现且债务获合理解决；不自动认定豁免或未完成处置已到款"
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "requestedTarget": "2031-10-09",
+      "profitYear": 2031,
+      "native": [
+        {
+          "key": "pessimistic",
+          "profitYear": 2031,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.21
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.18
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.21
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.24
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.06
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.09
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.09
+            }
+          ],
+          "costRate": 0.48,
+          "sellingRate": 0.3,
+          "adminRate": 0.15,
+          "economicRDRate": 0.15,
+          "grant": 0.005,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.015,
+          "cashInterest": 0.002,
+          "finance": 0.11,
+          "associateOtherNet": -0.02,
+          "NeuroEquityProfit": 0.006,
+          "taxRate": 0.24,
+          "NCI": 0.015,
+          "revenue": 1.0799999999999998,
+          "cost": 0.5183999999999999,
+          "selling": 0.32399999999999995,
+          "admin": 0.16199999999999998,
+          "economicRD": 0.16199999999999998,
+          "operating": -0.11139999999999992,
+          "pretax": -0.2333999999999999,
+          "tax": 0,
+          "groupProfit": -0.2333999999999999,
+          "parentProfit": -0.2483999999999999,
+          "shares": 2.6,
+          "EPSUSD": -0.0955384615384615,
+          "PE": 8,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 0,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "base",
+          "profitYear": 2031,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.32
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.27
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.32
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.38
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.15
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.4
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.14
+            }
+          ],
+          "costRate": 0.375,
+          "sellingRate": 0.24,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.009,
+          "finance": 0.045,
+          "associateOtherNet": -0.006,
+          "NeuroEquityProfit": 0.022,
+          "taxRate": 0.22,
+          "NCI": 0.09,
+          "revenue": 1.98,
+          "cost": 0.7424999999999999,
+          "selling": 0.47519999999999996,
+          "admin": 0.198,
+          "economicRD": 0.2178,
+          "operating": 0.35350000000000004,
+          "pretax": 0.3335000000000001,
+          "tax": 0.07337000000000002,
+          "groupProfit": 0.2601300000000001,
+          "parentProfit": 0.1701300000000001,
+          "shares": 2.25,
+          "EPSUSD": 0.07561333333333337,
+          "PE": 23,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 13.565032000000006,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        },
+        {
+          "key": "optimistic",
+          "profitYear": 2031,
+          "unit": "USD billion; shares billion",
+          "segments": [
+            {
+              "name": "cardiovascular",
+              "externalRevenue": 0.43
+            },
+            {
+              "name": "orthopedics",
+              "externalRevenue": 0.38
+            },
+            {
+              "name": "CRM",
+              "externalRevenue": 0.42
+            },
+            {
+              "name": "endovascular",
+              "externalRevenue": 0.55
+            },
+            {
+              "name": "structuralHeart",
+              "externalRevenue": 0.24
+            },
+            {
+              "name": "robotExternal",
+              "externalRevenue": 0.7
+            },
+            {
+              "name": "others",
+              "externalRevenue": 0.21
+            }
+          ],
+          "costRate": 0.36,
+          "sellingRate": 0.23,
+          "adminRate": 0.09,
+          "economicRDRate": 0.115,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.012,
+          "finance": 0.03,
+          "associateOtherNet": -0.003,
+          "NeuroEquityProfit": 0.042,
+          "taxRate": 0.21,
+          "NCI": 0.145,
+          "revenue": 2.9299999999999997,
+          "cost": 1.0548,
+          "selling": 0.6738999999999999,
+          "admin": 0.2637,
+          "economicRD": 0.33694999999999997,
+          "operating": 0.6146499999999998,
+          "pretax": 0.6356499999999998,
+          "tax": 0.13348649999999995,
+          "groupProfit": 0.5021634999999999,
+          "parentProfit": 0.35716349999999986,
+          "shares": 2.25,
+          "EPSUSD": 0.15873933333333326,
+          "PE": 28,
+          "fxHKDPerUSD": 7.8,
+          "priceHKD": 34.66867039999998,
+          "noCashNAVAdded": true,
+          "noDebtNAVDeducted": true,
+          "noSubsidiaryValueAdded": true,
+          "NeuroIncludedOnlyEquityProfit": true,
+          "cumulativeCashDividendHKD": null,
+          "notes": "集团外部收入，已消集团内机器人发货；脑科学仅权益贡献，不再合并收入或加持股市值；完整研发含资本化类投入、激励租赁在费用，现金利息及全部融资在利润，无现金或子公司NAV叠加；债不重复扣。持续经营/复牌/再融资条件未验证，非正式目标。亏损0仅PE方法无正支撑。"
+        }
+      ],
+      "priceHKD": [
+        0,
+        13.565032000000006,
+        34.66867039999998
+      ],
+      "priceTargets": [
+        0,
+        13.565032000000006,
+        34.66867039999998
+      ],
+      "valuationConditioned": true,
+      "notRecommendation": true,
+      "noExpectedPrice": true,
+      "conditions": [
+        "可靠报表及复牌仍无法扭转高融资和经营亏损；PE方法0不等于清算结果",
+        "租赁与财报核实、维持持续经营及债权安排；全集团外部业务和完整费用兑现",
+        "可靠复牌、经营增长和成本改善同时兑现且债务获合理解决；不自动认定豁免或未完成处置已到款"
+      ]
+    }
+  },
+  "nativeInputs": {
+    "yearEnd": {
+      "target": "2026-12-31",
+      "profitYear": 2027,
+      "shares": [
+        1.917386655,
+        1.917386655,
+        1.917386655
+      ],
+      "PE": [
+        12,
+        28,
+        35
+      ],
+      "cases": [
+        {
+          "key": "pessimistic",
+          "segments": [
+            0.19,
+            0.2,
+            0.23,
+            0.2,
+            0.045,
+            0.07,
+            0.08
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "shares": 1.917386655,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "base",
+          "segments": [
+            0.23,
+            0.23,
+            0.26,
+            0.24,
+            0.07,
+            0.17,
+            0.11
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "shares": 1.917386655,
+          "PE": 28,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "optimistic",
+          "segments": [
+            0.26,
+            0.26,
+            0.29,
+            0.27,
+            0.09,
+            0.28,
+            0.13
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "shares": 1.917386655,
+          "PE": 35,
+          "fxHKDPerUSD": 7.8
+        }
+      ]
+    },
+    "halfYear": {
+      "target": "2027-04-09",
+      "profitYear": 2027,
+      "shares": [
+        1.95,
+        1.94,
+        1.94
+      ],
+      "PE": [
+        12,
+        30,
+        38
+      ],
+      "cases": [
+        {
+          "key": "pessimistic",
+          "segments": [
+            0.19,
+            0.2,
+            0.23,
+            0.2,
+            0.045,
+            0.07,
+            0.08
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "shares": 1.95,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "base",
+          "segments": [
+            0.23,
+            0.23,
+            0.26,
+            0.24,
+            0.07,
+            0.17,
+            0.11
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "shares": 1.94,
+          "PE": 30,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "optimistic",
+          "segments": [
+            0.26,
+            0.26,
+            0.29,
+            0.27,
+            0.09,
+            0.28,
+            0.13
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "shares": 1.94,
+          "PE": 38,
+          "fxHKDPerUSD": 7.8
+        }
+      ]
+    },
+    "oneYear": {
+      "target": "2027-10-08",
+      "requestedTarget": "2027-10-09",
+      "profitYear": 2027,
+      "shares": [
+        2.02,
+        1.97,
+        1.97
+      ],
+      "PE": [
+        12,
+        32,
+        40
+      ],
+      "cases": [
+        {
+          "key": "pessimistic",
+          "segments": [
+            0.19,
+            0.2,
+            0.23,
+            0.2,
+            0.045,
+            0.07,
+            0.08
+          ],
+          "costRate": 0.47,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.14,
+          "grant": 0.01,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.04,
+          "cashInterest": 0.004,
+          "finance": 0.1,
+          "associateOtherNet": -0.03,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.22,
+          "NCI": 0.012,
+          "shares": 2.02,
+          "PE": 12,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "base",
+          "segments": [
+            0.23,
+            0.23,
+            0.26,
+            0.24,
+            0.07,
+            0.17,
+            0.11
+          ],
+          "costRate": 0.39,
+          "sellingRate": 0.245,
+          "adminRate": 0.11,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.01,
+          "cashInterest": 0.009,
+          "finance": 0.075,
+          "associateOtherNet": -0.01,
+          "NeuroEquityProfit": 0.013,
+          "taxRate": 0.2,
+          "NCI": 0.045,
+          "shares": 1.97,
+          "PE": 32,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "optimistic",
+          "segments": [
+            0.26,
+            0.26,
+            0.29,
+            0.27,
+            0.09,
+            0.28,
+            0.13
+          ],
+          "costRate": 0.37,
+          "sellingRate": 0.235,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.01,
+          "finance": 0.06,
+          "associateOtherNet": -0.005,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.19,
+          "NCI": 0.06,
+          "shares": 1.97,
+          "PE": 40,
+          "fxHKDPerUSD": 7.8
+        }
+      ]
+    },
+    "threeYear": {
+      "target": "2029-10-09",
+      "profitYear": 2029,
+      "shares": [
+        2.3,
+        2.1,
+        2.1
+      ],
+      "PE": [
+        10,
+        27,
+        33
+      ],
+      "cases": [
+        {
+          "key": "pessimistic",
+          "segments": [
+            0.2,
+            0.19,
+            0.22,
+            0.22,
+            0.055,
+            0.08,
+            0.085
+          ],
+          "costRate": 0.48,
+          "sellingRate": 0.29,
+          "adminRate": 0.15,
+          "economicRDRate": 0.145,
+          "grant": 0.008,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.025,
+          "cashInterest": 0.003,
+          "finance": 0.105,
+          "associateOtherNet": -0.025,
+          "NeuroEquityProfit": 0.007,
+          "taxRate": 0.24,
+          "NCI": 0.015,
+          "shares": 2.3,
+          "PE": 10,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "base",
+          "segments": [
+            0.27,
+            0.25,
+            0.29,
+            0.3,
+            0.11,
+            0.28,
+            0.12
+          ],
+          "costRate": 0.38,
+          "sellingRate": 0.24,
+          "adminRate": 0.105,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0.005,
+          "cashInterest": 0.009,
+          "finance": 0.06,
+          "associateOtherNet": -0.008,
+          "NeuroEquityProfit": 0.017,
+          "taxRate": 0.21,
+          "NCI": 0.065,
+          "shares": 2.1,
+          "PE": 27,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "optimistic",
+          "segments": [
+            0.34,
+            0.32,
+            0.35,
+            0.39,
+            0.16,
+            0.48,
+            0.17
+          ],
+          "costRate": 0.36,
+          "sellingRate": 0.23,
+          "adminRate": 0.095,
+          "economicRDRate": 0.11,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.011,
+          "finance": 0.043,
+          "associateOtherNet": -0.004,
+          "NeuroEquityProfit": 0.03,
+          "taxRate": 0.2,
+          "NCI": 0.1,
+          "shares": 2.1,
+          "PE": 33,
+          "fxHKDPerUSD": 7.8
+        }
+      ]
+    },
+    "fiveYear": {
+      "target": "2031-10-09",
+      "profitYear": 2031,
+      "shares": [
+        2.6,
+        2.25,
+        2.25
+      ],
+      "PE": [
+        8,
+        23,
+        28
+      ],
+      "cases": [
+        {
+          "key": "pessimistic",
+          "segments": [
+            0.21,
+            0.18,
+            0.21,
+            0.24,
+            0.06,
+            0.09,
+            0.09
+          ],
+          "costRate": 0.48,
+          "sellingRate": 0.3,
+          "adminRate": 0.15,
+          "economicRDRate": 0.15,
+          "grant": 0.005,
+          "otherRecurringCost": 0.015,
+          "reviewExtraCost": 0.015,
+          "cashInterest": 0.002,
+          "finance": 0.11,
+          "associateOtherNet": -0.02,
+          "NeuroEquityProfit": 0.006,
+          "taxRate": 0.24,
+          "NCI": 0.015,
+          "shares": 2.6,
+          "PE": 8,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "base",
+          "segments": [
+            0.32,
+            0.27,
+            0.32,
+            0.38,
+            0.15,
+            0.4,
+            0.14
+          ],
+          "costRate": 0.375,
+          "sellingRate": 0.24,
+          "adminRate": 0.1,
+          "economicRDRate": 0.11,
+          "grant": 0.015,
+          "otherRecurringCost": 0.008,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.009,
+          "finance": 0.045,
+          "associateOtherNet": -0.006,
+          "NeuroEquityProfit": 0.022,
+          "taxRate": 0.22,
+          "NCI": 0.09,
+          "shares": 2.25,
+          "PE": 23,
+          "fxHKDPerUSD": 7.8
+        },
+        {
+          "key": "optimistic",
+          "segments": [
+            0.43,
+            0.38,
+            0.42,
+            0.55,
+            0.24,
+            0.7,
+            0.21
+          ],
+          "costRate": 0.36,
+          "sellingRate": 0.23,
+          "adminRate": 0.09,
+          "economicRDRate": 0.115,
+          "grant": 0.02,
+          "otherRecurringCost": 0.006,
+          "reviewExtraCost": 0,
+          "cashInterest": 0.012,
+          "finance": 0.03,
+          "associateOtherNet": -0.003,
+          "NeuroEquityProfit": 0.042,
+          "taxRate": 0.21,
+          "NCI": 0.145,
+          "shares": 2.25,
+          "PE": 28,
+          "fxHKDPerUSD": 7.8
+        }
+      ]
+    }
+  },
+  "operatingInputs": {
+    "pessimistic": {
+      "2027": {
+        "segments": [
+          0.19,
+          0.2,
+          0.23,
+          0.2,
+          0.045,
+          0.07,
+          0.08
+        ],
+        "costRate": 0.47,
+        "sellingRate": 0.29,
+        "adminRate": 0.15,
+        "economicRDRate": 0.14,
+        "grant": 0.01,
+        "otherRecurringCost": 0.015,
+        "reviewExtraCost": 0.04,
+        "cashInterest": 0.004,
+        "finance": 0.1,
+        "associateOtherNet": -0.03,
+        "NeuroEquityProfit": 0.007,
+        "taxRate": 0.22,
+        "NCI": 0.012
+      },
+      "2029": {
+        "segments": [
+          0.2,
+          0.19,
+          0.22,
+          0.22,
+          0.055,
+          0.08,
+          0.085
+        ],
+        "costRate": 0.48,
+        "sellingRate": 0.29,
+        "adminRate": 0.15,
+        "economicRDRate": 0.145,
+        "grant": 0.008,
+        "otherRecurringCost": 0.015,
+        "reviewExtraCost": 0.025,
+        "cashInterest": 0.003,
+        "finance": 0.105,
+        "associateOtherNet": -0.025,
+        "NeuroEquityProfit": 0.007,
+        "taxRate": 0.24,
+        "NCI": 0.015
+      },
+      "2031": {
+        "segments": [
+          0.21,
+          0.18,
+          0.21,
+          0.24,
+          0.06,
+          0.09,
+          0.09
+        ],
+        "costRate": 0.48,
+        "sellingRate": 0.3,
+        "adminRate": 0.15,
+        "economicRDRate": 0.15,
+        "grant": 0.005,
+        "otherRecurringCost": 0.015,
+        "reviewExtraCost": 0.015,
+        "cashInterest": 0.002,
+        "finance": 0.11,
+        "associateOtherNet": -0.02,
+        "NeuroEquityProfit": 0.006,
+        "taxRate": 0.24,
+        "NCI": 0.015
+      }
+    },
+    "base": {
+      "2027": {
+        "segments": [
+          0.23,
+          0.23,
+          0.26,
+          0.24,
+          0.07,
+          0.17,
+          0.11
+        ],
+        "costRate": 0.39,
+        "sellingRate": 0.245,
+        "adminRate": 0.11,
+        "economicRDRate": 0.11,
+        "grant": 0.015,
+        "otherRecurringCost": 0.008,
+        "reviewExtraCost": 0.01,
+        "cashInterest": 0.009,
+        "finance": 0.075,
+        "associateOtherNet": -0.01,
+        "NeuroEquityProfit": 0.013,
+        "taxRate": 0.2,
+        "NCI": 0.045
+      },
+      "2029": {
+        "segments": [
+          0.27,
+          0.25,
+          0.29,
+          0.3,
+          0.11,
+          0.28,
+          0.12
+        ],
+        "costRate": 0.38,
+        "sellingRate": 0.24,
+        "adminRate": 0.105,
+        "economicRDRate": 0.11,
+        "grant": 0.015,
+        "otherRecurringCost": 0.008,
+        "reviewExtraCost": 0.005,
+        "cashInterest": 0.009,
+        "finance": 0.06,
+        "associateOtherNet": -0.008,
+        "NeuroEquityProfit": 0.017,
+        "taxRate": 0.21,
+        "NCI": 0.065
+      },
+      "2031": {
+        "segments": [
+          0.32,
+          0.27,
+          0.32,
+          0.38,
+          0.15,
+          0.4,
+          0.14
+        ],
+        "costRate": 0.375,
+        "sellingRate": 0.24,
+        "adminRate": 0.1,
+        "economicRDRate": 0.11,
+        "grant": 0.015,
+        "otherRecurringCost": 0.008,
+        "reviewExtraCost": 0,
+        "cashInterest": 0.009,
+        "finance": 0.045,
+        "associateOtherNet": -0.006,
+        "NeuroEquityProfit": 0.022,
+        "taxRate": 0.22,
+        "NCI": 0.09
+      }
+    },
+    "optimistic": {
+      "2027": {
+        "segments": [
+          0.26,
+          0.26,
+          0.29,
+          0.27,
+          0.09,
+          0.28,
+          0.13
+        ],
+        "costRate": 0.37,
+        "sellingRate": 0.235,
+        "adminRate": 0.1,
+        "economicRDRate": 0.11,
+        "grant": 0.02,
+        "otherRecurringCost": 0.006,
+        "reviewExtraCost": 0,
+        "cashInterest": 0.01,
+        "finance": 0.06,
+        "associateOtherNet": -0.005,
+        "NeuroEquityProfit": 0.017,
+        "taxRate": 0.19,
+        "NCI": 0.06
+      },
+      "2029": {
+        "segments": [
+          0.34,
+          0.32,
+          0.35,
+          0.39,
+          0.16,
+          0.48,
+          0.17
+        ],
+        "costRate": 0.36,
+        "sellingRate": 0.23,
+        "adminRate": 0.095,
+        "economicRDRate": 0.11,
+        "grant": 0.02,
+        "otherRecurringCost": 0.006,
+        "reviewExtraCost": 0,
+        "cashInterest": 0.011,
+        "finance": 0.043,
+        "associateOtherNet": -0.004,
+        "NeuroEquityProfit": 0.03,
+        "taxRate": 0.2,
+        "NCI": 0.1
+      },
+      "2031": {
+        "segments": [
+          0.43,
+          0.38,
+          0.42,
+          0.55,
+          0.24,
+          0.7,
+          0.21
+        ],
+        "costRate": 0.36,
+        "sellingRate": 0.23,
+        "adminRate": 0.09,
+        "economicRDRate": 0.115,
+        "grant": 0.02,
+        "otherRecurringCost": 0.006,
+        "reviewExtraCost": 0,
+        "cashInterest": 0.012,
+        "finance": 0.03,
+        "associateOtherNet": -0.003,
+        "NeuroEquityProfit": 0.042,
+        "taxRate": 0.21,
+        "NCI": 0.145
+      }
+    }
+  },
+  "scenarioOrder": [
+    "pessimistic",
+    "base",
+    "optimistic"
+  ],
+  "method": "已抵销集团外部七分部经济利润桥+权益法脑科学+集团归母PE，无子公司市值/NAV重复",
+  "fx": {
+    "HKDPerUSD": 7.8,
+    "status": "研究换算假设；非已核截止日实际外汇",
+    "sensitivity": [
+      7.75,
+      7.8,
+      7.85
+    ],
+    "HKDToCNYSeparate": true
+  },
+  "anchor": {
+    "period": "FY2025 continuing",
+    "currency": "USD",
+    "unit": "million",
+    "revenue": 994.909,
+    "cost": 441.398,
+    "gross": 553.511,
+    "RD": 135.499,
+    "selling": 294.601,
+    "admin": 160.804,
+    "coreOperating": -37.393,
+    "otherIncome": 47.647,
+    "otherOperating": 31.507,
+    "finance": 111.261,
+    "ECL": 5.235,
+    "convertibleFVLoss": 23.744,
+    "otherFVLoss": 0.491,
+    "impairment": 98.947,
+    "disposalGain": 49.647,
+    "investeeDisposalGain": 3.884,
+    "equityAccountedNet": -25.09,
+    "pretax": -232.49,
+    "tax": 23.223,
+    "groupProfit": -255.713,
+    "parentProfit": -233.849,
+    "NCIProfit": -21.864,
+    "discontinuedRevenue": 110.472,
+    "discontinuedGroupProfit": 294.14,
+    "discontinuedParentProfit": 282.368,
+    "totalRevenue": 1105.381,
+    "totalGroupProfit": 38.427,
+    "totalParentProfit": 48.519,
+    "totalNCIProfit": -10.092,
+    "totalSBC": 35.24,
+    "totalDisposalGain": 326.54,
+    "totalInvesteeDisposalGain": 3.884,
+    "totalFVLoss": 24.927,
+    "totalImpairment": 107.25,
+    "preferredInterest": 24.446,
+    "adjustedGroupProfit": -100.134,
+    "OCF": 69.132,
+    "discontinuedOCF": 28.314,
+    "continuingOCF": 40.818,
+    "capexPPE": 86.814,
+    "capexIntangible": 14.944,
+    "FCFBeforeFinancing": -32.626,
+    "leasePrincipal": 42.034,
+    "leaseInterest": 4.65,
+    "borrowInterestCash": 35.954,
+    "convertibleInterestCash": 32.425,
+    "FCFAfterFinancingInterestLease": -147.689,
+    "cashBegin": 712.995,
+    "cashEnd": 682.508,
+    "cashFX": 13.336,
+    "netInvesting": 16.155,
+    "netFinancing": -129.11,
+    "totalAssets": 3696.675,
+    "totalLiabilities": 2196.502,
+    "parentEquity": 980.815,
+    "NCIEquity": 519.358,
+    "currentAssets": 1633.533,
+    "currentLiabilities": 1129.012,
+    "bankCurrent": 414.387,
+    "bankNoncurrent": 779.566,
+    "bankDebt": 1193.953,
+    "convertibleCurrent": 215.873,
+    "convertibleNoncurrent": 139.513,
+    "convertibleDebt": 355.386,
+    "lease": 51.413,
+    "debtPlusLease": 1600.752,
+    "timeDeposit": 108.135,
+    "pledgedDeposit": 3.381,
+    "endoRestrictedCash": 141.581,
+    "otherMainlandCashRemittanceLimited": 377.52,
+    "unallocatedCorporateCash": 131.084,
+    "unallocatedCorporateDeposits": 1.092,
+    "tradeReceivables": 328.07,
+    "tradeGross": 347.657,
+    "tradeAllowance": 19.587,
+    "otherCurrentReceivables": 468.967,
+    "inventory": 349.199,
+    "capitalizedDevelopmentAdditions": 16.68,
+    "totalRDExpenditureProxy": 163.184,
+    "capitalizedDevelopmentAmortization": 15.748,
+    "leaseSecurityDepositsNoncurrent": 37.432,
+    "BlueOrangeDepositCarryingDifferentScope": 38.613,
+    "loansToInvestee": 23.984,
+    "investeeLoanRepaid": 11.355,
+    "NCIdividendCash": 21.96
+  },
+  "history": [
+    {
+      "period": "FY2024 continuing re-presented",
+      "revenue": 924.369,
+      "cost": 428.048,
+      "gross": 496.321,
+      "RD": 202.958,
+      "selling": 285.54,
+      "admin": 168.859,
+      "coreOperating": -161.036,
+      "otherIncome": 22.747,
+      "otherOperating": 13.135,
+      "finance": 105.909,
+      "ECL": 2.25,
+      "convertibleFVLoss": 18.849,
+      "otherFVLoss": -0.262,
+      "impairment": 87.864,
+      "disposalGain": 98.155,
+      "investeeDisposalGain": 16.729,
+      "equityAccountedNet": -15.886,
+      "pretax": -267.036,
+      "tax": 36.104,
+      "groupProfit": -303.14,
+      "parentProfit": -232.064,
+      "NCIProfit": -71.076
+    }
+  ],
+  "business": {
+    "externalRevenue2025": [
+      181.751,
+      234.758,
+      229.7,
+      187.855,
+      42.717,
+      22.519,
+      95.609
+    ],
+    "externalRevenue2024": [
+      161.18,
+      252.445,
+      220.585,
+      167.918,
+      48.902,
+      22.533,
+      50.806
+    ],
+    "segmentRevenue2025": [
+      182.181,
+      235.155,
+      229.719,
+      189.481,
+      51.314,
+      77.575,
+      95.609
+    ],
+    "interSegment2025": [
+      0.43,
+      0.397,
+      0.019,
+      1.626,
+      8.597,
+      55.056,
+      0
+    ],
+    "segmentNames": [
+      "cardiovascular",
+      "orthopedics",
+      "CRM",
+      "endovascular",
+      "structuralHeart",
+      "robotExternal",
+      "others"
+    ],
+    "Neuro": {
+      "controlLost": "2025-12",
+      "remainingPct": "~39% disclosed approximation",
+      "deemedGain": 276.893,
+      "consideration": 101.552,
+      "retainedFairValue": 314.068,
+      "parentNetAssetsRemoved": 138.727,
+      "cashDeconsolidated": 86.964,
+      "netDisposalCash": 14.588,
+      "consolidationFuture": false
+    },
+    "CRM": {
+      "restructuredIntoCardioFlow": "2025-12; continue controlled consolidation",
+      "preferredRedemptionLiabilityRemoved": 264.833,
+      "bondsRedeemedCash": 170.08,
+      "CardioFlowRemainingPct": "~45% including treasury effects"
+    },
+    "potentialOrthoDisposal": {
+      "agreement": "2026-07-29 conditional",
+      "targetEquityBeforePct": 82.2861,
+      "sellPct": 44.2861,
+      "retainedPct": 38,
+      "allSellersPct": 62,
+      "consideration": "Tinavi shares at14.36CNY adjusted; final asset appraisal consideration unknown",
+      "complete": false,
+      "modelCashAdded": 0,
+      "modelValueAdded": 0
+    },
+    "lease": {
+      "August20DepositCNYmillion": 295.99,
+      "originalAreaSqM": 126370,
+      "renewedThreeAreaSqM": 13872.64,
+      "underNegotiationEightAreaSqM": 74686.84,
+      "originalExpiry": "2026-07-31",
+      "threeNewExpiry": "2031-07-31",
+      "originalFiveYearTotalRentUSDmillion": 194.66,
+      "oldUSDConversion": 6.4612,
+      "depositRefundConfirmed": false
+    },
+    "profitAlert": {
+      "publication": "2026-08-12 22:16",
+      "period": "H12026 continuing excludingNeuro",
+      "revenueGrowthConstantFXPct": [
+        12,
+        14
+      ],
+      "overseasGrowthPct": 140,
+      "overseasDefinition": "Chinese R&D/approved products overseas; not all nonChina business",
+      "GMImprovementPP": [
+        3,
+        4
+      ],
+      "coreOperatingProfitAtLeastUSDmillion": 24,
+      "financeCostsUSDmillion": 43,
+      "continuingNetLossAtMostUSDmillion": 50,
+      "waiver": "financial covenants applicable to this period under convertible loan agreements; not all bank covenants or annual2026 exemption",
+      "status": "not reviewed/audited by auditor or auditcommittee; cannot reconstruct actual cash/parentNCI"
+    },
+    "endoH1": {
+      "publication": "2026-08-26 21:48",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 793.94901,
+      "parentProfit": 322.36236,
+      "ownershipPct": 40.32,
+      "standard": "PRC unaudited, only Endovastec, no intra-group elimination, not whole group"
+    }
+  },
+  "shares": {
+    "legalTotal": 1917386655,
+    "legalTreasury": 0,
+    "outstanding2010Options": 41212338,
+    "outstanding2020Options": 63525251,
+    "outstanding2023Scheme": 35463313,
+    "availableNewSharesForPlans": 113717047,
+    "schemeCapacityNotGranted": 144933093,
+    "convertible2028PrincipalUSD": 220000000,
+    "convertible2029PrincipalUSD": 158500000,
+    "convertible2028PotentialShares": 134537601,
+    "convertible2029PotentialShares": 166329391,
+    "benefit2025TrustSharesNotLegalTreasury": 172000,
+    "notes": "法律月报库存0与会计激励信托扣项分开；未行权不视已股。未来分母为非现金稀释压力，不自动计全部债转股，也不凭空加募集款。转股与本金利息减项须同时修改，不双计"
+  },
+  "debtContract": {
+    "currency": "USD",
+    "unit": "million",
+    "convertible2028Principal": 220,
+    "convertible2028Put": "2026-12-21",
+    "convertible2028CouponPct": 5.75,
+    "convertible2028ConversionHKD": 12.779,
+    "convertible2029Principal": 158.5,
+    "convertible2029Put": "2027-05",
+    "convertible2029PutPremiumPct": 30,
+    "convertible2029MaturityPremiumPct": 40,
+    "convertible2029ConversionHKD": 7.46,
+    "convertible2029PutBeforeInterest": 206.05,
+    "convertible2029MaturityBeforeInterest": 221.9,
+    "bankCurrentAnchor": 414.387,
+    "bankNoncurrentCovenants": 610.536,
+    "bankAndLoanCovenantAnchor": 750.049,
+    "annualCovenant2026Profit": 90,
+    "H1CovenantProfit": 45,
+    "waiverScope": "financial covenants applicable to this period under convertible loan agreements; not all bank covenants or annual2026 exemption",
+    "materialGoingConcernUncertainty": true,
+    "noCurrentCovenantClaim": true
+  },
+  "cashValidation": {
+    "unit": "USD million",
+    "groupFreeUseNotAssumed": true,
+    "depositInCashPoolNotDuplicated": true,
+    "allCashLessDebtLease": -918.2439999999999,
+    "groupCashExcludingSpecificEndoRestricted": 540.927,
+    "notFreelyRemittableOtherMainland": 377.52,
+    "unallocatedCorporateCash": 131.084,
+    "shortTermGrossPrincipalNeed": 634.387,
+    "groupCashAfterCurrentBankPut": 48.12100000000004,
+    "corporateCashAfterBondPut": -88.916,
+    "stressBudget": {
+      "startCash": 682.508,
+      "OCF": 80,
+      "capex": 60,
+      "leaseCash": 46.684,
+      "financialInterestCash": 68.379,
+      "NCIdividendCash": 22,
+      "currentBankRepayment": 414.387,
+      "bondPut": 220,
+      "endCash": -68.94199999999995,
+      "notes": "旧2025全集团现金一年压力，不是2026实际；不把受限/子公司现金都当母公司可用，预算未含更新租金/保证金、5月2027溢价赎回、银行交叉违约；没有免费续借假设，因此价条件"
+    }
+  },
+  "dividend": {
+    "FY2025Declared": 0,
+    "future": null,
+    "noFormalTotalReturn": true
+  },
+  "technical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "days",
+    "count": 711,
+    "MA": {
+      "20": 6.6235,
+      "60": 6.661583,
+      "120": 7.791458,
+      "250": 9.96158
+    },
+    "maSlope5Pct": {
+      "20": -1.914035,
+      "60": -1.505649,
+      "120": -2.182385,
+      "250": -1.407394
+    },
+    "priceVsMAPct": {
+      "20": -8.28112,
+      "60": -8.805464,
+      "120": -22.030001,
+      "250": -39.015698
+    },
+    "returnPct": {
+      "20": -10.066617,
+      "60": -15.153631,
+      "120": -40.441176,
+      "250": -53.341014
+    },
+    "yearWindow": 252,
+    "yearWindowExpected": 252,
+    "yearWindowComplete": true,
+    "high52w": 16.280001,
+    "low52w": 5.83,
+    "distanceFrom52wHighPct": -62.684277,
+    "distanceFrom52wLowPct": 4.202401,
+    "maxDrawdown52wPct": -63.428218,
+    "RSI14": 36.909134,
+    "ATR14": 0.295859,
+    "ATR14Pct": 4.870113,
+    "MACD": {
+      "DIF": -0.164616,
+      "DEA": -0.103291,
+      "histogram": -0.122648,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "volumeUnit": "unverified; do not chart",
+    "volumeRatio20": null,
+    "previous20MeanVolume": null,
+    "upDownVolume20": null,
+    "ranges": {
+      "20": {
+        "support": 5.88,
+        "resistance": 7.345,
+        "toSupportPct": -3.209877,
+        "toResistancePct": 20.90535,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 5.83,
+        "resistance": 7.64,
+        "toSupportPct": -4.032922,
+        "toResistancePct": 25.761317,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "weeklyTechnical": {
+    "basis": "以基准日名义价格归一的复权OHLC",
+    "periodUnit": "weeks",
+    "count": 152,
+    "MA": {
+      "20": 7.11375,
+      "60": 10.061083,
+      "120": 8.325458,
+      "250": null
+    },
+    "maSlope5Pct": {
+      "20": -9.042961,
+      "60": -1.527658,
+      "120": 0.064603,
+      "250": null
+    },
+    "priceVsMAPct": {
+      "20": -14.602003,
+      "60": -39.618828,
+      "120": -27.031044,
+      "250": null
+    },
+    "returnPct": {
+      "20": -33.606557,
+      "60": -29.360465,
+      "120": -14.194915,
+      "250": null
+    },
+    "yearWindow": 52,
+    "yearWindowExpected": 52,
+    "yearWindowComplete": true,
+    "high52w": 16.280001,
+    "low52w": 5.83,
+    "distanceFrom52wHighPct": -62.684277,
+    "distanceFrom52wLowPct": 4.202401,
+    "maxDrawdown52wPct": -58.815331,
+    "RSI14": 31.086957,
+    "ATR14": 0.7386,
+    "ATR14Pct": 12.158022,
+    "MACD": {
+      "DIF": -0.884955,
+      "DEA": -0.93711,
+      "histogram": 0.10431,
+      "convention": "MACD柱=2×(DIF−DEA)"
+    },
+    "volumeMean": {
+      "5": null,
+      "20": null,
+      "60": null
+    },
+    "volumeUnit": "unverified; do not chart",
+    "volumeRatio20": null,
+    "previous20MeanVolume": null,
+    "upDownVolume20": null,
+    "ranges": {
+      "20": {
+        "support": 5.83,
+        "resistance": 9.58,
+        "toSupportPct": -4.032922,
+        "toResistancePct": 57.695473,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      },
+      "60": {
+        "support": 5.83,
+        "resistance": 16.280001,
+        "toSupportPct": -4.032922,
+        "toResistancePct": 167.983556,
+        "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+      }
+    },
+    "trend": "中短期下降",
+    "maxLossBoundary": false
+  },
+  "relativeStrength": {
+    "market": "恒生指数",
+    "marketSymbol": "^HSI",
+    "marketReturn20Pct": -1.700962535105055,
+    "marketReturn60Pct": 1.241772747033365,
+    "excess20Pct": -8.365654464894945,
+    "excess60Pct": -16.395403747033367,
+    "industryBenchmark": null,
+    "industryExcess20Pct": null,
+    "industryExcess60Pct": null,
+    "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空",
+    "asOf": "2026-08-31",
+    "rawLocked": {
+      "market": "恒生指数",
+      "marketSymbol": "^HSI",
+      "marketReturn20Pct": -2.977908,
+      "marketReturn60Pct": -3.187903,
+      "excess20Pct": -7.088709,
+      "excess60Pct": -11.965728,
+      "industryBenchmark": null,
+      "industryExcess20Pct": null,
+      "industryExcess60Pct": null,
+      "industryMissingReason": "创新药/医药细分基准三年可核验数据未取得，行业相对强弱留空"
+    },
+    "basis": "锁定同日历史8/31对齐"
+  },
+  "rawTechnicalForAudit": {
+    "daily": {
+      "basis": "以基准日名义价格归一的复权OHLC",
+      "periodUnit": "days",
+      "count": 711,
+      "MA": {
+        "20": 6.6235,
+        "60": 6.661583,
+        "120": 7.791458,
+        "250": 9.96158
+      },
+      "maSlope5Pct": {
+        "20": -1.914035,
+        "60": -1.505649,
+        "120": -2.182385,
+        "250": -1.407394
+      },
+      "priceVsMAPct": {
+        "20": -8.28112,
+        "60": -8.805464,
+        "120": -22.030001,
+        "250": -39.015698
+      },
+      "returnPct": {
+        "20": -10.066617,
+        "60": -15.153631,
+        "120": -40.441176,
+        "250": -53.341014
+      },
+      "yearWindow": 252,
+      "yearWindowExpected": 252,
+      "yearWindowComplete": true,
+      "high52w": 16.280001,
+      "low52w": 5.83,
+      "distanceFrom52wHighPct": -62.684277,
+      "distanceFrom52wLowPct": 4.202401,
+      "maxDrawdown52wPct": -63.428218,
+      "RSI14": 36.909134,
+      "ATR14": 0.295859,
+      "ATR14Pct": 4.870113,
+      "MACD": {
+        "DIF": -0.164616,
+        "DEA": -0.103291,
+        "histogram": -0.122648,
+        "convention": "MACD柱=2×(DIF−DEA)"
+      },
+      "volumeMean": {
+        "5": 9108471.4,
+        "20": 12103562.05,
+        "60": 12085105.967
+      },
+      "volumeUnit": "shares_as_provider_reported",
+      "volumeRatio20": 1.292644,
+      "previous20MeanVolume": 11612636.45,
+      "upDownVolume20": {
+        "upVolume": 84476601,
+        "downVolume": 157594640,
+        "flatVolume": 0,
+        "upDays": 7,
+        "downDays": 13,
+        "ratio": 0.536037
+      },
+      "ranges": {
+        "20": {
+          "support": 5.88,
+          "resistance": 7.345,
+          "toSupportPct": -3.209877,
+          "toResistancePct": 20.90535,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        },
+        "60": {
+          "support": 5.83,
+          "resistance": 7.64,
+          "toSupportPct": -4.032922,
+          "toResistancePct": 25.761317,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        }
+      },
+      "trend": "中短期下降",
+      "maxLossBoundary": false
+    },
+    "weekly": {
+      "basis": "以基准日名义价格归一的复权OHLC",
+      "periodUnit": "weeks",
+      "count": 152,
+      "MA": {
+        "20": 7.11375,
+        "60": 10.061083,
+        "120": 8.325458,
+        "250": null
+      },
+      "maSlope5Pct": {
+        "20": -9.042961,
+        "60": -1.527658,
+        "120": 0.064603,
+        "250": null
+      },
+      "priceVsMAPct": {
+        "20": -14.602003,
+        "60": -39.618828,
+        "120": -27.031044,
+        "250": null
+      },
+      "returnPct": {
+        "20": -33.606557,
+        "60": -29.360465,
+        "120": -14.194915,
+        "250": null
+      },
+      "yearWindow": 52,
+      "yearWindowExpected": 52,
+      "yearWindowComplete": true,
+      "high52w": 16.280001,
+      "low52w": 5.83,
+      "distanceFrom52wHighPct": -62.684277,
+      "distanceFrom52wLowPct": 4.202401,
+      "maxDrawdown52wPct": -58.815331,
+      "RSI14": 31.086957,
+      "ATR14": 0.7386,
+      "ATR14Pct": 12.158022,
+      "MACD": {
+        "DIF": -0.884955,
+        "DEA": -0.93711,
+        "histogram": 0.10431,
+        "convention": "MACD柱=2×(DIF−DEA)"
+      },
+      "volumeMean": {
+        "5": 49452745.8,
+        "20": 55409529.4,
+        "60": 101337198.25
+      },
+      "volumeUnit": "shares_as_provider_reported",
+      "volumeRatio20": 0.252076,
+      "previous20MeanVolume": 59549520.85,
+      "upDownVolume20": {
+        "upVolume": 229746919,
+        "downVolume": 878443669,
+        "flatVolume": 0,
+        "upDays": 4,
+        "downDays": 16,
+        "ratio": 0.261539
+      },
+      "ranges": {
+        "20": {
+          "support": 5.83,
+          "resistance": 9.58,
+          "toSupportPct": -4.032922,
+          "toResistancePct": 57.695473,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        },
+        "60": {
+          "support": 5.83,
+          "resistance": 16.280001,
+          "toSupportPct": -4.032922,
+          "toResistancePct": 167.983556,
+          "basis": "最近区间最低/最高价，属于观察位，未经触碰次数筛选"
+        }
+      },
+      "trend": "中短期下降",
+      "maxLossBoundary": false
+    }
+  },
+  "lastVolumeShares": null,
+  "lastTurnoverAmount": null,
+  "volumeMetricsUsable": false,
+  "volumeChartsPermitted": false,
+  "marketWarnings": [
+    "自2026-09-01停牌；行情自动刷新时间不代表当日可交易收盘。当前价仅为2026-08-31参考价。",
+    "历史最后交易日2026-08-31，不具备10月9日完整交易日锚",
+    "成交量单位未完成跨源核验，报价股数留空"
+  ],
+  "brokerTargets": [
+    {
+      "institution": "Morgan Stanley",
+      "date": "2026-05-21 15:40",
+      "code": "00853.HK",
+      "currency": "HKD",
+      "target": 10.5,
+      "rating": "与大市同步",
+      "horizon": null,
+      "horizonStatus": "转载未明目标期限，非核验12个月",
+      "sourceType": "financial_news_secondary",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00853/AAFN/NOW.1525636/research-report",
+      "sourceTitle": "《大行》大摩降微創醫療(00853.HK)目標價至10.5元 維持「與大市同步」評級",
+      "stale": true,
+      "postSuspension": false,
+      "originalReportAvailable": false,
+      "usableForEndYear": false,
+      "notes": "陈旧停牌前二手观点，不作年底价"
+    },
+    {
+      "institution": "BofA Securities",
+      "date": "2026-04-08 14:59",
+      "code": "00853.HK",
+      "currency": "HKD",
+      "target": 13.9,
+      "rating": "买入",
+      "horizon": null,
+      "horizonStatus": "转载未明目标期限，非核验12个月",
+      "sourceType": "financial_news_secondary",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00853/AAFN/NOW.1516289/research-report",
+      "sourceTitle": "《大行》美銀證券降微創醫療(00853.HK)目標價至13.9元 重申「買入」評級",
+      "stale": true,
+      "postSuspension": false,
+      "originalReportAvailable": false,
+      "usableForEndYear": false,
+      "notes": "陈旧停牌前二手观点，不作年底价"
+    },
+    {
+      "institution": "Citigroup",
+      "date": "2026-01-08 11:01",
+      "code": "00853.HK",
+      "currency": "HKD",
+      "target": 16,
+      "rating": "买入",
+      "horizon": null,
+      "horizonStatus": "转载未明目标期限，非核验12个月",
+      "sourceType": "financial_news_secondary",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00853/AAFN/NOW.1494646/research-report",
+      "sourceTitle": "《大行》花旗重新覆蓋微創醫療(00853.HK)籲「買入」 目標價16元",
+      "stale": true,
+      "postSuspension": false,
+      "originalReportAvailable": false,
+      "usableForEndYear": false,
+      "notes": "转载盈利/收入币种与公司美元规模及PE数量级不一致，不采用转载盈利输入"
+    },
+    {
+      "institution": "Nomura",
+      "date": "2025-07-28 12:03",
+      "code": "00853.HK",
+      "currency": "HKD",
+      "target": 8.81,
+      "rating": "中性",
+      "horizon": null,
+      "horizonStatus": "转载未明目标期限，非核验12个月",
+      "sourceType": "financial_news_secondary",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/00853/AAFN/NOW.1456379/research-report",
+      "sourceTitle": "《大行》野村：微創醫療(00853.HK)主要股東變動屬正面 維持「中性」評級",
+      "stale": true,
+      "postSuspension": false,
+      "originalReportAvailable": false,
+      "usableForEndYear": false,
+      "notes": "陈旧停牌前二手观点，不作年底价"
+    },
+    {
+      "institution": "JPMorgan",
+      "date": "2026-04-08 10:13",
+      "code": "00853.HK",
+      "currency": "HKD",
+      "target": 18,
+      "rating": "增持",
+      "horizon": null,
+      "horizonStatus": "转载未明期限",
+      "sourceType": "financial_news_secondary_crossCompanyExplicit",
+      "sourceURL": "https://www.aastocks.com/tc/stocks/analysis/stock-aafn-con/02252/AAFN/NOW.1516185/research-report",
+      "sourceTitle": "《大行》摩通升微創機器人(02252.HK)目標價至42元 評級「增持」",
+      "stale": true,
+      "postSuspension": false,
+      "originalReportAvailable": false,
+      "usableForEndYear": false,
+      "notes": "机器人标题新闻文内明确微创医疗00853目标18覆盖18.2，标明跨公司出处而非机器人目标42误用"
+    }
+  ],
+  "confidence": "低（2025原件高；2026中报缺失、持续经营/债权条件低，未来模型低）",
+  "assumptions": [
+    "仅已公开截止日前信息，预告和中报区别；2026H1不填造实际现金归母。",
+    "集团模型外部机器人收入不等于机器人主体销售，脑科学退并后只权益利润。",
+    "全经济研发包括资本化类投入、激励租金经常成本保留；无需重复NAV或债务扣项。",
+    "公司债务转股/再融资/资产售股均须资金股数联动，条件桥没有保证全路径清偿，长期不能正式目标。"
+  ],
+  "limitations": [
+    "股票及债券停牌、2026中报缺失和持续经营重大不确定性未澄清。",
+    "合并现金不等于母公司可偿债现金，指定募资、内地汇出、少数股东及质押限制均须分层。",
+    "2025 lease security aggregate37.432与BlueOrange carrying38.613范围不完全一致，保留不强行勾同；8月295.99CNYm不是USD或全部退现金。",
+    "本模型非全资金融资联合逐年现金估值，PE条件路径需债权及租约解决且费用兑现；亏损0方法不是清算价。",
+    "银行/转债合同溢价和2026年度covenant仍需核，不把本期贷款豁免扩大。",
+    "未来海外骨科交换Tinavi股未完成、价格总额未定，不记现金或处置收益。",
+    "量单位未跨核不作量图；行业基准不足、远期市场日历需复核。",
+    "旧外资目标全陈旧停牌前转载，花旗转载财务币种疑点不作输入。"
+  ],
+  "deepResearchFile": "research/microport_deep.md",
+  "qaFile": "qa/microport_qa.json",
+  "sources": [
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 September 2026",
+      "publicationTime": "07/10/2026 16:31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700714.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700714.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12365018.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "INSIDE INFORMATION - DELAY IN PUBLICATION OF THE 2026 INTERIM RESULTS&#x3b; POSTPONEMENT OF BOARD MEETING&#x3b; AND SUSPENSION OF TRADING",
+      "publicationTime": "01/09/2026 21:48",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026083103079.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026083103079.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12314393.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "INSIDE INFORMATION - DELAY IN PUBLICATION OF THE 2026 INTERIM RESULTS&#x3b; POSTPONEMENT OF BOARD MEETING&#x3b; AND SUSPENSION OF TRADING",
+      "publicationTime": "31/08/2026 22:59",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083103079.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083103079.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12310000.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "ESTIMATED INTERIM RESULTS FOR THE SIX MONTHS ENDED 30 JUNE 2026",
+      "publicationTime": "12/08/2026 22:16",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081201333.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081201333.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12281999.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "ANNUAL REPORT 2025",
+      "publicationTime": "30/04/2026 16:45",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001292.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001292.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12138616.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "ANNOUNCEMENT OF ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "publicationTime": "31/03/2026 22:23",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033103887.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033103887.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12085583.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "POSITIVE PROFIT ALERT",
+      "publicationTime": "22/01/2026 22:12",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0122/2026012201313.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0122/2026012201313.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_11999126.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "UNAUDITED FINANCIAL INFORMATION OF SHANGHAI MICROPORT ENDOVASCULAR MEDTECH (GROUP) CO., LTD. FOR THE SIX MONTHS ENDED 30 JUNE 2026",
+      "publicationTime": "26/08/2026 21:48",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601803.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601803.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "CNY",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12301209.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - UPDATE ON THE RENEWAL STATUS OF THE LEASE OF THE PROPERTY",
+      "publicationTime": "20/08/2026 22:27",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001635.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001635.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12293324.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "UPDATE ON THE POTENTIAL DISPOSAL OF EQUITY INTEREST IN SHANGHAI MICROPORT ORTHOPEDICS CO., LTD.",
+      "publicationTime": "29/07/2026 20:36",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0729/2026072901471.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0729/2026072901471.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12260784.PDF"
+    },
+    {
+      "issuerId": "I016",
+      "code": "00853.HK",
+      "title": "VOLUNTARY ANNOUNCEMENT - ENTERING INTO A LETTER OF INTENT IN RELATION TO THE POTENTIAL DISPOSAL OF EQUITY INTEREST IN SHANGHAI MICROPORT ORTHOPEDICS CO., LTD.",
+      "publicationTime": "15/07/2026 20:58",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071501319.pdf",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071501319.pdf",
+      "sourceType": "HKEX primary disclosure",
+      "financialCurrency": "USD except lease RMB295.99m",
+      "financialUnit": "original thousand; historic million; future billion",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/00853_12245681.PDF"
+    }
+  ],
+  "effectiveHanzi": 13404,
+  "researchState": {
+    "stage": "conditioned model pending QA",
+    "bodyVersion": "microport-deep-v1.0",
+    "modelVersion": "microport-conditional-eliminated-group-economic-PE-v1.0",
+    "quoteVersion": "market-v1.6",
+    "effectiveHanzi": 13404
+  },
+  "qaStatus": "待独立QA；跨格式由父集成"
+}

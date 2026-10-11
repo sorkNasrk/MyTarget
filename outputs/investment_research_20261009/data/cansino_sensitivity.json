@@ -1,0 +1,83 @@
+{
+  "modelVersion": "cansino-v1-productNetCash-capexTransferDistinction-AHoptions",
+  "baseOneYearHKD": 21.758045210683754,
+  "rows": [
+    {
+      "label": "去除全部后续资助",
+      "oneYearIntrinsicHKD": 21.579260440607193,
+      "threeYearIntrinsicHKD": 27.333278183161745,
+      "minimumCashCNYbn": 1.43092969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "PCV及DT2027至2032收入减30%",
+      "oneYearIntrinsicHKD": 15.903974671085473,
+      "threeYearIntrinsicHKD": 20.144701673126747,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "未来资本开支增加50%",
+      "oneYearIntrinsicHKD": 20.15498839314911,
+      "threeYearIntrinsicHKD": 25.529230069982866,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "2027归还完整1至2年债",
+      "oneYearIntrinsicHKD": 21.761044751355396,
+      "threeYearIntrinsicHKD": 27.563534504905977,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "全部银行2027不续贷",
+      "oneYearIntrinsicHKD": 21.764220838198845,
+      "threeYearIntrinsicHKD": 27.56755748175751,
+      "minimumCashCNYbn": 1.2674979018294559,
+      "fundingFailure": false
+    },
+    {
+      "label": "已授期权全部不行权",
+      "oneYearIntrinsicHKD": 21.89237240391655,
+      "threeYearIntrinsicHKD": 27.72988011579822,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "全部新品商业时间延两年",
+      "oneYearIntrinsicHKD": 19.741550636296537,
+      "threeYearIntrinsicHKD": 25.00555089892987,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "折现率增加两百分点",
+      "oneYearIntrinsicHKD": 18.21441526028192,
+      "threeYearIntrinsicHKD": 23.90169545806856,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "mRNA净权益归零",
+      "oneYearIntrinsicHKD": 21.726863798458176,
+      "threeYearIntrinsicHKD": 27.520239346729596,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "2027起MCV销售减20%",
+      "oneYearIntrinsicHKD": 18.634461574422197,
+      "threeYearIntrinsicHKD": 23.603261261384926,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    },
+    {
+      "label": "每年研发增加一亿元",
+      "oneYearIntrinsicHKD": 20.25904626534978,
+      "threeYearIntrinsicHKD": 25.661034529910353,
+      "minimumCashCNYbn": 1.47192969204,
+      "fundingFailure": false
+    }
+  ]
+}

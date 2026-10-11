@@ -1,0 +1,344 @@
+[
+  {
+    "name": "base_discount_0.095",
+    "edits": [
+      {
+        "kind": "innocareGlobal",
+        "field": "discount",
+        "caseIndex": 1,
+        "value": 0.095
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 16.11877285041711,
+        "targetPriceHKD": 15.102140995291975,
+        "capitalReturnPct": 18.634257622089343,
+        "cashAtTargetCNYbn": 8.000595380785
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 16.458247819671794,
+        "targetPriceHKD": 15.899010646721024,
+        "capitalReturnPct": 24.8940349310371,
+        "cashAtTargetCNYbn": 7.828376263069053
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 17.099709570185574,
+        "targetPriceHKD": 17.099709570185574,
+        "capitalReturnPct": 34.326076749297506,
+        "cashAtTargetCNYbn": 7.508540758739436
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 19.80938738009186,
+        "targetPriceHKD": 19.80938738009186,
+        "capitalReturnPct": 55.6118411633296,
+        "cashAtTargetCNYbn": 8.38339931467613
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 22.5838504318138,
+        "targetPriceHKD": 22.5838504318138,
+        "capitalReturnPct": 77.40652342351768,
+        "cashAtTargetCNYbn": 12.943192594118239
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  },
+  {
+    "name": "base_discount_0.115",
+    "edits": [
+      {
+        "kind": "innocareGlobal",
+        "field": "discount",
+        "caseIndex": 1,
+        "value": 0.115
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 14.570723273541955,
+        "targetPriceHKD": 14.018506291479369,
+        "capitalReturnPct": 10.121809045399587,
+        "cashAtTargetCNYbn": 8.000595380785
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 14.926180501206167,
+        "targetPriceHKD": 14.596753426025241,
+        "capitalReturnPct": 14.664206017480286,
+        "cashAtTargetCNYbn": 7.828376263069053
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 15.602146110944682,
+        "targetPriceHKD": 15.602146110944682,
+        "capitalReturnPct": 22.5620275800839,
+        "cashAtTargetCNYbn": 7.508540758739436
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 18.529737312734987,
+        "targetPriceHKD": 18.529737312734987,
+        "capitalReturnPct": 45.55960182824028,
+        "cashAtTargetCNYbn": 8.38339931467613
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 21.629480827485008,
+        "targetPriceHKD": 21.629480827485008,
+        "capitalReturnPct": 69.9095116063237,
+        "cashAtTargetCNYbn": 12.943192594118239
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  },
+  {
+    "name": "base_discount_0.135",
+    "edits": [
+      {
+        "kind": "innocareGlobal",
+        "field": "discount",
+        "caseIndex": 1,
+        "value": 0.135
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 13.268780103955121,
+        "targetPriceHKD": 13.107146072768586,
+        "capitalReturnPct": 2.962655716956686,
+        "cashAtTargetCNYbn": 8.000595380785
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 13.632173555445332,
+        "targetPriceHKD": 13.496847522128533,
+        "capitalReturnPct": 6.023939686791291,
+        "cashAtTargetCNYbn": 7.828376263069053
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 14.327526102115513,
+        "targetPriceHKD": 14.327526102115513,
+        "capitalReturnPct": 12.549301666264823,
+        "cashAtTargetCNYbn": 7.508540758739436
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 17.409380326924573,
+        "targetPriceHKD": 17.409380326924573,
+        "capitalReturnPct": 36.75868285093931,
+        "cashAtTargetCNYbn": 8.38339931467613
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 20.773994905979688,
+        "targetPriceHKD": 20.773994905979688,
+        "capitalReturnPct": 63.18927655914914,
+        "cashAtTargetCNYbn": 12.943192594118239
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  },
+  {
+    "name": "base_allTYK2futureRevenueZero_keepAllRAndD",
+    "edits": [
+      {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 6,
+        "caseIndex": 1,
+        "value": 0
+      },
+      {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 7,
+        "caseIndex": 1,
+        "value": 0
+      },
+      {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 8,
+        "caseIndex": 1,
+        "value": 0
+      },
+      {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 9,
+        "caseIndex": 1,
+        "value": 0
+      },
+      {
+        "kind": "innocareAsset",
+        "field": "p",
+        "groupIndex": 10,
+        "caseIndex": 1,
+        "value": 0
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 9.82350822320177,
+        "targetPriceHKD": 10.69545575624124,
+        "capitalReturnPct": -15.982279998104953,
+        "cashAtTargetCNYbn": 8.000595380785
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 10.046425542806269,
+        "targetPriceHKD": 10.448961711385328,
+        "capitalReturnPct": -17.918603995401984,
+        "cashAtTargetCNYbn": 7.828376263069053
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 10.46913905185371,
+        "targetPriceHKD": 10.46913905185371,
+        "capitalReturnPct": -17.760101713639354,
+        "cashAtTargetCNYbn": 7.508540758739436
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 12.2681572651601,
+        "targetPriceHKD": 12.2681572651601,
+        "capitalReturnPct": -3.627986919402204,
+        "cashAtTargetCNYbn": 8.013552771058775
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 14.102341821795598,
+        "targetPriceHKD": 14.102341821795598,
+        "capitalReturnPct": 10.780375662180663,
+        "cashAtTargetCNYbn": 10.941094295891205
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  },
+  {
+    "name": "base_allZenasEquityZero_royaltyUnchanged",
+    "edits": [
+      {
+        "kind": "innocareGlobal",
+        "field": "zenasRecovery",
+        "caseIndex": 1,
+        "value": 0
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 13.932196862706741,
+        "targetPriceHKD": 13.571537803894719,
+        "capitalReturnPct": 6.610666173564161,
+        "cashAtTargetCNYbn": 8.000595380785
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 14.277432943749536,
+        "targetPriceHKD": 14.045318002187106,
+        "capitalReturnPct": 10.332427354179941,
+        "cashAtTargetCNYbn": 7.828376263069053
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 14.934522655331389,
+        "targetPriceHKD": 14.934522655331389,
+        "capitalReturnPct": 17.31753853363227,
+        "cashAtTargetCNYbn": 7.508540758739436
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 17.73899097609087,
+        "targetPriceHKD": 17.73899097609087,
+        "capitalReturnPct": 39.347925970863095,
+        "cashAtTargetCNYbn": 8.38339931467613
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 20.736731014771877,
+        "targetPriceHKD": 20.736731014771877,
+        "capitalReturnPct": 62.896551569299895,
+        "cashAtTargetCNYbn": 12.943192594118239
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  },
+  {
+    "name": "base_RD40percentHigher_allYears",
+    "edits": [
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 0,
+        "caseIndex": 1,
+        "value": 1.456
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 1,
+        "caseIndex": 1,
+        "value": 1.6099999999999999
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 2,
+        "caseIndex": 1,
+        "value": 1.708
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 3,
+        "caseIndex": 1,
+        "value": 1.7919999999999998
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 4,
+        "caseIndex": 1,
+        "value": 1.876
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 5,
+        "caseIndex": 1,
+        "value": 1.9599999999999997
+      },
+      {
+        "kind": "innocareAnnual",
+        "field": "RD",
+        "index": 6,
+        "caseIndex": 1,
+        "value": 2.044
+      }
+    ],
+    "firstNegativeCashYear": null,
+    "horizons": {
+      "yearEnd": {
+        "intrinsicPriceHKD": 12.448172876313867,
+        "targetPriceHKD": 12.532721013419707,
+        "capitalReturnPct": -1.549717098038439,
+        "cashAtTargetCNYbn": 7.79963180925
+      },
+      "halfYear": {
+        "intrinsicPriceHKD": 12.747209926993024,
+        "targetPriceHKD": 12.74462843794407,
+        "capitalReturnPct": 0.11491310246716235,
+        "cashAtTargetCNYbn": 7.519844559729336
+      },
+      "oneYear": {
+        "intrinsicPriceHKD": 13.324424240853862,
+        "targetPriceHKD": 13.324424240853862,
+        "capitalReturnPct": 4.669475576228299,
+        "cashAtTargetCNYbn": 7.000239667762389
+      },
+      "threeYear": {
+        "intrinsicPriceHKD": 15.840679778476884,
+        "targetPriceHKD": 15.840679778476884,
+        "capitalReturnPct": 24.43581915535651,
+        "cashAtTargetCNYbn": 7.030082639846627
+      },
+      "fiveYear": {
+        "intrinsicPriceHKD": 18.55360189636125,
+        "targetPriceHKD": 18.55360189636125,
+        "capitalReturnPct": 45.747069099459935,
+        "cashAtTargetCNYbn": 10.635242082534704
+      }
+    },
+    "scope": "isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged"
+  }
+]

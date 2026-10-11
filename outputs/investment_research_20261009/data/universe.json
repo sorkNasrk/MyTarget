@@ -1,0 +1,1983 @@
+{
+  "asOf": "2026-10-09",
+  "securities": [
+    {
+      "securityId": "S001",
+      "issuerId": "I001",
+      "originalCode": "688139",
+      "code": "688139.SH",
+      "name": "海尔生物",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "688139.SS",
+      "tencent": "sh688139",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S002",
+      "issuerId": "I002",
+      "originalCode": "688062",
+      "code": "688062.SH",
+      "name": "迈威生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "688062.SS",
+      "tencent": "sh688062",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S003",
+      "issuerId": "I003",
+      "originalCode": "688192",
+      "code": "688192.SH",
+      "name": "迪哲医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "688192.SS",
+      "tencent": "sh688192",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S004",
+      "issuerId": "I004",
+      "originalCode": "688382",
+      "code": "688382.SH",
+      "name": "益方生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "688382.SS",
+      "tencent": "sh688382",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S005",
+      "issuerId": "I005",
+      "originalCode": "688302",
+      "code": "688302.SH",
+      "name": "海创药业",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "688302.SS",
+      "tencent": "sh688302",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S006",
+      "issuerId": "I006",
+      "originalCode": "002821.SZ",
+      "code": "002821.SZ",
+      "name": "凯莱英",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "002821.SZ",
+      "tencent": "sz002821",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S007",
+      "issuerId": "I007",
+      "originalCode": "2172.HK",
+      "code": "02172.HK",
+      "name": "微创脑科学",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "2172.HK",
+      "tencent": "hk02172",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S008",
+      "issuerId": "I008",
+      "originalCode": "3696.HK",
+      "code": "03696.HK",
+      "name": "英矽智能",
+      "sector": "创新药AI",
+      "type": "股票",
+      "yahoo": "3696.HK",
+      "tencent": "hk03696",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S009",
+      "issuerId": null,
+      "originalCode": "159502.SZ",
+      "code": "159502.SZ",
+      "name": "嘉实标普生物科技精选行业ETF(QDII)",
+      "sector": "ETF",
+      "type": "ETF",
+      "yahoo": "159502.SZ",
+      "tencent": "sz159502",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S010",
+      "issuerId": "I009",
+      "originalCode": "2252.HK",
+      "code": "02252.HK",
+      "name": "微创机器人-B",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "2252.HK",
+      "tencent": "hk02252",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S011",
+      "issuerId": "I010",
+      "originalCode": "603259",
+      "code": "603259.SH",
+      "name": "药明康德",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "603259.SS",
+      "tencent": "sh603259",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S012",
+      "issuerId": "I011",
+      "originalCode": "600276",
+      "code": "600276.SH",
+      "name": "恒瑞医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "600276.SS",
+      "tencent": "sh600276",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S013",
+      "issuerId": "I012",
+      "originalCode": "688235",
+      "code": "688235.SH",
+      "name": "百济神州",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "688235.SS",
+      "tencent": "sh688235",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S014",
+      "issuerId": null,
+      "originalCode": "513290",
+      "code": "513290.SH",
+      "name": "汇添富纳斯达克生物科技ETF",
+      "sector": "ETF",
+      "type": "ETF",
+      "yahoo": "513290.SS",
+      "tencent": "sh513290",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S015",
+      "issuerId": "I013",
+      "originalCode": "300363.SZ",
+      "code": "300363.SZ",
+      "name": "博腾股份",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "300363.SZ",
+      "tencent": "sz300363",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S016",
+      "issuerId": "I014",
+      "originalCode": "300760.SZ",
+      "code": "300760.SZ",
+      "name": "迈瑞医疗",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "300760.SZ",
+      "tencent": "sz300760",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S017",
+      "issuerId": "I015",
+      "originalCode": "688131",
+      "code": "688131.SH",
+      "name": "皓元医药",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "688131.SS",
+      "tencent": "sh688131",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S018",
+      "issuerId": "I016",
+      "originalCode": "0853.HK",
+      "code": "00853.HK",
+      "name": "微创医疗",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "0853.HK",
+      "tencent": "hk00853",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S019",
+      "issuerId": "I017",
+      "originalCode": "688356",
+      "code": "688356.SH",
+      "name": "键凯科技",
+      "sector": "生物材料",
+      "type": "股票",
+      "yahoo": "688356.SS",
+      "tencent": "sh688356",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S020",
+      "issuerId": "I018",
+      "originalCode": "688202",
+      "code": "688202.SH",
+      "name": "美迪西",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "688202.SS",
+      "tencent": "sh688202",
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S021",
+      "issuerId": null,
+      "originalCode": "987018.SZ",
+      "code": "987018.SZ",
+      "name": "港股通创新药",
+      "sector": "指数",
+      "type": "指数",
+      "yahoo": null,
+      "tencent": null,
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S022",
+      "issuerId": "I011",
+      "originalCode": "1276.HK",
+      "code": "01276.HK",
+      "name": "恒瑞医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1276.HK",
+      "tencent": "hk01276",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S023",
+      "issuerId": "I019",
+      "originalCode": "6699.HK",
+      "code": "06699.HK",
+      "name": "时代天使",
+      "sector": "医药设备",
+      "type": "股票",
+      "yahoo": "6699.HK",
+      "tencent": "hk06699",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S024",
+      "issuerId": "I020",
+      "originalCode": "9606.HK",
+      "code": "09606.HK",
+      "name": "映恩生物-B",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9606.HK",
+      "tencent": "hk09606",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S025",
+      "issuerId": null,
+      "originalCode": "931787.CSI",
+      "code": "931787.CSI",
+      "name": "港股创新药",
+      "sector": "指数",
+      "type": "指数",
+      "yahoo": null,
+      "tencent": null,
+      "currency": "CNY"
+    },
+    {
+      "securityId": "S026",
+      "issuerId": "I021",
+      "originalCode": "6855.HK",
+      "code": "06855.HK",
+      "name": "亚盛医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "6855.HK",
+      "tencent": "hk06855",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S027",
+      "issuerId": "I022",
+      "originalCode": "3759.HK",
+      "code": "03759.HK",
+      "name": "康龙化成",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "3759.HK",
+      "tencent": "hk03759",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S028",
+      "issuerId": "I023",
+      "originalCode": "1530.HK",
+      "code": "01530.HK",
+      "name": "三生制药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1530.HK",
+      "tencent": "hk01530",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S029",
+      "issuerId": "I024",
+      "originalCode": "0013.HK",
+      "code": "00013.HK",
+      "name": "和黄医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "0013.HK",
+      "tencent": "hk00013",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S030",
+      "issuerId": "I025",
+      "originalCode": "1093.HK",
+      "code": "01093.HK",
+      "name": "石药集团",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "1093.HK",
+      "tencent": "hk01093",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S031",
+      "issuerId": "I026",
+      "originalCode": "2157.HK",
+      "code": "02157.HK",
+      "name": "乐普生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "2157.HK",
+      "tencent": "hk02157",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S032",
+      "issuerId": "I027",
+      "originalCode": "2228.HK",
+      "code": "02228.HK",
+      "name": "晶泰控股",
+      "sector": "创新药AI",
+      "type": "股票",
+      "yahoo": "2228.HK",
+      "tencent": "hk02228",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S033",
+      "issuerId": "I028",
+      "originalCode": "2607.HK",
+      "code": "02607.HK",
+      "name": "上海医药",
+      "sector": "医药流通",
+      "type": "股票",
+      "yahoo": "2607.HK",
+      "tencent": "hk02607",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S034",
+      "issuerId": "I029",
+      "originalCode": "3692.HK",
+      "code": "03692.HK",
+      "name": "翰森制药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "3692.HK",
+      "tencent": "hk03692",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S035",
+      "issuerId": "I030",
+      "originalCode": "2186.HK",
+      "code": "02186.HK",
+      "name": "绿叶制药",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "2186.HK",
+      "tencent": "hk02186",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S036",
+      "issuerId": "I031",
+      "originalCode": "1177.HK",
+      "code": "01177.HK",
+      "name": "中国生物制药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1177.HK",
+      "tencent": "hk01177",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S037",
+      "issuerId": "I010",
+      "originalCode": "2359.HK",
+      "code": "02359.HK",
+      "name": "药明康德",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "2359.HK",
+      "tencent": "hk02359",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S038",
+      "issuerId": "I032",
+      "originalCode": "0512.HK",
+      "code": "00512.HK",
+      "name": "远大医药",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "0512.HK",
+      "tencent": "hk00512",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S039",
+      "issuerId": "I033",
+      "originalCode": "2096.HK",
+      "code": "02096.HK",
+      "name": "先声药业",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "2096.HK",
+      "tencent": "hk02096",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S040",
+      "issuerId": "I034",
+      "originalCode": "2269.HK",
+      "code": "02269.HK",
+      "name": "药明生物",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "2269.HK",
+      "tencent": "hk02269",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S041",
+      "issuerId": "I035",
+      "originalCode": "1548.HK",
+      "code": "01548.HK",
+      "name": "金斯瑞生物科技",
+      "sector": "生物科技",
+      "type": "股票",
+      "yahoo": "1548.HK",
+      "tencent": "hk01548",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S042",
+      "issuerId": "I036",
+      "originalCode": "1513.HK",
+      "code": "01513.HK",
+      "name": "丽珠医药",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "1513.HK",
+      "tencent": "hk01513",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S043",
+      "issuerId": "I012",
+      "originalCode": "6160.HK",
+      "code": "06160.HK",
+      "name": "百济神州",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "6160.HK",
+      "tencent": "hk06160",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S044",
+      "issuerId": "I037",
+      "originalCode": "2511.HK",
+      "code": "02511.HK",
+      "name": "君圣泰医药-B",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "2511.HK",
+      "tencent": "hk02511",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S045",
+      "issuerId": "I038",
+      "originalCode": "9939.HK",
+      "code": "09939.HK",
+      "name": "开拓药业-B",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9939.HK",
+      "tencent": "hk09939",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S046",
+      "issuerId": "I039",
+      "originalCode": "9688.HK",
+      "code": "09688.HK",
+      "name": "再鼎医药",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9688.HK",
+      "tencent": "hk09688",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S047",
+      "issuerId": "I040",
+      "originalCode": "1952.HK",
+      "code": "01952.HK",
+      "name": "云顶新耀",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1952.HK",
+      "tencent": "hk01952",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S048",
+      "issuerId": "I041",
+      "originalCode": "9969.HK",
+      "code": "09969.HK",
+      "name": "诺诚健华",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9969.HK",
+      "tencent": "hk09969",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S049",
+      "issuerId": "I042",
+      "originalCode": "6185.HK",
+      "code": "06185.HK",
+      "name": "康希诺生物",
+      "sector": "疫苗",
+      "type": "股票",
+      "yahoo": "6185.HK",
+      "tencent": "hk06185",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S050",
+      "issuerId": "I043",
+      "originalCode": "2196.HK",
+      "code": "02196.HK",
+      "name": "复星医药",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "2196.HK",
+      "tencent": "hk02196",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S051",
+      "issuerId": "I044",
+      "originalCode": "3347.HK",
+      "code": "03347.HK",
+      "name": "泰格医药",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "3347.HK",
+      "tencent": "hk03347",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S052",
+      "issuerId": "I045",
+      "originalCode": "6127.HK",
+      "code": "06127.HK",
+      "name": "昭衍新药",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "6127.HK",
+      "tencent": "hk06127",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S053",
+      "issuerId": "I046",
+      "originalCode": "1877.HK",
+      "code": "01877.HK",
+      "name": "君实生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1877.HK",
+      "tencent": "hk01877",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S054",
+      "issuerId": "I047",
+      "originalCode": "2162.HK",
+      "code": "02162.HK",
+      "name": "康诺亚-B",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "2162.HK",
+      "tencent": "hk02162",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S055",
+      "issuerId": "I048",
+      "originalCode": "1801.HK",
+      "code": "01801.HK",
+      "name": "信达生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "1801.HK",
+      "tencent": "hk01801",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S056",
+      "issuerId": "I049",
+      "originalCode": "2268.HK",
+      "code": "02268.HK",
+      "name": "药明合联",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "2268.HK",
+      "tencent": "hk02268",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S057",
+      "issuerId": "I006",
+      "originalCode": "6821.HK",
+      "code": "06821.HK",
+      "name": "凯莱英",
+      "sector": "CXO",
+      "type": "股票",
+      "yahoo": "6821.HK",
+      "tencent": "hk06821",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S058",
+      "issuerId": "I050",
+      "originalCode": "0867.HK",
+      "code": "00867.HK",
+      "name": "康哲药业",
+      "sector": "综合药企",
+      "type": "股票",
+      "yahoo": "0867.HK",
+      "tencent": "hk00867",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S059",
+      "issuerId": "I051",
+      "originalCode": "9995.HK",
+      "code": "09995.HK",
+      "name": "荣昌生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9995.HK",
+      "tencent": "hk09995",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S060",
+      "issuerId": "I052",
+      "originalCode": "9926.HK",
+      "code": "09926.HK",
+      "name": "康方生物",
+      "sector": "创新药",
+      "type": "股票",
+      "yahoo": "9926.HK",
+      "tencent": "hk09926",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S061",
+      "issuerId": "I053",
+      "originalCode": "1763.HK",
+      "code": "01763.HK",
+      "name": "中国同辐",
+      "sector": "核医药",
+      "type": "股票",
+      "yahoo": "1763.HK",
+      "tencent": "hk01763",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S062",
+      "issuerId": null,
+      "originalCode": "03442.HK",
+      "code": "03442.HK",
+      "name": "南方港美科技",
+      "sector": "ETF",
+      "type": "ETF",
+      "yahoo": "3442.HK",
+      "tencent": "hk03442",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S063",
+      "issuerId": null,
+      "originalCode": "07709.HK",
+      "code": "07709.HK",
+      "name": "XL二南方海力士",
+      "sector": "每日杠杆",
+      "type": "每日杠杆",
+      "yahoo": "7709.HK",
+      "tencent": "hk07709",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S064",
+      "issuerId": "I054",
+      "originalCode": "0100.HK",
+      "code": "00100.HK",
+      "name": "MINIMAX-W",
+      "sector": "AI模型",
+      "type": "股票",
+      "yahoo": "0100.HK",
+      "tencent": "hk00100",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S065",
+      "issuerId": "I055",
+      "originalCode": "2513.HK",
+      "code": "02513.HK",
+      "name": "智谱",
+      "sector": "AI模型",
+      "type": "股票",
+      "yahoo": "2513.HK",
+      "tencent": "hk02513",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S066",
+      "issuerId": "I056",
+      "originalCode": "9992.HK",
+      "code": "09992.HK",
+      "name": "泡泡玛特",
+      "sector": "消费",
+      "type": "股票",
+      "yahoo": "9992.HK",
+      "tencent": "hk09992",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S067",
+      "issuerId": "I057",
+      "originalCode": "1811.HK",
+      "code": "01811.HK",
+      "name": "中广核新能源",
+      "sector": "新能源运营",
+      "type": "股票",
+      "yahoo": "1811.HK",
+      "tencent": "hk01811",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S068",
+      "issuerId": "I058",
+      "originalCode": "1797.HK",
+      "code": "01797.HK",
+      "name": "东方甄选",
+      "sector": "消费",
+      "type": "股票",
+      "yahoo": "1797.HK",
+      "tencent": "hk01797",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S069",
+      "issuerId": "I059",
+      "originalCode": "9880.HK",
+      "code": "09880.HK",
+      "name": "优必选",
+      "sector": "机器人",
+      "type": "股票",
+      "yahoo": "9880.HK",
+      "tencent": "hk09880",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S070",
+      "issuerId": "I060",
+      "originalCode": "2400.HK",
+      "code": "02400.HK",
+      "name": "心动公司",
+      "sector": "游戏",
+      "type": "股票",
+      "yahoo": "2400.HK",
+      "tencent": "hk02400",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S071",
+      "issuerId": "I061",
+      "originalCode": "1211.HK",
+      "code": "01211.HK",
+      "name": "比亚迪股份",
+      "sector": "汽车",
+      "type": "股票",
+      "yahoo": "1211.HK",
+      "tencent": "hk01211",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S072",
+      "issuerId": "I062",
+      "originalCode": "9660.HK",
+      "code": "09660.HK",
+      "name": "地平线机器人-W",
+      "sector": "智能驾驶",
+      "type": "股票",
+      "yahoo": "9660.HK",
+      "tencent": "hk09660",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S073",
+      "issuerId": "I063",
+      "originalCode": "3750.HK",
+      "code": "03750.HK",
+      "name": "宁德时代",
+      "sector": "电池",
+      "type": "股票",
+      "yahoo": "3750.HK",
+      "tencent": "hk03750",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S074",
+      "issuerId": "I064",
+      "originalCode": "9999.HK",
+      "code": "09999.HK",
+      "name": "网易",
+      "sector": "游戏",
+      "type": "股票",
+      "yahoo": "9999.HK",
+      "tencent": "hk09999",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S075",
+      "issuerId": "I065",
+      "originalCode": "0992.HK",
+      "code": "00992.HK",
+      "name": "联想集团",
+      "sector": "硬件",
+      "type": "股票",
+      "yahoo": "0992.HK",
+      "tencent": "hk00992",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S076",
+      "issuerId": "I066",
+      "originalCode": "9888.HK",
+      "code": "09888.HK",
+      "name": "百度集团-W",
+      "sector": "互联网AI",
+      "type": "股票",
+      "yahoo": "9888.HK",
+      "tencent": "hk09888",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S077",
+      "issuerId": "I067",
+      "originalCode": "0241.HK",
+      "code": "00241.HK",
+      "name": "阿里健康",
+      "sector": "互联网医疗",
+      "type": "股票",
+      "yahoo": "0241.HK",
+      "tencent": "hk00241",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S078",
+      "issuerId": "I068",
+      "originalCode": "6690.HK",
+      "code": "06690.HK",
+      "name": "海尔智家",
+      "sector": "家电",
+      "type": "股票",
+      "yahoo": "6690.HK",
+      "tencent": "hk06690",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S079",
+      "issuerId": "I069",
+      "originalCode": "0522.HK",
+      "code": "00522.HK",
+      "name": "ASMPT",
+      "sector": "半导体设备",
+      "type": "股票",
+      "yahoo": "0522.HK",
+      "tencent": "hk00522",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S080",
+      "issuerId": "I070",
+      "originalCode": "9618.HK",
+      "code": "09618.HK",
+      "name": "京东集团-SW",
+      "sector": "互联网消费",
+      "type": "股票",
+      "yahoo": "9618.HK",
+      "tencent": "hk09618",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S081",
+      "issuerId": "I071",
+      "originalCode": "1347.HK",
+      "code": "01347.HK",
+      "name": "华虹宏力",
+      "sector": "半导体",
+      "type": "股票",
+      "yahoo": "1347.HK",
+      "tencent": "hk01347",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S082",
+      "issuerId": null,
+      "originalCode": "HSTECH.HK",
+      "code": "HSTECH.HK",
+      "name": "恒生科技",
+      "sector": "指数",
+      "type": "指数",
+      "yahoo": "^HSTECH",
+      "tencent": null,
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S083",
+      "issuerId": "I072",
+      "originalCode": "0700.HK",
+      "code": "00700.HK",
+      "name": "腾讯控股",
+      "sector": "互联网游戏",
+      "type": "股票",
+      "yahoo": "0700.HK",
+      "tencent": "hk00700",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S084",
+      "issuerId": "I073",
+      "originalCode": "9626.HK",
+      "code": "09626.HK",
+      "name": "哔哩哔哩-W",
+      "sector": "互联网内容",
+      "type": "股票",
+      "yahoo": "9626.HK",
+      "tencent": "hk09626",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S085",
+      "issuerId": "I074",
+      "originalCode": "6618.HK",
+      "code": "06618.HK",
+      "name": "京东健康",
+      "sector": "互联网医疗",
+      "type": "股票",
+      "yahoo": "6618.HK",
+      "tencent": "hk06618",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S086",
+      "issuerId": "I075",
+      "originalCode": "9988.HK",
+      "code": "09988.HK",
+      "name": "阿里巴巴-W",
+      "sector": "互联网AI",
+      "type": "股票",
+      "yahoo": "9988.HK",
+      "tencent": "hk09988",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S087",
+      "issuerId": "I076",
+      "originalCode": "2382.HK",
+      "code": "02382.HK",
+      "name": "舜宇光学科技",
+      "sector": "光学",
+      "type": "股票",
+      "yahoo": "2382.HK",
+      "tencent": "hk02382",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S088",
+      "issuerId": "I077",
+      "originalCode": "9961.HK",
+      "code": "09961.HK",
+      "name": "携程集团-S",
+      "sector": "旅游",
+      "type": "股票",
+      "yahoo": "9961.HK",
+      "tencent": "hk09961",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S089",
+      "issuerId": "I078",
+      "originalCode": "3690.HK",
+      "code": "03690.HK",
+      "name": "美团-W",
+      "sector": "互联网消费",
+      "type": "股票",
+      "yahoo": "3690.HK",
+      "tencent": "hk03690",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S090",
+      "issuerId": "I079",
+      "originalCode": "0772.HK",
+      "code": "00772.HK",
+      "name": "阅文集团",
+      "sector": "互联网内容",
+      "type": "股票",
+      "yahoo": "0772.HK",
+      "tencent": "hk00772",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S091",
+      "issuerId": "I080",
+      "originalCode": "1024.HK",
+      "code": "01024.HK",
+      "name": "快手-W",
+      "sector": "互联网内容",
+      "type": "股票",
+      "yahoo": "1024.HK",
+      "tencent": "hk01024",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S092",
+      "issuerId": "I081",
+      "originalCode": "0285.HK",
+      "code": "00285.HK",
+      "name": "比亚迪电子",
+      "sector": "硬件",
+      "type": "股票",
+      "yahoo": "0285.HK",
+      "tencent": "hk00285",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S093",
+      "issuerId": "I082",
+      "originalCode": "0300.HK",
+      "code": "00300.HK",
+      "name": "美的集团",
+      "sector": "家电",
+      "type": "股票",
+      "yahoo": "0300.HK",
+      "tencent": "hk00300",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S094",
+      "issuerId": "I083",
+      "originalCode": "6060.HK",
+      "code": "06060.HK",
+      "name": "众安在线",
+      "sector": "保险科技",
+      "type": "股票",
+      "yahoo": "6060.HK",
+      "tencent": "hk06060",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S095",
+      "issuerId": "I084",
+      "originalCode": "2015.HK",
+      "code": "02015.HK",
+      "name": "理想汽车-W",
+      "sector": "汽车",
+      "type": "股票",
+      "yahoo": "2015.HK",
+      "tencent": "hk02015",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S096",
+      "issuerId": "I085",
+      "originalCode": "9868.HK",
+      "code": "09868.HK",
+      "name": "小鹏集团-W",
+      "sector": "汽车",
+      "type": "股票",
+      "yahoo": "9868.HK",
+      "tencent": "hk09868",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S097",
+      "issuerId": "I086",
+      "originalCode": "0780.HK",
+      "code": "00780.HK",
+      "name": "同程旅行",
+      "sector": "旅游",
+      "type": "股票",
+      "yahoo": "0780.HK",
+      "tencent": "hk00780",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S098",
+      "issuerId": "I087",
+      "originalCode": "1810.HK",
+      "code": "01810.HK",
+      "name": "小米集团-W",
+      "sector": "硬件汽车",
+      "type": "股票",
+      "yahoo": "1810.HK",
+      "tencent": "hk01810",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S099",
+      "issuerId": "I088",
+      "originalCode": "9866.HK",
+      "code": "09866.HK",
+      "name": "蔚来-SW",
+      "sector": "汽车",
+      "type": "股票",
+      "yahoo": "9866.HK",
+      "tencent": "hk09866",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S100",
+      "issuerId": "I089",
+      "originalCode": "0020.HK",
+      "code": "00020.HK",
+      "name": "商汤-W",
+      "sector": "AI软件",
+      "type": "股票",
+      "yahoo": "0020.HK",
+      "tencent": "hk00020",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S101",
+      "issuerId": "I090",
+      "originalCode": "0268.HK",
+      "code": "00268.HK",
+      "name": "金蝶国际",
+      "sector": "企业软件",
+      "type": "股票",
+      "yahoo": "0268.HK",
+      "tencent": "hk00268",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S102",
+      "issuerId": "I091",
+      "originalCode": "3888.HK",
+      "code": "03888.HK",
+      "name": "金山软件",
+      "sector": "企业软件游戏",
+      "type": "股票",
+      "yahoo": "3888.HK",
+      "tencent": "hk03888",
+      "currency": "HKD"
+    },
+    {
+      "securityId": "S103",
+      "issuerId": "I092",
+      "originalCode": "0981.HK",
+      "code": "00981.HK",
+      "name": "中芯国际",
+      "sector": "半导体",
+      "type": "股票",
+      "yahoo": "0981.HK",
+      "tencent": "hk00981",
+      "currency": "HKD"
+    }
+  ],
+  "issuers": [
+    {
+      "issuerId": "I001",
+      "name": "海尔生物",
+      "sector": "医药设备",
+      "securities": [
+        "S001"
+      ]
+    },
+    {
+      "issuerId": "I002",
+      "name": "迈威生物",
+      "sector": "创新药",
+      "securities": [
+        "S002"
+      ]
+    },
+    {
+      "issuerId": "I003",
+      "name": "迪哲医药",
+      "sector": "创新药",
+      "securities": [
+        "S003"
+      ]
+    },
+    {
+      "issuerId": "I004",
+      "name": "益方生物",
+      "sector": "创新药",
+      "securities": [
+        "S004"
+      ]
+    },
+    {
+      "issuerId": "I005",
+      "name": "海创药业",
+      "sector": "创新药",
+      "securities": [
+        "S005"
+      ]
+    },
+    {
+      "issuerId": "I006",
+      "name": "凯莱英",
+      "sector": "CXO",
+      "securities": [
+        "S006",
+        "S057"
+      ]
+    },
+    {
+      "issuerId": "I007",
+      "name": "微创脑科学",
+      "sector": "医药设备",
+      "securities": [
+        "S007"
+      ]
+    },
+    {
+      "issuerId": "I008",
+      "name": "英矽智能",
+      "sector": "创新药AI",
+      "securities": [
+        "S008"
+      ]
+    },
+    {
+      "issuerId": "I009",
+      "name": "微创机器人-B",
+      "sector": "医药设备",
+      "securities": [
+        "S010"
+      ]
+    },
+    {
+      "issuerId": "I010",
+      "name": "药明康德",
+      "sector": "CXO",
+      "securities": [
+        "S011",
+        "S037"
+      ]
+    },
+    {
+      "issuerId": "I011",
+      "name": "恒瑞医药",
+      "sector": "创新药",
+      "securities": [
+        "S012",
+        "S022"
+      ]
+    },
+    {
+      "issuerId": "I012",
+      "name": "百济神州",
+      "sector": "创新药",
+      "securities": [
+        "S013",
+        "S043"
+      ]
+    },
+    {
+      "issuerId": "I013",
+      "name": "博腾股份",
+      "sector": "CXO",
+      "securities": [
+        "S015"
+      ]
+    },
+    {
+      "issuerId": "I014",
+      "name": "迈瑞医疗",
+      "sector": "医药设备",
+      "securities": [
+        "S016"
+      ]
+    },
+    {
+      "issuerId": "I015",
+      "name": "皓元医药",
+      "sector": "CXO",
+      "securities": [
+        "S017"
+      ]
+    },
+    {
+      "issuerId": "I016",
+      "name": "微创医疗",
+      "sector": "医药设备",
+      "securities": [
+        "S018"
+      ]
+    },
+    {
+      "issuerId": "I017",
+      "name": "键凯科技",
+      "sector": "生物材料",
+      "securities": [
+        "S019"
+      ]
+    },
+    {
+      "issuerId": "I018",
+      "name": "美迪西",
+      "sector": "CXO",
+      "securities": [
+        "S020"
+      ]
+    },
+    {
+      "issuerId": "I019",
+      "name": "时代天使",
+      "sector": "医药设备",
+      "securities": [
+        "S023"
+      ]
+    },
+    {
+      "issuerId": "I020",
+      "name": "映恩生物-B",
+      "sector": "创新药",
+      "securities": [
+        "S024"
+      ]
+    },
+    {
+      "issuerId": "I021",
+      "name": "亚盛医药",
+      "sector": "创新药",
+      "securities": [
+        "S026"
+      ]
+    },
+    {
+      "issuerId": "I022",
+      "name": "康龙化成",
+      "sector": "CXO",
+      "securities": [
+        "S027"
+      ]
+    },
+    {
+      "issuerId": "I023",
+      "name": "三生制药",
+      "sector": "创新药",
+      "securities": [
+        "S028"
+      ]
+    },
+    {
+      "issuerId": "I024",
+      "name": "和黄医药",
+      "sector": "创新药",
+      "securities": [
+        "S029"
+      ]
+    },
+    {
+      "issuerId": "I025",
+      "name": "石药集团",
+      "sector": "综合药企",
+      "securities": [
+        "S030"
+      ]
+    },
+    {
+      "issuerId": "I026",
+      "name": "乐普生物",
+      "sector": "创新药",
+      "securities": [
+        "S031"
+      ]
+    },
+    {
+      "issuerId": "I027",
+      "name": "晶泰控股",
+      "sector": "创新药AI",
+      "securities": [
+        "S032"
+      ]
+    },
+    {
+      "issuerId": "I028",
+      "name": "上海医药",
+      "sector": "医药流通",
+      "securities": [
+        "S033"
+      ]
+    },
+    {
+      "issuerId": "I029",
+      "name": "翰森制药",
+      "sector": "创新药",
+      "securities": [
+        "S034"
+      ]
+    },
+    {
+      "issuerId": "I030",
+      "name": "绿叶制药",
+      "sector": "综合药企",
+      "securities": [
+        "S035"
+      ]
+    },
+    {
+      "issuerId": "I031",
+      "name": "中国生物制药",
+      "sector": "创新药",
+      "securities": [
+        "S036"
+      ]
+    },
+    {
+      "issuerId": "I032",
+      "name": "远大医药",
+      "sector": "综合药企",
+      "securities": [
+        "S038"
+      ]
+    },
+    {
+      "issuerId": "I033",
+      "name": "先声药业",
+      "sector": "创新药",
+      "securities": [
+        "S039"
+      ]
+    },
+    {
+      "issuerId": "I034",
+      "name": "药明生物",
+      "sector": "CXO",
+      "securities": [
+        "S040"
+      ]
+    },
+    {
+      "issuerId": "I035",
+      "name": "金斯瑞生物科技",
+      "sector": "生物科技",
+      "securities": [
+        "S041"
+      ]
+    },
+    {
+      "issuerId": "I036",
+      "name": "丽珠医药",
+      "sector": "综合药企",
+      "securities": [
+        "S042"
+      ]
+    },
+    {
+      "issuerId": "I037",
+      "name": "君圣泰医药-B",
+      "sector": "创新药",
+      "securities": [
+        "S044"
+      ]
+    },
+    {
+      "issuerId": "I038",
+      "name": "开拓药业-B",
+      "sector": "创新药",
+      "securities": [
+        "S045"
+      ]
+    },
+    {
+      "issuerId": "I039",
+      "name": "再鼎医药",
+      "sector": "创新药",
+      "securities": [
+        "S046"
+      ]
+    },
+    {
+      "issuerId": "I040",
+      "name": "云顶新耀",
+      "sector": "创新药",
+      "securities": [
+        "S047"
+      ]
+    },
+    {
+      "issuerId": "I041",
+      "name": "诺诚健华",
+      "sector": "创新药",
+      "securities": [
+        "S048"
+      ]
+    },
+    {
+      "issuerId": "I042",
+      "name": "康希诺生物",
+      "sector": "疫苗",
+      "securities": [
+        "S049"
+      ]
+    },
+    {
+      "issuerId": "I043",
+      "name": "复星医药",
+      "sector": "综合药企",
+      "securities": [
+        "S050"
+      ]
+    },
+    {
+      "issuerId": "I044",
+      "name": "泰格医药",
+      "sector": "CXO",
+      "securities": [
+        "S051"
+      ]
+    },
+    {
+      "issuerId": "I045",
+      "name": "昭衍新药",
+      "sector": "CXO",
+      "securities": [
+        "S052"
+      ]
+    },
+    {
+      "issuerId": "I046",
+      "name": "君实生物",
+      "sector": "创新药",
+      "securities": [
+        "S053"
+      ]
+    },
+    {
+      "issuerId": "I047",
+      "name": "康诺亚-B",
+      "sector": "创新药",
+      "securities": [
+        "S054"
+      ]
+    },
+    {
+      "issuerId": "I048",
+      "name": "信达生物",
+      "sector": "创新药",
+      "securities": [
+        "S055"
+      ]
+    },
+    {
+      "issuerId": "I049",
+      "name": "药明合联",
+      "sector": "CXO",
+      "securities": [
+        "S056"
+      ]
+    },
+    {
+      "issuerId": "I050",
+      "name": "康哲药业",
+      "sector": "综合药企",
+      "securities": [
+        "S058"
+      ]
+    },
+    {
+      "issuerId": "I051",
+      "name": "荣昌生物",
+      "sector": "创新药",
+      "securities": [
+        "S059"
+      ]
+    },
+    {
+      "issuerId": "I052",
+      "name": "康方生物",
+      "sector": "创新药",
+      "securities": [
+        "S060"
+      ]
+    },
+    {
+      "issuerId": "I053",
+      "name": "中国同辐",
+      "sector": "核医药",
+      "securities": [
+        "S061"
+      ]
+    },
+    {
+      "issuerId": "I054",
+      "name": "MINIMAX-W",
+      "sector": "AI模型",
+      "securities": [
+        "S064"
+      ]
+    },
+    {
+      "issuerId": "I055",
+      "name": "智谱",
+      "sector": "AI模型",
+      "securities": [
+        "S065"
+      ]
+    },
+    {
+      "issuerId": "I056",
+      "name": "泡泡玛特",
+      "sector": "消费",
+      "securities": [
+        "S066"
+      ]
+    },
+    {
+      "issuerId": "I057",
+      "name": "中广核新能源",
+      "sector": "新能源运营",
+      "securities": [
+        "S067"
+      ]
+    },
+    {
+      "issuerId": "I058",
+      "name": "东方甄选",
+      "sector": "消费",
+      "securities": [
+        "S068"
+      ]
+    },
+    {
+      "issuerId": "I059",
+      "name": "优必选",
+      "sector": "机器人",
+      "securities": [
+        "S069"
+      ]
+    },
+    {
+      "issuerId": "I060",
+      "name": "心动公司",
+      "sector": "游戏",
+      "securities": [
+        "S070"
+      ]
+    },
+    {
+      "issuerId": "I061",
+      "name": "比亚迪股份",
+      "sector": "汽车",
+      "securities": [
+        "S071"
+      ]
+    },
+    {
+      "issuerId": "I062",
+      "name": "地平线机器人-W",
+      "sector": "智能驾驶",
+      "securities": [
+        "S072"
+      ]
+    },
+    {
+      "issuerId": "I063",
+      "name": "宁德时代",
+      "sector": "电池",
+      "securities": [
+        "S073"
+      ]
+    },
+    {
+      "issuerId": "I064",
+      "name": "网易",
+      "sector": "游戏",
+      "securities": [
+        "S074"
+      ]
+    },
+    {
+      "issuerId": "I065",
+      "name": "联想集团",
+      "sector": "硬件",
+      "securities": [
+        "S075"
+      ]
+    },
+    {
+      "issuerId": "I066",
+      "name": "百度集团-W",
+      "sector": "互联网AI",
+      "securities": [
+        "S076"
+      ]
+    },
+    {
+      "issuerId": "I067",
+      "name": "阿里健康",
+      "sector": "互联网医疗",
+      "securities": [
+        "S077"
+      ]
+    },
+    {
+      "issuerId": "I068",
+      "name": "海尔智家",
+      "sector": "家电",
+      "securities": [
+        "S078"
+      ]
+    },
+    {
+      "issuerId": "I069",
+      "name": "ASMPT",
+      "sector": "半导体设备",
+      "securities": [
+        "S079"
+      ]
+    },
+    {
+      "issuerId": "I070",
+      "name": "京东集团-SW",
+      "sector": "互联网消费",
+      "securities": [
+        "S080"
+      ]
+    },
+    {
+      "issuerId": "I071",
+      "name": "华虹宏力",
+      "sector": "半导体",
+      "securities": [
+        "S081"
+      ]
+    },
+    {
+      "issuerId": "I072",
+      "name": "腾讯控股",
+      "sector": "互联网游戏",
+      "securities": [
+        "S083"
+      ]
+    },
+    {
+      "issuerId": "I073",
+      "name": "哔哩哔哩-W",
+      "sector": "互联网内容",
+      "securities": [
+        "S084"
+      ]
+    },
+    {
+      "issuerId": "I074",
+      "name": "京东健康",
+      "sector": "互联网医疗",
+      "securities": [
+        "S085"
+      ]
+    },
+    {
+      "issuerId": "I075",
+      "name": "阿里巴巴-W",
+      "sector": "互联网AI",
+      "securities": [
+        "S086"
+      ]
+    },
+    {
+      "issuerId": "I076",
+      "name": "舜宇光学科技",
+      "sector": "光学",
+      "securities": [
+        "S087"
+      ]
+    },
+    {
+      "issuerId": "I077",
+      "name": "携程集团-S",
+      "sector": "旅游",
+      "securities": [
+        "S088"
+      ]
+    },
+    {
+      "issuerId": "I078",
+      "name": "美团-W",
+      "sector": "互联网消费",
+      "securities": [
+        "S089"
+      ]
+    },
+    {
+      "issuerId": "I079",
+      "name": "阅文集团",
+      "sector": "互联网内容",
+      "securities": [
+        "S090"
+      ]
+    },
+    {
+      "issuerId": "I080",
+      "name": "快手-W",
+      "sector": "互联网内容",
+      "securities": [
+        "S091"
+      ]
+    },
+    {
+      "issuerId": "I081",
+      "name": "比亚迪电子",
+      "sector": "硬件",
+      "securities": [
+        "S092"
+      ]
+    },
+    {
+      "issuerId": "I082",
+      "name": "美的集团",
+      "sector": "家电",
+      "securities": [
+        "S093"
+      ]
+    },
+    {
+      "issuerId": "I083",
+      "name": "众安在线",
+      "sector": "保险科技",
+      "securities": [
+        "S094"
+      ]
+    },
+    {
+      "issuerId": "I084",
+      "name": "理想汽车-W",
+      "sector": "汽车",
+      "securities": [
+        "S095"
+      ]
+    },
+    {
+      "issuerId": "I085",
+      "name": "小鹏集团-W",
+      "sector": "汽车",
+      "securities": [
+        "S096"
+      ]
+    },
+    {
+      "issuerId": "I086",
+      "name": "同程旅行",
+      "sector": "旅游",
+      "securities": [
+        "S097"
+      ]
+    },
+    {
+      "issuerId": "I087",
+      "name": "小米集团-W",
+      "sector": "硬件汽车",
+      "securities": [
+        "S098"
+      ]
+    },
+    {
+      "issuerId": "I088",
+      "name": "蔚来-SW",
+      "sector": "汽车",
+      "securities": [
+        "S099"
+      ]
+    },
+    {
+      "issuerId": "I089",
+      "name": "商汤-W",
+      "sector": "AI软件",
+      "securities": [
+        "S100"
+      ]
+    },
+    {
+      "issuerId": "I090",
+      "name": "金蝶国际",
+      "sector": "企业软件",
+      "securities": [
+        "S101"
+      ]
+    },
+    {
+      "issuerId": "I091",
+      "name": "金山软件",
+      "sector": "企业软件游戏",
+      "securities": [
+        "S102"
+      ]
+    },
+    {
+      "issuerId": "I092",
+      "name": "中芯国际",
+      "sector": "半导体",
+      "securities": [
+        "S103"
+      ]
+    }
+  ]
+}
