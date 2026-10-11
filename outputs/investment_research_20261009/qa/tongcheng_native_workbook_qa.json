@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "modelVersion": "tongcheng-full-cost-operating-EV-dida-cash-v1.0",
+  "checks": 3676,
+  "atomicEdits": 46,
+  "manifestCount": 690,
+  "activeBuildOnly": true,
+  "dependencySignatureCoverage": true,
+  "missingSelectedInputExposed": true,
+  "scope": "Artifact-tool active operating/debt/cash/equity module vs native 15 cases; every atomic input edited/restored. Final integrated export/visual QA root responsibility."
+}

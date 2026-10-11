@@ -1,0 +1,198 @@
+{
+  "issuerId": "I090",
+  "asOf": "2026-10-09",
+  "researchFile": "research/kingdee_deep.md",
+  "modelVersion": "kingdee-cloud-evsales-cash-reserve-v1.0",
+  "effectiveHanCharacters": 13511,
+  "bodyParagraphs": 87,
+  "exactDuplicateParagraphs": 0,
+  "minimumCountPass": true,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "cloudNoDoubleCount": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 68.2,
+      "recalculated": 68.2,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 74,
+      "recalculated": 74,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 77.1,
+      "recalculated": 77.1,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 75.2,
+      "recalculated": 75.2,
+      "pass": true
+    }
+  ],
+  "sourceChecks": [
+    "FY审计年报与H1原件财务表核对，单位千元→百万元",
+    "H1归母/集团/调整利润分开，EPS人民币分→元正确",
+    "2026NDR同口径缺失，不把2025旧分类值套用",
+    "云/AI/订阅/实施不重复计价；正常云FCF仅交叉验证",
+    "研发资本化与OCF现金分别核，lease融资段本金另扣且利息不双扣",
+    "现金银行/理财/非上市投资分开，合同负债不是可分配净现金",
+    "9月3.514546771bn注册股与未来模型分母不同",
+    "8条外资目标与评级正文核，期限null，富瑞超90天"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "元数据",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "完全重复检测0不代表语义重复已机器证明；编辑已检查独立公司逻辑",
+    "最终Word/PDF逐页视觉与跨章近义核验由根集成流程执行",
+    "云EV/Sales模型敏感于现金率和终值，不能称低PE价值股"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

@@ -1,0 +1,40 @@
+import fs from 'node:fs/promises';
+const root='G:/MyTarget/outputs/investment_research_20261009';
+const m=JSON.parse(await fs.readFile(root+'/data/junshi_model.pending.json','utf8'));
+const md=await fs.readFile(root+'/research/I046_deep.md','utf8');
+const body=md.slice(md.indexOf('## 一、'),md.indexOf('## 来源与模型核验'));
+const narrative=body.split(/\r?\n/).filter(x=>!/^\s*(?:#|\|)/.test(x)).join('\n');
+const han=x=>(x.match(/[\u3400-\u4dbf\u4e00-\u9fff]/g)||[]).length;
+const paragraphs=narrative.split(/\n\s*\n/).map(x=>x.trim()).filter(x=>han(x)>=80);
+const seen=new Map(),duplicates=[];
+paragraphs.forEach((x,i)=>{const key=x.replace(/\s+/g,'');if(seen.has(key))duplicates.push([seen.get(key),i]);else seen.set(key,i);});
+let checks=0;const ok=(label,condition)=>{if(!condition)throw Error(label);checks++;};
+ok('effectiveHan',han(narrative)>=10000);ok('exactDuplicates',duplicates.length===0);
+ok('version',md.includes(m.modelVersion));ok('price',md.includes('价格17.65港元'));
+const opening=md.slice(0,md.indexOf('## 一、'));
+for(const h of ['halfYear','oneYear','threeYear','fiveYear']){
+ ok('score '+h,opening.includes(m.scores[h].total.toFixed(1)));
+ for(const p of m.horizons[h].scenarios)ok('price '+h,p.price===0?opening.includes('|0|'):opening.includes(p.price.toFixed(6)));
+ ok('return '+h,opening.includes(m.horizons[h].scenarios[1].capitalReturnPct.toFixed(6)+'%'));
+ ok('date '+h,opening.includes(m.horizons[h].targetDate));
+}
+for(const p of m.horizons.yearEnd.scenarios){ok('yearEnd price',opening.includes(p.price.toFixed(6)));ok('yearEnd return',opening.includes(p.capitalReturnPct.toFixed(6)+'%'));}
+ok('expected',opening.includes(m.horizons.yearEnd.expectedPriceHKD.toFixed(6)));
+ok('expectedreturn',opening.includes(m.horizons.yearEnd.expectedCapitalReturnPct.toFixed(6)+'%'));
+ok('13bnmaturitynotbank',body.includes('六月全部借款的到期分布'));
+ok('reserveProxy',body.includes('不是实际逐主体法定分配核算'));
+ok('earlyFDAtrialnotapproval',body.includes('获准开展研究只是试验合法实施条件'));
+ok('OSnotfinalpositive',body.includes('不能写成最终OS已被证明显著'));
+ok('noExactVolumeProfile',body.includes('不制作精确成本分布或资金身份图'));
+ok('missingFreeFloat',body.includes('不是自由流通换手率'));
+ok('SCIVsinglemarket',body.includes('把两种剂型统一纳入国内拓益收入'));
+ok('JS006royaltynotPD1',body.includes('JS006十八个百分点版税条款更不能移用到拓益'));
+ok('newBondsCashDebt',body.includes('研究同时增加现金和债务'));
+ok('putBeforeThreeYear',body.includes('合计20.09103亿元债券现金偿还发生在三年目标之前'));
+ok('2029researchFinancing',body.includes('三十亿元不是董事会融资计划'));
+ok('10year',body.includes('十年经营展望关注2036'));
+ok('bearNotCertainFailure',body.includes('不能据此断言公司将破产或股价必然归零'));
+ok('originalBrokerMissing',body.includes('新闻没有明确原研报目标期限'));
+ok('failureConditions',body.includes('推翻长期候选定位的负面证据'));
+const qa={issuerId:m.issuerId,passed:true,checks,effectiveChineseCharacters:han(narrative),paragraphs:paragraphs.length,exactDuplicates:duplicates.length,modelVersion:m.modelVersion,excluded:'heading rows, tables, opening summary, source appendix, captions; only issuer-specific narrative counted',scope:'20 sections, core summary numbers/date/score consistency, specific clinical/license/cash/valuation/technical limitations'};
+await fs.writeFile(root+'/data/I046_body_qa.json',JSON.stringify(qa,null,2));console.log(JSON.stringify(qa));

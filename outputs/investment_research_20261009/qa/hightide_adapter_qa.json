@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": 1933,
+  "atoms": 1092,
+  "signaturesPerCase": 364,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "scope": "3cases15years5horizons11atomic edits; 8sheet render; future equity toy invariance; no-new-equity cash failure",
+  "noNewFunding": [
+    {
+      "case": 0,
+      "price": 0,
+      "minimumCash": -2.1781928872784286,
+      "failure": true
+    },
+    {
+      "case": 1,
+      "price": 0,
+      "minimumCash": -0.060028141578756564,
+      "failure": true
+    },
+    {
+      "case": 2,
+      "price": 4.855451569976926,
+      "minimumCash": 0.1978008978887114,
+      "failure": false
+    }
+  ],
+  "toy": {
+    "price": 1,
+    "futureCash": 2,
+    "futureShares": 2
+  },
+  "parentPending": "persistent input/snapshot workflow integration and final exported Excel"
+}

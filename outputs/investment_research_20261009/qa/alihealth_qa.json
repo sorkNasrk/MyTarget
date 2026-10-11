@@ -1,0 +1,238 @@
+{
+  "issuerId": "I067",
+  "asOf": "2026-10-09",
+  "researchFile": "research/alihealth_deep.md",
+  "modelVersion": "alihealth-direct-platform-digital-normalized-profit-v1.0",
+  "effectiveHanCharacters": 16492,
+  "bodyParagraphs": 110,
+  "exactDuplicateParagraphs": 0,
+  "minimumCountPass": true,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 58.1,
+      "recalculated": 58.099999999999994,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 68.1,
+      "recalculated": 68.1,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 75.5,
+      "recalculated": 75.5,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 74.1,
+      "recalculated": 74.1,
+      "pass": true
+    }
+  ],
+  "actualBridgeChecks": [
+    {
+      "period": "annual",
+      "core": true,
+      "pretax": true,
+      "profit": true,
+      "cash": true,
+      "adjusted": true
+    },
+    {
+      "period": "interim",
+      "core": true,
+      "pretax": true,
+      "profit": true,
+      "cash": true,
+      "adjusted": true
+    }
+  ],
+  "expectedPricePass": true,
+  "sourceChecks": [
+    "HKEX首发年报2026-07-06 17:04，FY正式结果5/14 17:41替换官网Proof校样",
+    "财年截至3/31；FY2026 H1截至2025-09-30，不能当2026自然年H1；2026-09-30财报未公布",
+    "三类收入披露、单一报告分部，未虚构分部利润，直接销售包含相关广告",
+    "财报RMB千元转百万；EPS人民币分转元.1195，不混集团调整利润与归母EPS",
+    "核心毛利减四費保留SBC162.124m，AI研发常态费用不加回",
+    "处置/视同处置/FVPL暂态剔除；税22%研究假设，有限财资PE后不再加现金",
+    "经营现金已付利息1.402m不再扣，经营收到228.205m和投资收到227.935m分列",
+    "OCF1236.633−PPE8.987−lease24.978＝1202.668m，投资段利息未遗漏也不重复加OCF",
+    "九月法律issued16175300965，库存0；trust会计48875203不同法律库存",
+    "FY80m信托新发已在法律股，options20.405465m、RSU135.796594m，9/15新授7.6725m已含不双加",
+    "普通.0687＋特别.1562HKD＝.2249，8/12除息9/2支付，未来不加过去息、特别不持续",
+    "9/11余涌主席CEO，沈涤凡仍执行董事负责Hydrion/追溯，主席CEO合一风险",
+    "近期里昂3.7、高盛3.6、美银4.2、瑞银标题2.8；富瑞5.3超90天；最新去重不继承旧目标期限",
+    "中金中资单列，AI用户与投入/收支平衡目标为新闻转述非实际；无主源永久股息承诺",
+    "739日线两源、157周，量股单位和复权公司行动；缺250周/逐笔/精确换手不补造"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "元数据",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "正文与模型核心价格/分数/回报一一核；跨公司近似段与最终Word/PDF由根集成QA",
+    "悲观区间不是清算估值或损失封顶，长期现金/股息/经济股数非公司指引"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {initializeInnocareBridge,calculateInnocareHorizon,calculateInnocareAnnual,setInnocareAtomic} from './innocare_native.mjs';
+const root='G:/MyTarget/outputs/investment_research_20261009',m=JSON.parse(await fs.readFile(root+'/data/innocare_model.pending.json','utf8'));initializeInnocareBridge(m);
+const tests=[];
+for(const discount of[.095,.115,.135])tests.push({name:'base_discount_'+discount,edits:[{kind:'innocareGlobal',field:'discount',caseIndex:1,value:discount}]});
+tests.push({name:'base_allTYK2futureRevenueZero_keepAllRAndD',edits:m.riskAssets.map((x,i)=>({x,i})).filter(({x})=>/Soficitinib|Fadeucravacitinib/.test(x.id)).map(({i})=>({kind:'innocareAsset',field:'p',groupIndex:i,caseIndex:1,value:0}))});
+tests.push({name:'base_allZenasEquityZero_royaltyUnchanged',edits:[{kind:'innocareGlobal',field:'zenasRecovery',caseIndex:1,value:0}]});
+tests.push({name:'base_RD40percentHigher_allYears',edits:m.annualInput.base.RD.map((v,i)=>({kind:'innocareAnnual',field:'RD',index:i,caseIndex:1,value:v*1.4}))});
+const out=tests.map(t=>{const mm=structuredClone(m);for(const e of t.edits)setInnocareAtomic(mm,e);const annual=calculateInnocareAnnual(mm,1);return{name:t.name,edits:t.edits,firstNegativeCashYear:annual.find(x=>x.forecastCashCNYbn<0)?.year??null,horizons:Object.fromEntries(Object.keys(m.scenarios).map(h=>{const v=calculateInnocareHorizon(mm,h,1);return[h,{intrinsicPriceHKD:v.intrinsicPrice,targetPriceHKD:v.price,capitalReturnPct:(v.price/m.price-1)*100,cashAtTargetCNYbn:v.cashAtTargetCNYbn}];})),scope:'isolated base input test, not additional weightedscenario; native recashbudgeted, finiteFCFF unchanged'};});
+await fs.writeFile(root+'/data/innocare_sensitivity.json',JSON.stringify(out,null,2));console.log(JSON.stringify(out.map(x=>({name:x.name,horizons:x.horizons,firstNegative:x.firstNegativeCashYear}))));

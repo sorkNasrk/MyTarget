@@ -1,0 +1,29 @@
+{
+  "issuerId": "I002",
+  "name": "迈威生物",
+  "modelVersion": "mabwell-rnpv-v1.1",
+  "asOf": "2026-10-09",
+  "effectiveHanzi": 13852,
+  "threshold": 10000,
+  "paragraphs": 108,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "checks": "逐年销售/成功率/税/汇率/PV/目标日筛选，4许可独立日期税后里程碑及上限，内在零下限/认知路径，AH股数，国债不重复，净债，回报/年化/评分及权重",
+  "errors": [],
+  "passed": true,
+  "yearEnd": {
+    "prices": [
+      13.629000000000001,
+      17.58518906769156,
+      40.157415395608865
+    ],
+    "intrinsic": [
+      0,
+      4.223397336261585,
+      55.53483079121772
+    ],
+    "milestonePV": 0.469656435671425,
+    "expected": 22.239198382747997,
+    "expectedReturn": -10.25343671207427
+  }
+}

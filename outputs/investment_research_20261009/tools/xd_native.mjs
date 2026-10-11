@@ -1,0 +1,15 @@
+export const xdHorizons=['yearEnd','halfYear','oneYear','threeYear','fiveYear'];
+export const xdFields=['gameRevenue','tapRevenue','gameGross','tapGross','selling','RD','admin','normalCreditCost','otherOperatingIncome','depositInterest','leaseInterest','bankCharges','associateProfit','taxRate','minority','baseShares','knownPendingCancel','additionalBuybackHKDbn','buybackAveragePriceHKD','normalOptionDilution','DA','capitalCash','NWC','annualCashSBCPurchase','PE','FX','dividend'];
+export const xdLabels=['游戏收入CNY十亿','平台收入CNY十亿','游戏毛利率','平台毛利率','完整销售费','完整研发费','完整行政费','正常信用费','正常补助收入','存款利息','租赁利息','银行费','税后联营收益','正利润有效税率','少数股东利润','法定起始股十亿','已购待注销股十亿','未来额外回购HKD十亿','未来平均回购HKD每股','常态期权稀释股十亿','年度折旧摊销','年度资本现金','年度营运资本增加','年度现金股酬购股','目标正常PE倍','HKD每CNY假设','累计现金息HKD每股'];
+const round=(v,n)=>Math.round(v*10**n)/10**n;
+export function initializeXDBridge(m){
+ if(m.issuerId!=='I060'||!m.nativeInput?.rows)return false;
+ m.xdBridge={inputs:Object.fromEntries(xdHorizons.map(h=>[h,[0,1,2].map(c=>Object.fromEntries(xdFields.map(f=>[f,f==='FX'?m.nativeInput.FX:m.nativeInput.rows[h][f][c]])))]))};
+ for(const h of xdHorizons)for(let c=0;c<3;c++){const v=calculateXDHorizon(m,h,c),s=m.scenarios[h];for(const[k,e]of Object.entries({price:s.priceHKD[c],eps:s.epsCNY[c],dividend:s.cumulativeCashDividendHKD[c],revenueCNYbn:s.normalRevenueCNYbn[c],parentNormalProfitCNYbn:s.normalParentProfitCNYbn[c],dilutedSharesBn:s.dilutedSharesBn[c],cashOperatingProxyCNYbn:s.cashOperatingProxyCNYbn[c]}))if(Math.abs(v[k]-e)>1e-8)throw Error('XD native mismatch '+h+'/'+c+'/'+k);}
+ return true;
+}
+export function setXDAtomic(m,record){if(record.kind!=='xdHorizon'||!xdFields.includes(record.field)||!m.xdBridge?.inputs[record.horizon]||!Number.isInteger(record.caseIndex)||record.caseIndex<0||record.caseIndex>2||!Number.isFinite(record.value))throw Error('Invalid XD atom');m.xdBridge.inputs[record.horizon][record.caseIndex][record.field]=record.value;}
+export function calculateXDHorizon(m,h,c){
+ const a=m.xdBridge.inputs[h][c],revenue=a.gameRevenue+a.tapRevenue,gameGross=a.gameRevenue*a.gameGross,tapGross=a.tapRevenue*a.tapGross,gross=gameGross+tapGross,core=gross-a.selling-a.RD-a.admin-a.normalCreditCost+a.otherOperatingIncome,finance=a.depositInterest-a.leaseInterest-a.bankCharges,taxable=core+finance,tax=Math.max(0,taxable)*a.taxRate,owner=taxable-tax+a.associateProfit-a.minority,buybackShares=a.additionalBuybackHKDbn/a.buybackAveragePriceHKD,shares=a.baseShares-a.knownPendingCancel-buybackShares+a.normalOptionDilution,eps=round(owner/shares,6),price=round(eps*a.PE*a.FX,m.targetPriceRoundingDecimals??2),cash=owner+a.DA-a.capitalCash-a.NWC-a.annualCashSBCPurchase;
+ return{revenueCNYbn:revenue,gameGrossProfit:gameGross,tapGrossProfit:tapGross,grossProfitCNYbn:gross,coreEBIT:core,finance,taxable,tax,parentNormalProfitCNYbn:owner,buybackShares,dilutedSharesBn:shares,eps,PE:a.PE,FX:a.FX,price,dividend:a.dividend,cashOperatingProxyCNYbn:cash,priceReturn:price/m.price-1,totalReturn:(price+a.dividend)/m.price-1};
+}

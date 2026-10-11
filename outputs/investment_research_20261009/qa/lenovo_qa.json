@@ -1,0 +1,181 @@
+{
+  "issuerId": "I065",
+  "asOf": "2026-10-09",
+  "researchFile": "research/lenovo_deep.md",
+  "modelVersion": "lenovo-normalized-operating-dilution-v1.0",
+  "effectiveHanCharacters": 13521,
+  "bodyParagraphs": 83,
+  "exactDuplicateParagraphs": 0,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 69.7,
+      "recalculated": 69.69999999999999,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 75.2,
+      "recalculated": 75.19999999999999,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 78,
+      "recalculated": 78,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 77.4,
+      "recalculated": 77.4,
+      "pass": true
+    }
+  ],
+  "sourceChecks": [
+    "年度与季度主源收入和利润核对",
+    "Q1 grossProfit4451.969m精确报表",
+    "权证重估与正常盈利分开，SBC保留",
+    "9/14旧2029CB全部转换，月报12.826044682bn股，未重复加潜在2029股数",
+    "pipeline54bnUSD非5.4bn且非确定backlog",
+    "权证股份与现金结算互斥路线，普通模型采用经济稀释；现金路线需另算",
+    "末期0.337已付不计未来",
+    "6家外资价格45/46/66/50/51/50正文支持，期限null"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "最终Word/PDF视觉和跨章近义核验由总报告流程执行",
+    "经济股数为模型判断，不声称法定每期稀释分母",
+    "财年与自然年分开，未来目标为NTM"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

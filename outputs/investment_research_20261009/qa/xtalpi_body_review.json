@@ -1,0 +1,472 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "reviewDate": "2026-10-11",
+  "modelVersion": "xtalpi-v1-netContract-investmentRecovery-CBJan27-H2LeaseTotal",
+  "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+  "bodySHA256": "6b6464bad57b261e8d1049304bbe77dd5d5f499caa691f1fe8f39b431ae9675f",
+  "status": "PASS numerical consistency and nonduplicated narrative",
+  "effectiveHan": 13995,
+  "paragraphs": 71,
+  "duplicateParagraphs": [],
+  "duplicateSentences": [],
+  "nearDuplicateParagraphPairs": [
+    {
+      "a": 47,
+      "b": 48,
+      "jaccard": 0.0345821325648415,
+      "shared": 12
+    },
+    {
+      "a": 9,
+      "b": 12,
+      "jaccard": 0.031088082901554404,
+      "shared": 12
+    },
+    {
+      "a": 50,
+      "b": 52,
+      "jaccard": 0.028795811518324606,
+      "shared": 11
+    },
+    {
+      "a": 2,
+      "b": 58,
+      "jaccard": 0.02425876010781671,
+      "shared": 9
+    },
+    {
+      "a": 48,
+      "b": 49,
+      "jaccard": 0.023121387283236993,
+      "shared": 8
+    },
+    {
+      "a": 58,
+      "b": 60,
+      "jaccard": 0.0225,
+      "shared": 9
+    },
+    {
+      "a": 47,
+      "b": 53,
+      "jaccard": 0.02197802197802198,
+      "shared": 8
+    },
+    {
+      "a": 57,
+      "b": 58,
+      "jaccard": 0.021052631578947368,
+      "shared": 8
+    },
+    {
+      "a": 2,
+      "b": 43,
+      "jaccard": 0.019662921348314606,
+      "shared": 7
+    },
+    {
+      "a": 57,
+      "b": 60,
+      "jaccard": 0.017766497461928935,
+      "shared": 7
+    }
+  ],
+  "nearDuplicateThreshold": 0.45,
+  "checks": [
+    {
+      "name": "model version in opening",
+      "pass": true
+    },
+    {
+      "name": "price basis in opening",
+      "pass": true
+    },
+    {
+      "name": "halfYear table exists",
+      "pass": true
+    },
+    {
+      "name": "halfYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "halfYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "halfYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "halfYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear capital return",
+      "pass": true
+    },
+    {
+      "name": "halfYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "halfYear nonannualized short period label",
+      "pass": true
+    },
+    {
+      "name": "oneYear table exists",
+      "pass": true
+    },
+    {
+      "name": "oneYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "oneYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "oneYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "oneYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear capital return",
+      "pass": true
+    },
+    {
+      "name": "oneYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "oneYear nonannualized short period label",
+      "pass": true
+    },
+    {
+      "name": "threeYear table exists",
+      "pass": true
+    },
+    {
+      "name": "threeYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "threeYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "threeYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "threeYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear capital return",
+      "pass": true
+    },
+    {
+      "name": "threeYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "threeYear annualized total return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear table exists",
+      "pass": true
+    },
+    {
+      "name": "fiveYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear capital return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear annualized total return",
+      "pass": true
+    },
+    {
+      "name": "YE 悲观 price",
+      "pass": true
+    },
+    {
+      "name": "YE 悲观 capital return",
+      "pass": true
+    },
+    {
+      "name": "YE 基准 price",
+      "pass": true
+    },
+    {
+      "name": "YE 基准 capital return",
+      "pass": true
+    },
+    {
+      "name": "YE 乐观 price",
+      "pass": true
+    },
+    {
+      "name": "YE 乐观 capital return",
+      "pass": true
+    },
+    {
+      "name": "加权期望 expected price",
+      "pass": true
+    },
+    {
+      "name": "加权期望 expected return",
+      "pass": true
+    },
+    {
+      "name": "40/40/20 expected price",
+      "pass": true
+    },
+    {
+      "name": "40/40/20 expected return",
+      "pass": true
+    },
+    {
+      "name": "20/40/40 expected price",
+      "pass": true
+    },
+    {
+      "name": "20/40/40 expected return",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic recognition table exists",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 2",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 2",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic recognition table exists",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 2",
+      "pass": true
+    },
+    {
+      "name": "full per-drug modeling acceptance boundary",
+      "pass": true
+    },
+    {
+      "name": "preIPO expiry span2026to2036 retained",
+      "pass": true
+    },
+    {
+      "name": "crosscheck table included",
+      "pass": true
+    },
+    {
+      "name": "effective issuer narrative >=10000 Han",
+      "pass": true
+    },
+    {
+      "name": "no duplicate normalized narrative paragraphs",
+      "pass": true
+    },
+    {
+      "name": "no long duplicate normalized sentences",
+      "pass": true
+    },
+    {
+      "name": "four-Han-style substring near duplicate threshold",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不是获利概率",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 最大损失边界",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 原研报缺失",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 净版税",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 没有公开",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 匿名",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 肠易激综合征",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不同企业",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 早于该年不加分红",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不再增加公司股数",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 租赁总现金付款",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 准确自然一年",
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Counting excludes opening, tables, headings and source appendix; semantic originality remains human-reviewed and is not proven by string checks",
+    "This review does not confirm every clinical source, unreported net rights or full drug-by-indication economics",
+    "Four-group rNPV remains a disclosed approximation, not user-required complete per-asset modeling",
+    "No Word/PDF render, integrated Excel consistency or 27-file acceptance is performed here"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": 2242,
+  "modelVersion": "zai-v2-actualTradingTarget-netTaxRewards",
+  "atoms": 733,
+  "signaturesPerCase": 256,
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "scope": "3cases16years5horizons16atomic edits8sheet2detail renders",
+  "parentPending": "persistentinput/snapshot refresh workflow"
+}

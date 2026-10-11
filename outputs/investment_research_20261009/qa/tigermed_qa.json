@@ -1,0 +1,23 @@
+{
+  "issuerId": "I044",
+  "name": "泰格医药",
+  "modelVersion": "tigermed-H-native-normal-profit-v1.0",
+  "effectiveHanzi": 13386,
+  "paragraphs": 95,
+  "exactDuplicateParagraphs": 0,
+  "sharePaymentRoundingTailCNYmillion": 0.00010000000000331966,
+  "formulaChecks": true,
+  "checks": "原子收入人工项目费用税少数全股EPS/PE，现价估值和情景/含息/年化/权重，实际报告/扣非税少数桥、资产现金债股与项目，拟注销与库存交付、子CB不母稀释、基金归属不全NAV、旧息排除，HKEX首次收盘后时分，broker接口，正文汉字与重复",
+  "errors": [],
+  "passed": true,
+  "limitations": [
+    "未完成全部基金LP/GP经济权益与税穿透，无精确归母投资NAV或分基金目标价；本版活动PE不加NAV",
+    "子DreamCIS可转债内部3bnKRW持有抵销及负债/衍生明细完整桥缺，均保留原表，不能重复母公司转股",
+    "新单精确金额、合同取消率/回款分层/每期价格与AI净收益缺；管理定性改善非硬指标",
+    "匹配CRO行业指数相对强弱与准确流通换手缺；H发行数归一换手仅观察",
+    "原投行研报与明确目标期限缺，近90日四项已核新闻；大和旧版标过时",
+    "H1受控基金正收益少数与集团总体投损并存，实际税/少数不可简单净损×统一比率",
+    "未实现完整三张表；现金检验为显式研究OCF/投资/融资桥",
+    "2026-10-09收盘后授予信息单列，下一交易日市场反应尚未知"
+  ]
+}

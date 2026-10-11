@@ -1,0 +1,2603 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "code": "02228.HK",
+  "cutoff": "2026-10-09",
+  "informationCutoff": "2026-10-09",
+  "preparedAtUTC": "2026-10-11T07:08:00Z",
+  "version": "xtalpi-per-asset-evidence-v1",
+  "scope": "Evidence register from saved issuer H1/FY reports and announcements. Named drugs separated by indications; unnamed contracts separately marked. No model/native/body changes, no fabricated exact net rights, trial endpoints, stage probabilities, or cashflows.",
+  "sourceMetadataSHA256": "c292a81d5c278691b94cf2b5283d526af64b8ba21de27d6c7baa8f2f793e9129",
+  "modelObservedSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+  "sourceCatalog": [
+    {
+      "sourceId": "I",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "title": "2026 INTERIM REPORT",
+      "publicationDate": "09/09/2026 21:23",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2026090901145.pdf",
+      "publicationDateTimeHK": "2026-09-09 21:23",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "461ac358fc675a54e93bc4a1db06e2da9e4c9c1056a38ce8474b424f6b4285cb",
+      "reportPeriod": "2026H1"
+    },
+    {
+      "sourceId": "F",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+      "title": "Annual Report 2025",
+      "publicationDate": "17/04/2026 20:53",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2026041701551.pdf",
+      "publicationDateTimeHK": "2026-04-17 20:53",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "7af2afb2c3f8fe6b74da0725ee66125e6a6fddadebf0bdbc86a8510c746d43af",
+      "reportPeriod": "2025FY; includes subsequently described2026events"
+    },
+    {
+      "sourceId": "P",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+      "title": "GLOBAL OFFERING",
+      "publicationDate": "04/06/2024 06:40",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2024060400065.pdf",
+      "publicationDateTimeHK": "2024-06-04 06:40",
+      "afterClose": false,
+      "session": "preopen",
+      "pdfSHA256": "fce5a6aee28817f6b479cf259cfe75d65f48b1519f6173f21cf183bb767a93df",
+      "reportPeriod": "2024prospectus latestpracticabledate"
+    },
+    {
+      "sourceId": "D",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0805/2025080500993.pdf",
+      "title": "VOLUNTARY ANNOUNCEMENT - UPDATES IN RELATION TO THE COLLABORATION WITH DOVETREE",
+      "publicationDate": "05/08/2025 17:47",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2025080500993.pdf",
+      "publicationDateTimeHK": "2025-08-05 17:47",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "d6b2bf5d5b25f98ce20efada39b5c9a9086e3fa9447d1544f35c8d1dba3845e7",
+      "reportPeriod": "event announcement"
+    },
+    {
+      "sourceId": "D2",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052701684.pdf",
+      "title": "VOLUNTARY ANNOUNCEMENT\nUPDATES IN RELATION TO THE COLLABORATION WITH\nDOVETREE",
+      "publicationDate": "27/05/2026 21:19",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2026052701684.pdf",
+      "publicationDateTimeHK": "2026-05-27 21:19",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "1289706eed5da1313f2bf96fcd9e1b6e6e40cd4e3a1d0f61caf16d469e731523",
+      "reportPeriod": "event announcement"
+    },
+    {
+      "sourceId": "G",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060901622.pdf",
+      "title": "VOLUNTARY ANNOUNCEMENT\nSTRATEGIC PARTNERSHIP WITH A LEADING BIOPHARMA COMPANY\nTO DEVELOP ORAL SMALL MOLECULE THERAPEUTICS\nFOR A GPCR TARGET, WITH A TOTAL POTENTIAL DEAL VALUE OF\nOVER US$400 MILLION",
+      "publicationDate": "09/06/2026 22:25",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2026060901622.pdf",
+      "publicationDateTimeHK": "2026-06-09 22:25",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "d52023489b74c11f4b2992cef766da095f8a3166074ba529e3367c22cc311a73",
+      "reportPeriod": "event announcement"
+    },
+    {
+      "sourceId": "L",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1105/2025110501768.pdf",
+      "title": "VOLUNTARY ANNOUNCEMENT - XTALPI SUBSIDIARY AILUX ANNOUNCES STRATEGIC COLLABORATION WITH LILLY TO ADVANCE (AI DRIVEN) BISPECIFIC ANTIBODY DEVELOPMENT",
+      "publicationDate": "05/11/2025 18:53",
+      "sourceType": "HKEX_issuer_primary",
+      "rawFile": "G:/MyTarget/outputs/investment_research_20261009/data/pharma_raw/02228_2025110501768.pdf",
+      "publicationDateTimeHK": "2025-11-05 18:53",
+      "afterClose": true,
+      "session": "postclose",
+      "pdfSHA256": "d5db504f0217262564a42ecc4b702b5491f9131582138d7683da41f5c87df0b3",
+      "reportPeriod": "event announcement"
+    }
+  ],
+  "schema": {
+    "assetIndicationId": "stable internal ID, not new official drugname",
+    "drugName": "issuer name or expressly unnamed observation label",
+    "stageEvidence": "exact text-level confirmed facts and management forecasts, without inferring tablegraphic stage",
+    "currentDilutedEquityStake": "null if not currently and publicly verified; historic stakes separate",
+    "exactNetAssetOwnership": "null if per-asset net rights not fully disclosed",
+    "valueTreatment": "research modeling directive, not proof actual drugworthzero",
+    "evidence": "original URL, actual PDFpage, reportperiod, publication time andafterclose"
+  },
+  "modelingPolicy": {
+    "futurePerAssetBenefits": "zero while required identity/stage/net-right/cashflow inputs remain unverified under current stricter modeling mandate",
+    "clinicalCosts": "keep existing total budget in unallocated cost block until projectallocation supported; do not invent per-asset allocations",
+    "nonDrugConsumers": "exclude separate drugrNPV; operatingvalue requires supported sales/economics",
+    "noInferenceFromOwned": "group proprietary/whollyownedstatus does not specify future net license costs or geographicretainedrights",
+    "noHistoricalStakeAsCurrent": true,
+    "noProbabilityFromStageGuess": true
+  },
+  "rows": [
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "XTN004_IBS",
+      "assetId": "XTN004",
+      "drugName": "XTN004",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研；法律持有人未逐药披露",
+      "targetOrMoA": "TRK/RET；gut-restricted小分子",
+      "indication": "肠易激综合征（IBS）相关肠道疼痛",
+      "stageEvidence": {
+        "description": "已递交美国 pre-IND 会议材料；预计 2026 年下半年中美 IND 申报。尚无该来源明确证明 IND 批准或人体试验启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；逐药法律持有人、地域权利、外许可及净费率未完整公开，不补造无负担100%销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "XTN004",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "XTN004_IBD",
+      "assetId": "XTN004",
+      "drugName": "XTN004",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研；法律持有人未逐药披露",
+      "targetOrMoA": "TRK/RET；gut-restricted小分子",
+      "indication": "炎症性肠病（IBD）相关肠道疼痛",
+      "stageEvidence": {
+        "description": "已递交美国 pre-IND 会议材料；预计 2026 年下半年中美 IND 申报。尚无该来源明确证明 IND 批准或人体试验启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；逐药法律持有人、地域权利、外许可及净费率未完整公开，不补造无负担100%销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "XTN004",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "ALX001_IBD",
+      "assetId": "ALX001",
+      "drugName": "ALX001",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Ailux/集团自有大分子；Ailux全资披露不替代逐药合同",
+      "targetOrMoA": "TL1A/IL-23p19双特异抗体",
+      "indication": "炎症性肠病（IBD）；未指定UC或Crohn",
+      "stageEvidence": {
+        "description": "列为集团自有候选，计划 2027 年一期；尚无所查来源证明一期已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            26
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "L",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1105/2025110501768.pdf",
+          "publicationDateTimeHK": "2025-11-05 18:53",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "ALX001",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "ALX002_SLE",
+      "assetId": "ALX002",
+      "drugName": "ALX002",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Ailux/集团自有大分子",
+      "targetOrMoA": "CD19/BCMA/CD3（三特异T-cellengager；正文主要说明CD19/BCMA）",
+      "indication": "系统性红斑狼疮（SLE）",
+      "stageEvidence": {
+        "description": "列为集团自有候选，计划 2027 年一期；SLE 与 RA 适应症患者试验尚无单独核验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            26
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "ALX002",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "ALX002_RA",
+      "assetId": "ALX002",
+      "drugName": "ALX002",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Ailux/集团自有大分子",
+      "targetOrMoA": "CD19/BCMA/CD3（三特异T-cellengager；正文主要说明CD19/BCMA）",
+      "indication": "类风湿关节炎（RA）",
+      "stageEvidence": {
+        "description": "列为集团自有候选，计划 2027 年一期；SLE 与 RA 适应症患者试验尚无单独核验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            26
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "ALX002",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "ALX005_MG",
+      "assetId": "ALX005",
+      "drugName": "ALX005",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Ailux/集团自有大分子",
+      "targetOrMoA": "FcRn/HSA双特异；长效FcRnblockingantibody",
+      "indication": "重症肌无力（MG）",
+      "stageEvidence": {
+        "description": "列为集团自有候选，计划 2027 年一期；MG 与 ITP 适应症患者试验尚无单独核验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            26,
+            27
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "ALX005",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "ALX005_ITP",
+      "assetId": "ALX005",
+      "drugName": "ALX005",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Ailux/集团自有大分子",
+      "targetOrMoA": "FcRn/HSA双特异；长效FcRnblockingantibody",
+      "indication": "免疫性血小板减少症（ITP）",
+      "stageEvidence": {
+        "description": "列为集团自有候选，计划 2027 年一期；MG 与 ITP 适应症患者试验尚无单独核验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            26,
+            27
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "ALX005",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "XS01_IgAN",
+      "assetId": "XS01",
+      "drugName": "XS01",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研",
+      "targetOrMoA": "小核酸；分子靶点未披露",
+      "indication": "IgA肾病（IgAN）",
+      "stageEvidence": {
+        "description": "管线表列于 PCC 及之后的部分项目；正文称 siRNA 组合最快项目达 PCC，但未明确逐药映射 XS01。具体靶点和 IgAN/PNH 各自临床阶段未核实。 只认可管线表列名的事实，XS01 靶点栏具体文字/图形未重新核验，不能自动沿用其他 siRNA 靶点。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            28,
+            29
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "XS01 与正文首发 IgAN 项目的映射及确切靶点",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "XS01",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "XS01_PNH",
+      "assetId": "XS01",
+      "drugName": "XS01",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研",
+      "targetOrMoA": "小核酸；分子靶点未披露",
+      "indication": "阵发性睡眠性血红蛋白尿症（PNH）",
+      "stageEvidence": {
+        "description": "管线表列于 PCC 及之后的部分项目；正文称 siRNA 组合最快项目达 PCC，但未明确逐药映射 XS01。具体靶点和 IgAN/PNH 各自临床阶段未核实。 只认可管线表列名的事实，XS01 靶点栏具体文字/图形未重新核验，不能自动沿用其他 siRNA 靶点。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "发行人称集团自研/自有；Ailux 全资主体的披露不等于逐药无负担 100% 销售权益。逐药法律持有人、地域权利、外许可及净费率未完整公开。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            28,
+            29
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "XS01 与正文首发 IgAN 项目的映射及确切靶点",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "XS01",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "DOVETREE_UNNAMED_ONCOLOGY",
+      "assetId": "DoveTree未命名泛癌候选",
+      "drugName": "DoveTree未命名泛癌候选",
+      "nameStatus": "unnamed_internal_observation_id",
+      "partnerOrDeveloper": "DoveTree",
+      "targetOrMoA": "靶点/分子代码未披露；多靶点合同不等于该项目靶点",
+      "indication": "泛癌/oncology；未拆具体癌种",
+      "stageEvidence": {
+        "description": "2026-05-27 公告称 IND-enabling 研究；中报正文简写 IND stage，表列 2027 IND 申报。不能将这些表述当作已批准 IND 或已开展人体试验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "DoveTree 获全球独占开发和商业化；晶泰有个位数百分比年净销售版税及附条件监管/商业里程碑。5.89bn 美元是整份多靶点合同上限，不能逐药逐适应症分配或作确定应收。",
+        "currentExactNetRightsVerified": false,
+        "contractMilestoneCapUSD": 5890000000,
+        "masterContractId": "DOVETREE_MASTER_CONTRACT",
+        "royaltyText": "single-digit percentage",
+        "actualReceivedUSD": [
+          51000000,
+          19000000
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "D",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0805/2025080500993.pdf",
+          "publicationDateTimeHK": "2025-08-05 17:47",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "D2",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052701684.pdf",
+          "publicationDateTimeHK": "2026-05-27 21:19",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            24
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "DOVETREE_MASTER_CONTRACT",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "DOVETREE_UNALLOCATED_OTHER_TARGETS",
+      "assetId": "DoveTree其他未命名合同项目",
+      "drugName": "DoveTree其他未命名合同项目",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "DoveTree",
+      "targetOrMoA": "未披露个体靶点/数量映射",
+      "indication": "免疫炎症、神经、代谢等合作领域；不是已证实逐药适应症",
+      "stageEvidence": {
+        "description": "2026-05-27 公告称 IND-enabling 研究；中报正文简写 IND stage，表列 2027 IND 申报。不能将这些表述当作已批准 IND 或已开展人体试验。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "DoveTree 获全球独占开发和商业化；晶泰有个位数百分比年净销售版税及附条件监管/商业里程碑。5.89bn 美元是整份多靶点合同上限，不能逐药逐适应症分配或作确定应收。",
+        "currentExactNetRightsVerified": false,
+        "contractMilestoneCapUSD": 5890000000,
+        "masterContractId": "DOVETREE_MASTER_CONTRACT",
+        "royaltyText": "single-digit percentage",
+        "actualReceivedUSD": [
+          51000000,
+          19000000
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "D",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0805/2025080500993.pdf",
+          "publicationDateTimeHK": "2025-08-05 17:47",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "DOVETREE_MASTER_CONTRACT",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留晶泰实际或明示预算成本；伙伴已承担的早期研发不得在两方重复支出。",
+      "assetIndicationId": "GPCR_UNNAMED_METABOLIC",
+      "assetId": "未命名GPCR口服小分子",
+      "drugName": "未命名GPCR口服小分子",
+      "nameStatus": "unnamed_internal_observation_id",
+      "partnerOrDeveloper": "未具名国际生物制药伙伴",
+      "targetOrMoA": "GPCR；具体受体/亚型未公开",
+      "indication": "复杂代谢靶点；具体疾病未披露",
+      "stageEvidence": {
+        "description": "成功完成 pilot 并进入发现合作；未披露具体受体、疾病、PCC 或 IND 阶段。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "伙伴支付首款并承担晶泰所有早期研发；晶泰可能获临床前、临床和商业里程碑及未来版税。总潜在合同额超过 400m 美元，精确净份额未知。",
+        "currentExactNetRightsVerified": false,
+        "totalPotentialDealUSDText": "over US$400 million",
+        "partnerFundsEarlyRD": true
+      },
+      "evidence": [
+        {
+          "sourceId": "G",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060901622.pdf",
+          "publicationDateTimeHK": "2026-06-09 22:25",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "GPCR_MASTER_CONTRACT",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "PEP08_SOLID_TUMOUR",
+      "assetId": "PEP08",
+      "drugName": "PEP08",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "PharmaEngine（智擎生技）",
+      "targetOrMoA": "PRMT5抑制剂",
+      "indication": "实体瘤；具体注册癌种未公开分配",
+      "stageEvidence": {
+        "description": "年报明确澳大利亚和台湾临床批准及一期；中报明确实体瘤患者招募。脑癌仅为药学潜力，不能单独赋临床期数。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "年报明确晶泰享未来临床里程碑经济权益；没有确认拥有完整药物销售利润或精确版税。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            24
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "PEP08",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "PEP08_BRAIN_POTENTIAL",
+      "assetId": "PEP08",
+      "drugName": "PEP08",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "PharmaEngine",
+      "targetOrMoA": "PRMT5；血脑屏障穿透为发行人药学描述",
+      "indication": "脑癌治疗潜力；不是明确注册适应症",
+      "stageEvidence": {
+        "description": "年报明确澳大利亚和台湾临床批准及一期；中报明确实体瘤患者招募。脑癌仅为药学潜力，不能单独赋临床期数。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "年报明确晶泰享未来临床里程碑经济权益；没有确认拥有完整药物销售利润或精确版税。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "PEP08",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "RTX117_CMT",
+      "assetId": "RTX-117",
+      "drugName": "RTX-117",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "ReviR（溪砾科技）",
+      "targetOrMoA": "eIF2Bactivator；ISR/mRNAtranslation",
+      "indication": "腓骨肌萎缩症（CMT）",
+      "stageEvidence": {
+        "description": "药物正在健康成人一期；CMT 中美临床批准，VWM 中国临床批准。计划 2027 年上半年二期，但不能把共享一期自动当作各疾病患者试验已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "年报明确晶泰将获里程碑付款及药物长期经济权益；具体净比例、逐适应症条件和当前股权未披露。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            24
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "RTX117",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "RTX117_VWM",
+      "assetId": "RTX-117",
+      "drugName": "RTX-117",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "ReviR（溪砾科技）",
+      "targetOrMoA": "eIF2Bactivator；ISR/mRNAtranslation",
+      "indication": "白质消融性白质脑病（VWM）",
+      "stageEvidence": {
+        "description": "药物正在健康成人一期；CMT 中美临床批准，VWM 中国临床批准。计划 2027 年上半年二期，但不能把共享一期自动当作各疾病患者试验已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "年报明确晶泰将获里程碑付款及药物长期经济权益；具体净比例、逐适应症条件和当前股权未披露。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            24
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "RTX117",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "RTX117_AD_POTENTIAL",
+      "assetId": "RTX-117",
+      "drugName": "RTX-117",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "ReviR",
+      "targetOrMoA": "eIF2B/ISR",
+      "indication": "阿尔茨海默症等神经退行性疾病；探索拓展",
+      "stageEvidence": {
+        "description": "药物正在健康成人一期；CMT 中美临床批准，VWM 中国临床批准。计划 2027 年上半年二期，但不能把共享一期自动当作各疾病患者试验已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "年报明确晶泰将获里程碑付款及药物长期经济权益；具体净比例、逐适应症条件和当前股权未披露。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "RTX117",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "SIGX1094_DGC",
+      "assetId": "SIGX1094",
+      "drugName": "SIGX1094",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Signet（希格生科）",
+      "targetOrMoA": "FAK/SRC双靶点抑制剂",
+      "indication": "弥漫性胃癌（DGC）",
+      "stageEvidence": {
+        "description": "DGC：中报中文称中美 IND 批准、北京大学肿瘤医院一期，表列 2027 二期。KRAS-G12C NSCLC 联合氟泽雷塞的 II/III 申请仅获 CDE 受理，不能当作批准、启动或达到终点。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "合作发现/参股关系；Signet 9.11% 为 2024 招股书最后实际可行日期的历史持股，不是当前稀释持股或药物净权益。",
+        "currentExactNetRightsVerified": false,
+        "historicEquityStake": 0.0911,
+        "historicEquityAsOf": "2024 prospectus latest practicable date",
+        "historicalStakeNotCurrent": true
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "SIGX1094",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "SIGX1094_KRASG12C_NSCLC_COMBO",
+      "assetId": "SIGX1094",
+      "drugName": "SIGX1094+氟泽雷塞片（fulzerasib）",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Signet+Innovent（信达已上市KRASG12C抑制剂）",
+      "targetOrMoA": "FAK/SRC+KRASG12C",
+      "indication": "KRAS-G12C突变非小细胞肺癌",
+      "stageEvidence": {
+        "description": "DGC：中报中文称中美 IND 批准、北京大学肿瘤医院一期，表列 2027 二期。KRAS-G12C NSCLC 联合氟泽雷塞的 II/III 申请仅获 CDE 受理，不能当作批准、启动或达到终点。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "合作发现/参股关系；Signet 9.11% 为 2024 招股书最后实际可行日期的历史持股，不是当前稀释持股或药物净权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "SIGX1094",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "SIGX2649_MESO",
+      "assetId": "SIGX2649",
+      "drugName": "SIGX2649",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Signet（希格生科）",
+      "targetOrMoA": "pan-TEADinhibitor",
+      "indication": "间皮瘤",
+      "stageEvidence": {
+        "description": "英语原文称美国 IND 批准、中国申请已提交；中文称中美 IND 批件，存在冲突。计划最早 2026 下半年一期；没有该来源证明一期已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "合作发现/参股关系；Signet 9.11% 为 2024 招股书最后实际可行日期的历史持股，不是当前稀释持股或药物净权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "中英文中国 IND 状态冲突的后续确认",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "SIGX2649",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "SIGX2649_LIVER",
+      "assetId": "SIGX2649",
+      "drugName": "SIGX2649",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Signet（希格生科）",
+      "targetOrMoA": "pan-TEADinhibitor",
+      "indication": "肝癌",
+      "stageEvidence": {
+        "description": "英语原文称美国 IND 批准、中国申请已提交；中文称中美 IND 批件，存在冲突。计划最早 2026 下半年一期；没有该来源证明一期已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "合作发现/参股关系；Signet 9.11% 为 2024 招股书最后实际可行日期的历史持股，不是当前稀释持股或药物净权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "中英文中国 IND 状态冲突的后续确认",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "SIGX2649",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "SIGX2649_LUNG",
+      "assetId": "SIGX2649",
+      "drugName": "SIGX2649",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Signet（希格生科）",
+      "targetOrMoA": "pan-TEADinhibitor",
+      "indication": "肺癌（未指定亚型）",
+      "stageEvidence": {
+        "description": "英语原文称美国 IND 批准、中国申请已提交；中文称中美 IND 批件，存在冲突。计划最早 2026 下半年一期；没有该来源证明一期已启动。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "合作发现/参股关系；Signet 9.11% 为 2024 招股书最后实际可行日期的历史持股，不是当前稀释持股或药物净权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            23
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "中英文中国 IND 状态冲突的后续确认",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "SIGX2649",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "META_MP5342_IBD",
+      "assetId": "MP-5342",
+      "drugName": "MP-5342",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "META默达生物（不是METiS剂泰）",
+      "targetOrMoA": "LDH口服小分子",
+      "indication": "炎症性肠病（IBD）",
+      "stageEvidence": {
+        "description": "中报正文称 IND 申报阶段。表中一期计划英文为 2026 下半年、中文为 2027，保留冲突，不能当一期已开始。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "与 META 默达合作；15.34% 仅为 2024 招股书历史持股。当前稀释权益、独立产品权利及净费率未给。",
+        "currentExactNetRightsVerified": false,
+        "historicEquityStake": 0.1534,
+        "historicEquityAsOf": "2024 prospectus latest practicable date",
+        "historicalStakeNotCurrent": true
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            24
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "中英文一期计划 2026H2/2027 冲突的后续确认",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "MP5342",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_META1019_CD19_MALIGNANCY",
+      "assetId": "META10-19",
+      "drugName": "META10-19",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman莱芒生物（META10项目代号不等于META默达）",
+      "targetOrMoA": "CD19+IL-10；代谢增强CAR-T",
+      "indication": "复发/难治 CD19 阳性 B 细胞血液恶性肿瘤（正式表列）；年报淋巴瘤/白血病与套细胞淋巴瘤 IIT 描述不逐一补为已核验注册适应症。",
+      "stageEvidence": {
+        "description": "血液恶性肿瘤：年报称 2026 年 3 月 FDA IND 批准及 IIT；自身免疫：仅 IIT 描述及一期计划。中报一期 2026 下半年是前瞻，非已启动证明。 年报同类代谢增强 CD19 CAR-T 与 META10-19 编号的个体试验映射未独立证明，不补造细分疾病注册阶段。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false,
+        "historicEquityStake": 0.1526,
+        "historicEquityAsOf": "2024 prospectus latest practicable date",
+        "historicalStakeNotCurrent": true
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "LEMAN_META1019",
+      "sourceSafetyQualifier": "低风险、活性优势、完全缓解、孤儿药资格或潜在同类最佳为发行人描述；不替代完整人体终点、注册批准或对照证据。",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_META1019_AUTOIMMUNE",
+      "assetId": "META10-19",
+      "drugName": "META10-19",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman",
+      "targetOrMoA": "CD19+IL-10；代谢增强CAR-T",
+      "indication": "难治 B 细胞自身免疫疾病（正式表列）；年报提到 SLE 的 IIT，确切编号与试验对应需确认。",
+      "stageEvidence": {
+        "description": "血液恶性肿瘤：年报称 2026 年 3 月 FDA IND 批准及 IIT；自身免疫：仅 IIT 描述及一期计划。中报一期 2026 下半年是前瞻，非已启动证明。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "LEMAN_META1019",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_GPC3_LIVER",
+      "assetId": "IL-10GPC3CAR-T",
+      "drugName": "IL-10GPC3CAR-T",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman",
+      "targetOrMoA": "GPC3+IL-10",
+      "indication": "GPC3阳性肝癌",
+      "stageEvidence": {
+        "description": "表列 2026 下半年首批实体瘤数据披露计划；年报泛称相关 CAR-T 正在进入 IIT，未逐项目验证商业注册期数。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "IL-10GPC3CAR-T",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_EGFRVIII_GLIOMA",
+      "assetId": "IL-10EGFRvIIICAR-T",
+      "drugName": "IL-10EGFRvIIICAR-T",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman",
+      "targetOrMoA": "EGFRvIII+IL-10",
+      "indication": "EGFRvIII阳性神经胶质瘤",
+      "stageEvidence": {
+        "description": "表列 2026 下半年首批实体瘤数据披露计划；年报泛称相关 CAR-T 正在进入 IIT，未逐项目验证商业注册期数。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "IL-10EGFRvIIICAR-T",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_CLDN182_GASTRIC",
+      "assetId": "IL-10Claudin18.2CAR-T",
+      "drugName": "IL-10Claudin18.2CAR-T",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman",
+      "targetOrMoA": "Claudin18.2+IL-10",
+      "indication": "Claudin18.2阳性胃癌",
+      "stageEvidence": {
+        "description": "表列 2026 下半年启动 IIT 计划；具体已启动、IND 或商业注册期数未逐项目核实。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "IL-10Claudin18.2CAR-T",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "LEMAN_META10TILS_SOLID",
+      "assetId": "META10-TILs",
+      "drugName": "META10-TILs",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "Leman",
+      "targetOrMoA": "代谢增强肿瘤浸润淋巴细胞（TIL）",
+      "indication": "实体瘤；未指定逐癌种",
+      "stageEvidence": {
+        "description": "年报称 META10-TILs IIT 已启动；并非商业注册一期、二期或三期的独立证据。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "集团与 Leman 共享商业转化价值；15.26% 仅为 2024 招股书历史股比。没有逐产品分成、当前持股或完整销售权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "LEMAN_META10TILS",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "METIS_MTS004_PBA",
+      "assetId": "MTS-004",
+      "drugName": "MTS-004",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "METiS剂泰（不是META默达）",
+      "targetOrMoA": "AiTEM小分子制剂优化；分子机制未在晶泰所查披露中完整给出",
+      "indication": "假性延髓情绪失控（PBA）",
+      "stageEvidence": {
+        "description": "晶泰年报称 MTS-004 三期主要终点达到；没有完整终点定义、效应值、试验编号或营销批准原件，不能补造。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "集团通过股权合作共享 METiS 发展；4.17% 为 2024 招股书历史股比。不能当当前稀释权益或拥有该药完整销售利润。",
+        "currentExactNetRightsVerified": false,
+        "historicEquityStake": 0.0417,
+        "historicEquityAsOf": "2024 prospectus latest practicable date",
+        "historicalStakeNotCurrent": true
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "METIS_MTS004",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "METIS_MTS105_HCC",
+      "assetId": "MTS-105",
+      "drugName": "MTS-105",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "METiS剂泰",
+      "targetOrMoA": "NanoForge；mRNA编码T-cellengager；具体分子靶点未所查披露",
+      "indication": "肝细胞癌（HCC）",
+      "stageEvidence": {
+        "description": "晶泰年报仅确认其披露 FDA 孤儿药资格；孤儿药资格本身不能推导 IND 批准或临床期数。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "集团通过股权合作共享 METiS 发展；4.17% 为 2024 招股书历史股比。不能当当前稀释权益或拥有该药完整销售利润。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            20
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        },
+        {
+          "sourceId": "P",
+          "PDFPages": [
+            428
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "publicationDateTimeHK": "2024-06-04 06:40",
+          "afterClose": false,
+          "sourceReportPeriod": "2024prospectus latestpracticabledate",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "METIS_MTS105",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "AILUX_LILLY_UNNAMED_BISPEC",
+      "assetId": "Lilly-Ailux未命名双抗合作",
+      "drugName": "Lilly-Ailux未命名双抗合作",
+      "nameStatus": "unallocated_portfolio_contract",
+      "partnerOrDeveloper": "Lilly+Ailux（全资子公司）",
+      "targetOrMoA": "Lilly可选targetpairs；未公开",
+      "indication": "variousdiseases；具体适应症未给",
+      "stageEvidence": {
+        "description": "平台合作，Lilly 可提名双抗靶点对。没有药名、适应症和具体候选阶段，不映射到 ALX001/002/005。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "Ailux 上海/控股为全资。Lilly 平台合同含首款与近端款合计数千万美元，潜在总额至 345m 美元；逐药、平台许可选项及未来里程碑净分配未知。",
+        "currentExactNetRightsVerified": false,
+        "totalPotentialDealUSD": 345000000
+      },
+      "evidence": [
+        {
+          "sourceId": "L",
+          "PDFPages": [
+            1,
+            2
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1105/2025110501768.pdf",
+          "publicationDateTimeHK": "2025-11-05 18:53",
+          "afterClose": true,
+          "sourceReportPeriod": "event announcement",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "AILUX_LILLY_CONTRACT",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "VISEN_UNNAMED_ENDOCRINE",
+      "assetId": "维昇未命名创新疗法合作",
+      "drugName": "维昇未命名创新疗法合作",
+      "nameStatus": "unallocated_portfolio_contract",
+      "partnerOrDeveloper": "Visen维昇",
+      "targetOrMoA": "未给具体靶点",
+      "indication": "内分泌/代谢高价值需求，未指定疾病",
+      "stageEvidence": {
+        "description": "早期发现与临床转化合作方向，没有逐药、靶点、具体阶段。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "整体合作规模为数千万元人民币，属于未分配合作总述；逐药里程碑、版税和净经济权益未知。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            32
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "VISEN_CONTRACT",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "HEC_UNNAMED_JV_PIPELINES",
+      "assetId": "东阳光未命名合作管线",
+      "drugName": "东阳光未命名合作管线",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "SunshineLake/东阳光",
+      "targetOrMoA": "多靶点/未给药物",
+      "indication": "未分配",
+      "stageEvidence": {
+        "description": "拟建合资公司、联合实验室及模型的合作方向，不是可识别逐药临床资产。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "计划合资公司/联合实验室；对方预计数亿元投入，不是晶泰已收现金或某药确定权益。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            32
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "HEC_JV",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+      "assetId": "某领先生物药伙伴三项未命名项目",
+      "drugName": "某领先生物药伙伴三项未命名项目",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "年报未具名biopharma",
+      "targetOrMoA": "未披露",
+      "indication": "未披露治疗领域",
+      "stageEvidence": {
+        "description": "年报未具名伙伴的三项目总述：两项 IND-enabling，第三计划 2026 上半年；不能识别是否和现有合同重合，也不能另加三份资产。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "F",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "publicationDateTimeHK": "2026-04-17 20:53",
+          "afterClose": true,
+          "sourceReportPeriod": "2025FY; includes subsequently described2026events",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "UNKNOWN_BIOPHARMA_3",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "OWNED_UNNAMED_MOLECULAR_GLUES",
+      "assetId": "未命名自身免疫分子胶",
+      "drugName": "未命名自身免疫分子胶",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "集团自研",
+      "targetOrMoA": "多靶点未给；hitcompounds/proteindegradation",
+      "indication": "自身免疫病；未拆疾病",
+      "stageEvidence": {
+        "description": "苗头化合物及靶蛋白降解研究；预计 2027 年进入临床前，不当作 PCC 或 IND。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            22
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "OWNED_MOLECULAR_GLUES",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY",
+      "assetId": "未命名环肽脑递送",
+      "drugName": "未命名环肽脑递送",
+      "nameStatus": "unnamed_internal_observation_id",
+      "partnerOrDeveloper": "集团PepiX",
+      "targetOrMoA": "cyclicpeptidetargetingmoieties；跨BBB递送大分子",
+      "indication": "脑部递送技术，未指定治疗疾病",
+      "stageEvidence": {
+        "description": "动物体内测试和优化；预计 2027 上半年 PCC。是递送平台项目，不是具名脑病候选。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            28
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "PEPIX_BRAIN",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE",
+      "assetId": "未命名口服环肽自免",
+      "drugName": "未命名口服环肽自免",
+      "nameStatus": "unnamed_internal_observation_id",
+      "partnerOrDeveloper": "集团PepiX",
+      "targetOrMoA": "靶点未披露",
+      "indication": "自身免疫病，未拆疾病",
+      "stageEvidence": {
+        "description": "自免口服环肽已到 hit-to-lead；预计 2027 年中 PCC，具体靶点与疾病未给。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            28
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "PEPIX_ORAL_AUTOIMMUNE",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "OWNED_UNNAMED_SIRNA_METABOLIC",
+      "assetId": "未命名单靶/双靶siRNA代谢",
+      "drugName": "未命名单靶/双靶siRNA代谢",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "集团Kodexia",
+      "targetOrMoA": "单靶/双靶siRNA；targets未知",
+      "indication": "体重管理/代谢；未指定适应症",
+      "stageEvidence": {
+        "description": "仅六项目组合的体内评价和最快 PCC 总述，未命名、未给逐药期数；不得与 XS01/IgAN 首发项目重复计数。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            29
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "KODEXIA_UNALLOCATED",
+      "doNotDoubleCount": [
+        "同一药共享临床、合同里程碑和经济权利不可在每适应症重复计价。",
+        "参股股权回收与已包含于股权的产品现值不可双加。",
+        "已收首款与未来现金流、合作上限与逐药净值须分离。"
+      ],
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "valueTreatment": "zero_value_observation_pending_required_evidence",
+      "costTreatment": "保留已发生费用与明确研究预算；估值置零不代表研发费用取消。",
+      "assetIndicationId": "OWNED_UNNAMED_SIRNA_CNS",
+      "assetId": "未命名siRNA中枢神经方向",
+      "drugName": "未命名siRNA中枢神经方向",
+      "nameStatus": "unallocated_portfolio_scope_not_drug",
+      "partnerOrDeveloper": "集团Kodexia",
+      "targetOrMoA": "targets未知",
+      "indication": "CNS疾病，未指定",
+      "stageEvidence": {
+        "description": "仅六项目组合的体内评价和最快 PCC 总述，未命名、未给逐药期数；不得与 XS01/IgAN 首发项目重复计数。",
+        "clinicalRegistryIndependentlyVerified": false,
+        "managementPlanNotCompletedMilestone": true
+      },
+      "rightsEvidence": {
+        "description": "该来源提供合作或自研身份，未披露可直接用于上市普通股每股估值的完整净权利、净费率或逐药成本分担。",
+        "currentExactNetRightsVerified": false
+      },
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            29
+          ],
+          "sourceSummary": "支持本条药名/靶点/适应症或权利事实，详见条目说明及相应原文页；此字段不是逐字引文。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "可识别药物代码、个体靶点和疾病对应关系",
+        "当前逐药、逐区域净权益和法律持有人",
+        "净销售/许可/里程碑分成与付款条件的确切数值",
+        "逐适应症监管记录、试验注册、患者终点与临床阶段验证",
+        "收入峰值、竞争及成本、未来融资稀释、上市时间等估值输入"
+      ],
+      "sharedDevelopmentGroup": "KODEXIA_UNALLOCATED",
+      "stageMappingQualifier": "管线表的图形阶段进度条未在本轮逐项重新渲染核验；只采用正文或明确文字事实，不补造精确期数。"
+    },
+    {
+      "assetIndicationId": "PX002C_GLUCOSE_CONSUMER",
+      "assetId": "Px-002C",
+      "drugName": "Px-002C",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研 PepiX 消费健康方向",
+      "targetOrMoA": "多肽；表只称单靶点，确切靶点未给",
+      "indication": "血糖健康/降糖消费产品",
+      "stageEvidence": {
+        "description": "表列消费品并写 FDA Self-GRAS；正文说明 Tensotide 自我认定 GRAS 食品原料，不能当 FDA 新药上市批准；Tensotide 与 Px-002C 映射未明确。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "表列自研，未给逐产品销售权益和渠道净费率。消费品/食品原料不套创新药一期至三期风险净现值。",
+        "currentExactNetRightsVerified": false
+      },
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21,
+            27
+          ],
+          "sourceSummary": "表列具名消费多肽；Tensotide 为血糖健康食品原料的 self-affirmed GRAS 描述，未明示编号映射。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "逐产品代码与商业名称的明确映射",
+        "已实现销售收入、毛利与渠道成本",
+        "逐产品法律持有人与净销售权益"
+      ],
+      "valueTreatment": "exclude_separate_drug_rNPV_avoid_duplicate_operating_business_value",
+      "costTreatment": "保留实际研发和商业费用，不因不单列药物价值而抹除。",
+      "sharedDevelopmentGroup": "Px-002C",
+      "productClassification": "consumer_health_not_registered_therapeutic_drug"
+    },
+    {
+      "assetIndicationId": "PX003C_LIPID_CONSUMER",
+      "assetId": "Px-003C",
+      "drugName": "Px-003C",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研 PepiX 消费健康方向",
+      "targetOrMoA": "多肽；表只称单靶点，确切靶点未给",
+      "indication": "降脂消费产品",
+      "stageEvidence": {
+        "description": "表列消费品；不能赋创新药临床阶段或已批准治疗适应症。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "表列自研，未给逐产品销售权益和渠道净费率。消费品/食品原料不套创新药一期至三期风险净现值。",
+        "currentExactNetRightsVerified": false
+      },
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "表列具名消费多肽；Tensotide 为血糖健康食品原料的 self-affirmed GRAS 描述，未明示编号映射。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "逐产品代码与商业名称的明确映射",
+        "已实现销售收入、毛利与渠道成本",
+        "逐产品法律持有人与净销售权益"
+      ],
+      "valueTreatment": "exclude_separate_drug_rNPV_avoid_duplicate_operating_business_value",
+      "costTreatment": "保留实际研发和商业费用，不因不单列药物价值而抹除。",
+      "sharedDevelopmentGroup": "Px-003C",
+      "productClassification": "consumer_health_not_registered_therapeutic_drug"
+    },
+    {
+      "assetIndicationId": "PX001C_COSMETICS",
+      "assetId": "Px-001C",
+      "drugName": "Px-001C",
+      "nameStatus": "issuer_named",
+      "partnerOrDeveloper": "集团自研 PepiX 消费健康方向",
+      "targetOrMoA": "多肽；表只称单靶点，确切靶点未给",
+      "indication": "化妆品",
+      "stageEvidence": {
+        "description": "表列消费产品，2027 下半年新化妆品原料申报是计划；不当已完成审批或治疗药物。",
+        "clinicalRegistryIndependentlyVerified": false
+      },
+      "rightsEvidence": {
+        "description": "表列自研，未给逐产品销售权益和渠道净费率。消费品/食品原料不套创新药一期至三期风险净现值。",
+        "currentExactNetRightsVerified": false
+      },
+      "exactNetRoyaltyRate": null,
+      "currentDilutedEquityStake": null,
+      "exactNetAssetOwnership": null,
+      "successProbability": null,
+      "commercialLaunchYear": null,
+      "clinicalEndpointsVerified": null,
+      "evidence": [
+        {
+          "sourceId": "I",
+          "PDFPages": [
+            21
+          ],
+          "sourceSummary": "表列具名消费多肽；Tensotide 为血糖健康食品原料的 self-affirmed GRAS 描述，未明示编号映射。",
+          "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "publicationDateTimeHK": "2026-09-09 21:23",
+          "afterClose": true,
+          "sourceReportPeriod": "2026H1",
+          "sourceCutoffEligible": true
+        }
+      ],
+      "missingRequiredInputs": [
+        "逐产品代码与商业名称的明确映射",
+        "已实现销售收入、毛利与渠道成本",
+        "逐产品法律持有人与净销售权益"
+      ],
+      "valueTreatment": "exclude_separate_drug_rNPV_avoid_duplicate_operating_business_value",
+      "costTreatment": "保留实际研发和商业费用，不因不单列药物价值而抹除。",
+      "sharedDevelopmentGroup": "Px-001C",
+      "productClassification": "consumer_health_not_registered_therapeutic_drug"
+    }
+  ],
+  "counts": {
+    "allRows": 43,
+    "namedDrugIndicationRows": 28,
+    "unnamedOrUnallocatedRows": 12,
+    "consumerRows": 3,
+    "uniqueIDs": 43
+  },
+  "criticalMappingIssues": [
+    "DoveTree aggregate contractcap/receivedcash not allocated across unnameddrugs; IND-enabling/INDstage not approval.",
+    "GPCR specificmetabolicreceptor/indication/clinicalstage undisclosed; exactrate absent.",
+    "XS01 name/IgAN-PNH listed, but sixsiRNA portfolio progress cannotprove everyXS01 indicationstage.",
+    "SIGX2649 ChinaIND bilingualcontradiction; MP5342 PhaseI2026H2 versus2027 contradiction.",
+    "RTX117 healthyvolunteerPhaseI shared acrossCMT/VWM; not per-indication patientsuccess.",
+    "Leman META10 programme names distinctfromMETA Pharmaceuticals; genericCD19 IIT narrative not precisealltrialmapping.",
+    "METiS MTS004 PhaseIIIendpointclaimed but no endpointmetric/trialoriginal; MTS105 ODD not clinicalstage.",
+    "HistoricalSignet9.11/Leman15.26/METiS4.17/META15.34 percentonly2024latestpracticabledate.",
+    "Px002C/Tensotideidentitynotexplicit; self-affirmedGRASnotFDAapproveddrug."
+  ],
+  "limitations": [
+    "This is not exhaustive clinicaltrialregistryreview or sourcewebsearch.",
+    "Pipelinegraphics were not re-rendered in this task; no exactclinicalstage assigned from unverified progressbar.",
+    "No claim that zero placeholders are company liquidation/fairvalue or lossbound.",
+    "Pendingevidence changes require newversion; do not modify receiver'sdata/modelautomatically."
+  ],
+  "status": "Evidence extraction complete for43rows; required exact net-right/modelinputs remainmissing"
+}

@@ -1,0 +1,11 @@
+# External runtime dependencies
+node_modules/
+python_deps/
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+
+# Regenerable report page previews and workbook inspection output
+/outputs/investment_research_20261009/qa/render*/
+*.inspect.ndjson

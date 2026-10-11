@@ -1,0 +1,22 @@
+{
+  "issuerId": "I019",
+  "name": "时代天使",
+  "modelVersion": "angel-USD-whole-group-atomic-normal-PE-v1.0",
+  "effectiveHanzi": 15043,
+  "paragraphs": 75,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "USD/restated history; whole-group editable regional costs and expenses/tax/NCI/all legal shares; reports/nonGAAP/segments; liquidity/cash/debt/lease/put; known dividends excluded/half-year ex date; locked technical cross-source adjustment uncertainty; target/return/weights/annualized; source publication cutoffs; duplicate shingle QA",
+  "errors": [],
+  "limitations": [
+    "没有10/9实际全现金表；H1到基准日已付股息后现金桥为假设不冒充现时余额",
+    "原年度现金公告付款6/8与中报6/3已付不一致，均H1已付可核；截至日未来已公告股息零",
+    "海外国家销售与盈利/医生留存、医院病例队列、自由流通换手率及行业量价基准缺，量价不识别主力或精确筹码",
+    "诉讼判赔/禁令金额不可量化，悲观价不等最大损失；管理无重大准备不等诉讼消失",
+    "近60日复权跨源不完全一致，技术中可信度并给价位带，不擅改锁行情",
+    "机构目标期限及DCF全原子缺；年度WACC10.8/g3是野村新闻转述，非本模型用的折现参数",
+    "未来交易日仅排周末2027-10-09采用10/8，未验证全部未来交易假日"
+  ]
+}

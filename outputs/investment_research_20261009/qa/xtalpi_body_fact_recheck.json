@@ -1,0 +1,705 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "code": "02228.HK",
+  "informationCutoff": "2026-10-09",
+  "scope": "Read-only concise fact recheck of company body chapters5–8 and14, retainedrights/partneridentities, historicstake dates, employeeoptiondates and shares/buybacks; no wordcount or table arithmetic audit",
+  "reviewedSnapshot": {
+    "observedAtUTC": "2026-10-10T17:32:10.074Z",
+    "bodySHA256": "6b6464bad57b261e8d1049304bbe77dd5d5f499caa691f1fe8f39b431ae9675f",
+    "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+    "bodyLastWriteUTC": "2026-10-10T17:32:00.766Z",
+    "bodyBytes": 53723,
+    "path": "G:/MyTarget/outputs/investment_research_20261009/research/I027_deep.md"
+  },
+  "snapshotHistory": [
+    {
+      "observedAtUTC": "2026-10-10T17:29:37.336Z",
+      "bodySHA256": "970dcce85f11dbd169f612aaee3fdc9c3cd0b5067fd4e4cd9544049842d10318",
+      "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+      "bodyLastWriteUTC": "2026-10-10T17:27:46.649Z",
+      "bodyBytes": 52665,
+      "path": "G:/MyTarget/outputs/investment_research_20261009/research/I027_deep.md",
+      "description": "Initial body had too narrow2031/2033 expiry statement"
+    },
+    {
+      "observedAtUTC": "2026-10-10T17:31:33.251Z",
+      "bodySHA256": "aee640b1fb9788bb8f14cae26132f50ddf5554b5263a32adfc76bbd5a1e2e9bd",
+      "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+      "bodyLastWriteUTC": "2026-10-10T17:31:20.578Z",
+      "bodyBytes": 53651,
+      "path": "G:/MyTarget/outputs/investment_research_20261009/research/I027_deep.md",
+      "description": "Intermediate body corrected to2026–2034;2036 tranche subsequently identified"
+    },
+    {
+      "observedAtUTC": "2026-10-10T17:32:10.074Z",
+      "bodySHA256": "6b6464bad57b261e8d1049304bbe77dd5d5f499caa691f1fe8f39b431ae9675f",
+      "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+      "bodyLastWriteUTC": "2026-10-10T17:32:00.766Z",
+      "bodyBytes": 53723,
+      "path": "G:/MyTarget/outputs/investment_research_20261009/research/I027_deep.md",
+      "description": "Final targeted paragraphs reread afterowner correction;modelunchanged"
+    }
+  ],
+  "method": {
+    "existingReviews": [
+      "qa/xtalpi_fact_review.json",
+      "qa/xtalpi_buyback_fact_review.json",
+      "qa/xtalpi_evidence_recheck.json",
+      "qa/xtalpi_economic_review.md"
+    ],
+    "targetedPrimaryRechecks": [
+      "Saved2025 definitiveDoveTree update clauses",
+      "Saved2026interim pipeline and collaboration snippets",
+      "Saved2026interimPDF127–130 optiontable",
+      "SavedStanfordannouncement andSeptembermonthlyreturn"
+    ],
+    "noFullSourceRerun": true,
+    "noPDFRedownload": true,
+    "noBodyModelIntegrationEdits": true
+  },
+  "resolvedFindings": [
+    {
+      "id": "preIPO_option_expiry",
+      "initialBodyLine": 162,
+      "initialClaim": "不同批次在二零三一年或二零三三年到期",
+      "intermediateClaim": "二零二六至二零三四年",
+      "finalBodyLine": 169,
+      "finalClaim": "二零二六至二零三六年，部分大额批次集中二零三一及二零三三年",
+      "evidence": "InterimPDF127:8000000 shares expiry1March2036;PDF128:260000 expiry27October2026",
+      "status": "owner_corrected_and_rechecked"
+    },
+    {
+      "id": "weighted_price_precision",
+      "finalBodyLine": 169,
+      "status": "owner_corrected_and_rechecked",
+      "resolution": "Source5decimalprecisionexplicitlylabelled;notclaimedfullcontractprecision"
+    }
+  ],
+  "factChecks": [
+    {
+      "id": "DoveTree_final_and_receipts",
+      "chapter": 5,
+      "bodyLines": [
+        83,
+        85
+      ],
+      "status": "pass",
+      "claims": [
+        "USD51m received under2025 definitive agreement",
+        "USD49m further payment subject to definitive terms; USD19m subsequently received May2026",
+        "DoveTree exclusive global development/commercialisation",
+        "conditional USD5.89bn regulatory/commercial ceiling; single-digit annual net-sales royalty"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0805/2025080500993.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052701684.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "notes": "Body does not make49m unconditional current receivable; received amounts excluded from future asset value."
+    },
+    {
+      "id": "GPCR_funded_discovery",
+      "chapter": 6,
+      "bodyLines": [
+        91
+      ],
+      "status": "pass",
+      "claims": [
+        "June2026 undisclosed biopharma partner",
+        "total potential deal aboveUSD400m",
+        "upfront, earlyRD fully funded, future preclinical/clinical/commercial milestones and possible royalties"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060901622.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "notes": "Exact counterparty/upfront/royalty not invented; research net rates expressly labelled."
+    },
+    {
+      "id": "Visen_HEC_collaboration",
+      "chapter": 6,
+      "bodyLines": [
+        93
+      ],
+      "status": "pass",
+      "claims": [
+        "Visen endocrine/metabolic cooperation scale tens of millions RMB",
+        "HEC/SunshineLake intends JV/joint laboratory and several hundreds of millions RMB prospective investment"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            31,
+            32
+          ]
+        }
+      ],
+      "notes": "Prospective partner investment not treated as current XtalPi cash or complete JV equity value."
+    },
+    {
+      "id": "LCC_Stanford",
+      "chapter": 6,
+      "bodyLines": [
+        95
+      ],
+      "status": "pass",
+      "claims": [
+        "September17 announcement",
+        "LCC wholly owned",
+        "PACE combines fragments/computational design/automated synthesis",
+        "joint steering committee selects proposals"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0917/2026091701791.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "notes": "No announced guaranteed revenue/exclusive indications/minimum purchases manufactured."
+    },
+    {
+      "id": "XTN004_purpose",
+      "chapter": 7,
+      "bodyLines": [
+        99,
+        101
+      ],
+      "status": "pass",
+      "claims": [
+        "TRK/RET gut-restricted small molecule for gut pain includingIBS/IBD",
+        "2H2026 China/US IND filing plan"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            21,
+            23
+          ]
+        }
+      ],
+      "notes": "Corrected gut-pain indication; not misclassified as oncology solely from TRK/RET; preclinical activity not human efficacy."
+    },
+    {
+      "id": "ALX_and_XS01",
+      "chapter": 7,
+      "bodyLines": [
+        99,
+        103
+      ],
+      "status": "pass",
+      "claims": [
+        "ALX001 TL1A/IL23p19",
+        "ALX002 CD19/BCMA/CD3",
+        "ALX005 FcRn/HSA",
+        "XS01 IgAN/PNH",
+        "ALX2027 PhaseI plan remains forecast"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            21,
+            26,
+            27
+          ]
+        }
+      ],
+      "notes": "No claims of already established clinical superiority; grouped economics acknowledged as research."
+    },
+    {
+      "id": "partner_clinical_stage",
+      "chapter": 8,
+      "bodyLines": [
+        107,
+        109,
+        111
+      ],
+      "status": "pass",
+      "claims": [
+        "Signet SIGX1094/SIGX2649",
+        "RTX117 ReviR rare neurological disease",
+        "PEP08 PharmaEngine PRMT5 solidtumour candidate",
+        "Leman exploratory cellular therapy clinical descriptions"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            21,
+            23,
+            24
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701551.pdf",
+          "PDFPages": [
+            20,
+            21
+          ]
+        }
+      ],
+      "notes": "Planned trial milestone not stated as completed; IIT remission not PhaseIII/approval."
+    },
+    {
+      "id": "METiS_META_historical_stakes",
+      "chapter": 8,
+      "bodyLines": [
+        113
+      ],
+      "status": "pass",
+      "claims": [
+        "METiS剂泰 distinct fromMETA默达",
+        "MP5342 belongsMETA",
+        "Signet9.11/Leman15.26/METiS4.17/META15.34 percentages only2024 prospectus latest-practicable-date"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0604/2024060400065.pdf",
+          "PDFPages": [
+            425,
+            426,
+            427,
+            428,
+            429
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            21,
+            24
+          ]
+        }
+      ],
+      "notes": "No historical percentages presented as2026 current diluted ownership."
+    },
+    {
+      "id": "bilingual_conflict",
+      "chapter": 8,
+      "bodyLines": [
+        113
+      ],
+      "status": "pass",
+      "claims": [
+        "SIGX2649 IND bilingual text conflict preserved",
+        "MP5342 PhaseI 2H2026 English versus2027 Chinese conflict preserved"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            21,
+            23,
+            24
+          ]
+        }
+      ],
+      "notes": "No choosing earlier timeline as achieved."
+    },
+    {
+      "id": "net_rights_no_double_value_assertion",
+      "chapters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "bodyLines": [
+        85,
+        91,
+        103,
+        107,
+        111
+      ],
+      "status": "pass_with_research_limitation",
+      "claims": [
+        "DoveNet/GPCRNet royalties and milestones are net retained rights",
+        "OwnedMulti restricted combination; not each drug full worldwide sales",
+        "ContractMilestones no sales/royalty where not confirmed",
+        "Signet/Leman/METiS/META investment recovery not full pipeline rNPV plus equity"
+      ],
+      "modelAssetIds": [
+        "DoveNet",
+        "GPCRNet",
+        "OwnedMulti",
+        "ContractMilestones"
+      ],
+      "notes": "No body claim observed that contradicts model stated scopes; public exact legal-right percentages and asset-to-holder mapping remain incomplete. This textual check does not certify no cashflow overlap in all modeled future sums."
+    },
+    {
+      "id": "shares_buyback_denominator",
+      "chapter": 14,
+      "bodyLines": [
+        163
+      ],
+      "status": "pass",
+      "claims": [
+        "Sept30 ex-treasury4,301,176,179 andtreasury299000",
+        "Oct5 pending cancellation4,882,000",
+        "economic denominator4,296,294,179",
+        "454500 no-consideration surrender zero cash",
+        "already excluded pending cancellation cannot deduct twice"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1006/2026100601423.pdf",
+          "PDFPages": [
+            2,
+            3,
+            7,
+            8
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1005/2026100502035.pdf",
+          "PDFPages": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0907/2026090701277.pdf",
+          "PDFPages": [
+            1,
+            5
+          ]
+        }
+      ],
+      "evidenceFile": "qa/xtalpi_buyback_fact_review.json"
+    },
+    {
+      "id": "buyback_vs_chairman_cash",
+      "chapter": 14,
+      "bodyLines": [
+        165
+      ],
+      "status": "pass",
+      "claims": [
+        "six paid buybacks6,721,000 sharesHKD50,632,139",
+        "October trades not Septembermonthlyreturn",
+        "USD100m repurchase authority notactualcash",
+        "October7 chairman personal purchases zero companycash and no issued sharechange"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0609/2026060900229.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100702021.pdf",
+          "PDFPages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "evidenceFile": "qa/xtalpi_buyback_fact_review.json",
+      "notes": "Does not attribute chairman trading to company-volume demand or subtract plan ceiling."
+    },
+    {
+      "id": "preIPO_issued_platform_and_new_rights",
+      "chapter": 14,
+      "bodyLines": [
+        167
+      ],
+      "status": "pass",
+      "claims": [
+        "all underlyingPreIPO shares already issued andplatform-held",
+        "future exercise not newcompanyshares",
+        "Sept postIPO/2026scheme options46,154,720 andRSU20,881,424 rounded in prose",
+        "exercise cash research conditional oncompanyreceipt"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1006/2026100601423.pdf",
+          "PDFPages": [
+            3,
+            4,
+            7
+          ]
+        }
+      ],
+      "notes": "Current count consistent with earlier evidence; no second dilution onpreIPO platformtransfer."
+    },
+    {
+      "id": "option_price_dates",
+      "chapter": 14,
+      "bodyLines": [
+        169
+      ],
+      "status": "pass_after_owner_correction",
+      "claims": [
+        "43 H1 outstandingtranches217,649,943",
+        "weighted disclosed5decimalprice aboutUSD0.1866914",
+        "Sept217,188,943 lacksupdated tranche mapping",
+        "USD0.19 modelproxy notSept actual",
+        "expiry range2026through2036",
+        "future exercise schedule notindependently trancheverified"
+      ],
+      "sources": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+          "PDFPages": [
+            127,
+            128,
+            129,
+            130
+          ]
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1006/2026100601423.pdf",
+          "PDFPages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "table": {
+        "tranches": 43,
+        "shares": 217649943,
+        "considerationUSD": 40633376.334630005,
+        "weightedPrice": 0.18669141730319683,
+        "byExpiryYear": {
+          "2026": 260000,
+          "2027": 9279000,
+          "2028": 1851000,
+          "2029": 3094149,
+          "2030": 1370000,
+          "2031": 88965531,
+          "2032": 949500,
+          "2033": 93600259,
+          "2034": 10280504,
+          "2036": 8000000
+        },
+        "earliest": {
+          "grant": "11 January 2022",
+          "expiry": "27 October 2026",
+          "year": 2026,
+          "price": 0.18792,
+          "shares": 260000
+        },
+        "latest": {
+          "grant": "1 March 2016",
+          "expiry": "1 March 2036",
+          "year": 2036,
+          "price": 0.0015,
+          "shares": 8000000
+        }
+      },
+      "notes": "Owner corrected initial statement2031or2033 then incomplete2026–2034 range to2026–2036 after8000000-option2036 expiry verified. Printed five-decimal source prices distinguished fromfull contractprecision."
+    }
+  ],
+  "remainingMaterialMisstatements": [],
+  "limitations": [
+    "Future exercise cashreceiptparty,grantvesting,actualexercisetiming stillresearch assumptions;doesnotcertifyyearbyyearexpirycompliance",
+    "Publiccurrent dilutedinvesteeownership andlegal netrights remainincomplete",
+    "Textualnodoublevaluationstatementmatchesmodelscopes;doesnotreplacefullmodelsumverification",
+    "Bodyoutsidechapters5–8/14,wordcount,tablearithmetic,finalWord/PDFandall27deliverablesnotaudited",
+    "Laterbodyor modelhashchangesnotautomaticallyreviewed"
+  ],
+  "status": "PASS for targeted finalbodyfacts afterowner corrections; research and modeling limitations retained",
+  "selectedBodyText": [
+    {
+      "line": 81,
+      "text": "## 五、DoveTree合作的经济权利与兑现条件"
+    },
+    {
+      "line": 82,
+      "text": ""
+    },
+    {
+      "line": 83,
+      "text": "二零二五年最终合作公告说明，晶泰将为DoveTree选择的多个靶点发现和开发候选药物，领域包括肿瘤、免疫炎症、神经和代谢。对方获得相应产品的全球独占开发和商业化权利，晶泰已收五千一百万美元，并有进一步四千九百万美元的付款安排。二零二六年五月更新公告确认收到其中一千九百万美元，部分多肿瘤候选资产进入支持IND申请的研究。早期生物活性和选择性表现只能支持继续研发，不能等同于已在患者中证明持续疗效，更不能当作未来多适应症销量已经确定。"
+    },
+    {
+      "line": 84,
+      "text": ""
+    },
+    {
+      "line": 85,
+      "text": "公告披露潜在监管和商业里程碑上限五十八点九亿美元，以及未来净销售额的个位数百分比版税。这个合同上限需要跨靶点、跨阶段和商业化条件才能兑现；将它全部加到公司现金或股权价值上，会忽略失败概率、时间和对方拥有的完整市场权利。本模型只计算晶泰保留的净版税及未来风险里程碑，不加全球产品销售的全部净现值。已收首款和第二笔付款只出现在历史或近端预算，不能在管线现值中再次计入，也不能把此前条款清单的付款期限直接当作最终合同无条件应收。"
+    },
+    {
+      "line": 86,
+      "text": ""
+    },
+    {
+      "line": 87,
+      "text": "该合作的积极意义在于客户愿意为平台能力支付实质现金，并接受多个难成药靶点的共同开发。潜在风险则在于项目集中、对方的资金安排、临床推进决定和付款条件。若一批靶点失败或客户调整战略，未来款可能延迟甚至取消；晶泰保留的低比例版税意味着只有销售达到相当规模才能形成上市公司层面的显著收益。研究用不同商业年份、销售峰值和成功率表达这些差异，未将交易金额视为研究概率。上调推荐应看到新的确定付款和候选药物进入临床，而不是仅重复潜在交易上限。"
+    },
+    {
+      "line": 88,
+      "text": ""
+    },
+    {
+      "line": 89,
+      "text": "## 六、GPCR、维昇与跨机构合作"
+    },
+    {
+      "line": 90,
+      "text": ""
+    },
+    {
+      "line": 91,
+      "text": "二零二六年六月公告披露，与一家未具名的国际生物制药企业达成GPCR靶点口服小分子发现合作，潜在总价值超过四亿美元，合作方支付首款并承担所有早期研发成本，还可能支付临床前、临床及商业里程碑和未来销售分成。承担成本的约定有助于降低晶泰的早期资金负担，但合作金额及净分成细项尚未公开。模型的GPCR净资产组使用研究净费率与逐情景成功率，未将四亿美元全额列作确定未来现金，也没有额外把同一靶点算入完整自营药物销售。"
+    },
+    {
+      "line": 92,
+      "text": ""
+    },
+    {
+      "line": 93,
+      "text": "与维昇药业的合作聚焦内分泌及代谢的高价值临床需求，整体规模披露为数千万元人民币。与东阳光药的战略安排则计划建立合资公司和联合实验室，并预计由对方投入数亿元。两者都能增加客户场景和行业数据，但协议方向、预计投资与已经收到的服务收入具有不同确定性。只有实际出资、双方权利比例、项目预算及收入确认条件确定后，才能把联合公司价值完整纳入股东模型。本研究将可支撑的服务需求放入预算，并以投资支出代理未来合作投入，不将对方全部计划资本当作晶泰自己的现金。"
+    },
+    {
+      "line": 94,
+      "text": ""
+    },
+    {
+      "line": 95,
+      "text": "九月十七日公告披露，全资子公司LCC与斯坦福大学建立药物发现合作，用PACE平台连接疾病生物学、片段发现、计算设计及自动化合成，并由联合委员会选择项目。大学研究可以补充靶点洞见，商业化仍需建立知识产权、转化路径和未来授权条款。公告没有给出确定收入、独占适应症或最低采购额，本模型未为该公告单独加入大额首款。对长期投资而言，它更适合作为平台与研究生态关系的观察证据；对半年交易而言，它可以成为情绪催化，却不能直接替代盈利估值。"
+    },
+    {
+      "line": 96,
+      "text": ""
+    },
+    {
+      "line": 97,
+      "text": "## 七、自研小分子、多抗与小核酸的临床边界"
+    },
+    {
+      "line": 98,
+      "text": ""
+    },
+    {
+      "line": 99,
+      "text": "中报管线表列出XTN004、ALX001、ALX002、ALX005和XS01等自研候选。XTN004靶向TRK及RET，是肠道限制性分布的候选小分子，针对肠道疼痛及肠易激综合征、炎症性肠病相关需求，计划下半年申报中美IND；ALX系列覆盖TL1A与IL23p19、CD19与BCMA及CD3，以及FcRn与HSA等机制，部分计划二零二七年进入一期。XS01涉及IgA肾病和阵发性睡眠性血红蛋白尿症。候选物数量增加能丰富平台验证场景，但这些项目仍面临剂量、安全窗、临床疗效与注册路径的检验。中报中的下一里程碑属于管理层计划，资料截止日不能提前当作已经完成。"
+    },
+    {
+      "line": 100,
+      "text": ""
+    },
+    {
+      "line": 101,
+      "text": "XTN004的TRK及RET靶点不能仅凭名称归为肿瘤治疗；中报解释其采用肠道限制性设计，目的是处理肠道疼痛及相关疾病。投资价值需要验证局部暴露、疼痛改善、胃肠功能与全身安全窗，动物模型和酶活数据不足以确定患者获益；若肠道限制不稳定或对正常感觉及运动功能影响较大，研发假设应下修。多抗则需要兼顾结合、激活、半衰期、可制造性及免疫相关风险，单独计算高亲和力不能保证临床给药方便。对于ALX002这样的多特异性机制，健康或疾病模型中的活性与复杂患者免疫环境之间可能存在差距。本研究保留成功率折价和独立研发预算，不用“潜在同类最佳”的表述代替对照证据。"
+    },
+    {
+      "line": 102,
+      "text": ""
+    },
+    {
+      "line": 103,
+      "text": "小核酸在递送、组织选择性、持久性和安全性上具有自己的研发路径，不能从小分子服务成功率直接推导。肾病患者的临床终点、背景治疗和随访时间也会影响注册难度。模型将这些未公开销售权益细项的保留候选归入有限组合，使用总峰值而不是给每条管线都套一个完整全球市场。若实际权利属于部分持股主体或合作方分成高于预期，上市公司的净权益应下修；若试验证明更好的长期安全性和有效性、且临床成本受到伙伴承担，可同时提升成功率与现金质量。"
+    },
+    {
+      "line": 104,
+      "text": ""
+    },
+    {
+      "line": 105,
+      "text": "## 八、合作药物与参股公司的价值不能重算"
+    },
+    {
+      "line": 106,
+      "text": ""
+    },
+    {
+      "line": 107,
+      "text": "管线表还包括Signet的SIGX1094与SIGX2649、ReviR的RTX117、PharmaEngine的PEP08，以及Leman的代谢增强细胞项目等。它们展示晶泰的技术服务和孵化生态，但不同项目的经济权利不同。集团可以通过研发费、临床里程碑、许可分成或参股公司的股权获得收益，不能因表中列有候选名称就认为上市公司持有全部产品权益。本模型只对披露保留合同现金的合作设置净里程碑，参股管线主要通过金融投资回收反映，避免同时计算参股企业股权和完整药物净现值。"
+    },
+    {
+      "line": 108,
+      "text": ""
+    },
+    {
+      "line": 109,
+      "text": "SIGX1094面向弥漫性胃癌，表列未来二期计划；RTX117涉及罕见神经疾病；PEP08为PRMT5相关肿瘤候选。不同适应症的早期结果需要独立解释，不能共用一个创新药平均成功率。小样本稳定疾病可能受患者选择、既往治疗和随访影响，罕见病患者的自然病程与终点也需要研究，肿瘤靶点的潜在活性则须与竞争方案和毒性相比较。本章不编造这些项目的统一客观缓解率或患者分母，也不以获得孤儿药资格、快速通道或会议展示认定注册成功已经确定。"
+    },
+    {
+      "line": 110,
+      "text": ""
+    },
+    {
+      "line": 111,
+      "text": "Leman项目中的低剂量、无清淋及完全缓解等描述来自公司对研究进展的披露，研究者发起试验的结果不能直接替代商业注册试验。细胞产品还需要批次一致性、生产成本、长期安全性和适应症选择；即使临床结果有希望，上市公司能够实现的收益仍受持股比例、后续融资稀释和退出条件影响。Metis、其他孵化企业和联合研究项目也遵循同样的经济边界。未来若权利比例与注册证据更清楚，可把对应金融投资从回收折价改为独立项目价值，同时应移除旧股权回收部分，确保同一资产只估一次。"
+    },
+    {
+      "line": 112,
+      "text": ""
+    },
+    {
+      "line": 113,
+      "text": "公开中英文管线表也有需要保留的差异。SIGX2649相关IND状态的两种语言原文存在表述差异，META的MP5342一期时间在下半年二零二六年和二零二七年的表格信息之间也不完全一致。本研究把它们列为待后续公告确认，不自行选择较早日期当作已经完成的监管进展。METiS剂泰和META默达是不同企业，不能混用药物、融资或持股信息；Signet百分之九点一一、Leman百分之十五点二六、METiS百分之四点一七及META百分之十五点三四来自二零二四年招股书最后实际可行日期，只作为历史证据，不能标为二零二六年现行持股。"
+    },
+    {
+      "line": 114,
+      "text": ""
+    },
+    {
+      "line": 161,
+      "text": "## 十四、员工股份、回购与治理"
+    },
+    {
+      "line": 162,
+      "text": ""
+    },
+    {
+      "line": 163,
+      "text": "九月底月报的剔库存股数为四十三点零一一七六亿股，库存二十九点九万股；另外截至十月五日有四百八十八点二万股已回购待注销。经济估值排除这些已回购股份后，分母为四十二点九六二九四亿股。六月到该分母的桥还包含四十五点四五万股股东无代价交回注销，不产生公司现金。已经按经济分母排除的待注销股份，未来正式注销时不能再减一次；否则每股价值会被无端抬高。法定股数与经济分母都保留，读者可以按自己的估值口径复核。"
+    },
+    {
+      "line": 164,
+      "text": ""
+    },
+    {
+      "line": 165,
+      "text": "九月至十月五日六笔现金回购共六百七十二点一万股，披露总代价五千零六十三点二一三九万港元。其中十月两笔不在九月月报，但在资料截止前已公开；模型从六月现金出发时把六笔实际代价扣一次。董事会宣布的最高一亿美元回购计划是权限与意图，不是已经付出的现金，不额外扣完整上限。主席十月七日以个人资金买入股份是存量股票转手，公司不提供现金和财务协助；这可反映管理层意愿，却不改变公司股数，也不能当作公司回购的持续量能。"
+    },
+    {
+      "line": 166,
+      "text": ""
+    },
+    {
+      "line": 167,
+      "text": "首次公开发售前约二点一七二亿份期权对应的股票已发行并由平台持有，未来行权不再增加公司股数。研究只在可能由公司收取对价的假设下计入行权现金，并标明未来平均行权价代理。上市后及二零二六年计划的期权合计约四千六百一十五万份，未归属RSU合计约二千零八十八万份，则按实际新发权利逐年处理。股份支付加回经营现金时，也要保留这些稀释和未来员工股份的经济成本；不能把加回后的利润视为免费现金，同时假定每股分母永远不变。"
+    },
+    {
+      "line": 168,
+      "text": ""
+    },
+    {
+      "line": 169,
+      "text": "前IPO期权的现金是辅助输入，不能视作确定收款。六月中报的四十三个存续批次共二亿一千七百六十四万九千九百四十三份，按披露至小数点后五位的美元行权价复算加权约零点一八六六九美元，该精度不代表完整合同原始精度；九月存续数量降至二亿一千七百一十八万八千九百四十三份，但没有公布变动后的完整批次映射。模型采用美元零点一九的研究平均，再按合同换算处理，不能把它标为九月实测均价。各批次到期日分布于二零二六至二零三六年，部分大额批次集中在二零三一及二零三三年；临近到期批次不能在模型中拖到较晚年份行权。年度汇总行权计划只是可能收款的代理，并未逐笔验证实际行权日期、到期前安排和员工行为。若失效或收款归属不符合假设，应删去相关现金；上市后和二零二六年计划的平均行权价也不是所有批次统一的已核实价格。"
+    },
+    {
+      "line": 170,
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "issuerId": "I008",
+  "securityId": "S008",
+  "asOf": "2026-10-09",
+  "price": 49,
+  "lockedSHA256": "971a3b248e9e58a539cefefa536b422b56b06258433711d726c232fefd59197a",
+  "historySHA256": "760dca6fed7e336d615e5bf93fc439fdaa3a1ea830c069c33cd27c9c9ef6b707",
+  "status": "PASS frozen market technical arithmetic",
+  "checksCount": 89,
+  "checks": [
+    {
+      "name": "cutoff",
+      "actual": "2026-10-09",
+      "expected": "2026-10-09",
+      "pass": true
+    },
+    {
+      "name": "close pair",
+      "actual": 49,
+      "expected": 49,
+      "pass": true
+    },
+    {
+      "name": "volume in shares pair",
+      "actual": 16254644,
+      "expected": 16254644,
+      "pass": true
+    },
+    {
+      "name": "turnover HKD pair",
+      "actual": 783189920.24,
+      "expected": 783189920.24,
+      "pass": true
+    },
+    {
+      "name": "nominal cutoff price to historical normalization",
+      "actual": 49,
+      "expected": 49,
+      "pass": true
+    },
+    {
+      "name": "first listed day",
+      "actual": "2025-12-30",
+      "expected": "2025-12-30",
+      "pass": true
+    },
+    {
+      "name": "192 real daily bars",
+      "actual": 192,
+      "expected": 192,
+      "pass": true
+    },
+    {
+      "name": "41 weekly bars from actual days",
+      "actual": 41,
+      "expected": 41,
+      "pass": true
+    },
+    {
+      "name": "weekly OHLCV grouping",
+      "actual": "[{\"weekStart\":\"2025-12-29\",\"date\":\"2026-01-02\",\"open\":35,\"high\":39.5,\"low\":29.98,\"close\":37.580002,\"volume\":42042735,\"tradingDays\":3},{\"weekStart\":\"2026-01-05\",\"date\":\"2026-01-09\",\"open\":37.799999,\"high\":48.459999,\"low\":35.02,\"close\":47,\"volume\":20837323,\"tradingDays\":5},{\"weekStart\":\"2026-01-12\",\"date\":\"2026-01-16\",\"open\":48.099998,\"high\":59.849998,\"low\":48.099998,\"close\":55.200001,\"volume\":23602991,\"tradingDays\":5},{\"weekStart\":\"2026-01-19\",\"date\":\"2026-01-23\",\"open\":54.799999,\"high\":64.400002,\"low\":52.049999,\"close\":62.599998,\"volume\":10920900,\"tradingDays\":5},{\"weekStart\":\"2026-01-26\",\"date\":\"2026-01-30\",\"open\":64.5,\"high\":67.400002,\"low\":54.799999,\"close\":62.900002,\"volume\":11366376,\"tradingDays\":5},{\"weekStart\":\"2026-02-02\",\"date\":\"2026-02-06\",\"open\":62.700001,\"high\":72.400002,\"low\":56.5,\"close\":62.150002,\"volume\":10972376,\"tradingDays\":5},{\"weekStart\":\"2026-02-09\",\"date\":\"2026-02-13\",\"open\":63.5,\"high\":78.099998,\"low\":60,\"close\":73.5,\"volume\":10586458,\"tradingDays\":5},{\"weekStart\":\"2026-02-16\",\"date\":\"2026-02-20\",\"open\":76.849998,\"high\":80.900002,\"low\":70,\"close\":73.300003,\"volume\":2758400,\"tradingDays\":2},{\"weekStart\":\"2026-02-23\",\"date\":\"2026-02-27\",\"open\":72.300003,\"high\":72.349998,\"low\":60.5,\"close\":61.950001,\"volume\":9852114,\"tradingDays\":5},{\"weekStart\":\"2026-03-02\",\"date\":\"2026-03-06\",\"open\":61.400002,\"high\":63,\"low\":49.900002,\"close\":55.5,\"volume\":14837218,\"tradingDays\":5},{\"weekStart\":\"2026-03-09\",\"date\":\"2026-03-13\",\"open\":53,\"high\":67.449997,\"low\":50.549999,\"close\":55.150002,\"volume\":20387649,\"tradingDays\":5},{\"weekStart\":\"2026-03-16\",\"date\":\"2026-03-20\",\"open\":53.099998,\"high\":57.799999,\"low\":52.900002,\"close\":54.900002,\"volume\":7399796,\"tradingDays\":5},{\"weekStart\":\"2026-03-23\",\"date\":\"2026-03-27\",\"open\":52.200001,\"high\":57.599998,\"low\":46.720001,\"close\":57.200001,\"volume\":13249697,\"tradingDays\":5},{\"weekStart\":\"2026-03-30\",\"date\":\"2026-04-02\",\"open\":65.75,\"high\":65.75,\"low\":53,\"close\":57.25,\"volume\":26055604,\"tradingDays\":4},{\"weekStart\":\"2026-04-06\",\"date\":\"2026-04-10\",\"open\":59.650002,\"high\":64.400002,\"low\":57.25,\"close\":62.099998,\"volume\":12907138,\"tradingDays\":3},{\"weekStart\":\"2026-04-13\",\"date\":\"2026-04-17\",\"open\":61.799999,\"high\":63.349998,\"low\":58.349998,\"close\":60.799999,\"volume\":14804314,\"tradingDays\":5},{\"weekStart\":\"2026-04-20\",\"date\":\"2026-04-24\",\"open\":60.849998,\"high\":75.900002,\"low\":60.400002,\"close\":70.75,\"volume\":25768701,\"tradingDays\":5},{\"weekStart\":\"2026-04-27\",\"date\":\"2026-04-30\",\"open\":71,\"high\":71.800003,\"low\":61.049999,\"close\":63.049999,\"volume\":11711834,\"tradingDays\":4},{\"weekStart\":\"2026-05-04\",\"date\":\"2026-05-08\",\"open\":64,\"high\":66.099998,\"low\":59.25,\"close\":64.300003,\"volume\":9788470,\"tradingDays\":5},{\"weekStart\":\"2026-05-11\",\"date\":\"2026-05-15\",\"open\":64.449997,\"high\":69.349998,\"low\":52.299999,\"close\":52.950001,\"volume\":17895087,\"tradingDays\":5},{\"weekStart\":\"2026-05-18\",\"date\":\"2026-05-22\",\"open\":53,\"high\":54.799999,\"low\":45.360001,\"close\":50.400002,\"volume\":16291768,\"tradingDays\":5},{\"weekStart\":\"2026-05-25\",\"date\":\"2026-05-29\",\"open\":50.599998,\"high\":52,\"low\":40.5,\"close\":41.580002,\"volume\":16815516,\"tradingDays\":4},{\"weekStart\":\"2026-06-01\",\"date\":\"2026-06-05\",\"open\":41.740002,\"high\":42.16,\"low\":37.299999,\"close\":37.98,\"volume\":23143066,\"tradingDays\":5},{\"weekStart\":\"2026-06-08\",\"date\":\"2026-06-12\",\"open\":37.34,\"high\":37.34,\"low\":30.82,\"close\":33.84,\"volume\":29738584,\"tradingDays\":5},{\"weekStart\":\"2026-06-15\",\"date\":\"2026-06-18\",\"open\":35.900002,\"high\":38.34,\"low\":32.66,\"close\":38.34,\"volume\":18300498,\"tradingDays\":4},{\"weekStart\":\"2026-06-22\",\"date\":\"2026-06-26\",\"open\":38.34,\"high\":48.880001,\"low\":36.139999,\"close\":38.220001,\"volume\":45131954,\"tradingDays\":5},{\"weekStart\":\"2026-06-29\",\"date\":\"2026-07-03\",\"open\":35.639999,\"high\":43.880001,\"low\":34.18,\"close\":37.380001,\"volume\":135241534,\"tradingDays\":4},{\"weekStart\":\"2026-07-06\",\"date\":\"2026-07-10\",\"open\":37,\"high\":44.18,\"low\":34.52,\"close\":42.82,\"volume\":101957657,\"tradingDays\":5},{\"weekStart\":\"2026-07-13\",\"date\":\"2026-07-17\",\"open\":44,\"high\":53.900002,\"low\":42.68,\"close\":43.200001,\"volume\":101703433,\"tradingDays\":5},{\"weekStart\":\"2026-07-20\",\"date\":\"2026-07-24\",\"open\":42.98,\"high\":49.5,\"low\":41,\"close\":47.060001,\"volume\":73578878,\"tradingDays\":5},{\"weekStart\":\"2026-07-27\",\"date\":\"2026-07-31\",\"open\":47.060001,\"high\":48.279999,\"low\":38.759998,\"close\":45.700001,\"volume\":70468575,\"tradingDays\":5},{\"weekStart\":\"2026-08-03\",\"date\":\"2026-08-07\",\"open\":46.700001,\"high\":47.220001,\"low\":39.880001,\"close\":45.439999,\"volume\":66312791,\"tradingDays\":5},{\"weekStart\":\"2026-08-10\",\"date\":\"2026-08-14\",\"open\":48.220001,\"high\":51.200001,\"low\":43.299999,\"close\":44.560001,\"volume\":78666644,\"tradingDays\":5},{\"weekStart\":\"2026-08-17\",\"date\":\"2026-08-21\",\"open\":45.34,\"high\":46.119999,\"low\":38.799999,\"close\":40.619999,\"volume\":100000354,\"tradingDays\":5},{\"weekStart\":\"2026-08-24\",\"date\":\"2026-08-28\",\"open\":41.200001,\"high\":48.5,\"low\":39.82,\"close\":46.299999,\"volume\":71016295,\"tradingDays\":5},{\"weekStart\":\"2026-08-31\",\"date\":\"2026-09-04\",\"open\":45.060001,\"high\":50.5,\"low\":42.82,\"close\":48.759998,\"volume\":59120401,\"tradingDays\":5},{\"weekStart\":\"2026-09-07\",\"date\":\"2026-09-11\",\"open\":49.900002,\"high\":55.400002,\"low\":47.279999,\"close\":50.5,\"volume\":93930749,\"tradingDays\":5},{\"weekStart\":\"2026-09-14\",\"date\":\"2026-09-18\",\"open\":49.400002,\"high\":60.799999,\"low\":49.259998,\"close\":60.799999,\"volume\":95972900,\"tradingDays\":5},{\"weekStart\":\"2026-09-21\",\"date\":\"2026-09-25\",\"open\":63,\"high\":65.199997,\"low\":54.349998,\"close\":55.650002,\"volume\":80558251,\"tradingDays\":5},{\"weekStart\":\"2026-09-28\",\"date\":\"2026-10-02\",\"open\":56.150002,\"high\":61.349998,\"low\":52.900002,\"close\":57.599998,\"volume\":46028209,\"tradingDays\":4},{\"weekStart\":\"2026-10-05\",\"date\":\"2026-10-09\",\"open\":58.299999,\"high\":59.799999,\"low\":46.599998,\"close\":49,\"volume\":67930971,\"tradingDays\":5}]",
+      "expected": "[{\"weekStart\":\"2025-12-29\",\"date\":\"2026-01-02\",\"open\":35,\"high\":39.5,\"low\":29.98,\"close\":37.580002,\"volume\":42042735,\"tradingDays\":3},{\"weekStart\":\"2026-01-05\",\"date\":\"2026-01-09\",\"open\":37.799999,\"high\":48.459999,\"low\":35.02,\"close\":47,\"volume\":20837323,\"tradingDays\":5},{\"weekStart\":\"2026-01-12\",\"date\":\"2026-01-16\",\"open\":48.099998,\"high\":59.849998,\"low\":48.099998,\"close\":55.200001,\"volume\":23602991,\"tradingDays\":5},{\"weekStart\":\"2026-01-19\",\"date\":\"2026-01-23\",\"open\":54.799999,\"high\":64.400002,\"low\":52.049999,\"close\":62.599998,\"volume\":10920900,\"tradingDays\":5},{\"weekStart\":\"2026-01-26\",\"date\":\"2026-01-30\",\"open\":64.5,\"high\":67.400002,\"low\":54.799999,\"close\":62.900002,\"volume\":11366376,\"tradingDays\":5},{\"weekStart\":\"2026-02-02\",\"date\":\"2026-02-06\",\"open\":62.700001,\"high\":72.400002,\"low\":56.5,\"close\":62.150002,\"volume\":10972376,\"tradingDays\":5},{\"weekStart\":\"2026-02-09\",\"date\":\"2026-02-13\",\"open\":63.5,\"high\":78.099998,\"low\":60,\"close\":73.5,\"volume\":10586458,\"tradingDays\":5},{\"weekStart\":\"2026-02-16\",\"date\":\"2026-02-20\",\"open\":76.849998,\"high\":80.900002,\"low\":70,\"close\":73.300003,\"volume\":2758400,\"tradingDays\":2},{\"weekStart\":\"2026-02-23\",\"date\":\"2026-02-27\",\"open\":72.300003,\"high\":72.349998,\"low\":60.5,\"close\":61.950001,\"volume\":9852114,\"tradingDays\":5},{\"weekStart\":\"2026-03-02\",\"date\":\"2026-03-06\",\"open\":61.400002,\"high\":63,\"low\":49.900002,\"close\":55.5,\"volume\":14837218,\"tradingDays\":5},{\"weekStart\":\"2026-03-09\",\"date\":\"2026-03-13\",\"open\":53,\"high\":67.449997,\"low\":50.549999,\"close\":55.150002,\"volume\":20387649,\"tradingDays\":5},{\"weekStart\":\"2026-03-16\",\"date\":\"2026-03-20\",\"open\":53.099998,\"high\":57.799999,\"low\":52.900002,\"close\":54.900002,\"volume\":7399796,\"tradingDays\":5},{\"weekStart\":\"2026-03-23\",\"date\":\"2026-03-27\",\"open\":52.200001,\"high\":57.599998,\"low\":46.720001,\"close\":57.200001,\"volume\":13249697,\"tradingDays\":5},{\"weekStart\":\"2026-03-30\",\"date\":\"2026-04-02\",\"open\":65.75,\"high\":65.75,\"low\":53,\"close\":57.25,\"volume\":26055604,\"tradingDays\":4},{\"weekStart\":\"2026-04-06\",\"date\":\"2026-04-10\",\"open\":59.650002,\"high\":64.400002,\"low\":57.25,\"close\":62.099998,\"volume\":12907138,\"tradingDays\":3},{\"weekStart\":\"2026-04-13\",\"date\":\"2026-04-17\",\"open\":61.799999,\"high\":63.349998,\"low\":58.349998,\"close\":60.799999,\"volume\":14804314,\"tradingDays\":5},{\"weekStart\":\"2026-04-20\",\"date\":\"2026-04-24\",\"open\":60.849998,\"high\":75.900002,\"low\":60.400002,\"close\":70.75,\"volume\":25768701,\"tradingDays\":5},{\"weekStart\":\"2026-04-27\",\"date\":\"2026-04-30\",\"open\":71,\"high\":71.800003,\"low\":61.049999,\"close\":63.049999,\"volume\":11711834,\"tradingDays\":4},{\"weekStart\":\"2026-05-04\",\"date\":\"2026-05-08\",\"open\":64,\"high\":66.099998,\"low\":59.25,\"close\":64.300003,\"volume\":9788470,\"tradingDays\":5},{\"weekStart\":\"2026-05-11\",\"date\":\"2026-05-15\",\"open\":64.449997,\"high\":69.349998,\"low\":52.299999,\"close\":52.950001,\"volume\":17895087,\"tradingDays\":5},{\"weekStart\":\"2026-05-18\",\"date\":\"2026-05-22\",\"open\":53,\"high\":54.799999,\"low\":45.360001,\"close\":50.400002,\"volume\":16291768,\"tradingDays\":5},{\"weekStart\":\"2026-05-25\",\"date\":\"2026-05-29\",\"open\":50.599998,\"high\":52,\"low\":40.5,\"close\":41.580002,\"volume\":16815516,\"tradingDays\":4},{\"weekStart\":\"2026-06-01\",\"date\":\"2026-06-05\",\"open\":41.740002,\"high\":42.16,\"low\":37.299999,\"close\":37.98,\"volume\":23143066,\"tradingDays\":5},{\"weekStart\":\"2026-06-08\",\"date\":\"2026-06-12\",\"open\":37.34,\"high\":37.34,\"low\":30.82,\"close\":33.84,\"volume\":29738584,\"tradingDays\":5},{\"weekStart\":\"2026-06-15\",\"date\":\"2026-06-18\",\"open\":35.900002,\"high\":38.34,\"low\":32.66,\"close\":38.34,\"volume\":18300498,\"tradingDays\":4},{\"weekStart\":\"2026-06-22\",\"date\":\"2026-06-26\",\"open\":38.34,\"high\":48.880001,\"low\":36.139999,\"close\":38.220001,\"volume\":45131954,\"tradingDays\":5},{\"weekStart\":\"2026-06-29\",\"date\":\"2026-07-03\",\"open\":35.639999,\"high\":43.880001,\"low\":34.18,\"close\":37.380001,\"volume\":135241534,\"tradingDays\":4},{\"weekStart\":\"2026-07-06\",\"date\":\"2026-07-10\",\"open\":37,\"high\":44.18,\"low\":34.52,\"close\":42.82,\"volume\":101957657,\"tradingDays\":5},{\"weekStart\":\"2026-07-13\",\"date\":\"2026-07-17\",\"open\":44,\"high\":53.900002,\"low\":42.68,\"close\":43.200001,\"volume\":101703433,\"tradingDays\":5},{\"weekStart\":\"2026-07-20\",\"date\":\"2026-07-24\",\"open\":42.98,\"high\":49.5,\"low\":41,\"close\":47.060001,\"volume\":73578878,\"tradingDays\":5},{\"weekStart\":\"2026-07-27\",\"date\":\"2026-07-31\",\"open\":47.060001,\"high\":48.279999,\"low\":38.759998,\"close\":45.700001,\"volume\":70468575,\"tradingDays\":5},{\"weekStart\":\"2026-08-03\",\"date\":\"2026-08-07\",\"open\":46.700001,\"high\":47.220001,\"low\":39.880001,\"close\":45.439999,\"volume\":66312791,\"tradingDays\":5},{\"weekStart\":\"2026-08-10\",\"date\":\"2026-08-14\",\"open\":48.220001,\"high\":51.200001,\"low\":43.299999,\"close\":44.560001,\"volume\":78666644,\"tradingDays\":5},{\"weekStart\":\"2026-08-17\",\"date\":\"2026-08-21\",\"open\":45.34,\"high\":46.119999,\"low\":38.799999,\"close\":40.619999,\"volume\":100000354,\"tradingDays\":5},{\"weekStart\":\"2026-08-24\",\"date\":\"2026-08-28\",\"open\":41.200001,\"high\":48.5,\"low\":39.82,\"close\":46.299999,\"volume\":71016295,\"tradingDays\":5},{\"weekStart\":\"2026-08-31\",\"date\":\"2026-09-04\",\"open\":45.060001,\"high\":50.5,\"low\":42.82,\"close\":48.759998,\"volume\":59120401,\"tradingDays\":5},{\"weekStart\":\"2026-09-07\",\"date\":\"2026-09-11\",\"open\":49.900002,\"high\":55.400002,\"low\":47.279999,\"close\":50.5,\"volume\":93930749,\"tradingDays\":5},{\"weekStart\":\"2026-09-14\",\"date\":\"2026-09-18\",\"open\":49.400002,\"high\":60.799999,\"low\":49.259998,\"close\":60.799999,\"volume\":95972900,\"tradingDays\":5},{\"weekStart\":\"2026-09-21\",\"date\":\"2026-09-25\",\"open\":63,\"high\":65.199997,\"low\":54.349998,\"close\":55.650002,\"volume\":80558251,\"tradingDays\":5},{\"weekStart\":\"2026-09-28\",\"date\":\"2026-10-02\",\"open\":56.150002,\"high\":61.349998,\"low\":52.900002,\"close\":57.599998,\"volume\":46028209,\"tradingDays\":4},{\"weekStart\":\"2026-10-05\",\"date\":\"2026-10-09\",\"open\":58.299999,\"high\":59.799999,\"low\":46.599998,\"close\":49,\"volume\":67930971,\"tradingDays\":5}]",
+      "pass": true
+    },
+    {
+      "name": "daily MA20",
+      "actual": 55.4745,
+      "expected": 55.474500099999986,
+      "pass": true
+    },
+    {
+      "name": "daily MA distance20",
+      "actual": -11.671128,
+      "expected": -11.67112833523305,
+      "pass": true
+    },
+    {
+      "name": "daily MA slope20",
+      "actual": 1.127498,
+      "expected": 1.1274977223343807,
+      "pass": true
+    },
+    {
+      "name": "daily return20",
+      "actual": -9.090912,
+      "expected": -9.090912464159096,
+      "pass": true
+    },
+    {
+      "name": "daily MA60",
+      "actual": 48.714333,
+      "expected": 48.714333450000005,
+      "pass": true
+    },
+    {
+      "name": "daily MA distance60",
+      "actual": 0.586412,
+      "expected": 0.5864116980953904,
+      "pass": true
+    },
+    {
+      "name": "daily MA slope60",
+      "actual": 1.122328,
+      "expected": 1.1223283102069548,
+      "pass": true
+    },
+    {
+      "name": "daily return60",
+      "actual": -0.0408,
+      "expected": -0.0407996736026206,
+      "pass": true
+    },
+    {
+      "name": "daily MA120",
+      "actual": 48.6925,
+      "expected": 48.69250018333334,
+      "pass": true
+    },
+    {
+      "name": "daily MA distance120",
+      "actual": 0.631514,
+      "expected": 0.6315137146560401,
+      "pass": true
+    },
+    {
+      "name": "daily MA slope120",
+      "actual": -0.644617,
+      "expected": -0.6446170792162587,
+      "pass": true
+    },
+    {
+      "name": "daily return120",
+      "actual": -19.407893,
+      "expected": -19.407893411314035,
+      "pass": true
+    },
+    {
+      "name": "daily MA250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "daily MA distance250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "daily MA slope250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "daily return250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "daily mean volume5",
+      "actual": 13586194.2,
+      "expected": 13586194.2,
+      "pass": true
+    },
+    {
+      "name": "daily mean volume20",
+      "actual": 15739754.6,
+      "expected": 15739754.6,
+      "pass": true
+    },
+    {
+      "name": "daily mean volume60",
+      "actual": 15422760.55,
+      "expected": 15422760.55,
+      "pass": true
+    },
+    {
+      "name": "daily last volume vs previous20",
+      "actual": 1.030228,
+      "expected": 1.0302281680862022,
+      "pass": true
+    },
+    {
+      "name": "daily up volume",
+      "actual": 149697328,
+      "expected": 149697328,
+      "pass": true
+    },
+    {
+      "name": "daily down volume",
+      "actual": 165097764,
+      "expected": 165097764,
+      "pass": true
+    },
+    {
+      "name": "daily up days",
+      "actual": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "name": "daily down days",
+      "actual": 12,
+      "expected": 12,
+      "pass": true
+    },
+    {
+      "name": "daily up down volume ratio",
+      "actual": 0.906719,
+      "expected": 0.9067192939087897,
+      "pass": true
+    },
+    {
+      "name": "daily low20",
+      "actual": 46.599998,
+      "expected": 46.599998,
+      "pass": true
+    },
+    {
+      "name": "daily high20",
+      "actual": 65.199997,
+      "expected": 65.199997,
+      "pass": true
+    },
+    {
+      "name": "daily low60",
+      "actual": 38.759998,
+      "expected": 38.759998,
+      "pass": true
+    },
+    {
+      "name": "daily high60",
+      "actual": 65.199997,
+      "expected": 65.199997,
+      "pass": true
+    },
+    {
+      "name": "daily RSI Wilder14",
+      "actual": 43.61431,
+      "expected": 43.61431026548821,
+      "pass": true
+    },
+    {
+      "name": "daily ATR Wilder14",
+      "actual": 4.186056,
+      "expected": 4.186055653411274,
+      "pass": true
+    },
+    {
+      "name": "daily ATR fraction price",
+      "actual": 8.542971,
+      "expected": 8.542970721247498,
+      "pass": true
+    },
+    {
+      "name": "daily MACD DIF",
+      "actual": 0.809645,
+      "expected": 0.8096454930673929,
+      "pass": true
+    },
+    {
+      "name": "daily MACD DEA",
+      "actual": 2.158581,
+      "expected": 2.158581076372971,
+      "pass": true
+    },
+    {
+      "name": "daily MACD 2x histogram",
+      "actual": -2.697871,
+      "expected": -2.697871166611156,
+      "pass": true
+    },
+    {
+      "name": "daily real window count",
+      "actual": 192,
+      "expected": 192,
+      "pass": true
+    },
+    {
+      "name": "daily incomplete year flag",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "daily real-history high",
+      "actual": 80.900002,
+      "expected": 80.900002,
+      "pass": true
+    },
+    {
+      "name": "daily real-history low",
+      "actual": 29.98,
+      "expected": 29.98,
+      "pass": true
+    },
+    {
+      "name": "daily close based drawdown",
+      "actual": -57.215352,
+      "expected": -57.21535217216272,
+      "pass": true
+    },
+    {
+      "name": "weekly MA20",
+      "actual": 45.2675,
+      "expected": 45.26750009999999,
+      "pass": true
+    },
+    {
+      "name": "weekly MA distance20",
+      "actual": 8.24543,
+      "expected": 8.24542970509654,
+      "pass": true
+    },
+    {
+      "name": "weekly MA slope20",
+      "actual": -2.989553,
+      "expected": -2.989553255916011,
+      "pass": true
+    },
+    {
+      "name": "weekly return20",
+      "actual": -2.777782,
+      "expected": -2.777781635802312,
+      "pass": true
+    },
+    {
+      "name": "weekly MA60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA distance60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA slope60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly return60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA120",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA distance120",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA slope120",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly return120",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA distance250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly MA slope250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly return250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly mean volume5",
+      "actual": 76884216,
+      "expected": 76884216,
+      "pass": true
+    },
+    {
+      "name": "weekly mean volume20",
+      "actual": 68780863,
+      "expected": 68780863,
+      "pass": true
+    },
+    {
+      "name": "weekly mean volume60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly last volume vs previous20",
+      "actual": 1.026165,
+      "expected": 1.0261646050830282,
+      "pass": true
+    },
+    {
+      "name": "weekly up volume",
+      "actual": 661609020,
+      "expected": 661609020,
+      "pass": true
+    },
+    {
+      "name": "weekly down volume",
+      "actual": 714008240,
+      "expected": 714008240,
+      "pass": true
+    },
+    {
+      "name": "weekly up days",
+      "actual": 9,
+      "expected": 9,
+      "pass": true
+    },
+    {
+      "name": "weekly down days",
+      "actual": 11,
+      "expected": 11,
+      "pass": true
+    },
+    {
+      "name": "weekly up down volume ratio",
+      "actual": 0.926613,
+      "expected": 0.9266125836306875,
+      "pass": true
+    },
+    {
+      "name": "weekly low20",
+      "actual": 30.82,
+      "expected": 30.82,
+      "pass": true
+    },
+    {
+      "name": "weekly high20",
+      "actual": 65.199997,
+      "expected": 65.199997,
+      "pass": true
+    },
+    {
+      "name": "weekly low60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly high60",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly RSI Wilder14",
+      "actual": 51.400644,
+      "expected": 51.400643827780435,
+      "pass": true
+    },
+    {
+      "name": "weekly ATR Wilder14",
+      "actual": 9.9276,
+      "expected": 9.927599867486872,
+      "pass": true
+    },
+    {
+      "name": "weekly ATR fraction price",
+      "actual": 20.260408,
+      "expected": 20.26040789283035,
+      "pass": true
+    },
+    {
+      "name": "weekly MACD DIF",
+      "actual": -0.5819,
+      "expected": -0.5819003102349782,
+      "pass": true
+    },
+    {
+      "name": "weekly MACD DEA",
+      "actual": -2.750021,
+      "expected": -2.7500212832904887,
+      "pass": true
+    },
+    {
+      "name": "weekly MACD 2x histogram",
+      "actual": 4.336242,
+      "expected": 4.336241946111021,
+      "pass": true
+    },
+    {
+      "name": "weekly real window count",
+      "actual": 41,
+      "expected": 41,
+      "pass": true
+    },
+    {
+      "name": "weekly incomplete year flag",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "weekly real-history high",
+      "actual": 80.900002,
+      "expected": 80.900002,
+      "pass": true
+    },
+    {
+      "name": "weekly real-history low",
+      "actual": 29.98,
+      "expected": 29.98,
+      "pass": true
+    },
+    {
+      "name": "weekly close based drawdown",
+      "actual": -53.959184,
+      "expected": -53.95918367346939,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "192days/41weeks are all listed history, not a complete year or three years",
+    "No 250day/60week MA synthesized",
+    "Volume uses shares; no free-float turnover or intraday volume distribution is implied",
+    "Relative strength follows locked market and coarse innovation-drug benchmark; no new live quotes used",
+    "Indicators have overlapping price information and do not prove accumulation or future price"
+  ]
+}

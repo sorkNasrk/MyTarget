@@ -1,0 +1,1561 @@
+{
+  "createdAt": "2026-10-11T07:25:15.941Z",
+  "bundleFingerprintObserved": "f94f3d19b4e62e0b",
+  "scope": "92 issuers / 96 stocks; products excluded. No bundle/build changes by this audit.",
+  "changedFiles": [
+    "tools/publication_metadata.mjs",
+    "tools/financial_metadata.mjs",
+    "data/tongcheng_model.json",
+    "data/yuewen_model.json",
+    "data/nio_model.json",
+    "data/horizon_model.json",
+    "data/ubtech_model.json",
+    "data/zhongan_model.json",
+    "data/tech_primary_verified.json"
+  ],
+  "releases": [
+    {
+      "issuerId": "I008",
+      "name": "英矽智能",
+      "modelFile": "insilico_model.json",
+      "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+      "approvedByRoot": true,
+      "integratedInObservedBundle": true,
+      "qa": [
+        {
+          "file": "insilico_adapter_qa.json",
+          "modelVersion": "insilico-v2-26yearNetRights-CBrepayConvert-H1actualBridge",
+          "passed": true,
+          "checks": 56364
+        }
+      ],
+      "limitation": "适配QA存在不代表根整合验收；发布确认和生产整合由根维护。"
+    },
+    {
+      "issuerId": "I027",
+      "name": "晶泰控股",
+      "modelFile": "xtalpi_model.json",
+      "modelVersion": "xtalpi-v1-netContract-investmentRecovery-CBJan27-H2LeaseTotal",
+      "approvedByRoot": false,
+      "integratedInObservedBundle": false,
+      "qa": [
+        {
+          "file": "xtalpi_adapter_qa.json",
+          "modelVersion": "xtalpi-v2-perDrugZeroUnknown-UnallocatedClinical-CBJan27-H2LeaseTotal",
+          "passed": true,
+          "checks": 86860
+        }
+      ],
+      "limitation": "适配QA存在不代表根整合验收；发布确认和生产整合由根维护。"
+    },
+    {
+      "issuerId": "I083",
+      "name": "众安在线",
+      "modelFile": "zhongan_model.json",
+      "modelVersion": "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
+      "approvedByRoot": true,
+      "integratedInObservedBundle": true,
+      "qa": [
+        {
+          "file": "zhongan_qa.json",
+          "modelVersion": "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
+          "passed": true,
+          "checks": {
+            "FYService": true,
+            "FYUnderwriting": true,
+            "FYProfit": true,
+            "FYAdjusted": true,
+            "FYBook": true,
+            "FYCash": true,
+            "FYCoRDirection": true,
+            "H1Service": true,
+            "H1Underwriting": true,
+            "H1CoR": true,
+            "H1Investment": true,
+            "H1OtherIncome": true,
+            "H1OtherExpense": true,
+            "H1Profit": true,
+            "H1Comprehensive": true,
+            "H1Book": true,
+            "H1Cash": true,
+            "H1CashComponents": true,
+            "H1Assets": true,
+            "H1Liabilities": true,
+            "H1Balance": true,
+            "H1EquityMethod": true,
+            "H1GlobalRoll": true,
+            "H1Segments": true,
+            "EcosystemRevenue": true,
+            "EcosystemGWP": true,
+            "Capital": true,
+            "BondPaidAlready": true,
+            "PlacingIncluded": true,
+            "Q1Ratios": true,
+            "Q2Ratios": true,
+            "Q2RecognizedBalance": true,
+            "Q2CapitalBridge": true,
+            "Q2Adjustments": true,
+            "Q2PlacingNotNewCash": true,
+            "Q2NoFalseMissing": true,
+            "HistoryNotInvented": true,
+            "BankLabelsLimited": true,
+            "InsuranceNotTechPS": true
+          },
+          "characters": 13062
+        },
+        {
+          "file": "zhongan_native_workbook_qa.json",
+          "modelVersion": "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
+          "passed": true,
+          "checks": 53496
+        }
+      ],
+      "limitation": "适配QA存在不代表根整合验收；发布确认和生产整合由根维护。"
+    },
+    {
+      "issuerId": "I032",
+      "name": "远大医药",
+      "modelFile": "grand_pharma_model.json",
+      "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
+      "approvedByRoot": true,
+      "integratedInObservedBundle": true,
+      "qa": [
+        {
+          "file": "grand_pharma_qa.json",
+          "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
+          "passed": true,
+          "checks": 1075,
+          "characters": 14051
+        },
+        {
+          "file": "grand_pharma_workbook_qa.json",
+          "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
+          "passed": true,
+          "checks": 28954
+        }
+      ],
+      "limitation": "适配QA存在不代表根整合验收；发布确认和生产整合由根维护。"
+    }
+  ],
+  "checks": 72,
+  "passed": false,
+  "errors": [
+    "I027 dedicated QA version matches model"
+  ],
+  "tests": [
+    {
+      "name": "date before annual label",
+      "passed": true,
+      "details": {
+        "actual": "2026-04-24",
+        "expected": "2026-04-24"
+      }
+    },
+    {
+      "name": "date before annual label is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "date before interim label",
+      "passed": true,
+      "details": {
+        "actual": "2026-09-24",
+        "expected": "2026-09-24"
+      }
+    },
+    {
+      "name": "date before interim label earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "date before interim label is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source date after label",
+      "passed": true,
+      "details": {
+        "actual": "2026-09-15",
+        "expected": "2026-09-15"
+      }
+    },
+    {
+      "name": "source date after label earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source date after label is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "separate earlier clock",
+      "passed": true,
+      "details": {
+        "actual": "2026-09-29",
+        "expected": "2026-09-29"
+      }
+    },
+    {
+      "name": "separate earlier clock earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "earlier clock not assigned to interim source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "separate earlier clock is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual with comma",
+      "passed": true,
+      "details": {
+        "actual": "2026-04-09",
+        "expected": "2026-04-09"
+      }
+    },
+    {
+      "name": "annual with comma earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual with comma is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual results before source",
+      "passed": true,
+      "details": {
+        "actual": "2026-04-24",
+        "expected": "2026-04-24"
+      }
+    },
+    {
+      "name": "annual results before source earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual results before source is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual date and comma",
+      "passed": true,
+      "details": {
+        "actual": "2026-04-21",
+        "expected": "2026-04-21"
+      }
+    },
+    {
+      "name": "annual date and comma earlier release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "annual date and comma is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "US file date separate call",
+      "passed": true,
+      "details": {
+        "actual": "2026-09-15",
+        "expected": "2026-09-15"
+      }
+    },
+    {
+      "name": "call time not assigned as publication",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "US file date separate call is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "HKEX day month timestamp",
+      "passed": true,
+      "details": {
+        "actual": "2026-08-31",
+        "expected": "2026-08-31"
+      }
+    },
+    {
+      "name": "explicit HKEX timestamp preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "HKEX day month timestamp is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "recorded English date",
+      "passed": true,
+      "details": {
+        "actual": "2026-09-15",
+        "expected": "2026-09-15"
+      }
+    },
+    {
+      "name": "recorded English date is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "date only ISO",
+      "passed": true,
+      "details": {
+        "actual": "2026-10-09",
+        "expected": "2026-10-09"
+      }
+    },
+    {
+      "name": "date only ISO is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ambiguous dates preserved",
+      "passed": true,
+      "details": {
+        "actual": "2026-08-28；2026-09-15",
+        "expected": "2026-08-28；2026-09-15"
+      }
+    },
+    {
+      "name": "ambiguous dates preserved is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing date preserved",
+      "passed": true,
+      "details": {
+        "actual": "精确公开日期待核",
+        "expected": "精确公开日期待核"
+      }
+    },
+    {
+      "name": "missing date preserved is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid date preserved",
+      "passed": true,
+      "details": {
+        "actual": "2026-02-30",
+        "expected": "2026-02-30"
+      }
+    },
+    {
+      "name": "invalid date never treated as known cutoff",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "invalid date preserved is idempotent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "URL never creates publication date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "explicit nonmonetary fields retain nonmonetary currency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "explicit nonmonetary units avoid false missing note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "genuinely missing units remain explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "comparative annual value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "FY2024",
+          "reportPeriod": "FY2025",
+          "periodOriginal": "FY2025",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "FY2024"
+      }
+    },
+    {
+      "name": "comparative annual source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "comparative half year value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "2025H1",
+          "reportPeriod": "2026H1",
+          "periodOriginal": "2026H1",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "2025H1"
+      }
+    },
+    {
+      "name": "comparative half year source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "half year before year value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "2026H1",
+          "reportPeriod": "H1 2026",
+          "periodOriginal": "H1 2026",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "2026H1"
+      }
+    },
+    {
+      "name": "half year before year source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "quarter token value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "2025Q2",
+          "reportPeriod": "2026H1",
+          "periodOriginal": "2026H1",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "2025Q2"
+      }
+    },
+    {
+      "name": "quarter token source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finer explicit period value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "12 months ended 2025-06-30",
+          "reportPeriod": "2026H1",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "12 months ended 2025-06-30"
+      }
+    },
+    {
+      "name": "finer explicit period source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "maturity label value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "2026H1",
+          "reportPeriod": "2026H1",
+          "periodBasis": "字段年份为证券到期标识，数值观察期沿用原披露期间",
+          "maturityIdentifier": "2028"
+        },
+        "expected": "2026H1"
+      }
+    },
+    {
+      "name": "maturity label source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiscal comparator value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "FY2025",
+          "reportPeriod": "FY2026 ended 2026-03-31",
+          "periodOriginal": "FY2026 ended 2026-03-31",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "FY2025"
+      }
+    },
+    {
+      "name": "fiscal comparator source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiscal ending-year explicit value period preserved",
+      "passed": true,
+      "details": {
+        "meta": {
+          "period": "FY2024/25 ended2025-03-31",
+          "reportPeriod": "FY2025/26 ended2026-03-31",
+          "periodBasis": "字段明确的数值期间；来源报告期间另列"
+        },
+        "expected": "FY2024/25 ended2025-03-31"
+      }
+    },
+    {
+      "name": "fiscal ending-year explicit source report period separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Tongcheng normalized anchor CNY million",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Tongcheng per-share dividend separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Yuewen normalized anchor CNY million",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Corrected issuers have no missing source units",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "BYD four same-period inputs match saved primary anchor",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "BYD primary date and URL propagate recorded anchor",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "BYD mixed numeric units preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "BYD FY2024 source row no longer mislabeled FY2025",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "BYD 2025H1 comparison no longer mislabeled 2026H1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Lenovo maturity identifier does not become future revenue period",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "I008 dedicated QA version matches model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "I027 dedicated QA version matches model",
+      "passed": false,
+      "details": null
+    },
+    {
+      "name": "I083 dedicated QA version matches model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "I032 dedicated QA version matches model",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "periodCorrections": [
+    {
+      "issuerId": "I067",
+      "code": "00241.HK",
+      "metric": "revenue2025",
+      "period": "FY2025",
+      "reportPeriod": "FY2026 ended 2026-03-31",
+      "periodOriginal": "FY2026 ended 2026-03-31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0706/2026070600958.pdf",
+      "value": 30598.292
+    },
+    {
+      "issuerId": "I067",
+      "code": "00241.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2026 ended 2026-03-31",
+      "periodOriginal": "FY2026 ended 2026-03-31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0706/2026070600958.pdf",
+      "value": 27026.555
+    },
+    {
+      "issuerId": "I006",
+      "metric": "FXLoss2025H1",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225496302.PDF",
+      "value": 30.73521846
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": 26831.525
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": 22527.987
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "ownerProfit2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": -1346.8
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "ownerProfit2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": -4822.321
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "OCF2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": 6014.854
+    },
+    {
+      "issuerId": "I073",
+      "code": "09626.HK",
+      "metric": "OCF2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.bilibili.com/media/uclpt3pv/2025-annual-report-on-form-20-f-1.pdf",
+      "value": 266.622
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "metric": "parent2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "value": 4265638
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "metric": "parent2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "value": 4041374
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "value": 177305549
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "value": 129956992
+    },
+    {
+      "issuerId": "I081",
+      "code": "00285.HK",
+      "metric": "OCF2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042200748.pdf",
+      "value": 6713671
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+      "value": 777102.455
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "revenue2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+      "value": 602315.354
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "profitAttributable2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+      "value": 40254.346
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "profitAttributable2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+      "value": 30040.811
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "OCF2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+      "value": 133453.873
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "inventories2025EndCNYmillion",
+      "period": "FY2025",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531835.PDF",
+      "value": 138420.58
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "financialExpense2025H1CNYmillion",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531835.PDF",
+      "value": -3247.033
+    },
+    {
+      "issuerId": "I061",
+      "code": "01211.HK",
+      "metric": "capitalizedRD2025H1CNYmillion",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531835.PDF",
+      "value": 1283.973
+    },
+    {
+      "issuerId": "I063",
+      "code": "03750.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "value": 362012.554
+    },
+    {
+      "issuerId": "I063",
+      "code": "03750.HK",
+      "metric": "revenue2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "value": 400917.045
+    },
+    {
+      "issuerId": "I063",
+      "code": "03750.HK",
+      "metric": "profitAttributable2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "value": 50744.682
+    },
+    {
+      "issuerId": "I063",
+      "code": "03750.HK",
+      "metric": "profitAttributable2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "value": 44121.248
+    },
+    {
+      "issuerId": "I057",
+      "code": "01811.HK",
+      "metric": "parent2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900758.pdf",
+      "value": 248018
+    },
+    {
+      "issuerId": "I057",
+      "code": "01811.HK",
+      "metric": "parent2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900758.pdf",
+      "value": 267685
+    },
+    {
+      "issuerId": "I057",
+      "code": "01811.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900758.pdf",
+      "value": 1951339
+    },
+    {
+      "issuerId": "I057",
+      "code": "01811.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900758.pdf",
+      "value": 2192977
+    },
+    {
+      "issuerId": "I057",
+      "code": "01811.HK",
+      "metric": "OCF2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900758.pdf",
+      "value": 502626
+    },
+    {
+      "issuerId": "I001",
+      "code": "688139.SH",
+      "metric": "FXGain2025H1",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225482454.PDF",
+      "value": 4.77656323
+    },
+    {
+      "issuerId": "I068",
+      "code": "06690.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702192.pdf",
+      "value": 286005
+    },
+    {
+      "issuerId": "I068",
+      "code": "06690.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702192.pdf",
+      "value": 274198
+    },
+    {
+      "issuerId": "I068",
+      "code": "06690.HK",
+      "metric": "parent2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702192.pdf",
+      "value": 18731
+    },
+    {
+      "issuerId": "I068",
+      "code": "06690.HK",
+      "metric": "parent2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702192.pdf",
+      "value": 16597
+    },
+    {
+      "issuerId": "I068",
+      "code": "06690.HK",
+      "metric": "OCF2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702192.pdf",
+      "value": 26318
+    },
+    {
+      "issuerId": "I074",
+      "code": "06618.HK",
+      "metric": "revenue2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "value": 58159.881
+    },
+    {
+      "issuerId": "I074",
+      "code": "06618.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "value": 53529.941
+    },
+    {
+      "issuerId": "I074",
+      "code": "06618.HK",
+      "metric": "ownerProfit2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "value": 4161.844
+    },
+    {
+      "issuerId": "I074",
+      "code": "06618.HK",
+      "metric": "ownerProfit2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "value": 2141.841
+    },
+    {
+      "issuerId": "I074",
+      "code": "06618.HK",
+      "metric": "OCF2024",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://manager.wisdomir.com/files/586/2026/0424/20260424171501_75649801_en.pdf",
+      "value": 4332.367
+    },
+    {
+      "issuerId": "I070",
+      "code": "09618.HK",
+      "metric": "revenue2025H1CNYmillion",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+      "value": 657742
+    },
+    {
+      "issuerId": "I070",
+      "code": "09618.HK",
+      "metric": "dividend2025PaidUSDperOrdinaryShare",
+      "period": "FY2025",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/08/13/18-03-06/JD.com%20Announces%20Second%20Quarter%20and%20Interim%202026%20Results.pdf",
+      "value": 0.5
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": 6255.684
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "revenue2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": 5679.073
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "revenue2022CNYmillion",
+      "period": "FY2022",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": 4865.769
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "revenue2021CNYmillion",
+      "period": "FY2021",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": 4174.147
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "profitAttributable2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": -142.068
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "profitAttributable2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": -209.89
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "profitAttributable2022CNYmillion",
+      "period": "FY2022",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": -389.158
+    },
+    {
+      "issuerId": "I090",
+      "code": "00268.HK",
+      "metric": "profitAttributable2021CNYmillion",
+      "period": "FY2021",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://investor.kingdee.com/static/temp/C_00268_03_FS_AR012_HKEx-2025AR年报_1779930082377.pdf",
+      "value": -302.33
+    },
+    {
+      "issuerId": "I080",
+      "code": "01024.HK",
+      "metric": "dividend2025AlreadyPaidHKDperOrdinaryShare",
+      "period": "FY2025",
+      "reportPeriod": "H1/Q2 2026",
+      "periodOriginal": "H1/Q2 2026",
+      "sourceURL": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/08/10-47-47/Interim%202026.pdf",
+      "value": 0.69
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "revenue2025USDmillion",
+      "period": "FY2025",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 69076.968
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "revenue2024USDmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 56863.784
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "revenue2023USDmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 61946.854
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "profitAttributable2025USDmillion",
+      "period": "FY2025",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 1384.445
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "profitAttributable2024USDmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 1010.506
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "profitAttributable2023USDmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 1607.722
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "dilutedEPS2025USD",
+      "period": "FY2025",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 0.1062
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "dilutedEPS2024USD",
+      "period": "FY2024",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 0.0805
+    },
+    {
+      "issuerId": "I065",
+      "code": "00992.HK",
+      "metric": "dividendFY2026AlreadyPaidHKD",
+      "period": "FY2026",
+      "reportPeriod": "FY2025/26 ended2026-03-31",
+      "periodOriginal": "FY2025/26 ended2026-03-31",
+      "sourceURL": "https://doc.irasia.com/listco/hk/lenovo/annual/2026/ar2026.pdf",
+      "value": 0.337
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 409084.266
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "operatingRevenuePRC2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 407149.6
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "operatingRevenuePRC2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 372037.28
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "profitAttributable2024IFRS_CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 38538.987
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "profitAttributable2024PRC_CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 38537.237
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "profitAttributable2023PRC_CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 33719.935
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "PRCProfitAfterNonRecurring2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4021177/HKEX-EPS_20260424_12120496_0.PDF",
+      "value": 35741.418
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "dividendFY2025AlreadyPaidHKD",
+      "period": "FY2025",
+      "reportPeriod": "H1 2026",
+      "periodOriginal": "H1 2026",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+      "value": 4.36734
+    },
+    {
+      "issuerId": "I082",
+      "code": "00300.HK",
+      "metric": "dividendH12026ProposedCNY",
+      "period": "2026H1",
+      "reportPeriod": "H1 2026",
+      "periodOriginal": "H1 2026",
+      "sourceURL": "https://ea-cdn.eurolandir.com/press-releases-attachments/4180184/HKEX-EPS_20260915_12332517_0.PDF",
+      "value": 0.5
+    },
+    {
+      "issuerId": "I014",
+      "code": "300760.SZ",
+      "metric": "FXGain2025H1",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225529856.PDF",
+      "value": 164.729362
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+      "value": 13037.749
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "revenue2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+      "value": 6301.002
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "profitAttributable2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+      "value": 3125.473
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "profitAttributable2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/ea0e1271-ffaa-4072-ba85-c6e852dfddf1-ANNUAL%20REPORT%202025.pdf",
+      "value": 1082.344
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "THEMONSTERS2025H1RevenueCNYmillion",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+      "value": 4814.017
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "cashTaxPaid2025H1CNYmillion",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+      "value": 1189.626
+    },
+    {
+      "issuerId": "I056",
+      "code": "09992.HK",
+      "metric": "inventoryTurnover2025Days",
+      "period": "FY2025",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://popwebsite.paquapp.com/pdf/a94bf743-292d-4472-8442-00abf8f773b8-2026%20INTERIM%20REPORT.pdf",
+      "value": 123
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "revenue2024USDmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 8029.921
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "revenue2023USDmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 6321.56
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "profitAttributable2024USDmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 492.748
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "profitAttributable2023USDmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 902.526
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "OCF2024USDmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 3175.555
+    },
+    {
+      "issuerId": "I092",
+      "code": "00981.HK",
+      "metric": "sharesAt2025End",
+      "period": "FY2025",
+      "reportPeriod": "FY2025 IFRS",
+      "periodOriginal": "FY2025 IFRS",
+      "sourceURL": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+      "value": 8000408035
+    },
+    {
+      "issuerId": "I076",
+      "code": "02382.HK",
+      "metric": "revenue2023",
+      "period": "FY2023",
+      "reportPeriod": "FY2025 ended 2025-12-31",
+      "periodOriginal": "FY2025 ended 2025-12-31",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401983.pdf",
+      "value": 31681.3
+    },
+    {
+      "issuerId": "I010",
+      "metric": "continuingRevenue2025H1",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://iis.aastocks.com/20260904/12320378-0.PDF",
+      "value": 19525.5
+    },
+    {
+      "issuerId": "I010",
+      "metric": "totalRevenue2025H1",
+      "period": "2025H1",
+      "reportPeriod": "2026H1",
+      "periodOriginal": "2026H1",
+      "sourceURL": "https://iis.aastocks.com/20260904/12320378-0.PDF",
+      "value": 20799.3
+    },
+    {
+      "issuerId": "I087",
+      "code": "01810.HK",
+      "metric": "revenue2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+      "value": 365906.35
+    },
+    {
+      "issuerId": "I087",
+      "code": "01810.HK",
+      "metric": "adjustedGroupNetProfit2024CNYmillion",
+      "period": "FY2024",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+      "value": 27234.531
+    },
+    {
+      "issuerId": "I087",
+      "code": "01810.HK",
+      "metric": "revenue2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+      "value": 270970.141
+    },
+    {
+      "issuerId": "I087",
+      "code": "01810.HK",
+      "metric": "adjustedGroupNetProfit2023CNYmillion",
+      "period": "FY2023",
+      "reportPeriod": "FY2025",
+      "periodOriginal": "FY2025",
+      "sourceURL": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/5-29-08/Xiaomi%202025%20AR_EN.pdf",
+      "value": 19272.754
+    }
+  ],
+  "publicationPreview": {
+    "sourceRows": 4965,
+    "unknownBefore": 0,
+    "unknownAfter": 0,
+    "afterCutoff": 0,
+    "remaining": []
+  },
+  "unitPreview": {
+    "missingObservedBundle": 0,
+    "missingFreshFinancialRows": []
+  },
+  "evidence": [
+    {
+      "issuerId": "I086",
+      "local": "data/tech_raw/tongcheng_annual.txt:291",
+      "rawUnit": "RMB'000",
+      "rawRevenue": 19395959,
+      "normalizedRevenue": 19395.959,
+      "currency": "CNY",
+      "unit": "million"
+    },
+    {
+      "issuerId": "I079",
+      "local": "data/tech_raw/yuewen_annual.txt:137",
+      "rawUnit": "RMB'000",
+      "rawRevenue": 7366176,
+      "normalizedRevenue": 7366.176,
+      "currency": "CNY",
+      "unit": "million"
+    }
+  ]
+}

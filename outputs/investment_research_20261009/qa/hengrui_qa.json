@@ -1,0 +1,32 @@
+{
+  "issuerId": "I011",
+  "name": "恒瑞医药",
+  "asOf": "2026-10-09",
+  "status": "独立初版字数与核算通过；原年报及分管线模型待补",
+  "effectiveHanzi": 12027,
+  "threshold": 10000,
+  "passed": true,
+  "countMethod": "正文剔除标题/基准头/来源区后CJK，无表格长引文",
+  "checks": {
+    "issuerMapping": "I011/S012/S022",
+    "priceAnchor": "A46.85元/H48港元",
+    "shareDenominator": "总6637199874，非仅H258197600",
+    "financeUnits": "千元转百万；OCF1987.004/开发1173.062",
+    "cashVsBank": "38721.633-38031.524=690.109应收利息",
+    "FCF": "1987.004−394.443−10.001−1173.062=409.498",
+    "authorization": "潜在额/首付/履约分开，不年化金融收益",
+    "scenarios": "5×3×2，EPS×PE×FX及returns核算",
+    "scores": "8组权重100%及加权总分一致",
+    "expectation": "25/50/25；H defensive45.4795/positive63.0355",
+    "broker": "HSBC72.5/JPM65近期正文，旧或仅标题值排除",
+    "technical": "本地分列观察价/量能，不保底",
+    "sourceDate": "不晚于2026-10-09"
+  },
+  "limitations": [
+    "简化整公司正常化PE模型，未完成逐药rNPV或完整DCF",
+    "2025全年原年报与9月证券变动月报未全文复核",
+    "HRS1596原合同未全文取得，公开转述不直接计潜在总额",
+    "缺独立细分医药指数历史，行业相对強弱留空",
+    "远期回报依赖盈利与倍数，概率未校准"
+  ]
+}

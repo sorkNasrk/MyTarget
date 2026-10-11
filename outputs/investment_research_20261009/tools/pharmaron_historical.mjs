@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+const root='G:/MyTarget/outputs/investment_research_20261009';
+const links=JSON.parse(await fs.readFile(root+'/data/pharmaron_extra_links.json','utf8')).filter(x=>['12128639','12080158','12129025','12201584'].some(id=>x.url.includes(id)));
+const out=[];for(const l of links){const name='03759_'+l.url.split('/').at(-1),file=root+'/data/pharma_raw/'+name;try{await fs.access(file);}catch{const r=await fetch(l.url,{signal:AbortSignal.timeout(45000)});if(!r.ok)throw Error(r.status);await fs.writeFile(file,Buffer.from(await r.arrayBuffer()));}execFileSync('C:/Users/happyelements/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',[root+'/tools/extract_one_pdf.py',file]);const text=await fs.readFile(file.replace(/\.PDF$/i,'.pdfium.txt'),'utf8');out.push({...l,text,rawFile:'data/pharma_raw/'+name,sourceType:'issuer_disclosure_primary_mirrored'});await fs.writeFile(root+'/data/pharmaron_historical_sources.json',JSON.stringify(out,null,2));console.log(l.title+' '+text.length);}

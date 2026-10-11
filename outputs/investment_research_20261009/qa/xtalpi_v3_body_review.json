@@ -1,0 +1,817 @@
+{
+  "nativeSHA256": "3ac3d5797441981833e16ea85509edcf897b974ad45901f3962f761af1df3d02",
+  "issuerId": "I027",
+  "securityId": "S032",
+  "reviewDate": "2026-10-11",
+  "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "modelSHA256": "568d9b080ee8f5bba0889d8b6c2eac10134bbce668d61f4cf498a37e97468b83",
+  "bodySHA256": "9d2deda32477155291bba4f61f9295b654614d2bd8d3c167bf13fb071c0c63ce",
+  "status": "PASS numerical consistency and nonduplicated narrative",
+  "effectiveHan": 16053,
+  "paragraphs": 81,
+  "duplicateParagraphs": [],
+  "duplicateSentences": [],
+  "nearDuplicateParagraphPairs": [
+    {
+      "a": 57,
+      "b": 58,
+      "jaccard": 0.0345821325648415,
+      "shared": 12
+    },
+    {
+      "a": 9,
+      "b": 12,
+      "jaccard": 0.031088082901554404,
+      "shared": 12
+    },
+    {
+      "a": 60,
+      "b": 62,
+      "jaccard": 0.028795811518324606,
+      "shared": 11
+    },
+    {
+      "a": 18,
+      "b": 20,
+      "jaccard": 0.02619047619047619,
+      "shared": 11
+    },
+    {
+      "a": 2,
+      "b": 68,
+      "jaccard": 0.02425876010781671,
+      "shared": 9
+    },
+    {
+      "a": 58,
+      "b": 59,
+      "jaccard": 0.023121387283236993,
+      "shared": 8
+    },
+    {
+      "a": 68,
+      "b": 70,
+      "jaccard": 0.0225,
+      "shared": 9
+    },
+    {
+      "a": 57,
+      "b": 63,
+      "jaccard": 0.02197802197802198,
+      "shared": 8
+    },
+    {
+      "a": 67,
+      "b": 68,
+      "jaccard": 0.02,
+      "shared": 8
+    },
+    {
+      "a": 2,
+      "b": 53,
+      "jaccard": 0.019662921348314606,
+      "shared": 7
+    }
+  ],
+  "nearDuplicateThreshold": 0.45,
+  "checks": [
+    {
+      "name": "model version in opening",
+      "pass": true
+    },
+    {
+      "name": "price basis in opening",
+      "pass": true
+    },
+    {
+      "name": "halfYear table exists",
+      "pass": true
+    },
+    {
+      "name": "halfYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "halfYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "halfYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "halfYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "halfYear capital return",
+      "pass": true
+    },
+    {
+      "name": "halfYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "halfYear nonannualized short period label",
+      "pass": true
+    },
+    {
+      "name": "oneYear table exists",
+      "pass": true
+    },
+    {
+      "name": "oneYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "oneYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "oneYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "oneYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "oneYear capital return",
+      "pass": true
+    },
+    {
+      "name": "oneYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "oneYear nonannualized short period label",
+      "pass": true
+    },
+    {
+      "name": "threeYear table exists",
+      "pass": true
+    },
+    {
+      "name": "threeYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "threeYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "threeYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "threeYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "threeYear capital return",
+      "pass": true
+    },
+    {
+      "name": "threeYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "threeYear annualized total return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear table exists",
+      "pass": true
+    },
+    {
+      "name": "fiveYear target matches model",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score weights match plan",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score recomputed",
+      "pass": true
+    },
+    {
+      "name": "fiveYear score opening display",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 0 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 1 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear scenario 2 native price",
+      "pass": true
+    },
+    {
+      "name": "fiveYear capital return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear dividend total return",
+      "pass": true
+    },
+    {
+      "name": "fiveYear annualized total return",
+      "pass": true
+    },
+    {
+      "name": "YE 悲观 price",
+      "pass": true
+    },
+    {
+      "name": "YE 悲观 capital return",
+      "pass": true
+    },
+    {
+      "name": "YE 基准 price",
+      "pass": true
+    },
+    {
+      "name": "YE 基准 capital return",
+      "pass": true
+    },
+    {
+      "name": "YE 乐观 price",
+      "pass": true
+    },
+    {
+      "name": "YE 乐观 capital return",
+      "pass": true
+    },
+    {
+      "name": "加权期望 expected price",
+      "pass": true
+    },
+    {
+      "name": "加权期望 expected return",
+      "pass": true
+    },
+    {
+      "name": "40/40/20 expected price",
+      "pass": true
+    },
+    {
+      "name": "40/40/20 expected return",
+      "pass": true
+    },
+    {
+      "name": "20/40/40 expected price",
+      "pass": true
+    },
+    {
+      "name": "20/40/40 expected return",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic recognition table exists",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 0",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 1",
+      "pass": true
+    },
+    {
+      "name": "yearEnd intrinsic bridge 2",
+      "pass": true
+    },
+    {
+      "name": "yearEnd recognition factor 2",
+      "pass": true
+    },
+    {
+      "name": "yearEnd market bridge 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic recognition table exists",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 0",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 1",
+      "pass": true
+    },
+    {
+      "name": "halfYear intrinsic bridge 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear recognition factor 2",
+      "pass": true
+    },
+    {
+      "name": "halfYear market bridge 2",
+      "pass": true
+    },
+    {
+      "name": "full per-drug modeling acceptance boundary",
+      "pass": true
+    },
+    {
+      "name": "preIPO expiry span2026to2036 retained",
+      "pass": true
+    },
+    {
+      "name": "crosscheck table included",
+      "pass": true
+    },
+    {
+      "name": "effective issuer narrative >=10000 Han",
+      "pass": true
+    },
+    {
+      "name": "no duplicate normalized narrative paragraphs",
+      "pass": true
+    },
+    {
+      "name": "no long duplicate normalized sentences",
+      "pass": true
+    },
+    {
+      "name": "four-Han-style substring near duplicate threshold",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不是获利概率",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 最大损失边界",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 原研报缺失",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 没有公开",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 匿名",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 肠易激综合征",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不同企业",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 早于该年不加分红",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 不再增加公司股数",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 租赁总现金付款",
+      "pass": true
+    },
+    {
+      "name": "retained boundary 准确自然一年",
+      "pass": true
+    },
+    {
+      "name": "retained boundary revenue realization distinguishes licensing and net realization",
+      "pass": true
+    },
+    {
+      "name": "43 asset rows listed in narrative table",
+      "pass": true
+    },
+    {
+      "name": "separate observed null and research probability",
+      "pass": true
+    },
+    {
+      "name": "unallocated clinical expense explained",
+      "pass": true
+    },
+    {
+      "name": "no old positive modeled milestone wording",
+      "pass": true
+    },
+    {
+      "name": "unknown claims do not inflate number of independent drugs",
+      "pass": true
+    },
+    {
+      "name": "closed gate prohibits arbitrary legacy peak allocation",
+      "pass": true
+    },
+    {
+      "name": "7 active demand models each have a separate complete demand table row",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS independent demand row",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBS base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD independent demand row",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "XTN004_IBD base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD independent demand row",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX001_IBD base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE independent demand row",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_SLE base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA independent demand row",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX002_RA base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG independent demand row",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_MG base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP independent demand row",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table patients all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table priceCNY all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table share all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table peak all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table p all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP demand table start all three scenarios",
+      "pass": true
+    },
+    {
+      "name": "ALX005_ITP base net realization and GM",
+      "pass": true
+    },
+    {
+      "name": "ownership100 is assumption not verified netright",
+      "pass": true
+    },
+    {
+      "name": "0 50 100 percent sensitivity disclosed",
+      "pass": true
+    },
+    {
+      "name": "population price share are research not source statistics",
+      "pass": true
+    },
+    {
+      "name": "no source-unsupported UC Crohn precision",
+      "pass": true
+    },
+    {
+      "name": "shared molecule development and safety acknowledged",
+      "pass": true
+    },
+    {
+      "name": "issuer undisclosed actual clinical probability separated from research probability",
+      "pass": true
+    },
+    {
+      "name": "geographic demand assumption disclosed in demand paragraph",
+      "pass": true
+    },
+    {
+      "name": "clinical budget sensitivity disclosed from 2027",
+      "pass": true
+    },
+    {
+      "name": "原预算 clinical cost table row exists",
+      "pass": true
+    },
+    {
+      "name": "原预算 independent one year value",
+      "pass": true
+    },
+    {
+      "name": "原预算 independent three year value",
+      "pass": true
+    },
+    {
+      "name": "原预算 independent minimum cash",
+      "pass": true
+    },
+    {
+      "name": "原预算 independent failure flag",
+      "pass": true
+    },
+    {
+      "name": "增加30% clinical cost table row exists",
+      "pass": true
+    },
+    {
+      "name": "增加30% independent one year value",
+      "pass": true
+    },
+    {
+      "name": "增加30% independent three year value",
+      "pass": true
+    },
+    {
+      "name": "增加30% independent minimum cash",
+      "pass": true
+    },
+    {
+      "name": "增加30% independent failure flag",
+      "pass": true
+    },
+    {
+      "name": "增加100% clinical cost table row exists",
+      "pass": true
+    },
+    {
+      "name": "增加100% independent one year value",
+      "pass": true
+    },
+    {
+      "name": "增加100% independent three year value",
+      "pass": true
+    },
+    {
+      "name": "增加100% independent minimum cash",
+      "pass": true
+    },
+    {
+      "name": "增加100% independent failure flag",
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Counting excludes opening, tables, headings and source appendix; semantic originality remains human-reviewed and is not proven by string checks",
+    "This review does not confirm every clinical source, unreported net rights or full drug-by-indication economics",
+    "7 defined indication research models and36 zero observations retain source/assumption distinctions; missing legal holder/cost allocation limits remain",
+    "No Word/PDF render, integrated Excel consistency or 27-file acceptance is performed here"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "version": "market-v1.6",
+  "officialPI": {
+    "indexCode": "02083.00",
+    "indexName": "Hang Seng TECH Index",
+    "indexShortName": "HSTECH",
+    "indexValue": "4197.84",
+    "indexType": "PI",
+    "indexOrder": 30,
+    "previousClose": "4073.38",
+    "lastUpdateFormat": "yyyy-MM-dd HH:mm:ss",
+    "subIndexes": [],
+    "changeValue": "+124.46",
+    "changePercentage": "+3.06",
+    "todayOpn": null,
+    "todayHigh": "4197.84",
+    "todayLow": "4085.19",
+    "valueSource": "DDOC",
+    "indexTime": "2026-10-09 16:08:32"
+  },
+  "officialRows": 739,
+  "existingRows": 739,
+  "mismatches": [],
+  "missing": [],
+  "OHLCFullyTwoSource": false,
+  "volumeAndAmountDisabled": true,
+  "stockPricesAndTechnicalUnchanged": true,
+  "urls": [
+    "https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/product-data/pub/series/metadata/v2?data=values&language=en-hk&seriesCode=hstech",
+    "https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/product-data/pub/indexes/metadata/v2?data=valueHistoryPub&indexCodes=02083.00&language=en-hk"
+  ]
+}

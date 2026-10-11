@@ -1,0 +1,1196 @@
+{
+  "issuerId": "I008",
+  "code": "03696.HK",
+  "informationCutoff": "2026-10-09",
+  "preparedAtUTC": "2026-10-11T07:39:11.247Z",
+  "scope": "Read-only preflight of insilico_per_drug_assumptions.json and buildInsilicoPerDrug against the independently prepared 67-row primary evidence register. No pending model (still v2 at task assignment) read, executed, or approved.",
+  "status": "PREFLIGHT_IDENTITY_AND_BUILDER_PASS_WITH_RESEARCH_SCOPE_AND_OVERLAP_ISSUES; NOT_FROZEN_V3_RELEASE",
+  "reviewedSnapshot": {
+    "assumptionsFile": "data/insilico_per_drug_assumptions.json",
+    "assumptionsSHA256": "9ecc6ea38cb07a08a1570edb81bf45de5ad1ea726bd301ef688bc977eef327d5",
+    "builderFile": "tools/insilico_per_drug.mjs",
+    "builderSHA256": "d168ad551fa0770c844c4147a6b9b9b85e82c500de5af7bdb6d31fdaff4a6aa1",
+    "evidenceFile": "qa/insilico_per_asset_evidence.json",
+    "evidenceSHA256": "c3e76d4511a3fb692b94779e0fa2f4cae6068a2bd695332fac42e13cfd806245"
+  },
+  "counts": {
+    "evidenceRecords": 67,
+    "coreAssumptions": 18,
+    "earlyAssumptions": 14,
+    "activeResearchRows": 32,
+    "zeroObservationRows": 35,
+    "peakValuesIndependentlyRecomputed": 96
+  },
+  "checks": [
+    {
+      "name": "32 active assumptions unique mapped",
+      "pass": true
+    },
+    {
+      "name": "builder67 outputs32active35zero",
+      "pass": true
+    },
+    {
+      "name": "all source identity indication territory preserved",
+      "pass": true
+    },
+    {
+      "name": "all active eight arrays contain three finite valid inputs",
+      "pass": true
+    },
+    {
+      "name": "all active scenario arrays monotonic",
+      "pass": true
+    },
+    {
+      "name": "all96 peaks independent arithmetic",
+      "pass": true
+    },
+    {
+      "name": "all outputs no invented future milestones no individualclinical",
+      "pass": true
+    },
+    {
+      "name": "35 observed probabilitynull pzero peakzero",
+      "pass": true
+    },
+    {
+      "name": "all active plabelled research",
+      "pass": true
+    },
+    {
+      "name": "FosunandHygtia ownershiphalf",
+      "pass": true
+    },
+    {
+      "name": "Fosun reasonprofitlosssharenotroyalty",
+      "pass": true
+    },
+    {
+      "name": "noISM9682KAT6mapping",
+      "pass": true
+    },
+    {
+      "name": "IPFterritoryexclusionpolicy",
+      "pass": true
+    },
+    {
+      "name": "UCterritoryandGCexclusivepolicy",
+      "pass": true
+    },
+    {
+      "name": "GIPRnameandT2Dnonobesitysplitpolicy",
+      "pass": true
+    },
+    {
+      "name": "IIIFVCreadoutaftertargetpolicy",
+      "pass": true
+    }
+  ],
+  "mapping": [
+    {
+      "id": "ISM001055_IPF_ORAL_CN",
+      "drug": "ISM001-055 / Rentosertib",
+      "indication": "特发性肺纤维化（IPF）",
+      "territory": "中国",
+      "p": [
+        0.18,
+        0.45,
+        0.68
+      ],
+      "peak": [
+        0.021,
+        0.165,
+        0.6545
+      ],
+      "netRate": [
+        0.75,
+        0.88,
+        0.95
+      ],
+      "GM": [
+        0.72,
+        0.82,
+        0.88
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM001055_IPF_ORAL_US",
+      "drug": "ISM001-055 / Rentosertib",
+      "indication": "IPF",
+      "territory": "美国",
+      "p": [
+        0.06,
+        0.18,
+        0.36
+      ],
+      "peak": [
+        0.084,
+        0.6688,
+        2.2848
+      ],
+      "netRate": [
+        0.18,
+        0.32,
+        0.48
+      ],
+      "GM": [
+        0.8,
+        0.88,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM001055_IPF_ORAL_OTHER",
+      "drug": "ISM001-055 / Rentosertib",
+      "indication": "IPF",
+      "territory": "美国及中国以外",
+      "p": [
+        0.05,
+        0.16,
+        0.32
+      ],
+      "peak": [
+        0.04410000000000001,
+        0.4536,
+        1.771
+      ],
+      "netRate": [
+        0.18,
+        0.32,
+        0.48
+      ],
+      "GM": [
+        0.8,
+        0.88,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM001055_IPF_INH_CN",
+      "drug": "ISM001-055 / Rentosertib",
+      "indication": "IPF",
+      "territory": "中国",
+      "p": [
+        0.035,
+        0.1,
+        0.22
+      ],
+      "peak": [
+        0.0036,
+        0.031875,
+        0.135
+      ],
+      "netRate": [
+        0.5,
+        0.7,
+        0.85
+      ],
+      "GM": [
+        0.65,
+        0.76,
+        0.85
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM001055_IPF_INH_OTHER",
+      "drug": "ISM001-055 / Rentosertib",
+      "indication": "IPF",
+      "territory": "中国以外",
+      "p": [
+        0.025,
+        0.08,
+        0.18
+      ],
+      "peak": [
+        0.022,
+        0.23100000000000004,
+        0.9945
+      ],
+      "netRate": [
+        0.16,
+        0.28,
+        0.42
+      ],
+      "GM": [
+        0.74,
+        0.84,
+        0.9
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM5411_UC_CN",
+      "drug": "ISM5411 / Garutadustat",
+      "indication": "溃疡性结肠炎（UC）",
+      "territory": "中国",
+      "p": [
+        0.06,
+        0.18,
+        0.35
+      ],
+      "peak": [
+        0.00945,
+        0.09,
+        0.4275
+      ],
+      "netRate": [
+        0.7,
+        0.84,
+        0.94
+      ],
+      "GM": [
+        0.72,
+        0.82,
+        0.89
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM5411_UC_OTHER",
+      "drug": "ISM5411 / Garutadustat",
+      "indication": "UC",
+      "territory": "中国以外",
+      "p": [
+        0.04,
+        0.13,
+        0.28
+      ],
+      "peak": [
+        0.0875,
+        0.968,
+        3.825
+      ],
+      "netRate": [
+        0.18,
+        0.34,
+        0.5
+      ],
+      "GM": [
+        0.8,
+        0.88,
+        0.94
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM5411_CD",
+      "drug": "ISM5411 / Garutadustat",
+      "indication": "克罗恩病（CD）",
+      "territory": "Global定性；逐地区未明",
+      "p": [
+        0.025,
+        0.09,
+        0.21
+      ],
+      "peak": [
+        0.024,
+        0.351,
+        2.028
+      ],
+      "netRate": [
+        0.18,
+        0.34,
+        0.5
+      ],
+      "GM": [
+        0.78,
+        0.87,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM3412_MTAP",
+      "drug": "ISM3412",
+      "indication": "MTAP缺失癌症",
+      "territory": "全球多中心；FDA IND",
+      "p": [
+        0.025,
+        0.08,
+        0.19
+      ],
+      "peak": [
+        0.0189,
+        0.182,
+        0.85
+      ],
+      "netRate": [
+        0.22,
+        0.4,
+        0.58
+      ],
+      "GM": [
+        0.76,
+        0.87,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM6331_MESO",
+      "drug": "ISM6331",
+      "indication": "晚期或转移性恶性间皮瘤",
+      "territory": "中美全球多中心",
+      "p": [
+        0.035,
+        0.11,
+        0.25
+      ],
+      "peak": [
+        0.018,
+        0.1755,
+        0.627
+      ],
+      "netRate": [
+        0.22,
+        0.4,
+        0.58
+      ],
+      "GM": [
+        0.76,
+        0.87,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM8969_PD",
+      "drug": "ISM8969 / HT-001",
+      "indication": "帕金森病",
+      "territory": "全球50%rights；澳I、FDA/CDE IND",
+      "p": [
+        0.015,
+        0.045,
+        0.12
+      ],
+      "peak": [
+        0.014,
+        0.208,
+        1.14
+      ],
+      "netRate": [
+        0.45,
+        0.65,
+        0.82
+      ],
+      "GM": [
+        0.72,
+        0.83,
+        0.91
+      ],
+      "ownership": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ISM3091_HRD",
+      "drug": "ISM3091",
+      "indication": "同源重组DNA修复缺陷/BRCA突变癌症",
+      "territory": "Exelixis全球独占许可",
+      "p": [
+        0.025,
+        0.075,
+        0.18
+      ],
+      "peak": [
+        0.03465,
+        0.304,
+        1.26
+      ],
+      "netRate": [
+        0.055,
+        0.085,
+        0.12
+      ],
+      "GM": [
+        0.88,
+        0.94,
+        0.97
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM5043_ERPOS_HER2NEG",
+      "drug": "ISM5043",
+      "indication": "ER+/HER2−乳腺癌",
+      "territory": "Stemline全球独占许可",
+      "p": [
+        0.025,
+        0.075,
+        0.18
+      ],
+      "peak": [
+        0.03375,
+        0.29575,
+        1.53
+      ],
+      "netRate": [
+        0.055,
+        0.09,
+        0.125
+      ],
+      "GM": [
+        0.85,
+        0.93,
+        0.97
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9682_CIN_SOLID",
+      "drug": "ISM9682 / MEN2501",
+      "indication": "染色体不稳定实体瘤",
+      "territory": "Stemline全球独占许可",
+      "p": [
+        0.02,
+        0.065,
+        0.16
+      ],
+      "peak": [
+        0.024,
+        0.252,
+        1.215
+      ],
+      "netRate": [
+        0.05,
+        0.08,
+        0.12
+      ],
+      "GM": [
+        0.88,
+        0.94,
+        0.97
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM8207_SOLID",
+      "drug": "ISM8207",
+      "indication": "晚期/转移性实体瘤",
+      "territory": "中国I；50/50全球管线",
+      "p": [
+        0.02,
+        0.065,
+        0.16
+      ],
+      "peak": [
+        0.02025,
+        0.20475000000000004,
+        1.1475
+      ],
+      "netRate": [
+        0.4,
+        0.6,
+        0.78
+      ],
+      "GM": [
+        0.7,
+        0.82,
+        0.9
+      ],
+      "ownership": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ISM8207_BCELL",
+      "drug": "ISM8207",
+      "indication": "复发/难治B细胞淋巴恶性肿瘤",
+      "territory": "中国I；50/50全球管线",
+      "p": [
+        0.015,
+        0.05,
+        0.13
+      ],
+      "peak": [
+        0.00945,
+        0.09945,
+        0.4896
+      ],
+      "netRate": [
+        0.4,
+        0.6,
+        0.78
+      ],
+      "GM": [
+        0.7,
+        0.82,
+        0.9
+      ],
+      "ownership": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ISM4808_CKD_GC",
+      "drug": "ISM4808",
+      "indication": "慢性肾病相关贫血",
+      "territory": "大中华；TaiGen独占",
+      "p": [
+        0.035,
+        0.1,
+        0.24
+      ],
+      "peak": [
+        0.00175,
+        0.01925,
+        0.11900000000000001
+      ],
+      "netRate": [
+        0.05,
+        0.08,
+        0.12
+      ],
+      "GM": [
+        0.88,
+        0.94,
+        0.97
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM4808_CKD_EXGC",
+      "drug": "ISM4808",
+      "indication": "CKD相关贫血",
+      "territory": "大中华以外",
+      "p": [
+        0.02,
+        0.065,
+        0.17
+      ],
+      "peak": [
+        0.00375,
+        0.05625,
+        0.3575
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.76,
+        0.87,
+        0.93
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM0676_OBESITY",
+      "drug": "ISM0676",
+      "indication": "肥胖",
+      "territory": "Global定性；具体地区待核",
+      "p": [
+        0.02,
+        0.06,
+        0.13
+      ],
+      "peak": [
+        0.00288,
+        0.0462,
+        0.33
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM0676_T2D",
+      "drug": "ISM0676",
+      "indication": "2型糖尿病",
+      "territory": "Global定性；具体地区待核",
+      "p": [
+        0.015,
+        0.05,
+        0.11
+      ],
+      "peak": [
+        0.00168,
+        0.021,
+        0.126
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM1354_OBESITY",
+      "drug": "ISM1354",
+      "indication": "肥胖",
+      "territory": "未明确具体地域",
+      "p": [
+        0.02,
+        0.06,
+        0.13
+      ],
+      "peak": [
+        0.0044,
+        0.0672,
+        0.468
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM1354_T2D",
+      "drug": "ISM1354",
+      "indication": "2型糖尿病",
+      "territory": "未明确具体地域",
+      "p": [
+        0.015,
+        0.05,
+        0.11
+      ],
+      "peak": [
+        0.00224,
+        0.027,
+        0.162
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM0387_GBM",
+      "drug": "ISM0387",
+      "indication": "MTAP缺失胶质母细胞瘤",
+      "territory": "未逐地区核实；UAE发现",
+      "p": [
+        0.008,
+        0.03,
+        0.08
+      ],
+      "peak": [
+        0.0048,
+        0.054,
+        0.2592
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM6200_CUSHING",
+      "drug": "ISM6200",
+      "indication": "库欣综合征",
+      "territory": "未逐地区核实",
+      "p": [
+        0.02,
+        0.06,
+        0.13
+      ],
+      "peak": [
+        0.0025,
+        0.0351,
+        0.1716
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM6200_HYPERCORT_OBESITY",
+      "drug": "ISM6200",
+      "indication": "高皮质醇相关肥胖",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.045,
+        0.1
+      ],
+      "peak": [
+        0.000648,
+        0.01155,
+        0.0792
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM6200_GLAUCOMA",
+      "drug": "ISM6200",
+      "indication": "青光眼",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.045,
+        0.1
+      ],
+      "peak": [
+        0.000324,
+        0.00594,
+        0.0432
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9528_POSTSURGICAL",
+      "drug": "ISM9528",
+      "indication": "急性术后疼痛",
+      "territory": "未逐地区核实",
+      "p": [
+        0.02,
+        0.06,
+        0.13
+      ],
+      "peak": [
+        0.00049,
+        0.00882,
+        0.060480000000000006
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9528_NEUROPATHIC",
+      "drug": "ISM9528",
+      "indication": "神经病理性疼痛",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.05,
+        0.11
+      ],
+      "peak": [
+        0.0042,
+        0.0686,
+        0.44100000000000006
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9077_DRY_AMD",
+      "drug": "ISM9077",
+      "indication": "干性年龄相关黄斑变性",
+      "territory": "未逐地区核实",
+      "p": [
+        0.01,
+        0.04,
+        0.1
+      ],
+      "peak": [
+        0.0021,
+        0.04095000000000001,
+        0.266
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9077_UVEITIS",
+      "drug": "ISM9077",
+      "indication": "葡萄膜炎",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.045,
+        0.1
+      ],
+      "peak": [
+        0.00075,
+        0.015750000000000004,
+        0.11200000000000002
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM9077_DRYEYE",
+      "drug": "ISM9077",
+      "indication": "干眼病",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.045,
+        0.1
+      ],
+      "peak": [
+        0.00135,
+        0.0243,
+        0.1512
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ISM0900_LPA_CVRISK",
+      "drug": "ISM0900",
+      "indication": "Lp(a)升高相关心血管风险",
+      "territory": "未逐地区核实",
+      "p": [
+        0.015,
+        0.045,
+        0.11
+      ],
+      "peak": [
+        0.00352,
+        0.05796,
+        0.39
+      ],
+      "netRate": [
+        0.18,
+        0.33,
+        0.5
+      ],
+      "GM": [
+        0.74,
+        0.85,
+        0.92
+      ],
+      "ownership": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "primaryTargetedPDFReads": [
+    {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1218/2025121800031.pdf",
+      "localFile": "data/pharma_raw/03696_2025121800031.pdf",
+      "PDFPages": [
+        281,
+        284,
+        285,
+        286,
+        293
+      ],
+      "findings": "USP1 royalty mid-single to low teens; KAT6 royalty mid-single to low-double digits and cappedhalf-cost reimbursement; QPCTL Phase I costs and all profits/losses50/50, Phase II roles negotiated."
+    },
+    {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600542.pdf",
+      "localFile": "data/pharma_raw/03696_2026082600542.pdf",
+      "PDFPages": [
+        19,
+        20,
+        22
+      ],
+      "findings": "InactiveUS oral IND by issuer; internal PCCC details, animal evidence and explicit eye/pain/Lp(a) disease contexts; Hygtia50% worldrights and Phase I non-PD participants."
+    },
+    {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093000283.pdf",
+      "localFile": "data/pharma_raw/03696_2026093000283.pdf",
+      "PDFPages": [
+        1
+      ],
+      "findings": "ISM1354 different fromISM0676; obesity and obesity-relatedT2D;31.3% in humanized mice withSemaglutide, nothuman."
+    },
+    {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020300089.pdf",
+      "localFile": "data/pharma_raw/03696_2026020300089.pdf",
+      "PDFPages": [
+        1,
+        2
+      ],
+      "findings": "MEN2501=ISM9682 KIF18A and historicalHKD39m; notKAT6."
+    },
+    {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0306/2026030600082.pdf",
+      "localFile": "data/pharma_raw/03696_2026030600082.pdf",
+      "PDFPages": [
+        1
+      ],
+      "findings": "TaiGenGreaterChinaexclusive defined mainlandHKMacauTaiwan, tierednet-salesroyalty exactratesunknown; healthyadultPhaseI."
+    }
+  ],
+  "scienceAssumptionAssessment": {
+    "earlyProbabilities": "Fourteen PCC rows base3–6%, bear0.8–2%, bull8–13% are researcher scenario inputs. No source claims they are true clinical probabilities; low values do not independently validate calibration. Scientific failures and shared molecule safety must remain correlated.",
+    "ChinaIPF": "Base45%/bull68% distinguish current III from preclinical and discount small12-week safety-primaryIIa, attrition and missingFVC. This is researcher judgment rather than a validated success estimate; registered completion2029-10-30 is after three-year target.",
+    "PD": "ISM8969 PD base4.5% appropriately treated as notyetPDpatient efficacy; AustralianPhaseIhealthy/obeseCVrisknotPD.",
+    "Fosun": "Revenueownership.5 plus full unallocated clinical spending is a transparent conservative approximation, not complete projectprofit/loss cost allocation. netRate40/60/78% and GM70/82/90% are retained realization and production-margin research inputs, not royalties or disclosed joint profit margin.",
+    "Hygtia": "50% economicrights assumption applied separately from net realization, not net-sales50%royalty; legal/cost details remain incomplete.",
+    "licensedRoyalty": "ISM3091 rates5.5/8.5/12% and ISM5043 rates5.5/9/12.5% are researcher selections within qualitative published bands. ISM9682 andTaiGen5/8/12% are researchrates with no exact publicly verified percentage. GM is additional servicing-costfactor; outputisnotalready-tax-net-disclosedroyalty.",
+    "geographicExclusion": "OralIPFCN/US/other; inhaled incrementaleligiblepool excludes oral; UCCN/exCN; TaiGenGC/exGC separate. This is an explicit hypothesis, not audited mutual exclusion or clinicalcompatibility evidence.",
+    "GIPR": "0676/1354 separate molecules and differentiatedcombosegments; T2D rows excludeobesityco-diagnosis, and NR3C1 excludes Cushing/generalGLP1pool. Differentiationisresearchhypothesis, not evidence of noncompetingcommercialsegments."
+  },
+  "issues": [
+    {
+      "id": "aggregateResearchGeographyMissing",
+      "severity": "material_assumption_scope",
+      "status": "owner_notified",
+      "finding": "Many CD/PD/biomarker/PCC selected-patient rows have source territories Globalqualitative or unknown; assumptions do not identify selected research region collection. USDprice alone cannot implyworldwide/noChina markets.",
+      "required": "Explicitly state selected global financially accessible aggregate or specifiedregions with no regionalrNPVclaim; distinguish source territory from researcher demand geography."
+    },
+    {
+      "id": "MTAP_MAT2A_PRMT5_GBM_overlap",
+      "severity": "material_double_count_risk",
+      "status": "owner_notified",
+      "finding": "ISM3412 genericMTAP-deleted cancer selectedpool may include MTAP-deletedGBM assigned toISM0387. Two differentproducts can both have value but no independentfullsamepatientrevenue assumption without line/combination rationale.",
+      "required": "ExcludeGBMfromISM3412 researchpatients, or explain treatmentline/competition and revenueuniqueness; sharedMTAPbiology andsuccess risks not independent."
+    },
+    {
+      "id": "sharedMoleculeCorrelation",
+      "severity": "assumption_clarity",
+      "status": "owner_notified",
+      "finding": "Costno-duplication is stated, but all oral/inhaledIPF, UC/CD, CKDregional andothermultiindication molecular risk correlations should be explicit. TwoGIPR candidates also compete and share classrisks.",
+      "required": "State p are marginal research probabilities; no independentjointsuccessor diversification inferred; sharedtox/CMC/mechanism failures can overturn all relatedrows."
+    },
+    {
+      "id": "licensedNetRateInterpretation",
+      "severity": "assumption_clarity",
+      "status": "watch_final_body",
+      "finding": "Numericlicensedrates plusGM are researcher grossnet-salespercentage andincrementalcost factors, not sourceverifiedalready-netroyalty. Distinguish KAT6/USP1publishedbands fromKIF18A/TaiGenunknownbands.",
+      "required": "Finalbodylabelratesandservicing/tax/currency effects transparently; no double manufacturingcost charged tolicensedroyalties."
+    },
+    {
+      "id": "GIPR_nonobesityT2D_extension",
+      "severity": "research_scope_limitation",
+      "status": "watch_final_body",
+      "finding": "OriginalGIPRannouncementcontextisobesityandrelatedT2D; selectednonobesityT2D segmentation is researcher extrapolation to avoid duplicateobesity revenue, not directly confirmed diseasepopulation.",
+      "required": "LabelnonobesityT2Dmarketasanunvalidatedextension; assumptionfailuremaysettheserowstozero."
+    }
+  ],
+  "patentAndRoyaltyTailPreflightIssue": {
+    "id": "patentRoyaltyTailVsLateLaunch",
+    "severity": "material_cash_tail_risk",
+    "status": "owner_and_tech_notified",
+    "finding": "Many research launch years2039–2045 occur near known older compound patent expiries around2042. KAT6 agreement is product/country royalty-term based and royalty-free after expiration. A late launch does not automatically restart exclusivity or guarantee royaltycash through2051.",
+    "required": "Finalmodel disclose exclusivity and contractroyalty-tail assumptions, generic/competitor runoff and sensitivity; do not claim a newfullprotectedlife without primaryevidence."
+  },
+  "limitations": [
+    "Source evidence register remains immutable; all32 identity/disease mappings pass but missing clinical, netrights and regional data are not filled asfacts.",
+    "Unknownnamed/earlydrug assumptions are permitted researchinputs, not automaticallyzero solelyfor lackof publicearnings forecasts.",
+    "Builder rowclinical7zero does not prove allninelegacyannualclinicalbudgets retained infinalnative model. No pendingv2execution performed.",
+    "Ownership andlicensedroyalty0/50/100 sensitivities and clinical+30/+100 only policiesatpreflight; actualfrozenv3mustbenumericallyverifiedbyowner/tech.",
+    "FinalI008bodyclinicalrecheck remains pending: Nature128screened/71randomized/55treatmentcomplete; CT.gov59studycomplete/49FVCdenominator; III320planned/47locations/2029-10-30completion.",
+    "NoExcel/Word/PDF or103entry/92companywholeproject acceptance."
+  ]
+}
+

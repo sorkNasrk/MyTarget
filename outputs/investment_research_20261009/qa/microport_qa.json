@@ -1,0 +1,24 @@
+{
+  "issuerId": "I016",
+  "name": "微创医疗",
+  "modelVersion": "microport-conditional-eliminated-group-economic-PE-v1.0",
+  "effectiveHanzi": 13404,
+  "paragraphs": 75,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "atomicChecks": 241,
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "eliminated external segments/full RD/full expense/finance/equity share/tax NCI EPS PE; historical continuing discontinued/gain/cash/balance/debt/put premium; no duplicate child/cash; suspension no scores/returns/expected; unverified volume disabled; same-date benchmark; unique broker and text",
+  "errors": [],
+  "limitations": [
+    "股票及债券停牌、2026中报缺失和持续经营重大不确定性未澄清。",
+    "合并现金不等于母公司可偿债现金，指定募资、内地汇出、少数股东及质押限制均须分层。",
+    "2025 lease security aggregate37.432与BlueOrange carrying38.613范围不完全一致，保留不强行勾同；8月295.99CNYm不是USD或全部退现金。",
+    "本模型非全资金融资联合逐年现金估值，PE条件路径需债权及租约解决且费用兑现；亏损0方法不是清算价。",
+    "银行/转债合同溢价和2026年度covenant仍需核，不把本期贷款豁免扩大。",
+    "未来海外骨科交换Tinavi股未完成、价格总额未定，不记现金或处置收益。",
+    "量单位未跨核不作量图；行业基准不足、远期市场日历需复核。",
+    "旧外资目标全陈旧停牌前转载，花旗转载财务币种疑点不作输入。"
+  ]
+}

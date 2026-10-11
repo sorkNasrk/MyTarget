@@ -1,0 +1,11 @@
+{
+  "issuerId": "I032",
+  "modelVersion": "grand-pharma-three-revenue-normal-pe-associate-cash-loan-debt-v1.0",
+  "passed": true,
+  "checks": 28954,
+  "atomicEdits": 59,
+  "manifestCount": 750,
+  "threeCaseOneActiveBuild": true,
+  "signatureCoverage": true,
+  "scope": "真实Artifact三情景单活动模型、每个原子字段编辑复算、债务上限/大额还款/新增融资分支、PE与兑现修改；父负责最终导出视觉与待刷新"
+}

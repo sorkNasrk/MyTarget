@@ -1,0 +1,22 @@
+{
+  "issuerId": "I038",
+  "name": "开拓药业-B",
+  "modelVersion": "kintor-conditional-finite-risk-FCFF-v1.0",
+  "effectiveHanzi": 12228,
+  "paragraphs": 66,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "conditional finite risk-adjusted seven-product FCFF/costs/dev/tax/WC; KX core patent2030 erosion; target cash/debt/financing/shares; no formal ranking/return/expected; H1/FY history/cash/debt/runway; clinical delta; source cutoff; duplicate checks",
+  "errors": [],
+  "limitations": [
+    "持续经营重大不确定性未消，正式排名/评分/年底期望均缺失，条件模型不能用于正常推荐排名",
+    "未独立核全部患者市场/售价/可支付率和产品长期疗效，风险折价不是统计概率；药物NDA未核提交/批准",
+    "未获个股近期可核外资目标，新闻搜索返行业主题不得充当目标；新闻动态报价不使用",
+    "2025无意见/2026未审计，审计师更替不证明问题解决；10/9现现金及债续期全表未取得",
+    "成功上市依赖研发资金和供应链，融资不足可使全部条件NPV失效，负原始股权值下限0不等最大损失范围",
+    "换手率自由流通分母缺；行业指数仅粗粒度官方单源，量禁用；无逐笔筹码/主力身份",
+    "2027一年目标排周六至10/8，未来休市日表未全部核验"
+  ]
+}

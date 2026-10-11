@@ -1,0 +1,30 @@
+{
+  "issuerId": "I078",
+  "name": "美团-W",
+  "asOf": "2026-10-09",
+  "modelVersion": "meituan-core-new-SOTP-v1.0",
+  "effectiveHan": 16037,
+  "bodyParagraphs": 99,
+  "fullRepeatedParagraphs": 0,
+  "minimumHanPassed": true,
+  "independent15ScenarioRecalculation": true,
+  "errors": [],
+  "financialSource": "审计年报+英文中报+九月股本月报",
+  "financialFieldsHaveMetadata": true,
+  "priceAndVolumeSource": "market_snapshot_locked.json S089",
+  "missingDisclosed": [
+    "外资原始研报及大部分目标期限未取得",
+    "未取得精确按业务和国家的订单、UE和现金流分拆",
+    "叮咚交割截止日状态未完成独立更新核验",
+    "换手率未取得可靠自由流通分母",
+    "长期路径为假设，未公开公司五年盈利预测"
+  ],
+  "sourceAsOf": "2026-10-09；Q2公告8月28日17:31闭市后",
+  "notes": [
+    "有效字数排除标题、结论卡、表格、来源及共用宏观",
+    "亏损核心不使用负PE价格；默认悲观仍保留正经营能力，额外接近零压力路径单列",
+    "核心EPS不是集团EPS，SOTP加新业务及净资金不得再加战略投资及海外期权",
+    "机构新闻转述期限为空，未自动当12个月",
+    "最终Word PDF页级核验由根代理统一执行"
+  ]
+}

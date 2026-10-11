@@ -1,0 +1,23 @@
+import fs from 'node:fs/promises';
+const root=new URL('../',import.meta.url),read=async p=>JSON.parse(await fs.readFile(new URL(p,root),'utf8'));
+const original=await fs.readFile(new URL('data/market_snapshot_locked.json',root),'utf8'),lock=JSON.parse(original);
+if(lock.lockedMethodVersion!=='market-v1.5')throw Error('Expected v1.5; review newer lock before patching');
+const values=await read('data/product_raw/hsi_values_enhk.json'),raw=await read('data/product_raw/hsi_history.json'),details=await read('data/product_raw/hsi_details_enhk.json');
+const pi=values.data.find(x=>x.indexCode==='02083.00'&&x.indexType==='PI'),item=lock.securities.find(s=>s.code==='HSTECH.HK'),history=await read(item.historyFile);
+if(values.code!=='0'||raw.code!=='0'||pi.indexTime.slice(0,10)!==lock.asOf||+pi.indexValue!==item.price)throw Error('Official PI identity/anchor mismatch');
+const official=raw.data.find(x=>x.indexCode==='02083.00').valueHistory.filter(x=>x.date>='2023-10-09'&&x.date<=lock.asOf),by=new Map(official.map(x=>[x.date,+x.close]));
+const mismatches=history.bars.filter(b=>!by.has(b.date)||Math.abs(by.get(b.date)-b.close)>.001),missing=official.filter(b=>!history.bars.some(x=>x.date===b.date));
+if(mismatches.length||missing.length||official.length!==739)throw Error('Unreviewed official history discrepancy');
+const api='https://www.hsi.com.hk/api/wsit-hsi-ddoc-ea-public-website-proxy/v1/product-data/pub/';
+const urls=[api+'series/metadata/v2?data=values&language=en-hk&seriesCode=hstech',api+'indexes/metadata/v2?data=valueHistoryPub&indexCodes=02083.00&language=en-hk'];
+item.sources.push(...urls.map(url=>({source:'Hang Seng Indexes official PI',url,status:200,retrievedAt:new Date().toISOString(),scope:url.includes('valueHistory')?'739 daily closes; no OHLC':'2026-10-09 close and high/low'})));
+item.priceDataQuality='official-and-independent-provider-verified';item.historyDataQuality='daily-closes-official-and-tencent-verified-OHLC-single-provider';item.dataQuality='medium';item.officialIdentity=details.data;
+item.crossValidation={...item.crossValidation,independentPriceSource:'Hang Seng Indexes official 02083.00 PI',pairedDays:739,officialDailyCloseMaxDifference:0,historicalProviders:['Tencent OHLC','Hang Seng Indexes official close'],status:'739-closes-cross-verified-OHLC-single-provider'};
+item.warnings=item.warnings.filter(x=>!x.includes('日线仅腾讯')&&!x.includes('复权因子无法'));item.warnings.push('739日收盘与恒生指数公司价格指数逐日相同；开高低仅腾讯，官方最新日高低另核一致。','官方top10接口当前返回10月8日，不能当成10月9日权重；当日文件另取。','当前方法v1.5注明2026年11月检讨起50成分，10月9日30成分口径保留；该方法准确发布日期未取得，未来规则不视为截止日已知事实。');
+item.lastPrice={...item.lastPrice,source:'Hang Seng Indexes official PI + Tencent',unit:'index_points'};
+for(const s of lock.securities.filter(s=>s.type==='指数')){s.lastVolumeShares=null;s.lastTurnoverAmount=null;s.indexProcessedAmountDisabled=true;if(s.quote){s.quote.volumeShares=null;s.quote.turnoverAmount=null;s.quote.amountUnit='指数汇总原字段单位未核，不输出成交额或成交股数';}}
+lock.lockedMethodVersion='market-v1.6';lock.lockedAt=new Date().toISOString();lock.revisionHistory=[...(lock.revisionHistory??[]),{version:'market-v1.6',priorVersion:'market-v1.5',date:lock.lockedAt,changes:'恒生科技739日官方收盘核验，最新PI点位核验；三指数误作股票量额字段禁用；股票价格与技术不变',archive:'data/market_snapshot_locked_v1.5.json'}];
+await fs.writeFile(new URL('data/market_snapshot_locked_v1.5.json',root),original,{flag:'wx'});
+await fs.writeFile(new URL('data/market_snapshot_locked.json',root),JSON.stringify(lock,null,2));
+await fs.writeFile(new URL('qa/hsi_index_v1.6_qa.json',root),JSON.stringify({passed:true,version:lock.lockedMethodVersion,officialPI:pi,officialRows:official.length,existingRows:history.bars.length,mismatches,missing,OHLCFullyTwoSource:false,volumeAndAmountDisabled:true,stockPricesAndTechnicalUnchanged:true,urls},null,2));
+console.log(JSON.stringify({version:lock.lockedMethodVersion,pairedDays:739,officialClose:+pi.indexValue,unchangedStockModels:true}));

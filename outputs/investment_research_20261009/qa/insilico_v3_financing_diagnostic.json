@@ -1,0 +1,2552 @@
+{
+  "issuerId": "I008",
+  "cutoff": "2026-10-09",
+  "runDate": "2026-10-11",
+  "modelVersion": "insilico-v3-perIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+  "modelSHA256": "9f64dd2d9bbe34caffa7f2e0f0b6d3bb10a9c0102388131656fd0f843cf69eae",
+  "nativeSHA256": "7eb1581400b726afaa3f97b813f33ea4d168fc8d84f5eee404a44ddbb9cc87a7",
+  "purpose": "Read-only diagnostic varying transparent financing independently of drug success and commercial demand; not an approved base scenario",
+  "limits": [
+    "Equity issues are explicit hypothetical strategies, not announced or guaranteed financing",
+    "Annual model issuance price is diagnostic, not assessed market capacity or timing",
+    "All original clinical spending preserved and all drug probabilities/revenues unchanged; no unknown future royalty or milestone invented",
+    "Any future negative2051 cash hard gate is a model policy, not current insolvency or short-horizon liquidation value"
+  ],
+  "results": [
+    {
+      "name": "unfunded_base",
+      "firstBelowReserve": 2030,
+      "minimumCashUSDbn": -0.8950741510191464,
+      "capitalRaisedGrossUSDbn": 0,
+      "capitalRaisedNetUSDbn": 0,
+      "newSharesBn": 0,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.12789597052762872,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 65,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.618069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.17775260073680932,
+          "cashUSDbn": -0.0598566302091806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.623069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.16273434400000003,
+          "cashUSDbn": -0.2358909742091806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.628069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.12156911799999999,
+          "cashUSDbn": -0.37296009220918064,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.633069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.11352880800000001,
+          "cashUSDbn": -0.5023764002091806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.636867693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.10311670380000003,
+          "cashUSDbn": -0.6217777915091807,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.640688899830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08967838548599993,
+          "cashUSDbn": -0.7281479816826806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.644533033228988,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.07271527230402498,
+          "cashUSDbn": -0.817972353791393,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.648400231428362,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.039203986832947436,
+          "cashUSDbn": -0.8729594851941646,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.6522906328169322,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.012297140059337233,
+          "cashUSDbn": -0.3628390496950573,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.7092720922459957,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.8950741510191464,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.8950741510191464,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.8950741510191464,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.8950741510191464,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.16690533494297646,
+          "sharesAtTargetBn": 0.6169185930684932
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.8950741510191464,
+          "failure": true,
+          "cashAtTargetUSDbn": -0.19537896079548195,
+          "sharesAtTargetBn": 0.6269185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_300mUSD_at30HKD",
+      "firstBelowReserve": 2032,
+      "minimumCashUSDbn": -0.5891300796484862,
+      "capitalRaisedGrossUSDbn": 0.3,
+      "capitalRaisedNetUSDbn": 0.291,
+      "newSharesBn": 0.078,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.4188959705276287,
+          "issueGrossUSDbn": 0.3,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.078,
+          "totalSharesBn": 0.696069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.17047760073680931,
+          "cashUSDbn": 0.23841836979081943,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.701069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15677388475522955,
+          "cashUSDbn": 0.06834448503558989,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.706069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11986050587411025,
+          "cashUSDbn": -0.06701602083852037,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.711069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.11352880800000001,
+          "cashUSDbn": -0.19643232883852035,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.715335693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.10311670380000003,
+          "cashUSDbn": -0.3158337201385204,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.719627707830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08967838548599993,
+          "cashUSDbn": -0.4222039103120203,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.723945474076988,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.07271527230402498,
+          "cashUSDbn": -0.5120282824207327,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.7282891469214499,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.039203986832947436,
+          "cashUSDbn": -0.5670154138235043,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.7326588818029786,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.012297140059337233,
+          "cashUSDbn": -0.05689497832439731,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.7966609849276389,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.5891300796484862,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.5891300796484862,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.5891300796484862,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.5891300796484862,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.3909354719292778,
+          "sharesAtTargetBn": 0.6769679081369863
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.5891300796484862,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.1074847763217249,
+          "sharesAtTargetBn": 0.7049185930684931
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_500mUSD_at30HKD",
+      "firstBelowReserve": 2033,
+      "minimumCashUSDbn": -0.3762649801026553,
+      "capitalRaisedGrossUSDbn": 0.5,
+      "capitalRaisedNetUSDbn": 0.485,
+      "newSharesBn": 0.13,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.6128959705276287,
+          "issueGrossUSDbn": 0.5,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.13,
+          "totalSharesBn": 0.748069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.16562760073680932,
+          "cashUSDbn": 0.43726836979081934,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.753069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15180263475522954,
+          "cashUSDbn": 0.2721657350355898,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.758069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11476497462411024,
+          "cashUSDbn": 0.14190076041147953,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.763069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10998128898971302,
+          "cashUSDbn": 0.01603197142176653,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.767647693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.10271590451445586,
+          "cashUSDbn": -0.10296862059268934,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.772253579830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08967838548599993,
+          "cashUSDbn": -0.20933881076618926,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.776887101308988,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.07271527230402498,
+          "cashUSDbn": -0.29916318287490173,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.7815484239168419,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.039203986832947436,
+          "cashUSDbn": -0.35415031427767335,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.786237714460343,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.01537214005933723,
+          "cashUSDbn": 0.15258427763319588,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8549202467154016,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.3762649801026553,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.3762649801026553,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.3762649801026553,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.3762649801026553,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.540288896586812,
+          "sharesAtTargetBn": 0.7170007848493151
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.3762649801026553,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.31016195782857414,
+          "sharesAtTargetBn": 0.7569185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_700mUSD_at30HKD",
+      "firstBelowReserve": 2035,
+      "minimumCashUSDbn": -0.1535319850628644,
+      "capitalRaisedGrossUSDbn": 0.7,
+      "capitalRaisedNetUSDbn": 0.6789999999999999,
+      "newSharesBn": 0.182,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.8068959705276286,
+          "issueGrossUSDbn": 0.7,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.182,
+          "totalSharesBn": 0.800069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1607776007368093,
+          "cashUSDbn": 0.6361183697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.805069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.14683138475522955,
+          "cashUSDbn": 0.4759869850355898,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8100692780000001,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.10966944337411025,
+          "cashUSDbn": 0.35081754166147955,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8150692780000001,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10475836945846302,
+          "cashUSDbn": 0.23017167220301654,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.819959693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09736241199492461,
+          "cashUSDbn": 0.11652457270809195,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.824879451830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08676527116829763,
+          "cashUSDbn": 0.013067496852294339,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.829828728540988,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.07238858488271763,
+          "cashUSDbn": -0.07643018783511078,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8348077009122339,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.039203986832947436,
+          "cashUSDbn": -0.1314173192378824,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8398165471177073,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.017450282959997697,
+          "cashUSDbn": 0.2549961735059878,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9131795085031639,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.6896423212443462,
+          "sharesAtTargetBn": 0.7570336615616439
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.5128391393354235,
+          "sharesAtTargetBn": 0.8089185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_700mUSD_at20HKD",
+      "firstBelowReserve": 2035,
+      "minimumCashUSDbn": -0.1535319850628644,
+      "capitalRaisedGrossUSDbn": 0.7,
+      "capitalRaisedNetUSDbn": 0.6789999999999999,
+      "newSharesBn": 0.273,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.8068959705276286,
+          "issueGrossUSDbn": 0.7,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0.273,
+          "totalSharesBn": 0.891069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1607776007368093,
+          "cashUSDbn": 0.6361183697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.896069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.14683138475522955,
+          "cashUSDbn": 0.4759869850355898,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.901069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.10966944337411025,
+          "cashUSDbn": 0.35081754166147955,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.906069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10475836945846302,
+          "cashUSDbn": 0.23017167220301654,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.911505693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09736241199492461,
+          "cashUSDbn": 0.11652457270809195,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.916974727830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08676527116829763,
+          "cashUSDbn": 0.013067496852294339,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9224765761969881,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.07238858488271763,
+          "cashUSDbn": -0.07643018783511078,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.92801143565417,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.039203986832947436,
+          "cashUSDbn": -0.1314173192378824,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.933579504268095,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.017450282959997697,
+          "cashUSDbn": 0.2549961735059878,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0151332166317484,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.6896423212443462,
+          "sharesAtTargetBn": 0.8270911958082192
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.1535319850628644,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.5128391393354235,
+          "sharesAtTargetBn": 0.8999185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_0.85bnUSD_at30HKD",
+      "firstBelowReserve": 2038,
+      "minimumCashUSDbn": 0.02293362052029935,
+      "capitalRaisedGrossUSDbn": 0.85,
+      "capitalRaisedNetUSDbn": 0.8245,
+      "newSharesBn": 0.221,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.9523959705276287,
+          "issueGrossUSDbn": 0.85,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.221,
+          "totalSharesBn": 0.839069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1571401007368093,
+          "cashUSDbn": 0.7852558697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.844069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.14310294725522954,
+          "cashUSDbn": 0.6288529225355899,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.849069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.10584779493661024,
+          "cashUSDbn": 0.5075051275989797,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.854069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10084117981002552,
+          "cashUSDbn": 0.39077644778895415,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.859193693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09334729260527617,
+          "cashUSDbn": 0.28114446768367796,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.864348855830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08264977379390799,
+          "cashUSDbn": 0.18180288920226997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8695349489649881,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.06817020007396823,
+          "cashUSDbn": 0.09652358932361425,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.874752158658778,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.03679089709985708,
+          "cashUSDbn": 0.04394954765393297,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8800006716107307,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.018912630770209927,
+          "cashUSDbn": 0.3270613869336418,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9568739548439862,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": 0.02293362052029935,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": 0.02293362052029935,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": 0.02293362052029935,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": 0.02293362052029935,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.801657389737497,
+          "sharesAtTargetBn": 0.7870583190958904
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": 0.02293362052029935,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.6648470254655605,
+          "sharesAtTargetBn": 0.8479185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_0.9bnUSD_at30HKD",
+      "firstBelowReserve": null,
+      "minimumCashUSDbn": 0.0835034745627611,
+      "capitalRaisedGrossUSDbn": 0.9,
+      "capitalRaisedNetUSDbn": 0.873,
+      "newSharesBn": 0.23399999999999999,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 1.0008959705276288,
+          "issueGrossUSDbn": 0.9,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.23399999999999999,
+          "totalSharesBn": 0.852069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1559276007368093,
+          "cashUSDbn": 0.8349683697908195,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.857069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.14186013475522954,
+          "cashUSDbn": 0.67980823503559,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.862069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.10457391212411024,
+          "cashUSDbn": 0.5597343229114797,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.867069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.09953544992721301,
+          "cashUSDbn": 0.44431137298426665,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.872271693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09200891947539336,
+          "cashUSDbn": 0.33601776600887323,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8775053238300079,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.0812779413357781,
+          "cashUSDbn": 0.2380480199855951,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8827703557729879,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.06676407180438511,
+          "cashUSDbn": 0.1541748483765225,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8880669779076258,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.03534961562353437,
+          "cashUSDbn": 0.10304208818316393,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8933953797750716,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.019570130290712133,
+          "cashUSDbn": 0.35946328403546396,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9714387702909264,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0.3913474320226269,
+          "recognizedMarketHKD": 27.126106344410182,
+          "minimumCashUSDbn": 0.0835034745627611,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0.4050130008220253,
+          "recognizedMarketHKD": 14.983509100575418,
+          "minimumCashUSDbn": 0.0835034745627611,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0.4312431582256398,
+          "recognizedMarketHKD": 0.43124315822564085,
+          "minimumCashUSDbn": 0.0835034745627611,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0.5560199408024216,
+          "recognizedMarketHKD": 0.5560199408024218,
+          "minimumCashUSDbn": 0.0835034745627611,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.8389957459018806,
+          "sharesAtTargetBn": 0.7970665382739726
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0.7161546316072175,
+          "recognizedMarketHKD": 0.7161546316072176,
+          "minimumCashUSDbn": 0.0835034745627611,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7155163208422729,
+          "sharesAtTargetBn": 0.8609185930684932
+        }
+      }
+    },
+    {
+      "name": "fixed_equity2029_1bnUSD_at30HKD",
+      "firstBelowReserve": null,
+      "minimumCashUSDbn": 0.20353097407713094,
+      "capitalRaisedGrossUSDbn": 1,
+      "capitalRaisedNetUSDbn": 0.97,
+      "newSharesBn": 0.26,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 1.0978959705276288,
+          "issueGrossUSDbn": 1,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.26,
+          "totalSharesBn": 0.878069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1535026007368093,
+          "cashUSDbn": 0.9343933697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.883069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.13937450975522955,
+          "cashUSDbn": 0.7817188600355899,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.888069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.10202614649911024,
+          "cashUSDbn": 0.6641927135364797,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.893069278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.09692399016158801,
+          "cashUSDbn": 0.5513812233748917,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.898427693668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.08933217321562774,
+          "cashUSDbn": 0.44576436265926395,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.903818259830008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.07853427641951834,
+          "cashUSDbn": 0.35053828155224565,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.909241169388988,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.06395181526521884,
+          "cashUSDbn": 0.2694773664823393,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.914696616405322,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.03246705267088895,
+          "cashUSDbn": 0.2212271692416261,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9201847961037539,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.021573910533458942,
+          "cashUSDbn": 0.45821055185180354,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 80,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.000568401184808,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0.47521160000755047,
+          "recognizedMarketHKD": 27.163845220003395,
+          "minimumCashUSDbn": 0.20353097407713094,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0.4918056447943319,
+          "recognizedMarketHKD": 15.044263951356037,
+          "minimumCashUSDbn": 0.20353097407713094,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0.5236568185807511,
+          "recognizedMarketHKD": 0.5236568185807542,
+          "minimumCashUSDbn": 0.20353097407713094,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0.6751727597628521,
+          "recognizedMarketHKD": 0.6751727597628516,
+          "minimumCashUSDbn": 0.20353097407713094,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.9136724582306477,
+          "sharesAtTargetBn": 0.817082976630137
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0.8696236655494566,
+          "recognizedMarketHKD": 0.8696236655494545,
+          "minimumCashUSDbn": 0.20353097407713094,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.8168549115956976,
+          "sharesAtTargetBn": 0.8869185930684932
+        }
+      }
+    },
+    {
+      "name": "staged_equity2029_400m_at30_and2032_450m_at25",
+      "firstBelowReserve": 2037,
+      "minimumCashUSDbn": -0.015988888811930207,
+      "capitalRaisedGrossUSDbn": 0.8500000000000001,
+      "capitalRaisedNetUSDbn": 0.8245,
+      "newSharesBn": 0.2444,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.5158959705276287,
+          "issueGrossUSDbn": 0.4,
+          "issuePriceHKD": 30,
+          "newSharesBn": 0.10400000000000001,
+          "totalSharesBn": 0.722069278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1680526007368093,
+          "cashUSDbn": 0.3378433697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.727069278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15428825975522956,
+          "cashUSDbn": 0.17025511003558988,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.732069278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11731274024911025,
+          "cashUSDbn": 0.47394236978647963,
+          "issueGrossUSDbn": 0.45,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0.1404,
+          "totalSharesBn": 0.877469278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10168024875533802,
+          "cashUSDbn": 0.3563746210311416,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8827340936679999,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.0942073382742215,
+          "cashUSDbn": 0.2458825952569201,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8880304982300079,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08353132060457694,
+          "cashUSDbn": 0.1456594699648432,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.893358681219388,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.0690737855549039,
+          "cashUSDbn": 0.059476584605251806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.8987188333067043,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.037717072217816144,
+          "cashUSDbn": 0.005976367817611454,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9041111463065445,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.01882834224551527,
+          "cashUSDbn": 0.3229076073203355,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9830906226484791,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.46561218425804496,
+          "sharesAtTargetBn": 0.6969843464931507
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.20882336707514956,
+          "sharesAtTargetBn": 0.7309185930684932
+        }
+      }
+    },
+    {
+      "name": "staged_equity2029_400m_at25_and2032_450m_at20",
+      "firstBelowReserve": 2037,
+      "minimumCashUSDbn": -0.015988888811930207,
+      "capitalRaisedGrossUSDbn": 0.8500000000000001,
+      "capitalRaisedNetUSDbn": 0.8245,
+      "newSharesBn": 0.3003,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.5158959705276287,
+          "issueGrossUSDbn": 0.4,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0.12480000000000001,
+          "totalSharesBn": 0.742869278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1680526007368093,
+          "cashUSDbn": 0.3378433697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.747869278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15428825975522956,
+          "cashUSDbn": 0.17025511003558988,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.752869278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11731274024911025,
+          "cashUSDbn": 0.47394236978647963,
+          "issueGrossUSDbn": 0.45,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0.1755,
+          "totalSharesBn": 0.933369278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10168024875533802,
+          "cashUSDbn": 0.3563746210311416,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.938969493668,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.0942073382742215,
+          "cashUSDbn": 0.2458825952569201,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.944603310630008,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08353132060457694,
+          "cashUSDbn": 0.1456594699648432,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9502709304937881,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.0690737855549039,
+          "cashUSDbn": 0.059476584605251806,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9559725560767508,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.037717072217816144,
+          "cashUSDbn": 0.005976367817611454,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9617083914132113,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.01882834224551527,
+          "cashUSDbn": 0.3229076073203355,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.045719329070324,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 26.95,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 14.700000000000003,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.46561218425804496,
+          "sharesAtTargetBn": 0.7129974971780821
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0,
+          "recognizedMarketHKD": 0,
+          "minimumCashUSDbn": -0.015988888811930207,
+          "failure": true,
+          "cashAtTargetUSDbn": 0.20882336707514956,
+          "sharesAtTargetBn": 0.7517185930684932
+        }
+      }
+    },
+    {
+      "name": "staged_equity2029_400m_at25_and2032_0.5bn_at20",
+      "firstBelowReserve": null,
+      "minimumCashUSDbn": 0.040256241971394956,
+      "capitalRaisedGrossUSDbn": 0.9,
+      "capitalRaisedNetUSDbn": 0.873,
+      "newSharesBn": 0.31980000000000003,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.5158959705276287,
+          "issueGrossUSDbn": 0.4,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0.12480000000000001,
+          "totalSharesBn": 0.742869278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1680526007368093,
+          "cashUSDbn": 0.3378433697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.747869278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15428825975522956,
+          "cashUSDbn": 0.17025511003558988,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.752869278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11731274024911025,
+          "cashUSDbn": 0.5224423697864796,
+          "issueGrossUSDbn": 0.5,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0.195,
+          "totalSharesBn": 0.9528692780000001,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.10046774875533801,
+          "cashUSDbn": 0.4060871210311416,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9585864936680001,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09296452577422148,
+          "cashUSDbn": 0.2968379077569201,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9643380126300081,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08225743779207693,
+          "cashUSDbn": 0.19788866527734317,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9701240407057882,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.0677680556720914,
+          "cashUSDbn": 0.11301150980056428,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9759447849500229,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.03637869908793333,
+          "cashUSDbn": 0.060849666142806735,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.981800453659723,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.01928401673096061,
+          "cashUSDbn": 0.3453634682433187,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0675665522407347,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0.3123829476157567,
+          "recognizedMarketHKD": 27.09057232642709,
+          "minimumCashUSDbn": 0.040256241971394956,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0.3232911338285518,
+          "recognizedMarketHKD": 14.926303793679992,
+          "minimumCashUSDbn": 0.040256241971394956,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0.3442286773402532,
+          "recognizedMarketHKD": 0.3442286773402543,
+          "minimumCashUSDbn": 0.040256241971394956,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0.4438285110069573,
+          "recognizedMarketHKD": 0.44382851100695575,
+          "minimumCashUSDbn": 0.040256241971394956,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.46561218425804496,
+          "sharesAtTargetBn": 0.7129974971780821
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0.5716518787766166,
+          "recognizedMarketHKD": 0.5716518787766134,
+          "minimumCashUSDbn": 0.040256241971394956,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.20882336707514956,
+          "sharesAtTargetBn": 0.7517185930684932
+        }
+      }
+    },
+    {
+      "name": "staged_equity2029_400m_at25_and2032_0.55bn_at20",
+      "firstBelowReserve": null,
+      "minimumCashUSDbn": 0.09650137275472007,
+      "capitalRaisedGrossUSDbn": 0.9500000000000001,
+      "capitalRaisedNetUSDbn": 0.9215,
+      "newSharesBn": 0.3393,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.5158959705276287,
+          "issueGrossUSDbn": 0.4,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0.12480000000000001,
+          "totalSharesBn": 0.742869278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1680526007368093,
+          "cashUSDbn": 0.3378433697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.747869278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15428825975522956,
+          "cashUSDbn": 0.17025511003558988,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.752869278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11731274024911025,
+          "cashUSDbn": 0.5709423697864796,
+          "issueGrossUSDbn": 0.55,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0.2145,
+          "totalSharesBn": 0.9723692780000001,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.09925524875533802,
+          "cashUSDbn": 0.4557996210311415,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9782034936680001,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09172171327422149,
+          "cashUSDbn": 0.34779322025692,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9840727146300081,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.08098355497957693,
+          "cashUSDbn": 0.2501178605898431,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9899771509177882,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.06646232578927891,
+          "cashUSDbn": 0.16654643499587668,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9959170138232949,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.03504032595805052,
+          "cashUSDbn": 0.11572296446800195,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0018925159062346,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.019862707577251667,
+          "cashUSDbn": 0.3738816354367598,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0894137754111455,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0.3550391672629506,
+          "recognizedMarketHKD": 27.10976762526833,
+          "minimumCashUSDbn": 0.09650137275472007,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0.3674368777618723,
+          "recognizedMarketHKD": 14.957205814433316,
+          "minimumCashUSDbn": 0.09650137275472007,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0.39123346483444815,
+          "recognizedMarketHKD": 0.39123346483444976,
+          "minimumCashUSDbn": 0.09650137275472007,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0.5044337604154074,
+          "recognizedMarketHKD": 0.5044337604154094,
+          "minimumCashUSDbn": 0.09650137275472007,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.46561218425804496,
+          "sharesAtTargetBn": 0.7129974971780821
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0.6497115433291782,
+          "recognizedMarketHKD": 0.6497115433291754,
+          "minimumCashUSDbn": 0.09650137275472007,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.20882336707514956,
+          "sharesAtTargetBn": 0.7517185930684932
+        }
+      }
+    },
+    {
+      "name": "staged_equity2029_400m_at25_and2032_0.6bn_at20",
+      "firstBelowReserve": null,
+      "minimumCashUSDbn": 0.1511023540066177,
+      "capitalRaisedGrossUSDbn": 1,
+      "capitalRaisedNetUSDbn": 0.97,
+      "newSharesBn": 0.3588,
+      "annual": [
+        {
+          "year": 2026,
+          "revenueUSDbn": 0.1828,
+          "normalProfitUSDbn": 0.021627427020000006,
+          "cashUSDbn": 0.716002014997,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 49,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.590620194,
+          "clinicalCostUSDbn": 0.043
+        },
+        {
+          "year": 2027,
+          "revenueUSDbn": 0.17,
+          "normalProfitUSDbn": -0.058144459625075,
+          "cashUSDbn": 0.446025555371925,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 55,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.603720194,
+          "clinicalCostUSDbn": 0.088
+        },
+        {
+          "year": 2028,
+          "revenueUSDbn": 0.195,
+          "normalProfitUSDbn": -0.13025936111570185,
+          "cashUSDbn": 0.2974009468562231,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 60,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.613069278,
+          "clinicalCostUSDbn": 0.141
+        },
+        {
+          "year": 2029,
+          "revenueUSDbn": 0.22799999999999998,
+          "normalProfitUSDbn": -0.16430497632859437,
+          "cashUSDbn": 0.5158959705276287,
+          "issueGrossUSDbn": 0.4,
+          "issuePriceHKD": 25,
+          "newSharesBn": 0.12480000000000001,
+          "totalSharesBn": 0.742869278,
+          "clinicalCostUSDbn": 0.172
+        },
+        {
+          "year": 2030,
+          "revenueUSDbn": 0.265,
+          "normalProfitUSDbn": -0.1680526007368093,
+          "cashUSDbn": 0.3378433697908194,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 70,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.747869278,
+          "clinicalCostUSDbn": 0.186
+        },
+        {
+          "year": 2031,
+          "revenueUSDbn": 0.29161360000000003,
+          "normalProfitUSDbn": -0.15428825975522956,
+          "cashUSDbn": 0.17025511003558988,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 75,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.752869278,
+          "clinicalCostUSDbn": 0.166
+        },
+        {
+          "year": 2032,
+          "revenueUSDbn": 0.31749420000000006,
+          "normalProfitUSDbn": -0.11731274024911025,
+          "cashUSDbn": 0.6194423697864796,
+          "issueGrossUSDbn": 0.6,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0.23399999999999999,
+          "totalSharesBn": 0.991869278,
+          "clinicalCostUSDbn": 0.125
+        },
+        {
+          "year": 2033,
+          "revenueUSDbn": 0.33811019999999997,
+          "normalProfitUSDbn": -0.09804274875533801,
+          "cashUSDbn": 0.5055121210311416,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 0.9978204936680001,
+          "clinicalCostUSDbn": 0.12625
+        },
+        {
+          "year": 2034,
+          "revenueUSDbn": 0.362262645,
+          "normalProfitUSDbn": -0.09047890077422148,
+          "cashUSDbn": 0.3987485327569201,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0038074166300082,
+          "clinicalCostUSDbn": 0.1275125
+        },
+        {
+          "year": 2035,
+          "revenueUSDbn": 0.39073310857499993,
+          "normalProfitUSDbn": -0.07970967216707693,
+          "cashUSDbn": 0.30234705590234323,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0098302611297882,
+          "clinicalCostUSDbn": 0.12878762500000002
+        },
+        {
+          "year": 2036,
+          "revenueUSDbn": 0.4239260333931249,
+          "normalProfitUSDbn": -0.0651565959064664,
+          "cashUSDbn": 0.22008136019118935,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0158892426965669,
+          "clinicalCostUSDbn": 0.13007550125
+        },
+        {
+          "year": 2037,
+          "revenueUSDbn": 0.42632324922539583,
+          "normalProfitUSDbn": -0.0337019528281677,
+          "cashUSDbn": 0.17059626279319742,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.0219845781527463,
+          "clinicalCostUSDbn": 0.11823863063625002
+        },
+        {
+          "year": 2051,
+          "revenueUSDbn": 0.1633427422694657,
+          "normalProfitUSDbn": 0.020371536085124365,
+          "cashUSDbn": 0.39895695251375457,
+          "issueGrossUSDbn": 0,
+          "issuePriceHKD": 20,
+          "newSharesBn": 0,
+          "totalSharesBn": 1.111260998581557,
+          "clinicalCostUSDbn": 0.031092364937562126
+        }
+      ],
+      "horizons": {
+        "yearEnd": {
+          "intrinsicHKD": 0.40498671429790317,
+          "recognizedMarketHKD": 27.132244021434058,
+          "minimumCashUSDbn": 0.1511023540066177,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.716002014997,
+          "sharesAtTargetBn": 0.590620194
+        },
+        "halfYear": {
+          "intrinsicHKD": 0.419128556952847,
+          "recognizedMarketHKD": 14.993389989866998,
+          "minimumCashUSDbn": 0.1511023540066177,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.7254055957004045,
+          "sharesAtTargetBn": 0.5941374542739726
+        },
+        "oneYear": {
+          "intrinsicHKD": 0.44627289058882813,
+          "recognizedMarketHKD": 0.4462728905888298,
+          "minimumCashUSDbn": 0.1511023540066177,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.4377734335301619,
+          "sharesAtTargetBn": 0.6006336186575343
+        },
+        "threeYear": {
+          "intrinsicHKD": 0.5753984068475191,
+          "recognizedMarketHKD": 0.5753984068475191,
+          "minimumCashUSDbn": 0.1511023540066177,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.46561218425804496,
+          "sharesAtTargetBn": 0.7129974971780821
+        },
+        "fiveYear": {
+          "intrinsicHKD": 0.7411141289080011,
+          "recognizedMarketHKD": 0.7411141289080021,
+          "minimumCashUSDbn": 0.1511023540066177,
+          "failure": false,
+          "cashAtTargetUSDbn": 0.20882336707514956,
+          "sharesAtTargetBn": 0.7517185930684932
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "issuerId": "I037",
+  "name": "君圣泰医药-B",
+  "modelVersion": "hightide-linked-shareholder-CF-v2.0",
+  "effectiveHanzi": 15022,
+  "paragraphs": 85,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "linked annual 8-product operating/funding/shares/debt/tax/NCI/asset recovery; limited shareholder distributions and terminal same-year shares; no future equity NAV double count; all horizons return/sensitivity; historical/corporate/evidence; workbook 1933checks/1092inputs and finance invariance",
+  "errors": [],
+  "adapterQA": "qa/hightide_adapter_qa.json",
+  "limitations": [
+    "没有可核公开个股外资投行目标，不提供伪共识或目标价期限",
+    "首个获批未核、商业定价/医保/渠道/合作未确定；MASHIIb无公开确证主终点效应，事后分析不可升级为成功",
+    "全部地区专利详表未取，有限估值和2035侵蚀约束远期，不凭100+专利数量确定永久壁垒",
+    "基金层现金/应付款归属及10/9母可支配现金缺；集团现金一次资产回收、NCI/赎回结算仍近似，真实分配权益待核，不能保证付款能力。",
+    "未来融资情景超过现一般授权部分需股东批准；负股权下限0为估值约束而非最大损失/实际清算回收",
+    "新上市历史始2023-12-22不足完整三年，无250周均线；无逐笔持仓分布、主力身份及自由流通换手",
+    "一年目标周六取2027-10-08，其他远期交易所休市日历未全部公布核验",
+    "v2年度聚合时点：发行当年期初、股东分配年末，2026H2按半年度；未来现金负值以情景失效展示。真实临床付款/基金退出/融资交易时点需季度核验。",
+    "当前所有未来股份包含确定总法律股和模拟融资股，employeeShares初值0因既有激励信托已发行；修改后会形成额外稀释。FV/基金NCI回收不保证。"
+  ]
+}

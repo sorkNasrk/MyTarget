@@ -1,0 +1,3996 @@
+{
+  "modelVersion": "xtalpi-v1-netContract-investmentRecovery-CBJan27-H2LeaseTotal",
+  "modelSHA256": "fe716e37550d1a8f9c39c528888a4a68ccf8fd1f88ff5be42d7281149e1bd219",
+  "nativeSHA256": "24a6cf5e97fc17b2ab92ccb3324223282e9ae6a04b8ec842f0c0f5ce438b81fb",
+  "reviewDate": "2026-10-11",
+  "leaseCashModel": "add back accrued lease interest then subtract forecast total cash lease payment",
+  "status": "PASS arithmetic; economic limitations retained",
+  "price": 6.985,
+  "outputs": [
+    {
+      "case": "bear",
+      "targets": [
+        {
+          "h": "yearEnd",
+          "target": "2026-12-31",
+          "marketPrice": 3.1432499999999997,
+          "intrinsic": 0,
+          "normalProfitCNYbn": -0.7947781679999999,
+          "cashCNYbn": 4.309367426,
+          "termCNYbn": 2.1453170000000004,
+          "MMFCNYbn": 0.703406,
+          "bankCNYbn": 0.2705,
+          "bondCNYbn": 2.6054545454545455,
+          "sharesBn": 4.296294179,
+          "EPS_CNY": -0.18499156130528088,
+          "minCash": -3.7199392292084306,
+          "fundingFailure": true,
+          "terminalRecovery": 0
+        },
+        {
+          "h": "halfYear",
+          "target": "2027-04-09",
+          "marketPrice": 1.3969999999999994,
+          "intrinsic": 0,
+          "normalProfitCNYbn": -0.9269887887580001,
+          "cashCNYbn": 2.2154057542985988,
+          "termCNYbn": 1.569314079452055,
+          "MMFCNYbn": 0.514546306849315,
+          "bankCNYbn": 0.19787260273972604,
+          "bondCNYbn": 0,
+          "sharesBn": 4.299516096808219,
+          "EPS_CNY": -0.21560305110757877,
+          "minCash": -3.7199392292084306,
+          "fundingFailure": true,
+          "terminalRecovery": 0
+        },
+        {
+          "h": "oneYear",
+          "target": "2027-10-07",
+          "marketPrice": 0,
+          "intrinsic": 0,
+          "normalProfitCNYbn": -0.9269887887580001,
+          "cashCNYbn": 3.2447950007202224,
+          "termCNYbn": 0.5054719506849319,
+          "MMFCNYbn": 0.16573401643835617,
+          "bankCNYbn": 0.06373424657534249,
+          "bondCNYbn": 0,
+          "sharesBn": 4.305466781739726,
+          "EPS_CNY": -0.21530506115841594,
+          "minCash": -3.7199392292084306,
+          "fundingFailure": true,
+          "terminalRecovery": 0
+        },
+        {
+          "h": "threeYear",
+          "target": "2029-10-09",
+          "marketPrice": 0,
+          "intrinsic": 0,
+          "normalProfitCNYbn": -1.0587391080398867,
+          "cashCNYbn": 2.581778633209038,
+          "termCNYbn": 4.440892098500626e-16,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 4.515910617356164,
+          "EPS_CNY": -0.23444642681163705,
+          "minCash": -3.7199392292084306,
+          "fundingFailure": true,
+          "terminalRecovery": 0
+        },
+        {
+          "h": "fiveYear",
+          "target": "2031-10-09",
+          "marketPrice": 0,
+          "intrinsic": 0,
+          "normalProfitCNYbn": -0.9174239396972845,
+          "cashCNYbn": 2.2111377094151226,
+          "termCNYbn": 4.440892098500626e-16,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 5.014898782134247,
+          "EPS_CNY": -0.18293967227526897,
+          "minCash": -3.7199392292084306,
+          "fundingFailure": true,
+          "terminalRecovery": 0
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "revenues": 0.6894070000000001,
+          "normalProfit": -0.7947781679999999,
+          "EBIT": -0.9114159099999999,
+          "OCF": -0.33788908399999995,
+          "capex": 0.08155399999999999,
+          "FCFbeforeDebtInvestment": -0.45135708399999996,
+          "cash": 4.309367426,
+          "term": 2.1453170000000004,
+          "MMF": 0.703406,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0.2596,
+          "financialRemaining": 2.521587,
+          "financialCash": 0,
+          "structuredRemaining": 0.544554,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.1,
+          "fundStake": 0.03,
+          "dividend": 0,
+          "shares": 4.296294179
+        },
+        {
+          "year": 2027,
+          "revenues": 0.77,
+          "normalProfit": -0.9269887887580001,
+          "EBIT": -1.0376,
+          "OCF": -0.6879887887580001,
+          "capex": 0.16,
+          "FCFbeforeDebtInvestment": -0.9019887887580001,
+          "cash": 3.7338970736056356,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 2.6513105454545456,
+          "CBConvert": 0,
+          "bankPay": 0.2705,
+          "financialRemaining": 2.271587,
+          "financialCash": 0.098,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.12,
+          "fundStake": 0.066,
+          "dividend": 0,
+          "shares": 4.308294179
+        },
+        {
+          "year": 2028,
+          "revenues": 0.8500000000000001,
+          "normalProfit": -1.042823749748704,
+          "EBIT": -1.0973,
+          "OCF": -0.7988237497487041,
+          "capex": 0.14,
+          "FCFbeforeDebtInvestment": -0.9938237497487041,
+          "cash": 2.8094642329478403,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 2.021587,
+          "financialCash": 0.098,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.10882599999999999,
+          "fundContribution": 0.1,
+          "fundStake": 0.096,
+          "dividend": 0,
+          "shares": 4.327294179
+        },
+        {
+          "year": 2029,
+          "revenues": 0.8900000000000001,
+          "normalProfit": -1.0587391080398867,
+          "EBIT": -1.0985,
+          "OCF": -0.8157391080398867,
+          "capex": 0.12,
+          "FCFbeforeDebtInvestment": -0.9867391080398867,
+          "cash": 2.5137160339988625,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.7215869999999998,
+          "financialCash": 0.1176,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.05882599999999999,
+          "fundContribution": 0.08,
+          "fundStake": 0.12,
+          "dividend": 0,
+          "shares": 4.572294179
+        },
+        {
+          "year": 2030,
+          "revenues": 0.9300000000000002,
+          "normalProfit": -0.9939668274220193,
+          "EBIT": -1.0287,
+          "OCF": -0.7559668274220193,
+          "capex": 0.1,
+          "FCFbeforeDebtInvestment": -0.9039668274220193,
+          "cash": 2.3103564883950245,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.4215869999999997,
+          "financialCash": 0.1176,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0.06,
+          "fundStake": 0.138,
+          "dividend": 0,
+          "shares": 4.823294179
+        },
+        {
+          "year": 2031,
+          "revenues": 0.9300000000000002,
+          "normalProfit": -0.9174239396972845,
+          "EBIT": -0.9497,
+          "OCF": -0.6904239396972845,
+          "capex": 0.08,
+          "FCFbeforeDebtInvestment": -0.8154239396972845,
+          "cash": 2.1814780032431944,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.1215869999999997,
+          "financialCash": 0.1176,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0.04,
+          "fundStake": 0.15,
+          "dividend": 0,
+          "shares": 5.072175603000001
+        },
+        {
+          "year": 2032,
+          "revenues": 0.9327000000000001,
+          "normalProfit": -0.7884008739448656,
+          "EBIT": -0.8194859999999999,
+          "OCF": -0.5824008739448656,
+          "capex": 0.065,
+          "FCFbeforeDebtInvestment": -0.6884008739448656,
+          "cash": 1.6176225838437834,
+          "term": 4.440892098500626e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 0.8215869999999996,
+          "financialCash": 0.1176,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0.02,
+          "fundStake": 0.156,
+          "dividend": 0,
+          "shares": 5.097175603000001
+        },
+        {
+          "year": 2038,
+          "revenues": 0.9100000000000001,
+          "normalProfit": -0.6959898911899518,
+          "EBIT": -0.6906748369047678,
+          "OCF": -0.5135063607319678,
+          "capex": 0.05757975475616,
+          "FCFbeforeDebtInvestment": -0.6074056531035517,
+          "cash": -2.287319220796187,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 0.8215869999999996,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 0.156,
+          "dividend": 0,
+          "shares": 5.283448518659371
+        },
+        {
+          "year": 2051,
+          "revenues": 0.04500111025643348,
+          "normalProfit": 0.0018034005885059618,
+          "EBIT": 0.002351356075503145,
+          "OCF": 0.005137350590733083,
+          "capex": 0.0010519745152658393,
+          "FCFbeforeDebtInvestment": 0.0034218229196841757,
+          "cash": -3.713829296675044,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 0.8215869999999996,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 0.156,
+          "dividend": 0,
+          "shares": 5.710724766026406
+        }
+      ],
+      "firstDividend": null,
+      "minCashYear": 2049
+    },
+    {
+      "case": "base",
+      "targets": [
+        {
+          "h": "yearEnd",
+          "target": "2026-12-31",
+          "marketPrice": 4.767365155726765,
+          "intrinsic": 0.6489004449336129,
+          "normalProfitCNYbn": -0.586110731,
+          "cashCNYbn": 3.7615375081363633,
+          "termCNYbn": 2.6453170000000004,
+          "MMFCNYbn": 0.853406,
+          "bankCNYbn": 0.3301,
+          "bondCNYbn": 2.6054545454545455,
+          "sharesBn": 4.296294179,
+          "EPS_CNY": -0.1364223925505079,
+          "minCash": 1.2646876954063413,
+          "fundingFailure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "halfYear",
+          "target": "2027-04-09",
+          "marketPrice": 2.880741671787442,
+          "intrinsic": 0.670756418134526,
+          "normalProfitCNYbn": -0.4945642113128636,
+          "cashCNYbn": 1.7157130349619503,
+          "termCNYbn": 2.054632068493151,
+          "MMFCNYbn": 0.6923101095890412,
+          "bankCNYbn": 0.2414704109589041,
+          "bondCNYbn": 0,
+          "sharesBn": 4.299784589958905,
+          "EPS_CNY": -0.11502069486638875,
+          "minCash": 1.2646876954063413,
+          "fundingFailure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "oneYear",
+          "target": "2027-10-07",
+          "marketPrice": 0.7126362536464361,
+          "intrinsic": 0.7126362536464365,
+          "normalProfitCNYbn": -0.4945642113128636,
+          "cashCNYbn": 2.834008739887502,
+          "termCNYbn": 0.9636731643835619,
+          "MMFCNYbn": 0.39477586301369866,
+          "bankCNYbn": 0.07777698630136987,
+          "bondCNYbn": 0,
+          "sharesBn": 4.30623116530137,
+          "EPS_CNY": -0.11484850495206791,
+          "minCash": 1.2646876954063413,
+          "fundingFailure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "threeYear",
+          "target": "2029-10-09",
+          "marketPrice": 0.9107267677129718,
+          "intrinsic": 0.9107267677129716,
+          "normalProfitCNYbn": -0.35541757334867596,
+          "cashCNYbn": 3.5127354416913477,
+          "termCNYbn": 1.6653345369377348e-16,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 4.371628425575342,
+          "EPS_CNY": -0.08130095670285611,
+          "minCash": 1.2646876954063413,
+          "fundingFailure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "fiveYear",
+          "target": "2031-10-09",
+          "marketPrice": 1.1627124636926984,
+          "intrinsic": 1.1627124636926989,
+          "normalProfitCNYbn": 0.08304615066186086,
+          "cashCNYbn": 3.07207436793291,
+          "termCNYbn": 1.6653345369377348e-16,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 4.469354881641096,
+          "EPS_CNY": 0.018581238872525437,
+          "minCash": 1.2646876954063413,
+          "fundingFailure": false,
+          "terminalRecovery": 19.106297918722777
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "revenues": 0.8194069999999999,
+          "normalProfit": -0.586110731,
+          "EBIT": -0.75735742,
+          "OCF": -0.23605536549999998,
+          "capex": 0.091554,
+          "FCFbeforeDebtInvestment": -0.36152336549999997,
+          "cash": 3.7615375081363633,
+          "term": 2.6453170000000004,
+          "MMF": 0.853406,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0.2,
+          "financialRemaining": 2.521587,
+          "financialCash": 0,
+          "structuredRemaining": 0.6445540000000001,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.15,
+          "fundStake": 0.09,
+          "dividend": 0,
+          "shares": 4.296294179
+        },
+        {
+          "year": 2027,
+          "revenues": 1.41,
+          "normalProfit": -0.4945642113128636,
+          "EBIT": -0.6536,
+          "OCF": -0.2785642113128636,
+          "capex": 0.22,
+          "FCFbeforeDebtInvestment": -0.5595642113128636,
+          "cash": 3.3653536604598635,
+          "term": 0.4453170000000002,
+          "MMF": 0.253406,
+          "CBPay": 2.6513105454545456,
+          "CBConvert": 0,
+          "bankPay": 0.3301,
+          "financialRemaining": 2.371587,
+          "financialCash": 0.10289999999999999,
+          "structuredRemaining": 0.24455400000000005,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.18,
+          "fundStake": 0.19799999999999998,
+          "dividend": 0,
+          "shares": 4.309294179
+        },
+        {
+          "year": 2028,
+          "revenues": 2.1377499999999996,
+          "normalProfit": -0.40868533980942306,
+          "EBIT": -0.49189249999999995,
+          "OCF": -0.17568533980942308,
+          "capex": 0.29,
+          "FCFbeforeDebtInvestment": -0.538685339809423,
+          "cash": 3.8293446370140773,
+          "term": 1.6653345369377348e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 2.1715869999999997,
+          "financialCash": 0.1372,
+          "structuredRemaining": 5.551115123125783e-17,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.18,
+          "fundStake": 0.306,
+          "dividend": 0,
+          "shares": 4.339294179
+        },
+        {
+          "year": 2029,
+          "revenues": 2.81775,
+          "normalProfit": -0.35541757334867596,
+          "EBIT": -0.4284924999999997,
+          "OCF": -0.11541757334867596,
+          "capex": 0.37,
+          "FCFbeforeDebtInvestment": -0.5734175733486759,
+          "cash": 3.4180907000290373,
+          "term": 1.6653345369377348e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.9715869999999998,
+          "financialCash": 0.1372,
+          "structuredRemaining": 5.551115123125783e-17,
+          "associateRemaining": 0.11882599999999999,
+          "fundContribution": 0.15,
+          "fundStake": 0.396,
+          "dividend": 0,
+          "shares": 4.381294179
+        },
+        {
+          "year": 2030,
+          "revenues": 3.65435,
+          "normalProfit": -0.1827384138993323,
+          "EBIT": -0.24335450000000014,
+          "OCF": 0.06526158610066773,
+          "capex": 0.45,
+          "FCFbeforeDebtInvestment": -0.48873841389933226,
+          "cash": 3.1491431952206135,
+          "term": 1.6653345369377348e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.7215869999999998,
+          "financialCash": 0.17149999999999999,
+          "structuredRemaining": 5.551115123125783e-17,
+          "associateRemaining": 0.07882599999999998,
+          "fundContribution": 0.12,
+          "fundStake": 0.46799999999999997,
+          "dividend": 0,
+          "shares": 4.429294179
+        },
+        {
+          "year": 2031,
+          "revenues": 4.58435,
+          "normalProfit": 0.08304615066186086,
+          "EBIT": 0.049845500000000105,
+          "OCF": 0.3440461506618609,
+          "capex": 0.54,
+          "FCFbeforeDebtInvestment": -0.31695384933813914,
+          "cash": 3.049035999633383,
+          "term": 1.6653345369377348e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.4715869999999998,
+          "financialCash": 0.17149999999999999,
+          "structuredRemaining": 5.551115123125783e-17,
+          "associateRemaining": 0.03882599999999998,
+          "fundContribution": 0.1,
+          "fundStake": 0.528,
+          "dividend": 0,
+          "shares": 4.481330323
+        },
+        {
+          "year": 2032,
+          "revenues": 5.4966,
+          "normalProfit": 0.26581597895308595,
+          "EBIT": 0.27803800000000045,
+          "OCF": 0.529815978953086,
+          "capex": 0.64,
+          "FCFbeforeDebtInvestment": -0.24918402104691406,
+          "cash": 2.810262487005234,
+          "term": 1.6653345369377348e-16,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.2215869999999998,
+          "financialCash": 0.17149999999999999,
+          "structuredRemaining": 5.551115123125783e-17,
+          "associateRemaining": 0,
+          "fundContribution": 0.08,
+          "fundStake": 0.576,
+          "dividend": 0.10632639158123439,
+          "shares": 4.521330323
+        },
+        {
+          "year": 2038,
+          "revenues": 8.782202546503683,
+          "normalProfit": 1.4594077127385359,
+          "EBIT": 1.754233272256564,
+          "OCF": 1.765566775146739,
+          "capex": 0.7422037876562496,
+          "FCFbeforeDebtInvestment": 0.8621656023588977,
+          "cash": 2.598614392055794,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.2215869999999998,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 0.576,
+          "dividend": 0.5837630850954144,
+          "shares": 4.742741232717237
+        },
+        {
+          "year": 2051,
+          "revenues": 8.277961411307304,
+          "normalProfit": 3.01885622493219,
+          "EBIT": 3.322842341202598,
+          "OCF": 3.1616137876877133,
+          "capex": 0.3460789400133894,
+          "FCFbeforeDebtInvestment": 2.740370827890166,
+          "cash": 17.69228923672278,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.2215869999999998,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 0.576,
+          "dividend": 1.2075424899728762,
+          "shares": 5.260370666182923
+        }
+      ],
+      "firstDividend": 2032,
+      "minCashYear": 2036
+    },
+    {
+      "case": "bull",
+      "targets": [
+        {
+          "h": "yearEnd",
+          "target": "2026-12-31",
+          "marketPrice": 6.763131906497762,
+          "intrinsic": 6.245439688325872,
+          "normalProfitCNYbn": -0.42083062599999993,
+          "cashCNYbn": 3.3194139242727276,
+          "termCNYbn": 3.045317,
+          "MMFCNYbn": 0.953406,
+          "bankCNYbn": 0.43010000000000004,
+          "bondCNYbn": 2.6054545454545455,
+          "sharesBn": 4.296294179,
+          "EPS_CNY": -0.09795200432432956,
+          "minCash": 0.892566648583311,
+          "fundingFailure": false,
+          "terminalRecovery": 129.33304410695567
+        },
+        {
+          "h": "halfYear",
+          "target": "2027-04-09",
+          "marketPrice": 6.6724716400615876,
+          "intrinsic": 6.416766618293795,
+          "normalProfitCNYbn": 0.4874001022072446,
+          "cashCNYbn": 1.5479993962974867,
+          "termCNYbn": 2.4277827534246574,
+          "MMFCNYbn": 0.7654607945205479,
+          "bankCNYbn": 0.314621095890411,
+          "bondCNYbn": 0,
+          "sharesBn": 4.302469521465754,
+          "EPS_CNY": 0.1132838012623965,
+          "minCash": 0.892566648583311,
+          "fundingFailure": false,
+          "terminalRecovery": 129.33304410695567
+        },
+        {
+          "h": "oneYear",
+          "target": "2027-10-07",
+          "marketPrice": 6.742243976138731,
+          "intrinsic": 6.742243976138731,
+          "normalProfitCNYbn": 0.4874001022072446,
+          "cashCNYbn": 3.1731134693970193,
+          "termCNYbn": 1.287234808219178,
+          "MMFCNYbn": 0.41833750684931514,
+          "bankCNYbn": 0.1013386301369863,
+          "bondCNYbn": 0,
+          "sharesBn": 4.313875000917808,
+          "EPS_CNY": 0.11298428955487738,
+          "minCash": 0.892566648583311,
+          "fundingFailure": false,
+          "terminalRecovery": 129.33304410695567
+        },
+        {
+          "h": "threeYear",
+          "target": "2029-10-09",
+          "marketPrice": 8.238076462645566,
+          "intrinsic": 8.238076462645566,
+          "normalProfitCNYbn": 0.8794953972663497,
+          "cashCNYbn": 6.021214618589184,
+          "termCNYbn": 0,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 4.39655719269863,
+          "EPS_CNY": 0.20004184154067853,
+          "minCash": 0.892566648583311,
+          "fundingFailure": false,
+          "terminalRecovery": 129.33304410695567
+        },
+        {
+          "h": "fiveYear",
+          "target": "2031-10-09",
+          "marketPrice": 10.05752254847852,
+          "intrinsic": 10.05752254847852,
+          "normalProfitCNYbn": 1.4362486740268077,
+          "cashCNYbn": 7.004630802891114,
+          "termCNYbn": 0,
+          "MMFCNYbn": 0,
+          "bankCNYbn": 0,
+          "bondCNYbn": 0,
+          "sharesBn": 4.515779529531507,
+          "EPS_CNY": 0.318051106045873,
+          "minCash": 0.892566648583311,
+          "fundingFailure": false,
+          "terminalRecovery": 129.33304410695567
+        }
+      ],
+      "annual": [
+        {
+          "year": 2026,
+          "revenues": 0.999407,
+          "normalProfit": -0.42083062599999993,
+          "EBIT": -0.63417521,
+          "OCF": -0.15591531299999997,
+          "capex": 0.11155399999999999,
+          "FCFbeforeDebtInvestment": -0.304383313,
+          "cash": 3.3194139242727276,
+          "term": 3.045317,
+          "MMF": 0.953406,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0.1,
+          "financialRemaining": 2.521587,
+          "financialCash": 0,
+          "structuredRemaining": 0.7445539999999999,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.18,
+          "fundStake": 0.153,
+          "dividend": 0,
+          "shares": 4.296294179
+        },
+        {
+          "year": 2027,
+          "revenues": 2.7505,
+          "normalProfit": 0.4874001022072446,
+          "EBIT": 0.38958500000000007,
+          "OCF": 0.7004001022072446,
+          "capex": 0.3,
+          "FCFbeforeDebtInvestment": 0.3224001022072446,
+          "cash": 3.9452671173890628,
+          "term": 0.745317,
+          "MMF": 0.253406,
+          "CBPay": 2.6513105454545456,
+          "CBConvert": 0,
+          "bankPay": 0.4301,
+          "financialRemaining": 2.4215869999999997,
+          "financialCash": 0.0931,
+          "structuredRemaining": 0.3445539999999999,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.23,
+          "fundStake": 0.34850000000000003,
+          "dividend": 0,
+          "shares": 4.319294179
+        },
+        {
+          "year": 2028,
+          "revenues": 3.942375,
+          "normalProfit": 0.6274474070655547,
+          "EBIT": 0.62860375,
+          "OCF": 0.8764474070655546,
+          "capex": 0.46,
+          "FCFbeforeDebtInvestment": 0.3124474070655545,
+          "cash": 5.66307788809098,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 2.271587,
+          "financialCash": 0.13965,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.158826,
+          "fundContribution": 0.24,
+          "fundStake": 0.5525,
+          "dividend": 0,
+          "shares": 4.357294179
+        },
+        {
+          "year": 2029,
+          "revenues": 5.482375,
+          "normalProfit": 0.8794953972663497,
+          "EBIT": 0.9214037499999997,
+          "OCF": 1.1454953972663497,
+          "capex": 0.68,
+          "FCFbeforeDebtInvestment": 0.3194953972663497,
+          "cash": 6.12827328535733,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 2.0715869999999996,
+          "financialCash": 0.1862,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.128826,
+          "fundContribution": 0.23,
+          "fundStake": 0.748,
+          "dividend": 0,
+          "shares": 4.408294179
+        },
+        {
+          "year": 2030,
+          "revenues": 7.482375,
+          "normalProfit": 1.3384776504785507,
+          "EBIT": 1.4699037499999998,
+          "OCF": 1.6034776504785508,
+          "capex": 0.94,
+          "FCFbeforeDebtInvestment": 0.4684776504785509,
+          "cash": 6.751770316859517,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.8715869999999997,
+          "financialCash": 0.1862,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.08882599999999999,
+          "fundContribution": 0.2,
+          "fundStake": 0.918,
+          "dividend": 0,
+          "shares": 4.470448899
+        },
+        {
+          "year": 2031,
+          "revenues": 9.141874999999999,
+          "normalProfit": 1.4362486740268077,
+          "EBIT": 1.578618749999999,
+          "OCF": 1.7502486740268075,
+          "capex": 1.22,
+          "FCFbeforeDebtInvestment": 0.27624867402680753,
+          "cash": 7.0802189908863244,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.6715869999999997,
+          "financialCash": 0.1862,
+          "structuredRemaining": 0,
+          "associateRemaining": 0.04882599999999999,
+          "fundContribution": 0.17,
+          "fundStake": 1.0625,
+          "dividend": 0,
+          "shares": 4.529330323
+        },
+        {
+          "year": 2032,
+          "revenues": 11.73,
+          "normalProfit": 2.274968871110634,
+          "EBIT": 2.5906000000000007,
+          "OCF": 2.609968871110634,
+          "capex": 1.5,
+          "FCFbeforeDebtInvestment": 0.7949688711106342,
+          "cash": 7.065343713552705,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.4715869999999998,
+          "financialCash": 0.1862,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0.13,
+          "fundStake": 1.1729999999999998,
+          "dividend": 0.9099875484442537,
+          "shares": 4.595330323
+        },
+        {
+          "year": 2038,
+          "revenues": 26.05946053000001,
+          "normalProfit": 9.962973024684237,
+          "EBIT": 11.6803148305785,
+          "OCF": 10.386854895880395,
+          "capex": 1.8979785277440007,
+          "FCFbeforeDebtInvestment": 8.090300877310156,
+          "cash": 17.65199693949397,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.4715869999999998,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 1.1729999999999998,
+          "dividend": 3.985189209873695,
+          "shares": 4.878035736532302
+        },
+        {
+          "year": 2051,
+          "revenues": 42.99936349373662,
+          "normalProfit": 21.996428118588767,
+          "EBIT": 23.222518731291224,
+          "OCF": 22.411577393017655,
+          "capex": 1.8588773481890455,
+          "FCFbeforeDebtInvestment": 20.16233580170891,
+          "cash": 126.78999660995568,
+          "term": 0,
+          "MMF": 0,
+          "CBPay": 0,
+          "CBConvert": 0,
+          "bankPay": 0,
+          "financialRemaining": 1.4715869999999998,
+          "financialCash": 0,
+          "structuredRemaining": 0,
+          "associateRemaining": 0,
+          "fundContribution": 0,
+          "fundStake": 1.1729999999999998,
+          "dividend": 8.798571247435508,
+          "shares": 5.551659693460865
+        }
+      ],
+      "firstDividend": 2032,
+      "minCashYear": 2026
+    }
+  ],
+  "sensitivity": [
+    {
+      "name": "Base unmodified",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7126362536464365,
+          "market": 0.7126362536464361,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9107267677129716,
+          "market": 0.9107267677129718,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.1627124636926989,
+          "market": 1.1627124636926984,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        }
+      ]
+    },
+    {
+      "name": "Discount 10% diagnostic",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 1.1461882008535629,
+          "market": 1.1461882008535627,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 1.3877927719290997,
+          "market": 1.3877927719290994,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.6790101750449176,
+          "market": 1.679010175044918,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        }
+      ]
+    },
+    {
+      "name": "Discount 16% diagnostic",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.46069814218743266,
+          "market": 0.4606981421874323,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.6205454995258022,
+          "market": 0.620545499525802,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 0.8348363882833774,
+          "market": 0.8348363882833771,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 19.106297918722777
+        }
+      ]
+    },
+    {
+      "name": "No dividends; retain cash until2051",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.4013188287234275,
+          "market": 0.4013188287234275,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 37.09779651702985
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.5128728686415889,
+          "market": 0.5128728686415887,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 37.09779651702985
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 0.6547778080102983,
+          "market": 0.654777808010298,
+          "minCash": 1.2646876954063413,
+          "failure": false,
+          "terminalRecovery": 37.09779651702985
+        }
+      ]
+    },
+    {
+      "name": "100% profit distribution reserve1bn",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.9794316365116555,
+          "market": 0.9794316365116558,
+          "minCash": 1,
+          "failure": false,
+          "terminalRecovery": 2.414008682
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 1.251682894256227,
+          "market": 1.251682894256227,
+          "minCash": 1,
+          "failure": false,
+          "terminalRecovery": 2.414008682
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.5980065079204289,
+          "market": 1.598006507920429,
+          "minCash": 1,
+          "failure": false,
+          "terminalRecovery": 2.414008682
+        }
+      ]
+    },
+    {
+      "name": "All CB convert at Jan26, no repayment",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7405776836403218,
+          "market": 0.7405776836403222,
+          "minCash": 3.7615375081363633,
+          "failure": false,
+          "terminalRecovery": 22.728223959243557
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9464350383677431,
+          "market": 0.9464350383677429,
+          "minCash": 3.7615375081363633,
+          "failure": false,
+          "terminalRecovery": 22.728223959243557
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.2083007266263524,
+          "market": 1.2083007266263524,
+          "minCash": 3.7615375081363633,
+          "failure": false,
+          "terminalRecovery": 22.728223959243557
+        }
+      ]
+    },
+    {
+      "name": "NCI financial fraction87.69% proxy diagnostic",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7096362805666959,
+          "market": 0.7096362805666958,
+          "minCash": 1.2639462228036016,
+          "failure": false,
+          "terminalRecovery": 18.897269377895036
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9068928962643077,
+          "market": 0.9068928962643072,
+          "minCash": 1.2639462228036016,
+          "failure": false,
+          "terminalRecovery": 18.897269377895036
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.1578178122169864,
+          "market": 1.1578178122169867,
+          "minCash": 1.2639462228036016,
+          "failure": false,
+          "terminalRecovery": 18.897269377895036
+        }
+      ]
+    },
+    {
+      "name": "H2 operating cash fraction35% diagnostic",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7143258848449897,
+          "market": 0.7143258848449898,
+          "minCash": 1.3356158654688044,
+          "failure": false,
+          "terminalRecovery": 19.20526476780133
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9128860633595401,
+          "market": 0.9128860633595401,
+          "minCash": 1.3356158654688044,
+          "failure": false,
+          "terminalRecovery": 19.20526476780133
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.1654692070432506,
+          "market": 1.1654692070432509,
+          "minCash": 1.3356158654688044,
+          "failure": false,
+          "terminalRecovery": 19.20526476780133
+        }
+      ]
+    },
+    {
+      "name": "H2 operating cash fraction65% diagnostic",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7109466224478831,
+          "market": 0.7109466224478833,
+          "minCash": 1.1937595253438795,
+          "failure": false,
+          "terminalRecovery": 19.007331069644234
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9085674720664033,
+          "market": 0.9085674720664034,
+          "minCash": 1.1937595253438795,
+          "failure": false,
+          "terminalRecovery": 19.007331069644234
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.159955720342147,
+          "market": 1.159955720342147,
+          "minCash": 1.1937595253438795,
+          "failure": false,
+          "terminalRecovery": 19.007331069644234
+        }
+      ]
+    },
+    {
+      "name": "No later equity investments and no fund NAV",
+      "vals": [
+        {
+          "h": "oneYear",
+          "intrinsic": 0.7279959179573223,
+          "market": 0.7279959179573225,
+          "minCash": 1.4272527638994918,
+          "failure": false,
+          "terminalRecovery": 19.79941923982755
+        },
+        {
+          "h": "threeYear",
+          "intrinsic": 0.9303559366746023,
+          "market": 0.9303559366746024,
+          "minCash": 1.4272527638994918,
+          "failure": false,
+          "terminalRecovery": 19.79941923982755
+        },
+        {
+          "h": "fiveYear",
+          "intrinsic": 1.1877727564311362,
+          "market": 1.1877727564311362,
+          "minCash": 1.4272527638994918,
+          "failure": false,
+          "terminalRecovery": 19.79941923982755
+        }
+      ]
+    }
+  ],
+  "timings": [
+    {
+      "target": "2027-01-25",
+      "cash": 3.9098198115519063,
+      "bond": 2.6054545454545455,
+      "shares": 4.297148973520549
+    },
+    {
+      "target": "2027-01-26",
+      "cash": 1.2646876954063413,
+      "bond": 0,
+      "shares": 4.2971845899589045
+    },
+    {
+      "target": "2027-01-25",
+      "allConvert": true,
+      "cash": 3.9098198115519063,
+      "bond": 2.6054545454545455,
+      "shares": 4.297148973520549
+    },
+    {
+      "target": "2027-01-26",
+      "allConvert": true,
+      "cash": 3.915998240860887,
+      "bond": 0,
+      "shares": 4.504115997901143
+    }
+  ],
+  "normalEBITPositiveYear": 2031,
+  "baseOneIntrinsicToCurrentPct": -89.79761984758144,
+  "disclosureLimits": [
+    "All-asset financialParentFraction is an assumed NCI proxy; legal holders unmapped",
+    "H2ForecastFraction scales synthetic annual P&L/cash budget, not true H2 seasonal forecast",
+    "Zero intrinsic if any forecast funding deficit is conservative constraint, not insolvency probability or immediate cash-liquidation value",
+    "Annual plus known CB-event interpolation cannot establish full intrayear minimum cash or day-by-day liquidity",
+    "Terminal cash2051 and dividend policies are research assumptions, not forecast board resolutions",
+    "Expected success-weighted revenue is not a discrete failure/survival probability model",
+    "2026 one-year normal profits are modeled annual proxies; not actualH1 plus separately budgetedH2",
+    "Future exercise price and rights of preissued options are not fully reconciled by tranche"
+  ],
+  "checks": [
+    {
+      "name": "bear 2026 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2026 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2027 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2028 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2029 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2030 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2031 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2032 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2033 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2034 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2035 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2036 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2037 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2038 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2039 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2040 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2041 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2042 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2043 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2044 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2045 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2046 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2047 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2048 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2049 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2050 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bear 2051 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bear yearEnd post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bear yearEnd EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bear yearEnd discount flows",
+      "pass": true
+    },
+    {
+      "name": "bear halfYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bear halfYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bear halfYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bear oneYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bear oneYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bear oneYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bear threeYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bear threeYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bear threeYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bear fiveYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bear fiveYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bear fiveYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "base 2026 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2026 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2026 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2026 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2026 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2026 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2026 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2027 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2027 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2027 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2027 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2027 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2027 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2027 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2027 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2028 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2028 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2028 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2028 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2028 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2028 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2028 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2028 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2029 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2029 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2029 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2029 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2029 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2029 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2029 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2029 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2030 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2030 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2030 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2030 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2030 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2030 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2030 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2030 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2031 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2031 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2031 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2031 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2031 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2031 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2031 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2031 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2032 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2032 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2032 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2032 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2032 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2032 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2032 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2032 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2033 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2033 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2033 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2033 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2033 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2033 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2033 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2033 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2034 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2034 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2034 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2034 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2034 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2034 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2034 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2034 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2035 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2035 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2035 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2035 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2035 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2035 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2035 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2035 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2036 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2036 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2036 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2036 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2036 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2036 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2036 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2036 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2037 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2037 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2037 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2037 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2037 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2037 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2037 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2037 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2038 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2038 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2038 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2038 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2038 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2038 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2038 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2038 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2039 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2039 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2039 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2039 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2039 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2039 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2039 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2039 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2040 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2040 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2040 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2040 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2040 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2040 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2040 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2040 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2041 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2041 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2041 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2041 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2041 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2041 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2041 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2041 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2042 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2042 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2042 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2042 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2042 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2042 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2042 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2042 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2043 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2043 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2043 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2043 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2043 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2043 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2043 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2043 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2044 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2044 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2044 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2044 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2044 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2044 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2044 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2044 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2045 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2045 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2045 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2045 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2045 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2045 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2045 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2045 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2046 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2046 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2046 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2046 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2046 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2046 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2046 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2046 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2047 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2047 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2047 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2047 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2047 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2047 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2047 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2047 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2048 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2048 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2048 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2048 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2048 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2048 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2048 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2048 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2049 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2049 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2049 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2049 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2049 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2049 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2049 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2049 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2050 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2050 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2050 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2050 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2050 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2050 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2050 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2050 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base 2051 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2051 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "base 2051 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "base 2051 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "base 2051 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "base 2051 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "base 2051 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "base 2051 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "base yearEnd post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "base yearEnd EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "base yearEnd discount flows",
+      "pass": true
+    },
+    {
+      "name": "base halfYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "base halfYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "base halfYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "base oneYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "base oneYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "base oneYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "base threeYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "base threeYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "base threeYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "base fiveYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "base fiveYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "base fiveYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2026 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2027 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2028 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2029 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2030 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2031 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2032 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2033 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2034 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2035 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2036 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2037 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2038 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2039 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2040 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2041 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2042 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2043 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2044 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2045 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2046 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2047 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2048 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2049 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2050 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 normal profit to cash bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 full cash arithmetic",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 debt repayment or conversion",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 net financial realised and left",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 financial residual NAV",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 issued cash and shares",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 shares bridge",
+      "pass": true
+    },
+    {
+      "name": "bull 2051 cash stock continuity",
+      "pass": true
+    },
+    {
+      "name": "bull yearEnd post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bull yearEnd EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bull yearEnd discount flows",
+      "pass": true
+    },
+    {
+      "name": "bull halfYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bull halfYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bull halfYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bull oneYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bull oneYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bull oneYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bull threeYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bull threeYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bull threeYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bull fiveYear post-dividend terminal recovery",
+      "pass": true
+    },
+    {
+      "name": "bull fiveYear EPS target shares",
+      "pass": true
+    },
+    {
+      "name": "bull fiveYear discount flows",
+      "pass": true
+    },
+    {
+      "name": "bear H2 lease cash subtracts reported H1 once",
+      "pass": true
+    },
+    {
+      "name": "bear yearEnd minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bear halfYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bear oneYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bear threeYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bear fiveYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "base H2 lease cash subtracts reported H1 once",
+      "pass": true
+    },
+    {
+      "name": "base yearEnd minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "base halfYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "base oneYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "base threeYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "base fiveYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bull H2 lease cash subtracts reported H1 once",
+      "pass": true
+    },
+    {
+      "name": "bull yearEnd minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bull halfYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bull oneYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bull threeYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "bull fiveYear minimum includes known CB-event cash",
+      "pass": true
+    },
+    {
+      "name": "CB redemption event cash jump",
+      "pass": true
+    },
+    {
+      "name": "CB event bond removed",
+      "pass": true
+    },
+    {
+      "name": "CB event all-conversion share jump",
+      "pass": true
+    }
+  ]
+}

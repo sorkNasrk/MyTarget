@@ -1,0 +1,43 @@
+{
+  "issuerId": "I015",
+  "securityId": "S017",
+  "name": "皓元医药",
+  "asOf": "2026-10-09",
+  "modelVersion": "haoyuan-diluted-pe-v1.0",
+  "effectiveHanzi": 14757,
+  "countMethod": "投资结论起至来源区前，剔除标题、表格及头部，Unicode Han字符；无长引文和共用宏观模板",
+  "threshold": 10000,
+  "paragraphs": 97,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "errors": [],
+  "passed": true,
+  "sourceChecks": {
+    "h1Financial": "原PDF9-10、111-117、119-121及234/236/241-243，人民币元转百万元",
+    "fy2025Financial": "更新原PDF12-14、178-183及299-302；首次4/23和更新4/24分开",
+    "shares": "10/9原PDF4-5：9/30为213234116股；精确公开时刻未核可能盘后",
+    "conversion": "9/14原PDF：9/21转股价40.13；剩余本金821836000/40.13新增20479342.14股，完全转换9.604158%",
+    "dividend": "9/14实施公告：0.09元9/21已除息发放；7月0.15元由股数及转股公告确认，不计未来回报",
+    "sellPlan": "9/12原PDF1-4：9/17-12/16拟499万股，不是实际卖出，不是控股股东减持",
+    "FX": "中报234：45.15626976减2.81290648=42.34336328百万元净损失",
+    "cash": "中报242：1221.16501892百万元可支付现金，348.60518644受限，合计1569.77020536",
+    "market": "锁版market-v1.4，728日，现价93.16元，量5828186股，与独立新浪/Yahoo核对；不重跑行情"
+  },
+  "capitalStructureChecks": {
+    "fullConversionShares": 233713458.13805133,
+    "noNewCashAtConversion": true,
+    "afterTaxAnnualInterestSavingMillion": 22,
+    "interestSavingStatus": "研究假设非事实；未转股净利桥同步保存",
+    "cashAddedAgain": false,
+    "interestAndShareCountJointlyAdjusted": true
+  },
+  "limitations": [
+    "完整分部DCF、历史估值分位及同业盈利桥未完成",
+    "外资公开可核验目标价未取得",
+    "FDA零缺陷是公司披露，监管原件未取得",
+    "2025Q4及非经常处置分类完整桥待核",
+    "CXO细分指数相对强弱缺失",
+    "10/9专项公告精确首次公开时刻待核",
+    "最终Word/PDF排版和逐页视觉核验由父代理完成"
+  ]
+}

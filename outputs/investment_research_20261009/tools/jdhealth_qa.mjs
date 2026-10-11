@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');
+const m=JSON.parse(await fs.readFile(path.join(root,'data/jdhealth_model.json'),'utf8'));
+const md=await fs.readFile(path.join(root,m.deepResearchFile),'utf8');
+const body=md.split('## 一、')[1].split('## 来源与模型核验')[0];
+const paragraphs=body.split(/\r?\n\s*\r?\n/).filter(p=>!p.trim().startsWith('#')&&!p.trim().startsWith('|')&&!p.trim().startsWith('-'));
+const count=(paragraphs.join('\n').match(/[\u3400-\u4dbf\u4e00-\u9fff]/g)||[]).length;
+const norm=paragraphs.map(p=>p.replace(/[^\u3400-\u4dbf\u4e00-\u9fff]/g,'')),duplicates=[];
+for(let i=0;i<norm.length;i++)if(norm[i].length>=60)for(let j=0;j<i;j++)if(norm[i]===norm[j])duplicates.push([j,i]);
+const weights={halfYear:[25,30,15,10,10,10],oneYear:[25,15,25,15,10,10],threeYear:[25,5,35,20,5,10],fiveYear:[20,0,40,20,5,15]},checks=[];
+for(const [h,s]of Object.entries(m.scenarios))for(let i=0;i<3;i++){const o=m.operatingBridge[h],b=m.businessRevenueAssumptions[h],revenue=b.products[i]+b.services[i];const eps=Math.round((revenue*o.EBITMargin[i]*(1-m.operatingBridge.effectiveTaxRate)+o.afterTaxInterestAssociatesNet[i])/o.dilutedShares[i]*1e6)/1e6,price=Math.round(eps*s.PE[i]*m.fx.HKDperCNY*100)/100;checks.push({horizon:h,scenarioIndex:i,revenueMatch:Math.abs(revenue-o.revenue[i])<1e-9,epsMatch:eps===s.epsCNY[i],priceMatch:price===s.priceHKD[i],returnMatch:Math.abs((price/m.price-1)*100-s.priceReturnPct[i])<1e-9,totalReturnMatch:Math.abs(((price+s.cumulativeCashDividendHKD[i])/m.price-1)*100-s.totalReturnPct[i])<1e-9,annualizedMatch:!s.annualizedTotalReturnPct||Math.abs((Math.pow((price+s.cumulativeCashDividendHKD[i])/m.price,1/(h==='threeYear'?3:5))-1)*100-s.annualizedTotalReturnPct[i])<1e-9});}
+const sc=Object.entries(m.scores).map(([h,s])=>({h,total:s.total,recalculated:s.dimensions.reduce((a,v,i)=>a+v*weights[h][i]/5,0),pass:Math.abs(s.total-s.dimensions.reduce((a,v,i)=>a+v*weights[h][i]/5,0))<1e-8}));
+const qa={issuerId:m.issuerId,asOf:m.asOf,researchFile:m.deepResearchFile,modelVersion:m.modelVersion,effectiveHanCharacters:count,bodyParagraphs:paragraphs.length,exactDuplicateParagraphs:duplicates.length,minimumCountPass:count>=10000,allScenarioChecksPassed:checks.every(x=>x.revenueMatch&&x.epsMatch&&x.priceMatch&&x.returnMatch&&x.totalReturnMatch&&x.annualizedMatch),scenarioChecks:checks,scoreChecks:sc,sourceChecks:['FY年报和H1原件，人民币千元转百万元，集团归母调整分别记录','H1末页2026-08-13，与新闻8/14市场反应区分','商品总额和市场广告其他服务净额异质，1报告分部无完整分部利润','核心EBIT扣履约营销研发管理与SBC，其他收益不直接年化','收到利息已OCF，支付利息及lease本金融资段另扣，PPE/ROU另扣','FY现金代理9943.789m，H1 4305.562m；营运资金与理财并非无条件可分现金','H1supplier finance2196.495m在贸易应付已列，不重复银行债和额外筹资','FVTPL/摊余理财、期限存款/现金/限制分别记录，不全部加PE','九月法律股3190481011/库存0；H1回购21544100七月注销','会计信托treasury不同法律股，preIPO旧股信托、postIPO上限不同已授期权','外资5条目标按正文核，10/2里昂3.7为阿里排除；7/6瑞银超90天','所有机构期限null，预测年份非目标期限，原始研报未得','739日线两源核，量股单位，周250缺失，不画逐笔筹码或精确换手'],wordCountExclusions:['标题','元数据','结论卡','表格','来源','共用宏观'],notes:['未来现金息及经济股数、税22%与汇率1.10研究假设非公司承诺','内容独立逻辑审读，完全重复0；最终Word/PDF逐页与跨文件数字由根流程核验','远期利润率与经营增长需要后续证据，悲观区间非清算估值或损失封顶'],status:'source-model-body-verified-pending-final-document-integration'};
+await fs.writeFile(path.join(root,'qa/jdhealth_qa.json'),JSON.stringify(qa,null,2));
+console.log(JSON.stringify({effectiveHanCharacters:count,bodyParagraphs:paragraphs.length,duplicates,scenarios:qa.allScenarioChecksPassed,scores:sc}));
+if(!qa.minimumCountPass||!qa.allScenarioChecksPassed||duplicates.length||sc.some(x=>!x.pass))process.exitCode=1;

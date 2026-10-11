@@ -1,0 +1,50 @@
+{
+  "version": "market-v1.4",
+  "asOf": "2026-10-09",
+  "securityId": "S021",
+  "officialIdentity": {
+    "indexcode": "987018",
+    "indextype": "203",
+    "indexsource": "0",
+    "indexname": "港股通创新药",
+    "indexename": "HKCIDI",
+    "indexfullename": "CNI HK Connect Innovative Drug Index",
+    "indexfullcname": "国证港股通创新药指数",
+    "jr": "2018-12-31",
+    "realtimemarket": "1",
+    "showdetail": "1",
+    "dataSource": 0,
+    "onlineIndexList": null
+  },
+  "indexName": "港股通创新药",
+  "count": 739,
+  "first": "2023-10-09",
+  "last": "2026-10-09",
+  "lastClose": 1791.2169,
+  "columns": [
+    "timestamp",
+    "current",
+    "high",
+    "open",
+    "low",
+    "close",
+    "chg",
+    "percent",
+    "amount",
+    "volume",
+    "avg"
+  ],
+  "OHLC": true,
+  "noDuplicate": true,
+  "existingStockTechnicalUnchanged": true,
+  "supplementedHKInnovativeDrugStocks": 22,
+  "independentSecondSource": false,
+  "volumeDisabled": true,
+  "summary": {
+    "total": 103,
+    "anchored": 99,
+    "withHistory": 102,
+    "fullHistory": 88,
+    "incomplete": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "issuerId": "I063",
+  "securityId": "S073",
+  "file": "research/catl_deep.md",
+  "model": "data/catl_model.json",
+  "asOf": "2026-10-09",
+  "effectiveChineseCharacters": 13961,
+  "minimum": 10000,
+  "bodyParagraphs": 102,
+  "exactDuplicateParagraphs": [],
+  "countMethod": "第一至三十四节独立非标题段落，结论卡表格来源长引文不计",
+  "modelChecks": {
+    "operatingCases": 15,
+    "profitEPSPricesIndependent": "pass",
+    "scoresIndependent": "pass",
+    "dividendTotalAndAnnualizedReturns": "pass",
+    "yearEndWeights": "pass",
+    "EPSDecimals": 3,
+    "cashDefinitions": "OCF减固定无形其他长期资产为研究代理；现金等价物透支净额与全部货币分开；净现金非公司定义不再加价",
+    "warranty": "总预计负债98607.243含售后59131.359与返利39327.759，未全称质量保修",
+    "supplierFinance": "57764.224m应付，其中供应商已取50406.338m，不重复加借债",
+    "RD": "H1全部费用化11.376545bn",
+    "capacity": "H1产能525/产量498GWh，与FY772/748不同期间不直接同比",
+    "shares": "六月末4626650861股；EPS加权分母与分红实施时点不同",
+    "brokerConflict": "里昂11.5x与116bn利润及约4.627bn股、FX1.10算术不对应，仅目标和评级入表",
+    "marketSnapshot": "locked; H history 346d/73w",
+    "primaryPublication": "2026-07-25 H1, 2026-03-10 FY2025"
+  },
+  "passed": true,
+  "limitations": [
+    "近义重复与最终Word/PDF逐页QA由根任务进行",
+    "未来正常率、税、份额、股数、FX与股息均研究假设",
+    "无逐笔成交和换手率，机构原报告未取得期限null",
+    "海外项目当地资本回报未完整披露，价格情景非损失上限"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "fingerprint":"05b2155848b2f8a3",
+  "document":"00_总报告_初版.docx",
+  "renderDirectory":"qa/overview_85",
+  "pages":31,
+  "reviewedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
+  "passed":true,
+  "scope":"root逐页查看1至16；market_data逐页查看17至31，尾页独立记录visual_review_overview_85_tail.json。所有图片按original请求读取。",
+  "findings":"中文、目录、表头重复、数字、页眉页脚和分页清楚，无裁切重叠。仅接受85家公司检查点；后续新增导致指纹改变时须重新核验发生变化的页面。"
+}

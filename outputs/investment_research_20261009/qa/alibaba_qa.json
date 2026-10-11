@@ -1,0 +1,7 @@
+{
+ "issuerId":"I075","securityId":"S086","asOf":"2026-10-09","checkedAt":"2026-10-10","status":"独立正文及模型完成初版；最终Word/PDF由根任务统一制作验证",
+ "deepFile":"research/alibaba_deep.md","modelFile":"data/alibaba_model.json","effectiveHanzi":14390,"minimum10000Passed":true,
+ "wordCountBasis":"第一至第三十节正文CJK汉字；剔标题、结论卡、来源、表格、链接","exactDuplicateParagraphs":0,
+ "checks":{"issuerAndCode":true,"baselineCloseQQAndSina":true,"dailyHistoryYahooAndQQ":true,"volumeSharesUnit":true,"fiscal2027Q1NotCalendarH1":true,"ADS8OrdinaryShares":true,"operatingBridge15Scenarios":true,"roundedEPSThenPrice":true,"scoreWeights":true,"yearEndWeights":true,"returnAndAnnualizedFormula":true,"pastDividendExcluded":true,"cashNotAddedTwice":true,"EBITANotFCFAndCapexRiskDisclosed":true,"brokerTargetsNotYearEndForecast":true},
+ "limitations":["未来经营参数、22%有效税率、PE、股数和FX为研究假设","经营桥加PE非完整项目DCF","换手率分母与逐笔量价缺失，未补造","自然52周和252交易日高点边界不同已解释","暂无截止日之后季度业绩；只使用当时已公开资料"]
+}

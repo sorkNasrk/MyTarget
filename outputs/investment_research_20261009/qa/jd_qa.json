@@ -1,0 +1,30 @@
+{
+  "issuerId": "I070",
+  "name": "京东集团-SW",
+  "asOf": "2026-10-09",
+  "modelVersion": "jd-three-segment-normalized-v1.0",
+  "effectiveHan": 12629,
+  "bodyParagraphs": 80,
+  "fullRepeatedParagraphs": 0,
+  "minimumHanPassed": true,
+  "independent15ScenarioRecalculation": true,
+  "errors": [],
+  "financialMetadata": true,
+  "financialSource": "2025审计20-F和官方2026Q2中期结果；USGAAP主口径",
+  "modelCautions": [
+    "零售含健康工业，不再加上市子公司市值",
+    "物流分部内部收入合并抵消，使用分部经营利润不重复合并销售",
+    "有限财资联营在EPS，不加全净现金",
+    "ADS=2普通股；USGAAP经营租赁现金已进OCF，不再扣",
+    "截止日精确发行月报缺失，六月million股官方四舍五入明确"
+  ],
+  "sourceCutoff": "2026-10-09；8月13结果收盘后",
+  "missingDisclosed": [
+    "未取截止日精确已发行与持库股月报，仅六月主源百万股四舍五入和真实加权股数",
+    "外卖单独利润在公司结果未精确公开，机构估算不当主源",
+    "港币人民币与美元港币皆研究假设",
+    "外资原研报、部分目标期限未取得",
+    "可靠流通换手率和逐笔成交未取得"
+  ],
+  "renderQA": "根代理统一Word/PDF逐页核验"
+}

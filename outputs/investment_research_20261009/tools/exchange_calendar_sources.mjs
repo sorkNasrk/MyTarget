@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..'),dir=path.join(root,'data/calendar_raw');await fs.mkdir(dir,{recursive:true});
+const items=[['hkex_calendar','https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Calendar-and-Holiday-Schedule?sc_lang=en'],['hkex_2027_search','https://www.bing.com/search?q='+encodeURIComponent('site:hkex.com.hk 2027 trading calendar holiday 2026')],['sse_2026_search','https://www.bing.com/search?q='+encodeURIComponent('site:sse.com.cn 2026年 部分节假日 休市安排')],['szse_2026_search','https://www.bing.com/search?q='+encodeURIComponent('site:szse.cn 2026年 部分节假日 休市安排')]];
+const results=await Promise.allSettled(items.map(async([id,url])=>{const r=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0'},signal:AbortSignal.timeout(25000)}),html=await r.text();await fs.writeFile(path.join(dir,id+'.html'),html);const text=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ');return{id,url,status:r.status,text,links:[...html.matchAll(/href=["']([^"']+)["']/g)].map(x=>x[1]),retrievedAt:new Date().toISOString()};}));
+await fs.writeFile(path.join(root,'data/exchange_calendar_discovery.json'),JSON.stringify(results,null,2));
+for(const x of results)console.log(JSON.stringify(x.status==='fulfilled'?{...x.value,text:x.value.text.slice(0,17000),links:x.value.links.filter(u=>/2026|2027|calendar|holiday|\.pdf|ck\/a/i.test(u)).slice(0,35)}:x));

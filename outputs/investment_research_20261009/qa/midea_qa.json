@@ -1,0 +1,173 @@
+{
+  "issuerId": "I082",
+  "asOf": "2026-10-09",
+  "researchFile": "research/midea_deep.md",
+  "modelVersion": "midea-normalized-owner-margin-v1.0",
+  "effectiveHanCharacters": 14161,
+  "bodyParagraphs": 85,
+  "exactDuplicateParagraphs": 0,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 68.69999999999999,
+      "recalculated": 68.69999999999999,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 75.7,
+      "recalculated": 75.7,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 81.3,
+      "recalculated": 81.3,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 82.8,
+      "recalculated": 82.8,
+      "pass": true
+    }
+  ],
+  "wordCountExclusions": [
+    "结论卡",
+    "标题",
+    "表格",
+    "来源链接",
+    "共用宏观"
+  ],
+  "notes": [
+    "源原件财务核对；IFRS及A股口径差异保留",
+    "PDF/Word最终渲染与跨公司近义检查由总报告流程执行",
+    "公告目录时区存在未核歧义，不把ms转换作为香港时间确认",
+    "H股历史不足三年，120/250周MA留空",
+    "无精确换手/逐笔筹码，没有主力身份断言"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

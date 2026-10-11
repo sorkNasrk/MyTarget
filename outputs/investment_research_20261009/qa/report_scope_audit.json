@@ -1,0 +1,4631 @@
+{
+  "createdAt": "2026-10-11T07:17:05.340Z",
+  "fingerprintObserved": "f94f3d19b4e62e0b",
+  "buildSourceSHA256": "f2f15ab092fea5088f3f0e040c705c6bdd22adfdcd59a931c7d8c1c912e97df4",
+  "scope": "read-only report-builder syntax and data structure; no DOCX rebuild or visual QA claimed",
+  "checks": 827,
+  "passed": true,
+  "details": [
+    {
+      "name": "Python syntax parses",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Confidence label presentation faithfully maps three labels",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Confidence presentation leaves numeric evidence unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Evidence table fields display in Chinese",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Unknown evidence field is preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Scope securities all stocks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current stock scope counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current groups have no issuer duplicates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current group sizes stay within prescribed volumes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Volume schedule equals 92",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Complete fixture activates full coverage wording",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Complete wording removes pending companies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Complete groups have exact 8x8 plus 4x7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Complete grouping covers all issuers once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Market method has no separate product research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear has ten distinct company leaders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06160.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06160.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 603259.SH six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 603259.SH weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06821.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06821.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02268.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02268.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09999.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09999.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688139.SH six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688139.SH weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01276.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01276.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03759.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03759.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00522.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00522.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01177.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01177.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear has ten distinct company leaders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06160.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06160.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 603259.SH six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 603259.SH weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02268.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02268.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01801.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01801.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00522.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00522.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09999.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09999.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01276.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01276.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06618.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06618.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06821.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06821.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03692.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03692.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear has ten distinct company leaders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06160.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06160.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01801.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01801.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 603259.SH six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 603259.SH weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00700.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00700.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02268.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02268.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03692.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03692.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06821.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06821.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00522.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00522.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01276.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01276.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06618.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06618.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear has ten distinct company leaders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06160.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06160.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00700.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00700.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03750.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03750.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300760.SZ six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300760.SZ weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01276.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01276.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00300.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00300.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 603259.SH six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 603259.SH weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06821.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06821.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03692.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03692.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01801.HK six score dimensions preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01801.HK weights sum to 100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01530.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01530.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01530.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01530.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01530.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01530.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01530.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01530.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09926.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09926.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09926.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09926.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09926.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09926.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09926.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09926.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09988.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09988.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09988.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09988.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09988.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09988.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09988.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09988.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00241.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00241.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00241.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00241.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00241.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00241.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00241.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00241.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06699.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06699.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06699.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06699.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06699.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06699.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06699.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06699.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06855.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06855.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06855.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06855.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06855.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06855.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06855.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06855.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00522.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00522.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00522.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00522.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00522.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00522.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00522.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00522.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 002821.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 002821.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 002821.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 002821.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 002821.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 002821.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 002821.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 002821.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06821.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06821.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06821.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06821.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06821.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06821.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06821.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06821.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688235.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688235.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688235.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688235.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688235.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688235.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688235.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688235.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06160.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06160.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06160.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06160.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06160.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06160.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06160.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06160.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09626.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09626.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09626.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09626.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09626.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09626.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09626.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09626.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00285.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00285.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00285.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00285.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00285.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00285.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00285.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00285.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01211.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01211.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01211.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01211.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01211.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01211.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01211.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01211.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06185.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06185.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06185.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06185.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06185.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06185.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06185.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06185.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03750.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03750.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03750.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03750.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03750.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03750.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03750.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03750.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01811.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01811.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01811.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01811.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01811.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01811.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01811.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01811.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01763.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01763.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01763.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01763.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01763.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01763.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01763.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01763.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00867.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00867.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00867.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00867.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00867.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00867.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00867.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00867.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01093.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01093.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01093.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01093.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01093.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01093.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01093.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01093.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688192.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688192.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688192.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688192.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688192.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688192.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688192.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688192.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09606.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09606.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09606.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09606.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09606.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09606.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09606.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09606.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01797.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01797.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01797.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01797.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01797.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01797.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01797.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01797.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01952.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01952.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01952.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01952.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01952.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01952.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01952.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01952.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02196.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02196.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02196.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02196.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02196.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02196.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02196.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02196.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01548.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01548.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01548.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01548.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01548.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01548.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01548.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01548.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00512.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00512.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00512.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00512.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00512.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00512.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00512.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00512.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688139.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688139.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688139.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688139.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688139.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688139.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688139.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688139.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03692.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03692.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03692.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03692.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03692.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03692.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03692.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03692.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688131.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688131.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688131.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688131.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688131.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688131.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688131.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688131.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 600276.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 600276.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 600276.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 600276.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 600276.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 600276.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 600276.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 600276.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01276.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01276.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01276.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01276.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01276.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01276.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01276.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01276.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02511.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02511.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02511.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02511.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02511.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02511.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02511.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02511.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688302.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688302.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688302.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688302.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688302.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688302.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688302.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688302.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09660.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09660.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09660.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09660.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09660.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09660.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09660.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09660.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00013.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00013.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00013.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00013.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00013.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00013.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00013.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00013.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09969.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09969.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09969.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09969.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09969.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09969.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09969.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09969.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01801.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01801.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01801.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01801.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01801.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01801.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01801.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01801.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03696.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03696.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03696.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03696.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03696.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03696.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03696.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03696.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688382.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688382.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688382.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688382.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688382.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688382.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688382.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688382.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09618.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09618.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688356.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688356.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688356.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688356.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688356.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688356.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688356.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688356.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06127.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06127.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06127.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06127.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06127.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06127.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06127.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06127.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01877.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01877.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01877.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01877.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01877.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01877.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01877.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01877.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02162.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02162.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02162.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02162.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02162.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02162.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02162.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02162.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03888.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03888.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01024.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01024.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01024.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01024.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01024.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01024.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01024.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01024.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02157.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02157.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02157.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02157.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02157.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02157.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02157.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02157.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02015.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02015.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02015.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02015.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02015.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02015.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02015.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02015.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02186.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02186.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02186.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02186.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02186.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02186.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02186.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02186.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688062.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688062.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688062.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688062.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688062.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688062.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688062.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688062.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688202.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 688202.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688202.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 688202.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688202.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 688202.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688202.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 688202.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03690.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03690.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00300.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00300.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00300.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00300.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00300.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00300.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00300.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00300.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 300760.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 300760.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 300760.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 300760.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 300760.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 300760.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300760.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300760.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00100.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00100.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00100.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00100.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00100.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00100.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00100.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00100.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09999.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09999.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09999.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09999.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09999.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09999.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09999.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09999.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09866.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09866.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09866.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09866.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09866.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09866.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09866.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09866.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03759.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03759.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03759.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03759.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03759.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03759.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03759.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03759.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09992.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09992.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 300363.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 300363.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 300363.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 300363.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 300363.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 300363.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300363.SZ all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 300363.SZ display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09995.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09995.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09995.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09995.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09995.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09995.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09995.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09995.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00020.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00020.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00020.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00020.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00020.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00020.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00020.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00020.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02607.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02607.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02607.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02607.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02607.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02607.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02607.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02607.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02096.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02096.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02096.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02096.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02096.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02096.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02096.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02096.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01177.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01177.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01177.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01177.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01177.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01177.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01177.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01177.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00981.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00981.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00981.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00981.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00981.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00981.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00981.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00981.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02382.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02382.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02382.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02382.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02382.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02382.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02382.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02382.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00700.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00700.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00700.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00700.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00700.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00700.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00700.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00700.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 03347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 03347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 03347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03347.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 03347.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00780.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00780.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00780.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00780.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00780.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00780.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00780.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00780.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09961.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09961.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09961.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09961.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09961.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09961.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09961.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09961.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09880.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09880.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09880.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09880.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09880.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09880.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09880.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09880.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 603259.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 603259.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 603259.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 603259.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 603259.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 603259.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 603259.SH all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 603259.SH display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02359.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02359.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02359.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02359.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02359.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02359.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02359.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02359.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02269.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02269.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02269.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02269.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02269.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02269.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02269.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02269.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02268.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02268.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02400.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02400.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02400.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02400.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02400.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02400.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02400.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02400.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01810.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 01810.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01810.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 01810.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01810.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 01810.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01810.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 01810.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09868.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09868.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09868.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09868.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09868.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09868.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09868.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09868.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00772.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 00772.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00772.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 00772.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00772.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 00772.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00772.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 00772.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09688.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 09688.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09688.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 09688.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09688.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 09688.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09688.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 09688.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 02513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 02513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 02513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02513.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 02513.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06060.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "halfYear 06060.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06060.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "oneYear 06060.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06060.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "threeYear 06060.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06060.HK all six display reasons nonempty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fiveYear 06060.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "leaders": [
+    {
+      "horizon": "halfYear",
+      "code": "06160.HK",
+      "name": "百济神州",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "603259.SH",
+      "name": "药明康德",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "06821.HK",
+      "name": "凯莱英",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "02268.HK",
+      "name": "药明合联",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "09999.HK",
+      "name": "网易",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "688139.SH",
+      "name": "海尔生物",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "01276.HK",
+      "name": "恒瑞医药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "03759.HK",
+      "name": "康龙化成",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "00522.HK",
+      "name": "ASMPT",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "halfYear",
+      "code": "01177.HK",
+      "name": "中国生物制药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "06160.HK",
+      "name": "百济神州",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "603259.SH",
+      "name": "药明康德",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "02268.HK",
+      "name": "药明合联",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "01801.HK",
+      "name": "信达生物",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "00522.HK",
+      "name": "ASMPT",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "09999.HK",
+      "name": "网易",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "01276.HK",
+      "name": "恒瑞医药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "06618.HK",
+      "name": "京东健康",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "06821.HK",
+      "name": "凯莱英",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "oneYear",
+      "code": "03692.HK",
+      "name": "翰森制药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "06160.HK",
+      "name": "百济神州",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "01801.HK",
+      "name": "信达生物",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "603259.SH",
+      "name": "药明康德",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "00700.HK",
+      "name": "腾讯控股",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "02268.HK",
+      "name": "药明合联",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "03692.HK",
+      "name": "翰森制药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "06821.HK",
+      "name": "凯莱英",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "00522.HK",
+      "name": "ASMPT",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "01276.HK",
+      "name": "恒瑞医药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "threeYear",
+      "code": "06618.HK",
+      "name": "京东健康",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "06160.HK",
+      "name": "百济神州",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "00700.HK",
+      "name": "腾讯控股",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "03750.HK",
+      "name": "宁德时代",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "300760.SZ",
+      "name": "迈瑞医疗",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "01276.HK",
+      "name": "恒瑞医药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "00300.HK",
+      "name": "美的集团",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "603259.SH",
+      "name": "药明康德",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "06821.HK",
+      "name": "凯莱英",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "03692.HK",
+      "name": "翰森制药",
+      "reasonCount": 6
+    },
+    {
+      "horizon": "fiveYear",
+      "code": "01801.HK",
+      "name": "信达生物",
+      "reasonCount": 6
+    }
+  ],
+  "currentCoverage": {
+    "issuerModels": 91,
+    "securityModels": 95,
+    "rankedSecurityModels": 91,
+    "conditionedSecurityModels": 4,
+    "deepResearchPassed": 91,
+    "remainingDeepResearch": 1,
+    "withheldManuscripts": []
+  },
+  "currentGroups": [
+    [
+      "I012",
+      "I010",
+      "I049",
+      "I048",
+      "I072",
+      "I006",
+      "I063",
+      "I014"
+    ],
+    [
+      "I069",
+      "I064",
+      "I011",
+      "I082",
+      "I001",
+      "I029",
+      "I022",
+      "I074"
+    ],
+    [
+      "I031",
+      "I025",
+      "I033",
+      "I065",
+      "I090",
+      "I076",
+      "I034",
+      "I075"
+    ],
+    [
+      "I050",
+      "I091",
+      "I061",
+      "I040",
+      "I068",
+      "I078",
+      "I019",
+      "I024"
+    ],
+    [
+      "I060",
+      "I041",
+      "I079",
+      "I073",
+      "I077",
+      "I052",
+      "I087",
+      "I015"
+    ],
+    [
+      "I035",
+      "I003",
+      "I081",
+      "I056",
+      "I023",
+      "I017",
+      "I092",
+      "I071"
+    ],
+    [
+      "I067",
+      "I070",
+      "I062",
+      "I057",
+      "I013",
+      "I018",
+      "I058",
+      "I036"
+    ],
+    [
+      "I043",
+      "I080",
+      "I086",
+      "I004",
+      "I053",
+      "I005",
+      "I089",
+      "I042"
+    ],
+    [
+      "I054",
+      "I055",
+      "I083",
+      "I044",
+      "I032",
+      "I039",
+      "I045"
+    ],
+    [
+      "I051",
+      "I008",
+      "I037",
+      "I030",
+      "I028",
+      "I047",
+      "I084"
+    ],
+    [
+      "I085",
+      "I066",
+      "I002",
+      "I059",
+      "I020",
+      "I026",
+      "I088"
+    ],
+    [
+      "I046",
+      "I021",
+      "I016",
+      "I007",
+      "I009",
+      "I038"
+    ]
+  ],
+  "completeFixtureGroups": [
+    [
+      "I012",
+      "I010",
+      "I049",
+      "I048",
+      "I072",
+      "I006",
+      "I063",
+      "I014"
+    ],
+    [
+      "I069",
+      "I064",
+      "I011",
+      "I082",
+      "I001",
+      "I029",
+      "I022",
+      "I074"
+    ],
+    [
+      "I031",
+      "I025",
+      "I033",
+      "I065",
+      "I090",
+      "I076",
+      "I034",
+      "I075"
+    ],
+    [
+      "I050",
+      "I091",
+      "I061",
+      "I040",
+      "I068",
+      "I078",
+      "I019",
+      "I024"
+    ],
+    [
+      "I060",
+      "I041",
+      "I079",
+      "I073",
+      "I077",
+      "I052",
+      "I087",
+      "I015"
+    ],
+    [
+      "I035",
+      "I003",
+      "I081",
+      "I056",
+      "I023",
+      "I017",
+      "I092",
+      "I071"
+    ],
+    [
+      "I067",
+      "I070",
+      "I062",
+      "I057",
+      "I013",
+      "I018",
+      "I058",
+      "I036"
+    ],
+    [
+      "I043",
+      "I080",
+      "I086",
+      "I004",
+      "I053",
+      "I005",
+      "I089",
+      "I042"
+    ],
+    [
+      "I054",
+      "I055",
+      "I083",
+      "I044",
+      "I032",
+      "I039",
+      "I045"
+    ],
+    [
+      "I051",
+      "I008",
+      "I037",
+      "I030",
+      "I028",
+      "I047",
+      "I084"
+    ],
+    [
+      "I085",
+      "I066",
+      "I002",
+      "I059",
+      "I020",
+      "I026",
+      "I088"
+    ],
+    [
+      "I046",
+      "I021",
+      "I016",
+      "I007",
+      "I027",
+      "I009",
+      "I038"
+    ]
+  ]
+}

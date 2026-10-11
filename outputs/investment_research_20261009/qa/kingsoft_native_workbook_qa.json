@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "modelVersion": "kingsoft-normal-segment-parent-SOTP-investment-NAV-v1.0",
+  "checks": 1981,
+  "atomicEdits": 41,
+  "manifestCount": 615,
+  "activeBuildOnly": true,
+  "dependencySignatureCoverage": true,
+  "missingSelectedInputExposed": true,
+  "scope": "All 15 SOTP cases in artifact-tool vs native, every 41 input fields changed/restored; equity dispatch and shares checked. Root handles integrated export and visual QA."
+}

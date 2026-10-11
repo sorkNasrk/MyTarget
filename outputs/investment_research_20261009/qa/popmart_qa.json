@@ -1,0 +1,35 @@
+{
+  "issuerId": "I056",
+  "securityId": "S066",
+  "file": "research/popmart_deep.md",
+  "model": "data/popmart_model.json",
+  "asOf": "2026-10-09",
+  "effectiveChineseCharacters": 13877,
+  "minimum": 10000,
+  "bodyParagraphs": 102,
+  "exactDuplicateParagraphs": [],
+  "modelChecks": {
+    "operatingCases": 15,
+    "profitEPSPricesIndependent": "pass",
+    "scoresIndependent": "pass",
+    "dividendTotalAndAnnualizedReturns": "pass",
+    "yearEndWeights": "pass",
+    "EPSDecimals": 3,
+    "PRC": "含香港澳门台湾，非纯内地；海外排除四区",
+    "adjustedProfit": "nonIFRS集团净利加回SBC，不等于归母EPS；FX仍在",
+    "cashFlow": "OCF3.637324bn; cash tax3.219674bn，FCF代理减PPE无形租赁，不称全部可分配",
+    "inventory": "201日H1 vsFY123，不称同季；存货6.101530bn",
+    "brokerQuarter": "新闻Q2同比-2/-10/-11不一，无精确首季收入不倒推伪精确Q2",
+    "FX": "正式中报未对冲；机构称将对冲不冒充执行",
+    "repurchase": "H1注销11220000股、HKD1744493320；未来20-50亿仅新闻计划",
+    "marketSnapshot": "locked two sources 739d157w",
+    "primarySources": "官网API取9/24中报8/20结果4/21年报"
+  },
+  "passed": true,
+  "limitations": [
+    "近义重复与最终Word/PDF逐页QA由根进行",
+    "未来收入正常率费用税归属股数FX倍数分红均假设",
+    "原研报及期限缺失null，新闻季度口径有冲突",
+    "首季公告下载网络失败，已定位官方URL但不用未读绝对数字"
+  ]
+}

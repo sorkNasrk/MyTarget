@@ -1,0 +1,281 @@
+{
+  "issuerId": "I076",
+  "asOf": "2026-10-09",
+  "modelVersion": "sunny-four-segment-gross-to-normal-profit-v1.0",
+  "researchFile": "research/sunny_deep.md",
+  "effectiveHanCharacters": 15902,
+  "bodyParagraphs": 110,
+  "exactDuplicateParagraphs": 0,
+  "minimumCountPass": true,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "h": "yearEnd",
+      "i": 0,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "yearEnd",
+      "i": 1,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "yearEnd",
+      "i": 2,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "halfYear",
+      "i": 0,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "halfYear",
+      "i": 1,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "halfYear",
+      "i": 2,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "oneYear",
+      "i": 0,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "oneYear",
+      "i": 1,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "oneYear",
+      "i": 2,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "threeYear",
+      "i": 0,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "threeYear",
+      "i": 1,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "threeYear",
+      "i": 2,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "fiveYear",
+      "i": 0,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "fiveYear",
+      "i": 1,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    },
+    {
+      "h": "fiveYear",
+      "i": 2,
+      "revenuePass": true,
+      "grossPass": true,
+      "corePass": true,
+      "integrationAggregatePass": true,
+      "EPSPass": true,
+      "pricePass": true,
+      "priceReturnPass": true,
+      "totalReturnPass": true,
+      "annualizedPass": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "pass": true
+    }
+  ],
+  "sourceBridgeChecks": [
+    {
+      "period": "annual",
+      "revenue": true,
+      "gross": true,
+      "core": true,
+      "pretax": true,
+      "profit": true,
+      "owner": true,
+      "cash": true
+    },
+    {
+      "period": "interim",
+      "revenue": true,
+      "gross": true,
+      "core": true,
+      "pretax": true,
+      "profit": true,
+      "owner": true,
+      "cash": true
+    }
+  ],
+  "expectedPricePass": true,
+  "sourceChecks": [
+    "HKEX首次日期年报4/24 17:44/FY结果3/30 22:22；H1结果8/26 19:00/中报9/21 12:00",
+    "四分部重列2024，segment margin是毛利，未分配RD/selling/admin不可直接PE",
+    "FY换股918.920m剔常态，联营价值不得与PE重复加，后续增资6/25有条件",
+    "OmniLight条件33.27%非全集团唯一比例，其他持股另列；无完成原件不称完成",
+    "H1与FY财务RMB千元转百万，EPS人民币分转元；归母/集团/NCI不同",
+    "常态SBC231.408m/74.218m保留，税20%假设不同低报表税/PillarTwo",
+    "收到利息投资段，支付融资段，资本现金含设备预付款及土地/无形",
+    "H1现金代理1609.238m全扣83.376m债本金利息混合行，不能称纯FCF；FY2662.242m",
+    "6/30现金/理财/存款/质押与银行债/票据分开；7/7新债2.7bn 2.15%到2031不伪造截止净债",
+    "9月法律不含treasury1078964800+treasury15840000，信托不同；回购未注销未来再用",
+    "2026计划未来107896480上限未授，不全当新增分母；正常经济股逐步增加",
+    "1.206HKD6/5除息6/26支付，H1未息；未来不重复已付",
+    "车载分拆申请不等于完成，现有并表不再加全市值",
+    "投资者PPT仅14天未获取，CPO/AR订单和指引新闻层级标明",
+    "大和最新正文12个月，其余未明；美银等超90日保留背景，中银中资单列",
+    "739双源日线及157周、复权基准、量股；缺250周/逐笔/换手不造；短周量少有交易日限制"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "元数据",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "完全重复段0；跨公司近似及最终Word/PDF由根集成QA",
+    "远期毛利/税/股数与股息均研究假设，悲观非清算或损失封顶",
+    "原生四分部假设与aggregateEBIT独立复算一致，总表活动模型可通过aggregate桥刷新"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

@@ -1,0 +1,1841 @@
+{
+  "version": "calendar-rebase-v1",
+  "asOf": "2026-10-09",
+  "records": [
+    {
+      "code": "01530.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        10.177115108459063,
+        25.063798736268946,
+        54.36428300596226
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        10.176881219985386,
+        25.061663000363787,
+        54.353759980589324
+      ]
+    },
+    {
+      "code": "09926.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        14.55150612403958,
+        86.86690106693104,
+        226.26689930524282
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        14.550480737962996,
+        86.84769195103476,
+        226.20496634972318
+      ]
+    },
+    {
+      "code": "09988.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        53.75,
+        171.63,
+        326.11
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        53.75,
+        171.63,
+        326.11
+      ]
+    },
+    {
+      "code": "00241.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0.93,
+        4.15,
+        7.23
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        0.93,
+        4.15,
+        7.23
+      ]
+    },
+    {
+      "code": "06699.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        21.186254831460733,
+        114.66886363636362,
+        212.67542045454547
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        21.186254831460733,
+        114.66886363636362,
+        212.67542045454547
+      ]
+    },
+    {
+      "code": "00522.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        15.5,
+        245.89,
+        419.6
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        15.5,
+        245.89,
+        419.6
+      ]
+    },
+    {
+      "code": "06821.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        72.60000000000001,
+        205.70000000000002,
+        337.26
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        72.60000000000001,
+        205.70000000000002,
+        337.26
+      ]
+    },
+    {
+      "code": "09888.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        15.39,
+        118.53,
+        288.57
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        15.39,
+        118.53,
+        288.57
+      ]
+    },
+    {
+      "code": "06160.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        53.371933333333345,
+        393.05564999999984,
+        780.7481541401274
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        53.371933333333345,
+        393.05564999999984,
+        780.7481541401274
+      ]
+    },
+    {
+      "code": "09626.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        9.77,
+        182.72,
+        372.59
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        9.77,
+        182.72,
+        372.59
+      ]
+    },
+    {
+      "code": "01211.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        23.56,
+        126.38,
+        275.91
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        23.56,
+        126.38,
+        275.91
+      ]
+    },
+    {
+      "code": "03750.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        154.88,
+        658.27,
+        1304.16
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        154.88,
+        658.27,
+        1304.16
+      ]
+    },
+    {
+      "code": "01763.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        1.8065625000000107,
+        22.23873661234437,
+        36.357106481315
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        1.8065625000000107,
+        22.23873661234437,
+        36.357106481315
+      ]
+    },
+    {
+      "code": "00867.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        3.251830645161289,
+        18.10629626172052,
+        28.67386314957233
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        3.251830645161289,
+        18.10629626172052,
+        28.67386314957233
+      ]
+    },
+    {
+      "code": "01093.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        4.347869465369444,
+        11.008527035143045,
+        22.69332798049073
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        4.347816749850177,
+        11.007915634883572,
+        22.690558770117377
+      ]
+    },
+    {
+      "code": "01952.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        7.7185871586318555,
+        38.66684178830202,
+        139.9080100747547
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        7.715797799985744,
+        38.65638581763424,
+        139.87705332843754
+      ]
+    },
+    {
+      "code": "02196.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        9.8354666666667,
+        27.83053358208953,
+        45.10771641791046
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        9.8354666666667,
+        27.83053358208953,
+        45.10771641791046
+      ]
+    },
+    {
+      "code": "01548.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        8.33722024390244,
+        48.02616980410601,
+        99.54471642370319
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        8.33722024390244,
+        48.02588263269168,
+        99.54272521710658
+      ]
+    },
+    {
+      "code": "03692.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        23.510666666666665,
+        46.009615384615394,
+        70.98102564102565
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        23.510666666666665,
+        46.009615384615394,
+        70.98102564102565
+      ]
+    },
+    {
+      "code": "01276.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        30.250000000000004,
+        69.30000000000001,
+        116.325
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        30.250000000000004,
+        69.30000000000001,
+        116.325
+      ]
+    },
+    {
+      "code": "02511.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0,
+        0.9731929079698369,
+        5.195912994118547
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        0,
+        0.9728205895263329,
+        5.1941746615994075
+      ]
+    },
+    {
+      "code": "09660.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        1.77,
+        8.63,
+        19.83
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        1.77,
+        8.63,
+        19.83
+      ]
+    },
+    {
+      "code": "01347.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        31.02,
+        123.85,
+        199.84
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        31.02,
+        123.85,
+        199.84
+      ]
+    },
+    {
+      "code": "00013.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        6.419729473523848,
+        21.621979304957538,
+        64.89721176544596
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        6.418245210995966,
+        21.61767672420585,
+        64.88216164687144
+      ]
+    },
+    {
+      "code": "09969.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        4.95907007198697,
+        15.602146110944682,
+        41.33383774483429
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        4.958339322258848,
+        15.598350877777904,
+        41.324175455909185
+      ]
+    },
+    {
+      "code": "01801.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        55.66,
+        139.81,
+        225.72000000000003
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        55.66,
+        139.81,
+        225.72000000000003
+      ]
+    },
+    {
+      "code": "06618.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        11.99,
+        61.04,
+        100.42
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        11.99,
+        61.04,
+        100.42
+      ]
+    },
+    {
+      "code": "09618.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        49.9,
+        169.05,
+        393.11
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        49.9,
+        169.05,
+        393.11
+      ]
+    },
+    {
+      "code": "06127.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        7.630221176470588,
+        26.00269071166942,
+        45.87659579681126
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        7.630221176470588,
+        26.00269071166942,
+        45.87659579681126
+      ]
+    },
+    {
+      "code": "02162.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        14.453494905373255,
+        76.2074915149371,
+        226.46521002994206
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        14.44341964527171,
+        76.14933957753632,
+        226.34621043890286
+      ]
+    },
+    {
+      "code": "00268.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        2.5,
+        11.22,
+        18.33
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        2.5,
+        11.22,
+        18.33
+      ]
+    },
+    {
+      "code": "03888.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        4.66,
+        31.16,
+        73
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        4.66,
+        31.16,
+        73
+      ]
+    },
+    {
+      "code": "01024.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        11.45,
+        60.99,
+        128.2
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        11.45,
+        60.99,
+        128.2
+      ]
+    },
+    {
+      "code": "00992.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        8.13,
+        50.42,
+        102.52
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        8.13,
+        50.42,
+        102.52
+      ]
+    },
+    {
+      "code": "02015.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        9.59,
+        69.93,
+        141.43
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        9.59,
+        69.93,
+        141.43
+      ]
+    },
+    {
+      "code": "01513.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        14.96,
+        30.36,
+        51.04
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        14.96,
+        30.36,
+        51.04
+      ]
+    },
+    {
+      "code": "02186.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0.46132392161584157,
+        2.3931901519378957,
+        6.295956309288158
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        0.46132392161584157,
+        2.3931901519378957,
+        6.295956309288158
+      ]
+    },
+    {
+      "code": "03690.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        30.25,
+        153.25,
+        299.81
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        30.25,
+        153.25,
+        299.81
+      ]
+    },
+    {
+      "code": "00300.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        47.44,
+        131.88,
+        198.41
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        47.44,
+        131.88,
+        198.41
+      ]
+    },
+    {
+      "code": "00100.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        23.18,
+        365.21,
+        1086.7
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        23.18,
+        365.21,
+        1086.7
+      ]
+    },
+    {
+      "code": "09999.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        145.2,
+        257.4,
+        363
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        145.2,
+        257.4,
+        363
+      ]
+    },
+    {
+      "code": "09866.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0,
+        40.21,
+        100.4
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        0,
+        40.21,
+        100.4
+      ]
+    },
+    {
+      "code": "03759.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        13.808936842105265,
+        51.12162194588669,
+        96.65148559621441
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        13.808936842105265,
+        51.12162194588669,
+        96.65148559621441
+      ]
+    },
+    {
+      "code": "09992.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        50.48,
+        239.27,
+        477.71
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        50.48,
+        239.27,
+        477.71
+      ]
+    },
+    {
+      "code": "09995.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        8.126390749663756,
+        71.83079551410437,
+        259.613642260575
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "全部未来现金流ACT折现、目标年比例及目标现金/股数按实际日重算；经营假设不变",
+      "rebasedPrices": [
+        8.122131567356561,
+        71.7885145761109,
+        259.4828347440533
+      ]
+    },
+    {
+      "code": "02607.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        7.293,
+        15.400000000000002,
+        23.760000000000005
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        7.293,
+        15.400000000000002,
+        23.760000000000005
+      ]
+    },
+    {
+      "code": "02096.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        3.581924471052637,
+        20.685318463754793,
+        49.871663261538465
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        3.581924471052637,
+        20.685318463754793,
+        49.871663261538465
+      ]
+    },
+    {
+      "code": "01177.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        4.25510752688172,
+        10.428956521739131,
+        18.044782608695655
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        4.25510752688172,
+        10.428956521739131,
+        18.044782608695655
+      ]
+    },
+    {
+      "code": "00981.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        13.64,
+        83.59,
+        175.19
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        13.64,
+        83.59,
+        175.19
+      ]
+    },
+    {
+      "code": "02382.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        16.04,
+        96.11,
+        174.9
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        16.04,
+        96.11,
+        174.9
+      ]
+    },
+    {
+      "code": "00700.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        343.2,
+        633.6,
+        919.6
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        343.2,
+        633.6,
+        919.6
+      ]
+    },
+    {
+      "code": "03347.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        13.10911506666663,
+        45.446618485003945,
+        75.3439337474168
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        13.10911506666663,
+        45.446618485003945,
+        75.3439337474168
+      ]
+    },
+    {
+      "code": "00780.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0.86,
+        23.04,
+        44.69
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        0.86,
+        23.04,
+        44.69
+      ]
+    },
+    {
+      "code": "09961.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        197.68,
+        519.23,
+        936.9
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        197.68,
+        519.23,
+        936.9
+      ]
+    },
+    {
+      "code": "09880.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        10.68,
+        122.88,
+        352.26
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        10.68,
+        122.88,
+        352.26
+      ]
+    },
+    {
+      "code": "02359.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        138.60000000000002,
+        261.25,
+        402.38000000000005
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        138.60000000000002,
+        261.25,
+        402.38000000000005
+      ]
+    },
+    {
+      "code": "02269.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        43.56,
+        72.60000000000001,
+        104.72000000000001
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        43.56,
+        72.60000000000001,
+        104.72000000000001
+      ]
+    },
+    {
+      "code": "02268.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        55.44000000000001,
+        110.33000000000003,
+        177.87000000000003
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        55.44000000000001,
+        110.33000000000003,
+        177.87000000000003
+      ]
+    },
+    {
+      "code": "02400.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        12.81,
+        58.02,
+        132.66
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        12.81,
+        58.02,
+        132.66
+      ]
+    },
+    {
+      "code": "01810.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        7.29,
+        38.72,
+        80.61
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        7.29,
+        38.72,
+        80.61
+      ]
+    },
+    {
+      "code": "09868.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        0,
+        58.75,
+        146.95
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        0,
+        58.75,
+        146.95
+      ]
+    },
+    {
+      "code": "00772.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        3.26,
+        27.44,
+        59.05
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        3.26,
+        27.44,
+        59.05
+      ]
+    },
+    {
+      "code": "02513.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        78.35,
+        1236.29,
+        2708.51
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        78.35,
+        1236.29,
+        2708.51
+      ]
+    },
+    {
+      "code": "06060.HK",
+      "horizon": "oneYear",
+      "nominalDate": "2027-10-09",
+      "oldModelDate": "2027-10-09",
+      "actualDate": "2027-10-07",
+      "oldPrices": [
+        5.53,
+        14.27,
+        24.12
+      ],
+      "calendarSources": [
+        {
+          "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+          "publicationDate": "2017-09-16"
+        },
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "publicationMonth": "2026-05"
+        }
+      ],
+      "recalculation": "经营情景及期限估值输入为独立研究假设，不按相差日数插值；实际日期已修订",
+      "rebasedPrices": [
+        5.53,
+        14.27,
+        24.12
+      ]
+    }
+  ],
+  "recalculateCodes": [
+    "01530.HK",
+    "09926.HK",
+    "01093.HK",
+    "01952.HK",
+    "01548.HK",
+    "02511.HK",
+    "00013.HK",
+    "09969.HK",
+    "02162.HK",
+    "09995.HK"
+  ],
+  "unresolved": "SSE/SZSE目标年度日历及HKEX2029/2031尚待对应年度公告，未填造实际交易日",
+  "conditionalRecords": [
+    {
+      "code": "09939.HK",
+      "horizon": "oneYear",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "recalculation": "条件经营盈利按独立年度假设估值，未按一日差机械插值；不产生正式涨幅、期望价或排名"
+    },
+    {
+      "code": "00853.HK",
+      "horizon": "oneYear",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "recalculation": "条件经营盈利按独立年度假设估值，未按一日差机械插值；不产生正式涨幅、期望价或排名"
+    },
+    {
+      "code": "02172.HK",
+      "horizon": "oneYear",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "recalculation": "条件经营盈利按独立年度假设估值，未按一日差机械插值；不产生正式涨幅、期望价或排名"
+    },
+    {
+      "code": "02252.HK",
+      "horizon": "oneYear",
+      "oldModelDate": "2027-10-08",
+      "actualDate": "2027-10-07",
+      "recalculation": "条件经营盈利按独立年度假设估值，未按一日差机械插值；不产生正式涨幅、期望价或排名"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "staleSnapshots": 31,
+  "detectedChanges": 27,
+  "inputPreservation": "QA only; authoritative source and delivered workbook untouched",
+  "edits": [
+    {
+      "code": "00700.HK",
+      "kind": "assumption",
+      "field": "PE"
+    },
+    {
+      "code": "01810.HK",
+      "kind": "bridge",
+      "field": "commerceEBITA"
+    },
+    {
+      "code": "03692.HK",
+      "kind": "assumption",
+      "field": "excessNetCashCNYbn"
+    },
+    {
+      "code": "09926.HK",
+      "kind": "drug",
+      "field": "WACC"
+    },
+    {
+      "code": "01530.HK",
+      "kind": "milestone",
+      "field": "grossUSDbn"
+    },
+    {
+      "code": "01211.HK",
+      "kind": "bridge",
+      "field": "domesticProfitPerVehicle"
+    },
+    {
+      "code": "01093.HK",
+      "kind": "pipelineParameter",
+      "field": "successAssumption"
+    },
+    {
+      "code": "09992.HK",
+      "kind": "bridge",
+      "field": "overseasEBITMargin"
+    },
+    {
+      "code": "688235.SH",
+      "kind": "productBridge",
+      "field": "productRevenueUSDbn"
+    },
+    {
+      "code": "03690.HK",
+      "kind": "bridge",
+      "field": "newEVSales"
+    },
+    {
+      "code": "09618.HK",
+      "kind": "bridge",
+      "field": "retailEBITMargin"
+    },
+    {
+      "code": "01548.HK",
+      "kind": "sotp",
+      "field": "lsgRevenue"
+    },
+    {
+      "code": "01548.HK",
+      "kind": "sotpPipelineParameter",
+      "field": "success"
+    },
+    {
+      "code": "002821.SZ",
+      "kind": "assumption",
+      "field": "eps"
+    },
+    {
+      "code": "09888.HK",
+      "kind": "bridge",
+      "field": "infraRevenue"
+    },
+    {
+      "code": "01024.HK",
+      "kind": "bridge",
+      "field": "klingOwnerShare"
+    },
+    {
+      "code": "02162.HK",
+      "kind": "assumption",
+      "field": "marketRecognitionFactor"
+    },
+    {
+      "code": "02162.HK",
+      "kind": "pipelineCost",
+      "field": "directCostCNYbn"
+    },
+    {
+      "code": "688062.SH",
+      "kind": "pipelineMilestone",
+      "field": "grossAmount"
+    },
+    {
+      "code": "09995.HK",
+      "kind": "recipientParameter",
+      "field": "futureNetCashUSDbn"
+    },
+    {
+      "code": "09995.HK",
+      "kind": "recipientCost",
+      "field": "recipientResearchCNYbn"
+    },
+    {
+      "code": "688382.SH",
+      "kind": "pipelineParameter",
+      "field": "netEconomicCashMarginAssumption"
+    },
+    {
+      "code": "00992.HK",
+      "kind": "bridge",
+      "field": "EBITMargin"
+    },
+    {
+      "code": "00268.HK",
+      "kind": "bridge",
+      "field": "newEVSales"
+    },
+    {
+      "code": "03759.HK",
+      "kind": "segmentAnnual",
+      "field": "cdmoGM"
+    },
+    {
+      "code": "03759.HK",
+      "kind": "segmentGlobal",
+      "field": "convert"
+    },
+    {
+      "code": "00700.HK",
+      "kind": "score",
+      "field": "dimension"
+    }
+  ]
+}

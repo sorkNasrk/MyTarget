@@ -1,0 +1,218 @@
+{
+  "issuerId": "I074",
+  "asOf": "2026-10-09",
+  "researchFile": "research/jdhealth_deep.md",
+  "modelVersion": "jdhealth-products-services-normalized-profit-v1.0",
+  "effectiveHanCharacters": 15130,
+  "bodyParagraphs": 95,
+  "exactDuplicateParagraphs": 0,
+  "minimumCountPass": true,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true,
+      "annualizedMatch": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 67.9,
+      "recalculated": 67.89999999999999,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 77.2,
+      "recalculated": 77.19999999999999,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 81.9,
+      "recalculated": 81.9,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 80.7,
+      "recalculated": 80.7,
+      "pass": true
+    }
+  ],
+  "sourceChecks": [
+    "FY年报和H1原件，人民币千元转百万元，集团归母调整分别记录",
+    "H1末页2026-08-13，与新闻8/14市场反应区分",
+    "商品总额和市场广告其他服务净额异质，1报告分部无完整分部利润",
+    "核心EBIT扣履约营销研发管理与SBC，其他收益不直接年化",
+    "收到利息已OCF，支付利息及lease本金融资段另扣，PPE/ROU另扣",
+    "FY现金代理9943.789m，H1 4305.562m；营运资金与理财并非无条件可分现金",
+    "H1supplier finance2196.495m在贸易应付已列，不重复银行债和额外筹资",
+    "FVTPL/摊余理财、期限存款/现金/限制分别记录，不全部加PE",
+    "九月法律股3190481011/库存0；H1回购21544100七月注销",
+    "会计信托treasury不同法律股，preIPO旧股信托、postIPO上限不同已授期权",
+    "外资5条目标按正文核，10/2里昂3.7为阿里排除；7/6瑞银超90天",
+    "所有机构期限null，预测年份非目标期限，原始研报未得",
+    "739日线两源核，量股单位，周250缺失，不画逐笔筹码或精确换手"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "元数据",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "未来现金息及经济股数、税22%与汇率1.10研究假设非公司承诺",
+    "内容独立逻辑审读，完全重复0；最终Word/PDF逐页与跨文件数字由根流程核验",
+    "远期利润率与经营增长需要后续证据，悲观区间非清算估值或损失封顶"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

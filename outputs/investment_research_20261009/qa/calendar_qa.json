@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "knownCases": 8,
+  "issuerSecurityChecks": 77,
+  "conditionalHKChecks": 4,
+  "calendarSources": {
+    "2026": {
+      "url": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+      "publicationMonth": "2025-05"
+    },
+    "2027": {
+      "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+      "publicationMonth": "2026-05"
+    },
+    "rule": {
+      "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+      "publicationDate": "2017-09-16"
+    }
+  },
+  "fingerprint": "f94f3d19b4e62e0b",
+  "unpublishedCalendarsExplicitlyUnresolved": true
+}

@@ -1,0 +1,21 @@
+{
+  "issuerId": "I007",
+  "name": "微创脑科学",
+  "modelVersion": "neuro-conditional-whole-group-economic-PE-v1.1",
+  "effectiveHanzi": 13868,
+  "paragraphs": 67,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "whole group economic PE atomic revenue/cost/selling/admin/full RD/grant/review/interest/finance/associate/tax/NCI/EPS/shares/fx; no duplicate NAV; historical profit/cash/balance/RD/capex; legal treasury/scrip; suspension/reference-only/no rank/no returns/no volume/new dividend/no BCI; independent paragraph checks",
+  "errors": [],
+  "limitations": [
+    "2026H1未披露及租赁核查未完成。",
+    "历史量能未完成单位交叉核验；锁表原始volume指标不用于精确量比/换手。",
+    "公开近期外资个股可核目标价缺失，不填。",
+    "独立产品市场份额及收入单价未取得，不据29万手术造平均患者售价。",
+    "脑机合作无订单，未加独立价值。",
+    "10/9及未来复牌价格未知；停牌跳空可越过历史观察位。"
+  ]
+}

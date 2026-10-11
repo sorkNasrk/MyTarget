@@ -1,0 +1,12 @@
+{
+  "renderVersion": "v14",
+  "fingerprint": "205aa68cae9bfbb1",
+  "records": [{
+    "folder": "render_v14_00",
+    "reviewedPageRanges": [[1,28]],
+    "method": "Every page image viewed at original pixel resolution across checkpoint and continuation",
+    "findings": "All 28 pages are legible; no missing glyphs, clipping, overlapping objects or broken tables observed. Final table continuation page contains five rows and natural end-of-document whitespace.",
+    "status": "complete"
+  }],
+  "deliveryGate": "Visual review applies only to the 53-issuer overview with this fingerprint. New integrated models require a matched rebuild and new affected-page review."
+}

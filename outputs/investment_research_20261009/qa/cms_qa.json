@@ -1,0 +1,21 @@
+{
+  "issuerId": "I050",
+  "name": "康哲药业",
+  "modelVersion": "cms-whole-group-normal-PE-continuing-consolidation-v1.0",
+  "effectiveHanzi": 14216,
+  "paragraphs": 94,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "IFRS直销净推广/全费用税少数桥；分部抵销；FVTPL资产去重；现金授权投入；库存全股；未完成分拆全部分派条件；五时点情景含息年化权重；公告首发与外资目标；有效字数和12字shingle",
+  "errors": [],
+  "limitations": [
+    "单产品全费用贡献、完整许可里程碑/版税/终止条款、产品现金流及临床注册原记录未完整取得，不伪造精确分药rNPV",
+    "Dermavon后续分派比例日期、截至日持股变动及申请最终审批未取得，中报仍拟分拆；模型是条件价格，不冒充必然母股长期价",
+    "FVTPL组合穿透估值与随时变现能力不足，H1其他gain完整拆分缺，保守正常化而非精确全年扣非",
+    "专项行业指数相对收益和真实自由流通换手缺；总外部股份比例不等精确换手率",
+    "远期交易日只排除2027-10-09周末用10/8，未核所有未来假日日历；完整三张表未建，现金验证为研究桥",
+    "机构新闻动态报价不作报告日行情；花旗税项原因新闻表述与原件主体不一致，优先原件西藏康哲"
+  ]
+}

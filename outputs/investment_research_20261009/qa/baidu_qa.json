@@ -1,0 +1,141 @@
+{
+  "issuerId": "I066",
+  "asOf": "2026-10-09",
+  "researchFile": "research/baidu_deep.md",
+  "effectiveHanCharacters": 14437,
+  "bodyParagraphs": 85,
+  "exactDuplicateParagraphs": 0,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "key": "yearEnd",
+      "i": 0,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "yearEnd",
+      "i": 1,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "yearEnd",
+      "i": 2,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "halfYear",
+      "i": 0,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "halfYear",
+      "i": 1,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "halfYear",
+      "i": 2,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "oneYear",
+      "i": 0,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "oneYear",
+      "i": 1,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "oneYear",
+      "i": 2,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "threeYear",
+      "i": 0,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "threeYear",
+      "i": 1,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "threeYear",
+      "i": 2,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "fiveYear",
+      "i": 0,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "fiveYear",
+      "i": 1,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    },
+    {
+      "key": "fiveYear",
+      "i": 2,
+      "EPSMatch": true,
+      "priceMatch": true,
+      "returnsMatch": true,
+      "positivePrice": true
+    }
+  ],
+  "scoresRecomputed": {
+    "halfYear": 50,
+    "oneYear": 57.8,
+    "threeYear": 65.8,
+    "fiveYear": 68.5
+  },
+  "limitations": [
+    "未运行跨公司近义重复和最终逐页Word/PDF QA，由总报告统一实施"
+  ],
+  "qaVersion": "baidu-independent-v1.0"
+}

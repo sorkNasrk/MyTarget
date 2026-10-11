@@ -1,0 +1,680 @@
+{
+  "version": "research-v0.1",
+  "createdAt": "2026-10-11T07:17:05.340Z",
+  "audits": [
+    {
+      "code": "01530.HK",
+      "modelFile": "data/3sbio_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09926.HK",
+      "modelFile": "data/akeso_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09988.HK",
+      "modelFile": "data/alibaba_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00241.HK",
+      "modelFile": "data/alihealth_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06699.HK",
+      "modelFile": "data/angel_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06855.HK",
+      "modelFile": "data/ascentage_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00522.HK",
+      "modelFile": "data/asmpt_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "002821.SZ",
+      "modelFile": "data/asymchem_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06821.HK",
+      "modelFile": "data/asymchem_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09888.HK",
+      "modelFile": "data/baidu_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688235.SH",
+      "modelFile": "data/beone_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06160.HK",
+      "modelFile": "data/beone_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09626.HK",
+      "modelFile": "data/bilibili_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00285.HK",
+      "modelFile": "data/byde_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01211.HK",
+      "modelFile": "data/byd_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06185.HK",
+      "modelFile": "data/cansino_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03750.HK",
+      "modelFile": "data/catl_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01811.HK",
+      "modelFile": "data/cgn_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01763.HK",
+      "modelFile": "data/circ_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00867.HK",
+      "modelFile": "data/cms_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01093.HK",
+      "modelFile": "data/cspc_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688192.SH",
+      "modelFile": "data/dizal_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09606.HK",
+      "modelFile": "data/duality_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01797.HK",
+      "modelFile": "data/eastbuy_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01952.HK",
+      "modelFile": "data/everest_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02196.HK",
+      "modelFile": "data/fosun_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01548.HK",
+      "modelFile": "data/genscript_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00512.HK",
+      "modelFile": "data/grand_pharma_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688139.SH",
+      "modelFile": "data/haier_bio_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06690.HK",
+      "modelFile": "data/haier_smart_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03692.HK",
+      "modelFile": "data/hansoh_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688131.SH",
+      "modelFile": "data/haoyuan_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "600276.SH",
+      "modelFile": "data/hengrui_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01276.HK",
+      "modelFile": "data/hengrui_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02511.HK",
+      "modelFile": "data/hightide_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688302.SH",
+      "modelFile": "data/hinova_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09660.HK",
+      "modelFile": "data/horizon_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01347.HK",
+      "modelFile": "data/huahong_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00013.HK",
+      "modelFile": "data/hutchmed_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09969.HK",
+      "modelFile": "data/innocare_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01801.HK",
+      "modelFile": "data/innovent_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03696.HK",
+      "modelFile": "data/insilico_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688382.SH",
+      "modelFile": "data/inventis_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06618.HK",
+      "modelFile": "data/jdhealth_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09618.HK",
+      "modelFile": "data/jd_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688356.SH",
+      "modelFile": "data/jenkem_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06127.HK",
+      "modelFile": "data/joinn_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01877.HK",
+      "modelFile": "data/junshi_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02162.HK",
+      "modelFile": "data/keymed_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00268.HK",
+      "modelFile": "data/kingdee_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03888.HK",
+      "modelFile": "data/kingsoft_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09939.HK",
+      "modelFile": "data/kintor_model.json",
+      "formulaCheck": "conditional model independent QA only",
+      "priceCheck": "valid observed quote",
+      "scoreCheck": "excluded; no scores or expected price"
+    },
+    {
+      "code": "01024.HK",
+      "modelFile": "data/kuaishou_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00992.HK",
+      "modelFile": "data/lenovo_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02157.HK",
+      "modelFile": "data/lepu_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02015.HK",
+      "modelFile": "data/liauto_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01513.HK",
+      "modelFile": "data/livzon_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02186.HK",
+      "modelFile": "data/luye_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688062.SH",
+      "modelFile": "data/mabwell_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "688202.SH",
+      "modelFile": "data/medicilon_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03690.HK",
+      "modelFile": "data/meituan_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00853.HK",
+      "modelFile": "data/microport_model.json",
+      "formulaCheck": "conditional model independent QA only",
+      "priceCheck": "historical reference only",
+      "scoreCheck": "excluded; no scores or expected price"
+    },
+    {
+      "code": "00300.HK",
+      "modelFile": "data/midea_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "300760.SZ",
+      "modelFile": "data/mindray_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00100.HK",
+      "modelFile": "data/minimax_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09999.HK",
+      "modelFile": "data/netease_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02172.HK",
+      "modelFile": "data/neuro_model.json",
+      "formulaCheck": "conditional model independent QA only",
+      "priceCheck": "historical reference only",
+      "scoreCheck": "excluded; no scores or expected price"
+    },
+    {
+      "code": "09866.HK",
+      "modelFile": "data/nio_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03759.HK",
+      "modelFile": "data/pharmaron_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09992.HK",
+      "modelFile": "data/popmart_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "300363.SZ",
+      "modelFile": "data/porton_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09995.HK",
+      "modelFile": "data/remegen_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02252.HK",
+      "modelFile": "data/robot_model.json",
+      "formulaCheck": "conditional model independent QA only",
+      "priceCheck": "historical reference only",
+      "scoreCheck": "excluded; no scores or expected price"
+    },
+    {
+      "code": "00020.HK",
+      "modelFile": "data/sensetime_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02607.HK",
+      "modelFile": "data/shpharma_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02096.HK",
+      "modelFile": "data/simcere_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01177.HK",
+      "modelFile": "data/sinobiopharm_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00981.HK",
+      "modelFile": "data/smic_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02382.HK",
+      "modelFile": "data/sunny_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00700.HK",
+      "modelFile": "data/tencent_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "03347.HK",
+      "modelFile": "data/tigermed_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00780.HK",
+      "modelFile": "data/tongcheng_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09961.HK",
+      "modelFile": "data/trip_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09880.HK",
+      "modelFile": "data/ubtech_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "603259.SH",
+      "modelFile": "data/wuxi_apptec_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02359.HK",
+      "modelFile": "data/wuxi_apptec_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02269.HK",
+      "modelFile": "data/wuxi_bio_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02268.HK",
+      "modelFile": "data/wuxi_xdc_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02400.HK",
+      "modelFile": "data/xd_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "01810.HK",
+      "modelFile": "data/xiaomi_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09868.HK",
+      "modelFile": "data/xpeng_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "00772.HK",
+      "modelFile": "data/yuewen_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "09688.HK",
+      "modelFile": "data/zai_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "02513.HK",
+      "modelFile": "data/zhipu_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    },
+    {
+      "code": "06060.HK",
+      "modelFile": "data/zhongan_model.json",
+      "formulaCheck": "pass",
+      "priceCheck": "pass",
+      "scoreCheck": "pass"
+    }
+  ],
+  "status": {
+    "issuerModels": 91,
+    "securityModels": 95,
+    "rankedSecurityModels": 91,
+    "conditionedSecurityModels": 4,
+    "deepResearchPassed": 91,
+    "remainingDeepResearch": 1,
+    "withheldManuscripts": []
+  }
+}

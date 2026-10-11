@@ -1,0 +1,24 @@
+{
+  "issuerId": "I036",
+  "name": "丽珠医药",
+  "modelVersion": "livzon-H-normalized-pe-v1.0",
+  "asOf": "2026-10-09",
+  "effectiveHanzi": 15707,
+  "threshold": 10000,
+  "paragraphs": 100,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "checks": "全股A/H分母、归母/少数与扣非、现金等价物和银行租债、FCF、研发内部外购范围、EPS×PE×HKD汇率、价格与总回报/年化/权重、特别股息未除净、股息币种及证券身份；独立万字与完全重复检查",
+  "errors": [],
+  "passed": true,
+  "yearEnd": {
+    "prices": [
+      14.080000000000002,
+      22.5225,
+      31.460000000000004
+    ],
+    "expected": 22.646250000000002,
+    "expectedReturn": 2.194268953068601,
+    "expectedTotal": 7.541741877256314
+  }
+}

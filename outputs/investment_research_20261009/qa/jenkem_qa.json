@@ -1,0 +1,44 @@
+{
+  "issuerId": "I017",
+  "securityId": "S019",
+  "name": "键凯科技",
+  "asOf": "2026-10-09",
+  "modelVersion": "jenkem-normalized-pe-v1.0",
+  "effectiveHanzi": 13649,
+  "countMethod": "投资结论起至来源前，剔除标题、表格及基准头，Unicode Han字符；无长引文或共用宏观模板",
+  "threshold": 10000,
+  "paragraphs": 93,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "errors": [],
+  "passed": true,
+  "sourceChecks": {
+    "h1Financial": "原中报6-18/49-54/104/109-121/127；元转百万元，法定/调整归母分开，R&D费用/资本分开",
+    "fy2025": "原年报8/24-26/99-100；收入历史、客户集中、R&D及现金流",
+    "development": "8/26专项1-4明确决定终止小细胞肺癌三期；中报写计划终止，保留语义区别；70.64105624m全额减值，非阴性疗效结论",
+    "project": "7/1投资原公告1-6：315m上限、24个月、预计8/18开工非已开工；24.8%回报定义缺失不作净利保证",
+    "cash": "中报117无受限现金147.28809289m；127流动理财/信托/资管329.80535203m不全作现金；非流动169.86869829m",
+    "debt": "中报104-106：银行/债券不适用，含当期租赁6.73175375m；未来借款仅研究假设",
+    "dividend": "6/23实施1-3：6/29已付0.31元、60.502786m参与股、147914库存股不参与；不计未来",
+    "sellActual": "8/25原结果1-5：吴凯庭实际1.819521m/3%完成，非控股，7/15-8/24",
+    "sellPlan": "9/9原计划1-4：韩磊10/9-1/8最多7875股0.013%，不等同成交",
+    "technical": "market-v1.4锁，728日155周，腾讯/新浪当日与Yahoo/腾讯日线对照，股单位，250周缺失保留"
+  },
+  "capitalAndValuationChecks": {
+    "reportedTTMProfitMillion": 42.56510306,
+    "reportedTTMEPS": 0.7018072843347234,
+    "reportedTTMPE": 153.74591060604845,
+    "noDoubleAdditionCashOrDevelopment": true,
+    "futureIssuedSharesOnlyAssumption": true,
+    "earningsReflectInterestAndDepreciationBridge": true,
+    "fullThreeStatementCashLink": false,
+    "companyProject248PctUsedAsGuaranteedReturn": false
+  },
+  "limitations": [
+    "完整分部DCF、园区年度现金及融资三表联动未完成",
+    "临床、注册及FTO未独立全文核验；已终止三期不加估值，其余项目不单独附加并非价值确定零",
+    "外资有效目标、历史估值分位、同业正常化盈利桥和细分基准缺失",
+    "实际园区开工、提款和未来股数尚未公开核验，未来融资为压力假设",
+    "最终Word/PDF视觉核验由父代理完成"
+  ]
+}

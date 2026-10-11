@@ -1,0 +1,28 @@
+{
+  "issuerId": "I005",
+  "name": "海创药业",
+  "modelVersion": "hinova-rnpv-v1.0",
+  "asOf": "2026-10-09",
+  "effectiveHanzi": 14111,
+  "threshold": 10000,
+  "paragraphs": 118,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "checks": "11项地域/适应症逐年销售/成功率/直接现金与预期版税税率/汇率/PV/目标日筛选，未签里程碑为0，暂停项目不估，内在零下限与期限认知路径，已发股数，结构存款不重复，净现金和保证金代付扣除、FCF、应收、资产负债、扣非及回报/年化/评分权重，原OS与IIa人数缺失",
+  "errors": [],
+  "passed": true,
+  "yearEnd": {
+    "prices": [
+      18.401056564850535,
+      29.62014783326515,
+      45.03519958089346
+    ],
+    "intrinsic": [
+      1.6701256996678515,
+      25.03327952361471,
+      193.90499476116818
+    ],
+    "expected": 30.669137953068574,
+    "expectedReturn": -4.4277408754485155
+  }
+}

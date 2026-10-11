@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+const root=new URL('../',import.meta.url);
+function clean(s){return s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();}
+const out={asOf:'2026-10-09',lists:[],articles:[],documents:[]};
+for(const category of ['company-announcement','research-report']){
+const url=`https://www.aastocks.com/tc/stocks/analysis/stock-aafn/01513/0/${category}/1`;
+try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error(r.status);const html=await r.text();await fs.writeFile(new URL(`data/a_pharma_raw/livzon_${category}.html`,root),html);const links=[];for(const m of html.matchAll(/<a\b([^>]+)>[\s\S]*?<\/a>/gi)){const u=m[1].match(/href=["']([^"']+)["']/i)?.[1],title=m[1].match(/title=["']([^"']+)["']/i)?.[1];if(u&&title&&/stock-aafn-con|iis\.aastocks\.com|newsdetail/i.test(u)&&!links.some(x=>x.url===new URL(u,'https://www.aastocks.com').href))links.push({url:new URL(u,'https://www.aastocks.com').href,title:clean(title)});}out.lists.push({url,category,links});console.log(category,JSON.stringify(links));
+for(const [i,l]of links.entries())if(category==='research-report'&&i<10||category==='company-announcement'&&/股息|DIVIDEND|2026.*中期|中期報告/.test(l.title)){
+try{const r=await fetch(l.url,{signal:AbortSignal.timeout(40000)});if(!r.ok)throw Error(r.status);if(/\.pdf$/i.test(l.url)){const raw=`data/a_pharma_raw/livzon_${l.url.split('/').at(-1)}`;await fs.writeFile(new URL(raw,root),Buffer.from(await r.arrayBuffer()));execFileSync('C:/Users/happyelements/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',[new URL('tools/a_pharma_extract.py',root).pathname.replace(/^\//,''),new URL(raw,root).pathname.replace(/^\//,'')]);out.documents.push({...l,rawFile:raw});}else{const html=await r.text();const date=html.match(/data-nt=["'](\d{12})["']/)?.[1];const start=html.search(/<div[^>]+id=["']spanContent["']/i);out.articles.push({...l,date:date?`${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)} ${date.slice(8,10)}:${date.slice(10,12)}`:null,text:clean(start>=0?html.slice(start,start+25000):html).slice(0,18000)});}}catch(e){out.articles.push({...l,error:String(e)});}}
+}catch(e){out.lists.push({url,category,error:String(e)});}}
+await fs.writeFile(new URL('data/livzon_sources.json',root),JSON.stringify(out,null,2));

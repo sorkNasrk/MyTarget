@@ -1,0 +1,11 @@
+{
+  "issuerId": "I057",
+  "modelVersion": "cgn-energy-quantity-price-interest-funding-v1.0",
+  "passed": true,
+  "checks": 33649,
+  "atomicEdits": 74,
+  "manifestCount": 984,
+  "threeCaseOneActiveBuild": true,
+  "signatureCoverage": true,
+  "scope": "真实Artifact三情景单活动模型、所有资金及量价业务字段编辑复算、PE与兑现修改；主父负责最终导出视觉与待刷新"
+}

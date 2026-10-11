@@ -1,0 +1,1011 @@
+{
+  "issuerId": "I008",
+  "cutoff": "2026-10-09",
+  "version": "insilico-clinical-registry-review-v1",
+  "results": [
+    {
+      "nctId": "NCT05938920",
+      "sourceURL": "https://clinicaltrials.gov/api/v2/studies/NCT05938920",
+      "recordURL": "https://clinicaltrials.gov/study/NCT05938920",
+      "downloadDate": "2026-10-11",
+      "rawFile": "data/pharma_raw/NCT05938920_api_20261011.json",
+      "rawSHA256": "3c3071ac5b509cb7c24535aa73e91d2b56753bc0143c5cecbe4d72caa9f539d2",
+      "latestPublicUpdate": "2025-12-11",
+      "cutoffEligible": true,
+      "sourceInterpretation": "Sponsor-submitted public registry. Actual downloaded date later than cutoff; only records last posted by cutoff may support locked research.",
+      "studyId": "INS018-055-003",
+      "title": "A Phase IIa, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of INS018_055 Administered Orally to Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+      "status": "COMPLETED",
+      "start": {
+        "date": "2023-06-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletion": {
+        "date": "2024-08-08",
+        "type": "ACTUAL"
+      },
+      "completion": {
+        "date": "2024-08-08",
+        "type": "ACTUAL"
+      },
+      "firstPosted": {
+        "date": "2023-07-11",
+        "type": "ACTUAL"
+      },
+      "resultsFirstPosted": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      },
+      "sponsor": {
+        "name": "InSilico Medicine Hong Kong Limited",
+        "class": "INDUSTRY"
+      },
+      "enrollment": {
+        "count": 71,
+        "type": "ACTUAL"
+      },
+      "phase": [
+        "PHASE2"
+      ],
+      "randomization": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Had at Least 1 Treatment-emergent Adverse Event (TEAE)",
+          "description": "TEAEs were either events with start date on or after the start of the Treatment Period and up to 17 days after EOT (end of treatment), or events with start date prior to the start of the Treatment Period whose severity worsened on or after the start of the Treatment Period and up to 17 days after EOT.\n\nCTCAE=Common Terminology Criteria for Adverse Events",
+          "timeFrame": "From first dose of study drug until end of study (EOS) visit i.e. up to 13 weeks (+10 days)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Relative Change From Baseline in Forced Vital Capacity (FVC)",
+          "description": "Decline (change) in FVC is presented from Week 0 to Week 12. FVC was assessed using standardized spirometry equipment.",
+          "timeFrame": "Week 0/Visit 2 up to Week 12"
+        },
+        {
+          "measure": "Absolute Change From Baseline in FVC in L",
+          "description": "Decline (change) in FVC is presented from Week 0 to Week 12. FVC was assessed using standardized spirometry equipment.",
+          "timeFrame": "Week 0/Visit 2 up to Week 12"
+        },
+        {
+          "measure": "Absolute Change in FVC % Predicted",
+          "description": "Absolute change in FVC % predicted from Week 0 to Week 12 is presented. FVC was assessed using standardized spirometry equipment",
+          "timeFrame": "Week 0/Visit 2 up to Week 12"
+        },
+        {
+          "measure": "Relative Change in FVC % Predicted",
+          "description": "Relative change in FVC % predicted from Week 0 to Week 12 is presented. FVC was assessed using standardized spirometry equipment",
+          "timeFrame": "Week 0/Visit 2 up to Week 12"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Anhui Chest Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Anhui Medical University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Peking University Shougang Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Beijing Friendship Hospital, Capital Medical University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Peking Union Medical College Hospital, Chinese Academy of Medical Sciences",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital, Sun Yat-sen University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Nanfang Hospital of Southern Medical University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Hainan General Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Zhengzhou University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Xiangya Hospital of Central South University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The Second Xiangya Hospital of Central South University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Nanjing Drum Tower Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Jiangxi Provincial People's Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The Shengjing Hospital of China medical university",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Qilu Hospital of Shandong University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Shanghai Chest Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Zhongshan hospital Fudan University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Shanghai Pulmonary Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "Shanxi Bethune Hospital",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The West China Hospital of Sichuan University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "General Hospital of Tianjin Medical University",
+          "status": null,
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital - Zhejiang University School of Medicine",
+          "status": null,
+          "country": "China"
+        }
+      ],
+      "hasResults": true,
+      "resultsSummary": {
+        "participantFlow": {
+          "groups": [
+            {
+              "id": "FG000",
+              "title": "INS018_055 30 mg QD",
+              "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+            },
+            {
+              "id": "FG001",
+              "title": "INS018_055 30 mg BID",
+              "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+            },
+            {
+              "id": "FG002",
+              "title": "INS018_055 60 mg QD",
+              "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+            },
+            {
+              "id": "FG003",
+              "title": "Placebo",
+              "description": "Group 4: Placebo once or twice daily up to 12 weeks INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+            }
+          ],
+          "periods": [
+            {
+              "title": "Overall Study",
+              "milestones": [
+                {
+                  "type": "STARTED",
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "18"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "18"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "18"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "17"
+                    }
+                  ]
+                },
+                {
+                  "type": "COMPLETED",
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "16"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "14"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "13"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "16"
+                    }
+                  ]
+                },
+                {
+                  "type": "NOT COMPLETED",
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "4"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "5"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "1"
+                    }
+                  ]
+                }
+              ],
+              "dropWithdraws": [
+                {
+                  "type": "Adverse Event",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "3"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "Death",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Lost to Follow-up",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Participant Asked to Withdraw from the Trial",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Participant Withdrew from Treatment and Refused to do Visit 7 Follow Up Visit",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Participant Refused to Come In",
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "outcomeTitles": [
+          {
+            "type": "PRIMARY",
+            "title": "Percentage of Participants Who Had at Least 1 Treatment-emergent Adverse Event (TEAE)",
+            "populationDescription": "Safety Population: The safety population included all participants who received at least 1 dose of study treatment.",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "INS018_055 30 mg QD",
+                "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG001",
+                "title": "INS018_055 30 mg BID",
+                "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG002",
+                "title": "INS018_055 60 mg QD",
+                "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG003",
+                "title": "Placebo",
+                "description": "Group 4: Placebo once or twice daily up to 12 weeks\n\nPlacebo: Pharmaceutical formulation: Capsules\n\nMode of Administration: Oral"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "18"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "18"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "18"
+                  },
+                  {
+                    "groupId": "OG003",
+                    "value": "17"
+                  }
+                ]
+              }
+            ],
+            "units": "Participants"
+          },
+          {
+            "type": "SECONDARY",
+            "title": "Relative Change From Baseline in Forced Vital Capacity (FVC)",
+            "populationDescription": "Intent-to-treat Population: The ITT population included any randomized participant. The ITT Population was used for summary of demographic and baseline characteristics, and it was used for analysis of secondary endpoints except PK analysis",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "INS018_055 30 mg QD",
+                "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG001",
+                "title": "INS018_055 30 mg BID",
+                "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG002",
+                "title": "INS018_055 60 mg QD",
+                "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG003",
+                "title": "Placebo",
+                "description": "Group 4: Placebo once or twice daily up to 12 weeks\n\nPlacebo: Pharmaceutical formulation: Capsules\n\nMode of Administration: Oral"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "13"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "10"
+                  },
+                  {
+                    "groupId": "OG003",
+                    "value": "14"
+                  }
+                ]
+              }
+            ],
+            "units": "percentage change in FVC"
+          },
+          {
+            "type": "SECONDARY",
+            "title": "Absolute Change From Baseline in FVC in L",
+            "populationDescription": "Intent-to-treat Population: The ITT population included any randomized participants. The ITT Population was used for summary of demographic and baseline characteristics, and it was used for analysis of secondary endpoints except PK analysis",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "INS018_055 30 mg QD",
+                "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG001",
+                "title": "INS018_055 30 mg BID",
+                "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG002",
+                "title": "INS018_055 60 mg QD",
+                "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG003",
+                "title": "Placebo",
+                "description": "Group 4: Placebo once or twice daily up to 12 weeks\n\nPlacebo: Pharmaceutical formulation: Capsules\n\nMode of Administration: Oral"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "13"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "10"
+                  },
+                  {
+                    "groupId": "OG003",
+                    "value": "14"
+                  }
+                ]
+              }
+            ],
+            "units": "L"
+          },
+          {
+            "type": "SECONDARY",
+            "title": "Absolute Change in FVC % Predicted",
+            "populationDescription": "Intent-to-treat Population: The ITT population included any randomized participant. The ITT Population was used for summary of demographic and baseline characteristics, and it was used for analysis of secondary endpoints except PK analysis.",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "INS018_055 30 mg QD",
+                "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG001",
+                "title": "INS018_055 30 mg BID",
+                "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG002",
+                "title": "INS018_055 60 mg QD",
+                "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG003",
+                "title": "Placebo",
+                "description": "Group 4: Placebo once or twice daily up to 12 weeks\n\nPlacebo: Pharmaceutical formulation: Capsules\n\nMode of Administration: Oral"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "13"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "10"
+                  },
+                  {
+                    "groupId": "OG003",
+                    "value": "14"
+                  }
+                ]
+              }
+            ],
+            "units": "Percent predicted"
+          },
+          {
+            "type": "SECONDARY",
+            "title": "Relative Change in FVC % Predicted",
+            "populationDescription": "Intent-to-treat Population: The ITT population included any randomized participant. The ITT Population was used for summary of demographic and baseline characteristics, and it was used for analysis of secondary endpoints except PK analysis",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "INS018_055 30 mg QD",
+                "description": "Group 1: INS018\\_055 once daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG001",
+                "title": "INS018_055 30 mg BID",
+                "description": "Group 2: INS018\\_055 twice daily up to 12 weeks, low dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration: Oral"
+              },
+              {
+                "id": "OG002",
+                "title": "INS018_055 60 mg QD",
+                "description": "Group 3: INS018\\_055 once daily up to 12 weeks, high dose INS018\\_055: Pharmaceutical formulation: Capsules Mode of administration:Oral"
+              },
+              {
+                "id": "OG003",
+                "title": "Placebo",
+                "description": "Group 4: Placebo once or twice daily up to 12 weeks\n\nPlacebo: Pharmaceutical formulation: Capsules\n\nMode of Administration: Oral"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "13"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "10"
+                  },
+                  {
+                    "groupId": "OG003",
+                    "value": "14"
+                  }
+                ]
+              }
+            ],
+            "units": "Percent predicted"
+          }
+        ]
+      }
+    },
+    {
+      "nctId": "NCT07687459",
+      "sourceURL": "https://clinicaltrials.gov/api/v2/studies/NCT07687459",
+      "recordURL": "https://clinicaltrials.gov/study/NCT07687459",
+      "downloadDate": "2026-10-11",
+      "rawFile": "data/pharma_raw/NCT07687459_api_20261011.json",
+      "rawSHA256": "6bc97045036c4ccefa199ad0d3b56856ba587827ee0a831d1ce01b193d600991",
+      "latestPublicUpdate": "2026-09-17",
+      "cutoffEligible": true,
+      "sourceInterpretation": "Sponsor-submitted public registry. Actual downloaded date later than cutoff; only records last posted by cutoff may support locked research.",
+      "studyId": "INS018-055-301",
+      "title": "A Prospective Phase 3, Randomized, Double-blind, Placebo-controlled, Parallel-group Study Evaluating the Efficacy and Safety of Rentosertib (INS018_055) Administered Orally Over 52 Weeks in Patients With Idiopathic Pulmonary Fibrosis (IPF)",
+      "status": "RECRUITING",
+      "start": {
+        "date": "2026-09-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletion": {
+        "date": "2029-10-30",
+        "type": "ESTIMATED"
+      },
+      "completion": {
+        "date": "2029-10-30",
+        "type": "ESTIMATED"
+      },
+      "firstPosted": {
+        "date": "2026-07-07",
+        "type": "ACTUAL"
+      },
+      "resultsFirstPosted": null,
+      "sponsor": {
+        "name": "InSilico Medicine Hong Kong Limited",
+        "class": "INDUSTRY"
+      },
+      "enrollment": {
+        "count": 320,
+        "type": "ESTIMATED"
+      },
+      "phase": [
+        "PHASE3"
+      ],
+      "randomization": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "primaryOutcomes": [
+        {
+          "measure": "the annual rate of forced vital capacity (FVC; mL) decline over 52 weeks.",
+          "timeFrame": "Weeks 0,4,12,26,39,52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "time to first occurrence of any disease progression",
+          "description": "including 1) percent predicted forced vital capacity decrease relative to baseline greater than 10%, 2) acute exacerbation of IPF, 3) respiratory-related hospitalization, or 4) death due to respiratory",
+          "timeFrame": "up to 52 weeks"
+        },
+        {
+          "measure": "change from baseline to Week 52 in quantitative computed tomography-derived lung fibrosis burden on high-resolution computed tomography(HRCT)",
+          "timeFrame": "week 52"
+        },
+        {
+          "measure": "change from baseline in quality of life (QoL) as measured by the patient-reported outcomes questionnaires using King's Brief Interstitial Lung Disease questionnaire (K BILD)",
+          "timeFrame": "Weeks 0,4,12,26,39,52"
+        },
+        {
+          "measure": "change from baseline in QoL as measured by the patient-reported outcomes questionnaires using Living with Pulmonary Fibrosis(L-PF)",
+          "timeFrame": "Weeks 0,4,12,26,39,52"
+        },
+        {
+          "measure": "change from baseline in hemoglobin-corrected diffusing capacity of the lung for carbon monoxide (DLCO) over 52 weeks",
+          "timeFrame": "Weeks 0, 52"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Anhui Chest Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Anhui Provincial Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Beijing Chaoyang Hospital, Capital Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Beijing Friendship Hospital, Capital Medical University",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Peking Union Medical College Hospital",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Fuzhou University Affiliated Provincial Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Xiamen Medical College",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Nanfang Hospital, Southern Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Guangzhou Medical University",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Guangxi Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Hainan General Hospital",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Hebei Medical University Third Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Second Hospital of Hebei Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The People's Hospital of Anyang City",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Nanyang First People's Hospital",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Henan Provincial People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Zhengzhou University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Renmin Hospital of Wuhan University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Yichang Central People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Second Xiangya Hospital of Central South University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Xiangya Hospital of Central South University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Affiliated Hospital of Inner Mongolia Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Nanjing Drum Tower Hospital",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Affiliated Hospital of Xuzhou Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Jiangxi Provincial People' Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Second Hospital of Jilin University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Shengjing Hospital of China Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Xi'an Medical College",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Xi'an Jiaotong University",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Introduction of the First Affiliated Hospital of Shandong First Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Qilu Hospital of Shandong University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Shanghai Pulmonary Hospital Affiliated to Tongji University",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Shanxi Bethune Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Yuncheng Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Sichuan Academy of Medical Sciences & Sichuan Provincial People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "West China Hospital, Sichuan University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Tianjin Chest Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Tianjin Medical University General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Xinjiang Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First People Hospital of Yunnan Province",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Affiliated Hangzhou First People's Hospital,School of Medicine, Westlake University",
+          "status": "RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Sir Run Run Shaw Hospital Zhejiang University School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Hospital of Jiaxing",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "Ningbo Medical Center Lihuili Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Ningbo University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        },
+        {
+          "facility": "The First Affiliated Hospital of Wenzhou Medical University",
+          "status": "NOT_YET_RECRUITING",
+          "country": "China"
+        }
+      ],
+      "hasResults": false,
+      "resultsSummary": null
+    }
+  ]
+}

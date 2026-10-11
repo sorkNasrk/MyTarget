@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+const root='G:/MyTarget/outputs/investment_research_20261009',py='C:/Users/happyelements/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
+const stock=JSON.parse(await fs.readFile(root+'/data/innocare_hkex_titles.json','utf8')).stock;
+const q='https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId='+stock.i+'&documentType=&fromDate=20240101&toDate=20261009&title=&searchType=0&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=1000&lang=E';
+const r=await(await fetch(q)).json(),titles=JSON.parse(r.result),wanted=titles.filter(x=>/Annual Report 202[345]|2025.*Zenas|LICENSE.*ZENAS|ZENAS.*LICENSE/i.test(x.TITLE));
+let out=[];try{out=JSON.parse(await fs.readFile(root+'/data/innocare_extra_sources.json','utf8'));}catch{}
+for(const x of wanted){const url='https://www1.hkexnews.hk'+x.FILE_LINK,name='09969_'+x.FILE_LINK.split('/').at(-1),file=root+'/data/pharma_raw/'+name;try{await fs.access(file);}catch{const a=await fetch(url,{signal:AbortSignal.timeout(60000)});if(!a.ok){console.log(a.status+' '+url);continue;}await fs.writeFile(file,Buffer.from(await a.arrayBuffer()));}execFileSync(py,[root+'/tools/extract_one_pdf.py',file]);const text=await fs.readFile(file.replace(/\.pdf$/i,'.pdfium.txt'),'utf8');out=out.filter(a=>a.url!==url);out.push({url,title:x.TITLE,publicationDate:x.DATE_TIME,sourceType:'HKEX_issuer_primary',rawFile:'data/pharma_raw/'+name,text});await fs.writeFile(root+'/data/innocare_extra_sources.json',JSON.stringify(out,null,2));console.log(x.DATE_TIME+' '+x.TITLE+' '+text.length);}
+await fs.writeFile(root+'/data/innocare_historical_titles.json',JSON.stringify({query:q,titles,retrievedAt:new Date().toISOString()},null,2));
+const e=JSON.parse(await fs.readFile(root+'/data/pharma_evidence.json','utf8')).companies.find(x=>x.issuerId==='I041'),articles=[];
+for(const x of e.articles.filter(x=>x.date&&/research-report/.test(x.url))){const html=await(await fetch(x.url)).text(),date=html.match(/dt:'(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2})'/)?.[1]?.replaceAll('/','-');articles.push({...x,verifiedNewsDate:date,sourceType:'broker_secondary_news',dateVerified:!!date});}
+await fs.writeFile(root+'/data/innocare_broker_sources.json',JSON.stringify(articles,null,2));
+const url='https://query2.finance.yahoo.com/v8/finance/chart/ZBIO?range=3y&interval=1d&events=div%2Csplits',z=await(await fetch(url)).json();await fs.writeFile(root+'/data/innocare_zenas_market.json',JSON.stringify({url,retrievedAt:new Date().toISOString(),data:z},null,2));

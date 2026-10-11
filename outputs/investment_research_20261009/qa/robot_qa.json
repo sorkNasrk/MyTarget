@@ -1,0 +1,22 @@
+{
+  "issuerId": "I009",
+  "name": "微创机器人",
+  "modelVersion": "robot-conditional-product-economic-PE-v1.0",
+  "effectiveHanzi": 12567,
+  "paragraphs": 68,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "atomicChecks": 286,
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "product quantity/ASP/use/service; full economic expenses; tax NCI EPS PE FX; no duplicate NAV; historical profit/cash/balance/related/contract/debt/shares; no rank/return/expected output; volume disabled; same-date benchmark; brokers deduplicated; paragraph uniqueness",
+  "errors": [],
+  "limitations": [
+    "2026中报缺失；正面利润预告无法替代现金、归母/NCI和租赁核验。",
+    "关联渠道销售占比高，终端验收不是全年度回款；缺各国装机/使用/渠道库存审计桥。",
+    "成交量股与手未完成跨核，量比/精确成交量/换手率不用于结论。",
+    "近期90天或停牌后公开合格外资目标缺失；保留旧转载不平均或直接当年底价。",
+    "2029/2031远期交易日历未确认，取目标日前最后交易日的规则需未来核验。",
+    "经营预测不是完整逐年融资现金联动模型；长期产能/偿债全路径未证明，条件价格不能正式发布成无条件推荐。"
+  ]
+}

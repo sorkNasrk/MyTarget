@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "fingerprint": "d6352ce22e780f67",
+  "checks": 1930,
+  "edits": 14,
+  "editedIssuers": [
+    "I089"
+  ],
+  "issuers": [
+    "I021",
+    "I081",
+    "I057",
+    "I020",
+    "I058",
+    "I040",
+    "I068",
+    "I037",
+    "I071",
+    "I041",
+    "I046",
+    "I091",
+    "I026",
+    "I084",
+    "I054",
+    "I088",
+    "I089",
+    "I086",
+    "I059",
+    "I060",
+    "I085",
+    "I079",
+    "I039",
+    "I055"
+  ],
+  "sourceWorkbookUnchanged": true,
+  "scope": "All 24 native bridge outputs match saved workbook; atomic persistent dispatch, FX, recognition once, stale markers and restoration are checked for selected issuers. Earlier input changes retain their fingerprinted independent evidence. Financial counterexamples remain in issuer QA."
+}

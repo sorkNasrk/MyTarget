@@ -1,0 +1,278 @@
+{
+  "createdAt": "2026-10-11T07:38:19.783037+00:00",
+  "fingerprint": "f94f3d19b4e62e0b",
+  "method": "Full paragraph text in every word XML part and, when requested, every PDF page; standalone English high/medium/low labels scanned; URL identifiers excluded",
+  "records": [
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\00_总报告_初版.docx",
+      "sha256": "f81df64fce225e9c866fce920241dbff90c6036f6c198a9359b6d0e8bb6dd48a",
+      "type": "DOCX",
+      "findings": [],
+      "passed": true
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\01_公司深研_初版.docx",
+      "sha256": "bfa64db0feead3d40df014fede0cea59573ada923c0c2d9645ff7a7cffbb8f4e",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 117,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 225,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 901,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1201,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\02_公司深研_初版.docx",
+      "sha256": "908b31dbf67e2b382fff194b0b7a33e6e733d1e7d08ce1d4604d7189cb2de496",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1601,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1879,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\03_公司深研_初版.docx",
+      "sha256": "a76b18637a0aab2087951250ef216594e4618e446b55010c579d91b4d893e401",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 118,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 411,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 739,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1907,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\04_公司深研_初版.docx",
+      "sha256": "a8fcb7ac40ab9ea1e90582d0fbe7b92dae9840a1cb094fd52a761469df649b31",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1006,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 2246,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\05_公司深研_初版.docx",
+      "sha256": "537c5cac6f9ca586019430ccdd6e51f5e4ddf05f2adf897f8fea485521cdab0e",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 435,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1626,
+          "label": "medium",
+          "context": "medium-low"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1626,
+          "label": "low",
+          "context": "medium-low"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\06_公司深研_初版.docx",
+      "sha256": "bdb097698c750c7f040441f8ca7fee2c97557b7ba7d68e1c991a339a227fecd8",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 118,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1292,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\07_公司深研_初版.docx",
+      "sha256": "f1e6cdaa8f1c536d4e53d7a789209bd767e59a140ec45eb1d4212fb21c0ab7e0",
+      "type": "DOCX",
+      "findings": [],
+      "passed": true
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\08_公司深研_初版.docx",
+      "sha256": "78649e040db525d45ffb51e41f64aa1e81843f5100cec5d50242beb52466edf2",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 2195,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\09_公司深研_初版.docx",
+      "sha256": "b4ebd164b694b990b4c3b0e12fa463f2f6a1ada5eea09020d79be49441efa852",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1620,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\10_公司深研_初版.docx",
+      "sha256": "775b6d540be8da384abcf99bda39cff5c5c2ff392a86d497027ec5cb2fd5d84d",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 117,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 430,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 950,
+          "label": "medium",
+          "context": "medium-low"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 950,
+          "label": "low",
+          "context": "medium-low"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1570,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\11_公司深研_初版.docx",
+      "sha256": "a483eca79719cedd853482d3387f2f91298f707d508ea15e0ae7e649dd6e142d",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1239,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 1571,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    },
+    {
+      "path": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\12_公司深研_初版.docx",
+      "sha256": "1252691f9f95a54d2ca9403eb4f6c7afbee5d37399452546b04ee73a8785edc1",
+      "type": "DOCX",
+      "findings": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 115,
+          "label": "medium",
+          "context": "medium"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 418,
+          "label": "medium",
+          "context": "medium"
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "passed": false
+}

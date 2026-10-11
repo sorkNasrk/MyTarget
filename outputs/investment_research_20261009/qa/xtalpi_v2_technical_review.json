@@ -1,0 +1,447 @@
+{
+  "modelSHA256": "8977bf4046c39456a6e71d4145926b1578b572008794affe80557ba4e6f82eba",
+  "bodySHA256": "d7f4f7bd393b88a28d4dc5ab7c5cc5bde2c1f2a851b9a2bd12a6bd79a790983a",
+  "modelVersion": "xtalpi-v2-perDrugZeroUnknown-UnallocatedClinical-CBJan27-H2LeaseTotal",
+  "issuerId": "I027",
+  "securityId": "S032",
+  "reviewDate": "2026-10-11",
+  "asOf": "2026-10-09",
+  "price": 6.985,
+  "lockedSHA256": "971a3b248e9e58a539cefefa536b422b56b06258433711d726c232fefd59197a",
+  "historySHA256": "43f24e26d6fd7efa49f83679371d01c5221a3af2e5c93653e591cef951e52992",
+  "status": "PASS numerical observations with window disclosure",
+  "checks": [
+    {
+      "name": "locked cutoff",
+      "actual": "2026-10-09",
+      "expected": "2026-10-09",
+      "pass": true
+    },
+    {
+      "name": "locked nominal close",
+      "actual": 6.985,
+      "expected": 6.985,
+      "pass": true
+    },
+    {
+      "name": "Tencent and Sina close",
+      "actual": 6.985,
+      "expected": 6.985,
+      "pass": true
+    },
+    {
+      "name": "quote and historical shares",
+      "actual": 90611730,
+      "expected": 90611730,
+      "pass": true
+    },
+    {
+      "name": "Tencent and Sina volume shares",
+      "actual": 90611730,
+      "expected": 90611730,
+      "pass": true
+    },
+    {
+      "name": "Tencent and Sina turnover HKD",
+      "actual": 625830945.935,
+      "expected": 625830945.935,
+      "pass": true
+    },
+    {
+      "name": "history actual first day",
+      "actual": "2024-06-13",
+      "expected": "2024-06-13",
+      "pass": true
+    },
+    {
+      "name": "history cutoff last day",
+      "actual": "2026-10-09",
+      "expected": "2026-10-09",
+      "pass": true
+    },
+    {
+      "name": "day count",
+      "actual": 573,
+      "expected": 573,
+      "pass": true
+    },
+    {
+      "name": "all weekly OHLCV and trading day aggregation",
+      "actual": "[{\"weekStart\":\"2024-06-10\",\"date\":\"2024-06-14\",\"open\":5.39,\"high\":6.58,\"low\":5.31,\"close\":5.4,\"volume\":95716400,\"tradingDays\":2},{\"weekStart\":\"2024-06-17\",\"date\":\"2024-06-21\",\"open\":5.45,\"high\":5.67,\"low\":5.18,\"close\":5.35,\"volume\":22047950,\"tradingDays\":5},{\"weekStart\":\"2024-06-24\",\"date\":\"2024-06-28\",\"open\":5.37,\"high\":5.52,\"low\":5.05,\"close\":5.28,\"volume\":15303000,\"tradingDays\":5},{\"weekStart\":\"2024-07-01\",\"date\":\"2024-07-05\",\"open\":5.28,\"high\":5.36,\"low\":5.19,\"close\":5.28,\"volume\":12947000,\"tradingDays\":4},{\"weekStart\":\"2024-07-08\",\"date\":\"2024-07-12\",\"open\":5.27,\"high\":5.61,\"low\":4.28,\"close\":5.47,\"volume\":8049000,\"tradingDays\":5},{\"weekStart\":\"2024-07-15\",\"date\":\"2024-07-19\",\"open\":5.38,\"high\":6,\"low\":5.36,\"close\":5.59,\"volume\":3906000,\"tradingDays\":5},{\"weekStart\":\"2024-07-22\",\"date\":\"2024-07-26\",\"open\":5.6,\"high\":5.96,\"low\":5.6,\"close\":5.81,\"volume\":8510000,\"tradingDays\":5},{\"weekStart\":\"2024-07-29\",\"date\":\"2024-08-02\",\"open\":5.83,\"high\":5.83,\"low\":4.96,\"close\":5.6,\"volume\":10574000,\"tradingDays\":5},{\"weekStart\":\"2024-08-05\",\"date\":\"2024-08-09\",\"open\":5.57,\"high\":6.32,\"low\":5.08,\"close\":5.78,\"volume\":10941350,\"tradingDays\":5},{\"weekStart\":\"2024-08-12\",\"date\":\"2024-08-16\",\"open\":5.93,\"high\":7.32,\"low\":5.78,\"close\":6.39,\"volume\":18025400,\"tradingDays\":5},{\"weekStart\":\"2024-08-19\",\"date\":\"2024-08-23\",\"open\":6.58,\"high\":7.26,\"low\":5.99,\"close\":6.45,\"volume\":15683210,\"tradingDays\":5},{\"weekStart\":\"2024-08-26\",\"date\":\"2024-08-30\",\"open\":6.32,\"high\":9.1,\"low\":6.03,\"close\":8.49,\"volume\":22097389,\"tradingDays\":5},{\"weekStart\":\"2024-09-02\",\"date\":\"2024-09-05\",\"open\":8.49,\"high\":15.36,\"low\":8.27,\"close\":15.12,\"volume\":16473046,\"tradingDays\":4},{\"weekStart\":\"2024-09-09\",\"date\":\"2024-09-13\",\"open\":15.16,\"high\":16.200001,\"low\":12.42,\"close\":14.08,\"volume\":25363790,\"tradingDays\":5},{\"weekStart\":\"2024-09-16\",\"date\":\"2024-09-20\",\"open\":14.08,\"high\":14.76,\"low\":10.94,\"close\":13.2,\"volume\":15370500,\"tradingDays\":4},{\"weekStart\":\"2024-09-23\",\"date\":\"2024-09-27\",\"open\":13,\"high\":13.42,\"low\":10.8,\"close\":12.8,\"volume\":20053500,\"tradingDays\":5},{\"weekStart\":\"2024-09-30\",\"date\":\"2024-10-04\",\"open\":12.8,\"high\":13.38,\"low\":10.58,\"close\":11.32,\"volume\":13799346,\"tradingDays\":4},{\"weekStart\":\"2024-10-07\",\"date\":\"2024-10-10\",\"open\":11.88,\"high\":11.9,\"low\":9.71,\"close\":10.1,\"volume\":13924583,\"tradingDays\":4},{\"weekStart\":\"2024-10-14\",\"date\":\"2024-10-18\",\"open\":10.48,\"high\":10.48,\"low\":8.51,\"close\":9.31,\"volume\":20822000,\"tradingDays\":5},{\"weekStart\":\"2024-10-21\",\"date\":\"2024-10-25\",\"open\":9.69,\"high\":12.08,\"low\":9.19,\"close\":9.83,\"volume\":26251879,\"tradingDays\":5},{\"weekStart\":\"2024-10-28\",\"date\":\"2024-11-01\",\"open\":10.12,\"high\":10.28,\"low\":8.95,\"close\":8.99,\"volume\":31203889,\"tradingDays\":5},{\"weekStart\":\"2024-11-04\",\"date\":\"2024-11-08\",\"open\":8.95,\"high\":9.3,\"low\":6.44,\"close\":6.65,\"volume\":32513284,\"tradingDays\":5},{\"weekStart\":\"2024-11-11\",\"date\":\"2024-11-15\",\"open\":6.5,\"high\":7.06,\"low\":4.62,\"close\":5.35,\"volume\":255099500,\"tradingDays\":5},{\"weekStart\":\"2024-11-18\",\"date\":\"2024-11-22\",\"open\":5.45,\"high\":5.52,\"low\":3.51,\"close\":4.08,\"volume\":241812814,\"tradingDays\":5},{\"weekStart\":\"2024-11-25\",\"date\":\"2024-11-29\",\"open\":4.25,\"high\":4.49,\"low\":3.2,\"close\":3.26,\"volume\":228629983,\"tradingDays\":5},{\"weekStart\":\"2024-12-02\",\"date\":\"2024-12-06\",\"open\":3.37,\"high\":5.3,\"low\":3.24,\"close\":4.98,\"volume\":593135065,\"tradingDays\":5},{\"weekStart\":\"2024-12-09\",\"date\":\"2024-12-13\",\"open\":5.22,\"high\":5.46,\"low\":3.05,\"close\":3.94,\"volume\":874042863,\"tradingDays\":5},{\"weekStart\":\"2024-12-16\",\"date\":\"2024-12-20\",\"open\":4.14,\"high\":6.53,\"low\":4.01,\"close\":5.55,\"volume\":1569797653,\"tradingDays\":5},{\"weekStart\":\"2024-12-23\",\"date\":\"2024-12-27\",\"open\":5.66,\"high\":6.19,\"low\":5.2,\"close\":6.04,\"volume\":330028688,\"tradingDays\":3},{\"weekStart\":\"2024-12-30\",\"date\":\"2025-01-03\",\"open\":5.94,\"high\":6.2,\"low\":5.17,\"close\":5.25,\"volume\":274788568,\"tradingDays\":4},{\"weekStart\":\"2025-01-06\",\"date\":\"2025-01-10\",\"open\":5.33,\"high\":5.45,\"low\":4.19,\"close\":4.31,\"volume\":305107785,\"tradingDays\":5},{\"weekStart\":\"2025-01-13\",\"date\":\"2025-01-17\",\"open\":4.3,\"high\":4.84,\"low\":4.23,\"close\":4.65,\"volume\":260566834,\"tradingDays\":5},{\"weekStart\":\"2025-01-20\",\"date\":\"2025-01-24\",\"open\":4.61,\"high\":5.17,\"low\":4.35,\"close\":4.92,\"volume\":404247911,\"tradingDays\":5},{\"weekStart\":\"2025-01-27\",\"date\":\"2025-01-28\",\"open\":5.06,\"high\":5.2,\"low\":4.86,\"close\":5.2,\"volume\":65507017,\"tradingDays\":2},{\"weekStart\":\"2025-02-03\",\"date\":\"2025-02-07\",\"open\":5.1,\"high\":6.17,\"low\":4.88,\"close\":5.91,\"volume\":593115206,\"tradingDays\":5},{\"weekStart\":\"2025-02-10\",\"date\":\"2025-02-14\",\"open\":6.28,\"high\":7.18,\"low\":6,\"close\":6.61,\"volume\":1073366548,\"tradingDays\":5},{\"weekStart\":\"2025-02-17\",\"date\":\"2025-02-21\",\"open\":7.25,\"high\":8.5,\"low\":6.28,\"close\":8.47,\"volume\":1262748836,\"tradingDays\":5},{\"weekStart\":\"2025-02-24\",\"date\":\"2025-02-28\",\"open\":8.47,\"high\":8.55,\"low\":6.39,\"close\":6.67,\"volume\":770126989,\"tradingDays\":5},{\"weekStart\":\"2025-03-03\",\"date\":\"2025-03-07\",\"open\":6.75,\"high\":6.97,\"low\":5.84,\"close\":6.72,\"volume\":638187564,\"tradingDays\":5},{\"weekStart\":\"2025-03-10\",\"date\":\"2025-03-14\",\"open\":7.02,\"high\":7.24,\"low\":6.31,\"close\":6.5,\"volume\":388323192,\"tradingDays\":5},{\"weekStart\":\"2025-03-17\",\"date\":\"2025-03-21\",\"open\":6.55,\"high\":6.96,\"low\":6.21,\"close\":6.39,\"volume\":325947335,\"tradingDays\":5},{\"weekStart\":\"2025-03-24\",\"date\":\"2025-03-28\",\"open\":6.47,\"high\":6.57,\"low\":5.65,\"close\":6.29,\"volume\":325827795,\"tradingDays\":5},{\"weekStart\":\"2025-03-31\",\"date\":\"2025-04-03\",\"open\":6.27,\"high\":6.56,\"low\":5.26,\"close\":5.34,\"volume\":320596394,\"tradingDays\":4},{\"weekStart\":\"2025-04-07\",\"date\":\"2025-04-11\",\"open\":4.86,\"high\":4.86,\"low\":3.85,\"close\":4.65,\"volume\":595820350,\"tradingDays\":5},{\"weekStart\":\"2025-04-14\",\"date\":\"2025-04-17\",\"open\":4.83,\"high\":5.05,\"low\":4.51,\"close\":4.55,\"volume\":194009757,\"tradingDays\":4},{\"weekStart\":\"2025-04-21\",\"date\":\"2025-04-25\",\"open\":4.56,\"high\":5.26,\"low\":4.53,\"close\":4.94,\"volume\":164797539,\"tradingDays\":4},{\"weekStart\":\"2025-04-28\",\"date\":\"2025-05-02\",\"open\":4.97,\"high\":5.26,\"low\":4.88,\"close\":5.11,\"volume\":158363665,\"tradingDays\":4},{\"weekStart\":\"2025-05-05\",\"date\":\"2025-05-09\",\"open\":5.15,\"high\":5.19,\"low\":4.53,\"close\":4.63,\"volume\":254296441,\"tradingDays\":4},{\"weekStart\":\"2025-05-12\",\"date\":\"2025-05-16\",\"open\":4.71,\"high\":4.84,\"low\":4.2,\"close\":4.32,\"volume\":322631789,\"tradingDays\":5},{\"weekStart\":\"2025-05-19\",\"date\":\"2025-05-23\",\"open\":4.32,\"high\":5.05,\"low\":4.27,\"close\":4.57,\"volume\":528770103,\"tradingDays\":5},{\"weekStart\":\"2025-05-26\",\"date\":\"2025-05-30\",\"open\":4.5,\"high\":4.79,\"low\":4.33,\"close\":4.6,\"volume\":331289692,\"tradingDays\":5},{\"weekStart\":\"2025-06-02\",\"date\":\"2025-06-06\",\"open\":4.6,\"high\":5.08,\"low\":4.34,\"close\":4.75,\"volume\":428584905,\"tradingDays\":5},{\"weekStart\":\"2025-06-09\",\"date\":\"2025-06-13\",\"open\":4.85,\"high\":6.34,\"low\":4.8,\"close\":6.09,\"volume\":1307675299,\"tradingDays\":5},{\"weekStart\":\"2025-06-16\",\"date\":\"2025-06-20\",\"open\":6.2,\"high\":6.32,\"low\":5.62,\"close\":5.88,\"volume\":611443617,\"tradingDays\":5},{\"weekStart\":\"2025-06-23\",\"date\":\"2025-06-27\",\"open\":6.06,\"high\":6.06,\"low\":5.33,\"close\":5.77,\"volume\":611424296,\"tradingDays\":5},{\"weekStart\":\"2025-06-30\",\"date\":\"2025-07-04\",\"open\":5.79,\"high\":5.95,\"low\":5.38,\"close\":5.43,\"volume\":294234335,\"tradingDays\":4},{\"weekStart\":\"2025-07-07\",\"date\":\"2025-07-11\",\"open\":5.46,\"high\":5.68,\"low\":5.27,\"close\":5.55,\"volume\":296683019,\"tradingDays\":5},{\"weekStart\":\"2025-07-14\",\"date\":\"2025-07-18\",\"open\":5.55,\"high\":6.37,\"low\":5.51,\"close\":6.09,\"volume\":498802723,\"tradingDays\":5},{\"weekStart\":\"2025-07-21\",\"date\":\"2025-07-25\",\"open\":6.13,\"high\":6.46,\"low\":5.75,\"close\":6.42,\"volume\":401954118,\"tradingDays\":5},{\"weekStart\":\"2025-07-28\",\"date\":\"2025-08-01\",\"open\":6.43,\"high\":6.44,\"low\":5.7,\"close\":5.7,\"volume\":396260952,\"tradingDays\":5},{\"weekStart\":\"2025-08-04\",\"date\":\"2025-08-08\",\"open\":5.72,\"high\":8.1,\"low\":5.67,\"close\":7.11,\"volume\":1564837816,\"tradingDays\":5},{\"weekStart\":\"2025-08-11\",\"date\":\"2025-08-15\",\"open\":7.25,\"high\":9.64,\"low\":7.16,\"close\":9.25,\"volume\":1704021618,\"tradingDays\":5},{\"weekStart\":\"2025-08-18\",\"date\":\"2025-08-22\",\"open\":9.45,\"high\":10.2,\"low\":8.43,\"close\":10.17,\"volume\":1144374499,\"tradingDays\":5},{\"weekStart\":\"2025-08-25\",\"date\":\"2025-08-29\",\"open\":10.28,\"high\":10.95,\"low\":9.51,\"close\":10.31,\"volume\":1400460757,\"tradingDays\":5},{\"weekStart\":\"2025-09-01\",\"date\":\"2025-09-05\",\"open\":10.5,\"high\":11.19,\"low\":9.5,\"close\":10.68,\"volume\":1164722394,\"tradingDays\":5},{\"weekStart\":\"2025-09-08\",\"date\":\"2025-09-12\",\"open\":11.06,\"high\":11.06,\"low\":9.5,\"close\":10.22,\"volume\":653303744,\"tradingDays\":5},{\"weekStart\":\"2025-09-15\",\"date\":\"2025-09-19\",\"open\":10.3,\"high\":10.79,\"low\":9.7,\"close\":10.55,\"volume\":749085797,\"tradingDays\":5},{\"weekStart\":\"2025-09-22\",\"date\":\"2025-09-26\",\"open\":10.69,\"high\":12.57,\"low\":10.59,\"close\":12.16,\"volume\":834055216,\"tradingDays\":5},{\"weekStart\":\"2025-09-29\",\"date\":\"2025-10-03\",\"open\":12.3,\"high\":15.08,\"low\":12.26,\"close\":14.6,\"volume\":454221453,\"tradingDays\":4},{\"weekStart\":\"2025-10-06\",\"date\":\"2025-10-10\",\"open\":14.8,\"high\":15.12,\"low\":11.29,\"close\":11.52,\"volume\":804013196,\"tradingDays\":4},{\"weekStart\":\"2025-10-13\",\"date\":\"2025-10-17\",\"open\":10.95,\"high\":12.2,\"low\":10.68,\"close\":11.2,\"volume\":804354071,\"tradingDays\":5},{\"weekStart\":\"2025-10-20\",\"date\":\"2025-10-24\",\"open\":11.51,\"high\":12.2,\"low\":10.76,\"close\":11.41,\"volume\":473532066,\"tradingDays\":5},{\"weekStart\":\"2025-10-27\",\"date\":\"2025-10-31\",\"open\":11.72,\"high\":11.98,\"low\":11.16,\"close\":11.36,\"volume\":285567286,\"tradingDays\":4},{\"weekStart\":\"2025-11-03\",\"date\":\"2025-11-07\",\"open\":11.45,\"high\":11.74,\"low\":10.34,\"close\":11.22,\"volume\":475218039,\"tradingDays\":5},{\"weekStart\":\"2025-11-10\",\"date\":\"2025-11-14\",\"open\":11.31,\"high\":11.65,\"low\":11.08,\"close\":11.25,\"volume\":284551110,\"tradingDays\":5},{\"weekStart\":\"2025-11-17\",\"date\":\"2025-11-21\",\"open\":11.25,\"high\":11.25,\"low\":9.62,\"close\":9.67,\"volume\":403272470,\"tradingDays\":5},{\"weekStart\":\"2025-11-24\",\"date\":\"2025-11-28\",\"open\":9.9,\"high\":10.51,\"low\":9.77,\"close\":10.01,\"volume\":354024353,\"tradingDays\":5},{\"weekStart\":\"2025-12-01\",\"date\":\"2025-12-05\",\"open\":10.01,\"high\":10.14,\"low\":8.84,\"close\":9.45,\"volume\":334257300,\"tradingDays\":5},{\"weekStart\":\"2025-12-08\",\"date\":\"2025-12-12\",\"open\":9.47,\"high\":9.76,\"low\":9.23,\"close\":9.5,\"volume\":249078626,\"tradingDays\":5},{\"weekStart\":\"2025-12-15\",\"date\":\"2025-12-19\",\"open\":9.38,\"high\":9.86,\"low\":9.02,\"close\":9.76,\"volume\":222029672,\"tradingDays\":5},{\"weekStart\":\"2025-12-22\",\"date\":\"2025-12-24\",\"open\":9.75,\"high\":9.96,\"low\":9.48,\"close\":9.48,\"volume\":72213062,\"tradingDays\":3},{\"weekStart\":\"2025-12-29\",\"date\":\"2026-01-02\",\"open\":9.54,\"high\":10.26,\"low\":9.43,\"close\":9.99,\"volume\":90358920,\"tradingDays\":4},{\"weekStart\":\"2026-01-05\",\"date\":\"2026-01-09\",\"open\":9.89,\"high\":12.54,\"low\":9.81,\"close\":12.54,\"volume\":598912948,\"tradingDays\":5},{\"weekStart\":\"2026-01-12\",\"date\":\"2026-01-16\",\"open\":13.16,\"high\":14.28,\"low\":12.1,\"close\":12.64,\"volume\":1021977410,\"tradingDays\":5},{\"weekStart\":\"2026-01-19\",\"date\":\"2026-01-23\",\"open\":12.87,\"high\":13.58,\"low\":12.54,\"close\":13.48,\"volume\":330240468,\"tradingDays\":5},{\"weekStart\":\"2026-01-26\",\"date\":\"2026-01-30\",\"open\":13.6,\"high\":13.65,\"low\":11.71,\"close\":12.08,\"volume\":367102716,\"tradingDays\":5},{\"weekStart\":\"2026-02-02\",\"date\":\"2026-02-06\",\"open\":12.08,\"high\":12.09,\"low\":10.92,\"close\":11.28,\"volume\":244558630,\"tradingDays\":5},{\"weekStart\":\"2026-02-09\",\"date\":\"2026-02-13\",\"open\":11.51,\"high\":11.87,\"low\":11.04,\"close\":11.21,\"volume\":240265997,\"tradingDays\":5},{\"weekStart\":\"2026-02-16\",\"date\":\"2026-02-20\",\"open\":11.21,\"high\":11.49,\"low\":10.93,\"close\":11.25,\"volume\":19119395,\"tradingDays\":2},{\"weekStart\":\"2026-02-23\",\"date\":\"2026-02-27\",\"open\":11.29,\"high\":11.5,\"low\":10.03,\"close\":10.36,\"volume\":241596639,\"tradingDays\":5},{\"weekStart\":\"2026-03-02\",\"date\":\"2026-03-06\",\"open\":10.08,\"high\":10.17,\"low\":9.31,\"close\":10.06,\"volume\":352474729,\"tradingDays\":5},{\"weekStart\":\"2026-03-09\",\"date\":\"2026-03-13\",\"open\":9.69,\"high\":10.12,\"low\":9.26,\"close\":9.5,\"volume\":236788545,\"tradingDays\":5},{\"weekStart\":\"2026-03-16\",\"date\":\"2026-03-20\",\"open\":9.53,\"high\":10.58,\"low\":9.31,\"close\":9.5,\"volume\":270277689,\"tradingDays\":5},{\"weekStart\":\"2026-03-23\",\"date\":\"2026-03-27\",\"open\":9.3,\"high\":9.8,\"low\":8.78,\"close\":9.6,\"volume\":302836256,\"tradingDays\":5},{\"weekStart\":\"2026-03-30\",\"date\":\"2026-04-02\",\"open\":9.46,\"high\":9.93,\"low\":8.92,\"close\":9.6,\"volume\":262790509,\"tradingDays\":4},{\"weekStart\":\"2026-04-06\",\"date\":\"2026-04-10\",\"open\":9.83,\"high\":10.12,\"low\":9.6,\"close\":9.8,\"volume\":148963718,\"tradingDays\":3},{\"weekStart\":\"2026-04-13\",\"date\":\"2026-04-17\",\"open\":9.81,\"high\":10.51,\"low\":9.38,\"close\":10.16,\"volume\":258860824,\"tradingDays\":5},{\"weekStart\":\"2026-04-20\",\"date\":\"2026-04-24\",\"open\":10.12,\"high\":10.43,\"low\":8.11,\"close\":8.32,\"volume\":414548664,\"tradingDays\":5},{\"weekStart\":\"2026-04-27\",\"date\":\"2026-04-30\",\"open\":8.32,\"high\":9.59,\"low\":8.1,\"close\":9.53,\"volume\":227329777,\"tradingDays\":4},{\"weekStart\":\"2026-05-04\",\"date\":\"2026-05-08\",\"open\":9.55,\"high\":9.76,\"low\":8.91,\"close\":9.14,\"volume\":170211644,\"tradingDays\":5},{\"weekStart\":\"2026-05-11\",\"date\":\"2026-05-15\",\"open\":9.14,\"high\":9.3,\"low\":8.11,\"close\":8.18,\"volume\":258447390,\"tradingDays\":5},{\"weekStart\":\"2026-05-18\",\"date\":\"2026-05-22\",\"open\":8.07,\"high\":8.43,\"low\":7.77,\"close\":7.95,\"volume\":257502993,\"tradingDays\":5},{\"weekStart\":\"2026-05-25\",\"date\":\"2026-05-29\",\"open\":7.95,\"high\":8.78,\"low\":7.52,\"close\":8.24,\"volume\":327663569,\"tradingDays\":4},{\"weekStart\":\"2026-06-01\",\"date\":\"2026-06-05\",\"open\":8.4,\"high\":8.49,\"low\":7.48,\"close\":7.49,\"volume\":238494032,\"tradingDays\":5},{\"weekStart\":\"2026-06-08\",\"date\":\"2026-06-12\",\"open\":7.17,\"high\":7.3,\"low\":6.58,\"close\":7.04,\"volume\":369148324,\"tradingDays\":5},{\"weekStart\":\"2026-06-15\",\"date\":\"2026-06-18\",\"open\":7.15,\"high\":7.18,\"low\":6.5,\"close\":6.61,\"volume\":243643942,\"tradingDays\":4},{\"weekStart\":\"2026-06-22\",\"date\":\"2026-06-26\",\"open\":6.58,\"high\":7.23,\"low\":6.3,\"close\":6.75,\"volume\":335681046,\"tradingDays\":5},{\"weekStart\":\"2026-06-29\",\"date\":\"2026-07-03\",\"open\":6.87,\"high\":8.08,\"low\":6.77,\"close\":7.9,\"volume\":354196834,\"tradingDays\":4},{\"weekStart\":\"2026-07-06\",\"date\":\"2026-07-10\",\"open\":7.91,\"high\":8.55,\"low\":7.58,\"close\":7.92,\"volume\":270945500,\"tradingDays\":5},{\"weekStart\":\"2026-07-13\",\"date\":\"2026-07-17\",\"open\":7.92,\"high\":8.19,\"low\":7.09,\"close\":7.18,\"volume\":319983736,\"tradingDays\":5},{\"weekStart\":\"2026-07-20\",\"date\":\"2026-07-24\",\"open\":7.23,\"high\":7.43,\"low\":6.81,\"close\":7.2,\"volume\":206086997,\"tradingDays\":5},{\"weekStart\":\"2026-07-27\",\"date\":\"2026-07-31\",\"open\":6.76,\"high\":7.28,\"low\":6.4,\"close\":6.84,\"volume\":305314975,\"tradingDays\":5},{\"weekStart\":\"2026-08-03\",\"date\":\"2026-08-07\",\"open\":6.82,\"high\":7.63,\"low\":6.665,\"close\":7.55,\"volume\":247175743,\"tradingDays\":5},{\"weekStart\":\"2026-08-10\",\"date\":\"2026-08-14\",\"open\":7.94,\"high\":8.605,\"low\":7.73,\"close\":7.855,\"volume\":404365210,\"tradingDays\":5},{\"weekStart\":\"2026-08-17\",\"date\":\"2026-08-21\",\"open\":7.98,\"high\":8.28,\"low\":7.2,\"close\":7.71,\"volume\":334492726,\"tradingDays\":5},{\"weekStart\":\"2026-08-24\",\"date\":\"2026-08-28\",\"open\":7.86,\"high\":7.885,\"low\":7.3,\"close\":7.6,\"volume\":244695364,\"tradingDays\":5},{\"weekStart\":\"2026-08-31\",\"date\":\"2026-09-04\",\"open\":7.515,\"high\":7.525,\"low\":7.1,\"close\":7.33,\"volume\":322277778,\"tradingDays\":5},{\"weekStart\":\"2026-09-07\",\"date\":\"2026-09-11\",\"open\":7.385,\"high\":7.465,\"low\":6.75,\"close\":6.93,\"volume\":213435856,\"tradingDays\":5},{\"weekStart\":\"2026-09-14\",\"date\":\"2026-09-18\",\"open\":6.925,\"high\":8.02,\"low\":6.75,\"close\":8.02,\"volume\":264299651,\"tradingDays\":5},{\"weekStart\":\"2026-09-21\",\"date\":\"2026-09-25\",\"open\":8.275,\"high\":9.015,\"low\":7.68,\"close\":7.75,\"volume\":497965842,\"tradingDays\":5},{\"weekStart\":\"2026-09-28\",\"date\":\"2026-10-02\",\"open\":8,\"high\":8.34,\"low\":7.55,\"close\":7.945,\"volume\":195903937,\"tradingDays\":4},{\"weekStart\":\"2026-10-05\",\"date\":\"2026-10-09\",\"open\":7.95,\"high\":8.32,\"low\":6.76,\"close\":6.985,\"volume\":273655081,\"tradingDays\":5}]",
+      "expected": "[{\"weekStart\":\"2024-06-10\",\"date\":\"2024-06-14\",\"open\":5.39,\"high\":6.58,\"low\":5.31,\"close\":5.4,\"volume\":95716400,\"tradingDays\":2},{\"weekStart\":\"2024-06-17\",\"date\":\"2024-06-21\",\"open\":5.45,\"high\":5.67,\"low\":5.18,\"close\":5.35,\"volume\":22047950,\"tradingDays\":5},{\"weekStart\":\"2024-06-24\",\"date\":\"2024-06-28\",\"open\":5.37,\"high\":5.52,\"low\":5.05,\"close\":5.28,\"volume\":15303000,\"tradingDays\":5},{\"weekStart\":\"2024-07-01\",\"date\":\"2024-07-05\",\"open\":5.28,\"high\":5.36,\"low\":5.19,\"close\":5.28,\"volume\":12947000,\"tradingDays\":4},{\"weekStart\":\"2024-07-08\",\"date\":\"2024-07-12\",\"open\":5.27,\"high\":5.61,\"low\":4.28,\"close\":5.47,\"volume\":8049000,\"tradingDays\":5},{\"weekStart\":\"2024-07-15\",\"date\":\"2024-07-19\",\"open\":5.38,\"high\":6,\"low\":5.36,\"close\":5.59,\"volume\":3906000,\"tradingDays\":5},{\"weekStart\":\"2024-07-22\",\"date\":\"2024-07-26\",\"open\":5.6,\"high\":5.96,\"low\":5.6,\"close\":5.81,\"volume\":8510000,\"tradingDays\":5},{\"weekStart\":\"2024-07-29\",\"date\":\"2024-08-02\",\"open\":5.83,\"high\":5.83,\"low\":4.96,\"close\":5.6,\"volume\":10574000,\"tradingDays\":5},{\"weekStart\":\"2024-08-05\",\"date\":\"2024-08-09\",\"open\":5.57,\"high\":6.32,\"low\":5.08,\"close\":5.78,\"volume\":10941350,\"tradingDays\":5},{\"weekStart\":\"2024-08-12\",\"date\":\"2024-08-16\",\"open\":5.93,\"high\":7.32,\"low\":5.78,\"close\":6.39,\"volume\":18025400,\"tradingDays\":5},{\"weekStart\":\"2024-08-19\",\"date\":\"2024-08-23\",\"open\":6.58,\"high\":7.26,\"low\":5.99,\"close\":6.45,\"volume\":15683210,\"tradingDays\":5},{\"weekStart\":\"2024-08-26\",\"date\":\"2024-08-30\",\"open\":6.32,\"high\":9.1,\"low\":6.03,\"close\":8.49,\"volume\":22097389,\"tradingDays\":5},{\"weekStart\":\"2024-09-02\",\"date\":\"2024-09-05\",\"open\":8.49,\"high\":15.36,\"low\":8.27,\"close\":15.12,\"volume\":16473046,\"tradingDays\":4},{\"weekStart\":\"2024-09-09\",\"date\":\"2024-09-13\",\"open\":15.16,\"high\":16.200001,\"low\":12.42,\"close\":14.08,\"volume\":25363790,\"tradingDays\":5},{\"weekStart\":\"2024-09-16\",\"date\":\"2024-09-20\",\"open\":14.08,\"high\":14.76,\"low\":10.94,\"close\":13.2,\"volume\":15370500,\"tradingDays\":4},{\"weekStart\":\"2024-09-23\",\"date\":\"2024-09-27\",\"open\":13,\"high\":13.42,\"low\":10.8,\"close\":12.8,\"volume\":20053500,\"tradingDays\":5},{\"weekStart\":\"2024-09-30\",\"date\":\"2024-10-04\",\"open\":12.8,\"high\":13.38,\"low\":10.58,\"close\":11.32,\"volume\":13799346,\"tradingDays\":4},{\"weekStart\":\"2024-10-07\",\"date\":\"2024-10-10\",\"open\":11.88,\"high\":11.9,\"low\":9.71,\"close\":10.1,\"volume\":13924583,\"tradingDays\":4},{\"weekStart\":\"2024-10-14\",\"date\":\"2024-10-18\",\"open\":10.48,\"high\":10.48,\"low\":8.51,\"close\":9.31,\"volume\":20822000,\"tradingDays\":5},{\"weekStart\":\"2024-10-21\",\"date\":\"2024-10-25\",\"open\":9.69,\"high\":12.08,\"low\":9.19,\"close\":9.83,\"volume\":26251879,\"tradingDays\":5},{\"weekStart\":\"2024-10-28\",\"date\":\"2024-11-01\",\"open\":10.12,\"high\":10.28,\"low\":8.95,\"close\":8.99,\"volume\":31203889,\"tradingDays\":5},{\"weekStart\":\"2024-11-04\",\"date\":\"2024-11-08\",\"open\":8.95,\"high\":9.3,\"low\":6.44,\"close\":6.65,\"volume\":32513284,\"tradingDays\":5},{\"weekStart\":\"2024-11-11\",\"date\":\"2024-11-15\",\"open\":6.5,\"high\":7.06,\"low\":4.62,\"close\":5.35,\"volume\":255099500,\"tradingDays\":5},{\"weekStart\":\"2024-11-18\",\"date\":\"2024-11-22\",\"open\":5.45,\"high\":5.52,\"low\":3.51,\"close\":4.08,\"volume\":241812814,\"tradingDays\":5},{\"weekStart\":\"2024-11-25\",\"date\":\"2024-11-29\",\"open\":4.25,\"high\":4.49,\"low\":3.2,\"close\":3.26,\"volume\":228629983,\"tradingDays\":5},{\"weekStart\":\"2024-12-02\",\"date\":\"2024-12-06\",\"open\":3.37,\"high\":5.3,\"low\":3.24,\"close\":4.98,\"volume\":593135065,\"tradingDays\":5},{\"weekStart\":\"2024-12-09\",\"date\":\"2024-12-13\",\"open\":5.22,\"high\":5.46,\"low\":3.05,\"close\":3.94,\"volume\":874042863,\"tradingDays\":5},{\"weekStart\":\"2024-12-16\",\"date\":\"2024-12-20\",\"open\":4.14,\"high\":6.53,\"low\":4.01,\"close\":5.55,\"volume\":1569797653,\"tradingDays\":5},{\"weekStart\":\"2024-12-23\",\"date\":\"2024-12-27\",\"open\":5.66,\"high\":6.19,\"low\":5.2,\"close\":6.04,\"volume\":330028688,\"tradingDays\":3},{\"weekStart\":\"2024-12-30\",\"date\":\"2025-01-03\",\"open\":5.94,\"high\":6.2,\"low\":5.17,\"close\":5.25,\"volume\":274788568,\"tradingDays\":4},{\"weekStart\":\"2025-01-06\",\"date\":\"2025-01-10\",\"open\":5.33,\"high\":5.45,\"low\":4.19,\"close\":4.31,\"volume\":305107785,\"tradingDays\":5},{\"weekStart\":\"2025-01-13\",\"date\":\"2025-01-17\",\"open\":4.3,\"high\":4.84,\"low\":4.23,\"close\":4.65,\"volume\":260566834,\"tradingDays\":5},{\"weekStart\":\"2025-01-20\",\"date\":\"2025-01-24\",\"open\":4.61,\"high\":5.17,\"low\":4.35,\"close\":4.92,\"volume\":404247911,\"tradingDays\":5},{\"weekStart\":\"2025-01-27\",\"date\":\"2025-01-28\",\"open\":5.06,\"high\":5.2,\"low\":4.86,\"close\":5.2,\"volume\":65507017,\"tradingDays\":2},{\"weekStart\":\"2025-02-03\",\"date\":\"2025-02-07\",\"open\":5.1,\"high\":6.17,\"low\":4.88,\"close\":5.91,\"volume\":593115206,\"tradingDays\":5},{\"weekStart\":\"2025-02-10\",\"date\":\"2025-02-14\",\"open\":6.28,\"high\":7.18,\"low\":6,\"close\":6.61,\"volume\":1073366548,\"tradingDays\":5},{\"weekStart\":\"2025-02-17\",\"date\":\"2025-02-21\",\"open\":7.25,\"high\":8.5,\"low\":6.28,\"close\":8.47,\"volume\":1262748836,\"tradingDays\":5},{\"weekStart\":\"2025-02-24\",\"date\":\"2025-02-28\",\"open\":8.47,\"high\":8.55,\"low\":6.39,\"close\":6.67,\"volume\":770126989,\"tradingDays\":5},{\"weekStart\":\"2025-03-03\",\"date\":\"2025-03-07\",\"open\":6.75,\"high\":6.97,\"low\":5.84,\"close\":6.72,\"volume\":638187564,\"tradingDays\":5},{\"weekStart\":\"2025-03-10\",\"date\":\"2025-03-14\",\"open\":7.02,\"high\":7.24,\"low\":6.31,\"close\":6.5,\"volume\":388323192,\"tradingDays\":5},{\"weekStart\":\"2025-03-17\",\"date\":\"2025-03-21\",\"open\":6.55,\"high\":6.96,\"low\":6.21,\"close\":6.39,\"volume\":325947335,\"tradingDays\":5},{\"weekStart\":\"2025-03-24\",\"date\":\"2025-03-28\",\"open\":6.47,\"high\":6.57,\"low\":5.65,\"close\":6.29,\"volume\":325827795,\"tradingDays\":5},{\"weekStart\":\"2025-03-31\",\"date\":\"2025-04-03\",\"open\":6.27,\"high\":6.56,\"low\":5.26,\"close\":5.34,\"volume\":320596394,\"tradingDays\":4},{\"weekStart\":\"2025-04-07\",\"date\":\"2025-04-11\",\"open\":4.86,\"high\":4.86,\"low\":3.85,\"close\":4.65,\"volume\":595820350,\"tradingDays\":5},{\"weekStart\":\"2025-04-14\",\"date\":\"2025-04-17\",\"open\":4.83,\"high\":5.05,\"low\":4.51,\"close\":4.55,\"volume\":194009757,\"tradingDays\":4},{\"weekStart\":\"2025-04-21\",\"date\":\"2025-04-25\",\"open\":4.56,\"high\":5.26,\"low\":4.53,\"close\":4.94,\"volume\":164797539,\"tradingDays\":4},{\"weekStart\":\"2025-04-28\",\"date\":\"2025-05-02\",\"open\":4.97,\"high\":5.26,\"low\":4.88,\"close\":5.11,\"volume\":158363665,\"tradingDays\":4},{\"weekStart\":\"2025-05-05\",\"date\":\"2025-05-09\",\"open\":5.15,\"high\":5.19,\"low\":4.53,\"close\":4.63,\"volume\":254296441,\"tradingDays\":4},{\"weekStart\":\"2025-05-12\",\"date\":\"2025-05-16\",\"open\":4.71,\"high\":4.84,\"low\":4.2,\"close\":4.32,\"volume\":322631789,\"tradingDays\":5},{\"weekStart\":\"2025-05-19\",\"date\":\"2025-05-23\",\"open\":4.32,\"high\":5.05,\"low\":4.27,\"close\":4.57,\"volume\":528770103,\"tradingDays\":5},{\"weekStart\":\"2025-05-26\",\"date\":\"2025-05-30\",\"open\":4.5,\"high\":4.79,\"low\":4.33,\"close\":4.6,\"volume\":331289692,\"tradingDays\":5},{\"weekStart\":\"2025-06-02\",\"date\":\"2025-06-06\",\"open\":4.6,\"high\":5.08,\"low\":4.34,\"close\":4.75,\"volume\":428584905,\"tradingDays\":5},{\"weekStart\":\"2025-06-09\",\"date\":\"2025-06-13\",\"open\":4.85,\"high\":6.34,\"low\":4.8,\"close\":6.09,\"volume\":1307675299,\"tradingDays\":5},{\"weekStart\":\"2025-06-16\",\"date\":\"2025-06-20\",\"open\":6.2,\"high\":6.32,\"low\":5.62,\"close\":5.88,\"volume\":611443617,\"tradingDays\":5},{\"weekStart\":\"2025-06-23\",\"date\":\"2025-06-27\",\"open\":6.06,\"high\":6.06,\"low\":5.33,\"close\":5.77,\"volume\":611424296,\"tradingDays\":5},{\"weekStart\":\"2025-06-30\",\"date\":\"2025-07-04\",\"open\":5.79,\"high\":5.95,\"low\":5.38,\"close\":5.43,\"volume\":294234335,\"tradingDays\":4},{\"weekStart\":\"2025-07-07\",\"date\":\"2025-07-11\",\"open\":5.46,\"high\":5.68,\"low\":5.27,\"close\":5.55,\"volume\":296683019,\"tradingDays\":5},{\"weekStart\":\"2025-07-14\",\"date\":\"2025-07-18\",\"open\":5.55,\"high\":6.37,\"low\":5.51,\"close\":6.09,\"volume\":498802723,\"tradingDays\":5},{\"weekStart\":\"2025-07-21\",\"date\":\"2025-07-25\",\"open\":6.13,\"high\":6.46,\"low\":5.75,\"close\":6.42,\"volume\":401954118,\"tradingDays\":5},{\"weekStart\":\"2025-07-28\",\"date\":\"2025-08-01\",\"open\":6.43,\"high\":6.44,\"low\":5.7,\"close\":5.7,\"volume\":396260952,\"tradingDays\":5},{\"weekStart\":\"2025-08-04\",\"date\":\"2025-08-08\",\"open\":5.72,\"high\":8.1,\"low\":5.67,\"close\":7.11,\"volume\":1564837816,\"tradingDays\":5},{\"weekStart\":\"2025-08-11\",\"date\":\"2025-08-15\",\"open\":7.25,\"high\":9.64,\"low\":7.16,\"close\":9.25,\"volume\":1704021618,\"tradingDays\":5},{\"weekStart\":\"2025-08-18\",\"date\":\"2025-08-22\",\"open\":9.45,\"high\":10.2,\"low\":8.43,\"close\":10.17,\"volume\":1144374499,\"tradingDays\":5},{\"weekStart\":\"2025-08-25\",\"date\":\"2025-08-29\",\"open\":10.28,\"high\":10.95,\"low\":9.51,\"close\":10.31,\"volume\":1400460757,\"tradingDays\":5},{\"weekStart\":\"2025-09-01\",\"date\":\"2025-09-05\",\"open\":10.5,\"high\":11.19,\"low\":9.5,\"close\":10.68,\"volume\":1164722394,\"tradingDays\":5},{\"weekStart\":\"2025-09-08\",\"date\":\"2025-09-12\",\"open\":11.06,\"high\":11.06,\"low\":9.5,\"close\":10.22,\"volume\":653303744,\"tradingDays\":5},{\"weekStart\":\"2025-09-15\",\"date\":\"2025-09-19\",\"open\":10.3,\"high\":10.79,\"low\":9.7,\"close\":10.55,\"volume\":749085797,\"tradingDays\":5},{\"weekStart\":\"2025-09-22\",\"date\":\"2025-09-26\",\"open\":10.69,\"high\":12.57,\"low\":10.59,\"close\":12.16,\"volume\":834055216,\"tradingDays\":5},{\"weekStart\":\"2025-09-29\",\"date\":\"2025-10-03\",\"open\":12.3,\"high\":15.08,\"low\":12.26,\"close\":14.6,\"volume\":454221453,\"tradingDays\":4},{\"weekStart\":\"2025-10-06\",\"date\":\"2025-10-10\",\"open\":14.8,\"high\":15.12,\"low\":11.29,\"close\":11.52,\"volume\":804013196,\"tradingDays\":4},{\"weekStart\":\"2025-10-13\",\"date\":\"2025-10-17\",\"open\":10.95,\"high\":12.2,\"low\":10.68,\"close\":11.2,\"volume\":804354071,\"tradingDays\":5},{\"weekStart\":\"2025-10-20\",\"date\":\"2025-10-24\",\"open\":11.51,\"high\":12.2,\"low\":10.76,\"close\":11.41,\"volume\":473532066,\"tradingDays\":5},{\"weekStart\":\"2025-10-27\",\"date\":\"2025-10-31\",\"open\":11.72,\"high\":11.98,\"low\":11.16,\"close\":11.36,\"volume\":285567286,\"tradingDays\":4},{\"weekStart\":\"2025-11-03\",\"date\":\"2025-11-07\",\"open\":11.45,\"high\":11.74,\"low\":10.34,\"close\":11.22,\"volume\":475218039,\"tradingDays\":5},{\"weekStart\":\"2025-11-10\",\"date\":\"2025-11-14\",\"open\":11.31,\"high\":11.65,\"low\":11.08,\"close\":11.25,\"volume\":284551110,\"tradingDays\":5},{\"weekStart\":\"2025-11-17\",\"date\":\"2025-11-21\",\"open\":11.25,\"high\":11.25,\"low\":9.62,\"close\":9.67,\"volume\":403272470,\"tradingDays\":5},{\"weekStart\":\"2025-11-24\",\"date\":\"2025-11-28\",\"open\":9.9,\"high\":10.51,\"low\":9.77,\"close\":10.01,\"volume\":354024353,\"tradingDays\":5},{\"weekStart\":\"2025-12-01\",\"date\":\"2025-12-05\",\"open\":10.01,\"high\":10.14,\"low\":8.84,\"close\":9.45,\"volume\":334257300,\"tradingDays\":5},{\"weekStart\":\"2025-12-08\",\"date\":\"2025-12-12\",\"open\":9.47,\"high\":9.76,\"low\":9.23,\"close\":9.5,\"volume\":249078626,\"tradingDays\":5},{\"weekStart\":\"2025-12-15\",\"date\":\"2025-12-19\",\"open\":9.38,\"high\":9.86,\"low\":9.02,\"close\":9.76,\"volume\":222029672,\"tradingDays\":5},{\"weekStart\":\"2025-12-22\",\"date\":\"2025-12-24\",\"open\":9.75,\"high\":9.96,\"low\":9.48,\"close\":9.48,\"volume\":72213062,\"tradingDays\":3},{\"weekStart\":\"2025-12-29\",\"date\":\"2026-01-02\",\"open\":9.54,\"high\":10.26,\"low\":9.43,\"close\":9.99,\"volume\":90358920,\"tradingDays\":4},{\"weekStart\":\"2026-01-05\",\"date\":\"2026-01-09\",\"open\":9.89,\"high\":12.54,\"low\":9.81,\"close\":12.54,\"volume\":598912948,\"tradingDays\":5},{\"weekStart\":\"2026-01-12\",\"date\":\"2026-01-16\",\"open\":13.16,\"high\":14.28,\"low\":12.1,\"close\":12.64,\"volume\":1021977410,\"tradingDays\":5},{\"weekStart\":\"2026-01-19\",\"date\":\"2026-01-23\",\"open\":12.87,\"high\":13.58,\"low\":12.54,\"close\":13.48,\"volume\":330240468,\"tradingDays\":5},{\"weekStart\":\"2026-01-26\",\"date\":\"2026-01-30\",\"open\":13.6,\"high\":13.65,\"low\":11.71,\"close\":12.08,\"volume\":367102716,\"tradingDays\":5},{\"weekStart\":\"2026-02-02\",\"date\":\"2026-02-06\",\"open\":12.08,\"high\":12.09,\"low\":10.92,\"close\":11.28,\"volume\":244558630,\"tradingDays\":5},{\"weekStart\":\"2026-02-09\",\"date\":\"2026-02-13\",\"open\":11.51,\"high\":11.87,\"low\":11.04,\"close\":11.21,\"volume\":240265997,\"tradingDays\":5},{\"weekStart\":\"2026-02-16\",\"date\":\"2026-02-20\",\"open\":11.21,\"high\":11.49,\"low\":10.93,\"close\":11.25,\"volume\":19119395,\"tradingDays\":2},{\"weekStart\":\"2026-02-23\",\"date\":\"2026-02-27\",\"open\":11.29,\"high\":11.5,\"low\":10.03,\"close\":10.36,\"volume\":241596639,\"tradingDays\":5},{\"weekStart\":\"2026-03-02\",\"date\":\"2026-03-06\",\"open\":10.08,\"high\":10.17,\"low\":9.31,\"close\":10.06,\"volume\":352474729,\"tradingDays\":5},{\"weekStart\":\"2026-03-09\",\"date\":\"2026-03-13\",\"open\":9.69,\"high\":10.12,\"low\":9.26,\"close\":9.5,\"volume\":236788545,\"tradingDays\":5},{\"weekStart\":\"2026-03-16\",\"date\":\"2026-03-20\",\"open\":9.53,\"high\":10.58,\"low\":9.31,\"close\":9.5,\"volume\":270277689,\"tradingDays\":5},{\"weekStart\":\"2026-03-23\",\"date\":\"2026-03-27\",\"open\":9.3,\"high\":9.8,\"low\":8.78,\"close\":9.6,\"volume\":302836256,\"tradingDays\":5},{\"weekStart\":\"2026-03-30\",\"date\":\"2026-04-02\",\"open\":9.46,\"high\":9.93,\"low\":8.92,\"close\":9.6,\"volume\":262790509,\"tradingDays\":4},{\"weekStart\":\"2026-04-06\",\"date\":\"2026-04-10\",\"open\":9.83,\"high\":10.12,\"low\":9.6,\"close\":9.8,\"volume\":148963718,\"tradingDays\":3},{\"weekStart\":\"2026-04-13\",\"date\":\"2026-04-17\",\"open\":9.81,\"high\":10.51,\"low\":9.38,\"close\":10.16,\"volume\":258860824,\"tradingDays\":5},{\"weekStart\":\"2026-04-20\",\"date\":\"2026-04-24\",\"open\":10.12,\"high\":10.43,\"low\":8.11,\"close\":8.32,\"volume\":414548664,\"tradingDays\":5},{\"weekStart\":\"2026-04-27\",\"date\":\"2026-04-30\",\"open\":8.32,\"high\":9.59,\"low\":8.1,\"close\":9.53,\"volume\":227329777,\"tradingDays\":4},{\"weekStart\":\"2026-05-04\",\"date\":\"2026-05-08\",\"open\":9.55,\"high\":9.76,\"low\":8.91,\"close\":9.14,\"volume\":170211644,\"tradingDays\":5},{\"weekStart\":\"2026-05-11\",\"date\":\"2026-05-15\",\"open\":9.14,\"high\":9.3,\"low\":8.11,\"close\":8.18,\"volume\":258447390,\"tradingDays\":5},{\"weekStart\":\"2026-05-18\",\"date\":\"2026-05-22\",\"open\":8.07,\"high\":8.43,\"low\":7.77,\"close\":7.95,\"volume\":257502993,\"tradingDays\":5},{\"weekStart\":\"2026-05-25\",\"date\":\"2026-05-29\",\"open\":7.95,\"high\":8.78,\"low\":7.52,\"close\":8.24,\"volume\":327663569,\"tradingDays\":4},{\"weekStart\":\"2026-06-01\",\"date\":\"2026-06-05\",\"open\":8.4,\"high\":8.49,\"low\":7.48,\"close\":7.49,\"volume\":238494032,\"tradingDays\":5},{\"weekStart\":\"2026-06-08\",\"date\":\"2026-06-12\",\"open\":7.17,\"high\":7.3,\"low\":6.58,\"close\":7.04,\"volume\":369148324,\"tradingDays\":5},{\"weekStart\":\"2026-06-15\",\"date\":\"2026-06-18\",\"open\":7.15,\"high\":7.18,\"low\":6.5,\"close\":6.61,\"volume\":243643942,\"tradingDays\":4},{\"weekStart\":\"2026-06-22\",\"date\":\"2026-06-26\",\"open\":6.58,\"high\":7.23,\"low\":6.3,\"close\":6.75,\"volume\":335681046,\"tradingDays\":5},{\"weekStart\":\"2026-06-29\",\"date\":\"2026-07-03\",\"open\":6.87,\"high\":8.08,\"low\":6.77,\"close\":7.9,\"volume\":354196834,\"tradingDays\":4},{\"weekStart\":\"2026-07-06\",\"date\":\"2026-07-10\",\"open\":7.91,\"high\":8.55,\"low\":7.58,\"close\":7.92,\"volume\":270945500,\"tradingDays\":5},{\"weekStart\":\"2026-07-13\",\"date\":\"2026-07-17\",\"open\":7.92,\"high\":8.19,\"low\":7.09,\"close\":7.18,\"volume\":319983736,\"tradingDays\":5},{\"weekStart\":\"2026-07-20\",\"date\":\"2026-07-24\",\"open\":7.23,\"high\":7.43,\"low\":6.81,\"close\":7.2,\"volume\":206086997,\"tradingDays\":5},{\"weekStart\":\"2026-07-27\",\"date\":\"2026-07-31\",\"open\":6.76,\"high\":7.28,\"low\":6.4,\"close\":6.84,\"volume\":305314975,\"tradingDays\":5},{\"weekStart\":\"2026-08-03\",\"date\":\"2026-08-07\",\"open\":6.82,\"high\":7.63,\"low\":6.665,\"close\":7.55,\"volume\":247175743,\"tradingDays\":5},{\"weekStart\":\"2026-08-10\",\"date\":\"2026-08-14\",\"open\":7.94,\"high\":8.605,\"low\":7.73,\"close\":7.855,\"volume\":404365210,\"tradingDays\":5},{\"weekStart\":\"2026-08-17\",\"date\":\"2026-08-21\",\"open\":7.98,\"high\":8.28,\"low\":7.2,\"close\":7.71,\"volume\":334492726,\"tradingDays\":5},{\"weekStart\":\"2026-08-24\",\"date\":\"2026-08-28\",\"open\":7.86,\"high\":7.885,\"low\":7.3,\"close\":7.6,\"volume\":244695364,\"tradingDays\":5},{\"weekStart\":\"2026-08-31\",\"date\":\"2026-09-04\",\"open\":7.515,\"high\":7.525,\"low\":7.1,\"close\":7.33,\"volume\":322277778,\"tradingDays\":5},{\"weekStart\":\"2026-09-07\",\"date\":\"2026-09-11\",\"open\":7.385,\"high\":7.465,\"low\":6.75,\"close\":6.93,\"volume\":213435856,\"tradingDays\":5},{\"weekStart\":\"2026-09-14\",\"date\":\"2026-09-18\",\"open\":6.925,\"high\":8.02,\"low\":6.75,\"close\":8.02,\"volume\":264299651,\"tradingDays\":5},{\"weekStart\":\"2026-09-21\",\"date\":\"2026-09-25\",\"open\":8.275,\"high\":9.015,\"low\":7.68,\"close\":7.75,\"volume\":497965842,\"tradingDays\":5},{\"weekStart\":\"2026-09-28\",\"date\":\"2026-10-02\",\"open\":8,\"high\":8.34,\"low\":7.55,\"close\":7.945,\"volume\":195903937,\"tradingDays\":4},{\"weekStart\":\"2026-10-05\",\"date\":\"2026-10-09\",\"open\":7.95,\"high\":8.32,\"low\":6.76,\"close\":6.985,\"volume\":273655081,\"tradingDays\":5}]",
+      "pass": true
+    },
+    {
+      "name": "daily MA20",
+      "actual": 7.65425,
+      "expected": 7.65425,
+      "pass": true
+    },
+    {
+      "name": "daily price vs MA20",
+      "actual": -8.743509,
+      "expected": -8.743508508345032,
+      "pass": true
+    },
+    {
+      "name": "daily MA20 five-period slope",
+      "actual": 0.986213,
+      "expected": 0.9862128108714563,
+      "pass": true
+    },
+    {
+      "name": "daily MA60",
+      "actual": 7.465333,
+      "expected": 7.465333333333331,
+      "pass": true
+    },
+    {
+      "name": "daily price vs MA60",
+      "actual": -6.434185,
+      "expected": -6.434184675834931,
+      "pass": true
+    },
+    {
+      "name": "daily MA60 five-period slope",
+      "actual": -0.29383,
+      "expected": -0.2938295788442624,
+      "pass": true
+    },
+    {
+      "name": "daily MA120",
+      "actual": 7.746333,
+      "expected": 7.746333333333335,
+      "pass": true
+    },
+    {
+      "name": "daily price vs MA120",
+      "actual": -9.828306,
+      "expected": -9.828305865140507,
+      "pass": true
+    },
+    {
+      "name": "daily MA120 five-period slope",
+      "actual": -1.301735,
+      "expected": -1.3017349387356436,
+      "pass": true
+    },
+    {
+      "name": "daily MA250",
+      "actual": 9.31888,
+      "expected": 9.31888,
+      "pass": true
+    },
+    {
+      "name": "daily price vs MA250",
+      "actual": -25.044641,
+      "expected": -25.044640557663577,
+      "pass": true
+    },
+    {
+      "name": "daily MA250 five-period slope",
+      "actual": -1.249576,
+      "expected": -1.249576127500862,
+      "pass": true
+    },
+    {
+      "name": "daily 5-period average volume",
+      "actual": 54731016.2,
+      "expected": 54731016.2,
+      "pass": true
+    },
+    {
+      "name": "daily 20-period average volume",
+      "actual": 64414956.5,
+      "expected": 64414956.5,
+      "pass": true
+    },
+    {
+      "name": "daily 60-period average volume",
+      "actual": 59742629.133,
+      "expected": 59742629.13333333,
+      "pass": true
+    },
+    {
+      "name": "daily last/prior20 volume ratio",
+      "actual": 1.479666,
+      "expected": 1.4796659338018445,
+      "pass": true
+    },
+    {
+      "name": "daily 20-period up volume",
+      "actual": 687098487,
+      "expected": 687098487,
+      "pass": true
+    },
+    {
+      "name": "daily 20-period down volume",
+      "actual": 601200643,
+      "expected": 601200643,
+      "pass": true
+    },
+    {
+      "name": "daily 20-period low",
+      "actual": 6.75,
+      "expected": 6.75,
+      "pass": true
+    },
+    {
+      "name": "daily 20-period high",
+      "actual": 9.015,
+      "expected": 9.015,
+      "pass": true
+    },
+    {
+      "name": "daily 60-period low",
+      "actual": 6.4,
+      "expected": 6.4,
+      "pass": true
+    },
+    {
+      "name": "daily 60-period high",
+      "actual": 9.015,
+      "expected": 9.015,
+      "pass": true
+    },
+    {
+      "name": "weekly MA20",
+      "actual": 7.44225,
+      "expected": 7.442249999999999,
+      "pass": true
+    },
+    {
+      "name": "weekly price vs MA20",
+      "actual": -6.143975,
+      "expected": -6.143975276294111,
+      "pass": true
+    },
+    {
+      "name": "weekly MA20 five-period slope",
+      "actual": -3.557197,
+      "expected": -3.5571970065118474,
+      "pass": true
+    },
+    {
+      "name": "weekly MA60",
+      "actual": 9.49225,
+      "expected": 9.492250000000002,
+      "pass": true
+    },
+    {
+      "name": "weekly price vs MA60",
+      "actual": -26.413653,
+      "expected": -26.41365324343544,
+      "pass": true
+    },
+    {
+      "name": "weekly MA60 five-period slope",
+      "actual": 0.540183,
+      "expected": 0.5401827088574063,
+      "pass": true
+    },
+    {
+      "name": "weekly MA120",
+      "actual": 8.024292,
+      "expected": 8.024291666666667,
+      "pass": true
+    },
+    {
+      "name": "weekly price vs MA120",
+      "actual": -12.951818,
+      "expected": -12.951818177097662,
+      "pass": true
+    },
+    {
+      "name": "weekly unavailable MA120 slope",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly unavailable MA250",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "weekly 5-period average volume",
+      "actual": 289052073.4,
+      "expected": 289052073.4,
+      "pass": true
+    },
+    {
+      "name": "weekly 20-period average volume",
+      "actual": 298471307.15,
+      "expected": 298471307.15,
+      "pass": true
+    },
+    {
+      "name": "weekly 60-period average volume",
+      "actual": 390782118.583,
+      "expected": 390782118.5833333,
+      "pass": true
+    },
+    {
+      "name": "weekly last/prior20 volume ratio",
+      "actual": 0.919343,
+      "expected": 0.9193431327763727,
+      "pass": true
+    },
+    {
+      "name": "weekly 20-period up volume",
+      "actual": 2606318487,
+      "expected": 2606318487,
+      "pass": true
+    },
+    {
+      "name": "weekly 20-period down volume",
+      "actual": 3363107656,
+      "expected": 3363107656,
+      "pass": true
+    },
+    {
+      "name": "weekly 20-period low",
+      "actual": 6.3,
+      "expected": 6.3,
+      "pass": true
+    },
+    {
+      "name": "weekly 20-period high",
+      "actual": 9.015,
+      "expected": 9.015,
+      "pass": true
+    },
+    {
+      "name": "weekly 60-period low",
+      "actual": 6.3,
+      "expected": 6.3,
+      "pass": true
+    },
+    {
+      "name": "weekly 60-period high",
+      "actual": 15.12,
+      "expected": 15.12,
+      "pass": true
+    },
+    {
+      "name": "252-day historical high",
+      "actual": 15.12,
+      "expected": 15.12,
+      "pass": true
+    },
+    {
+      "name": "52-week historical high",
+      "actual": 14.28,
+      "expected": 14.28,
+      "pass": true
+    },
+    {
+      "name": "v2 model preserves frozen daily technical",
+      "actual": "{\"basis\":\"以基准日名义价格归一的复权OHLC\",\"periodUnit\":\"days\",\"count\":573,\"MA\":{\"20\":7.65425,\"60\":7.465333,\"120\":7.746333,\"250\":9.31888},\"maSlope5Pct\":{\"20\":0.986213,\"60\":-0.29383,\"120\":-1.301735,\"250\":-1.249576},\"priceVsMAPct\":{\"20\":-8.743509,\"60\":-6.434185,\"120\":-9.828306,\"250\":-25.044641},\"returnPct\":{\"20\":-3.053435,\"60\":-12.248744,\"120\":-31.25,\"250\":-53.026227},\"yearWindow\":252,\"yearWindowExpected\":252,\"yearWindowComplete\":true,\"high52w\":15.12,\"low52w\":6.3,\"distanceFrom52wHighPct\":-53.80291,\"distanceFrom52wLowPct\":10.873016,\"maxDrawdown52wPct\":-56.691325,\"RSI14\":41.474692,\"ATR14\":0.500604,\"ATR14Pct\":7.166844,\"MACD\":{\"DIF\":-0.007067,\"DEA\":0.096376,\"histogram\":-0.206887,\"convention\":\"MACD柱=2×(DIF−DEA)\"},\"volumeMean\":{\"5\":54731016.2,\"20\":64414956.5,\"60\":59742629.133},\"volumeUnit\":\"shares_as_provider_reported\",\"volumeRatio20\":1.479666,\"previous20MeanVolume\":61237964.55,\"upDownVolume20\":{\"upVolume\":687098487,\"downVolume\":601200643,\"flatVolume\":0,\"upDays\":8,\"downDays\":12,\"ratio\":1.142877},\"ranges\":{\"20\":{\"support\":6.75,\"resistance\":9.015,\"toSupportPct\":-3.364352,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"},\"60\":{\"support\":6.4,\"resistance\":9.015,\"toSupportPct\":-8.375089,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"}},\"trend\":\"趋势交错/震荡\",\"maxLossBoundary\":false}",
+      "expected": "{\"basis\":\"以基准日名义价格归一的复权OHLC\",\"periodUnit\":\"days\",\"count\":573,\"MA\":{\"20\":7.65425,\"60\":7.465333,\"120\":7.746333,\"250\":9.31888},\"maSlope5Pct\":{\"20\":0.986213,\"60\":-0.29383,\"120\":-1.301735,\"250\":-1.249576},\"priceVsMAPct\":{\"20\":-8.743509,\"60\":-6.434185,\"120\":-9.828306,\"250\":-25.044641},\"returnPct\":{\"20\":-3.053435,\"60\":-12.248744,\"120\":-31.25,\"250\":-53.026227},\"yearWindow\":252,\"yearWindowExpected\":252,\"yearWindowComplete\":true,\"high52w\":15.12,\"low52w\":6.3,\"distanceFrom52wHighPct\":-53.80291,\"distanceFrom52wLowPct\":10.873016,\"maxDrawdown52wPct\":-56.691325,\"RSI14\":41.474692,\"ATR14\":0.500604,\"ATR14Pct\":7.166844,\"MACD\":{\"DIF\":-0.007067,\"DEA\":0.096376,\"histogram\":-0.206887,\"convention\":\"MACD柱=2×(DIF−DEA)\"},\"volumeMean\":{\"5\":54731016.2,\"20\":64414956.5,\"60\":59742629.133},\"volumeUnit\":\"shares_as_provider_reported\",\"volumeRatio20\":1.479666,\"previous20MeanVolume\":61237964.55,\"upDownVolume20\":{\"upVolume\":687098487,\"downVolume\":601200643,\"flatVolume\":0,\"upDays\":8,\"downDays\":12,\"ratio\":1.142877},\"ranges\":{\"20\":{\"support\":6.75,\"resistance\":9.015,\"toSupportPct\":-3.364352,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"},\"60\":{\"support\":6.4,\"resistance\":9.015,\"toSupportPct\":-8.375089,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"}},\"trend\":\"趋势交错/震荡\",\"maxLossBoundary\":false}",
+      "pass": true
+    },
+    {
+      "name": "v2 model preserves frozen weekly technical",
+      "actual": "{\"basis\":\"以基准日名义价格归一的复权OHLC\",\"periodUnit\":\"weeks\",\"count\":122,\"MA\":{\"20\":7.44225,\"60\":9.49225,\"120\":8.024292,\"250\":null},\"maSlope5Pct\":{\"20\":-3.557197,\"60\":0.540183,\"120\":null,\"250\":null},\"priceVsMAPct\":{\"20\":-6.143975,\"60\":-26.413653,\"120\":-12.951818,\"250\":null},\"returnPct\":{\"20\":-12.138365,\"60\":-24.486486,\"120\":30.560748,\"250\":null},\"yearWindow\":52,\"yearWindowExpected\":52,\"yearWindowComplete\":true,\"high52w\":14.28,\"low52w\":6.3,\"distanceFrom52wHighPct\":-51.085434,\"distanceFrom52wLowPct\":10.873016,\"maxDrawdown52wPct\":-50.964392,\"RSI14\":42.221328,\"ATR14\":1.040674,\"ATR14Pct\":14.898701,\"MACD\":{\"DIF\":-0.391575,\"DEA\":-0.488393,\"histogram\":0.193637,\"convention\":\"MACD柱=2×(DIF−DEA)\"},\"volumeMean\":{\"5\":289052073.4,\"20\":298471307.15,\"60\":390782118.583},\"volumeUnit\":\"shares_as_provider_reported\",\"volumeRatio20\":0.919343,\"previous20MeanVolume\":297663702.75,\"upDownVolume20\":{\"upVolume\":2606318487,\"downVolume\":3363107656,\"flatVolume\":0,\"upDays\":9,\"downDays\":11,\"ratio\":0.774973},\"ranges\":{\"20\":{\"support\":6.3,\"resistance\":9.015,\"toSupportPct\":-9.806729,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"},\"60\":{\"support\":6.3,\"resistance\":15.12,\"toSupportPct\":-9.806729,\"toResistancePct\":116.463851,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"}},\"trend\":\"趋势交错/震荡\",\"maxLossBoundary\":false}",
+      "expected": "{\"basis\":\"以基准日名义价格归一的复权OHLC\",\"periodUnit\":\"weeks\",\"count\":122,\"MA\":{\"20\":7.44225,\"60\":9.49225,\"120\":8.024292,\"250\":null},\"maSlope5Pct\":{\"20\":-3.557197,\"60\":0.540183,\"120\":null,\"250\":null},\"priceVsMAPct\":{\"20\":-6.143975,\"60\":-26.413653,\"120\":-12.951818,\"250\":null},\"returnPct\":{\"20\":-12.138365,\"60\":-24.486486,\"120\":30.560748,\"250\":null},\"yearWindow\":52,\"yearWindowExpected\":52,\"yearWindowComplete\":true,\"high52w\":14.28,\"low52w\":6.3,\"distanceFrom52wHighPct\":-51.085434,\"distanceFrom52wLowPct\":10.873016,\"maxDrawdown52wPct\":-50.964392,\"RSI14\":42.221328,\"ATR14\":1.040674,\"ATR14Pct\":14.898701,\"MACD\":{\"DIF\":-0.391575,\"DEA\":-0.488393,\"histogram\":0.193637,\"convention\":\"MACD柱=2×(DIF−DEA)\"},\"volumeMean\":{\"5\":289052073.4,\"20\":298471307.15,\"60\":390782118.583},\"volumeUnit\":\"shares_as_provider_reported\",\"volumeRatio20\":0.919343,\"previous20MeanVolume\":297663702.75,\"upDownVolume20\":{\"upVolume\":2606318487,\"downVolume\":3363107656,\"flatVolume\":0,\"upDays\":9,\"downDays\":11,\"ratio\":0.774973},\"ranges\":{\"20\":{\"support\":6.3,\"resistance\":9.015,\"toSupportPct\":-9.806729,\"toResistancePct\":29.062276,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"},\"60\":{\"support\":6.3,\"resistance\":15.12,\"toSupportPct\":-9.806729,\"toResistancePct\":116.463851,\"basis\":\"最近区间最低/最高价，属于观察位，未经触碰次数筛选\"}},\"trend\":\"趋势交错/震荡\",\"maxLossBoundary\":false}",
+      "pass": true
+    },
+    {
+      "name": "v2 model preserves relative strength",
+      "actual": "{\"market\":\"恒生指数\",\"marketSymbol\":\"^HSI\",\"marketReturn20Pct\":-2.977908,\"marketReturn60Pct\":-3.187903,\"excess20Pct\":-0.075527,\"excess60Pct\":-9.060841,\"industryBenchmark\":\"国证港股通创新药987018（粗粒度参考，非每公司专属行业）\",\"industryExcess20Pct\":-3.934173,\"industryExcess60Pct\":-9.025752,\"industryMissingReason\":null,\"industryBenchmarkId\":\"S021\",\"industryBenchmarkQuality\":\"官方单来源指数；价回报非含分红，量禁用\"}",
+      "expected": "{\"market\":\"恒生指数\",\"marketSymbol\":\"^HSI\",\"marketReturn20Pct\":-2.977908,\"marketReturn60Pct\":-3.187903,\"excess20Pct\":-0.075527,\"excess60Pct\":-9.060841,\"industryBenchmark\":\"国证港股通创新药987018（粗粒度参考，非每公司专属行业）\",\"industryExcess20Pct\":-3.934173,\"industryExcess60Pct\":-9.025752,\"industryMissingReason\":null,\"industryBenchmarkId\":\"S021\",\"industryBenchmarkQuality\":\"官方单来源指数；价回报非含分红，量禁用\"}",
+      "pass": true
+    }
+  ],
+  "windows": {
+    "daily252": {
+      "first": "2025-09-30",
+      "last": "2026-10-09",
+      "count": 252,
+      "high": 15.12,
+      "low": 6.3
+    },
+    "weekly52": {
+      "first": "2025-10-17",
+      "last": "2026-10-09",
+      "count": 52,
+      "high": 14.28,
+      "low": 6.3
+    },
+    "calendarYear": {
+      "first": "2025-10-10",
+      "last": "2026-10-09",
+      "count": 246,
+      "high": 14.28,
+      "low": 6.3
+    }
+  },
+  "observations": {
+    "recent": [
+      {
+        "date": "2026-10-05",
+        "open": 7.95,
+        "high": 7.95,
+        "low": 7.62,
+        "close": 7.84,
+        "volume": 18992365
+      },
+      {
+        "date": "2026-10-06",
+        "open": 8,
+        "high": 8.32,
+        "low": 7.955,
+        "close": 8.305,
+        "volume": 30563336
+      },
+      {
+        "date": "2026-10-07",
+        "open": 8.1,
+        "high": 8.1,
+        "low": 7.155,
+        "close": 7.3,
+        "volume": 50943786
+      },
+      {
+        "date": "2026-10-08",
+        "open": 7.58,
+        "high": 7.765,
+        "low": 7.07,
+        "close": 7.14,
+        "volume": 82543864
+      },
+      {
+        "date": "2026-10-09",
+        "open": 7.115,
+        "high": 7.145,
+        "low": 6.76,
+        "close": 6.985,
+        "volume": 90611730
+      }
+    ],
+    "threeDaysFromOct6ClosePct": -15.89403973509933,
+    "lastVolumeVsOct6": 2.964719885290009,
+    "lastVolumeVsPrevious20": 1.479666,
+    "dayATR": 0.500604,
+    "dayATRPct": 7.166844,
+    "turnoverAllEconomicSharesPct": 2.1090671686986453,
+    "marketExcess20Pct": -0.075527,
+    "marketExcess60Pct": -9.060841,
+    "industryExcess20Pct": -3.934173,
+    "industryExcess60Pct": -9.025752
+  },
+  "limits": [
+    "252 trading observations and 52 weekly observations have different calendar boundaries; neither is an exact common calendar-year high",
+    "All-share turnover is derived from economic total shares, not exchange free-float turnover",
+    "Recent reversal and volume increases do not identify holder motives, net institutional accumulation or future price direction",
+    "AI drug services and platform value have imperfect comparability to the innovation-drug benchmark",
+    "Both providers use shares; Yahoo float price representation may differ below rounding precision"
+  ],
+  "sourceURLs": [
+    "https://qt.gtimg.cn/q=hk01530,hk00013,hk01093,hk02157,hk02228,hk02607,hk03692,hk02186,hk01177,hk02359,hk00512,hk02096,hk02269,hk01548,hk01513,hk06160,hk02511,hk09939,hk09688,hk01952,hk09969,hk06185,hk02196,hk03347,hk06127",
+    "https://hq.sinajs.cn/list=rt_hk06855,rt_hk03759,rt_hk01530,rt_hk00013,rt_hk01093,rt_hk02157,rt_hk02228,rt_hk02607,rt_hk03692,rt_hk02186,rt_hk01177,rt_hk02359,rt_hk00512,rt_hk02096,rt_hk02269,rt_hk01548,rt_hk01513,rt_hk06160,rt_hk02511,rt_hk09939,rt_hk09688,rt_hk01952,rt_hk09969,rt_hk06185,rt_hk02196",
+    "https://query2.finance.yahoo.com/v8/finance/chart/2228.HK?range=3y&interval=1d&events=div%2Csplits",
+    "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/fqkline/get?param=hk02228,day,2023-10-09,2026-10-09,1000,qfq"
+  ]
+}

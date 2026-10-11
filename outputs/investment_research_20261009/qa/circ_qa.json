@@ -1,0 +1,21 @@
+{
+  "issuerId": "I053",
+  "name": "中国同辐",
+  "modelVersion": "circ-CASBE-whole-group-atomic-normal-PE-v1.0",
+  "effectiveHanzi": 16019,
+  "paragraphs": 99,
+  "exactDuplicateParagraphs": 0,
+  "nearDuplicateParagraphs": [],
+  "formulaChecks": true,
+  "passed": true,
+  "checks": "CASBE five-segment whole-group atomic profit/tax/NCI/all-shares; no mixed IFRS TTM; receivable aging/balance/cash; conditional fund and dividends; all scenarios/weights/returns/annualized; locked technical source; publication cutoff; independent 12-Hanzi shingle duplicate QA",
+  "errors": [],
+  "limitations": [
+    "未取得CAS同口径FY2025全损益，不拼伪同口径TTM；历史IFRS单独展示",
+    "核药分分子/适应症现金流与临床主要终点详细结果未完整取得，不伪精确rNPV；未来收入含经阶段折价的组合贡献",
+    "2026H1投产中心精确数未披露/核到，37为网络布局，29投产8在建是2025年末；无全37运营断言",
+    "基金出资请求与后续监管备案、股东审批截至日未发生，未来现金桥为条件假设；全资产管理三张表未完成",
+    "换手率与行业指数相对强弱缺，H股成交/总股数不是精确自由流通换手；不造逐笔筹码/主力吸筹",
+    "未来交易日仅明确排周末2027-10-09采用10/8，未核全部未来交易假期；外资公开可核目标缺失"
+  ]
+}

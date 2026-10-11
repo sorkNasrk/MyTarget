@@ -1,0 +1,142 @@
+{
+  "issuerId": "I080",
+  "asOf": "2026-10-09",
+  "researchFile": "research/kuaishou_deep.md",
+  "modelVersion": "kuaishou-core-kling-normalized-v1.0",
+  "effectiveHanCharacters": 14028,
+  "bodyParagraphs": 83,
+  "exactDuplicateParagraphs": 0,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    }
+  ],
+  "scoresRecomputed": {
+    "halfYear": 57.4,
+    "oneYear": 64.7,
+    "threeYear": 72.5,
+    "fiveYear": 73.6
+  },
+  "limitations": [
+    "最终跨公司近义重复与Word/PDF逐页QA由总报告统一实施",
+    "模型完整融资实收与股权缺口列明，非确认68.33%实际股权"
+  ]
+}

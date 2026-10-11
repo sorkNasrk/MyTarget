@@ -1,0 +1,29 @@
+{
+  "issuerId": "I004",
+  "name": "益方生物",
+  "modelVersion": "inventis-rnpv-v1.0",
+  "asOf": "2026-10-09",
+  "effectiveHanzi": 11582,
+  "threshold": 10000,
+  "paragraphs": 93,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "checks": "逐年销售/成功率/直接及预期版税税率/汇率/PV/目标日筛选，2合作CNY未来税后里程碑，内在零下限与认知路径，已发股数与未发行H股区分，定存不重复，净现金、应收、FCF、版税/总收入及回报/年化/评分权重",
+  "errors": [],
+  "passed": true,
+  "yearEnd": {
+    "prices": [
+      9.493000000000002,
+      13.6798167484683,
+      28.999961884880186
+    ],
+    "intrinsic": [
+      0,
+      7.030904995623711,
+      40.739923769760374
+    ],
+    "milestonePV": 0.05435294638074571,
+    "expected": 16.4631488454542,
+    "expectedReturn": -4.616750605711484
+  }
+}

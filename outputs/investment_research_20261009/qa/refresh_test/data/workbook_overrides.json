@@ -1,0 +1,260 @@
+{
+  "records": [
+    {
+      "code": "002821.SZ",
+      "horizon": "oneYear",
+      "sourceModelVersion": "asymchem-AH-pe-v1.0",
+      "kind": "assumption",
+      "field": "eps",
+      "caseIndex": 1,
+      "value": 6.5
+    },
+    {
+      "code": "03692.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "hansoh-v1",
+      "kind": "assumption",
+      "field": "excessNetCashCNYbn",
+      "caseIndex": 1,
+      "value": 27
+    },
+    {
+      "code": "02162.HK",
+      "horizon": "halfYear",
+      "sourceModelVersion": "keymed-v2-finite-assets-prorated-short-recognition",
+      "kind": "assumption",
+      "field": "marketRecognitionFactor",
+      "caseIndex": 1,
+      "value": 0.81
+    },
+    {
+      "code": "00700.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "tencent-pe-v1.0",
+      "kind": "assumption",
+      "field": "PE",
+      "caseIndex": 1,
+      "value": 19
+    },
+    {
+      "code": "00992.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "lenovo-normalized-operating-dilution-v1.0",
+      "kind": "bridge",
+      "field": "EBITMargin",
+      "caseIndex": 1,
+      "value": 0.06999999999999999
+    },
+    {
+      "code": "01810.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "xiaomi-normalized-two-segment-v1.0",
+      "kind": "bridge",
+      "field": "commerceEBITA",
+      "caseIndex": 1,
+      "value": 39
+    },
+    {
+      "code": "01211.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "byd-unit-owner-profit-v1.0",
+      "kind": "bridge",
+      "field": "domesticProfitPerVehicle",
+      "caseIndex": 1,
+      "value": 5600
+    },
+    {
+      "code": "09992.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "popmart-normalized-geography-v1.0",
+      "kind": "bridge",
+      "field": "overseasEBITMargin",
+      "caseIndex": 1,
+      "value": 0.33
+    },
+    {
+      "code": "688235.SH",
+      "horizon": "oneYear",
+      "sourceModelVersion": "beone-v1-operating-profit-AH-royalty-excluded",
+      "kind": "productBridge",
+      "field": "productRevenueUSDbn",
+      "caseIndex": 1,
+      "product": "brukinsa",
+      "value": 7.75
+    },
+    {
+      "code": "00268.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "kingdee-cloud-evsales-cash-reserve-v1.0",
+      "kind": "bridge",
+      "field": "newEVSales",
+      "caseIndex": 1,
+      "value": 5.2
+    },
+    {
+      "code": "03690.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "meituan-core-new-SOTP-v1.0",
+      "kind": "bridge",
+      "field": "newEVSales",
+      "caseIndex": 1,
+      "value": 1.45
+    },
+    {
+      "code": "09926.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "akeso-v2-year-end-cashflows",
+      "kind": "drug",
+      "field": "WACC",
+      "caseIndex": 1,
+      "component": false,
+      "value": 0.12
+    },
+    {
+      "code": "01530.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "3sbio-v1-core-plus-707-rnPV",
+      "kind": "milestone",
+      "field": "grossUSDbn",
+      "caseIndex": 1,
+      "index": 0,
+      "value": 1.2
+    },
+    {
+      "code": "01093.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "cspc-v1-core-cash-assetgroups",
+      "kind": "pipelineParameter",
+      "field": "successAssumption",
+      "caseIndex": 1,
+      "groupIndex": 0,
+      "value": 0.71
+    },
+    {
+      "code": "688382.SH",
+      "horizon": "oneYear",
+      "sourceModelVersion": "inventis-rnpv-v1.0",
+      "kind": "pipelineParameter",
+      "field": "netEconomicCashMarginAssumption",
+      "caseIndex": 1,
+      "groupIndex": 0,
+      "value": 0.0756
+    },
+    {
+      "code": "02162.HK",
+      "horizon": "threeYear",
+      "sourceModelVersion": "keymed-v2-finite-assets-prorated-short-recognition",
+      "kind": "pipelineCost",
+      "field": "directCostCNYbn",
+      "caseIndex": 1,
+      "groupIndex": 0,
+      "index": 0,
+      "value": 0.04
+    },
+    {
+      "code": "09888.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "baidu-mutually-exclusive-normalized-v1.0",
+      "kind": "bridge",
+      "field": "infraRevenue",
+      "caseIndex": 1,
+      "value": 49
+    },
+    {
+      "code": "01024.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "kuaishou-core-kling-normalized-v1.0",
+      "kind": "bridge",
+      "field": "klingOwnerShare",
+      "caseIndex": 1,
+      "value": 0.68
+    },
+    {
+      "code": "688062.SH",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "mabwell-rnpv-v1.1",
+      "kind": "pipelineMilestone",
+      "field": "grossAmount",
+      "caseIndex": 1,
+      "index": 0,
+      "value": 1.08
+    },
+    {
+      "code": "09995.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "remegen-v2-finite-assets-Vor-residual-return-aligned-score",
+      "kind": "recipientParameter",
+      "field": "futureNetCashUSDbn",
+      "caseIndex": 1,
+      "value": 1.46
+    },
+    {
+      "code": "09995.HK",
+      "horizon": "halfYear",
+      "sourceModelVersion": "remegen-v2-finite-assets-Vor-residual-return-aligned-score",
+      "kind": "recipientCost",
+      "field": "recipientResearchCNYbn",
+      "caseIndex": 1,
+      "index": 2,
+      "value": 0.901156
+    },
+    {
+      "code": "00700.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "tencent-pe-v1.0",
+      "kind": "score",
+      "field": "dimension",
+      "caseIndex": null,
+      "index": 0,
+      "value": 4.199999999999999
+    },
+    {
+      "code": "01548.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "genscript-v1-transparent-SOTP-preferred-residual",
+      "kind": "sotp",
+      "field": "lsgRevenue",
+      "caseIndex": 1,
+      "value": 2.0700000000000003
+    },
+    {
+      "code": "09618.HK",
+      "horizon": "oneYear",
+      "sourceModelVersion": "jd-three-segment-normalized-v1.0",
+      "kind": "bridge",
+      "field": "retailEBITMargin",
+      "caseIndex": 1,
+      "value": 0.060000000000000005
+    },
+    {
+      "code": "01548.HK",
+      "horizon": "threeYear",
+      "sourceModelVersion": "genscript-v1-transparent-SOTP-preferred-residual",
+      "kind": "sotpPipelineParameter",
+      "field": "success",
+      "caseIndex": 1,
+      "groupIndex": 0,
+      "value": 0.13
+    },
+    {
+      "code": "03759.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "pharmaron-v1-segment-normal-profit-cashroll-CBchoice",
+      "kind": "segmentGlobal",
+      "field": "convert",
+      "caseIndex": 1,
+      "integer": true,
+      "value": 0
+    },
+    {
+      "code": "03759.HK",
+      "horizon": "yearEnd",
+      "sourceModelVersion": "pharmaron-v1-segment-normal-profit-cashroll-CBchoice",
+      "kind": "segmentAnnual",
+      "field": "cdmoGM",
+      "caseIndex": 1,
+      "index": 1,
+      "value": 0.32
+    }
+  ]
+}

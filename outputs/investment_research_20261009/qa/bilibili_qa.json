@@ -1,0 +1,200 @@
+{
+  "issuerId": "I073",
+  "asOf": "2026-10-09",
+  "researchFile": "research/bilibili_deep.md",
+  "modelVersion": "bilibili-normalized-content-games-dilution-v1.0",
+  "effectiveHanCharacters": 14446,
+  "bodyParagraphs": 93,
+  "exactDuplicateParagraphs": 0,
+  "minimumCountPass": true,
+  "allScenarioChecksPassed": true,
+  "scenarioChecks": [
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "yearEnd",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "halfYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "oneYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "threeYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 0,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 1,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    },
+    {
+      "horizon": "fiveYear",
+      "scenarioIndex": 2,
+      "revenueMatch": true,
+      "epsMatch": true,
+      "priceMatch": true,
+      "returnMatch": true,
+      "totalReturnMatch": true
+    }
+  ],
+  "scoreChecks": [
+    {
+      "h": "halfYear",
+      "total": 64.1,
+      "recalculated": 64.1,
+      "pass": true
+    },
+    {
+      "h": "oneYear",
+      "total": 70.7,
+      "recalculated": 70.7,
+      "pass": true
+    },
+    {
+      "h": "threeYear",
+      "total": 75.2,
+      "recalculated": 75.19999999999999,
+      "pass": true
+    },
+    {
+      "h": "fiveYear",
+      "total": 73.7,
+      "recalculated": 73.69999999999999,
+      "pass": true
+    }
+  ],
+  "sourceChecks": [
+    "FY审计20-F、Q1/Q2及H1中报数据核对，千元→百万元",
+    "Q2/H1集团与归母/调整分开，EPS人民币元，不混港币",
+    "ADS1:1普通Z股，USD目标换港币研究假设单列",
+    "持续SBC、版权/服务器折旧保留，正常PE不加全部现金",
+    "ASC842经营租赁现金和利息已OCF，设备版权现金另扣",
+    "H1设备非现金新增736.995m不是本期再扣，未来付款另列",
+    "9/9仅5亿市场CB与delta回购完成；腾讯2亿部分待10/28EGM，新闻9/8状态主源校正",
+    "Y/Z月末420134746，预留4899364、待注销6795540及潜在债股各自标注",
+    "2030/31现金put2028/2029早于三年目标，股份路线与现金路线互斥",
+    "机构外资/中资国际分开，5条目标正文核，期限null"
+  ],
+  "wordCountExclusions": [
+    "标题",
+    "元数据",
+    "结论卡",
+    "表格",
+    "来源",
+    "共用宏观"
+  ],
+  "notes": [
+    "最终Word/PDF逐页视觉与跨章近义核验由根集成流程执行",
+    "高上行与极低悲观有利润和PE双重敏感性，非统计范围或现金清算底",
+    "完全重复检查0，编辑另行检查公司独立逻辑与常见重复"
+  ],
+  "status": "source-model-body-verified-pending-final-document-integration"
+}

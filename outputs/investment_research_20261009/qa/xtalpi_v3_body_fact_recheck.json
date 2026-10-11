@@ -1,0 +1,909 @@
+{
+  "issuerId": "I027",
+  "securityId": "S032",
+  "code": "02228.HK",
+  "informationCutoff": "2026-10-09",
+  "preparedAtUTC": "2026-10-11T07:34:38.351Z",
+  "scope": "Independent read-only recheck of the frozen v3 body, 43 evidence-to-body-to-model identity mappings, and seven demand input rows. This is a fact/assumption-boundary QA, not integrated Excel or Word/PDF acceptance.",
+  "status": "PASS_FROZEN_V3_FACT_MAPPING_AND_TRANSPARENT_ASSUMPTION_BOUNDARIES; FULL_DRUG_REGIONAL_ECONOMICS_REMAINS_INCOMPLETE",
+  "reviewedSnapshot": {
+    "bodyFile": "research/I027_deep.md",
+    "bodySHA256": "9d2deda32477155291bba4f61f9295b654614d2bd8d3c167bf13fb071c0c63ce",
+    "modelFile": "data/xtalpi_model.pending.json",
+    "modelSHA256": "568d9b080ee8f5bba0889d8b6c2eac10134bbce668d61f4cf498a37e97468b83",
+    "modelVersion": "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+    "perAssetEvidenceFile": "qa/xtalpi_per_asset_evidence.json",
+    "perAssetEvidenceSHA256": "4e2809b04b13de56f604398aa3e7c0c9e673ed38c66baf7567b5adac34e97db7",
+    "financialEvidenceSHA256": "b0a86c69ddc4fbd8d3cd7c94a1f2929b0ffb6c943be35c3669f82bdbe8d41716"
+  },
+  "method": {
+    "fullCurrentBodyReread": true,
+    "sourceReviewHistory": "Reuses independently checked primary-source facts and the identical 66-input financialEvidence hash; the v3 changes introduce researcher assumptions and do not change those source facts. No prior v2 signature is a v3 release.",
+    "latestOwnerCorrectionsIndependentlyConfirmed": [
+      "China plus potential overseas aggregate geography stated; no completed regional rNPV claimed",
+      "XTN004/ALX002/ALX005 shared-molecule failure correlation stated; no all-success independence multiplication",
+      "Clinical-cost pressure begins in 2027; original budget does not prove adequate funding; annual/CB-node minimum cash is not monthly runway"
+    ],
+    "mechanicalChecks": 20,
+    "mechanicalChecksPassed": 20,
+    "failedChecks": 0,
+    "tableSelection": "Six-column evidence table matched by ID; eight-column demand table matched by ID and column count. Peak arithmetic independently recomputed, tolerance 1e-12.",
+    "bodyRows": 43,
+    "activeResearchIndications": 7,
+    "zeroObservationRows": 36,
+    "sourceFactNullChecksOnObservations": 216,
+    "eightDemandTableColumnsCompared": 56,
+    "effectiveHanCount": 16053,
+    "narrativeParagraphs": 81,
+    "hanCountRule": "Body from first numbered section to source appendix; excludes headings, tables, bullet/source lines and opening; uses U+3400–U+4DBF/U+4E00–U+9FFF.",
+    "normalizedParagraphDuplicates": 0,
+    "normalizedLongSentenceDuplicates": 0,
+    "noModelsOrBodyEdited": true,
+    "noSharedPackageEdited": true,
+    "noRawPDFRedownload": true
+  },
+  "checks": [
+    {
+      "name": "43 evidence rows unique",
+      "pass": true
+    },
+    {
+      "name": "43 model rows unique",
+      "pass": true
+    },
+    {
+      "name": "7 active + 36 observation",
+      "pass": true
+    },
+    {
+      "name": "43 table/register/model fact identity",
+      "pass": true
+    },
+    {
+      "name": "36 observations six source-fact fields null",
+      "pass": true,
+      "details": {
+        "fields": [
+          "exactNetRoyaltyRate",
+          "currentDilutedEquityStake",
+          "exactNetAssetOwnership",
+          "successProbability",
+          "commercialLaunchYear",
+          "clinicalEndpointsVerified"
+        ],
+        "fieldChecks": 216
+      }
+    },
+    {
+      "name": "36 observations probability unknown and zero income gate",
+      "pass": true
+    },
+    {
+      "name": "7 active source-fact null does not forbid research assumptions",
+      "pass": true
+    },
+    {
+      "name": "7 active probabilities labelled research",
+      "pass": true
+    },
+    {
+      "name": "7 active no future milestone and no repeated clinical cost",
+      "pass": true
+    },
+    {
+      "name": "7 demand peak and eight table fields match",
+      "pass": true
+    },
+    {
+      "name": "base original 2026-2032 clinical budget retained",
+      "pass": true
+    },
+    {
+      "name": "ownership0/50/100 retains all clinical budget",
+      "pass": true
+    },
+    {
+      "name": "geography explicitly mixed research scope",
+      "pass": true
+    },
+    {
+      "name": "same-molecule XTN004 correlation stated",
+      "pass": true
+    },
+    {
+      "name": "same-molecule ALX002 ALX005 correlation stated",
+      "pass": true
+    },
+    {
+      "name": "2027+ clinical cost sensitivity disclosed",
+      "pass": true
+    },
+    {
+      "name": "stale milestone wording removed",
+      "pass": true
+    },
+    {
+      "name": "effective narrative >=10000 Han",
+      "pass": true,
+      "details": {
+        "effectiveHan": 16053,
+        "paragraphs": 81
+      }
+    },
+    {
+      "name": "no exact normalized paragraph repeats",
+      "pass": true
+    },
+    {
+      "name": "no long normalized sentence repeats",
+      "pass": true
+    }
+  ],
+  "evidenceIdentityMappings": [
+    {
+      "id": "XTN004_IBS",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "XTN004_IBD",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "ALX001_IBD",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "ALX002_SLE",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "ALX002_RA",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "ALX005_MG",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "ALX005_ITP",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "XS01_IgAN",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "XS01_PNH",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "DOVETREE_UNNAMED_ONCOLOGY",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "DOVETREE_UNALLOCATED_OTHER_TARGETS",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "GPCR_UNNAMED_METABOLIC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "PEP08_SOLID_TUMOUR",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "PEP08_BRAIN_POTENTIAL",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "RTX117_CMT",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "RTX117_VWM",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "RTX117_AD_POTENTIAL",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "SIGX1094_DGC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "SIGX1094_KRASG12C_NSCLC_COMBO",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "SIGX2649_MESO",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "SIGX2649_LIVER",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "SIGX2649_LUNG",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "META_MP5342_IBD",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_META1019_CD19_MALIGNANCY",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_META1019_AUTOIMMUNE",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_GPC3_LIVER",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_EGFRVIII_GLIOMA",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_CLDN182_GASTRIC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "LEMAN_META10TILS_SOLID",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "METIS_MTS004_PBA",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "METIS_MTS105_HCC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "AILUX_LILLY_UNNAMED_BISPEC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "VISEN_UNNAMED_ENDOCRINE",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "HEC_UNNAMED_JV_PIPELINES",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "OWNED_UNNAMED_MOLECULAR_GLUES",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "OWNED_UNNAMED_SIRNA_METABOLIC",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "OWNED_UNNAMED_SIRNA_CNS",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "PX002C_GLUCOSE_CONSUMER",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "PX003C_LIPID_CONSUMER",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    },
+    {
+      "id": "PX001C_COSMETICS",
+      "bodyPresent": true,
+      "drug": true,
+      "indication": true,
+      "stage": true,
+      "firstSource": true,
+      "registerFactMatch": true,
+      "modelIdentityMatch": true
+    }
+  ],
+  "demandArithmetic": [
+    {
+      "id": "XTN004_IBS",
+      "peak": [
+        0.036,
+        0.3,
+        1.568
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "XTN004_IBD",
+      "peak": [
+        0.0112,
+        0.1296,
+        0.576
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "ALX001_IBD",
+      "peak": [
+        0.2,
+        2.55,
+        10.56
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "ALX002_SLE",
+      "peak": [
+        0.11,
+        1.02,
+        5.1
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "ALX002_RA",
+      "peak": [
+        0.06,
+        0.572,
+        2.88
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "ALX005_MG",
+      "peak": [
+        0.125,
+        1.122,
+        4.6
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    },
+    {
+      "id": "ALX005_ITP",
+      "peak": [
+        0.078,
+        0.693,
+        3.584
+      ],
+      "peakArithmeticMatch": true,
+      "rowFieldMatch": true,
+      "modelAssumptionMatch": true
+    }
+  ],
+  "factGroups": [
+    {
+      "id": "businessAndFinancial",
+      "status": "pass_using_unchanged_source_evidence",
+      "bodyLines": [
+        59,
+        61,
+        67,
+        69,
+        75,
+        77,
+        79,
+        224,
+        226,
+        228,
+        234,
+        236,
+        238,
+        242,
+        244,
+        246
+      ],
+      "finding": "Management operating statistics remain qualified; anonymous Customer A not named by amount similarity. Report revenue vs recurring service, group vs attributable loss, fair-value vs cash, broad cash vs cash equivalents, and borrowings vs CB distinctions retained. Same independently checked 66-row financialEvidence hash."
+    },
+    {
+      "id": "contractsAndDrugMapping",
+      "status": "pass",
+      "bodyLines": [
+        83,
+        85,
+        91,
+        93,
+        95,
+        99,
+        101,
+        103,
+        109,
+        153,
+        155,
+        157,
+        159,
+        200,
+        202,
+        204,
+        206
+      ],
+      "finding": "DoveTree global exclusivity and historical receipts not future drug cash; conditional ceilings not certain receivables. GPCR unnamed receptor/partner retained; Stanford has no invented fee. 43 records are not 43 independent drugs. Planned IND/Phase I not promoted to completed trials, bilingual conflicts preserved, GRAS/IIT/orphan qualifications not approvals."
+    },
+    {
+      "id": "CBEquityAndBuybacks",
+      "status": "pass_using_unchanged_source_evidence",
+      "bodyLines": [
+        248,
+        250,
+        256,
+        258,
+        260,
+        262
+      ],
+      "finding": "HKD2.866bn CB, 2027-01-26 maturity, 101.76% redemption, HKD13.85 conversion and 206,931,407 potential shares retained. Six buybacks 6,721,000/HKD50,632,139. Ex-treasury4,301,176,179 minus pending4,882,000 once =4,296,294,179. No-consideration454,500 and personal purchases do not cost company cash. Pre-IPO shares already issued; 43 tranches217,649,943H1/217,188,943Sept, USD0.1866914 source precision versus0.19 research proxy, expiry2026–2036 retained."
+    },
+    {
+      "id": "valuationAndTechnicalNarrative",
+      "status": "pass_with_independent_arithmetic_scope_excluded",
+      "bodyLines": [
+        47,
+        153,
+        161,
+        175,
+        177,
+        179,
+        187,
+        197,
+        266,
+        272,
+        274,
+        276,
+        278,
+        280,
+        282,
+        288,
+        290,
+        294,
+        311,
+        313,
+        315,
+        317,
+        321,
+        323,
+        325,
+        329,
+        331
+      ],
+      "finding": "Seven researcher drug demand/probability/net-rate assumptions are not disclosed forecasts. Observation probability null vs numerical p=0 gate explicit. All clinical budget remains; zero individual clinical rows avoid duplicated cost. 0/50/100% ownership sensitivity retains expenses. No perpetual terminal claimed. Price recognition/scenario weights not probabilities. Technical history573daily/122weekly, volume shares, 252/52/natural246 window distinctions and flow-identity limits retained. Numerical cash/target/native checks are other reviewers' scope."
+    }
+  ],
+  "sevenIdentifiableIndications": [
+    {
+      "id": "XTN004_IBS",
+      "asset": "XTN004",
+      "target": "TRK/RET; gut-restricted",
+      "indication": "IBS-related intestinal pain",
+      "stage": "US pre-IND materials submitted; China/US IND planned2026H2, not approval or first patient dosing",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        23
+      ]
+    },
+    {
+      "id": "XTN004_IBD",
+      "asset": "XTN004",
+      "target": "TRK/RET; gut-restricted",
+      "indication": "IBD-related intestinal pain",
+      "stage": "Same pre-IND; no separately verified IBD patient trial",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        23
+      ]
+    },
+    {
+      "id": "ALX001_IBD",
+      "asset": "ALX001",
+      "target": "TL1A/IL23p19",
+      "indication": "IBD without unsupported UC/CD split",
+      "stage": "Phase I planned2027, not started",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        26
+      ]
+    },
+    {
+      "id": "ALX002_SLE",
+      "asset": "ALX002",
+      "target": "CD19/BCMA/CD3",
+      "indication": "SLE",
+      "stage": "Phase I planned2027; no disease-specific patient stage independently verified",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        26
+      ]
+    },
+    {
+      "id": "ALX002_RA",
+      "asset": "ALX002",
+      "target": "CD19/BCMA/CD3",
+      "indication": "RA",
+      "stage": "Phase I planned2027; no disease-specific patient stage independently verified",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        26
+      ]
+    },
+    {
+      "id": "ALX005_MG",
+      "asset": "ALX005",
+      "target": "FcRn/HSA",
+      "indication": "MG",
+      "stage": "Phase I planned2027, not started",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "ALX005_ITP",
+      "asset": "ALX005",
+      "target": "FcRn/HSA",
+      "indication": "ITP",
+      "stage": "Phase I planned2027, not started",
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090901145.pdf",
+      "PDFPages": [
+        21,
+        26,
+        27
+      ]
+    }
+  ],
+  "assumptionBoundaries": {
+    "geography": "Selected China plus potential overseas financially accessible patients aggregated in one research row; no country-by-country population or net-rights mapping. CNY pricing does not prove China-only demand or a validated worldwide peak.",
+    "patientsPricesShares": "Research assumptions; not issuer guidance, independently verified epidemiology, reimbursement price or commercial contract.",
+    "probabilities": "Preclinical researcher judgment with mechanism/indication-specific variation; not issuer probability, Phase I benchmark directly applied, or independent joint success.",
+    "ownership": "Self-developed/group proprietary and wholly-owned Ailux support100% as a researcher attribution assumption; not exact unencumbered net rights. Revenue sensitivity0/50/100 retains costs.",
+    "AiluxEvidence": {
+      "sourceURL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1105/2025110501768.pdf",
+      "PDFPages": [
+        1
+      ],
+      "publicationDate": "2025-11-05"
+    },
+    "LillyMapping": "Unnamed Lilly/Ailux platform agreement not allocated toALX001/002/005.",
+    "netRealizationGM": "Retained realization, production margin and incremental selling are separate research cash deductions; not disclosed pure sales royalty rates.",
+    "milestones": "Seven active and36 observation rows have no invented future drug milestone. Historical payments stay historical; investment recoveries do not duplicate full drug rNPV.",
+    "costs": "Original base2026–2032 CNYbn[0.111,0.154,0.210,0.252,0.272,0.257,0.214] retained unallocated. No success-probability reduction of cash spending. Seven per-drug clinical rows zero to avoid arbitrary allocation.2027+30/100% sensitivity disclosures independently read; sensitivity arithmetic is tech reviewer scope."
+  },
+  "BIOOriginalPDFReview": {
+    "status": "originalPDF_text_independently_read_in_prior_uncompacted_work; result reused",
+    "officialPage": "https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020",
+    "originalPDF": "https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf",
+    "publicationMonth": "2021-02",
+    "exactFirstPublicDate": null,
+    "afterClose": null,
+    "timeUnknown": true,
+    "printedPublication": "February2021 on PDFpage2",
+    "PDFPages": {
+      "keyTakeaways": 3,
+      "overallTable": 10,
+      "therapeuticAreas": 11
+    },
+    "verifiedOverallPhaseIToApproval": 0.079,
+    "overallSampleTransitions": 12728,
+    "areaPhaseIToApproval": {
+      "autoimmune": 0.107,
+      "gastroenterology": 0.083,
+      "respiratory": 0.075
+    },
+    "finding": "Overall7.9% is Phase I-to-approval historical LOA, not preclinical or company-specific true probability.",
+    "httpStatus": 200,
+    "PDFBytesRead": 4710196,
+    "rawPDFSaved": false,
+    "rawPDFSHA256": null,
+    "cutoffEligible": true,
+    "metadataQualifier": "PDFCreationDate2021-02-17 is file creation, not proof of exact first-public date."
+  },
+  "resolvedIssues": [
+    {
+      "id": "v2_stale_milestone_sentence",
+      "status": "resolved_in_frozen_v3",
+      "bodyLine": 200
+    },
+    {
+      "id": "geography_unspecified",
+      "status": "resolved_as_explicit_aggregate_research_scope; regional detail remains missing",
+      "bodyLine": 175
+    },
+    {
+      "id": "ALX002_ALX005_shared_failure_risk",
+      "status": "resolved",
+      "bodyLine": 177
+    }
+  ],
+  "limitations": [
+    "Pass applies only to these exact body/model/evidence hashes; any later change requires a new signature check.",
+    "Regional net rights, granular addressable populations, drug-specific legal holders, competitive clinical comparisons and cost allocation remain incomplete and are explicitly unknown or research assumptions. This is not full user-required regional drug-economics acceptance.",
+    "43 records include shared molecules, indications, potential directions, unnamed contracts and consumer products; they are not43 independent registered drug trials.",
+    "Prior source text review adopted clear written facts; not every pipeline graphic bar was re-rendered, and no exhaustive disease-specific clinical registry audit is claimed.",
+    "Other reviewers' native cash/target arithmetic and sensitivity results were reported by owner/tech; this reviewer did not rerun or certify their complete calculation suites.",
+    "No integrated Excel refresh, Word/PDF page rendering,27-file package,103-entry or92-company whole-project acceptance occurs in this QA."
+  ]
+}
+

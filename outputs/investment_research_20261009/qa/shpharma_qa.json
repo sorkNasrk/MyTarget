@@ -1,0 +1,31 @@
+{
+  "issuerId": "I028",
+  "name": "上海医药",
+  "modelVersion": "shpharma-H-normalized-pe-v1.0",
+  "asOf": "2026-10-09",
+  "effectiveHanzi": 14378,
+  "threshold": 10000,
+  "paragraphs": 107,
+  "exactDuplicateParagraphs": 0,
+  "formulaChecks": true,
+  "checks": "全股A/H分母、归母扣非少数、现金等价物/受限/定存、银行/票据/租赁净债、分部合并抵销、应收账龄、FCF两个capex定义、EPS×PE×FX、价格/股息总回报与年化、情景及评分权重、已除净股息资格、未交割处置不列到款、ALS主分析与事后区分、独立汉字和重复段落",
+  "errors": [],
+  "passed": true,
+  "limitations": [
+    "已核完整分部财表但管理调整28.28亿与扣非24.77亿完整差额桥缺，未擅自并同",
+    "BCD085等原完整临床统计及最新批准缺，不当已上市；ALS预设与事后明确区分",
+    "近90天有效外资公司目标缺，原研报/期限缺",
+    "行业独立相对指数与流通换手缺，不造",
+    "多产品逐项rNPV未完成，成熟PE模型基准不依赖ALS成功",
+    "氯维地平H镜像10/9但原署10/10，首次披露时分未核；保守排除截止日模型"
+  ],
+  "yearEnd": {
+    "prices": [
+      6.7925,
+      11.407,
+      15.400000000000002
+    ],
+    "expected": 11.251625,
+    "expectedReturn": 2.0092928377153374
+  }
+}

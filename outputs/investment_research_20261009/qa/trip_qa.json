@@ -1,0 +1,6 @@
+{
+ "issuerId":"I077","securityId":"S088","asOf":"2026-10-09","checkedAt":"2026-10-10","status":"独立深研和模型初版已核；最终文档渲染由根任务统一处理",
+ "deepFile":"research/trip_deep.md","modelFile":"data/trip_model.json","effectiveHanzi":11990,"minimum10000Passed":true,"exactDuplicateParagraphs":0,
+ "wordCountBasis":"第一至二十八节正文CJK汉字，剔除标题、结论卡、表格、长引文与来源","checks":{"codeAndIssuer":true,"asOfQuoteQQSina":true,"historicalYahooQQ":true,"volumeShares":true,"ADS1OrdinaryShare":true,"15ScenarioProfitPrice":true,"roundEPSThenDeductExactPenalty":true,"fourScoresWeights":true,"yearEndWeightExpected":true,"returnsAnnualized":true,"FYInvestmentGainsRemoved":true,"penaltyCashReserveSingleCapitalDeduction":true,"paymentUnknownNotClaimedPaid":true,"noNetCashDoubleAddition":true,"brokerSameInstitutionDedup":true},
+ "limitations":["2026H1现金流表缺失未造OCF/FCF","51.8亿元罚款为6-K精确数，电话会52.8亿元转录冲突已注明","付款时点未核，单次资本预留保守假设需后续现金桥复核","正常EBIT率、税、股数、PE和FX均为研究假设","换手分母和逐笔缺失未补造"]
+}
