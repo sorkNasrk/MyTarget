@@ -1,0 +1,758 @@
+{
+  "fingerprint": "63ca87a2011995a6",
+  "savedCandidate": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+  "candidateSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+  "viewsBefore": 559,
+  "viewsAfter": 574,
+  "affectedViews": 90,
+  "actualOriginalEvidenceViews": 85,
+  "pending": [],
+  "replaced": [
+    {
+      "view": 36,
+      "sheet": "风险净现值",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\20_风险净现值_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\风险净现值_orig_36.png"
+    },
+    {
+      "view": 37,
+      "sheet": "风险净现值",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\20_风险净现值_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\风险净现值_orig_37.png"
+    },
+    {
+      "view": 38,
+      "sheet": "风险净现值",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:AJ14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\20_风险净现值_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\风险净现值_1.png"
+    },
+    {
+      "view": 39,
+      "sheet": "风险净现值",
+      "beforeRange": "AK6:AO14",
+      "afterRange": "AK6:AO14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\20_风险净现值_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\风险净现值_2.png"
+    },
+    {
+      "view": 41,
+      "sheet": "管线现金流",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\22_管线现金流_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\管线现金流_1.png"
+    },
+    {
+      "view": 42,
+      "sheet": "管线现金流",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\22_管线现金流_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\管线现金流_2.png"
+    },
+    {
+      "view": 43,
+      "sheet": "管线现金流",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:AJ14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\22_管线现金流_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\管线现金流_3.png"
+    },
+    {
+      "view": 44,
+      "sheet": "管线现金流",
+      "beforeRange": "AK6:AV14",
+      "afterRange": "AK6:AV14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\22_管线现金流_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\管线现金流_4.png"
+    },
+    {
+      "view": 46,
+      "sheet": "许可受让方现金流",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\24_许可受让方现金流_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\许可受让方现金流_1.png"
+    },
+    {
+      "view": 47,
+      "sheet": "许可受让方现金流",
+      "beforeRange": "M6:R14",
+      "afterRange": "M6:R14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\24_许可受让方现金流_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\许可受让方现金流_2.png"
+    },
+    {
+      "view": 50,
+      "sheet": "假设",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\26_假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\假设_1.png"
+    },
+    {
+      "view": 51,
+      "sheet": "假设",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\26_假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\假设_2.png"
+    },
+    {
+      "view": 52,
+      "sheet": "假设",
+      "beforeRange": "Y6:Y14",
+      "afterRange": "Y6:Y14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\26_假设_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\假设_3.png"
+    },
+    {
+      "view": 53,
+      "sheet": "经营假设",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\27_经营假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\经营假设_1.png"
+    },
+    {
+      "view": 54,
+      "sheet": "经营假设",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\27_经营假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\经营假设_2.png"
+    },
+    {
+      "view": 55,
+      "sheet": "经营假设",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:AJ14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\27_经营假设_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\经营假设_3.png"
+    },
+    {
+      "view": 56,
+      "sheet": "经营假设",
+      "beforeRange": "AK6:AV14",
+      "afterRange": "AK6:AV14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\27_经营假设_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\经营假设_4.png"
+    },
+    {
+      "view": 57,
+      "sheet": "经营假设",
+      "beforeRange": "AW6:BH14",
+      "afterRange": "AW6:BH14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\27_经营假设_5.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\经营假设_5.png"
+    },
+    {
+      "view": 65,
+      "sheet": "情景快照",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\32_情景快照_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_1.png"
+    },
+    {
+      "view": 66,
+      "sheet": "情景快照",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:V14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\32_情景快照_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_2.png"
+    },
+    {
+      "view": 67,
+      "sheet": "情景快照",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:Z14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\32_情景快照_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_4.png"
+    },
+    {
+      "view": 68,
+      "sheet": "情景快照",
+      "beforeRange": "AK6:AP14",
+      "afterRange": "AK6:AL14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\32_情景快照_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_10.png"
+    },
+    {
+      "view": 70,
+      "sheet": "评分",
+      "beforeRange": "M6:W14",
+      "afterRange": "M6:Q14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\33_评分_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\评分_1.png"
+    },
+    {
+      "view": 71,
+      "sheet": "行情与技术",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\35_行情与技术_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\行情与技术_1.png"
+    },
+    {
+      "view": 72,
+      "sheet": "行情与技术",
+      "beforeRange": "M6:AA14",
+      "afterRange": "M6:AA14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\35_行情与技术_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\行情与技术_2.png"
+    },
+    {
+      "view": 73,
+      "sheet": "行情与技术",
+      "beforeRange": "AB6:AN14",
+      "afterRange": "AB6:AK14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\35_行情与技术_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\行情与技术_3.png"
+    },
+    {
+      "view": 74,
+      "sheet": "发行人",
+      "beforeRange": "A1:I14",
+      "afterRange": "A1:I14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\36_发行人_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\发行人_1.png"
+    },
+    {
+      "view": 75,
+      "sheet": "财务原值",
+      "beforeRange": "A1:H14",
+      "afterRange": "A1:H14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\37_财务原值_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_orig_75.png"
+    },
+    {
+      "view": 76,
+      "sheet": "财务原值",
+      "beforeRange": "K6:M14",
+      "afterRange": "K6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\37_财务原值_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_orig_76.png"
+    },
+    {
+      "view": 77,
+      "sheet": "机构目标",
+      "beforeRange": "A1:K15",
+      "afterRange": "A1:K15",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\38_机构目标_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\机构目标_1.png"
+    },
+    {
+      "view": 80,
+      "sheet": "条件估值参考",
+      "beforeRange": "A1:I15",
+      "afterRange": "A1:I15",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\41_条件估值参考_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\条件估值参考_1.png"
+    },
+    {
+      "view": 81,
+      "sheet": "条件估值参考",
+      "beforeRange": "J6:R15",
+      "afterRange": "J6:M15",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\41_条件估值参考_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\条件估值参考_2.png"
+    },
+    {
+      "view": 93,
+      "sheet": "先声新药假设",
+      "beforeRange": "A1:F14",
+      "afterRange": "A1:F14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\47_先声新药假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\先声新药假设_1.png"
+    },
+    {
+      "view": 94,
+      "sheet": "先声新药假设",
+      "beforeRange": "G6:M14",
+      "afterRange": "G6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\47_先声新药假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\先声新药假设_2.png"
+    },
+    {
+      "view": 109,
+      "sheet": "绿叶新品假设",
+      "beforeRange": "A1:F14",
+      "afterRange": "A1:F14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\54_绿叶新品假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\绿叶新品假设_1.png"
+    },
+    {
+      "view": 110,
+      "sheet": "绿叶新品假设",
+      "beforeRange": "G6:J14",
+      "afterRange": "G6:J14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\54_绿叶新品假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\绿叶新品假设_2.png"
+    },
+    {
+      "view": 156,
+      "sheet": "和黄估值桥",
+      "beforeRange": "A1:J11",
+      "afterRange": "A1:J11",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\79_和黄估值桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\和黄估值桥_1.png"
+    },
+    {
+      "view": 157,
+      "sheet": "和黄估值桥",
+      "beforeRange": "K6:R11",
+      "afterRange": "K6:R11",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\79_和黄估值桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\和黄估值桥_2.png"
+    },
+    {
+      "view": 167,
+      "sheet": "诺诚风险收入桥",
+      "beforeRange": "A1:G14",
+      "afterRange": "A1:G14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\84_诺诚风险收入桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\诺诚风险收入桥_1.png"
+    },
+    {
+      "view": 168,
+      "sheet": "诺诚风险收入桥",
+      "beforeRange": "H6:M14",
+      "afterRange": "H6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\84_诺诚风险收入桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\诺诚风险收入桥_2.png"
+    },
+    {
+      "view": 174,
+      "sheet": "诺诚估值桥",
+      "beforeRange": "A1:J11",
+      "afterRange": "A1:J11",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\87_诺诚估值桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\诺诚估值桥_1.png"
+    },
+    {
+      "view": 175,
+      "sheet": "诺诚估值桥",
+      "beforeRange": "K6:S11",
+      "afterRange": "K6:S11",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\87_诺诚估值桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\诺诚估值桥_2.png"
+    },
+    {
+      "view": 194,
+      "sheet": "云顶风险收入桥",
+      "beforeRange": "A1:G14",
+      "afterRange": "A1:G14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\96_云顶风险收入桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\云顶风险收入桥_1.png"
+    },
+    {
+      "view": 195,
+      "sheet": "云顶风险收入桥",
+      "beforeRange": "H6:M14",
+      "afterRange": "H6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\96_云顶风险收入桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\云顶风险收入桥_2.png"
+    },
+    {
+      "view": 211,
+      "sheet": "金山经营及权益假设",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\103_金山经营及权益假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\金山经营及权益假设_orig_211.png"
+    },
+    {
+      "view": 212,
+      "sheet": "金山经营及权益假设",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\103_金山经营及权益假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\金山经营及权益假设_orig_212.png"
+    },
+    {
+      "view": 213,
+      "sheet": "金山经营及权益假设",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:AJ14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\103_金山经营及权益假设_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\金山经营及权益假设_orig_213.png"
+    },
+    {
+      "view": 214,
+      "sheet": "金山经营及权益假设",
+      "beforeRange": "AK6:AR14",
+      "afterRange": "AK6:AR14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\103_金山经营及权益假设_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\金山经营及权益假设_orig_214.png"
+    },
+    {
+      "view": 220,
+      "sheet": "亚盛资金假设",
+      "beforeRange": "A1:J10",
+      "afterRange": "A1:J10",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\106_亚盛资金假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛资金假设_orig_220.png"
+    },
+    {
+      "view": 221,
+      "sheet": "亚盛资金假设",
+      "beforeRange": "K6:T10",
+      "afterRange": "K6:T10",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\106_亚盛资金假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛资金假设_orig_221.png"
+    },
+    {
+      "view": 222,
+      "sheet": "亚盛资金假设",
+      "beforeRange": "U6:AH10",
+      "afterRange": "U6:AH10",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\106_亚盛资金假设_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛资金假设_orig_222.png"
+    },
+    {
+      "view": 229,
+      "sheet": "亚盛风险收入桥",
+      "beforeRange": "A1:G14",
+      "afterRange": "A1:G14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\110_亚盛风险收入桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛风险收入桥_1.png"
+    },
+    {
+      "view": 230,
+      "sheet": "亚盛风险收入桥",
+      "beforeRange": "H6:M14",
+      "afterRange": "H6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\110_亚盛风险收入桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛风险收入桥_2.png"
+    },
+    {
+      "view": 231,
+      "sheet": "亚盛年度经营桥",
+      "beforeRange": "A1:J13",
+      "afterRange": "A1:J13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\111_亚盛年度经营桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_1.png"
+    },
+    {
+      "view": 232,
+      "sheet": "亚盛年度经营桥",
+      "beforeRange": "K6:T13",
+      "afterRange": "K6:T13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\111_亚盛年度经营桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_2.png"
+    },
+    {
+      "view": 233,
+      "sheet": "亚盛年度经营桥",
+      "beforeRange": "U6:AD13",
+      "afterRange": "U6:AD13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\111_亚盛年度经营桥_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_3.png"
+    },
+    {
+      "view": 234,
+      "sheet": "亚盛年度经营桥",
+      "beforeRange": "AE6:AS13",
+      "afterRange": "AE6:AS13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\111_亚盛年度经营桥_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_4.png"
+    },
+    {
+      "view": 238,
+      "sheet": "阅文经营现金假设",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\114_阅文经营现金假设_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\阅文经营现金假设_orig_238.png"
+    },
+    {
+      "view": 239,
+      "sheet": "阅文经营现金假设",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\114_阅文经营现金假设_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\阅文经营现金假设_orig_239.png"
+    },
+    {
+      "view": 240,
+      "sheet": "阅文经营现金假设",
+      "beforeRange": "Y6:AL14",
+      "afterRange": "Y6:AL14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\114_阅文经营现金假设_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\阅文经营现金假设_orig_240.png"
+    },
+    {
+      "view": 279,
+      "sheet": "映恩风险收入桥",
+      "beforeRange": "A1:G14",
+      "afterRange": "A1:G14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\133_映恩风险收入桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩风险收入桥_1.png"
+    },
+    {
+      "view": 280,
+      "sheet": "映恩风险收入桥",
+      "beforeRange": "H6:M14",
+      "afterRange": "H6:M14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\133_映恩风险收入桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩风险收入桥_2.png"
+    },
+    {
+      "view": 281,
+      "sheet": "映恩年度经营桥",
+      "beforeRange": "A1:J13",
+      "afterRange": "A1:J13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\134_映恩年度经营桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩年度经营桥_orig_281.png"
+    },
+    {
+      "view": 282,
+      "sheet": "映恩年度经营桥",
+      "beforeRange": "K6:T13",
+      "afterRange": "K6:T13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\134_映恩年度经营桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩年度经营桥_orig_282.png"
+    },
+    {
+      "view": 283,
+      "sheet": "映恩年度经营桥",
+      "beforeRange": "U6:AD13",
+      "afterRange": "U6:AD13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\134_映恩年度经营桥_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩年度经营桥_orig_283.png"
+    },
+    {
+      "view": 284,
+      "sheet": "映恩年度经营桥",
+      "beforeRange": "AE6:AS13",
+      "afterRange": "AE6:AS13",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\134_映恩年度经营桥_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\映恩年度经营桥_orig_284.png"
+    },
+    {
+      "view": 305,
+      "sheet": "再鼎年度经营桥",
+      "beforeRange": "A1:L14",
+      "afterRange": "A1:L14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\146_再鼎年度经营桥_1.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\再鼎年度经营桥_orig_305.png"
+    },
+    {
+      "view": 306,
+      "sheet": "再鼎年度经营桥",
+      "beforeRange": "M6:X14",
+      "afterRange": "M6:X14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\146_再鼎年度经营桥_2.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\再鼎年度经营桥_orig_306.png"
+    },
+    {
+      "view": 307,
+      "sheet": "再鼎年度经营桥",
+      "beforeRange": "Y6:AJ14",
+      "afterRange": "Y6:AJ14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\146_再鼎年度经营桥_3.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\再鼎年度经营桥_orig_307.png"
+    },
+    {
+      "view": 308,
+      "sheet": "再鼎年度经营桥",
+      "beforeRange": "AK6:AP14",
+      "afterRange": "AK6:AP14",
+      "beforeFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\workbook_render_63ca87a2011995a6\\146_再鼎年度经营桥_4.png",
+      "afterFile": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\再鼎年度经营桥_orig_308.png"
+    }
+  ],
+  "appended": [
+    {
+      "view": 560,
+      "sheet": "情景快照",
+      "range": "W6:X14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_3.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 561,
+      "sheet": "情景快照",
+      "range": "AA6:AB14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_5.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 562,
+      "sheet": "情景快照",
+      "range": "AC6:AD14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_6.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 563,
+      "sheet": "情景快照",
+      "range": "AE6:AF14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_7.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 564,
+      "sheet": "情景快照",
+      "range": "AG6:AH14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_8.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 565,
+      "sheet": "情景快照",
+      "range": "AI6:AJ14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_9.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 566,
+      "sheet": "情景快照",
+      "range": "AM6:AN14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_11.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 567,
+      "sheet": "情景快照",
+      "range": "AO6:AP14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\情景快照_12.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "view": 568,
+      "sheet": "行情与技术",
+      "range": "AL6:AN14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\行情与技术_4.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet35.xml",
+      "originalXmlSha256": "c6ad03f434bc8678fac05fc16e81a944ea2a8de8e92f5f2fa98496c44cf02e4b",
+      "currentXmlSha256": "7772fb544e1c6fecfa068a9c9b21940b911613a245f60267157c159cf77d0898",
+      "byteIdentical": false
+    },
+    {
+      "view": 569,
+      "sheet": "条件估值参考",
+      "range": "N6:R15",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\条件估值参考_3.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet41.xml",
+      "originalXmlSha256": "fbe6d63dcff973bc5fb2e92681a5428e192d9f8247ad53ab8053957fccf17ec4",
+      "currentXmlSha256": "08199fa3cecc0b312721fd82585515ff748412baada6a2e94a27f4194d886aa0",
+      "byteIdentical": false
+    },
+    {
+      "view": 570,
+      "sheet": "财务原值",
+      "range": "I6:J14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_note_head.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet37.xml",
+      "originalXmlSha256": "3da1cf3b81e4dc6222f7b7978db31408df25cdcafcd4e1ba3f32499503ffeb26",
+      "currentXmlSha256": "c4818c6352822cb48c719dcc38807af404716081ae02827565419fee348ec724",
+      "byteIdentical": false
+    },
+    {
+      "view": 571,
+      "sheet": "财务原值",
+      "range": "E115:J118",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_longest_note.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet37.xml",
+      "originalXmlSha256": "3da1cf3b81e4dc6222f7b7978db31408df25cdcafcd4e1ba3f32499503ffeb26",
+      "currentXmlSha256": "c4818c6352822cb48c719dcc38807af404716081ae02827565419fee348ec724",
+      "byteIdentical": false
+    },
+    {
+      "view": 572,
+      "sheet": "财务原值",
+      "range": "E433:J436",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_longest_period.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet37.xml",
+      "originalXmlSha256": "3da1cf3b81e4dc6222f7b7978db31408df25cdcafcd4e1ba3f32499503ffeb26",
+      "currentXmlSha256": "c4818c6352822cb48c719dcc38807af404716081ae02827565419fee348ec724",
+      "byteIdentical": false
+    },
+    {
+      "view": 573,
+      "sheet": "财务原值",
+      "range": "E4459:J4462",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\财务原值_longest_unit.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet37.xml",
+      "originalXmlSha256": "3da1cf3b81e4dc6222f7b7978db31408df25cdcafcd4e1ba3f32499503ffeb26",
+      "currentXmlSha256": "c4818c6352822cb48c719dcc38807af404716081ae02827565419fee348ec724",
+      "byteIdentical": false
+    },
+    {
+      "view": 574,
+      "sheet": "评分",
+      "range": "R6:W14",
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\评分_2.png",
+      "input": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+      "inputSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+      "part": "xl/worksheets/sheet33.xml",
+      "originalXmlSha256": "c18e67edb087c476bd02530e990d87bd521c699a7f793a4f1bd9cf01afacc4e6",
+      "currentXmlSha256": "c18e67edb087c476bd02530e990d87bd521c699a7f793a4f1bd9cf01afacc4e6",
+      "byteIdentical": true
+    }
+  ],
+  "passed": true,
+  "missingChangedSheetSavedRanges": [],
+  "allChangedSheetOriginalRangesRendered": true,
+  "appliedAt": "2026-10-11T10:09:49.077776+00:00"
+}

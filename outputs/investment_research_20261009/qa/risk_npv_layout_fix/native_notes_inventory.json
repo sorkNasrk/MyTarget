@@ -1,0 +1,839 @@
+[
+  {
+    "sheet": "总览",
+    "column": "A",
+    "header": "范围/进度",
+    "isNote": true,
+    "width": 25.0,
+    "lastRow": 26,
+    "minHeight": 15.0,
+    "maxTextLength": 28,
+    "samples": [
+      "以Excel模型、Word/PDF同源JSON同步更新。",
+      "悲观情景和技术支撑都不是最大损失边界；评分不是概率。",
+      "四期限全榜完成；5个条件研究证券暂不排名。"
+    ],
+    "nowrapCells": 15,
+    "textCells": 15
+  },
+  {
+    "sheet": "总览",
+    "column": "D",
+    "header": "说明",
+    "isNote": true,
+    "width": 68.0,
+    "lastRow": 26,
+    "minHeight": 15.0,
+    "maxTextLength": 45,
+    "samples": [
+      "保存Excel后运行refresh_workbook.mjs；输入持久保存并依次刷新三情景",
+      "93项基准日价格锚；3停牌参考价；96项历史数据",
+      "91个正式估值证券；5个暂不排名条件参考另表"
+    ],
+    "nowrapCells": 8,
+    "textCells": 8
+  },
+  {
+    "sheet": "活动估值",
+    "column": "E",
+    "header": "EPS方法",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 461,
+    "minHeight": 23.0,
+    "maxTextLength": 22,
+    "samples": [
+      "MiniMax ARR确认完整费用+融资债券",
+      "智谱云ARR确认全成本+美元结算人民币债",
+      "商汤正常AI EV收入/净金融资产稀释桥"
+    ],
+    "nowrapCells": 455,
+    "textCells": 455
+  },
+  {
+    "sheet": "经营桥",
+    "column": "O",
+    "header": "股本及资本支出限制",
+    "isNote": true,
+    "width": 85.0,
+    "lastRow": 41,
+    "minHeight": 23.0,
+    "maxTextLength": 51,
+    "samples": [
+      "C手机AIoT正常EBIT；D汽车AI正常EBIT；已含研发和股权成本；其他贡献不含非经常公允价值收益",
+      "EBITA已含折旧，剔SBC；非FCF。净现金不额外加值",
+      "收入×含折旧经营利润率；单次罚款资本储备，不逐年扣利润"
+    ],
+    "nowrapCells": 35,
+    "textCells": 35
+  },
+  {
+    "sheet": "管线假设",
+    "column": "C",
+    "header": "资产组",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 1546,
+    "minHeight": 23.0,
+    "maxTextLength": 22,
+    "samples": [
+      "KN026_HB_INCREMENT_DOM",
+      "hp515_obesity_global",
+      "RC18_approved_China"
+    ],
+    "nowrapCells": 1540,
+    "textCells": 1540
+  },
+  {
+    "sheet": "管线现金流",
+    "column": "C",
+    "header": "资产组",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 7236,
+    "minHeight": 23.0,
+    "maxTextLength": 22,
+    "samples": [
+      "KN026_HB_INCREMENT_DOM",
+      "hp515_obesity_global",
+      "RC18_approved_China"
+    ],
+    "nowrapCells": 7230,
+    "textCells": 7230
+  },
+  {
+    "sheet": "情景快照",
+    "column": "R",
+    "header": "模型版本",
+    "isNote": false,
+    "width": 25.0,
+    "lastRow": 1371,
+    "minHeight": 23.0,
+    "maxTextLength": 72,
+    "samples": [
+      "xtalpi-v3-sevenIndicationDemand-NetRightsSensitivity-UnallocatedClinical",
+      "zhongan-HKFRS17-underwriting-investment-fullcost-annual-book-PB-v1.0",
+      "sensetime-ai-normal-core-evsales-liquid-portfolio-lp-financing-v1.0"
+    ],
+    "nowrapCells": 1365,
+    "textCells": 1365
+  },
+  {
+    "sheet": "行情与技术",
+    "column": "AM",
+    "header": "质量限制",
+    "isNote": true,
+    "width": 80.0,
+    "lastRow": 109,
+    "minHeight": 120.0,
+    "maxTextLength": 189,
+    "samples": [
+      "自2026-09-01停牌；行情自动刷新时间不代表当日可交易收盘。当前价仅为2026-08-31参考价。；11根Yahoo OHLC逻辑不一致，按腾讯同日完整bar修复，原字段及修复记录在历史文件；历史最后交易日2026-08-31，不具备10月9日完整交易日锚；成交量单位未完成跨源核验，报价股数留空；成交量单位未完成交叉核验，量图及量能指标不作为分析输入；原锁版字段仅留审计",
+      "自2026-09-01停牌；行情自动刷新时间不代表当日可交易收盘。当前价仅为2026-08-31参考价。；3根Yahoo OHLC逻辑不一致，按腾讯同日完整bar修复，原字段及修复记录在历史文件；历史最后交易日2026-08-31，不具备10月9日完整交易日锚；成交量单位未完成跨源核验，报价股数留空；成交量单位未完成交叉核验，量图及量能指标不作为分析输入；原锁版字段仅留审计",
+      "自2026-09-01停牌；行情自动刷新时间不代表当日可交易收盘。当前价仅为2026-08-31参考价。；历史最后交易日2026-08-31，不具备10月9日完整交易日锚；成交量单位未完成跨源核验，报价股数留空；成交量单位未完成交叉核验，量图及量能指标不作为分析输入；原锁版字段仅留审计"
+    ],
+    "nowrapCells": 0,
+    "textCells": 50
+  },
+  {
+    "sheet": "财务原值",
+    "column": "F",
+    "header": "单位",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 5037,
+    "minHeight": 23.0,
+    "maxTextLength": 50,
+    "samples": [
+      "mixed; see fieldMetadata and original field suffix",
+      "CNY per ordinary share or ADS as explicitly named",
+      "mixed; original field suffix retains scale"
+    ],
+    "nowrapCells": 5031,
+    "textCells": 5031
+  },
+  {
+    "sheet": "财务原值",
+    "column": "G",
+    "header": "期间",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 5037,
+    "minHeight": 23.0,
+    "maxTextLength": 110,
+    "samples": [
+      "FY2025 ended 2025-12-31, original annual continuing excludes AEi but before later NEXX comparative restatement",
+      "2025 full year original audited, subsequent interim historical restated separately",
+      "2026-01-08 terms; issued 2026-01-28, maturity 2027-01-26"
+    ],
+    "nowrapCells": 5031,
+    "textCells": 5031
+  },
+  {
+    "sheet": "财务原值",
+    "column": "J",
+    "header": "口径备注",
+    "isNote": true,
+    "width": 110.0,
+    "lastRow": 5037,
+    "minHeight": 23.0,
+    "maxTextLength": 283,
+    "samples": [
+      "原一般IR页四字段与已保存2025年报原文完全一致，改为直接引用年报。原始收入803,964,958,000元及归母净利32,619,022,000元均除1000000转人民币百万；基本EPS3.58元/股，期末股数9,117,197,565股，分别保留原单位。原文data/tech_raw/byd_2025annual.txt:376、377、382、390、3426；旧IR source保留originalSourceURL。；与data/byd_model.json anchor已记录日期及全部四字段逐项匹配；年报主席签署2026-03-27不作公开日期",
+      "现金为3/31，9/2已支付普通及特别息，不伪造10/9完整现金；归母EPS原文人民币分转元，调整利润集团口径非归母EPS；reported input；数值期间 FY2025；来源报告期间 FY2026 ended 2026-03-31；原period元数据 FY2026 ended 2026-03-31；公开日期原文 FY业绩2026-05-14 17:41；年报2026-07-06 17:04，均收盘后",
+      "现金为3/31，9/2已支付普通及特别息，不伪造10/9完整现金；归母EPS原文人民币分转元，调整利润集团口径非归母EPS；reported input；数值期间 FY2024；来源报告期间 FY2026 ended 2026-03-31；原period元数据 FY2026 ended 2026-03-31；公开日期原文 FY业绩2026-05-14 17:41；年报2026-07-06 17:04，均收盘后"
+    ],
+    "nowrapCells": 4003,
+    "textCells": 4003
+  },
+  {
+    "sheet": "机构目标",
+    "column": "N",
+    "header": "证券映射限制",
+    "isNote": true,
+    "width": 75.0,
+    "lastRow": 213,
+    "minHeight": 23.0,
+    "maxTextLength": 34,
+    "samples": [
+      "ADR原目标；1ADS=13普通股，换算值为研究假设，非机构港股目标",
+      "正文明确A股目标，映射上海证券"
+    ],
+    "nowrapCells": 6,
+    "textCells": 6
+  },
+  {
+    "sheet": "验收",
+    "column": "C",
+    "header": "要求/说明",
+    "isNote": true,
+    "width": 85.0,
+    "lastRow": 16,
+    "minHeight": 23.0,
+    "maxTextLength": 23,
+    "samples": [
+      "正式目标价及评分复算；条件模型独立核验且不排名",
+      "输入改变后待刷新，旧结果不可作新预测",
+      "仅Word及同源PDF实际渲染后通过"
+    ],
+    "nowrapCells": 10,
+    "textCells": 10
+  },
+  {
+    "sheet": "说明",
+    "column": "B",
+    "header": "说明",
+    "isNote": true,
+    "width": 125.0,
+    "lastRow": 24,
+    "minHeight": 15.0,
+    "maxTextLength": 109,
+    "samples": [
+      "在Excel保存后运行 tools/refresh_workbook.mjs（可传已编辑文件路径）。输入逐项读取到独立覆写JSON并备份，随后同一活动模型依次重算三情景与排名；原始披露不改写。模型版本改变须审核旧覆写。",
+      "仅蓝字且登记在workbook_input_manifest.json中的数值支持持久刷新；目标日期、年度、成功阶段、纳入标记、评分权重和披露来源需修改源模型后重建，不能只改可见标签。",
+      "管线现金流中的金额、成功、税后比例及归属率支持分情景刷新；现金日期及折现间隔来自源模型。Vor版税和里程碑与许可资产关联，受让方自身现金及股数另列，六月账面权证不重复加值。"
+    ],
+    "nowrapCells": 0,
+    "textCells": 16
+  },
+  {
+    "sheet": "条件估值参考",
+    "column": "R",
+    "header": "状态与限制",
+    "isNote": true,
+    "width": 70.0,
+    "lastRow": 31,
+    "minHeight": 48.0,
+    "maxTextLength": 55,
+    "samples": [
+      "未融资完整计划现金压力参考；未来资金缺口触发的0不是近期公允价、清算价或正式目标；无正式判断权重、期望价或回报",
+      "源模型条件快照；无判断权重或期望价；须重新核验融资/复牌条件"
+    ],
+    "nowrapCells": 0,
+    "textCells": 25
+  },
+  {
+    "sheet": "先声新药假设",
+    "column": "M",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 70.0,
+    "lastRow": 54,
+    "minHeight": 23.0,
+    "maxTextLength": 145,
+    "samples": [
+      "AbbVie option/foreign royalties; China royalties owed to AbbVie reflected in assumed future product margins; unknown option price not capitalized",
+      "mainland/HK/Macau promotion only, revenue is Simcere recognized service economics, not partner total drug sales",
+      "China direct licensed commercialization economics approximated by margin, not global drug rights"
+    ],
+    "nowrapCells": 0,
+    "textCells": 48
+  },
+  {
+    "sheet": "绿叶新品假设",
+    "column": "J",
+    "header": "经济权利范围",
+    "isNote": true,
+    "width": 60.0,
+    "lastRow": 30,
+    "minHeight": 48.0,
+    "maxTextLength": 85,
+    "samples": [
+      "incremental China direct sales only; no historical cross trial superiority assumption",
+      "Simulated recognized supply/royalty economics not all US referenceproduct sales",
+      "China incremental; early mechanisticclaims not human comparative efficacy"
+    ],
+    "nowrapCells": 0,
+    "textCells": 24
+  },
+  {
+    "sheet": "和黄新品假设",
+    "column": "I",
+    "header": "经济权利范围",
+    "isNote": true,
+    "width": 60.0,
+    "lastRow": 54,
+    "minHeight": 78.0,
+    "maxTextLength": 102,
+    "samples": [
+      "China FGFR2fusion/rearranged iCCAapprovedAug28; market uptake uncertainty capturedpeaknot clinicalrisk",
+      "recognized licensed foreign royalty/supply economics not all TAGRISSO/ORPATHYS market sales",
+      "recognized foreign royaltynot full worldwide sales; tier rates unknown researchinputs"
+    ],
+    "nowrapCells": 0,
+    "textCells": 48
+  },
+  {
+    "sheet": "和黄估值桥",
+    "column": "R",
+    "header": "无终值说明",
+    "isNote": true,
+    "width": 46.0,
+    "lastRow": 11,
+    "minHeight": 23.0,
+    "maxTextLength": 18,
+    "samples": [
+      "2026–2041有限现金流，无终值"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "诺诚新品假设",
+    "column": "I",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 58.0,
+    "lastRow": 66,
+    "minHeight": 78.0,
+    "maxTextLength": 93,
+    "samples": [
+      "parent share royaltyresearchassumption, coownedasset; no totalworldsales or retainedAsiaadded",
+      "aggregateparentrecognizedroyalty only; unknowntarget/stage notinvented; single digitcontract",
+      "recognizedCNYroyalty notglobalendmarketsales; allglobalMSlicensed includingChina"
+    ],
+    "nowrapCells": 0,
+    "textCells": 60
+  },
+  {
+    "sheet": "诺诚风险收入桥",
+    "column": "B",
+    "header": "资产",
+    "isNote": false,
+    "width": 25.0,
+    "lastRow": 246,
+    "minHeight": 48.0,
+    "maxTextLength": 33,
+    "samples": [
+      "Fadeucravacitinib_psoriasis_China",
+      "Fadeucravacitinib_CLE_China",
+      "Soficitinib_vitiligo_China"
+    ],
+    "nowrapCells": 240,
+    "textCells": 240
+  },
+  {
+    "sheet": "诺诚风险收入桥",
+    "column": "M",
+    "header": "权利提示",
+    "isNote": true,
+    "width": 46.0,
+    "lastRow": 246,
+    "minHeight": 48.0,
+    "maxTextLength": 93,
+    "samples": [
+      "parent share royaltyresearchassumption, coownedasset; no totalworldsales or retainedAsiaadded",
+      "aggregateparentrecognizedroyalty only; unknowntarget/stage notinvented; single digitcontract",
+      "recognizedCNYroyalty notglobalendmarketsales; allglobalMSlicensed includingChina"
+    ],
+    "nowrapCells": 0,
+    "textCells": 240
+  },
+  {
+    "sheet": "诺诚估值桥",
+    "column": "S",
+    "header": "有限值说明",
+    "isNote": true,
+    "width": 36.0,
+    "lastRow": 11,
+    "minHeight": 30.0,
+    "maxTextLength": 18,
+    "samples": [
+      "2026–2041有限FCFF无终值"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "云顶新品假设",
+    "column": "I",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 58.0,
+    "lastRow": 74,
+    "minHeight": 80.0,
+    "maxTextLength": 71,
+    "samples": [
+      "recognizednetCNYroyaltyafterassumedupstreamburde\nn, notgrossglobalsales",
+      "licensedAPAC excludesmainlandChina, notallstroke\nandPADpopulation",
+      "GreaterChina; mainlandNDA filed2025September, no\napprovalasof"
+    ],
+    "nowrapCells": 0,
+    "textCells": 68
+  },
+  {
+    "sheet": "云顶风险收入桥",
+    "column": "M",
+    "header": "范围",
+    "isNote": true,
+    "width": 46.0,
+    "lastRow": 278,
+    "minHeight": 48.0,
+    "maxTextLength": 70,
+    "samples": [
+      "recognizednetCNYroyaltyafterassumedupstreamburden, notgrossglobalsales",
+      "licensedAPAC excludesmainlandChina, notallstrokeandPADpopulation",
+      "onlylicensedAPAC inclHKMacauTaiwan, excludesmainlandChinaPMN"
+    ],
+    "nowrapCells": 0,
+    "textCells": 272
+  },
+  {
+    "sheet": "云顶估值桥",
+    "column": "T",
+    "header": "说明",
+    "isNote": true,
+    "width": 40.0,
+    "lastRow": 11,
+    "minHeight": 40.0,
+    "maxTextLength": 22,
+    "samples": [
+      "有限FCFF，EPS非IFRS且许可现金另扣"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "亚盛新品假设",
+    "column": "I",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 74,
+    "minHeight": 82.0,
+    "maxTextLength": 106,
+    "samples": [
+      "recognized own net sales after payer deductions; all CLL lines combined no separate naive/relapse addition",
+      "exChinaHKMacauTaiwanRussia net economic revenue; conditional royalty not gross world sales",
+      "increment beyond current relapse core; front/addon combined avoids doublecount"
+    ],
+    "nowrapCells": 0,
+    "textCells": 68
+  },
+  {
+    "sheet": "亚盛风险收入桥",
+    "column": "M",
+    "header": "范围",
+    "isNote": true,
+    "width": 64.0,
+    "lastRow": 278,
+    "minHeight": 48.0,
+    "maxTextLength": 106,
+    "samples": [
+      "recognized own net sales after payer deductions; all CLL lines combined no separate naive/relapse addition",
+      "exChinaHKMacauTaiwanRussia net economic revenue; conditional royalty not gross world sales",
+      "increment beyond current relapse core; front/addon combined avoids doublecount"
+    ],
+    "nowrapCells": 0,
+    "textCells": 272
+  },
+  {
+    "sheet": "亚盛年度经营桥",
+    "column": "AS",
+    "header": "备注",
+    "isNote": true,
+    "width": 42.0,
+    "lastRow": 22,
+    "minHeight": 30.0,
+    "maxTextLength": 17,
+    "samples": [
+      "发行无已到账证明，后续授权依赖市场"
+    ],
+    "nowrapCells": 0,
+    "textCells": 16
+  },
+  {
+    "sheet": "亚盛估值桥",
+    "column": "W",
+    "header": "说明",
+    "isNote": true,
+    "width": 45.0,
+    "lastRow": 11,
+    "minHeight": 42.0,
+    "maxTextLength": 23,
+    "samples": [
+      "各次股东现金分配按该时点股份；目标现金不另相加"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "映恩新品假设",
+    "column": "I",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 86,
+    "minHeight": 82.0,
+    "maxTextLength": 126,
+    "samples": [
+      "netcompany economics research assumption; USprofitmargin65% xscenarioUSShare25/35/45% xnetdeductions; no USroyalty doublecount",
+      "self-sale net before ownRD; margin includes ThreeSBio selling and manufacturing budget, not free gross sales",
+      "wholeplatform combined excludesvaluedexistingproducts; milestonesbudget independent selected triggers"
+    ],
+    "nowrapCells": 0,
+    "textCells": 80
+  },
+  {
+    "sheet": "映恩风险收入桥",
+    "column": "B",
+    "header": "资产",
+    "isNote": false,
+    "width": 28.0,
+    "lastRow": 326,
+    "minHeight": 48.0,
+    "maxTextLength": 23,
+    "samples": [
+      "1303_China_HER2positive",
+      "1311_China_other",
+      "1303_China_lowEC"
+    ],
+    "nowrapCells": 320,
+    "textCells": 320
+  },
+  {
+    "sheet": "映恩风险收入桥",
+    "column": "M",
+    "header": "范围",
+    "isNote": true,
+    "width": 70.0,
+    "lastRow": 326,
+    "minHeight": 48.0,
+    "maxTextLength": 126,
+    "samples": [
+      "netcompany economics research assumption; USprofitmargin65% xscenarioUSShare25/35/45% xnetdeductions; no USroyalty doublecount",
+      "self-sale net before ownRD; margin includes ThreeSBio selling and manufacturing budget, not free gross sales",
+      "wholeplatform combined excludesvaluedexistingproducts; milestonesbudget independent selected triggers"
+    ],
+    "nowrapCells": 0,
+    "textCells": 320
+  },
+  {
+    "sheet": "映恩年度经营桥",
+    "column": "AS",
+    "header": "备注",
+    "isNote": true,
+    "width": 16.0,
+    "lastRow": 22,
+    "minHeight": 23.0,
+    "maxTextLength": 17,
+    "samples": [
+      "发行无已到账证明，后续授权依赖市场"
+    ],
+    "nowrapCells": 16,
+    "textCells": 16
+  },
+  {
+    "sheet": "映恩估值桥",
+    "column": "W",
+    "header": "说明",
+    "isNote": true,
+    "width": 45.0,
+    "lastRow": 11,
+    "minHeight": 42.0,
+    "maxTextLength": 23,
+    "samples": [
+      "各次股东现金分配按该时点股份；目标现金不另相加"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "再鼎新品假设",
+    "column": "I",
+    "header": "净权范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 62,
+    "minHeight": 80.0,
+    "maxTextLength": 102,
+    "samples": [
+      "approved2026 no approvalp; regionalnetproducts includes partnerpurchase/royalty and postapproval amort",
+      "netproductnotwholeSCLCspend; subtractMediLinkroyalty;globalcommercial costriskSelling",
+      "incrementoutsidebase2L; includeslostlaterlines/cannibalization cap;onlyzoci bill"
+    ],
+    "nowrapCells": 0,
+    "textCells": 56
+  },
+  {
+    "sheet": "再鼎年度经营桥",
+    "column": "AP",
+    "header": "说明",
+    "isNote": true,
+    "width": 16.0,
+    "lastRow": 22,
+    "minHeight": 23.0,
+    "maxTextLength": 21,
+    "samples": [
+      "净融资非授权到账；受限释放条件及股数均明确"
+    ],
+    "nowrapCells": 16,
+    "textCells": 16
+  },
+  {
+    "sheet": "再鼎估值桥",
+    "column": "U",
+    "header": "说明",
+    "isNote": true,
+    "width": 45.0,
+    "lastRow": 11,
+    "minHeight": 42.0,
+    "maxTextLength": 22,
+    "samples": [
+      "目标现金仅展示；各次股东分配按该年度全部股份"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "海尔期限估值桥",
+    "column": "T",
+    "header": "说明",
+    "isNote": true,
+    "width": 50.0,
+    "lastRow": 11,
+    "minHeight": 23.0,
+    "maxTextLength": 32,
+    "samples": [
+      "目标现金仅展示；NTM日历插值不代表季度已披露；远期交易日历待核"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "比电子期限估值桥",
+    "column": "T",
+    "header": "备注",
+    "isNote": true,
+    "width": 68.0,
+    "lastRow": 50,
+    "minHeight": 72.0,
+    "maxTextLength": 33,
+    "samples": [
+      "资金仅展示，PE已含财资；细分毛利为假设；H1正常化与租息拆分有限"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "乐普新品假设",
+    "column": "K",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 54,
+    "minHeight": 82.0,
+    "maxTextLength": 48,
+    "samples": [
+      "仅MainlandHKMacau，不含US与台湾；GM含研究originroyalty及供应成本",
+      "ArriVentnetroyalty研究8/12/16%具体合同率不公开；首付已入cash",
+      "海外licensingnetonly, no hypothetic upfrontcap"
+    ],
+    "nowrapCells": 0,
+    "textCells": 48
+  },
+  {
+    "sheet": "乐普风险收入桥",
+    "column": "O",
+    "header": "范围",
+    "isNote": true,
+    "width": 68.0,
+    "lastRow": 198,
+    "minHeight": 23.0,
+    "maxTextLength": 48,
+    "samples": [
+      "仅MainlandHKMacau，不含US与台湾；GM含研究originroyalty及供应成本",
+      "ArriVentnetroyalty研究8/12/16%具体合同率不公开；首付已入cash",
+      "海外licensingnetonly, no hypothetic upfrontcap"
+    ],
+    "nowrapCells": 148,
+    "textCells": 192
+  },
+  {
+    "sheet": "乐普年度经营桥",
+    "column": "AS",
+    "header": "备注",
+    "isNote": true,
+    "width": 68.0,
+    "lastRow": 50,
+    "minHeight": 72.0,
+    "maxTextLength": 22,
+    "samples": [
+      "PD1对价持续支付；未来融资与续贷需审批承接"
+    ],
+    "nowrapCells": 0,
+    "textCells": 16
+  },
+  {
+    "sheet": "乐普估值桥",
+    "column": "U",
+    "header": "说明",
+    "isNote": true,
+    "width": 45.0,
+    "lastRow": 11,
+    "minHeight": 42.0,
+    "maxTextLength": 22,
+    "samples": [
+      "目标现金已流入有限分配，无再加融资或FV负债"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "广核期限估值桥",
+    "column": "T",
+    "header": "备注",
+    "isNote": true,
+    "width": 68.0,
+    "lastRow": 50,
+    "minHeight": 72.0,
+    "maxTextLength": 28,
+    "samples": [
+      "量价及资金时序为研究；cash不叠NAV，融资条件非保证"
+    ],
+    "nowrapCells": 0,
+    "textCells": 5
+  },
+  {
+    "sheet": "君实新品假设",
+    "column": "K",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 50,
+    "minHeight": 80.0,
+    "maxTextLength": 65,
+    "samples": [
+      "unlicensed retainedrights以研究海外许可模式净估，未签约；no toripbill duplication",
+      "greaterChina净销售×研究10/14/18% tieredroyalty；已收215m不上账第二次，海外只另列早期组",
+      "只计BTLA药，不把同一联合方案torip整体再计；中国肺癌gross净药收入"
+    ],
+    "nowrapCells": 0,
+    "textCells": 44
+  },
+  {
+    "sheet": "康希诺新品假设",
+    "column": "K",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 38,
+    "minHeight": 75.0,
+    "maxTextLength": 50,
+    "samples": [
+      "globalexclusive技术并nonexclusive adenopatent；未来研究净许可",
+      "合作权益未公开采用净收入率，竞争后有限份额，无Shingrix临床优势断言",
+      "全球gross转换为康希诺净技术/中间品收入，Gates资助不等商业订单"
+    ],
+    "nowrapCells": 0,
+    "textCells": 32
+  },
+  {
+    "sheet": "晶泰净权益假设",
+    "column": "B",
+    "header": "资产",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 178,
+    "minHeight": 84.0,
+    "maxTextLength": 37,
+    "samples": [
+      "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE",
+      "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+      "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY"
+    ],
+    "nowrapCells": 172,
+    "textCells": 172
+  },
+  {
+    "sheet": "晶泰净权益假设",
+    "column": "N",
+    "header": "权利范围",
+    "isNote": true,
+    "width": 55.0,
+    "lastRow": 178,
+    "minHeight": 84.0,
+    "maxTextLength": 114,
+    "samples": [
+      "META10-19 | 复发/难治 CD19 阳性 B 细胞血液恶性肿瘤（正式表列）；年报淋巴瘤/白血病与套细胞淋巴瘤 IIT 描述不逐一补为已核验注册适应症。：截止日证据不足，收益估值0；费用保留未分配临床预算，不虚构单药份额",
+      "META10-19 | 难治 B 细胞自身免疫疾病（正式表列）；年报提到 SLE 的 IIT，确切编号与试验对应需确认。：截止日证据不足，收益估值0；费用保留未分配临床预算，不虚构单药份额",
+      "SIGX1094+氟泽雷塞片（fulzerasib） | KRAS-G12C突变非小细胞肺癌：截止日证据不足，收益估值0；费用保留未分配临床预算，不虚构单药份额"
+    ],
+    "nowrapCells": 0,
+    "textCells": 172
+  },
+  {
+    "sheet": "晶泰临床费用",
+    "column": "B",
+    "header": "资产",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 307,
+    "minHeight": 23.0,
+    "maxTextLength": 37,
+    "samples": [
+      "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE",
+      "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+      "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY"
+    ],
+    "nowrapCells": 301,
+    "textCells": 301
+  },
+  {
+    "sheet": "晶泰风险收入桥",
+    "column": "B",
+    "header": "资产",
+    "isNote": false,
+    "width": 16.0,
+    "lastRow": 1124,
+    "minHeight": 23.0,
+    "maxTextLength": 37,
+    "samples": [
+      "OWNED_UNNAMED_PEPTIDE_ORAL_AUTOIMMUNE",
+      "UNKNOWN_BIOPHARMA_PRE2025_3_PROJECTS",
+      "OWNED_UNNAMED_PEPTIDE_BRAIN_DELIVERY"
+    ],
+    "nowrapCells": 1118,
+    "textCells": 1118
+  }
+]

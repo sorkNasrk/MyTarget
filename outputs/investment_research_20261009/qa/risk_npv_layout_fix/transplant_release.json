@@ -1,0 +1,48 @@
+{
+  "source": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_wrapped.xlsx",
+  "candidate": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\wrapped_body_heights.xlsx",
+  "output": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_release.xlsx",
+  "sourceSha256": "0e3c26fe95d8a0e264ed96be09abb7e1ba77cfd7813bb8231d098dc46f4e33f9",
+  "outputSha256": "97e318641b02bbdf9070ae597bdfe57ca4f176bf591bfad4c464c7ffd20dad8b",
+  "changedParts": [
+    "xl/worksheets/sheet36.xml",
+    "xl/worksheets/sheet41.xml",
+    "xl/worksheets/sheet47.xml",
+    "xl/worksheets/sheet54.xml"
+  ],
+  "appendedStyles": {},
+  "formatting": {
+    "发行人": {
+      "styledCells": [],
+      "rowHeights": []
+    },
+    "条件估值参考": {
+      "styledCells": [],
+      "rowHeights": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    "先声新药假设": {
+      "styledCells": [],
+      "rowHeights": []
+    },
+    "绿叶新品假设": {
+      "styledCells": [],
+      "rowHeights": []
+    }
+  }
+}

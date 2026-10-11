@@ -12,3 +12,9 @@ __pycache__/
 
 # Writer temporary document locks
 .~lock.*#
+
+# Regenerable workbook previews and disposable formatting candidates
+/outputs/investment_research_20261009/qa/workbook_render*/
+/outputs/investment_research_20261009/qa/risk_npv_layout_fix/*.xlsx
+/outputs/investment_research_20261009/qa/risk_npv_layout_fix/*.png
+/outputs/investment_research_20261009/qa/risk_npv_layout_fix/final_renders/

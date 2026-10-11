@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { applyCoreLayoutFormat } from './core_layout_format.mjs';
 import path from 'node:path';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
 import {sotpFields,sotpFieldLabels} from './genscript_sotp.mjs';
@@ -797,6 +798,7 @@ for(const name of names){
  }
 }
 doc.getRange('B7:B24').format.wrapText=true;doc.getRange('A7:B24').format.autofitRows();
+applyCoreLayoutFormat(wb);
 wb.recalculate();
 const inspection=await wb.inspect({kind:'region',sheetId:'活动估值',range:'A7:P12',maxChars:2500,tableMaxCols:16});
 await fs.writeFile(path.join(root,'qa/workbook_inspection.json'),JSON.stringify(inspection));

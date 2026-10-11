@@ -1,0 +1,121 @@
+{
+  "before": "outputs\\investment_research_20261009\\deliverables\\证券研究总表_初版.xlsx",
+  "after": "outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\candidate.xlsx",
+  "beforeSha256": "75aa327add9be62355521d666f17361b3bfa375b8e7d2e51508a45112a69a2de",
+  "afterSha256": "15986d3b0608c20825fd339cf36c7bc53648a8ee1d58f8e864c0cc7295945a60",
+  "addedParts": [],
+  "removedParts": [],
+  "byteChangedParts": [
+    "_rels/.rels",
+    "xl/_rels/workbook.xml.rels",
+    "xl/styles.xml",
+    "xl/workbook.xml",
+    "xl/worksheets/sheet112.xml",
+    "xl/worksheets/sheet113.xml",
+    "xl/worksheets/sheet135.xml",
+    "xl/worksheets/sheet136.xml",
+    "xl/worksheets/sheet147.xml",
+    "xl/worksheets/sheet148.xml",
+    "xl/worksheets/sheet156.xml",
+    "xl/worksheets/sheet164.xml",
+    "xl/worksheets/sheet171.xml",
+    "xl/worksheets/sheet172.xml",
+    "xl/worksheets/sheet180.xml",
+    "xl/worksheets/sheet187.xml",
+    "xl/worksheets/sheet188.xml",
+    "xl/worksheets/sheet196.xml",
+    "xl/worksheets/sheet20.xml",
+    "xl/worksheets/sheet204.xml",
+    "xl/worksheets/sheet211.xml",
+    "xl/worksheets/sheet212.xml",
+    "xl/worksheets/sheet220.xml",
+    "xl/worksheets/sheet232.xml",
+    "xl/worksheets/sheet233.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/sheet78.xml",
+    "xl/worksheets/sheet79.xml",
+    "xl/worksheets/sheet86.xml",
+    "xl/worksheets/sheet87.xml",
+    "xl/worksheets/sheet98.xml",
+    "xl/worksheets/sheet99.xml"
+  ],
+  "nonColumnSemanticChanges": [
+    "_rels/.rels",
+    "xl/_rels/workbook.xml.rels",
+    "xl/styles.xml",
+    "xl/workbook.xml",
+    "xl/worksheets/sheet112.xml",
+    "xl/worksheets/sheet113.xml",
+    "xl/worksheets/sheet135.xml",
+    "xl/worksheets/sheet136.xml",
+    "xl/worksheets/sheet147.xml",
+    "xl/worksheets/sheet148.xml",
+    "xl/worksheets/sheet156.xml",
+    "xl/worksheets/sheet164.xml",
+    "xl/worksheets/sheet171.xml",
+    "xl/worksheets/sheet172.xml",
+    "xl/worksheets/sheet180.xml",
+    "xl/worksheets/sheet187.xml",
+    "xl/worksheets/sheet188.xml",
+    "xl/worksheets/sheet196.xml",
+    "xl/worksheets/sheet204.xml",
+    "xl/worksheets/sheet211.xml",
+    "xl/worksheets/sheet212.xml",
+    "xl/worksheets/sheet220.xml",
+    "xl/worksheets/sheet232.xml",
+    "xl/worksheets/sheet233.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/sheet78.xml",
+    "xl/worksheets/sheet79.xml",
+    "xl/worksheets/sheet86.xml",
+    "xl/worksheets/sheet87.xml",
+    "xl/worksheets/sheet98.xml",
+    "xl/worksheets/sheet99.xml"
+  ],
+  "columnChanges": [
+    {
+      "part": "xl/worksheets/sheet20.xml",
+      "differences": [
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "preservedExceptColumnWidths": false
+}

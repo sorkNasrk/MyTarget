@@ -1,0 +1,26 @@
+{
+  "reviewer": "root",
+  "method": "Actual view_image detail original review of saved preserved workbook",
+  "records": [
+    {
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_2.png",
+      "sha256": "712b9c659fbdb96ef7e2b6b50246b50e3b5b86168cd715351ebe21330d834787",
+      "width": 1980,
+      "height": 554,
+      "openedAtOriginalResolution": true,
+      "result": "pass",
+      "note": "Root actually opened both saved-candidate original images; all numeric columns, units, signs, Chinese headers and borders legible, no clipping.",
+      "at": "2026-10-11T09:47:07.158463+00:00"
+    },
+    {
+      "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\final_renders\\亚盛年度经营桥_3.png",
+      "sha256": "2927b6461e828bf9dfd03f5fb01f79e6cd60ccbf111130c0816e8214a2bb56d5",
+      "width": 1980,
+      "height": 554,
+      "openedAtOriginalResolution": true,
+      "result": "pass",
+      "note": "Root actually opened both saved-candidate original images; all numeric columns, units, signs, Chinese headers and borders legible, no clipping.",
+      "at": "2026-10-11T09:47:07.159480+00:00"
+    }
+  ]
+}

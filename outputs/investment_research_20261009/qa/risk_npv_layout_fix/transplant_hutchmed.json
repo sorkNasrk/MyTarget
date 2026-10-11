@@ -1,0 +1,27 @@
+{
+  "source": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved.xlsx",
+  "candidate": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\hutchmed_note_layout.xlsx",
+  "output": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_final.xlsx",
+  "sourceSha256": "23270e1d5cad8d4656fe811472614942d13c7e9618bc71a8a96fa755dde7f97d",
+  "outputSha256": "3a0f2b8ea0f308df572d028b17933a56ff39020d3340cf931a10c47d23ef5ae1",
+  "changedParts": [
+    "xl/styles.xml",
+    "xl/worksheets/sheet79.xml"
+  ],
+  "appendedStyles": {
+    "cellXfs": 2
+  },
+  "formatting": {
+    "和黄估值桥": {
+      "styledCells": [
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11"
+      ],
+      "rowHeights": []
+    }
+  }
+}

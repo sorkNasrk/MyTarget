@@ -1,0 +1,3227 @@
+{
+  "before": "deliverables\\证券研究总表_初版.xlsx",
+  "after": "qa\\risk_npv_layout_fix\\preserved_native_final.xlsx",
+  "beforeSha256": "75aa327add9be62355521d666f17361b3bfa375b8e7d2e51508a45112a69a2de",
+  "afterSha256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+  "addedParts": [],
+  "removedParts": [],
+  "byteChangedParts": [
+    "xl/styles.xml",
+    "xl/worksheets/sheet103.xml",
+    "xl/worksheets/sheet106.xml",
+    "xl/worksheets/sheet110.xml",
+    "xl/worksheets/sheet111.xml",
+    "xl/worksheets/sheet114.xml",
+    "xl/worksheets/sheet133.xml",
+    "xl/worksheets/sheet134.xml",
+    "xl/worksheets/sheet146.xml",
+    "xl/worksheets/sheet20.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet24.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet27.xml",
+    "xl/worksheets/sheet32.xml",
+    "xl/worksheets/sheet35.xml",
+    "xl/worksheets/sheet36.xml",
+    "xl/worksheets/sheet37.xml",
+    "xl/worksheets/sheet38.xml",
+    "xl/worksheets/sheet41.xml",
+    "xl/worksheets/sheet47.xml",
+    "xl/worksheets/sheet54.xml",
+    "xl/worksheets/sheet79.xml",
+    "xl/worksheets/sheet84.xml",
+    "xl/worksheets/sheet87.xml",
+    "xl/worksheets/sheet96.xml"
+  ],
+  "nonColumnSemanticChanges": [],
+  "columnChanges": [
+    {
+      "part": "xl/worksheets/sheet103.xml",
+      "differences": [
+        {
+          "column": 29,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "22",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet106.xml",
+      "differences": [
+        {
+          "column": 21,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "27",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet110.xml",
+      "differences": [
+        {
+          "column": 13,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "64",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet111.xml",
+      "differences": [
+        {
+          "column": 45,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "42",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet114.xml",
+      "differences": [
+        {
+          "column": 9,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "26",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet133.xml",
+      "differences": [
+        {
+          "column": 13,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet134.xml",
+      "differences": [
+        {
+          "column": 45,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "42",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet146.xml",
+      "differences": [
+        {
+          "column": 42,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "50",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet20.xml",
+      "differences": [
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet22.xml",
+      "differences": [
+        {
+          "column": 16,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 19,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 20,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 21,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 29,
+          "before": null,
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 43,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 44,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 45,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 46,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 47,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 48,
+          "before": null,
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet24.xml",
+      "differences": [
+        {
+          "column": 11,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 12,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet26.xml",
+      "differences": [
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet27.xml",
+      "differences": [
+        {
+          "column": 15,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 16,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 19,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 20,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 21,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 44,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 45,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 46,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 47,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 48,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 49,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 50,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 51,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 52,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 53,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 54,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 55,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 56,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 57,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 58,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 59,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 60,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet32.xml",
+      "differences": [
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 29,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet35.xml",
+      "differences": [
+        {
+          "column": 38,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet36.xml",
+      "differences": [
+        {
+          "column": 8,
+          "before": {
+            "width": "36",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "56",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 9,
+          "before": {
+            "width": "36",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet37.xml",
+      "differences": [
+        {
+          "column": 6,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "52",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 7,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "66",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet38.xml",
+      "differences": [
+        {
+          "column": 10,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 11,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet41.xml",
+      "differences": [
+        {
+          "column": 14,
+          "before": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 15,
+          "before": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 16,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet47.xml",
+      "differences": []
+    },
+    {
+      "part": "xl/worksheets/sheet54.xml",
+      "differences": [
+        {
+          "column": 4,
+          "before": {
+            "width": "52",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "60",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet79.xml",
+      "differences": [
+        {
+          "column": 18,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet84.xml",
+      "differences": [
+        {
+          "column": 13,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet87.xml",
+      "differences": [
+        {
+          "column": 19,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "36",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet96.xml",
+      "differences": [
+        {
+          "column": 13,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "preservedExceptColumnWidths": true,
+  "preservedExceptAuthorizedFormatting": true,
+  "scopeIncludesTargetedCellStylesAndRowHeights": true,
+  "sheetXmlHashes": [
+    {
+      "sheet": "总览",
+      "part": "xl/worksheets/sheet1.xml",
+      "originalXmlSha256": "e6de48ecc98116a6739c687aa193755deacfa9ac211f16a4fcc3a9a5af490595",
+      "currentXmlSha256": "e6de48ecc98116a6739c687aa193755deacfa9ac211f16a4fcc3a9a5af490595",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "四期限排名",
+      "part": "xl/worksheets/sheet2.xml",
+      "originalXmlSha256": "71c441d1f3b7e58ad3e442719e02c7bac8c2bd08750d255daabfdde4189cd41d",
+      "currentXmlSha256": "71c441d1f3b7e58ad3e442719e02c7bac8c2bd08750d255daabfdde4189cd41d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "年底情景",
+      "part": "xl/worksheets/sheet3.xml",
+      "originalXmlSha256": "a6e0e19e03ec22a4c851e99555b4fe520cd049e2ec4e5aa3ff2059c690c003bd",
+      "currentXmlSha256": "a6e0e19e03ec22a4c851e99555b4fe520cd049e2ec4e5aa3ff2059c690c003bd",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "汇率敏感性",
+      "part": "xl/worksheets/sheet4.xml",
+      "originalXmlSha256": "885fd8c0e43084cf14c465c66feb3f59c8eb7a0f76e217f884a86f4310986e44",
+      "currentXmlSha256": "885fd8c0e43084cf14c465c66feb3f59c8eb7a0f76e217f884a86f4310986e44",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "活动估值",
+      "part": "xl/worksheets/sheet5.xml",
+      "originalXmlSha256": "c0db40617b0ff5ae14bc3a48ade5b77a5b23dbf619b5d4510bb097936578f223",
+      "currentXmlSha256": "c0db40617b0ff5ae14bc3a48ade5b77a5b23dbf619b5d4510bb097936578f223",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "经营桥",
+      "part": "xl/worksheets/sheet6.xml",
+      "originalXmlSha256": "77b9a6bc679f0af91731abc02d7134a4787cb4f3a636aedbfcb69665070ebfee",
+      "currentXmlSha256": "77b9a6bc679f0af91731abc02d7134a4787cb4f3a636aedbfcb69665070ebfee",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "产品经营桥",
+      "part": "xl/worksheets/sheet7.xml",
+      "originalXmlSha256": "d8e07a2ea9f25b6812f774738a574a9ce48bb3ee980000f2f3847a7c8baa0139",
+      "currentXmlSha256": "d8e07a2ea9f25b6812f774738a574a9ce48bb3ee980000f2f3847a7c8baa0139",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地域经营桥",
+      "part": "xl/worksheets/sheet8.xml",
+      "originalXmlSha256": "f608c69e4257fa9e127d3247ee3ced4a830cff16e20b37b2043c9c006874a889",
+      "currentXmlSha256": "f608c69e4257fa9e127d3247ee3ced4a830cff16e20b37b2043c9c006874a889",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "业务分拆桥",
+      "part": "xl/worksheets/sheet9.xml",
+      "originalXmlSha256": "c8b753382b9c48b0c5fb44bcc4ac5732139e989daff99245ced7e035aa6b1d44",
+      "currentXmlSha256": "c8b753382b9c48b0c5fb44bcc4ac5732139e989daff99245ced7e035aa6b1d44",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "零售物流桥",
+      "part": "xl/worksheets/sheet10.xml",
+      "originalXmlSha256": "ae1c1f68623348dd5ed9949e3ef896383d3bf7559b767988338496d22274a083",
+      "currentXmlSha256": "ae1c1f68623348dd5ed9949e3ef896383d3bf7559b767988338496d22274a083",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "零售物流假设",
+      "part": "xl/worksheets/sheet11.xml",
+      "originalXmlSha256": "82d3ed0239011053a283010e088061a10b6f15459c17f19c043b2b829787942e",
+      "currentXmlSha256": "82d3ed0239011053a283010e088061a10b6f15459c17f19c043b2b829787942e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "AI经营桥",
+      "part": "xl/worksheets/sheet12.xml",
+      "originalXmlSha256": "0635968e70d4bcd9c723fbf3250d6b864039f6e0915157c566fd31c5b1971cdb",
+      "currentXmlSha256": "0635968e70d4bcd9c723fbf3250d6b864039f6e0915157c566fd31c5b1971cdb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "AI经营假设",
+      "part": "xl/worksheets/sheet13.xml",
+      "originalXmlSha256": "8991e4794a8202fcd300ce15c6faf19986c8feadd3027ad4c92983f56e2971ce",
+      "currentXmlSha256": "8991e4794a8202fcd300ce15c6faf19986c8feadd3027ad4c92983f56e2971ce",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "内容经营桥",
+      "part": "xl/worksheets/sheet14.xml",
+      "originalXmlSha256": "7319293371ad3ee5bf8f1e7d6ad4135a7ae3adf11a42d09d6c4f01193f0725db",
+      "currentXmlSha256": "7319293371ad3ee5bf8f1e7d6ad4135a7ae3adf11a42d09d6c4f01193f0725db",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "内容经营假设",
+      "part": "xl/worksheets/sheet15.xml",
+      "originalXmlSha256": "3c518cc6c7b0cf79a97f5bd5d6883b10a1c4a3efd156d51b791c03a8ab473ba5",
+      "currentXmlSha256": "3c518cc6c7b0cf79a97f5bd5d6883b10a1c4a3efd156d51b791c03a8ab473ba5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "SOTP估值桥",
+      "part": "xl/worksheets/sheet16.xml",
+      "originalXmlSha256": "02bb56df92eb58ffe088d0471e9a70027e1e7347b8499ce3a4cfda6bf3ec883c",
+      "currentXmlSha256": "02bb56df92eb58ffe088d0471e9a70027e1e7347b8499ce3a4cfda6bf3ec883c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "SOTP假设",
+      "part": "xl/worksheets/sheet17.xml",
+      "originalXmlSha256": "eb6ac06ce32946e878a51758eeb7f6dac85a656e5e640c606c5ae30fdd849965",
+      "currentXmlSha256": "eb6ac06ce32946e878a51758eeb7f6dac85a656e5e640c606c5ae30fdd849965",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "SOTP管线参数",
+      "part": "xl/worksheets/sheet18.xml",
+      "originalXmlSha256": "03bc18e387dc5cba286c54df97f10769b5e0874ae38ab75b42183b99a798cd29",
+      "currentXmlSha256": "03bc18e387dc5cba286c54df97f10769b5e0874ae38ab75b42183b99a798cd29",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "SOTP管线现金流",
+      "part": "xl/worksheets/sheet19.xml",
+      "originalXmlSha256": "3f3418d0adebe1ce07986e5c0ca52a9cbc03754c925f2da717145611aa6c9f8e",
+      "currentXmlSha256": "3f3418d0adebe1ce07986e5c0ca52a9cbc03754c925f2da717145611aa6c9f8e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "风险净现值",
+      "part": "xl/worksheets/sheet20.xml",
+      "originalXmlSha256": "f0e7376197c9037feab4fd9afc2df02ba021d29f0db95616c394cd2b00095d97",
+      "currentXmlSha256": "568bb18c69384856480a0e3f91a926575dbce35410c5842de79680f1cc0f01f8",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "管线假设",
+      "part": "xl/worksheets/sheet21.xml",
+      "originalXmlSha256": "97f0eae9de911d416614d8c518cff565b558d5b866d288d04bd6721ef71ef8ed",
+      "currentXmlSha256": "97f0eae9de911d416614d8c518cff565b558d5b866d288d04bd6721ef71ef8ed",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "管线现金流",
+      "part": "xl/worksheets/sheet22.xml",
+      "originalXmlSha256": "94f6716130bfe24ad00c46afb55f9969e502d448d40422fb25c7ae90786c32d9",
+      "currentXmlSha256": "6f754ecb2bf7d7ab576b5b35d2bbe301629d14dbc72cc79d56cf71dcc7e24f61",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "许可受让方假设",
+      "part": "xl/worksheets/sheet23.xml",
+      "originalXmlSha256": "955f7d70cd053757ef8b513717149a9deade0e405451d3a9f191d9fda0b9e2b8",
+      "currentXmlSha256": "955f7d70cd053757ef8b513717149a9deade0e405451d3a9f191d9fda0b9e2b8",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "许可受让方现金流",
+      "part": "xl/worksheets/sheet24.xml",
+      "originalXmlSha256": "71ca20b92bfbe66fdc8d3138e673378dc4a9bdf384cf3f66d28fcf065b1eff92",
+      "currentXmlSha256": "db44b0fc8484d1f4526138f77a97fbc615a97ed3d3bf84cb388396827d273409",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "许可受让方权益",
+      "part": "xl/worksheets/sheet25.xml",
+      "originalXmlSha256": "14a29991b1fb2d780636f8f6b5f802ff7c8bda498d11151336b26007af0a2a5d",
+      "currentXmlSha256": "14a29991b1fb2d780636f8f6b5f802ff7c8bda498d11151336b26007af0a2a5d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "假设",
+      "part": "xl/worksheets/sheet26.xml",
+      "originalXmlSha256": "b05fb81d0d27c0e164863876e3268b80e28bc722aead2d99424bc80622123531",
+      "currentXmlSha256": "fb3a73ddfccce260b93c677970659d3eea776faab1b5f7db52588780a19323f6",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "经营假设",
+      "part": "xl/worksheets/sheet27.xml",
+      "originalXmlSha256": "2b6a1d5842e6b86d6953808c99957628e9faf06821d1d7b46f433580f5eb84a1",
+      "currentXmlSha256": "14f50fe47703b3e60f286014f7bec84abe42dbd17beac50f3584fc40460b8331",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "产品经营假设",
+      "part": "xl/worksheets/sheet28.xml",
+      "originalXmlSha256": "29b550c2bd833153fa5ec1a6874eb086c107201069cab7d6dd6768b03ef0416d",
+      "currentXmlSha256": "29b550c2bd833153fa5ec1a6874eb086c107201069cab7d6dd6768b03ef0416d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地域经营假设",
+      "part": "xl/worksheets/sheet29.xml",
+      "originalXmlSha256": "e85b3261a8f8a95bfdf81cda6f3aaf3ae2ff5b9e6725f59dff732771eaaf80ae",
+      "currentXmlSha256": "e85b3261a8f8a95bfdf81cda6f3aaf3ae2ff5b9e6725f59dff732771eaaf80ae",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "业务分拆假设",
+      "part": "xl/worksheets/sheet30.xml",
+      "originalXmlSha256": "b94e576979d719f0637c3188a4c31736e0e673c65f89407fc3007adb65875c84",
+      "currentXmlSha256": "b94e576979d719f0637c3188a4c31736e0e673c65f89407fc3007adb65875c84",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "药物假设",
+      "part": "xl/worksheets/sheet31.xml",
+      "originalXmlSha256": "6ff28c6eded629e6d170f0a7ca631828699b400b1fc151c3344d6025d2549f52",
+      "currentXmlSha256": "6ff28c6eded629e6d170f0a7ca631828699b400b1fc151c3344d6025d2549f52",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "情景快照",
+      "part": "xl/worksheets/sheet32.xml",
+      "originalXmlSha256": "06b0e7ccf4f5f8dcdbefbc870f267ae4b2247232a34ca4e38324479415a1ff4e",
+      "currentXmlSha256": "b58eaf98071fae5dfda7a01b691eb2b7ed614b7d04f6b504946c61adbee2be62",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "评分",
+      "part": "xl/worksheets/sheet33.xml",
+      "originalXmlSha256": "c18e67edb087c476bd02530e990d87bd521c699a7f793a4f1bd9cf01afacc4e6",
+      "currentXmlSha256": "c18e67edb087c476bd02530e990d87bd521c699a7f793a4f1bd9cf01afacc4e6",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "数据 >>",
+      "part": "xl/worksheets/sheet34.xml",
+      "originalXmlSha256": "a989c5f2f00b23aae2ebcc950171a242397e1f847ebc663568dd6803d4d07a10",
+      "currentXmlSha256": "a989c5f2f00b23aae2ebcc950171a242397e1f847ebc663568dd6803d4d07a10",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "行情与技术",
+      "part": "xl/worksheets/sheet35.xml",
+      "originalXmlSha256": "c6ad03f434bc8678fac05fc16e81a944ea2a8de8e92f5f2fa98496c44cf02e4b",
+      "currentXmlSha256": "7772fb544e1c6fecfa068a9c9b21940b911613a245f60267157c159cf77d0898",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "发行人",
+      "part": "xl/worksheets/sheet36.xml",
+      "originalXmlSha256": "6b125e5d801fd5ad4c69f42682b942a33b9ea8641fa058e61ff38043699a6f4b",
+      "currentXmlSha256": "6457b355b9877acd300004fbca2f54fc90ba9cbeea723f135130446d1000406a",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "财务原值",
+      "part": "xl/worksheets/sheet37.xml",
+      "originalXmlSha256": "3da1cf3b81e4dc6222f7b7978db31408df25cdcafcd4e1ba3f32499503ffeb26",
+      "currentXmlSha256": "c4818c6352822cb48c719dcc38807af404716081ae02827565419fee348ec724",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "机构目标",
+      "part": "xl/worksheets/sheet38.xml",
+      "originalXmlSha256": "c4506775f58d8891a0c4e5c45122abf69f40cbf30ad991e795bfb31152f3972c",
+      "currentXmlSha256": "e309b2106f0e64f9a1d4eedf333842ae87416eaa23b3ccea6ddcfa0c9420a692",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "验收",
+      "part": "xl/worksheets/sheet39.xml",
+      "originalXmlSha256": "e59adf14603831c929c768d670ce486e6b4301e07573f533d41e0ce207aec104",
+      "currentXmlSha256": "e59adf14603831c929c768d670ce486e6b4301e07573f533d41e0ce207aec104",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "说明",
+      "part": "xl/worksheets/sheet40.xml",
+      "originalXmlSha256": "c17630eae145e72e079eb266bdd57351bbd8938d8e427895b177b133132fb0b6",
+      "currentXmlSha256": "c17630eae145e72e079eb266bdd57351bbd8938d8e427895b177b133132fb0b6",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "条件估值参考",
+      "part": "xl/worksheets/sheet41.xml",
+      "originalXmlSha256": "fbe6d63dcff973bc5fb2e92681a5428e192d9f8247ad53ab8053957fccf17ec4",
+      "currentXmlSha256": "08199fa3cecc0b312721fd82585515ff748412baada6a2e94a27f4194d886aa0",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "转债资金假设",
+      "part": "xl/worksheets/sheet42.xml",
+      "originalXmlSha256": "1715898baef29af4880d58d38e6a23bb8151c2cdeaf060dab11f2affc5e9f272",
+      "currentXmlSha256": "1715898baef29af4880d58d38e6a23bb8151c2cdeaf060dab11f2affc5e9f272",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "年度分部假设",
+      "part": "xl/worksheets/sheet43.xml",
+      "originalXmlSha256": "3ad37712c34e6cde1ce9f3d882b92579e99ea7ef657acb92875d4bbe12467e64",
+      "currentXmlSha256": "3ad37712c34e6cde1ce9f3d882b92579e99ea7ef657acb92875d4bbe12467e64",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "年度经营资金桥",
+      "part": "xl/worksheets/sheet44.xml",
+      "originalXmlSha256": "ffa31d9a4726187d025b663115e203129131ac150bd46b693e72e4745ad8c343",
+      "currentXmlSha256": "ffa31d9a4726187d025b663115e203129131ac150bd46b693e72e4745ad8c343",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "先声资金假设",
+      "part": "xl/worksheets/sheet45.xml",
+      "originalXmlSha256": "23e5eaa3ab43bbd2ee9453356e6efd0bfd8f25fd9722a97c394689ca1b1fdb41",
+      "currentXmlSha256": "23e5eaa3ab43bbd2ee9453356e6efd0bfd8f25fd9722a97c394689ca1b1fdb41",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "先声年度假设",
+      "part": "xl/worksheets/sheet46.xml",
+      "originalXmlSha256": "e9045fbfdd712bb30944208a7c921d27b1ae631667572e3c85ba5773d84ce6e7",
+      "currentXmlSha256": "e9045fbfdd712bb30944208a7c921d27b1ae631667572e3c85ba5773d84ce6e7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "先声新药假设",
+      "part": "xl/worksheets/sheet47.xml",
+      "originalXmlSha256": "45ea5c339bccf38cef91702b81faf5c331851e69e07ef2db18ecdf4c161aa3b2",
+      "currentXmlSha256": "81b1629514bfbed3dbb1c14c34b1f7a8ccf6c8e8fcb4e6d31b17537a202b56f4",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "先声风险收入桥",
+      "part": "xl/worksheets/sheet48.xml",
+      "originalXmlSha256": "1f2814bfb45bf3ac8add5f04e7ec24abcc96601460d651e055eb86d720c92416",
+      "currentXmlSha256": "1f2814bfb45bf3ac8add5f04e7ec24abcc96601460d651e055eb86d720c92416",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "先声年度经营桥",
+      "part": "xl/worksheets/sheet49.xml",
+      "originalXmlSha256": "78ddac75e3386bb9e1abed6b0abcffd3b85ebad0522835c778b3e3a0eb309bbc",
+      "currentXmlSha256": "78ddac75e3386bb9e1abed6b0abcffd3b85ebad0522835c778b3e3a0eb309bbc",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "复星经营假设",
+      "part": "xl/worksheets/sheet50.xml",
+      "originalXmlSha256": "7849764a8332e0bd0a20a90da0e7a9f251566809b12aeda7fc5e20d70d3da54d",
+      "currentXmlSha256": "7849764a8332e0bd0a20a90da0e7a9f251566809b12aeda7fc5e20d70d3da54d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "复星经营桥",
+      "part": "xl/worksheets/sheet51.xml",
+      "originalXmlSha256": "e6e860acbca8310f816a58588d89b67325d4d8638ffd8fd2bebbf7f1d911842e",
+      "currentXmlSha256": "e6e860acbca8310f816a58588d89b67325d4d8638ffd8fd2bebbf7f1d911842e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "绿叶资金假设",
+      "part": "xl/worksheets/sheet52.xml",
+      "originalXmlSha256": "cc06704bba0fd6a3045f7f3e739931427d56ca2235e1b63d7e959389c4e2d394",
+      "currentXmlSha256": "cc06704bba0fd6a3045f7f3e739931427d56ca2235e1b63d7e959389c4e2d394",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "绿叶年度假设",
+      "part": "xl/worksheets/sheet53.xml",
+      "originalXmlSha256": "1df2a49fa2e2c1e69db7a3a13b1a22cd54aa633d158032e5752642ebd8e19ccb",
+      "currentXmlSha256": "1df2a49fa2e2c1e69db7a3a13b1a22cd54aa633d158032e5752642ebd8e19ccb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "绿叶新品假设",
+      "part": "xl/worksheets/sheet54.xml",
+      "originalXmlSha256": "83c2221636180535b04e2d66c0b2ee4db21700efee9a16cc76b84d4e244401a6",
+      "currentXmlSha256": "4abd54ed50ac90162587591ab08be37c4cc868e4be79cdd937b9f35b756002b1",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "绿叶风险收入桥",
+      "part": "xl/worksheets/sheet55.xml",
+      "originalXmlSha256": "a1d0340538f064ebc9d333a3352eddba1790acc3df1ab4e50d7ab4014c04f778",
+      "currentXmlSha256": "a1d0340538f064ebc9d333a3352eddba1790acc3df1ab4e50d7ab4014c04f778",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "绿叶年度经营桥",
+      "part": "xl/worksheets/sheet56.xml",
+      "originalXmlSha256": "210b613b2880d258a7e823ad5fdf9b923053f0d04793c1328b383346ac895645",
+      "currentXmlSha256": "210b613b2880d258a7e823ad5fdf9b923053f0d04793c1328b383346ac895645",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "绿叶估值桥",
+      "part": "xl/worksheets/sheet57.xml",
+      "originalXmlSha256": "f09bb9525b8a90c44b7eaa733ae4bd8fd8515c4e808149a3a3acbd924419acde",
+      "currentXmlSha256": "f09bb9525b8a90c44b7eaa733ae4bd8fd8515c4e808149a3a3acbd924419acde",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "泰格经营假设",
+      "part": "xl/worksheets/sheet58.xml",
+      "originalXmlSha256": "076f17cca27c55db1876e6a2168620d73cafde683977fac402a70e31c26d0255",
+      "currentXmlSha256": "076f17cca27c55db1876e6a2168620d73cafde683977fac402a70e31c26d0255",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "泰格经营桥",
+      "part": "xl/worksheets/sheet59.xml",
+      "originalXmlSha256": "bec477c64520017be4f773f9f99fd088b5ee09f4a8e9d3ebd949e3349a32d535",
+      "currentXmlSha256": "bec477c64520017be4f773f9f99fd088b5ee09f4a8e9d3ebd949e3349a32d535",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "天使经营假设",
+      "part": "xl/worksheets/sheet60.xml",
+      "originalXmlSha256": "e599ae28bae252b42ca4cfc632b8e9893cb0fcd596b10a5bb10719470affe69b",
+      "currentXmlSha256": "e599ae28bae252b42ca4cfc632b8e9893cb0fcd596b10a5bb10719470affe69b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "天使经营桥",
+      "part": "xl/worksheets/sheet61.xml",
+      "originalXmlSha256": "0a167c0732727d2ee45e9a1c41458177f93e3a4575cfacde7172163438e6ddfb",
+      "currentXmlSha256": "0a167c0732727d2ee45e9a1c41458177f93e3a4575cfacde7172163438e6ddfb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同辐经营假设",
+      "part": "xl/worksheets/sheet62.xml",
+      "originalXmlSha256": "8fa418d9b7f924cd56700f13a0bd2f90d6378f0ea5aadd7a1ce7fc9f890a8d6b",
+      "currentXmlSha256": "8fa418d9b7f924cd56700f13a0bd2f90d6378f0ea5aadd7a1ce7fc9f890a8d6b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同辐经营桥",
+      "part": "xl/worksheets/sheet63.xml",
+      "originalXmlSha256": "ce851b80cc3fc3c26bdcfd8913b009364014f2d97b0a9bfd7b066e20cd0150de",
+      "currentXmlSha256": "ce851b80cc3fc3c26bdcfd8913b009364014f2d97b0a9bfd7b066e20cd0150de",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康哲经营假设",
+      "part": "xl/worksheets/sheet64.xml",
+      "originalXmlSha256": "0835d3c53ad6fb10fbb356f2e2db4ce3514aa591a54dfb9f81f355f36567ffa9",
+      "currentXmlSha256": "0835d3c53ad6fb10fbb356f2e2db4ce3514aa591a54dfb9f81f355f36567ffa9",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康哲经营桥",
+      "part": "xl/worksheets/sheet65.xml",
+      "originalXmlSha256": "6d3726ba06ee602df3d048a4f7994f50f2f7736d5a2ceb804bf8034a6986bf4b",
+      "currentXmlSha256": "6d3726ba06ee602df3d048a4f7994f50f2f7736d5a2ceb804bf8034a6986bf4b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "舜宇经营假设",
+      "part": "xl/worksheets/sheet66.xml",
+      "originalXmlSha256": "c4b3a2d26552c8600b7767fbf6a16a6ec0403f9f6c73cd273caf53545c40ce99",
+      "currentXmlSha256": "c4b3a2d26552c8600b7767fbf6a16a6ec0403f9f6c73cd273caf53545c40ce99",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "舜宇经营桥",
+      "part": "xl/worksheets/sheet67.xml",
+      "originalXmlSha256": "42988038517da5157fce74444615e622d784517fd409a7b3088049bf41a11c86",
+      "currentXmlSha256": "42988038517da5157fce74444615e622d784517fd409a7b3088049bf41a11c86",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "ASMPT经营假设",
+      "part": "xl/worksheets/sheet68.xml",
+      "originalXmlSha256": "02e8fcef4b546a1aea2ca529e6c6ad4649d819c3e4bf698cd6334820f98a4326",
+      "currentXmlSha256": "02e8fcef4b546a1aea2ca529e6c6ad4649d819c3e4bf698cd6334820f98a4326",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "ASMPT经营桥",
+      "part": "xl/worksheets/sheet69.xml",
+      "originalXmlSha256": "95e45cf520b454b81715e8873c601318f8a87dc8161588c13c5d6aa48aea7966",
+      "currentXmlSha256": "95e45cf520b454b81715e8873c601318f8a87dc8161588c13c5d6aa48aea7966",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "昭衍经营假设",
+      "part": "xl/worksheets/sheet70.xml",
+      "originalXmlSha256": "700c8c51e098e92f055f9a9e38cec07b885c8180ab104649a642e8cd14f0873c",
+      "currentXmlSha256": "700c8c51e098e92f055f9a9e38cec07b885c8180ab104649a642e8cd14f0873c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "昭衍经营桥",
+      "part": "xl/worksheets/sheet71.xml",
+      "originalXmlSha256": "5787637418df0a7dcb456ca7c717bf56b9228c0364bc145527a966b1b9b641f4",
+      "currentXmlSha256": "5787637418df0a7dcb456ca7c717bf56b9228c0364bc145527a966b1b9b641f4",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄资金假设",
+      "part": "xl/worksheets/sheet72.xml",
+      "originalXmlSha256": "bbd5b6f5c76e83fda9cf7edd08926294972507070e20726345b561c39a6fe9c4",
+      "currentXmlSha256": "bbd5b6f5c76e83fda9cf7edd08926294972507070e20726345b561c39a6fe9c4",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄年度假设",
+      "part": "xl/worksheets/sheet73.xml",
+      "originalXmlSha256": "4cbeda998fe941dd2cfddcaa4a928b47a7f1f2afc4c7cee23e933394ad5bfa77",
+      "currentXmlSha256": "4cbeda998fe941dd2cfddcaa4a928b47a7f1f2afc4c7cee23e933394ad5bfa77",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄新品假设",
+      "part": "xl/worksheets/sheet74.xml",
+      "originalXmlSha256": "2315b28cf530bafd999c830de34f9954447c30b31b2277d8205cfb671733c122",
+      "currentXmlSha256": "2315b28cf530bafd999c830de34f9954447c30b31b2277d8205cfb671733c122",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄爬坡假设",
+      "part": "xl/worksheets/sheet75.xml",
+      "originalXmlSha256": "81b198de1588079f8126bbc910ce0b874976cab32b8d0194db39be3837b25826",
+      "currentXmlSha256": "81b198de1588079f8126bbc910ce0b874976cab32b8d0194db39be3837b25826",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄风险收入桥",
+      "part": "xl/worksheets/sheet76.xml",
+      "originalXmlSha256": "58fbcff0b02ee7eb8028d6439e0b2bdcdbef5fae0d1e3e90a3148a1aa53ee7f9",
+      "currentXmlSha256": "58fbcff0b02ee7eb8028d6439e0b2bdcdbef5fae0d1e3e90a3148a1aa53ee7f9",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄年度经营桥",
+      "part": "xl/worksheets/sheet77.xml",
+      "originalXmlSha256": "457856c024169c4e1c1ffd372babb6f46bd4224ea5b20a70d4803bc391efb16c",
+      "currentXmlSha256": "457856c024169c4e1c1ffd372babb6f46bd4224ea5b20a70d4803bc391efb16c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄FCFF折现桥",
+      "part": "xl/worksheets/sheet78.xml",
+      "originalXmlSha256": "f5de9a8d6e8ee37bc5e635c8282fd11ed79861ccf60963954301024278a11c5c",
+      "currentXmlSha256": "f5de9a8d6e8ee37bc5e635c8282fd11ed79861ccf60963954301024278a11c5c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "和黄估值桥",
+      "part": "xl/worksheets/sheet79.xml",
+      "originalXmlSha256": "eeae12134d7f2c89bc59410db36630b330dda976cd51a1a8b92579816cb448ac",
+      "currentXmlSha256": "6a2c15f90161b61735c18a36b7780ccd6a4ec8f2f3c6a2acde1beab9c0b1a342",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "诺诚资金假设",
+      "part": "xl/worksheets/sheet80.xml",
+      "originalXmlSha256": "19f0872f5236d9072ae476ed17534396399c8f8902d0d7a22e2c0fcdb61712cb",
+      "currentXmlSha256": "19f0872f5236d9072ae476ed17534396399c8f8902d0d7a22e2c0fcdb61712cb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚年度假设",
+      "part": "xl/worksheets/sheet81.xml",
+      "originalXmlSha256": "28dfd256a73d04025675e0bb72a67620f97ab208fc1a22c40ce19419ec9e5086",
+      "currentXmlSha256": "28dfd256a73d04025675e0bb72a67620f97ab208fc1a22c40ce19419ec9e5086",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚新品假设",
+      "part": "xl/worksheets/sheet82.xml",
+      "originalXmlSha256": "66332d5f6b1302a3d8a6d23faf581133c591acd70c8df4a020ad61f027e0964d",
+      "currentXmlSha256": "66332d5f6b1302a3d8a6d23faf581133c591acd70c8df4a020ad61f027e0964d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚爬坡假设",
+      "part": "xl/worksheets/sheet83.xml",
+      "originalXmlSha256": "d01d994a41904851653d0f51cd6c3c86641e69343cfea2d93f5af96f0a0a6f9f",
+      "currentXmlSha256": "d01d994a41904851653d0f51cd6c3c86641e69343cfea2d93f5af96f0a0a6f9f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚风险收入桥",
+      "part": "xl/worksheets/sheet84.xml",
+      "originalXmlSha256": "9b540ef3c3ee55381a6fdcf4f021abfe37fb474eebcfe4d1a30b38ee8f60c429",
+      "currentXmlSha256": "7fbf57a8c2265471fde3ef3b59307d664da972cf28acc52f799a13e31ca93d54",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "诺诚年度经营桥",
+      "part": "xl/worksheets/sheet85.xml",
+      "originalXmlSha256": "cb97edfeea7ae9481c0ff816cbce846eb6d3ea6a1af9ab4c96a086c34d434ec3",
+      "currentXmlSha256": "cb97edfeea7ae9481c0ff816cbce846eb6d3ea6a1af9ab4c96a086c34d434ec3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚FCFF折现桥",
+      "part": "xl/worksheets/sheet86.xml",
+      "originalXmlSha256": "eecd4101d68d48c24151138d649b91ac3c8b08038ce1ea1a22661581551c62a7",
+      "currentXmlSha256": "eecd4101d68d48c24151138d649b91ac3c8b08038ce1ea1a22661581551c62a7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "诺诚估值桥",
+      "part": "xl/worksheets/sheet87.xml",
+      "originalXmlSha256": "7400aed7679e63de10114626c56d2b003d4851cd52235d22b6dcdfa84af6fb34",
+      "currentXmlSha256": "3a8bad4ab0de4f70550582ef9a43c282a1895c567ae7c7b9efdda77f711725a8",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "华虹权益假设",
+      "part": "xl/worksheets/sheet88.xml",
+      "originalXmlSha256": "510611f35aadb8151d7f5d3b2e3e1cfb075b4b957268fcc033bdd726193d7858",
+      "currentXmlSha256": "510611f35aadb8151d7f5d3b2e3e1cfb075b4b957268fcc033bdd726193d7858",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "华虹期限假设",
+      "part": "xl/worksheets/sheet89.xml",
+      "originalXmlSha256": "fe0cc1d89fda48ecdc8f8f38eb0c9ce66abc2c6d54725749410171a06d9e4406",
+      "currentXmlSha256": "fe0cc1d89fda48ecdc8f8f38eb0c9ce66abc2c6d54725749410171a06d9e4406",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "华虹正常经营桥",
+      "part": "xl/worksheets/sheet90.xml",
+      "originalXmlSha256": "d80b23536652cae6baddb4c722f268410e6baeda357530a47bca3af970eb1cdb",
+      "currentXmlSha256": "d80b23536652cae6baddb4c722f268410e6baeda357530a47bca3af970eb1cdb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "华虹净资产PB桥",
+      "part": "xl/worksheets/sheet91.xml",
+      "originalXmlSha256": "353e0c04a96216d9f4596ee0cf926ab523a1c8915d5a6c92a4b2c78187e89963",
+      "currentXmlSha256": "353e0c04a96216d9f4596ee0cf926ab523a1c8915d5a6c92a4b2c78187e89963",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶资金假设",
+      "part": "xl/worksheets/sheet92.xml",
+      "originalXmlSha256": "463bd788c6fd2762ce88af9eb52b0cd2b9a1ffb7e6119f25a6773eaec1058007",
+      "currentXmlSha256": "463bd788c6fd2762ce88af9eb52b0cd2b9a1ffb7e6119f25a6773eaec1058007",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶年度假设",
+      "part": "xl/worksheets/sheet93.xml",
+      "originalXmlSha256": "3ec06d5e48cbe14ca749b236e120a6d94f2c798d868d4f04a202b7b885fffab3",
+      "currentXmlSha256": "3ec06d5e48cbe14ca749b236e120a6d94f2c798d868d4f04a202b7b885fffab3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶新品假设",
+      "part": "xl/worksheets/sheet94.xml",
+      "originalXmlSha256": "ef64efb87484a4db02e8b393b49af8a0623c10e2f1fde356b99e36e55f586485",
+      "currentXmlSha256": "ef64efb87484a4db02e8b393b49af8a0623c10e2f1fde356b99e36e55f586485",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶爬坡假设",
+      "part": "xl/worksheets/sheet95.xml",
+      "originalXmlSha256": "d24b09ad15081c8da5d8490e501dc7e291c8c9ff6a96a169cf75cce817e135a6",
+      "currentXmlSha256": "d24b09ad15081c8da5d8490e501dc7e291c8c9ff6a96a169cf75cce817e135a6",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶风险收入桥",
+      "part": "xl/worksheets/sheet96.xml",
+      "originalXmlSha256": "9836f3e086b335dae5e478b3d06bf3695f00e633ed02bddd8b0b0e55c981d49f",
+      "currentXmlSha256": "e0a58d6e2ed0dec525dfd453f00ee0d1cb21efe006d56c237a222f83a2b12fd0",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "云顶年度经营桥",
+      "part": "xl/worksheets/sheet97.xml",
+      "originalXmlSha256": "0c20d0faf663cab8dd9b6a6a090e8c567a634cc97c363d7d07e58532111b04e6",
+      "currentXmlSha256": "0c20d0faf663cab8dd9b6a6a090e8c567a634cc97c363d7d07e58532111b04e6",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶FCFF折现桥",
+      "part": "xl/worksheets/sheet98.xml",
+      "originalXmlSha256": "0c1e48eaf885f6ffe843230f80cc177d4fe57fa5d222797b05e8d3986e010098",
+      "currentXmlSha256": "0c1e48eaf885f6ffe843230f80cc177d4fe57fa5d222797b05e8d3986e010098",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "云顶估值桥",
+      "part": "xl/worksheets/sheet99.xml",
+      "originalXmlSha256": "612ab6ffd094289a33bd1e7e852bd177efb44e285643b434f5712b085661fe59",
+      "currentXmlSha256": "612ab6ffd094289a33bd1e7e852bd177efb44e285643b434f5712b085661fe59",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "心动经营假设",
+      "part": "xl/worksheets/sheet100.xml",
+      "originalXmlSha256": "ecebbc9b443231240a5af84b714e0c2ca940ace32e96ad3b14bcefe0bfce51bb",
+      "currentXmlSha256": "ecebbc9b443231240a5af84b714e0c2ca940ace32e96ad3b14bcefe0bfce51bb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "心动正常利润桥",
+      "part": "xl/worksheets/sheet101.xml",
+      "originalXmlSha256": "f8773c5f5cdb68c0a07286282139826d3909311a17429d46b123f96d8872c7cd",
+      "currentXmlSha256": "f8773c5f5cdb68c0a07286282139826d3909311a17429d46b123f96d8872c7cd",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "心动股本PE桥",
+      "part": "xl/worksheets/sheet102.xml",
+      "originalXmlSha256": "a87a0855c9b2022f4ee39ca739ea63c2b8c2922f8172b90e6ce9bbfff2cb684c",
+      "currentXmlSha256": "a87a0855c9b2022f4ee39ca739ea63c2b8c2922f8172b90e6ce9bbfff2cb684c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "金山经营及权益假设",
+      "part": "xl/worksheets/sheet103.xml",
+      "originalXmlSha256": "1dc6b2764fe5d37aac8b1845a934f93a3a95ee7c8e96e47aa33eaf5d3d147927",
+      "currentXmlSha256": "96589ed51fcd19ae46a280e943afe5e2e472ac4270f0be23025258bbabc5a9bf",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "金山正常利润桥",
+      "part": "xl/worksheets/sheet104.xml",
+      "originalXmlSha256": "4976205b82c5fbc2cd6ea563f048f14bc13c3f8085cedc4089c430ac75996d7b",
+      "currentXmlSha256": "4976205b82c5fbc2cd6ea563f048f14bc13c3f8085cedc4089c430ac75996d7b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "金山归母SOTP桥",
+      "part": "xl/worksheets/sheet105.xml",
+      "originalXmlSha256": "e7a04884d2f999c41545ceb62fb5ed3ff9abd06e0fba74bcb17919ddf2ac3c8b",
+      "currentXmlSha256": "e7a04884d2f999c41545ceb62fb5ed3ff9abd06e0fba74bcb17919ddf2ac3c8b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "亚盛资金假设",
+      "part": "xl/worksheets/sheet106.xml",
+      "originalXmlSha256": "51e854d077a99a8426a4e12861ee4f00be22d71b3ba3f075f835031f39ae77d4",
+      "currentXmlSha256": "87a2f3c5de7a56e39d0be020e11c319935608a087abca07929d6e1f9118a4aaa",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "亚盛年度假设",
+      "part": "xl/worksheets/sheet107.xml",
+      "originalXmlSha256": "2979afe0d85011c03c8bcb3d6bb4daa188dcd8946d5377bc9435635901867bd0",
+      "currentXmlSha256": "2979afe0d85011c03c8bcb3d6bb4daa188dcd8946d5377bc9435635901867bd0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "亚盛新品假设",
+      "part": "xl/worksheets/sheet108.xml",
+      "originalXmlSha256": "5b7bd3e8d1e2a4b930e59e6435627f1f95314cce565493da8a6c2463db8edda0",
+      "currentXmlSha256": "5b7bd3e8d1e2a4b930e59e6435627f1f95314cce565493da8a6c2463db8edda0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "亚盛爬坡假设",
+      "part": "xl/worksheets/sheet109.xml",
+      "originalXmlSha256": "2ca37a08c65974af431ca55d2e86145152b0f614276a8f0155d1f5186369c993",
+      "currentXmlSha256": "2ca37a08c65974af431ca55d2e86145152b0f614276a8f0155d1f5186369c993",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "亚盛风险收入桥",
+      "part": "xl/worksheets/sheet110.xml",
+      "originalXmlSha256": "6e62218b6d1f373245f51a317513a813981a8f650394c0ccdeb504ab339740a2",
+      "currentXmlSha256": "75fe00b76e69e830e7a7e90ee94eb234d6e01fd9d864da61916dd56fc80670db",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "亚盛年度经营桥",
+      "part": "xl/worksheets/sheet111.xml",
+      "originalXmlSha256": "b2bc0e60eef2651c8fc679a65d79f3bb74a8c51d95373269a5274b5e8b840194",
+      "currentXmlSha256": "ee212b4c02ae24bb08e8a54560c90651c6f24c950a65e187dd188f7d03317bef",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "亚盛现金折现桥",
+      "part": "xl/worksheets/sheet112.xml",
+      "originalXmlSha256": "69a40f7b6a17c6670dee13e24b64aa619456f82b5362dd0ad8823a4f5b229baa",
+      "currentXmlSha256": "69a40f7b6a17c6670dee13e24b64aa619456f82b5362dd0ad8823a4f5b229baa",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "亚盛估值桥",
+      "part": "xl/worksheets/sheet113.xml",
+      "originalXmlSha256": "432e6bc9fa2cdf7883a7c5adb1097ab8b12ed1ab864f75ef585ccc564252ff9e",
+      "currentXmlSha256": "432e6bc9fa2cdf7883a7c5adb1097ab8b12ed1ab864f75ef585ccc564252ff9e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "阅文经营现金假设",
+      "part": "xl/worksheets/sheet114.xml",
+      "originalXmlSha256": "3a33867c90502243ba511eeb44a8f4b41779bd7001d6148d6813af2a7a4fee11",
+      "currentXmlSha256": "984e35eef8fba7fbf21f88176b11a8c5061e53bb6db0bdf1310e82123221c3f6",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "阅文正常利润桥",
+      "part": "xl/worksheets/sheet115.xml",
+      "originalXmlSha256": "3325984e052ea505f88c4a7dd6b95ec9f2077b971bd64fff713a12b09f413480",
+      "currentXmlSha256": "3325984e052ea505f88c4a7dd6b95ec9f2077b971bd64fff713a12b09f413480",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "阅文现金权益桥",
+      "part": "xl/worksheets/sheet116.xml",
+      "originalXmlSha256": "6b2bb0178748299402e92a537c4f17cbf8044655e0c2870624ecb3f06d4dd76c",
+      "currentXmlSha256": "6b2bb0178748299402e92a537c4f17cbf8044655e0c2870624ecb3f06d4dd76c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰资金假设",
+      "part": "xl/worksheets/sheet117.xml",
+      "originalXmlSha256": "3d53b644eccd226813c62e1d23ee678e50157e5d53e362b53243f590fbd7cfa8",
+      "currentXmlSha256": "3d53b644eccd226813c62e1d23ee678e50157e5d53e362b53243f590fbd7cfa8",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰年度假设",
+      "part": "xl/worksheets/sheet118.xml",
+      "originalXmlSha256": "9e571f77414c68b5885542a762c55c5ef5f1632df26165e6c8ae7b85c7def336",
+      "currentXmlSha256": "9e571f77414c68b5885542a762c55c5ef5f1632df26165e6c8ae7b85c7def336",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰药物假设",
+      "part": "xl/worksheets/sheet119.xml",
+      "originalXmlSha256": "c962ba6232088db4b9729047cea4727bdc3751f919b623f06ab6bc7bdbbd3d6f",
+      "currentXmlSha256": "c962ba6232088db4b9729047cea4727bdc3751f919b623f06ab6bc7bdbbd3d6f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰开发假设",
+      "part": "xl/worksheets/sheet120.xml",
+      "originalXmlSha256": "bca98ec96d38f1f761728ab0cd4457c5d93e464c6c74ec87ec2c32d0baadc202",
+      "currentXmlSha256": "bca98ec96d38f1f761728ab0cd4457c5d93e464c6c74ec87ec2c32d0baadc202",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰风险收入",
+      "part": "xl/worksheets/sheet121.xml",
+      "originalXmlSha256": "27a0d6224d1ea15b2e9f58dba8079897956479e14e839c100c0da3e001370ac4",
+      "currentXmlSha256": "27a0d6224d1ea15b2e9f58dba8079897956479e14e839c100c0da3e001370ac4",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰经营资金",
+      "part": "xl/worksheets/sheet122.xml",
+      "originalXmlSha256": "50d8541cbbaefe6e7cd47f97a135ca85485946710b22a6dffbbcb9683fc13b81",
+      "currentXmlSha256": "50d8541cbbaefe6e7cd47f97a135ca85485946710b22a6dffbbcb9683fc13b81",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰股东现金流",
+      "part": "xl/worksheets/sheet123.xml",
+      "originalXmlSha256": "8d884dd0433f7116b23a919354b76c874c1bcb6738d297b85fc9457bf56f6280",
+      "currentXmlSha256": "8d884dd0433f7116b23a919354b76c874c1bcb6738d297b85fc9457bf56f6280",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君圣泰估值",
+      "part": "xl/worksheets/sheet124.xml",
+      "originalXmlSha256": "2cab2541a41ec53ed22b5eb9510fba885992d40d234f0baddcaa4a77f93f4c3e",
+      "currentXmlSha256": "2cab2541a41ec53ed22b5eb9510fba885992d40d234f0baddcaa4a77f93f4c3e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同程经营资本假设",
+      "part": "xl/worksheets/sheet125.xml",
+      "originalXmlSha256": "e8ce7f507f11a8cde4d068867377864129a1d4dabfe268708e0311f45277eff6",
+      "currentXmlSha256": "e8ce7f507f11a8cde4d068867377864129a1d4dabfe268708e0311f45277eff6",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同程正常利润桥",
+      "part": "xl/worksheets/sheet126.xml",
+      "originalXmlSha256": "5eaa36fb798259fce95b825367a47995c3c4dfcd04d971ce77646b49dacbb1d5",
+      "currentXmlSha256": "5eaa36fb798259fce95b825367a47995c3c4dfcd04d971ce77646b49dacbb1d5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同程现金债务桥",
+      "part": "xl/worksheets/sheet127.xml",
+      "originalXmlSha256": "06d863c956cfc4cc390edb0f45d14f35c1d7fe3af12c4d267e5409c3388d19e8",
+      "currentXmlSha256": "06d863c956cfc4cc390edb0f45d14f35c1d7fe3af12c4d267e5409c3388d19e8",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "同程每股估值桥",
+      "part": "xl/worksheets/sheet128.xml",
+      "originalXmlSha256": "111e3c876a81d062c65d570c4c30761282ff4f7670def0356ea201b670c0f600",
+      "currentXmlSha256": "111e3c876a81d062c65d570c4c30761282ff4f7670def0356ea201b670c0f600",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩资金假设",
+      "part": "xl/worksheets/sheet129.xml",
+      "originalXmlSha256": "2528c56a15348707dc80f4d54183d7a50d4a994342de0f55ac358f1bad115f84",
+      "currentXmlSha256": "2528c56a15348707dc80f4d54183d7a50d4a994342de0f55ac358f1bad115f84",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩年度假设",
+      "part": "xl/worksheets/sheet130.xml",
+      "originalXmlSha256": "568c655a1ff693d482961b4b0072fa9f86f2ec16d0966e6dc67dd20b9664a50e",
+      "currentXmlSha256": "568c655a1ff693d482961b4b0072fa9f86f2ec16d0966e6dc67dd20b9664a50e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩新品假设",
+      "part": "xl/worksheets/sheet131.xml",
+      "originalXmlSha256": "bdd0a00fb3d4d57c9a958f687fbaab4a8b74feee4991e662a5ac5a2237b8a5e4",
+      "currentXmlSha256": "bdd0a00fb3d4d57c9a958f687fbaab4a8b74feee4991e662a5ac5a2237b8a5e4",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩爬坡假设",
+      "part": "xl/worksheets/sheet132.xml",
+      "originalXmlSha256": "8de18820db13dc4102db1e7b28d865066f9c3d89027e12137f580fda29b6f07e",
+      "currentXmlSha256": "8de18820db13dc4102db1e7b28d865066f9c3d89027e12137f580fda29b6f07e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩风险收入桥",
+      "part": "xl/worksheets/sheet133.xml",
+      "originalXmlSha256": "48d5a39267cb5ee433c71b411e90bf6cd933bb4d2a51988df5dd6410f133eae2",
+      "currentXmlSha256": "d5a6b76e4588ff3571acb6523c89780377b819eb0e69b11a3af2e93f98ca105d",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "映恩年度经营桥",
+      "part": "xl/worksheets/sheet134.xml",
+      "originalXmlSha256": "d016f99bc3801884108a49bd56c5d679b25ce2c0c746538ea86c5ee11fd43da5",
+      "currentXmlSha256": "6e1939eac558e3212f865700dbba0297846025b3d80ef652a9bb0861bad21e1f",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "映恩现金折现桥",
+      "part": "xl/worksheets/sheet135.xml",
+      "originalXmlSha256": "6066fb0907189326717a3c7605e5312b2e45d1c743cef17b1ad84532f01ba5e7",
+      "currentXmlSha256": "6066fb0907189326717a3c7605e5312b2e45d1c743cef17b1ad84532f01ba5e7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "映恩估值桥",
+      "part": "xl/worksheets/sheet136.xml",
+      "originalXmlSha256": "744d6fd61a2619aace2dbbf3a648a343f3cf52fb7fa2d902dd088e4f2835a26f",
+      "currentXmlSha256": "744d6fd61a2619aace2dbbf3a648a343f3cf52fb7fa2d902dd088e4f2835a26f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "理想经营资本假设",
+      "part": "xl/worksheets/sheet137.xml",
+      "originalXmlSha256": "16db7a7a3e6263b8df2f33bfdd83c4931d4bb6497c1c6cd0c6cf1a9f5a991dc3",
+      "currentXmlSha256": "16db7a7a3e6263b8df2f33bfdd83c4931d4bb6497c1c6cd0c6cf1a9f5a991dc3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "理想量价利润桥",
+      "part": "xl/worksheets/sheet138.xml",
+      "originalXmlSha256": "684a54385046b6dc17d1a09cdba869265da950ef68544abcf91f357cd9b2cf57",
+      "currentXmlSha256": "684a54385046b6dc17d1a09cdba869265da950ef68544abcf91f357cd9b2cf57",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "理想现金股数桥",
+      "part": "xl/worksheets/sheet139.xml",
+      "originalXmlSha256": "c58fa580b56c176c32e703577545e24bb8c1fafcb3fe4ca9867f02725dd09be0",
+      "currentXmlSha256": "c58fa580b56c176c32e703577545e24bb8c1fafcb3fe4ca9867f02725dd09be0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "理想经营估值桥",
+      "part": "xl/worksheets/sheet140.xml",
+      "originalXmlSha256": "6572453bed57954ce67d518cfee53e55104278778e11f4938bfc48aee8f0beed",
+      "currentXmlSha256": "6572453bed57954ce67d518cfee53e55104278778e11f4938bfc48aee8f0beed",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎资金假设",
+      "part": "xl/worksheets/sheet141.xml",
+      "originalXmlSha256": "2694bca29cc1ebbb128933df861866687e3aa36865a2be93499fc613989ff59e",
+      "currentXmlSha256": "2694bca29cc1ebbb128933df861866687e3aa36865a2be93499fc613989ff59e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎年度假设",
+      "part": "xl/worksheets/sheet142.xml",
+      "originalXmlSha256": "f2ff5dd5920bae5f99e0b4ac54d734286ce1892a2905581025f118a31e1970f7",
+      "currentXmlSha256": "f2ff5dd5920bae5f99e0b4ac54d734286ce1892a2905581025f118a31e1970f7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎新品假设",
+      "part": "xl/worksheets/sheet143.xml",
+      "originalXmlSha256": "2a3738501008e239e596485b51af886522570dc096925333890b2da0e8f76309",
+      "currentXmlSha256": "2a3738501008e239e596485b51af886522570dc096925333890b2da0e8f76309",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎爬坡假设",
+      "part": "xl/worksheets/sheet144.xml",
+      "originalXmlSha256": "58776e9d50dd97409c292709096a17859a7a6d9098d53e78d5d7c7f1a63d39a8",
+      "currentXmlSha256": "58776e9d50dd97409c292709096a17859a7a6d9098d53e78d5d7c7f1a63d39a8",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎风险收入桥",
+      "part": "xl/worksheets/sheet145.xml",
+      "originalXmlSha256": "fb6eac71cd685784beb3eee379e7a88344a01240c3b3b1391754d4623cbee40e",
+      "currentXmlSha256": "fb6eac71cd685784beb3eee379e7a88344a01240c3b3b1391754d4623cbee40e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎年度经营桥",
+      "part": "xl/worksheets/sheet146.xml",
+      "originalXmlSha256": "97a5a0dfed4a77b7539ed35ff790f845bb5a1b1e37035afc7600f1f2229b684c",
+      "currentXmlSha256": "0fa1774579ef2bce5bdecd2194811cdbdd7cf37bdca3e207090d98c9879bc414",
+      "byteIdentical": false
+    },
+    {
+      "sheet": "再鼎现金折现桥",
+      "part": "xl/worksheets/sheet147.xml",
+      "originalXmlSha256": "cb2864039de094b5813c7ff907cc91d440a9f015558e373fe1ae16b2e9b69383",
+      "currentXmlSha256": "cb2864039de094b5813c7ff907cc91d440a9f015558e373fe1ae16b2e9b69383",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "再鼎估值桥",
+      "part": "xl/worksheets/sheet148.xml",
+      "originalXmlSha256": "7db47434f638a2aa7f6fa5852c895331daf101549a164dc8a4238f85e3a5915b",
+      "currentXmlSha256": "7db47434f638a2aa7f6fa5852c895331daf101549a164dc8a4238f85e3a5915b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "小鹏经营资本假设",
+      "part": "xl/worksheets/sheet149.xml",
+      "originalXmlSha256": "85c44b1b3692da15c924e77211503e2da1e5947a3467e627f7939e740c674467",
+      "currentXmlSha256": "85c44b1b3692da15c924e77211503e2da1e5947a3467e627f7939e740c674467",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "小鹏汽车技术利润桥",
+      "part": "xl/worksheets/sheet150.xml",
+      "originalXmlSha256": "0fc07db0ff8dec20d4ee48b2d0e652f2308b6dc1431e3662bccbcd928f7e9b06",
+      "currentXmlSha256": "0fc07db0ff8dec20d4ee48b2d0e652f2308b6dc1431e3662bccbcd928f7e9b06",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "小鹏机器人优先权桥",
+      "part": "xl/worksheets/sheet151.xml",
+      "originalXmlSha256": "28c9abfb73c61ae172ff2d4878936d9ffea87013cc6c274b2a6fdb41e8ee9dd3",
+      "currentXmlSha256": "28c9abfb73c61ae172ff2d4878936d9ffea87013cc6c274b2a6fdb41e8ee9dd3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "小鹏现金每股估值桥",
+      "part": "xl/worksheets/sheet152.xml",
+      "originalXmlSha256": "c9f5464638a2ea6914798cd2e41deb65fefe860aed2644ba18a3ec8792680f7e",
+      "currentXmlSha256": "c9f5464638a2ea6914798cd2e41deb65fefe860aed2644ba18a3ec8792680f7e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "海尔资金假设",
+      "part": "xl/worksheets/sheet153.xml",
+      "originalXmlSha256": "e53ca0cf16173ebf95e7164461830e4331fb610c7c12d276595beec0bdcd7164",
+      "currentXmlSha256": "e53ca0cf16173ebf95e7164461830e4331fb610c7c12d276595beec0bdcd7164",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "海尔年度假设",
+      "part": "xl/worksheets/sheet154.xml",
+      "originalXmlSha256": "d0c7bb08aa03979df805b9609509bb2a6ac63c6fb83e9cfeaba38a51500da9f0",
+      "currentXmlSha256": "d0c7bb08aa03979df805b9609509bb2a6ac63c6fb83e9cfeaba38a51500da9f0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "海尔年度经营桥",
+      "part": "xl/worksheets/sheet155.xml",
+      "originalXmlSha256": "37ac883f30ec4d14531a9501cc682a20032a874e5e6a9b3487f09de7e63bd92b",
+      "currentXmlSha256": "37ac883f30ec4d14531a9501cc682a20032a874e5e6a9b3487f09de7e63bd92b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "海尔期限估值桥",
+      "part": "xl/worksheets/sheet156.xml",
+      "originalXmlSha256": "569273f7f086dba4630a1b2757ab978ad05ad46fe7400bd0f030de66414aa9d0",
+      "currentXmlSha256": "569273f7f086dba4630a1b2757ab978ad05ad46fe7400bd0f030de66414aa9d0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "蔚来经营资本假设",
+      "part": "xl/worksheets/sheet157.xml",
+      "originalXmlSha256": "374f6e4008c8095d49e005d70a0afe96f8376031e69a3e0ceba2e905e2df2e94",
+      "currentXmlSha256": "374f6e4008c8095d49e005d70a0afe96f8376031e69a3e0ceba2e905e2df2e94",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "蔚来完整利润现金桥",
+      "part": "xl/worksheets/sheet158.xml",
+      "originalXmlSha256": "0a96929a6d29a1535846c795c62efc5cdaa600cdb2f5b78ab1048ac67596f08b",
+      "currentXmlSha256": "0a96929a6d29a1535846c795c62efc5cdaa600cdb2f5b78ab1048ac67596f08b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "蔚来夹层少数资本桥",
+      "part": "xl/worksheets/sheet159.xml",
+      "originalXmlSha256": "114d1fa5fd7834db6bef5762460cc22fcf2fbb393830e72c38b202a80e599100",
+      "currentXmlSha256": "114d1fa5fd7834db6bef5762460cc22fcf2fbb393830e72c38b202a80e599100",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "蔚来每股估值桥",
+      "part": "xl/worksheets/sheet160.xml",
+      "originalXmlSha256": "33d2bc4ef9bc9d20886678134e20afa22ceb7b82c1f31a0dbcf15ae1dc38642f",
+      "currentXmlSha256": "33d2bc4ef9bc9d20886678134e20afa22ceb7b82c1f31a0dbcf15ae1dc38642f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "比电子资金假设",
+      "part": "xl/worksheets/sheet161.xml",
+      "originalXmlSha256": "ba66504653de0869b102f16a37153650f6e414ed62ed2e3a865dfdb8aca100a5",
+      "currentXmlSha256": "ba66504653de0869b102f16a37153650f6e414ed62ed2e3a865dfdb8aca100a5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "比电子年度假设",
+      "part": "xl/worksheets/sheet162.xml",
+      "originalXmlSha256": "bc96d2811899c273991c06b1cbdff57f356d2841c57004add40162315f91e235",
+      "currentXmlSha256": "bc96d2811899c273991c06b1cbdff57f356d2841c57004add40162315f91e235",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "比电子经营资金桥",
+      "part": "xl/worksheets/sheet163.xml",
+      "originalXmlSha256": "22ded15b3b79004556a8d335863c28997fbf98c9e198231973c54da2a3254fb2",
+      "currentXmlSha256": "22ded15b3b79004556a8d335863c28997fbf98c9e198231973c54da2a3254fb2",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "比电子期限估值桥",
+      "part": "xl/worksheets/sheet164.xml",
+      "originalXmlSha256": "fa52f00397c193dd8a9585264444c468cee362928e405e9c60aeaaf36e90afec",
+      "currentXmlSha256": "fa52f00397c193dd8a9585264444c468cee362928e405e9c60aeaaf36e90afec",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普资金假设",
+      "part": "xl/worksheets/sheet165.xml",
+      "originalXmlSha256": "e3ae8d336779f987feb445ab3816d68eda316051b536ba588f13a7da62fd7ef7",
+      "currentXmlSha256": "e3ae8d336779f987feb445ab3816d68eda316051b536ba588f13a7da62fd7ef7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普年度假设",
+      "part": "xl/worksheets/sheet166.xml",
+      "originalXmlSha256": "9ea63c4ed25b5cc494d5013d603c1f0e2795d543224519d32ce6c3de5279c37f",
+      "currentXmlSha256": "9ea63c4ed25b5cc494d5013d603c1f0e2795d543224519d32ce6c3de5279c37f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普新品假设",
+      "part": "xl/worksheets/sheet167.xml",
+      "originalXmlSha256": "f5225759b2cab5252b091a55912a85bae88f02809cdbd048fb32069346839502",
+      "currentXmlSha256": "f5225759b2cab5252b091a55912a85bae88f02809cdbd048fb32069346839502",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普爬坡假设",
+      "part": "xl/worksheets/sheet168.xml",
+      "originalXmlSha256": "9a7b235f8abcfa5a63d88dea3d1a2bb2cddc1d3037e13f3eff44a68833fad7cf",
+      "currentXmlSha256": "9a7b235f8abcfa5a63d88dea3d1a2bb2cddc1d3037e13f3eff44a68833fad7cf",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普风险收入桥",
+      "part": "xl/worksheets/sheet169.xml",
+      "originalXmlSha256": "6088656727711959c2a14b6e110feeb1b28227a6e533e4b61facde56e778c475",
+      "currentXmlSha256": "6088656727711959c2a14b6e110feeb1b28227a6e533e4b61facde56e778c475",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普年度经营桥",
+      "part": "xl/worksheets/sheet170.xml",
+      "originalXmlSha256": "80fe2674f1a3ae86a4986842f877c193ce875b5b87e58e7c275e3fbf8b1b5611",
+      "currentXmlSha256": "80fe2674f1a3ae86a4986842f877c193ce875b5b87e58e7c275e3fbf8b1b5611",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普现金折现桥",
+      "part": "xl/worksheets/sheet171.xml",
+      "originalXmlSha256": "307506266f6922bb301cb9d7a5651a16978a8e7cecc1add10fccef81f9531ae5",
+      "currentXmlSha256": "307506266f6922bb301cb9d7a5651a16978a8e7cecc1add10fccef81f9531ae5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "乐普估值桥",
+      "part": "xl/worksheets/sheet172.xml",
+      "originalXmlSha256": "7f9c0b5c8acdf563d4caf297591bd9971884e3a5aa503f5b402bc1be74cc1da7",
+      "currentXmlSha256": "7f9c0b5c8acdf563d4caf297591bd9971884e3a5aa503f5b402bc1be74cc1da7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "MiniMax经营资本假设",
+      "part": "xl/worksheets/sheet173.xml",
+      "originalXmlSha256": "a7a5fd8c706d2c8f7c5dce070c3c03d56913a889043bd542f78f980cad7c92e3",
+      "currentXmlSha256": "a7a5fd8c706d2c8f7c5dce070c3c03d56913a889043bd542f78f980cad7c92e3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "MiniMax完整利润现金桥",
+      "part": "xl/worksheets/sheet174.xml",
+      "originalXmlSha256": "1bd325401ddf74e15c81199110ab794ad7fc048445fbe4d0d626a70161f65cfe",
+      "currentXmlSha256": "1bd325401ddf74e15c81199110ab794ad7fc048445fbe4d0d626a70161f65cfe",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "MiniMax融资债券股数桥",
+      "part": "xl/worksheets/sheet175.xml",
+      "originalXmlSha256": "984cb29aa0b3df2c7fc09c1e75c89a7dc98603b8ef27e45b5cb04b93f124fb54",
+      "currentXmlSha256": "984cb29aa0b3df2c7fc09c1e75c89a7dc98603b8ef27e45b5cb04b93f124fb54",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "MiniMax每股估值桥",
+      "part": "xl/worksheets/sheet176.xml",
+      "originalXmlSha256": "e5df8f6550e7f2aaaafd7a62c11075d524714aaa80f9d5b429015879a57513c0",
+      "currentXmlSha256": "e5df8f6550e7f2aaaafd7a62c11075d524714aaa80f9d5b429015879a57513c0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "广核资金假设",
+      "part": "xl/worksheets/sheet177.xml",
+      "originalXmlSha256": "9488c741248fa35c37655706fbc31084d4c8c470b58da872433d906b263eb69d",
+      "currentXmlSha256": "9488c741248fa35c37655706fbc31084d4c8c470b58da872433d906b263eb69d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "广核年度假设",
+      "part": "xl/worksheets/sheet178.xml",
+      "originalXmlSha256": "eddd48645ad34a421573eadebd9be8d21083b5d4c49c7ed1feaea3ffda892d04",
+      "currentXmlSha256": "eddd48645ad34a421573eadebd9be8d21083b5d4c49c7ed1feaea3ffda892d04",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "广核经营资金桥",
+      "part": "xl/worksheets/sheet179.xml",
+      "originalXmlSha256": "0bf51885d0a1abd005f8914dfb9496ef937be413d90ba80d60aa1dbe1f62eeb5",
+      "currentXmlSha256": "0bf51885d0a1abd005f8914dfb9496ef937be413d90ba80d60aa1dbe1f62eeb5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "广核期限估值桥",
+      "part": "xl/worksheets/sheet180.xml",
+      "originalXmlSha256": "b19767b81ad77e3c5152c05dfcc0c310b04b6e3c9d52d35c6219ade289827a51",
+      "currentXmlSha256": "b19767b81ad77e3c5152c05dfcc0c310b04b6e3c9d52d35c6219ade289827a51",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实资金假设",
+      "part": "xl/worksheets/sheet181.xml",
+      "originalXmlSha256": "ee7393be14d105bc50bc172f22d57984ed97525cba6ec945b18870df18d3a014",
+      "currentXmlSha256": "ee7393be14d105bc50bc172f22d57984ed97525cba6ec945b18870df18d3a014",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实年度假设",
+      "part": "xl/worksheets/sheet182.xml",
+      "originalXmlSha256": "9394fa6dbd12fc5265668dbe4f984b71be1dc8e0bb0c52ea7d8c81adf573242f",
+      "currentXmlSha256": "9394fa6dbd12fc5265668dbe4f984b71be1dc8e0bb0c52ea7d8c81adf573242f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实新品假设",
+      "part": "xl/worksheets/sheet183.xml",
+      "originalXmlSha256": "008f4a2a131263f670780ecb5975eecd929fa33f8960c716e85469663549351a",
+      "currentXmlSha256": "008f4a2a131263f670780ecb5975eecd929fa33f8960c716e85469663549351a",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实爬坡假设",
+      "part": "xl/worksheets/sheet184.xml",
+      "originalXmlSha256": "1bfdbcb67830710ef67d4d064b089c13575e29f8aae6f9a2ffa8c3c325ea5271",
+      "currentXmlSha256": "1bfdbcb67830710ef67d4d064b089c13575e29f8aae6f9a2ffa8c3c325ea5271",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实风险收入桥",
+      "part": "xl/worksheets/sheet185.xml",
+      "originalXmlSha256": "426101f737b1362ffb08b1d406def2ddafa1d9f142daeb959e3f1ccb9714b806",
+      "currentXmlSha256": "426101f737b1362ffb08b1d406def2ddafa1d9f142daeb959e3f1ccb9714b806",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实年度经营桥",
+      "part": "xl/worksheets/sheet186.xml",
+      "originalXmlSha256": "2e8e58190276cbff3f17a802f9d9ddb09901a731014512eb47019ba1c8494f87",
+      "currentXmlSha256": "2e8e58190276cbff3f17a802f9d9ddb09901a731014512eb47019ba1c8494f87",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实现金折现桥",
+      "part": "xl/worksheets/sheet187.xml",
+      "originalXmlSha256": "d0b46dc6a1ee8dc675fb3fcb3212d2d092c4af49a1e1771ccae10e1dee341788",
+      "currentXmlSha256": "d0b46dc6a1ee8dc675fb3fcb3212d2d092c4af49a1e1771ccae10e1dee341788",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "君实估值桥",
+      "part": "xl/worksheets/sheet188.xml",
+      "originalXmlSha256": "8ac2af60b8949bb08915b508225e716020f32d34313c283cbec74e593a2e441a",
+      "currentXmlSha256": "8ac2af60b8949bb08915b508225e716020f32d34313c283cbec74e593a2e441a",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "智谱经营资本假设",
+      "part": "xl/worksheets/sheet189.xml",
+      "originalXmlSha256": "51a9a59eef581c9fb966f203c0d302b35e142e1e070927b63be3ae051f40883f",
+      "currentXmlSha256": "51a9a59eef581c9fb966f203c0d302b35e142e1e070927b63be3ae051f40883f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "智谱完整利润现金桥",
+      "part": "xl/worksheets/sheet190.xml",
+      "originalXmlSha256": "f7f661df6c4af6edce9edee91f536f70a22f9dc135129c8c837f5767f9990b5d",
+      "currentXmlSha256": "f7f661df6c4af6edce9edee91f536f70a22f9dc135129c8c837f5767f9990b5d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "智谱融资债券股数桥",
+      "part": "xl/worksheets/sheet191.xml",
+      "originalXmlSha256": "972462318a2e8a1212ab66c5f8f748d62d9bda55f49f58769067bfbe1b569c0d",
+      "currentXmlSha256": "972462318a2e8a1212ab66c5f8f748d62d9bda55f49f58769067bfbe1b569c0d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "智谱每股估值桥",
+      "part": "xl/worksheets/sheet192.xml",
+      "originalXmlSha256": "c2bef4029e7b16c22671c11284c4162d90e1ac1dcde1c1e3c22a63418c9b4255",
+      "currentXmlSha256": "c2bef4029e7b16c22671c11284c4162d90e1ac1dcde1c1e3c22a63418c9b4255",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "甄选资金假设",
+      "part": "xl/worksheets/sheet193.xml",
+      "originalXmlSha256": "cdc71e7a8f84588b2840665ccd87810f505bfb0cde2c7c0fab0fcfb11234d010",
+      "currentXmlSha256": "cdc71e7a8f84588b2840665ccd87810f505bfb0cde2c7c0fab0fcfb11234d010",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "甄选财年假设",
+      "part": "xl/worksheets/sheet194.xml",
+      "originalXmlSha256": "e56e3d48421cf15d87dd2f8e6664076231becdb528973851183bb7941a66bf60",
+      "currentXmlSha256": "e56e3d48421cf15d87dd2f8e6664076231becdb528973851183bb7941a66bf60",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "甄选经营资金桥",
+      "part": "xl/worksheets/sheet195.xml",
+      "originalXmlSha256": "e1c0230dd4ce1b847436e152e9bb3b7619ca527825359bd8a9333034806de687",
+      "currentXmlSha256": "e1c0230dd4ce1b847436e152e9bb3b7619ca527825359bd8a9333034806de687",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "甄选期限估值桥",
+      "part": "xl/worksheets/sheet196.xml",
+      "originalXmlSha256": "643d2c844a7774f2dd7c4cf6595e1a6cd0a10586e9084e991a6d7df8a3125b74",
+      "currentXmlSha256": "643d2c844a7774f2dd7c4cf6595e1a6cd0a10586e9084e991a6d7df8a3125b74",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "优必选经营资本假设",
+      "part": "xl/worksheets/sheet197.xml",
+      "originalXmlSha256": "16e6fddf1b62c967e646e2a6d833d72f396ffe3eb71cce784e33c427b4c9d83f",
+      "currentXmlSha256": "16e6fddf1b62c967e646e2a6d833d72f396ffe3eb71cce784e33c427b4c9d83f",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "优必选完整利润现金桥",
+      "part": "xl/worksheets/sheet198.xml",
+      "originalXmlSha256": "d58d0627b6b9947ae923715aafb33584dbc6f8c9121ae5bbb18c2221e77200ed",
+      "currentXmlSha256": "d58d0627b6b9947ae923715aafb33584dbc6f8c9121ae5bbb18c2221e77200ed",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "优必选融资现金股数桥",
+      "part": "xl/worksheets/sheet199.xml",
+      "originalXmlSha256": "1e3e695a96511697f5fafb2f111b3c6ecb1300f0d5a2d29675740512a2132a4a",
+      "currentXmlSha256": "1e3e695a96511697f5fafb2f111b3c6ecb1300f0d5a2d29675740512a2132a4a",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "优必选分业务权益桥",
+      "part": "xl/worksheets/sheet200.xml",
+      "originalXmlSha256": "c3e869ad59e5b5a508aa39b9690ddf31340ee87d72279809582f39bde1b3910c",
+      "currentXmlSha256": "c3e869ad59e5b5a508aa39b9690ddf31340ee87d72279809582f39bde1b3910c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "商汤资产假设",
+      "part": "xl/worksheets/sheet201.xml",
+      "originalXmlSha256": "450a2bc6e2c9a0f3e82657a06ee88f6e66b1f43488cf56a713f8091763d124a3",
+      "currentXmlSha256": "450a2bc6e2c9a0f3e82657a06ee88f6e66b1f43488cf56a713f8091763d124a3",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "商汤年度假设",
+      "part": "xl/worksheets/sheet202.xml",
+      "originalXmlSha256": "61c8f9fbc78385426c893658efffd89f9d552ec0f13046e2e05fc596acc06249",
+      "currentXmlSha256": "61c8f9fbc78385426c893658efffd89f9d552ec0f13046e2e05fc596acc06249",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "商汤经营资金桥",
+      "part": "xl/worksheets/sheet203.xml",
+      "originalXmlSha256": "58e5e1bc75b19ceeca6956c8ea0467301148083eae261362119ebe0a3d0f9531",
+      "currentXmlSha256": "58e5e1bc75b19ceeca6956c8ea0467301148083eae261362119ebe0a3d0f9531",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "商汤期限估值桥",
+      "part": "xl/worksheets/sheet204.xml",
+      "originalXmlSha256": "10e2fd0d3065856d42390031c3d5e392061cbf413314bc86f437cc162809786b",
+      "currentXmlSha256": "10e2fd0d3065856d42390031c3d5e392061cbf413314bc86f437cc162809786b",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺资金假设",
+      "part": "xl/worksheets/sheet205.xml",
+      "originalXmlSha256": "924b1b7cc205ce4cc21b8001cc903fbe7b6d8beb87e0ebd7948b83476b9d3e3e",
+      "currentXmlSha256": "924b1b7cc205ce4cc21b8001cc903fbe7b6d8beb87e0ebd7948b83476b9d3e3e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺年度假设",
+      "part": "xl/worksheets/sheet206.xml",
+      "originalXmlSha256": "ae5713c5cd1f4b2fecbeb12cd6310a9775ea8076ba720e30c429fe41815fbabf",
+      "currentXmlSha256": "ae5713c5cd1f4b2fecbeb12cd6310a9775ea8076ba720e30c429fe41815fbabf",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺新品假设",
+      "part": "xl/worksheets/sheet207.xml",
+      "originalXmlSha256": "b37c32fc4cf3d3f94c40bd072fc088ec498012594d4c87bcd59ceba3603bddc5",
+      "currentXmlSha256": "b37c32fc4cf3d3f94c40bd072fc088ec498012594d4c87bcd59ceba3603bddc5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺爬坡假设",
+      "part": "xl/worksheets/sheet208.xml",
+      "originalXmlSha256": "631139863ac394ae730adb9624ce2f2f1fc70773b5977456fe7ff466fb0d8c1c",
+      "currentXmlSha256": "631139863ac394ae730adb9624ce2f2f1fc70773b5977456fe7ff466fb0d8c1c",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺风险收入桥",
+      "part": "xl/worksheets/sheet209.xml",
+      "originalXmlSha256": "d2d9b8fe728601210e3b3b51e6825334041788d5f0a1957d05528808705af142",
+      "currentXmlSha256": "d2d9b8fe728601210e3b3b51e6825334041788d5f0a1957d05528808705af142",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺年度经营桥",
+      "part": "xl/worksheets/sheet210.xml",
+      "originalXmlSha256": "1f37707eef487810445d5ac1e6b0817c410c72f29b5c23561cedb7149a290065",
+      "currentXmlSha256": "1f37707eef487810445d5ac1e6b0817c410c72f29b5c23561cedb7149a290065",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺现金折现桥",
+      "part": "xl/worksheets/sheet211.xml",
+      "originalXmlSha256": "1aec98bbe21a10d69ba4310e775e68f21d79fe02049da789f5af1877dc9890d2",
+      "currentXmlSha256": "1aec98bbe21a10d69ba4310e775e68f21d79fe02049da789f5af1877dc9890d2",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "康希诺估值桥",
+      "part": "xl/worksheets/sheet212.xml",
+      "originalXmlSha256": "38c18a1137ea8b52c1d641ddf02b394f8d37e023de16ac528f738dcdb3afb1fc",
+      "currentXmlSha256": "38c18a1137ea8b52c1d641ddf02b394f8d37e023de16ac528f738dcdb3afb1fc",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地平线经营资本假设",
+      "part": "xl/worksheets/sheet213.xml",
+      "originalXmlSha256": "95b373311cccaa61a328e080e00014fb4efac14d1852776f5ebabf52c56ecda0",
+      "currentXmlSha256": "95b373311cccaa61a328e080e00014fb4efac14d1852776f5ebabf52c56ecda0",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地平线完整利润现金桥",
+      "part": "xl/worksheets/sheet214.xml",
+      "originalXmlSha256": "bd3b75234b0532a828a6067f2bf351cb7b1a5754a624da1886863b9d5711e0c2",
+      "currentXmlSha256": "bd3b75234b0532a828a6067f2bf351cb7b1a5754a624da1886863b9d5711e0c2",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地平线债券融资股数桥",
+      "part": "xl/worksheets/sheet215.xml",
+      "originalXmlSha256": "bee44973a27649ecc8713720ad410393a9e327865a6988f8677ce29e273c201d",
+      "currentXmlSha256": "bee44973a27649ecc8713720ad410393a9e327865a6988f8677ce29e273c201d",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "地平线分业务权益桥",
+      "part": "xl/worksheets/sheet216.xml",
+      "originalXmlSha256": "f5caf24aafcb4cde62010850ff8311009c0c55f249619135dcb00fabd55fe70a",
+      "currentXmlSha256": "f5caf24aafcb4cde62010850ff8311009c0c55f249619135dcb00fabd55fe70a",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "远大资金假设",
+      "part": "xl/worksheets/sheet217.xml",
+      "originalXmlSha256": "3f84f093d411aa2da1bd5b953dfa1f86578f9ebf90cfb1d142196649e78bbcad",
+      "currentXmlSha256": "3f84f093d411aa2da1bd5b953dfa1f86578f9ebf90cfb1d142196649e78bbcad",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "远大年度假设",
+      "part": "xl/worksheets/sheet218.xml",
+      "originalXmlSha256": "4ab065c96e072daf109fa0b32b396f9a1d5bfefd04c1b4d743599b45a78779bf",
+      "currentXmlSha256": "4ab065c96e072daf109fa0b32b396f9a1d5bfefd04c1b4d743599b45a78779bf",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "远大经营资金桥",
+      "part": "xl/worksheets/sheet219.xml",
+      "originalXmlSha256": "b0cbda25a05beea2445094cb62bf3dbb62a0da72d3d08f968cdd56b3e6739fc4",
+      "currentXmlSha256": "b0cbda25a05beea2445094cb62bf3dbb62a0da72d3d08f968cdd56b3e6739fc4",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "远大期限估值桥",
+      "part": "xl/worksheets/sheet220.xml",
+      "originalXmlSha256": "d17c4369e901cc827433b7e9fd0e8b9582685699971f138c4ec0c13cf1807b34",
+      "currentXmlSha256": "d17c4369e901cc827433b7e9fd0e8b9582685699971f138c4ec0c13cf1807b34",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "众安保险经营资本假设",
+      "part": "xl/worksheets/sheet221.xml",
+      "originalXmlSha256": "4a8ece08433a6d2d027e1fb724f8ba3b9b69b8d0aeb4e5604e365271804a64b5",
+      "currentXmlSha256": "4a8ece08433a6d2d027e1fb724f8ba3b9b69b8d0aeb4e5604e365271804a64b5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "众安年度承保投资桥",
+      "part": "xl/worksheets/sheet222.xml",
+      "originalXmlSha256": "366b2482d2bc6bbd6044929c1d658ccdecbb01275a9670626d0dc754442d6ecc",
+      "currentXmlSha256": "366b2482d2bc6bbd6044929c1d658ccdecbb01275a9670626d0dc754442d6ecc",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "众安全费用利润净资桥",
+      "part": "xl/worksheets/sheet223.xml",
+      "originalXmlSha256": "e307e196070f15305cbc1c2caedfbd819ca4049cff4dbdf9f3a62e5c6c06e3a5",
+      "currentXmlSha256": "e307e196070f15305cbc1c2caedfbd819ca4049cff4dbdf9f3a62e5c6c06e3a5",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "众安融资分红PB权益桥",
+      "part": "xl/worksheets/sheet224.xml",
+      "originalXmlSha256": "3d01bc007c4ebf559cf1a46fabb95af7ab7989d191506812e43f64b938352d7e",
+      "currentXmlSha256": "3d01bc007c4ebf559cf1a46fabb95af7ab7989d191506812e43f64b938352d7e",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰资金假设",
+      "part": "xl/worksheets/sheet225.xml",
+      "originalXmlSha256": "08d318be60e24b5137cf0cdf320f52394529d9f71d183807d3dabc5be184c138",
+      "currentXmlSha256": "08d318be60e24b5137cf0cdf320f52394529d9f71d183807d3dabc5be184c138",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰项目假设",
+      "part": "xl/worksheets/sheet226.xml",
+      "originalXmlSha256": "f7d66c533b334154949f75f871b42f51cc40235177fd5a7690fa1080189761dd",
+      "currentXmlSha256": "f7d66c533b334154949f75f871b42f51cc40235177fd5a7690fa1080189761dd",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰净权益假设",
+      "part": "xl/worksheets/sheet227.xml",
+      "originalXmlSha256": "4ae0c6c436bb08c489820d70bcc20c8f8b0134f1a8c3d55beb15dd4755514631",
+      "currentXmlSha256": "4ae0c6c436bb08c489820d70bcc20c8f8b0134f1a8c3d55beb15dd4755514631",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰临床费用",
+      "part": "xl/worksheets/sheet228.xml",
+      "originalXmlSha256": "9255191d877bc49f995c3640286ff06b02068701101b8416466fa777ae1c21d7",
+      "currentXmlSha256": "9255191d877bc49f995c3640286ff06b02068701101b8416466fa777ae1c21d7",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰爬坡假设",
+      "part": "xl/worksheets/sheet229.xml",
+      "originalXmlSha256": "2e840a91e1cc918bc6ba4959ecb079ba7aade5a1c458cff46d19db9fea2a3bcb",
+      "currentXmlSha256": "2e840a91e1cc918bc6ba4959ecb079ba7aade5a1c458cff46d19db9fea2a3bcb",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰风险收入桥",
+      "part": "xl/worksheets/sheet230.xml",
+      "originalXmlSha256": "49baac50f26e2928ab79456363e297c33577c6d565a0f89075e75b0ae67d28ea",
+      "currentXmlSha256": "49baac50f26e2928ab79456363e297c33577c6d565a0f89075e75b0ae67d28ea",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰经营现金桥",
+      "part": "xl/worksheets/sheet231.xml",
+      "originalXmlSha256": "4624222bfb69373b545d3dcb04776f695f729af5bb1f7a3b06af05df4b7cb1fc",
+      "currentXmlSha256": "4624222bfb69373b545d3dcb04776f695f729af5bb1f7a3b06af05df4b7cb1fc",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰分配折现桥",
+      "part": "xl/worksheets/sheet232.xml",
+      "originalXmlSha256": "cfe59623557207b1f3db405294582fe93bbf84d1049e2add9e62cc783175e319",
+      "currentXmlSha256": "cfe59623557207b1f3db405294582fe93bbf84d1049e2add9e62cc783175e319",
+      "byteIdentical": true
+    },
+    {
+      "sheet": "晶泰估值桥",
+      "part": "xl/worksheets/sheet233.xml",
+      "originalXmlSha256": "01af020649036ee46aad6e6ff77d69bd8ef40d8593d491fc4590b43e4ed48c53",
+      "currentXmlSha256": "01af020649036ee46aad6e6ff77d69bd8ef40d8593d491fc4590b43e4ed48c53",
+      "byteIdentical": true
+    }
+  ]
+}

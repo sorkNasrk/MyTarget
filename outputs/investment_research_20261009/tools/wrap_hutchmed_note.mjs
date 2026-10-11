@@ -1,0 +1,22 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { FileBlob, SpreadsheetFile, Workbook } from '@oai/artifact-tool';
+
+const root = path.resolve(import.meta.dirname, '..');
+const base = path.join(root, 'qa/risk_npv_layout_fix');
+const source = await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(root, 'deliverables/证券研究总表_初版.xlsx')));
+const values = source.worksheets.getItem('和黄估值桥').getRange('R6:R11').values;
+const wb = Workbook.create();
+const sheet = wb.worksheets.add('和黄估值桥');
+sheet.getRange('R6:R11').values = values;
+sheet.getRange('R6:R11').format.font.name = 'Microsoft YaHei';
+sheet.getRange('R6:R11').format.font.size = 10;
+sheet.getRange('R:R').format.columnWidth = 46;
+sheet.getRange('R7:R11').format.wrapText = true;
+sheet.getRange('R7:R11').format.horizontalAlignment = 'left';
+sheet.getRange('R7:R11').format.verticalAlignment = 'top';
+sheet.getRange('R7:R11').format.autofitRows();
+wb.recalculate();
+const output = await SpreadsheetFile.exportXlsx(wb);
+await output.save(path.join(base, 'hutchmed_note_layout.xlsx'));
+console.log(JSON.stringify({ output: path.join(base, 'hutchmed_note_layout.xlsx'), rows: values.length }));

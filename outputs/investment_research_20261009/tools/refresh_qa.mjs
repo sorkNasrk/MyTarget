@@ -7,6 +7,11 @@ const root=path.resolve(import.meta.dirname,'..'),sandbox=path.join(root,'qa/ref
 const b=JSON.parse(await fs.readFile(path.join(root,'data/research_bundle.json'),'utf8'));
 const manifest=JSON.parse(await fs.readFile(path.join(root,'data/workbook_input_manifest.json'),'utf8'));
 const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path.join(root,'deliverables/证券研究总表_初版.xlsx')));
+const snapshotRange='T7:T'+(6+b.models.length*15),rankingRange='N7:N'+(6+b.models.length*4);
+const snapshotStates=()=>wb.worksheets.getItem('情景快照').getRange(snapshotRange).values.flat();
+const rankingStates=()=>wb.worksheets.getItem('四期限排名').getRange(rankingRange).values.flat();
+const baselineSnapshots=snapshotStates(),baselineRankings=rankingStates();
+if(baselineSnapshots.some(v=>v!=='已刷新')||baselineRankings.some(v=>v!=='已刷新'))throw new Error('Delivered workbook must begin fully refreshed');
 const candidates=[
  ['00700.HK','oneYear','assumption','PE'],
  ['01810.HK','oneYear','bridge','smartphoneAIoTEBIT'],
@@ -39,13 +44,13 @@ const candidates=[
 ];
 const edits=[];
 for(const [code,horizon,kind,field] of candidates){
- const item=manifest.inputs.find(x=>x.code===code&&x.horizon===horizon&&x.kind===kind&&x.field===field&&(x.caseIndex===1||kind==='score')&&(kind!=='recipientCost'||x.index===2)&&(kind!=='segmentAnnual'||x.index===1));
+ const item=manifest.inputs.find(x=>x.code===code&&x.horizon===horizon&&x.kind===kind&&x.field===field&&(x.caseIndex===1||kind==='score')&&(kind!=='recipientCost'||x.index===2)&&(kind!=='segmentAnnual'||x.index===1)&&(kind!=='pipelineCost'||!b.models.find(m=>m.code===code).scenarios[horizon].pipelineRNpv[x.caseIndex].groups[x.groupIndex].annualCashflows[x.index].pastAtTarget));
  if(!item)continue;
  const value=field==='convert'?0:item.originalValue+(field==='domesticProfitPerVehicle'?100:['EBITMargin','cdmoGM','klingOwnerShare','marketRecognitionFactor','directCostCNYbn','recipientResearchCNYbn','netEconomicCashMarginAssumption','success','successAssumption','retailEBITMargin','overseasEBITMargin','WACC'].includes(field)?.01:kind==='score'?.1:1);
  wb.worksheets.getItem(item.sheet).getRange(item.cell).values=[[value]];edits.push({...item,value});
 }
 wb.recalculate();
-const stale=wb.worksheets.getItem('情景快照').getRange('T7:T'+(6+b.models.length*15)).values.flat().filter(v=>v==='待刷新').length;
+const stale=snapshotStates().filter(v=>v==='待刷新').length;
 if(stale<4)throw new Error('Edited inputs failed to mark snapshots stale');
 const rankSheet=wb.worksheets.getItem('四期限排名');const rankFlags=rankSheet.getRange('A7:N'+(6+b.models.length*4)).values;
 if(rankFlags.some(r=>r[0]===b.labels.oneYear&&r[13]!=='排名待刷新'))throw new Error('One changed score must invalidate the whole horizon ranking');
@@ -62,5 +67,11 @@ for(const edit of edits.filter(x=>x.kind!=='score')){
 const sharedEdit=edits.find(e=>e.kind==='productBridge');
 if(sharedEdit){const a=cloned.find(m=>m.code==='688235.SH'),h=cloned.find(m=>m.code==='06160.HK');if(a.productOperatingBridge.oneYear.productRevenueUSDbn[sharedEdit.product][1]!==h.productOperatingBridge.oneYear.productRevenueUSDbn[sharedEdit.product][1])throw Error('Shared A/H product input diverged');if(h.scenarios.oneYear.cases[1].price===b.models.find(m=>m.code===h.code).scenarios.oneYear.cases[1].price)throw Error('A input edit did not update H equity value');}
 const sharedEPS=edits.find(e=>e.code==='002821.SZ'&&e.field==='eps');if(sharedEPS){const a=cloned.find(m=>m.code===sharedEPS.code),h=cloned.find(m=>m.code==='06821.HK');if(a.scenarios.oneYear.cases[1].eps!==h.scenarios.oneYear.cases[1].eps)throw Error('A/H EPS input diverged');if(h.scenarios.oneYear.cases[1].price===b.models.find(m=>m.code===h.code).scenarios.oneYear.cases[1].price)throw Error('A EPS edit did not update H value');}
-await fs.writeFile(path.join(root,'qa/workbook_refresh_qa.json'),JSON.stringify({passed:true,staleSnapshots:stale,detectedChanges:report.changedInputs,inputPreservation:'QA only; authoritative source and delivered workbook untouched',edits:edits.map(x=>({code:x.code,kind:x.kind,field:x.field}))},null,2));
-console.log(JSON.stringify({passed:true,staleSnapshots:stale,detectedChanges:report.changedInputs}));
+for(const edit of edits)wb.worksheets.getItem(edit.sheet).getRange(edit.cell).values=[[edit.originalValue]];
+wb.recalculate();
+const restoredSnapshots=snapshotStates(),restoredRankings=rankingStates();
+if(restoredSnapshots.some((v,i)=>v!==baselineSnapshots[i]))throw new Error('Restoring inputs failed to restore every snapshot state');
+if(restoredRankings.some((v,i)=>v!==baselineRankings[i]))throw new Error('Restoring inputs failed to restore every horizon ranking state');
+if(wb.worksheets.getItem('验收').getRange('B15').values[0][0]!=='已刷新')throw new Error('Restoring inputs failed to clear the workbook stale audit');
+await fs.writeFile(path.join(root,'qa/workbook_refresh_qa.json'),JSON.stringify({passed:true,fingerprint:b.fingerprint,staleSnapshots:stale,detectedChanges:report.changedInputs,restoredSnapshots:restoredSnapshots.length,restoredRankingRows:restoredRankings.length,restoredAuditState:'已刷新',inputPreservation:'QA only; authoritative source and delivered workbook untouched',edits:edits.map(x=>({code:x.code,kind:x.kind,field:x.field}))},null,2));
+console.log(JSON.stringify({passed:true,fingerprint:b.fingerprint,staleSnapshots:stale,detectedChanges:report.changedInputs,restoredSnapshots:restoredSnapshots.length,restoredRankingRows:restoredRankings.length}));

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "fingerprint": "63ca87a2011995a6",
+  "file": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\证券研究总表_初版.xlsx",
+  "fileSHA256": "78c04246a73bae62319094d249424deb0814afd8dc967ff791a742d027ab43b0",
+  "beforeSHA256": "75aa327add9be62355521d666f17361b3bfa375b8e7d2e51508a45112a69a2de",
+  "backup": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\original_before_release.xlsx",
+  "createdAt": "2026-10-11T10:09:50.090506+00:00",
+  "preservedExceptAuthorizedFormatting": true,
+  "allChangedSheetOriginalRangesRendered": true,
+  "changedSheets": 25,
+  "sheets": 233,
+  "evidenceSHA256": {
+    "qa/risk_npv_layout_fix/preserved_native_final_integrity.json": "050d2abef20d3791ee7564929c71af778508cfe29a20fb0fb039856086c8fc13",
+    "qa/risk_npv_layout_fix/layout_integration.json": "35186505fd5436a17a361141535bbca0de5e4beedc73559fc91bb624450ab0c4",
+    "qa/risk_npv_layout_fix/final_render_manifest.json": "b09682b5e5a330a6417a8e456a7537d4bf0c5673db79015b45d2b0529ee4b0f3",
+    "qa/workbook_render_manifest_63ca87a2011995a6.json": "4b99f4d631032bf86e178dbfe7befd5bdc2ba35f222317ef8de9abadf9b91bfd"
+  },
+  "scope": "Only authorized display formats and widths/heights changed. All cell values, formula text and caches, source inputs and native parts retained; final numeric and visual QA remain separate gates."
+}

@@ -1,0 +1,1301 @@
+{
+  "before": "G:\\MyTarget\\outputs\\investment_research_20261009\\deliverables\\证券研究总表_初版.xlsx",
+  "after": "G:\\MyTarget\\outputs\\investment_research_20261009\\qa\\risk_npv_layout_fix\\preserved_calendar.xlsx",
+  "beforeSha256": "75aa327add9be62355521d666f17361b3bfa375b8e7d2e51508a45112a69a2de",
+  "afterSha256": "f4462743af9283be3a07605f7b5bf7cd8271b31370efd55c07fdad841b03a4ff",
+  "addedParts": [],
+  "removedParts": [],
+  "byteChangedParts": [
+    "xl/styles.xml",
+    "xl/worksheets/sheet20.xml",
+    "xl/worksheets/sheet22.xml",
+    "xl/worksheets/sheet24.xml",
+    "xl/worksheets/sheet26.xml",
+    "xl/worksheets/sheet27.xml",
+    "xl/worksheets/sheet32.xml",
+    "xl/worksheets/sheet35.xml",
+    "xl/worksheets/sheet36.xml",
+    "xl/worksheets/sheet38.xml",
+    "xl/worksheets/sheet41.xml",
+    "xl/worksheets/sheet47.xml",
+    "xl/worksheets/sheet54.xml",
+    "xl/worksheets/sheet79.xml"
+  ],
+  "nonColumnSemanticChanges": [],
+  "columnChanges": [
+    {
+      "part": "xl/worksheets/sheet20.xml",
+      "differences": [
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet22.xml",
+      "differences": [
+        {
+          "column": 16,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 19,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 20,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 21,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 29,
+          "before": null,
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 43,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 44,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 45,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 46,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 47,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 48,
+          "before": null,
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet24.xml",
+      "differences": [
+        {
+          "column": 11,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 12,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "24",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet26.xml",
+      "differences": [
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet27.xml",
+      "differences": [
+        {
+          "column": 15,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 16,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 19,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 20,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 21,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 22,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 44,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 45,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 46,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 47,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 48,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 49,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 50,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 51,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 52,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 53,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 54,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 55,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 56,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 57,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 58,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 59,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 60,
+          "before": null,
+          "after": {
+            "width": "20",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet32.xml",
+      "differences": [
+        {
+          "column": 23,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 24,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 25,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 26,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 27,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 28,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 29,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 30,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 31,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 32,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 33,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 34,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 35,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 36,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 37,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 38,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 41,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 42,
+          "before": null,
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet35.xml",
+      "differences": [
+        {
+          "column": 38,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 39,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 40,
+          "before": {
+            "width": "100",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet36.xml",
+      "differences": [
+        {
+          "column": 8,
+          "before": {
+            "width": "36",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "56",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 9,
+          "before": {
+            "width": "36",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "28",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet38.xml",
+      "differences": [
+        {
+          "column": 10,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 11,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "38",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet41.xml",
+      "differences": [
+        {
+          "column": 14,
+          "before": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 15,
+          "before": {
+            "width": "80",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 16,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 17,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        },
+        {
+          "column": 18,
+          "before": {
+            "width": "55",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "70",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet47.xml",
+      "differences": []
+    },
+    {
+      "part": "xl/worksheets/sheet54.xml",
+      "differences": [
+        {
+          "column": 4,
+          "before": {
+            "width": "52",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "60",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    },
+    {
+      "part": "xl/worksheets/sheet79.xml",
+      "differences": [
+        {
+          "column": 18,
+          "before": {
+            "width": "16",
+            "hidden": "0",
+            "customWidth": "1"
+          },
+          "after": {
+            "width": "46",
+            "hidden": "0",
+            "customWidth": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "preservedExceptColumnWidths": true,
+  "preservedExceptAuthorizedFormatting": true,
+  "scopeIncludesTargetedCellStylesAndRowHeights": true
+}

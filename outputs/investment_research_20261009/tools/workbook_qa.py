@@ -1,4 +1,4 @@
-import json, math
+import hashlib, json, math
 from pathlib import Path
 from openpyxl import load_workbook
 ROOT=Path(__file__).resolve().parents[1]
@@ -42,7 +42,7 @@ for m in B.get('conditionedModels',[]):
     for row in rows:
         h=next(k for k,v in B['labels'].items() if v==row[8]);sc=m['conditionalScenarios'][h];prices=sc.get('priceHKD',sc.get('priceCNY',sc.get('priceTargets')))
         if any(not isinstance(row[10+c],(int,float)) or abs(row[10+c]-prices[c])>1e-8 for c in range(3)):errors.append({'code':m['code'],'horizon':h,'error':'Conditional source mismatch'})
-report={'file':str(file),'sheets':values.sheetnames,'formulaCount':formulaCount,'scenarioRows':count,'endYearModels':matched,'errors':errors,'passed':not errors,'verification':'independent read-only openpyxl; no workbook authoring'}
+report={'file':str(file),'fileSHA256':hashlib.sha256(file.read_bytes()).hexdigest(),'fingerprint':B['fingerprint'],'sheets':values.sheetnames,'formulaCount':formulaCount,'scenarioRows':count,'endYearModels':matched,'errors':errors,'passed':not errors,'verification':'independent read-only openpyxl; no workbook authoring'}
 (ROOT/'qa/workbook_qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items() if k!='sheets'},ensure_ascii=False))
 if errors:raise SystemExit(1)
