@@ -27,6 +27,8 @@ def check(name,condition,details=None):
 check('Python syntax parses',True)
 check('Confidence label presentation faithfully maps three labels',module.display_confidence({'a':'high','b':'medium','c':'low'})=={'a':'高','b':'中','c':'低'})
 check('Confidence presentation leaves numeric evidence unchanged',module.display_confidence({'value':3.5,'reason':'中等可信；现金237.06亿元'})=={'value':3.5,'reason':'中等可信；现金237.06亿元'})
+check('Missing broker horizon uses readable Chinese presentation',module.display_confidence('中（公开转述，期限多数null）')=='中（公开转述，目标期限多数未披露）')
+check('Other missing broker horizon variants use readable Chinese presentation',module.display_confidence(['期限null','目标期限缺失null'])==['目标期限未披露','目标期限未披露'])
 check('Evidence table fields display in Chinese',list(map(module.display_evidence_field,['fundamentals','technical','valuation','institutionTargets']))==['基本面','量价','估值','机构目标'])
 check('Evidence table alternate field names display in Chinese',list(map(module.display_evidence_field,['primaryFundamentals','brokerTargets']))==['基本面主源','机构目标'])
 check('Unknown evidence field is preserved',module.display_evidence_field('specialClinicalEvidence')=='specialClinicalEvidence')
@@ -77,7 +79,10 @@ for model in B['models']:
         check(horizon+' '+model['code']+' display scores and weights unchanged',[r['score'] for r in rows]==model['scores'][horizon]['dimensions'] and [r['weight'] for r in rows]==B['weights'][horizon])
         presentation.append({'issuerId':model['issuerId'],'securityId':model['securityId'],'code':model['code'],'name':model['name'],'horizon':horizon,'rows':rows})
 presentation_data={'fingerprint':B['fingerprint'],'createdAt':B['createdAt'],'buildSourceSHA256':hashlib.sha256(source.encode()).hexdigest(),'purpose':'Shared Chinese score evidence presentation for DOCX and Excel; numeric model scores unchanged; sourceBasis distinguishes issuer prose summaries','securities':len(B['models']),'horizons':module.HORIZONS,'rows':presentation}
-write_json_atomic(ROOT/'data/score_presentation.json',presentation_data)
+frozen_presentation=json.loads((ROOT/'data/score_presentation.json').read_text(encoding='utf-8'))
+check('Current score presentation equals frozen output',
+      {k:v for k,v in presentation_data.items() if k!='buildSourceSHA256'}==
+      {k:v for k,v in frozen_presentation.items() if k!='buildSourceSHA256'})
 report={'createdAt':B['createdAt'],'fingerprintObserved':B.get('fingerprint'),'buildSourceSHA256':hashlib.sha256(source.encode()).hexdigest(),'scope':'read-only report-builder syntax and data structure; no DOCX rebuild or visual QA claimed','checks':len(checks),'passed':all(x['passed'] for x in checks),'details':checks,'leaders':leaders,'currentCoverage':module.coverage_state()['summary'],'currentGroups':groups,'completeFixtureGroups':module.volume_groups(complete)}
 write_json_atomic(ROOT/'qa/report_scope_audit.json',report)
 print(json.dumps({'checks':report['checks'],'passed':report['passed'],'failures':[x for x in checks if not x['passed']],'missingStructuredReasons':[r for r in leaders if r['reasonCount']==0]},ensure_ascii=False))

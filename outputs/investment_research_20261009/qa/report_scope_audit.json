@@ -1,9 +1,9 @@
 {
   "createdAt": "2026-10-11T07:56:57.414Z",
   "fingerprintObserved": "63ca87a2011995a6",
-  "buildSourceSHA256": "4b6c7b639d3b183ffbee7f0b52b00717fc07dad9382e1e209391aa6c27b7c234",
+  "buildSourceSHA256": "3ce219c33aac938e247cfb2b12deaacc9627c87446b39a5bb42d9d0f6724960a",
   "scope": "read-only report-builder syntax and data structure; no DOCX rebuild or visual QA claimed",
-  "checks": 833,
+  "checks": 836,
   "passed": true,
   "details": [
     {
@@ -18,6 +18,16 @@
     },
     {
       "name": "Confidence presentation leaves numeric evidence unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Missing broker horizon uses readable Chinese presentation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Other missing broker horizon variants use readable Chinese presentation",
       "passed": true,
       "details": null
     },
@@ -4168,6 +4178,11 @@
     },
     {
       "name": "fiveYear 06060.HK display scores and weights unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current score presentation equals frozen output",
       "passed": true,
       "details": null
     }

@@ -42,6 +42,7 @@ def display_confidence(value):
     """Translate evidence labels for presentation only; model data stays intact."""
     translations={'high':'高','medium':'中','low':'低'}
     if isinstance(value,str):
+        value=value.replace('期限多数null','目标期限多数未披露').replace('目标期限缺失null','目标期限未披露').replace('期限null','目标期限未披露')
         return re.sub(r'\b(high|medium|low)\b',lambda match:translations[match.group(0).lower()],value,flags=re.I)
     if isinstance(value,dict):return {k:display_confidence(v) for k,v in value.items()}
     if isinstance(value,list):return [display_confidence(v) for v in value]
@@ -212,14 +213,18 @@ def document(title,subtitle):
     update=OxmlElement('w:updateFields');update.set(qn('w:val'),'true');settings.append(update)
     return d
 
-def display_table_text(value):
+def display_table_text(value,numeric_tokens_on_lines=False):
     text=str(value)
+    if numeric_tokens_on_lines:
+        token=r'[+\-−]?(?:\d[\d,]*(?:\.\d*)?|\.\d+)%?'
+        if re.fullmatch(token+r'(?:\s*/\s*'+token+r'){1,}',text):
+            return '\n'.join(part.strip() for part in text.split('/'))
     number=r'[+-]?\d[\d,.]*%?'
     if '.' in text and re.fullmatch(number+r'(?:/'+number+r'){1,}',text):
         return ' / '.join(text.split('/'))
     return text
 
-def table(d,headers,rows,widths=None):
+def table(d,headers,rows,widths=None,numeric_tokens_on_lines=False):
     t=d.add_table(rows=1,cols=len(headers));t.autofit=False
     borders=OxmlElement('w:tblBorders')
     for side in ['top','left','bottom','right','insideH','insideV']:
@@ -232,7 +237,7 @@ def table(d,headers,rows,widths=None):
     repeat=OxmlElement('w:tblHeader');t.rows[0]._tr.get_or_add_trPr().append(repeat)
     for row in rows:
         cells=t.add_row().cells
-        for i,v in enumerate(row):cells[i].text=display_table_text(v)
+        for i,v in enumerate(row):cells[i].text=display_table_text(v,numeric_tokens_on_lines)
     for ridx,row in enumerate(t.rows):
         keep=OxmlElement('w:cantSplit');row._tr.get_or_add_trPr().append(keep)
         for i,c in enumerate(row.cells):
@@ -282,10 +287,11 @@ def plot(m,weekly=False):
         vol.set_yticks([])
     dates=[b.get('date',b.get('weekEnd','')) for b in bars]
     ticks=np.linspace(0,n-1,min(6,n)).astype(int);vol.set_xticks(ticks,[dates[i][:10] for i in ticks],fontsize=8)
-    ax.set_title(m['name']+(' — 周线' if weekly else ' — 最近180个交易日日线'),fontproperties=FONT,fontsize=12)
+    ax.set_title(m['name']+(' — 周线' if weekly else ' — 最近180个交易日日线'),fontproperties=FONT,fontsize=12,pad=28)
     ax.set_ylabel(m['currency'])
     if volume_ok:vol.set_ylabel('百万股',fontproperties=FONT,fontsize=8)
-    ax.grid(axis='y',alpha=.15);vol.grid(axis='y',alpha=.15);ax.legend(loc='upper left',fontsize=8,ncol=3)
+    ax.grid(axis='y',alpha=.15);vol.grid(axis='y',alpha=.15)
+    ax.legend(bbox_to_anchor=(0,1.02),loc='lower left',fontsize=8,ncol=4,borderaxespad=0)
     for a in (ax,vol):a.spines[['top','right']].set_visible(False);a.tick_params(labelsize=8)
     dst=CHART/f"{m['securityId']}_{'weekly' if weekly else 'daily'}.png"
     fig.savefig(dst,dpi=160);plt.close(fig);return dst
@@ -300,7 +306,9 @@ def render_md(d,text):
             block=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):block.append(lines[i].strip());i+=1
             rows=[[c.strip().replace('**','') for c in r.strip('|').split('|')] for r in block if not re.fullmatch(r'[\s|:\-]+',r)]
-            if rows:table(d,rows[0],rows[1:])
+            if rows:
+                numeric_tokens=len(rows[0])>=8 and any(re.search(r'[\d.%]/[−+\d.]',value) for row in rows[1:] for value in row)
+                table(d,rows[0],rows[1:],numeric_tokens_on_lines=numeric_tokens)
             continue
         if line.startswith('#'):
             d.add_paragraph(line.lstrip('# ').replace('**',''),'Heading 2');continue
@@ -401,9 +409,10 @@ def overview():
     table(d,['证券标识','代码','名称','类别','模型/行情状态'],[[s['securityId'],s['code'],s['name'],s['type'],'情景研究完成' if any(m['code']==s['code'] for m in B['models']) else ('条件研究完成，暂不排名' if any(m['code']==s['code'] for m in B.get('conditionedModels',[])) else ('停牌，暂不排名' if not market_by_code[s['code']].get('tradableOnAsOf',True) else '公司研究待补齐'))] for s in state['stocks']],widths=[1.1,2.8,4.1,1.5,7.3])
     dest=OUT/'00_总报告_初版.docx';clean_headings(d);d.save(dest);return dest
 
-def deep_volumes():
+def deep_volumes(selected=None):
     outputs=[]
     for idx,group in enumerate(volume_groups(),1):
+        if selected is not None and idx not in selected:continue
         subtitle=f"本卷{len(group)}家公司；按四榜最高名次、同名次一年得分及代码安排" if coverage_state()['complete'] else f"阶段收录{len(group)}家公司；剩余公司接入后按统一规则更新卷次"
         d=document(f'公司深研 · 第{idx:02d}卷',subtitle)
         for iid in group:
